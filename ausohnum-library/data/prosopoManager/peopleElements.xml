@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlElements>
+    <xmlElement>
+        <nm>standardizedName</nm>
+        <xpath>/foaf:primaryTopicOf/apc:people/lawd:personalName[@xml:lang="en"]</xpath>
+        <contentType>text</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Standardized name</formLabel>
+        <formLabel xml:lang="fr">Nom standardisé</formLabel>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>altName</nm>
+        <xpath>/foaf:primaryTopicOf/apc:people/lawd:personalName[@type='altName'][@xml:lang='en']</xpath>
+        <contentType>text</contentType>
+        <xmlLang>true</xmlLang>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">Alternative name</formLabel>
+        <formLabel xml:lang="fr">Nom alternatif</formLabel>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>exactMatches</nm>
+        <xpath>/skos:exactMatch/@rdf:resource</xpath>
+        <contentType>attribute</contentType>
+        <attributeValueType/>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">Exact Match(es)</formLabel>
+        <formLabel xml:lang="fr">Exact Match(es)</formLabel>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>sex</nm>
+        <xpath>/foaf:primaryTopicOf/apc:people/apc:sex/@rdf:resource</xpath>
+        <contentType>attribute</contentType>
+        <attributeValueType>uri</attributeValueType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Sex</formLabel>
+        <formLabel xml:lang="fr">Sexe</formLabel>
+        <fieldType>combobox</fieldType>
+        <thesauDb>internal</thesauDb>
+        <thesauTopConceptURI>http://ausohnum.huma-num.fr/concept/c23490</thesauTopConceptURI>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>personalStatus</nm>
+        <xpath>/foaf:primaryTopicOf/apc:people/apc:personalStatus/@rdf:resource</xpath>
+        <contentType>attribute</contentType>
+        <attributeValueType>uri</attributeValueType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Personal Status</formLabel>
+        <formLabel xml:lang="fr">Statut de la personne</formLabel>
+        <fieldType>combobox</fieldType>
+        <thesauDb>internal</thesauDb>
+        <thesauTopConceptURI>http://ausohnum.huma-num.fr/concept/c22071</thesauTopConceptURI>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>juridicalStatus</nm>
+        <xpath>/foaf:primaryTopicOf/apc:people/apc:juridicalStatus/@rdf:resource</xpath>
+        <contentType>attribute</contentType>
+        <attributeValueType>uri</attributeValueType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Citizenship</formLabel>
+        <formLabel xml:lang="fr">Citoyenneté</formLabel>
+        <fieldType>combobox</fieldType>
+        <thesauDb>internal</thesauDb>
+        <thesauTopConceptURI>http://ausohnum.huma-num.fr/concept/c22081</thesauTopConceptURI>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>socialStatus</nm>
+        <xpath>/foaf:primaryTopicOf/apc:people/apc:socialStatus/@rdf:resource</xpath>
+        <contentType>attribute</contentType>
+        <attributeValueType>uri</attributeValueType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Rank</formLabel>
+        <formLabel xml:lang="fr">Rang</formLabel>
+        <fieldType>combobox</fieldType>
+        <thesauDb>internal</thesauDb>
+        <thesauTopConceptURI>http://ausohnum.huma-num.fr/concept/c22077</thesauTopConceptURI>
+        <comments/>
+    </xmlElement>
+    
+    <xmlElement>
+        <nm>generalCommentary</nm>
+        <xpath>/foaf:primaryTopicOf/apc:people/skos:note</xpath>
+        <contentType>enrichedText</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">General Commentary</formLabel>
+        <formLabel xml:lang="fr">Commentaire général</formLabel>
+        <fieldType>textarea</fieldType>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>privateCommentary</nm>
+        <xpath>/foaf:primaryTopicOf/skos:note[@type="private"]</xpath>
+        <contentType>enrichedText</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Private Commentary</formLabel>
+        <formLabel xml:lang="fr">Commentaire privé</formLabel>
+        <fieldType>textarea</fieldType>
+        <comments/>
+    </xmlElement>
+    
+    
+    
+</xmlElements>

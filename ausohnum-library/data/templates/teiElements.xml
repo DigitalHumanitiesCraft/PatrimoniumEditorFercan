@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiElements>
+    <teiElement>
+        <elementNickname>docTitle</elementNickname>
+        <teiXpath>/fileDesc/titleStmt/title</teiXpath>
+        <dataType>text</dataType>
+    </teiElement>
+    <teiElement>
+        <elementNickname>docEditor</elementNickname>
+        <teiXpath>tei:fileDesc/tei:titleStmt/tei:editor</teiXpath>
+        <dataType>text</dataType>
+    </teiElement>
+</teiElements>

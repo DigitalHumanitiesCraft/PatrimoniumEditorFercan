@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:pleiades="https://pleiades.stoa.org/places/vocab#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cito="http://purl.org/spar/cito/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ausohnum="http://ausonius.huma-num.fr/onto" xmlns:spatial="http://geovocab.org/spatial#" xmlns:prov="http://www.w3.org/TR/prov-o/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <spatial:Feature rdf:about="#this">
+        <!--Connections with other resources-->
+        <spatial:C rdf:resource=""/><!--Has connection with-->
+        <spatial:EQ rdf:resource=""/><!--Equals with-->
+        <spatial:P rdf:resource=""/><!--Is part of-->
+        <!--Abstract place    -->
+        <foaf:primaryTopicOf>
+            <pleiades:Place rdf:about="">
+                <dcterms:title xml:lang=""/><!--Use of dcterms:title because prefLabel makes no sense as names are documented through <pleiades:hasName/>-->
+                <dcterms:description/>
+                <dcterms:contributor rdf:resource=""/>
+                <pleiades:hasFeatureType rdf:resource=""/>
+                <ausohnum:locationInCity/>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"/>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"/>
+                <pleiades:hasName rdf:resource=""/>
+                <pleiades:hasLocation rdf:resource=""/>
+            </pleiades:Place>
+        </foaf:primaryTopicOf>
+    </spatial:Feature>
+    <pleiades:Location rdf:about="">
+        <dcterms:contributor rdf:resource=""/>
+        <osgeo:asGeoJSON>{"type": "Point", "coordinates": [x,
+            y]}</osgeo:asGeoJSON>
+    </pleiades:Location>
+</rdf:RDF>

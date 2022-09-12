@@ -1,0 +1,136 @@
+#spatiumStructor{
+    width: 100%;
+}
+#mapid { height: 100%; }
+#editorMap { height: 80%; }
+#placeManagerMap { height: 80%; }
+.leaflet-tooltip.my-labels {
+  background-color: transparent;
+  border: transparent;
+  box-shadow: none;
+  }
+  
+  .resourcePanel{
+      background-color: white;
+      padding: 10px;
+      margin: 5px;
+      border-radius: 5px;
+  }
+  
+   
+ .resourceList > div > ul{
+    padding: 4px;
+    margin: 0;
+ }
+ 
+ .resourceRef { margin: 2px;}
+ 
+ .subPlaceDetails {
+     background-color: white;
+     padding: 3px;
+ }
+ 
+  ul.fancytree-container {
+/*    width: 300px;*/
+    height: 100%;
+    overflow: auto;
+/*    position: relative;*/
+  }
+  
+  .hasResults{
+      background:white;
+  }
+  
+  
+  
+  
+  .xmlElement{
+    display: inline-table!important;
+    margin: 5px 0 5px 0;
+    padding: 5px;
+    border: 1px solid #e2e0e0;
+/*    float: left;*/
+    border-radius: 4px;
+    background-color: white;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+/*    max-width: 90%;*/
+}
+.xmlElementValue{display: inline-block!important;
+background-color: white;
+padding: 1px 5px 1px 5px;
+border-radius: 4px;
+/*    max-width: 90%;*/
+}
+#date{color:red;}
+
+.xmlElementVisible{display: inline-table;}
+.xmlElementHidden {
+    display: none!important;
+}
+.input-group > .form-control {
+/*      width: 100%;*/
+    }
+/*.xmlElement > input {width: 90%;}*/
+.labelForm{
+display: inline-flex;
+    padding: 2px 5px 2px 5px;
+    margin: 0 10px 0 0;
+    border-radius: 4px;
+    color: white;
+    background-color:#7D1D20;
+    vertical-align: middle;
+}
+.xmlInfo{margin: 0 2px 0 5px;
+    font-size: smaller;
+    }
+    .labelForm > .xmlInfo >a {color: white!important;}    
+.editbutton{display: inline;
+            margin
+            : 0 0 0 1em}
+            
+.addItem{
+    
+    
+    
+    border-radius: 50% 50%!important;
+    
+    
+/*    left: -2em;*/
+}
+.xmlElementGroup{
+    border: 1px solid grey;
+    margin: 2px;
+    padding: 5px;
+    display: table;
+    width: 100%!important;
+    border-radius: 4px;
+/*    background-color: rgba(125, 29, 32, .4);*/
+    
+}
+.xmlElementGroupHeaderBlock{
+    display: block;
+/*    float: left;*/
+}
+.xmlElementGroupHeaderInline{
+    display: inline-block;
+/*    float: left;*/
+}
+.listNoBullet{
+    list-style-type: none;
+}
+span.xmlInfo a { color:inherit;}
+
+#sideColPeople{
+    font-size: smaller!important;}
+    
+#peopleList{font-size: smaller;}
+
+span.spanLink:hover{
+cursor:pointer}
+#searchPeople{width: 100%;}
+ 
+#peopleQueryResults{font-size:smaller!important;}
+#peopleListDiv{margin-top: 5px;} 
+.loadingImage{ display: inline-block;}
+.spanLink { cursor: pointer;}

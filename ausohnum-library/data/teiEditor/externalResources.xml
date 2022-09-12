@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<externalresources xml:id="externalRessources">
+    <resource xml:id="edh">
+        <name type="full">Epigraphic Database Heidelberg</name>
+        <name type="short">edh</name>
+        <url type="website">https://edh-www.adw.uni-heidelberg.de</url>
+        <url type="teiDocPrefix">https://edh-www.adw.uni-heidelberg.de/edh/inschrift/</url>
+        <url type="teiDocSuffix">.xml</url>
+    </resource>
+    <resource xml:id="papyriHGV">
+        <name type="full">Papyri.info - HGV</name>
+        <name type="short">papyriHGV</name>
+        <url type="website">http://papyri.info</url>
+        <url type="teiDocPrefix">http://papyri.info/hgv/</url>
+        <url type="teiDocSuffix">/source</url>
+    </resource>
+    <resource xml:id="mamaXI">
+        <name type="full">MAMA XI</name>
+        <name type="short">mamaXI</name>
+        <url type="website">http://mama.csad.ox.ac.uk/</url>
+        <url type="teiDocPrefix">http://mama.csad.ox.ac.uk/xml/</url>
+        <url type="teiDocSuffix">.xml</url>
+    </resource>
+    <resource xml:id="edcs">
+        <name type="full">Epigraphik-Datenbank  Clauss / Slaby</name>
+        <name type="short">edcs</name>
+        <url type="website">http://db.edcs.eu/</url>
+        <url type="teiDocPrefix">http://db.edcs.eu/epigr/</url>
+        <url type="teiDocSuffix">.xml</url>
+    </resource>
+    <resource xml:id="phi">
+        <name type="full">PHI Greek Inscriptions</name>
+        <name type="short">phi</name>
+        <url type="website">https://epigraphy.packhum.org/</url>
+        <url type="teiDocPrefix">https://epigraphy.packhum.org/text/</url>
+        <url type="teiDocSuffix">.xml</url>
+    </resource>
+</externalresources>

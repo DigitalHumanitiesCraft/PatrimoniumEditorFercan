@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlElements>
+    <!-- 
+    <xmlElement>
+        <nm>hasConnectionWith</nm>
+        <xpath>/spatial:Feature/spatial:C/rdf:resource</xpath>
+        <contentType>attribute</contentType>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">Has connection with</formLabel>
+        <formLabel xml:lang="fr">A des connexions avec</formLabel>
+        <fieldType>input</fieldType>
+        <thesauDb>internal</thesauDb>
+        <thesauTopConceptURI>http://ausonius.huma-num.fr//concept/c19361</thesauTopConceptURI>
+        <comments/>
+    </xmlElement>
+    -->
+    
+    <xmlElement>
+        <nm>altLabel</nm>
+        <xpath>/foaf:primaryTopicOf/pleiades:Place/skos:altLabel</xpath>
+        <contentType>text</contentType>
+        <xmlLang>true</xmlLang>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">Names</formLabel>
+        <formLabel xml:lang="fr">Label</formLabel>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>title</nm>
+        <xpath>/foaf:primaryTopicOf/pleiades:Place/dcterms:title[@xml:lang="en"]</xpath>
+        <contentType>text</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Standardized Name (en)</formLabel>
+        <formLabel xml:lang="fr">Nom standard (anglais)</formLabel>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>hasFeatureTypeMain</nm>
+        <xpath>/foaf:primaryTopicOf/pleiades:Place/pleiades:hasFeatureType[@type="main"]/@rdf:resource</xpath>
+        <contentType>textNodeAndAttribute</contentType>
+        <attributeValueType>uri</attributeValueType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Place Type</formLabel>
+        <formLabel xml:lang="fr">Type de lieu</formLabel>
+        <fieldType>combobox</fieldType>
+        <thesauDb>internal</thesauDb>
+        <thesauTopConceptURI>http://ausonius.huma-num.fr/concept/c21862</thesauTopConceptURI>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>productionType</nm>
+        <xpath>/foaf:primaryTopicOf/pleiades:Place/pleiades:hasFeatureType[@type="productionType"]/@rdf:resource</xpath>
+        <contentType>textNodeAndAttribute</contentType>
+        <attributeValueType>uri</attributeValueType>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">Production type(s)</formLabel>
+        <formLabel xml:lang="fr">Type(s) de production</formLabel>
+        <fieldType>combobox</fieldType>
+        <thesauDb>internal</thesauDb>
+        <thesauTopConceptURI>http://ausonius.huma-num.fr/concept/c21879</thesauTopConceptURI>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>hasConnectionWith</nm>
+        <xpath>/spatial:C/@rdf:resource</xpath>
+        <contentType>attribute</contentType>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">Has connection with</formLabel>
+        <formLabel xml:lang="fr">A des connexions avec</formLabel>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>isPartOf</nm>
+        <xpath>/spatial:P/@rdf:resource</xpath>
+        <contentType>attribute</contentType>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">Is part Of</formLabel>
+        <formLabel xml:lang="fr">Fait partie de</formLabel>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>isMadeOf</nm>
+        <xpath>/spatial:Pi/@rdf:resource</xpath>
+        <contentType>attribute</contentType>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">Is made of</formLabel>
+        <formLabel xml:lang="fr">Est constitue de</formLabel>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>isPartOfCity</nm>
+        <xpath>/spatial:Feature/ausohnum:isPartOfCity/@rdf:resource</xpath>
+        <contentType>textNodeAndAttribute</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">City</formLabel>
+        <formLabel xml:lang="fr">Cite</formLabel>
+        <fieldType>placePeripleo</fieldType>
+        <thesauDb>internal</thesauDb>
+        <thesauTopConceptURI>http://ausonius.huma-num.fr//concept/c19891</thesauTopConceptURI>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>isInVicinityOf</nm>
+        <xpath>/spatial:C[@type='isInVicinityOf']/@rdf:resource</xpath>
+        <contentType>attribute</contentType>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">This place is in the vicinity of</formLabel>
+        <formLabel xml:lang="fr">Ce lieu est à proximite de</formLabel>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>hasInItsVicinity</nm>
+        <xpath>/spatial:C[@type='hasInItsVicinity']/@rdf:resource</xpath>
+        <contentType>attribute</contentType>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">This place has in its vicinity</formLabel>
+        <formLabel xml:lang="fr">Ce lieu a dans sa proximite</formLabel>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>isAdjacentTo</nm>
+        <xpath>/spatial:C[@type='isAdjacentTo']/@rdf:resource</xpath>
+        <contentType>attribute</contentType>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">This place is adjacent to</formLabel>
+        <formLabel xml:lang="fr">Ce lieu est adjacent à</formLabel>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>exactMatch</nm>
+        <xpath>/skos:exactMatch/@rdf:resource</xpath>
+        <contentType>attribute</contentType>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">Exact match</formLabel>
+        <formLabel xml:lang="fr">Identique à (exact match)</formLabel>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>hasResourceIllustration</nm>
+        <xpath>/spatial:Feature/foaf:primaryTopicOf/pleiades:Place/ausohnum:hasResource[@type='illustration']/@rdf:resource</xpath>
+        <contentType>attribute</contentType>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">Illustration</formLabel>
+        <formLabel xml:lang="fr">Illustration</formLabel>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>generalCommentary</nm>
+        <xpath>/foaf:primaryTopicOf/pleiades:Place/skos:note</xpath>
+        <contentType>enrichedText</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">General Commentary</formLabel>
+        <formLabel xml:lang="fr">Commentaire general</formLabel>
+        <fieldType>textarea</fieldType>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>privateCommentary</nm>
+        <xpath>/foaf:primaryTopicOf/skos:note[@type="private"]</xpath>
+        <contentType>enrichedText</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Private Commentary</formLabel>
+        <formLabel xml:lang="fr">Commentaire prive</formLabel>
+        <fieldType>textarea</fieldType>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>hasSizeType</nm>
+        <xpath>/foaf:primaryTopicOf/pleiades:Place/apc:hasSize/@type</xpath>
+        <contentType>attribute</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Unit</formLabel>
+        <formLabel xml:lang="fr">Unité</formLabel>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>hasSizeValue</nm>
+        <xpath>/foaf:primaryTopicOf/pleiades:Place/apc:hasSize/@value</xpath>
+        <contentType>attribute</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Value</formLabel>
+        <formLabel xml:lang="fr">Value</formLabel>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>hasSizeComment</nm>
+        <xpath>/foaf:primaryTopicOf/pleiades:Place/apc:hasSize</xpath>
+        <contentType>text</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Comment</formLabel>
+        <formLabel xml:lang="fr">Commentaire</formLabel>
+        <fieldType>textarea</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>hasYieldType</nm>
+        <xpath>/foaf:primaryTopicOf/pleiades:Place/apc:hasYield/@type</xpath>
+        <contentType>attribute</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Unit</formLabel>
+        <formLabel xml:lang="fr">Unité</formLabel>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>hasYieldValue</nm>
+        <xpath>/foaf:primaryTopicOf/pleiades:Place/apc:hasYield/@value</xpath>
+        <contentType>attribute</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Value</formLabel>
+        <formLabel xml:lang="fr">Value</formLabel>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>hasYieldComment</nm>
+        <xpath>/foaf:primaryTopicOf/pleiades:Place/apc:hasYield</xpath>
+        <contentType>text</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Comment</formLabel>
+        <formLabel xml:lang="fr">Commentaire</formLabel>
+        <fieldType>textarea</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <comments/>
+    </xmlElement>
+    <xmlElement>
+        <nm>keywords</nm>
+        <xpath>/foaf:primaryTopicOf/pleiades:Place/dcterms:subject/@rdf:resource</xpath>
+        <contentType>textNodeAndAttribute</contentType>
+        <attributeValueType>uri</attributeValueType>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">Keywords</formLabel>
+        <formLabel xml:lang="fr">Mots-clés</formLabel>
+        <fieldType>combobox</fieldType>
+        <thesauDb>internal</thesauDb>
+        <thesauTopConceptURI>http://ausonius.huma-num.fr/concept/c21849</thesauTopConceptURI>
+        <comments/>
+    </xmlElement>
+</xmlElements>

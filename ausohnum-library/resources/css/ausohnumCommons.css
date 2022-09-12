@@ -1,0 +1,104 @@
+/*.elementLabel {margin: 0 5px 0 5px; }*/
+
+.labelSimple{font-weight: bold}
+.labelInTable{ display: inline-flex!important;
+                          margin: 1px;
+                          padding: 3px 2px 3px 2px;
+}
+
+.xmlElementGroup{ display: block;
+        margin: 0.5em 0px 0.5em 0; }
+.xmlElementGroupHeaderInline{ float:left;}
+.inLinePlainText{ display: inline!important}
+.elementValue{ display: inline;
+        margin: 0 5px 0 5px; }
+
+#nav-metadata > div > div.col-sm-9.col-md-9.col-lg-9 > div.textPreviewPane{
+    margin-top: 0.4em;
+}
+
+#editorMap { height: 50%; }
+.leaflet-left .leaflet-control-scale {margin-bottom: 35px!important;}
+
+
+.textpartPane{border: none;
+                box-shadow:none;}
+.rightSideBorder{ border-left: solid 1px;
+float: right}
+
+.biblioList{display: inline;}
+
+.xmlFile{width: 100%;}
+
+.elementValue > p {margin-left: 0.5em;}
+
+.previewToolbar{margin-left:2em}
+
+button .glyphicon{line-height: inherit!important;}
+.dataTables_filter, .dataTables_filter label, .dataTables_filter input {width: 100%;}
+
+th { font-size: 12px; }
+td { font-size: 12px; }
+
+a:link.tableLink, a:visited.tableLink, a:hover.tableLink{ color: inherit; text-decoration:none;}
+
+#queryPanel{
+        min-height: 50px;
+        padding: 15px 0 0 10px;
+        border: 1px solid lightgray;
+        background-color: ghostwhite;
+}
+.queryBlock{
+        padding: 7px;
+        margin: 0 2px 0 2px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+}
+table.dataTable {width: 100%!important;}
+table.dataTable tbody td {
+        vertical-align: top;
+      }
+#hitsTable .linenumber{
+/*display: none!important;*/
+left: -4em;
+    padding-right: 0.2em;
+    position: absolute;
+}
+
+#hitsTable a:link, #hitsTable a:visited, #hitsTable a:hover{ color: inherit; text-decoration:none;}
+.textPreviewWithMatches{ color: inherit; text-decoration:none;
+pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: black;}
+  
+.mark, mark{padding: 0;}
+
+/*.textpart {
+    left: 3em;
+    line-height: 1.4;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    position: relative;
+    padding-right: 2em;
+}
+
+.textpartnumber {
+    padding-right: 0.2em;
+    position: absolute;
+    }
+    
+.linenumber {
+    left: -4em;
+    padding-right: 0.2em;
+    position: absolute;
+    }
+    
+.linenumberbroken {
+    left: -4em;
+    padding-right: 0.2em;
+    position: absolute;
+    color: red ;
+    text-decoration: blink ;
+    }
+    */

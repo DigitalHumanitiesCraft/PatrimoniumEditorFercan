@@ -1,0 +1,128 @@
+/* Application styles could go here */
+
+
+#editorApp{
+    padding: .2em;
+}
+#collectionList > div > div >.panel-body
+
+{
+    padding: 2px;
+}
+.newDocButton{
+    border-radius: 1.2em!important;
+    background-color: #337ab7!important;
+    color: white;
+    font-size: small;
+    padding: .2em;
+    margin: .2em 0 0.2em 1em;
+     display: inline-block;   
+}
+
+a.newDocButton:visited, a.newDocButton:hover{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+a.btn:visited, a.btn:hover{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.card-header{
+    padding: .1rem 1rem;
+    margin-bottom: 0;
+    background-color: rgba(125,29,32,.1);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+/***********************************************
+*    FOR SUBMENUS, remove from Bootrap 3     *
+***********************************************/
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+.modal-body {
+    max-height: calc(100vh - 212px);
+    overflow-y: auto;
+}
+#nav-text:fullscreen {
+    background-color: rgba(255,255,255,0);
+}
+#nav-text:-webkit-full-screen {
+    background-color: rgba(255,255,255,0);
+}
+#nav-text:-moz-full-screen {
+    background-color: rgba(255,255,255,0);
+}
+*:fullscreen, *:-webkit-full-screen, *:-moz-full-screen {
+    background-color: red!important;
+}
+
+.webgrid-table-hidden
+{
+    display: none;
+}
+
+.item{padding-bottom: 1.5em;}
+.hi{background-color: #FFFF00;}
+.hitSummary{margin-left: 3em;}
+td.previous, td.hi, td.following {
+    padding: 5px;
+}

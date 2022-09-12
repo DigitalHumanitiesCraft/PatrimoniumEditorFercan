@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+    <provenance type="enumerated-value" cert="high">
+        <!--                                One or more provenance can be recorded, in order to document the whole history of the object (excavation, auction, etc.)-->
+        <!--                                @type: e.g. "excavations", "art-market", "museum", "auction"-->
+        <!--                                Reference to TopBib in @ref-->
+        <date notBefore="1904" notAfter="1904"/>
+        <persName cert="high" role="Finder">Legrain, Georges</persName>
+        <location cert="high">
+            <placeName ref="#topbib-no">Textual value</placeName>
+        </location>
+    </provenance>
+    <acquisition>
+        <date when="1923"/>
+        <location>
+            <placeName ref="#id-repository-or-collection-in-thesaurus">Textual value</placeName>
+        </location>
+        <desc/>
+        <listPerson>
+            <person>
+                <persName role="enumerated-value"/>
+                <persName role="enumerated-value"/>
+            </person>
+        </listPerson>
+    </acquisition>
+</history>
