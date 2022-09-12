@@ -62,8 +62,6 @@ let $updateXml := update value $originalTEINode with $updatedData
 
 
 
-
-
 let $logInjection := 
     update insert
     <apc:log type="document-update" when="{$now}" what="{string($data/xml/docId)}" who="{$currentUser}">
