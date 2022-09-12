@@ -21,7 +21,7 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 (:declare variable $docId := request:get-parameter('docid', ());:)
 declare variable $saveFunctions:project :=request:get-parameter('project', ());
 declare variable $saveFunctions:zoteroGroup :=request:get-parameter('zoteroGroup', ());
-declare variable $saveFunctions:biblioRepo := doc("/db/apps/" || $saveFunctions:project || "/data/biblio/biblio.xml");
+declare variable $saveFunctions:biblioRepo := doc("/exist/apps/" || $saveFunctions:project || "/data/biblio/biblio.xml");
 (:declare variable $xpath := request:get-parameter('xpath', ());:)
 (:declare variable $project := 'patrimonium';:)
 
@@ -34,7 +34,7 @@ let $now := fn:current-dateTime()
 let $currentUser := sm:id()
 
 let $data := request:get-data()
-let $doc-collection := collection("/db/apps/" || $saveFunctions:project || "/data/documents")
+let $doc-collection := collection("/exist/apps/" || $saveFunctions:project || "/estudiumData/documents")
 
 let $docId := $data//docId/text()
 (:let $docId := request:get-parameter('docid', ()):)
@@ -47,14 +47,14 @@ let $xpathWithTeiPrefix := $data//xpath/text()
         (:let $nodesArray := tokenize($xpath, '/')
         let $lastNode := $nodesArray[last()]:)
 
-let $originalTEINode :=util:eval( "collection('/db/apps/" || $saveFunctions:project || "/data/documents')//id('"
+let $originalTEINode :=util:eval( "collection('/exist/apps/" || $saveFunctions:project || "/estudiumData/documents')//id('"
              ||$docId ||"')/" || $xpathWithTeiPrefix)
 (:            let $updatedNode :=  <updatedNode  xmlns="http://www.tei-c.org/ns/1.0">{parse-xml('<' || $lastNode || ">" || $updatedData|| '</' || $lastNode || '>')}</updatedNode>        :)
 (:let $updatedTEINode :=  <updatedNode>{parse-xml('<' || $lastNode || ">" || $updatedData|| '</' || $lastNode || '>')}</updatedNode>:)
 
 (:let $updatedTEINode := functx:change-element-ns-deep($updatedNode, 'http://www.tei-c.org/ns/1.0', ''):)
 
-let $logs := collection("/db/apps/" || $saveFunctions:project || "/data/logs")
+let $logs := collection("/exist/apps/" || $saveFunctions:project || "/data/logs")
 
 (:let $updateXml := update insert $aaa/node() following $originalTEINode :)
 
@@ -94,7 +94,7 @@ let $now := fn:current-dateTime()
 let $currentUser := sm:id()
 
 (:let $data := request:get-data():)
-let $doc-collection := collection("/db/apps/" || $saveFunctions:project || "/data/documents")
+let $doc-collection := collection("/exist/apps/" || $saveFunctions:project || "/estudiumData/documents")
 
 let $docId := $data//docId/text()
 (:let $docId := request:get-parameter('docid', ()):)
@@ -119,7 +119,7 @@ switch ($typeRef)
 let $BibRefAsTei := zoteroPlugin:get-bibItem($saveFunctions:zoteroGroup, $bibRef, "tei")
 let $bibTeiId := data($BibRefAsTei//tei:biblStruct/@xml:id)
 let $bibTeiIdRef := concat("#", $bibTeiId)
-(:let $originalTEINode :=util:eval( "collection('/db/apps/" || $saveFunctions:project || "/data/documents')//id('"
+(:let $originalTEINode :=util:eval( "collection('/exist/apps/" || $saveFunctions:project || "/estudiumData/documents')//id('"
              ||$docId ||"')/" || $xpathWithTeiPrefix)
 :)
 
@@ -154,7 +154,7 @@ let $insertBiblioInTeiDocument :=
    
                 
     
-let $logs := collection("/db/apps/" || $saveFunctions:project || "/data/logs")
+let $logs := collection("/exist/apps/" || $saveFunctions:project || "/data/logs")
 
 
 

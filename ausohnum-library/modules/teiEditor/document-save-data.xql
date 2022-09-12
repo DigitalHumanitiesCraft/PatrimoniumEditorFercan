@@ -65,7 +65,7 @@ let $now := fn:current-dateTime()
 let $currentUser := sm:id()
 
 let $data := request:get-data()
-let $doc-collection := collection("/db/apps/patrimonium/data/documents")
+let $doc-collection := collection("/exist/apps/estudiumData/documents")
 
 let $docId := $data//docId/text()
 (:let $docId := request:get-parameter('docid', ()):)
@@ -78,14 +78,14 @@ let $xpathWithTeiPrefix := $data//xpath/text()
         (:let $nodesArray := tokenize($xpath, '/')
         let $lastNode := $nodesArray[last()]:)
 
-let $originalTEINode :=util:eval( "collection('/db/apps/patrimonium/data/documents')//id('"
+let $originalTEINode :=util:eval( "collection('/exist/apps/estudiumData/documents')//id('"
              ||$docId ||"')/" || $xpathWithTeiPrefix)
 (:            let $updatedNode :=  <updatedNode  xmlns="http://www.tei-c.org/ns/1.0">{parse-xml('<' || $lastNode || ">" || $updatedData|| '</' || $lastNode || '>')}</updatedNode>        :)
 (:let $updatedTEINode :=  <updatedNode>{parse-xml('<' || $lastNode || ">" || $updatedData|| '</' || $lastNode || '>')}</updatedNode>:)
 
 (:let $updatedTEINode := functx:change-element-ns-deep($updatedNode, 'http://www.tei-c.org/ns/1.0', ''):)
 
-let $logs := collection("/db/apps/patrimonium/data/logs")
+let $logs := collection("/exist/apps/estudiumData/logs")
 
 (:let $updateXml := update insert $aaa/node() following $originalTEINode :)
 
