@@ -270,7 +270,7 @@ function addData(element,
          //var inputId = "#" + inputName.name.toString();
 
          var request = new XMLHttpRequest();
-         request.open("POST", "ausohnum-library/modules/teiEditor/getFunctions.xql?type=addData" , true);
+         request.open("POST", "$ausohnum-lib/modules/teiEditor/getFunctions.xql?type=addData" , true);
          /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                     //+ "&project=" + "patrimonium" + "&xpath=" + xpath
          /*                , true);*/
