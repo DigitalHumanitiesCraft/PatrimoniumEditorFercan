@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Variables used for the web app-->
+<params>
+    <uriBase>http://patrimonium.huma-num.fr</uriBase>
+    <idPrefix type="db">apc</idPrefix>
+    <idPrefix type="thesaurus">apc/thesaurus</idPrefix>
+    <idPrefix type="concept">apcc</idPrefix>
+    <idPrefix type="document">apcd</idPrefix>
+    <idPrefix type="people">apcp</idPrefix>
+     <projectTitle>
+        <value type="shortname" xml:lang="fr">Patrimonium</value>
+        <value type="shortname" xml:lang="en">Patrimonium</value>
+         <value type="shortname-latin" xml:lang="en">PATRIMONIVM</value>
+         <value type="shortname-latin" xml:lang="fr">PATRIMONIVM</value>
+         <value type="subtitle" xml:lang="fr">Géographie et économie du patrimoine impérial dans le monde romain
+            (d’Auguste à Dioclétien)</value>
+        <value type="subtitle" xml:lang="en">Geography and Economy of the imperial properties in the Roman World (from Augustus to Diocletian)</value>
+    </projectTitle>
+    <menuLabels>
+        <menuLabel id="home">
+            <value xml:lang="fr">Accueilz</value>
+            <value xml:lang="en">Home</value>
+        </menuLabel>
+        <menuLabel id="goals">
+            <value xml:lang="fr">Objectifs</value>
+            <value xml:lang="en">Goals</value>
+        </menuLabel>
+        <menuLabel id="atlas">
+            <value xml:lang="fr">Atlas patrimoni</value>
+            <value xml:lang="en">Atlas patrimoni</value>
+        </menuLabel>
+        <menuLabel id="team">
+            <value xml:lang="fr">Équipe</value>
+            <value xml:lang="en">Team</value>
+        </menuLabel>
+        <menuLabel id="news">
+            <value xml:lang="fr">Événéments</value>
+            <value xml:lang="en">News</value>
+        </menuLabel>
+        <menuLabel id="jobs">
+            <value xml:lang="fr">Recrutements</value>
+            <value xml:lang="en">Open positions</value>
+        </menuLabel>
+        <menuLabel id="collaborating">
+            <value xml:lang="fr">Accès collaborateurs</value>
+            <value xml:lang="en">Partner login</value>
+        </menuLabel>
+        <menuLabel id="username">
+            <value xml:lang="fr">Identifiant</value>
+            <value xml:lang="en">Username</value>
+        </menuLabel>
+        <menuLabel id="password">
+            <value xml:lang="fr">Mot de passe</value>
+            <value xml:lang="en">Password</value>
+        </menuLabel>
+        <menuLabel id="login">
+            <value xml:lang="fr">Se connecter</value>
+            <value xml:lang="en">Login</value>
+        </menuLabel>
+    </menuLabels>
+    <datingSystemLabels>
+        <item type="bc" xml:lang="en">BC</item>
+        <item type="bc" xml:lang="fr">av. J.-C.</item>
+        <item type="bc" xml:lang="de">v. Chr.</item>
+        <item type="ad" xml:lang="en">AD</item>
+        <item type="ad" xml:lang="fr">apr. J.-C.</item>
+        <item type="ad" xml:lang="de">n. Chr.</item>
+    </datingSystemLabels>
+</params>

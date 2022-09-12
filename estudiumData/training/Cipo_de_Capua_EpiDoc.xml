@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>title of document</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>description of object/monument (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <ab>
+                    <lb n="1"/><expan><abbr><unclear>i</unclear>mp</abbr><ex>erator</ex></expan><g type="interpunct"/> domitiano
+                    <lb n="2"/>caesar <expan><abbr>aug</abbr><ex>usto</ex></expan> <g type="interpunct"/> <expan><abbr>germ</abbr><ex>anico</ex></expan> <g type="interpunct"/> x <g type="interpunct"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan>
+                    <lb n="3"/> <supplied reason="lost">i</supplied><unclear>n</unclear>ter <g type="interpunct"/> <expan><abbr>col</abbr><ex>oniam</ex></expan> <g type="interpunct"/> <expan><abbr>flav</abbr><ex>iam</ex></expan> <g type="interpunct"/> <expan><abbr>aug</abbr><ex>usta</ex></expan> <g type="interpunct"/> <expan><abbr>felic</abbr><ex>em</ex></expan>
+                    <lb n="4"/> <expan><abbr><unclear>c</unclear>ap</abbr><ex>uam</ex></expan> et plotium <g type="interpunct"/> plebeium
+                    <lb n="5"/><supplied reason="lost">ex</supplied> <expan><abbr>senten</abbr><ex>tia</ex></expan> t<unclear>iti</unclear> <g type="interpunct"/> <expan><abbr>imp</abbr><ex>eratoris</ex></expan> <g type="interpunct"/> <expan><abbr>aug</abbr><ex>usti</ex></expan> <g type="interpunct"/> item
+                    <lb n="6"/> <expan><abbr><unclear>sec</unclear>und</abbr><ex>um</ex></expan> <g type="interpunct"/> dec<unclear>r</unclear>etum <expan><abbr>col</abbr><ex>oniae</ex></expan> <g type="interpunct"/> <expan><abbr>cap</abbr><ex>uae</ex></expan>
+                    <lb n="7"/><unclear>c</unclear>onventione <g type="interpunct"/> <expan><abbr><unclear>ut</unclear><supplied reason="lost">r</supplied><unclear>i</unclear>usq</abbr><ex>ue</ex></expan>
+                    <lb n="8"/><supplied reason="lost">par</supplied><unclear>t</unclear><supplied reason="lost">i</supplied>s <unclear>t</unclear>ermini positi sun<supplied reason="lost">t</supplied>
+                    <lb n="9"/>ag<supplied reason="lost">e</supplied>nte <g type="interpunct"/> <expan><abbr>p</abbr><ex>ublio</ex></expan> <g type="interpunct"/> <supplied reason="lost">m</supplied>ess<supplied reason="lost">i</supplied>o campano
+                    <lb n="10"/><expan><abbr>proc</abbr><ex>urator</ex></expan> <expan><abbr>camp</abbr><ex>aniae</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

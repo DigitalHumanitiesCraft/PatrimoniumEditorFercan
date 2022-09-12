@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <skos:ConceptScheme rdf:about="https://ausohnum.huma-num.fr/thesaurus/gymnasium/">
+        <dc:title type="full">gymnasium</dc:title>
+        <dc:title type="short">gymnasium</dc:title>
+        <skos:hasTopConcept rdf:resource="https://ausohnum.huma-num.fr/concept/c19890"/>
+        <dc:creator> </dc:creator>
+        <dc:publisher>AusoHNum</dc:publisher>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:ConceptScheme>
+    <skos:Concept xml:id="c19890" rdf:about="https://ausohnum.huma-num.fr/concept/c19890">
+        <skos:prefLabel xml:lang="fr">Projet GymnAsia</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">GymnAsia Project</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">GymnAsia Projekt</skos:prefLabel>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19891"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19897"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19907"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19914"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19915"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19921"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20311"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23473"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26615"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+    <dct:modified>2020-01-22T11:51:27.878+01:00</dct:modified>
+    <dct:modified>2022-02-07T15:28:37.257+01:00</dct:modified>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19891" rdf:about="https://ausohnum.huma-num.fr/concept/c19891">
+        <skos:prefLabel xml:lang="fr">édifice</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">building</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Gebäude</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19890"/>
+    <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23473"/>
+    
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19892"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19894"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19895"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19896"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20326"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23519"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+    <dct:modified>2019-04-12T09:36:51.024+02:00</dct:modified>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19892" rdf:about="https://ausohnum.huma-num.fr/concept/c19892">
+        <skos:prefLabel xml:lang="fr">gymnase</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">gymnasium</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Gymnasium</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19891"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19893"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19893" rdf:about="https://ausohnum.huma-num.fr/concept/c19893">
+        <skos:prefLabel xml:lang="fr">palestre</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">palaestra</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Wettkampf und Übungsstätte</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19892"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19894" rdf:about="https://ausohnum.huma-num.fr/concept/c19894">
+        <skos:prefLabel xml:lang="fr">palestre</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">palaestra</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Wettkampf- und Übungsstätte</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19891"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19895" rdf:about="https://ausohnum.huma-num.fr/concept/c19895">
+        <skos:prefLabel xml:lang="fr">hippodrome</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">hippodrome</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Rennbahn</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19891"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19896" rdf:about="https://ausohnum.huma-num.fr/concept/c19896">
+        <skos:prefLabel xml:lang="fr">stade</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">stadium</skos:prefLabel>
+        <skos:prefLabel xml:lang="de"> Stadium</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19891"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19897" rdf:about="https://ausohnum.huma-num.fr/concept/c19897">
+        <skos:prefLabel xml:lang="fr">institution</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">institution</skos:prefLabel>
+        <skos:prefLabel xml:lang="de"> Institution</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19890"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19898"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19899"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19900"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19904"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19905"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19906"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19898" rdf:about="https://ausohnum.huma-num.fr/concept/c19898">
+        <skos:prefLabel xml:lang="fr">groupe du gymnase</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">gymnasial group</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">gymnasiale Gruppe</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19897"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19899" rdf:about="https://ausohnum.huma-num.fr/concept/c19899">
+        <skos:prefLabel xml:lang="fr">honneur</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">honor</skos:prefLabel>
+        <skos:prefLabel xml:lang="de"> Ehre</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19897"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19900" rdf:about="https://ausohnum.huma-num.fr/concept/c19900">
+        <skos:prefLabel xml:lang="fr">magistrat</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">official</skos:prefLabel>
+        <skos:prefLabel xml:lang="de"> Amtsträger </skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19897"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19901"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19902"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19903"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19901" rdf:about="https://ausohnum.huma-num.fr/concept/c19901">
+        <skos:prefLabel xml:lang="fr">magistrat supra-civique</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">supra-civic official</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">supra-städtischer Amtsträger</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19900"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19902" rdf:about="https://ausohnum.huma-num.fr/concept/c19902">
+        <skos:prefLabel xml:lang="fr">magistrat civique</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">civic official</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Amsträger der Polis</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19900"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19903" rdf:about="https://ausohnum.huma-num.fr/concept/c19903">
+        <skos:prefLabel xml:lang="fr">magistrat sous-civique</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">under-civic official</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">sub-städtischer Amtsträger</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19900"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19904" rdf:about="https://ausohnum.huma-num.fr/concept/c19904">
+        <skos:prefLabel xml:lang="fr">loi</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">law</skos:prefLabel>
+        <skos:prefLabel xml:lang="de"> Gesetz</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19897"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19905" rdf:about="https://ausohnum.huma-num.fr/concept/c19905">
+        <skos:prefLabel xml:lang="fr">décret</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">decree</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Dekret</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19897"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19906" rdf:about="https://ausohnum.huma-num.fr/concept/c19906">
+        <skos:prefLabel xml:lang="fr">décret honorifique</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">honorific decree</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Ehrendekret</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19897"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19907" rdf:about="https://ausohnum.huma-num.fr/concept/c19907">
+        <skos:prefLabel xml:lang="fr">culte</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">cult</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Kult</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19890"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19908"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19909"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19912"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19913"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c21829"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c21832"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26584"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+    <dct:modified>2019-07-02T13:03:30.58+02:00</dct:modified>
+    <dct:modified>2019-07-09T11:37:15.016+02:00</dct:modified>
+    <dct:modified>2021-12-08T14:28:55.909+01:00</dct:modified>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19908" rdf:about="https://ausohnum.huma-num.fr/concept/c19908">
+        <skos:prefLabel xml:lang="fr">divinité</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">divinity</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Gottheit</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19907"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19909" rdf:about="https://ausohnum.huma-num.fr/concept/c19909">
+        <skos:prefLabel xml:lang="fr">souverain</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">sovereign</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Herrscher</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19907"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19910"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19911"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19910" rdf:about="https://ausohnum.huma-num.fr/concept/c19910">
+        <skos:prefLabel xml:lang="fr">roi</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">king</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">König</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19909"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19911" rdf:about="https://ausohnum.huma-num.fr/concept/c19911">
+        <skos:prefLabel xml:lang="fr">empereur</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">emperor</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Kaiser</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19909"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19912" rdf:about="https://ausohnum.huma-num.fr/concept/c19912">
+        <skos:prefLabel xml:lang="fr">particulier bienfaiteur</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">private benefactor</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">privater Stifter</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19907"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19913" rdf:about="https://ausohnum.huma-num.fr/concept/c19913">
+        <skos:prefLabel xml:lang="fr">équipement</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">equipment</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Ausstattung</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19907"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19914" rdf:about="https://ausohnum.huma-num.fr/concept/c19914">
+        <skos:prefLabel xml:lang="fr">financement</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">financing</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Finanzierung</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19890"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19915" rdf:about="https://ausohnum.huma-num.fr/concept/c19915">
+        <skos:prefLabel xml:lang="fr">éducation</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">education</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Ausbildung</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19890"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19916"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19917"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19918"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19920"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c21835"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+    <dct:modified>2019-08-20T16:46:44.315+02:00</dct:modified>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19916" rdf:about="https://ausohnum.huma-num.fr/concept/c19916">
+        <skos:prefLabel xml:lang="fr">enseignement</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Course</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Unterricht</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19915"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19917" rdf:about="https://ausohnum.huma-num.fr/concept/c19917">
+        <skos:prefLabel xml:lang="fr">enseignement littéraire</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">litterature cours</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">literarische Bildung</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19915"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19918" rdf:about="https://ausohnum.huma-num.fr/concept/c19918">
+        <skos:prefLabel xml:lang="fr">enseignement musical</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">music cours</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">musikalische Bildung</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19915"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19919"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19919" rdf:about="https://ausohnum.huma-num.fr/concept/c19919">
+        <skos:prefLabel xml:lang="fr">entraînement physique</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">physical training</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Leibesübungen</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19918"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19920" rdf:about="https://ausohnum.huma-num.fr/concept/c19920">
+        <skos:prefLabel xml:lang="fr">enseignant</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">teacher</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Lehrer</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19915"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19921" rdf:about="https://ausohnum.huma-num.fr/concept/c19921">
+        <skos:prefLabel xml:lang="fr">vie agonistique</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">agonistic life</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Agonistik</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19890"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19922"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19923"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19924"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19925"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19926"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19927"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c21834"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c21838"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22108"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+    <dct:modified>2019-07-16T15:01:48.968+02:00</dct:modified>
+    <dct:modified>2019-08-29T15:20:03.269+02:00</dct:modified>
+    <dct:modified>2019-10-21T12:37:07.71+02:00</dct:modified>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19922" rdf:about="https://ausohnum.huma-num.fr/concept/c19922">
+        <skos:prefLabel xml:lang="fr">concours du gymnase</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">gymnasial competition</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">gymnasiale Wettkampf</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19921"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19923" rdf:about="https://ausohnum.huma-num.fr/concept/c19923">
+        <skos:prefLabel xml:lang="fr">compétition civique</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">civic competition</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">städtsicher Wettkampf</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19921"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19924" rdf:about="https://ausohnum.huma-num.fr/concept/c19924">
+        <skos:prefLabel xml:lang="fr">compétition panhellénique</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Panhellenic competition</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">panhellenistischer Wettkampf</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19921"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19925" rdf:about="https://ausohnum.huma-num.fr/concept/c19925">
+        <skos:prefLabel xml:lang="fr">classe d’âge</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">age group</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Altersgruppe</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19921"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19926" rdf:about="https://ausohnum.huma-num.fr/concept/c19926">
+        <skos:prefLabel xml:lang="fr">prix de concours</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">agonistic prize</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">agonistischer Preis</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19921"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19927" rdf:about="https://ausohnum.huma-num.fr/concept/c19927">
+        <skos:prefLabel xml:lang="fr">réglementation</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">regulations</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Regelung</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19921"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    
+    
+    <skos:Concept xml:id="c20311" rdf:about="https://ausohnum.huma-num.fr/concept/c20311">
+        <skos:prefLabel xml:lang="fr">Composantes d’édifice</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">building components</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Bauelemente</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19890"/>
+    <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23473"/>
+    
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20313"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20316"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20317"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20318"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20319"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20320"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20321"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20322"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20323"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20324"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20325"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2019-04-12T09:23:27.217+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20313" rdf:about="https://ausohnum.huma-num.fr/concept/c20313">
+        <skos:prefLabel xml:lang="fr">piste</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">running track</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Laufbahn</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20311"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20314"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20315"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2019-04-12T09:23:27.217+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20314" rdf:about="https://ausohnum.huma-num.fr/concept/c20314">
+        <skos:prefLabel xml:lang="fr">dromos ou paradromis (piste découverte) </skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Running track </skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Laufbahn</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20313"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2019-04-12T09:23:27.217+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20315" rdf:about="https://ausohnum.huma-num.fr/concept/c20315">
+        <skos:prefLabel xml:lang="fr">xystos (piste couverte) </skos:prefLabel>
+        <skos:prefLabel xml:lang="en">covered running track</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">gedeckte Laufbahn</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20313"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2019-04-12T09:23:27.217+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20316" rdf:about="https://ausohnum.huma-num.fr/concept/c20316">
+        <skos:prefLabel xml:lang="fr">exèdre</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">exedra</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">exedra</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20311"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2019-04-12T09:23:27.217+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20317" rdf:about="https://ausohnum.huma-num.fr/concept/c20317">
+        <skos:prefLabel xml:lang="fr">auditorium</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">auditorium </skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Auditorium</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20311"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2019-04-12T09:23:27.217+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20318" rdf:about="https://ausohnum.huma-num.fr/concept/c20318">
+        <skos:prefLabel xml:lang="fr">lieu de culte</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">cult place</skos:prefLabel>
+        <skos:prefLabel xml:lang="de"> Kultplatz</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20311"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2019-04-12T09:23:27.217+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20319" rdf:about="https://ausohnum.huma-num.fr/concept/c20319">
+        <skos:prefLabel xml:lang="fr">bains</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">baths</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Bad</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20311"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2019-04-12T09:23:27.217+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20320" rdf:about="https://ausohnum.huma-num.fr/concept/c20320">
+        <skos:prefLabel xml:lang="fr">cour</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">courtyard</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Hof</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20311"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2019-04-12T09:23:27.217+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20321" rdf:about="https://ausohnum.huma-num.fr/concept/c20321">
+        <skos:prefLabel xml:lang="fr">portique</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">portico</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Säulenhalle</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20311"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2019-04-12T09:23:27.217+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20322" rdf:about="https://ausohnum.huma-num.fr/concept/c20322">
+        <skos:prefLabel xml:lang="fr">propylon</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">gate-building</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Propylon</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20311"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2019-04-12T09:23:27.217+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20323" rdf:about="https://ausohnum.huma-num.fr/concept/c20323">
+        <skos:prefLabel xml:lang="fr">salle</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">room</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Raum</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20311"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2019-04-12T09:23:27.217+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20324" rdf:about="https://ausohnum.huma-num.fr/concept/c20324">
+        <skos:prefLabel xml:lang="fr">gradin</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">seat</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sitzstufe</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20311"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2019-04-12T09:23:27.217+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20325" rdf:about="https://ausohnum.huma-num.fr/concept/c20325">
+        <skos:prefLabel xml:lang="fr">lignes (départ et/ou arrivée)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">starting/finishing lines</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Stratlinie/Ziellinie</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20311"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <dct:created>2019-04-12T09:23:27.217+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+
+    <skos:Concept xml:id="c20326" rdf:about="https://ausohnum.huma-num.fr/concept/c20326">
+        <skos:prefLabel xml:lang="en">bath</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">bain</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Bad</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19891"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-04-12T09:36:51.024+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c21829" rdf:about="https://ausohnum.huma-num.fr/concept/c21829">
+        <skos:prefLabel xml:lang="en">ritual</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19907"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-07-02T13:03:30.58+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c21832" rdf:about="https://ausohnum.huma-num.fr/concept/c21832">
+        <skos:prefLabel xml:lang="en">personificaction</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19907"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-07-09T11:37:15.016+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c21834" rdf:about="https://ausohnum.huma-num.fr/concept/c21834">
+        <skos:prefLabel xml:lang="en">sports contest</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">épreuve sportive</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19921"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-07-16T15:01:48.968+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c21835" rdf:about="https://ausohnum.huma-num.fr/concept/c21835">
+        <skos:prefLabel xml:lang="en">Physical training</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Entraînement physique</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Leibesübungen</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19915"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-08-20T16:46:44.315+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c21838" rdf:about="https://ausohnum.huma-num.fr/concept/c21838">
+        <skos:prefLabel xml:lang="en">athlete association</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">association d'athlètes</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19921"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-08-29T15:20:03.269+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22108" rdf:about="https://ausohnum.huma-num.fr/concept/c22108">
+        <skos:prefLabel xml:lang="en">Contest-president</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Président de concours</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19921"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-10-21T12:37:07.71+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23473" rdf:about="https://ausohnum.huma-num.fr/concept/c23473">
+        <skos:prefLabel xml:lang="en">types of place</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">type de lieux</skos:prefLabel>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23474"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19891"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20311"/>
+    
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23519"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23526"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19890"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-01-22T11:51:27.878+01:00</dct:created>
+    <dct:modified>2020-01-22T11:52:04.359+01:00</dct:modified>
+    <dct:modified>2020-02-17T15:49:06.776+01:00</dct:modified>
+    <dct:modified>2020-02-17T16:11:11.178+01:00</dct:modified>
+    <dct:modified when="2020-02-17T16:11:22.404+01:00" who="jbernini"/>
+    <dct:modified>2020-02-28T11:13:36.801+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c23474" rdf:about="https://ausohnum.huma-num.fr/concept/c23474">
+        <skos:prefLabel xml:lang="en">city</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">cité</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23473"/>
+    
+    
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-01-22T11:52:04.359+01:00</dct:created>
+    </skos:Concept>
+    
+    <skos:Concept xml:id="c23519" rdf:about="https://ausohnum.huma-num.fr/concept/c23519">
+        <skos:prefLabel xml:lang="en">Sanctuary</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Sanctuaire</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23473"/>
+    <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19891"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/jbernini"> </dct:creator>
+        <dct:created>2020-02-17T16:11:11.178+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23526" rdf:about="https://ausohnum.huma-num.fr/concept/c23526">
+        <skos:prefLabel xml:lang="en">Region</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Région</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Region</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23473"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/jbernini"> </dct:creator>
+        <dct:created>2020-02-28T11:13:36.801+01:00</dct:created>
+    </skos:Concept>
+
+    <skos:Concept xml:id="c26584" rdf:about="https://ausohnum.huma-num.fr/concept/c26584">
+        <skos:prefLabel xml:lang="en">festival</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">fête</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Fest</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19907"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2021-12-08T14:28:55.909+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26615" rdf:about="https://ausohnum.huma-num.fr/concept/c26615">
+        <skos:prefLabel xml:lang="en">document features</skos:prefLabel>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26616"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19890"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2022-02-07T15:28:37.257+01:00</dct:created>
+    <dct:modified>2022-02-07T15:29:32.505+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c26616" rdf:about="https://ausohnum.huma-num.fr/concept/c26616">
+        <skos:prefLabel xml:lang="en">Place type relations</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Types de relation à un lieu</skos:prefLabel>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26617"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26618"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26619"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26615"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2022-02-07T15:29:32.505+01:00</dct:created>
+    <dct:modified>2022-02-07T15:32:45.24+01:00</dct:modified>
+    <dct:modified>2022-02-07T15:33:18.13+01:00</dct:modified>
+    <dct:modified>2022-02-07T17:22:35.178+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c26617" rdf:about="https://ausohnum.huma-num.fr/concept/c26617">
+        <skos:prefLabel xml:lang="en">Origin (ancient place)</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">origin</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">origin</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26616"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2022-02-07T15:32:45.24+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26618" rdf:about="https://ausohnum.huma-num.fr/concept/c26618">
+        <skos:prefLabel xml:lang="en">Findspot (modern place)</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">lieu de découverte</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">findspot</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26616"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2022-02-07T15:33:18.13+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26619" rdf:about="https://ausohnum.huma-num.fr/concept/c26619">
+        <skos:prefLabel xml:lang="en">mentioned in text</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">mention dans le texte</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">mentioned-in-text</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26616"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2022-02-07T17:22:35.178+01:00</dct:created>
+    </skos:Concept>
+</rdf:RDF>

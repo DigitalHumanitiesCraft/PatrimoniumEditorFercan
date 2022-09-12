@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edict of Tiberius Iulius Alexandros (Hibis B)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+                <idno type="tm">103024</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>description of object/monument (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                    <lb n="1"/>Ἰούλιος Δημήτριος, στρατηγὸς Ὀάσεως Θ<supplied reason="lost" cert="low">ηβαΐ</supplied>δος <space quantity="1" unit="character"/> τοῦ πεμφθέντος μοι διατάγματος ὑπὸ τοῦ κυρίου ἡγεμόνος <space quantity="2" unit="character"/>
+                    <lb n="2"/>Τιβερίου Ἰουλίου Ἀλεξάνδρου τὸ ἀντίγραφον ὑμεῖν ὑπέταξα, ἵν’ εἰδότες ἀπολαύητε τῶν εὐεργε<supplied reason="omitted">σ</supplied>ιῶ<supplied reason="omitted">ν</supplied>. <expan><ex>ἔτους</ex></expan> <num value="30">β</num> Λουκίου Λιβίου <supplied reason="omitted">Σ</supplied>εβαστοῦ <supplied reason="omitted">Σ</supplied>ουλπικίου
+                    <lb n="3"/>Γάλβα Αὐτοκράτορος Φαῶφι <num value="1">α</num> Ἰουλίᾳ Σεβαστῆι. <space quantity="3" unit="character"/> Τιβέριος Ἰούλιος Ἀλέξανδρος λέγει· <space quantity="2" unit="character"/> πᾶσαν πρόνοιαν ποιούμενος τοῦ διαμένειν τῶι προσήκον̣τι κα
+                    <lb n="4" break="no"/>ταστήματι τὴν πόλιν ἀπολαύουσαν των εὐεργεσιῶν ἃς ἔχει παρὰ τῶν Σεβαστῶν καὶ τοῦ τὴν Αἴγυπτον ἐν εὐσταθείᾳ διάγουσαν εὐθύμως ὑπηρετεῖν τῆι τε εὐθηνίᾳ καὶ τῆι μεγίσ
+                    <lb n="5" break="no"/>τηι <supplied reason="omitted">τ</supplied>ῶ<supplied reason="lost" cert="low">ν</supplied> νῦν καιρῶν εὐδαιμονίᾳ, μὴι βαρυνομένην καιναῖς καὶ ἀδίκοις εἰσπράξεσι, σχεδὸν δὲ ἐξ οὗ τῆς πόλεως ἐπέβην καταβοώμενος ὑπὸ τῶν ἐντυγχανόντων καὶ κατ’ ὀλίγους καὶ κα
+                    <lb n="6" break="no"/>τὰ πλήθη<surplus>ι</surplus> τῶν τε ἐνθάδε εὐσχημονεστάτων καὶ τῶν γεωργούντων τὴν χώραν μεμφομένων τὰς ἔγγιστα γενομένας ἐπηρείας, οὐ διέλιπον μὲν κατὰ τὴν ἐμαυτοῦ δύναμιν τὰ ἐπείγον
+                    <lb n="7" break="no"/>τα ἐπανορθούμενος· <space quantity="1" unit="character"/> ἵνα <supplied reason="omitted">δ</supplied>ὲ εὐθυμότεροι πάντα ἐλπίζητε παρὰ τοῦ ἐπιλάμψαντος ἡμεῖν ἐπὶ σωτηρίᾳ τοῦ παντὸς ἀνθρώπων γένους εὐεργέτου Σεβαστοῦ Αὐτοκράτορος Γάλβα τά τε πρὸ<supplied reason="omitted">ς</supplied> σωτηρίαν
+                    <lb n="8"/><supplied reason="lost">κ</supplied>αὶ τὰ πρὸς ἀπόλαυσιν, καὶ γινώσκητε ὅτι ἐφρόντισα τῶν πρὸς τὴν ὑμετέραν βοήθειαν ἀνηκόντων, προέγραψα ἀναγκαίως περὶ ἑκάστου τῶν ἐπιζητουμένων, ὅσα ἔξεστί μοι κρεί
+                    <lb n="9" break="no"/>νειν καὶ ποιεῖν, τὰ δὲ μείζονα καὶ δεόμενα τῆς τοῦ αὐτοκράτορο<supplied reason="omitted">ς</supplied> δυνάμεως καὶ μεγαλειότητος αὐτῶι δηλώσωι μετὰ πάσης ἀληθείας, τῶν θεῶν ταμιευσαμένων εἰς τοῦτον τὸν
+                    <lb n="10"/>ἱερώτατον καιρὸν τὴν τῆς οἰκουμένης ἀσφάλειαν. ἔγνων γὰρ πρὸ παντὸς εὐλογωτάτην οὖσαν τὴν ἔντευξιν ὑμῶν ὑπὲρ τοῦ μὴ<surplus>ι</surplus> ἄκοντας ἀνθρώπους εἰς τελωνείας ἢ<surplus>ι</surplus> ἄλ
+                    <lb n="11" break="no"/><supplied reason="lost">λ</supplied>ας μισθώσεις οὐσιακὰς παρὰ τὸ κοινὸν <supplied reason="lost">ἔ</supplied>θος τῶν ἐπαρχειῶν πρὸς βίαν ἄγεσθαι, καὶ ὅτι οὐκ ὀλ<supplied reason="lost">ίγ</supplied>ον <unclear>ἔ</unclear>βλ<unclear>α</unclear>ψε τὰ πράγ̣<unclear>μ</unclear>ατα τὸ πολλο<unclear>ὺς</unclear> ἀπείρους ὄντα<supplied reason="omitted">ς</supplied> τῆς τοια<unclear>ύ</unclear>
+                    <lb n="12" break="no"/>της πραγματείας ἀχθῆναι μετ’ ἀνάγκης ἐπιβληθ<supplied reason="omitted">έ</supplied>ντων αὐτοῖς τῶν τελῶν. διόπερ καὶ αὐτὸς οὔτε ἤ̣γαγόν τινα εἰς τελωνείαν ἢι μίσθωσιν οὔτε ἄξωι, <supplied reason="omitted">ε</supplied><unclear>ἰ</unclear>δὼς τοῦτο
+                    <lb n="13"/>συμφέρειν καὶ ταῖς κυριακαῖς ψήφοις τὸ με<unclear>τ</unclear>ὰ προθυμίας ἑκόντας πραγματεύεσθαι τοὺς <supplied reason="omitted">δ</supplied>υνατούς. <space quantity="1" unit="character"/> πέπεισμαι δὲ ὅτι οὐδ’ εἰς τὸ μέλλον ἄκοντάς τις ἄξει τελώνας
+                    <lb n="14"/>ἢ μισθωτάς, ἀλλὰ διαμισθώσει τοῖς βουλομένοις ἐκουσίως προ<supplied reason="omitted">σ</supplied>έρχεσθαι, μᾶλλον τὴν τῶν προτέρων ἐπάρχων αἰώνιον συνήθειαν φυλάσσων ἢ<surplus>ι</surplus> τὴν πρόσκαιρόν τινος ἀδικίαν
+                    <lb n="15"/>μειμησάμενος· <space quantity="1" unit="character"/> ἐπειδὴ<surplus>ι</surplus> ἔνιοι προφάσει τῶν δημοσίων καὶ ἀλλότρια δάνεια παραχωρούμενοι εἴς τε τὸ πρακτόρειόν τινας παρέδοσαν καὶ εἰς ἄλλας φυλακάς, ἃς καὶ δι’ αὐτὸ τοῦτο
+                    <lb n="16"/>ἔγνων ἀναιρεθείσας, ἵνα αἱ πράξεις τῶν δανείων ἐκ τῶν ὑπαρχόντων ὦσι καὶ μὴ<surplus>ι</surplus> ἐκ τῶν <supplied reason="omitted">σ</supplied>ωμάτων, ἑπόμενος τῆι τοῦ θεοῦ Σεβα<supplied reason="omitted">σ</supplied>τοῦ βουλήσει, <space quantity="1" unit="character"/> κελεύω μηδένα τῆι τῶν <supplied reason="omitted">δ</supplied>ημοσίων προφά
+                    <lb n="17" break="no"/>σει παραχωρεῖσθαι παρ’ ἄλλων <supplied reason="omitted">δ</supplied>άνεια ἃ μὴ<surplus>ι</surplus> αὐτὸς ἐξ ἀρχῆς ἐδάνεισεν μη<surplus>ι</surplus> δ’ ὅλως κατακλείε<supplied reason="omitted">σ</supplied>θαί τινα<supplied reason="omitted">ς</supplied> ἐλευθέρους εἰς φυλακὴν ἡντινοῦν, εἰ μὴ<surplus>ι</surplus> κακοῦργον, μη<supplied reason="omitted">δ</supplied>’ εἰς τὸ πρακ
+                    <lb n="18" break="no"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

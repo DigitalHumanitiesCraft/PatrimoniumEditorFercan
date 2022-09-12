@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://exist-db.org/collection-config/1.0">
+    <index xmlns:xs="http://www.w3.org/2001/XMLSchema">
+        <fulltext default="none" attributes="false"/>
+        <range>
+            <create qname="@key" type="xs:string"/>
+            <create qname="teiElement">
+                <field name="nickname" match="nm" type="xs:string"/>
+                <field name="xpath" match="xpath" type="xs:string"/>
+                <field name="contentType" match="contentType" type="xs:string"/>
+                <field name="cardinality" match="cardinality" type="xs:string"/>
+                <field name="formLabel" match="formLabel" type="xs:string"/>
+                <field name="fieldType" match="fieldType" type="xs:string"/>
+                <field name="attributeValueType" match="attributeValueType" type="xs:string"/>
+            </create>
+        </range>
+    </index>
+    <triggers>
+        <trigger class="org.exist.extensions.exquery.restxq.impl.RestXqTrigger"/>
+    </triggers>
+</collection>

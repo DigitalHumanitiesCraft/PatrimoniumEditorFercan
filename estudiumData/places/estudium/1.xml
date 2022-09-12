@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:pleiades="https://pleiades.stoa.org/places/vocab#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cito="http://purl.org/spar/cito/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:spatial="http://geovocab.org/spatial#" xmlns:prov="http://www.w3.org/TR/prov-o/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ausohnum="http://ausonius.huma-num.fr/onto" xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <spatial:Feature rdf:about="https://ausohnum.huma-num.fr/places/1#this">
+        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/727070"/>
+        <skos:exactMatch rdf:resource="https://www.trismegistos.org/place/100"/>
+        <foaf:primaryTopicOf>
+            <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/places/1">
+                <dcterms:title xml:lang="en">Alexandria</dcterms:title>
+                <skos:altLabel xml:lang="la">Alexandria - Alexandrea</skos:altLabel>
+                <skos:altLabel xml:lang="grc">Ἀλεξάνδρεια  </skos:altLabel>
+                <skos:altLabel xml:lang="en">Alexandria</skos:altLabel>
+                <skos:altLabel xml:lang="egyx">Rʿ-qd (Rʿ-qt) - Pȝ-ʿ.wy-n-ȝlgsȝntrs - Pȝ-sbt-n-Ỉrgsndrs</skos:altLabel>
+                <pleiades:hasFeatureType type="main" rdf:resource="https://ausohnum.huma-num.fr/concept/c21865">City</pleiades:hasFeatureType>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">29.9079146667</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">31.1982456667</geo:lat>
+                <skos:note/>
+            </pleiades:Place>
+            <skos:note type="private"/>
+        </foaf:primaryTopicOf>
+    </spatial:Feature>
+    <pleiades:Location rdf:about="https://ausohnum.huma-num.fr/places/1/position">
+        <prov:wasDerivedFrom>
+            <rdf:Description>
+                <rdfs:label>APC</rdfs:label>
+            </rdf:Description>
+        </prov:wasDerivedFrom>
+        <osgeo:asGeoJSON>{"type": "Point", "coordinates": [15.484723449189916, 45.91723038027977]}</osgeo:asGeoJSON>
+        <osgeo:asWKT>POINT  (15.484723449189916, 45.91723038027977)</osgeo:asWKT>
+        <pleiades:start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"/>
+        <pleiades:end_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"/>
+    </pleiades:Location>
+    
+</rdf:RDF>

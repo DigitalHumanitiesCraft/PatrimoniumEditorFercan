@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="p300100100001" xml:space="preserve" xml:lang="lat" xml:base="ex-epidoctemplate.xml">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title type="inscription">Stèle bilingue de Genouilly</title>
+			<title type="corpus">RIIG</title>
+			<editor>
+				<persName xml:id="cruizdarasse"><forename>Coline</forename><surname>Ruiz Darasse</surname></persName>
+				
+			</editor>
+			<sponsor><orgName xml:id="petrae">PETRAE - Programme d'Enregistrement, Traitement et Reconnaissance Automatique en Épigraphie</orgName></sponsor>
+			<respStmt>
+				<resp when="2018">TEI Encoding</resp>
+				<persName xml:id="NPrevot" corresp="http://ausonius.u-bordeaux-montaigne.fr/annuaire?nathalie.prevot"><forename>Nathalie</forename><surname>Prévôt</surname></persName>
+			</respStmt>
+		</titleStmt>
+		<publicationStmt>
+			<authority>AUSONIUS - UMR 5607<address><addrLine>Maison de l'Archéologie</addrLine><addrLine>8, Esplanade des Antilles</addrLine><addrLine>33607 Pessac</addrLine></address>
+				<idno type="URI">http://ausonius.u-bordeaux-montaigne.fr/</idno>
+			</authority>
+			<date when="2018">2018</date>
+			<availability>
+				<licence target="https://creativecommons.org/licenses/by-nc-nd/2.0/fr/">
+					<p>Licence Creative Commons  Attribution - Pas d’Utilisation Commerciale - Pas de Modification 2.0 France (CC BY-NC-ND 2.0 FR)</p>
+				</licence>
+			</availability>
+			<idno type="URI">http://petrae.huma-num.fr/300100100001</idno>
+			<idno type="localID">30/1/1/1</idno>
+			<idno type="filename">300100100001</idno>
+			<idno type="corpus-number">1</idno>
+		</publicationStmt>
+		<sourceDesc>
+			<msDesc>
+				<msIdentifier>
+					<country>
+						<placeName type="modern" ref="http://www.geonames.org/3017382/france.html">France</placeName>
+					</country>
+					<region>
+						<placeName type="modern" ref="http://www.geonames.org/3027939/centre-val-de-loire.html">Centre-Val de Loire</placeName>
+					</region>
+					<settlement>
+						<placeName/>
+					</settlement>
+					<repository/>
+					<collection/>
+					<idno/>
+				</msIdentifier>
+				<msContents>
+					<summary>Dédicace votive</summary>
+				</msContents>
+				<physDesc>
+					<objectDesc>
+						<supportDesc>
+							<support>
+								<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/252">Stèle</objectType>
+								<material ref="http://www.eagle-network.eu/voc/material/lod/75">Grès</material>
+								<p> Stèle de grès grossièrement taillée</p>
+								<dimensions unit="cm">
+									<height/>
+									<width/>
+									<depth/>
+								</dimensions>
+								<rs type="statPreserv">Stèle de grès grossièrement taillée</rs>
+							</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>La face inscrite porte, à sa partie supérieure, d'une même main, un ensemble (A) de quatre lignes (commençant à 8 cm et s'achevant à 28 cm du sommet) ; en dessous de A, blanc de 20 cm ; puis, d'une autre main, sur 15 cm, un texte B de quatre lignes. Une fracture verticale du bord droit a légèrement mutilé le champ ; il manque une lettre à la fin de la l. 2 (restituer une finale ... o[ς], pareille aux deux finales -&amp;lt;em&amp;gt;os&amp;lt;/em&amp;gt;  de la l. 1, et aux deux finales -oς subsistantes des lignes 3, 4). Une fracture oblique du bord gauche a, plus sévèrement, mutilé (de plusieurs lettres) les débuts des lignes 1 et 2.. 
+								<rs type="statPreserv"/>
+								<dimensions>
+									<width unit="cm"/>
+									<height unit="cm"/>
+								</dimensions>
+							</layout>
+						</layoutDesc>
+					</objectDesc>
+					<handDesc>
+						<handNote>Précisons tout de suite qu'en dépit de Rhys, Dottin, Whatmough, le document n'est pas "trilingue". Il est tout entier en langue gauloise, à la seule exception du verbe grec εποει (substitué, par maniérisme, au verbe celtique αυουωτ à la l. 4). Document, donc, de langue gauloise, mais sous deux aspects graphiques : gallo-grec aux lignes 2-4, gallo-latin aux lignes 1 et 5-8</handNote>
+					</handDesc>
+				</physDesc>
+				<history>
+					<origin>
+						<origPlace>
+							<placeName type="ancient"/>
+							<placeName type="modern" ref="www.trismegistos.org/place/22636"/>
+							
+							<placeName type="provinceItalicRegion"/>
+						</origPlace>
+					</origin>
+					<provenance type="found">
+						<placeName ref="http://www.geonames.org/3017382/france.html" type="modernCountry">France</placeName>
+						<placeName ref="http://www.geonames.org/3027939/centre-val-de-loire.html" type="modernRegion">Centre-Val de Loire</placeName>
+						<placeName type="modernProvince"/>
+						<placeName type="ancientFindspot"/>
+						<rs type="circumstances">"Sur le point culminant d'une vaste lande communale, au nord-est du territoire de Genouilly, canton de Graçay (Cher), il existe une petite forteresse en terre, connue dans le pays sous le nom de Mouton ou Moton. M. Buhot de Kerses, qui pense avec raison que cette appellation est un diminutif du terme si répandu de Motte, a décrit le Mouton de Genouilly et en a donné le plan. C'est une enceinte rectangulaire, de 38 m de côté sur 32, protégée par un fossé peu profond de 8 m de largeur. Le 8 janvier 1894, des ouvriers terrassiers découvrirent sur le bord extérieur de ce fossé, un grand bloc en grès du pays, reposant sur des tuiles d'apparence romaine et qui portait huit lignes d'inscriptions." (Laugardière 1894, 127)</rs>
+					</provenance>
+				</history>
+			</msDesc>
+		</sourceDesc>
+	</fileDesc>
+	<revisionDesc>
+		<change when="2019-02-14" who="cruizdarasse">Coline Ruiz-Darasse</change>
+         <change when="2019-02-14" who="NP">programmatically created from Petrae 2.0</change>
+		
+	</revisionDesc>
+</teiHeader>
+<facsimile>
+		<graphic url="http://petrae.huma-num.fr/photos/RIIG/Genouilly_BTCH_1894_p_IX.jpg">
+            <desc type="copyright"/>
+            <desc type="author"/>
+            <desc type="licence">
+                    <ref target="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</ref>
+            </desc>
+		</graphic>
+		<graphic url="http://petrae.huma-num.fr/photos/RIIG/Genouilly.jpeg">
+            <desc type="copyright">© J. Gorrochategui</desc>
+            <desc type="author"/>
+            <desc type="licence">
+                    <ref target="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</ref>
+            </desc>
+		</graphic>
+		<graphic url="http://petrae.huma-num.fr/photos/RIIG/L-4_Aa-Ab.jpg">
+            <desc type="copyright"/>
+            <desc type="author"/>
+            <desc type="licence">
+                    <ref target="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</ref>
+            </desc>
+		</graphic>
+		<graphic url="http://petrae.huma-num.fr/photos/RIIG/L-4_B.jpg">
+            <desc type="copyright"/>
+            <desc type="author"/>
+            <desc type="licence">
+                    <ref target="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</ref>
+            </desc>
+		</graphic>
+</facsimile>
+<text>
+	<body>
+		<div type="edition" xml:lang="grc">
+			<div type="textpart" n="1">
+				<ab>
+					<lb n="1"/><supplied reason="lost"><reg><pc type="point">.</pc></reg><reg><pc type="point">.</pc></reg><reg><pc type="point">.</pc></reg> T</supplied><unclear>O</unclear>S · VIRILIOS
+					<lb n="2"/><supplied reason="lost"><reg><pc type="point">.</pc></reg><reg><pc type="point">.</pc></reg><reg><pc type="point">.</pc></reg> </supplied>τος · ουιριλλιο<supplied reason="lost">ς</supplied>
+				</ab>
+			</div>
+			<div type="textpart" n="2">
+				<ab>
+					<lb n="1"/>ανεουνος
+					<lb n="2"/>εποει
+				</ab>
+			</div>
+			<div type="textpart" n="3">
+				<ab>
+					<lb n="1"/>ELVONTIV
+					<lb n="2"/>IEVRV·ANEVNO
+					<lb n="3"/>OCLICNO·LVGVRI<unclear>X</unclear>
+					<lb n="4"/>ANEVNICNO
+				</ab>
+			</div>
+		</div>
+		<div type="apparatus">
+			<p>L'idionyme en ... <q>tos</q> n'est pas restituable. Il peut être de stock soit indigène soit romain (nous sommes au temps du <q>Doiros Segomari</q> de Couchey comme du <q>Marlialis Dannolali</q> d'Alise) ; si romain, il ne s'agit pas, en tout cas, d'un prénom : les vestiges de la lettre précédant τ à la l. 2 excluent qu'on songe à un <q>Quintos</q>  ou à un <q>Sextos</q>. La version en écriture grecque semble avoir occupé plus d'espace que la version en écriture latine : parce que ου est plus encombrant que <q>V</q>, et parce que la notation des géminées est facultative : les deux circonstances sont illustrées par ουιριλλιος/<q>VIRILIOS</q>. Le nom <q>Viri(l)los</q> du père est abondamment attesté (Ho. III  382 <q>sv</q>.). Ce nom (sur quoi, <q>GPN</q> 477) est un hypocoristique en -<q>i(l)lo</q>- des composés en <q>Viro</q>- (<q>KGP</q> 296)</p>
+		</div>
+		<div type="commentary">
+			<p/>
+		</div>
+		<div type="bibliography" subtype="edition">
+			<listBibl>
+				<bibl><ptr target="bib:RIG I"/>, *G-225</bibl>
+				<bibl><ptr target="bib:RIG II.1"/>, L-4.  [<ptr target="#CIL"/> XIII, n°1189 sv.</bibl>
+				<bibl><ptr target="#ILTG"/>, n° 160 sv.] Pour la grande stèle : <ptr target="bib:Lejeune 1980a"/>, p. 116-118, n° X. Pour I et II à  la fois :  <ptr target="bib:RIG I"/>, p. 329-339</bibl>
+				<bibl><ptr target="bib:Laugardière 1894"/>, p. 127-137 et pl. IX : photos</bibl>
+				<bibl><ptr target="bib:MSAC XX, 1894"/>, p. 1-16</bibl>
+				<bibl>Congrès archéologiques : <ptr target="bib:Bourges 1898"/>, p. 160-164. d'Arbois de Jubainville 1894, p. 236-237. <ptr target="#CIL"/> XIII-1 (1899) 1325 et 1326, avec compléments dans <ptr target="#CIL"/> XIII-4 (1916). <ptr target="bib:Rhys 1906"/>, p. 326-327 (n° XXXI a)</bibl>
+				<bibl><ptr target="bib:Rhys 1911"/>, p. 313-319 et pl. VIII (n° IV 1, 2). <ptr target="bib:Thurneysen 1908"/>, p. 558. <ptr target="bib:Dottin 1918"/>, 45, 46. Whatmough 1949, p. 10</bibl>
+				<bibl>puis <ptr target="bib:Whatmough 1950"/>, 145, 146. (Seuls de ces auteurs à avoir examiné les originaux : Laugardière en 1894, Rhys en 1909, Whatmough en 1929.)</bibl>
+			</listBibl>
+		</div>
+		<div type="bibliography" subtype="secondary">
+			<listBibl>
+				<bibl>Désignation du défunt (idionyme +  adj. patronymique en -ios) en fait, dans une présentation digraphe.  De même que dans nos dédicaces ou épitaphes bilingues (Verceil : <ptr target="bib:RIG II.1"/>, *E-2, Todi : <ptr target="bib:RIG II.1"/>, *E-5) le texte latin précède le texte gaulois, la graphie gallo-latine ici précède la graphie gallo-grecque : on veut assurer la pérennité du message, et on est à une époque où l'on sent déjà que l'avenir est du côté du latin</bibl>
+			</listBibl>
+
+
+		</div> 
+	</body>
+</text>
+</TEI>

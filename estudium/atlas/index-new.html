@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content">
+    <div class="container">
+        <div class="row" data-template="app:navBar"/>
+                    
+        <h1>Atlas patrimonii Caesaris</h1>
+                    <img src="/atlas/atlas-screenshot-600x258.jpg"/>
+        <hr/>
+            <div class="row">
+                
+                    <div class="col-xs-10 col-sm-10 col-lg-10">
+                        
+                        <p>The main obstacle for a research on imperial properties
+                            at the scale of the entire Roman empire is the current
+                            fragmentary knowledge of the sources. This is due to a
+                            deficit of general studies in the last century and to
+                            the continuous discovery of new epigraphic and
+                            papyrological sources. In order to solve this problem in
+                            the best possible way, the PATRIMONIVM project has
+                            created the <strong>
+                        <em>Atlas patrimonii Caesaris
+                                (APC)</em>
+                    </strong>, a relational database where
+                            all relevant evidence for the study of the imperial
+                            properties is stored. Information on the more or less
+                            precise localisation of the imperial properties has been
+                            extracted from the evidence and represented in a
+                            cartographic way.</p>
+                        
+                        <p>
+                    <em>APC</em> features five main components. Three are
+                            dedicated respectively to records for textual sources
+                            (literary, papyrological and epigraphic), places
+                            (document provenances, imperial estates, patrimonial
+                            districts, etc.), people (from peasants to procurators
+                            and freedmen in general). The remaining two contain the
+                            bibliographic references and the vocabulary (thesaurus)
+                            used in the database. The records of the different
+                            tables are linked and cross-searchable according to a
+                            number of criteria. This powerful and versatile tool
+                            finally allows us to manage all the pieces of relevant
+                            information scattered over a massive number of
+                            publications.</p>
+                        
+                        <p>
+                    <em>APC</em> is a large database with thousands of
+                            documents, places and people records and <strong>still remains
+                                under construction and development</strong>. While most of the
+                            sources for the reconstruction of the geography of
+                            imperial properties are already included, <strong>new documents
+                                are still added regularly, and modifications can be introduced into existing ones</strong>. In this firs version, <em>APC</em> should be mainly seen as a supporting tool for the forthcoming publications on the history of imperial properties in the Roman world and not yet as an independent publication. In the long term, the
+                            database will not simply contain raw data: translations,
+                            historical commentaries and bibliographic references
+                            will be provided for every textual source, while
+                            descriptions attached to the different geographical
+                            entities will include topographic and archaeological
+                            informations. The prosopography will include all
+                            attested imperial slaves and freedmen as well as all
+                            persons working in connection with the imperial
+                            properties (administrations, tenants, contractors
+                            etc.). <em>APC</em> is just starting, and this living project still has a long way to go!</p>
+                        
+                        <p>
+                    <em>APC</em> has been constructed following <a href="https://www.go-fair.org/fair-principles/                         " target="_blank">FAIR principles</a> and is
+                            using the Exist-db environment. APC has been built on Linked Open Data principles and aims at a large interoperability with other online databases and services. <strong>APC is still under development, links to Trismegistos, Pleiades and other projects are still very incomplete</strong>.</p>
+                        <p>
+                    <strong>Planned features</strong>: data as XML, complex and full-text search tools, more interactive maps (including with timeline)</p>
+                        
+                        <p>APC also includes the PATRIMONIVM
+                            Editor, a innovative tool for creating and annotating
+                            Epidoc documents with an easy to use interface that
+                            significantly reduces the learning curve needed to
+                            produce digital editions of epigraphic texts.</p>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-lg-2">
+                        
+                            <div class="row" style="margin: 0 auto;">
+                                <div class="smallSquare col-xs-1 col-sm-2 col-lg-2">
+                        <a href="/documents/list/" class="whiteLink">
+                            <i class="glyphicon glyphicon-file"/>
+                            <div style="display: block; margin: 2px;" data-template="app:documentCount" class=""/>Docs</a>
+                    </div>
+                                <div class="smallSquare col-xs-1 col-sm-2 col-lg-2">
+                        <a href="/people/list/" class="whiteLink">
+                            <i class="glyphicon glyphicon-user"/>
+                            <div style="display: block; margin: 2px;" data-template="app:peopleCount" class=""/>People</a>
+                    </div>
+                            </div>
+                            <div class="row" style="margin: 0 auto;">
+                                <!--<div class="" style="display: block; width: 30px; heigth: 30px; background-color: red;"/>-->
+                                <div class="">
+                                    <img style="display: block; margin: auto auto;" src="$nav-base/resources/images/logo-patrimonium-square.png" alt="Patrimonium logo" width="70"/>
+                            </div>
+                            </div>
+                            <div class="row" style="margin: 0 auto;">
+                                <div class="smallSquare col-xs-1 col-sm-2 col-lg-2">
+                        <a href="/places/list/" class="whiteLink">
+                            <i class="glyphicon glyphicon-pushpin"/>
+                            <div style="display: block; margin: 2px;" data-template="app:placesCount" class=""/> Places</a>
+                    </div>
+                                <div class="smallSquare col-xs-1 col-sm-2 col-lg-2">
+                        <a href="/map/" class="whiteLink">
+                            <i class="glyphicon glyphicon-globe"/>
+                            <br/>
+                            <br/>Map</a>
+                    </div>
+                </div>
+                        
+                    </div>
+            
+        </div>
+    </div>
+    <link rel="stylesheet" type="text/css" href="$ausohnum-lib/resources/css/ausohnumCommons.css"/>
+    <script>
+        $("#topheader").hide();
+        $("#logoForMenu").removeClass("hidden");
+        if($("#apcMenu").hasClass("active")){} else{$("#apcMenu").addClass("active");}
+        //$("#datanavbar-places").addClass("active");</script>
+</div>

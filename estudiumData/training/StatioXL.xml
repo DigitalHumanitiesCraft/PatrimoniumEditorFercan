@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>title of document</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>description of object/monument (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la">
+                <ab>
+                    <lb n="1"/> Statio splend <supplied reason="lost">idissimi</supplied>
+                    <lb n="2"/> <expan><abbr>uectigal</abbr><ex>is</ex></expan><expan><ex>quadragesimae</ex></expan>G<supplied reason="lost"><expan><abbr>all</abbr><ex>iarum</ex></expan><expan><abbr>Lug</abbr><ex>duni</ex></expan></supplied>
+                    <lb n="3"/> <expan><abbr>Conu</abbr>&gt;<ex>enarum</ex></expan>sub c<supplied reason="lost">ura</supplied> 
+                    <lb n="4"/> <del rend="erasure">procuratoris</del>
+                    <lb n="5"/> <expan><abbr>Aug</abbr><ex>usti</ex></expan><expan><abbr>n</abbr><ex>ostri</ex></expan>a Victo<supplied reason="lost">rino</supplied><supplied reason="lost">rino<expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied>
+                    <lb n="6"/> <expan><abbr>n</abbr><ex>ostri</ex></expan><expan><abbr>vern</abbr><ex>a</ex></expan><expan><ex>contrascriptore</ex></expan> restitut<supplied reason="lost">a</supplied><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"> cert="low"ad <unclear cert="low">so</unclear></supplied>
+ 
+                    <lb n="7"/> lum absumpta <unclear cert="low">e</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+        </div>      
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

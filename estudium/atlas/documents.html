@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page-apc.html" data-template-at="content">
+    <div class="container">
+        <div class="row" data-template="app:navBar"/>
+        <div class="row" data-template="app:lang">
+            <div lang="en" class="container-fluid">
+                <div>
+                    <h2>Browse documents</h2>
+                    <p>This page lists the <span data-template="app:documentsInListCount"/> documents
+                        included in the <em>Atlas Patrimonii Caesaris</em>. Use
+                        the search box to filter the list according to one or
+                        multiple criteria, such as title, provenance, province,
+                        edition (corpus abbreviation + number), keywords or
+                        external ID number. You can also filter by functions or
+                        administrative titles (e.g. procurator, adiutor), by
+                        type of imperial property (e.g. landed estate, quarry,
+                        mine) or by specific productions (e.g. vines, sheep).
+                        Broad epigraphic categories are also available (e.g.
+                        funerary monuments, sacred dedications).</p>
+
+                    <p>Latin epigraphic corpora are abbreviated according to the
+                        most commonly used practices. Abbreviations of Greek
+                        epigraphic corpora follow the <a href="http://www.britishepigraphysociety.org/uploads/9/7/3/4/9734305/checklistversion6_mai_2019.pdf" target="_blank">Checklist of Editions of Greek
+                            Inscriptions</a>. Papyrological publications are
+                        abbreviated according to the <a href="https://library.duke.edu/rubenstein/scriptorium/papyrus/texts/clist.html" target="_blank">Checklist of Greek, Latin, Demotic
+                            and Coptic Papyri, Ostraca and Tablets</a>.</p>
+
+                    <p>A complete list of keywords will be put online soon. The
+                        indexation of documents according to the different
+                        keywords is also ongoing, therefore search results could
+                        be partial. Searching capabilities, including textual
+                        search, will be significantly expanded in the next
+                        version of the <em>Atlas</em>.</p>
+                    <br/>
+                </div>
+
+
+                <div data-template="app:documentsList"/>
+            </div>
+            <div lang="fr" class="container-fluid">
+                <div>
+                    <h2>Parcourir la liste des Documents</h2>
+                    <p>Cette page présente la liste des <span data-template="app:documentsInListCount"/> documents
+                        inclus dans l'<em>Atlas Patrimonii Caesaris</em>.
+                        Utilisez le champ de recherche pour filtrer la liste
+                        selon un ou plusieurs critères, tels que le titre, la
+                        provenance, la province, l'édition (abréviation du
+                        corpus + numéro), les mots-clés ou le numéro
+                        d'identification externe. Vous pouvez également filtrer
+                        par fonctions ou titres administratifs (p. ex.
+                        procurateur, adiutor), par type de propriété impériale
+                        (p. ex. domaine foncier, carrière, mine) ou par
+                        productions spécifiques (p. ex. vignes, moutons). De
+                        catégories épigraphiques larges sont également
+                        disponibles (par exemple, les monuments funéraires, les
+                        dédicaces sacrées).</p>
+
+                    <p>Les corpus épigraphiques latins sont abrégés selon les
+                        usages les plus courants. Les abréviations des corpus
+                        épigraphiques grecs suivent la <a href="http://www.britishepigraphysociety.org/uploads/9/7/3/4/9734305/checklistversion6_mai_2019.pdf" target="_blank">Checklist of Editions of Greek
+                            Inscriptions</a>. Les publications papyrologiques sont
+                        abrégées selon la <a href="https://library.duke.edu/rubenstein/scriptorium/papyrus/texts/clist.html" target="_blank">Checklist of Greek, Latin, Demotic
+                            and Coptic Papyri, Ostraca and Tablets</a>.</p>
+
+                    <p>Une liste complète des mots-clés sera mise en ligne prochainement. L'indexation des documents selon les différents mots-clés est également en cours, les résultats de la recherche pourraient donc être partiels. Les possibilités de recherche, y compris la recherche textuelle, seront considérablement étendues dans la prochaine version de l'<em>Atlas</em>.</p>
+                    <p>Actuellement, les termes de recherche ne sont disponibles qu’en anglais.</p>
+                    <br/>
+                </div>
+
+
+                <div data-template="app:documentsList"/>
+            </div>
+        </div>
+    </div>
+    <script> $("#logoForMenu").removeClass("hidden");
+        if($("#apcMenu").hasClass("active")){}
+        else{$("#apcMenu").addClass("active");}
+        $("#datanavbar-documents").addClass("active");</script>
+</div>

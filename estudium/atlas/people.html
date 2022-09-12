@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page-apc.html" data-template-at="content">
+    <div class="container">
+
+        <div class="row" data-template="app:navBar"/>
+        <div class="row" data-template="app:lang">
+            <div lang="en" class="col-xs-12 col-sm-12 col-md-12">
+                <h2>Browse People</h2>
+                <p>This page lists all persons mentioned in the documentation
+                    included in the <em>Atlas Patrimonii Caesaris</em> and aspires to
+                    provide a complete prosopography of all imperial slaves and
+                    freedmen, as well as all persons involved in the
+                    administration or the exploitation of the <em>patrimonium
+                        Caesaris</em>: freedmen and equestrian procurators,
+                    contractors, workers. People attested in our documentation
+                    as interacting with the aforementioned categories (family
+                    members, friends, local magistrates/priests) are also
+                    listes. When their identification is possible, the ancient
+                    owners of specific imperial properties are also in this
+                    list.</p>
+                <p>Unknown persons are indicated as <em>Ignotus</em> or <em>Ignota</em>. Slaves
+                    and freedmen/freedwomen of the emperors are listed as
+                    imperial slave or imperial freedman/freedwoman, while slaves
+                    and freedmen of private individuals are listed as such. Rank
+                    (city councillor, equestrian, senatorial) is included only
+                    if relevant. Names of freedmen/freedwomen are given
+                    according to how they are indicated in the sources: names
+                    only found in Greek inscriptions use Greek terminations
+                    (e.g. Adrastos), while those found (also) in Latin documents
+                    use latin terminations (e.g. Adrastus). <em>Praenomina</em> and
+                    <em>Nomina</em> are given only if explicitly mentioned on the
+                    document, even when they can be reconstructed from other
+                    elements. Functions and titles are given in Latin, even if
+                    the document mentioning the person is in Greek. When a Greek
+                    term has no clear Latin equivalent, the original
+                    transliterated word is used. The dates associated to each
+                    persons are automatically derived from the datation of the
+                    documents in which they are mentioned. This means that in
+                    some cases (e.g. when an emperor is mentioned in a document
+                    dating after his death) dates do not correspond to the
+                    actual lifespan of the person.</p>
+                <div data-template="app:peopleList"/>
+            </div>
+            <div lang="fr" class="col-xs-12 col-sm-12 col-md-12">
+                <h2>Parcourir la liste des Personnes</h2>
+                <p>Cette page liste toutes les personnes mentionnées dans la
+                    documentation incluse dans l'<em>Atlas Patrimonii
+                        Caesaris</em> et aspire à fournir une prosopographie
+                    complète de tous les esclaves et affranchis impériaux, ainsi
+                    que de toutes les personnes impliquées dans l'administration
+                    ou l'exploitation du <em>patrimonium Caesaris</em> : affranchis et
+                    procurateurs équestres, entrepreneurs, ouvriers… Les
+                    personnes attestées dans notre documentation comme
+                    interagissant avec les catégories susmentionnées (membres de
+                    la famille, amis, magistrats/prêtres locaux) sont également
+                    listés. Lorsque leur identification est possible, les
+                    anciens propriétaires de propriétés impériales spécifiques
+                    figurent également dans cette liste.</p>
+                <p>Les personnes inconnues sont indiquées comme <em>Ignotus</em> ou
+                    <em>Ignota</em>. Les esclaves et les affranchis des empereurs sont
+                    répertoriés comme esclaves impériaux ou affranchis
+                    impériaux, tandis que les esclaves et les affranchis des
+                    particuliers sont répertoriés comme tels. Le rang (membre de
+                    l’ordo décurional, équestre, sénatorial) n'est indiqué que
+                    s'il est pertinent. Les noms des affranchis sont reportés
+                    d’après la forme attestée dans les sources : les noms
+                    trouvés uniquement dans des inscriptions grecques utilisent
+                    des terminaisons grecques (par exemple Adrastos), tandis que
+                    ceux trouvés (également) dans les documents latins utilisent
+                    des terminaisons latines (par exemple Adrastus). Les
+                    <em>Praenomina</em> et <em>Nomina</em> ne sont donnés que s'ils sont
+                    explicitement mentionnés sur le document, même s'ils
+                    pourraient être reconstitués à partir d'autres éléments. Les
+                    fonctions et les titres sont donnés en latin, même si le
+                    document mentionnant la personne est en grec. Lorsqu'un
+                    terme grec n'a pas d'équivalent latin, le mot original
+                    translittéré est utilisé. Les dates associées à chaque
+                    personne sont automatiquement calculées sur la base de la
+                    datation des documents dans lesquels elles sont mentionnées.
+                    Cela signifie que dans certains cas (par exemple, lorsqu'un
+                    empereur est mentionné dans un document datant après sa
+                    mort), les dates ne correspondent pas à la durée de vie
+                    réelle de la personne.</p>
+                <div data-template="app:peopleList"/>
+            </div>
+        </div>
+    </div>
+    <script> $("#logoForMenu").removeClass("hidden");
+        if($("#apcMenu").hasClass("active")){}
+        else{$("#apcMenu").addClass("active");}
+        $("#datanavbar-people").addClass("active");</script>
+</div>

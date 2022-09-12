@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <skos:ConceptScheme rdf:about="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/">
+        <dc:title type="full">EAGLE Vocabulary - State of preservation</dc:title>
+        <dc:title type="short">statepreserv</dc:title>
+        <skos:hasTopConcept rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <dc:creator>Eagle consortium</dc:creator>
+        <dc:creator>epigraphy.info Community</dc:creator>
+        <dc:source rdf:resource="https://www.eagle-network.eu/voc/statepreserv/">EAGLE Vocabulary - State of preservation</dc:source>
+        <dc:publisher>Ausonius Institute</dc:publisher>
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <skosThesau:admin status="published"/>
+    </skos:ConceptScheme>
+    <skos:Collection xml:id="c25305" rdf:about="https://ausohnum.huma-num.fr/concept/c25305">
+        <skos:prefLabel xml:lang="en">EAGLE Vocabulary - State of preservation</skos:prefLabel>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25306"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25307"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25308"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25309"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25310"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25311"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25312"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25313"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25314"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25315"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25316"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25317"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25318"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25319"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25320"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25321"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25322"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25323"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25324"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25325"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25326"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25327"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>
+    </skos:Collection>
+    <skos:Concept xml:id="c25306" rdf:about="https://ausohnum.huma-num.fr/concept/c25306">
+        <skos:prefLabel xml:lang="en">Broken</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">stark bestoßen</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">tit. mutilum</skos:prefLabel>
+        <skos:altLabel xml:lang="la">in transversum / in duas partes / in permultas partes fractus, a, um</skos:altLabel>
+        <skos:altLabel xml:lang="la">a dextra / a sinistra / infra / supra / a tergo fractus / imminutus / ad posteriorem usum abscisus</skos:altLabel>
+        <skos:altLabel xml:lang="de">quer / in zwei Teile / vielfach gebrochen</skos:altLabel>
+        <skos:altLabel xml:lang="de">rechts / links / unten / oben / hinten gebrochen / beschädigt / zur späteren Verwendung verkürzt</skos:altLabel>
+        <skos:altLabel xml:lang="es">rota</skos:altLabel>
+        <skos:altLabel xml:lang="it">danneggiata</skos:altLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:scopeNote xml:lang="it">Documento mutilo, di cui si conserva pidella metdell'iscrizione completa.</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/4">
+                <skos:prefLabel xml:lang="en">Broken</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/4</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/12">
+                <skos:prefLabel xml:lang="de">stark bestoßen</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/12</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/11">
+                <skos:prefLabel xml:lang="la">tit. mutilum</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/11</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c25307" rdf:about="https://ausohnum.huma-num.fr/concept/c25307">
+        <skos:prefLabel xml:lang="en">Complete</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">tit. integer</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">vollständig</skos:prefLabel>
+        <skos:altLabel xml:lang="it">completa</skos:altLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:scopeNote xml:lang="it">Testo integralmente conservato.</skos:scopeNote>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/2">
+                <skos:prefLabel xml:lang="en">Complete</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/2</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/13">
+                <skos:prefLabel xml:lang="la">tit. integer</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/13</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/14">
+                <skos:prefLabel xml:lang="de">vollständig</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/14</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c25308" rdf:about="https://ausohnum.huma-num.fr/concept/c25308">
+        <skos:prefLabel xml:lang="en">contigous</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/24">
+                <skos:prefLabel xml:lang="en">contigous</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/24</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c25309" rdf:about="https://ausohnum.huma-num.fr/concept/c25309">
+        <skos:prefLabel xml:lang="en">Good</skos:prefLabel>
+        <skos:altLabel xml:lang="es">bueno</skos:altLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/1">
+                <skos:prefLabel xml:lang="en">Good</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/1</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c25310" rdf:about="https://ausohnum.huma-num.fr/concept/c25310">
+        <skos:prefLabel xml:lang="en">Incomplete</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">fragmentiert, Fragment(e)</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">tit. fragmentum</skos:prefLabel>
+        <skos:altLabel xml:lang="es">incompleta</skos:altLabel>
+        <skos:altLabel xml:lang="la">desiderantur nonnullae particulae</skos:altLabel>
+        <skos:altLabel xml:lang="de">einige Teile fehlen</skos:altLabel>
+        <skos:altLabel xml:lang="la">restant fastigii et pulvinorum vestigia</skos:altLabel>
+        <skos:altLabel xml:lang="de">es gibt Spuren von Giebeldach und Polstern</skos:altLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:scopeNote xml:lang="it">Documento frammentario, di cui si conserva meno della metdell'intera iscrizione.</skos:scopeNote>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/5">
+                <skos:prefLabel xml:lang="en">Incomplete</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/5</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/16">
+                <skos:prefLabel xml:lang="de">fragmentiert, Fragment(e)</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/16</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/15">
+                <skos:prefLabel xml:lang="la">tit. fragmentum</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/15</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c25311" rdf:about="https://ausohnum.huma-num.fr/concept/c25311">
+        <skos:prefLabel xml:lang="en">intact</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/23">
+                <skos:prefLabel xml:lang="en">intact</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/23</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c25312" rdf:about="https://ausohnum.huma-num.fr/concept/c25312">
+        <skos:prefLabel xml:lang="en">Lost</skos:prefLabel>
+        <skos:altLabel xml:lang="es">perdido</skos:altLabel>
+        <skos:altLabel xml:lang="de">verschollen</skos:altLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:scopeNote xml:lang="it">Documento perduto.</skos:scopeNote>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/9">
+                <skos:prefLabel xml:lang="en">Lost</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/9</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c25313" rdf:about="https://ausohnum.huma-num.fr/concept/c25313">
+        <skos:prefLabel xml:lang="en">lost but recorded</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/10">
+                <skos:prefLabel xml:lang="en">lost but recorded</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/10</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c25314" rdf:about="https://ausohnum.huma-num.fr/concept/c25314">
+        <skos:prefLabel xml:lang="en">non-contigous</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/25">
+                <skos:prefLabel xml:lang="en">non-contigous</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/25</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c25315" rdf:about="https://ausohnum.huma-num.fr/concept/c25315">
+        <skos:prefLabel xml:lang="en">Probably complete</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:scopeNote xml:lang="it">Documento ipoteticamente integro.</skos:scopeNote>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/3">
+                <skos:prefLabel xml:lang="en">Probably complete</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/3</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c25316" rdf:about="https://ausohnum.huma-num.fr/concept/c25316">
+        <skos:prefLabel xml:lang="en">tit. fragmenta inter se coniuncta</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:scopeNote xml:lang="it">Documento frammentario ricomposto da frammenti contigui, cioaventi in comune un tratto di area fratturata.</skos:scopeNote>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/6">
+                <skos:prefLabel xml:lang="en">tit. fragmenta inter se coniuncta</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/6</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c25317" rdf:about="https://ausohnum.huma-num.fr/concept/c25317">
+        <skos:prefLabel xml:lang="la">tit. fragmenta inter se non coniuncta</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:scopeNote xml:lang="it">Documento frammentario ricomposto da frammenti non contigui, che non hanno in comune nessun tratto di area fratturata.</skos:scopeNote>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/7">
+                <skos:prefLabel xml:lang="la">tit. fragmenta inter se non coniuncta</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/7</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c25318" rdf:about="https://ausohnum.huma-num.fr/concept/c25318">
+        <skos:prefLabel xml:lang="la">tit. fragmenta partim tantum inter se coniuncta</skos:prefLabel>
+        <skos:altLabel xml:lang="la">fragmenta (ex parte) inter se coniuncta</skos:altLabel>
+        <skos:altLabel xml:lang="de">Fragmente, die (zum Teil) aneinander passen</skos:altLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:scopeNote xml:lang="it">Documento frammentario ricomposto da frammenti solo parzialmente congiungibili tra loro.</skos:scopeNote>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/8">
+                <skos:prefLabel xml:lang="la">tit. fragmenta partim tantum inter se coniuncta</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/8</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c25319" rdf:about="https://ausohnum.huma-num.fr/concept/c25319">
+        <skos:prefLabel xml:lang="la">nulla vestigia tituli discerni possunt</skos:prefLabel>
+        <skos:altLabel xml:lang="de">es sind keine Spuren einer Inschrift auszumachen</skos:altLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/26">
+                <skos:prefLabel xml:lang="la">nulla vestigia tituli discerni possunt</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/26</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c25320" rdf:about="https://ausohnum.huma-num.fr/concept/c25320">
+        <skos:prefLabel xml:lang="la">de titulo nec vola nec vestigium</skos:prefLabel>
+        <skos:altLabel xml:lang="de">von der Inschrift gibt es keine Spur</skos:altLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/27">
+                <skos:prefLabel xml:lang="la">de titulo nec vola nec vestigium</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/27</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c25321" rdf:about="https://ausohnum.huma-num.fr/concept/c25321">
+        <skos:prefLabel xml:lang="la">nihil legi potest nisi vestigia infirmissima</skos:prefLabel>
+        <skos:altLabel xml:lang="de">es sind nur ganz schwache Spuren lesbar</skos:altLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/28">
+                <skos:prefLabel xml:lang="la">nihil legi potest nisi vestigia infirmissima</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/28</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c25322" rdf:about="https://ausohnum.huma-num.fr/concept/c25322">
+        <skos:prefLabel xml:lang="la">titulus lapide scindendo periisse videtur</skos:prefLabel>
+        <skos:altLabel xml:lang="de">die Inschrift scheint durch das Zerschneiden des Steins verloren gegangen zu sein</skos:altLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/29">
+                <skos:prefLabel xml:lang="la">titulus lapide scindendo periisse videtur</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/29</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c25323" rdf:about="https://ausohnum.huma-num.fr/concept/c25323">
+        <skos:prefLabel xml:lang="la">quo labore pars tituli deleta esse videtur</skos:prefLabel>
+        <skos:altLabel xml:lang="de">dabei scheint ein Teil der Inschrift zerstört worden zu sein</skos:altLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/30">
+                <skos:prefLabel xml:lang="la">quo labore pars tituli deleta esse videtur</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/30</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c25324" rdf:about="https://ausohnum.huma-num.fr/concept/c25324">
+        <skos:prefLabel xml:lang="la">..., quorum inscriptiones prae vetustate legi nequeunt</skos:prefLabel>
+        <skos:altLabel xml:lang="de">deren Inschriften können des Alters wegen nicht gelesen werden</skos:altLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/31">
+                <skos:prefLabel xml:lang="la">..., quorum inscriptiones prae vetustate legi nequeunt</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/31</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c25325" rdf:about="https://ausohnum.huma-num.fr/concept/c25325">
+        <skos:prefLabel xml:lang="la">undique aratri vomere laesus</skos:prefLabel>
+        <skos:altLabel xml:lang="de">allseits von einer Pflugschar beschädigt</skos:altLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/32">
+                <skos:prefLabel xml:lang="la">undique aratri vomere laesus</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/32</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c25326" rdf:about="https://ausohnum.huma-num.fr/concept/c25326">
+        <skos:prefLabel xml:lang="la">parte antica supra a dextra mutilus / mutilatus / adesus</skos:prefLabel>
+        <skos:altLabel xml:lang="de">auf der Voderseite rechts beschädigt / beschädigt / angegriffen</skos:altLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/33">
+                <skos:prefLabel xml:lang="la">parte antica supra a dextra mutilus / mutilatus / adesus</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/33</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c25327" rdf:about="https://ausohnum.huma-num.fr/concept/c25327">
+        <skos:prefLabel xml:lang="la">in fronte fracturis rimisque laesus</skos:prefLabel>
+        <skos:altLabel xml:lang="de">vorne durch Brüche und Risse beschädigt</skos:altLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c25305"/>
+        <skos:scopeNote xml:lang="en">Also listed by Anne Glock from volumes II/7 (Corduba); VI 8, 2 and 3 (Rome); XIII (Gaul and Germania); XVII/4,1 (Milestones) in CIL</skos:scopeNote>
+        <skos:exactMatch>
+            <skos:Concept rdf:resource="https://www.eagle-network.eu/voc/statepreserv/lod/34">
+                <skos:prefLabel xml:lang="la">in fronte fracturis rimisque laesus</skos:prefLabel>
+                <skos:notation>https://www.eagle-network.eu/voc/statepreserv/lod/34</skos:notation>
+                <skos:inScheme rdf:resource="https://www.eagle-network.eu/voc/statepreserv/"/>
+            </skos:Concept>
+        </skos:exactMatch>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
+        <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
+        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+    </skos:Concept> 
+</rdf:RDF>

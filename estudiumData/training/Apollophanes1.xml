@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>title of document</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>description of object/monument (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                    <lb n="1"/> <supplied reason="lost">Αὐτ</supplied>οκρ<supplied reason="lost">άτορι Καί</supplied>σαρι
+                    <lb n="2"/> <supplied reason="lost">θ</supplied>εῶι θεοῦ <supplied reason="lost">υἱῶι, Σ</supplied>εβαστῷ 
+                    <lb n="3"/>καὶ Τιβερίῳ Καίσαρι· καὶ Γε<supplied reason="lost">ρ</supplied>
+                    <lb n="4" break="no"/>μανικῶι Καίσαρι· καὶ 
+                    <lb n="5"/>Δρούσωι Καίσαρι· Γάιος Ἰ<supplied reason="lost">ού</supplied>
+                    <lb n="6" break="no"/>λιος Σεβαστοῦ Καίσα
+                    <lb n="7" break="no"/>ρος ἀπελεύθερος Ἀπο<supplied reason="lost">λ</supplied>
+                    <lb n="8" break="no"/><supplied reason="lost">λ</supplied>οφάνης ὁ ἐπὶ τῶν κλ<supplied reason="lost">η</supplied>
+                    <lb n="9" break="no"/><supplied reason="lost">ρ</supplied>ονομιῶν φροντιστή<supplied reason="lost">ς</supplied>
+                    <lb n="10"/><unclear>τ̣</unclear>ε ὤ<supplied reason="lost">ν</supplied> τὰς τοῦ <supplied reason="lost">Σ</supplied>εβασ
+                    <lb n="11" break="no"/>τοῦ χ<supplied reason="lost">ρ</supplied>ίας <supplied reason="lost">ἀνέθη</supplied>κεν <supplied reason="lost">ἱ</supplied>
+                    <lb n="12" break="no"/>ερὰν <supplied reason="lost">κ</supplied>τῆσιν καὶ τὰ ἐν α<supplied reason="lost">ὐ</supplied>
+                    <lb n="13" break="no"/>τῇ σώματα καὶ θρέμ
+                    <lb n="14" break="no"/>ματα καὶ τἆλλα ἔπ<supplied reason="lost">ι</supplied>
+                    <lb n="15" break="no"/>πλα καὶ τὰ προσό<supplied reason="lost">ν</supplied>
+                    <lb n="16"/>τα πάντα τῷ τε ἀγρῷ 
+                    <lb n="17"/>καὶ τἆλλα πάντα, τὰ ὄ<supplied reason="lost">ν</supplied> 
+                    <lb n="18" break="no"/>τα ἐσόμενά τε τῆς 
+                    <lb n="19"/>Φεραϊκῆς
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

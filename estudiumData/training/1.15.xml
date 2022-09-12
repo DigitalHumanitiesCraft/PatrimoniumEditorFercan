@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://www.stoa.org/epidoc/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="p1.15">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+                <title xml:lang="ru">Фрагменты общественной надписи</title>
+                <title xml:lang="en">Public inscription</title>
+                <editor xml:id="ip" role="translator">
+                    <persName xml:lang="ru">Ирина<forename/>
+                        <surname>Полинская</surname>
+                    </persName>
+                    <persName xml:lang="en">
+                        <forename>Irene</forename>
+                        <surname>Polinskaya</surname>
+                    </persName>
+                </editor>
+            </titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.7</idno>
+            <idno type="filename">1.15</idno>
+            <idno type="PE">PE1000007</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru" n="2">
+                     <repository>Белгород-Днестровский краеведческий музей</repository>
+                     <idno>А-7711, КП-7743</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en" n="2">
+                     <repository>Belgorod-Dnestrovsky Regional Studies Museum</repository>
+                     <idno>А-7711, КП-7743</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc15" cert="low">
+                     <seg xml:lang="ru">Общественная надпись</seg>
+                     <seg xml:lang="en">Public inscription</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор серый.</material>
+                           <material xml:lang="en">Marble, grey.</material>
+                           <p xml:lang="ru">Лицевой фас отполирован, но сильно поврежден длительным
+                              трением, оборотный и правый фасы обработаны грубыми сколами, остальные
+                              оббиты. Сохранилось два не сходящихся встык фрагмента, оба принадлежат
+                              правой части плиты.</p>
+                           <p xml:lang="en">The front was originally polished, but is much damaged due to rubbing, the back and right sides are roughly picked, other sides
+                           are broken off. Two non-joining fragments survive, both from the right half of the panel.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира.</seg>
+                        <seg xml:lang="en">Tyras.</seg>
+                     </origPlace>
+                     <origDate notBefore="0151" notAfter="0200" evidence="Палеография">
+                        <seg xml:lang="ru">2-я пол. II в. н.э.</seg>
+                        <seg xml:lang="en">2nd half of II century C.E.</seg>
+                     </origDate>
+                  </origin>
+               </history>
+
+               <msPart n="1">
+                  <msIdentifier/>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <dimensions>
+                                 <height unit="cm">23,0</height>
+                                 <width unit="cm">20,0</width> <!-- или 21,0 -->
+                                 <depth unit="cm">6,5</depth> <!-- или 8,0 (по данным В.В. Латышева и Э.Р. фон Штерна). -->
+                              </dimensions>
+                           </support>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>
+                              <seg xml:lang="ru">Лицевой фас. Сохранился правый край, остальные отбиты. Размеры полей: правое 2,0.</seg>
+                              <seg xml:lang="en">On the front. The right side is preserved, others are broken off. Margins: right 2,0.</seg>
+                              <dimensions/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>
+                           <seg xml:lang="ru">Буквы вырезаны неглубоко по линиям предварительной разметки, применяются лигатуры. 
+                              Среднее расстояние между строк: Неизвестно.</seg>
+                           <seg xml:lang="en">Letters are shollow, cut over ruled lines. Ligatures. Average distance between lines: unknown.</seg>
+                           <height unit="cm">1,2</height>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <provenance type="found" n="1">
+                        <seg xml:lang="ru">
+                           <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovsky">Белгород-Днестровский (Аккерман).</placeName>
+                           <rs type="circumstances">Обнаружена в 1900 г. при строительстве пристани.</rs>
+                           <rs type="context">Между крепостью и лиманом на гласисе крепости.</rs>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName type="ancientFindspot">Belgorod-Dnestrovsky.</placeName>
+                           <rs type="circumstances">Found in 1900, during the construction of a pier.</rs>
+                           <rs type="context">Between the fortress and the bay, on the glacis of the fortress.</rs>
+                        </seg>
+                     </provenance>
+                     <provenance type="observed" n="1">
+                        <seg xml:lang="ru">Неизвестно с 1963 г., до 1941 г. хранился в Одесском
+                           археологическом музее.</seg>
+                        <seg xml:lang="en">Unkown since 1963; prior to 1941 - at the Odessa Archaeological Museum.</seg>
+                     </provenance>
+                     <provenance type="observed" subtype="autopsy" n="1">
+                        <seg xml:lang="ru">Non vidi.</seg>
+                        <seg xml:lang="en">Non vidi.</seg>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart n="2">
+                  <msIdentifier/>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <dimensions>
+                                 <height unit="cm">19,7</height>
+                                 <width unit="cm">20,0</width>
+                                 <depth unit="cm">7,0-7,2</depth>
+                              </dimensions>
+                           </support>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>
+                              <seg xml:lang="ru">Лицевой фас. Оббито со всех сторон, кроме правой; сильно вытерто.</seg>
+                              <seg xml:lang="en">On the front. Broken off on all sides, except the right. Considerably defaced.</seg>
+                              <dimensions>
+                                 <height unit="cm">17,8</height>
+                                 <width unit="cm">17,0</width>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>
+                           <seg xml:lang="ru">Буквы вырезаны глубоко и тщательно, по линиям предварительной разметки, еще заметным на камне, некоторые, но не все,
+                              украшены небольшими апексами. Альфа преимущественно с прямой горизонтальной гастой, но иногда с ломаной, правый штрих далеко выступает
+                              за место пересечения с левым. Ножки омеги как правило расположены не горизонтально, а под небольшим углом, но в некоторых случаях
+                              горизонтально. Вертикальная гаста фи далеко выступает за пределы строки сверху и снизу. Применяются лигатуры и словоделители в виде точек,
+                              расположенных посередине строки. Среднее расстояние между строк: 0,5.</seg>
+                           <seg xml:lang="en">Letters are deeply and carefully cut, following ruled lines, still visible on the stone. Some,  but not all, letters
+                              have serifs. Alpha predominantly with straight, sometimes with broken crossbar; alpha with projecting right hasta. Omega's horizontals tilt upwards, 
+                              but sometime lie flat. Phi with up and down extended vertical. Ligatures; word divisions in the shape of dots at midpoint in line height.
+                              Average distance between lines: 0,5cm.</seg>
+                           <height unit="cm">1,0-1,2</height>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <provenance type="found" n="2">
+                        <seg xml:lang="ru">
+                           <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovsky">Белгород-Днестровский.</placeName>
+                           <rs type="circumstances">Обнаружен в сентябре 1958 г.,  тогда же поступила в музей. В инвентарную книгу камень
+                              внесен 7 июня 1978 г.</rs>
+                           <rs type="context">При строительных работах между крепостью и современным городом в начале Портовой улицы, у
+                              обрыва к лиману.</rs>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName type="ancientFindspot">Belgorod-Dnestrovsky.</placeName>
+                           <rs type="circumstances">Found in 1958; received by the museum at the same time. Entered in the inventory ledger on June 7, 1978.</rs>
+                           <rs type="context">Вuring construction works between the fortress and the modern city, at the beginning of Portovaya (Harbour) street, 
+                              by the cliffside facing the bay.</rs>
+                        </seg>
+                     </provenance>
+                     <provenance type="observed" n="2">
+                        <seg xml:lang="ru">Белгород-Днестровский.</seg>
+                        <seg xml:lang="en">Belgorod-Dnestrovsky.</seg>
+                     </provenance>
+                     <provenance type="observed" subtype="autopsy" n="2">
+                        <seg xml:lang="ru">А.И. Иванчик, <date when="2006-08">август 2006</date>.</seg>
+                        <seg xml:lang="en">A. I. Ivantchik, <date when="2006-08">August 2006</date>.</seg>
+                     </provenance>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+    
+    <charDecl>
+        <glyph xml:id="dipunct">
+            <charProp>
+                <localName>glyph-display</localName>
+                <value>:</value>
+            </charProp>
+            <charProp>
+                <localName>text-display</localName>
+                <value>dipunct</value>
+            </charProp>
+        </glyph>
+        <glyph xml:id="stop">
+            <charProp>
+                <localName>glyph-display</localName>
+                <value>•</value>
+            </charProp>
+            <charProp>
+                <localName>text-display</localName>
+                <value>stop</value>
+            </charProp>
+        </glyph>
+        <glyph xml:id="leaf">
+            <charProp>
+                <localName>glyph-display</localName>
+                <value>❦</value>
+            </charProp>
+            <charProp>
+                <localName>text-display</localName>
+                <value>leaf</value>
+            </charProp>
+        </glyph>
+        <glyph xml:id="stauros">
+            <charProp>
+                <localName>glyph-display</localName>
+                <value>+</value>
+            </charProp>
+            <charProp>
+                <localName>text-display</localName>
+                <value>stauros</value>
+            </charProp>
+        </glyph>
+        <glyph xml:id="staurogram">
+            <charProp>
+                <localName>glyph-display</localName>
+                <value>⳨</value>
+            </charProp>
+            <charProp>
+                <localName>text-display</localName>
+                <value>staurogram</value>
+            </charProp>
+        </glyph>
+        <glyph xml:id="denarius">
+            <charProp>
+                <localName>glyph-display</localName>
+                <value>𐆖</value>
+            </charProp>
+            <charProp>
+                <localName>text-display</localName>
+                <value>denarius</value>
+            </charProp>
+        </glyph>
+        <glyph xml:id="chi-rho">
+            <charProp>
+                <localName>glyph-display</localName>
+                <value>☧</value>
+            </charProp>
+            <charProp>
+                <localName>text-display</localName>
+                <value>chi-rho</value>
+            </charProp>
+        </glyph>
+    </charDecl>
+</encodingDesc>
+      
+      <!-- volNum = ﻿10-->
+      <revisionDesc>
+         <change when="2016-08-25" who="SS">encoded metadata</change>
+         <change when="2016-08-02" who="SS">encoded Leiden</change>
+         <change when="2016-05-18" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="10.7-1">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+         <graphic url="10.7-2">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl n="1">
+               <bibl n="L1"><!-- Штерн 1901 -->
+                        <ptr target="bib:b0888"/>, <citedRange>3, № 2</citedRange>
+                    </bibl>
+               <bibl n="2"><!-- IOSPE -->
+                        <ptr target="bib:IOSPE"/> <citedRange>IV, add. n° 452</citedRange>
+                    </bibl>
+               <bibl n="2.1"><!-- IOSPE I2 -->
+                        <ptr target="bib:IOSPE2"/>, <citedRange>3</citedRange>
+                    </bibl>
+            </listBibl>
+           <listBibl n="2">
+              <bibl n="L1"><!-- Карышковский 1963 -->
+                        <ptr target="bib:b0885"/>, <citedRange>102-103, № 1, рис. 1-2</citedRange>
+                    </bibl>
+           </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <div type="textpart" subtype="fragment" n="1">
+               <ab>
+               		<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><w part="M">ωρισ</w><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost">ε</supplied>ιν</w> 
+                                             <w>κατὰ</w> <w>τὴν</w> <w>συνήθει
+               		<lb n="3" break="no"/><supplied reason="lost">αν</supplied></w><gap reason="lost" extent="unknown" unit="character"/><w part="F">σια</w> 
+                                             <w>μισθὸν</w> <w>λαμβά
+               		<lb n="4" break="no"/><supplied reason="lost">ν</supplied></w><gap reason="lost" extent="unknown" unit="character"/><w part="F">ν</w> 
+                                             <w>οἱ</w> <w>βάρβαροι</w> <w>φορτία</w>
+               	         <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost">κατ</supplied>ακλεῖσαι</w> <w>ἐπὶ</w> <w>τὸ</w> <w part="I">αὔ</w>
+               		<lb n="6" break="no"/><gap reason="lost" extent="unknown" unit="character"/><w>οἱ</w> <w>στρατιῶται</w> <w>ὑπὲρ</w>
+               		<lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost">κατ</supplied>ατιθέσθωσαν</w> <w>οἱ</w> <w>τρα
+               		<lb n="8" break="no"/><supplied reason="lost" cert="low">πεζῖται</supplied></w><gap reason="lost" extent="unknown" unit="character"/><w part="F">ωσαν</w> 
+                                                <w>χαρακτῆρα</w> <w part="I">ἔχον
+               		<lb n="9" break="no"/><supplied reason="lost">τ</supplied></w><gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost">χα</supplied>λκοῦν</w> <w>ἢ</w> 
+                                             <w>σιδηροῦν</w> <w>ἢ</w>
+               		<lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><w>ποιήσαντα</w> <w>ὁ</w> <w part="I">ἑκατον</w>
+               		<lb n="11" break="no"/><gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost">οἱ</supplied></w> 
+                                             <w><supplied reason="lost">ξ</supplied>ένοι</w> <w>αὐθημερὸν</w> <w part="I">ἐκκα</w>
+               		<lb n="12" break="no"/><gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost">ἡμέ</supplied>ραις</w>· 
+                                                <w>εἰ</w> <w>δὲ</w> <w>εἶεν</w> <w>ξένοι</w> <w>ἐκ</w>
+               		<lb n="13"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ΤΑΙ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="14"/><gap reason="lost" extent="unknown" unit="line"/>
+               </ab>
+            </div>
+               		
+            <div type="textpart" subtype="fragment" n="2">
+               <ab>   		
+               		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>Ε</unclear>ΙΤ<unclear>ΕΛΕ</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><w><unclear>ἐ</unclear>ν</w> 
+                                             <w>τῷ</w> <w>ἐπιφανε<unclear>στ</unclear><supplied reason="lost">ά</supplied>
+               		<lb n="3" break="no"/><supplied reason="lost">τῳ</supplied></w> <supplied reason="lost"><w>τόπῳ</w></supplied><gap reason="lost" extent="unknown" unit="character"/><w part="F">σα</w> 
+                                             <w>ὅθεν</w> <w part="I">ἀναγνωσ</w>
+               		<lb n="4" break="no"/><gap reason="lost" extent="unknown" unit="character"/><w part="F"><unclear>λ</unclear>ατων</w> 
+                                             <w><unclear>στ</unclear><supplied reason="lost">ρ</supplied><unclear>α</unclear>τιώτῃ</w> <g ref="#stop"/>
+               		<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost">στρα</supplied><unclear>τ</unclear>ιώτης</w> 
+                                             <orig><unclear>Ρ</unclear></orig><gap reason="lost" quantity="2" unit="character"/><orig><unclear>Ο</unclear>ΤΗΚΑΤ<unclear>Α</unclear></orig>
+               		<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><w part="I"><supplied reason="lost">λ</supplied><unclear>αμβ</unclear>αν</w><gap reason="lost" extent="unknown" unit="character"/><w part="F">ας</w> <g ref="#stop"/> <orig>ΕΙ</orig>
+               		<lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost">ἐ</supplied><unclear>π</unclear>ειδὲ</w>
+               		<lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">σεται</w> <w>τ<unclear>ὸν</unclear></w><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><w part="F"><unclear>ς</unclear></w> 
+                                             <w part="I">πα<unclear>ρευ</unclear></w><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/><orig><unclear>Θ</unclear>Α<unclear>Ι</unclear></orig><gap reason="lost" quantity="3" unit="character"/><orig><unclear>Η</unclear>Τ</orig> 
+                                             <gap reason="lost" quantity="4" unit="character"/>
+               		<lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> 
+                                             <orig>Σ</orig><gap reason="lost" quantity="2" unit="character"/><orig>Ρ</orig><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>ΙΥ</unclear></orig> 
+                                             <gap reason="lost" extent="unknown" unit="character"/><orig>ΡΑ</orig><gap reason="lost" quantity="5" unit="character"/>
+               		<lb n="11"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>Η</unclear>ΡΟ<unclear>Υ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>ΕΠ</orig><gap reason="lost" quantity="5" unit="character"/>
+               		<lb n="12"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ΑΤ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><orig>ΟΝ</orig> <g ref="#stop"/> 
+                                             <orig>ΚΑ</orig><gap reason="lost" quantity="5" unit="character"/>
+               		<lb n="12a"/><gap reason="lost" extent="unknown" unit="character"/>
+               </ab>
+            </div>
+         </div>
+         <div type="apparatus">
+            <div type="textpart" n="1">
+               <listApp>
+               <app loc="1">
+                  <rdg source="bib:b0888">ὡρῖσ[αι</rdg>
+               </app>
+                  <app loc="2">
+                     <note>ΝΚ, ΗΝ, ΝΗ in ligatura</note>
+                  </app>
+               <app loc="4">
+                  <rdg source="bib:b0888">[νειν</rdg>
+               </app>
+               <app loc="6">
+                  <rdg source="bib:b0888">[τὸ</rdg>
+                  <rdg source="bib:IOSPE">[ριον? Latyshev</rdg>
+                  <note>ΠΕ in ligatura</note>
+               </app>
+               <app loc="7">
+                  <rdg source="bib:b0888">]α τιθέσθωσαν</rdg>
+               </app>
+               <app loc="8">
+                  <rdg source="bib:b0888">τιθέσ]θωσαν</rdg>
+                  <note>ΗΡ in ligatura</note>
+               </app>
+               <app loc="9">
+                  <rdg source="bib:b0888">[τα von</rdg>
+                  <note>ΝΗ in ligatura</note>
+               </app>
+                  <app loc="10">
+                     <note>ΝΤ in ligatura</note>
+                  </app>
+               <app loc="11">
+                  <rdg source="bib:IOSPE">[τάρχης? Latyshev</rdg>
+                  <rdg source="bib:b0888">]εν αὐθήμερον ἐκ κα-</rdg>
+                  <note>ΝΕ in ligatura</note>
+               </app>
+            </listApp>
+            </div>
+            <div type="textpart" n="2">
+               <listApp>
+                  <app loc="2">
+                     <note>ΝΤ, ΝΕ in ligatura</note>
+                  </app>
+                  <app loc="11">
+                     <note>ΗΡ in ligatura</note>
+                  </app>
+               </listApp>
+            </div>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>[- - -] в соответствии с обычаем [- - -] получ[- - -] плату [- - -] варвары товары [-
+               - -] закрыть/заключить [- - -] воины [- - -] пусть выплатят бан[киры ? - - -] имеющ[-
+               - -] штемпеля (монеты?) [- - -] бронзовый, или железный, или [- - -] сделавшего;
+               сто[- - - ин]остранцы в тот же день [- - -] если же были иностранцы [- - -] в самом
+               замет[ном месте - - -] откуда [- - -] воину [- - -] воин [- - -] взять [- - -] так
+               как [- - -]</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Frag. 1. [- - -] according to custom [- - -] recei[ve - - -] payment [- - -] the barbarians goods [- - -] to close/conclude [- - -] 
+            warriors [- - -] let pay down bank[ers? - - -] havi[ng - - -] stamps (coins?) [- - -] bronze or iron, or [- - -] made; hundred[- - - fo]reigners on the same day [- - -] 
+            if there were foreigners [- - -]</p>
+            <p>Frag. 2. [- - -] in the most promin[ent place - - -] whence [- - -] to the warrior [- - -] warrior [- - -] take [- - -] since [- - -] </p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Предположение о принадлежности двух фрагментов одной надписи было высказано П.О.
+               Карышковским (1963, 103). К сожалению, подтвердить или опровергнуть его с помощью
+               осмотра камней не удается, поскольку первый фрагмент недоступен для изучения и,
+               видимо, утрачен. С момента своей находки и до Второй мировой войны фрагмент находился
+               в Одесском археологическом музее. В начале 1960-х годов, согласно данным П.О.
+               Карышковского (1963, 103) он в музее уже отсутствовал и по-видимому был утрачен во
+               время войны. Тем не менее, сходство самих камней, шрифта надписей и тот факт, что в
+               обоих текстах речь идет о воинах, позволяет предполагать, что фрагменты действительно
+               принадлежали одной надписи.</p>
+            <p>Судя по сохранившимся частям текста, это декрет или закон, имеющий отношение и к
+               экономике, и к военному делу. К сожалению, сохранившиеся части текста настолько малы,
+               что не позволяют предложить надежное восстановление и даже определить, о чем именно шла
+               речь в документе.</p>
+            <p>Фр. 2, стк. 3. В конце возможно восстановление одной из форм глагола ἀναγιγνώσκω
+               («читать»), или существительного ἀναγνώστης, «чтец».</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>A suggestion that the two fragments belong together belongs to Karyshkovsky (1963, 103). Unfortunately, it is impossible to affirm or dispute this suggestion in the absence 
+               of Fargment 1, which is probably lost. Since its discovery and until WWII, the fragment was stored at the Odessa Archaeological Museum. At the beginning of 1960s, according to 
+               Karyshkovsky (1963, 103), it was already missing, and it is safe to assume it had been lost during the war. Yet considering the similarity of the two stones, of the scripts, and also 
+               the fact that both fragments speak of warriors, we may presume that they indeed constituted one inscription.</p>
+            <p>Judging by the fragments of the text, we are dealing with a decree or a law pertaining to economic or military matters, yet the fragments are not large enough to allow 
+               an attempt at restoration or a safe guess about the contents.</p>
+            <p>Frag. 2, line 3. At the end, we may expect a form of the verb ἀναγιγνώσκω (to read), or of the noun ἀναγνώστης (reader).</p>
+         </div>
+      </body>
+   </text>
+</TEI>

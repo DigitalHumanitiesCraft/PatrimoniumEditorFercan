@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc1">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Test 1</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digital edition encoded for
+                    <ref target="https://epigraphy.info/">epigraphy.info workshop 6</ref>
+                    <date when="2019">2019</date>
+                </edition>
+                <principal>
+                    <persName ref=""/>
+                </principal>
+                <respStmt>
+                    <resp>Metadata</resp>
+                    <persName ref="" corresp=""/>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI encoding</resp>
+                    <persName ref="" corresp=""/>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Institut Ausonius (UMR 5607) - Maison de l'archéologie</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>8, Esplanade des Antilles</addrLine>
+                        <addrLine>33607 Pessac</addrLine>
+                        <addrLine>France</addrLine>
+                    </address>
+                </pubPlace>
+                <idno type="uri">https://ausohnum.huma-num.fr/documents/carmen1</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2019"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri" subtype=""/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem xml:id="carmen1-msItem1">
+                            <textLang mainLang="undefined" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore-custom="" notAfter-custom="" precision="medium" datingMethod="#julian"/>
+                        </origin>
+                        <provenance type="findspot">
+                            <location>
+                                <placeName ref=""/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <catRef target="undefined">Epigraphic</catRef>
+                <keywords/>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+            <creation>epigraphy.info</creation>
+            <listPerson type="peopleInDocument"/>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="carmenTraining" when="2022-04-14T18:05:54.838+02:00">Creation of this file</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="" n="">
+                    <ab/>
+                </div>
+            </div>
+            <div type="bibliography" subtype="edition">
+                <listBibl/>
+            </div>
+            <div type="bibliography" subtype="secondary">
+                <listBibl/>
+            </div>
+            <div type="commentary">
+            </div>
+            <div type="privateCommentary">
+            </div>
+        </body>
+    </text>
+</TEI>

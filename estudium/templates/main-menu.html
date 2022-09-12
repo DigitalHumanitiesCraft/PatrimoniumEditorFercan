@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns:i18n="http://exist-db.org/xquery/i18n" class="navbar-collapse collapse" id="navbar-collapse-1" data-template="i18n:translate" data-catalogues="db/apps/patrimonium-data/i18n/">
+    
+    <ul class="nav navbar-nav  col-sm-8 col-md-8">
+        <li id="home">
+            <a class="tp-menu-item" href="/">
+                <div>
+                    <i18n:text key="home"/>
+                </div>
+            </a>
+            
+            
+        </li>
+        <li>
+            <a href="/atlas/">
+                <div>
+                    <i18n:text key="atlas"/>
+                </div>
+            </a>
+        </li>
+        
+     
+        
+    </ul>
+    <ul class="nav navbar-nav navbar-right adminMenu">
+        <div class="" data-template="app:admin-menu">
+            <a href="#loginDialog" data-toggle="modal" title="i18n(login)">
+                <ul>
+                    <div>
+                        <i class="adminLogin glyphicon glyphicon-log-in"/>
+                        <i18n:text key="login"/>
+                    </div>
+                </ul>
+            </a>
+            
+            <li class="dropdown">
+                <div class="dropdown-toggle" type="" data-toggle="dropdown">
+                    <i class="adminLogin glyphicon glyphicon-user"/>
+                    <span class="app:current-user"/>
+                    <span class="caret"/>
+                </div>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="/admin/">Corpus</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/edit-places/">Places manager</a>
+                    </li>
+                    <li>
+                        <a href="/edit-people/">People manager</a>
+                    </li>
+                    
+                    
+                    <li role="separator" class="divider"/>
+                    <li>
+                        <a href="https://ausohnum.huma-num.fr/concept/c1" target="about">AusoHNum Thesaurus (new window)</a>
+                    </li>
+                    <li role="separator" class="divider"/>
+                    <li>
+                        <form class="" action="" method="post">
+                            <input type="hidden" name="logout" value="true"/>
+                            <button type="submit" class="btn btn-block btn-primary">
+                                <i class="material-icons">account_circle</i>
+                                <i18n:text key="logout"/>
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </li>
+            
+            <!--
+            -->
+        </div>
+        
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <div style="display: flex; padding: 8px 5px 18px 5px;             margin: 11px -15px 10px 10px;">
+        <li>
+            <form class="" action="" method="post" style="margin-block-end: 0">
+        <input type="hidden" name="selectedLang" value="en"/>
+        <button type="submit" class="btn btn-xs btn-default" style="background-color: transparent; color: white; border: none;">
+            en
+        </button>
+    </form>
+        </li>
+        <li>
+                <form class="" action="" method="post" style="margin-block-end: 0">
+                <input type="hidden" name="selectedLang" value="fr"/>
+            <button type="submit" class="btn btn-xs  btn-default" style="background-color: transparent; color: white; border: none;">
+                    fr
+                </button>
+            </form>
+        </li>
+    </div>
+    </ul>
+</div>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns:i18n="http://exist-db.org/xquery/i18n" class="navbar-collapse collapse" id="navbar-collapse-1" data-template="i18n:translate" data-lang="en" xml:lang="en" data-catalogues="http://ausonius.huma-num.fr/exist/apps/patrimonium/data/i18n/">
+
+    <!--Dialog for Supplied-->
+    <div id="dialogSupplied" title="Add a Supplied" class="modal fade" tabindex="-1" style="display: none;">
+        <form id="suppliedForm" name="suppliedForm" class="form-horizontal">
+            <!-- Modal content-->
+            <div class="modal-content modal4editor">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"/>
+                    <h4 class="modal-title">Insert a &lt;supplied&gt;</h4>
+                </div>
+                <div class="modal-body">
+
+
+                    <div class="form-group btn-group" data-toggle="buttons">
+                        <h5>Reason</h5>
+                        <label class="btn btn-default">
+                            <input type="radio" name="optreason" value="illegible"/>Illegible</label>
+                        <label class="btn btn-default">
+                            <input type="radio" name="optreason" value="lost"/>Lost</label>
+                        <label class="btn btn-default">
+                            <input type="radio" name="optreason" value="omitted"/>Omitted</label>
+                        <label class="btn btn-default active">
+                            <input type="radio" name="optreason" value="subaudible"/>Subaudible</label>
+                    </div>
+                    <div class="btn-group" data-toggle="buttons" name="evidence">
+                        <h5>Evidence</h5>
+                        <label class="btn btn-default">
+                            <input type="radio" name="optevidence" value="parallel"/>Parallel</label>
+                        <label class="btn btn-default">
+                            <input type="radio" name="optevidence" value="previous-editor"/>Previous
+                            editor</label>
+                        <label class="btn btn-default">
+                            <input type="radio" name="optevidence" value="conjecture"/>Conjecture</label>
+                        <label class="btn btn-default">
+                            <input type="radio" name="optevidence" value=""/>N/A</label>
+                    </div>
+                    <div class="btn-group" data-toggle="buttons" name="certainty">
+                        <h5>Certainty</h5>
+                        <label class="btn btn-default">
+                            <input type="radio" name="optcertainty" value="low"/>Low</label>
+                        <label class="btn btn-default">
+                            <input type="radio" name="optcertainty" value="medium"/>Medium</label>
+                        <label class="btn btn-default">
+                            <input type="radio" name="optcertainty" value="high"/>High</label>
+                        <label class="btn btn-default">
+                            <input type="radio" name="optevidence" value=""/>N/A</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="textInputModal">Text</label>
+                        <input type="text" class="form-control" id="textInputModal" name="textInputModal"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="responsable">Responsable</label>
+                        <input type="text" class="form-control" id="responsable" name="responsable"/>
+                    </div>
+                    <div class="form-group modal-footer">
+                        <button id="submitSupplied" class="pull-left" type="submit">Insert</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    </div>
+
+                    <!--                <a href="javascript: void(0);" onclick="tests()">Test</a>        -->
+
+                </div>
+
+            </div>
+        </form>
+
+
+    </div>
+
+
+
+<!--Dialog for Provenance-->
+    <div id="dialogProvenance" title="Add a Provenance" class="modal fade" tabindex="-1" style="display: none;">
+        <form id="provenanceForm" name="provenanceForm" class="form-horizontal">
+            <!-- Modal content-->
+            <div class="modal-content modal4editor">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"/>
+                    <h4 class="modal-title">Find of place</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div class="row">
+                        <div class="col-xs-4 col-sm-4 col-md-4">
+                            <div class="form-group">
+                                <label for="nameLookupInputModal">Search in <a href="http://pelagios.org/peripleo/map" target="_blank">Pelagios Peripleo</a>
+                                </label>
+                                <input type="text" class="form-control" id="nameLookupInputModal" name="nameLookupInputModal"/>
+                            </div>
+
+
+                            <label>
+                                <input type="checkbox" name="provCertainty" value="foundNearBy"/>Found nearby</label>
+                            <div id="prefLabelPlace"/>
+                            <div id="identifierPlace"/>
+                            <div class="btn-group" data-toggle="buttons" name="matchType">
+                                <h5>Match type</h5>
+                                <label class="btn btn-default">
+                                    <input type="radio" name="provMatch" value="exactMatch"/>Exact</label>
+                                <label class="btn btn-default">
+                                    <input type="radio" name="provMatch" value="closeMatch"/>Close</label>
+                        
+                                
+                            </div>
+                            
+                            <div class="btn-group" data-toggle="buttons" name="certainty">
+                                <h5>Certainty</h5>
+                                <label class="btn btn-default">
+                                    <input type="radio" name="provCertainty" value="low"/>Low</label>
+                                <label class="btn btn-default">
+                                    <input type="radio" name="provCertainty" value="medium"/>Medium</label>
+                                <label class="btn btn-default">
+                                    <input type="radio" name="provCertainty" value="high"/>High</label>
+                                <label class="btn btn-default">
+                                    <input type="radio" name="provCertainty" value=""/>N/A</label>
+                            </div>
+                          
+                        </div>
+                        <div class="col-xs-8 col-sm-8 col-md-8">
+
+                            <iframe id="peripleoWidget" allowfullscreen="true" height="380" src=""> </iframe>
+                            <div id="previewMap" class="hide"/>
+                            <div id="placePreviewPanel" class="hide"/>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group modal-footer">
+                        <button id="submitProvenance" class="pull-left" type="submit">OK</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    </div>
+
+                    <!--                <a href="javascript: void(0);" onclick="tests()">Test</a>        -->
+
+                </div>
+
+            </div>
+        </form>
+
+
+    </div>
+
+
+
+    <!--Dialog for Text Import-->
+    <div id="dialogTextTmportd" title="Import a text" class="modal fade" tabindex="-1" style="display: none;">
+        <form id="textImportForm" name="textImportForm" class="form-horizontal">
+            <!-- Modal content-->
+            <div class="modal-content modal4editor">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"/>
+                    <h4 class="modal-title">Import a text</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                                <label for="importSource">Select source type</label>
+                                <select id="importSource" name="importSource">
+                                     <option value="edr">EDR</option>
+                                     <option value="edcs">EDCS</option>
+                                     <option value="phi">PHI</option>
+                                </select>
+                        <input id="editorIndex" name="editorIndex" type="text"/>
+                    </div>
+                            <!-- 
+                           <label for="text2import">Paste text to import below</label>
+                               
+                            <textarea class="form-control" name="text2import" id="text2import" row="10" ></textarea>
+                            -->
+                                <h3>Paste your tdext below</h3>
+                                <div id="text2importInputEditor"/>
+                                <label for="text2importXMLPreview">XML preview</label>
+                                <div id="text2importXMLPreview"/>
+                            
+                        
+                    
+                    <div class="form-group modal-footer">
+                        <button id="submitImportText" class="pull-left" type="submit">OK</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    </div>
+
+                    <!--                <a href="javascript: void(0);" onclick="tests()">Test</a>        -->
+
+                </div>
+
+            </div>
+        </form>
+
+
+    </div>
+
+
+
+
+    <!--Dialog for Biblio-->
+    <div id="dialogInsertBiblio" title="Add a Bibliographical Reference" class="modal fade" tabindex="-1" style="display: none;">
+        <form id="insertBiblioForm" name="insertBiblioForm" class="form-horizontal">
+            <!-- Modal content-->
+            <div class="modal-content modal4editor">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"/>
+                    <h4 class="modal-title">Insert a bibliographical Reference</h4>
+                </div>
+                <div class="modal-body">
+                    
+                            <div class="form-group">
+                                <label for="nameLookupInputModal">Search in <a href="" target="_blank">Zotero</a>
+                                </label>
+                                <input type="text" class="form-control zoteroLookup" id="zoteroLookupInputModal" name="zoteroLookupInputModal"/>
+                            </div>
+                            <div id="selectedBiblioAuthor"/>
+                            <div id="selectedBiblioDate"/>
+                            <div id="selectedBiblioTitle"/>
+                            
+                    
+                    <div class="form-group modal-footer">
+                        <button id="submitBiblio" class="pull-left" type="submit">Insert</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    </div>
+                    
+                    <!--                <a href="javascript: void(0);" onclick="tests()">Test</a>        -->
+                    
+                </div>
+                
+            </div>
+        </form>
+        
+        
+    </div>
+    
+    <!--Dialog for Place name-->
+    <div id="dialogPlaceName" title="Add a Place name" class="modal fade" tabindex="-1" style="display: none;">
+        <form id="placeNameForm" name="provenanceForm" class="form-horizontal">
+            <!-- Modal content-->
+            <div class="modal-content modal4editor">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"/>
+                    <h4 class="modal-title">Find of place</h4>
+                </div>
+                <div class="modal-body">
+                    
+                    <div class="row">
+                        <div class="col-xs-4 col-sm-4 col-md-4">
+                            <div class="form-group">
+                                <label for="nameLookupInputModal">Search in <a href="http://pelagios.org/peripleo/map" target="_blank">Pelagios Peripleo</a>
+                                </label>
+                                <input type="text" class="form-control" id="placeNameLookupInputModal" name="nameLookupInputModal"/>
+                            </div>
+                            
+                            
+                            <label>
+                                <input type="checkbox" name="provCertainty" value="foundNearBy"/>Found nearby</label>
+                            <div id="prefLabelPlace"/>
+                            <div id="identifierPlace"/>
+                            <div class="btn-group" data-toggle="buttons" name="matchType">
+                                <h5>Match type</h5>
+                                <label class="btn btn-default">
+                                    <input type="radio" name="provMatch" value="exactMatch"/>Exact</label>
+                                <label class="btn btn-default">
+                                    <input type="radio" name="provMatch" value="closeMatch"/>Close</label>
+                                
+                                
+                            </div>
+                            
+                            <div class="btn-group" data-toggle="buttons" name="certainty">
+                                <h5>Certainty</h5>
+                                <label class="btn btn-default">
+                                    <input type="radio" name="provCertainty" value="low"/>Low</label>
+                                <label class="btn btn-default">
+                                    <input type="radio" name="provCertainty" value="medium"/>Medium</label>
+                                <label class="btn btn-default">
+                                    <input type="radio" name="provCertainty" value="high"/>High</label>
+                                <label class="btn btn-default">
+                                    <input type="radio" name="provCertainty" value=""/>N/A</label>
+                            </div>
+                            
+                        </div>
+                        <div class="col-xs-8 col-sm-8 col-md-8">
+                            
+                            <iframe id="peripleoWidget" allowfullscreen="true" height="380" src=""> </iframe>
+                            <div id="previewMap" class="hide"/>
+                            <div id="placePreviewPanel" class="hide"/>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="form-group modal-footer">
+                        <button id="submitProvenance" class="pull-left" type="submit">OK</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    </div>
+                    
+                    <!--                <a href="javascript: void(0);" onclick="tests()">Test</a>        -->
+                    
+                </div>
+                
+            </div>
+        </form>
+        
+        
+    </div>
+
+
+
+</div>

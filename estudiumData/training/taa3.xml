@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t3" n="">
+    <!--    @xml:id must be URI beyond the project and unique at corpus level, and should include reference to project whenever it is possible-->
+    <!--    @n should be used to specify the source project-->
+    <teiHeader xml:lang="en">
+        <!--@xml:lang should be used so that multilingual metadata on a same document could be compiled from different projects-->
+        <fileDesc>
+            <!--            Each file allows for the encoding of 1 to n texts (as witnesses) attested on an (originally) unique document. It is important to keep in mind that the unit encoded is the original document.-->
+            <titleStmt>
+                <!--                Metadata about the ancient text(s), as a discrete witness(es) in its/their material context (i.e. not the abstract text, for which see /TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents-->
+                <title>Dekret der neoi von Xanthos für den Gymnasiarchen Lyson</title>
+            </titleStmt>
+            <editionStmt>
+                <!--                Metadata about the current digital edition-->
+                <edition>Digital edition encoded for <ref target="http://gymnasia.huma-num.fr">Project Gymnasia</ref> <date when="2015">2015</date>
+                </edition>
+                <!--                Plain text summarizing the purpose of the current, digital file.-->
+                <!--                A <date>, with a @when in order to be machine readable, should embrace any date related to the edition-->
+                <!--                A <ref> should point to web page’s project-->
+
+                <principal>
+                    <persName ref="#pfrolich">Pierre Frölich</persName>
+                    <!--                    @ref should be used to point to person in /TEI/teiHeader/profileDesc/particDesc/listPerson[@type=”editorial”], below-->
+                </principal>
+                <!--                @ref should be used to point to person(s) listed in /TEI/teiHeader/profileDesc/particDesc/listPerson[@type=’editorial’], below-->
+                <respStmt>
+                    <resp>Metadata</resp>
+                    <!--                    Name(s) of people responsible for metadata input-->
+                    <persName ref="#personID">Name</persName>
+                    <persName ref="#personID">Name</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Text transliteration</resp>
+                    <!--                    Names of the people responsible for the translitteration of the Egyptian text-->
+                    <persName ref="#personID">Name</persName>
+                    <persName ref="#personID">Name</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Text translation</resp>
+                    <!--                    Name(s) of people responsible for the translation of the ancient text-->
+                    <persName ref="#personID">Name</persName>
+                    <persName ref="#personID">Name</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Grammatical analysis</resp>
+                    <!--                    Name(s) of people responsible for the grammatical and lemmatisation of the ancient Egyptian texts-->
+                    <persName ref="#personID">Name</persName>
+                    <persName ref="#personID">Name</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI encoding</resp>
+                    <!--                    Name of the people responsible for the TEI encoding, if relevant-->
+                    <persName ref="#personID">Name</persName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <!--                Metadata about the (institutional) publisher of the current, digital file-->
+                <publisher>Institut Ausonius (UMR 5607) - Maison de l'archéologie</publisher>
+                <!--                Institution or individual responsible for the publication-->
+                <pubPlace>
+                    <address>
+                        <addrLine>8, Esplanade des Antilles</addrLine>
+                        <addrLine>33607 Pessac</addrLine>
+                        <addrLine>France</addrLine>
+                    </address>
+                </pubPlace>
+                <idno type="URI">0000</idno>
+                <idno type="tm">0000</idno>
+                <!--                Reference to document’s URI in project online database or similar-->
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                    <!--                    Public is free to:-->
+                    <!--                    •	Share — copy and redistribute the material in any medium or format-->
+                    <!--                    •	Adapt — remix, transform, and build upon the material for any purpose, even commercially.-->
+                    <!--                    Under the following terms:-->
+                    <!--                    •	Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.-->
+                    <!--                    •	ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.-->
+                </availability>
+                <date when="2018"/>
+                <!--                Release date of current file-->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <msName>Title for the document</msName>
+                        <!--                        Name of the “ideal”, reconstructed as original, document bearing the text.-->
+                        <!--                        Whether intact or in several fragments, data about the physical object(s) in its present state are to be documented below in /TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart-->
+                    </msIdentifier>
+                    <msContents>
+                        <!--                        Data about (abstract) texts or sub-texts present on the “ideal” object-->
+                        <summary>Text</summary>
+                        <!--                        Summary of the ancient Egyptian text(s)-->
+                        <msItem xml:id="t3-msItem1" ana="ref-to-canonical-text-uri" class="ref-to-class" defective="true">
+                            <!--                            As many msItem as desired. The <div type=’textpart’> refer to the msItem to which they correspond.-->
+                            <!--                            @ana (or @class?) to document text type or genre-->
+                            <locus scheme="#id-term-from-thesaurus" from="value" to="value"> </locus>
+                            <author>
+                                <persName cert="unknown" ref="#id-person"/>
+                            </author>
+                            <title type="ancient"/>
+                            <title type="modern">Free text</title>
+                            <!--e.g.: "Formule de donation royale"-->
+                            <textLang mainLang=" " otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <!--                        Physical description of the “ideal” (and possibly reconstructed) object bearing the text(s)-->
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="https://ausohnum.huma-num.fr/concept/c19312">
+                       Stèle</objectType>
+                                    <material ref="https://ausohnum.huma-num.fr/concept/c6216">
+                       Limestone</material>
+                                    <dimensions unit="mm">
+                                        <!--                                        Millimetres as default unit, which prevents from using decimal-->
+                                        <!--                                        Max dimensions to be recorded-->
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition>Physical condition: <rs ref="#no_entry-see-text">complet</rs>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <summary/>
+                                <!--                                Free text description of general text layout-->
+
+                                <layout xml:id="t3-layout1" columns="2" corresp="#t3-surface1">
+                                    <!--                                    1 discrete zone of text, identified by a URI-->
+                                    <!--                                    Indication of the number of columns and/or lines (@writtenLines)-->
+                                    <!--                                    Link can be done to: 1) physical location on the object and 2) to a figure, which has to be described in <decoNote> (see below)-->
+                                    <desc>Deux colonnes de texte sur l'épaule droite</desc>
+                                    <!--                                    Free text description of the layout-->
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <decoDesc>
+                            <decoNote xml:id="ck68-fig-osiris" corresp="ck68-frontSide">
+                                <!--                                Link to physical location is made in a @corresp-->
+                                <desc/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <!--                        Metadata about the history of the ‘ideal’ document-->
+                        <origin>
+                            <!--                            Metadata related to the place of origin and date of creation of the document, i.e. where it was erected and used in the ancient times-->
+                            <origDate>
+                                <!--                                Date of creation of the object-->
+                                <date type="earliest" datingPoint="#id-date-in-thesaurus" notBefore="-0875"/>
+                                <!--                                @datingPoint points to entry in meta-Egypt thesaurus-->
+                                <!--                                @notBefore and @notAfter start with a 0 (zero) if date comprised between -1000 and 1000-->
+                                <!--                                if one is able to specify the regnal year or similar, use of @ when-custom and @datingMethod,-->
+                                <!--								e.g. <date when-custom="Ptolemaios_III:11" datingMethod="#regnal_year" notBefore="-0236" notAfter="-0235" precision="high">ḥsb.t 11</date>-->
+                                <date type="latest" datingPoint="#id-date-in-thesaurus" notAfter="-0816"/>
+                                <tei:certainty xmlns:tei="http://www.tei-c.org/ns/1.0" match="date/@notBefore|date/@notAfter" locus="value" degree="0.5"/>
+                                <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0"/>
+                            </origDate>
+                            <origPlace cert="medium" ref="#ancient-place-topbib-no" type="foundation"> </origPlace>
+                            <!--                            Place of origin (not necessarily place of provenance (i.e. where the object was found).-->
+                            <!--                            Reference to ancient place in TopBib is made through @ref.-->
+                        </origin>
+                        <provenance type="enumerated-value" cert="high">
+                            <!--                                At the level <msDesc>, i.e., the ideal-reconstructed document, the element <provenance> is used to refer to an Ancient provenance, like an archive or a foundation deposit-->
+                            <!--                                @type: e.g. "archive", "foundation deposit", etc.-->
+                            <!--                                The actual geographic provenance of (each part of) the document is described in the <msFrag>, which refers to the physical object(s)-->
+                        </provenance>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <!--                            Provides links to images of the object-->
+                            <list>
+                                <item>Fonds CLES : 3 clichés = IFAO NU_2006_8222-8224</item>
+                                <item>
+                                    <graphic url="http://www.globalegyptianmuseum.org/large.aspx?img=images/EMC/310-9-EM-5-9158-_800x800[1].jpg"/>
+                                </item>
+                                <item/>
+                            </list>
+                        </surrogates>
+                        <listBibl>
+                            <!--                            Lists the bibliography relating to the object and texts-->
+                            <!--                            Collaboration with OEB will be investigated to make reference compilation easier.-->
+
+                        </listBibl>
+                    </additional>
+                    <msFrag>
+                        <!--                        Use msFrag for describing the physical object or each single part/fragment of it in its modern state.-->
+                        <!--                        msPart is understood with a broad meaning in order to describe dispersed fragments of an originally unique object. It might be the case that msFrag will have to be used instead, if this element is added to the next TEI release; see discussions under https://sourceforge.net/p/tei/feature-requests/505/ and https://listserv.brown.edu/archives/cgi-bin/wa?A3=ind1503&L=TEI-L&E=8bit&P=82593&B=-\-&T=text%2Fplain;%20charset=windows-1252&header=1-->
+                        <!--                        As a physical object, this comes with data about provenance(s), place(s) of repository and a physical description specific to the fragment.-->
+                        <msIdentifier>
+                            <country ref="undefined">undefined</country>
+                            <!--                            Reference to geonames.org entry for country where monument is kept (URI root = www.geonames.org, which has to be followed by country or place id, after a slash; for instance Egypt = http://www.geonames.org/357994-->
+                            <settlement ref="undefined">undefined</settlement>
+                            <institution/>
+                            <!--                            To be used if Institution and repository are different-->
+                            <repository ref="#Museum-ID-in-thesaurus">Musée égyptien</repository>
+                            <!--Physical place where the document is kept, in contrast to the institution in charge of it, and which can be the same-->
+                            <collection/>
+                            <!--                            Name of the collection to which a document belong, if relevant-->
+                            <idno type="JE"/>
+                            <!--                            Label of the main inventory number for that repository.-->
+                            <altIdentifier>
+                                <!--                                Other inventory numbers have to be enclosed in as many couples <altIdentifier><idno> as needed-->
+                                <idno type="RT"/>
+                            </altIdentifier>
+                            <altIdentifier>
+                                <idno type="CG"/>
+                            </altIdentifier>
+                            <altIdentifier>
+                                <idno type="SR"/>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <dimensions unit="mm">
+                                            <!--                                            Millimetres as default unit, which prevents from using decimal-->
+                                            <!--                                            Max dimensions to be recorded-->
+                                            <!--                                            Only if relevant-->
+                                            <height>123</height>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>
+                                    </support>
+                                    <condition>Physical condition: <rs ref="#id-state-in-ths">complet</rs>
+                                    </condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+
+                        <history>
+                            <provenance type="enumerated-value" cert="high">
+                                <!--                                One or more provenance can be recorded, in order to document the whole history of the object (excavation, auction, etc.)-->
+                                <!--                                @type: e.g. "excavations", "art-market", "museum", "auction"-->
+                                <!--                                Reference to TopBib in @ref-->
+                                <date notBefore="1904" notAfter="1904"/>
+                                <persName cert="high" role="Finder">Legrain, Georges</persName>
+                                <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" cert="high">
+                                    <placeName ref="#topbib-no">Textual value</placeName>
+                                </tei:location>
+                            </provenance>
+
+                        </history>
+                        <additional>
+                            <adminInfo>
+                                <!--                                Information about the present custody and availability-->
+                                <availability status="restricted">
+                                    <!--                                    Availability. If object has been published, this can be recalled here-->
+                                    <!--                                    Values for @satus are “free”, “unknown” (default) and “restricted”-->
+                                    <p>Free text</p>
+                                </availability>
+                                <custodialHist>
+                                    <!--                                    Description of a manuscript's custodial history, either as running prose or as a series of dated custodial events.-->
+                                    <custEvent/>
+                                </custodialHist>
+                            </adminInfo>
+
+                        </additional>
+                    </msFrag>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <catRef ref="https://ausohnum.huma-num.fr/concept/c19362"/>
+            </textClass>
+            <langUsage>
+                <!--List of languages used in the XML file-->
+                <language ident="en">English</language>
+            </langUsage>
+            <particDesc>
+                <listPerson type="editorial">
+                    <!--                    List of people involved in the xml file, such as authors, editors, etc.-->
+                    <person xml:id="personID">
+                        <persName/>
+                    </person>
+                </listPerson>
+                <listPerson type="peopleInDocument">
+                    <!--                    List of people mentioned in the ancient text-->
+                    <person xml:id="CK0068mq01" sex="1">
+                        <persName xml:lang="eg-tr">Ḥr</persName>
+                        <persName xml:lang="fr">Hor (III)</persName>
+                        <!--<floruit notBefore="" notAfter=""/> -->
+                    </person>
+                </listPerson>
+                <listPerson type="deitiesInDocument">
+                    <!--                    List of deities mentioned in the ancient text-->
+
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="teiEditorGeneralDocumentClass">
+                    <category xml:id="apc-c-1">
+                        <catDesc>Epigraphy</catDesc>
+                    </category>
+                    <category xml:id="apc-c-2">
+                        <catDesc>Papyrology</catDesc>
+                    </category>
+                    <category xml:id="apc-c-3">
+                        <catDesc>Litterary</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <revisionDesc status="draft">
+            <!--            Possible statuses: drat, published -->
+            <listChange>
+                <change who="jschropp" when="2019-02-25T08:32:54.26+01:00">Creation of this file</change>
+           <change when="2019-02-25T08:56:14.343+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T08:57:16.044+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T09:00:19.798+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T10:26:21.583+01:00" who="http://ausohnum.huma-num.fr/people/echiricat"/>
+           <change when="2019-02-25T10:47:40.291+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T10:48:21.11+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T10:49:59.245+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T10:51:41.496+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:00:57.277+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:05:34.629+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:06:05.489+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:06:39.375+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:09:46.274+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:09:46.734+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:11:04.677+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:12:26.253+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:19:25.939+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:20:06.988+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:20:25.682+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:21:19.87+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:23:16.946+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:24:24.46+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:25:54.884+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:26:03.651+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:28:46.883+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:28:47.136+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:29:35.48+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:31:51.879+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:32:24.465+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:33:16.878+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:33:40.611+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T11:34:13.651+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T12:22:25.704+01:00" who="http://ausohnum.huma-num.fr/people/echiricat"/>
+           <change when="2019-02-25T12:22:38.097+01:00" who="http://ausohnum.huma-num.fr/people/echiricat"/>
+           <change when="2019-02-25T12:49:02.099+01:00" who="http://ausohnum.huma-num.fr/people/echiricat"/>
+           <change when="2019-02-25T12:50:56.562+01:00" who="http://ausohnum.huma-num.fr/people/echiricat"/>
+           <change when="2019-02-25T13:14:33.17+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T13:14:33.315+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T13:16:06.763+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T13:20:16.23+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T13:22:50.803+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T13:23:02.172+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T13:23:51.62+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T13:24:40.946+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T13:25:49.187+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-25T13:36:29.871+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+           <change when="2019-02-26T08:32:31.483+01:00" who="http://ausohnum.huma-num.fr/people/jschropp"/>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <sourceDoc>
+        <!--                                          Each surface must have an URI, so that reference to it can be done in /TEI/teiHeader/fileDesc/sourceDesc/msDesc/physDesc/objectDesc/layoutDesc/layout (see above)-->
+        <!--                                          Short description of the zone in a <desc/>-->
+        <!--                                          @ana allows reference to canonical reference system, controlled by a thesaurus of object parts-->
+        <surface xml:id="t3-surface1" ana="upper-side" facs="http://www.ifao.egnet.net/bases/cachette/docs/vues/NU_2006_8223.jpg">
+            <desc>Face avant de la de la statue, composée d'une scène représentant 4 divinités sous
+                laquelle un texte de 6 lignes a été gravé</desc>
+        </surface>
+        
+    </sourceDoc>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>
+                        <lb n="1"/>
+                        <supplied reason="lost">βασιλευόν</supplied>των <persName> Ἀντιόχου</persName> καὶ <persName>
+                            <unclear>Ἀν</unclear>τιόχου</persName> τοῦ υἱοῦ, vac.
+<lb n="2"/>
+                        <expan>
+                            <abbr>[</abbr>
+                            <ex>ἔτους</ex>
+                        </expan> ϛιρʹ vac. μ]ηνὸς Γορπιείου, vac. ἐπ’ <rs type="subject" key="civic official" ref="https://ausohnum.huma-num.fr/concept/c19902">
+                            <unclear>ἀ</unclear>ρχιερέως</rs> <persName type="xanthian">Νικάνορος</persName>,
+<lb n="3"/>
+                        <supplied reason="lost">ἐν δὲ Ξάνθ</supplied>ωι ἐφ’ <rs type="subject" key="civic official" ref="https://ausohnum.huma-num.fr/concept/c19902">ἱερέως τῶν μὲν βασιλέων</rs> <persName type="xanthian">Πρασί
+<lb n="4" break="no"/>δου</persName> <supplied reason="lost">τοῦ Νικ</supplied>οστράτου, <rs type="subject" key="civic official" ref="https://ausohnum.huma-num.fr/concept/c19902">πρὸ πόλεως</rs> δὲ <persName type="xanthian">Τληπολέμου</persName>
+<lb n="5"/>τοῦ <persName type="xanthian">Ἀρ<supplied reason="lost">ταπ</supplied>άτου</persName>, vac. <rs type="subject" key="decree" ref="https://ausohnum.huma-num.fr/concept/c19905">ἔδοξεν</rs> <unclear>Ξαν</unclear>θίων τοῖς <rs type="subject" key="gymnasial group" ref="https://ausohnum.huma-num.fr/concept/c19898">
+                            <rs type="subject" key="age group" ref="https://ausohnum.huma-num.fr/concept/c19925">νέοις</rs>
+                        </rs>· ἐπει
+<lb n="6" break="no"/>δὴ <persName type="xanthian">Λύσων</persName> <persName type="xanthian">Δημοσθένου</persName>, πολιτευόμενος ὡς καθή
+<lb n="7" break="no"/>κει τοῖς καλοῖς καὶ ἀγαθοῖς ἀνδράσιν, καὶ πολλὰς
+<lb n="8"/>ἀποδείξεις τῆς τε πρὸς τὴν πόλιν εὐνοίας καὶ
+<lb n="9"/>τοὺς <rs type="subject" key="age group" ref="https://ausohnum.huma-num.fr/concept/c19925">
+                            <rs type="subject" key="gymnasial group" ref="https://ausohnum.huma-num.fr/concept/c19898">νέους</rs>
+                        </rs> πεποίηται ἐν τοῖς ἀναγκαιοτάτοις και
+<lb n="10" break="no"/>ροῖς ἀξίως αὑτοῦ τε καὶ τῆς τῶν προγόνων ἀνα
+<lb n="11" break="no"/>
+                        <unclear>στροφ</unclear>ῆς, ὧν ἕνεκεν καὶ ὑπὸ τῆς πόλεως τιμᾶται
+<lb n="12"/>ταῖς ἁρμοζούσαις <supplied reason="lost">τ</supplied>ιμαῖς, vac. αἱρεθείς τε <rs type="subject" key="civic official" ref="https://ausohnum.huma-num.fr/concept/c19902">γυμνασί
+<lb n="13" break="no"/>αρχος</rs> τῆς τε περὶ <unclear>τ</unclear>ὸ <rs type="subject" key="gymnasium" ref="https://ausohnum.huma-num.fr/concept/c19892">γυμνάσιον</rs> ἐπιμελείας
+<lb n="14"/>καὶ κατασκευῆς προέστη μετὰ πάσης ἐκτενεί
+<lb n="15" break="no"/>ας καὶ πολλὰ <rs type="subject" key="financing" ref="https://ausohnum.huma-num.fr/concept/c19914">τῶν ἰδίων</rs> εἰσανηλώσας ἐκόσμη
+<lb n="16" break="no"/>σεν, προαιρούμενος οὐ μόνον τοῖς ἐν τῶι πολιτεύ
+<lb n="17" break="no"/>ματι πεπραγμένοις αὐτῶι καλοῖς καὶ ἐνδόξοις ἀκό
+<lb n="18" break="no"/>λουθος φαίνεσθα<supplied reason="lost">ι</supplied>, ἀλλὰ καὶ τοῖς ἐξ ἡμῶν ἐπιγινο
+<lb n="19" break="no"/>μένοις <unclear>ὑπόμνημ</unclear>α καταλιπεῖν ἧς ἔσχεν αἱρέσε
+<lb n="20" break="no"/>ως πρὸς τὰ τῆι <unclear>πα̣τ</unclear>ρίδι συφέροντα καὶ τοὺς <rs type="subject" key="gymnasial group" ref="https://ausohnum.huma-num.fr/concept/c19898">
+                            <rs type="subject" key="age group" ref="https://ausohnum.huma-num.fr/concept/c19925">νέ
+<lb n="21" break="no"/>ους</rs>
+                        </rs>, ὅθεν καὶ ἡμεῖ<supplied reason="lost">ς, ἐ</supplied>πιγνόντες τήν τε ἐν τοῖς ἐ
+<lb n="22" break="no"/>πάνω χρόνοις περ<supplied reason="lost">ὶ α</supplied>ὐτὸν καλοκἀγαθίαν καὶ τὸν <supplied reason="lost">ἐ</supplied>
+<lb n="23" break="no"/>νεστῶτα καιρὸν θε<supplied reason="lost">ωρο</supplied>
+                        <unclear>ῦ</unclear>ντες <unclear>προσδε</unclear>
+                        <supplied reason="lost">ό</supplied>
+                        <unclear>μ</unclear>ενον ἀν
+<lb n="24" break="no"/>δρὸς ἀξίου καὶ δυνα<supplied reason="lost">μέν</supplied>ου <supplied reason="lost">δι</supplied>εξαγαγεῖν ἀνεγκλή
+<lb n="25" break="no"/>τως <rs type="subject" key="civic official" ref="https://ausohnum.huma-num.fr/concept/c19902">τὴν κατὰ τὸ γυ<supplied reason="lost">μνάσιο</supplied>ν ἀρχήν</rs>, παρεκαλέσαμε<supplied reason="lost">ν</supplied>
+<lb n="26"/>αὐτὸν καὶ εἰς τ<supplied reason="lost">ὸν ἐ</supplied>χόμενον ἐνιαυτὸν παρασχεῖσ
+<lb n="27" break="no"/>θαι τὴν χρεία<supplied reason="lost">ν, κ</supplied>αὶ ἐπιδόντος αὐτοῦ προθύμως εἱ
+<lb n="28" break="no"/>
+                        <supplied reason="lost">λόμεθα αὐτὸν γ</supplied>υμνασίαρχον· ἐπὶ οὖν ἐμ πᾶσιν
+<lb n="29"/>
+                        <supplied reason="lost">τοῖς συμφέρου</supplied>σιν τῆι τε πόλει καὶ τοῖς <rs type="subject" key="age group" ref="https://ausohnum.huma-num.fr/concept/c19925">
+                            <rs type="subject" key="gymnasial group" ref="https://ausohnum.huma-num.fr/concept/c19898">νέοις</rs>
+                        </rs> ὁμοί
+<lb n="30" break="no"/>
+                        <supplied reason="lost">ως τὴν αὐτὴν</supplied> προθυμίαν ἔχων οὐθενὸς ἀφίστα
+<lb n="31" break="no"/>
+                        <supplied reason="lost">ται τῶν χρησί</supplied>
+                        <unclear>μ</unclear>ων, vac. ἀγαθῇ τύχηι δεδόχθαι ἐπαινέ
+<lb n="32" break="no"/>
+                        <supplied reason="lost">σαι <persName type="xanthian">Λύσωνα</persName> Δη</supplied>μοσθένου ἀρετῆς ἕνεκεν καὶ εὐνοί
+<lb n="33" break="no"/>
+                        <supplied reason="lost">ας ἧς ἔχων διατ</supplied>ελεῖ πρός τε τὴν πατρίδα καὶ τοὺς
+<lb n="34"/>
+                        <supplied reason="lost">
+                            <rs type="subject" key="gymnasial group" ref="https://ausohnum.huma-num.fr/concept/c19898">
+                                <rs type="subject" key="age group" ref="https://ausohnum.huma-num.fr/concept/c19925">νέους</rs>
+                            </rs> καὶ τὰ τῶ</supplied>ν βασιλέων πράγματα· vac. τιμῆσαι δὲ
+<lb n="35"/>
+                        <supplied reason="lost">αὐτὸν καὶ εἰκ</supplied>όνι χαλκῆι καὶ ἀναθεῖναι αὐτὴν ἐν τῶι
+<lb n="36"/>
+                        <supplied reason="lost">
+                            <rs type="subject" key="gymnasium" ref="https://ausohnum.huma-num.fr/concept/c19892">γυμνασίωι</rs>
+                        </supplied> ἐν τῶι ἐπιφανεστάτωι τόπωι, ἐπιγρά- vac.
+<lb n="37" break="no"/>
+                        <supplied reason="lost">ψαι δὲ καὶ τὴν</supplied> <rs type="subject" key="honor" ref="https://ausohnum.huma-num.fr/concept/c19899">ἐπιγραφὴν</rs> τήνδε· vac. Ξανθίων οἱ <rs type="subject" key="gymnasial group" ref="https://ausohnum.huma-num.fr/concept/c19898">
+                            <rs type="subject" key="age group" ref="https://ausohnum.huma-num.fr/concept/c19925">νέοι</rs>
+                        </rs> vac.
+<lb n="38"/>
+                        <supplied reason="lost">
+                            <persName type="xanthian">Λύσωνα</persName> Δη</supplied>μοσθένου <rs type="subject" key="civic official" ref="https://ausohnum.huma-num.fr/concept/c19902">γυμνασιαρχήσαντα</rs> ἐφ’ ἔτη
+<lb n="39"/>
+                        <supplied reason="lost">δύο ἀρετῆ</supplied>ς ἕνεκεν καὶ εὐνοίας τῆς εἰς αὐτοὺς
+<lb n="40"/>
+                        <supplied reason="lost">καὶ τὴν πό</supplied>λιν· vac. ἱδρύσασθαι δὲ καὶ <rs type="subject" key="cult" ref="https://ausohnum.huma-num.fr/concept/c19907">βωμοὺς δύο</rs> ἐν
+<lb n="41"/>
+                        <supplied reason="lost">τῶι ἐπιφανε</supplied>στάτωι τόπωι τοῦ <rs type="subject" key="gymnasium" ref="https://ausohnum.huma-num.fr/concept/c19892">γυμνασίου</rs>, τὸμ μὲν
+<lb n="42"/>
+                        <supplied reason="lost">τοῦ Διὸς τοῦ Σ</supplied>ωτῆρος, τὸν δὲ ἄλλον τοῦ <rs type="subject" key="honor" ref="https://ausohnum.huma-num.fr/concept/c19899">Λύσωνος</rs> vac.
+<lb n="43"/>[— — —c.11-12— — —], ἐφ’ ὧν θύσει <persName type="xanthian">Λύσων</persName> τε ἕως ἂν ζῆι ἢ ἄλ-
+<lb n="44" break="no"/>
+                        <supplied reason="lost">λος ἀντ’ αὐτ</supplied>οῦ τῶι <rs type="subject" key="divinity" ref="https://ausohnum.huma-num.fr/concept/c19908">Διί</rs>, τὸν δὲ ἕτερον ὁ κατ’ ἐνιαυτὸν
+<lb n="45"/>
+                        <supplied reason="lost">αἱρούμενο</supplied>ς <rs type="subject" key="civic official" ref="https://ausohnum.huma-num.fr/concept/c19902">γυμνασίαρχος</rs>, παριστάντων τοῦ τε
+<lb n="46"/>
+                        <supplied reason="lost">κοινοῦ τῶν ν</supplied>έων καὶ τοῦ <rs type="subject" key="civic official" ref="https://ausohnum.huma-num.fr/concept/c19902">γυμνασιάρχου</rs> ἀπὸ <unclear>τ̣ῆ̣ς</unclear>
+<lb n="47"/>[— — — —c.15— — — —] ΤΩ.<supplied reason="lost">β</supplied>οῦς <unclear>τρ̣ι̣ε̣τ</unclear>
+                        <supplied reason="lost">εῖ</supplied>
+                        <unclear>ς</unclear> [<expan>
+                            <abbr>δύο</abbr>
+                            <ex cert="low"/>
+                        </expan> — —]
+<lb n="48"/>
+                        <supplied reason="lost">— — —</supplied>
+                    </ab>
+                </div>
+            </div>
+
+            <div type="translation" xml:lang="fr">
+              
+                <div type="textpart">
+                    <ab/>
+                </div>
+              
+            </div>
+          
+            <div type="apparatus">
+            </div>
+            <div type="commentary">
+                <list>
+                    <item>
+                        <ptr target=""/>
+                        <desc/>
+                    </item>
+                </list>
+            </div>
+            <div type="bibliography" subtype="principalEdition">
+                <listBibl>
+                    <bibl type="publication" subtype="principal">
+                        <title level="s" type="abbreviated" ref="">P.Thmouis</title>
+                        <biblScope type="numbers">11</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+            <div type="bibliography" subtype="otherPublications">
+                <head>Other publications</head>
+                <listBibl>
+                    <bibl type="publication" subtype="other">PSI I 107 (= Kol. 113)</bibl>
+                    <bibl type="publication" subtype="other">PSI I 105 (= Kol. 117)</bibl>
+                    <bibl type="publication" subtype="other">PSI I 104 (= Kol. 135)</bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

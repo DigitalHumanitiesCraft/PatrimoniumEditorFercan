@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="1955-39">
+	    <!-- HEADER -->
+	    <teiHeader>
+			<fileDesc>
+			<titleStmt>
+				<title>Décret honorifique pour le paidonome C. Iulius Capito.</title>
+				</titleStmt>
+			<publicationStmt>
+				<p>
+						<bibl>
+							<editor>Edouard Chiricat</editor>
+							<date>2018-09-20</date>
+						</bibl>
+					</p>
+				<p>
+						Made available by LabEx "cultures agonistiques", Université Bordeaux Montaigne
+			        <ref>http://mama.csad.ox.ac.uk/</ref>
+			        <date>2018</date>
+			    </p>
+			</publicationStmt>
+			<sourceDesc>
+					<p><!-- to be added --></p>
+				</sourceDesc>
+		</fileDesc>
+			<encodingDesc>
+				<p>Encoded for EpiDoc schema on <date>2018-09-21</date> by <persName>NATHALIE PREVOT</persName>
+            </p>
+		
+		</encodingDesc>
+			
+		<profileDesc>
+				<textClass>
+                <catRef target="Carie"/>
+            </textClass>
+			<langUsage>
+				<language ident="eng">English</language>
+					<language ident="grc">Ancient Greek</language>
+				<language ident="lat">Latin</language>
+				<!-- Feel free to add other languages in this format (copy/paste out of this comment):
+					<language id="fre">French</language>
+					<language id="ger">Ger<rs type="decoration">man</rs></language>
+					<language id="gre">Modern Greek</language>
+					<language id="ita">Italian</language>
+					Language is added to the different parts of the documents, 
+					if you want to use a different language (e.g. Latin in the otherwise english description 
+					you can use the tag: <foreign lang="lat">quae</foreign>
+					-->
+			</langUsage>
+		</profileDesc>
+			<!-- Here you should list any revisions carried out on this document. 
+			Create a new one by copy/pasting the change tag and content: -->
+		<revisionDesc>
+            	<change when="2018-09-20" who="Edouard Chiricat">
+                	First encoding into EpiDoc schema using PHP script from raw text documents.
+            	</change>     
+        	</revisionDesc>
+	    </teiHeader>
+	    <!-- TEXT -->
+	    <text>
+		<body>
+				<!-- DESCRIPTION of the physical attributes -->
+				<div type="description" n="document_description">
+					<desc>Décret honorifique</desc> (à baliser avec l'ID du thésaurus)
+				</div>
+				<div type="description" n="type_of_monument"> 
+					<head>Type de monument</head>
+					<p>Colonne</p>
+				</div>
+				<div type="description" n="location">
+					<head>Cité</head>
+					<p>
+                    <placeName type="ancientFindspot" key="Iasos"/>Iasos</p>
+				</div>
+			
+				<div type="description" n="publication">
+					<head>Publication</head>
+					<p>I. Iasos 99.</p>
+				</div>
+				<div type="description" n="date">
+					<head>Date</head>
+					<p>
+                    <date notBefore="-0031" notAfter="0330" cert="low">Epoque impériale.</date>
+                </p>
+				</div>
+				
+				<div type="edition">
+					<head>Texte</head>
+					<ab>
+						<lb xml:id="line-1" n="1"/>	[        Γαΐου Ἰουλί]ου
+						<lb xml:id="line-2" n="2"/>	[Καπίτωνος <w lemma="παιδονόμος">π]αιδονόμου</w>
+						<lb xml:id="line-3" n="3"/>	ἔδοξ[εν τῷ δήμ]ῳ ἐν ἀρχαιρεσίαις
+						<lb xml:id="line-4" n="4"/>	ἐπεὶ Γάϊος Ἰούλιος Καπίτων <w lemma="παιδονομέω">παιδονομήσας</w>
+						<lb xml:id="line-5" n="5"/>	καὶ προνοήσας τῆς τῶν <w lemma="παῖς">παίδων</w> <w lemma="ἀγωγή">ἀγωγῆς</w> καὶ
+						<lb xml:id="line-6" n="6"/>	<w lemma="παιδεία">παιδείας</w> κατὰ τὸ κάλλιστον ἐπετέλεσεν,
+						<lb xml:id="line-7" n="7"/>	καὶ <w lemma="ἀγών">ἀγῶνας</w> διδοὺς αὐτοῖς καὶ <rs type="prize" key="agonistic prize">
+                        <w lemma="ἆθλον">ἆθλα</w>
+                    </rs>, πάντα τε
+						<lb xml:id="line-8" n="8"/>	φιλοτειμότατα ἐποίησεν, ἐπέδωκέν τε καὶ
+						<lb xml:id="line-9" n="9"/>	<w lemma="θεωρία">θεωρίας</w>, ὅ τε δῆμος ἐπὶ τῇ τοῦ ἀνδρὸς φιλοτει-
+						<lb xml:id="line-10" n="10"/>  μίᾳ προεφώνησεν τειμηθῆναι αὐτὸν ταῖς
+						<lb xml:id="line-11" n="11"/>	<w lemma="καλός">καλλίσταις</w> <w lemma="τιμή">τειμαῖς</w>, ἀνατεθῆναι δὲ αὐτοῦ καὶ
+						<lb xml:id="line-12" n="12"/>	<w lemma="εἰκών">εἰκόνα</w>· δεδόχθαι τετειμῆσθαι Γάϊον Ἰούλιον
+						<lb xml:id="line-13" n="13"/>	Καπίτωνα ταῖς <w lemma="καλός">καλλίσταις</w> <w lemma="τιμή">τειμαῖς</w>· ἀνατεθῆναι
+						<lb xml:id="line-14" n="14"/>	δὲ αὐτοῦ καὶ <w lemma="εἰκών">εἰκόνα</w> <w lemma="γραπτός">γραπτὴν</w> ἐν <w lemma="ἀσπίς">ἀσπίδι</w> <w lemma="ἐπίχρυσος">ἐπιχρύσῳ</w>,
+						<lb xml:id="line-15" n="15"/>	ἐν ᾧ ἂν βούληται ἱερῷ ἢ δημοσίῳ τόπῳ, ἐφ’ ἧς καὶ
+						<lb xml:id="line-16" n="16"/>	ἐπιγραφῆναι· ἡ βουλὴ καὶ ὁ δῆμος τὴν <w lemma="εἰκών">εἰκόνα</w>
+						<lb xml:id="line-17" n="17"/>	Γαΐου Ἰουλίου Καπίτωνος παιδονομήσαντος κα-
+						<lb xml:id="line-18" n="18"/>	τὰ τὸ κάλλιστον πάσης ἕνεκεν ἀρετῆς.
+					</ab>
+				</div>
+			
+			<div type="translation" xml:lang="fr">
+					<ab n="translation">
+						
+					</ab>
+				</div>
+					<!-- Commentary  -->
+					<div type="commentary">    
+						<head>Commentaire</head>
+						<p>  </p>  
+					</div>		
+			</body>
+    	</text>
+	</TEI>

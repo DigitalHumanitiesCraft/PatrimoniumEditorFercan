@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edict of Tiberius Iulius Alexandros</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+                <idno type="tm">27584</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>description of object/monument (likely to include <material/>
+                                    and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                    <lb n="1"/><supplied reason="lost">ἀντίγραφον</supplied> ἐκθέματος. Τιβέριος Ἰούλιος <supplied reason="lost">Ἀλέξανδρος λέγει·</supplied> 
+                    <lb n="2"/><supplied reason="lost">πᾶσαν πρό</supplied>νοιαν ποιούμενος τοῦ δια<supplied reason="lost">μένειν τῷ</supplied>
+                    <lb n="3"/><supplied reason="lost">προσήκο</supplied>ντι καταστήματι τὴν π<supplied reason="lost">όλιν ἀπολαύου</supplied>
+                    <lb n="4" break="no"/><supplied reason="lost">σαν τῶν εὐ</supplied>εργεσιῶν, ἃς ἔχει παρὰ τῶ<supplied reason="lost">ν Σεβαστῶν καὶ</supplied>
+                    <lb n="5"/><supplied reason="lost">τοῦ τὴν Αἴγ</supplied>υπτον ἐν εὐσταθείᾳ διά<supplied reason="lost">γουσαν εὐθύμως</supplied>
+                    <lb n="6"/><supplied reason="lost">ὑπηρετεῖν</supplied> τῇ τε εὐθηνίᾳ καὶ τῇ με<supplied reason="lost">γίστῃ τῶν νῦν</supplied>
+                    <lb n="7"/><supplied reason="lost">καιρῶν ε</supplied>ὐδαιμονίᾳ μὴ βαρυνομέν<supplied reason="lost">ην καιναῖς καὶ ἀδί</supplied>
+                    <lb n="8" break="no"/><supplied reason="lost">κοις εἰσ</supplied>πράξεσι, σχεδὸν δὲ ἐξ <supplied reason="lost">ο</supplied><unclear>ὗ</unclear> <supplied reason="lost">τῆς πόλεως</supplied>
+                    <lb n="9"/><supplied reason="lost">ἐπέβην κ</supplied>αταβοώμενος ὑπὸ τ<unclear>ῶν</unclear> <supplied reason="lost">ἐντυγχανόντων</supplied>
+                    <lb n="10"/><supplied reason="lost">καὶ κατʼ ὀ</supplied>λίγον καὶ κατὰ πληθηι <unclear>τῶ</unclear><supplied reason="lost">ν τε ἐνθάδε εὐσχη</supplied>
+                    <lb n="11" break="no"/><supplied reason="lost">μονεστ</supplied>άτων καὶ τῶν γεωργ<unclear>ού</unclear><supplied reason="lost">ντων τὴν χώραν</supplied>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

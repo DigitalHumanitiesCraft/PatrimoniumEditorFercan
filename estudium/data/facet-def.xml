@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facets xmlns="http://expath.org/ns/facet">
+    <!-- A simple facet for browsing by Syriaca.org series -->
+    <facet-definition name="Corpus">
+        <group-by>
+            <sub-path>descendant::tei:titleStmt/tei:title[@type="corpus"]</sub-path>
+        </group-by>
+        <max-values show="10">60</max-values>
+        <order-by direction="ascending">value</order-by>
+    </facet-definition>
+
+    <facet-definition name="Pays">
+        <group-by>
+            <sub-path>descendant::tei:country/tei:placeName[1]</sub-path>
+        </group-by>
+        <max-values show="2">60</max-values>
+        <order-by direction="ascending">value</order-by>
+    </facet-definition>
+    <facet-definition name="Localisation">
+        <group-by>
+            
+            <sub-path>descendant::tei:history/tei:provenance[@type = 'found']//tei:placeName[@type='ancientFindspot']</sub-path>
+
+        </group-by>
+        <max-values show="2">20</max-values>
+        <order-by direction="descending">count</order-by>
+    </facet-definition>
+    
+    <facet-definition name="keywords">
+        <group-by>
+            <sub-path>descendant::tei:textClass/tei:keywords/tei:term/@ref</sub-path>
+        </group-by>
+        <max-values show="2">60</max-values>
+        <order-by direction="descending">count</order-by>
+    </facet-definition>
+    <facet-definition name="Support">
+        <group-by>
+            <sub-path>descendant::tei:supportDesc/tei:support/tei:objectType/@ref</sub-path>
+        </group-by>
+        <max-values show="2">60</max-values>
+        <order-by direction="descending">count</order-by>
+    </facet-definition>
+    <facet-definition name="Matériau">
+        <group-by>
+            <sub-path>descendant::tei:supportDesc/tei:support/tei:material/@ref</sub-path>
+        </group-by>
+        <max-values show="2">60</max-values>
+        <order-by direction="descending">count</order-by>
+    </facet-definition>
+    <facet-definition name="Langues">
+        <group-by>
+            <sub-path>descendant::tei:text/tei:body/tei:div[@type="edition"]//@xml:lang</sub-path>
+        </group-by>
+        <max-values show="2">60</max-values>
+        <order-by direction="descending">count</order-by>
+    </facet-definition>
+    <facet-definition name="Périodes">
+        <range type="xs:int">
+            <bucket gt="-1000" lt="-300" name="-300 " order="32"/>
+            <bucket gt="-300" lt="-250" name="-300/-251" order="31"/>
+            <bucket gt="-250" lt="-225" name="-250/-226" order="30"/>
+            <bucket gt="-225" lt="-200" name="-225/-201" order="29"/>
+            <bucket gt="-200" lt="-175" name="-200/-176" order="28"/>
+            <bucket gt="-175" lt="-150" name="-175/-151" order="27"/>
+            <bucket gt="-150" lt="-100" name="-150/-100" order="26"/>
+            <bucket gt="-100" lt="-50" name="-100/-50" order="25"/>
+            <bucket gt="-50" lt="0" name="-50/0" order="24"/>
+            <bucket gt="0" lt="50" name="1/50" order="23"/>
+            <bucket gt="50" lt="100" name="51/100" order="22"/>
+            <bucket gt="100" lt="150" name="101/150" order="21"/>
+            <bucket gt="150" lt="200" name="151/200" order="20"/>
+            <bucket gt="200" lt="300" name="201/300" order="19"/>
+            <bucket gt="300" lt="400" name="301/400" order="18"/>
+            <bucket gt="400" lt="500" name="401/500" order="17"/>
+            <bucket gt="500" lt="1500" name="500+" order="16"/>
+        </range>
+        <group-by type="xs:int">
+        	<sub-path>descendant::tei:origDate/@notBefore</sub-path>
+        </group-by>
+        <max-values show="6">40</max-values>
+        <order-by direction="descending">order</order-by>
+    </facet-definition>
+    
+</facets>

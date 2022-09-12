@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <skos:ConceptScheme rdf:about="https://ausohnum.huma-num.fr/thesaurus/thesaurus/">
+        <dc:title type="full">thesaurus</dc:title>
+        <dc:title type="short">thesaurus</dc:title>
+        <skos:hasTopConcept rdf:resource="https://ausohnum.huma-num.fr/concept/c26467"/>
+        <dc:creator> </dc:creator>
+        <dc:publisher>Ausonius Institute</dc:publisher>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:ConceptScheme>
+    <skos:Concept xml:id="c26467" rdf:about="https://ausohnum.huma-num.fr/concept/c26467">
+        <skos:prefLabel xml:lang="fr">Thesaurus RIIG</skos:prefLabel>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26468"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26468" rdf:about="https://ausohnum.huma-num.fr/concept/c26468">
+        <skos:prefLabel xml:lang="fr">Type de lieu</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26467"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26469"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26470"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26503"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26514"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26469" rdf:about="https://ausohnum.huma-num.fr/concept/c26469">
+        <skos:prefLabel xml:lang="fr">Lieu moderne</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26468"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26470" rdf:about="https://ausohnum.huma-num.fr/concept/c26470">
+        <skos:prefLabel xml:lang="fr">Site de plaine</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26468"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26471"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26489"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26492"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26500"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26480"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26471" rdf:about="https://ausohnum.huma-num.fr/concept/c26471">
+        <skos:prefLabel xml:lang="fr">Site urbain</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26470"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26472"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26475"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26480"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26487"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26488"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26472" rdf:about="https://ausohnum.huma-num.fr/concept/c26472">
+        <skos:prefLabel xml:lang="fr">Quartier d'habitation</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26471"/>
+    <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26504"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26473"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26474"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26473" rdf:about="https://ausohnum.huma-num.fr/concept/c26473">
+        <skos:prefLabel xml:lang="fr">Case</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26472"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26474" rdf:about="https://ausohnum.huma-num.fr/concept/c26474">
+        <skos:prefLabel xml:lang="fr">Domus</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26472"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26475" rdf:about="https://ausohnum.huma-num.fr/concept/c26475">
+        <skos:prefLabel xml:lang="fr">Quartier d'artisanat</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26471"/>
+    <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26504"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26476"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26477"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26478"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26479"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26476" rdf:about="https://ausohnum.huma-num.fr/concept/c26476">
+        <skos:prefLabel xml:lang="fr">Forge</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26475"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26477" rdf:about="https://ausohnum.huma-num.fr/concept/c26477">
+        <skos:prefLabel xml:lang="fr">Potier</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26475"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26478" rdf:about="https://ausohnum.huma-num.fr/concept/c26478">
+        <skos:prefLabel xml:lang="fr">Atelier monétaire</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26475"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26479" rdf:about="https://ausohnum.huma-num.fr/concept/c26479">
+        <skos:prefLabel xml:lang="fr">Entrepôt</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26475"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26480" rdf:about="https://ausohnum.huma-num.fr/concept/c26480">
+        <skos:prefLabel xml:lang="fr">Sanctuaire</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26471"/>
+    <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26504"/>
+    <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26470"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26481"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26482"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26483"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26484"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26485"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26486"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26481" rdf:about="https://ausohnum.huma-num.fr/concept/c26481">
+        <skos:prefLabel xml:lang="fr">Temple</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26480"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26482" rdf:about="https://ausohnum.huma-num.fr/concept/c26482">
+        <skos:prefLabel xml:lang="fr">Fanum</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26480"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26483" rdf:about="https://ausohnum.huma-num.fr/concept/c26483">
+        <skos:prefLabel xml:lang="fr">Voie sacrée</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26480"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26484" rdf:about="https://ausohnum.huma-num.fr/concept/c26484">
+        <skos:prefLabel xml:lang="fr">Fontaine</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26480"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26485" rdf:about="https://ausohnum.huma-num.fr/concept/c26485">
+        <skos:prefLabel xml:lang="fr">Fosse cultuelle</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26480"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26486" rdf:about="https://ausohnum.huma-num.fr/concept/c26486">
+        <skos:prefLabel xml:lang="fr">Dépôt votif</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26480"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26487" rdf:about="https://ausohnum.huma-num.fr/concept/c26487">
+        <skos:prefLabel xml:lang="fr">Fontaine</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26471"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26488" rdf:about="https://ausohnum.huma-num.fr/concept/c26488">
+        <skos:prefLabel xml:lang="fr">Dépotoir</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26471"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26489" rdf:about="https://ausohnum.huma-num.fr/concept/c26489">
+        <skos:prefLabel xml:lang="fr">Habitat isolé</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26470"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26490"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26491"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26490" rdf:about="https://ausohnum.huma-num.fr/concept/c26490">
+        <skos:prefLabel xml:lang="fr">Villa</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26489"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26491" rdf:about="https://ausohnum.huma-num.fr/concept/c26491">
+        <skos:prefLabel xml:lang="fr">Ferme</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26489"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26492" rdf:about="https://ausohnum.huma-num.fr/concept/c26492">
+        <skos:prefLabel xml:lang="fr">Espace funéraire</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26470"/>
+    <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26504"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26493"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26496"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26499"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26493" rdf:about="https://ausohnum.huma-num.fr/concept/c26493">
+        <skos:prefLabel xml:lang="fr">Nécropole</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26492"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26494"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26495"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26494" rdf:about="https://ausohnum.huma-num.fr/concept/c26494">
+        <skos:prefLabel xml:lang="fr">Tombe</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26493"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26495" rdf:about="https://ausohnum.huma-num.fr/concept/c26495">
+        <skos:prefLabel xml:lang="fr">Monument funéraire</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26493"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26496" rdf:about="https://ausohnum.huma-num.fr/concept/c26496">
+        <skos:prefLabel xml:lang="fr">Carré funéraire</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26492"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26497"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26498"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26497" rdf:about="https://ausohnum.huma-num.fr/concept/c26497">
+        <skos:prefLabel xml:lang="fr">Tombe</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26496"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26498" rdf:about="https://ausohnum.huma-num.fr/concept/c26498">
+        <skos:prefLabel xml:lang="fr">Monument funéraire</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26496"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26499" rdf:about="https://ausohnum.huma-num.fr/concept/c26499">
+        <skos:prefLabel xml:lang="fr">Tombe isolée</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26492"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26500" rdf:about="https://ausohnum.huma-num.fr/concept/c26500">
+        <skos:prefLabel xml:lang="fr">Enclos cultuel</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26470"/>
+    
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26501"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26502"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26501" rdf:about="https://ausohnum.huma-num.fr/concept/c26501">
+        <skos:prefLabel xml:lang="fr">Fosse cultuelle</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26502" rdf:about="https://ausohnum.huma-num.fr/concept/c26502">
+        <skos:prefLabel xml:lang="fr">Dépôt votif</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26503" rdf:about="https://ausohnum.huma-num.fr/concept/c26503">
+        <skos:prefLabel xml:lang="fr">Site de hauteur</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26468"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26504"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26504" rdf:about="https://ausohnum.huma-num.fr/concept/c26504">
+        <skos:prefLabel xml:lang="fr">Oppidum</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26503"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26505"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26512"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26513"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26472"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26475"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26480"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26492"/>
+    
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26505" rdf:about="https://ausohnum.huma-num.fr/concept/c26505">
+        <skos:prefLabel xml:lang="fr">Aménagement</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26504"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26506"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26507"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26508"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26509"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26510"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26511"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26506" rdf:about="https://ausohnum.huma-num.fr/concept/c26506">
+        <skos:prefLabel xml:lang="fr">Dallage</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26505"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26507" rdf:about="https://ausohnum.huma-num.fr/concept/c26507">
+        <skos:prefLabel xml:lang="fr">Bassin</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26505"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26508" rdf:about="https://ausohnum.huma-num.fr/concept/c26508">
+        <skos:prefLabel xml:lang="fr">Sol</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26505"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26509" rdf:about="https://ausohnum.huma-num.fr/concept/c26509">
+        <skos:prefLabel xml:lang="fr">Mur</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26505"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26510" rdf:about="https://ausohnum.huma-num.fr/concept/c26510">
+        <skos:prefLabel xml:lang="fr">Rempart</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26505"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26511" rdf:about="https://ausohnum.huma-num.fr/concept/c26511">
+        <skos:prefLabel xml:lang="fr">Arc</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26505"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26512" rdf:about="https://ausohnum.huma-num.fr/concept/c26512">
+        <skos:prefLabel xml:lang="fr">Fontaine</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26504"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26513" rdf:about="https://ausohnum.huma-num.fr/concept/c26513">
+        <skos:prefLabel xml:lang="fr">Dépotoir</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26504"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26514" rdf:about="https://ausohnum.huma-num.fr/concept/c26514">
+        <skos:prefLabel xml:lang="fr">Site naturel</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26468"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26515"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26516"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26517"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26518"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26519"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26515" rdf:about="https://ausohnum.huma-num.fr/concept/c26515">
+        <skos:prefLabel xml:lang="fr">Paroi rocheuse</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26514"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26516" rdf:about="https://ausohnum.huma-num.fr/concept/c26516">
+        <skos:prefLabel xml:lang="fr">Dépotoir</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26514"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26517" rdf:about="https://ausohnum.huma-num.fr/concept/c26517">
+        <skos:prefLabel xml:lang="fr">Carrière</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26514"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26518" rdf:about="https://ausohnum.huma-num.fr/concept/c26518">
+        <skos:prefLabel xml:lang="fr">Roche</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26514"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c26519" rdf:about="https://ausohnum.huma-num.fr/concept/c26519">
+        <skos:prefLabel xml:lang="fr">Source</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26514"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/thesaurus/"/>
+        <dct:created>2021-08-23T15:00:14.005+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+</rdf:RDF>

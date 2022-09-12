@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <skos:ConceptScheme rdf:about="https://ausohnum.huma-num.fr/thesaurus/egypthesau/">
+        <dc:title type="full">Egyptological Thesaurus</dc:title>
+        <dc:title type="short">egypthesau</dc:title>
+        <skos:hasTopConcept rdf:resource="https://ausohnum.huma-num.fr/concept/c19930"/>
+        <dc:creator ref="vrazanajao">Vincent Razanajao</dc:creator>
+        <dc:contributor ref="nsouchon">Nicolas Souchon</dc:contributor>
+        <dc:publisher>AusoHNum</dc:publisher>
+        <dct:created>2019-02-11T11:29:00.000+01:00</dct:created>
+        <skosThesau:admin status="draft" groups="egyptologyGroup"/>
+    </skos:ConceptScheme>
+    <skos:Collection xml:id="c19930" rdf:about="https://ausohnum.huma-num.fr/concept/c19930">
+        <skos:prefLabel xml:lang="fr">Thesaurus égyptologique</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Egyptological thesaurus</skos:prefLabel>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20233"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20257"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20266"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26296"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-02-11T11:29:00.000+01:00</dct:created>
+    <dct:modified>2019-02-11T11:51:57.921+01:00</dct:modified>
+    <dct:modified>2019-03-07T15:38:51.593+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:11:53.823+01:00</dct:modified>
+    <dct:modified>2021-02-17T21:22:07.43+01:00</dct:modified>
+       <skosThesau:admin status="draft"/>
+    </skos:Collection>
+
+    <skos:Concept xml:id="c20233" rdf:about="https://ausohnum.huma-num.fr/concept/c20233">
+        <skos:prefLabel xml:lang="en">Statue types</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">types de statue</skos:prefLabel>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20234"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20242"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19930"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-11T11:51:57.921+01:00</dct:created>
+    <dct:modified>2019-02-11T11:53:25.565+01:00</dct:modified>
+    <dct:modified>2019-02-11T16:52:51.855+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c20234" rdf:about="https://ausohnum.huma-num.fr/concept/c20234">
+        <skos:prefLabel xml:lang="en">Postures</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">attitudes</skos:prefLabel>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20235"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20236"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20237"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20238"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20239"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20240"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20241"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20233"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-11T11:53:25.565+01:00</dct:created>
+    <dct:modified>2019-02-11T11:54:08.582+01:00</dct:modified>
+    <dct:modified>2019-02-11T11:54:46.705+01:00</dct:modified>
+    <dct:modified>2019-02-11T16:47:38.585+01:00</dct:modified>
+    <dct:modified>2019-02-11T16:48:23.336+01:00</dct:modified>
+    <dct:modified>2019-02-11T16:49:59.994+01:00</dct:modified>
+    <dct:modified>2019-02-11T16:51:22.808+01:00</dct:modified>
+    <dct:modified>2019-02-11T16:52:25.35+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c20235" rdf:about="https://ausohnum.huma-num.fr/concept/c20235">
+        <skos:prefLabel xml:lang="en">block-statue</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">statue cube</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20234"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-11T11:54:08.582+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20236" rdf:about="https://ausohnum.huma-num.fr/concept/c20236">
+        <skos:prefLabel xml:lang="en">cross-legged</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">assis en tailleur</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20234"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-11T11:54:46.705+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20237" rdf:about="https://ausohnum.huma-num.fr/concept/c20237">
+        <skos:prefLabel xml:lang="en">sitting scribe</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">assis en scribe</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20234"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-11T16:47:38.585+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20238" rdf:about="https://ausohnum.huma-num.fr/concept/c20238">
+        <skos:prefLabel xml:lang="en">kneeling</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">agenouillé</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20234"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-11T16:48:23.336+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20239" rdf:about="https://ausohnum.huma-num.fr/concept/c20239">
+        <skos:prefLabel xml:lang="en">squatting</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">accroupi</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20234"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-11T16:49:59.994+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20240" rdf:about="https://ausohnum.huma-num.fr/concept/c20240">
+        <skos:prefLabel xml:lang="en">seated</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">assis sur un siège</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20234"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-11T16:51:22.808+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20241" rdf:about="https://ausohnum.huma-num.fr/concept/c20241">
+        <skos:prefLabel xml:lang="en">standing</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">debout</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20234"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-11T16:52:25.35+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20242" rdf:about="https://ausohnum.huma-num.fr/concept/c20242">
+        <skos:prefLabel xml:lang="en">Gestures</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Gestes</skos:prefLabel>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20243"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20244"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20245"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20253"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20254"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20255"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20233"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-11T16:52:51.855+01:00</dct:created>
+    <dct:modified>2019-02-11T16:53:48.941+01:00</dct:modified>
+    <dct:modified>2019-02-11T16:54:05.36+01:00</dct:modified>
+    <dct:modified>2019-02-11T16:54:23.066+01:00</dct:modified>
+    <dct:modified>2019-02-12T10:14:43.571+01:00</dct:modified>
+    <dct:modified>2019-02-12T10:16:56.587+01:00</dct:modified>
+    <dct:modified>2019-02-12T10:22:13.893+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c20243" rdf:about="https://ausohnum.huma-num.fr/concept/c20243">
+        <skos:prefLabel xml:lang="en">theophoric</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">théophore</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20242"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-11T16:53:48.941+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20244" rdf:about="https://ausohnum.huma-num.fr/concept/c20244">
+        <skos:prefLabel xml:lang="en">naophoric</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">naophore</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20242"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-11T16:54:05.36+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20245" rdf:about="https://ausohnum.huma-num.fr/concept/c20245">
+        <skos:prefLabel xml:lang="en">offering</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">offrant</skos:prefLabel>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20246"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20247"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20248"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20249"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20250"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20251"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20252"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20242"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-11T16:54:23.066+01:00</dct:created>
+    <dct:modified>2019-02-11T16:54:57.158+01:00</dct:modified>
+    <dct:modified>2019-02-12T10:03:38.35+01:00</dct:modified>
+    <dct:modified>2019-02-12T10:05:27.355+01:00</dct:modified>
+    <dct:modified>2019-02-12T10:07:52.675+01:00</dct:modified>
+    <dct:modified>2019-02-12T10:08:50.595+01:00</dct:modified>
+    <dct:modified>2019-02-12T10:10:15.964+01:00</dct:modified>
+    <dct:modified>2019-02-12T10:10:37.647+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c20246" rdf:about="https://ausohnum.huma-num.fr/concept/c20246">
+        <skos:prefLabel xml:lang="en">Offering round vases</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">présentant des vases ronds</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20245"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-11T16:54:57.158+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20247" rdf:about="https://ausohnum.huma-num.fr/concept/c20247">
+        <skos:prefLabel xml:lang="en">offering ointment vases</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">présentant des vases à onguent</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20245"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-12T10:03:38.35+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20248" rdf:about="https://ausohnum.huma-num.fr/concept/c20248">
+        <skos:prefLabel xml:lang="en">presenting an offering table</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">presentant une table d'offrande</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20245"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-12T10:05:27.355+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20249" rdf:about="https://ausohnum.huma-num.fr/concept/c20249">
+        <skos:prefLabel xml:lang="en">presenting an offering table with the libation equipment</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">présentant une table d'offrande et le nécessaire à libation</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20245"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-12T10:07:52.675+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20250" rdf:about="https://ausohnum.huma-num.fr/concept/c20250">
+        <skos:prefLabel xml:lang="en">presenting a circular basin</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">présentant un bassin circulaire</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20245"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-12T10:08:50.595+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20251" rdf:about="https://ausohnum.huma-num.fr/concept/c20251">
+        <skos:prefLabel xml:lang="en">presenting a magical or magic text related object</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">présentant un monument magique ou associé à un texte magique</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20245"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-12T10:10:15.964+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20252" rdf:about="https://ausohnum.huma-num.fr/concept/c20252">
+        <skos:prefLabel xml:lang="en">presenting a stela</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">présentant une stèle</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20245"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-12T10:10:37.647+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20253" rdf:about="https://ausohnum.huma-num.fr/concept/c20253">
+        <skos:prefLabel xml:lang="en">adoring, with one or two hands up</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">adorant, une ou deux mains levées</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20242"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-12T10:14:43.571+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20254" rdf:about="https://ausohnum.huma-num.fr/concept/c20254">
+        <skos:prefLabel xml:lang="en">adoring with one hand, presenting a divine image with the other</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">levant une main en signe d’adoration, l’autre présentant une image divine</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20242"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-12T10:16:56.587+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20255" rdf:about="https://ausohnum.huma-num.fr/concept/c20255">
+        <skos:prefLabel xml:lang="en">joined hands on front</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">mains jointes sur le devant</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20242"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-12T10:22:13.893+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20257" rdf:about="https://ausohnum.huma-num.fr/concept/c20257">
+        <skos:prefLabel xml:lang="en">Formula types</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">types de formule</skos:prefLabel>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20258"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20259"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20260"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20261"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20262"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20263"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20264"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20265"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19930"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-03-07T15:38:51.593+01:00</dct:created>
+    <dct:modified>2019-03-07T15:39:45.949+01:00</dct:modified>
+    <dct:modified>2019-03-07T15:40:18.341+01:00</dct:modified>
+    <dct:modified>2019-03-07T15:40:41.302+01:00</dct:modified>
+    <dct:modified>2019-03-07T15:41:36.137+01:00</dct:modified>
+    <dct:modified>2019-03-07T15:42:04.832+01:00</dct:modified>
+    <dct:modified>2019-03-07T15:42:45.334+01:00</dct:modified>
+    <dct:modified>2019-03-07T15:43:14.843+01:00</dct:modified>
+    <dct:modified>2019-03-07T15:44:32.556+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c20258" rdf:about="https://ausohnum.huma-num.fr/concept/c20258">
+        <skos:prefLabel xml:lang="en">Saitic formula</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">formule saïte</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">saitic-formula</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20257"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-03-07T15:39:45.949+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20259" rdf:about="https://ausohnum.huma-num.fr/concept/c20259">
+        <skos:prefLabel xml:lang="en">htp-d-nsw</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">htp-d-nsw</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">htp-d-nsw</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20257"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-03-07T15:40:18.341+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20260" rdf:about="https://ausohnum.huma-num.fr/concept/c20260">
+        <skos:prefLabel xml:lang="en">dedication</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">dédicace</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">dedication</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20257"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-03-07T15:40:41.302+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20261" rdf:about="https://ausohnum.huma-num.fr/concept/c20261">
+        <skos:prefLabel xml:lang="en">Threat formula</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">formule d'avertissement</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">threat-formula</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20257"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-03-07T15:41:36.137+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20262" rdf:about="https://ausohnum.huma-num.fr/concept/c20262">
+        <skos:prefLabel xml:lang="en">biographical text</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Texte biographique</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">biographical-text</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20257"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-03-07T15:42:04.832+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20263" rdf:about="https://ausohnum.huma-num.fr/concept/c20263">
+        <skos:prefLabel xml:lang="en">Appeal to the living</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">appel aux vivants</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">appeal-to-the-living</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20257"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-03-07T15:42:45.334+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20264" rdf:about="https://ausohnum.huma-num.fr/concept/c20264">
+        <skos:prefLabel xml:lang="en">divine speech</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">parole divine</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">divine-speech</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20257"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-03-07T15:43:14.843+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20265" rdf:about="https://ausohnum.huma-num.fr/concept/c20265">
+        <skos:prefLabel xml:lang="en">liturgical formula</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">liturgical-formula</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20257"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-03-07T15:44:32.556+01:00</dct:created>
+    </skos:Concept>
+
+
+        <skos:Concept xml:id="c20266" rdf:about="https://ausohnum.huma-num.fr/concept/c20266">
+        <skos:prefLabel xml:lang="fr">Emplacement du champ épigraphique    </skos:prefLabel>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20267"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20274"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20275"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20278"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20281"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20287"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20288"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20289"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20299"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20300"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20301"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20302"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20310"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26291"/>
+         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+    <dct:modified>2021-02-17T21:18:09.463+01:00</dct:modified>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20267" rdf:about="https://ausohnum.huma-num.fr/concept/c20267">
+        <skos:prefLabel xml:lang="fr">buste</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20266"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20268"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20271"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20268" rdf:about="https://ausohnum.huma-num.fr/concept/c20268">
+        <skos:prefLabel xml:lang="fr">bras</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20267"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20269"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20270"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20269" rdf:about="https://ausohnum.huma-num.fr/concept/c20269">
+        <skos:prefLabel xml:lang="fr">bras droit</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20268"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20270" rdf:about="https://ausohnum.huma-num.fr/concept/c20270">
+        <skos:prefLabel xml:lang="fr">bras gauche</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20268"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20271" rdf:about="https://ausohnum.huma-num.fr/concept/c20271">
+        <skos:prefLabel xml:lang="fr">épaule</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20267"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20272"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20273"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20272" rdf:about="https://ausohnum.huma-num.fr/concept/c20272">
+        <skos:prefLabel xml:lang="fr">épaule droite</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20271"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20273" rdf:about="https://ausohnum.huma-num.fr/concept/c20273">
+        <skos:prefLabel xml:lang="fr">épaule gauche</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20271"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20274" rdf:about="https://ausohnum.huma-num.fr/concept/c20274">
+        <skos:prefLabel xml:lang="fr">réserve de matière</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20266"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20275" rdf:about="https://ausohnum.huma-num.fr/concept/c20275">
+        <skos:prefLabel xml:lang="fr">pilier dorsal</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">back-pillar</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20266"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20276"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20277"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20276" rdf:about="https://ausohnum.huma-num.fr/concept/c20276">
+        <skos:prefLabel xml:lang="fr">appui siège</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20275"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20277" rdf:about="https://ausohnum.huma-num.fr/concept/c20277">
+        <skos:prefLabel xml:lang="fr">tranche du pilier dorsal</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20275"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20278" rdf:about="https://ausohnum.huma-num.fr/concept/c20278">
+        <skos:prefLabel xml:lang="fr">registre</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20266"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20279"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20280"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20279" rdf:about="https://ausohnum.huma-num.fr/concept/c20279">
+        <skos:prefLabel xml:lang="fr">registre bas</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20278"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20280" rdf:about="https://ausohnum.huma-num.fr/concept/c20280">
+        <skos:prefLabel xml:lang="fr">registre haut</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20278"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20281" rdf:about="https://ausohnum.huma-num.fr/concept/c20281">
+        <skos:prefLabel xml:lang="fr">base</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20266"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20282"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20283"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20284"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20282" rdf:about="https://ausohnum.huma-num.fr/concept/c20282">
+        <skos:prefLabel xml:lang="fr">haut de la base</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20281"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20283" rdf:about="https://ausohnum.huma-num.fr/concept/c20283">
+        <skos:prefLabel xml:lang="fr">plat de la base</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20281"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20284" rdf:about="https://ausohnum.huma-num.fr/concept/c20284">
+        <skos:prefLabel xml:lang="fr">pourtour de la base</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20281"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20285"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20286"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20285" rdf:about="https://ausohnum.huma-num.fr/concept/c20285">
+        <skos:prefLabel xml:lang="fr">pourtour de la base côté droit</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20284"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20286" rdf:about="https://ausohnum.huma-num.fr/concept/c20286">
+        <skos:prefLabel xml:lang="fr">pourtour de la base côté gauche</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20284"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20287" rdf:about="https://ausohnum.huma-num.fr/concept/c20287">
+        <skos:prefLabel xml:lang="fr">ceinture</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20266"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20288" rdf:about="https://ausohnum.huma-num.fr/concept/c20288">
+        <skos:prefLabel xml:lang="fr">socle</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20266"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20289" rdf:about="https://ausohnum.huma-num.fr/concept/c20289">
+        <skos:prefLabel xml:lang="fr">devant</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20266"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20290"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20291"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20292"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20297"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20298"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20290" rdf:about="https://ausohnum.huma-num.fr/concept/c20290">
+        <skos:prefLabel xml:lang="fr">devanteau</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20289"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20291" rdf:about="https://ausohnum.huma-num.fr/concept/c20291">
+        <skos:prefLabel xml:lang="fr">jambe</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20289"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20292" rdf:about="https://ausohnum.huma-num.fr/concept/c20292">
+        <skos:prefLabel xml:lang="fr">naos</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20289"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20293"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20294"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20293" rdf:about="https://ausohnum.huma-num.fr/concept/c20293">
+        <skos:prefLabel xml:lang="fr">cadre du naos</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20292"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20294" rdf:about="https://ausohnum.huma-num.fr/concept/c20294">
+        <skos:prefLabel xml:lang="fr">côté du naos</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20292"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20295"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20296"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20295" rdf:about="https://ausohnum.huma-num.fr/concept/c20295">
+        <skos:prefLabel xml:lang="fr">côté droit du naos</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20294"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20296" rdf:about="https://ausohnum.huma-num.fr/concept/c20296">
+        <skos:prefLabel xml:lang="fr">côté gauche du naos</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20294"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20297" rdf:about="https://ausohnum.huma-num.fr/concept/c20297">
+        <skos:prefLabel xml:lang="fr">papyrus</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20289"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20298" rdf:about="https://ausohnum.huma-num.fr/concept/c20298">
+        <skos:prefLabel xml:lang="fr">robe</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20289"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20299" rdf:about="https://ausohnum.huma-num.fr/concept/c20299">
+        <skos:prefLabel xml:lang="fr">baudrier</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20266"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20300" rdf:about="https://ausohnum.huma-num.fr/concept/c20300">
+        <skos:prefLabel xml:lang="fr">entre les mains</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20266"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20301" rdf:about="https://ausohnum.huma-num.fr/concept/c20301">
+        <skos:prefLabel xml:lang="fr">figure divine</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20266"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20302" rdf:about="https://ausohnum.huma-num.fr/concept/c20302">
+        <skos:prefLabel xml:lang="fr">siège</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20266"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20303"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20304"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20307"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20303" rdf:about="https://ausohnum.huma-num.fr/concept/c20303">
+        <skos:prefLabel xml:lang="fr">arrière du siège</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20302"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20304" rdf:about="https://ausohnum.huma-num.fr/concept/c20304">
+        <skos:prefLabel xml:lang="fr">avant du siège</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20302"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20305"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20306"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20305" rdf:about="https://ausohnum.huma-num.fr/concept/c20305">
+        <skos:prefLabel xml:lang="fr">avant du siège côté droit</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20304"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20306" rdf:about="https://ausohnum.huma-num.fr/concept/c20306">
+        <skos:prefLabel xml:lang="fr">avant du siège côté gauche</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20304"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20307" rdf:about="https://ausohnum.huma-num.fr/concept/c20307">
+        <skos:prefLabel xml:lang="fr">côté latéral du siège</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20302"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20308"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20309"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20308" rdf:about="https://ausohnum.huma-num.fr/concept/c20308">
+        <skos:prefLabel xml:lang="fr">côté latéral droit du siège</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20307"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20309" rdf:about="https://ausohnum.huma-num.fr/concept/c20309">
+        <skos:prefLabel xml:lang="fr">côté latéral gauche du siège</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20307"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c20310" rdf:about="https://ausohnum.huma-num.fr/concept/c20310">
+        <skos:prefLabel xml:lang="fr">tranche</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20266"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <dct:created>2019-04-10T14:20:47.771+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+
+    <skos:Concept xml:id="c22227" rdf:about="https://ausohnum.huma-num.fr/concept/c22227">
+        <skos:prefLabel xml:lang="en">Material</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Materiau</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Material</skos:prefLabel>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22228"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22229"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22230"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22231"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22232"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22233"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22234"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22235"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22236"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22237"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22238"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22239"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22240"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22241"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22242"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22243"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22244"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22245"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22246"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22247"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22248"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22249"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22250"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22251"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22257"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22258"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19930"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:11:53.823+01:00</dct:created>
+    <dct:modified>2019-12-23T16:13:31.791+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:15:16.017+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:15:16.627+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:17:40.693+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:18:13.79+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:19:19.613+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:20:06.786+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:20:38.174+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:21:51.07+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:22:53.608+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:23:30.868+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:24:12.503+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:24:44.208+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:25:33.049+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:26:17.341+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:27:18.727+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:29:46.812+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:33:24.133+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:34:02.356+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:34:44.433+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:35:57.222+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:36:58.022+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:37:49.139+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:38:19.961+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:42:36.268+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:43:14.933+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c22228" rdf:about="https://ausohnum.huma-num.fr/concept/c22228">
+        <skos:prefLabel xml:lang="en">Alabaster</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Albâtre</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Alabaster</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">alabaster</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:13:31.791+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22229" rdf:about="https://ausohnum.huma-num.fr/concept/c22229">
+        <skos:prefLabel xml:lang="en">Amazonite</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Amazonite</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Amazonit</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">amazonite</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:15:16.017+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22230" rdf:about="https://ausohnum.huma-num.fr/concept/c22230">
+        <skos:prefLabel xml:lang="en">Anhydrite</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Anhydrite</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">anhydrite</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Anhydrit</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:15:16.627+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22231" rdf:about="https://ausohnum.huma-num.fr/concept/c22231">
+        <skos:prefLabel xml:lang="en">Basalt</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Basalte</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Basalt</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">basalt</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:17:40.693+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22232" rdf:about="https://ausohnum.huma-num.fr/concept/c22232">
+        <skos:prefLabel xml:lang="en">Fossil wood</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Bois fossile</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Fossil Holz</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">fossil-wood</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:18:13.79+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22233" rdf:about="https://ausohnum.huma-num.fr/concept/c22233">
+        <skos:prefLabel xml:lang="en">Red breccia</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Brèche rouge</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Rote Breccie</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">red-breccia</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:19:19.613+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22234" rdf:about="https://ausohnum.huma-num.fr/concept/c22234">
+        <skos:prefLabel xml:lang="en">Green breccia</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Brèche verte</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Grüne Breccie</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">green-breccia</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:20:06.786+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22235" rdf:about="https://ausohnum.huma-num.fr/concept/c22235">
+        <skos:prefLabel xml:lang="en">Limestone</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Calcaire</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Kalkstein</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">limestone</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:20:38.174+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22236" rdf:about="https://ausohnum.huma-num.fr/concept/c22236">
+        <skos:prefLabel xml:lang="en">Diorite, Gabbro</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Diorite, Gabbro</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Diorit, Gabbro</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">diorite-gabbro</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:21:51.07+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22237" rdf:about="https://ausohnum.huma-num.fr/concept/c22237">
+        <skos:prefLabel xml:lang="en">Anorthositic gneiss</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Gneiss anorthositique</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Anorthositgneis</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">anorthositic-gneiss</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:22:53.608+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22238" rdf:about="https://ausohnum.huma-num.fr/concept/c22238">
+        <skos:prefLabel xml:lang="en">Granite</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Granite</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Granit</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">granite</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:23:30.868+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22239" rdf:about="https://ausohnum.huma-num.fr/concept/c22239">
+        <skos:prefLabel xml:lang="en">Greywacke</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Grauwacke</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Grauwacke</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">greywacke</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:24:12.503+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22240" rdf:about="https://ausohnum.huma-num.fr/concept/c22240">
+        <skos:prefLabel xml:lang="en">Sandstone</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Grès</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sandstein</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">sandstone</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:24:44.208+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22241" rdf:about="https://ausohnum.huma-num.fr/concept/c22241">
+        <skos:prefLabel xml:lang="en">Silicified sandstone</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Grès silicifié</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Silifizierter Sandstein</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">silicified-sandstone</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:25:33.049+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22242" rdf:about="https://ausohnum.huma-num.fr/concept/c22242">
+        <skos:prefLabel xml:lang="en">Hematite</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hématite</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">hematite</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Hematite</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:26:17.341+01:00</dct:created>
+    <skos:altLabel xml:lang="de">Eisenblutstein</skos:altLabel>
+    </skos:Concept>
+    <skos:Concept xml:id="c22243" rdf:about="https://ausohnum.huma-num.fr/concept/c22243">
+        <skos:prefLabel xml:lang="en">Jasper</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Jaspe</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Jaspis</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">jasper</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:27:18.727+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22244" rdf:about="https://ausohnum.huma-num.fr/concept/c22244">
+        <skos:prefLabel xml:lang="en">Lapis lazuli</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Lapis-lazuli</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">lapis-lazuli</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Lapislazuli</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:29:46.812+01:00</dct:created>
+    <skos:altLabel xml:lang="de">Lazurstein</skos:altLabel>
+    </skos:Concept>
+    <skos:Concept xml:id="c22245" rdf:about="https://ausohnum.huma-num.fr/concept/c22245">
+        <skos:prefLabel xml:lang="en">Marble</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Marbre</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Marmor</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">marble</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:33:24.133+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22246" rdf:about="https://ausohnum.huma-num.fr/concept/c22246">
+        <skos:prefLabel xml:lang="en">Obsidian</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Obsidienne</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Obsidian</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">obsidian</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:34:02.356+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22247" rdf:about="https://ausohnum.huma-num.fr/concept/c22247">
+        <skos:prefLabel xml:lang="en">Pegmatite</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Pegmatite</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Pegmatit</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">pegmatite</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:34:44.433+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22248" rdf:about="https://ausohnum.huma-num.fr/concept/c22248">
+        <skos:prefLabel xml:lang="en">Peridotite, Pyroxenite</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Péridotite, Pyroxénite</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Peridotit, Pyroxenit</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">peridotite-pyroxenite</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:35:57.222+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22249" rdf:about="https://ausohnum.huma-num.fr/concept/c22249">
+        <skos:prefLabel xml:lang="en">Imperial Porphyry</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Porphyre Impérial</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Purpurrote Porphyr</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">imperial-porphyry</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:36:58.022+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22250" rdf:about="https://ausohnum.huma-num.fr/concept/c22250">
+        <skos:prefLabel xml:lang="en">Black Porphyry</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Porphyre noir</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Schwarzer Porphyr</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">black-porphyry</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:37:49.139+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22251" rdf:about="https://ausohnum.huma-num.fr/concept/c22251">
+        <skos:prefLabel xml:lang="en">Quartz</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Quartz</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Quartz</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">quartz</skos:prefLabel>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22252"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22253"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22254"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22255"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22256"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:38:19.961+01:00</dct:created>
+    <dct:modified>2019-12-23T16:39:08.499+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:39:51.11+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:40:25.707+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:41:12.484+01:00</dct:modified>
+    <dct:modified>2019-12-23T16:41:59.058+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c22252" rdf:about="https://ausohnum.huma-num.fr/concept/c22252">
+        <skos:prefLabel xml:lang="en">Agate</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Agate</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Achat</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">agate</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22251"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:39:08.499+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22253" rdf:about="https://ausohnum.huma-num.fr/concept/c22253">
+        <skos:prefLabel xml:lang="en">Amethyst</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Améthyste</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Amethyst</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">amethyst</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22251"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:39:51.11+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22254" rdf:about="https://ausohnum.huma-num.fr/concept/c22254">
+        <skos:prefLabel xml:lang="en">Carnelian</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Cornaline</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Karneol</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">carnelian</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22251"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:40:25.707+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22255" rdf:about="https://ausohnum.huma-num.fr/concept/c22255">
+        <skos:prefLabel xml:lang="en">Rock crystal</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Cristal de roche</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Bergkristall</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">rock-crystal</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22251"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:41:12.484+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22256" rdf:about="https://ausohnum.huma-num.fr/concept/c22256">
+        <skos:prefLabel xml:lang="en">Smoky quartz</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Quartz fumé</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Rauchquartz</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">smoky-quartz</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22251"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:41:59.058+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22257" rdf:about="https://ausohnum.huma-num.fr/concept/c22257">
+        <skos:prefLabel xml:lang="en">Serpentinite</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Serpentinite</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Serpentinit</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">serpentinite</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:42:36.268+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22258" rdf:about="https://ausohnum.huma-num.fr/concept/c22258">
+        <skos:prefLabel xml:lang="en">Steatite</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Stéatite</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Speckstein</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">steatite</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Soapstone</skos:altLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c22227"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nsouchon"> </dct:creator>
+        <dct:created>2019-12-23T16:43:14.933+01:00</dct:created>
+    </skos:Concept>
+
+    <skos:Concept xml:id="c26291" rdf:about="https://ausohnum.huma-num.fr/concept/c26291">
+        <skos:prefLabel xml:lang="en">faces</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">faces</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">faces</skos:prefLabel>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26292"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26293"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26294"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26295"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26303"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c20266"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2021-02-17T21:18:09.463+01:00</dct:created>
+    <dct:modified>2021-02-17T21:18:50.933+01:00</dct:modified>
+    <dct:modified>2021-02-17T21:19:14.166+01:00</dct:modified>
+    <dct:modified>2021-02-17T21:19:33.1+01:00</dct:modified>
+    <dct:modified>2021-02-17T21:20:07.388+01:00</dct:modified>
+    <dct:modified>2021-02-17T21:34:53.666+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c26292" rdf:about="https://ausohnum.huma-num.fr/concept/c26292">
+        <skos:prefLabel xml:lang="en">front side</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">face avant</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">front-side</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26291"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2021-02-17T21:18:50.933+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26293" rdf:about="https://ausohnum.huma-num.fr/concept/c26293">
+        <skos:prefLabel xml:lang="en">left side</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">face gauche</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">left-side</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26291"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2021-02-17T21:19:14.166+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26294" rdf:about="https://ausohnum.huma-num.fr/concept/c26294">
+        <skos:prefLabel xml:lang="en">right side</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Face droite</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">right-side</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26291"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2021-02-17T21:19:33.1+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26295" rdf:about="https://ausohnum.huma-num.fr/concept/c26295">
+        <skos:prefLabel xml:lang="en">upper side</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">face du dessus</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">upper-side</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26291"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2021-02-17T21:20:07.388+01:00</dct:created>
+    </skos:Concept>
+    <skos:Collection xml:id="c26296" rdf:about="https://ausohnum.huma-num.fr/concept/c26296">
+        <skos:prefLabel xml:lang="en">language and scripts (minimal set)</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Langues et écritures (minimal)</skos:prefLabel>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26297"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26298"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26299"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26300"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26301"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26302"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26304"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26305"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19930"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2021-02-17T21:22:07.43+01:00</dct:created>
+    <dct:modified>2021-02-17T21:23:26.215+01:00</dct:modified>
+    <dct:modified>2021-02-17T21:24:28.28+01:00</dct:modified>
+    <dct:modified>2021-02-17T21:25:11.578+01:00</dct:modified>
+    <dct:modified>2021-02-17T21:26:50.928+01:00</dct:modified>
+    <dct:modified>2021-02-17T21:27:52.252+01:00</dct:modified>
+    <dct:modified>2021-02-17T21:30:14.65+01:00</dct:modified>
+    <dct:modified>2021-02-17T21:59:12.007+01:00</dct:modified>
+    <dct:modified>2021-02-17T21:59:35.229+01:00</dct:modified>
+    </skos:Collection>
+    <skos:Concept xml:id="c26297" rdf:about="https://ausohnum.huma-num.fr/concept/c26297">
+        <skos:prefLabel xml:lang="en">Ancient Egyptian in hieroglyphic script</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Ancien égyptien en écriture hiéroglyphique</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egy-egyp</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26296"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2021-02-17T21:23:26.215+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26298" rdf:about="https://ausohnum.huma-num.fr/concept/c26298">
+        <skos:prefLabel xml:lang="en">Ancient Egyptian in Hhieratic script</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Ancien égyptien en écriture hiératique</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egy-egyh</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26296"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2021-02-17T21:24:28.28+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26299" rdf:about="https://ausohnum.huma-num.fr/concept/c26299">
+        <skos:prefLabel xml:lang="en">Ancient Egyptian in demotic script</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Ancien égyptien en écriture démotique</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egy-egyd</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26296"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2021-02-17T21:25:11.578+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26300" rdf:about="https://ausohnum.huma-num.fr/concept/c26300">
+        <skos:prefLabel xml:lang="en">Ancient Egyptian in latin script according LEAD project standard</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Ancien égyptien transcrit en caractère latin selon la convention établie par le projet Sculpture pharaonique d’époque tardive</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egy-latn-x-st</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26296"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2021-02-17T21:26:50.928+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26301" rdf:about="https://ausohnum.huma-num.fr/concept/c26301">
+        <skos:prefLabel xml:lang="en">Meroitic written with meroitic cursive script</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Méroïtique en écriture cursive</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">xmr-Merc</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26296"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2021-02-17T21:27:52.252+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26302" rdf:about="https://ausohnum.huma-num.fr/concept/c26302">
+        <skos:prefLabel xml:lang="en">Meroitic written with hieroglyphic script</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Méroïtique en écriture hiéroglyphique</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">xmr-Mero</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26296"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2021-02-17T21:30:14.65+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26303" rdf:about="https://ausohnum.huma-num.fr/concept/c26303">
+        <skos:prefLabel xml:lang="en">rear side</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">face arrière</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">rear-side</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26291"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2021-02-17T21:34:53.666+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26304" rdf:about="https://ausohnum.huma-num.fr/concept/c26304">
+        <skos:prefLabel xml:lang="en">Ancient Greek</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">grec ancien</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">grc</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26296"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2021-02-17T21:59:12.007+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26305" rdf:about="https://ausohnum.huma-num.fr/concept/c26305">
+        <skos:prefLabel xml:lang="en">Latin</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">latin</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">la</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26296"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/egypthesau/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2021-02-17T21:59:35.229+01:00</dct:created>
+    </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="p120200200062" xml:space="preserve" xml:lang="lat" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="inscription">Cippo terminale posto da <q>Marcus Caelius Phileros</q> per volontà di Augusto (?).</title>
+                <title type="corpus">Uchi Maius</title>
+                <tei:editor xmlns:tei="http://www.tei-c.org/ns/1.0">
+                    
+                    <persName xml:id="mabid"><forename>Mohamed</forename><surname>ABID</surname></persName>
+                </tei:editor>
+                <sponsor><orgName xml:id="petrae">PETRAE - Programme d'Enregistrement, Traitement et Reconnaissance Automatique en Épigraphie</orgName></sponsor>
+                <respStmt>
+                    <resp when="2018">TEI Encoding</resp>
+                    <persName xml:id="NPrevot" corresp="http://ausonius.u-bordeaux-montaigne.fr/annuaire?nathalie.prevot"><forename>Nathalie</forename><surname>Prévôt</surname></persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>AUSONIUS - UMR 5607<address><addrLine>Maison de l'Archéologie</addrLine><addrLine>8, Esplanade des Antilles</addrLine><addrLine>33607 Pessac</addrLine></address>
+                    <idno type="URI">http://ausonius.u-bordeaux-montaigne.fr/</idno>
+                </authority>
+                <date when="2006">2006</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-nd/2.0/fr/">
+                        <p>Licence Creative Commons  Attribution - Pas d’Utilisation Commerciale - Pas de Modification 2.0 France (CC BY-NC-ND 2.0 FR)</p>
+                    </licence>
+                </availability>
+                <idno type="URI">http://petrae.huma-num.fr/120200200062</idno>
+                <idno type="localID">12/2/2/62</idno>
+                <idno type="filename">120200200062</idno>
+                <idno type="corpus-number">62</idno>
+                <idno type="tm">199926</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern" ref="http://www.geonames.org/2464461/republic-of-tunisia.html">Tunisie</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern" ref="https://www.geonames.org/2465027/gouvernorat-de-siliana.html">Silyānah</placeName>
+                        </region>
+                        <settlement>
+                            <placeName ref="https://www.geonames.org/2471586/hennchir-douamis.html">Uchi Maius</placeName>
+                        </settlement>
+                        <repository ref="http://www.trismegistos.org/collection/3854">Tunis, Institut National du Patrimoine (INP)</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Borne de praedium</summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/85">Cippo</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/57">Calcare</material>
+                                    <p> biancastro. Cippo terminale di forma cilindrica, a sviluppo verticale e leggeremente più stretto verso l’alto. La superficie, perfettamente liscia, è molto erosa, nella parte superiore, all’interno di una cornice, è stata incisa l’iscrizione. Una profonda abrasione sulla sommità della pietra, lavorata con la subbia, ha danneggiato la parte destra del campo epigrafico e la faccia posteriore del cippo</p>
+                                    <dimensions unit="cm">
+                                        <dim type="circonference" atLeast="155.5" atMost="157">155.5 - 157</dim>
+                                        <height>102,2</height>
+                                        <width/>
+                                        <depth>43</depth>
+                                    </dimensions>
+                                    <rs type="statPreserv">Cippo terminale di forma cilindrica, a sviluppo verticale e leggeremente più stretto verso l’alto. La superficie, perfettamente liscia, è molto erosa, nella parte superiore, all’interno di una cornice, è stata incisa l’iscrizione. Una profonda abrasione sulla sommità della pietra, lavorata con la subbia, ha danneggiato la parte destra del campo epigrafico e la faccia posteriore del cippo</rs>
+                                </support>
+                            </supportDesc>
+                            
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height unit="cm" n="0">1.3</height> <!-- interligne -->
+                                <height unit="cm" n="1">2.54</height>
+                                <height unit="cm" n="2">2.27</height>
+                                <height unit="cm" n="3">3.16</height>
+                                <height unit="cm" n="4">3,05</height>
+                                <height unit="cm" n="5">2.7</height>
+                                <height unit="cm" n="6" atLeast="2.7" atMost="2.83"/>
+                                <rs type="execution">Capitale</rs>Lettere irregolari, incise con solco profondo e tondeggiante. La paleografia sembrerebbe conforme a quella delle iscrizioni di età sillano-cesariana (suggerimento di M. Mayer). Interpunzione puntiforme</handNote>
+                            
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName ref="http://www.trismegistos.org/place/17152">Uchi Maius</placeName>
+                                <placeName type="provinceItalicRegion" ref="https://www.trismegistos.org/place/15771"> Africa Proconsularis</placeName>
+                            </origPlace>
+                            <origDate notBefore="0044" evidence="context" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">44<tei:note xmlns:tei="http://www.tei-c.org/ns/1.0">Considerazioni sulla carriera di <q>Phileros </q> (cfr. <q>infra</q>, <q>Commento</q> e <q>Introduzione</q> § <q>Le Istituzioni</q>)</tei:note></origDate>
+                        </origin>
+                        <provenance type="found">
+                            <placeName ref="http://www.geonames.org/2464461/republic-of-tunisia.html" type="modernCountry">Tunisie</placeName>
+                            <placeName type="modernRegion"/>
+                            <placeName type="modernProvince"/>
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/315242"/>
+                            <placeName precision="low"><geo decls="#WGS84">36.4115, 9.084255</geo></placeName>
+                            <rs type="circumstances">Rinvenuto dal Gondouin, a 150 m a NE della zaouïa di Sidi Mohamed Salah, 80 m a W della base di Settimio Severo (Cat. nr. 35), “tout près du sommet du monticule couronnée de figuiers de Barbarie”, al centro delle rovine della città: l’iscrizione era rivolta verso la zaouïa e, secondo Dessau, si trovava forse nel punto in cui originariamente sarebbe stata infissa. La pietra è stata ritrovata nel corso di una ricognizione nel 1992, 50 m a NE della zaouia e 24 m a W della base di Settimio Severo, reimpiegata in una costruzione tarda.</rs>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2019-04-15" who="nprevot">Donatella Cherchi</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+                <graphic url="http://petrae.huma-num.fr/photos/Uchi_Maius/120200200062a.jpg">
+            <desc>
+                <ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via PETRAE</ref> 
+                
+                                
+
+            </desc>
+            <desc type="copyright">Antonio IBBA</desc>
+            <desc type="author">Antonio IBBA</desc>
+            <desc type="view">Photo</desc> 
+        </graphic>
+        <graphic url="http://petrae.huma-num.fr/photos/Uchi_Maius/120200200062b.jpg">
+            <desc>
+                <ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via PETRAE</ref> 
+            </desc>
+             <desc type="copyright">Antonio IBBA</desc>
+            <desc type="author">Antonio IBBA</desc>
+            <desc type="view">Photo</desc> 
+        </graphic>
+        <graphic url="http://petrae.huma-num.fr/photos/Uchi_Maius/3D/120200200062.png">
+            <desc>
+                <ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via PETRAE</ref> 
+            </desc>
+             <desc type="copyright">Florent Comte</desc>
+            <desc type="author">Florent Comte</desc>
+            <desc type="view">Dépliage de l'inscription sur support courbe et analyses de reliefs conservés</desc> 
+        </graphic>
+        <graphic url="http://petrae.huma-num.fr/photos/Uchi_Maius/3D/120200200062_hillshade.png">
+            <desc>
+                <ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via PETRAE</ref> 
+            </desc>
+            <desc type="author">Florent Comte</desc>
+            <desc type="copyright">Florent Comte</desc>
+
+            <desc type="view">Dépliage de l'inscription sur support courbe et analyses de reliefs conservés - Hillshade</desc>
+        </graphic>
+        <graphic url="http://petrae.huma-num.fr/photos/Uchi_Maius/3D/120200200062_analyse.png">
+            <desc>
+                <ref type="licence" target="http://www.europeana.eu/rights/rr-f/">Rights Reserved - Free Access via PETRAE</ref> 
+            </desc>
+            <desc type="author">Florent Comte</desc>
+            <desc type="copyright">Florent Comte</desc>
+
+            <desc type="view">Dépliage de l'inscription sur support courbe et analyses de reliefs conservés</desc>
+
+        </graphic>
+
+        <media url="colonne_phileros.json" mimeType="model/obj"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc">
+                <div type="textpart" n="1">
+                    <ab>
+                        <lb n="1"/><unclear>E</unclear><supplied reason="lost">x</supplied> <unclear>aequ</unclear><supplied reason="lost">itate Imp<expan><ex>eratoris</ex></expan></supplied>
+                        <lb n="2"/><supplied reason="lost">Aug<expan><ex>usti</ex></expan> M<expan><ex>arcus</ex></expan> C</supplied>a<unclear>e</unclear><supplied reason="lost">l<expan><ex>ius</ex></expan> Ph</supplied>ilero<unclear>s</unclear>
+                        <lb n="3"/>castel<unclear>l</unclear>um diui<unclear>s</unclear>it
+                        <lb n="4"/>inter<g type="interpunct"/>colonos<space/>e<unclear>t</unclear>
+                        <lb n="5"/>Uchitanos<g type="interpunct"/>termin<expan><ex>os</ex></expan>-
+                        <lb n="6"/>que<g type="interpunct"/>constituit<reg><pc type="point">.</pc></reg>
+                    </ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <p>L’iscrizione ricorda la <q>divisio - adsignatio</q> delle terre del <q>castellum </q>di <q>Uchi Maius</q> fra i <q>coloni </q>e gli <q>Uchitani</q>, secondo Beschaouch, <q>ex aequitate</q> di Augusto (sul termine, cfr. il commento al <q>Cat. </q>nr. 39). Le operazioni furono portate a termine da un personaggio, identificato dal Broughton con <q>M. Caelius Phileros</q>, la cui carriera (cfr. <q>Introduzione</q>) è nota da una celebre iscrizione di Formia posta per la moglie e per un amico dello stesso <q>Phileros</q>, liberto della moglie. Questa lettura non era stata presa in considerazione da Merlin e Poinssot (cfr. Merlin 1907 E, p. 535), per i quali il <q>Phileros</q> del cippo sarebbe stato un funzionario incaricato di ripartire il <q>castellum </q>(capoluogo del <q>pagus</q>) fra i <q>coloni</q> qui inviati da Severo Alessandro al momento della <q>deductio</q> (cfr. il commento al <q>Cat. </q>nr. 44) ed i vecchi <q>pagani</q>; in alternativa i due studiosi proponevano di vedere nei <q>coloni</q> degli affittuari di <q>praedia</q> privati o imperiali in lite con gli <q>Uchitani</q> per la gestione del <q>castellum aquae</q>, che si sarebbe trovato all’interno del centro abitato, non distante dall’acquedotto. La maggior parte degli studiosi ha, invece, seguito la tesi del Broughton: tuttavia, l’assenza di una cronologia precisa nel testo di Formia, forse la mancanza di un ordine temporale nella sequenza degli incarichi, ha portato ad un ampio dibattito, i cui risultati hanno necessariamente influenzato l’interpretazione del cippo di <q>Uchi Maius</q> (cfr. <q>Introduzione</q>). In base alla nuova lettura fornita da Beschaouch (Beschaouch 1995, p. 868; 1997 B, pp. 101-103; Beschaouch 2002, pp. 1198-1199; cfr. Ben Hassen &amp; Maurin 2004, pp. 17-18) <q>Phileros </q>avrebbe agito nel 27 a.C. <q>ex aequitate Augusti</q>; il mandato dell’imperatore andrebbe inteso in senso lato, essendo le operazioni espletate materialmente non da un funzionario <q>super partes</q> ma da un magistrato della <q>colonia</q> beneficiaria del provvedimento. Al di là dei problemi di natura giuridica e cronologica posti da questa interpretazione (cfr. <q>Introduzione</q> § <q>Le istituzioni</q>), il testo indica esplicitamente la divisione equanime (<q>ex aequitate</q>) fra <q>coloni</q> ed <q>Uchitani</q> del <q>castellum</q>. Secondo Beschaouch (cfr. Poinssot 1962, p. 65; Cataudella 1994, pp. 324-326; Aounallah 1996, p. 1507), con questo termine si dovrà intendere un agglomerato non romano, spesso fortificato e privo di organizzazione urbana, posto al centro di un distretto territoriale: per estensione, il termine avrebbe indicato le terre legate a questo agglomerato e appartenenti originariamente agli indigeni. Da questo momento è verosimile supporre anche ad <q>Uchi Maius </q>una “doppia comunità”, che conviveva sullo stesso territorio e all’interno del medesimo centro urbano: da un lato i <q>cives Romani</q>, che avevano occupato una parte delle terre di <q>Uchi Maius</q>, si erano organizzati in un <q>pagus</q>, dipendente da Cartagine (cfr. i commenti ai <q>Cat. </q>nrr. 26, 29 e 52), ed erano stati iscritti alla tribù <q>Arnensis</q> (cfr. <q>Introduzione</q>), personaggi che usufruivano di tutti i privilegi degli abitanti della capitale provinciale ed in particolare dell’<q>immunitas</q>, l’esenzione dalle imposte sul suolo provinciale (Debbasch 1953, pp. 40-41; Poinssot 1962, pp. 69-70; Gascou 1984, pp. 117-118; sull’<q>immunitas</q>, cfr. Ziegler, <q>RE</q>, IX, 1, 1914, coll. 1134-1136; De Ruggiero, <q>DE</q>, IV, 1942, pp. 38-39; Poinssot 1962, p. 62; De Martino 1965, p. 675); dall’altra gli indigeni, gli <q>Uchitani peregrini</q>, organizzati in un <q>castellum </q>e forse mai arrivati a formare una <q>civitas</q>, espropriati di una parte delle loro terre e soggetti al pagamento del <q>vectigal</q> (Aounallah 1996, p. 1510; Beschaouch 1997 B, p. 103; Beschaouch 2002, pp. 1198, 1208-1209; un modello simile è forse quello riscontrabile nella <q>pertica</q> di <q>Sicca Veneria</q>, cfr. Beschaouch 1981, pp. 118-121). Il riferimento all’<q>aequitas</q> potrebbe alludere alle difficoltà incontrate dal funzionario nello svolgere le sue operazioni, in particolare nel fissare sul terreno i <q>termini</q> che sancivano le assegnazioni (sull’<q>aequitas</q>, cfr. Kipp, <q>RE</q>, I, 1, 1893, coll. 598-604, nr. 1; De Ruggiero, <q>RE</q>, I, 1895, p. 298). Viene in questo modo a spiegarsi anche il ricordo pliniano di un <q>oppidum civium Romanorum</q> ad <q>Uchi Maius</q> (Plin. <q>Nat.</q> 5, 29), riferito evidentemente al <q>pagus </q>appena creato piuttosto che al <q>castellum </q>o ad un ipotetico <q>municipium </q>(cfr. il commento al <q>Cat. </q>nr. 52). Un’opinione differente è invece quella di Christol (c.d.s.): ad <q>Uchi Maius</q> esisterebbe solo la comunità del <q>pagus Uchitanorum Maiorum</q> e <q>Phileros</q> <q>divisit</q> le terre del <q>castellum = pagus</q> fra gli <q>Uchitani Maiores</q>, i vecchi cittadini romani insediati nella valle dell’Oued Arkou da Mario o da T. Sestio, gli abitani dell’<q>oppidum civium Romanorum</q> ricordato da Plinio il Vecchio (<q>Nat.</q> 5, 29; sul problema cfr. inoltre <q>Introduzione</q> §§ <q>Le istituzioni</q> e <q>La società</q>) ed i <q>coloni</q>, i nuovi <q>cives</q> trasferiti da Augusto su quelle terre. Viene da chiedersi in questo caso che fine avessero fatto i <q>Numidae</q> della regione, le cui tracce permangono nei rari rinvenimenti ceramici ed epigrafici e nel toponimo libico <q>Uchi Maius</q> (cfr. <q>Introduzione </q>§ <q>Il territorio di </q>Uchi Maius)</p>
+            </div>
+            <div type="bibliography" subtype="secondary">
+                <listBibl>
+                    <bibl>Merlin et Poinssot 1908, p. 66</bibl>
+                    <bibl><ptr target="#Broughton 1929"/>, pp. 61-67</bibl>
+                    <bibl><ptr target="#Broughton 1929"/> B, pp. 279-285</bibl>
+                    <bibl><ptr target="#Saumagne 1965"/>, pp. 85-95</bibl>
+                    <bibl><ptr target="#Luisi 1975"/>, pp. 44-56</bibl>
+                    <bibl><ptr target="#Gascou 1984"/>, pp. 105-120</bibl>
+                    <bibl><ptr target="#Le Glay 1990"/>, pp. 623-625</bibl>
+                    <bibl><ptr target="#Jacques 1991"/>, pp. 600-606</bibl>
+                    <bibl><ptr target="#Fishwick 1994"/>, pp. 57-80</bibl>
+                    <bibl><ptr target="#Beschaouch 1997 B"/>, pp. 101-103</bibl>
+                    <bibl><ptr target="#Beschaouch 2002"/>, 1198-1199</bibl>
+                </listBibl>
+                
+                
+            </div> 
+        </body>
+<!--DIPLOMATIC
+Ẹ[ . ]ẠẸQ̣Ṿ[ . . . . . . . . ]
+[ . . . . . ]AẸ[ . . . ]ILEROṢ
+CASTELḶVMDIVIṢIT
+INTER▴COLONOS EṬ
+VCHITANOS▴TERMIN
+QVE▴CONSTITVIT
+-->
+    </text>
+</TEI>

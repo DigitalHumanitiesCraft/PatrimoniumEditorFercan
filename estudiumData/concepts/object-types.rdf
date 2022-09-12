@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <skos:ConceptScheme rdf:about="https://ausohnum.huma-num.fr/thesaurus/object-types/">
+        <dc:title type="full">Types of object</dc:title>
+        <dc:title type="short">object-types</dc:title>
+        <dc:publisher>AusoHNum</dc:publisher>
+        <dc:creator ref="vrazanajao" role="editor">Vincent Razanajao</dc:creator>
+        <dct:created>2018-06-21T11:14:07.359+02:00</dct:created>
+        <skos:hasTopConcept rdf:resource="https://ausohnum.huma-num.fr/concept/c19310"/>
+        <skosThesau:admin status="draft"/>
+
+    </skos:ConceptScheme>
+    <skos:Concept rdf:about="https://ausohnum.huma-num.fr/concept/c19310" xml:id="c19310">
+        <skos:prefLabel xml:lang="en">Types of object</skos:prefLabel>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19311"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19312"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25635"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/object-types/"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2018-04-23T11:14:07.359+02:00</dct:created>
+        <dct:modified>2018-04-23T11:14:07.359+02:00</dct:modified>
+    <dct:modified>2020-11-06T10:01:43.113+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://ausohnum.huma-num.fr/concept/c19311" xml:id="c19311">
+        <skos:prefLabel xml:lang="en">Borne</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19310"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/object-types/"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2018-04-23T11:14:07.359+02:00</dct:created>
+        <dct:modified>2018-04-23T11:14:07.359+02:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://ausohnum.huma-num.fr/concept/c19312" xml:id="c19312">
+        <skos:prefLabel xml:lang="en">Stèle</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19310"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/object-types/"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2018-04-23T11:14:07.359+02:00</dct:created>
+        <dct:modified>2018-04-23T11:14:07.359+02:00</dct:modified>
+    </skos:Concept>
+
+    <skos:Concept xml:id="c25635" rdf:about="https://ausohnum.huma-num.fr/concept/c25635">
+        <skos:prefLabel xml:lang="en">Test</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19310"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/object-types/"/>
+        <skosThesau:admin status="published"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-11-06T10:01:43.113+01:00</dct:created>
+    </skos:Concept>
+</rdf:RDF>

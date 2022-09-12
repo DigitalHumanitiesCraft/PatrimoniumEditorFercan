@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://www.stoa.org/epidoc/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+                <title xml:lang="ru">Фрагмент почетного декрета</title>
+            <title xml:lang="en">Honorific decree</title>
+            <editor xml:id="ip" role="translator">
+                    <persName xml:lang="ru">Ирина<forename/>
+                        <surname>Полинская</surname>
+            </persName>
+                    <persName xml:lang="en">
+                        <forename>Irene</forename>
+                        <surname>Polinskaya</surname>
+                    </persName>
+                </editor>
+            </titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.1</idno>
+            <idno type="filename">1.1</idno>
+            <idno type="PE">PE1000001</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc15">
+                     <seg xml:lang="ru">Почетный декрет.</seg>
+                     <seg xml:lang="en">Honorific decree.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор белый.</material>
+                           <material xml:lang="en">White marble.</material>
+                           <p xml:lang="ru">Разбит на два фрагмента, сходящихся встык. Сохранилась
+                              нижняя часть плиты. Оббита со всех сторон, кроме нижней.</p>
+                           <p xml:lang="en">Broken in two joining fragments. The bottom is preserved. Broken off on all sides except the bottom.</p>
+                           <dimensions>
+                              <height unit="cm">16,0</height>
+                              <width unit="cm">19,0</width>
+                              <depth unit="cm">4,5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Лицевой фас. Оббито со всех сторон, кроме
+                              нижней.</seg>
+                           <seg xml:lang="en">On the front. Broken off on all sides except the bottom.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Буквы вырезаны аккуратно, украшены небольшими апексами.
+                           Тета с точкой. Тета и омикрон уменьшенного размера. Ню с короткой правой
+                           гастой. Верхний и нижний штрихи сигмы по большей части параллельны друг
+                           другу, но иногда слегка рвзведены.</seg>
+                        <seg xml:lang="en">Letters are carefully cut, with light serifs. Dotted theta; theta and omicron smaller than other letters; nu with short right
+                        hasta; top and bottom strokes of sigma are for the most part horizontal, but occasionally slightly splayed.</seg>
+                        <height unit="cm">0,6</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира.</seg>
+                        <seg xml:lang="en">Tyras.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0300" notAfter="-0251" evidence="палеография">
+                        <seg xml:lang="ru">первая половина III в. до н.э.</seg>
+                        <seg xml:lang="en">1st half of III century B.C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovsky">Белгород-Днестровский, Одесская область, Украина.</placeName>
+                        <rs type="circumstances">При раскопках П. Никореску,  в 1928 г.</rs>
+                        <rs type="context">Вторичный; в северной части внутреннего
+                           двора крепости (раскоп 19), в средневековом сооружении.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Belgorod-Dnestrovsky.</placeName>
+                        <rs type="circumstances">Found in 1928, excavations of P. Nicorescu.</rs>
+                        <rs type="context">In the northern part of the inner courtyard of the fortress, (Trench 19), reused in a medieval building.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <seg xml:lang="en">Unknown.</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+    <listPrefixDef>
+                <prefixDef matchPattern="(.+)" replacementPattern="../alists/bibliography.xml#$1" ident="bib"/>
+            </listPrefixDef>
+    <charDecl>
+        <glyph xml:id="dipunct">
+            <charProp>
+                <localName>glyph-display</localName>
+                <value>:</value>
+            </charProp>
+            <charProp>
+                <localName>text-display</localName>
+                <value>dipunct</value>
+            </charProp>
+        </glyph>
+        <glyph xml:id="stop">
+            <charProp>
+                <localName>glyph-display</localName>
+                <value>•</value>
+            </charProp>
+            <charProp>
+                <localName>text-display</localName>
+                <value>stop</value>
+            </charProp>
+        </glyph>
+        <glyph xml:id="leaf">
+            <charProp>
+                <localName>glyph-display</localName>
+                <value>❦</value>
+            </charProp>
+            <charProp>
+                <localName>text-display</localName>
+                <value>leaf</value>
+            </charProp>
+        </glyph>
+        <glyph xml:id="stauros">
+            <charProp>
+                <localName>glyph-display</localName>
+                <value>+</value>
+            </charProp>
+            <charProp>
+                <localName>text-display</localName>
+                <value>stauros</value>
+            </charProp>
+        </glyph>
+        <glyph xml:id="staurogram">
+            <charProp>
+                <localName>glyph-display</localName>
+                <value>⳨</value>
+            </charProp>
+            <charProp>
+                <localName>text-display</localName>
+                <value>staurogram</value>
+            </charProp>
+        </glyph>
+        <glyph xml:id="denarius">
+            <charProp>
+                <localName>glyph-display</localName>
+                <value>𐆖</value>
+            </charProp>
+            <charProp>
+                <localName>text-display</localName>
+                <value>denarius</value>
+            </charProp>
+        </glyph>
+        <glyph xml:id="chi-rho">
+            <charProp>
+                <localName>glyph-display</localName>
+                <value>☧</value>
+            </charProp>
+            <charProp>
+                <localName>text-display</localName>
+                <value>chi-rho</value>
+            </charProp>
+        </glyph>
+    </charDecl>
+</encodingDesc>
+      
+      <!-- volNum = ﻿10-->
+      <revisionDesc>
+         <change when="2016-08-02" who="SS">encoded metadata and Leiden</change>
+         <change when="2016-05-18" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="10.1">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl n="L1"><!-- Nicorescu 1933 -->
+                        <ptr target="bib:b0884"/>, <citedRange>566-569, № 2, fig. 17</citedRange>
+                    </bibl>
+               <bibl n="1.1"><!-- Карышковский 1959 -->
+                        <ptr target="bib:b0908"/>, <citedRange>112-113, № 1</citedRange>
+                    </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <div type="textpart" n="1">
+            <ab>
+               	<lb n="00"/><gap reason="lost" extent="unknown" unit="line"/>
+               	<lb n="0"/><gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="lost">ἐπεὶ</supplied></w> <w><supplied reason="lost">δὲ</supplied></w> 
+               <w><supplied reason="lost">κα</supplied>
+               	<lb n="1" break="no"/><supplied reason="lost">λῶς</supplied></w> <w><supplied reason="lost">ἔχον</supplied></w> <w><supplied reason="lost">ἐστὶ</supplied></w> 
+               <w>τ<unclear>ὰ</unclear><supplied reason="lost">ς</supplied></w> <w><supplied reason="lost">καθηκούσας</supplied></w> 
+               <w><supplied reason="lost">χάριτας</supplied></w> <w><supplied reason="lost">τοῖς</supplied></w> <w><supplied reason="lost">εὐ</supplied>
+               	<lb n="2" break="no"/><supplied reason="lost">εργέταις</supplied></w> <w><supplied reason="lost">ἀ</supplied>ποδίδο<unclear>σ</unclear><supplied reason="lost">θαι</supplied></w> 
+               <w><supplied reason="lost">ὑφ’</supplied></w> <w><supplied reason="lost">ὧν</supplied></w> <w><supplied reason="lost">συνέβη</supplied></w> 
+               <w><supplied reason="lost">τῶι</supplied></w> <w><supplied reason="lost">δήμωι</supplied></w> <w><supplied reason="lost">ἡ</supplied>
+                  <lb n="3" break="no"/><supplied reason="lost">μῶν</supplied></w> <w><supplied reason="lost">εὖ</supplied></w> <w><supplied reason="lost">πα</supplied>θεῖν</w>· 
+               <w>δεδό<supplied reason="lost">χθαι</supplied></w> <w><supplied reason="lost">τῆι</supplied></w> <w><supplied reason="lost">βουλῆι</supplied></w> 
+               <w><supplied reason="lost">καὶ</supplied></w> <w><supplied reason="lost">τῶι</supplied></w> <w><supplied reason="lost">δήμωι</supplied></w><supplied reason="lost">·</supplied>
+               	<lb n="4"/><w><supplied reason="lost">στεφαν</supplied><unclear>ῶ</unclear>σαι</w> <w>αὐτὸν</w> <w>ἐ<supplied reason="lost">πὶ</supplied></w> 
+               <w><supplied reason="lost">τούτοις</supplied></w> <w><supplied reason="lost">χρυσῶι</supplied></w> <w><supplied reason="lost">στε</supplied>
+               	<lb n="5" break="no"/><supplied reason="lost">φάνωι</supplied></w> <w><unclear>ἀ</unclear>ρετῆς</w> <w>ἕνεκε<supplied reason="lost">ν</supplied></w> 
+               <w>κ<unclear>α</unclear><supplied reason="lost">ὶ</supplied></w> <w><supplied reason="lost">εὐνοίας</supplied></w> <w><supplied reason="lost">τῆς</supplied></w> 
+               <w><supplied reason="lost">εἰς</supplied></w> <w><supplied reason="lost">τὸν</supplied></w>
+               	<lb n="6"/><w><supplied reason="lost">δῆμο</supplied>ν</w>· <w>στεφανοῦσθ<unclear>α</unclear>ι</w> <w>δὲ</w> 
+               <w>αὐ<unclear>τ</unclear><supplied reason="lost">ὸν</supplied></w> 
+               <w><supplied reason="lost">διὰ</supplied></w> <w><supplied reason="lost">βίου</supplied></w> <w><supplied reason="lost">ἐν</supplied></w> 
+               <w><supplied reason="lost">τοῖς</supplied></w>
+               	<lb n="7"/><w><supplied reason="lost">ἀγ</supplied>ῶσι</w> <w>πᾶσι</w> <w>μετὰ</w> <w>τ<unclear>ῶ</unclear>ν</w> 
+               <w>εὐεργε<unclear>τ</unclear><supplied reason="lost">ῶν·</supplied></w> <w><supplied reason="lost">τῆς</supplied></w> 
+               <w><supplied reason="lost">δὲ</supplied></w> <w><supplied reason="lost">ἀναγγε</supplied>
+               	<lb n="8" break="no"/><supplied reason="lost">λία</supplied>ς</w> <w>τοῦ</w> <w>στεφάνου</w> <w>τοὺς</w> <w>ἀεὶ</w> 
+               <w>καθι<unclear>σ</unclear><unclear>τ</unclear><supplied reason="lost">αμένους</supplied></w> <w><supplied reason="lost">ἀγω</supplied>
+               	<lb n="9" break="no"/><supplied reason="lost">νοθέ</supplied><unclear>τ</unclear>ας</w> <w>ποιεῖσθαι</w> <w>τὴν</w> <w>ἐπιμέλει<supplied reason="lost">αν·</supplied></w> 
+               <w><supplied reason="lost">τοὺς</supplied></w> <w><supplied reason="lost">δὲ</supplied></w> <w><supplied reason="lost">ἄρ</supplied>
+               	<lb n="10" break="no"/><supplied reason="lost">χοντας</supplied></w> <w><supplied reason="lost">ἀνα</supplied>γράψαντας</w> <w>εἰς</w> 
+               <w>στήλ<unclear>η</unclear><supplied reason="lost">ν</supplied></w> <w><supplied reason="lost">τὸ</supplied></w> 
+               <w><supplied reason="lost">ψήφισμα</supplied></w>
+               	<lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="lost">τοῖς</supplied></w> <w><supplied reason="lost">δὲ</supplied></w> 
+               <w>ἀναγκαίοις</w> <w>αὐτοῦ</w> <w>δ<supplied reason="lost">οῦναι</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+               	<lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="lost">τοὺ</supplied>ς</w> <w>ἄρχοντας</w> 
+               <w part="I">ἀφ<unclear>ι</unclear></w><gap reason="lost" extent="unknown" unit="character"/>
+            </ab>
+               </div>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="4">
+                  <rdg source="bib:b0884 bib:b0885">[στεφανῶ]σαι</rdg>
+               </app>
+               <app loc="6">
+                  <rdg source="bib:b0884 bib:b0885">αὐ[τὸν</rdg>
+               </app>
+               <app loc="7">
+                  <rdg source="bib:b0884 bib:b0885">εὐεργε[τῶν</rdg>
+               </app>
+               <app loc="8">
+                  <rdg source="bib:b0884 bib:b0885">καθισ̣[ταμένους</rdg>
+               </app>
+               <app loc="9">
+                  <rdg source="bib:b0884 bib:b0885">τοὺς δὲ - - -]</rdg>
+               </app>
+               <app loc="10">
+                  <rdg source="bib:b0884 bib:b0885">[- - - ἀνα]γράψαντας</rdg>
+                  <rdg source="bib:b0884 bib:b0885">τὸ ψήφισμα θεῖναι ἐν - - -]</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>[- - - поскольку хорошо подобающие благодарности в]оздавать [благодетелям, от которых
+               нашему народу случилось ис]пытать [благо, совет и народ да пос]тановит: [увен]чать
+               е[го за это золотым венком] ради (его) доблести и [благорасположения к народу];
+               увенчивать его [пожизненно на] всех состязаниях вместе с благодетелями; назнач[енным
+               агоноте]там всегда заботиться [о публичном объявлени]и о венке; [архонтам за]писать
+               [постановление] на стеле; [- - -] архонтам [- - -] необходимыми ему д[ать - - ]</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[- - - since it is well] to return [fitting thanks to the benefactors, by whose (actions) it came about for our People to fa]re [well. 
+            The Council and the People shall] deci[de to cr]own him, [because of these, with a gold crown] on account of his virtue and [his friendliness to the Peopl]e. 
+            He is to be crowned [for the duration of his life] in all [conte]sts together with benefactors; [the agonothe]tai appointed for the time being shall make it their 
+            care [to proclaim] the crown; [the archons shall in]scribe [the decision] on a stele; for his necessities? the archons [shall give? - - -]</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Надпись должна была находиться вместе с другими материалами из раскопок П. Никореску
+               в Музее истории Молдавии в Яссах, однако никаких следов ни этой, ни других надписей
+               из этих раскопок в музее не обнаружилось.</p>
+            <p>Восстановление предложено С. Ламбрино, на которого ссылается П. Никореску. Оно
+               представляется достаточно убедительным, хотя полной уверенности во всех деталях нет.
+               Из полисных магистратур надпись надежно засвидетельствовала архонтов. Упоминание
+               агонотетов очень вероятно, хотя и является восстановлением.</p>
+            <p>10: Восстановление Никореску, принятое Карышковским, в конце строки 10 невозможно,
+               поскольку дает слишком большую длину строки; в лакуне умещается только слово
+               ψήφισμα.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The inscrtiption was supposed to have been kept together with other material from the excavations of P. Nicorescu in the Museum of Moldavian History in Jasi, however,
+            no trace of this or any other inscriptions from his excavations, could be discovered in the museum.</p>
+            <p>The restoration was proposed by S. Lambrino, cited by P. Nicorescu. It is quite convincing, although we cannot be sure about every detail. The inscription securely 
+            attests the polis magistracy of archons. The mention of agonothetai is very probable, although it is restored.</p>
+            <p>10: The restoration proposed by Nicorescu and accepted by Karyshkovsky at the end of line 10 is impossible because it produces a very long line; the lacuna can accommodate
+               only the word ψήφισμα.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

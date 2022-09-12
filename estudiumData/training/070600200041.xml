@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="inscription">
+                Décret de Pladasa pour le Platéen Kratèsippos</title>
+                <title type="corpus">HTC</title>
+            
+            	<editor>
+                	<persName xml:id="abresson"><forename>Alain</forename><surname>Bresson</surname></persName>
+                    <persName xml:id="pbrun" corresp="http://ausonius.u-bordeaux-montaigne.fr/annuaire?patrice.brun"><forename>Patrice</forename><surname>Brun</surname></persName>
+                    <persName xml:id="evarinlioglu"><forename>Ender</forename><surname>Varinlioğlu</surname></persName>
+
+
+            	</editor>
+            	<sponsor>
+                    <orgName xml:id="petrae">
+						PETRAE - Programme d'Enregistrement, Traitement et Reconnaissance Automatique en Épigraphie
+                    </orgName>
+                </sponsor>
+                <respStmt>
+                    <resp when="2001">TEI Encoding</resp>
+                    <persName xml:id="NPrevot" corresp="http://ausonius.u-bordeaux-montaigne.fr/annuaire?nathalie.prevot">
+                        <forename>Nathalie</forename>
+                        <surname>Prévôt</surname>
+                    </persName>
+                </respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>AUSONIUS - UMR 5607
+					<address>
+						<addrLine>Maison de l'Archéologie</addrLine>
+						<addrLine>8, Esplanade des Antilles</addrLine>
+						<addrLine>33607 Pessac</addrLine>
+					</address>
+					<idno type="URI">http://ausonius.u-bordeaux-montaigne.fr/</idno>
+				</authority>
+	            <date when="2016">2016</date>
+	            <availability>
+	                <licence target="https://creativecommons.org/licenses/by-nc-nd/2.0/fr/">
+	                    <p>Licence Creative Commons  Attribution - Pas d’Utilisation Commerciale - Pas de Modification 2.0 France (CC BY-NC-ND 2.0 FR)</p>
+	                </licence>
+	            </availability>
+				<idno type="URI">http://petrae.huma-num.fr/070600200041</idno>
+				<idno type="localID">7/6/2/41</idno>
+				<idno type="filename">070600200041</idno>
+				<idno type="corpus-number">47</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>
+							<placeName type="modern" ref="http://www.geonames.org/298795/republic-of-turkey.html">Turquie</placeName>
+						</country>
+						<region>
+							<placeName/>
+						</region>
+						<settlement>
+							<placeName/>
+						</settlement>
+						<repository/>
+						<collection/>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/252">Stèle</objectType>
+									<material ref="http://www.eagle-network.eu/voc/material/lod/48">Marbre</material>
+									<p> jaune véiné de blanc. Partie supérieure légèrement abimée, partie inférieure brisée</p>
+									<dimensions unit="cm">
+										<height>32,5</height>
+										<width>41</width>
+										<depth>9</depth>
+									</dimensions>
+									<rs type="statPreserv">Partie supérieure légèrement abimée, partie inférieure brisée</rs>
+								</support>
+							</supportDesc>
+							
+						</objectDesc>
+						<handDesc>
+							<handNote>
+								<rs type="execution">Stoichèdon</rs>St. 18 carreaux
+							</handNote>
+						</handDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origPlace>
+								<placeName>Pladasa</placeName>
+								<placeName type="provinceItalicRegion"/>
+							</origPlace>
+							<origDate notBefore="-0319" notAfter="-0318" evidence="internal-date" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">-319/-318
+								<note>Date donnée par la source</note>
+							</origDate>
+						</origin>
+						<provenance type="found">
+							<placeName ref="http://www.geonames.org/298795/republic-of-turkey.html" type="modernCountry">Turquie</placeName>
+							<placeName type="modernRegion"/>
+							<placeName type="modernProvince" ref="http://www.geonames.org/304183/mugla.html">Muğla</placeName>
+							<placeName type="ancientFindspot" ref="http://www.geonames.org/295926/zeytinkoey.html">Zeytinköy</placeName>
+							<rs type="circumstances">La pierre a été transportée de Zeytinköy dans une maison de Yerkesik dans les années 1970. C'est là qu'elle a été vue. Mais des habitants de Yerkesik ont pu montrer l'endroit exact où la pierre avait été trouvée, manifestement in situ, sur le territoire de Zeytinköy, au lieu-dit Çandühüren.</rs>
+						</provenance>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change when="2018-05-30" who="abresson">Alain Bresson, Patrice Brun et Ender Varinlioğlu</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<media url="070600200041.json" mimeType="model/obj"/>
+	</facsimile>
+	<text>
+		<body>
+			<div type="edition" xml:lang="la">
+				<ab>
+					<lb n="1"/><supplied reason="lost">Φ</supplied>ι̣λ̣ἰππον Βα̣σ̣<supplied reason="lost">ιλεύοντ</supplied><reg><pc type="tiret">-</pc></reg>
+					<lb n="2"/><supplied reason="lost">ο</supplied>ς<reg><pc type="virgule">,</pc></reg> ἔκτωι ἔτει<reg><pc type="point"> · </pc></reg>ἐπὶ Πισ<gap reason="lost" quantity="1" unit="character"/><reg><pc type="tiret">-</pc></reg>
+					<lb n="3"/>νω Σαναμω Κυδὠρυ<reg><pc type="virgule">,</pc></reg> μην̣<reg><pc type="tiret">-</pc></reg>
+					<lb n="4"/>ὸς Κοροβαλλισσιος<reg><pc type="virgule">,</pc></reg> ἐκ̣<reg><pc type="tiret">-</pc></reg>
+					<lb n="5"/><supplied reason="lost">λ</supplied>ησίας γενομένας κυρ<reg><pc type="tiret">-</pc></reg>
+					<lb n="6"/><supplied reason="lost">ί</supplied>ας<reg><pc type="virgule">,</pc></reg> ἔδοξε τα̑ι πόλι τα̑ι
+					<lb n="7"/><supplied reason="lost">Π</supplied>λαδασέων<reg><pc type="point"> · </pc></reg>Κρατησίππ<reg><pc type="tiret">-</pc></reg>
+					<lb n="8"/>ωι Πολύωνος Πλαταιει̑
+					<lb n="9"/>εὐεργέται γενομἐνωι
+					<lb n="10"/>Πλαδασέων καὶ ἀφέντι
+					<lb n="11"/>ἀπὸ του̑ δανείου οὔ ὢφε<reg><pc type="tiret">-</pc></reg>	
+					<lb n="12"/>ιλον αύτω̑ι χρυσου̑ς Ἀλ<reg><pc type="tiret">-</pc></reg>
+					<lb n="13"/>εξανδρείους διακοσί<reg><pc type="tiret">-</pc></reg>
+					<lb n="14"/>ους δέκα<reg><pc type="virgule">,</pc></reg> δεδόσσθαι αὐ<reg><pc type="tiret">-</pc></reg>
+					<lb n="15"/>τω̑ι καὶ ἐγγόνοις προξ<reg><pc type="tiret">-</pc></reg>
+					<lb n="16"/>ενἰαν εὐεργεσίαν πολ<reg><pc type="tiret">-</pc></reg>
+					<lb n="17"/>ιτείαν καὶ ἔνκτησιν κ<reg><pc type="tiret">-</pc></reg>
+					<lb n="18"/>αὶ μετουσίαν πάντων κ<reg><pc type="tiret">-</pc></reg>
+					<lb n="19"/><supplied reason="lost">αθάπερ κα</supplied>ὶ̣ Πλαδασευ̑σ<reg><pc type="tiret">-</pc></reg>
+					<lb n="20"/><supplied reason="lost">ι καὶ κατατά</supplied>ξαι αὐτὸν̣
+					<lb n="21"/><supplied reason="lost">εἰς <gap reason="lost" extent="unknown" unit="line"/><gap reason="lost" extent="unknown" unit="line"/><gap reason="lost" extent="unknown" unit="line"/><gap reason="lost" extent="unknown" unit="line"/><gap reason="lost" extent="unknown" unit="line"/><gap reason="lost" extent="unknown" unit="line"/><gap reason="lost" extent="unknown" unit="line"/><gap reason="lost" extent="unknown" unit="line"/></supplied>
+					<lb n="22"/><gap reason="lost" extent="unknown" unit="line"/><gap reason="lost" extent="unknown" unit="line"/><gap reason="lost" extent="unknown" unit="line"/><gap reason="lost" extent="unknown" unit="line"/><gap reason="lost" extent="unknown" unit="line"/><gap reason="lost" extent="unknown" unit="line"/><gap reason="lost" extent="unknown" unit="line"/><gap reason="lost" extent="unknown" unit="line"/><gap reason="lost" extent="unknown" unit="line"/><gap reason="lost" extent="unknown" unit="line"/>
+				</ab>
+			</div>
+			<div type="apparatus">
+				<p>L. 18-19 ...Πλαδασευσλι καὶ κατατα ξαι αύτοὺς κτλ  REA, mais αύτόν, qui nous a été suggéré par Th. Drew-Bear, est meilleur : on voit à l'extrémité droite de la ligne le début d'un trait incliné que nous avions interprété comme correspondant à un <q>upsilon</q>, mais les <q>nu</q> de cette inscription peuvent avoir leur barre transversale qui dépasse légèrement sur la gauche (cf. particulièrement l. 9) et αύτόν conviendrait mieux pour le sens (c'est le bénéficiaire du décret honorifique lui-même qui est inscrit dans la subdivision civique). </p>
+			</div>
+			<div type="translation" xml:lang="French">
+				<p>Sous le règne de Philippe, dans la sixième année ; sous Pis[.]nôs, fils de Sanamôs, fils de Kydôros, au mois de Koroballissis, en assemblée souveraine, il a plu à la cité des Pladaséens d'accorder à Kratèsippos, fils de Polyôn, Platéen, qui s'est montré évergète des Pladaséens en faisant une remise de deux cent dix chrysoi d'Alexandre sur le prêt dont ils lui étaient redevables, à lui et à ses descendants, le titre de proxène, celui d'évergète, le droit de citoyenneté et celui de posséder un bien-fonds, part à tout ce à quoi ont droit les Pladaséens, et qu'on l'inscrive (dans une tribu?)</p>
+				<desc>
+					<ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported licence.</ref>
+				</desc>
+			</div>
+			<div type="commentary">
+				<p>Pour un commentaire détaillé de cette inscription, voir la publication commune citée en référence (dont nous reprenons la traduction légèrement modifiée) ainsi que les remarques relatives au n°þsuivant. Par sa provenance, le texte permet de localiser la cité de Pladasa, car même si le centre de cette polis ne se trouvait pas à Çandühüren (pour ce site, voir les remarques du n° suivant, § 5 et supra, p. 52-53), il n'en est nécessairement pas très éloigné. L'article REA, 1990, rassemble aussi les témoignages relatifs à Pladasa et aux Pladaséens.</p>
+				<p>L'hypothèse qui était retenue (à la suite de J. et L. Robert) selon laquelle on devait probablement distinguer deux Pladasa, l'une sur la côte, l'autre à l'intérieur des terres, a été rendue caduque par la découverte de la grande souscription supra n°þ1. De la même manière, il est maintenant assuré que Pladasa et Platasa de l'époque de Pixôdaros (cf. n°þ48) ne sont qu'une seule et même entité.L'hypothèse de l'éd. pr. selon laquelle le personnage honoré, Kratèsippos, fils de Polyôn, de Platées, avait été un compagnon d'Alexandre ou de l'un de ses successeurs, se trouve apparemment confortée (si cette théorie est juste) par une remarque de D. Knoepfler (1992), selon qui le personnage avait dû quitter sa patrie avant la reconstitution de la Confédération béotienne au lendemain de la destruction de Thèbes : après cette date, on utilisait alors en effet l'ethnique fédéral béotien, cf. le cas d'un BoivtÚw §k Platai«n à Éphèse (IK, 16-Ephesos, 2003).</p>
+				<p>Pour la date du texte, en revanche, D. Knoepfler et le Bull. ép. retiennent (sans explication particulière) la date de 318/317, mais l'étude détaillée de A. B. Bosworth (1992) sur la chronologie du règne de Philippe III confirme celle de 319/318 qui avait été proposée par ed. pr., acceptée par W. Blümel (IK) et SEG.</p>
+				<p>Sur l'ἐκκλθσία κυρία en dehors d'Athènes, et particulièrement en Carie et en Lycie, voir Errington 1995 et Rhodes 1995, avec les remarques de Ph. Gauthier, Bull. ép., 1996, 121 et 157. Pour M. Errington, il s'agissait de noter l'obtention d'un “quorum” minimum de votants, mais voir les objections de P. J. Rhodes et de Ph. Gauthier, lequel considère que ce sens serait trop restrictif – d'où notre traduction par “assemblée souveraine” plutôt que par “assemblée plénière”.</p>
+				<p>Pour ce qui est de la langue du décret, on laissera le débat de fond aux linguistes, en précisant qu'on ne verrait aucun obstacle à évoquer une “koina dorienne” (sur la <q>koinè</q> en général, cf. Brixhe 1993, 1996 et 1998, et sur la koina dorienne est-égéenne, dont il apparaît cependant qu'elle est difficile à définir, Bile 1996). Néanmoins, on doit souligner que c'est la langue des cités doriennes voisines qui avait été choisie pour rédiger ce décret, quand c'est la <q>koinè</q> (au sens habituel du terme) qui avait été utilisée pour le décret de Pladasa de l'époque de Pixôdaros.</p>
+				<p>On notera enfin que la forme du décret, avec des considérants rédigés sans ἐπειδή mais avec un membre de phrase en apposition au nom du personnage lui-même au datif en antéposition, trouve un exact parallèle dans le décret de Priène pour Antigone qui est de la même époque (Tod, 186, avec la date conventionnelle de 334, mais on a avancé pour ce décret une date dans les années 313 et suivantes, cf. Debord 1994, 441-443). On a donc affaire à un type de rédaction des décrets qui était alors à la mode en Asie Mineure et dont les Pladaséens s’inspirèrent (pour la structure des décrets de Priène, qui ne sont pas tous sur le même modèle, cf. Rhodes 1997, 381-382)</p>
+			</div>
+			<div type="bibliography" subtype="edition">
+				<listBibl>
+					<bibl><ptr target="#Varinlioğlu et al. 1990"/>, 92, 1990, p. 59-78</bibl>
+					<bibl><ptr target="#IK"/>, 38-Peraia, 701 (photo d'estampage)</bibl>
+					<bibl><ptr target="#SEG"/>, 40, 1990, 996)</bibl>
+					<bibl><ptr target="#HTC"/>, 47, photo d'estampage</bibl>
+				</listBibl>
+			</div>
+			<div type="bibliography" subtype="secondary">
+				<listBibl>
+					<bibl><ptr target="#Bull. ép."/>, 1991, 545</bibl>
+					<bibl><ptr target="#Knoepler 1992"/>, p. 441-442</bibl>
+				</listBibl>
+
+
+			</div> 
+		</body>
+	</text>
+</TEI>

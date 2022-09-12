@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectPlacesGazetteer>
+    <!--This file is updated automatically when a change occurs in the project collection-->
+    <places xmlns:json="http://www.json.org" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                        <last-update>2021-10-21T14:56:00.004+02:00</last-update>
+                        <generated-in>0.008</generated-in>
+                        <count>3</count>
+                        <user>admin</user>
+                            <root json:array="true" type="FeatureCollection">
+                            <features type="Feature">
+                                                    <properties>
+                                                        <name>Alexandria</name>
+                                                        <altNames>Alexandria - Alexandrea Ἀλεξάνδρεια   Alexandria Rʿ-qd (Rʿ-qt) - Pȝ-ʿ.wy-n-ȝlgsȝntrs - Pȝ-sbt-n-Ỉrgsndrs</altNames>
+                                                        <uri>https://ausohnum.huma-num.fr/places/1</uri>
+                                                        <id>1</id>
+                                                        <placeType>City</placeType>
+                                                        <placeTypeUri>https://ausohnum.huma-num.fr/concept/c21865</placeTypeUri>
+                                                        <provinceUri/>
+                                                        <provinceName/>
+                                                        <productionType/>
+                                                        <productionTypeLink/>
+                                                        <exactMatch>https://pleiades.stoa.org/places/727070 https://www.trismegistos.org/place/100</exactMatch>
+                                                        <isMadeOf/>
+                                                        <icon>marker-default.png</icon>
+                                                        <amenity/>
+                                                        <popupContent>
+                                                        </popupContent>
+                                                     </properties>
+                                                     <style>
+                                                         <fill>red</fill>
+                                                         <fill-opacity>1</fill-opacity>
+                                                      </style>
+                                                      <geometry noOfCoord="1">
+                                                         <type>MultiPoint</type>
+                                                         <coordinates json:array="true" json:literal="false">[29.9079146667, 31.1982456667]</coordinates>
+                                                    </geometry>
+                                               </features>
+<features type="Feature">
+                                                    <properties>
+                                                        <name>Mine of Laureion</name>
+                                                        <altNames/>
+                                                        <uri>https://ausohnum.huma-num.fr/places/2</uri>
+                                                        <id>2</id>
+                                                        <placeType>Mine</placeType>
+                                                        <placeTypeUri>https://ausohnum.huma-num.fr/concept/c21873</placeTypeUri>
+                                                        <provinceUri/>
+                                                        <provinceName/>
+                                                        <productionType/>
+                                                        <productionTypeLink/>
+                                                        <exactMatch>http://pleiades.stoa.org/places/963101143</exactMatch>
+                                                        <isMadeOf/>
+                                                        <icon>marker-mines.png</icon>
+                                                        <amenity/>
+                                                        <popupContent>
+                                                        </popupContent>
+                                                     </properties>
+                                                     <style>
+                                                         <fill>red</fill>
+                                                         <fill-opacity>1</fill-opacity>
+                                                      </style>
+                                                      <geometry noOfCoord="1">
+                                                         <type>MultiPoint</type>
+                                                         <coordinates json:array="true" json:literal="false">[24.04033, 37.745679]</coordinates>
+                                                    </geometry>
+                                               </features>
+<features type="Feature">
+                                                    <properties>
+                                                        <name>Road Philippopolis - Pomorie</name>
+                                                        <altNames>Road Philippopolis Pomorie</altNames>
+                                                        <uri>https://ausohnum.huma-num.fr/places/3</uri>
+                                                        <id>3</id>
+                                                        <placeType>Area</placeType>
+                                                        <placeTypeUri>https://ausohnum.huma-num.fr/concept/c21867</placeTypeUri>
+                                                        <provinceUri/>
+                                                        <provinceName/>
+                                                        <productionType/>
+                                                        <productionTypeLink/>
+                                                        <exactMatch>http://vici.org/vici/30815</exactMatch>
+                                                        <isMadeOf/>
+                                                        <icon>marker-color-green.png</icon>
+                                                        <amenity/>
+                                                        <popupContent>
+                                                        </popupContent>
+                                                     </properties>
+                                                     <style>
+                                                         <fill>red</fill>
+                                                         <fill-opacity>1</fill-opacity>
+                                                      </style>
+                                                      <geometry noOfCoord="1">
+                                                         <type>MultiPoint</type>
+                                                         <coordinates json:array="true" json:literal="false">[24.773596, 42.164310]</coordinates>
+                                                    </geometry>
+                                               </features>
+
+                                       </root>
+                                 </places>
+</projectPlacesGazetteer>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:thot="http://thot.philo.ulg.ac.be/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <skos:ConceptScheme rdf:about="http://thot.philo.ulg.ac.be/ext-resources/met">
+        <dc:title>Multilingual Egyptological Thesaurus</dc:title>
+        <dc:title>
+            <dcterms:alternative>MET-test</dcterms:alternative>
+        </dc:title>
+    </skos:ConceptScheme>
+    <skos:ConceptScheme rdf:about="http://www.trismegistos.org/collection/">
+        <dc:title>Trismegistos Collection</dc:title>
+        <dc:title>
+            <dcterms:alternative>TMColl</dcterms:alternative>
+        </dc:title>
+    </skos:ConceptScheme>
+    <skos:ConceptScheme rdf:about="http://topbib.griffith.ac.uk">
+        <dc:title>Digital Topographical Bibliography</dc:title>
+        <dc:title>
+            <dcterms:alternative>TopBib</dcterms:alternative>
+        </dc:title>
+    </skos:ConceptScheme>
+</rdf:RDF>

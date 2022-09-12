@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <skos:ConceptScheme rdf:about="https://ausohnum.huma-num.fr/thesaurus/languages/">
+        <dc:title type="full">Language</dc:title>
+        <dc:title type="short">languages</dc:title>
+        <dc:publisher>AusoHNum</dc:publisher>
+        <dc:creator ref="vrazanajao" role="contributor">Vincent
+            Razanajao</dc:creator>
+        <skos:note>
+            <span class="note-entry"/>
+            <span class="note-entry">
+                <em>Edited by</em>: Vincent Razanajao (ULg).</span>
+        </skos:note>
+        <skos:hasTopConcept rdf:resource="https://ausohnum.huma-num.fr/concept/c39"/>
+        <skosThesau:admin status="published"/>
+    </skos:ConceptScheme>
+    <skos:ConceptScheme rdf:about="http://thot.philo.ulg.ac.be/ext-resources/met">
+        <dc:title>Multilingual Egyptological Thesaurus</dc:title>
+        <dc:title>
+            <dct:alternative>MET</dct:alternative>n</dc:title>
+    </skos:ConceptScheme>
+    <skos:ConceptScheme rdf:about="www.trismegistos.org/collection/">
+        <dc:title>Trismegistos Collection</dc:title>
+        <dc:title>
+            <dct:alternative>TMColl</dct:alternative>n</dc:title>
+    </skos:ConceptScheme>
+    <skos:Concept type="non-ordered" rdf:about="https://ausohnum.huma-num.fr/concept/c3" xml:id="c3">
+        <skos:prefLabel xml:lang="ar">الأكادية</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Akkadisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Akkadian</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Akkadien</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">akk</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Ola</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c1834"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c36"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    <skos:prefLabel xml:lang="gt">ggtg</skos:prefLabel>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c4" rdf:about="https://ausohnum.huma-num.fr/concept/c4">
+        <skos:prefLabel xml:lang="ar">العربية</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Arabisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Arabic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Arabe</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">ar</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c36"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c5" rdf:about="https://ausohnum.huma-num.fr/concept/c5">
+        <skos:prefLabel xml:lang="ar">الامبراطوري الآرامية</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Reichsaramäisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Imperial Aramaic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Araméen Impérial</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">arc</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c731"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c1836"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://ausohnum.huma-num.fr/concept/c6" type="ordered" xml:id="c6">
+        <skos:prefLabel xml:lang="ar">لغة مصرية </skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Ägyptisch-Koptisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Egyptian-Coptic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Egypto-copte</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egx</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c8"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c9"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c13"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c1834"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c732"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c7" rdf:about="https://ausohnum.huma-num.fr/concept/c7">
+        <skos:prefLabel xml:lang="de">Ägyptisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Pre-Coptic Egyptian</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Egyptien ancien</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egy</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="ordered" xml:id="c8" rdf:about="https://ausohnum.huma-num.fr/concept/c8">
+        <skos:prefLabel xml:lang="de">Älteres Ägyptisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Earlier Egyptian</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Vieil égyptien</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egy-x-egyor</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Older Egyptian</skos:altLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c6199"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c10"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c11"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c6"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="ordered" xml:id="c9" rdf:about="https://ausohnum.huma-num.fr/concept/c9">
+        <skos:prefLabel xml:lang="de">Jüngeres Ägyptisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Later Egyptian</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Egyptien récent</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egy-x-egylr</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c12"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c15"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c6"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c10" rdf:about="https://ausohnum.huma-num.fr/concept/c10">
+        <skos:prefLabel xml:lang="ar">لغة مصرية قديمة</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Altägyptisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Old Egyptian</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Ancien égyptien</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egy-x-egyo</skos:prefLabel>
+        <skos:altLabel xml:lang="en">null</skos:altLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c8"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://ausohnum.huma-num.fr/concept/c11" type="ordered" xml:id="c11">
+        <skos:prefLabel xml:lang="ar">لغة مصرية وسطى</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Mittelägyptisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Middle Egyptian</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Moyen égyptien</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egy-x-egym</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c8"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://ausohnum.huma-num.fr/concept/c12" type="non-ordered" xml:id="c12">
+        <skos:prefLabel xml:lang="ar">لغة مصرية حديثة</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Neuägyptisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Late Egyptian</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Néo-égyptien</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egy-x-egyl</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c9"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c13" rdf:about="https://ausohnum.huma-num.fr/concept/c13">
+        <skos:prefLabel xml:lang="de">Neo-Mittelägyptisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Égyptien de tradition</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Egyptien de tradition</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egy-x-egt</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Neo-Middle Egyptian</skos:altLabel>
+        <skos:altLabel xml:lang="de">Traditionelles
+            Mittelägyptisch</skos:altLabel>
+        <skos:altLabel xml:lang="de">Spätmittelägyptisch</skos:altLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c6"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="ordered" xml:id="c15" rdf:about="https://ausohnum.huma-num.fr/concept/c15">
+        <skos:prefLabel xml:lang="ar">ديموطيقية</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Demotisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Demotic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Démotique</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egy-x-demo</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c16"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c17"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c18"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c9"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c16" rdf:about="https://ausohnum.huma-num.fr/concept/c16">
+        <skos:prefLabel xml:lang="de">Frühdemotisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Early Demotic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Démotique ancien</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egy-x-demoe</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c15"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c17" rdf:about="https://ausohnum.huma-num.fr/concept/c17">
+        <skos:prefLabel xml:lang="de">ptolemäisches Demotisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Ptolemaic Demotic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Démotique ptolémaïque</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egy-x-demop</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c15"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c18" rdf:about="https://ausohnum.huma-num.fr/concept/c18">
+        <skos:prefLabel xml:lang="de">römisches Demotisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Roman Demotic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Démotique romain</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egy-x-demor</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c15"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="ordered" xml:id="c19" rdf:about="https://ausohnum.huma-num.fr/concept/c19">
+        <skos:prefLabel xml:lang="ar">لغة قبطية</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Koptisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Coptic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Copte</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">cop</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c21"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c24"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c25"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c9"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c20" rdf:about="https://ausohnum.huma-num.fr/concept/c20">
+        <skos:prefLabel xml:lang="de">Achmimisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Akhmimic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Copte akhmimique</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">cop-x-copa</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c21" rdf:about="https://ausohnum.huma-num.fr/concept/c21">
+        <skos:prefLabel xml:lang="de">Altkoptisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Old Coptic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Vieux copte</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">cop-x-copo</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c22" rdf:about="https://ausohnum.huma-num.fr/concept/c22">
+        <skos:prefLabel xml:lang="de">Bohairisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Bohairic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Copte bohaïrique</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">cop-x-copb</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c23" rdf:about="https://ausohnum.huma-num.fr/concept/c23">
+        <skos:prefLabel xml:lang="de">Fajumisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Fayumic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Copte fayoumique</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">cop-x-copf</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c24" rdf:about="https://ausohnum.huma-num.fr/concept/c24">
+        <skos:prefLabel xml:lang="de">Mesokemisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Mesokemic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Copte mésokémique</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">cop-x-copm</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Oxyrhynkhitic</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Copte Oxyrhynchite</skos:altLabel>
+        <skos:altLabel xml:lang="de">Mittelägyptisch /
+            Oxyrhynchitisch</skos:altLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c25" rdf:about="https://ausohnum.huma-num.fr/concept/c25">
+        <skos:prefLabel xml:lang="de">Sahidisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Sahidic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Copte sahidique</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">cop-x-cops</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c26" rdf:about="https://ausohnum.huma-num.fr/concept/c26">
+        <skos:prefLabel xml:lang="de">Lykopolitanisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Sub-Akhmimic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Copte sub-akhmimique</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">cop-x-copas</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c27" rdf:about="https://ausohnum.huma-num.fr/concept/c27">
+        <skos:prefLabel xml:lang="ar">ألماني</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Deutsch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">German</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Allemand</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">de</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c37"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c28" rdf:about="https://ausohnum.huma-num.fr/concept/c28">
+        <skos:prefLabel xml:lang="ar">الإنجليزية</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Englisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">English</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Anglais</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">en</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c37"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c29" rdf:about="https://ausohnum.huma-num.fr/concept/c29">
+        <skos:prefLabel xml:lang="ar">لغة إغريقية</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Altgriechisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Ancient Greek</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Grec ancien</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">grc</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c1834"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c37"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c30" rdf:about="https://ausohnum.huma-num.fr/concept/c30">
+        <skos:prefLabel xml:lang="de">Hebräisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Ancient Hebrew</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hébreu ancien</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">hbo</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c1834"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c36"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c31" rdf:about="https://ausohnum.huma-num.fr/concept/c31">
+        <skos:prefLabel xml:lang="de">Lateinisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Latin</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Latin</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">la</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c1834"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c37"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:25</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c32" rdf:about="https://ausohnum.huma-num.fr/concept/c32">
+        <skos:prefLabel xml:lang="de">Meroitisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Meroitic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Méroïtique</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">xmr</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c1834"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c38"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:26</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c33" rdf:about="https://ausohnum.huma-num.fr/concept/c33">
+        <skos:prefLabel xml:lang="ar">لغات نوبية</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Nubische Sprache(n) der pharaonischen
+            Zeit</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Nubian</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Nubien</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">nub</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c38"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:26</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" rdf:about="https://ausohnum.huma-num.fr/concept/c34" xml:id="c34">
+        <skos:prefLabel xml:lang="de">Altnubisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Old Nubian</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Vieux nubien</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">nbw</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c1834"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c38"/>
+        <skosThesau:admin status="private-thot"/>
+        <dct:created>2017-02-08T14:18:26</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c35" rdf:about="https://ausohnum.huma-num.fr/concept/c35">
+        <skos:prefLabel xml:lang="de">Syrisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Syriac</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Syriaque</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">syr</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c731"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c1836"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:26</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c36" rdf:about="https://ausohnum.huma-num.fr/concept/c36">
+        <skos:prefLabel xml:lang="ar">لغات سامية</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Semitische Sprachen</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Semitic languages</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Langues sémitiques</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">sem</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c3"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c1836"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c30"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c4"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c731"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c1835"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c732"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:26</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c37" rdf:about="https://ausohnum.huma-num.fr/concept/c37">
+        <skos:prefLabel xml:lang="ar">لغات هندية أوروبية</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Indoeuropäische Sprachen</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Indo-european languages</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Langues indo-européennes</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">ine</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c29"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c31"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c106"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c27"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c28"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c1835"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:26</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c38" rdf:about="https://ausohnum.huma-num.fr/concept/c38">
+        <skos:prefLabel xml:lang="ar">لغات نيلية صحراوية</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Nilosaharanische Sprachen</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Nilo-Saharan languages</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Langues nilo-sahariennes</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">ssa</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c32"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c34"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c33"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c1835"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:26</dct:created>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://ausohnum.huma-num.fr/concept/c39" type="non-ordered" xml:id="c39">
+        <skos:prefLabel xml:lang="ar">اللغات</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Sprachen</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Languages</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Langues</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">languages</skos:prefLabel>
+        <skos:prefLabel xml:lang="gb">test</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c1834"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c1835"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:26</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c106" rdf:about="https://ausohnum.huma-num.fr/concept/c106">
+        <skos:prefLabel xml:lang="ar">الفرنسية</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Französich</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">French</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Français</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">fr</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c37"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:26</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c731" rdf:about="https://ausohnum.huma-num.fr/concept/c731">
+        <skos:prefLabel xml:lang="ar">لغة آرامية</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Aramäisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Aramaic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Araméen</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c5"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c35"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19284"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c1834"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c36"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:26</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c732" rdf:about="https://ausohnum.huma-num.fr/concept/c732">
+        <skos:prefLabel xml:lang="ar">لغات أفريقية آسيوية</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Afroasiatische Sprachen</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Afroasiatic languages</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Langues Afroasiatiques</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">afa</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c6"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c36"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c1835"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:26</dct:created>
+    </skos:Concept>
+    <skos:Collection rdf:about="https://ausohnum.huma-num.fr/concept/c1834" type="non-ordered" xml:id="c1834">
+        <skos:prefLabel xml:lang="de">Alte Sprachen</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Ancient languages</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Langues anciennes</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c3"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c29"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c731"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c6"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c30"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c32"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c34"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c31"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c39"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:26</dct:created>
+    </skos:Collection>
+    <skos:Collection type="non-ordered" xml:id="c1835" rdf:about="https://ausohnum.huma-num.fr/concept/c1835">
+        <skos:prefLabel xml:lang="de">Sprachen nach Typ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Languages by types</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Langues par types</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c732"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c38"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c37"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c36"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c39"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:26</dct:created>
+    </skos:Collection>
+    <skos:Concept type="non-ordered" xml:id="c1836" rdf:about="https://ausohnum.huma-num.fr/concept/c1836">
+        <skos:prefLabel xml:lang="ar">لغة آرامية</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Aramäisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Aramaic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Araméen</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c5"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c35"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c36"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:26</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c6199" rdf:about="https://ausohnum.huma-num.fr/concept/c6199">
+        <skos:prefLabel xml:lang="de">Frühägyptische Sprache</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Archaic Egyptian</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Égyptien archaïque</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egy-x-egyar</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Pre-Old Egyptian</skos:altLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c8"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:26</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c6388" rdf:about="https://ausohnum.huma-num.fr/concept/c6388">
+        <skos:prefLabel xml:lang="ar">لغة مصرية حديثة</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Neuägyptisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Late Egyptian</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Néo-égyptien</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egy-x-egyl</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2017-02-08T14:18:26</dct:created>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://ausohnum.huma-num.fr/concept/c19284" type="non-ordered" xml:id="c19284">
+        <skos:prefLabel xml:lang="en">Test in English</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Test in French</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c731"/>
+        <skosThesau:admin status="private-thot"/>
+        <skosThesau:adminComment>This is a comment about the creation of
+            aconcept</skosThesau:adminComment>
+        <dct:created>2018-01-16T22:32:10.556+01:00</dct:created>
+        <dct:modified>2018-01-16T22:32:10.556+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c19285" rdf:about="https://ausohnum.huma-num.fr/concept/c19285" type="non-ordered">
+        <skos:prefLabel xml:lang="de"> Ptolemäische</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Ptolemaic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Ptolémaïque</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c13"/>
+        <skosThesau:admin status="private-thot"/>
+        <dct:created>2018-01-23T15:10:31.086+01:00</dct:created>
+        <dct:modified>2018-01-23T15:10:31.086+01:00</dct:modified>
+    </skos:Concept>
+<skos:Concept xml:id="c19286" rdf:about="http://patrimonium.huma-num.frapcc19286" type="non-ordered">
+        <skos:prefLabel xml:lang="en">njknkjnkjn</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c6"/>
+        <skosThesau:admin status="private"/>
+        <dct:created>2018-04-13T13:53:19.827+02:00</dct:created>
+        <dct:modified>2018-04-13T13:53:19.827+02:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c19287" rdf:about="http://patrimonium.huma-num.fr/apc/conceptapcc19287" type="non-ordered">
+        <skos:prefLabel xml:lang="en">zzzzzzzzzzzzzz</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/languages/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c6"/>
+        <skosThesau:admin status="private"/>
+        <dct:created>2018-04-13T13:55:06.069+02:00</dct:created>
+        <dct:modified>2018-04-13T13:55:06.069+02:00</dct:modified>
+    </skos:Concept>
+</rdf:RDF>

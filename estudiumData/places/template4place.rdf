@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:pleiades="https://pleiades.stoa.org/places/vocab#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cito="http://purl.org/spar/cito/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:spatial="http://geovocab.org/spatial#" xmlns:prov="http://www.w3.org/TR/prov-o/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <spatial:Feature rdf:about="https://pleiades.stoa.org/places/609511#this">
+        <rdfs:label>Prymnessos</rdfs:label>
+        <foaf:primaryTopicOf>
+            <skos:Concept rdf:about="https://pleiades.stoa.org/places/609511">
+                
+<!--            PLEAIDED:    <dcterms:title>Prymnessos</dcterms:title>--><!--Prefer skos:prefLabel-->
+                <skos:prefLabel xml:lang="en"/><!--Name in English translation-->
+                <rdf:type rdf:resource="https://pleiades.stoa.org/places/vocab#Place"/>
+                
+                <cito:citesForInformation rdf:nodeID="XXVOkQgS18864"/>
+                <cito:citesForInformation rdf:nodeID="XXVOkQgS18863"/>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.5696416</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">38.6981943</geo:lat>
+                
+                <pleiades:hasFeatureType rdf:resource="https://pleiades.stoa.org/vocabularies/place-types/settlement"/>
+                <owl:sameAs rdf:resource="http://pleiades.stoa.org/places/609511"/>
+                <dcterms:creator rdf:resource="http://viaf.org/viaf/54156192"/>
+                <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/places"/>
+                <pleiades:hasName rdf:resource="https://pleiades.stoa.org/places/609511/prymnessos"/>
+                <dcterms:coverage>Sülün (Süğlün)</dcterms:coverage>
+                <dcterms:subject>dare:major=1</dcterms:subject>
+                <dcterms:subject>dare:ancient=1</dcterms:subject>
+                <dcterms:subject>dare:feature=major settlement</dcterms:subject>
+                <pleiades:hasLocation rdf:resource="https://pleiades.stoa.org/places/609511/darmc-location-1264"/>
+                <pleiades:hasLocation rdf:resource="https://pleiades.stoa.org/places/609511/dare-location"/>
+                <skos:altLabel>Prymnessos</skos:altLabel>
+                <dcterms:description>An ancient place, cited: BAtlas 62 E4 Prymnessos</dcterms:description>
+                
+                <dcterms:bibliographicCitation/>
+                <prov:wasDerivedFrom>
+                    <rdf:Description>
+                        <rdfs:label>Barrington Atlas: BAtlas 62 E4 Prymnessos</rdfs:label>
+                    </rdf:Description>
+                </prov:wasDerivedFrom>
+                <dcterms:modified>2012-10-23T11:38:44-04:00</dcterms:modified>
+                <dcterms:contributor rdf:resource="http://viaf.org/viaf/59162760"/>
+                <dcterms:contributor rdf:resource="https://pleiades.stoa.org/author/sgillies"/>
+                <dcterms:contributor rdf:resource="http://darmc.harvard.edu"/>
+                <dcterms:contributor rdf:resource="https://pleiades.stoa.org/author/thomase"/>
+                <dcterms:contributor rdf:resource="https://pleiades.stoa.org/author/jahlfeldt"/>
+            </skos:Concept>
+        </foaf:primaryTopicOf>
+        <rdfs:comment>An ancient place, cited: BAtlas 62 E4 Prymnessos</rdfs:comment>
+    </spatial:Feature>
+    <skos:Concept rdf:about="https://pleiades.stoa.org/vocabularies/place-types/settlement">
+        <skos:inScheme rdf:resource="https://pleiades.stoa.org/vocabularies/place-types"/>
+        <owl:sameAs rdf:resource="http://pleiades.stoa.org/vocabularies/place-types/settlement"/>
+        <skos:prefLabel xml:lang="en">settlement</skos:prefLabel>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://pleiades.stoa.org/vocabularies/time-periods/late-antique">
+        <skos:inScheme rdf:resource="https://pleiades.stoa.org/vocabularies/time-periods"/>
+        <owl:sameAs rdf:resource="http://pleiades.stoa.org/vocabularies/time-periods/late-antique"/>
+        <owl:sameAs rdf:resource="http://n2t.net/ark:/99152/p03wskd6psm"/>
+        <skos:prefLabel xml:lang="en">Late Antique (AD 300-AD 640)</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">The Late Antique period in Greek and Roman history. For the purposes of Pleiades, this period is said to begin in the year 300 and to end in the year 640 after the birth of Christ. [[300, 640]]</skos:scopeNote>
+    </skos:Concept>
+    <pleiades:Location rdf:about="https://pleiades.stoa.org/places/609511/darmc-location-1264">
+        <dcterms:title>DARMC location 1264</dcterms:title>
+        <osgeo:asWKT>POINT (30.5691479999999984 38.6974629999999991)</osgeo:asWKT>
+        <dcterms:description>TIB representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.</dcterms:description>
+        <dcterms:creator rdf:resource="http://viaf.org/viaf/54156192"/>
+        <prov:wasDerivedFrom>
+            <rdf:Description>
+                <rdfs:label>DARMC OBJECTID: 1264</rdfs:label>
+            </rdf:Description>
+        </prov:wasDerivedFrom>
+        <pleiades:end_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">640</pleiades:end_date>
+        <pleiades:start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-30</pleiades:start_date>
+        <osgeo:asGeoJSON>{"type": "Point", "coordinates": [30.569148, 38.697463]}</osgeo:asGeoJSON>
+        <owl:sameAs rdf:resource="http://pleiades.stoa.org/places/609511/darmc-location-1264"/>
+        <cito:citesAsDataSource rdf:nodeID="XXVOkQgS18862"/>
+        <dcterms:bibliographicCitation>DARMC 1264</dcterms:bibliographicCitation>
+        <pleiades:during>
+            <skos:Concept rdf:about="https://pleiades.stoa.org/vocabularies/time-periods/roman">
+                <skos:inScheme rdf:resource="https://pleiades.stoa.org/vocabularies/time-periods"/>
+                <owl:sameAs rdf:resource="http://n2t.net/ark:/99152/p03wskdxnzf"/>
+                <owl:sameAs rdf:resource="http://pleiades.stoa.org/vocabularies/time-periods/roman"/>
+                <skos:prefLabel xml:lang="en">Roman, early Empire (30 BC-AD 300)</skos:prefLabel>
+                <skos:scopeNote xml:lang="en">The Roman period (i.e., the early Roman Empire) in Greek and Roman history. For the purposes of Pleiades, this period is said to begin in the year 30 before the birth of Christ and to end in the year 300 after the birth of Christ. [[-30, 300]]</skos:scopeNote>
+            </skos:Concept>
+        </pleiades:during>
+        <pleiades:during rdf:resource="https://pleiades.stoa.org/vocabularies/time-periods/late-antique"/>
+        <dcterms:modified>2012-02-14T21:14:14-05:00</dcterms:modified>
+        <dcterms:contributor rdf:resource="http://viaf.org/viaf/59162760"/>
+        <dcterms:contributor rdf:resource="https://pleiades.stoa.org/author/sgillies"/>
+        <dcterms:contributor rdf:resource="http://darmc.harvard.edu"/>
+        <dcterms:contributor rdf:resource="https://pleiades.stoa.org/author/thomase"/>
+    </pleiades:Location>
+    <pleiades:Name rdf:about="https://pleiades.stoa.org/places/609511/prymnessos">
+        <dcterms:title>Prymnessos</dcterms:title>
+        <owl:sameAs rdf:resource="http://pleiades.stoa.org/places/609511/prymnessos"/>
+        <dcterms:creator rdf:resource="http://viaf.org/viaf/54156192"/>
+        <prov:wasDerivedFrom>
+            <rdf:Description>
+                <rdfs:label>Barrington Atlas: BAtlas 62 E4 Prymnessos</rdfs:label>
+            </rdf:Description>
+        </prov:wasDerivedFrom>
+        <pleiades:end_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">640</pleiades:end_date>
+        <pleiades:start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-30</pleiades:start_date>
+        <dcterms:description/>
+        <pleiades:during rdf:resource="https://pleiades.stoa.org/vocabularies/time-periods/roman"/>
+        <pleiades:during rdf:resource="https://pleiades.stoa.org/vocabularies/time-periods/late-antique"/>
+        <pleiades:nameRomanized>Prymnessos</pleiades:nameRomanized>
+        <dcterms:modified>2012-02-14T21:14:14-05:00</dcterms:modified>
+        <dcterms:contributor rdf:resource="http://viaf.org/viaf/59162760"/>
+        <dcterms:contributor rdf:resource="https://pleiades.stoa.org/author/sgillies"/>
+        <dcterms:contributor rdf:resource="https://pleiades.stoa.org/author/thomase"/>
+    </pleiades:Name>
+    <pleiades:Location rdf:about="https://pleiades.stoa.org/places/609511/dare-location">
+        <dcterms:title>DARE Location</dcterms:title>
+        <dcterms:description>Representative point location, village precision</dcterms:description>
+        <dcterms:creator rdf:resource="https://pleiades.stoa.org/author/jahlfeldt"/>
+        <prov:wasDerivedFrom>
+            <rdf:Description>
+                <rdfs:label>Digital Atlas of the Roman Empire (2012-10-15)</rdfs:label>
+            </rdf:Description>
+        </prov:wasDerivedFrom>
+        <pleiades:end_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">640</pleiades:end_date>
+        <cito:cites rdf:nodeID="XXVOkQgS18860"/>
+        <pleiades:start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-30</pleiades:start_date>
+        <osgeo:asGeoJSON>{"type": "Point", "coordinates": [30.569641600000068, 38.6981943]}</osgeo:asGeoJSON>
+        <owl:sameAs rdf:resource="http://pleiades.stoa.org/places/609511/dare-location"/>
+        <osgeo:asWKT>POINT (30.5696416000000681 38.6981942999999973)</osgeo:asWKT>
+        <dcterms:bibliographicCitation/>
+        <pleiades:during rdf:resource="https://pleiades.stoa.org/vocabularies/time-periods/roman"/>
+        <pleiades:during rdf:resource="https://pleiades.stoa.org/vocabularies/time-periods/late-antique"/>
+        <dcterms:modified>2012-10-23T13:31:37-04:00</dcterms:modified>
+    </pleiades:Location>
+</rdf:RDF>

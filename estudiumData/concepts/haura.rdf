@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <skos:ConceptScheme rdf:about="https://ausohnum.huma-num.fr/thesaurus/haura/">
+        <dc:title type="full">Thesaurus haura</dc:title>
+        <dc:title type="short">haura</dc:title>
+        <skos:hasTopConcept rdf:resource="https://ausohnum.huma-num.fr/concept/c26554"/>
+        <dc:creator ref="vrazanajao">Vincent Razanajao</dc:creator>
+        <dc:creator ref="nprevot">Nathalie Prévôt</dc:creator>
+        <dc:publisher>Ausonius Institute</dc:publisher>
+        <dct:created>2021-10-28T15:12:12.868+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:ConceptScheme>
+    <skos:Collection xml:id="c26554" rdf:about="https://ausohnum.huma-num.fr/concept/c26554">
+        <skos:prefLabel xml:lang="en">Thesaurus Haura</skos:prefLabel>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26555"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26558"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26569"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <dct:created>2021-10-28T15:12:12.868+02:00</dct:created>
+    <dct:modified>2021-10-28T15:25:20.79+02:00</dct:modified>
+    <dct:modified>2021-11-14T16:40:04.199+01:00</dct:modified>
+    <dct:modified>2021-11-14T16:51:50.737+01:00</dct:modified>
+        <skosThesau:admin status="draft"/>
+    </skos:Collection>
+
+
+    <skos:Concept xml:id="c26558" rdf:about="https://ausohnum.huma-num.fr/concept/c26558">
+        <skos:prefLabel xml:lang="fr">Production</skos:prefLabel>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26559"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26562"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26563"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26564"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26565"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26566"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26567"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26568"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26554"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T16:40:04.199+01:00</dct:created>
+    <dct:modified>2021-11-14T16:41:20.055+01:00</dct:modified>
+    <dct:modified>2021-11-14T16:44:34.738+01:00</dct:modified>
+    <dct:modified>2021-11-14T16:45:07.01+01:00</dct:modified>
+    <dct:modified>2021-11-14T16:45:26.151+01:00</dct:modified>
+    <dct:modified>2021-11-14T16:46:05.106+01:00</dct:modified>
+    <dct:modified>2021-11-14T16:46:43.989+01:00</dct:modified>
+    <dct:modified>2021-11-14T16:46:53.495+01:00</dct:modified>
+    <dct:modified>2021-11-14T16:47:47.058+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c26559" rdf:about="https://ausohnum.huma-num.fr/concept/c26559">
+        <skos:prefLabel xml:lang="fr">Viticulture</skos:prefLabel>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26560"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26561"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26558"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T16:41:20.055+01:00</dct:created>
+    <dct:modified>2021-11-14T16:42:45.721+01:00</dct:modified>
+    <dct:modified>2021-11-14T16:43:22.819+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c26560" rdf:about="https://ausohnum.huma-num.fr/concept/c26560">
+        <skos:prefLabel xml:lang="fr">Vignoble</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26559"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T16:42:45.721+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26561" rdf:about="https://ausohnum.huma-num.fr/concept/c26561">
+        <skos:prefLabel xml:lang="fr">Equipements de vinification</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26559"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T16:43:22.819+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26562" rdf:about="https://ausohnum.huma-num.fr/concept/c26562">
+        <skos:prefLabel xml:lang="fr">Céréaliculture</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26558"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T16:44:34.738+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26563" rdf:about="https://ausohnum.huma-num.fr/concept/c26563">
+        <skos:prefLabel xml:lang="fr">Arboriculture</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26558"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T16:45:07.01+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26564" rdf:about="https://ausohnum.huma-num.fr/concept/c26564">
+        <skos:prefLabel xml:lang="fr">Elevage</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26558"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T16:45:26.151+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26565" rdf:about="https://ausohnum.huma-num.fr/concept/c26565">
+        <skos:prefLabel xml:lang="fr">Sylviculture</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26558"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T16:46:05.106+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26566" rdf:about="https://ausohnum.huma-num.fr/concept/c26566">
+        <skos:prefLabel xml:lang="fr">Salaisons de poisson</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26558"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T16:46:43.989+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26567" rdf:about="https://ausohnum.huma-num.fr/concept/c26567">
+        <skos:prefLabel xml:lang="fr">Sites à sel</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26558"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T16:46:53.495+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26568" rdf:about="https://ausohnum.huma-num.fr/concept/c26568">
+        <skos:prefLabel xml:lang="fr">Production de la poix</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26558"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T16:47:47.058+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26569" rdf:about="https://ausohnum.huma-num.fr/concept/c26569">
+        <skos:prefLabel xml:lang="en">Types of place</skos:prefLabel>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26570"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26554"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T16:51:50.737+01:00</dct:created>
+    <dct:modified>2021-11-14T16:52:49.056+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c26570" rdf:about="https://ausohnum.huma-num.fr/concept/c26570">
+        <skos:prefLabel xml:lang="fr">Sites</skos:prefLabel>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26571"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26572"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26573"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26574"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26575"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26576"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26577"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26578"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26579"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26580"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26581"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26582"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26569"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T16:52:49.056+01:00</dct:created>
+    <dct:modified>2021-11-14T16:59:31.171+01:00</dct:modified>
+    <dct:modified>2021-11-14T16:59:44.731+01:00</dct:modified>
+    <dct:modified>2021-11-14T17:00:02.318+01:00</dct:modified>
+    <dct:modified>2021-11-14T17:00:16.185+01:00</dct:modified>
+    <dct:modified>2021-11-14T17:00:33.172+01:00</dct:modified>
+    <dct:modified>2021-11-14T17:00:55.35+01:00</dct:modified>
+    <dct:modified>2021-11-14T17:01:06.684+01:00</dct:modified>
+    <dct:modified>2021-11-14T17:01:14.478+01:00</dct:modified>
+    <dct:modified>2021-11-14T17:01:27.401+01:00</dct:modified>
+    <dct:modified>2021-11-14T17:01:50.737+01:00</dct:modified>
+    <dct:modified>2021-11-14T17:02:26.189+01:00</dct:modified>
+    <dct:modified>2021-11-14T17:02:41.226+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c26571" rdf:about="https://ausohnum.huma-num.fr/concept/c26571">
+        <skos:prefLabel xml:lang="fr">agglomération de hauteur</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26570"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T16:59:31.171+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26572" rdf:about="https://ausohnum.huma-num.fr/concept/c26572">
+        <skos:prefLabel xml:lang="fr">habitat dispersé</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26570"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T16:59:44.731+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26573" rdf:about="https://ausohnum.huma-num.fr/concept/c26573">
+        <skos:prefLabel xml:lang="fr">agglomération</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26570"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T17:00:02.318+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26574" rdf:about="https://ausohnum.huma-num.fr/concept/c26574">
+        <skos:prefLabel xml:lang="fr">capitale de cité</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26570"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T17:00:16.185+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26575" rdf:about="https://ausohnum.huma-num.fr/concept/c26575">
+        <skos:prefLabel xml:lang="fr">agglomération secondaire</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26570"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T17:00:33.172+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26576" rdf:about="https://ausohnum.huma-num.fr/concept/c26576">
+        <skos:prefLabel xml:lang="fr">agglomération à fonction religieuse</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26570"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T17:00:55.35+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26577" rdf:about="https://ausohnum.huma-num.fr/concept/c26577">
+        <skos:prefLabel xml:lang="fr">bourg</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26570"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T17:01:06.684+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26578" rdf:about="https://ausohnum.huma-num.fr/concept/c26578">
+        <skos:prefLabel xml:lang="fr">village</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26570"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T17:01:14.478+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26579" rdf:about="https://ausohnum.huma-num.fr/concept/c26579">
+        <skos:prefLabel xml:lang="fr">bourgade</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26570"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T17:01:27.401+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26580" rdf:about="https://ausohnum.huma-num.fr/concept/c26580">
+        <skos:prefLabel xml:lang="fr">établissement rural</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26570"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T17:01:50.737+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26581" rdf:about="https://ausohnum.huma-num.fr/concept/c26581">
+        <skos:prefLabel xml:lang="fr">établissement rural à vocation artisanal</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26570"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T17:02:26.189+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26582" rdf:about="https://ausohnum.huma-num.fr/concept/c26582">
+        <skos:prefLabel xml:lang="fr">campement</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c26570"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
+        <dct:created>2021-11-14T17:02:41.226+01:00</dct:created>
+    </skos:Concept>
+</rdf:RDF>

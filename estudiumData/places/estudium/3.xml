@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:pleiades="https://pleiades.stoa.org/places/vocab#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:spatial="http://geovocab.org/spatial#" xmlns:prov="http://www.w3.org/TR/prov-o/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:spatium="http://ausonius.huma-num.fr/spatium-ontoology" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lawdi="http://lawd.info/ontology/" xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+        <spatial:Feature rdf:about="https://ausohnum.huma-num.fr/places/3#this">
+             <skos:exactMatch rdf:resource="http://vici.org/vici/30815"/>
+            <foaf:primaryTopicOf>
+                <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/places/3">
+                    <dcterms:title xml:lang="en">Road Philippopolis - Pomorie</dcterms:title>
+                    
+                    
+                    <pleiades:hasFeatureType type="main" rdf:resource="https://ausohnum.huma-num.fr/concept/c21867">Area</pleiades:hasFeatureType>
+                    
+                    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.773596</geo:long>
+                    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">42.164310</geo:lat>
+                    <skos:note/>
+                
+        <skos:altLabel xml:lang="">Road Philippopolis Pomorie</skos:altLabel>
+            </pleiades:Place>
+             <skos:note type="private"/>
+            </foaf:primaryTopicOf>
+        </spatial:Feature>
+         <pleiades:Location rdf:about="https://ausohnum.huma-num.fr/places/3/position">
+         <prov:wasDerivedFrom>
+            <rdf:Description>
+               <rdfs:label>APC</rdfs:label>
+            </rdf:Description>
+         </prov:wasDerivedFrom>
+         
+                <osgeo:asGeoJSON>{"type": "Point", "coordinates": [24.773596, 42.164310]}</osgeo:asGeoJSON>
+                <osgeo:asWKT>POINT  (24.773596, 42.164310)</osgeo:asWKT>
+                
+         <pleiades:start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"/>
+         <pleiades:end_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"/>
+      </pleiades:Location>
+</rdf:RDF>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <title data-template="config:app-title">App Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta data-template="config:app-meta"/>
+        
+        <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+        <link rel="shortcut icon" href="/resources/images/favicon.ico"/>
+        
+        <!--        JQuery-->
+        <!--                <script type="text/javascript" src="$shared/resources/scripts/jquery/jquery-1.7.1.min.js"/>-->
+<!--        <script type="text/javascript" src="/resources/scripts/vendor/jquery-1.11.3.min.js"/>-->
+<!--        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"/>-->
+        <!--        <script type="text/javascript" src="/resources/scripts/vendor/material.min.js"/>-->
+        <!--        <script type="text/javascript" src="/resources/scripts/vendor/ripples.min.js"/>-->
+        
+<!--        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"/>-->
+<!--        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js" type="text/javascript"/>-->
+        
+        <script src="$ausohnum-lib/resources/scripts/jquery/jquery-1.12.4-min.js"/>
+        <script src="$ausohnum-lib/resources/scripts/jquery/jquery-ui-1.11.4/jquery-ui.min.js"/>
+        
+        <!--<script type="text/javascript" src="/resources/scripts/vendor/bootstrap3-typeahead.min.js"/>
+        <script type="text/javascript" src="/resources/scripts/vendor/jquery.fs.macaroon.min.js"/>
+        -->
+        
+        
+        <!--        <link rel="stylesheet" type="text/css" href="https://ausohnum.huma-num.fr/apps/eStudium/resources/css/vendor/bootstrap-material-design.min.css"/>-->
+<!--        <link rel="stylesheet" type="text/css" href="//patrimonium.huma-num.fr/resources/css/vendor/ripples.min.css"/>-->
+        <!--        <link rel="stylesheet" type="text/css" href="//patrimonium.huma-num.fr/resources/css/vendor/jquery.fileupload.css"/>-->
+        
+        
+        
+        
+        
+        <!--        Bootstrap-->
+        <!--        <link rel="stylesheet" type="text/css" href="https://ausohnum.huma-num.fr/apps/eStudium/resources/css/vendor/bootstrap.min.css"/>-->
+        <!--                <script type="text/javascript" src="/resources/scripts/vendor/bootstrap.min.js"/>-->
+<!--                    <link rel="stylesheet" type="text/css" href="$shared/resources/css/bootstrap-3.0.3.min.css"/>-->
+        <link rel="stylesheet" type="text/css" href="$ausohnum-lib/resources/css/bootstrap-3.3.6.min.css"/>
+                    <script type="text/javascript" src="$shared/resources/scripts/bootstrap-3.0.3.min.js"/>
+                    
+        
+        <!--<link rel="stylesheet" type="text/css" href="$ausohnum-lib/resources/bootstrap-4.0.0/css/bootstrap.min.css"/>       
+        <script type="text/javascript" src="$ausohnum-lib/resources/bootstrap-4.0.0/js/bootsrap.min.js"/>
+        -->
+        
+        
+        
+        
+<!--        <script type="text/javascript" src="/resources/scripts/jquery/jquery.validate.js"/>-->
+        
+        
+        <!--        Custom CSS-->
+        
+        <link rel="stylesheet" type="text/css" href="/resources/css/style.css"/>
+<!--        <link rel="stylesheet" type="text/css" href="/resources/css/editor.css"/>-->
+        
+<!--        <script type="text/javascript" src="$shared/resources/scripts/loadsource.js"/>-->
+        
+        
+        <!--<script src="/resources/scripts/mediumeditor/js/medium-editor.js"/>
+        <link rel="stylesheet" href="/resources/scripts/mediumeditor/css/medium-editor.css"/>
+        <link rel="stylesheet" href="/resources/scripts/mediumeditor/css/themes/default.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/rangy/1.3.0/rangy-core.js"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/rangy/1.3.0/rangy-classapplier.min.js"/>-->
+        
+<!--        Leaflet-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""/>
+        
+        <!-- ACE Editor  -->
+<!--                <script src="/$ausohnum-lib/resources/scripts/epigraphicEditor/ace-src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"/>-->
+        <script src="$shared/resources/scripts/ace/ace.js" type="text/javascript" charset="utf-8"/>
+        <!--Load language tool-->
+        <script src="$shared/resources/scripts/ace/ext-language_tools.js" type="text/javascript" charset="utf-8"/>
+        <link rel="stylesheet" href="/$ausohnum-lib/resources/css/teiEditor.css"/>
+        <link rel="stylesheet" href="/$ausohnum-lib/resources/css/skosThesau.css"/>
+        
+       
+        
+<!--CUSTOM Scripts        -->
+<!--        <script type="text/javascript" src="/resources/scripts/patrimonium.js"/>-->
+        
+    </head>
+    <body xmlns:i18n="http://exist-db.org/xquery/i18n" id="body">
+        <div class="container-fluid" id="main-container" data-template="i18n:translate" data-catalogues="db/apps/patrimonium/data/i18n/">
+            
+            <div id="header" class="container-fluid col-sm-12 col-md-12 col-lg-12">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="navbar-header titleProjectHeader">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"/>
+                            <span class="icon-bar"/>
+                            <span class="icon-bar"/>
+                        </button>
+                        <a class="navbar-brand hidden-sm-down hidden-xl-up titleProjectHeader" href="/index.html">
+                            <img src="/resources/images/logo-patrimonium-square-white.png" height="44"/>
+                        </a>
+                        
+                        <div class="h1 hidden-xs">
+                            <!--                            <i18n:text key="shortnameLatin"/>-->
+                            
+                        </div>
+                        <div class="h4 hidden-xs titleProjectHeader">
+                            <i18n:text key="projectSubtitle" class="titleInPrint"/>
+                            <br/>
+                            <!--                                                                <i18n:text key="projectSubSubtitle" class="titleInPrint"/>-->
+                        </div>
+                        
+                        <a class="logoTop" href="http://ausonius.u-bordeaux-montaigne.fr/" target="_blank">
+                            <img src="/resources/images/logo-ausonius-white-txt.png" alt="Ausonius Institute logo"/>
+                        </a>
+                    </div>
+                    
+                    <div data-template="templates:include" data-template-path="./templates/main-menu.html"/>
+                </nav>
+            </div>
+            
+        </div>
+        
+        <div id="content" class="container-fluid"/>
+        
+        <div id="loginDialog" class="modal fade" tabindex="-1" style="display: none;">
+            <div class="modal-dialog" style="z-index: 1080;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title">Login</h4>
+                    </div>
+                    <form class="form form-horizontal" action="" method="POST">
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label class="control-label col-sm-2">
+                                    <i18n:text key="username"/>
+                                </label>
+                                <div class="col-sm-10">
+                                    <input type="text" name="user" class="form-control"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-2">
+                                    <i18n:text key="password"/>
+                                </label>
+                                <div class="col-sm-10">
+                                    <input type="password" name="password" class="form-control"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </div>
+                        <input type="hidden" name="duration" value="P7D"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--<div data-template="templates:include" data-template-path="./templates/api-modals.html"/>-->
+        <script type="text/javascript" src="/$ausohnum-lib/resources/scripts/teiEditor/tei2Html4Preview.js"/>
+        <script type="text/javascript" src="/$ausohnum-lib/resources/scripts/teiEditor/tei2leiden.js"/>
+        <script type="text/javascript" src="/$ausohnum-lib/resources/scripts/teiEditor/teiEditorConfig.js"/>
+        <script type="text/javascript" src="/$ausohnum-lib/resources/scripts/teiEditor/teiEditorEvents.js"/>
+        
+        <!-- <script type="text/javascript" src="/$ausohnum-lib/resources/scripts/skosThesau/skosThesauActions.js"/>
+            -->
+        
+        
+<!--        <script type="text/javascript" src="/$ausohnum-lib/resources/scripts/teiEditor/showAnnotations.js"/>-->
+        <script type="text/javascript" src="/$ausohnum-lib/resources/scripts/teiEditor/ancientTextImportRules.js"/>
+        <footer class="container text-center">
+            <a class="poweredby" href="http://exist-db.org">
+                <img src="$shared/resources/images/powered-by.svg" alt="Powered by eXist-db"/>
+            </a>
+            
+            <a class="logo-footer" href="http://ausonius.u-bordeaux-montaigne.fr/" target="_blank">
+                <img src="/resources/images/logo-ausonius.png" alt="Ausonius Institute logo"/>
+            </a>
+            <a class="logo-footer" href="http://www.u-bordeaux-montaigne.fr/" target="_blank">
+                <img src="/resources/images/logo-u-bordeaux-montaigne.png" alt="Université Bordeaux-Montaigne logo"/>
+            </a>
+            <a class="logo-footer" href="https://ec.europa.eu/" target="_blank">
+                <img src="/resources/images/logo-eu.png" alt="European commission logo"/>
+            </a>
+            <a class="logo-footer" href="https://erc.europa.eu/">
+                <img src="/resources/images/erc-transparent.png" alt="European Research Council logo"/>
+            </a>
+            
+        </footer>
+        
+        
+        
+    </body>
+</html>

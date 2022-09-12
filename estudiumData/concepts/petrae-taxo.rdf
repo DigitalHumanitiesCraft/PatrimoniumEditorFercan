@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <skos:ConceptScheme rdf:about="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/">
+        <dc:title type="full">petrae</dc:title>
+        <dc:title type="short">petrae</dc:title>
+        <skos:hasTopConcept rdf:resource="https://ausohnum.huma-num.fr/concept/c19356"/>
+        <dc:creator>Vincent Razanajao</dc:creator>
+        <dc:contributor ref="echiricat">Edouard Chiricat</dc:contributor>
+        <dc:publisher>AusoHNum</dc:publisher>
+        <dct:created>2018-09-24T11:41:44.869+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:ConceptScheme>
+    <skos:Concept xml:id="c19356" rdf:about="https://ausohnum.huma-num.fr/concept/c19356">
+        <skos:prefLabel xml:lang="en">Petrae taxonomies</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Taxonomies Petrae</skos:prefLabel>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19357"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19361"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23504"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23528"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <dct:created>2018-09-24T11:41:44.869+02:00</dct:created>
+    <dct:modified>2018-12-07T15:02:06.51+01:00</dct:modified>
+    <dct:modified>2020-02-11T11:04:48.824+01:00</dct:modified>
+    <dct:modified>2020-02-11T11:07:52.513+01:00</dct:modified>
+    <dct:modified>2020-03-19T09:58:06.231+01:00</dct:modified>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19357" rdf:about="https://ausohnum.huma-num.fr/concept/c19357">
+        <skos:prefLabel xml:lang="en">certainty</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">certitude</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19356"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19358"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19359"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19360"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <dct:created>2018-09-24T11:41:44.869+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19358" rdf:about="https://ausohnum.huma-num.fr/concept/c19358">
+        <skos:prefLabel xml:lang="en">high</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">haute</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">high</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19357"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <dct:created>2018-09-24T11:41:44.869+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19359" rdf:about="https://ausohnum.huma-num.fr/concept/c19359">
+        <skos:prefLabel xml:lang="en">medium</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">moyenne</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">medium</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19357"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <dct:created>2018-09-24T11:41:44.869+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19360" rdf:about="https://ausohnum.huma-num.fr/concept/c19360">
+        <skos:prefLabel xml:lang="en">low</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">basse</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">low</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19357"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <dct:created>2018-09-24T11:41:44.869+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19361" rdf:about="https://ausohnum.huma-num.fr/concept/c19361">
+        <skos:prefLabel xml:lang="en">document types</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">types de document</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19356"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19362"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19363"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19364"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <dct:created>2018-09-24T11:41:44.869+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19362" rdf:about="https://ausohnum.huma-num.fr/concept/c19362">
+        <skos:prefLabel xml:lang="en">epigraphy</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">épiraphie</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19361"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <dct:created>2018-09-24T11:41:44.869+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19363" rdf:about="https://ausohnum.huma-num.fr/concept/c19363">
+        <skos:prefLabel xml:lang="en">papyrology</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">papyrologie</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19361"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <dct:created>2018-09-24T11:41:44.869+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19364" rdf:about="https://ausohnum.huma-num.fr/concept/c19364">
+        <skos:prefLabel xml:lang="en">literary</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">littéraire</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19361"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <dct:created>2018-09-24T11:41:44.869+02:00</dct:created>
+        <skosThesau:admin status="draft"/>
+    </skos:Concept>
+    <skos:Concept xml:id="c19928" rdf:about="https://ausohnum.huma-num.fr/concept/c19928">
+        <skos:prefLabel xml:lang="en">Types of name</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Types de nom</skos:prefLabel>
+    
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20256"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20327"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20328"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20329"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c20330"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c21830"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c21831"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c21833"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c21836"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c21837"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c21839"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c21840"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c21841"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c21842"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c21843"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c21844"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c21845"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c21846"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c21847"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22102"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22107"/>
+    
+    
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19356"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="http://patrimonium.huma-num.fr/people/vrazanajao">Vincent Razanajao</dct:creator>
+        <dct:created>2018-12-07T15:02:06.51+01:00</dct:created>
+    <dct:modified>2018-12-07T15:22:20.597+01:00</dct:modified>
+    <dct:modified>2019-02-14T15:53:08.355+01:00</dct:modified>
+    <dct:modified>2019-05-02T10:53:10.075+02:00</dct:modified>
+    <dct:modified>2019-05-07T12:12:17.269+02:00</dct:modified>
+    <dct:modified>2019-05-09T14:50:49.918+02:00</dct:modified>
+    <dct:modified>2019-05-14T14:51:32.986+02:00</dct:modified>
+    <dct:modified when="2019-07-02T13:41:38.497+02:00" who="echiricat"/>
+    <dct:modified>2019-07-02T13:42:04.626+02:00</dct:modified>
+    <dct:modified>2019-07-08T16:37:13.173+02:00</dct:modified>
+    <dct:modified>2019-07-09T12:15:30.585+02:00</dct:modified>
+    <dct:modified>2019-08-21T11:50:50.848+02:00</dct:modified>
+    <dct:modified>2019-08-27T16:12:15.418+02:00</dct:modified>
+    <dct:modified>2019-09-05T17:15:48.983+02:00</dct:modified>
+    <dct:modified>2019-09-05T17:22:27.306+02:00</dct:modified>
+    <dct:modified>2019-09-05T17:25:17.931+02:00</dct:modified>
+    <dct:modified>2019-09-06T10:41:56.218+02:00</dct:modified>
+    <dct:modified>2019-09-06T14:40:38.679+02:00</dct:modified>
+    <dct:modified>2019-09-12T12:59:32.695+02:00</dct:modified>
+    <dct:modified>2019-09-26T14:56:05.954+02:00</dct:modified>
+    <dct:modified>2019-09-26T16:54:50.067+02:00</dct:modified>
+    <dct:modified>2019-10-03T12:19:59.235+02:00</dct:modified>
+    <dct:modified>2019-10-03T15:19:16.143+02:00</dct:modified>
+    <dct:modified when="2019-10-03T15:19:36.751+02:00" who="echiricat"/>
+    <dct:modified>2019-10-08T17:50:52.43+02:00</dct:modified>
+    <dct:modified>2019-10-08T17:51:08.26+02:00</dct:modified>
+    <dct:modified when="2019-10-08T17:51:31.575+02:00" who="echiricat"/>
+    <dct:modified>2019-10-16T13:09:56.569+02:00</dct:modified>
+    </skos:Concept>
+    
+    <skos:Concept xml:id="c19929" rdf:about="https://ausohnum.huma-num.fr/concept/c19929">
+        <skos:prefLabel xml:lang="en">synnadan</skos:prefLabel>
+        
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="http://patrimonium.huma-num.fr/people/vrazanajao">Vincent Razanajao</dct:creator>
+        <dct:created>2018-12-07T15:22:20.597+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20256" rdf:about="https://ausohnum.huma-num.fr/concept/c20256">
+        <skos:prefLabel xml:lang="en">iasian</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">iasien</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-02-14T15:53:08.355+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20327" rdf:about="https://ausohnum.huma-num.fr/concept/c20327">
+        <skos:prefLabel xml:lang="en">bargylian</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">bargylien</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">bargylian</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-05-02T10:53:10.075+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20328" rdf:about="https://ausohnum.huma-num.fr/concept/c20328">
+        <skos:prefLabel xml:lang="en">xanthian</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2019-05-07T12:12:17.269+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20329" rdf:about="https://ausohnum.huma-num.fr/concept/c20329">
+        <skos:prefLabel xml:lang="en">royal</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-05-09T14:50:49.918+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c20330" rdf:about="https://ausohnum.huma-num.fr/concept/c20330">
+        <skos:prefLabel xml:lang="en">sebastopolitan</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-05-14T14:51:32.986+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c21830" rdf:about="https://ausohnum.huma-num.fr/concept/c21830">
+        <skos:prefLabel xml:lang="en">stratonikeian</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-07-02T13:42:04.626+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c21831" rdf:about="https://ausohnum.huma-num.fr/concept/c21831">
+        <skos:prefLabel xml:lang="en">emperor</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-07-08T16:37:13.173+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c21833" rdf:about="https://ausohnum.huma-num.fr/concept/c21833">
+        <skos:prefLabel xml:lang="en">divine</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-07-09T12:15:30.585+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c21836" rdf:about="https://ausohnum.huma-num.fr/concept/c21836">
+        <skos:prefLabel xml:lang="en">mylasian</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-08-21T11:50:50.848+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c21837" rdf:about="https://ausohnum.huma-num.fr/concept/c21837">
+        <skos:prefLabel xml:lang="en">Keramian</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-08-27T16:12:15.418+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c21839" rdf:about="https://ausohnum.huma-num.fr/concept/c21839">
+        <skos:prefLabel xml:lang="en">xystian</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-09-05T17:15:48.983+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c21840" rdf:about="https://ausohnum.huma-num.fr/concept/c21840">
+        <skos:prefLabel xml:lang="en">rhodian</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-09-05T17:22:27.306+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c21841" rdf:about="https://ausohnum.huma-num.fr/concept/c21841">
+        <skos:prefLabel xml:lang="en">Alindan</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-09-05T17:25:17.931+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c21842" rdf:about="https://ausohnum.huma-num.fr/concept/c21842">
+        <skos:prefLabel xml:lang="en">bargasian</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-09-06T10:41:56.218+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c21843" rdf:about="https://ausohnum.huma-num.fr/concept/c21843">
+        <skos:prefLabel xml:lang="en">kenendolabian</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-09-06T14:40:38.679+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c21844" rdf:about="https://ausohnum.huma-num.fr/concept/c21844">
+        <skos:prefLabel xml:lang="en">Halikarnassian</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-09-12T12:59:32.695+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c21845" rdf:about="https://ausohnum.huma-num.fr/concept/c21845">
+        <skos:prefLabel xml:lang="en">herakleotes from the Salbake</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-09-26T14:56:05.954+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c21846" rdf:about="https://ausohnum.huma-num.fr/concept/c21846">
+        <skos:prefLabel xml:lang="en">Kaunosian</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-09-26T16:54:50.067+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c21847" rdf:about="https://ausohnum.huma-num.fr/concept/c21847">
+        <skos:prefLabel xml:lang="en">tabaian</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-10-03T12:19:59.235+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c21848" rdf:about="https://ausohnum.huma-num.fr/concept/c21848">
+        <skos:prefLabel xml:lang="en">Herakleian of the Salbake</skos:prefLabel>
+        
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-10-03T15:19:16.143+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22102" rdf:about="https://ausohnum.huma-num.fr/concept/c22102">
+        <skos:prefLabel xml:lang="en">kidramian</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-10-08T17:50:52.43+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22103" rdf:about="https://ausohnum.huma-num.fr/concept/c22103">
+        <skos:prefLabel xml:lang="en">tabeian</skos:prefLabel>
+        
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-10-08T17:51:08.26+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c22107" rdf:about="https://ausohnum.huma-num.fr/concept/c22107">
+        <skos:prefLabel xml:lang="en">aphrodisian</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19928"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/echiricat"> </dct:creator>
+        <dct:created>2019-10-16T13:09:56.569+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23500" rdf:about="https://ausohnum.huma-num.fr/concept/c23500">
+        <skos:prefLabel xml:lang="en">external resources</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">ressources extérieures</skos:prefLabel>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23501"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23502"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23503"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23507"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23508"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23545"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23546"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23547"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23549"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23550"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23551"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23552"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23553"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23554"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23555"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23556"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23557"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23558"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23559"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23560"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23594"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26091"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26413"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26414"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26425"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26604"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19356"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-02-11T11:04:48.824+01:00</dct:created>
+    <dct:modified>2020-02-11T11:05:21.985+01:00</dct:modified>
+    <dct:modified>2020-02-11T11:05:42.69+01:00</dct:modified>
+    <dct:modified>2020-02-11T11:06:03.18+01:00</dct:modified>
+    <dct:modified>2020-02-11T23:01:49.862+01:00</dct:modified>
+    <dct:modified>2020-02-11T23:02:11.528+01:00</dct:modified>
+    <dct:modified>2020-04-02T14:19:23.118+02:00</dct:modified>
+    <dct:modified>2020-04-02T14:19:47.82+02:00</dct:modified>
+    <dct:modified>2020-04-02T14:20:07.725+02:00</dct:modified>
+    <dct:modified>2020-04-10T09:41:12.479+02:00</dct:modified>
+    <dct:modified>2020-04-10T09:41:37.695+02:00</dct:modified>
+    <dct:modified>2020-04-10T09:42:07.899+02:00</dct:modified>
+    <dct:modified>2020-04-10T09:42:30.423+02:00</dct:modified>
+    <dct:modified>2020-04-10T09:43:01.011+02:00</dct:modified>
+    <dct:modified>2020-04-10T09:43:15.047+02:00</dct:modified>
+    <dct:modified>2020-04-10T09:43:34.283+02:00</dct:modified>
+    <dct:modified>2020-04-10T09:44:06.474+02:00</dct:modified>
+    <dct:modified>2020-04-10T09:44:26.816+02:00</dct:modified>
+    <dct:modified>2020-04-10T09:44:50.954+02:00</dct:modified>
+    <dct:modified>2020-04-10T09:45:17.022+02:00</dct:modified>
+    <dct:modified>2020-04-10T09:45:35.235+02:00</dct:modified>
+    <dct:modified>2020-05-12T14:53:27.773+02:00</dct:modified>
+    <dct:modified>2020-12-04T11:55:54.473+01:00</dct:modified>
+    <dct:modified>2021-06-01T17:56:19.999+02:00</dct:modified>
+    <dct:modified>2021-06-01T21:56:19.692+02:00</dct:modified>
+    <dct:modified>2021-06-15T10:26:38.317+02:00</dct:modified>
+    <dct:modified>2022-01-20T11:06:20.739+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c23501" rdf:about="https://ausohnum.huma-num.fr/concept/c23501">
+        <skos:prefLabel xml:lang="en">Epigraphic Database Heidelberg</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">edh</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-02-11T11:05:21.985+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23502" rdf:about="https://ausohnum.huma-num.fr/concept/c23502">
+        <skos:prefLabel xml:lang="en">Epigraphik-Datenbank  Clauss / Slaby</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">edcs</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-02-11T11:05:42.69+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23503" rdf:about="https://ausohnum.huma-num.fr/concept/c23503">
+        <skos:prefLabel xml:lang="en">PHI Greek Inscriptions</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">phi</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-02-11T11:06:03.18+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23504" rdf:about="https://ausohnum.huma-num.fr/concept/c23504">
+        <skos:prefLabel xml:lang="en">types of identifiers</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">types d'identifiants</skos:prefLabel>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23505"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23506"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23693"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26081"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26082"/>
+    
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19356"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-02-11T11:07:52.513+01:00</dct:created>
+    <dct:modified>2020-02-11T11:08:15.612+01:00</dct:modified>
+    <dct:modified>2020-02-11T11:08:27.542+01:00</dct:modified>
+    <dct:modified>2020-03-10T11:48:22.605+01:00</dct:modified>
+    <dct:modified when="2020-03-10T11:48:29.796+01:00" who="vrazanajao"/>
+    <dct:modified>2020-09-21T11:27:47.697+02:00</dct:modified>
+    <dct:modified>2020-11-25T23:03:08.579+01:00</dct:modified>
+    <dct:modified>2020-11-25T23:08:16.595+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c23505" rdf:about="https://ausohnum.huma-num.fr/concept/c23505">
+        <skos:prefLabel xml:lang="en">URI</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">uri</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23504"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-02-11T11:08:15.612+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23506" rdf:about="https://ausohnum.huma-num.fr/concept/c23506">
+        <skos:prefLabel xml:lang="en">ID</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">id</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23504"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-02-11T11:08:27.542+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23507" rdf:about="https://ausohnum.huma-num.fr/concept/c23507">
+        <skos:prefLabel xml:lang="en">Papyri.info - HGV</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">papyriHGV</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-02-11T23:01:49.862+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23508" rdf:about="https://ausohnum.huma-num.fr/concept/c23508">
+        <skos:prefLabel xml:lang="en">MAMA XI</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">mamaXI</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-02-11T23:02:11.528+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23527" rdf:about="https://ausohnum.huma-num.fr/concept/c23527">
+        <skos:prefLabel xml:lang="en">test</skos:prefLabel>
+        
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-03-10T11:48:22.605+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23528" rdf:about="https://ausohnum.huma-num.fr/concept/c23528">
+        <skos:prefLabel xml:lang="en">types of text parts</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">type d'unités textuels</skos:prefLabel>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23529"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23530"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23531"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23532"/>
+    <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26263"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19356"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-03-19T09:58:06.231+01:00</dct:created>
+    <dct:modified>2020-03-19T10:03:58.853+01:00</dct:modified>
+    <dct:modified>2020-03-19T14:22:59.791+01:00</dct:modified>
+    <dct:modified>2020-03-19T14:27:17.812+01:00</dct:modified>
+    <dct:modified>2020-03-19T14:27:49.604+01:00</dct:modified>
+    <dct:modified>2021-02-04T16:01:07.106+01:00</dct:modified>
+    </skos:Concept>
+    <skos:Concept xml:id="c23529" rdf:about="https://ausohnum.huma-num.fr/concept/c23529">
+        <skos:prefLabel xml:lang="en">Face</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">face</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">face</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23528"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-03-19T10:03:58.853+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23530" rdf:about="https://ausohnum.huma-num.fr/concept/c23530">
+        <skos:prefLabel xml:lang="en">fragment</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">fragment</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">fragment</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23528"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-03-19T14:22:59.791+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23531" rdf:about="https://ausohnum.huma-num.fr/concept/c23531">
+        <skos:prefLabel xml:lang="en">section</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">section</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">section</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23528"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-03-19T14:27:17.812+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23532" rdf:about="https://ausohnum.huma-num.fr/concept/c23532">
+        <skos:prefLabel xml:lang="en">text zone</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">zone de texte</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">textzone</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23528"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-03-19T14:27:49.604+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23545" rdf:about="https://ausohnum.huma-num.fr/concept/c23545">
+        <skos:prefLabel xml:lang="en">Ubi Erat Lupa</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">lupa</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-04-02T14:19:23.118+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23546" rdf:about="https://ausohnum.huma-num.fr/concept/c23546">
+        <skos:prefLabel xml:lang="en">Roman Inscriptions of Britain</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">rib</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-04-02T14:19:47.82+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23547" rdf:about="https://ausohnum.huma-num.fr/concept/c23547">
+        <skos:prefLabel xml:lang="en">Epigraphic Database Roma</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">edr</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-04-02T14:20:07.725+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23549" rdf:about="https://ausohnum.huma-num.fr/concept/c23549">
+        <skos:prefLabel xml:lang="en">Epigraphica Romana</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">eprom</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-04-10T09:41:12.479+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23550" rdf:about="https://ausohnum.huma-num.fr/concept/c23550">
+        <skos:prefLabel xml:lang="en">Hispania Epigraphica</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">hep</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-04-10T09:41:37.695+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23551" rdf:about="https://ausohnum.huma-num.fr/concept/c23551">
+        <skos:prefLabel xml:lang="en">Inscriptions of Aphrodisias 2007</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">insaph2007</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-04-10T09:42:07.899+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23552" rdf:about="https://ausohnum.huma-num.fr/concept/c23552">
+        <skos:prefLabel xml:lang="en">Inscriptions of Roman Tripolitania</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">irt</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-04-10T09:42:30.423+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23553" rdf:about="https://ausohnum.huma-num.fr/concept/c23553">
+        <skos:prefLabel xml:lang="en">Perseus</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">perseus</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-04-10T09:43:01.011+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23554" rdf:about="https://ausohnum.huma-num.fr/concept/c23554">
+        <skos:prefLabel xml:lang="en">Petrae</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">petrae</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-04-10T09:43:15.047+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23555" rdf:about="https://ausohnum.huma-num.fr/concept/c23555">
+        <skos:prefLabel xml:lang="en">Supplementum Epigraphicum Graecum</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">seg</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-04-10T09:43:34.283+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23556" rdf:about="https://ausohnum.huma-num.fr/concept/c23556">
+        <skos:prefLabel xml:lang="en">I.Sicily</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">isicily</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-04-10T09:44:06.474+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23557" rdf:about="https://ausohnum.huma-num.fr/concept/c23557">
+        <skos:prefLabel xml:lang="en">Inscriptions of Roman Cyrenaica</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">irc</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-04-10T09:44:26.816+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23558" rdf:about="https://ausohnum.huma-num.fr/concept/c23558">
+        <skos:prefLabel xml:lang="en">Ancient Inscriptions of the Northern Black Sea</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">iospe</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-04-10T09:44:50.954+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23559" rdf:about="https://ausohnum.huma-num.fr/concept/c23559">
+        <skos:prefLabel xml:lang="en">Vindolanda Tablets Online</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">vindolanda</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-04-10T09:45:17.022+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23560" rdf:about="https://ausohnum.huma-num.fr/concept/c23560">
+        <skos:prefLabel xml:lang="en">Attic Inscriptions Online</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">aio</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-04-10T09:45:35.235+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c23594" rdf:about="https://ausohnum.huma-num.fr/concept/c23594">
+        <skos:prefLabel xml:lang="en">Trismegistos</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">tm</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-05-12T14:53:27.773+02:00</dct:created>
+    </skos:Concept>
+
+    <skos:Concept xml:id="c23693" rdf:about="https://ausohnum.huma-num.fr/concept/c23693">
+        <skos:prefLabel xml:lang="en">DOI</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">doi</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23504"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-09-21T11:27:47.697+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26081" rdf:about="https://ausohnum.huma-num.fr/concept/c26081">
+        <skos:prefLabel xml:lang="en">urn</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">urn</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23504"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-11-25T23:03:08.579+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26082" rdf:about="https://ausohnum.huma-num.fr/concept/c26082">
+        <skos:prefLabel xml:lang="en">idref</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">idref</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23504"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-11-25T23:08:16.595+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26091" rdf:about="https://ausohnum.huma-num.fr/concept/c26091">
+        <skos:prefLabel xml:lang="en">Epigraphische Datenbank zum antiken Kleinasien</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">edak</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2020-12-04T11:55:54.473+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26263" rdf:about="https://ausohnum.huma-num.fr/concept/c26263">
+        <skos:prefLabel xml:lang="en">table</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">table</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">table</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23528"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2021-02-04T16:01:07.106+01:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26413" rdf:about="https://ausohnum.huma-num.fr/concept/c26413">
+        <skos:prefLabel xml:lang="en">Papyri.info - DDbDP</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">papyriDDbDP</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2021-06-01T17:56:19.999+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26414" rdf:about="https://ausohnum.huma-num.fr/concept/c26414">
+        <skos:prefLabel xml:lang="en">BerlPap - Berliner Papyrusdatabank</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">berlpap</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2021-06-01T21:56:19.692+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26425" rdf:about="https://ausohnum.huma-num.fr/concept/c26425">
+        <skos:prefLabel xml:lang="en">Inscriptiones Graecae</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">ig</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
+        <dct:created>2021-06-15T10:26:38.317+02:00</dct:created>
+    </skos:Concept>
+    <skos:Concept xml:id="c26604" rdf:about="https://ausohnum.huma-num.fr/concept/c26604">
+        <skos:prefLabel xml:lang="en">Loeb Classical Library</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">lcl</skos:prefLabel>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c23500"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/petrae-taxo/"/>
+        <skosThesau:admin status="draft"/>
+        <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/admin"> </dct:creator>
+        <dct:created>2022-01-20T11:06:20.739+01:00</dct:created>
+    </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:thot="http://thot.philo.ulg.ac.be/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <skos:ConceptScheme rdf:about="https://ausohnum.huma-num.fr/thesaurus/scripts/">
+        <skosThesau:admin status="published"/>
+        <dc:title type="full">Scripts</dc:title>
+        <dc:title type="short">scripts</dc:title>
+        <dc:publisher>Thot Project</dc:publisher>
+        <dc:creator role="editor" ref="vrazanajao">Stéphane Polis</dc:creator>
+        <dc:creator role="contributor" ref="vrazanajao">Vincent Razanajao</dc:creator>
+        <skos:note>
+            <span class="note-entry"/>
+            <span class="note-entry">
+                <em>Edited by</em>: Vincent Razanajao (ULg)</span>
+        </skos:note>
+        <skos:hasTopConcept rdf:resource="https://ausohnum.huma-num.fr/concept/c66"/>
+    </skos:ConceptScheme>
+    <skos:ConceptScheme rdf:about="http://thot.philo.ulg.ac.be/ext-resources/met">
+        <dc:title>Multilingual Egyptological Thesaurus</dc:title>
+        <dc:title>
+            <dcterms:alternative>MET</dcterms:alternative>n</dc:title>
+    </skos:ConceptScheme>
+    <skos:ConceptScheme rdf:about="www.trismegistos.org/collection/">
+        <dc:title>Trismegistos Collection</dc:title>
+        <dc:title>
+            <dcterms:alternative>TMColl</dcterms:alternative>n</dc:title>
+    </skos:ConceptScheme>
+    <skos:Concept type="non-ordered" rdf:about="https://ausohnum.huma-num.fr/concept/c66" xml:id="c66">
+        <dc:identifier scheme="bts">IOOFFM7DCJGJFIP5MPUNO55RVE</dc:identifier>
+        <skos:prefLabel xml:lang="de">Schriften</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Scripts</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Ecritures</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">thot-scripts</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c111"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c2562"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+        <dct:modified when="2017-08-23T15:21:44.462+02:00" who="vincent"/>
+        <dct:modified when="2017-08-23T15:29:53.043+02:00" who="vincent"/>
+        <dct:modified when="2017-08-23T15:54:21.613+02:00" who="vincent"/>
+        <dct:modified when="2017-08-23T16:05:56.534+02:00" who="vincent"/>
+        <dct:modified when="2017-08-23T16:13:32.674+02:00" who="vincent"/>
+        <dct:modified when="2017-08-23T16:15:24.69+02:00" who="vincent"/>
+        <dct:modified when="2017-08-23T16:15:49.817+02:00" who="vincent"/>
+        <dct:modified when="2017-08-23T16:31:19.799+02:00" who="vincent"/>
+        <dct:modified when="2017-08-23T16:32:59.543+02:00" who="vincent"/>
+        <dct:modified when="2017-08-23T16:42:18.117+02:00" who="vincent"/>
+        <dct:modified when="2017-08-23T16:46:16.11+02:00" who="vincent"/>
+        <dct:modified when="2017-08-23T16:48:14.052+02:00" who="vincent"/>
+        <dct:modified when="2017-08-23T16:55:24.946+02:00" who="vincent"/>
+        <dct:modified when="2017-08-23T16:57:32.964+02:00" who="vincent"/>
+        <dct:modified when="2017-08-23T16:59:07.635+02:00" who="vincent"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="https://ausohnum.huma-num.fr/concept/c67" type="non-ordered" xml:id="c67">
+        <dc:identifier scheme="bts">UHT63RLVTNFE3BC4EM7H6L6RJY</dc:identifier>
+        <skos:prefLabel xml:lang="de">Demotisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Demotic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Démotique</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egyd</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c68"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c69"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c70"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c111"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c68" rdf:about="https://ausohnum.huma-num.fr/concept/c68">
+        <dc:identifier scheme="bts">QDTWEYB6KRGZTDLEPLFFJXN7G4</dc:identifier>
+        <skos:prefLabel xml:lang="de">Frühdemotisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Early Demotic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Démotique ancien</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egyd-x-egydol</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c67"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c69" rdf:about="https://ausohnum.huma-num.fr/concept/c69">
+        <dc:identifier scheme="bts">KLYSEDKWFBEYPBSWTNU7AM36GU</dc:identifier>
+        <skos:prefLabel xml:lang="de">Mitteldemotisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Middle Demotic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Démotique moyen</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egyd-x-egydmd</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c67"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c70" rdf:about="https://ausohnum.huma-num.fr/concept/c70">
+        <dc:identifier scheme="bts">GDR4SNZFHJFFNDCHQKX7QZYPAY</dc:identifier>
+        <skos:prefLabel xml:lang="de">Spätdemotisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Late Demotic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Démotique tardif</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egyd-x-egydlt</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c67"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c71" rdf:about="https://ausohnum.huma-num.fr/concept/c71">
+        <dc:identifier scheme="bts">MRV4NILEZNFS7O5LIZAMJZKPLE</dc:identifier>
+        <skos:prefLabel xml:lang="de">Hieratisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Hieratic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hiératique</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egyh</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c74"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c73"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c75"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c78"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c81"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c111"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c72" rdf:about="https://ausohnum.huma-num.fr/concept/c72">
+        <dc:identifier scheme="bts">MGESF7LTKZCDTID4ECIMFU67UY</dc:identifier>
+        <skos:prefLabel xml:lang="de">Kursivhieratisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Cursive Hieratic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hiératique cursif</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egyh-x-egyhab</skos:prefLabel>
+        <skos:altLabel xml:lang="en">Abnormal Hieratic</skos:altLabel>
+        <skos:altLabel xml:lang="de">Abnormhieratisch</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Hiératique anormal</skos:altLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c111"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c73" rdf:about="https://ausohnum.huma-num.fr/concept/c73">
+        <dc:identifier scheme="bts">SRFM7BGQJBFRJL5GJ2P7WGZWBA</dc:identifier>
+        <skos:prefLabel xml:lang="de">Althieratisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Old Hieratic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hiératique ancien</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egyh-x-egyhol</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c71"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c74" rdf:about="https://ausohnum.huma-num.fr/concept/c74">
+        <dc:identifier scheme="bts">DS372PTLDNA6ZADSSC6LBEJD7M</dc:identifier>
+        <skos:prefLabel xml:lang="de">Archaisches Hieratisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Archaic Hieratic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hiératique archaïque</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egyh-x-egyhar</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c71"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c75" rdf:about="https://ausohnum.huma-num.fr/concept/c75">
+        <dc:identifier scheme="bts">FFA2PGLQSNHMJFJP2RKAOMK43E</dc:identifier>
+        <skos:prefLabel xml:lang="de">Mittelhieratisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Middle Hieratic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hiératique moyen</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egyh-x-egyhmd</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c76"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c77"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c71"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c76" rdf:about="https://ausohnum.huma-num.fr/concept/c76">
+        <dc:identifier scheme="bts">N2T36QN2JRDVHGNTDG6ZR3FF6Q</dc:identifier>
+        <skos:prefLabel xml:lang="de">Mittelhieratische Buchschrift</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Literary Middle Hieratic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hiératique moyen calligraphique</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egyh-x-egyhmdb</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c75"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c77" rdf:about="https://ausohnum.huma-num.fr/concept/c77">
+        <dc:identifier scheme="bts">E6EFYLK5PRF6VDRCSQ3NJB526M</dc:identifier>
+        <skos:prefLabel xml:lang="de">Mittelhieratische Kanzleischrift</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Administrative Middle Hieratic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hiératique moyen de chancellerie</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egyh-x-egyhmdc</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c75"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c78" rdf:about="https://ausohnum.huma-num.fr/concept/c78">
+        <dc:identifier scheme="bts">LKARVWCGJFB5DL4L7OLRU66NJY</dc:identifier>
+        <skos:prefLabel xml:lang="de">Neuhieratisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Ramesside Hieratic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hiératique récent</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egyh-x-egyhlt</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c80"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c79"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c71"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c79" rdf:about="https://ausohnum.huma-num.fr/concept/c79">
+        <dc:identifier scheme="bts">ABR7EWEFGBCJBOKIGKKDVUJS3Q</dc:identifier>
+        <skos:prefLabel xml:lang="de">Neuhieratische Buchschrift</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Literary Ramesside Hieratic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hiératique récent calligraphique</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egyh-x-egyhltb</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c78"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c80" rdf:about="https://ausohnum.huma-num.fr/concept/c80">
+        <dc:identifier scheme="bts">2A65KN6SDNG5LDBR3BSWA6JSEM</dc:identifier>
+        <skos:prefLabel xml:lang="de">Neuhieratische Kanzleischrift</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Administrative Ramesside Hieratic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hiératique récent de chancellerie</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egyh-x-egyhltc</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c78"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c81" rdf:about="https://ausohnum.huma-num.fr/concept/c81">
+        <dc:identifier scheme="bts">XPUJ7HQYQBGMTHWPGBWUCR26LQ</dc:identifier>
+        <skos:prefLabel xml:lang="de">Späthieratisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Later Hieratic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hiératique tardif</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egyh-x-egyhlr</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c82"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c71"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c82" rdf:about="https://ausohnum.huma-num.fr/concept/c82">
+        <dc:identifier scheme="bts">Z35DNIOFZ5G3VJN6XHP2CTCUBQ</dc:identifier>
+        <skos:prefLabel xml:lang="de">Späthieratische Buchschrift</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Literary Late Hieratic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hiératique tardif calligraphique</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egyh-x-egyhlrb</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c81"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c83" rdf:about="https://ausohnum.huma-num.fr/concept/c83">
+        <dc:identifier scheme="bts">J5E7HWT7JZB2FMVPVI77H7VB3A</dc:identifier>
+        <skos:prefLabel xml:lang="de">Hieroglyphen</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Hieroglyphs</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hiéroglyphes</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egyp</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c84"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c87"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c85"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c111"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c84" rdf:about="https://ausohnum.huma-num.fr/concept/c84">
+        <dc:identifier scheme="bts">RH2J5C23AVEWTIXGCUVLGCC7TY</dc:identifier>
+        <skos:prefLabel xml:lang="de">Kryptographische Schrift</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Cryptographic Use</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Usage cryptographique</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egyp-x-egypcr</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c83"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c85" rdf:about="https://ausohnum.huma-num.fr/concept/c85">
+        <skos:prefLabel xml:lang="de">Ptolemäisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Ptolemaic script</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Ptolémaïque</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egyp-x-egyppt</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c83"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c86" rdf:about="https://ausohnum.huma-num.fr/concept/c86">
+        <skos:prefLabel xml:lang="de">Ägyptisch | Hieroglyphen, klassische</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Egyptian | Hieroglyphs, classical</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">xxxxx</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egyp-x-egypreg</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c87" rdf:about="https://ausohnum.huma-num.fr/concept/c87">
+        <dc:identifier scheme="bts">EZXNXXZNJRHZFIZEQDGAHVVH5U</dc:identifier>
+        <skos:prefLabel xml:lang="de">Kursivhieroglyphen</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Cursive Hieroglyphs</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hiéroglyphes cursifs</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">egyp-x-egypcs</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c83"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c88" rdf:about="https://ausohnum.huma-num.fr/concept/c88">
+        <skos:prefLabel xml:lang="de">Arabisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Arabic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Arabe</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">arab</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c108"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c89" rdf:about="https://ausohnum.huma-num.fr/concept/c89">
+        <dc:identifier scheme="bts">7SDIQ6CH55FODFOUJ3NVYEZOYY</dc:identifier>
+        <skos:prefLabel xml:lang="de">Aramäisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Aramäisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Araméen</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">armi</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c108"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c90" rdf:about="https://ausohnum.huma-num.fr/concept/c90">
+        <dc:identifier scheme="bts">YXPU67OHQVBHVJLP7YLICWKTYA</dc:identifier>
+        <skos:prefLabel xml:lang="de">Griechisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Greek</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Grec</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">grek</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c109"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c91" rdf:about="https://ausohnum.huma-num.fr/concept/c91">
+        <dc:identifier scheme="bts">OT3TJKRQMRHE3ERU34VMN4DF4U</dc:identifier>
+        <skos:prefLabel xml:lang="de">Koptisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Coptic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Copte</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">copt</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c92"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c93"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c94"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c109"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c92" rdf:about="https://ausohnum.huma-num.fr/concept/c92">
+        <dc:identifier scheme="bts">S3DGZAE2PZD73EGLXBIDWJSLHE</dc:identifier>
+        <skos:prefLabel xml:lang="de">Koptische Halbunziale</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Coptic, half-uncial</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Copte semi-onciale</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">copt-x-copthu</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c91"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c93" rdf:about="https://ausohnum.huma-num.fr/concept/c93">
+        <dc:identifier scheme="bts">BCLYT4Q5YFASJMCYQJUQJRZ7AM</dc:identifier>
+        <skos:prefLabel xml:lang="de">Koptische Kursive</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Coptic, cursive</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Copte cursif</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">copt-x-coptcs</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c91"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c94" rdf:about="https://ausohnum.huma-num.fr/concept/c94">
+        <dc:identifier scheme="bts">Z6Y3QAKWPNAFZEFASSITKKTYTY</dc:identifier>
+        <skos:prefLabel xml:lang="de">Koptische Unziale</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Coptic, uncial</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Copte onciale</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">copt-x-coptu</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c91"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c95" rdf:about="https://ausohnum.huma-num.fr/concept/c95">
+        <dc:identifier scheme="bts">YAF2UU4R25FIROCOE72WV3YVMI</dc:identifier>
+        <skos:prefLabel xml:lang="de">Lateinisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Latin</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Latin</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">latn</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c109"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c96" rdf:about="https://ausohnum.huma-num.fr/concept/c96">
+        <skos:prefLabel xml:lang="de">Meroitische Hieroglyphen</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Meroitic Hieroglyphs</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Méroïtique hiéroglyphique</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">mero</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c112"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c97" rdf:about="https://ausohnum.huma-num.fr/concept/c97">
+        <skos:prefLabel xml:lang="de">Meroitische Kursive</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Meroitic Cursive</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Méroïtique cursifs</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">merc</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c112"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+        <!--<skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c83"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c82"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c73"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c80"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c81"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c78"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c72"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c69"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c99"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c2563"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c112"/>-->
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c98" rdf:about="https://ausohnum.huma-num.fr/concept/c98">
+        <skos:prefLabel xml:lang="de">(nicht identifiziert)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">(not identified)</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">(non identifiée)</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">unidentified</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c99" rdf:about="https://ausohnum.huma-num.fr/concept/c99">
+        <skos:prefLabel xml:lang="de">Phönizisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Phoenician</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Phénicien</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">phnx</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c108"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c100" rdf:about="https://ausohnum.huma-num.fr/concept/c100">
+        <skos:prefLabel xml:lang="de">Syrisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Syriac</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Syriaque</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">syrc</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c108"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c108" rdf:about="https://ausohnum.huma-num.fr/concept/c108">
+        <skos:prefLabel xml:lang="de">Abdschadschriften</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Abjad scripts</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Ecritures Abjad</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">abjed</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c89"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c88"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c99"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c100"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c2562"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c109" rdf:about="https://ausohnum.huma-num.fr/concept/c109">
+        <skos:prefLabel xml:lang="de">Alphabetschriften</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Alphabetic scripts</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Ecritures alphabétiques</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">alphabet</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c91"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c90"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c95"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c2562"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c110" rdf:about="https://ausohnum.huma-num.fr/concept/c110">
+        <skos:prefLabel xml:lang="de">Logographische Schriften</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Logographic scripts</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Ecritures logographiques</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c111"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c2562"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Collection type="non-ordered" xml:id="c111" rdf:about="https://ausohnum.huma-num.fr/concept/c111">
+        <skos:prefLabel xml:lang="de">Alte ägyptische Schriften</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Ancient Egyptian scripts</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Écritures de l'Égypte ancienne</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c83"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c71"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c72"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c67"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c66"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c110"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Collection>
+    <skos:Concept type="non-ordered" xml:id="c112" rdf:about="https://ausohnum.huma-num.fr/concept/c112">
+        <skos:prefLabel xml:lang="de">Abudigaschriften</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Abudiga scripts</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Ecritures abugida</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml"/>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c96"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c97"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c2562"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Collection type="non-ordered" xml:id="c2562" rdf:about="https://ausohnum.huma-num.fr/concept/c2562">
+        <skos:prefLabel xml:lang="de">Schriften nach Typ</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Scripts by types</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Ecritures par types</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c108"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c112"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c109"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c110"/>
+        <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c66"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Collection>
+    <skos:Concept type="non-ordered" xml:id="c2563" rdf:about="https://ausohnum.huma-num.fr/concept/c2563">
+        <skos:prefLabel xml:lang="de">Hieratisch der 18. Dynastie</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">18th Dynasty Hieratic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hiératique de la 18e dynastie</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+    </skos:Concept>
+    <skos:Concept type="non-ordered" xml:id="c10039" rdf:about="https://ausohnum.huma-num.fr/concept/c99999">
+        <skos:prefLabel xml:lang="de">Hieratisch der 18. Dynastie</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">18th Dynasty hieratic</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hiératique de la 18e dynastie</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/scripts/"/>
+        <skosThesau:admin status="published"/>
+        <dct:created>2016-11-30T14:32:31</dct:created>
+        <skos:prefLabel xml:lang="ar">ARABIC2</skos:prefLabel>
+        <skos:prefLabel xml:lang="xml">E18thd</skos:prefLabel>
+        <skos:scopeNote>Test</skos:scopeNote>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c68"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c83"/>
+        <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c84"/>
+    </skos:Concept>
+</rdf:RDF>

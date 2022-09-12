@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page-apc.html" data-template-at="content">
+    <div class="container">
+        <div class="row" data-template="app:navBar"/>
+        <div class="row" data-template="app:lang">
+            <div lang="en" class="col-xs-12 col-sm-12 col-md-12">
+                <h2>Browse Places</h2>
+                <p>This page lists all spatial entities included in the Atlas
+                    Patrimonii Caesaris. These include all places of provenance
+                    of all documents present in the database, as well as other
+                    places which are mentioned in our documentation or are
+                    attached to documents to indicate their origin
+                        (<em>e.g.</em> in the case of inscribed marble block
+                    transported far from their place of extraction) or that of
+                    their content (<em>e.g.</em> an inscription or papyrus
+                    carrying the text of a letter written in a different place
+                    than the provenance of the document). </p>
+                <p>The list contains all imperial properties (landed estates,
+                    forests, fisheries, workshops, processing units, mines,
+                    quarries, villas, residences) that can be precisely or
+                    approximatively located. Administrative subdivisions of the
+                        <em>patrimonium</em> (<em>regiones</em> or
+                        <em>tractus</em>) are listed as patrimonial districts.
+                    Larger administrations comprising one or more districts
+                        (<em>e.g.</em> the <em>tractus Karthaginiensis</em>) are
+                    called patrimonial supradistricts. <em>Metalla</em>
+                    consisting of several extraction sites are listed as
+                    quarrying or mining districts (<em>e.g.</em> Carrara, Mons
+                    Claudianus, Karystos). Large mining districts, such as the
+                        <em>Aurariae Daciarum</em> are listed as mining
+                    territories. Provincial attributions reflect the subdivision
+                    of 117 AD (places in later Numidia are listed under Africa
+                    proconsularis) apart from regions that were not fully
+                    provincalized at the time, for which later denominations are
+                    adopted (<em>e.g.</em> Mesopotamia, Osroene). </p>
+                <br/>
+            </div>
+            <div lang="fr" class="col-xs-12 col-sm-12 col-md-12">
+                <h2>Parcourir la liste des Lieux</h2>
+                <p>Cette page liste toutes les entités spatiales incluses dans
+                        l'<em>Atlas Patrimonii Caesaris</em>. Il s'agit de tous
+                    les lieux de provenance de tous les documents présents dans
+                    la base de données, ainsi que d'autres lieux qui sont
+                    mentionnés dans notre documentation ou qui sont attachés aux
+                    documents pour indiquer leur origine (par exemple dans le
+                    cas de blocs de marbre inscrits transportés loin de leur
+                    lieu d'extraction) ou celle de leur contenu (par exemple une
+                    inscription ou un papyrus portant le texte d'une lettre
+                    écrite dans un lieu différent de la provenance du
+                    document).</p>
+                <p>La liste contient toutes les propriétés impériales (domaines
+                    fonciers, forêts, pêcheries, ateliers, unités de
+                    transformation, mines, carrières, villas, résidences) qui
+                    peuvent être localisés de manière précise ou approximative.
+                    Les subdivisions administratives du <em>patrimonium</em> (<em>regiones</em> ou
+                    <em>tractus</em>) sont répertoriées en tant que districts
+                    patrimoniaux. Les administrations plus importantes
+                    comprenant un ou plusieurs districts (par exemple, le
+                    tractus Karthaginiensis) sont appelées supra-districts
+                    patrimoniaux. Les <em>metalla</em> comprenant plusieurs sites
+                    d'extraction sont répertoriées comme des districts
+                    extractifs (par exemple, Carrara, Mons Claudianus,
+                    Karystos). Les grands <em>territoria metallorum</em>, comme les
+                    <em>Aurariae Daciarum</em>, sont répertoriés comme des territoires
+                    miniers. Les attributions provinciales reflètent la
+                    subdivision de 117 après J.-C. (par ex. les lieux en Numidie
+                    sont répertoriés sous Africa proconsularis), à l'exception
+                    des régions qui n'étaient pas entièrement provinciales à
+                    l'époque, pour lesquelles des dénominations ultérieures sont
+                    adoptées (par exemple, la Mésopotamie, l'Osroène).</p>
+                <br/>
+            </div>
+        </div>
+        <div data-template="app:placesList"/>
+    </div>
+    <script> //$("#topheader").hide(); $("#logoForMenu").removeClass("hidden");
+        if($("#apcMenu").hasClass("active")){}
+        else{$("#apcMenu").addClass("active");}
+        $("#datanavbar-places").addClass("active");</script>
+</div>
