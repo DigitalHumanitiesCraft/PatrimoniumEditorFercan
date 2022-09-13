@@ -4114,7 +4114,7 @@ declare function teiEditor:displaySurface(){
 
 
 (: CP: removed:  , $project :)
-declare function teiEditor:saveData($data){
+declare function teiEditor:saveData($data, $project ){
 
 let $now := fn:current-dateTime()
 let $currentUser := data(sm:id()//sm:username)
