@@ -11,7 +11,7 @@ module namespace teiEditor="http://ausonius.huma-num.fr/teiEditor";
 
 import module namespace config="http://ausonius.huma-num.fr/ausohnum-library/config" at "../config.xqm";
 
-import module namespace dbutil="http://exist-db.org/xquery/dbutil" at "/exist/apps/shared-resources/content/dbutils.xql";
+import module namespace dbutil="http://exist-db.org/xquery/dbutil" at "/db/apps/shared-resources/content/dbutils.xql";
 import module namespace functx="http://www.functx.com";
 (:import module namespace httpclient="http://exist-db.org/xquery/httpclient" at "java:org.exist.xquery.modules.httpclient.HTTPClientModule";:)
 import module namespace http="http://expath.org/ns/http-client" at "java:org.expath.exist.HttpClientModule";
@@ -50,10 +50,10 @@ declare namespace local = "local";
 declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
 (:declare option output:item-separator "&#xa;";:)
 
-declare variable $teiEditor:library-path := "/exist/apps/ausohnum-library/";
+declare variable $teiEditor:library-path := "/db/apps/ausohnum-library/";
 declare variable $teiEditor:project :=request:get-parameter('project', ());
 declare variable $teiEditor:mode :=request:get-parameter('mode', ());
-declare variable $teiEditor:appVariables := doc("/exist/apps/" || $teiEditor:project || "/data/app-general-parameters.xml");
+declare variable $teiEditor:appVariables := doc("/db/apps/" || $teiEditor:project || "/data/app-general-parameters.xml");
 declare variable $teiEditor:data := request:get-data();
 declare variable $teiEditor:docId :=  request:get-parameter('docid', ());
 
@@ -62,12 +62,12 @@ declare variable $teiEditor:languages := $teiEditor:appVariables//languages;
 
 
 (:declare variable $teiEditor:project := "patrimonium";:)
-(:declare variable $teiEditor:data-repository := collection("/exist/apps/" || $teiEditor:project || "Data");:)
-declare variable $teiEditor:data-repository-path := "/exist/apps/" || $teiEditor:project || "Data";
+(:declare variable $teiEditor:data-repository := collection("/db/apps/" || $teiEditor:project || "Data");:)
+declare variable $teiEditor:data-repository-path := "/db/apps/" || $teiEditor:project || "Data";
 
 declare variable $teiEditor:doc-collection-path := $teiEditor:data-repository-path || "/documents";
 declare variable $teiEditor:doc-collection := collection($teiEditor:doc-collection-path);
-declare variable $teiEditor:concept-collection-path := "/exist/apps/" || $teiEditor:appVariables//thesaurus-app/text() || "Data/concepts";
+declare variable $teiEditor:concept-collection-path := "/db/apps/" || $teiEditor:appVariables//thesaurus-app/text() || "Data/concepts";
 declare variable $teiEditor:concept-collection := collection( $teiEditor:concept-collection-path);
 declare variable $teiEditor:biblioRepo := doc($teiEditor:data-repository-path || "/biblio/biblio.xml");
 declare variable $teiEditor:peopleRepo := doc($teiEditor:data-repository-path || "/people/people.xml");
@@ -81,7 +81,7 @@ declare variable $teiEditor:baseUri := $teiEditor:appVariables//uriBase[@type='a
 
 
 declare variable $teiEditor:teiElements := doc($teiEditor:library-path || 'data/teiEditor/teiElements.xml');
-declare variable $teiEditor:teiElementsCustom := doc("/exist/apps/" || $teiEditor:project || '/data/teiEditor/teiElements.xml');
+declare variable $teiEditor:teiElementsCustom := doc("/db/apps/" || $teiEditor:project || '/data/teiEditor/teiElements.xml');
 declare variable $teiEditor:docTemplates := collection($teiEditor:library-path || 'data/teiEditor/docTemplates');
 declare variable $teiEditor:teiTemplate := doc($teiEditor:library-path || 'data/teiEditor/teiTemplate.xml');
 declare variable $teiEditor:externalResources := doc($teiEditor:library-path || 'data/teiEditor/externalResources.xml');
@@ -163,7 +163,7 @@ declare function teiEditor:createUser($data, $project) {
     let $now := fn:current-dateTime()
     let $currentUser := data(sm:id()//sm:username)
 
-    let $template := collection('/exist/apps/ausohnum-library/data/teiEditor/docTemplates')//.[@xml:id=$data//template/text()]
+    let $template := collection('/db/apps/ausohnum-library/data/teiEditor/docTemplates')//.[@xml:id=$data//template/text()]
     let $doc-collection := collection($teiEditor:data-repository-path || "/documents/" || $data//collection/text())
     let $doc-collection-path := $teiEditor:data-repository-path || "/documents/" || $data//collection/text()
     let $collectionPrefix := doc($teiEditor:data-repository-path || "/documents/" || $data//collection/text() || ".xml")//docPrefix/text()
@@ -553,7 +553,7 @@ let $currentDocId := if($docId != "") then $docId else  $teiEditor:docId
     let $inputName := 'selectDropDown' (:||$topConceptId:)
 
     (:let $itemList :=
-        util:eval( "collection('/exist/apps/" || $teiEditor:project || "/data/documents')//id('"||$teiEditor:docId
+        util:eval( "collection('/db/apps/" || $teiEditor:project || "/data/documents')//id('"||$teiEditor:docId
                     ||"')/"
                     || functx:substring-before-last($teiXPath2Ref, '/') || "//tei:category"):)
     return
@@ -862,7 +862,7 @@ let $valuesTotal := count($teiElementValue)
 let $inputName := 'selectDropDown' (:||$topConceptId:)
 
     (:let $itemList :=
-        util:eval( "collection('/exist/apps/" || $teiEditor:project || "/data/documents')//id('"||$teiEditor:docId
+        util:eval( "collection('/db/apps/" || $teiEditor:project || "/data/documents')//id('"||$teiEditor:docId
                     ||"')/"
                     || functx:substring-before-last($teiXPath2Ref, '/') || "//tei:category"):)
     return
@@ -1613,7 +1613,7 @@ declare function teiEditor:displayTeiElementWithThesau($teiElementNickname as xs
     let $inputName := 'selectDropDown' ||$topConceptId
 
     (:let $itemList :=
-        util:eval( "collection('/exist/apps/" || $teiEditor:project || "/data/documents')//id('"||$teiEditor:docId
+        util:eval( "collection('/db/apps/" || $teiEditor:project || "/data/documents')//id('"||$teiEditor:docId
                     ||"')/"
                     || functx:substring-before-last($teiXPath2Ref, '/') || "//tei:category"):)
     return
@@ -1748,7 +1748,7 @@ declare function teiEditor:displayTeiElementWithThesauCardi($teiElementNickname 
 let $inputName := 'selectDropDown' ||$topConceptId
 
     (:let $itemList :=
-        util:eval( "collection('/exist/apps/" || $teiEditor:project || "/data/documents')//id('"||$teiEditor:docId
+        util:eval( "collection('/db/apps/" || $teiEditor:project || "/data/documents')//id('"||$teiEditor:docId
                     ||"')/"
                     || functx:substring-before-last($teiXPath2Ref, '/') || "//tei:category"):)
     return
@@ -1938,7 +1938,7 @@ declare function teiEditor:displayTeiElementWithThesauComboInputCardi($teiElemen
     let $inputName := 'selectDropDown' ||$topConceptId
 
     (:let $itemList :=
-        util:eval( "collection('/exist/apps/" || $teiEditor:project || "/data/documents')//id('"||$teiEditor:docId
+        util:eval( "collection('/db/apps/" || $teiEditor:project || "/data/documents')//id('"||$teiEditor:docId
                     ||"')/"
                     || functx:substring-before-last($teiXPath2Ref, '/') || "//tei:category"):)
     return
@@ -2134,7 +2134,7 @@ declare function teiEditor:displayTeiElementWithThesauInputCardi($teiElementNick
     let $inputName := 'selectDropDown' ||$topConceptId
 
     (:let $itemList :=
-        util:eval( "collection('/exist/apps/" || $teiEditor:project || "/data/documents')//id('"||$teiEditor:docId
+        util:eval( "collection('/db/apps/" || $teiEditor:project || "/data/documents')//id('"||$teiEditor:docId
                     ||"')/"
                     || functx:substring-before-last($teiXPath2Ref, '/') || "//tei:category"):)
     return
@@ -2892,7 +2892,7 @@ declare function teiEditor:peopleMentionsInDoc($docId as xs:string){
 (:Developped for the cleaning up of the Egyptian material:)
 
 let $teiDoc := $teiEditor:doc-collection/id($docId)
-let $file := doc( "/exist/apps/patrimoniumData/egyptianMaterial/people/mentions-in-texts.xml")
+let $file := doc( "/db/apps/patrimoniumData/egyptianMaterial/people/mentions-in-texts.xml")
 let $mentions := $file//file[@apcd = $docId ]
 
 (:let $teiDoc := util:eval( "$teiEditor:doc-collection/id('"||$docId ||"')" ):)
@@ -2960,7 +2960,7 @@ declare function teiEditor:previewToolBar($index as xs:int?){
                     };
 
 declare function teiEditor:textEditor($docId as xs:string, $editorType as xs:string?){
-(:    let $xslCleanDiv := xs:anyURI("xmldb:exist:///exist/apps/ausohnum-library/xslt/cleanTextEdition.xsl"):)
+(:    let $xslCleanDiv := xs:anyURI("xmldb:exist:///db/apps/ausohnum-library/xslt/cleanTextEdition.xsl"):)
     let $teiDoc := $teiEditor:doc-collection/id($docId)
 (:    let $teiDoc := util:eval( "collection('" || $teiEditor:doc-collection-path || "')//id('" ||$docId ||"')" ):)
 
@@ -3188,7 +3188,7 @@ declare function teiEditor:textPreview($docId as xs:string, $numberOfTextparts a
 
     };
 declare function teiEditor:textPreviewMulti($docId as xs:string){
-(:    let $xslCleanDiv := xs:anyURI("xmldb:exist:///exist/apps/ausohnum-library/xslt/cleanTextEdition.xsl"):)
+(:    let $xslCleanDiv := xs:anyURI("xmldb:exist:///db/apps/ausohnum-library/xslt/cleanTextEdition.xsl"):)
     let $teiDoc := $teiEditor:doc-collection/id($docId)
 (:    let $teiDoc := util:eval( "collection('" || $teiEditor:doc-collection-path || "')//id('" ||$docId ||"')" ):)
 
@@ -4803,7 +4803,7 @@ declare function teiEditor:addBiblio( $data as node(), $project as xs:string){
 
 
 
-    (:let $originalTEINode :=util:eval( "collection('/exist/apps/" || $saveFunctions:project || "/data/documents')//id('"
+    (:let $originalTEINode :=util:eval( "collection('/db/apps/" || $saveFunctions:project || "/data/documents')//id('"
                  ||$docId ||"')/" || $xpathWithTeiPrefix)
     :)
 
@@ -5065,8 +5065,8 @@ let $docId := $data//docId/text()
 let $teiDoc := $teiEditor:doc-collection/id($docId)
 let $placeCollection := collection($teiEditor:data-repository-path || "/places")
 let $placeCollectionProject := collection($teiEditor:data-repository-path|| "/places/" || $project)
-let $placeIdPrefix := doc("/exist/apps/" || $teiEditor:project || "/data/app-general-parameters.xml")//idPrefix[@type='place']/text()
-let $uriBase := doc("/exist/apps/" || $teiEditor:project  || "/data/app-general-parameters.xml")//uriBase[@type='app']/text()
+let $placeIdPrefix := doc("/db/apps/" || $teiEditor:project || "/data/app-general-parameters.xml")//idPrefix[@type='place']/text()
+let $uriBase := doc("/db/apps/" || $teiEditor:project  || "/data/app-general-parameters.xml")//uriBase[@type='app']/text()
 let $placeNumberList := for $place in $placeCollectionProject//pleiades:Place[contains(./@rdf:about, $uriBase)]
         return
         <item>
@@ -5320,7 +5320,7 @@ let $docId := $data//docId/text()
 let $teiDoc := $teiEditor:doc-collection/id($docId)
 let $placeCollection := collection($teiEditor:data-repository-path || "/places")
 let $placeCollectionProject := collection($teiEditor:data-repository-path || "/places/" || $project)
-let $placeIdPrefix := doc("/exist/apps/" || $teiEditor:project || "/data/app-general-parameters.xml")//idPrefix[@type='place']/text()
+let $placeIdPrefix := doc("/db/apps/" || $teiEditor:project || "/data/app-general-parameters.xml")//idPrefix[@type='place']/text()
 
 let $idList := for $id in $placeCollectionProject//.[contains(./@xml:id, $placeIdPrefix)]
         return
@@ -6100,8 +6100,8 @@ return
 
 declare function teiEditor:dashboard($corpus as xs:string?){
     let $newDocType :=  $teiEditor:appVariables//newDocType/text()
-    let $documentCollection := collection("/exist/apps/" || $teiEditor:project || "Data/documents")
-    let $documentList := doc("/exist/apps/" || $teiEditor:project || "Data/lists/list-documents.xml")
+    let $documentCollection := collection("/db/apps/" || $teiEditor:project || "Data/documents")
+    let $documentList := doc("/db/apps/" || $teiEditor:project || "Data/lists/list-documents.xml")
     let $docDiff:= (count($documentCollection//tei:TEI) - count($documentList//data))
         return
   <div data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content">
@@ -6696,7 +6696,7 @@ declare function teiEditor:newCollectionPanel(){
 
 declare function teiEditor:newDocumentPanel($collection as xs:string){
 (:    let $templateList :=  collection( $teiEditor:library-path || '/data/teiEditor/docTemplates'):)
-let $templateList :=  collection('/exist/apps/' || $teiEditor:project || '/data/teiEditor/docTemplates')
+let $templateList :=  collection('/db/apps/' || $teiEditor:project || '/data/teiEditor/docTemplates')
     let $project := request:get-parameter("project", ())
     return
     <div>
@@ -6778,7 +6778,7 @@ let $templateList :=  collection('/exist/apps/' || $teiEditor:project || '/data/
 };
 
 declare function teiEditor:newDocumentSimpleTitlePanel($collection as xs:string){
-    let $templateList :=  collection('/exist/apps/' || $teiEditor:project || '/data/teiEditor/docTemplates')
+    let $templateList :=  collection('/db/apps/' || $teiEditor:project || '/data/teiEditor/docTemplates')
     let $project := request:get-parameter("project", ())
     return
     <div>
@@ -6869,7 +6869,7 @@ declare function teiEditor:newDocumentSimpleTitlePanel($collection as xs:string)
 
 
 declare function teiEditor:newDocumentSimpleTitleWithEditionFromExtResourcePanel($collection as xs:string){
-    let $templateList :=  collection('/exist/apps/' || $teiEditor:project || '/data/teiEditor/docTemplates')
+    let $templateList :=  collection('/db/apps/' || $teiEditor:project || '/data/teiEditor/docTemplates')
     let $project := request:get-parameter("project", ())
     return
     <div>
@@ -6970,7 +6970,7 @@ declare function teiEditor:newDocumentSimpleTitleWithEditionFromExtResourcePanel
 
 declare function teiEditor:newDocumentPanelMultipleChoice($collection as xs:string){
 (:    let $templateList :=  collection( $teiEditor:library-path || '/data/teiEditor/docTemplates'):)
-let $templateList :=  collection('/exist/apps/' || $teiEditor:project || '/data/teiEditor/docTemplates')
+let $templateList :=  collection('/db/apps/' || $teiEditor:project || '/data/teiEditor/docTemplates')
     let $project := request:get-parameter("project", ())
     return
     <div>
@@ -7802,7 +7802,7 @@ let $textInput := replace($textInput,
  
  
  
-    let $logs := collection("xmldb:exist:///exist/apps/patrimoniumData" || '/logs')
+    let $logs := collection("xmldb:exist:///db/apps/patrimoniumData" || '/logs')
     let $now := fn:current-dateTime()
     let $currentUser := data(sm:id()//sm:real/sm:username)
     let $log :=
@@ -8147,7 +8147,7 @@ $("#text2beConvertedEditor").keydown(function(){{
 };
 
 declare function teiEditor:getEditionDivFromDoc($docId as xs:string, $project as xs:string){
-let $doc-collection := collection('/exist/apps/' || $project || 'Data/documents')
+let $doc-collection := collection('/db/apps/' || $project || 'Data/documents')
 let $teiDoc := $doc-collection/id($docId)
 return
     <data>
