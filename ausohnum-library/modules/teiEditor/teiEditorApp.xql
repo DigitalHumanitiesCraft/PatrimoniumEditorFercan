@@ -6179,8 +6179,8 @@ declare function teiEditor:dashboard($corpus as xs:string?){
                                             <tr>
                                                 <td>{ $doc/@xml:id/string() }</td>
                                                 <td><span>{ if($document/title/text() ="") then "Cannot retrieve title as doc not in list" else $document/title/text() }
-                                                    <a href="/edit-documents/{$doc/@xml:id/string()}" target="_blank" title="Edit document in a new window"><i class="glyphicon glyphicon-edit"/></a>
-                                                    <a href="/documents/{$doc/@xml:id/string()}" target="_blank" title="Open public view in a new window"><i class="glyphicon glyphicon-eye-open"/></a>
+                                                    <a href="/exist/apps/estudium/edit-documents/{$doc/@xml:id/string()}" target="_blank" title="Edit document in a new window"><i class="glyphicon glyphicon-edit"/></a>
+                                                    <a href="/exist/apps/estudium/documents/{$doc/@xml:id/string()}" target="_blank" title="Open public view in a new window"><i class="glyphicon glyphicon-eye-open"/></a>
                                                     </span></td>
                                                 <td><a href="{ $document/provenanceUri/text()}" target="_blank">{ $document/provenance/text() }</a></td>
                                                 <td>{ $document/datingNotBefore/text() }</td>
@@ -6488,9 +6488,9 @@ return
            { if (contains($document//tei:div[@type="edition"]/tei:div[@type="textpart"]/tei:ab/text(), "Error")) then ("&#9888;")
            else ()}
            </td>
-           <td>{$title}<a href="/documents/{data($document/@xml:id)}" target="_blank">
+           <td>{$title}<a href="/exist/apps/estudium/documents/{data($document/@xml:id)}" target="_blank">
            <i class="glyphicon glyphicon-eye-open"/></a>
-           <a href="/edit-documents/{data($document/@xml:id)}" target="_blank">
+           <a href="/exist/apps/estudium/edit-documents/{data($document/@xml:id)}" target="_blank">
            <i class="glyphicon glyphicon-edit"/></a>
            </td>
            <td>
