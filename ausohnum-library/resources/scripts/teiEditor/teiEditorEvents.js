@@ -270,7 +270,7 @@ function addData(element,
          //var inputId = "#" + inputName.name.toString();
 
          var request = new XMLHttpRequest();
-         request.open("POST", "$ausohnum-lib/modules/teiEditor/getFunctions.xql?type=addData" , true);
+         request.open("POST", "/exist/apps/ausohnum-library/modules/teiEditor/getFunctions.xql?type=addData" , true);
          /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                     //+ "&project=" + "patrimonium" + "&xpath=" + xpath
          /*                , true);*/
@@ -539,7 +539,7 @@ function addDataComboAndInput(element,
          //var inputId = "#" + inputName.name.toString();
 
          var request = new XMLHttpRequest();
-         request.open("POST", "$ausohnum-lib/modules/teiEditor/getFunctions.xql?type=addData" , true);
+         request.open("POST", "/exist/apps/ausohnum-library/modules/teiEditor/getFunctions.xql?type=addData" , true);
          /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                     //+ "&project=" + "patrimonium" + "&xpath=" + xpath
          /*                , true);*/
@@ -1399,7 +1399,7 @@ function addBiblioRef(docId, zoteroGroup, type){
      console.log("xmldata: " + xmlData);
 
 /*     request.open("POST", "http://patrimonium.huma-num.fr/admin/save/document/addBiblio", true);*/
-     request.open("POST", "$ausohnum-lib/modules/teiEditor/getFunctions.xql?type=addBiblio" , true);
+     request.open("POST", "/exist/apps/ausohnum-library/modules/teiEditor/getFunctions.xql?type=addBiblio" , true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/
@@ -1461,7 +1461,7 @@ function removeItemFromList(docId, list, item, index, topConceptId){
     var listDivId = "#" + list + "List"
     var request = new XMLHttpRequest();
     console.log("xmldata in remove: " + xmlData);
-    request.open("POST", "$ausohnum-lib/modules/teiEditor/getFunctions.xql?type=removeItemFromList" , true);
+    request.open("POST", "/exist/apps/ausohnum-library/modules/teiEditor/getFunctions.xql?type=removeItemFromList" , true);
     console.log("xmldata: " + xmlData);
     var xmlDoc;
     request.onreadystatechange = function() {
