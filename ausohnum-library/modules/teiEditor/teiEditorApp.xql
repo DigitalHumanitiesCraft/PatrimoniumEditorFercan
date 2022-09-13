@@ -6342,7 +6342,7 @@ declare function teiEditor:corpusList($corpus as xs:string?){
                                                 return
             
             
-                   <a href="/admin/corpus/{$collectionName}" class="list-group-item{if($corpus =$collectionName) then ' active' else()}">
+                   <a href="/exist/apps/estudium/admin/corpus/{$collectionName}" class="list-group-item{if($corpus =$collectionName) then ' active' else()}">
                       <h4 class="list-group-item-heading">{ functx:capitalize-first($corpusTitle)}</h4>
                       <p class="list-group-item-text">{teiEditor:countDocumentsInCollection($collectionName)}
                                             document{if(teiEditor:countDocumentsInCollection($collectionName) > 1) then "s" else ()}</p>
