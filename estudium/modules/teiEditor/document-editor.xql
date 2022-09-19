@@ -39,32 +39,6 @@ let $now := fn:current-dateTime()
 let $currentUser := sm:id()
 
 
-
-
-(: let $teiElements := doc('/db/apps/ausohnum-library/data/templates/teiElements.xml') :)
-(: let $logs := collection("/db/apps/patrimonium/data/logs") :)
-
-(: let $savePanel :=
-<div class="sectionPanel">
-<button id="saveDocument" class="btn btn-primary editbutton" onclick="javascript:saveData(titleStmt)"
-appearance="minimal" type="button"><i class="glyphicon glyphicon glyphicon-floppy-save"></i></button>
-  </div> :)
-
-(: let $title :=
- <div class="">
- <div id="docTitle" class="">{$teiEditor:teiDoc//tei:fileDesc/tei:titleStmt/tei:title/text()}</div>
- <button id="editTitle" class="btn btn-xs btn-primary editbutton" onclick=""
-  appearance="minimal" type="button"><i class="glyphicon glyphicon-edit
-                              editConceptIcon"></i></button>
- </div> :)
-
- (: let $titlePanel :=
-    <div>
-    <input id="titleStmt" class="fullWidth" name="titleStmt" value="{$teiEditor:teiDoc//tei:fileDesc/tei:titleStmt/tei:title/text()}"></input>
-    <button id="saveTitleStmt" class="btn btn-primary" onclick="javascript:saveData('{$teiEditor:docId}', titleStmt, 'tei:fileDesc/tei:titleStmt/tei:title')"
-            appearance="minimal" type="button"><i class="glyphicon glyphicon glyphicon-floppy-save"></i></button>
-    </div> :)
-
 (:************************:)
 (:*     MAIN RETURN      *:)
 (:************************:)

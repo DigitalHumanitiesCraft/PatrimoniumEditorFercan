@@ -1125,18 +1125,10 @@ let $inputName := 'selectDropDown' (:||$topConceptId:)
 
               return
               (
-              <div class="teiElementGroup">
-                    <div id="{$teiElementNickname}_display_{$index}_{$pos}" class="">
-                    <!--
-                    <div class="TeiElementGroupHeaderInline">
-                            <span class="labelForm">{$teiElementFormLabel} <span class="teiInfo">
-                                    <a title="TEI element: {$teiXPath}"><i class="glyphicon glyphicon glyphicon-info-sign"></i></a>
-                                </span>
-                                </span>
-                      </div>
-                      -->
+                <div class="teiElementGroup">
+                    <div id="{$teiElementNickname}_display_{$index}_{$pos}">
                         <div id="{$teiElementNickname}_value_{$index}_{$pos}" class="teiElementValue">
-                        {$lang}<span >{ if(starts-with($teiElementTextNodeValue, "http")) then 
+                        {$lang}<span>{ if(starts-with($teiElementTextNodeValue, "http")) then 
                         <a href="{$teiElementTextNodeValue}" target="_blank" class="urlInTeiElement">{$teiElementTextNodeValue}</a>
                         else  $teiElementTextNodeValue } <a href="{$teiElementAttributeValue}" target="_blank" class="urlInTeiElement">{$teiElementAttributeValue}</a></span></div>
                         <button id="edit{$teiElementNickname}_{$index}_{$pos}" class="btn btn-primary editbutton pull-right"
@@ -1145,7 +1137,7 @@ let $inputName := 'selectDropDown' (:||$topConceptId:)
                                           editConceptIcon"></i></button>
                            <button class="removeItem btn btn-warning pull-right"
                                           onclick="removeItemFromList('{$currentDocId}', '{$teiElementNickname}', 'xmlNode', {$pos}, '')"><i class="glyphicon glyphicon-trash" title="Remove reference from list"/></button>
-                    </div>
+                </div>
 
         <div id="{$teiElementNickname}_edit_{$index}_{$pos}" class="teiElementHidden form-group">
         <div class="input-group" >
@@ -2534,7 +2526,7 @@ let $teiDoc := util:eval( "collection('" || $teiEditor:doc-collection-path || "'
 
    </div>
       <div id="mainBiblioList" class="itemList">
-   {for $bibRef at $pos in $teiDoc//tei:text/tei:body/tei:div[@type='bibliography'][@subtype='edition']/tei:listBibl//tei:bibl
+   {for $bibRef at $pos in $teiDoc//tei:text/tei:body/tei:div[@type='bibliography'][@subtype='editions']/tei:listBibl//tei:bibl
    order by $bibRef//tei:ptr/@target
     return
     teiEditor:displayBibRef($teiEditor:docId, $bibRef, "main", $pos)
@@ -6448,9 +6440,11 @@ return
         <tbody>
       
       {for $document at $pos in $documents
-         let $title := if(count($document/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[not(@type='corpus')]) >1) then
-                $document/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[not(@type='corpus')][@xml:lang=$lang]/text()
-                else $document/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[not(@type='corpus')]/text()
+        (: CP: [@xml:lang=$lang] removed; new xpath :)
+        let $title := $document//*:teiHeader/*:fileDesc/*:titleStmt/*:title/*:title/text()
+        (: let $title := if(count($document/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[not(@type='corpus')]) >1) then
+                $document/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[not(@type='corpus')]
+                else $document/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[not(@type='corpus')] :) 
         let $provenanceUri := 
                 let $splitRef := tokenize(data($document//tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:location/tei:placeName/@ref), " ")
                                                 return 
