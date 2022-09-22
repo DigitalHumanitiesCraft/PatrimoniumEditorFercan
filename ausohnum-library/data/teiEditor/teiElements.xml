@@ -2,7 +2,7 @@
 <teiElements>
     <teiElement>
         <nm>docTitle</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title</xpath>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title/tei:title</xpath>
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>x</cardinality>
@@ -64,6 +64,23 @@
         <xpath2ref>/tei:teiHeader/tei:encodingDesc/tei:classDecl/tei:taxonomy/tei:category[@xml:id='teiEditorGeneralDocumentClass']</xpath2ref>
         <comments/>
     </teiElement>
+
+        <teiElement>
+            <nm>textMainLang</nm>
+            <xpath>/tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language</xpath>
+            <contentType>attribute</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Main language</formLabel>
+            <formLabel xml:lang="fr">Langue principale</formLabel>
+            <taxoId/>
+            <fieldType>combobox</fieldType>
+            <thesauDb>internal</thesauDb>
+            <thesauTopConceptURI>http://ausonius.huma-num.fr//concept/c39</thesauTopConceptURI>
+            <attributeValueType>xml-value</attributeValueType>
+            <xpath2ref/>
+            <comments/>
+        </teiElement>
+
     <teiElement>
         <nm>docKeywords</nm>
         <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:term/@ref</xpath>
@@ -218,21 +235,6 @@
         <formLabel xml:lang="fr">Text</formLabel>
         <xpath2ref>/tei:teiHeader/tei:encodingDesc/tei:classDecl/tei:taxonomy/tei:category</xpath2ref>
         <comments/>
-        <teiElement>
-            <nm>textMainLang</nm>
-            <xpath>/tei:textLang/@mainLang</xpath>
-            <contentType>attribute</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Main language</formLabel>
-            <formLabel xml:lang="fr">Langue principale</formLabel>
-            <taxoId/>
-            <fieldType>combobox</fieldType>
-            <thesauDb>internal</thesauDb>
-            <thesauTopConceptURI>http://ausonius.huma-num.fr//concept/c39</thesauTopConceptURI>
-            <attributeValueType>xml-value</attributeValueType>
-            <xpath2ref/>
-            <comments/>
-        </teiElement>
         <teiElement>
             <nm>textOtherLangs</nm>
             <xpath>/tei:textLang/@otherLangs</xpath>
