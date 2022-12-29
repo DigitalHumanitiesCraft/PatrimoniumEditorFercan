@@ -99,7 +99,6 @@ return
                         {teiEditor:displayElement('docTitle', (), (), ())}
                         {teiEditor:displayElement('docType', (), (), ())}
                         {teiEditor:displayElement('textMainLang', (), (), ())}
-                        
                         {teiEditor:bibliographyPanel($teiEditor:docId, "edition")}
                         <h4>Datation</h4>
                        {teiEditor:displayElement('origDateGroup', (), (), ())}

@@ -360,7 +360,7 @@ let $teiElementNickname := $elementNode/nm/text()
          teiEditor:displayGroup($teiElementNickname, $docID, $index, (), $teiXPath)
 (:        teiEditor:displayTeiElementAndChildren($teiElementNickname, $docID, $index, 'input', $teiXPath):)
         default return
-                "Error: Element type not found in teiElement definitions."
+                "Error: Element type not found in."
 (:                teiEditor:displayTeiElement($teiElementNickname, $index, 'input', $teiXPath):)
 };
 
