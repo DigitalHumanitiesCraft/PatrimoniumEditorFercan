@@ -883,7 +883,7 @@ if(inputElementForText.prop("tagName") === null)
 
      var request = new XMLHttpRequest();
 /*     console.log("docId = " + docId);*/
-     request.open("POST", "/exist/apps/ausohnum-library/modules/teiEditor/getFunctions.xql?type=saveData", true);
+     request.open("POST", "$ausohnum-lib/modules/teiEditor/getFunctions.xql?type=saveData", true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/
@@ -893,8 +893,17 @@ if(inputElementForText.prop("tagName") === null)
         if (request.readyState == 4 && request.status == 200) {
             var select = elementInput;
              xmlDoc = request.responseXML;
+             //CP
+             console.log("xmlDoc");
+             console.log(xmlDoc);
              xmlString = (new XMLSerializer()).serializeToString(xmlDoc.getElementsByTagName('TEI')[0]);
+             //CP
+             console.log("xmlString");
+             console.log(xmlString);
              newElement2Display = (new XMLSerializer()).serializeToString(xmlDoc.getElementsByTagName('updatedElement')[0]);
+             //CP
+             console.log("newElement2Display");
+             console.log(newElement2Display);
              newContent = (new XMLSerializer()).serializeToString(xmlDoc.getElementsByTagName('newContent')[0]);
 /*             console.log("newElement2Display: " + newElement2Display);*/
              oldValueTxt = xmlDoc.getElementsByTagName('oldContent')[0].textContent;

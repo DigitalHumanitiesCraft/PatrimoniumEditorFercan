@@ -80,76 +80,66 @@ return
 <div class="tab-content" id="nav-tabContent">
     <div class="tab-pane fade in active" id="nav-metadata" role="tabpanel" aria-labelledby="nav-metadata-tab">
     <div class="row">
-        <div class="col-sm-6 col-md-6 col-lg-6">
-                        {teiEditor:variables($teiEditor:docId, $teiEditor:project)}
-                        {teiEditor:displayElement('docTitle', (), (), ())}
-                        <h4>Origin</h4>
-                        {teiEditor:displayElement('civitas', (), (), ())}
-                        {teiEditor:displayElement('FO antik', (), (), ())}
-                        {teiEditor:displayElement('FO modern', (), (), ())}
-                        {teiEditor:displayElement('FO ID', (), (), ())}
-                        {teiEditor:displayElement('FS ID', (), (), ())}
-                        {teiEditor:displayElement('Fundstelle', (), (), ())}
-                        {teiEditor:displayElement('Fundjahr', (), (), ())}
-                        {teiEditor:displayElement('Fundumst.', (), (), ())}
-                        <h4>Location</h4>
-                        {teiEditor:displayElement('Verwahrort Ort', (), (), ())}
-                        {teiEditor:displayElement('Verwahrort Institution', (), (), ())}
-                        {teiEditor:displayElement('Inv. Nr.', (), (), ())}
-                        <h4>Object Description</h4>
-                        {teiEditor:displayElement('Inschrifttraeger', (), (), ())}
-                        {teiEditor:displayElement('Material', (), (), ())}
-                        {teiEditor:displayElement('Arch. Klass.', (), (), ())}
-                        {teiEditor:displayElement('Obj.beschr.', (), (), ())}
-                        {teiEditor:displayElement('Erh.zust. Obj.', (), (), ())}
-                        {teiEditor:displayElement('Masse', (), (), ())}
-                        {teiEditor:displayElement('Masse Kommentar', (), (), ())}
-                        {teiEditor:displayElement('Ikonogr.', (), (), ())}
-                        {teiEditor:displayElement('Erh.zust. Inschr.', (), (), ())}
-                        {teiEditor:displayElement('Schrifttechnik', (), (), ())}
-                        {teiEditor:displayElement('Buchst.hoehe Inschr.', (), (), ())}
-                        {teiEditor:displayElement('Inschr.text', (), (), ())}
-
-                        
-
-                        
-
-
-
-                        {""
-                        (: teiEditor:displayElement('docType', (), (), ()):)
-                        } 
-                        {teiEditor:displayElement('textMainLang', (), (), ())}
-                        {teiEditor:bibliographyPanel($teiEditor:docId, "edition")}
-                        <h4>Datation</h4>
-                       {teiEditor:displayElement('origDateGroup', (), (), ())}
-                       {"" 
-(:                       teiEditor:displayElement('origDateNote', (), (), ()) :)
-                       }
-                        {"" 
-(:                        teiEditor:displayElement('origDateNotBefore', (), (), ()) :)
-                        }
-                        {""
-(:                        teiEditor:displayElement('origDateNotAfter', (), (), ()) :)
-                        }
-                        {teiEditor:placesList($teiEditor:docId)}
-                        {teiEditor:peopleList($teiEditor:docId)}
-                       <h4>External resources</h4>
-                       {teiEditor:displayElement('altIdentifierGroup', (), (), ())} 
-                        {""
-(:                        teiEditor:displayElement('altIdentifierGroup', (), (), ()):)
-                        }
-                        
-                        {teiEditor:displayElement("tmNumber", (), (), ())}
-                        <br/>
-                        {teiEditor:bibliographyPanel($teiEditor:docId, "secondary")}
-                        <br/>
-                        { teiEditor:displayElement('docKeywords2', (), (), ()) }
-                        {teiEditor:displayElement("docCommentary", (), (), ())}
-                          <br/>
-                          {teiEditor:displayElement("privateCommentary", (), (), ())}
-                          <br/>
-             </div>
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        {teiEditor:variables($teiEditor:docId, $teiEditor:project)}
+        <h3>Titel</h3>
+        {teiEditor:displayElement('docTitle', (), (), ())}
+        {teiEditor:displayElement('subTitle', (), (), ())}
+        <h3>Fund</h3>
+        {teiEditor:displayElement('civitas', (), (), ())}
+        {teiEditor:displayElement('FOantik', (), (), ())}
+        {teiEditor:displayElement('FOmodern', (), (), ())}
+        {teiEditor:displayElement('FOID', (), (), ())}
+        {teiEditor:displayElement('FSID', (), (), ())}
+        {teiEditor:displayElement('Fundstelle', (), (), ())}
+        {teiEditor:displayElement('Fundjahr', (), (), ())}
+        {teiEditor:displayElement('Fundumst', (), (), ())}
+        <h3>Lokalisierung</h3>
+        {teiEditor:displayElement('VerwahrortOrt', (), (), ())}
+        {teiEditor:displayElement('VerwahrortInstitution', (), (), ())}
+        {teiEditor:displayElement('InvNr', (), (), ())}
+        <h3>Objektbeschreibung</h3>
+        {teiEditor:displayElement('Inschrifttraeger', (), (), ())}
+        {teiEditor:displayElement('Material', (), (), ())}
+        {teiEditor:displayElement('ArchKlass', (), (), ())}
+        {teiEditor:displayElement('Objbeschr', (), (), ())}
+        {teiEditor:displayElement('ErhzustObj', (), (), ())}
+        {teiEditor:displayElement('Ikonogr', (), (), ())}
+        {teiEditor:displayElement('ErhzustInschr', (), (), ())}
+        {teiEditor:displayElement('Schrifttechnik', (), (), ())}
+        {teiEditor:displayElement('Buchsthoehe', (), (), ())}
+        {teiEditor:displayElement('Inschrtext', (), (), ())}
+        <h4>Maße</h4>
+        {teiEditor:displayElement('Hoehe', (), (), ())}
+        {teiEditor:displayElement('Breite', (), (), ())}
+        {teiEditor:displayElement('Tiefe', (), (), ())}
+        {teiEditor:displayElement('MasseKommentar', (), (), ())}
+        <h3>Datierung</h3>
+        {teiEditor:displayElement('Datierung', (), (), ())}
+        <h4>Dat. ISO</h4>
+        {teiEditor:displayElement('DatISO_notAfter', (), (), ())}
+        {teiEditor:displayElement('DatISO_notBefore', (), (), ())}
+        <h3>Kommentare</h3>
+        {teiEditor:displayElement('Notvar', (), (), ())}
+        {teiEditor:displayElement('KommGoettern', (), (), ())}
+        {teiEditor:displayElement('SonstKomm', (), (), ())}
+        <h3>Listen</h3>
+        {teiEditor:placesList($teiEditor:docId)}
+        {teiEditor:peopleList($teiEditor:docId)}
+        <h3>Externe Ressources</h3>
+        {teiEditor:displayElement('EDH', (), (), ())}
+        {teiEditor:displayElement('Lupa', (), (), ())}
+        {teiEditor:displayElement('ClaussSlaby', (), (), ())}
+        {teiEditor:displayElement('other', (), (), ())}
+        <h3>Bibliographie</h3>
+        {teiEditor:displayElement('Abb', (), (), ())}
+        {teiEditor:displayElement('Appcrit', (), (), ())}
+        {teiEditor:displayElement('Autopsie', (), (), ())}
+        {teiEditor:displayElement('Editionen', (), (), ())}
+        {""
+(:      teiEditor:bibliographyPanel($teiEditor:docId, "secondary") :)
+        }
+      </div>
         <div class="col-sm-5 col-md-5 col-lg-5">
         
         {teiEditor:textPreview($teiEditor:docId, count($teiEditor:teiDoc//tei:div[@type="textpart"]))}
