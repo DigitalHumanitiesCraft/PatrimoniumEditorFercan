@@ -65,21 +65,7 @@ return
                 <li class="nav-item active">
                   <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#nav-metadata" role="tab" aria-controls="pills-home" aria-selected="false">Document overview</a>
                 </li>
-                <!--
-                <li class="nav-item">
-                  <a class="nav-link" id="pills-textbearer-tab" data-toggle="pill" href="#nav-textbearer" role="tab" aria-controls="pills-textbearer" aria-selected="false">Support</a>
-                </li>
-                -->
-                <!--
-                <li class="nav-item">
-                  <a class="nav-link" id="pills-fragments-tab" data-toggle="pill" href="#nav-fragments" role="tab" aria-controls="pills-fragments" aria-selected="false">Object &amp; Fragments</a>
-                </li>
-                -->
-                <!--
-                <li class="nav-item">
-                  <a class="nav-link" id="pills-text-metadata-tab" data-toggle="pill" href="#nav-text-metadata" role="tab" aria-controls="pills-profile" aria-selected="true">Document overview</a>
-                </li>
-                -->
+
                 <li class="nav-item">
                   <a class="nav-link" id="pills-text-tab" data-toggle="pill" href="#nav-text" role="tab" aria-controls="pills-profile" aria-selected="true">Text annotation</a>
                 </li>
@@ -97,19 +83,54 @@ return
         <div class="col-sm-6 col-md-6 col-lg-6">
                         {teiEditor:variables($teiEditor:docId, $teiEditor:project)}
                         {teiEditor:displayElement('docTitle', (), (), ())}
-                        {teiEditor:displayElement('docType', (), (), ())}
+                        <h4>Origin</h4>
+                        {teiEditor:displayElement('civitas', (), (), ())}
+                        {teiEditor:displayElement('FO antik', (), (), ())}
+                        {teiEditor:displayElement('FO modern', (), (), ())}
+                        {teiEditor:displayElement('FO ID', (), (), ())}
+                        {teiEditor:displayElement('FS ID', (), (), ())}
+                        {teiEditor:displayElement('Fundstelle', (), (), ())}
+                        {teiEditor:displayElement('Fundjahr', (), (), ())}
+                        {teiEditor:displayElement('Fundumst.', (), (), ())}
+                        <h4>Location</h4>
+                        {teiEditor:displayElement('Verwahrort Ort', (), (), ())}
+                        {teiEditor:displayElement('Verwahrort Institution', (), (), ())}
+                        {teiEditor:displayElement('Inv. Nr.', (), (), ())}
+                        <h4>Object Description</h4>
+                        {teiEditor:displayElement('Inschrifttraeger', (), (), ())}
+                        {teiEditor:displayElement('Material', (), (), ())}
+                        {teiEditor:displayElement('Arch. Klass.', (), (), ())}
+                        {teiEditor:displayElement('Obj.beschr.', (), (), ())}
+                        {teiEditor:displayElement('Erh.zust. Obj.', (), (), ())}
+                        {teiEditor:displayElement('Masse', (), (), ())}
+                        {teiEditor:displayElement('Masse Kommentar', (), (), ())}
+                        {teiEditor:displayElement('Ikonogr.', (), (), ())}
+                        {teiEditor:displayElement('Erh.zust. Inschr.', (), (), ())}
+                        {teiEditor:displayElement('Schrifttechnik', (), (), ())}
+                        {teiEditor:displayElement('Buchst.hoehe Inschr.', (), (), ())}
+                        {teiEditor:displayElement('Inschr.text', (), (), ())}
+
+                        
+
+                        
+
+
+
+                        {""
+                        (: teiEditor:displayElement('docType', (), (), ()):)
+                        } 
                         {teiEditor:displayElement('textMainLang', (), (), ())}
                         {teiEditor:bibliographyPanel($teiEditor:docId, "edition")}
                         <h4>Datation</h4>
                        {teiEditor:displayElement('origDateGroup', (), (), ())}
                        {"" 
-(:                       teiEditor:displayElement('origDateNote', (), (), ()):)
+(:                       teiEditor:displayElement('origDateNote', (), (), ()) :)
                        }
                         {"" 
-(:                        teiEditor:displayElement('origDateNotBefore', (), (), ()):)
+(:                        teiEditor:displayElement('origDateNotBefore', (), (), ()) :)
                         }
                         {""
-(:                        teiEditor:displayElement('origDateNotAfter', (), (), ()):)
+(:                        teiEditor:displayElement('origDateNotAfter', (), (), ()) :)
                         }
                         {teiEditor:placesList($teiEditor:docId)}
                         {teiEditor:peopleList($teiEditor:docId)}

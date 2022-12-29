@@ -1,18 +1,292 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <teiElements>
+
+    <!-- ///// -->
+    <!-- Title-->
+
+    <!-- Göttername -->
     <teiElement>
         <nm>docTitle</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title/tei:title</xpath>
         <contentType>text</contentType>
         <fieldType>input</fieldType>
-        <cardinality>x</cardinality>
-        <formLabel xml:lang="en">Title</formLabel>
-        <formLabel xml:lang="fr">Titre</formLabel>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Göttername</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement>
-    
-    
+
+    <!-- /// -->
+    <!-- Origin-->
+
+    <!-- civitas -->
+    <teiElement>
+        <nm>civitas</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:region</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Civitas</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    <!-- FO antik -->
+    <teiElement>
+        <nm>FO antik</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">FO antik</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    <!-- FO modern -->
+    <teiElement>
+        <nm>FO modern</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName/tei:ref</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">FO modern</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    <!-- FO ID -->
+    <teiElement>
+        <nm>FO ID</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName/tei:ref/@target</xpath>
+        <contentType>attribute</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">FO ID (todo)</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    <!-- FS ID -->
+    <teiElement>
+        <nm>FS ID</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:p</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">FS ID (todo)</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    <!-- Fundstelle -->
+    <teiElement>
+        <nm>Fundstelle</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:p</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Fundstelle</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    <!-- Fundjahr -->
+    <teiElement>
+        <nm>Fundjahr</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/@when</xpath>
+        <contentType>attribute</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Fundjahr</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    <!-- Fundumst. -->
+    <teiElement>
+        <nm>Fundumst.</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:note</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Fundumst.</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+
+    <!-- /// -->
+    <!-- Location-->
+
+    <!-- Verwahrort Ort -->
+    <teiElement>
+        <nm>Verwahrort Ort</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:settlement</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Verwahrort (Ort)</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    <!-- Verwahrort Institution -->
+    <teiElement>
+        <nm>Verwahrort Institution</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:repository</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Verwahrort (Institution)</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    <!-- Verwahrort Institution -->
+    <teiElement>
+        <nm>Inv. Nr.</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Inv. Nr.</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+
+    <!-- /// -->
+    <!-- Object Description-->
+
+    <!-- Inschriftträger -->
+    <teiElement>
+        <nm>Inschrifttraeger</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:objectType</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Inschriftträger</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    <!-- Material -->
+    <teiElement>
+        <nm>Material</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:material/tei:ref</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Material</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    <!-- Arch. Klass. -->
+    <teiElement>
+        <nm>Arch. Klass.</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDes/tei:decoDesc/tei:decoNote/tei:term</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">Arch. Klass.</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    <!-- Obj.beschr. -->
+    <teiElement>
+        <nm>Obj.beschr.</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:p</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Obj.beschr.</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    <!-- Erh.zust. Obj. -->
+    <teiElement>
+        <nm>Erh.zust. Obj.</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:condition/tei:ref</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Erh.zust. Obj.</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    <!-- Masse -->
+    <teiElement>
+        <nm>Masse</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Maße</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    <!-- Masse Kommentar -->
+    <teiElement>
+        <nm>Masse Kommentar</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:note[@type='dimensions']</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en"> Maße Kommentar</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    <!-- Ikonogr. -->
+    <teiElement>
+        <nm>Ikonogr.</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:decoDesc/tei:decoNote/tei:p</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Ikonogr.</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    <!-- Erh.zust. Inschr. -->
+    <teiElement>
+        <nm>Erh.zust. Inschr.</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:layoutDesc/tei:layout/tei:note</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Erh.zust. Inschr.</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement> 
+    <!-- Schrifttechnik	-->
+    <teiElement>
+        <nm>Schrifttechnik</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:desc</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Schrifttechnik</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>   
+    <!-- Buchst.hoehe -->
+    <teiElement>
+        <nm>Buchst.hoehe</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:height</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Buchst.höhe</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>   
+    <!-- Inschr.text -->
+    <teiElement>
+        <nm>Inschr.text</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:layoutDesc/tei:layout/tei:p</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Inschr.text</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>   
+
+
+
+    	
+
+
+    <!-- -->
     <teiElement>
         <nm>docEditionStmt</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:editionStmt</xpath>
@@ -36,7 +310,6 @@
             <xpath2ref/>
             <comments/>
         </teiElement>
-        
     </teiElement>
     
     
@@ -527,9 +800,9 @@
                 <comments/>
             </teiElement>
             
-   <!--         <teiElement>
+         <teiElement>
                 <nm>fragProvenanceFindspotDateNotBefore</nm>
-                <xpath>/@notBefore</xpath>
+                <xpath>/tei:origDate/@notBefore</xpath>
                 <contentType>text</contentType>
                 <cardinality>1</cardinality>
                 <formLabel xml:lang="en">Discovery date (not before)</formLabel>
@@ -538,9 +811,10 @@
                 <xpath2ref/>
                 <comments/>
             </teiElement>
+               
             <teiElement>
                 <nm>fragProvenanceFindspotDateNotAfter</nm>
-                <xpath>/@notAfter</xpath>
+                <xpath>/tei:origDate/@notAfter</xpath>
                 <contentType>text</contentType>
                 <cardinality>1</cardinality>
                 <formLabel xml:lang="en">Discovery date (not after)</formLabel>
@@ -549,6 +823,7 @@
                 <xpath2ref/>
                 <comments/>
             </teiElement>
+            <!--
             <teiElement>
                 <nm>fragProvenanceFinder</nm>
                 <xpath>/tei:persName[@type="finder"]</xpath>
