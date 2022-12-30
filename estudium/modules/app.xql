@@ -455,7 +455,8 @@ function app:documentsList($node as node(), $model as map(*)){
                     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
                     
                     <script type="text/javascript" src="$ausohnum-lib/resources/scripts/ausohnumCommons/ausohnumCommons.js"/>
-                    <script type="text/javascript" src="/resources/scripts/documentsList.js"/>
+                    <!-- CP: fix path -->
+                    <script type="text/javascript" src="/exist/apps/estudium/resources/scripts/documentsList.js"/>
                     <link rel="stylesheet" type="text/css" href="$ausohnum-lib/resources/css/ausohnumCommons.css"/>
                     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css"/>
     
@@ -652,7 +653,8 @@ function app:placesList($node as node(), $model as map(*)){
 
                 <script type="text/javascript" src="$ausohnum-lib/resources/scripts/ausohnumCommons/ausohnumCommons.js"/>
                 <link rel="stylesheet" type="text/css" href="$ausohnum-lib/resources/css/ausohnumCommons.css"/>
-                <script type="text/javascript" src="/resources/scripts/placesList.js"/>
+                <!-- CP: fix path -->
+                <script type="text/javascript" src="/exist/apps/estudium/resources/scripts/placesList.js"/>
         
                 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css"/>
 
@@ -736,8 +738,9 @@ declare function app:peopleList($node as node(), $model as map(*)){
                             <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedheader/3.1.9/css/fixedHeader.dataTables.min.css"/>
                             <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.8/css/responsive.dataTables.min.css"/>
                             <script type="text/javascript" src="$ausohnum-lib/resources/scripts/ausohnumCommons/ausohnumCommons.js"/>
-                            <script type="text/javascript" src="/resources/scripts/peopleList.js"/>
-                             <link rel="stylesheet" type="text/css" href="$ausohnum-lib/resources/css/ausohnumCommons.css"/>
+                            <!-- CP: fix path -->
+                            <script type="text/javascript" src="/exist/apps/estudium/resources/scripts/peopleList.js"/>
+                            <link rel="stylesheet" type="text/css" href="$ausohnum-lib/resources/css/ausohnumCommons.css"/>
                              
             </div>
        </div>
