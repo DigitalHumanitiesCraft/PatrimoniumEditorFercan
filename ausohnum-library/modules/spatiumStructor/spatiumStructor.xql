@@ -481,7 +481,8 @@ return
             </div><!--End of row-->
 <!--    <div id="mapid"></div>-->
         <link href="$ausohnum-lib/resources/css/spatiumStructor.css" rel="stylesheet" type="text/css"/>
-        <script type="text/javascript" src="/resources/scripts/spatiumStructor.js"/>
+        <!-- CP: fix path -->
+        <script type="text/javascript" src="/exist/apps/estudium/resources/scripts/spatiumStructor.js"/>
         <script type="text/javascript" src="$ausohnum-lib/resources/scripts/spatiumStructor/spatiumStructorFunctions.js"/>        </div>
         <script type="text/javascript">{ $updateTitleWindow }</script>
 

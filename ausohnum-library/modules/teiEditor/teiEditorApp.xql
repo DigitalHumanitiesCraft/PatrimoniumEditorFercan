@@ -6100,26 +6100,20 @@ declare function teiEditor:dashboard($corpus as xs:string?){
       <div class="container form">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12">
-                    <h2>Browse Collections</h2>
+                    <h2>Corpora</h2>
                 </div>
             </div>
             <div class="row">
-                <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active"><a href="#documents" aria-controls="documents" role="tab" data-toggle="tab"><button class="btn btn-xs btn-default" style="border: 0;" onclick="window.open('/admin/corpus/')"><i class="glyphicon glyphicon-home"/></button> Corpus</a></li>
-                    <li role="presentation"><a href="#logs" aria-controls="logs" role="tab" data-toggle="tab">Logs</a></li>
-                </ul>
-
-
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active" id="documents">
 <!--                  { teiEditor:newCollectionPanel() } -->
                        <div class="row">
-                                <div class = "col-xs-3 col-sm-3 col-md-3">
+                                <div class = "col-xs-2 col-sm-2 col-md-2">
                                          { teiEditor:corpusList($corpus) }
                                 </div>
                                 {if ($corpus !="") then
-                                <div class = "col-xs-9 col-sm-9 col-md-9">
+                                <div class = "col-xs-10 col-sm-10 col-md-10">
                                   { switch($newDocType)
                                                                 case "simpleTitle" return (teiEditor:newDocumentSimpleTitlePanel($corpus), teiEditor:newDocumentSimpleTitleWithEditionFromExtResourcePanel($corpus))
                                                                 case "multi" return teiEditor:newDocumentPanelMultipleChoice($corpus)
@@ -6129,7 +6123,7 @@ declare function teiEditor:dashboard($corpus as xs:string?){
                                 </div>
                                 else if($teiEditor:appVariables//dasboardFullList/text() = "yes") then 
                                 (
-                                <div class= "col-xs-9 col-sm-9 col-md-9">
+                                <div class= "col-xs-10 col-sm-10 col-md-10">
                                 <h4>All documents</h4>
                                 {if($docDiff = 0) then "" 
                                 else if($docDiff = 1) then "There is 1 document not included in the generated list of documents"
@@ -6187,10 +6181,6 @@ declare function teiEditor:dashboard($corpus as xs:string?){
                                 else()
                                 }
                        </div>
-                       
-                      
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="logs">
                     </div>
                 </div>
             </div>
@@ -6256,7 +6246,7 @@ declare function teiEditor:dashboard($corpus as xs:string?){
                                                 ],
                           fixedColumns: false,
                           language: {{
-                                            search: "Search (also by TM no., EDCS no.,... and other identifiers):"
+                                            search: "Suche:"
                                                 }}
                             
                             }});
@@ -6413,67 +6403,30 @@ let $lang := request:get-parameter("lang", ())
   
 return
     <div id="documentListDiv">
-   <!-- Toggle columns: <a class="toggle-vis" data-column="1">TM no.</a>
-    <a class="toggle-vis" data-column="7">Other identifiers</a>
-    -->
-  <!--  
-     <div class="input-group">
-  <span class="input-group-addon" ><i class="glyphicon glyphicon-filter"/></span>
-    <input class="search"  id="search" placeholder="Filter document list"></input>
-    </div>
-    -->
     <table id="documentList" class="table">
-     <span class="pull-right">Sorting language: {$lang}</span>
+     <span class="pull-right">Sortierung: {$lang}</span>
      <thead>
         <tr>
         <td></td>
-        <td>Document title</td>
+        <td>Titel</td>
         <td class="sortingActive">ID</td>
-        <td>Provenance</td>
-        <td>Dating</td>
-        <td></td>
+        <td>Fundort</td>
+        <td>notBefore</td>
+        <td>notAfter</td>
         <td>TM no.</td><!--Header for TM -->
         <td>Edition</td>
-        <td>Other identifiers</td><!--Header for other identifiers-->
+        <td>GAMS</td><!--Header for other identifiers-->
         </tr>
         </thead>
         <tbody>
       
       {for $document at $pos in $documents
-        (: CP: [@xml:lang=$lang] removed; new xpath :)
-        let $title := $document//*:teiHeader/*:fileDesc/*:titleStmt/*:title/*:title/text()
-        (: let $title := if(count($document/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[not(@type='corpus')]) >1) then
-                $document/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[not(@type='corpus')]
-                else $document/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[not(@type='corpus')] :) 
-        let $provenanceUri := 
-                let $splitRef := tokenize(data($document//tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:location/tei:placeName/@ref), " ")
-                                                return 
-                                                    for $uri in $splitRef
-                                                    return
-                                                    if(contains($uri, $teiEditor:baseUri)) then 
-                                                    normalize-space($uri[1]) else ()
-           let $datingNotBefore :=
-                    if($document//tei:origDate/@notBefore-custom)
-                           then data($document//tei:origDate/@notBefore-custom)
-                    else if($document//tei:origDate/tei:date/@notBefore)
-                    
-                    then data($document//tei:origDate/tei:date/@notBefore)
-                    else ()
-         let $datingNotAfter :=
-                    if($document//tei:origDate/@notAfter-custom)
-                           then data($document//tei:origDate/@notAfter-custom)
-                    else if($document//tei:origDate/tei:date/@notAfter)
-                    
-                    then data($document//tei:origDate/tei:date/@notAfter)
-                    else ()
-        let $edition :=
-                if($document//tei:div[@type="bibliography"][@subtype="edition"]//tei:bibl)
-                then teiEditor:displayBibRef($document/@xml:id, $document//tei:div[@type="bibliography"][@subtype="edition"]//tei:bibl[1], "info", 1)
-                else "No edition"
+        let $title := concat($document//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title/tei:title[1]/text(), ', ', $document//*:teiHeader/*:fileDesc/*:titleStmt/*:title/*:title[2])
+        let $provenance := $document//tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName/tei:ref
+        let $datingNotBefore := data($document//tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate/@notBefore)
+        let $datingNotAfter := data($document//tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate/@notAfter)
+        let $editions := $document//tei:div[@type="bibliography"][@subtype="editions"]//tei:bibl/text()
         
-       (:order by $document//tei:fileDesc/tei:titleStmt/tei:title[not(@type='corpus')][@xml:lang=$lang]/text():)
-       
-       
        order by xs:int(substring-after(data($document/@xml:id), $docPrefix ))
                return
            <tr>
@@ -6486,54 +6439,13 @@ return
            <a href="/exist/apps/estudium/edit-documents/{data($document/@xml:id)}" target="_blank">
            <i class="glyphicon glyphicon-edit"/></a>
            </td>
-           <td>
-           { data($document/@xml:id)}
-           </td>
-           {
-                switch ($placeToDisplay)
-                  case 'provenance' return
-                        (
-                        if($provenanceUri != "") then
-                            (
-                            <td>
-                                    <a href="{$provenanceUri}" >{
-                                    $teiEditor:placeCollection//pleiades:Place[@rdf:about=$provenanceUri[1]]//dcterms:title[@xml:lang='en'][1]/text()
-                                    }
-                                    {""
-    (:                                $document//tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/string():)
-                                    }</a>
-                                    <a href="{ $provenanceUri }" target="_blank">
-                                    <i class="glyphicon glyphicon-new-window"/></a>
-                             </td>
-                             )
-                             else(<td/>)
-                        )
-                   case 'origin' return
-                   let $uri := data($document//tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName/@ref)
-                   return
-                        (<td>{ $document//tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName/text() }
-                                <!--<a href="" >
-                                { $document//tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/string() }
-                                </a>
-                                <a href="{ data($document//tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/@ref) }" target="_blank">
-                                
-                                <i class="glyphicon glyphicon-new-window"/></a>
-                                -->
-                         </td>
-                       )
-                  default return
-                  (<td>
-                                <a href="{$provenanceUri}" >{$document//tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/string()}</a>
-                                <a href="{ $provenanceUri }" target="_blank">
-                                <i class="glyphicon glyphicon-new-window"/></a>
-                         </td>
-                        )
-           }
+           <td>{ data($document/@xml:id)}</td>
+           <td>{ $provenance }</td>
            <td>{ $datingNotBefore }</td>
            <td>{ $datingNotAfter }</td>
            <td>{ $document//tei:idno[@subtype="tm"]/text()}</td>
-           <td>{ $edition }</td>
-           <td>{ string-join($document//tei:idno[not(contains(., $teiEditor:project))]/text(), " ")}</td>
+           <td><ul>{ for $edition in $editions return <li>{$edition}</li>}</ul></td>
+           <td><a href="{concat('https://gams.uni-graz.at/', $document//tei:idno[@type='PID']/text())}" target="_blank">{concat('https://gams.uni-graz.at/', $document//tei:idno[@type='PID']/text())}</a></td>
            </tr>
            
 
@@ -6579,7 +6491,7 @@ return
                                                 ],
                           fixedColumns: true,
                           language: {{
-                                            search: "Search (also by TM no., EDCS no.,... and other identifiers):"
+                                            search: "Suche:"
                                                 }}
                             }});
                         }} );</script>
