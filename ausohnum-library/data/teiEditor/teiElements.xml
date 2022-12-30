@@ -47,7 +47,7 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">FO antik</formLabel>
+        <formLabel xml:lang="en">Fundort antik</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement>
@@ -58,7 +58,7 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">FO modern</formLabel>
+        <formLabel xml:lang="en">Fundort modern</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement>
@@ -113,7 +113,7 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Fundumst</formLabel>
+        <formLabel xml:lang="en">Fundumstände</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement>
@@ -128,7 +128,7 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Verwahrort (Ort)</formLabel>
+        <formLabel xml:lang="en">Verwahrung (Ort)</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement>
@@ -139,7 +139,7 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Verwahrort (Institution)</formLabel>
+        <formLabel xml:lang="en">Verwahrung (Institution)</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement>
@@ -150,7 +150,7 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Inv. Nr.</formLabel>
+        <formLabel xml:lang="en">Inventarnummer</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement>
@@ -187,7 +187,7 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>x</cardinality>
-        <formLabel xml:lang="en">Arch. Klass.</formLabel>
+        <formLabel xml:lang="en">Archäologische Klassifikation</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement>
@@ -198,7 +198,7 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Obj.beschr.</formLabel>
+        <formLabel xml:lang="en">Beschreibung Objekt</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement>
@@ -209,7 +209,7 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Erh.zust. Obj.</formLabel>
+        <formLabel xml:lang="en">Zustand Objekt</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement>
@@ -255,7 +255,7 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en"> Maße Kommentar</formLabel>
+        <formLabel xml:lang="en">Maße Kommentar</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement>
@@ -266,7 +266,7 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Ikonogr.</formLabel>
+        <formLabel xml:lang="en">Ikonografie</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement>
@@ -299,7 +299,7 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Buchst.höhe</formLabel>
+        <formLabel xml:lang="en">Buchstabenhöhe</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement>   
@@ -310,7 +310,7 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Inschr.text</formLabel>
+        <formLabel xml:lang="en">Inschrift</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement>   
@@ -370,7 +370,7 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>x</cardinality>
-        <formLabel xml:lang="en">Komm. Göttern.</formLabel>
+        <formLabel xml:lang="en">Kommentar Götternamen</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement> 
@@ -381,22 +381,21 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>x</cardinality>
-        <formLabel xml:lang="en">Sonst. Komm.</formLabel>
+        <formLabel xml:lang="en">Kommentar allgemein</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement> 
 
-    
-
     <!-- /// -->
-    <!-- Externe Ressources -->
+    <!-- Elektronische Ressourcen -->
+
     <!-- EDH -->
     <teiElement>
         <nm>EDH</nm>
         <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="EDH"]</xpath>
         <contentType>text</contentType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">EDH</formLabel>
+        <formLabel xml:lang="en">Epigraphische Datenbank Heidelberg</formLabel>
         <fieldType>input</fieldType>
     </teiElement>
     <!-- Lupa -->
@@ -414,7 +413,7 @@
         <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="EDCS"]</xpath>
         <contentType>text</contentType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">ClaussSlaby</formLabel>
+        <formLabel xml:lang="en">Epigraphik-Datenbank Clauss/Slaby</formLabel>
         <fieldType>input</fieldType>
     </teiElement>
     <teiElement>
@@ -435,7 +434,7 @@
         <xpath>/tei:facsimile/tei:graphic</xpath>
         <contentType>nodes</contentType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Abb.</formLabel>
+        <formLabel xml:lang="en">Abbildungen</formLabel>
         <fieldType>group</fieldType>
         <teiElement>
             <nm>Abb_filename</nm>
@@ -460,7 +459,7 @@
         <xpath>/tei:text/tei:body/tei:div[@type="apparatus"]/tei:app</xpath>
         <contentType>text</contentType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">App. crit.</formLabel>
+        <formLabel xml:lang="en">Apparatus criticus</formLabel>
         <fieldType>group</fieldType>
         <teiElement>
             <nm>Appcrit_note</nm>
@@ -488,12 +487,35 @@
         <formLabel xml:lang="en">Autopsie</formLabel>
         <fieldType>input</fieldType>
     </teiElement>
+    <!-- Editionen -->
     <teiElement>
         <nm>Editionen</nm>
         <xpath>/tei:text/tei:body/tei:div[@subtype="editions"][@type="bibliography"]/tei:listBibl/tei:bibl</xpath>
         <contentType>text</contentType>
         <cardinality>x</cardinality>
-        <formLabel xml:lang="en">Editionen</formLabel>
+        <formLabel xml:lang="en">Editionen und Lesungen</formLabel>
+        <fieldType>input</fieldType>
+    </teiElement>
+
+    <!-- /// -->
+    <!-- Übersetzungen -->
+
+    <!-- dtUEbers -->
+    <teiElement>
+        <nm>dtUEbers</nm>
+        <xpath>/tei:text/tei:body/tei:div[@type="translation"][@xml:lang="de"]/tei:p</xpath>
+        <contentType>text</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Übersetzung Deutsch</formLabel>
+        <fieldType>input</fieldType>
+    </teiElement>
+    <!-- dtUEbers -->
+    <teiElement>
+        <nm>englUEbers</nm>
+        <xpath>/tei:text/tei:body/tei:div[@type="translation"][@xml:lang="en"]/tei:p</xpath>
+        <contentType>text</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Übersetzung Englisch</formLabel>
         <fieldType>input</fieldType>
     </teiElement>
     

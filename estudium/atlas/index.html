@@ -3,49 +3,36 @@
     <div class="container">
         <div class="row" data-template="app:navBar"/>
         <div class="row">
-
-
-
             <div class="col-md-9">
                 <div class="page-header">
-
-
-                    <h1>Database</h1>
-                    <p>This is the public access to data. For editing, please use admin menu.</p>
+                    <h1>Fercan</h1>
+                    <p>Dies ist der öffentliche Zugang zu den Daten. Zum Bearbeiten verwenden Sie bitte das Admin-Menü.</p>
                 </div>
             </div>
-
             <div class="row" data-template="app:lang">
                 <div lang="en" class="container-fluid">
-                    
-                    
                     <div class="col-xs-3 col-sm-3 col-lg-3">
-                        
-                        
-                            <div>
-                            <!--
-                                <div style="position: relative; top: -5em;">
-                                <h4>Access to data</h4>-->
+                        <div>
                             <div class="row">
                                 <div class="smallSquare col-xs-1 col-sm-1 col-lg-1">
-                                    <a href="/exist/apps/estudium/documents/list/" class="whiteLink">
+                                    <a href="$ausohnum-lib/documents/list/" class="whiteLink">
                                         <i class="glyphicon glyphicon-file"/>
                                         <div style="display: block; margin: 2px;" data-template="app:documentsInListCount" class=""/>Docs</a>
                                 </div>
                                 <div class="smallSquare col-xs-1 col-sm-1 col-lg-1">
-                                    <a href="/exist/apps/estudium/people/list/" class="whiteLink">
+                                    <a href="$ausohnum-lib/people/list/" class="whiteLink">
                                         <i class="glyphicon glyphicon-user"/>
                                         <div style="display: block; margin: 2px;" data-template="app:peopleCount" class=""/>People</a>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="smallSquare col-xs-1 col-sm-1 col-lg-1">
-                                    <a href="/exist/apps/estudium/places/list/" class="whiteLink">
+                                    <a href="$ausohnum-lib/places/list/" class="whiteLink">
                                         <i class="glyphicon glyphicon-pushpin"/>
-                                        <div style="display: block; margin: 2px;" data-template="app:placesCount" class=""/> Places</a>
+                                        <div style="display: block; margin: 2px;" data-template="app:placesCount" class=""/>Places</a>
                                 </div>
                                 <div class="smallSquare col-xs-1 col-sm-1 col-lg-1">
-                                    <a href="/exist/apps/estudium/atlas/map/" class="whiteLink">
+                                    <a href="$ausohnum-lib/atlas/map/" class="whiteLink">
                                         <i class="glyphicon glyphicon-globe"/>
                                         <br/>
                                         <br/>Map</a>
@@ -53,22 +40,10 @@
                             </div>
                         </div>
                     </div>
-                    <!--<div class="col-md-4">
-                    
-                    <p><span data-template="app:documentCount" class="badge badge-primary"/> <a href="/documents/list/">Documents</a></p>
-                    <p><span data-template="app:peopleCount" class="badge badge-primary"/> <a href="/people/list/">People</a></p>
-                    <p><span data-template="app:placesCount" class="badge badge-info"/> <a href="/places/list/">Places</a></p>
-                    
-                </div>-->
                 </div>
 
-
                 <div lang="fr" class="container-fluid">
-                    
                     <div class="col-xs-3 col-sm-3 col-lg-3">
-                        
-                        <!--<div style="position: relative; top: -5em;">
-                            <h4>Accéder aux données</h4>-->
                         <div>
                             <div class="row">
                                 <div class="smallSquare col-xs-1 col-sm-1 col-lg-1">
@@ -97,13 +72,6 @@
                             </div>
                         </div>
                     </div>
-                    <!--<div class="col-md-4">
-                    
-                    <p><span data-template="app:documentCount" class="badge badge-primary"/> <a href="/documents/list/">Documents</a></p>
-                    <p><span data-template="app:peopleCount" class="badge badge-primary"/> <a href="/people/list/">People</a></p>
-                    <p><span data-template="app:placesCount" class="badge badge-info"/> <a href="/places/list/">Places</a></p>
-                    
-                </div>-->
                 </div>
             </div>
         </div>
@@ -112,5 +80,5 @@
     <script> $("#topheader").hide(); $("#logoForMenu").removeClass("hidden");
         if($("#apcMenu").hasClass("active")){}
         else{$("#apcMenu").addClass("active");}
-        //$("#datanavbar-places").addClass("active");</script>
+    </script>
 </div>

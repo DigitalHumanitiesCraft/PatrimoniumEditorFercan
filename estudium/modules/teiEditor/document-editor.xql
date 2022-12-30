@@ -85,16 +85,27 @@ return
         <h3>Titel</h3>
         {teiEditor:displayElement('docTitle', (), (), ())}
         {teiEditor:displayElement('subTitle', (), (), ())}
-        <h3>Fund</h3>
         {teiEditor:displayElement('civitas', (), (), ())}
+        {teiEditor:displayElement('Appcrit', (), (), ())}
+        <h3>Übersetzung</h3>
+        {teiEditor:displayElement('dtUEbers', (), (), ())}
+        {teiEditor:displayElement('englUEbers', (), (), ())}
+        <h3>Autopsie, Editionen, Elektronische Ressourcen</h3>
+        {teiEditor:displayElement('Autopsie', (), (), ())}
+        {teiEditor:displayElement('Editionen', (), (), ())}
+        {teiEditor:displayElement('EDH', (), (), ())}
+        {teiEditor:displayElement('Lupa', (), (), ())}
+        {teiEditor:displayElement('ClaussSlaby', (), (), ())}
+        {teiEditor:displayElement('other', (), (), ())}
+        <h3>Fund</h3>
         {teiEditor:displayElement('FOantik', (), (), ())}
         {teiEditor:displayElement('FOmodern', (), (), ())}
         {teiEditor:displayElement('FOID', (), (), ())}
-        {teiEditor:displayElement('FSID', (), (), ())}
         {teiEditor:displayElement('Fundstelle', (), (), ())}
-        {teiEditor:displayElement('Fundjahr', (), (), ())}
+        {teiEditor:displayElement('FSID', (), (), ())}
         {teiEditor:displayElement('Fundumst', (), (), ())}
-        <h3>Lokalisierung</h3>
+        {teiEditor:displayElement('Fundjahr', (), (), ())}
+        <h3>Verwahrung</h3>
         {teiEditor:displayElement('VerwahrortOrt', (), (), ())}
         {teiEditor:displayElement('VerwahrortInstitution', (), (), ())}
         {teiEditor:displayElement('InvNr', (), (), ())}
@@ -102,43 +113,34 @@ return
         {teiEditor:displayElement('Inschrifttraeger', (), (), ())}
         {teiEditor:displayElement('Material', (), (), ())}
         {teiEditor:displayElement('ArchKlass', (), (), ())}
+        {teiEditor:displayElement('ErhzustInschr', (), (), ())}
         {teiEditor:displayElement('Objbeschr', (), (), ())}
         {teiEditor:displayElement('ErhzustObj', (), (), ())}
-        {teiEditor:displayElement('Ikonogr', (), (), ())}
-        {teiEditor:displayElement('ErhzustInschr', (), (), ())}
-        {teiEditor:displayElement('Schrifttechnik', (), (), ())}
-        {teiEditor:displayElement('Buchsthoehe', (), (), ())}
-        {teiEditor:displayElement('Inschrtext', (), (), ())}
         <h4>Maße</h4>
         {teiEditor:displayElement('Hoehe', (), (), ())}
         {teiEditor:displayElement('Breite', (), (), ())}
         {teiEditor:displayElement('Tiefe', (), (), ())}
         {teiEditor:displayElement('MasseKommentar', (), (), ())}
+        {teiEditor:displayElement('Ikonogr', (), (), ())}
+        {teiEditor:displayElement('Inschrtext', (), (), ())}
+        {teiEditor:displayElement('Schrifttechnik', (), (), ())}
+        {teiEditor:displayElement('Buchsthoehe', (), (), ())}
+        <h3>Kommentare</h3>
+        {teiEditor:displayElement('Notvar', (), (), ())}
+        {teiEditor:displayElement('KommGoettern', (), (), ())}
+        {teiEditor:displayElement('SonstKomm', (), (), ())}
         <h3>Datierung</h3>
         {teiEditor:displayElement('Datierung', (), (), ())}
         <h4>Dat. ISO</h4>
         {teiEditor:displayElement('DatISO_notAfter', (), (), ())}
         {teiEditor:displayElement('DatISO_notBefore', (), (), ())}
-        <h3>Kommentare</h3>
-        {teiEditor:displayElement('Notvar', (), (), ())}
-        {teiEditor:displayElement('KommGoettern', (), (), ())}
-        {teiEditor:displayElement('SonstKomm', (), (), ())}
         <h3>Listen</h3>
         {teiEditor:placesList($teiEditor:docId)}
         {teiEditor:peopleList($teiEditor:docId)}
-        <h3>Externe Ressources</h3>
-        {teiEditor:displayElement('EDH', (), (), ())}
-        {teiEditor:displayElement('Lupa', (), (), ())}
-        {teiEditor:displayElement('ClaussSlaby', (), (), ())}
-        {teiEditor:displayElement('other', (), (), ())}
-        <h3>Bibliographie</h3>
+        <h3>Abbildungen</h3>
         {teiEditor:displayElement('Abb', (), (), ())}
-        {teiEditor:displayElement('Appcrit', (), (), ())}
-        {teiEditor:displayElement('Autopsie', (), (), ())}
-        {teiEditor:displayElement('Editionen', (), (), ())}
-        {""
-(:      teiEditor:bibliographyPanel($teiEditor:docId, "secondary") :)
-        }
+        <h3>ToDo</h3>
+        {teiEditor:bibliographyPanel($teiEditor:docId, "secondary")}
       </div>
         <div class="col-sm-5 col-md-5 col-lg-5">
         
