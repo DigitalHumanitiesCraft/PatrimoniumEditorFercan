@@ -4270,7 +4270,7 @@ console.log("newText: " + newText);
                     +"</xml>";
 
     var request = new XMLHttpRequest();
-    request.open("POST", "/$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=saveTextarea" , true);
+    request.open("POST", "$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=saveTextarea" , true);
 
 var xmlDoc;
 var xmlDocXML;
@@ -4386,7 +4386,7 @@ $("body").css("opacity", "0.5");
      console.log("xmldata: " + xmlData);
 
 /*     request.open("POST", "http://patrimonium.huma-num.fr/admin/save/document/addBiblio", true);*/
-     request.open("POST", "/$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=removeItem" , true);
+     request.open("POST", "$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=removeItem" , true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/
@@ -4444,7 +4444,7 @@ $("button").attr("disabled", true);
      console.log("xmldata: " + xmlData);
 
 /*     request.open("POST", "http://patrimonium.huma-num.fr/admin/save/document/addBiblio", true);*/
-     request.open("POST", "/$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=removeResourceFromList" , true);
+     request.open("POST", "$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=removeResourceFromList" , true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/
@@ -4499,7 +4499,7 @@ $("body").css("opacity", "0.5");
      console.log("xmldata: " + xmlData);
 
 /*     request.open("POST", "http://patrimonium.huma-num.fr/admin/save/document/addBiblio", true);*/
-     request.open("POST", "/$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=removeSubPlace" , true);
+     request.open("POST", "$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=removeSubPlace" , true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/
@@ -4838,7 +4838,7 @@ $("body").css("opacity", "0.5");
      console.log("xmldata: " + xmlData);
 
 /*     request.open("POST", "http://patrimonium.huma-num.fr/admin/save/document/addBiblio", true);*/
-     request.open("POST", "/$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=getPeripleoPlaceDetails" , true);
+     request.open("POST", "$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=getPeripleoPlaceDetails" , true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/
@@ -5008,7 +5008,7 @@ function createNewPlace(){
      console.log("xmldata: " + xmlData);
 
 /*     request.open("POST", "http://patrimonium.huma-num.fr/admin/save/document/addBiblio", true);*/
-     request.open("POST", "/$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=createNewPlace" , true);
+     request.open("POST", "$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=createNewPlace" , true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/
@@ -5112,7 +5112,7 @@ function createNewPlace(type){
      console.log("xmldata: " + xmlData);
 
 /*     request.open("POST", "http://patrimonium.huma-num.fr/admin/save/document/addBiblio", true);*/
-     request.open("POST", "/$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=createNewPlace" , true);
+     request.open("POST", "$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=createNewPlace" , true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/
@@ -5199,7 +5199,7 @@ var xmlData="<xml>"
      console.log("xmldata: " + xmlData);
 
 /*     request.open("POST", "http://patrimonium.huma-num.fr/admin/save/document/addBiblio", true);*/
-     request.open("POST", "/$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=createNewSubPlace" , true);
+     request.open("POST", "$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=createNewSubPlace" , true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/
@@ -5260,7 +5260,7 @@ $("body").css("opacity", "0.5");
      console.log("xmldata: " + xmlData);
 
 /*     request.open("POST", "http://patrimonium.huma-num.fr/admin/save/document/addBiblio", true);*/
-     request.open("POST", "/$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=addPlaceToPlace" , true);
+     request.open("POST", "$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=addPlaceToPlace" , true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/
@@ -5339,7 +5339,7 @@ if( (latitude.match(/(^\-?[0-9]{1,2}\.[0-9]+$)?/g)) && (longitude.match(/(^\-?[0
      console.log("xmldata: " + xmlData);
 
 /*     request.open("POST", "http://patrimonium.huma-num.fr/admin/save/document/addBiblio", true);*/
-       request.open("POST", "/$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=updateLocation" , true);
+       request.open("POST", "$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=updateLocation" , true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/

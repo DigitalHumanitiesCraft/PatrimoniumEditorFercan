@@ -1093,7 +1093,8 @@ function saveFile(docId){
 
 
              //console.log("Response : Value of xmlDoc" + xmlDoc);
-             url4reload = "/edit-documents/" + docId;
+             // CP
+             url4reload = "/exist/apps/estudium/edit-documents/" + docId;
 /*             url4reload2 = "http://ausohnum.localhost/admin/reload/document/" + docId ;*/
              $('body').load(url4reload, function() {
                   console.log(url4reload);
@@ -1867,7 +1868,7 @@ function createAndAddPersonToDoc(docId){
 /*     console.log("persName praenomen: " + '<persName xml:lang="lat" type="praenomen">' + praenomen + '</persName>');*/
 
 /*     request.open("POST", "http://patrimonium.huma-num.fr/admin/save/document/addBiblio", true);*/
-     request.open("POST", "/$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=createPersonAndAddRefToDoc" , true);
+     request.open("POST", "$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=createPersonAndAddRefToDoc" , true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/

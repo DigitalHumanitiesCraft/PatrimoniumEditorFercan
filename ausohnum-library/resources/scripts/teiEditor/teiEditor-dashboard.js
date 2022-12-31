@@ -224,7 +224,8 @@ function createNewDocument($collection){
                                 $("body").css("opacity", "1");
                                 $("button").attr("disabled", false);
                                 $("input").attr("disabled", false);
-                                    var win = window.open('/edit-documents/' + newDocId , '_blank' );
+                                    // CP path fix
+                                    var win = window.open('/exist/apps/estudium/edit-documents/' + newDocId , '_blank' );
                                     if (win) {
                                         //Browser has allowed it to be opened
                                         win.focus();
@@ -317,8 +318,8 @@ function createNewDocumentFromTemplateWithEditionFromExternalResource($collectio
                                 $("body").css("opacity", "1");
                                 $("button").attr("disabled", false);
                                 $("input").attr("disabled", false);
-                                
-                                    var win = window.open('/edit-documents/' + newDocId , '_blank' );
+                                    // CP
+                                    var win = window.open('/exist/apps/estudium/edit-documents/' + newDocId , '_blank' );
                                     if (win) {
                                         //Browser has allowed it to be opened
                                         win.focus();
@@ -376,7 +377,8 @@ $("body").css("cursor", "wait");
                              
                              $("#documentList").replaceWith($(response).find("newList"));
                              $("body").css("cursor", "default"); 
-                                    var win = window.open('/edit-documents/' + newDocId , '_blank' );
+                                    //CP
+                                    var win = window.open('/exist/apps/estudium/edit-documents/' + newDocId , '_blank' );
                                     if (win) {
                                         //Browser has allowed it to be opened
                                         win.focus();
@@ -470,7 +472,7 @@ function retrieveEditionFromExternalResource($collection){
                         + "<docUri>" + docUri + "</docUri>"
                         + "</xml>"
     console.log(xmlData);
-    request.open("POST", "/$ausohnum-lib/modules/teiEditor/importAndConvert.xql" , true);
+    request.open("POST", "$ausohnum-lib/modules/teiEditor/importAndConvert.xql" , true);
         var xmlDoc;    
         request.onreadystatechange = function() {
         if (request.readyState == 4 && request.status == 200) {

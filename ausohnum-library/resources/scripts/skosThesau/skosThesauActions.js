@@ -94,7 +94,7 @@ function saveNTSortingOrderType(conceptId, lang){
                     + "<lang>" + lang + "</lang>"
                     +"</xml>";      
          var request = new XMLHttpRequest();
-        request.open("POST", "/$ausohnum-lib/modules/skosThesau/passDataToLibrary.xql?type=saveNTSortingOrderType" , true);
+        request.open("POST", "$ausohnum-lib/modules/skosThesau/passDataToLibrary.xql?type=saveNTSortingOrderType" , true);
         var xmlDoc;
         request.onreadystatechange = function() {
             if (request.readyState == 4 && request.status == 200) {
@@ -155,7 +155,7 @@ function saveConceptType(conceptId, lang){
                     + "<lang>" + lang + "</lang>"
                     +"</xml>";      
          var request = new XMLHttpRequest();
-        request.open("POST", "/$ausohnum-lib/modules/skosThesau/passDataToLibrary.xql?type=saveConceptType" , true);
+        request.open("POST", "$ausohnum-lib/modules/skosThesau/passDataToLibrary.xql?type=saveConceptType" , true);
         var xmlDoc;
         request.onreadystatechange = function() {
             if (request.readyState == 4 && request.status == 200) {
@@ -204,7 +204,7 @@ function saveData(elementName, lang, conceptId, index, originalValue){
                     + "<originalValue>" + originalValue + "</originalValue>"
                     +"</xml>";
         var request = new XMLHttpRequest();
-        request.open("POST", "/$ausohnum-lib/modules/skosThesau/passDataToLibrary.xql?type=saveData" , true);
+        request.open("POST", "$ausohnum-lib/modules/skosThesau/passDataToLibrary.xql?type=saveData" , true);
         var xmlDoc;
         request.onreadystatechange = function() {
             if (request.readyState == 4 && request.status == 200) {
@@ -269,7 +269,7 @@ function addSelectedNT2Concept(conceptId){
                   + "</xml>";
 
     var request = new XMLHttpRequest();
-    request.open("POST", "/$ausohnum-lib/modules/skosThesau/passDataToLibrary.xql?type=addExistingConceptasNT" , true);
+    request.open("POST", "$ausohnum-lib/modules/skosThesau/passDataToLibrary.xql?type=addExistingConceptasNT" , true);
 
 var xmlDoc;
      
@@ -433,7 +433,7 @@ function createConceptAndAddAsNT(conceptId, idPrefix, baseUri){
     console.log("xml data dans thesaurus: " + xmlData);
     var request = new XMLHttpRequest();
     
-    request.open("POST", "/$ausohnum-lib/modules/skosThesau/passDataToLibrary.xql?type=addNewConceptasNT" , true);
+    request.open("POST", "$ausohnum-lib/modules/skosThesau/passDataToLibrary.xql?type=addNewConceptasNT" , true);
     $('#dialogInsertNT').modal('hide');
     $('#addNTButton').hide();
     $("#narrower-list").append("<li><div class='loader'></div>Please wait while data is processed</li>");
@@ -507,7 +507,7 @@ function addNewPrefLabel(conceptId){
                     
                   + "</xml>";
     var request = new XMLHttpRequest();
-    request.open("POST", "/$ausohnum-lib/modules/skosThesau/passDataToLibrary.xql?type=addNewPrefLabel" , true);
+    request.open("POST", "$ausohnum-lib/modules/skosThesau/passDataToLibrary.xql?type=addNewPrefLabel" , true);
     var listDivId = "#" + "prefLabel-list"
 var xmlDoc;
      
@@ -557,7 +557,7 @@ function addNewAltLabel(conceptId){
                   + "</xml>";
     console.log("xmlData: " + xmlData);
     var request = new XMLHttpRequest();
-    request.open("POST", "/$ausohnum-lib/modules/skosThesau/passDataToLibrary.xql?type=addNewAltLabel" , true);
+    request.open("POST", "$ausohnum-lib/modules/skosThesau/passDataToLibrary.xql?type=addNewAltLabel" , true);
     var listDivId = "#" + "altLabel-list"
 var xmlDoc;
      
@@ -603,7 +603,7 @@ function deleteLabel(labelType, conceptId, lang, index, labelValue){
 
     var request = new XMLHttpRequest();
     
-    request.open("POST", "/$ausohnum-lib/modules/skosThesau/passDataToLibrary.xql?type=deletePrefLabel" , true);
+    request.open("POST", "$ausohnum-lib/modules/skosThesau/passDataToLibrary.xql?type=deletePrefLabel" , true);
 /*    console.log("xmldata: " + xmlData);*/
     var xmlDoc;
     request.onreadystatechange = function() {
@@ -636,7 +636,7 @@ function deleteRelatedConcept(relationType, conceptId, relatedConceptId, related
 
     var request = new XMLHttpRequest();
     
-    request.open("POST", "/$ausohnum-lib/modules/skosThesau/passDataToLibrary.xql?type=deleteRelation" , true);
+    request.open("POST", "$ausohnum-lib/modules/skosThesau/passDataToLibrary.xql?type=deleteRelation" , true);
 /*    console.log("xmldata: " + xmlData);*/
     var xmlDoc;
     request.onreadystatechange = function() {
@@ -670,7 +670,7 @@ function downloadCurrentScheme(schemeUri, schemeName){
                     +"</xml>";
     console.log("xmlData: " + xmlData);
     var request = new XMLHttpRequest();
-    request.open("POST", "/$ausohnum-lib/modules/skosThesau/passDataToLibrary.xql?type=downloadCurrentScheme" , true);
+    request.open("POST", "$ausohnum-lib/modules/skosThesau/passDataToLibrary.xql?type=downloadCurrentScheme" , true);
     var xmlDoc;
     console.log(request.readyState);
     request.onreadystatechange = function() {

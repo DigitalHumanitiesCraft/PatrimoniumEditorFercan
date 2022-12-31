@@ -790,7 +790,7 @@ if(inputElementForText.prop("tagName") === null)
 
      var request = new XMLHttpRequest();
      console.log("docURI = " + resourceURI);
-     request.open("POST", "/$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=saveData", true);
+     request.open("POST", "$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=saveData", true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/
@@ -964,7 +964,7 @@ function saveDataSimple(resourceURI,
 
      var request = new XMLHttpRequest();
      
-     request.open("POST", "/$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=saveData", true);
+     request.open("POST", "$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=saveData", true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/
@@ -1065,7 +1065,7 @@ var xmlData = "<xml>"
                     +"</xml>";
         console.log("NEw content to be saved: " + xmlData);
      var request = new XMLHttpRequest();
-     request.open("POST", "/$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=saveXmlFile", true);
+     request.open("POST", "$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=saveXmlFile", true);
      
      var xmlDoc;
 
@@ -1117,7 +1117,7 @@ console.log("newText: " + newText);
                     +"</xml>";
 
     var request = new XMLHttpRequest();
-    request.open("POST", "/$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=saveTextarea" , true);
+    request.open("POST", "$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=saveTextarea" , true);
 
 var xmlDoc;
 var xmlDocXML;
@@ -1321,7 +1321,7 @@ function createNewPerson(){
      console.log("xmldata: " + xmlData);
 
 /*     request.open("POST", "http://patrimonium.huma-num.fr/admin/save/document/addBiblio", true);*/
-     request.open("POST", "/$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=createNewPerson" , true);
+     request.open("POST", "$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=createNewPerson" , true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/
@@ -1561,7 +1561,7 @@ function checkReverse(){
                                     + "<bondTypeUri>" + bondTypeUri +"</bondTypeUri>"
                                 +"</xml>";
                         console.log("xmldata: " + xmlData);
-                        request.open("POST", "/$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=getBondTypeReverse" , true);
+                        request.open("POST", "$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=getBondTypeReverse" , true);
                         var xmlDoc;
                 
                      request.onreadystatechange = function() {
@@ -1641,7 +1641,7 @@ function addBond(){
                         console.log("bondTypeReverseUri: " + bondTypeReverseUri );
                         console.log("bondTypeUri : " + bondTypeUri );
                         console.log("bondTypeReverseCode: " + bondTypeReverseCode);
-                        request.open("POST", "/$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=addBond" , true);
+                        request.open("POST", "$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=addBond" , true);
                         var xmlDoc;
                 
                      request.onreadystatechange = function() {
@@ -1727,7 +1727,7 @@ function addFunction(){
                                 + "<targetUri>" + targetUri +"</targetUri>"
                             +"</xml>";
         console.log("xmldata: " + xmlData);
-        request.open("POST", "/$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=addFunction" , true);
+        request.open("POST", "$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=addFunction" , true);
         var xmlDoc;
 
      request.onreadystatechange = function() {
@@ -1771,7 +1771,7 @@ function functionMove(functionPosition, moveDirection){
                             + "<moveDirection>" + moveDirection + "</moveDirection>"
                     +"</xml>";
         console.log("xmldata: " + xmlData);
-        request.open("POST", "/$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=moveFunction" , true);
+        request.open("POST", "$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=moveFunction" , true);
         var xmlDoc;
 
      request.onreadystatechange = function() {
@@ -1822,7 +1822,7 @@ $("button").attr("disabled", true);
      console.log("xmldata: " + xmlData);
 
 /*     request.open("POST", "http://patrimonium.huma-num.fr/admin/save/document/addBiblio", true);*/
-     request.open("POST", "/$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=removeResourceFromList" , true);
+     request.open("POST", "$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=removeResourceFromList" , true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/
@@ -1880,7 +1880,7 @@ function removeItem(element, resourceURI,
                      console.log("xmldata: " + xmlData);
                 
                 /*     request.open("POST", "http://patrimonium.huma-num.fr/admin/save/document/addBiblio", true);*/
-                     request.open("POST", "/$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=removeItem" , true);
+                     request.open("POST", "$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=removeItem" , true);
                 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
                 /*                , true);*/
@@ -1946,7 +1946,7 @@ function resetValue(element, resourceURI,
 
 var request = new XMLHttpRequest();
 console.log("docURI = " + resourceURI);
-request.open("POST", "/$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=saveData", true);
+request.open("POST", "$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=saveData", true);
 
 var xmlDoc;
 
@@ -1987,7 +1987,7 @@ $("body").css("opacity", "0.5");
      console.log("xmldata: " + xmlData);
 
 /*     request.open("POST", "http://patrimonium.huma-num.fr/admin/save/document/addBiblio", true);*/
-     request.open("POST", "/$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=removeFunction" , true);
+     request.open("POST", "$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=removeFunction" , true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/
@@ -2038,7 +2038,7 @@ function removeRelationship(element, personUri,
      console.log("xmldata: " + xmlData);
 
 /*     request.open("POST", "http://patrimonium.huma-num.fr/admin/save/document/addBiblio", true);*/
-     request.open("POST", "/$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=removeRelationship" , true);
+     request.open("POST", "$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=removeRelationship" , true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/
@@ -2099,7 +2099,7 @@ function confirmRelationshipDeletion(){
      console.log("xmldata: " + xmlData);
 
 /*     request.open("POST", "http://patrimonium.huma-num.fr/admin/save/document/addBiblio", true);*/
-     request.open("POST", "/$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=confirmRelationshipDeletion" , true);
+     request.open("POST", "$ausohnum-lib/modules/prosopoManager/getFunctions.xql?type=confirmRelationshipDeletion" , true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/
