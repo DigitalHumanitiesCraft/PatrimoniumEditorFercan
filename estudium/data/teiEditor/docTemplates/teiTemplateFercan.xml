@@ -1,367 +1,254 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="petrae" n="">
-    <!--    @xml:id must be URI beyond the project and unique at corpus level, and should include reference to project whenever it is possible-->
-    <!--    @n should be used to specify the source project-->
-    <teiHeader xml:lang="en">
-        <!--@xml:lang should be used so that multilingual metadata on a same document could be compiled from different projects-->
-        <fileDesc>
-            <!--            Each file allows for the encoding of 1 to n texts (as witnesses) attested on an (originally) unique document. It is important to keep in mind that the unit encoded is the original document.-->
-            <titleStmt>
-                <!--                Metadata about the ancient text(s), as a discrete witness(es) in its/their material context (i.e. not the abstract text, for which see /TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents-->
-                <title>Document title</title>
-            </titleStmt>
-            <editionStmt>
-                <!--                Metadata about the current digital edition-->
-                <edition>Digital edition encoded for <ref target="http://patrimonium.huma-num.fr">Project Patrimonium</ref> <date when="2015">2015</date>
-                </edition>
-                <!--                Plain text summarizing the purpose of the current, digital file.-->
-                <!--                A <date>, with a @when in order to be machine readable, should embrace any date related to the edition-->
-                <!--                A <ref> should point to web page’s project-->
-
-                <principal>
-                    <persName ref="#adallarosa">Alberto Dalla Rosa</persName>
-                    <!--                    @ref should be used to point to person in /TEI/teiHeader/profileDesc/particDesc/listPerson[@type=”editorial”], below-->
-                </principal>
-                <!--                @ref should be used to point to person(s) listed in /TEI/teiHeader/profileDesc/particDesc/listPerson[@type=’editorial’], below-->
-                <respStmt>
-                    <resp>Metadata</resp>
-                    <!--                    Name(s) of people responsible for metadata input-->
-                    <persName ref="#personID">Name</persName>
-                    <persName ref="#personID">Name</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Text transliteration</resp>
-                    <!--                    Names of the people responsible for the translitteration of the Egyptian text-->
-                    <persName ref="#personID">Name</persName>
-                    <persName ref="#personID">Name</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Text translation</resp>
-                    <!--                    Name(s) of people responsible for the translation of the ancient text-->
-                    <persName ref="#personID">Name</persName>
-                    <persName ref="#personID">Name</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Grammatical analysis</resp>
-                    <!--                    Name(s) of people responsible for the grammatical and lemmatisation of the ancient Egyptian texts-->
-                    <persName ref="#personID">Name</persName>
-                    <persName ref="#personID">Name</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>TEI encoding</resp>
-                    <!--                    Name of the people responsible for the TEI encoding, if relevant-->
-                    <persName ref="#personID">Name</persName>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <!--                Metadata about the (institutional) publisher of the current, digital file-->
-                <publisher>Institut Ausonius (UMR 5607) - Maison de l'archéologie</publisher>
-                <!--                Institution or individual responsible for the publication-->
-                <pubPlace>
-                    <address>
-                        <addrLine>8, Esplanade des Antilles</addrLine>
-                        <addrLine>33607 Pessac</addrLine>
-                        <addrLine>France</addrLine>
-                    </address>
-                </pubPlace>
-                <idno type="URI">https://ausohnum.huma-num.fr/apps/eStudium/document/apc-0</idno>
-                <idno type="tm">0000</idno>
-                <!--                Reference to document’s URI in project online database or similar-->
-                <availability xml:lang="en" status="free">
-                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
-                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
-                        4.0)</licence>
-                    <!--                    Public is free to:-->
-                    <!--                    •	Share — copy and redistribute the material in any medium or format-->
-                    <!--                    •	Adapt — remix, transform, and build upon the material for any purpose, even commercially.-->
-                    <!--                    Under the following terms:-->
-                    <!--                    •	Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.-->
-                    <!--                    •	ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.-->
-                </availability>
-                <date when="2018"/>
-                <!--                Release date of current file-->
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <msName>Title for the document</msName>
-                        <!--                        Name of the “ideal”, reconstructed as original, document bearing the text.-->
-                        <!--                        Whether intact or in several fragments, data about the physical object(s) in its present state are to be documented below in /TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart-->
-                    </msIdentifier>
-                    <msContents>
-                        <!--                        Data about (abstract) texts or sub-texts present on the “ideal” object-->
-                        <summary>Text</summary>
-                        <!--                        Summary of the ancient Egyptian text(s)-->
-                        <msItem xml:id="apc-0-text0" ana="ref-to-canonical-text-uri" class="ref-to-class" defective="true">
-                            <!--                            As many msItem as desired. The <div type=’textpart’> refer to the msItem to which they correspond.-->
-                            <!--                            @ana (or @class?) to document text type or genre-->
-                            <locus scheme="#id-term-from-thesaurus" from="value" to="value"> </locus>
-                            <author>
-                                <persName cert="unknown" ref="#id-person"/>
-                            </author>
-                            <title type="ancient"/>
-                            <title type="modern">Free text</title>
-                            <!--e.g.: "Formule de donation royale"-->
-                            <textLang mainLang="" otherLangs=""/>
-                        </msItem>
-                    </msContents>
-                    <physDesc>
-                        <!--                        Physical description of the “ideal” (and possibly reconstructed) object bearing the text(s)-->
-                        <objectDesc>
-                            <supportDesc>
-                                <support>
-                                    <objectType ref="#id-object-type-in-thesaurus"/>
-                                    <material ref="#id-material-in-thesaurus"/>
-                                    <dimensions unit="mm">
-                                        <!--                                        Millimetres as default unit, which prevents from using decimal-->
-                                        <!--                                        Max dimensions to be recorded-->
-                                        <height/>
-                                        <width/>
-                                        <depth/>
-                                    </dimensions>
-                                </support>
-                                <condition>Physical condition: <rs ref="#no_entry-see-text">complet</rs>
-                                </condition>
-                            </supportDesc>
-                            <layoutDesc>
-                                <summary/>
-                                <!--                                Free text description of general text layout-->
-
-                                <layout xml:id="ck68-rightShoulder" columns="2" corresp="#ck68-upperSide">
-                                    <!--                                    1 discrete zone of text, identified by a URI-->
-                                    <!--                                    Indication of the number of columns and/or lines (@writtenLines)-->
-                                    <!--                                    Link can be done to: 1) physical location on the object and 2) to a figure, which has to be described in <decoNote> (see below)-->
-                                    <desc>Deux colonnes de texte sur l'épaule droite</desc>
-                                    <!--                                    Free text description of the layout-->
-                                </layout>
-                            </layoutDesc>
-                        </objectDesc>
-                        <decoDesc>
-                            <decoNote xml:id="ck68-fig-osiris" corresp="ck68-frontSide">
-                                <!--                                Link to physical location is made in a @corresp-->
-                                <desc>Figure
-                                    d'Osiris</desc>
-                            </decoNote>
-                        </decoDesc>
-                    </physDesc>
-                    <history>
-                        <!--                        Metadata about the history of the ‘ideal’ document-->
-                        <origin>
-                            <!--                            Metadata related to the place of origin and date of creation of the document, i.e. where it was erected and used in the ancient times-->
-                            <tei:origDate xmlns:tei="http://www.tei-c.org/ns/1.0">
-                                <!--                                Date of creation of the object-->
-                                <date type="earliest" datingPoint="#id-date-in-thesaurus" notBefore="-0875"/>
-                                <!--                                @datingPoint points to entry in meta-Egypt thesaurus-->
-                                <!--                                @notBefore and @notAfter start with a 0 (zero) if date comprised between -1000 and 1000-->
-                                <!--                                if one is able to specify the regnal year or similar, use of @ when-custom and @datingMethod,-->
-                                <!--								e.g. <date when-custom="Ptolemaios_III:11" datingMethod="#regnal_year" notBefore="-0236" notAfter="-0235" precision="high">ḥsb.t 11</date>-->
-                                <date type="latest" datingPoint="#id-date-in-thesaurus" notAfter="-0816"/>
-                                <certainty match="date/@notBefore|date/@notAfter" locus="value" degree="0.5"/>
-                                <tei:note/>
-                            </tei:origDate>
-                            <origPlace cert="medium" ref="#ancient-place-topbib-no" type="foundation"> </origPlace>
-                            <!--                            Place of origin (not necessarily place of provenance (i.e. where the object was found).-->
-                            <!--                            Reference to ancient place in TopBib is made through @ref.-->
-                        </origin>
-                        <provenance type="enumerated-value" cert="high">
-                            <!--                                At the level <msDesc>, i.e., the ideal-reconstructed document, the element <provenance> is used to refer to an Ancient provenance, like an archive or a foundation deposit-->
-                            <!--                                @type: e.g. "archive", "foundation deposit", etc.-->
-                            <!--                                The actual geographic provenance of (each part of) the document is described in the <msFrag>, which refers to the physical object(s)-->
-                        </provenance>
-                    </history>
-                    <additional>
-                        <surrogates>
-                            <!--                            Provides links to images of the object-->
-                            <list>
-                                <item>Fonds CLES : 3 clichés = IFAO NU_2006_8222-8224</item>
-                                <item>
-                                    <graphic url="http://www.globalegyptianmuseum.org/large.aspx?img=images/EMC/310-9-EM-5-9158-_800x800[1].jpg"/>
-                                </item>
-                                <item/>
-                            </list>
-                        </surrogates>
-                        <listBibl>
-                            <!--                            Lists the bibliography relating to the object and texts-->
-                            <!--                            Collaboration with OEB will be investigated to make reference compilation easier.-->
-
-                        </listBibl>
-                    </additional>
-                    <msFrag>
-                        <!--                        Use msFrag for describing the physical object or each single part/fragment of it in its modern state.-->
-                        <!--                        msPart is understood with a broad meaning in order to describe dispersed fragments of an originally unique object. It might be the case that msFrag will have to be used instead, if this element is added to the next TEI release; see discussions under https://sourceforge.net/p/tei/feature-requests/505/ and https://listserv.brown.edu/archives/cgi-bin/wa?A3=ind1503&L=TEI-L&E=8bit&P=82593&B=-\-&T=text%2Fplain;%20charset=windows-1252&header=1-->
-                        <!--                        As a physical object, this comes with data about provenance(s), place(s) of repository and a physical description specific to the fragment.-->
-                        <msIdentifier>
-                            <country ref="http://geonames.org/357994">Egypte</country>
-                            <!--                            Reference to geonames.org entry for country where monument is kept (URI root = www.geonames.org, which has to be followed by country or place id, after a slash; for instance Egypt = http://www.geonames.org/357994-->
-                            <settlement ref="http://geonames.org/360630">Le Caire</settlement>
-                            <institution/>
-                            <!--                            To be used if Institution and repository are different-->
-                            <repository ref="#Museum-ID-in-thesaurus">Musée égyptien</repository>
-                            <!--Physical place where the document is kept, in contrast to the institution in charge of it, and which can be the same-->
-                            <collection/>
-                            <!--                            Name of the collection to which a document belong, if relevant-->
-                            <idno type="JE"/>
-                            <!--                            Label of the main inventory number for that repository.-->
-                            <altIdentifier>
-                                <!--                                Other inventory numbers have to be enclosed in as many couples <altIdentifier><idno> as needed-->
-                                <idno type="RT"/>
-                            </altIdentifier>
-                            <altIdentifier>
-                                <idno type="CG"/>
-                            </altIdentifier>
-                            <altIdentifier>
-                                <idno type="SR"/>
-                            </altIdentifier>
-                        </msIdentifier>
-                        <physDesc>
-                            <objectDesc>
-                                <supportDesc>
-                                    <support>
-                                        <dimensions unit="mm">
-                                            <!--                                            Millimetres as default unit, which prevents from using decimal-->
-                                            <!--                                            Max dimensions to be recorded-->
-                                            <!--                                            Only if relevant-->
-                                            <height>123</height>
-                                            <width/>
-                                            <depth/>
-                                        </dimensions>
-                                    </support>
-                                    <condition>Physical condition: <rs ref="#id-state-in-ths">complet</rs>
-                                    </condition>
-                                </supportDesc>
-                            </objectDesc>
-                        </physDesc>
-
-                        <history>
-                            <provenance type="enumerated-value" cert="high">
-                                <!--                                One or more provenance can be recorded, in order to document the whole history of the object (excavation, auction, etc.)-->
-                                <!--                                @type: e.g. "excavations", "art-market", "museum", "auction"-->
-                                <!--                                Reference to TopBib in @ref-->
-                                <date notBefore="1904" notAfter="1904"/>
-                                <persName cert="high" role="Finder">Legrain, Georges</persName>
-                                <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" cert="high">
-                                    <placeName ref="#topbib-no">Textual value</placeName>
-                                </tei:location>
-                            </provenance>
-
-                        </history>
-                        <additional>
-                            <adminInfo>
-                                <!--                                Information about the present custody and availability-->
-                                <availability status="restricted">
-                                    <!--                                    Availability. If object has been published, this can be recalled here-->
-                                    <!--                                    Values for @satus are “free”, “unknown” (default) and “restricted”-->
-                                    <p>Free text</p>
-                                </availability>
-                                <custodialHist>
-                                    <!--                                    Description of a manuscript's custodial history, either as running prose or as a series of dated custodial events.-->
-                                    <custEvent/>
-                                </custodialHist>
-                            </adminInfo>
-
-                        </additional>
-                    </msFrag>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <catRef/>
-            </textClass>
-            <langUsage>
-                <!--List of languages used in the XML file-->
-                <language ident="en">English</language>
-            </langUsage>
-            <particDesc>
-                <tei:listPerson xmlns:tei="http://www.tei-c.org/ns/1.0" type="editorial">
-                    <!--                    List of people involved in the xml file, such as authors, editors, etc.-->
-                    <person xml:id="personID">
-                        <persName/>
-                    </person>
-                </tei:listPerson>
-                <tei:listPerson xmlns:tei="http://www.tei-c.org/ns/1.0" type="peopleInDocument">
-                    <!--                    List of people mentioned in the ancient text-->
-                    <person xml:id="CK0068mq01" sex="1">
-                        <persName xml:lang="eg-tr">Ḥr</persName>
-                        <persName xml:lang="fr">Hor (III)</persName>
-                        <!--<floruit notBefore="" notAfter=""/> -->
-                    </person>
-                </tei:listPerson>
-                <tei:listPerson xmlns:tei="http://www.tei-c.org/ns/1.0" type="deitiesInDocument">
-                    <!--                    List of deities mentioned in the ancient text-->
-
-                </tei:listPerson>
-            </particDesc>
-        </profileDesc>
-        <encodingDesc>
-            <classDecl>
-                <taxonomy xml:id="teiEditorGeneralDocumentClass">
-                    <category xml:id="apc-c-1">
-                        <catDesc>Epigraphy</catDesc>
-                    </category>
-                    <category xml:id="apc-c-2">
-                        <catDesc>Papyrology</catDesc>
-                    </category>
-                    <category xml:id="apc-c-3">
-                        <catDesc>Litterary</catDesc>
-                    </category>
-                </taxonomy>
-            </classDecl>
-        </encodingDesc>
-        <revisionDesc status="draft">
-            <!--            Possible statuses: drat, published -->
-            <listChange>
-                <tei:change xmlns:tei="http://www.tei-c.org/ns/1.0" who="#personID" when="2015-09-12">Correction des balises de personnes et
-                    mise en correspondance transcription / traduction</tei:change>
-            </listChange>
-        </revisionDesc>
-    </teiHeader>
-    <sourceDoc>
-        <!--                                          Each surface must have an URI, so that reference to it can be done in /TEI/teiHeader/fileDesc/sourceDesc/msDesc/physDesc/objectDesc/layoutDesc/layout (see above)-->
-        <!--                                          Short description of the zone in a <desc/>-->
-        <!--                                          @ana allows reference to canonical reference system, controlled by a thesaurus of object parts-->
-        <surface xml:id="ck68-upperSide" ana="upper-side" facs="http://www.ifao.egnet.net/bases/cachette/docs/vues/NU_2006_8223.jpg">
-            <desc>Face avant de la de la statue, composée d'une scène représentant 4 divinités sous
-                laquelle un texte de 6 lignes a été gravé</desc>
-        </surface>
-        
-    </sourceDoc>
-    <text>
-        <body>
-            <div type="edition">
-                <div type="textpart">
-                    <ab>text</ab>
-                </div>
-            </div>
-
-            <div type="translation" xml:lang="fr">
-              
-                <div type="textpart">
-                    <ab/>
-                </div>
-              
-            </div>
-          
-            <div type="apparatus">
-            </div>
-            <div type="commentary">
-                <list>
-                    <item>
-                        <ptr target=""/>
-                        <desc/>
-                    </item>
-                </list>
-            </div>
-            <div type="bibliography" subtype="edition">
-                <listBibl>
-                </listBibl>
-            </div>
-            <div type="bibliography" subtype="secondary">
-                <head>Other publications</head>
-                <listBibl>
-                </listBibl>
-            </div>
-        </body>
-    </text>
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fercan" n="">
+	<!--    @xml:id must be URI beyond the project and unique at corpus level, and should include reference to project whenever it is possible-->
+	<!--    @n should be used to specify the source project-->
+	<teiHeader xml:lang="en">
+		<!--@xml:lang should be used so that multilingual metadata on a same document could be compiled from different projects-->
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Document title main</title><title type="sub"
+					>Document title sub</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName instant="false" full="yes"><forename full="yes"
+						>Werner</forename><surname full="yes">Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName instant="false" full="yes"><forename full="yes"
+						>Astrid</forename><surname full="yes">Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+				<!--                Metadata about the ancient text(s), as a discrete witness(es) in its/their material context (i.e. not the abstract text, for which see /TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents-->
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName
+					ref="https://d-nb.info/gnd/1213531357" instant="false" full="yes">Institut für
+					Antike, Fachbereich Alte Geschichte und Epigraphik, Karl-Franzens-Universität
+					Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName
+					ref="http://d-nb.info/gnd/1137284463" instant="false" full="yes">Zentrum für
+					Informationsmodellierung - Austrian Centre for Digital Humanities,
+					Karl-Franzens-Universität Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName instant="false"
+					full="yes">GAMS - Geisteswissenschaftliches Asset Management
+					System</orgName></distributor>
+				<date when="2022" instant="false">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.1</idno>
+				<availability default="false">
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName instant="false" full="yes"><forename full="yes"
+						>Wolfgang</forename><surname full="yes">Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc default="false">
+				<msDesc status="draft">
+					<msIdentifier>
+						<settlement/>
+						<repository/>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary/>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<p part="N"></p>
+									<material>
+										<ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/>
+									</material>
+									<objectType/>
+									<dimensions>
+											<height unit="cm"/>
+											<width unit="cm"/>
+											<depth unit="cm"/>
+										</dimensions>
+								</support>
+								<condition>
+									<ref type="context"
+									target="context:fercan.condition"
+									ana="https://gams.uni-graz.at/o:fercan.arch#"/>
+								</condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout>
+									<p part="N"/>
+									<note type="condition"
+										anchored="true"></note>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote>
+								<desc type="execution"></desc>
+								<height unit="cm" atLeast="0" atMost="0"></height>
+							</handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote>
+								<p part="N"></p>
+								<term ana="https://gams.uni-graz.at/o:fercan.arch#">
+									<ref type="context" target="context:fercan.arch."></ref>
+								</term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin instant="false">
+							<origPlace instant="false">
+								<placeName ref="https://pleiades.stoa.org/places/" instant="false" full="yes">Bonna</placeName>
+								<region>CCAA</region>
+							</origPlace>
+							<origDate notBefore="0001" notAfter="0001" instant="false">
+								
+							</origDate>
+						</origin>
+						<provenance type="found" when="1900">
+							<placeName instant="false" full="yes">
+								<ref type="context" target="context:fercan.geog.modern.">Bonn</ref>
+							</placeName>
+							<p part="N"></p>
+							<location instant="false">
+									<geo decls="#WGS"></geo>
+							</location>
+							<note anchored="true"></note>
+						</provenance>
+						<provenance type="observed" subtype="autopsied"></provenance>
+					</history>
+				</msDesc>
+				<listPlace default="false">
+					<place instant="false"/>
+					<place type="antique_term" instant="false">
+						<placeName instant="false" full="yes">
+							<ref type="context" target="context:fercan.geog.term."></ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson default="false">
+					<person instant="false">
+						<persName type="gentilnomen" instant="false" full="yes">
+							<ref type="context" target="context:fercan.person.">Aurelius</ref>
+						</persName>
+					</person>
+				</listPerson>
+				<listOrg default="false">
+					<org instant="false"/>
+					<org type="military_unit" instant="false">
+						<orgName instant="false" full="yes">
+							<ref type="context" target="context:fercan.org.">legio I Minervia</ref>
+						</orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84" default="false">World Geodetic System</geoDecl>
+			<editorialDecl default="false">
+				<p part="N">Digitale Repräsentation konform mit EpiDoc:
+					http://epidoc.sourceforge.net</p>
+				<p part="N">Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel
+					bildet Inschrift originalgetreu ab, Minuskel enthält editorische
+					Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc default="false">
+				<p part="N">Die keltischen Götternamen in den Inschriften der römischen Provinz
+					Germania Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p part="N">Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen,
+					die sich in lateinischen Inschriften der römischen Provinz Germania Inferior
+					erhaltenen haben, zusammenzustellen und auszuwerten. Die gewählte
+					Quellengrundlage erscheint besonders geeignet Erscheinungsformen zu untersuchen,
+					welche auf religiöser Ebene durch das Zusammentreffen von verschiedenen
+					kulturellen Einflüssen entstanden sind. Diese sind hier einerseits definiert
+					durch die Verwendung der keltischen Sprache, andererseits durch die lateinische
+					Sprache und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem
+					Etikett „römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen,
+					sondern auch damit verbundenen gesellschaftlichen Aspekten und den
+					entsprechenden Mentalitäten. Doch soll damit auch zu einem verbesserten
+					Gesamtbild der Provinzialreligion in Niedergermanien beigetragen werden.<lb/>
+					Die Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage default="false">
+				<language ident="la">Latein</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc status="draft">
+			<change when="2019" n="1"
+				corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26" status="draft"
+				>Initial Version</change>
+			<change when="2020" n="2"
+				corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07" status="draft"
+				>Version 2</change>
+			<change when="2022" n="3" status="draft">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="file:///0001_Front.jpg">
+			<desc> </desc>
+		</graphic>
+	</facsimile>
+	<text>
+		<body>
+			<ab part="N"><ref target="context:fercan" type="context">FERCAN</ref>
+				<ref type="context" target="context:fercan.other.nachtraegliches_einfuegen">nachträgliches Einfügen</ref>
+			</ab>
+			<div subtype="editions" type="bibliography" part="N" org="uniform" sample="complete">
+				<listBibl default="false">
+					<bibl xml:id="LIT.1" default="false" status="draft"> </bibl>
+				</listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" part="N" org="uniform" sample="complete">
+				<listBibl default="false">
+					<bibl type="EDCS" default="false" status="draft"></bibl>
+					<bibl type="EDH" default="false" status="draft"></bibl>
+					<bibl type="trismegistos" default="false" status="draft"></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" part="N" org="uniform" sample="complete">
+				<ab part="N"><orig></orig></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" part="N" org="uniform" sample="complete"><ab part="N"></ab></div>
+			<div type="translation" xml:lang="de" part="N" org="uniform" sample="complete">
+				<p part="N"></p>
+			</div>
+			<div type="translation" xml:lang="en" part="N" org="uniform" sample="complete">
+				<p part="N"></p>
+			</div>
+			<div type="apparatus" part="N" org="uniform" sample="complete">
+				<app loc="#MIN.1 #MAJ.1">
+					<note anchored="true"></note>
+				</app>
+			</div>
+			<div type="commentary" subtype="general" part="N" org="uniform" sample="complete">
+				<p part="N"></p>
+			</div>
+			<div type="commentary" subtype="language" part="N" org="uniform" sample="complete">
+				<p part="N"></p>
+			</div>
+			<div type="commentary" subtype="deity" part="N" org="uniform" sample="complete">
+				<p part="N"></p>
+				<p part="N"></p>
+				<p part="N"></p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+				<link target="#MAJ.1 #MIN.1"/>
+			</linkGrp>
+		</body>
+	</text>
 </TEI>
