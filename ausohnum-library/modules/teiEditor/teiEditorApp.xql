@@ -6941,84 +6941,47 @@ let $templateList :=  collection('/db/apps/' || $teiEditor:project || '/data/tei
             <h3>Create from a template</h3>
                   <div class="">
                         <label for="newDocTemplate{$collection}" >Select a template</label>
-                        
                         { 
                         <select id="newDocTemplate{$collection}" name="newDocTemplate{$collection}" 
                         class="templateSelect">
-                        
                               {for $items in $templateList//tei:TEI
-(:                              order by $items[@xml:id = $teiEditor:project], $items/@xml:id:)
                                   return
                                   <option value="{data($items/@xml:id)}">{data($items/@xml:id)}</option>
- (:                                       if ((contains(data($items/@xml:id), $teiEditor:project)))
-                                        then (
-                                        <option value="{data($items/@xml:id)}" selected="selected">{data($items/@xml:id)}</option>)
-                                        else (
-                                        <option value="{data($items/@xml:id)}">{data($items/@xml:id)}</option>
-                                        ):)
-
-                                     }
+                              }
                         </select>}
                     </div>
                     <br/>
                     <div class="form-group">
-                                <label for="newDocTitle{$collection}" >Give a Title</label>
-                                
-                                <input type="text" class="form-control" id="newDocTitle{$collection}" name="newDocTitle{$collection}"/>
+                        <label for="newDocTitle{$collection}" >Give a Title</label>
+                        <input type="text" class="form-control" id="newDocTitle{$collection}" name="newDocTitle{$collection}"/>
                                 
                       </div>
-                    
-                     {skosThesau:dropDownThesauXML('c21851', 'en', 'Type', 'inline', 1, 1, 'uri')}
-                    
+                    <!--
+                    {skosThesau:dropDownThesauXML('c21851', 'en', 'Type', 'inline', 1, 1, 'uri')}
                     {skosThesau:dropDownThesauXML('c39', 'en', 'Language', 'inline', 1, 1, 'xml')}
-                    
                     {skosThesau:dropDownThesauXML('c109', 'en', 'Script', 'inline', 1, 1, 'xml')}
                     
                     <hr/>
+                    <!--
                     <h4>External resource (optional)</h4>
                                 {skosThesau:dropDownThesauXML('c23504', 'en', 'Type', 'inline', 1, 1, 'xml')}
                                 {skosThesau:dropDownThesauXML('c23500', 'en', 'Subtype', 'inline', 1, 1, 'xml')}
-                    
+
                     <div class="form-group">
                                 <label for="externalResourceUri{ $collection }" >Value (URI or id)</label>
                                 <input type="text" class="form-control" id="externalResourceUri{ $collection }" name="externalResourceUri{ $collection }"/>
                                 <button class="btn btn-primary" id="retrieveEditionFromExtRes" onclick="retrieveEditionFromExternalResource('{$collection}')">Check external resource</button>
                         <div id="externalResourceEditionPreview"/>
-                      </div>
-                     <!--<div class="form-group">
-                                <label for="zoteroLookupCreateNewDoc">Search in <a href="" target="_blank">Zotero</a>
-                                </label>
-                                <input type="text" class="form-control zoteroLookup" id="zoteroLookupCreateNewDoc" name="zoteroLookupInputModal"/>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="citedRange">Cited Range
-                                </label>
-                                <input type="text" class="form-control" id="citedRange" name="citedRange"/>
-                            </div>
-                            <div id="selectedBiblioAuthor"/>
-                            <div id="selectedBiblioDate"/>
-                            <div id="selectedBiblioTitle"/>
-                            <div id="selectedBiblioId"/>
-                            -->
+                    </div>
+                    -->
                     <br/>                 
                     <button id="createDocument{ $collection }" onclick="createNewDocument('{ $collection }')">Create document</button>
                  </div>
-
-            
             </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-                    </div>    
-                
-                
-                
-                
-                
-                
-
-                    <!--                <a href="javascript: void(0);" onclick="tests()">Test</a>        -->
-                </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+            </div>
+            </div>
             </div>
        </div><!--End of dialog-->
     </div>
