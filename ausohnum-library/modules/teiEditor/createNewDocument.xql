@@ -447,10 +447,13 @@ let $updateExternalResource :=
                             with functx:change-element-ns-deep($externalResourceNode/node(), "http://www.tei-c.org/ns/1.0", "")
         else ()
 
-
+    (:CP:)
+    let $updatePID:= update replace  util:eval( "doc('" || $doc-collection-path ||"/" || $filename
+                    ||"')")/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type="PID"]/text()
+                    with concat('o:fercan.', substring-after($newDocId, 'doc')) 
 
   let $updateTitle := update replace  util:eval( "doc('" || $doc-collection-path ||"/" || $filename
-                            ||"')")/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title/text()
+                            ||"')")/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title/tei:title[@type="main"]/text()
                             with $data//title/text()
   let $updateTypeAtt := update replace  util:eval( "doc('" || $doc-collection-path ||"/" || $filename
                             ||"')")/tei:TEI/tei:teiHeader/tei:profileDesc/tei:textClass/tei:catRef/@target
@@ -708,9 +711,14 @@ let $updateExternalResource :=
         else ()
 
     
+    (:CP:)
+    let $updatePID:= update replace  util:eval( "doc('" || $doc-collection-path ||"/" || $filename
+                    ||"')")/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type="PID"]/text()
+                    with concat('o:fercan.', substring-after($newDocId, 'doc')) 
+
 
   let $updateTitle := update replace  util:eval( "doc('" || $doc-collection-path ||"/" || $filename
-                            ||"')")/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title/text()
+                            ||"')")/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title/tei:title[@type="main"]/text()
                             with $data//title/text() 
   let $updateTypeAtt := update replace  util:eval( "doc('" || $doc-collection-path ||"/" || $filename
                             ||"')")/tei:TEI/tei:teiHeader/tei:profileDesc/tei:textClass/tei:catRef/@target

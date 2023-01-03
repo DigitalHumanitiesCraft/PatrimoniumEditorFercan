@@ -7,8 +7,7 @@
 		<!--@xml:lang should be used so that multilingual metadata on a same document could be compiled from different projects-->
 		<fileDesc>
 			<titleStmt>
-				<title type="full"><title type="main">Document title main</title><title type="sub"
-					>Document title sub</title></title>
+				<title type="full"><title type="main"> </title><title type="sub"> </title></title>
 				<respStmt>
 					<resp>Inschriftenedition</resp>
 					<persName instant="false" full="yes"><forename full="yes"
@@ -20,7 +19,6 @@
 						>Astrid</forename><surname full="yes">Schmölzer</surname></persName>
 				</respStmt>
 				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
-				<!--                Metadata about the ancient text(s), as a discrete witness(es) in its/their material context (i.e. not the abstract text, for which see /TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents-->
 			</titleStmt>
 			<publicationStmt>
 				<publisher><link target="https://antike.uni-graz.at"/><orgName
@@ -36,7 +34,7 @@
 					System</orgName></distributor>
 				<date when="2022" instant="false">2022</date>
 				<pubPlace>Graz</pubPlace>
-				<idno type="PID">o:fercan.</idno>
+				<idno type="PID"> </idno>
 				<availability default="false">
 					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
 						Commons BY-NC 4.0</licence>
@@ -64,91 +62,63 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support>
-									<p part="N"></p>
-									<material>
-										<ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/>
-									</material>
-									<objectType/>
-									<dimensions>
-											<height unit="cm"/>
-											<width unit="cm"/>
-											<depth unit="cm"/>
-										</dimensions>
-								</support>
-								<condition>
-									<ref type="context"
-									target="context:fercan.condition"
-									ana="https://gams.uni-graz.at/o:fercan.arch#"/>
-								</condition>
+								<support> <p part="N"/> <material> <ref type="context"
+									target="context:fercan.material."
+									ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
+									<objectType/> <dimensions>
+									<height unit="cm"/>
+									<width unit="cm"/>
+									<depth unit="cm"/>
+									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition"
+									ana="https://gams.uni-graz.at/o:fercan.arch#"/> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout>
-									<p part="N"/>
-									<note type="condition"
-										anchored="true"></note>
+								<layout> <p part="N"/> <note type="condition" anchored="true"/>
 								</layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote>
-								<desc type="execution"></desc>
-								<height unit="cm" atLeast="0" atMost="0"></height>
-							</handNote>
+							<handNote> <desc type="execution"/> <height unit="cm" atLeast="0"
+								atMost="0"/> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote>
-								<p part="N"></p>
-								<term ana="https://gams.uni-graz.at/o:fercan.arch#">
-									<ref type="context" target="context:fercan.arch."></ref>
-								</term>
-							</decoNote>
+							<decoNote> <p part="N"/> <term
+								ana="https://gams.uni-graz.at/o:fercan.arch#"> <ref type="context"
+								target="context:fercan.arch."/> </term> </decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin instant="false">
-							<origPlace instant="false">
-								<placeName ref="https://pleiades.stoa.org/places/" instant="false" full="yes">Bonna</placeName>
-								<region>CCAA</region>
-							</origPlace>
-							<origDate notBefore="0001" notAfter="0001" instant="false">
-								
-							</origDate>
-						</origin>
-						<provenance type="found" when="1900">
-							<placeName instant="false" full="yes">
-								<ref type="context" target="context:fercan.geog.modern.">Bonn</ref>
-							</placeName>
-							<p part="N"></p>
-							<location instant="false">
-									<geo decls="#WGS"></geo>
-							</location>
-							<note anchored="true"></note>
-						</provenance>
-						<provenance type="observed" subtype="autopsied"></provenance>
+						<origin instant="false"> <origPlace instant="false"> <placeName
+							ref="https://pleiades.stoa.org/places/" instant="false" full="yes"/>
+							<region/> </origPlace> <origDate notBefore="" notAfter=""
+							instant="false"> </origDate> </origin>
+						<provenance type="found" when=""> <placeName instant="false" full="yes">
+							<ref type="context" target="context:fercan.geog.modern."/> </placeName>
+							<p part="N"/> <location instant="false">
+							<geo decls="#WGS"/>
+							</location> <note anchored="true"/> </provenance>
+						<provenance type="observed" subtype="autopsied"/>
 					</history>
 				</msDesc>
 				<listPlace default="false">
 					<place instant="false"/>
 					<place type="antique_term" instant="false">
-						<placeName instant="false" full="yes">
-							<ref type="context" target="context:fercan.geog.term."></ref>
-						</placeName>
+						<placeName instant="false" full="yes"> <ref type="context"
+							target="context:fercan.geog.term."/> </placeName>
 					</place>
 				</listPlace>
 				<listPerson default="false">
 					<person instant="false">
-						<persName type="gentilnomen" instant="false" full="yes">
-							<ref type="context" target="context:fercan.person.">Aurelius</ref>
-						</persName>
+						<persName type="gentilnomen" instant="false" full="yes"> <ref type="context"
+							target="context:fercan.person."/> </persName>
 					</person>
 				</listPerson>
 				<listOrg default="false">
 					<org instant="false"/>
 					<org type="military_unit" instant="false">
-						<orgName instant="false" full="yes">
-							<ref type="context" target="context:fercan.org.">legio I Minervia</ref>
-						</orgName>
+						<orgName instant="false" full="yes"> <ref type="context"
+							target="context:fercan.org."/> </orgName>
 					</org>
 				</listOrg>
 			</sourceDesc>
@@ -206,9 +176,9 @@
 	</facsimile>
 	<text>
 		<body>
-			<ab part="N"><ref target="context:fercan" type="context">FERCAN</ref>
-				<ref type="context" target="context:fercan.other.nachtraegliches_einfuegen">nachträgliches Einfügen</ref>
-			</ab>
+			<ab part="N"><ref target="context:fercan" type="context">FERCAN</ref> <ref
+				type="context" target="context:fercan.other.nachtraegliches_einfuegen"
+				>nachträgliches Einfügen</ref> </ab>
 			<div subtype="editions" type="bibliography" part="N" org="uniform" sample="complete">
 				<listBibl default="false">
 					<bibl xml:id="LIT.1" default="false" status="draft"> </bibl>
@@ -216,35 +186,33 @@
 			</div>
 			<div subtype="concordances" type="bibliography" part="N" org="uniform" sample="complete">
 				<listBibl default="false">
-					<bibl type="EDCS" default="false" status="draft"></bibl>
-					<bibl type="EDH" default="false" status="draft"></bibl>
-					<bibl type="trismegistos" default="false" status="draft"></bibl>
+					<bibl type="EDCS" default="false" status="draft"/>
+					<bibl type="EDH" default="false" status="draft"/>
+					<bibl type="trismegistos" default="false" status="draft"/>
 				</listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" part="N" org="uniform" sample="complete">
-				<ab part="N"><orig></orig></ab></div>
-			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" part="N" org="uniform" sample="complete"><ab part="N"></ab></div>
+				<ab part="N"><orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" part="N" org="uniform" sample="complete"><ab part="N"/></div>
 			<div type="translation" xml:lang="de" part="N" org="uniform" sample="complete">
-				<p part="N"></p>
+				<p part="N"/>
 			</div>
 			<div type="translation" xml:lang="en" part="N" org="uniform" sample="complete">
-				<p part="N"></p>
+				<p part="N"/>
 			</div>
 			<div type="apparatus" part="N" org="uniform" sample="complete">
 				<app loc="#MIN.1 #MAJ.1">
-					<note anchored="true"></note>
+					<note anchored="true"/>
 				</app>
 			</div>
 			<div type="commentary" subtype="general" part="N" org="uniform" sample="complete">
-				<p part="N"></p>
+				<p part="N"> </p>
 			</div>
 			<div type="commentary" subtype="language" part="N" org="uniform" sample="complete">
-				<p part="N"></p>
+				<p part="N"> </p>
 			</div>
 			<div type="commentary" subtype="deity" part="N" org="uniform" sample="complete">
-				<p part="N"></p>
-				<p part="N"></p>
-				<p part="N"></p>
+				<p part="N"> </p>
 			</div>
 			<linkGrp type="alignment" domains="#majuscule #minuscule">
 				<link target="#MAJ.1 #MIN.1"/>

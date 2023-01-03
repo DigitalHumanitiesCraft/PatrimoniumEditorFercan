@@ -108,8 +108,7 @@ return
         <h3>Autopsie, Editionen, Elektronische Ressourcen</h3>
         {teiEditor:displayElement('Autopsie', (), (), ())}
         {teiEditor:displayElement('Editionen', (), (), ())}
-        {teiEditor:displayElement('EDH', (), (), ())}
-        {teiEditor:displayElement('Lupa', (), (), ())}
+        {teiEditor:displayElement('EDH', (), (), ())} 
         {teiEditor:displayElement('ClaussSlaby', (), (), ())}
         {teiEditor:displayElement('other', (), (), ())}
         <h3>Fund</h3>
