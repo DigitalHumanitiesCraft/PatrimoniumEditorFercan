@@ -903,7 +903,7 @@
     </teiElement>
     <teiElement>
         <nm>docTextMultiple</nm>
-        <xpath>/tei:text/tei:body/tei:div[@type="edition"]/tei:div[@type="textpart"]</xpath>
+        <xpath>/tei:text/tei:body/tei:div[@type="edition"]/tei:div[@type="edition"]</xpath>
         <contentType>nodes</contentType>
         <cardinality>x</cardinality>
         <formLabel xml:lang="en">Text</formLabel>
@@ -914,7 +914,7 @@
 
     <teiElement>
         <nm>textPartGroup</nm>
-        <xpath>/tei:text/tei:body/tei:div[@type="edition"]/tei:div[@type="textpart"]</xpath>
+        <xpath>/tei:text/tei:body/tei:div[@type="edition"]/tei:div[@type="edition"]</xpath>
         <template>
             <div type="textpart" subtype="$textpartSubtype" n="$textpartN">
                     <ab/>

@@ -32,7 +32,7 @@ let $teiDoc := $doc-collection/id($docId)
 :)
 (:let $xsl := xs:anyURI("xmldb:exist:///db/apps/ausohnum-library/xslt/cleanTextEdition.xsl")
 let $text :=
-    if (exists($teiDoc//*[local-name() = 'div'][@type="edition"]/*[local-name() = 'div'][@type="textpart"])) then
+    if (exists($teiDoc//*[local-name() = 'div'][@type="edition"]/*[local-name() = 'div'][@type="edition"])) then
         $teiDoc/*[local-name() = 'text']/*[local-name()='body']/*[local-name() = 'div'][@type='edition']/*[local-name()='div'][@type='textpart']/*[local-name()='ab']    
     else(
         $teiDoc/*[local-name() = 'text']/*[local-name()='body']/*[local-name() = 'div'][@type='edition']/*[local-name()='ab']
@@ -42,7 +42,7 @@ let $cleanedText := transform:transform($text, $xsl, ())
 return
 <data>
     {
-    if (exists($teiDoc//*[local-name() = 'div'][@type="edition"]/*[local-name() = 'div'][@type="textpart"])) then
+    if (exists($teiDoc//*[local-name() = 'div'][@type="edition"]/*[local-name() = 'div'][@type="edition"])) then
         (
         for $text in $teiDoc/*[local-name() = 'text']/*[local-name()='body']/*[local-name() = 'div'][@type='edition']//*[local-name()='div'][@type='textpart']
         return

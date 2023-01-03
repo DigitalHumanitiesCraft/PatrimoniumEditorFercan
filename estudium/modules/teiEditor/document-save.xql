@@ -56,7 +56,7 @@ let $currentUser := sm:id()
 
 let $replaceHeader := update replace $teiDoc//tei:teiHeader with $data//tei:TEI/tei:teiHeader
 
-let $replaceText := update replace $teiDoc//tei:div[@type='edition']/tei:div[@type="textpart"] with $newTextParts/node()
+let $replaceText := update replace $teiDoc//tei:div[@type='edition']/tei:div[@type="edition"] with $newTextParts/node()
 
 
 let $logInjection := 

@@ -82,21 +82,6 @@ return
     <div class="row">
       <div class="col-sm-6 col-md-6 col-lg-6">
         {teiEditor:variables($teiEditor:docId, $teiEditor:project)}
-
-        <div id="PID_display_1_1" class="teiElementGroup">
-          <div class="TeiElementGroupHeaderInline">
-            <span class="labelForm">GAMS PID 
-              <span class="teiInfo">
-                <a title="TEI element: /tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type=&#34;PID&#34;]">
-                  <i class="glyphicon glyphicon glyphicon-info-sign"></i>
-                </a>
-              </span>
-            </span>
-          </div>
-          <div id="PID_value_1_1" class="teiElementValue" style="">
-            <span>{$teiEditor:teiDoc//tei:fileDesc/tei:publicationStmt/tei:idno[@type="PID"]}</span>
-          </div>
-        </div>
         <h3>Titel</h3>
         {teiEditor:displayElement('docTitle', (), (), ())}
         {teiEditor:displayElement('subTitle', (), (), ())}
@@ -153,13 +138,45 @@ return
         {teiEditor:peopleList($teiEditor:docId)}
         <h3>Abbildungen</h3>
         {teiEditor:displayElement('Abb', (), (), ())}
-        <h3>ToDo</h3>
-        {teiEditor:bibliographyPanel($teiEditor:docId, "secondary")}
       </div>
         <div class="col-sm-5 col-md-5 col-lg-5">
+          <h3>Preview</h3>
+          <div id="PID_display_1_1" class="teiElementGroup">
+          <div class="TeiElementGroupHeaderInline">
+            <span class="labelForm">GAMS PID 
+              <span class="teiInfo">
+                <a title="TEI element: /tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type=&#34;PID&#34;]">
+                  <i class="glyphicon glyphicon glyphicon-info-sign"></i>
+                </a>
+              </span>
+            </span>
+          </div>
+          <div id="PID_value_1_1" class="teiElementValue" style="">
+            <span>{$teiEditor:teiDoc//tei:fileDesc/tei:publicationStmt/tei:idno[@type="PID"]}</span>
+          </div>
+        </div>
+        <!-- -->
+        <div id="PID_display_1_1" class="teiElementGroup">
+          <div class="TeiElementGroupHeaderInline">
+            <span class="labelForm">Majuscule
+              <span class="teiInfo">
+                <a title="TEI element: tei:div[@type='edition'][@xml:id='majuscule']">
+                  <i class="glyphicon glyphicon glyphicon-info-sign"></i>
+                </a>
+              </span>
+            </span>
+          </div>
+          <div id="PID_value_1_1" class="teiElementValue" style="">
+            <span>{$teiEditor:teiDoc//tei:div[@type="edition"][@xml:id='majuscule']}</span>
+          </div>
+        </div>
+
+        <div id="text_preview" class="row">
+          <p></p>
+        </div>
         
-        {teiEditor:textPreview($teiEditor:docId, count($teiEditor:teiDoc//tei:div[@type="textpart"]))}
-        {teiEditor:displayElement('textPartGroup', (), (), ())}
+        <!--{teiEditor:textPreview($teiEditor:docId, count($teiEditor:teiDoc//tei:div[@type="edition"]))}-->
+        <!--{teiEditor:displayElement('textPartGroup', (), (), ())}-->
         </div>
         </div>
     </div><!-- End of tab -->     

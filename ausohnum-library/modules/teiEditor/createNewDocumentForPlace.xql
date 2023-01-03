@@ -278,7 +278,7 @@ let $updateMsItemID := update replace  util:eval( "doc('" || $doc-collection-pat
                             ||"')")/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/@xml:id
                             with $newDocId || "-msItem1"
 let $updateDivPartCorresp := update replace  util:eval( "doc('" || $doc-collection-path ||"/" || $filename
-                            ||"')")/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type="textpart"]/@corresp
+                            ||"')")/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type="edition"]/@corresp
                             with "#" || $newDocId || "-surface1"
 
 
@@ -418,14 +418,14 @@ let $updateMsItemID := update replace  util:eval( "doc('" || $doc-collection-pat
                             ||"')")/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/@xml:id
                             with $newDocId || "-msItem1"
 let $updateDivPartCorresp := update replace  util:eval( "doc('" || $doc-collection-path ||"/" || $filename
-                            ||"')")/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type="textpart"]/@corresp
+                            ||"')")/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type="edition"]/@corresp
                             with "#" || $newDocId || "-surface1"
 
 let $editorPersName := <node>
 <persName ref="#{$currentUser}" corresp="{$userDetails//uri}">{$userDetails//firstname} {$userDetails//lastname}</persName>
 </node>
 let $updateEditor := update replace util:eval( "doc('" || $doc-collection-path ||"/" || $filename
-                            ||"')")/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type="textpart"]/@corresp
+                            ||"')")/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type="edition"]/@corresp
                             with "#" || $newDocId || "-surface1"
 let $placeNodeToInsert := <nodeToInsert>
     <place>

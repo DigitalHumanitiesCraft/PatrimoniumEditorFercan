@@ -222,13 +222,13 @@ let $paramMap :=
         
 let $textDiv := $response//tei:div[@type='edition']
 let $apparatusDiv := $response//tei:div[@type='apparatus']
-let $noOfTextpart := count($textDiv//tei:div[@type="textpart"])
-let $checkIfAbIsChildOfTextPart := exists($textDiv//tei:div[@type="textpart"]/tei:ab)
+let $noOfTextpart := count($textDiv//tei:div[@type="edition"])
+let $checkIfAbIsChildOfTextPart := exists($textDiv//tei:div[@type="edition"]/tei:ab)
 let $reconstructedDivEdition :=
         if($checkIfAbIsChildOfTextPart =true()) then $textDiv
             else
                 <tei:div type="edition" xmlns="http://www.tei-c.org/ns/1.0">
-                {for $textPart in $textDiv//tei:div[@type="textpart"]
+                {for $textPart in $textDiv//tei:div[@type="edition"]
                     return 
                         element {"tei:div"}
                         {

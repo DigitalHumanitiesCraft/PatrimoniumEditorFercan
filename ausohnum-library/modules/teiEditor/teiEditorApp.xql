@@ -3165,15 +3165,14 @@ declare function teiEditor:textPreview($docId as xs:string){
     };
 declare function teiEditor:textPreview($docId as xs:string, $numberOfTextparts as xs:integer){
     <div class="textPreviewPane">
-    <div id="test"/>
-                <div class="textpartPane" id="editionPane-9999">
-                    <div class="previewPane">
-                            <h4>Text Preview {teiEditor:previewToolBar(9999)}</h4>
-                    {if($numberOfTextparts > 12) then <h5>⚠ Only 12 on a total of { $numberOfTextparts } textparts are displayed ⚠</h5> else ()}
-                            <div id="textPreviewHTML-9999" class="textPreviewHTMLOverview"/>
-                        </div>    
-                        
-                    </div>
+        <div id="test"/>
+        <div class="textpartPane" id="editionPane-9999">
+            <div class="previewPane">
+                <h4>Text Preview {teiEditor:previewToolBar(9999)}</h4>
+                {if($numberOfTextparts > 12) then <h5>⚠ Only 12 on a total of { $numberOfTextparts } textparts are displayed ⚠</h5> else ()}
+                <div id="textPreviewHTML-9999" class="textPreviewHTMLOverview"/>
+            </div>      
+        </div>
     </div>
 
 

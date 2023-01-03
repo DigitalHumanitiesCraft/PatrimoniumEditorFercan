@@ -340,7 +340,7 @@ let $updateMsItemID := update replace  util:eval( "doc('" || $doc-collection-pat
                             ||"')")/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/@xml:id
                             with $newDocId || "-msItem1"
 let $updateDivPartCorresp := update replace  util:eval( "doc('" || $doc-collection-path ||"/" || $filename
-                            ||"')")/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type="textpart"]/@corresp
+                            ||"')")/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type="edition"]/@corresp
                             with "#" || $newDocId || "-surface1"
 
 
@@ -484,14 +484,14 @@ let $updateMsItemID := update replace  util:eval( "doc('" || $doc-collection-pat
                             ||"')")/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/@xml:id
                             with $newDocId || "-msItem1"
 let $updateDivPartCorresp := update replace  util:eval( "doc('" || $doc-collection-path ||"/" || $filename
-                            ||"')")/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type="textpart"]/@corresp
+                            ||"')")/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type="edition"]/@corresp
                             with "#" || $newDocId || "-surface1"
 
 let $editorPersName := <node>
 <persName ref="#{$currentUser}" corresp="{$userDetails//uri}">{$userDetails//firstname} {$userDetails//lastname}</persName>
 </node>
 let $updateEditor := update replace util:eval( "doc('" || $doc-collection-path ||"/" || $filename
-                            ||"')")/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type="textpart"]/@corresp
+                            ||"')")/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type="edition"]/@corresp
                             with "#" || $newDocId || "-surface1"
 
 (:
@@ -540,9 +540,9 @@ let $response :=
 let $textDiv := $response//tei:div[@type='edition']
 
 let $apparatusDiv := $response//tei:div[@type='apparatus']
-let $noOfTextpart := count($textDiv//tei:div[@type="textpart"])
+let $noOfTextpart := count($textDiv//tei:div[@type="edition"])
 
-let $checkIfAbIsChildOfTextPart := exists($textDiv//tei:div[@type="textpart"]/tei:ab)
+let $checkIfAbIsChildOfTextPart := exists($textDiv//tei:div[@type="edition"]/tei:ab)
 let $params :=
         <output:serialization-parameters
         xmlns:output="http://www.w3.org/2010/xslt-xquery-serialization">
@@ -580,7 +580,7 @@ let $reconstructedDivEdition :=
             
             else
                 <tei:div type="edition" xmlns="http://www.tei-c.org/ns/1.0">
-                {for $textPart in $textDiv//tei:div[@type="textpart"]
+                {for $textPart in $textDiv//tei:div[@type="edition"]
                     return 
                         element {"tei:div"}
                         {
@@ -749,14 +749,14 @@ let $updateMsItemID := update replace  util:eval( "doc('" || $doc-collection-pat
                             ||"')")/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/@xml:id
                             with $newDocId || "-msItem1"
 let $updateDivPartCorresp := update replace  util:eval( "doc('" || $doc-collection-path ||"/" || $filename
-                            ||"')")/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type="textpart"]/@corresp
+                            ||"')")/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type="edition"]/@corresp
                             with "#" || $newDocId || "-surface1"
 
 let $editorPersName := <node>
 <persName ref="#{$currentUser}" corresp="{$userDetails//uri}">{$userDetails//firstname} {$userDetails//lastname}</persName>
 </node>
 let $updateEditor := update replace util:eval( "doc('" || $doc-collection-path ||"/" || $filename
-                            ||"')")/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type="textpart"]/@corresp
+                            ||"')")/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type="edition"]/@corresp
                             with "#" || $newDocId || "-surface1"
 
 
@@ -805,9 +805,9 @@ let $response :=
 let $textDiv := $response//tei:div[@type='edition']
 
 let $apparatusDiv := $response//tei:div[@type='apparatus']
-let $noOfTextpart := count($textDiv//tei:div[@type="textpart"])
+let $noOfTextpart := count($textDiv//tei:div[@type="edition"])
 
-let $checkIfAbIsChildOfTextPart := exists($textDiv//tei:div[@type="textpart"]/tei:ab)
+let $checkIfAbIsChildOfTextPart := exists($textDiv//tei:div[@type="edition"]/tei:ab)
 let $params :=
         <output:serialization-parameters
         xmlns:output="http://www.w3.org/2010/xslt-xquery-serialization">
@@ -844,7 +844,7 @@ let $reconstructedDivEdition :=
             
             else
                 <tei:div type="edition" xmlns="http://www.tei-c.org/ns/1.0">
-                {for $textPart in $textDiv//tei:div[@type="textpart"]
+                {for $textPart in $textDiv//tei:div[@type="edition"]
                     return 
                         element {"tei:div"}
                         {

@@ -188,7 +188,7 @@ return
 (:            update replace:)
 (:                    util:eval( "doc('" || $path2docs ||  $collectionName || '/' || $filename ||"')"):)
                     update replace util:eval( "doc('" || $path2docs ||  $collectionName || "/" || $filename
-                                ||"')")/tei:TEI/tei:text/tei:body/tei:div[@type="edition"]/tei:div[@type="textpart"]
+                                ||"')")/tei:TEI/tei:text/tei:body/tei:div[@type="edition"]
                 with functx:change-element-ns-deep($textDiv, "http://www.tei-c.org/ns/1.0", "")
        
       

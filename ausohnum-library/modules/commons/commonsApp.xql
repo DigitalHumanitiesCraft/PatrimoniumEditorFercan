@@ -611,7 +611,7 @@ declare function ausohnumCommons:documentProvenance(){
         map {"method": "xml", "indent": false(), "item-separator": ""}
     
     return
-        if(normalize-space(string-join($ausohnumCommons:teiDoc//tei:div[@type="edition"]//tei:div[@type="textpart"][1]/tei:ab//./text(), "")) != "")
+        if(normalize-space(string-join($ausohnumCommons:teiDoc//tei:div[@type="edition"]//tei:div[@type="edition"][1]/tei:ab//./text(), "")) != "")
             then
                 <div class="textPreviewPane">
                     <span style="margin-top: 1em;">{ ausohnumCommons:elementLabel("Text", "simple", "")}
@@ -622,7 +622,7 @@ declare function ausohnumCommons:documentProvenance(){
                             </div>    
                         </div>
                         <div id="editionDivForLoading" class="hidden">{
-                                    for $textPart in $ausohnumCommons:teiDoc//tei:div[@type="edition"]//tei:div[@type="textpart"]
+                                    for $textPart in $ausohnumCommons:teiDoc//tei:div[@type="edition"]//tei:div[@type="edition"]
                                             return 
                                         <textarea class="editionTextPart" subtype="{ $textPart/@subtype }" n="{ $textPart/@n }">{
                                             replace(functx:trim(serialize(functx:change-element-ns-deep(
@@ -665,7 +665,7 @@ declare function ausohnumCommons:documentProvenance(){
     (:~ let $fixSuppliedInAbb := 
         replace($epidocTransform, "\]\((urator)\)", "($1)]") ~:)
     return
-        if(normalize-space(string-join($ausohnumCommons:teiDoc//tei:div[@type="edition"]//tei:div[@type="textpart"][1]/tei:ab//./text(), "")) != "")
+        if(normalize-space(string-join($ausohnumCommons:teiDoc//tei:div[@type="edition"]//tei:div[@type="edition"][1]/tei:ab//./text(), "")) != "")
             then
                 <div class="textPreviewPane epidoc">
                     <span style="margin-top: 1em;">{ ausohnumCommons:elementLabel("Text", "simple", "")}
@@ -689,7 +689,7 @@ declare function ausohnumCommons:documentProvenance(){
                             </div>    
                         </div>
                         <div id="editionDivForLoading" class="hidden">{
-                                    for $textPart in $ausohnumCommons:teiDoc//tei:div[@type="edition"]//tei:div[@type="textpart"]
+                                    for $textPart in $ausohnumCommons:teiDoc//tei:div[@type="edition"]//tei:div[@type="edition"]
                                             return 
                                         <textarea class="editionTextPart" subtype="{ $textPart/@subtype }" n="{ $textPart/@n }">{
                                             replace(functx:trim(serialize(functx:change-element-ns-deep(

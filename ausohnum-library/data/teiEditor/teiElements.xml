@@ -433,7 +433,7 @@
         <nm>Abb</nm>
         <xpath>/tei:facsimile/tei:graphic</xpath>
         <contentType>nodes</contentType>
-        <cardinality>1</cardinality>
+        <cardinality>x</cardinality>
         <formLabel xml:lang="en">Abbildungen</formLabel>
         <fieldType>group</fieldType>
         <teiElement>
@@ -1178,7 +1178,7 @@
     </teiElement>
     <teiElement>
         <nm>docTextMultiple</nm>
-        <xpath>/tei:text/tei:body/tei:div[@type="edition"]/tei:div[@type="textpart"]</xpath>
+        <xpath>/tei:text/tei:body/tei:div[@type="edition"]</xpath>
         <contentType>nodes</contentType>
         <cardinality>x</cardinality>
         <formLabel xml:lang="en">Text</formLabel>

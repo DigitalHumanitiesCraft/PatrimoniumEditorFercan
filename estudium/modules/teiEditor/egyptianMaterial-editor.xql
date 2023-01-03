@@ -166,7 +166,7 @@ return
              </div>
         <div class="col-sm-5 col-md-5 col-lg-5">
         
-        {teiEditor:textPreview($teiEditor:docId, count($teiEditor:teiDoc//tei:div[@type="textpart"]))}
+        {teiEditor:textPreview($teiEditor:docId, count($teiEditor:teiDoc//tei:div[@type="edition"]))}
         {teiEditor:displayElement('textPartGroup', (), (), ())}
         </div>
         </div>

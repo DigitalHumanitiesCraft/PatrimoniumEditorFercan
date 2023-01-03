@@ -149,7 +149,7 @@ declare function ausohnumSearch:executeBuiltQuery($project as xs:string, $data a
                                                                 </parameters>
                                     let $xslt := doc("/db/apps/epidocLib" || "resources/xsl/epidoc-stylesheets/start-edition.xsl")
                                     
-                                    let $textWithMatch:=transform:transform($doc//tei:div[@type="textpart"]/tei:ab, $xslt, $params)
+                                    let $textWithMatch:=transform:transform($doc//tei:div[@type="edition"]/tei:ab, $xslt, $params)
 
                                     (: let $hitsInDoc := 
                                         (for $hitInDoc in $hits//item[equals(./docId/text(), $docId)]//hit
