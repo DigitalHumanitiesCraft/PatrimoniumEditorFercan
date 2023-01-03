@@ -82,6 +82,21 @@ return
     <div class="row">
       <div class="col-sm-6 col-md-6 col-lg-6">
         {teiEditor:variables($teiEditor:docId, $teiEditor:project)}
+
+        <div id="PID_display_1_1" class="teiElementGroup">
+          <div class="TeiElementGroupHeaderInline">
+            <span class="labelForm">GAMS PID 
+              <span class="teiInfo">
+                <a title="TEI element: /tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type=&#34;PID&#34;]">
+                  <i class="glyphicon glyphicon glyphicon-info-sign"></i>
+                </a>
+              </span>
+            </span>
+          </div>
+          <div id="PID_value_1_1" class="teiElementValue" style="">
+            <span>{$teiEditor:teiDoc//tei:fileDesc/tei:publicationStmt/tei:idno[@type="PID"]}</span>
+          </div>
+        </div>
         <h3>Titel</h3>
         {teiEditor:displayElement('docTitle', (), (), ())}
         {teiEditor:displayElement('subTitle', (), (), ())}
