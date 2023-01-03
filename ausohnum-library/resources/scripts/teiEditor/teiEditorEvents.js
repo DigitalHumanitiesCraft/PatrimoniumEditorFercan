@@ -395,7 +395,7 @@ function addGroupData(element,
                         +"</xml>"
            var request = new XMLHttpRequest();
     console.log("xmlData: " + xmlData);
-     request.open("POST", "/exist/apps/ausohnum-library/modules/teiEditor/getFunctions.xql?type=addGroupData", true);
+     request.open("POST", "$ausohnum-lib/modules/teiEditor/getFunctions.xql?type=addGroupData", true);
      var xmlDoc;
      request.onreadystatechange = function() {
 
@@ -700,7 +700,7 @@ if(index == null) { ind =""} else {var ind = index}
 
      var request = new XMLHttpRequest();
      console.log("docId = " + docId);
-     request.open("POST", "/exist/apps/ausohnum-library/modules/teiEditor/getFunctions.xql?type=saveData", true);
+     request.open("POST", "$ausohnum-lib/modules/teiEditor/getFunctions.xql?type=saveData", true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/
@@ -1066,7 +1066,7 @@ function saveFile(docId){
                     +"</xml>";
 /*        console.log(xmlData);*/
             var request = new XMLHttpRequest();
-            request.open("POST", "/exist/apps/ausohnum-library/modules/teiEditor/getFunctions.xql?type=saveFile" , true);
+            request.open("POST", "$ausohnum-lib/modules/teiEditor/getFunctions.xql?type=saveFile" , true);
 
     var xmlDoc;
 
@@ -1217,7 +1217,7 @@ console.log("newText: " + newText);
                     +"</xml>";
 
     var request = new XMLHttpRequest();
-    request.open("POST", "/exist/apps/ausohnum-library/modules/teiEditor/getFunctions.xql?type=saveText" , true);
+    request.open("POST", "$ausohnum-lib/modules/teiEditor/getFunctions.xql?type=saveText" , true);
 
 var xmlDoc;
 var xmlDocXML;
@@ -1292,7 +1292,7 @@ console.log("newText: " + newText);
                     +"</xml>";
 
     var request = new XMLHttpRequest();
-    request.open("POST", "/exist/apps/ausohnum-library/modules/teiEditor/getFunctions.xql?type=saveTextarea" , true);
+    request.open("POST", "$ausohnum-lib/modules/teiEditor/getFunctions.xql?type=saveTextarea" , true);
 
 var xmlDoc;
 var xmlDocXML;
@@ -1542,7 +1542,7 @@ function addRepository(){
                                 + "<townLabel>" + $('#townLabel').val() + "</townLabel>"
                             +"</xml>";
         console.log("xmldata: " + xmlData);
-        request.open("POST", "/exist/apps/ausohnum-library/modules/teiEditor/getFunctions.xql?type=addRepository" , true);
+        request.open("POST", "$ausohnum-lib/modules/teiEditor/getFunctions.xql?type=addRepository" , true);
         var xmlDoc;
 
      request.onreadystatechange = function() {
@@ -1593,7 +1593,7 @@ function updateRepository(index){
                                 
                             +"</xml>";
         console.log("xmldata: " + xmlData);
-        request.open("POST", "/exist/apps/ausohnum-library/modules/teiEditor/getFunctions.xql?type=updateRepository" , true);
+        request.open("POST", "$ausohnum-lib/modules/teiEditor/getFunctions.xql?type=updateRepository" , true);
         var xmlDoc;
 
      request.onreadystatechange = function() {
@@ -1921,7 +1921,7 @@ var xmlData="<xml>"
 /*     console.log("xmldata: " + xmlData);*/
 
 /*     request.open("POST", "http://patrimonium.huma-num.fr/admin/save/document/addBiblio", true);*/
-     request.open("POST", "/exist/apps/ausohnum-library/modules/teiEditor/getFunctions.xql?type=addProjectPerson" , true);
+     request.open("POST", "$ausohnum-lib/modules/teiEditor/getFunctions.xql?type=addProjectPerson" , true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/
@@ -1997,7 +1997,7 @@ $("body").css("opacity", "0.5");
 /*     console.log("xmldata: " + xmlData);*/
 
 /*     request.open("POST", "http://patrimonium.huma-num.fr/admin/save/document/addBiblio", true);*/
-     request.open("POST", "/exist/apps/ausohnum-library/modules/teiEditor/getFunctions.xql?type=addPlace" , true);
+     request.open("POST", "$ausohnum-lib/modules/teiEditor/getFunctions.xql?type=addPlace" , true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/
@@ -2061,7 +2061,7 @@ var xmlData="<xml>"
 /*     console.log("xmldata: " + xmlData);
 
 /*     request.open("POST", "http://patrimonium.huma-num.fr/admin/save/document/addBiblio", true);*/
-     request.open("POST", "/exist/apps/ausohnum-library/modules/teiEditor/getFunctions.xql?type=addProjectPlace" , true);
+     request.open("POST", "$ausohnum-lib/modules/teiEditor/getFunctions.xql?type=addProjectPlace" , true);
 /*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
                 //+ "&project=" + "patrimonium" + "&xpath=" + xpath
 /*                , true);*/

@@ -2693,7 +2693,7 @@ declare function teiEditor:placesList($docId as xs:string){
                             
                                             for $place at $pos in $places
                                                         
-                                                        let $placeName := $place/tei:placeName/string()
+                                                        let $placeName := $place/tei:placeName/tei:ref/string()
                                                         let $placeUris := data($place/tei:placeName/@ref)
                                                         let $placeUriInternal :=
                                                             for $uri in tokenize($placeUris, " ")
@@ -2957,8 +2957,8 @@ declare function teiEditor:textEditor($docId as xs:string, $editorType as xs:str
 (:    let $teiDoc := util:eval( "collection('" || $teiEditor:doc-collection-path || "')//id('" ||$docId ||"')" ):)
 
     let $teiElementNickname :=
-                if (exists($teiDoc//div[@type="textpart"])) then ('docTextSingle')
-                    else if (not(exists($teiDoc//div[@type="textpart"]))) then ('docTextSingle')
+                if (exists($teiDoc//div[@type='edition'])) then ('docTextSingle')
+                    else if (not(exists($teiDoc//div[@type='edition']))) then ('docTextSingle')
 
                 else ('docTextSingle')
 
@@ -2989,24 +2989,24 @@ declare function teiEditor:textEditor($docId as xs:string, $editorType as xs:str
 
     return
     <div class="editionPane">
-    {if(count($teiDoc//tei:div[@type='textpart']) > 12) then <h5>⚠ Only 12 on a total of {count($teiDoc//tei:div[@type='textpart'])} textparts are displayed ⚠</h5> else ()}
+    {if(count($teiDoc//tei:div[@type='edition']) > 12) then <h5>⚠ Only 12 on a total of {count($teiDoc//tei:div[@type='textpart'])} textparts are displayed ⚠</h5> else ()}
         {
 
            (:else if($teiEditor:teiDoc//tei:div[@type='edition']//tei:div[@type='textpart']):)
-           if($teiDoc/tei:text/tei:body//tei:div[@type= "edition"]//tei:div[@type='textpart'])
+           if($teiDoc/tei:text/tei:body//tei:div[@type= "edition"])
             then
            (
-           for $textPart at $index in $teiDoc//tei:div[@type='edition']//tei:div[@type='textpart']
+           for $textPart at $index in $teiDoc//tei:div[@type='edition']
 (:                where $index < 13:)
             let $surface := data($teiDoc/id(substring(data($textPart/@corresp), 2))/tei:desc/text())
             
             let $text :=
                     replace(functx:trim(serialize(functx:change-element-ns-deep(
-                        $teiDoc//tei:div[@type="textpart"][$index]/tei:ab, '', '')/node(), $paramMap)),
+                        $teiDoc//tei:div[@type='edition'][$index]/tei:ab, '', '')/node(), $paramMap)),
                         '&#9;', '')
             
             (:let $textOLD := <div><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-              {normalize-space(serialize(functx:change-element-ns-deep($teiEditor:teiDoc//tei:div[@type="textpart"][$index]/tei:ab, '', '')/node(), $paramMap))}</div>
+              {normalize-space(serialize(functx:change-element-ns-deep($teiEditor:teiDoc//tei:div[@type='edition'][$index]/tei:ab, '', '')/node(), $paramMap))}</div>
 :)
             return
 
@@ -3094,10 +3094,10 @@ declare function teiEditor:textEditor($docId as xs:string, $editorType as xs:str
                     </div>
                     </div>
             )
-             (:if (not(exists($teiDoc//tei:div[@type="edition"]//tei:div[@type="textpart"]))) then:)
-         else if (not(exists($teiDoc//tei:div[@type="textpart"]))) then
+             (:if (not(exists($teiDoc//tei:div[@type="edition"]//tei:div[@type='edition']))) then:)
+         else if (not(exists($teiDoc//tei:div[@type='edition']))) then
            (
-            let $text := functx:trim(serialize(functx:change-element-ns-deep($teiDoc//tei:div/tei:ab, '', '')/node(), $paramMap))
+            let $text := functx:trim(serialize(functx:change-element-ns-deep($teiDoc//tei:div[type="edition"]/tei:ab, '', '')/node(), $paramMap))
 
                 return
                         <div class="textpartPane" id="editionPane-1">
@@ -3138,8 +3138,8 @@ declare function teiEditor:textEditor($docId as xs:string, $editorType as xs:str
             }
             <div id="currentEditorIndexVariable"/>
             <div id="editionDivForLoading" class="hidden">{
-                        if(count($teiDoc//tei:div[@type="edition"]//tei:div[@type="textpart"]) >12)
-                            then <div type="edition">{$teiDoc//tei:div[@type="edition"]//tei:div[@type="textpart"][position() <13 ]}</div>
+                        if(count($teiDoc//tei:div[@type="edition"]//tei:div[@type='edition']) >12)
+                            then <div type="edition">{$teiDoc//tei:div[@type="edition"]//tei:div[@type='edition'][position() <13 ]}</div>
                             else $teiDoc//tei:div[@type="edition"]}</div>
     </div>
 
@@ -3184,8 +3184,8 @@ declare function teiEditor:textPreviewMulti($docId as xs:string){
 (:    let $teiDoc := util:eval( "collection('" || $teiEditor:doc-collection-path || "')//id('" ||$docId ||"')" ):)
 
     let $teiElementNickname :=
-                if (exists($teiDoc//div[@type="textpart"])) then ('docTextSingle')
-                    else if (not(exists($teiDoc//div[@type="textpart"]))) then ('docTextSingle')
+                if (exists($teiDoc//div[@type='edition'])) then ('docTextSingle')
+                    else if (not(exists($teiDoc//div[@type='edition']))) then ('docTextSingle')
 
                 else ('docTextSingle')
 
@@ -3216,12 +3216,10 @@ declare function teiEditor:textPreviewMulti($docId as xs:string){
     return
     <div class="textPreviewPane">
         {
-
-           (:else if($teiEditor:teiDoc//tei:div[@type='edition']//tei:div[@type='textpart']):)
-           if(exists($teiDoc//tei:div[@type='textpart']))
+           if(exists($teiDoc//tei:div[@type='edition']))
             then
            (
-           for $textpart at $index in $teiDoc//tei:div[@type='edition']//tei:div[@type='textpart']
+           for $textpart at $index in $teiDoc//tei:div[@type='edition']
             where $index < 13
             let $surface := data($teiDoc/id(substring(data($textpart/@corresp), 2))/tei:desc/text())
             let $text :=
@@ -3229,24 +3227,24 @@ declare function teiEditor:textPreviewMulti($docId as xs:string){
                        $textpart/tei:ab, '', '')/node(), $paramMap)),
                         '&#9;', '')
             let $textOLD := <div><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-              {normalize-space(serialize(functx:change-element-ns-deep($teiEditor:teiDoc//tei:div[@type="textpart"][$index]/tei:ab, '', '')/node(), $paramMap))}</div>
+              {normalize-space(serialize(functx:change-element-ns-deep($teiEditor:teiDoc//tei:div[@type='edition'][$index]/tei:ab, '', '')/node(), $paramMap))}</div>
 
             return
                 <div class="textpartPane" id="editionPane-9999">
                     <h3> {if($surface) then "Text on " || $surface
                         else ()}
                     </h3>
-                    {if(count($teiDoc//tei:div[@type='edition']//tei:div[@type='textpart']) > 12) then <h5>Only 12 on a total of {count($teiDoc//tei:div[@type='edition']//tei:div[@type='textpart'])} textparts are displayed</h5> else ()}
+                    {if(count($teiDoc//tei:div[@type='edition']) > 12) then <h5>Only 12 on a total of {count($teiDoc//tei:div[@type='edition'])} textparts are displayed</h5> else ()}
                     <div class="previewPane">
                             <h4>Text Preview {teiEditor:previewToolBar(9999)}</h4>
-{if(count($teiDoc//tei:div[@type='edition']//tei:div[@type='textpart']) > 12) then <h5>Only 12 on a total of {count($teiDoc//tei:div[@type='edition']//tei:div[@type='textpart'])} textparts are displayed</h5> else ("r")}
+{if(count($teiDoc//tei:div[@type='edition']) > 12) then <h5>Only 12 on a total of {count($teiDoc//tei:div[@type='edition'])} textparts are displayed</h5> else ("r")}
                             <div id="textPreviewHTML-9999" class="textPreviewHTMLOverview"/>
                         </div>    
                         
                     </div>
             )
-             (:if (not(exists($teiDoc//tei:div[@type="edition"]//tei:div[@type="textpart"]))) then:)
-         else if (not(exists($teiDoc//tei:div[@type="textpart"]))) then
+             (:if (not(exists($teiDoc//tei:div[@type="edition"]//tei:div[@type='edition']))) then:)
+         else if (not(exists($teiDoc//tei:div[@type='edition']))) then
            (
             let $text := functx:trim(serialize(functx:change-element-ns-deep($teiDoc//tei:div/tei:ab, '', '')/node(), $paramMap))
 
@@ -3347,9 +3345,9 @@ declare %templates:wrap function teiEditor:textConverter($index){
 declare function teiEditor:annotationMenuEpigraphy($index){
 (:    let $teiDoc := $teiEditor:doc-collection/id($teiEditor:docId):)
     (:let $index :=
-        if (not(exists($teiDoc//div[@type="edition"]/div[@type="textpart"]))) then 1
+        if (not(exists($teiDoc//div[@type="edition"]/div[@type='edition']))) then 1
             else (
-            count($teiDoc//div[@type="edition"]/div[@type="textpart"])
+            count($teiDoc//div[@type="edition"]/div[@type='edition'])
             ):)
 (:     return:)
             <div id="edition-toolbar-{$index}" class="btn-group xmlToolBar" role="group" aria-label="..." >
@@ -3627,9 +3625,9 @@ declare function teiEditor:semanticAnnotation($annotationLabel as xs:string,
 declare function teiEditor:manualLemmatizer(){
     let $teiDoc := $teiEditor:doc-collection/id($teiEditor:docId)
     let $index :=
-        if (not(exists($teiDoc//div[@type="edition"]/div[@type="textpart"]))) then 1
+        if (not(exists($teiDoc//div[@type="edition"]/div[@type='edition']))) then 1
             else (
-            count($teiDoc//div[@type="edition"]/div[@type="textpart"])
+            count($teiDoc//div[@type="edition"]/div[@type='edition'])
             )
      return
             <div id="lemmatizer-toolbar-{$index}" class="btn-group xmlToolBar" role="group" aria-label="..." >
@@ -3653,9 +3651,9 @@ declare function teiEditor:manualLemmatizer(){
 declare function teiEditor:annotationPlacePeopleTime(){
     let $teiDoc := $teiEditor:doc-collection/id($teiEditor:docId)
     let $index :=
-        if (not(exists($teiDoc//div[@type="edition"]/div[@type="textpart"]))) then 1
+        if (not(exists($teiDoc//div[@type="edition"]/div[@type='edition']))) then 1
             else (
-            count($teiDoc//div[@type="edition"]/div[@type="textpart"])
+            count($teiDoc//div[@type="edition"]/div[@type='edition'])
             )
      return
             <div id="edition-toolbar-{$index}" class="btn-group xmlToolBar" role="group" aria-label="..." >
@@ -4373,7 +4371,7 @@ let $teiDoc := util:eval( "$teiEditor:doc-collection/id('"
 
 
 let $elementNickname :=
-if (exists($teiDoc//tei:div[@type="edition"]//tei:div[@type="textpart"])) then ('docTextsMultiple')
+if (exists($teiDoc//tei:div[@type="edition"]//tei:div[@type='edition'])) then ('docTextsMultiple')
                     else  ('docTextSingles')
 
 let $elementNode := $teiEditor:teiElements//teiElement[nm=$elementNickname]
@@ -4385,36 +4383,13 @@ let $newText := functx:change-element-ns-deep(<ab>{$data//newText/node()}</ab>, 
 
 
 let $abNode2beReplaced := if(exists(util:eval( "collection('" || $teiEditor:doc-collection-path ||"')/id('"
-             ||$docId || "')//tei:div[@type='textpart'][" || $index || "]/tei:ab")))
+             ||$docId || "')//tei:div[@type='edition'][" || $index || "]/tei:ab")))
         
                                                         then (util:eval( "collection('" || $teiEditor:doc-collection-path ||"')/id('"
-             ||$docId || "')//tei:div[@type='textpart'][" || $index || "]/tei:ab"))
+             ||$docId || "')//tei:div[@type='edition'][" || $index || "]/tei:ab"))
                                                  else if (exists($teiDoc//tei:div[@type='edition']/tei:ab))
                                                  then ($teiDoc//tei:div[@type='edition']/tei:ab)
                                                  else()
-
-
-(:BEFORE fixing index problem:)
-(:let $abNode2beReplaced := if(exists($teiDoc//tei:div[@type='textpart'][" || $index || "]/tei:ab))
-        
-                                                        then ($teiDoc//tei:div[@type='textpart'][" || $index || "]/tei:ab)
-                                                 else if (exists($teiDoc//tei:div[@type='edition']/tei:ab))
-                                                 then ($teiDoc//tei:div[@type='edition']/tei:ab)
-                                                 else()
-:)
-
-(:
-util:eval( "collection('" || $teiEditor:doc-collection-path ||"')/id('"
-             ||$docId || "')//tei:div[@type='textpart'][" || $index || "]/tei:ab")
-:)
-(:            let $updatedNode :=  <updatedNode  xmlns="http://www.tei-c.org/ns/1.0">{parse-xml('<' || $lastNode || ">" || $updatedData|| '</' || $lastNode || '>')}</updatedNode>        :)
-(:let $updatedTEINode :=  <updatedNode>{parse-xml('<' || $lastNode || ">" || $updatedData|| '</' || $lastNode || '>')}</updatedNode>:)
-
-(:let $updatedTEINode := functx:change-element-ns-deep($updatedNode, 'http://www.tei-c.org/ns/1.0', ''):)
-
-(:let $logs := collection($config:data-root || $teiEditor:project || "/logs"):)
-
-(:let $updateXml := update insert $aaa/node() following $originalTEINode :)
 
 let $logTest := teiEditor:logEvent("test" , "", (),
                         "$abNode2beReplaced: " || serialize($abNode2beReplaced, ())
@@ -4425,11 +4400,11 @@ let $logTest := teiEditor:logEvent("test" , "", (),
 
 
 
-let $updateXml :=if (not(exists($teiDoc//tei:div[@type="edition"]//tei:div[@type="textpart"]))) 
+let $updateXml :=if (not(exists($teiDoc//tei:div[@type="edition"]))) 
                     then (
 (:                    update replace $teiDoc//tei:div[@type="edition"][$index]/tei:ab with $newText:)
                     )
-                    else if (exists($teiDoc//tei:body/tei:div[@type="edition"]/tei:div[@type="textpart"][string($index)])) then(
+                    else if (exists($teiDoc//tei:body/tei:div[@type="edition"][string($index)])) then(
                     update replace $abNode2beReplaced with $newText
 (:                        update replace $teiDoc//tei:div[@type='textpart'][string($index)]/tei:ab with $newText:)
                     )
@@ -4468,7 +4443,7 @@ let $logInjection :=
 
 
 (:let $save := teiEditor:saveData(string($data/xml/docId), string($data/xml/input), string($updatedData)):)
-let $log := teiEditor:logEvent("document-update-text-" ||$index, $docId, $data, "" || exists($teiDoc//tei:div[@type="edition"]//tei:div[@type="textpart"]))
+let $log := teiEditor:logEvent("document-update-text-" ||$index, $docId, $data, "" || exists($teiDoc//tei:div[@type="edition"]//tei:div[@type='edition']))
 let $newContent := util:eval( "$teiEditor:doc-collection/id('"
              ||$docId ||"')" )
 
@@ -6430,11 +6405,12 @@ return
                return
            <tr>
            <td>
-           { if (contains($document//tei:div[@type="edition"]/tei:div[@type="textpart"]/tei:ab/text(), "Error")) then ("&#9888;")
+           { if (contains($document//tei:div[@type="edition"]/tei:div[@type='edition']/tei:ab/text(), "Error")) then ("&#9888;")
            else ()}
            </td>
-           <td>{$title}<a href="/exist/apps/estudium/documents/{data($document/@xml:id)}" target="_blank">
-           <i class="glyphicon glyphicon-eye-open"/></a>
+           <td>{$title}
+           <!-- <a href="/exist/apps/estudium/documents/{data($document/@xml:id)}" target="_blank">
+           <i class="glyphicon glyphicon-eye-open"/></a>-->
            <a href="/exist/apps/estudium/edit-documents/{data($document/@xml:id)}" target="_blank">
            <i class="glyphicon glyphicon-edit"/></a>
            </td>
@@ -7084,7 +7060,7 @@ let $updateMsItemID := update replace  util:eval( "doc('" || $doc-collection-pat
                             ||"')")/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/@xml:id
                             with $newDocId || "-msItem1"
 let $updateDivPartCorresp := update replace  util:eval( "doc('" || $doc-collection-path ||"/" || $filename
-                            ||"')")/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type="textpart"]/@corresp
+                            ||"')")/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type='edition']/@corresp
                             with "#" || $newDocId || "-surface1"
 
 
@@ -7267,7 +7243,7 @@ let $updateMsItemID := update replace  util:eval( "doc('" || $doc-collection-pat
                             ||"')")/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/@xml:id
                             with $newDocId || "-msItem1"
 let $updateDivPartCorresp := update replace  util:eval( "doc('" || $doc-collection-path ||"/" || $filename
-                            ||"')")/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type="textpart"]/@corresp
+                            ||"')")/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type='edition']/@corresp
                             with "#" || $newDocId || "-surface1"
 
 
@@ -8011,7 +7987,7 @@ let $teiDoc := $doc-collection/id($docId)
 return
     <data>
         {
-        if (exists($teiDoc//*[local-name() = 'div'][@type="edition"]/*[local-name() = 'div'][@type="textpart"])) then
+        if (exists($teiDoc//*[local-name() = 'div'][@type="edition"]/*[local-name() = 'div'][@type='edition'])) then
             (
             for $text in $teiDoc/*[local-name() = 'text']/*[local-name()='body']/*[local-name() = 'div'][@type='edition']//*[local-name()='div'][@type='textpart']
             return

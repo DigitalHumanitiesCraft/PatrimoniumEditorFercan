@@ -69,9 +69,11 @@ return
                 <li class="nav-item">
                   <a class="nav-link" id="pills-text-tab" data-toggle="pill" href="#nav-text" role="tab" aria-controls="pills-profile" aria-selected="true">Text annotation</a>
                 </li>
+                <!--
                 <li class="nav-item">
                   <a class="nav-link" id="pills-places-tab" data-toggle="pill" href="#nav-places" role="tab" aria-controls="pills-profile" aria-selected="true">Atlas</a>
                 </li>
+                -->
                 <li class="nav-item">
                   <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#nav-xmlfile" role="tab" aria-controls="pills-profile" aria-selected="false">XML file</a>
                 </li>
@@ -180,43 +182,31 @@ return
         </div>
         </div>
     </div><!-- End of tab -->     
-<div class="tab-pane fade in" id="nav-textbearer" role="tabpanel" aria-labelledby="nav-textbearer-tab">
-
-
-                    
+    <div class="tab-pane fade in" id="nav-textbearer" role="tabpanel" aria-labelledby="nav-textbearer-tab">
 
    </div>    <!--End of tab-->
-            <!--
-            <div class="tab-pane fade in" id="nav-fragments" role="tabpanel" aria-labelledby="nav-fragments-tab">
-            </div>
-            -->
-    <div class="tab-pane fade" id="nav-text-metadata" role="tabpanel" aria-labelledby="nav-text-metadata-tab">
-                
 
+    <div class="tab-pane fade" id="nav-text-metadata" role="tabpanel" aria-labelledby="nav-text-metadata-tab">
 
     </div>
 
     <div class="tab-pane fade in" id="nav-text" role="tabpanel" aria-labelledby="nav-text-tab">
         <div class="row">
-        <div class="sideToolPane col-sm-2 col-md-2 col-lg-2">
-                { teiEditor:semanticAnnotation("Subject Indexing", "subject", "rs", "c21849") }
-                {teiEditor:annotationPlacePeopleTime()}
-                
-             </div>
-                            <!-- col-sm-8 col-md-8 col-lg-8  -->
-             <div id="editorPanel" class="col-sm-10 col-md-10 col-lg-10">
-
-                {teiEditor:textEditor($teiEditor:docId, ())}
-             </div>
-             
+          <div class="sideToolPane col-sm-2 col-md-2 col-lg-2">
+          <!--{teiEditor:semanticAnnotation("Subject Indexing", "subject", "rs", "c21849") }-->
+          {teiEditor:annotationPlacePeopleTime()}
+          </div>
+          <!-- col-sm-8 col-md-8 col-lg-8  -->
+          <div id="editorPanel" class="col-sm-10 col-md-10 col-lg-10">
+            {teiEditor:textEditor($teiEditor:docId, ())}
+          </div> 
         </div>
     </div>
     <div class="tab-pane fade in" id="nav-places" role="tabpanel" aria-labelledby="nav-text-tab">
-            { teiEditor:placesManager($teiEditor:docId)}
-            
+      {teiEditor:placesManager($teiEditor:docId)}
     </div>
     <div class="tab-pane fade in" id="nav-xmlfile" role="tabpanel" aria-labelledby="nav-text-tab">
-    { teiEditor:xmlFileEditor() }
+      {teiEditor:xmlFileEditor()}
 
 
 <!--<div id="xml-editor-file" class="">
