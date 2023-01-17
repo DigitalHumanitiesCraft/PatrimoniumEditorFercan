@@ -1,81 +1,442 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><teiHeader><fileDesc><titleStmt><title type="full"><title type="main">Matronae? Abirenes | Hercules Magusanus | Mahlinehae</title><title type="sub">CF-GeI-115</title></title><respStmt><resp>Inschriftenedition</resp><persName><forename>Werner</forename><surname>Petermandl</surname></persName></respStmt><respStmt><resp>Archäologische Beschreibung und geografische Daten</resp><persName><forename>Astrid</forename><surname>Schmölzer</surname></persName></respStmt><funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
-                  29274-G25</funder></titleStmt><publicationStmt><publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
-                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher><authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
-                    Informationsmodellierung - Austrian Centre for Digital Humanities,
-                    Karl-Franzens-Universität Graz</orgName></authority><distributor><link target="https://gams.uni-graz.at"/><orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor><date when="2022">2022</date><pubPlace>Graz</pubPlace><idno type="PID">o:fercan.115</idno><availability><licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
-                    BY-NC 4.0</licence></availability></publicationStmt><seriesStmt><title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
-                  Celticarum Antiquarum</title><respStmt><resp>Projektleitung</resp><persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName></respStmt></seriesStmt><sourceDesc><msDesc><msIdentifier><settlement>Köln</settlement><repository>Römisch-Germanisches Museum</repository><idno>74,408</idno></msIdentifier><msContents><summary>Weihinschrift</summary></msContents><physDesc><objectDesc><supportDesc><support><p>Heute ist nur noch ein Teil von links unten in zwei Fragmenten erhalten. Die ursprüngliche Form des Weihesteins kann nicht mehr nachvollzogen werden.</p><material><ref type="context" target="context:fercan.material.kalkstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref></material><objectType>Weihestein</objectType><dimensions><height unit="cm">20,0</height><width unit="cm">18,0</width><depth unit="cm">11,5</depth></dimensions><note type="dimensions">Die angegebenen Maße sind die des erhaltenen Fragments.</note></support><condition><ref type="context" target="context:fercan.condition-o.groeszeres_fragment" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref></condition></supportDesc><layoutDesc><layout><p>Von dem Inschriftentext ist nur mehr ein Fragment aus der Mitte erhalten. Von ILS und CIL wurden noch weitere Teile gelesen, die heute verloren sind (hier in der Majuskelabschrift unterstrichen). Auch im CIL Text sind die Ränder und das untere Ende nicht erreicht, doch dürfte das Formular darauf hindeuten, dass die erste Zeile erfasst ist. Das „cum“ in der letzten Zeile lässt vermuten, dass vermutlich noch ein dritter Dedikant auf der Inschrift genannt war.<lb/>Ligaturen: s. Majuskeltext</p><note type="condition">größeres Fragment</note></layout></layoutDesc></objectDesc><handDesc><handNote><desc type="execution">gemeißelt</desc><height unit="cm" atLeast="1.7" atMost="2.0">1,7–2,0 cm</height></handNote></handDesc><decoDesc><decoNote><p>kein Dekor erhalten</p><term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300"><ref type="context" target="context:fercan.arch.fragment">Fragment</ref></term></decoNote></decoDesc></physDesc><history><origin><origPlace><placeName ref="https://pleiades.stoa.org/places/108751">CCAA</placeName><region>CCAA</region></origPlace><origDate/></origin><provenance type="found" when="1883"><placeName><ref type="context" target="context:fercan.geog.modern.koeln">Köln</ref></placeName><p>Deutz, am Rheinufer</p><location><geo decls="#WGS">50.937769 6.958583</geo></location><note>ursprünglich wohl im Kastell von Köln-Deutz vermauert, dann mit dem Abbruchschutt an der Rheinfront aufgeschüttet, wo der Stein zutage kam</note></provenance><provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: Photo und CIL (die nicht erhaltenen Teile)</provenance></history></msDesc><listPlace><place/></listPlace><listPerson><person><persName type="gentilnomen"><ref type="context" target="context:fercan.person.gentilnomen.similinius">Similinius</ref></persName></person><person><persName type="cognomen"><ref type="context" target="context:fercan.person.cognomen.dirmesus">Dirmesus</ref></persName></person><person><persName type="divine" subtype="celtic_normalized"><ref type="context" target="context:fercan.dcn.matronae__abirenes">Matronae? Abirenes</ref></persName></person><person><persName type="divine" subtype="celtic_diplomatic"><ref type="context" target="context:fercan.dcd.matronae__abirenes._____is_abirenibu_s_">[---]is Abirenibu[s]</ref></persName></person><person><persName type="divine" subtype="celtic_normalized"><ref type="context" target="context:fercan.dcn.hercules_magusanus">Hercules Magusanus</ref></persName></person><person><persName type="divine" subtype="celtic_diplomatic"><ref type="context" target="context:fercan.dcd.hercules_magusanus._herc_uli_magusan_o_">[Herc]uli Magusan[o]</ref></persName></person><person><persName type="divine" subtype="celtic_normalized"><ref type="context" target="context:fercan.dcn.mahlinehae">Mahlinehae</ref></persName></person><person><persName type="divine" subtype="celtic_diplomatic"><ref type="context" target="context:fercan.dcd.mahlinehae.mahal_____">Mahal[---]</ref></persName></person><person><persName type="divine" subtype="celtic_element"><ref type="context" target="context:fercan.dce.abirenes">Abirenes</ref></persName></person><person><persName type="divine" subtype="celtic_element"><ref type="context" target="context:fercan.dce.magusanus">Magusanus</ref></persName></person><person><persName type="divine" subtype="celtic_element"><ref type="context" target="context:fercan.dce.mahlinehae">Mahlinehae</ref></persName></person><person><persName type="divine"><ref type="context" target="context:fercan.person.divine-o.diana">Diana</ref></persName></person><person><persName type="divine"><ref type="context" target="context:fercan.person.divine-o.genius_loci">Genius loci</ref></persName></person><person><persName type="divine"><ref type="context" target="context:fercan.person.divine-o.mercurius">Mercurius</ref></persName></person><person><persName type="divine"><ref type="context" target="context:fercan.person.divine-o.silvanus">Silvanus</ref></persName></person><person><persName type="divine"><ref type="context" target="context:fercan.person.divine-o.victoria">Victoria</ref></persName></person><person><persName><roleName type="military"><ref type="context" target="context:fercan.person.military.curator_numeri">curator numeri</ref></roleName></persName></person><person><persName><roleName type="military"><ref type="context" target="context:fercan.person.military.veredarius">veredarius</ref></roleName></persName></person><person><persName><roleName type="military"><ref type="context" target="context:fercan.person.military.veteranus">veteranus</ref></roleName></persName></person><person><persName><roleName type="other"><ref type="context" target="context:fercan.person.other.curator">curator</ref></roleName></persName></person></listPerson><listOrg><org/><org type="military_unit"><orgName><ref type="context" target="context:fercan.org.military.numerus_britonum">numerus Britonum</ref></orgName></org></listOrg></sourceDesc></fileDesc><encodingDesc><geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl><editorialDecl><p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p><p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
-                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p></editorialDecl><projectDesc><p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
-                  Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
-                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p><p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
-                  lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
-                  zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
-                  besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
-                  durch das Zusammentreffen von verschiedenen kulturellen Einflüssen entstanden
-                  sind. Diese sind hier einerseits definiert durch die Verwendung der keltischen
-                  Sprache, andererseits durch die lateinische Sprache und durch Formen aus dem
-                  Inneren des Imperium Romanum, die man mit dem Etikett „römisch“ versehen kann. Das
-                  Interesse gilt dabei nicht nur religiösen, sondern auch damit verbundenen
-                  gesellschaftlichen Aspekten und den entsprechenden Mentalitäten. Doch soll damit
-                  auch zu einem verbesserten Gesamtbild der Provinzialreligion in Niedergermanien
-                  beigetragen werden.<lb/> Die Abschlusspublikation wird ergänzt um einen
-                  ausführlichen sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo
-                  Stempel) in der Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum
-                  Celticarum antiquarum)‘ erscheinen. </p></projectDesc></encodingDesc><profileDesc><langUsage><language ident="la">Latein</language></langUsage><textClass><keywords><list><item><ref type="context" target="context:fercan.dedication.pro_salute_domini_nostri">pro salute domini nostri</ref></item><item/></list></keywords></textClass></profileDesc><revisionDesc><change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.115/TEI_SOURCE.2020-02-26">Initial Version</change><change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.115/TEI_SOURCE.2022-03-07">Version 2</change><change when="2022" n="3">Version 3</change></revisionDesc></teiHeader><facsimile><graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="file:///0115_Front.jpg"><desc>Front, EDCS-01200332 (RGM Köln), Rechte vorbehalten</desc></graphic></facsimile><text><body><ab><ref target="context:fercan" type="context">FERCAN</ref></ab><div subtype="editions" type="bibliography"><listBibl><bibl xml:id="LIT.1">ILS 4630 mit add.</bibl><bibl xml:id="LIT.2">CIL XIII 8492</bibl><bibl xml:id="LIT.3">Alföldy 1968 Hilfstruppen, 220, Nr.184</bibl><bibl xml:id="LIT.4">Galsterer/Galsterer 1975, Nr.39</bibl><bibl xml:id="LIT.5">Galsterer/Galsterer 1981, 230, Anm.12</bibl><bibl xml:id="LIT.6">Galsterer/Galsterer 2010, Nr.52</bibl><bibl xml:id="LIT.7">KIK 2012, Nr.55</bibl></listBibl></div><div subtype="concordances" type="bibliography"><listBibl><bibl type="EDCS">EDCS-01200332<date>zuletzt aufgerufen am 24. Februar 2020</date></bibl><bibl type="trismegistos">www.trismegistos.org/text/415508<date>zuletzt aufgerufen am 26. Juli 2021</date></bibl></listBibl></div><div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve"><ab><orig><lb n="1" xml:id="MAJ.1"/><supplied reason="undefined" evidence="previouseditor">PRO SA<gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2" xml:id="MAJ.2"/> 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full"><title type="main">Matronae? Abirenes | Hercules Magusanus |
+            Mahlinehae</title><title type="sub">CF-GeI-115</title></title>
+        <respStmt>
+          <resp>Inschriftenedition</resp>
+          <persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>Archäologische Beschreibung und geografische Daten</resp>
+          <persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+        </respStmt>
+        <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 29274-G25</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><link target="https://antike.uni-graz.at"/><orgName
+            ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte Geschichte
+            und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+        <authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName
+            ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung - Austrian
+            Centre for Digital Humanities, Karl-Franzens-Universität Graz</orgName></authority>
+        <distributor><link target="https://gams.uni-graz.at"/><orgName>GAMS -
+            Geisteswissenschaftliches Asset Management System</orgName></distributor>
+        <date when="2022">2022</date>
+        <pubPlace>Graz</pubPlace>
+        <idno type="PID">o:fercan.115</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons BY-NC
+            4.0</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+          Celticarum Antiquarum</title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Köln</settlement>
+            <repository>Römisch-Germanisches Museum</repository>
+            <idno>74,408</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Weihinschrift</summary>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support><p>Heute ist nur noch ein Teil von links unten in zwei Fragmenten erhalten.
+                    Die ursprüngliche Form des Weihesteins kann nicht mehr nachvollzogen
+                      werden.</p><material><ref type="context"
+                      target="context:fercan.material.kalkstein"
+                      ana="https://gams.uni-graz.at/o:fercan.arch#C.120210"
+                    >Kalkstein</ref></material><objectType>Weihestein</objectType><dimensions>
+                    <height unit="cm">20,0</height>
+                    <width unit="cm">18,0</width>
+                    <depth unit="cm">11,5</depth>
+                  </dimensions><note type="dimensions">Die angegebenen Maße sind die des erhaltenen
+                    Fragments.</note></support>
+                <condition><ref type="context"
+                    target="context:fercan.condition-o.groeszeres_fragment"
+                    ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres
+                  Fragment</ref></condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout><p>Von dem Inschriftentext ist nur mehr ein Fragment aus der Mitte erhalten.
+                    Von ILS und CIL wurden noch weitere Teile gelesen, die heute verloren sind (hier
+                    in der Majuskelabschrift unterstrichen). Auch im CIL Text sind die Ränder und
+                    das untere Ende nicht erreicht, doch dürfte das Formular darauf hindeuten, dass
+                    die erste Zeile erfasst ist. Das „cum“ in der letzten Zeile lässt vermuten, dass
+                    vermutlich noch ein dritter Dedikant auf der Inschrift genannt
+                    war.<lb/>Ligaturen: s. Majuskeltext</p><note type="condition">größeres
+                    Fragment</note></layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote><desc type="execution">gemeißelt</desc><height unit="cm" atLeast="1.7"
+                  atMost="2.0">1,7–2,0 cm</height></handNote>
+            </handDesc>
+            <decoDesc>
+              <decoNote><p>kein Dekor erhalten</p><term
+                  ana="https://gams.uni-graz.at/o:fercan.arch#C.130300"><ref type="context"
+                    target="context:fercan.arch.fragment">Fragment</ref></term></decoNote>
+            </decoDesc>
+          </physDesc>
+          <history>
+            <origin><origPlace><placeName ref="https://pleiades.stoa.org/places/108751"
+                  >CCAA</placeName><region>CCAA</region></origPlace><origDate/></origin>
+            <provenance type="found" when="1883"><placeName><ref type="context"
+                  target="context:fercan.geog.modern.koeln">Köln</ref></placeName><p>Deutz, am
+                Rheinufer</p><location>
+                <geo decls="#WGS">50.937769 6.958583</geo>
+              </location><note>ursprünglich wohl im Kastell von Köln-Deutz vermauert, dann mit dem
+                Abbruchschutt an der Rheinfront aufgeschüttet, wo der Stein zutage
+              kam</note></provenance>
+            <provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf:
+              Photo und CIL (die nicht erhaltenen Teile)</provenance>
+          </history>
+        </msDesc>
+        <listPlace>
+          <place/>
+        </listPlace>
+        <listPerson>
+          <person>
+            <persName type="gentilnomen"><ref type="context"
+                target="context:fercan.person.gentilnomen.similinius">Similinius</ref></persName>
+          </person>
+          <person>
+            <persName type="cognomen"><ref type="context"
+                target="context:fercan.person.cognomen.dirmesus">Dirmesus</ref></persName>
+          </person>
+          <person>
+            <persName type="divine" subtype="celtic_normalized"><ref type="context"
+                target="context:fercan.dcn.matronae__abirenes">Matronae? Abirenes</ref></persName>
+          </person>
+          <person>
+            <persName type="divine" subtype="celtic_diplomatic"><ref type="context"
+                target="context:fercan.dcd.matronae__abirenes._____is_abirenibu_s_">[---]is
+                Abirenibu[s]</ref></persName>
+          </person>
+          <person>
+            <persName type="divine" subtype="celtic_normalized"><ref type="context"
+                target="context:fercan.dcn.hercules_magusanus">Hercules Magusanus</ref></persName>
+          </person>
+          <person>
+            <persName type="divine" subtype="celtic_diplomatic"><ref type="context"
+                target="context:fercan.dcd.hercules_magusanus._herc_uli_magusan_o_">[Herc]uli
+                Magusan[o]</ref></persName>
+          </person>
+          <person>
+            <persName type="divine" subtype="celtic_normalized"><ref type="context"
+                target="context:fercan.dcn.mahlinehae">Mahlinehae</ref></persName>
+          </person>
+          <person>
+            <persName type="divine" subtype="celtic_diplomatic"><ref type="context"
+                target="context:fercan.dcd.mahlinehae.mahal_____">Mahal[---]</ref></persName>
+          </person>
+          <person>
+            <persName type="divine" subtype="celtic_element"><ref type="context"
+                target="context:fercan.dce.abirenes">Abirenes</ref></persName>
+          </person>
+          <person>
+            <persName type="divine" subtype="celtic_element"><ref type="context"
+                target="context:fercan.dce.magusanus">Magusanus</ref></persName>
+          </person>
+          <person>
+            <persName type="divine" subtype="celtic_element"><ref type="context"
+                target="context:fercan.dce.mahlinehae">Mahlinehae</ref></persName>
+          </person>
+          <person>
+            <persName type="divine"><ref type="context"
+                target="context:fercan.person.divine-o.diana">Diana</ref></persName>
+          </person>
+          <person>
+            <persName type="divine"><ref type="context"
+                target="context:fercan.person.divine-o.genius_loci">Genius loci</ref></persName>
+          </person>
+          <person>
+            <persName type="divine"><ref type="context"
+                target="context:fercan.person.divine-o.mercurius">Mercurius</ref></persName>
+          </person>
+          <person>
+            <persName type="divine"><ref type="context"
+                target="context:fercan.person.divine-o.silvanus">Silvanus</ref></persName>
+          </person>
+          <person>
+            <persName type="divine"><ref type="context"
+                target="context:fercan.person.divine-o.victoria">Victoria</ref></persName>
+          </person>
+          <person>
+            <persName><roleName type="military"><ref type="context"
+                  target="context:fercan.person.military.curator_numeri">curator
+                numeri</ref></roleName></persName>
+          </person>
+          <person>
+            <persName><roleName type="military"><ref type="context"
+                  target="context:fercan.person.military.veredarius"
+              >veredarius</ref></roleName></persName>
+          </person>
+          <person>
+            <persName><roleName type="military"><ref type="context"
+                  target="context:fercan.person.military.veteranus"
+              >veteranus</ref></roleName></persName>
+          </person>
+          <person>
+            <persName><roleName type="other"><ref type="context"
+                  target="context:fercan.person.other.curator">curator</ref></roleName></persName>
+          </person>
+        </listPerson>
+        <listOrg>
+          <org/>
+          <org type="military_unit">
+            <orgName><ref type="context" target="context:fercan.org.military.numerus_britonum"
+                >numerus Britonum</ref></orgName>
+          </org>
+        </listOrg>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+      <editorialDecl>
+        <p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+        <p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet Inschrift
+          originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+      </editorialDecl>
+      <projectDesc>
+        <p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania Inferior.
+          Eine Fallstudie zu Religion im Kontext von Kulturkontakt und Kulturtransfer (FWF – Projekt
+          P 29274-G25 )</p>
+        <p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+          lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
+          zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint besonders
+          geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene durch das
+          Zusammentreffen von verschiedenen kulturellen Einflüssen entstanden sind. Diese sind hier
+          einerseits definiert durch die Verwendung der keltischen Sprache, andererseits durch die
+          lateinische Sprache und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem
+          Etikett „römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+          auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden Mentalitäten.
+          Doch soll damit auch zu einem verbesserten Gesamtbild der Provinzialreligion in
+          Niedergermanien beigetragen werden.<lb/> Die Abschlusspublikation wird ergänzt um einen
+          ausführlichen sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+          Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum antiquarum)‘
+          erscheinen. </p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latein</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <list>
+            <item><ref type="context" target="context:fercan.dedication.pro_salute_domini_nostri"
+                >pro salute domini nostri</ref></item>
+            <item/>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019" n="1"
+        corresp="https://gams.uni-graz.at/o:fercan.115/TEI_SOURCE.2020-02-26">Initial
+        Version</change>
+      <change when="2020" n="2"
+        corresp="https://gams.uni-graz.at/o:fercan.115/TEI_SOURCE.2022-03-07">Version 2</change>
+      <change when="2022" n="3">Version 3</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="file:///0115_Front.jpg">
+      <desc>Front, EDCS-01200332 (RGM Köln), Rechte vorbehalten</desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <ab><ref target="context:fercan" type="context">FERCAN</ref></ab>
+      <div subtype="editions" type="bibliography">
+        <listBibl>
+          <bibl xml:id="LIT.1">ILS 4630 mit add.</bibl>
+          <bibl xml:id="LIT.2">CIL XIII 8492</bibl>
+          <bibl xml:id="LIT.3">Alföldy 1968 Hilfstruppen, 220, Nr.184</bibl>
+          <bibl xml:id="LIT.4">Galsterer/Galsterer 1975, Nr.39</bibl>
+          <bibl xml:id="LIT.5">Galsterer/Galsterer 1981, 230, Anm.12</bibl>
+          <bibl xml:id="LIT.6">Galsterer/Galsterer 2010, Nr.52</bibl>
+          <bibl xml:id="LIT.7">KIK 2012, Nr.55</bibl>
+        </listBibl>
+      </div>
+      <div subtype="concordances" type="bibliography">
+        <listBibl>
+          <bibl type="EDCS">EDCS-01200332<date>zuletzt aufgerufen am 24. Februar 2020</date></bibl>
+          <bibl type="trismegistos">www.trismegistos.org/text/415508<date>zuletzt aufgerufen am 26.
+              Juli 2021</date></bibl>
+        </listBibl>
+      </div>
+      <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve"><ab><orig><lb n="1" xml:id="MAJ.1"/><supplied reason="undefined" evidence="previouseditor">PRO SA<gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2" xml:id="MAJ.2"/> 
 <supplied reason="undefined" evidence="previouseditor"><gap reason="lost" extent="unknown" unit="character"/>V<hi rend="ligature">LI</hi> · <hi rend="ligature">MA</hi>GVSAN<gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3" xml:id="MAJ.3"/> 
 <supplied reason="undefined" evidence="previouseditor"><gap reason="lost" extent="unknown" unit="character"/>IS · ABIRE<hi rend="ligature">NI</hi>BV<gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="4" xml:id="MAJ.4"/> 
 <supplied reason="undefined" evidence="previouseditor"><gap reason="lost" extent="unknown" unit="character"/>VANO · ET · GE<hi rend="ligature">NI</hi>O<gap reason="lost" extent="unknown" unit="character"/></supplied><lb n="5" xml:id="MAJ.5"/> 
 <supplied reason="undefined" evidence="previouseditor"><gap reason="lost" extent="unknown" unit="character"/>NE · MAHAL<gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="6" xml:id="MAJ.6"/> 
-<supplied reason="undefined" evidence="previouseditor"><gap reason="lost" extent="unknown" unit="character"/>T</supplied>OR̂<supplied reason="undefined" evidence="previouseditor">I</supplied>E<supplied reason="undefined" evidence="previouseditor"> · MERCV<gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="7" xml:id="MAJ.7"/> 
-<supplied reason="undefined" evidence="previouseditor"><gap reason="lost" extent="unknown" unit="character"/>R̂<gap reason="lost" quantity="1" unit="character"/></supplied>S · QVE · D<supplied reason="undefined" evidence="previouseditor"><hi rend="ligature">II</hi>S · DEA<gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="8" xml:id="MAJ.8"/> 
+<supplied reason="undefined" evidence="previouseditor"><gap reason="lost" extent="unknown" unit="character"/>T</supplied>O<hi rend="ligature">R<supplied reason="undefined" evidence="previouseditor">I</supplied></hi>E<supplied reason="undefined" evidence="previouseditor"> · MERCV<gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="7" xml:id="MAJ.7"/> 
+<supplied reason="undefined" evidence="previouseditor"><gap reason="lost" extent="unknown" unit="character"/><hi rend="ligature">R<gap quantity="1" reason="lost" unit="character"/></hi></supplied>S · QVE · D<supplied reason="undefined" evidence="previouseditor"><hi rend="ligature">II</hi>S · DEA<gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="8" xml:id="MAJ.8"/> 
 <supplied reason="undefined" evidence="previouseditor"><gap reason="lost" extent="unknown" unit="character"/><hi rend="ligature">NI</hi></supplied>BVS · SIM<supplied reason="undefined" evidence="previouseditor">ILIN<gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="9" xml:id="MAJ.9"/> 
 <gap reason="lost" extent="unknown" unit="character"/>NVS · VER<supplied reason="undefined" evidence="previouseditor">ED · <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="10" xml:id="MAJ.10"/> 
 <gap reason="lost" extent="unknown" unit="character"/>STIS · D<hi rend="ligature">IR</hi>M<supplied reason="undefined" evidence="previouseditor">ES<gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="11" xml:id="MAJ.11"/> 
 <gap reason="lost" extent="unknown" unit="character"/>NVS · ITEM · <supplied reason="undefined" evidence="previouseditor">CV<gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="12" xml:id="MAJ.12"/> 
-<supplied reason="undefined" evidence="previouseditor"><gap reason="lost" extent="unknown" unit="character"/>NUM CVM <gap reason="lost" extent="unknown" unit="character"/></supplied></orig></ab></div><div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve"><ab><lb n="1" xml:id="MIN.1"/>Pro sa<supplied reason="lost"><expan><abbr>l</abbr><ex>ute</ex></expan> <expan><abbr>d</abbr><ex>omini</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan>?</supplied><lb n="2" xml:id="MIN.2"/><supplied reason="lost">Herc</supplied>uli Magusan<supplied reason="lost">o Ma-</supplied><lb n="3" xml:id="MIN.3"/><supplied reason="lost">tron?</supplied>is Abirenibu<supplied reason="lost">s et</supplied><lb n="4" xml:id="MIN.4"/><supplied reason="lost">Sil</supplied>vano et Genio <supplied reason="lost"><expan><abbr>loc</abbr><ex>i</ex></expan></supplied><lb n="5" xml:id="MIN.5"/><supplied reason="lost">Dia</supplied><expan><abbr>n</abbr><ex>a</ex></expan>e Mahal<supplied reason="lost">inis?</supplied><lb n="6" xml:id="MIN.6"/><supplied reason="lost">Vic</supplied><expan><abbr>tori</abbr><ex>a</ex></expan>e Mercu<supplied reason="lost">rio</supplied><lb n="7" xml:id="MIN.7"/><supplied reason="lost">cete</supplied>risque diis dea<supplied reason="lost">bus</supplied><lb n="8" xml:id="MIN.8"/><supplied reason="lost">om</supplied>nibus. Similin<supplied reason="lost">ius</supplied><lb n="9" xml:id="MIN.9"/><gap reason="lost" extent="unknown" unit="character"/>nus <expan><abbr>vered</abbr><ex>arius</ex></expan> <supplied reason="lost">et</supplied><lb n="10" xml:id="MIN.10"/><gap reason="lost" extent="unknown" unit="character"/>stis Dirmes<supplied reason="lost">us?</supplied><lb n="11" xml:id="MIN.11"/><supplied reason="lost"> vetera</supplied>nus item cu<supplied reason="lost"><expan><abbr>rat</abbr><ex>or</ex></expan></supplied><lb n="12" xml:id="MIN.12"/><supplied reason="lost"><expan><abbr>n</abbr><ex>umeri</ex></expan> Brito</supplied>num cum <gap reason="lost" extent="unknown" unit="character"/></ab></div><div type="translation" xml:lang="de"><p>Für das Wohl unseres Herrn! <lb/> 
-Für  <rs type="divine">Hercules Magusanus,</rs> die  <rs type="divine">Matronae Abirenes, Silvanus,</rs> den  <rs type="divine">Genius loci, Diana,</rs> die  <rs type="divine">Mahalinae, Victoria, Merkur</rs> und alle übrigen Götter und Göttinnen! <lb/> 
-Similinius …nus, Kurier, und …stis Dirmesus, Veteran und curator numeri der Britones mit …</p></div><div type="translation" xml:lang="en"><p>As a gift for the welfare of our lord! <lb/> 
-To  <rs type="divine">Hercules Magusanus,</rs> the  <rs type="divine">Matronae Abirenes, Silvanus,</rs> the  <rs type="divine">Genius loci, Diana,</rs> the  <rs type="divine">Mahalinae, Victoria, Mercury</rs> and to all the other gods and goddesses! <lb/> 
-Similinius …nus, a messenger, and …stis Dirmesus, a veteran and curator numeri of the Britones with …</p></div><div type="apparatus"><app loc="#MIN.1 #MAJ.1"><note>Am Anf.: In h(onorem) d(omus) d(ivinae) – Alföldy; die unterstrichenen Teile in Z.1–12 sind heute nicht mehr erhalten, sie werden nach CIL wiedergegeben</note></app><app loc="#MIN.2 #MAJ.2"><note>[Herc]uli Magusan[o Ambi-] – Galsterer/Galsterer 1981; ohne Ligaturen – ILS, Alföldy, Galsterer/Galsterer 2010, KIK 2012</note></app><app loc="#MIN.3 #MAJ.3"><note>[amarc]is Abirenibu[s et] – Galsterer/Galsterer 1981; ohne Ligatur – ILS, Alföldy, Galsterer/Galsterer 2010, KIK 2012; ohne Zeilenwechsel – ILS</note></app><app loc="#MIN.4 #MAJ.4"><note>Geni[o], ohne Ligatur – ILS; ohne Ligatur – Alföldy, Galsterer/Galsterer 2010, KIK 2012</note></app><app loc="#MIN.5 #MAJ.5"><note>[Dia]nae – Alföldy, [Dia]ne – Galsterer/Galsterer 1975, Galsterer/Galsterer 2010, KIK2012; Mahal[ineis] – Galsterer/Galsterer 2010, KIK 2012</note></app><app loc="#MIN.6 #MAJ.6"><note>am Anf. [---]rie, ohne Ligatur – ILS; [Vic]torie – Galsterer/Galsterer 1975, Galsterer/Galsterer 2010, KIK 2012; ohne Ligatur – Alföldy, Galsterer/Galsterer 2010, KIK 2012</note></app><app loc="#MIN.7 #MAJ.7"><note>dis dea[busque], ohne Ligaturen – ILS; dis – Alföldy, Galsterer/Galsterer 1975, Galsterer/Galsterer 2010, KIK 2012; ohne Ligaturen – Alföldy, Galsterer/Galsterer 2010, KIK 2012</note></app><app loc="#MIN.8 #MAJ.8"><note>[omn]ibus, ohne Ligatur – ILS; Similini[us] – Alföldy, Galsterer/Galsterer 1975, Galsterer/Galsterer 2010, KIK2012; ohne Ligaturen – Alföldy, Galsterer/Galsterer 2010; KIK 2012</note></app><app loc="#MIN.9 #MAJ.9"><note>vered[ar.] – ILS</note></app><app loc="#MIN.10 #MAJ.10"><note>Dirimes[---] Alföldy, ohne Ligatur – ILS, Alföldy, Galsterer/Galsterer 2010, KIK 2012</note></app><app loc="#MIN.11. #MAJ.11."><note>item c[---] – ILS</note></app><app loc="#MIN.12 #MAJ.12"><note>[…]cu[…] – ILS; [n(umeri) Brit(t)o]num cum [---] – Alföldy</note></app></div><div type="commentary" subtype="general"><p>veredarius: bezeichnet einen Kurier oder Postreiter </p><p>
-curator: Dabei handelt es sich vielleicht eher um einen curator eines Kollegiums des numerus Britonum als um einen curator eines numerus der Britones. <lb/> <lb/>
-numerus Britonum: Eine Einheit dieses Namens ist sowohl aus Ober- als auch aus Niedergermanien bekannt. Die niedergermanische Truppe war in Divitiae (Deutz) stationiert. Der älteste Beleg für sie stammt aus der Zeit des Caracalla oder des Elagabal. Zu ihren Aufgaben zählten die Verteidigung der Colonia Claudia Ara Agrippinensium sowie Erkundungszüge ins rechtsrheinische Gebiet (Alföldy 1968 Hilfstruppen, 79). </p><p>
- 
-Similinius: einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Cognomen Similis, tritt fast ausschließlich in der Germania Inferior auf (Kakoschke 2006, GN 1188); “Similinius sur Similis est sans aucun doute un nom latin d'assonance germanique, avec ici la forme patronymique germanique” (Raepsaet-Charlier 2003; 296). </p><p>
-Dirmesus: keltisches Cognomen? (Kakoschke 2007, CN 1087)</p></div><div type="commentary" subtype="language"><p>v.5: „Diane” pro „Dianae”<lb/>v.6: „Victorie” pro „Victoriae”</p></div><div type="commentary" subtype="deity"><p> <rs type="divine">Abirenes:</rs> keltisch; ursprünglicher Zugehörigkeitsbeiname zum Gebiet um den Fluss Renos, ‚die Gottheiten um den Renos‘ (de Bernardo Stempel in Spickermann 2005, 139) </p><p>
-
-Vorkommen in theonymischen Formularen: </p><p>
- <rs type="divine">Matronae? Abirenes</rs>: <lb/>
-- Germania Inferior: In der hier vorgelegten Inschrift deutet der vor dem Götternamen erhaltene Wortausgang “-is” darauf hin, dass ursprünglich „Matronis Abirenibus“ zu lesen war. <lb/>
-- außerhalb der Germania Inferior: - </p><p>
- <rs type="divine">Abirenes</rs>:
-- Germania Inferior: Der Göttername ist in der Variante Ambioreneses 1x belegt (CF-GeI-106). <lb/>
-- außerhalb der Germania Inferior: - </p><p>
-
-
-*** </p><p>
-
- <rs type="divine">Magusanus</rs>: Germanisierung des keltischen Kultnamens * <rs type="divine">Mogusenos:</rs>, ,der mächtige Alte‘, später sukzessive germanisiert zu  <rs type="divine">Magusenos</rs>,  <rs type="divine">Magusanos</rs> und  <rs type="divine">Macusanos</rs> (de Bernardo Stempel in Spickermann 2005, 146, vgl. Toorians 2003) </p><p>
-
-Vorkommen in theonymischen Formularen: </p><p>
- <rs type="divine">Hercules Magusanus</rs>: <lb/>
-- Germania Inferior: sehr gut belegt (CF-GeI-115, 127–132, 134–139, 242–244), 1x darunter in Verbindung mit dem Gottheitsdeterminativ deus (CF-GeI-139) <lb/> 
-- außerhalb der Germania Inferior: in Rom und in verschiedenen Provinzen vereinzelt nachgewiesen: Belgica, Britannia, Dacia (hier 1x auch als  <rs type="divine">deus invictus Hercules Magusanus</rs> [AE 1977, 702]), Pannonia Superior </p><p>
- <rs type="divine">Magusanus Hercules</rs>: <lb/>
-- Germania Inferior: nur 1x bezeugt (CF-GeI-133)   <lb/>
-- außerhalb der Germania Inferior: -  </p><p>
- <rs type="divine">Magusanus</rs>: <lb/>
-- Germania Inferior: in dieser Provinz nicht bezeugt  <lb/>
-- außerhalb der Germania Inferior:  In der Provinz Dacia ist 1x ein  <rs type="divine">deus Mag…</rs> bezeugt (AE 1995, 1280).   </p><p>
-
-*** </p><p>
-
- <rs type="divine">Mahalinae:</rs> keltisch (Delamarre 2007, 124); anders: germanischer Göttername (Neumann 1987, 109; vgl. Gutenbrunner 1936, 183); in der Germania Inferior ansonsten belegt als  <rs type="divine">Mahlinehae</rs>. </p><p>
-
-Vorkommen in theonymischen Formularen: </p><p>
- <rs type="divine">Mahlinehae</rs>: <lb/>
-- Germania Inferior: nur in der hier besprochenen Inschrift belegt <lb/>
-- außerhalb der Germania Inferior: - </p><p>
-
- <rs type="divine">Matronae Mahlinehae</rs>: <lb/>
-- Germania Inferior: Das theonymische Formular ist 2x belegt (CF-GeI-296, CF-GeI-297). <lb/>
-- außerhalb der Germania Inferior: - </p></div><linkGrp type="alignment" domains="#majuscule #minuscule"><link target="#MAJ.1 #MIN.1"/><link target="#MAJ.2 #MIN.2"/><link target="#MAJ.3 #MIN.3"/><link target="#MAJ.4 #MIN.4"/><link target="#MAJ.5 #MIN.5"/><link target="#MAJ.6 #MIN.6"/><link target="#MAJ.7 #MIN.7"/><link target="#MAJ.8 #MIN.8"/><link target="#MAJ.9 #MIN.9"/><link target="#MAJ.10 #MIN.10"/><link target="#MAJ.11 #MIN.11"/><link target="#MAJ.12 #MIN.12"/></linkGrp></body></text></TEI>
+<supplied reason="undefined" evidence="previouseditor"><gap reason="lost" extent="unknown" unit="character"/>NUM CVM <gap reason="lost" extent="unknown" unit="character"/></supplied></orig></ab></div>
+      <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve"><ab><lb n="1" xml:id="MIN.1"/>Pro sa<supplied reason="lost" cert="low"><expan><abbr>l</abbr><ex>ute</ex></expan> <expan><abbr>d</abbr><ex>omini</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan></supplied><lb n="2" xml:id="MIN.2"/><supplied reason="lost">Herc</supplied>uli Magusan<supplied reason="lost">o Ma</supplied><lb n="3" xml:id="MIN.3" break="no"/><supplied reason="lost" cert="low">tron</supplied>is Abirenibu<supplied reason="lost">s et</supplied><lb n="4" xml:id="MIN.4"/><supplied reason="lost">Sil</supplied>vano et Genio <supplied reason="lost"><expan><abbr>loc</abbr><ex>i</ex></expan></supplied><lb n="5" xml:id="MIN.5"/><supplied reason="lost">Dia</supplied><expan><abbr>n</abbr><ex>a</ex></expan>e Mahal<supplied reason="lost" cert="low">inis</supplied><lb n="6" xml:id="MIN.6"/><supplied reason="lost">Vic</supplied><expan><abbr>tori</abbr><ex>a</ex></expan>e Mercu<supplied reason="lost">rio</supplied><lb n="7" xml:id="MIN.7"/><supplied reason="lost">cete</supplied>risque diis dea<supplied reason="lost">bus</supplied><lb n="8" xml:id="MIN.8"/><supplied reason="lost">om</supplied>nibus. Similin<supplied reason="lost">ius</supplied><lb n="9" xml:id="MIN.9"/><gap reason="lost" extent="unknown" unit="character"/>nus <expan><abbr>vered</abbr><ex>arius</ex></expan> <supplied reason="lost">et</supplied><lb n="10" xml:id="MIN.10"/><gap reason="lost" extent="unknown" unit="character"/>stis Dirmes<supplied reason="lost" cert="low">us</supplied><lb n="11" xml:id="MIN.11"/><supplied reason="lost"> vetera</supplied>nus item cu<supplied reason="lost"><expan><abbr>rat</abbr><ex>or</ex></expan></supplied><lb n="12" xml:id="MIN.12"/><supplied reason="lost"><expan><abbr>n</abbr><ex>umeri</ex></expan> Brito</supplied>num cum <gap reason="lost" extent="unknown" unit="character"/></ab></div>
+      <div type="translation" xml:lang="de">
+        <p>Für das Wohl unseres Herrn! <lb/> Für <rs type="divine">Hercules Magusanus,</rs> die <rs
+            type="divine">Matronae Abirenes, Silvanus,</rs> den <rs type="divine">Genius loci,
+            Diana,</rs> die <rs type="divine">Mahalinae, Victoria, Merkur</rs> und alle übrigen
+          Götter und Göttinnen! <lb/> Similinius …nus, Kurier, und …stis Dirmesus, Veteran und
+          curator numeri der Britones mit …</p>
+      </div>
+      <div type="translation" xml:lang="en">
+        <p>As a gift for the welfare of our lord! <lb/> To <rs type="divine">Hercules
+            Magusanus,</rs> the <rs type="divine">Matronae Abirenes, Silvanus,</rs> the <rs
+            type="divine">Genius loci, Diana,</rs> the <rs type="divine">Mahalinae, Victoria,
+            Mercury</rs> and to all the other gods and goddesses! <lb/> Similinius …nus, a
+          messenger, and …stis Dirmesus, a veteran and curator numeri of the Britones with …</p>
+      </div>
+      <div type="apparatus">
+        <app loc="#MIN.1 #MAJ.1">
+          <note>Am Anf.: In h(onorem) d(omus) d(ivinae) – Alföldy; die unterstrichenen Teile in
+            Z.1–12 sind heute nicht mehr erhalten, sie werden nach CIL wiedergegeben</note>
+        </app>
+        <app loc="#MIN.2 #MAJ.2">
+          <note>[Herc]uli Magusan[o Ambi-] – Galsterer/Galsterer 1981; ohne Ligaturen – ILS,
+            Alföldy, Galsterer/Galsterer 2010, KIK 2012</note>
+        </app>
+        <app loc="#MIN.3 #MAJ.3">
+          <note>[amarc]is Abirenibu[s et] – Galsterer/Galsterer 1981; ohne Ligatur – ILS, Alföldy,
+            Galsterer/Galsterer 2010, KIK 2012; ohne Zeilenwechsel – ILS</note>
+        </app>
+        <app loc="#MIN.4 #MAJ.4">
+          <note>Geni[o], ohne Ligatur – ILS; ohne Ligatur – Alföldy, Galsterer/Galsterer 2010, KIK
+            2012</note>
+        </app>
+        <app loc="#MIN.5 #MAJ.5">
+          <note>[Dia]nae – Alföldy, [Dia]ne – Galsterer/Galsterer 1975, Galsterer/Galsterer 2010,
+            KIK2012; Mahal[ineis] – Galsterer/Galsterer 2010, KIK 2012</note>
+        </app>
+        <app loc="#MIN.6 #MAJ.6">
+          <note>am Anf. [---]rie, ohne Ligatur – ILS; [Vic]torie – Galsterer/Galsterer 1975,
+            Galsterer/Galsterer 2010, KIK 2012; ohne Ligatur – Alföldy, Galsterer/Galsterer 2010,
+            KIK 2012</note>
+        </app>
+        <app loc="#MIN.7 #MAJ.7">
+          <note>dis dea[busque], ohne Ligaturen – ILS; dis – Alföldy, Galsterer/Galsterer 1975,
+            Galsterer/Galsterer 2010, KIK 2012; ohne Ligaturen – Alföldy, Galsterer/Galsterer 2010,
+            KIK 2012</note>
+        </app>
+        <app loc="#MIN.8 #MAJ.8">
+          <note>[omn]ibus, ohne Ligatur – ILS; Similini[us] – Alföldy, Galsterer/Galsterer 1975,
+            Galsterer/Galsterer 2010, KIK2012; ohne Ligaturen – Alföldy, Galsterer/Galsterer 2010;
+            KIK 2012</note>
+        </app>
+        <app loc="#MIN.9 #MAJ.9">
+          <note>vered[ar.] – ILS</note>
+        </app>
+        <app loc="#MIN.10 #MAJ.10">
+          <note>Dirimes[---] Alföldy, ohne Ligatur – ILS, Alföldy, Galsterer/Galsterer 2010, KIK
+            2012</note>
+        </app>
+        <app loc="#MIN.11. #MAJ.11.">
+          <note>item c[---] – ILS</note>
+        </app>
+        <app loc="#MIN.12 #MAJ.12">
+          <note>[…]cu[…] – ILS; [n(umeri) Brit(t)o]num cum [---] – Alföldy</note>
+        </app>
+      </div>
+      <div type="commentary" subtype="general">
+        <p>veredarius: bezeichnet einen Kurier oder Postreiter </p>
+        <p> curator: Dabei handelt es sich vielleicht eher um einen curator eines Kollegiums des
+          numerus Britonum als um einen curator eines numerus der Britones. <lb/>
+          <lb/> numerus Britonum: Eine Einheit dieses Namens ist sowohl aus Ober- als auch aus
+          Niedergermanien bekannt. Die niedergermanische Truppe war in Divitiae (Deutz) stationiert.
+          Der älteste Beleg für sie stammt aus der Zeit des Caracalla oder des Elagabal. Zu ihren
+          Aufgaben zählten die Verteidigung der Colonia Claudia Ara Agrippinensium sowie
+          Erkundungszüge ins rechtsrheinische Gebiet (Alföldy 1968 Hilfstruppen, 79). </p>
+        <p> Similinius: einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Cognomen
+          Similis, tritt fast ausschließlich in der Germania Inferior auf (Kakoschke 2006, GN 1188);
+          “Similinius sur Similis est sans aucun doute un nom latin d'assonance germanique, avec ici
+          la forme patronymique germanique” (Raepsaet-Charlier 2003; 296). </p>
+        <p> Dirmesus: keltisches Cognomen? (Kakoschke 2007, CN 1087)</p>
+      </div>
+      <div type="commentary" subtype="language">
+        <p>v.5: „Diane” pro „Dianae”<lb/>v.6: „Victorie” pro „Victoriae”</p>
+      </div>
+      <div type="commentary" subtype="deity">
+        <p>
+          <rs type="divine">Abirenes:</rs> keltisch; ursprünglicher Zugehörigkeitsbeiname zum Gebiet
+          um den Fluss Renos, ‚die Gottheiten um den Renos‘ (de Bernardo Stempel in Spickermann
+          2005, 139) </p>
+        <p> Vorkommen in theonymischen Formularen: </p>
+        <p>
+          <rs type="divine">Matronae? Abirenes</rs>: <lb/> - Germania Inferior: In der hier
+          vorgelegten Inschrift deutet der vor dem Götternamen erhaltene Wortausgang “-is” darauf
+          hin, dass ursprünglich „Matronis Abirenibus“ zu lesen war. <lb/> - außerhalb der Germania
+          Inferior: - </p>
+        <p>
+          <rs type="divine">Abirenes</rs>: - Germania Inferior: Der Göttername ist in der Variante
+          Ambioreneses 1x belegt (CF-GeI-106). <lb/> - außerhalb der Germania Inferior: - </p>
+        <p> *** </p>
+        <p>
+          <rs type="divine">Magusanus</rs>: Germanisierung des keltischen Kultnamens * <rs
+            type="divine">Mogusenos:</rs>, ,der mächtige Alte‘, später sukzessive germanisiert zu
+            <rs type="divine">Magusenos</rs>, <rs type="divine">Magusanos</rs> und <rs type="divine"
+            >Macusanos</rs> (de Bernardo Stempel in Spickermann 2005, 146, vgl. Toorians 2003) </p>
+        <p> Vorkommen in theonymischen Formularen: </p>
+        <p>
+          <rs type="divine">Hercules Magusanus</rs>: <lb/> - Germania Inferior: sehr gut belegt
+          (CF-GeI-115, 127–132, 134–139, 242–244), 1x darunter in Verbindung mit dem
+          Gottheitsdeterminativ deus (CF-GeI-139) <lb/> - außerhalb der Germania Inferior: in Rom
+          und in verschiedenen Provinzen vereinzelt nachgewiesen: Belgica, Britannia, Dacia (hier 1x
+          auch als <rs type="divine">deus invictus Hercules Magusanus</rs> [AE 1977, 702]), Pannonia
+          Superior </p>
+        <p>
+          <rs type="divine">Magusanus Hercules</rs>: <lb/> - Germania Inferior: nur 1x bezeugt
+          (CF-GeI-133) <lb/> - außerhalb der Germania Inferior: - </p>
+        <p>
+          <rs type="divine">Magusanus</rs>: <lb/> - Germania Inferior: in dieser Provinz nicht
+          bezeugt <lb/> - außerhalb der Germania Inferior: In der Provinz Dacia ist 1x ein <rs
+            type="divine">deus Mag…</rs> bezeugt (AE 1995, 1280). </p>
+        <p> *** </p>
+        <p>
+          <rs type="divine">Mahalinae:</rs> keltisch (Delamarre 2007, 124); anders: germanischer
+          Göttername (Neumann 1987, 109; vgl. Gutenbrunner 1936, 183); in der Germania Inferior
+          ansonsten belegt als <rs type="divine">Mahlinehae</rs>. </p>
+        <p> Vorkommen in theonymischen Formularen: </p>
+        <p>
+          <rs type="divine">Mahlinehae</rs>: <lb/> - Germania Inferior: nur in der hier besprochenen
+          Inschrift belegt <lb/> - außerhalb der Germania Inferior: - </p>
+        <p>
+          <rs type="divine">Matronae Mahlinehae</rs>: <lb/> - Germania Inferior: Das theonymische
+          Formular ist 2x belegt (CF-GeI-296, CF-GeI-297). <lb/> - außerhalb der Germania Inferior:
+          - </p>
+      </div>
+      <linkGrp type="alignment" domains="#majuscule #minuscule">
+        <link target="#MAJ.1 #MIN.1"/>
+        <link target="#MAJ.2 #MIN.2"/>
+        <link target="#MAJ.3 #MIN.3"/>
+        <link target="#MAJ.4 #MIN.4"/>
+        <link target="#MAJ.5 #MIN.5"/>
+        <link target="#MAJ.6 #MIN.6"/>
+        <link target="#MAJ.7 #MIN.7"/>
+        <link target="#MAJ.8 #MIN.8"/>
+        <link target="#MAJ.9 #MIN.9"/>
+        <link target="#MAJ.10 #MIN.10"/>
+        <link target="#MAJ.11 #MIN.11"/>
+        <link target="#MAJ.12 #MIN.12"/>
+      </linkGrp>
+    </body>
+  </text>
+</TEI>
