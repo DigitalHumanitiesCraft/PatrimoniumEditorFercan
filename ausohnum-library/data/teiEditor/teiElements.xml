@@ -452,6 +452,14 @@
             <formLabel xml:lang="en">Beschreibung</formLabel>
             <fieldType>input</fieldType>
         </teiElement>
+        <teiElement>
+            <nm>Abb_type</nm>
+            <xpath>/@mimeType</xpath>
+            <contentType>attribute</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">MIME-Type</formLabel>
+            <fieldType>input</fieldType>
+        </teiElement>
     </teiElement>
     <!-- App. crit. -->
     <teiElement>
