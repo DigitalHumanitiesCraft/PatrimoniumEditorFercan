@@ -44,23 +44,21 @@
     <teiElement>
         <nm>FOantik</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
+        <contentType>textNodeAndAttribute</contentType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Fundort antik</formLabel>
-        <xpath2ref/>
-        <comments/>
+        <fieldType>place</fieldType>
+        <thesauDb>internal</thesauDb>
     </teiElement>
     <!-- FO modern -->
     <teiElement>
         <nm>FOmodern</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName/tei:ref</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
+        <contentType>textNodeAndAttribute</contentType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Fundort modern</formLabel>
-        <xpath2ref/>
-        <comments/>
+        <fieldType>place</fieldType>
+        <thesauDb>internal</thesauDb>
     </teiElement>
     <!-- FO ID -->
     <teiElement>
@@ -181,6 +179,7 @@
         <comments/>
     </teiElement>
     <!-- Arch. Klass. -->
+    <!-- 
     <teiElement>
         <nm>ArchKlass</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:decoDesc/tei:decoNote/tei:term/tei:ref</xpath>
@@ -191,6 +190,19 @@
         <xpath2ref/>
         <comments/>
     </teiElement>
+    -->
+    <teiElement>
+        <nm>ArchKlass</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:decoDesc/tei:decoNote/tei:term/tei:ref</xpath>
+        <contentType>textNodeAndAttribute</contentType>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">Archäologische Klassifikation</formLabel>
+        <fieldType>place</fieldType>
+        <thesauDb>internal</thesauDb>
+        <thesauTopConceptURI>hallo</thesauTopConceptURI>
+        <comments/>
+    </teiElement>
+
     <!-- Obj.beschr. -->
     <teiElement>
         <nm>Objbeschr</nm>
@@ -559,7 +571,7 @@
     <teiElement>
         <nm>docEditor</nm>
         <xpath>/tei:fileDesc/tei:titleStmt/tei:editor</xpath>
-        <contentType>text</contentType>
+        <contentType>text</contentType>formLabel
         <cardinality>x</cardinality>
         <formLabel xml:lang="en">Editor(s)</formLabel>
         <formLabel xml:lang="fr">Editeur(s)</formLabel>
