@@ -43,7 +43,7 @@
     <!-- FO antik -->
     <teiElement>
         <nm>FOantik</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName</xpath>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName/@ref</xpath>
         <contentType>textNodeAndAttribute</contentType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Fundort antik</formLabel>
@@ -54,24 +54,13 @@
     <!-- FO modern -->
     <teiElement>
         <nm>FOmodern</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName/tei:ref</xpath>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName/tei:ref/@target</xpath>
         <contentType>textNodeAndAttribute</contentType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Fundort modern</formLabel>
         <fieldType>place</fieldType>
         <thesauDb>internal</thesauDb>
         <xpath2ref>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName</xpath2ref>
-    </teiElement>
-    <!-- FO ID -->
-    <teiElement>
-        <nm>FOID</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName/tei:ref/@target</xpath>
-        <contentType>attribute</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">FO ID (ToDo)</formLabel>
-        <xpath2ref/>
-        <comments/>
     </teiElement>
     <!-- FS ID -->
     <teiElement>

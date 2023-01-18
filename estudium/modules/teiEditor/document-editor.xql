@@ -101,7 +101,6 @@ return
         <h3>Fund</h3>
         {teiEditor:displayElement('FOantik', (), (), ())}
         {teiEditor:displayElement('FOmodern', (), (), ())}
-        {teiEditor:displayElement('FOID', (), (), ())}
         {teiEditor:displayElement('Fundstelle', (), (), ())}
         {teiEditor:displayElement('FSID', (), (), ())}
         {teiEditor:displayElement('Fundumst', (), (), ())}
