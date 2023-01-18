@@ -4,17 +4,17 @@ var italicTEI = function (context) {
     // create button
     var button = ui.button({
       contents: '<em>Italics</em> TEI',
-      tooltip: 'Italics for TEI',
+      tooltip: 'Divine name',
       
       click: function () {
         //get selected text
         var selectedText = window.getSelection();
         
-        var element = document.createElement('hi');
+        var element = document.createElement('rs');
         var range = selectedText.getRangeAt(0);
         
         element.innerHTML = selectedText;
-        element.setAttribute("rend", "italic");
+        element.setAttribute("type", "divine");
         range.deleteContents();
         range.insertNode(element);
       }

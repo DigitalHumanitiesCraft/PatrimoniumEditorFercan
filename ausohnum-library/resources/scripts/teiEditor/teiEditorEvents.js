@@ -1272,7 +1272,6 @@ function saveTextarea(docId, textareaId, elementNickName, xpath, index){
 /*    console.log("Index= " + index + " *** no= " + no);*/
   var elementInput= $("#" +textareaId);  
   var newText = newValueTxt = elementInput.val().replace('<br>', '<br/>').replace('&nbsp;', ''); 
-  
   var oParser = new DOMParser();
   var oDOM = oParser.parseFromString("<text>" + newText + "</text>", "text/xml");
     
@@ -1281,7 +1280,10 @@ function saveTextarea(docId, textareaId, elementNickName, xpath, index){
     }
     else{
     $("body").css("cursor", "wait");
-console.log("newText: " + newText);
+    // CP: hacky replace <i> with <rs type="divine"> 
+    newText = newText.replace('<i>', '<rs type="divine">');
+    newText = newText.replace('</i>', '</rs>');
+    console.log("newText: " + newText);
     var xmlData = "<xml>"
                     + "<inputName>" + textareaId + "</inputName>"
                     + "<docId>" + docId + "</docId>"

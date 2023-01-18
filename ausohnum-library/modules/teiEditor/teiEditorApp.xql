@@ -257,7 +257,7 @@ declare function teiEditor:displayElement($teiElementNickname as xs:string,
     " ; $conceptTopId: " || (if ($conceptTopId) then $conceptTopId else ())|| " ; docId: " || $docID || " ; index: " || (if ($index ) then $index else ()) || "teiXPath: " || $teiXPath}</data>, "test")
 :)
     return
-
+        (:CP: field types input field :)
         switch ($fieldType)
         case "input" return
         teiEditor:displayTeiElementCardiMultiLang($teiElementNickname, $docID, $index, 'input', $teiXPath)
@@ -265,7 +265,6 @@ declare function teiEditor:displayElement($teiElementNickname as xs:string,
         teiEditor:displayTeiElementCardiMultiLang($teiElementNickname, $docID, $index, 'textarea', $teiXPath)
         case "combobox" return
         teiEditor:displayTeiElementWithThesauCardi($teiElementNickname, $conceptTopId, $docID, $index, $teiXPath)
-        
         case "comboboxAndInput" return
         teiEditor:displayTeiElementWithThesauComboInputCardi($teiElementNickname, $elementNode/thesauTopConceptURI/text(), $docID, $index, $teiXPath)
         case "place" return
@@ -927,10 +926,11 @@ let $inputName := 'selectDropDown' (:||$topConceptId:)
                                                                //'pasteHTML', markupStr,
                                                          {{
                                                          toolbar: [
-                                                           ['style', ['style']],
-                                                           ['font', ['italic','bold','underline','clear']],
+                                                           //['style', ['style']],
+                                                           //['font', ['italic','bold','underline','clear']],
+                                                           ['font', ['italic']],
                                                            //['para', ['ul','ol','paragraph']],
-                                                           ['insert', ['link']],
+                                                           //['insert', ['link']],
                                                            ['view', ['fullscreen','codeview','help']],
                                                              ],
                                                        
@@ -952,6 +952,7 @@ let $inputName := 'selectDropDown' (:||$topConceptId:)
                                                        );
                                                        
                                                </script>
+                                                
                                            </div>
                                )
                             case "enrichedTextTEI" return 
@@ -960,6 +961,7 @@ let $inputName := 'selectDropDown' (:||$topConceptId:)
                                         $teiElementTextNodeValue
                                     }</textarea>
                                     <span id="{$teiElementNickname}_{$index}_1_message"/>
+                                     
                                     <script type="text/javascript" src="$ausohnum-lib/resources/scripts/summerNoteTEI.js"/>
 
                                     <script>

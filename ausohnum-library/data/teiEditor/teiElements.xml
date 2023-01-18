@@ -367,9 +367,9 @@
     <teiElement>
         <nm>KommGoettern</nm>
         <xpath>/tei:text/tei:body/tei:div[@type="commentary"][@subtype="deity"]/tei:p</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>x</cardinality>
+        <contentType>enrichedText</contentType>
+        <fieldType>textarea</fieldType>
+        <cardinality>1</cardinality>
         <formLabel xml:lang="en">Kommentar Götternamen</formLabel>
         <xpath2ref/>
         <comments/>
@@ -378,9 +378,9 @@
     <teiElement>
         <nm>SonstKomm</nm>
         <xpath>/tei:text/tei:body/tei:div[@type="commentary"][@subtype="general"]/tei:p</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>x</cardinality>
+        <contentType>enrichedText</contentType>
+        <fieldType>textarea</fieldType>
+        <cardinality>1</cardinality>
         <formLabel xml:lang="en">Kommentar allgemein</formLabel>
         <xpath2ref/>
         <comments/>
@@ -512,19 +512,19 @@
     <teiElement>
         <nm>dtUEbers</nm>
         <xpath>/tei:text/tei:body/tei:div[@type="translation"][@xml:lang="de"]/tei:p</xpath>
-        <contentType>text</contentType>
+        <contentType>enrichedText</contentType>
+        <fieldType>textarea</fieldType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Übersetzung Deutsch</formLabel>
-        <fieldType>input</fieldType>
     </teiElement>
     <!-- dtUEbers -->
     <teiElement>
         <nm>englUEbers</nm>
         <xpath>/tei:text/tei:body/tei:div[@type="translation"][@xml:lang="en"]/tei:p</xpath>
-        <contentType>text</contentType>
+        <contentType>enrichedText</contentType>
+        <fieldType>textarea</fieldType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Übersetzung Englisch</formLabel>
-        <fieldType>input</fieldType>
     </teiElement>
     
 
