@@ -3751,7 +3751,7 @@ let $elementValueUri:=
     let $placeProjectUri := for $uri in tokenize($placeRef, ' ')
                                     where matches($uri,  $spatiumStructor:baseUri)
                                 return functx:trim($uri)
-    let $placeRecord := $spatiumStructor:placeRepo//pleiades:Place[@rdf:about = $placeProjectUri]
+    let $placeRecord := $spatiumStructor:placeRepo//pleiades:Place[@rdf:about]
     let $placePrefLabel := $placeRecord//skos:prefLabel[@xml:lang="en"]/text()
     let $placeRefsAsLink := <ul class="list-inline">
                                             {for $uri in tokenize($placeRef, ' ')
@@ -7429,7 +7429,7 @@ return
                         'pageLength': 100,
                         "scrollY":        "600px",
                         "scrollCollapse": true,
-                        "ajax": '/geo/list',
+                        "ajax": '/exist/apps/estudium/geo/list',
                         "columns": [
                                     {{ "data": "id" }},
                                     {{ "data": "name" }},

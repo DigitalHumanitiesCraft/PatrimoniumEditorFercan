@@ -36,7 +36,7 @@ function getDocumentPlacesGeoJSon(geojson, callback){
 }*/                       
 function getProjectPlaces(geojson, callback){
 /*     var url = "/geo/places/json";*/
-     var url="/geo/gazetteer/all";
+     var url="/exist/apps/estudium/geo/gazetteer/all";
     /*    var url = "/geo/production-units";*/
     /*var url = "/geo/project-places/" ;*/
         $.getJSON(url, function(json){
@@ -58,7 +58,7 @@ function getDocumentPlaces(geojson, callback){
 
 function getProdUnitsPlaces(geojson, callback){
 /*    var url2getPlaces = "/geo/production-units" ;*/
-    var url2getPlaces = "/geo/gazetteer/production-units";
+    var url2getPlaces = "/exist/apps/estudium/geo/gazetteer/production-units";
     $.getJSON(url2getPlaces, function(json){
             geojsonFeatureProdUnits = json[0];               
              callback(geojsonFeatureProdUnits);  
@@ -2575,7 +2575,7 @@ function displayPlace(placename, uri){
 };
 function openNewPlaceForm(){
     $("#placeEditor").load("$ausohnum-lib/modules/spatiumStructor/getFunctions.xql?type=newPlaceForm&placeEditorType=places-manager");
-    history.pushState(null, null,  "/edit-places/new");
+    history.pushState(null, null,  "/exist/apps/estudium/edit-places/new");
     document.title = "Creation of a new place";
 };
 

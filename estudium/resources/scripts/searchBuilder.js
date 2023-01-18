@@ -494,7 +494,7 @@ searchResultsMap.addLayer(openStreetMap
 
     function getProjectPlaces(geojson, callback) {
         /*     var url = "/geo/places/json";*/
-        var url = "/geo/gazetteer/all";
+        var url = "/exist/apps/estudium/geo/gazetteer/all";
         /*    var url = "/geo/production-units";*/
         /*var url = "/geo/project-places/" ;*/
         $.getJSON(url, function (json) {

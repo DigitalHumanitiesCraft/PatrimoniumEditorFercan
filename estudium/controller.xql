@@ -926,7 +926,7 @@ else if (starts-with($exist:path, "/places-manager/")) then
         )
     )
 
-else if (equals($exist:path, "/geo/list")) then
+else if (equals($exist:path, "/exist/apps/estudium/geo/list")) then
     (
     login:set-user($config:login-domain, (), false()),
         let $user := request:get-attribute($config:login-domain||".user")
