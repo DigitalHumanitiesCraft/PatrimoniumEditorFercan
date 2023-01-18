@@ -4233,7 +4233,6 @@ $xpathEndSelectorName: {$xpathEndSelectorName}
 let $originalTEINode :=util:eval( "$teiEditor:doc-collection/id('"
              ||$docId ||"')" || $xpathWithTeiPrefix)
 
-
 let $oldValueTxt := data($originalTEINode)
 
 let $originalTEINodeWithoutAttribute := 
@@ -4242,23 +4241,7 @@ let $originalTEINodeWithoutAttribute :=
              else (util:eval( "collection('" || $teiEditor:doc-collection-path ||"')/id('"
              ||$docId ||"')" || $xpathWithTeiPrefix ))
 
-(:let $originalTEINodeWithoutAttribute := 
-            if(contains($xpathWithTeiPrefix, '/@')) then util:eval( "collection('" || $teiEditor:doc-collection-path ||"')/id('"
-             ||$docId ||"')/" || functx:substring-before-last($xpath, '/') )
-             else (util:eval( "collection('" || $teiEditor:doc-collection-path ||"')/id('"
-             ||$docId ||"')" || $xpath )):)
-
-(:            let $updatedNode :=  <updatedNode  xmlns="http://www.tei-c.org/ns/1.0">{parse-xml('<' || $lastNode || ">" || $updatedData|| '</' || $lastNode || '>')}</updatedNode>        :)
-(:let $updatedTEINode :=  <updatedNode>{parse-xml('<' || $lastNode || ">" || $updatedData|| '</' || $lastNode || '>')}</updatedNode>:)
-
-(:let $updatedTEINode := functx:change-element-ns-deep($updatedNode, 'http://www.tei-c.org/ns/1.0', ''):)
-
-(:let $logs := collection($config:data-root || $teiEditor:project || "/logs"):)
-
-(:let $updateXml := update insert $aaa/node() following $originalTEINode :)
-
 let $elementNickname := $data//elementNickname/text()
-
 
 let $upateData :=
         switch ($contentType)

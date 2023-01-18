@@ -49,6 +49,7 @@
         <formLabel xml:lang="en">Fundort antik</formLabel>
         <fieldType>place</fieldType>
         <thesauDb>internal</thesauDb>
+        <xpath2ref>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName</xpath2ref>
     </teiElement>
     <!-- FO modern -->
     <teiElement>
@@ -59,6 +60,7 @@
         <formLabel xml:lang="en">Fundort modern</formLabel>
         <fieldType>place</fieldType>
         <thesauDb>internal</thesauDb>
+        <xpath2ref>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName</xpath2ref>
     </teiElement>
     <!-- FO ID -->
     <teiElement>
