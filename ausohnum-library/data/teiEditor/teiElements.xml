@@ -469,7 +469,7 @@
         <nm>Appcrit</nm>
         <xpath>/tei:text/tei:body/tei:div[@type="apparatus"]/tei:app</xpath>
         <contentType>text</contentType>
-        <cardinality>1</cardinality>
+        <cardinality>x</cardinality>
         <formLabel xml:lang="en">Apparatus criticus</formLabel>
         <fieldType>group</fieldType>
         <teiElement>
@@ -1277,57 +1277,5 @@
         <xpath2ref/>
         <comments/>
     </teiElement>
-
-<!-- <teiElement>
-        <nm>altIdentifierGroup</nm>
-        <xpath></xpath>
-        <template>
-            <altIdentifier>
-                <idno type="$altIdentifierType" subtype="$altIdentifierSubtype">$altIdentifierValue</idno>
-            </altIdentifier>
-        </template>
-        <contentType>nodes</contentType>
-        <cardinality>x</cardinality>
-        <formLabel xml:lang="en">Other Identifer</formLabel>
-        <taxoId/>
-        <fieldType>group</fieldType>
-        <thesauDb/>
-        <thesauTopConceptURI/>
-        <attributeValueType/>
-        <xpath2ref/>
-        <comments/>
-        <teiElement>
-            <nm>EDH</nm>
-            <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="EDH"]</xpath>
-            <contentType>text</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">EDH</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-        <teiElement>
-            <nm>Lupa</nm>
-            <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="lupa"]</xpath>
-            <contentType>text</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Lupa (ToDo)</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-        <teiElement>
-            <nm>ClaussSlaby</nm>
-            <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="EDCS"]</xpath>
-            <contentType>text</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">ClaussSlaby</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-        <teiElement>
-            <nm>other</nm>
-            <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="trismegistos"]</xpath>
-            <contentType>text</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">weitere elektronische Ressourcen</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-    </teiElement>-->
 
 </teiElements>

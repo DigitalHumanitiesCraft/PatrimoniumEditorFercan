@@ -779,59 +779,56 @@ if(index == null) { ind =""} else {var ind = index}
 
 };
 
-function saveData2(element, docId,
-                                inputName_text,
-                                input_name_attrib,
-                                elementNickName,
-                                xpath,
-                                contentType,
-                                index, 
-                                cardinality){
-/*    console.log("Value of " + inputName.name.toString()  + ": " + $(inputName).val());*/
-var inputElementForText = $("#" + inputName_text);
-var inputElementForAttrib = $("#" + input_name_attrib);
-if(index == null) { ind =""} else {var ind = index}
-if(inputElementForText.prop("tagName") === null)
-                            {var tagName = "INPUT"}
-                            else{
-                                var tagName = inputElementForText.prop("tagName");
-/*                   var elementGroup = $(element).parents().closest('.teiElementGroup');*/
-                   var elementGroup = $(inputElementForText).parents().closest('.teiElementGroup');
-                            };
-/*        console.log("Tagnzzzzzzzzzzzzzzme" + tagName);*/
-/*        console.log("contentType: " + contentType);*/
-        
+function saveData2( element, 
+                    docId, 
+                    inputName_text, 
+                    input_name_attrib,
+                    elementNickName,
+                    xpath,
+                    contentType,
+                    index, 
+                    cardinality)
+{
+ 
 
-        var elementDisplay= $("#" +elementNickName +"_display_" + ind.toString()+ "_" + cardinality);
-        var elementValue= $("#" + elementNickName +"_value_"+ ind.toString()+ "_" + cardinality);
-        var elementEdit= $("#" +elementNickName +"_edit_" + ind.toString()+ "_" + cardinality);
-        var elementInput= $("#" +elementNickName + "_" + ind.toString() + "_" + cardinality);
+    /*    console.log("Value of " + inputName.name.toString()  + ": " + $(inputName).val());*/
+    var inputElementForText = $("#" + inputName_text);
+    var inputElementForAttrib = $("#" + input_name_attrib);
+    if(index == null) { ind =""} else {var ind = index}
+    if(inputElementForText.prop("tagName") === null)
+    {
+        var tagName = "INPUT"
+    }
+    else
+    {
+        var tagName = inputElementForText.prop("tagName");
+        var elementGroup = $(inputElementForText).parents().closest('.teiElementGroup');
+    };
+    
+    var elementDisplay= $("#" +elementNickName +"_display_" + ind.toString()+ "_" + cardinality);
+    var elementValue= $("#" + elementNickName +"_value_"+ ind.toString()+ "_" + cardinality);
+    var elementEdit= $("#" +elementNickName +"_edit_" + ind.toString()+ "_" + cardinality);
+    var elementInput= $("#" +elementNickName + "_" + ind.toString() + "_" + cardinality);
         
-        switch(contentType){
-                      case "textNodeAndAttribute":
-                        //var elementGroup = $(inputName).parents().closest('.teiElementGroup');
-                        //console.log("elementGroup: " + $(elementGroup).attr('id'));
-                       //console.log("tagname loop" + tagName);
-                      break;
-                      
-                      default:
-/*                        var tagName = elementInput.prop("tagName");*/
-/*                        console.log("Tganame: " + tagName);*/
-                        break;
-                        }              
+    switch(contentType)
+    {
+        case "textNodeAndAttribute":
+        break;
+        default:
+        break;
+    }              
         
-             switch(tagName){
-                 case "BUTTON":
-                    newValue = inputElementForText.attr('value');
-/*                    console.log("new value: " + newValue);*/
-                    newValueTxt = inputElementForText.text().trim();
-                    break;
+    switch(tagName)
+    {
+        case "BUTTON":
+        newValue = inputElementForText.attr('value');
+        newValueTxt = inputElementForText.text().trim();
+        break;
                  case "INPUT", "TEXTAREA":
                     switch(contentType){
                       case "text", "enrichedText": 
                         newValue = elementInput.val();
                         newValueTxt = elementInput.val();  
-/*                        console.log("New value in 470" + newValueTxt);*/
                       break;
                     case "textNodeAndAttribute":
                         newValue = inputElementForAttrib.val();
@@ -863,9 +860,39 @@ if(inputElementForText.prop("tagName") === null)
                     newValueTxt = elementInput.val();
                     break;
              }
-             
-    //console.log("Value:: " + newValue);
-    //console.log("Input Id:: " + elementNickName + "_" + index + "_" + cardinality );
+
+    // CP: input is not valid at first
+    let isInputValid = false;
+    let pattern_dimensions = /^[0-9,]*$/g;
+    let pattern_iso_date = /0\d+$/g;
+    let pattern_abbildung = /\w+\.(jpg|png)*$/g;
+
+    if((elementNickName == 'Hoehe' || 
+        elementNickName == 'Breite' || 
+        elementNickName == 'Tiefe') && 
+        !pattern_dimensions.test(newValue))
+    {
+        alert("'" + newValue + "'" + " is not valid. valid is something like '10,5'");
+    }
+    else if ((  elementNickName == 'DatISO_notAfter' || 
+                elementNickName == 'DatISO_notBefore') &&
+                !pattern_iso_date.test(newValue))
+    {
+        alert("'" + newValue + "'" + " is not valid ISO date. valid is something like '0100'");
+    }
+    else if (   elementNickName == 'Abb_filename' &&
+                !pattern_abbildung.test(newValue))
+    {
+        alert("'" + newValue + "'" + " is not valid file name. valid is something like '0001_Front.jpg'");
+    }
+    else
+    {
+        isInputValid = true;
+    }
+
+       
+    if(isInputValid)
+    {         
     var xmlData = "<xml>"
                     + "<elementNickname>" + elementNickName + "</elementNickname>"
                     + "<inputName>" + inputName_text + "</inputName>"
@@ -878,38 +905,19 @@ if(inputElementForText.prop("tagName") === null)
                     +"</xml>";
      console.log("xmlData = " + xmlData);
 
-     //var input = inputName;
-     //var inputId = "#" + inputName.name.toString();
-
      var request = new XMLHttpRequest();
-/*     console.log("docId = " + docId);*/
      request.open("POST", "$ausohnum-lib/modules/teiEditor/getFunctions.xql?type=saveData", true);
-/*                request.open("POST", "/admin/edit/document/save-data/"+docId*/
-                //+ "&project=" + "patrimonium" + "&xpath=" + xpath
-/*                , true);*/
+     
      var xmlDoc;
 
      request.onreadystatechange = function() {
         if (request.readyState == 4 && request.status == 200) {
             var select = elementInput;
              xmlDoc = request.responseXML;
-             //CP
-             console.log("xmlDoc");
-             console.log(xmlDoc);
              xmlString = (new XMLSerializer()).serializeToString(xmlDoc.getElementsByTagName('TEI')[0]);
-             //CP
-             console.log("xmlString");
-             console.log(xmlString);
              newElement2Display = (new XMLSerializer()).serializeToString(xmlDoc.getElementsByTagName('updatedElement')[0]);
-             //CP
-             console.log("newElement2Display");
-             console.log(newElement2Display);
              newContent = (new XMLSerializer()).serializeToString(xmlDoc.getElementsByTagName('newContent')[0]);
-/*             console.log("newElement2Display: " + newElement2Display);*/
              oldValueTxt = xmlDoc.getElementsByTagName('oldContent')[0].textContent;
-/*             console.log("oldValueTxt:" + oldValueTxt);*/
-/*             console.log("TEST element name: " + elementInput.prop("tagName"));*/
-/*             console.log("newElement2Display" + newElement2Display);*/
              var tagName = elementInput.prop("tagName");
              switch(tagName){
                  case "BUTTON":
@@ -979,7 +987,11 @@ if(inputElementForText.prop("tagName") === null)
      request.setRequestHeader('Content-Type', 'text/xml');
 
         request.send(xmlData);
-
+    }
+    else
+    {
+        alert("input is not valid");
+    }
 
 };
 

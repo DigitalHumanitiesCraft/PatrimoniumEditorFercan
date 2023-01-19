@@ -134,9 +134,11 @@ return
         <h4>Dat. ISO</h4>
         {teiEditor:displayElement('DatISO_notAfter', (), (), ())}
         {teiEditor:displayElement('DatISO_notBefore', (), (), ())}
+        <!--
         <h3>Listen</h3>
         {teiEditor:placesList($teiEditor:docId)}
         {teiEditor:peopleList($teiEditor:docId)}
+        -->
         <h3>Abbildungen</h3>
         {teiEditor:displayElement('Abb', (), (), ())}
       </div>
