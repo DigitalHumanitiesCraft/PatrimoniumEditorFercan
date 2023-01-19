@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="doc445">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full"><title type="main">Nehalennia</title><title type="sub">CF-GeI-445</title></title>
+        <respStmt>
+          <resp>Inschriftenedition</resp>
+          <persName instant="false" full="yes"><forename full="yes">Werner</forename><surname full="yes">Petermandl</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>Archäologische Beschreibung und geografische Daten</resp>
+          <persName instant="false" full="yes"><forename full="yes">Astrid</forename><surname full="yes">Schmölzer</surname></persName>
+        </respStmt>
+        <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 29274-G25</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357" instant="false" full="yes">Institut für Antike, Fachbereich Alte Geschichte
+            und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+        <authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463" instant="false" full="yes">Zentrum für Informationsmodellierung - Austrian
+            Centre for Digital Humanities, Karl-Franzens-Universität Graz</orgName></authority>
+        <distributor><link target="https://gams.uni-graz.at"/><orgName instant="false" full="yes">GAMS -
+            Geisteswissenschaftliches Asset Management System</orgName></distributor>
+        <date when="2022" instant="false">2022</date>
+        <pubPlace>Graz</pubPlace>
+        <idno type="PID">o:fercan.445</idno>
+        <availability default="false">
+          <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons BY-NC
+            4.0</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+          Celticarum Antiquarum</title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName instant="false" full="yes"><forename full="yes">Wolfgang</forename><surname full="yes">Spickermann</surname></persName>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <msDesc status="draft">
+          <msIdentifier>
+            <settlement>Middelburg</settlement>
+            <repository>Zeeuws Museum, collection KZGW</repository>
+            <idno>G3222</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Weihinschrift</summary>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support><p part="N">Der Aedicula-Altar ist seit seiner Auffindung aus zwei Fragmenten
+                    zusammengesetzt, in die er horizontal durch das Nischenbild gespalten ist. Die
+                    architektonisch gerahmte Nische wird von Pilastern mit Pflanzenornament und
+                    korinthischen Kapitellen begrenzt, die bereits beim Sockel mit ihrer
+                    profilierten Basis beginnen und somit auch das Inschriftenfeld einrahmen. Die
+                    Nischendecke ist mit einer gerippten Muschel verziert. Auf der mensa oben liegen
+                    Früchte mit unüblich langen Stielen (Hondius-Crone 1955, 54 vermutet
+                    Blumen).</p><material><ref type="context" target="context:fercan.material.kalkstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref></material><objectType>Aedicula-Altar</objectType><dimensions>
+                    <height unit="cm">91,5</height>
+                    <width unit="cm">56,0</width>
+                    <depth unit="cm">23,0</depth>
+                  </dimensions></support>
+                <condition><ref type="context" target="context:fercan.condition-o.weitgehend_vollstaendig" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend
+                    vollständig</ref></condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout><p part="N">Der Text ist weitgehend erhalten und in Abschriften mit einigen
+                    Ungereimtheiten bei der Lesung vollständig überliefert.<lb/>Ligaturen: s.
+                    Majuskeltext. Besondere Zeichen: In Z.3 findet sich eine Ligatur von N und I mit
+                    erhöhter rechter vertikaler Haste des N, in Z.4 eine Ligatur von I und M mit
+                    erhöhter linker vertikaler Haste des M.</p><note type="condition" anchored="true">weitgehend
+                    vollständig</note></layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote><desc type="execution">gemeißelt</desc><height unit="cm" atLeast="3.8" atMost="3.8">3,8 cm</height></handNote>
+            </handDesc>
+            <decoDesc>
+              <decoNote><p part="N">
+                  <rs type="divine">Nehalennia</rs> sitzt auf einem Thron, dessen Armlehnen gut
+                  erkennbar sind. Sie trägt ein langes Gewand; die verwaschene Masse auf ihrem Schoß
+                  war vermutlich ein Korb Äpfel, wie auch die Zeichnung rückschließen lässt.
+                  Auffällig sind die beiden großen Obstkörbe zu beiden Seiten. Mittlerweile ist der
+                  rechte abgeschlagen und nur in seinen Umrissen erkennbar, während der linke nach
+                  wie vor ein deutliches Flechtwerk aufweist und die großen Früchte einzeln
+                  erkennbar sind. Vom Aufsatz ist nur mehr ein leichter und verwitterter Ansatz
+                  erhalten. Die Nische wirkt relativ klein und gedrückt. Das Muscheldekor ist noch
+                  erkennbar. <lb/> Auf der linken Schmalseite befindet sich in einem einfachen
+                  Rahmen ein Füllhorn mit Blattkelch, aus dem ein Kiefernzapfen herausragt. Der
+                  obere Rand ist außerdem von einer Perlstableiste verziert. Die obere rechte Ecke
+                  des Reliefs ist ausgebrochen. <lb/> Auch auf der rechten Seite ist ein Füllhorn
+                  mit Blattkelch in einem einfach gerahmten Relieffeld dargestellt. Hier ist auch
+                  die Obstfüllung deutlicher zu erkennen, da an der linken Ecke nur ein schmaler
+                  Streifen abgeschlagen ist. Aus dem Füllhorn hängen Kornähren herab. </p><term ana="https://gams.uni-graz.at/o:fercan.arch#C.220000"><ref type="context" target="context:fercan.arch.architektur">Architektur</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800"><ref type="context" target="context:fercan.arch.aufsatzschmuck">Aufsatzschmuck</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.210000"><ref type="context" target="context:fercan.arch.frucht">Frucht</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.251510"><ref type="context" target="context:fercan.arch.fuellhorn_mit_blattkelch">Füllhorn mit
+                    Blattkelch</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.240100"><ref type="context" target="context:fercan.arch.goetterbild">Götterbild</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.210800"><ref type="context" target="context:fercan.arch.kornaehre">Kornähre</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.220600"><ref type="context" target="context:fercan.arch.muschelnische">Muschelnische</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.251600"><ref type="context" target="context:fercan.arch.obstkorb">Obstkorb</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.251700"><ref type="context" target="context:fercan.arch.obstschale">Obstschale</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.150610"><ref type="context" target="context:fercan.arch.perlstab">Perlstab</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.253000"><ref type="context" target="context:fercan.arch.pflanzenornament">Pflanzenornament</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.220500"><ref type="context" target="context:fercan.arch.pilaster">Pilaster</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.210700"><ref type="context" target="context:fercan.arch.pinienzapfen">Pinienzapfen</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.150500"><ref type="context" target="context:fercan.arch.rahmen">Rahmen</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.150400"><ref type="context" target="context:fercan.arch.reliefschmuck">Reliefschmuck</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.252300"><ref type="context" target="context:fercan.arch.thron">Thron</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.150600"><ref type="context" target="context:fercan.arch.zierleiste">Zierleiste</ref></term></decoNote>
+            </decoDesc>
+          </physDesc>
+          <history>
+            <origin instant="false"><origPlace instant="false"><region>Civitas Frisiavonum</region></origPlace><origDate instant="false"/></origin>
+            <provenance type="found" when="1647"><placeName instant="false" full="yes"><ref type="context" target="context:fercan.geog.modern.domburg">Domburg</ref></placeName><location instant="false">
+                <geo decls="#WGS">51.563265 3.498398</geo>
+              </location></provenance>
+            <provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf:
+              Kakoschke und Cannegieter, ms 953 Universität Leiden</provenance>
+          </history>
+        </msDesc>
+        <listPlace default="false">
+          <place instant="false"/>
+        </listPlace>
+        <listPerson default="false">
+          <person instant="false">
+            <persName type="gentilnomen" instant="false" full="yes"><ref type="context" target="context:fercan.person.gentilnomen.militarinius">Militarinius</ref></persName>
+          </person>
+          <person instant="false">
+            <persName type="cognomen" instant="false" full="yes"><ref type="context" target="context:fercan.person.cognomen.primus">Primus</ref></persName>
+          </person>
+          <person instant="false">
+            <persName type="divine" subtype="celtic_normalized" instant="false" full="yes"><ref type="context" target="context:fercan.dcn.nehalennia">Nehalennia</ref></persName>
+          </person>
+          <person instant="false">
+            <persName type="divine" subtype="celtic_diplomatic" instant="false" full="yes"><ref type="context" target="context:fercan.dcd.nehalennia.deae_nehalenniae">deae
+              Nehalenniae</ref></persName>
+          </person>
+          <person instant="false">
+            <persName type="divine" subtype="celtic_element" instant="false" full="yes"><ref type="context" target="context:fercan.dce.nehalennia">Nehalennia</ref></persName>
+          </person>
+        </listPerson>
+        <listOrg default="false">
+          <org instant="false"/>
+        </listOrg>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <geoDecl xml:id="WGS" datum="WGS84" default="false">World Geodetic System</geoDecl>
+      <editorialDecl default="false">
+        <p part="N">Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+        <p part="N">Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet Inschrift
+          originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+      </editorialDecl>
+      <projectDesc default="false">
+        <p part="N">Die keltischen Götternamen in den Inschriften der römischen Provinz Germania Inferior.
+          Eine Fallstudie zu Religion im Kontext von Kulturkontakt und Kulturtransfer (FWF – Projekt
+          P 29274-G25 )</p>
+        <p part="N">Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+          lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
+          zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint besonders
+          geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene durch das
+          Zusammentreffen von verschiedenen kulturellen Einflüssen entstanden sind. Diese sind hier
+          einerseits definiert durch die Verwendung der keltischen Sprache, andererseits durch die
+          lateinische Sprache und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem
+          Etikett „römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+          auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden Mentalitäten.
+          Doch soll damit auch zu einem verbesserten Gesamtbild der Provinzialreligion in
+          Niedergermanien beigetragen werden.<lb/> Die Abschlusspublikation wird ergänzt um einen
+          ausführlichen sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+          Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum antiquarum)‘
+          erscheinen. </p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage default="false">
+        <language ident="la">Latein</language>
+      </langUsage>
+      <textClass default="false">
+        <keywords>
+          <list>
+            <item><ref type="context" target="context:fercan.dedication.ex_voto_suscepto_libens_merito">ex voto suscepto
+                libens merito</ref></item>
+            <item/>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.445/TEI_SOURCE.2020-02-26" status="draft">Initial
+        Version</change>
+      <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.445/TEI_SOURCE.2022-03-07" status="draft">Version 2</change>
+      <change when="2022" n="3" status="draft">Version 3</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="file:///0445_Front.jpg">
+      <desc>Front, EDCS-11100881, Rechte vorbehalten</desc>
+    </graphic>
+    <graphic mimeType="image/jpeg" xml:id="IMAGE.2" url="file:///0445_li.jpg">
+      <desc>links, EDCS-11100881, Rechte vorbehalten</desc>
+    </graphic>
+    <graphic mimeType="image/jpeg" xml:id="IMAGE.3" url="file:///0445_re.jpg">
+      <desc>rechts, EDCS-11100881, Rechte vorbehalten</desc>
+    </graphic>
+    <graphic mimeType="image/png" xml:id="IMAGE.4" url="file:///0445_Abschrift.PNG">
+      <desc>Front, rechts (Zeichnung), Cannegieter, ms 953 Universität Leiden, aus: Hondius-Crone
+        1955, p.55, Rechte vorbehalten</desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <ab part="N"><ref target="context:fercan" type="context">FERCAN</ref></ab>
+      <div subtype="editions" type="bibliography" part="N" org="uniform" sample="complete">
+        <listBibl default="false">
+          <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 8791</bibl>
+          <bibl xml:id="LIT.2" default="false" status="draft">Espérandieu IX 6648</bibl>
+          <bibl xml:id="LIT.3" default="false" status="draft">Byvanck 1935, Nr.243</bibl>
+          <bibl xml:id="LIT.4" default="false" status="draft">Hondius-Crone 1955, Nr.14</bibl>
+          <bibl xml:id="LIT.5" default="false" status="draft">Stuart 2013, Nr.8</bibl>
+          <bibl xml:id="LIT.6" default="false" status="draft">AE 2014, 885</bibl>
+          <bibl xml:id="LIT.7" default="false" status="draft">Kakoschke, 2015 AdnotatEpigraph III, Nr.7</bibl>
+        </listBibl>
+      </div>
+      <div subtype="concordances" type="bibliography" part="N" org="uniform" sample="complete">
+        <listBibl default="false">
+          <bibl type="EDCS" default="false" status="draft">EDCS-11100881<date instant="false">zuletzt aufgerufen am 24. Februar 2020</date></bibl>
+          <bibl type="electronic" default="false" status="draft">EpRom 2015_25_001, <ref target="http://www.epigraphica-romana.fr/notice/view?notice=1653">http://www.epigraphica-romana.fr/notice/view?notice=1653</ref></bibl>
+        </listBibl>
+      </div>
+      <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" part="N" org="uniform" sample="complete"><ab part="N"><orig><lb n="1" xml:id="MAJ.1"/><supplied reason="undefined" evidence="previouseditor" instant="false">DEAE <hi rend="ligature">NE</hi>HA</supplied>  <lb n="2" xml:id="MAJ.2"/>
+LENNIAE <supplied reason="undefined" evidence="previouseditor" instant="false">M</supplied> <lb n="3" xml:id="MAJ.3"/>
+MILITARI<hi rend="ligature">NI</hi>V<supplied reason="undefined" evidence="previouseditor" instant="false">S</supplied>  <lb n="4" xml:id="MAJ.4"/>
+PR<hi rend="ligature">IM</hi>VS · EX VOTO  <lb n="5" xml:id="MAJ.5"/>
+SVSCEPTO · L M</orig></ab></div>
+      <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" part="N" org="uniform" sample="complete"><ab part="N"><lb n="1" xml:id="MIN.1"/>Deae Neha<lb n="2" xml:id="MIN.2" break="no"/>lenniae <expan instant="false"><abbr>M</abbr><ex instant="false">arcus</ex></expan><lb n="3" xml:id="MIN.3"/>Militarinius<lb n="4" xml:id="MIN.4"/>Primus ex voto<lb n="5" xml:id="MIN.5"/>suscepto <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
+      <div type="translation" xml:lang="de" part="N" org="uniform" sample="complete">
+        <p part="N">Für die Göttin <rs type="divine">Nehalennia!</rs>
+          <lb/> Marcus Militarinius Primus aufgrund eines übernommenen Gelübdes gerne und
+          verdientermaßen.</p>
+      </div>
+      <div type="translation" xml:lang="en" part="N" org="uniform" sample="complete">
+        <p part="N">To the goddess <rs type="divine">Nehalennia!</rs>
+          <lb/> Marcus Militarinius Primus according to a vow he has taken willingly and
+          deservedly.</p>
+      </div>
+      <div type="apparatus" part="N" org="uniform" sample="complete">
+        <app loc="#MIN.1 #MAJ.1">
+          <note anchored="true">Deae [N̂eha] – CIL; Deae [Neha] – Espérandieu, Byvanck; ohne Ligatur –
+            Hondius-Crone, Stuart, EpRom; die unterstrichenen Buchstaben sind nur abschriftlich
+            überliefert.</note>
+        </app>
+        <app loc="#MIN.2 #MAJ.2">
+          <note anchored="true">ohne M am Zeilenende – CIL; lenniae [.] – Stuart, AE; die unterstrichenen Buchstaben
+            sind nur abschriftlich überliefert.</note>
+        </app>
+        <app loc="#MIN.3 #MAJ.3">
+          <note anchored="true">Taurinius – Espérandieu; M Hitarin̂iu[s] – CIL; Hitariniu[s] – Byvanck,
+            Hondius-Crone; Mintarin̂iu[s] – Stuart; Mintarin̂ius – AE; falsch angegebene Ligatur –
+            EpRom; die unterstrichenen Buchstaben sind nur abschriftlich überliefert.</note>
+        </app>
+        <app loc="#MIN.4 #MAJ.4">
+          <note anchored="true">ohne Ligatur – Espérandieu, Byvanck, Hondius-Crone; falsch angegebene Ligatur –
+            EpRom</note>
+        </app>
+      </div>
+      <div type="commentary" subtype="general" part="N" org="uniform" sample="complete">
+        <p part="N">Marcus Militarinius Primus: tria nomina <lb/> Militarinius: einheimisches
+          Pseudogentilnomen, abgeleitet vom Cognomen Militaris (Kakoschke, 2015 AdnotatEpigraph III,
+          Nr.7); Die Lesung des Gentilnomens ist allerdings unsicher. <lb/> Primus: lateinisches
+          Cognomen; überall äußerst gängiger Name (Kakoschke 2008, CN 2445)</p>
+      </div>
+      <div type="commentary" subtype="deity" part="N" org="uniform" sample="complete">
+        <p part="N">
+          <rs type="divine">Nehalennia:</rs> keltisch; ‚diejenige im Salzwasser bzw. in der See‘ (de
+          Bernardo Stempel in Spickermann 2005, 141; de Bernardo Stempel 2004) </p>
+        <p part="N"> Vorkommen in theonymischen Formularen: </p>
+        <p part="N">
+          <rs type="divine">Nehalennia</rs>: <lb/> - Germania Inferior: Belege sind überaus häufig.
+          Zwei Inschriften stammen aus Köln alle anderen aus Domburg und Colijnsplaat. Die Göttin
+          wird dabei, bis auf wenige Ausnahmen, stets als <rs type="divine">dea Nehalennia</rs>
+          angesprochen. <lb/> - außerhalb der Germania Inferior: -</p>
+      </div>
+      <linkGrp type="alignment" domains="#majuscule #minuscule">
+        <link target="#MAJ.1 #MIN.1"/>
+        <link target="#MAJ.2 #MIN.2"/>
+        <link target="#MAJ.3 #MIN.3"/>
+        <link target="#MAJ.4 #MIN.4"/>
+        <link target="#MAJ.5 #MIN.5"/>
+      </linkGrp>
+    </body>
+  </text>
+</TEI>

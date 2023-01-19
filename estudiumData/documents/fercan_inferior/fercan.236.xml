@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="doc236">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="full"><title type="main">Matronae Vacallinehae</title><title type="sub">CF-GeI-236</title></title>
+        <respStmt>
+          <resp>Inschriftenedition</resp>
+          <persName instant="false" full="yes"><forename full="yes">Werner</forename><surname full="yes">Petermandl</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>Archäologische Beschreibung und geografische Daten</resp>
+          <persName instant="false" full="yes"><forename full="yes">Astrid</forename><surname full="yes">Schmölzer</surname></persName>
+        </respStmt>
+        <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 29274-G25</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357" instant="false" full="yes">Institut für Antike, Fachbereich Alte Geschichte
+            und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+        <authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463" instant="false" full="yes">Zentrum für Informationsmodellierung - Austrian
+            Centre for Digital Humanities, Karl-Franzens-Universität Graz</orgName></authority>
+        <distributor><link target="https://gams.uni-graz.at"/><orgName instant="false" full="yes">GAMS -
+            Geisteswissenschaftliches Asset Management System</orgName></distributor>
+        <date when="2022" instant="false">2022</date>
+        <pubPlace>Graz</pubPlace>
+        <idno type="PID">o:fercan.236</idno>
+        <availability default="false">
+          <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons BY-NC
+            4.0</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+          Celticarum Antiquarum</title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName instant="false" full="yes"><forename full="yes">Wolfgang</forename><surname full="yes">Spickermann</surname></persName>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc default="false">
+        <msDesc status="draft">
+          <msIdentifier>
+            <repository>verschollen</repository>
+          </msIdentifier>
+          <msContents>
+            <summary>Weihinschrift</summary>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support><p part="N">Laut Literatur handelt es sich um einen „Votivstein“ (Freudenberg 1853,
+                    85f.). Der Stein ist jedoch verschollen, weswegen keine Beschreibung von Form
+                    und Gestaltung möglich ist.</p><material><ref type="context" target="context:fercan.material.quarz">Quarz</ref></material><objectType>Weihestein</objectType><dimensions>
+                    <height unit="cm">84,0</height>
+                    <width unit="cm">55,0</width>
+                    <depth unit="cm">26,0</depth>
+                  </dimensions></support>
+                <condition><ref type="context" target="context:fercan.condition-o.unklar" ana="https://gams.uni-graz.at/o:fercan.arch#C.130700">unklar</ref></condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout><p part="N">Die Inschrift ist heute verloren, das Inschriftentext scheint aber bei
+                    der Aufnahme weitgehend vollständig erhalten gewesen zu sein.<lb/>Ligatur: s.
+                    Majuskeltext</p><note type="condition" anchored="true">unklar</note></layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote><desc type="execution">gemeißelt</desc></handNote>
+            </handDesc>
+            <decoDesc>
+              <decoNote><p part="N">kein Dekor bekannt</p><term ana="https://gams.uni-graz.at/o:fercan.arch#C.130100"><ref type="context" target="context:fercan.arch.abschrift">Abschrift</ref></term></decoNote>
+            </decoDesc>
+          </physDesc>
+          <history>
+            <origin instant="false"><origPlace instant="false"><region>CCAA</region></origPlace><origDate instant="false"/></origin>
+            <provenance type="found" when="1852"><placeName instant="false" full="yes"><ref type="context" target="context:fercan.geog.modern.antweiler">Antweiler</ref></placeName><p part="N">in der
+                mittelalterlichen Kirche</p><location instant="false">
+                <geo decls="#WGS">50.405763 6.829295</geo>
+              </location><note anchored="true">beim Abbruch der mittelalterlichen Kirche </note></provenance>
+            <provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf:
+              Kakoschke</provenance>
+          </history>
+        </msDesc>
+        <listPlace default="false">
+          <place instant="false"/>
+        </listPlace>
+        <listPerson default="false">
+          <person instant="false">
+            <persName type="gentilnomen" instant="false" full="yes"><ref type="context" target="context:fercan.person.gentilnomen.amnomieiius">Amnomieiius</ref></persName>
+          </person>
+          <person instant="false">
+            <persName type="cognomen" instant="false" full="yes"><ref type="context" target="context:fercan.person.cognomen.primus">Primus</ref></persName>
+          </person>
+          <person instant="false">
+            <persName type="divine" subtype="celtic_normalized" instant="false" full="yes"><ref type="context" target="context:fercan.dcn.matronae_vacallinehae">Matronae
+              Vacallinehae</ref></persName>
+          </person>
+          <person instant="false">
+            <persName type="divine" subtype="celtic_diplomatic" instant="false" full="yes"><ref type="context" target="context:fercan.dcd.matronae_vacallinehae.matronis_vacalinehis">Matronis
+                Vacalinehis</ref></persName>
+          </person>
+          <person instant="false">
+            <persName type="divine" subtype="celtic_element" instant="false" full="yes"><ref type="context" target="context:fercan.dce.vacallinehae">Vacallinehae</ref></persName>
+          </person>
+        </listPerson>
+        <listOrg default="false">
+          <org instant="false"/>
+        </listOrg>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <geoDecl xml:id="WGS" datum="WGS84" default="false">World Geodetic System</geoDecl>
+      <editorialDecl default="false">
+        <p part="N">Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+        <p part="N">Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet Inschrift
+          originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+      </editorialDecl>
+      <projectDesc default="false">
+        <p part="N">Die keltischen Götternamen in den Inschriften der römischen Provinz Germania Inferior.
+          Eine Fallstudie zu Religion im Kontext von Kulturkontakt und Kulturtransfer (FWF – Projekt
+          P 29274-G25 )</p>
+        <p part="N">Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+          lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
+          zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint besonders
+          geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene durch das
+          Zusammentreffen von verschiedenen kulturellen Einflüssen entstanden sind. Diese sind hier
+          einerseits definiert durch die Verwendung der keltischen Sprache, andererseits durch die
+          lateinische Sprache und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem
+          Etikett „römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+          auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden Mentalitäten.
+          Doch soll damit auch zu einem verbesserten Gesamtbild der Provinzialreligion in
+          Niedergermanien beigetragen werden.<lb/> Die Abschlusspublikation wird ergänzt um einen
+          ausführlichen sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+          Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum antiquarum)‘
+          erscheinen. </p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage default="false">
+        <language ident="la">Latein</language>
+      </langUsage>
+      <textClass default="false">
+        <keywords>
+          <list>
+            <item><ref type="context" target="context:fercan.dedication.ex_imperio">ex
+              imperio</ref></item>
+            <item><ref type="context" target="context:fercan.dedication.ipsarum_libens_merito">ipsarum libens merito</ref></item>
+            <item/>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.236/TEI_SOURCE.2020-02-26" status="draft">Initial
+        Version</change>
+      <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.236/TEI_SOURCE.2022-03-07" status="draft">Version 2</change>
+      <change when="2022" n="3" status="draft">Version 3</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic mimeType="image/png" xml:id="IMAGE.1" url="file:///0236_Abschrift.PNG">
+      <desc>Abschrift, CIL XIII 7951, CC BY-NC</desc>
+    </graphic>
+  </facsimile>
+  <text>
+    <body>
+      <ab part="N"><ref target="context:fercan" type="context">FERCAN</ref></ab>
+      <div subtype="editions" type="bibliography" part="N" org="uniform" sample="complete">
+        <listBibl default="false">
+          <bibl xml:id="LIT.1" default="false" status="draft">Freudenberg 1853, BJ 19, 85–86</bibl>
+          <bibl xml:id="LIT.2" default="false" status="draft">Riese 1914, Nr.3179/80, 2</bibl>
+          <bibl xml:id="LIT.3" default="false" status="draft">Holder 1896–1917, Bd.3, 71</bibl>
+          <bibl xml:id="LIT.4" default="false" status="draft">CIL XIII 7951</bibl>
+          <bibl xml:id="LIT.5" default="false" status="draft">Weisgerber 1968, 28 Nr.177</bibl>
+          <bibl xml:id="LIT.6" default="false" status="draft">Scheid 2006, 321</bibl>
+          <bibl xml:id="LIT.7" default="false" status="draft">Kakoschke 2015, Nr.4</bibl>
+        </listBibl>
+      </div>
+      <div subtype="concordances" type="bibliography" part="N" org="uniform" sample="complete">
+        <listBibl default="false">
+          <bibl type="EDCS" default="false" status="draft">EDCS-11100177<date instant="false">zuletzt aufgerufen am 24. Februar 2020</date></bibl>
+          <bibl type="trismegistos" default="false" status="draft">www.trismegistos.org/text/415012<date instant="false">zuletzt aufgerufen am 26.
+              Juli 2021</date></bibl>
+        </listBibl>
+      </div>
+      <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" part="N" org="uniform" sample="complete"><ab part="N"><orig><lb n="1" xml:id="MAJ.1"/>MATRONIS <lb n="2" xml:id="MAJ.2"/>
+V<hi rend="ligature">AC</hi>ALINEHIS <lb n="3" xml:id="MAJ.3"/>
+AM · NOMI · EIIVS <lb n="4" xml:id="MAJ.4"/>
+PRIMV · E<gap reason="lost" quantity="1" unit="character" instant="false"/> IMP <lb n="5" xml:id="MAJ.5"/>
+I<gap reason="lost" extent="unknown" unit="character" instant="false"/> M</orig></ab></div>
+      <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" part="N" org="uniform" sample="complete"><ab part="N"><lb n="1" xml:id="MIN.1"/>Matronis<lb n="2" xml:id="MIN.2"/>Vacalinehis<lb n="3" xml:id="MIN.3"/>Amnomieiius<note anchored="true">sic</note><lb n="4" xml:id="MIN.4"/><expan instant="false"><abbr>Primu</abbr><ex cert="low" instant="false">s</ex></expan> e<supplied reason="lost" instant="false">x</supplied> <expan instant="false"><abbr>imp</abbr><ex instant="false">erio</ex></expan><lb n="5" xml:id="MIN.5"/>i<supplied reason="lost" instant="false">psarum</supplied> <supplied cert="low" reason="lost" instant="false"><expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan></supplied> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
+      <div type="translation" xml:lang="de" part="N" org="uniform" sample="complete">
+        <p part="N">Für die <rs type="divine">Matronae Vacalinehae!</rs>
+          <lb/> Amnomieiius Primus auf deren Befehl gerne und verdientermaßen.</p>
+      </div>
+      <div type="translation" xml:lang="en" part="N" org="uniform" sample="complete">
+        <p part="N">To the <rs type="divine">Matronae Vacalinehae!</rs>
+          <lb/> Amnomieiius Primus by order of the goddesses willingly and deservedly.</p>
+      </div>
+      <div type="apparatus" part="N" org="uniform" sample="complete">
+        <app loc="#MIN.3 #MAJ.3">
+          <note anchored="true">Am(ius) Nomieiius – Freudenberg; Am(ius) Nomi. eiius – Holder; Am. Nomienus – Riese;
+            AM · NOMI · EIIVS, corruptus – CIL; Am. Nomi. eiius – Weisgerber; AM NOMI EIIUS –
+            Scheid; *Amnomieiius – CIL XIII/5 2 (Index)</note>
+        </app>
+        <app loc="#MIN.4 #MAJ.4">
+          <note anchored="true">Primu[s] [ex] imp(erio) – Freudenberg; PRIMV · I IMP, corruptus – CIL</note>
+        </app>
+        <app loc="#MIN.5 #MAJ.5">
+          <note anchored="true">i[psarum] [votum solvit lubens (sic)] m[erito] – Freudenberg; I M, corruptus –
+            CIL</note>
+        </app>
+      </div>
+      <div type="commentary" subtype="general" part="N" org="uniform" sample="complete">
+        <p part="N">Amnomieiius Primus: römisches Namensformular mit Gentilnomen und Cognomen ohne Praenomen
+          <lb/> Amnomieiius: einheimische Bildung (Kakoschke 2006, GN 74) <lb/> Primus: lateinisches
+          Cognomen, überall äußerst gängig (Kakoschke 2008, CN 2445)</p>
+      </div>
+      <div type="commentary" subtype="language" part="N" org="uniform" sample="complete">
+        <p part="N">v.3: Amnomieiius: Das doppelte I, eine Schreibvariante, ist (u.a.) in der Germania
+          Inferior mehrfach bezeugt: CIL XIII 8163, Gleuel: Noreiianus; CIL XIII 8279, Köln/CCAA:
+          Pompeiia; 8352, Köln/CCAA: Soiio; CIL XIII 8419, Köln/CCAA: Pompeiia; CIL XIII 8819,
+          Utrecht/Traiectum: Maiiorius, Maiioria; Nesselhauf 1937, Nr.161, Bonn/Bonna: Pompeiius
+          (nach Kakoschke 2015, Nr.4). Worttrenner innerhalb des Namens kommen gelegentlich vor.</p>
+      </div>
+      <div type="commentary" subtype="deity" part="N" org="uniform" sample="complete">
+        <p part="N">
+          <rs type="divine">Vacalinehae:</rs> Variante von <rs type="divine"> Vacallinehae:</rs> Die
+          Etymologie weist auf Waldgottheiten hin: ‚die unter den Bäumen bzw. dem Wald Verweilenden‘
+          (vgl. de Bernardo Stempel in Spickermann 2005, 144). </p>
+        <p part="N"> Vorkommen in theonymischen Formularen: </p>
+        <p part="N">
+          <rs type="divine">Matronae Vacallinehae</rs>: <lb/> - Germania Inferior: Das theonymische
+          Formular ist häufig bezeugt. <lb/> - außerhalb der Germania Inferior: - </p>
+        <p part="N">
+          <rs type="divine">Matres Vacallinehae</rs>: <lb/> - Germania Inferior: Das theonymische
+          Formular ist mindestens 1x gesichert bezeugt (CF-GeI-239). <lb/> - außerhalb der Germania
+          Inferior: - </p>
+        <p part="N">
+          <rs type="divine">Vacallinehae</rs>: <lb/> - Germania Inferior: häufig bezeugt <lb/> -
+          außerhalb der Germania Inferior: - </p>
+      </div>
+      <linkGrp type="alignment" domains="#majuscule #minuscule">
+        <link target="#MAJ.1 #MIN.1"/>
+        <link target="#MAJ.2 #MIN.2"/>
+        <link target="#MAJ.3 #MIN.3"/>
+        <link target="#MAJ.4 #MIN.4"/>
+        <link target="#MAJ.5 #MIN.5"/>
+      </linkGrp>
+    </body>
+  </text>
+</TEI>
