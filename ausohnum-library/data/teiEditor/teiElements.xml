@@ -393,14 +393,37 @@
     <!-- Elektronische Ressourcen -->
 
     <!-- EDH -->
+    <!-- <bibl type="EDH" default="false" status="draft">HD025308<date instant="false">Version vom 13. Januar 2016</date></bibl> -->
     <teiElement>
         <nm>EDH</nm>
         <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="EDH"]</xpath>
-        <contentType>text</contentType>
+        <contentType>nodes</contentType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Epigraphische Datenbank Heidelberg</formLabel>
-        <fieldType>input</fieldType>
+        <fieldType>group</fieldType>
+        <template>
+            <bibl type="EDH" default="false" status="draft">$EDH_id
+                <date instant="false">$EDH_date</date>
+            </bibl>
+        </template>
+        <teiElement>
+            <nm>EDH_id</nm>
+            <xpath>/tei:idno</xpath>
+            <contentType>text</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">ID</formLabel>
+            <fieldType>input</fieldType>
+        </teiElement>
+        <teiElement>
+            <nm>EDH_date</nm>
+            <xpath>/tei:date</xpath>
+            <contentType>text</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Datum</formLabel>
+            <fieldType>input</fieldType>
+        </teiElement>
     </teiElement>
+
     <!-- Lupa -->
     <teiElement>
         <nm>Lupa</nm>
@@ -410,23 +433,70 @@
         <formLabel xml:lang="en">Lupa (ToDo)</formLabel>
         <fieldType>input</fieldType>
     </teiElement>
+    
     <!-- ClaussSlaby, EDCS -->
     <teiElement>
         <nm>ClaussSlaby</nm>
         <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="EDCS"]</xpath>
-        <contentType>text</contentType>
+        <contentType>nodes</contentType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Epigraphik-Datenbank Clauss/Slaby</formLabel>
+        <fieldType>group</fieldType>
+        <template>
+            <bibl type="EDCS" default="false" status="draft">$ClaussSlaby_id
+                <date instant="false">$ClaussSlaby_date</date>
+            </bibl>
+        </template>
+        <teiElement>
+            <nm>ClaussSlaby_id</nm>
+            <xpath>/tei:idno</xpath>
+            <contentType>text</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">ID</formLabel>
+            <fieldType>input</fieldType>
+        </teiElement>
+        <teiElement>
+            <nm>ClaussSlaby_date</nm>
+            <xpath>/tei:date</xpath>
+            <contentType>text</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Datum</formLabel>
+            <fieldType>input</fieldType>
+        </teiElement>
+    </teiElement>
+
+<!-- ClaussSlaby, EDCS -->
+<teiElement>
+    <nm>other</nm>
+    <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="trismegistos"]</xpath>
+    <contentType>nodes</contentType>
+    <cardinality>1</cardinality>
+    <formLabel xml:lang="en">weitere elektronische Ressourcen</formLabel>
+    <fieldType>group</fieldType>
+    <template>
+        <bibl type="trismegistos" default="false" status="draft">$other_id
+            <date instant="false">$other_date</date>
+        </bibl>
+    </template>
+    <teiElement>
+        <nm>other_id</nm>
+        <xpath>/tei:idno</xpath>
+        <contentType>text</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">ID</formLabel>
         <fieldType>input</fieldType>
     </teiElement>
     <teiElement>
-        <nm>other</nm>
-        <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="trismegistos"]</xpath>
+        <nm>other_date</nm>
+        <xpath>/tei:date</xpath>
         <contentType>text</contentType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">weitere elektronische Ressourcen</formLabel>
+        <formLabel xml:lang="en">Datum</formLabel>
         <fieldType>input</fieldType>
     </teiElement>
+</teiElement>
+
+    
 
     <!-- /// -->
     <!-- Bibliographie-->

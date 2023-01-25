@@ -4628,7 +4628,7 @@ declare function teiEditor:addData( $data as node(), $project as xs:string){
 )
 
 
-
+    (:CP ? :)
       let $insertNewElement :=
             if(util:eval( "collection('" || $teiEditor:doc-collection-path ||"')/id('"
                    || $docId ||"')" || $data//xpath/text()) )
@@ -4636,7 +4636,6 @@ declare function teiEditor:addData( $data as node(), $project as xs:string){
                      update insert
                      ('&#xD;&#xa;',
                      functx:change-element-ns-deep($newElement, "http://www.tei-c.org/ns/1.0", "")/node())
-(:                     following $insertLocationElement:)
                      following $insertLocationElement
                    )
             else(
