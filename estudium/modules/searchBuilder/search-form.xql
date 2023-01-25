@@ -75,7 +75,7 @@ return
                                     Use <strong>* as a wildcard</strong></div>
                                 </div>
                                 
-                                <img id="load-indicator" class="hidden" style="padding: 10px 0 10px 6em;" src="/resources/images/ajax-loader.gif"/>
+                                <img id="load-indicator" class="hidden" style="padding: 10px 0 10px 6em;" src="$ausohnum-lib/resources/images/ajax-loader.gif"/>
                                 <span id="searchResultsNo" style="font-weight: bold;     display: block; padding: 10px 0 10px 0;"/>
                             </div>
             

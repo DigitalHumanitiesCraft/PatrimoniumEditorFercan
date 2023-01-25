@@ -8,7 +8,7 @@ function getPlaceEditorType(){ return $("#placeEditorType").text();};
 function getDocumentPlacesGeoJSon(geojson, callback){
     
     console.log("DocId: " + getCurrentDocId());
-    var url = "/geo/document/" + getCurrentDocId();
+    var url = "/exist/apps/estudium/geo/document/" + getCurrentDocId();
     $.getJSON(url, function(json){
             geojsonFeatureDocument = json[0];
                            callback(geojsonFeatureDocument);
@@ -21,19 +21,14 @@ function getEditorType(){
 function getDocumentPlacesGeoJSon(geojson, callback){
     
     console.log("DocId: " + getCurrentDocId());
-    var url = "/geo/document/" + getCurrentDocId();
+    var url = "/exist/apps/estudium/geo/document/" + getCurrentDocId();
     $.getJSON(url, function(json){
             geojsonFeatureDocument = json[0];
                            callback(geojsonFeatureDocument);
                            });
         }
         
-/*function getDocumentPlacesGeoJSon(docId){
-    console.log("DocId: " + docId);
-    var url = "/geo/document/" + docId;
-    $.getJSON(url, function(json){
-            return  json[0];});
-}*/                       
+                     
 function getProjectPlaces(geojson, callback){
 /*     var url = "/geo/places/json";*/
      var url="/exist/apps/estudium/geo/gazetteer/all";
@@ -49,7 +44,7 @@ function getProjectPlaces(geojson, callback){
 
 function getDocumentPlaces(geojson, callback){
     var docId = getCurrentDocId();
-    var url2getPlaces = "/geo/document/" + docId;
+    var url2getPlaces = "/exist/apps/estudium/geo/document/" + docId;
     $.getJSON(url2getPlaces, function(json){
             geojsonFeatureDocument = json[0];               
              callback(geojsonFeatureDocument);  

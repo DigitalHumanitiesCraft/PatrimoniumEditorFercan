@@ -66,9 +66,9 @@
 									target="context:fercan.material."
 									ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
 									<objectType/> <dimensions>
-									<height unit="cm"/>
-									<width unit="cm"/>
-									<depth unit="cm"/>
+									<height unit="cm"> </height>
+									<width unit="cm"> </width>
+									<depth unit="cm"> </depth>
 									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
 								<condition> <ref type="context" target="context:fercan.condition"
 									ana="https://gams.uni-graz.at/o:fercan.arch#"/> </condition>
@@ -169,7 +169,7 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="file:///0001_Front.jpg">
+		<graphic mimeType="" xml:id="IMAGE.1" url="">
 			<desc> </desc>
 		</graphic>
 	</facsimile>

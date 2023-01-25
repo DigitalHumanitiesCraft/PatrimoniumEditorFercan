@@ -158,23 +158,18 @@ function cancelAddItem(element){
 /*        $(idElementEdit).toggleClass("teiElementHidden");*/
         
 };
-function addData(element,
-                            docId,
-                            input,
-                            teiElementNickname,
-                            xpath,
-                            contentType,
-                            index,
-                            topConceptId){
-              console.log("element (normally this): " + element);
-          /*  console.log("UsRI= " + $(element).siblings().children().find('.elementWithValue').prop("tagName"));*/
-          /*  console.log("Textual value= " );*/
-          
-            // if(index == null) { ind =""} else {var ind = index}
-            //         var elementDisplay= $("#" +inputName +"_display_" + ind.toString()+ "_" + cardinality);
-            //         var elementValue= $("#" + inputName +"_value_"+ ind.toString()+ "_" + cardinality);
-            //         var elementEdit= $("#" +inputName +"_edit_" + ind.toString()+ "_" + cardinality);
-            //         var elementInput= $("#" +inputName + "_" + ind.toString() + "_" + cardinality);
+function addData(   element,
+                    docId,
+                    input,
+                    teiElementNickname,
+                    xpath,
+                    contentType,
+                    index,
+                    topConceptId)
+{
+    //CP:
+    console.log("CP was here addData");
+    console.log("element (normally this): " + element);
 
       switch(contentType){
                       case "textNodeAndAttribute":
@@ -335,55 +330,62 @@ function addData(element,
 
 };
 
-function addGroupData(element,
-                            docId,
-                            teiElementNickname,
-                            index){
-                $("body").css("cursor", "awit");
-                  $("body").css("opacity", "0.5");            
-              console.log("element (normally this): " + element);
-            var xmlDataItems = "";
-            var elementGroup = $(element).parents().closest('.teiElementAddGroup ');
-            var wholeGroup = $(element).parents().closest('.teiElementGroup');
-            console.log(JSON.stringify(elementGroup));
-            elementGroup.children().find('.elementWithValue').each(function(i, el){
+function addGroupData(  element,
+                        docId,
+                        teiElementNickname,
+                        index)
+{
+    
+    $("body").css("cursor", "awit");
+    $("body").css("opacity", "0.5");            
+    console.log("element (normally this): " + element);
+    var xmlDataItems = "";
+    var elementGroup = $(element).parents().closest('.teiElementAddGroup ');
+    var wholeGroup = $(element).parents().closest('.teiElementGroup');
+    console.log(JSON.stringify(elementGroup));
+    elementGroup.children().find('.elementWithValue').each(function(i, el){
                 
-                var elementInput = $(el);
-                console.log("elementWithValue: " + elementInput);
-                var teiElementNickname = elementInput.attr("name");
-                if(elementInput.prop("tagName") === null)
-                            {var tagName = "INPUT"}
-                            else{
-                                var tagName = elementInput.prop("tagName");
-                                
-                            };
-                console.log("tagname = " + tagName);
-                switch(tagName){
-                 case "BUTTON":
-                    newValue = elementInput.attr('value');
-                    newValueTxt = elementInput.text()
-                    xmlItem = '\r\n<groupItem teiElement="' + teiElementNickname + '">' + newValue + '</groupItem>';
-                    console.log(xmlItem);
-                   xmlDataItems = xmlDataItems  + xmlItem;
-                    break;
-             case "INPUT":
-             case "TEXTAREA":
-                value = elementInput.val();
-                xmlItem = '\r\n<groupItem teiElement="' + teiElementNickname + '">' + value + '</groupItem>';
-                console.log(xmlItem);
-                xmlDataItems = xmlDataItems  + xmlItem;
-                 break;
-              case "SELECT":
-                    newValue = elementInput.val();
-                    newValueTxt = elementInput.val();
-                    break;
-                 default:
-                    newValue = elementInput.val() ;
-                    newValueTxt = elementInput.val();
-                    break;
-                    }
+    var elementInput = $(el);
+    console.log("elementWithValue: " + elementInput);
+    var teiElementNickname = elementInput.attr("name");
+    if(elementInput.prop("tagName") === null)
+        {var tagName = "INPUT"}
+     else
+        {var tagName = elementInput.prop("tagName");};
+        console.log("tagname = " + tagName);
+        switch(tagName)
+        {
+        case "BUTTON":
+            newValue = elementInput.attr('value');
+            newValueTxt = elementInput.text()
+            xmlItem = '\r\n<groupItem teiElement="' + teiElementNickname + '">' + newValue + '</groupItem>';
+            console.log(xmlItem);
+            xmlDataItems = xmlDataItems  + xmlItem;
+            break;
+        case "INPUT":
+            value = elementInput.val();
+            xmlItem = '\r\n<groupItem teiElement="' + teiElementNickname + '">' + value + '</groupItem>';
+            console.log(xmlItem);
+            xmlDataItems = xmlDataItems  + xmlItem;
+            break;
+        case "TEXTAREA":
+            value = elementInput.val();
+            xmlItem = '\r\n<groupItem teiElement="' + teiElementNickname + '">' + value + '</groupItem>';
+            console.log(xmlItem);
+            xmlDataItems = xmlDataItems  + xmlItem;
+            break;
+        case "SELECT":
+            newValue = elementInput.val();
+            newValueTxt = elementInput.val();
+            break;
+        default:
+            newValue = elementInput.val() ;
+            newValueTxt = elementInput.val();
+            
+        break;
+        }
                 
-            }
+    }
             
             );
             console.log(xmlDataItems);
@@ -395,7 +397,8 @@ function addGroupData(element,
                         +"</xml>"
            var request = new XMLHttpRequest();
     console.log("xmlData: " + xmlData);
-     request.open("POST", "$ausohnum-lib/modules/teiEditor/getFunctions.xql?type=addGroupData", true);
+    console.log("CP was here addGroupData");
+    request.open("POST", "$ausohnum-lib/modules/teiEditor/getFunctions.xql?type=addGroupData", true);
      var xmlDoc;
      request.onreadystatechange = function() {
 
@@ -411,9 +414,7 @@ function addGroupData(element,
                 };
 
             request.setRequestHeader('Content-Type', 'text/xml');
-
             request.send(xmlData);
-
         };
 
 function addDataComboAndInput(element,
@@ -610,9 +611,7 @@ function addItem(element, item, index){
  *          index -->   index no of corresponding TEI div/@type='textpart'; default = 1
  *
  * */
-
-        $(element).parents().closest(".teiElementGroup").find('.teiElementAddItem').toggleClass("teiElementHidden");
-
+    $(element).parents().closest(".teiElementGroup").find('.teiElementAddItem').toggleClass("teiElementHidden");
 };
 
 function addGroupItem(element, item, index){
@@ -866,6 +865,7 @@ function saveData2( element,
     let pattern_dimensions = /^[0-9,]*$/g;
     let pattern_iso_date = /0\d+$/g;
     let pattern_abbildung = /\w+\.(jpg|png)*$/g;
+    let pattern_abbildung_type = /image\/jpeg|image\/png|text\/csv$/g;
 
     if((elementNickName == 'Hoehe' || 
         elementNickName == 'Breite' || 
@@ -878,12 +878,17 @@ function saveData2( element,
                 elementNickName == 'DatISO_notBefore') &&
                 !pattern_iso_date.test(newValue))
     {
-        alert("'" + newValue + "'" + " is not valid ISO date. valid is something like '0100'");
+        alert("'" + newValue + "'" + " is not a valid ISO date. valid is something like '0100'");
     }
     else if (   elementNickName == 'Abb_filename' &&
                 !pattern_abbildung.test(newValue))
     {
-        alert("'" + newValue + "'" + " is not valid file name. valid is something like '0001_Front.jpg'");
+        alert("'" + newValue + "'" + " is not a valid file name. valid is something like '0001_Front.jpg'");
+    }
+    else if (   elementNickName == 'Abb_type' &&
+                !pattern_abbildung_type.test(newValue))
+    {
+        alert("'" + newValue + "'" + " is not a valid MIME-Type. valid is something like 'image/jpeg'");
     }
     else
     {
@@ -1537,6 +1542,10 @@ function removeItemFromList(docId, list, item, index, topConceptId){
         request.setRequestHeader('Content-Type', 'text/xml');
 
         request.send(xmlData);
+        // CP refresh after delete
+        setTimeout(function(){
+            window.location.reload(1);
+         }, 2500);
         
         } else{}
 };

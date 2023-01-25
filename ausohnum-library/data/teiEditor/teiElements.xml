@@ -432,6 +432,8 @@
     <!-- Bibliographie-->
 
     <!-- Abb, group -->
+    <!-- <graphic mimeType="{}" xml:id="IMAGE.1" url="file:///0001_Front.jpg"></graphic> -->
+    <!--<idno type="$altIdentifierType" subtype="$altIdentifierSubtype">$altIdentifierValue</idno>-->
     <teiElement>
         <nm>Abb</nm>
         <xpath>/tei:facsimile/tei:graphic</xpath>
@@ -439,6 +441,10 @@
         <cardinality>x</cardinality>
         <formLabel xml:lang="en">Abbildungen</formLabel>
         <fieldType>group</fieldType>
+        <template>
+            <!-- todo: @xml:id-->
+            <graphic mimeType="$Abb_type" url="$Abb_filename"><desc>$Abb_desc</desc></graphic>
+        </template>
         <teiElement>
             <nm>Abb_filename</nm>
             <xpath>/@url</xpath>
@@ -468,10 +474,13 @@
     <teiElement>
         <nm>Appcrit</nm>
         <xpath>/tei:text/tei:body/tei:div[@type="apparatus"]/tei:app</xpath>
-        <contentType>text</contentType>
+        <contentType>nodes</contentType>
         <cardinality>x</cardinality>
         <formLabel xml:lang="en">Apparatus criticus</formLabel>
         <fieldType>group</fieldType>
+        <template>
+            <app loc="$Appcrit_loc"><note anchored="true">$Appcrit_note</note></app>
+        </template>
         <teiElement>
             <nm>Appcrit_note</nm>
             <xpath>/tei:note</xpath>

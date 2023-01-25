@@ -1159,7 +1159,8 @@ let $inputName := 'selectDropDown' (:||$topConceptId:)
 
                      <div class="input-group-prepend">
                             <!--<span class="input-group-text">lang.</span>-->
-                            <span class="labelForm">{$lang}</span>
+                            <!-- CP: removed language -->
+                            <!--<span class="labelForm">{$lang}</span>-->
                     </div>
 
                     )
@@ -1223,10 +1224,12 @@ glyphicon glyphicon-ok-circle"></i></button>
                                                 <div class="input-group">
                                                  <div class="input-group-prepend">
                                                         <!--<span class="input-group-text">lang.</span>-->
+                                                        <!--
                                                         <span class="input-group-text">
                                                         {teiEditor:projectLangDropDown('', $docId, $teiElementNickname, "add")}
 
                                                         </span>
+                                                        -->
                                                 </div>
 
 
@@ -3319,7 +3322,7 @@ declare %templates:wrap function teiEditor:textConverter($index){
                             <textarea class="form-control" name="text2import" id="text2import" row="10" ></textarea>
                             -->
                                 <p>Paste your text below</p>
-                                <span id="conversionInProcess" class="hidden"><img id="f-load-indicator" class="" src="/$ausohnum-lib/resources/images/ajax-loader.gif"/></span>
+                                <span id="conversionInProcess" class="hidden"><img id="f-load-indicator" class="" src="$ausohnum-lib/resources/images/ajax-loader.gif"/></span>
                                 <div class="text2importInput">
                                 <div id="text2importInputEditor"/>
                                 </div>
@@ -4661,16 +4664,24 @@ return
 teiEditor:displayElement( $data/xml/teiElementNickname/text(),$docId,  (), ())
 };
 
-declare function teiEditor:addGroupData( $data as node(), $project as xs:string){
+declare function teiEditor:addGroupData( $data as node(), $project as xs:string)
+{
 
     let $now := fn:current-dateTime()
     let $currentUser := data(sm:id()//sm:username)
-    let $teiElementNickname := $data//teiElementNickname/text()
-    let $elementNode := if (not(exists($teiEditor:teiElementsCustom//teiElement[nm=$teiElementNickname]))) 
-                                        then $teiEditor:teiElements//teiElement[nm=$teiElementNickname] 
-                                        else $teiEditor:teiElementsCustom//teiElement[nm=$teiElementNickname]
+    let $teiElementNickname := if( exists($data//teiElementNickname/text()) )
+                                    then $data//teiElementNickname/text()
+                                    else $data//@teiElementNickname/text()
+
+    (: CP: I defined all teielements in $teiEditor:teiElements//teiElement[nm=$teiElementNickname] ) :)   
+
+    (:let $elementNode := if (not(exists($teiEditor:teiElementsCustom//teiElement[nm=$teiElementNickname]))) 
+                                    then $teiEditor:teiElements//teiElement[nm=$teiElementNickname] 
+                                    else $teiEditor:teiElementsCustom//teiElement[nm=$teiElementNickname]:)
+    let $elementNode := $teiEditor:teiElements//teiElement[nm=$teiElementNickname] 
+
     (:let $data := request:get-data():)
-(:    let $doc-collection := collection($config:data-root || $teiEditor:project || "/documents"):)
+    (:    let $doc-collection := collection($config:data-root || $teiEditor:project || "/documents"):)
 
     let $docId := $data//docId/text()
     let $topConceptId := $data//topConceptId/text()
@@ -4696,16 +4707,15 @@ declare function teiEditor:addGroupData( $data as node(), $project as xs:string)
              $item/text()
     let $node2insert := parse-xml(functx:replace-multi($dataTemplate, $variables, $values))
     let $xpath := functx:substring-before-last($elementNode/xpath, '/')
-    let $insertNode := update insert functx:change-element-ns-deep($node2insert/template, "http://www.tei-c.org/ns/1.0", "")/node() into util:eval( "$teiEditor:doc-collection/id('" ||$docId ||"')/" || $xpath)
-
+    let $insertNode := update insert 
+        functx:change-element-ns-deep($node2insert/template, "http://www.tei-c.org/ns/1.0", "")/node() 
+        into util:eval( "$teiEditor:doc-collection/id('" ||$docId ||"')/" || $xpath)
 return 
-<data>
-<dataTemplate>{$dataTemplate}</dataTemplate>
-<node2insert>{ $node2insert }</node2insert>
-<updatedElement>
-{teiEditor:displayGroup($teiElementNickname, $docId, (), (), ())}</updatedElement>
-</data>
-
+    <data>
+        <dataTemplate>{$dataTemplate}</dataTemplate>
+        <node2insert>{ $node2insert }</node2insert>
+        <updatedElement>{teiEditor:displayGroup($teiElementNickname, $docId, (), (), ())}</updatedElement>
+    </data>
 };
 
 
@@ -6092,7 +6102,7 @@ declare function teiEditor:dashboard($corpus as xs:string?){
                                             <div class="">
                                                 
                                                     <button id="btn-regenerate" class="btn btn-warning" onclick="regenerate()">Re-generate list</button><br/>
-                                                    <img id="f-load-indicator" class="hidden" src="/resources/images/ajax-loader.gif"/>
+                                                    <img id="f-load-indicator" class="hidden" src="$ausohnum-lib/resources/images/ajax-loader.gif"/>
                                                     <div id="messages"></div>
                                             </div>
                                         </div>
@@ -7858,7 +7868,7 @@ declare function teiEditor:epiConverter(){
 </div>
  <link rel="stylesheet" href="$ausohnum-lib/resources/css/teiEditor.css"/>
         <link href="$ausohnum-lib/resources/css/skosThesau.css" rel="stylesheet" type="text/css"/>
-        <link href="/resources/css/editor.css" rel="stylesheet" type="text/css"/>
+        <link href="$ausohnum-lib/resources/css/editor.css" rel="stylesheet" type="text/css"/>
         
         
         

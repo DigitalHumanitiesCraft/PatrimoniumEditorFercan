@@ -138,8 +138,8 @@ declare function prosopoManager:processUrl($path as xs:string,
                                                                       ){
 
    if ($path = "/geo/admin") then prosopoManager:dashboard()
-   else if (starts-with($path, "/geo/places")) then prosopoManager:getProjectPlaces($format)
-   else if (starts-with($path, "/geo/document/")) then prosopoManager:getDocumentPlaces($resource)
+   else if (starts-with($path, "/exist/apps/estudium/geo/places")) then prosopoManager:getProjectPlaces($format)
+   else if (starts-with($path, "/exist/apps/estudium/geo/document/")) then prosopoManager:getDocumentPlaces($resource)
 
 
   else <bold>{ $resource } + { $path }</bold>

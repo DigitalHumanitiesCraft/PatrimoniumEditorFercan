@@ -756,7 +756,7 @@ declare function app:regenerateListMenu(){
                 <div class="pull-right">
                   {if(request:get-parameter("resourceType", ()) = "documentsList") then <span class="">[# of docs in corpus: { app:documentCount() }]</span>else ""}<br/>
                         <button id="btn-regenerate" class="btn btn-warning">Re-generate list</button><br/>
-                        <img id="f-load-indicator" class="hidden" src="/resources/images/ajax-loader.gif"/>
+                        <img id="f-load-indicator" class="hidden" src="$ausohnum-lib/resources/images/ajax-loader.gif"/>
                         <div id="messages"></div>
                    </div>
              </div>

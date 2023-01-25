@@ -1643,45 +1643,6 @@ var opentopomap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png'
 
    L.control.scale().addTo(displayMap);
         
-        /*$.getJSON("/geo/places/json", function(json){
-                        geojsonFeatureProject = json[0].places;
-                        console.log("json dans FeatureProject: " + geojsonFeatureProject[1].properties.popupContent);
-                        var geojsonMarkerProjectPlaces = {
-                            radius: 4,
-                            fillColor: "#428bca",
-                            color: "#000",
-                            weight: 1,
-                            opacity: 1,
-                            fillOpacity: 0.8
-                        };
-            
-
-                        L.geoJSON(geojsonFeatureProject, {
-                                    onEachFeature: onEachFeaturePatrimonium }
-                                 ).addTo(displayMap);
-                        });*/
-
-
-        /*$.getJSON("/geo/document/{$docId}", function(json){
-            
-                    geojsonFeatureDocument = json[0].places;
-        
-                    var geojsonMarkerDocumentPlaces = {
-                        radius: 8,
-                        fillColor: "#7d1d20",
-                        color: "#000",
-                        weight: 1,
-                        opacity: 1,
-                        fillOpacity: 0.8
-                    };
-                    
-        
-                    L.geoJSON(geojsonFeatureDocument, {
-                        pointToLayer: function (feature, latlng) {
-                            return L.circleMarker(latlng, geojsonMarkerDocumentPlaces);
-                        }}).addTo(displayMap);
-            });
- */
 
             displayMap.on('moveend', function onMoveEnd(){
                     

@@ -3809,7 +3809,7 @@ let $userGroups := request:get-parameter("userGroups", ())
                   <span class="">[General index last update: { substring-before($generalIndex//ancestor-or-self::node()/@lastUpdate, "T") }]</span>
                   <br/>
                         <button id="btn-regenerate" class="btn btn-warning" onclick="regenerateList()">Re-generate keywords list</button><br/>
-                        <img id="f-load-indicator" class="hidden" src="/resources/images/ajax-loader.gif"/>
+                        <img id="f-load-indicator" class="hidden" src="$ausohnum-lib/resources/images/ajax-loader.gif"/>
                         <div id="messages"></div>
                         
                    </div>

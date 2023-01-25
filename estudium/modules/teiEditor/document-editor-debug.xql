@@ -276,7 +276,7 @@ return
 
         <link rel="stylesheet" href="$ausohnum-lib/resources/css/teiEditor.css"/>
         <link href="$ausohnum-lib/resources/css/skosThesau.css" rel="stylesheet" type="text/css"/>
-        <link href="/resources/css/editor.css" rel="stylesheet" type="text/css"/>
+        <link href="$ausohnum-lib/resources/css/editor.css" rel="stylesheet" type="text/css"/>
         
         
         

@@ -135,11 +135,11 @@ let $coordinates := $gazetteerRecord//coordList/coordinates[1]/text()
                                                 
                                                 { spatiumStructor:representativeCoordinates($placeUriShort) }
                                                 <div id="temporalScaleListHolder" style="margin-bottom: 1em">
-                                                <img id="f-load-indicator" class="" src="/resources/images/ajax-loader.gif" style="margin-right: 1em;"/>... retrieving temporal range of attestations in documents...
+                                                <img id="f-load-indicator" class="" src="$ausohnum-lib/resources/images/ajax-loader.gif" style="margin-right: 1em;"/>... retrieving temporal range of attestations in documents...
                                                 </div>
                                                 { ausohnumCommons:biblioAndResourcesList($placeRdf, "seeFurther") }
                                                 <div id="relatedPlacesListHolder" style="margin-bottom: 1em">
-                                                <img id="f-load-indicator" class="" src="/resources/images/ajax-loader.gif" style="margin-right: 1em;"/>... retrieving related places...
+                                                <img id="f-load-indicator" class="" src="$ausohnum-lib/resources/images/ajax-loader.gif" style="margin-right: 1em;"/>... retrieving related places...
                                                 </div>
                                                 
                                                 {""
@@ -150,11 +150,11 @@ let $coordinates := $gazetteerRecord//coordList/coordinates[1]/text()
                                                 { ausohnumCommons:relatedPlacesToPlace($placeUriLong, "isAdjacentTo")
                                                 { ausohnumCommons:relatedDocuments($placeUriShort, "place") :)}                                                
                                                 <div id="relatedDocumentsListHolder" style="margin-bottom: 1em">
-                                                <img id="f-load-indicator" class="" src="/resources/images/ajax-loader.gif" style="margin-right: 1em;"/>... retrieving related documents...
+                                                <img id="f-load-indicator" class="" src="$ausohnum-lib/resources/images/ajax-loader.gif" style="margin-right: 1em;"/>... retrieving related documents...
                                                 </div>
                                                 
                                                 <div id="relatedPeopleListHolder" style="margin-bottom: 1em">
-                                                <img id="f-load-indicator" class="" src="/resources/images/ajax-loader.gif" style="margin-right: 1em;"/>... retrieving related people...
+                                                <img id="f-load-indicator" class="" src="$ausohnum-lib/resources/images/ajax-loader.gif" style="margin-right: 1em;"/>... retrieving related people...
                                                 </div>
                                                 {""
 (:                                                ausohnumCommons:relatedPeople($placeUriShort, "place") :)

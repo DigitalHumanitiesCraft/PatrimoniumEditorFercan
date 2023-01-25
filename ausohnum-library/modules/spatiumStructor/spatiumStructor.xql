@@ -149,9 +149,9 @@ declare function spatiumStructor:processUrl($path as xs:string,
                                                                       ){
 
    if ($path = "/geo/admin") then spatiumStructor:dashboard()
-   else if (starts-with($path, "/geo/places")) then spatiumStructor:getProjectPlaces($format)
-   else if (starts-with($path, "/geo/document/")) then spatiumStructor:getDocumentPlaces($resource)
-   else if (starts-with($path, "/geo/project-places/")) then spatiumStructor:getDocument2Places($resource)
+   else if (starts-with($path, "/exist/apps/estudium/geo/places")) then spatiumStructor:getProjectPlaces($format)
+   else if (starts-with($path, "/exist/apps/estudium/geo/document/")) then spatiumStructor:getDocumentPlaces($resource)
+   else if (starts-with($path, "/exist/apps/estudium/geo/project-places/")) then spatiumStructor:getDocument2Places($resource)
 
 
   else <bold>{ $resource } + { $path }</bold>
