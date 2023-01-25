@@ -284,7 +284,7 @@
         <xpath2ref/>
         <comments/>
     </teiElement> 
-    <!-- Schrifttechnik	-->
+    <!-- Schrifttechnik, <handNote><desc type="execution">gemeißelt</desc>-->
     <teiElement>
         <nm>Schrifttechnik</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:desc</xpath>
@@ -295,16 +295,41 @@
         <xpath2ref/>
         <comments/>
     </teiElement>   
-    <!-- Buchst.hoehe -->
+    <!-- Buchst.hoehe, <handNote><desc type="execution">gemeißelt</desc><height unit="cm" atLeast="2.3" atMost="5.1">2,3–5,1 cm</height></handNote> -->
     <teiElement>
         <nm>Buchsthoehe</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:height</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
+        <contentType>nodes</contentType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Buchstabenhöhe</formLabel>
-        <xpath2ref/>
-        <comments/>
+        <fieldType>group</fieldType>
+        <template>
+            <height unit="cm" atLeast="$Buchsthoehe_atLeast" atMost="$Buchsthoehe_atMost">$Buchsthoehe_text</height>
+        </template>
+        <teiElement>
+            <nm>Buchsthoehe_text</nm>
+            <xpath></xpath>
+            <contentType>text</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Text</formLabel>
+            <fieldType>input</fieldType>
+        </teiElement>
+        <teiElement>
+            <nm>Buchsthoehe_atLeast</nm>
+            <xpath>/@atLeast</xpath>
+            <contentType>attribute</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">atLeast</formLabel>
+            <fieldType>input</fieldType>
+        </teiElement>
+        <teiElement>
+            <nm>Buchsthoehe_atMost</nm>
+            <xpath>/@atMost</xpath>
+            <contentType>attribute</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">atMost</formLabel>
+            <fieldType>input</fieldType>
+        </teiElement>
     </teiElement>   
     <!-- Inschr.text -->
     <teiElement>
@@ -590,7 +615,7 @@
         </template>
         <teiElement>
             <nm>Editionen_text</nm>
-            <xpath>/.</xpath>
+            <xpath></xpath>
             <contentType>text</contentType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Text</formLabel>
