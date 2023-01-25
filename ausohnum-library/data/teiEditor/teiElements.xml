@@ -170,28 +170,14 @@
         <comments/>
     </teiElement>
     <!-- Arch. Klass. -->
-    <!-- 
     <teiElement>
         <nm>ArchKlass</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:decoDesc/tei:decoNote/tei:term/tei:ref</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>x</cardinality>
-        <formLabel xml:lang="en">Archäologische Klassifikation</formLabel>
-        <xpath2ref/>
-        <comments/>
-    </teiElement>
-    -->
-    <teiElement>
-        <nm>ArchKlass</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:decoDesc/tei:decoNote/tei:term/tei:ref</xpath>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:decoDesc/tei:decoNote/tei:term/@ana</xpath>
         <contentType>textNodeAndAttribute</contentType>
         <cardinality>x</cardinality>
         <formLabel xml:lang="en">Archäologische Klassifikation</formLabel>
-        <fieldType>place</fieldType>
-        <thesauDb>internal</thesauDb>
-        <thesauTopConceptURI>hallo</thesauTopConceptURI>
-        <comments/>
+        <fieldType>input</fieldType>
+        <xpath2ref>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:decoDesc/tei:decoNote/tei:term/tei:ref</xpath2ref>
     </teiElement>
 
     <!-- Obj.beschr. -->
