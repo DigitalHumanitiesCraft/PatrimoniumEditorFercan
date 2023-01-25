@@ -866,6 +866,7 @@ function saveData2( element,
     let pattern_iso_date = /0\d+$/g;
     let pattern_abbildung = /\w+\.(jpg|png)*$/g;
     let pattern_abbildung_type = /image\/jpeg|image\/png|text\/csv$/g;
+    let pattern_apparatus_criticus_Loc = /\#MIN.\d+ \#MAJ.\d+$/g;
 
     if((elementNickName == 'Hoehe' || 
         elementNickName == 'Breite' || 
@@ -889,6 +890,11 @@ function saveData2( element,
                 !pattern_abbildung_type.test(newValue))
     {
         alert("'" + newValue + "'" + " is not a valid MIME-Type. valid is something like 'image/jpeg'");
+    }
+    else if (   elementNickName == 'Appcrit_loc' &&
+                !pattern_apparatus_criticus_Loc.test(newValue))
+    {
+    alert("'" + newValue + "'" + " is not valid . valid is something like '#MIN.1 #MAJ.1'");
     }
     else
     {
