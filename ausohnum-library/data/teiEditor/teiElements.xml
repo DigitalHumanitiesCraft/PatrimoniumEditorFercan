@@ -43,24 +43,24 @@
     <!-- FO antik -->
     <teiElement>
         <nm>FOantik</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName/@ref</xpath>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName</xpath>
         <contentType>textNodeAndAttribute</contentType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Fundort antik</formLabel>
         <fieldType>place</fieldType>
         <thesauDb>internal</thesauDb>
-        <xpath2ref>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName</xpath2ref>
+        <xpath2ref>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName/@ref</xpath2ref>
     </teiElement>
     <!-- FO modern -->
     <teiElement>
         <nm>FOmodern</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName/tei:ref/@target</xpath>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName/tei:ref</xpath>
         <contentType>textNodeAndAttribute</contentType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Fundort modern</formLabel>
         <fieldType>place</fieldType>
         <thesauDb>internal</thesauDb>
-        <xpath2ref>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName</xpath2ref>
+        <xpath2GAMSContext>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName</xpath2GAMSContext>
     </teiElement>
     <!-- FS ID -->
     <teiElement>

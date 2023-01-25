@@ -1517,6 +1517,8 @@ declare function teiEditor:displayTeiElementWithTaxo($teiElementNickname as xs:s
                         $xpathEnd
 
     let $teiXPath2Ref := $teiEditor:teiElements//teiElement[nm=$teiElementNickname]/xpath2ref/text()
+    (:CP: to create <ref type="context" target="context:fercan.geog.modern.bonn"> :)
+    let $xpath2GAMSContext := $teiEditor:teiElements//teiElement[nm=$teiElementNickname]/xpath2GAMSContext/text()
     let $teiElementDataType := $teiEditor:teiElements//teiElement[nm=$teiElementNickname]/contentType/text()
     let $teiElementFormLabel := $teiEditor:teiElements//teiElement[nm=$teiElementNickname]/formLabel[@xml:lang=$teiEditor:lang]/text()
 

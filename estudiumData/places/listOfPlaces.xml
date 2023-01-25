@@ -1,262 +1,478 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:pleiades="https://pleiades.stoa.org/places/vocab#" xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="http://ausonius.huma-num.fr/skosThesau/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/1">
-        <skos:prefLabel xml:lang="en">Alabanda</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Alabanda</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Ἀλάβανδα</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599479"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/2">
-        <skos:prefLabel xml:lang="en">Alinda</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Alinda</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Ἄλινδα</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599480"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/3">
-        <skos:prefLabel xml:lang="en">Amyzon</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Amyzôn</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Ἀμυζών</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599489"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/4">
-        <skos:prefLabel xml:lang="en">Antiochia ad Maeandrum</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Antioche du Méandre</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Ἀντιόχεια</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/638748"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/5">
-        <skos:prefLabel xml:lang="en">Aphrodisias</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Aphrodisias</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Ἀφροδισιάς</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/638753"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/6">
-        <skos:prefLabel xml:lang="en">Apollonia Salbakes</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Apollonia de la Salbakè</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Ἀπολλωνία Σαλβάκης</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/638757"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/7">
-        <skos:prefLabel xml:lang="en">Attouda</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Attouda</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Αττουδα</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/638779"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/8">
-        <skos:prefLabel xml:lang="en">Bargasa</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Bargasa</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Βάργασα</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599866"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/9">
-        <skos:prefLabel xml:lang="en">Bargylia</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Bargylia</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Βαργυλία</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599550"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/10">
-        <skos:prefLabel xml:lang="en">Chalketor</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Chalkétôr</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Χαλκήτωρ</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599569"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/11">
-        <skos:prefLabel xml:lang="en">Euromos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Eurômos</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Εὔρωμος</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599616"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/12">
-        <skos:prefLabel xml:lang="en">Halikarnassos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Halicarnasse</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Ἁλικαρνασσός</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599636"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/13">
-        <skos:prefLabel xml:lang="en">Harpasa</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Harpasa</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Ἅρπασα</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599637"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/14">
-        <skos:prefLabel xml:lang="en">Heraclea ad Latmum</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Héraclée du Latmos</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Ἡράκλεια</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599640"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/15">
-        <skos:prefLabel xml:lang="en">Herakleia Salbakes</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Héraclée de la Salbakè</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Ἡράκλεια Σαλβάκης</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/638857"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/16">
-        <skos:prefLabel xml:lang="en">Hydaieis/Kydaieis</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Hydaieis/Kydaieis</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Υδαιεις</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599651"/>
-        <skos:note>L. Robert, AJA 39, 1935 p, 338: absorbés par Mylasa (sympolitie).</skos:note>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/17">
-        <skos:prefLabel xml:lang="en">Hyllarima</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Hyllarima</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Ὑλλάριμα</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599659"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/18">
-        <skos:prefLabel xml:lang="en">Iasos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Iasos</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Ἰασὸς</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599664"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/19">
-        <skos:prefLabel xml:lang="en">Idyma</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Idyma</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Ἴδυμα</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599666"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/20">
-        <skos:prefLabel xml:lang="en">Caunus</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Kaunos</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Καῦνος</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/638796"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/21">
-        <skos:prefLabel xml:lang="en">Keramos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Kéramos</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Κέραμος</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599707"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/22">
-        <skos:prefLabel xml:lang="en">Kidrama</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Kidrama</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Κίδραμα</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/638919"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/23">
-        <skos:prefLabel xml:lang="en">Knidos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Cnide</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Κνίδος</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599575"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/24">
-        <skos:prefLabel xml:lang="en">Kodapeis</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Kodapè</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Κοδαπεις</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/606316"/>
-        <skos:note>(location inconnue)</skos:note>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/25">
-        <skos:prefLabel xml:lang="en">Mylasa</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Mylasa</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Μύλασα</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599810"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/26">
-        <skos:prefLabel xml:lang="en">Myndos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Myndos</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Μύνδος</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599811"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/27">
-        <skos:prefLabel xml:lang="en">Myous</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Myonte</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Μυοῦς</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599813"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/28">
-        <skos:prefLabel xml:lang="en">*Hylimos/*Olymos</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Olymos</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Ολυμος</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599658"/>
-        <skos:note>L. Robert, Hell. X p. 226 = Ὕλιμος, par conséquant écrire Ὁλυμος. Zgusta - pas convaincu.</skos:note>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/29">
-        <skos:prefLabel xml:lang="en">Orthosia</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Orthosia</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Ὀρθωσία</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599839"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/30">
-        <skos:prefLabel xml:lang="en">Ouranion</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Ouranion</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Οὐράνιον</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599842"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/31">
-        <skos:prefLabel xml:lang="en">Pidasa</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Pidasa</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Πίδασα</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599890"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/32">
-        <skos:prefLabel xml:lang="en">Pisye</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Pisyé</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Πισύη</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599892"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/33">
-        <skos:prefLabel xml:lang="en">Sebastopolis</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Sébastopolis</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Σεβαστόπολις</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/639096"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/34">
-        <skos:prefLabel xml:lang="en">Stratonikeia/Stratonike</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Stratonicée</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Στρατονικεῖα/Στρατονίκη</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/507469"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/35">
-        <skos:prefLabel xml:lang="en">Tabai</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Tabai</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Τάβαι</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/639125"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/36">
-        <skos:prefLabel xml:lang="en">Theangela</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Théangéla</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Θεάγγελα</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599969"/>
-        <skos:note/>
-    </pleiades:Place>
-    <pleiades:Place rdf:about="https://ausohnum.huma-num.fr/place/37">
-        <skos:prefLabel xml:lang="en">Thera</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Théra</skos:prefLabel>
-        <skos:prefLabel xml:lang="grc">Θήρα</skos:prefLabel>
-        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/599972"/>
-        <skos:note/>
-    </pleiades:Place>
+<rdf:RDF xmlns:pleiades="https://pleiades.stoa.org/places/vocab#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:skosThesau="http://ausonius.huma-num.fr/skosThesau/"
+	xmlns:tei="http://www.tei-c.org/ns/1.0"
+	xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:time="http://www.w3.org/2006/time#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/1">
+		<skos:prefLabel xml:lang="en">Aachen</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.777_6.083.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/2">
+		<skos:prefLabel xml:lang="en">Ameln</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.966_6.459.html"/>
+		<skos:note>bei Rödingen, Titz</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/3">
+		<skos:prefLabel xml:lang="en">Antweiler</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.606_6.745.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/4">
+		<skos:prefLabel xml:lang="en">Arnheim</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_51.98_5.911.html"/>
+		<skos:note>bei Arnheim im Rheinbett</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/5">
+		<skos:prefLabel xml:lang="en">Bad Godesberg</skos:prefLabel>
+		<skos:exactMatch rdf:resource=""/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/6">
+		<skos:prefLabel xml:lang="en">Bad Münstereifel Nöthen (Pesch), Tempelbezirk (Matronentempel
+			Eifel)</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.557_6.764.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/7">
+		<skos:prefLabel xml:lang="en">Bad Münstereifel-Iversheim</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.557_6.764.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/8">
+		<skos:prefLabel xml:lang="en">Benzelrath</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2950925/benzelrath.html"/>
+		<skos:note>Braunkohlegrube Wachtberg I</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/9">
+		<skos:prefLabel xml:lang="en">Bettenhoven</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.958_6.474.html"/>
+		<skos:note>bei Rödingen, in einem Grab</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/10">
+		<skos:prefLabel xml:lang="en">Blankenheim</skos:prefLabel>
+		<skos:exactMatch rdf:resource=""/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/11">
+		<skos:prefLabel xml:lang="en">Bonn</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.734_7.095.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/12">
+		<skos:prefLabel xml:lang="en">Born-Buchten</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2758167/buchten.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/13">
+		<skos:prefLabel xml:lang="en">Bornheim-Buschdorf</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.763_6.991.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/14">
+		<skos:prefLabel xml:lang="en">Domburg</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2756746/domburg.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/15">
+		<skos:prefLabel xml:lang="en">ehem. Bonsdorf</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.862_6.397.html"/>
+		<skos:note>in dem zwischen lülich und Düren gelegenen jetzt mit Pier vereinigten Dorfe
+			Bonsdorf, alte Kirche (abgebrochen)</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/16">
+		<skos:prefLabel xml:lang="en">Elten</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_51.872_6.16.html"/>
+		<skos:note>Umgebung von Elten</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/17">
+		<skos:prefLabel xml:lang="en">Embken</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2930604/embken.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/18">
+		<skos:prefLabel xml:lang="en">Empel</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_51.731_5.326.html"/>
+		<skos:note>bei s'-Hertogenbosch</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/19">
+		<skos:prefLabel xml:lang="en">Endenich</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.724_7.073.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/20">
+		<skos:prefLabel xml:lang="en">Erp</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.767_6.724.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/21">
+		<skos:prefLabel xml:lang="en">Eschweiler</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2928963/eschweiler.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/22">
+		<skos:prefLabel xml:lang="en">Euskirchen</skos:prefLabel>
+		<skos:exactMatch rdf:resource=""/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/23">
+		<skos:prefLabel xml:lang="en">Floisdorf</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.636_6.612.html"/>
+		<skos:note>nordwestlich des Dorfes einige Minuten davon entfernt „auf der nach Berg
+			streichenden Höhe“, in den dort aufgedeckten Gräbern</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/24">
+		<skos:prefLabel xml:lang="en">Foy </skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.044_5.749.html"/>
+		<skos:note>zwischen Bastogne (Bastnach) und Noville</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/25">
+		<skos:prefLabel xml:lang="en">Frenz</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2924973/frenz.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/26">
+		<skos:prefLabel xml:lang="en">Geich</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.694_6.654.html"/>
+		<skos:note>bei Zülpich, im Garten der Witwe Heidgen</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/27">
+		<skos:prefLabel xml:lang="en">Gereonsweiler</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.959_6.22.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/28">
+		<skos:prefLabel xml:lang="en">Gey</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.75_6.419.html"/>
+		<skos:note>(bei), an der rechten Seite der Landstraße von Düren nach Montjoie, die
+			Entfernung des Fundortes von der Landstraße beträgt 2 Schritte, 8 Minuten von
+			Gey</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/29">
+		<skos:prefLabel xml:lang="en">Grimmlinghausen</skos:prefLabel>
+		<skos:exactMatch rdf:resource=""/>
+		<skos:note>[Düsseldorf ap. Guntrum]</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/30">
+		<skos:prefLabel xml:lang="en">Güsten </skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2913450/guesten.html"/>
+		<skos:note>Güsten bei Jülich</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/31">
+		<skos:prefLabel xml:lang="en">Hasselsweiler</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2909364/hasselsweiler.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/32">
+		<skos:prefLabel xml:lang="en">Holdeurn</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/2759147/berg-en-dal.html"/>
+		<skos:note>nahe Nijmwegen, Gemeinde Berg en Dal</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/33">
+		<skos:prefLabel xml:lang="en">Horn</skos:prefLabel>
+		<skos:exactMatch rdf:resource=""/>
+		<skos:note>bei Roermond, alte Kirche (abgebrochen)</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/34">
+		<skos:prefLabel xml:lang="en">Houten</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_52.028_5.168.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/35">
+		<skos:prefLabel xml:lang="en">Hoven</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2898355/hoven.html"/>
+		<skos:note>Marienborn</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/36">
+		<skos:prefLabel xml:lang="en">Inden</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/2896120/inden.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/37">
+		<skos:prefLabel xml:lang="en">Jülich</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2894553/juelich.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/38">
+		<skos:prefLabel xml:lang="en">Köln</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.933_6.95.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/39">
+		<skos:prefLabel xml:lang="en">Krefeld</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2884509/krefeld.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/40">
+		<skos:prefLabel xml:lang="en">Kreuzau-Boich</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.747_6.491.html"/>
+		<skos:note>(Kreis Düren), in einem fränkischen Grab</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/41">
+		<skos:prefLabel xml:lang="en">Lechenich</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.8_6.77.html"/>
+		<skos:note>alter Kirchhof (abgetragen)</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/42">
+		<skos:prefLabel xml:lang="en">Lessenich </skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.723_7.041.html"/>
+		<skos:note>(bei), 20 Min südl</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/43">
+		<skos:prefLabel xml:lang="en">Lipp-Bedburg</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2876935/lipp.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/44">
+		<skos:prefLabel xml:lang="en">Maasdriel, Alem</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_51.787_5.343.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/45">
+		<skos:prefLabel xml:lang="en">Merzenich</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2871683/merzenich.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/46">
+		<skos:prefLabel xml:lang="en">Miel</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.671_6.917.html"/>
+		<skos:note>Kr. Rheinbach (bei)</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/47">
+		<skos:prefLabel xml:lang="en">Mönchengladbach</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2869894/moenchengladbach.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/48">
+		<skos:prefLabel xml:lang="en">Monheim</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/11962341/haus-buergel.html"/>
+		<skos:note>Haus Bürgel in Monheim (Kr. Mettmann)</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/49">
+		<skos:prefLabel xml:lang="en">Morken-Harff</skos:prefLabel>
+		<skos:exactMatch rdf:resource=""/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/50">
+		<skos:prefLabel xml:lang="en">Müddersheim</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.752_6.664.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/51">
+		<skos:prefLabel xml:lang="en">Müntz</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/28675/muentz.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/52">
+		<skos:prefLabel xml:lang="en">Nettersheim Umgebung</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2866336/nettersheim.html"/>
+		<skos:note> zwischen Heimbach und Ober-Vlatten</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/53">
+		<skos:prefLabel xml:lang="en">Neuss</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2864118/neuss.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/54">
+		<skos:prefLabel xml:lang="en">Nieukerk</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2862446/nieukerk.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/55">
+		<skos:prefLabel xml:lang="en">Nijmegen</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2750053/nijmegen.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/56">
+		<skos:prefLabel xml:lang="en">Oberelvenich</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.701_6.709.html"/>
+		<skos:note>im sog. Heidenfelde</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/57">
+		<skos:prefLabel xml:lang="en">Oosterschelde bei Colijnsplaat</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2749418/oosterschelde.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/58">
+		<skos:prefLabel xml:lang="en">Remagen </skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2848335/remagen.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/59">
+		<skos:prefLabel xml:lang="en">Remagen Umgebung</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2848335/remagen.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/60">
+		<skos:prefLabel xml:lang="en">Rheydt</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_51.164_6.45.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/61">
+		<skos:prefLabel xml:lang="en">Rijsbergen-Zundert</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2748091/rijsbergen.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/62">
+		<skos:prefLabel xml:lang="en">Rindern</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_51.811_6.125.html"/>
+		<skos:note>Kirche</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/63">
+		<skos:prefLabel xml:lang="en">Ripsdorf</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.386_6.659.html"/>
+		<skos:note>Gemeinde Blankenheim</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/64">
+		<skos:prefLabel xml:lang="en">Rödingen</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.966_6.459.html"/>
+		<skos:note> zwischen dem Pfarrdorf Rödingen und der villa „in der Hölle“, auf einem sandigen
+			Hügel</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/65">
+		<skos:prefLabel xml:lang="en">Rohr</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.453_6.733.html"/>
+		<skos:note>alte Kirche (abgetragen)</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/66">
+		<skos:prefLabel xml:lang="en">Rövenich</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.71_6.686.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/67">
+		<skos:prefLabel xml:lang="en">Ruimel</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_51.651_5.344.html"/>
+		<skos:note> in agro Sylvaducensi</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/68">
+		<skos:prefLabel xml:lang="en">Satzvey</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.62_6.704.html"/>
+		<skos:note>(Kreis Euskirchen)</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/69">
+		<skos:prefLabel xml:lang="en">Soller</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.733_6.555.html"/>
+		<skos:note>auf dem sog. Dinsel, in einem Grab</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/70">
+		<skos:prefLabel xml:lang="en">Strée-lez-Huy</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.49_5.323.html"/>
+		<skos:note>S. Nicolas, Kirche, sekundär verwendet</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/71">
+		<skos:prefLabel xml:lang="en">Tetz</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.963_6.315.html"/>
+		<skos:note>alte Pfarrkirche (abgebrochen)</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/72">
+		<skos:prefLabel xml:lang="en">Thorr</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.94_6.631.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/73">
+		<skos:prefLabel xml:lang="en">Tongeren</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.781_5.465.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/74">
+		<skos:prefLabel xml:lang="en">Utrecht</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_52.091_5.122.html"/>
+		<skos:note>mitten in der Stadt vor den Toren der Akademie (der
+			Geisteswissenschaften?)</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/75">
+		<skos:prefLabel xml:lang="en">Valkenburg</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.865_5.832.html"/>
+		<skos:note>bei Valkenburg, De Woerd</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/76">
+		<skos:prefLabel xml:lang="en">Vechten</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_52.063_5.172.html"/>
+		<skos:note>(bei), in de Houtensche vlakte</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/77">
+		<skos:prefLabel xml:lang="en">Vettweiß</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2817506/vettweiss.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/78">
+		<skos:prefLabel xml:lang="en">Waardenburg</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_51.833_5.257.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/79">
+		<skos:prefLabel xml:lang="en">Wardt</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_51.69_6.435.html"/>
+		<skos:note>(Kreis Moers)</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/80">
+		<skos:prefLabel xml:lang="en">Wenau</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.79_6.337.html"/>
+		<skos:note>im Wald</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/81">
+		<skos:prefLabel xml:lang="en">Wesseling</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.827_6.975.html"/>
+		<skos:note>bei Köln</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/82">
+		<skos:prefLabel xml:lang="en">Westkapelle</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_51.529_3.44.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/83">
+		<skos:prefLabel xml:lang="en">Wiltenburg</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2745793/vechten.html"/>
+		<skos:note>bei Vechten</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/84">
+		<skos:prefLabel xml:lang="en">Xanten</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_51.659_6.453.html"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/85">
+		<skos:prefLabel xml:lang="en">Zennewijnen</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://www.geonames.org/2743958/zennewijnen.html"/>
+		<skos:note>bei Tiel</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/86">
+		<skos:prefLabel xml:lang="en">Zülpich</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://www.geonames.org/maps/google_50.694_6.654.html"/>
+		<skos:note>auf der Nordseite des Marktes in einem Grab</skos:note>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/87">
+		<skos:prefLabel xml:lang="en">Zwischen Iversheim und Arloff am Erftufer</skos:prefLabel>
+		<skos:exactMatch rdf:resource=""/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/1001">
+		<skos:prefLabel xml:lang="en">Aquae Granni</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/108749"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/1002">
+		<skos:prefLabel xml:lang="en">Arenacum</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/98976"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/1003">
+		<skos:prefLabel xml:lang="en">Bonna</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/108818"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/1004">
+		<skos:prefLabel xml:lang="en">CCAA</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/108751"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/1005">
+		<skos:prefLabel xml:lang="en">Colonia Ulpia Traiana</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/108896"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/1006">
+		<skos:prefLabel xml:lang="en">CUT</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/108896"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/1007">
+		<skos:prefLabel xml:lang="en">Fectio</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/98956"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/1008">
+		<skos:prefLabel xml:lang="en">Gelduba</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/109002"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/1009">
+		<skos:prefLabel xml:lang="en">Iuliacum</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/109068"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/1010">
+		<skos:prefLabel xml:lang="en">Ulpia Noviomagus</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/98921"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/1011">
+		<skos:prefLabel xml:lang="en">Varnenum</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/109411"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/1012">
+		<skos:prefLabel xml:lang="en">Atuatuca Tungrorum</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/108765"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/1013">
+		<skos:prefLabel xml:lang="en">Rigomagus</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/109281"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/1014">
+		<skos:prefLabel xml:lang="en">Traiectum</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/99046"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/1015">
+		<skos:prefLabel xml:lang="en">Ganuenta</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/109000"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/1016">
+		<skos:prefLabel xml:lang="en">Novaesium</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/109215"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/1017">
+		<skos:prefLabel xml:lang="en">Tiberiacum</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/109378"/>
+	</pleiades:Place>
+	<pleiades:Place rdf:about="https://gams.uni-graz.at/o:fercan.places/1018">
+		<skos:prefLabel xml:lang="en">Tolbiacum</skos:prefLabel>
+		<skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/109382"/>
+	</pleiades:Place>
 </rdf:RDF>
