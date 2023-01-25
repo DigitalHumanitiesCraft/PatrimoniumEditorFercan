@@ -577,14 +577,33 @@
         <formLabel xml:lang="en">Autopsie</formLabel>
         <fieldType>input</fieldType>
     </teiElement>
-    <!-- Editionen -->
+    <!-- Editionen, <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1930, Nr.45</bibl> -->
     <teiElement>
         <nm>Editionen</nm>
         <xpath>/tei:text/tei:body/tei:div[@subtype="editions"][@type="bibliography"]/tei:listBibl/tei:bibl</xpath>
-        <contentType>text</contentType>
+        <contentType>nodes</contentType>
         <cardinality>x</cardinality>
         <formLabel xml:lang="en">Editionen und Lesungen</formLabel>
-        <fieldType>input</fieldType>
+        <fieldType>group</fieldType>
+        <template>
+            <bibl xml:id="$Editionen_id" default="false" status="draft">$Editionen_text</bibl>
+        </template>
+        <teiElement>
+            <nm>Editionen_text</nm>
+            <xpath>/.</xpath>
+            <contentType>text</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Text</formLabel>
+            <fieldType>input</fieldType>
+        </teiElement>
+        <teiElement>
+            <nm>Editionen_id</nm>
+            <xpath>/@xml:id</xpath>
+            <contentType>attribute</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">ID</formLabel>
+            <fieldType>input</fieldType>
+        </teiElement>
     </teiElement>
 
     <!-- /// -->
