@@ -87,6 +87,7 @@ return
         <h3>Titel</h3>
         {teiEditor:displayElement('docTitle', (), (), ())}
         {teiEditor:displayElement('subTitle', (), (), ())}
+        {teiEditor:displayElement('PID', (), (), ())}
         {teiEditor:displayElement('civitas', (), (), ())}
         {teiEditor:displayElement('Appcrit', (), (), ())}
         <h3>Übersetzung</h3>
@@ -144,7 +145,9 @@ return
       </div>
         <div class="col-sm-5 col-md-5 col-lg-5">
           <h3>Preview</h3>
+          <!--
           <div id="PID_display_1_1" class="teiElementGroup">
+          
           <div class="TeiElementGroupHeaderInline">
             <span class="labelForm">GAMS PID 
               <span class="teiInfo">
@@ -154,10 +157,13 @@ return
               </span>
             </span>
           </div>
+
           <div id="PID_value_1_1" class="teiElementValue" style="">
             <span>{$teiEditor:teiDoc//tei:fileDesc/tei:publicationStmt/tei:idno[@type="PID"]}</span>
           </div>
+          
         </div>
+        -->
         <!-- -->
         <div id="PID_display_1_1" class="teiElementGroup">
           <div class="TeiElementGroupHeaderInline">

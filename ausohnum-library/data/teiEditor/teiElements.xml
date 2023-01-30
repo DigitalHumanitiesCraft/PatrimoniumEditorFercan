@@ -25,6 +25,17 @@
         <xpath2ref/>
         <comments/>
     </teiElement>
+    <!-- PID -->
+    <teiElement>
+        <nm>PID</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type="PID"]</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">PID</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
 
     <!-- /// -->
     <!-- Fund -->
@@ -587,6 +598,7 @@
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Autopsie</formLabel>
         <fieldType>input</fieldType>
+        <comments>Hudriwu</comments>
     </teiElement>
     <!-- Editionen, <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1930, Nr.45</bibl> -->
     <teiElement>
@@ -628,6 +640,7 @@
         <fieldType>textarea</fieldType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Übersetzung Deutsch</formLabel>
+        <comments>Hudriwu</comments>
     </teiElement>
     <!-- dtUEbers -->
     <teiElement>

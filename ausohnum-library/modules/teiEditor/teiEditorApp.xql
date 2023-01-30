@@ -2300,7 +2300,7 @@ declare function teiEditor:displayPlace($elementNickName as xs:string, $docId as
                                     {$items//skos:prefLabel[@xml:lang='en']} {data($items/@rdf:about)}</option>)
                                         else (
                                 <option value="{$items/@rdf:about}{if($items//skos:exactMatch) then ' ' || concat(data($items//skos:exactMatch/@rdf:resource), ' ') else ()}"
-                                textValue="{$items//skos:prefLabel[@xml:lang='en']}">{$items//skos:prefLabel[@xml:lang='en']} {data($items/@rdf:about)}</option>
+                                textValue="{$items//skos:prefLabel[@xml:lang='en']}">{$items//skos:prefLabel[@xml:lang='en']} {data($items//skos:exactMatch/@rdf:resource)}</option>
                                 )
                          }</select>
 <button id="save{ $elementNickName }" class="btn btn-success"

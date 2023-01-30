@@ -16,8 +16,7 @@
 	<xsl:template match="*:TEI"> 
 		<xsl:variable name="PID" select="//*:teiHeader/*:fileDesc/*:publicationStmt/*:idno[@type='PID']"/>
 		<xsl:copy>
-			<xsl:attribute name="xml:id" select="concat('fercan_inf', substring-after($PID, '.'))"/>
-			<!--<xsl:attribute name="xml:id" select="concat('fercan.', substring-after($PID, '.'))"/> -->
+			<xsl:attribute name="xml:id" select="concat('inferior', substring-after($PID, '.'))"/>
 			<xsl:apply-templates select="@*|node()"/>
 		</xsl:copy>
 	</xsl:template>

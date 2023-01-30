@@ -20,7 +20,7 @@
 						<skos:prefLabel xml:lang="en">
 							<xsl:value-of select="*:fo"/>
 						</skos:prefLabel>
-						<skos:exactMatch rdf:resource="{*:geonames}"/>
+						<skos:exactMatch rdf:resource="{*:pleiades}"/>
 						<xsl:if test="*:desc">
 							<skos:note>
 								<xsl:value-of select="*:desc"/>
@@ -33,7 +33,7 @@
 					<xsl:for-each select="//*:place">
 						<pleiades:Place rdf:about="{concat('https://gams.uni-graz.at/o:fercan.places/', position() + 1000)}">
 							<skos:prefLabel xml:lang="en">
-								<xsl:value-of select="*:name"/>
+								<xsl:value-of select="concat('Z ', *:name)"/>
 							</skos:prefLabel>
 							<skos:exactMatch rdf:resource="{*:id}"/>
 						</pleiades:Place>
