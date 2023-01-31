@@ -98,6 +98,7 @@ return
         {teiEditor:displayElement('Editionen', (), (), ())}
         {teiEditor:displayElement('EDH', (), (), ())} 
         {teiEditor:displayElement('ClaussSlaby', (), (), ())}
+        {teiEditor:displayElement('trismegistos', (), (), ())}
         {teiEditor:displayElement('other', (), (), ())}
         <h3>Fund</h3>
         {teiEditor:displayElement('FOantik', (), (), ())}

@@ -486,37 +486,66 @@
             <fieldType>input</fieldType>
         </teiElement>
     </teiElement>
-
-<!-- ClaussSlaby, EDCS -->
-<teiElement>
-    <nm>other</nm>
-    <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="trismegistos"]</xpath>
-    <contentType>nodes</contentType>
-    <cardinality>1</cardinality>
-    <formLabel xml:lang="en">weitere elektronische Ressourcen</formLabel>
-    <fieldType>group</fieldType>
-    <template>
-        <bibl type="trismegistos" default="false" status="draft">$other_id
-            <date instant="false">$other_date</date>
-        </bibl>
-    </template>
+    <!-- trismegistos -->
     <teiElement>
-        <nm>other_id</nm>
-        <xpath>/tei:idno</xpath>
-        <contentType>text</contentType>
+        <nm>trismegistos</nm>
+        <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="trismegistos"]</xpath>
+        <contentType>nodes</contentType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">ID</formLabel>
-        <fieldType>input</fieldType>
+        <formLabel xml:lang="en">weitere elektronische Ressourcen</formLabel>
+        <fieldType>group</fieldType>
+        <template>
+            <bibl type="trismegistos" default="false" status="draft">$trismegistos_id
+                <date instant="false">$trismegistos_date</date>
+            </bibl>
+        </template>
+        <teiElement>
+            <nm>trismegistos_id</nm>
+            <xpath>/tei:idno</xpath>
+            <contentType>text</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">ID</formLabel>
+            <fieldType>input</fieldType>
+        </teiElement>
+        <teiElement>
+            <nm>trismegistos_date</nm>
+            <xpath>/tei:date</xpath>
+            <contentType>text</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Datum</formLabel>
+            <fieldType>input</fieldType>
+        </teiElement>
     </teiElement>
+    <!-- -->
     <teiElement>
-        <nm>other_date</nm>
-        <xpath>/tei:date</xpath>
-        <contentType>text</contentType>
+        <nm>other</nm>
+        <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="other"]</xpath>
+        <contentType>nodes</contentType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Datum</formLabel>
-        <fieldType>input</fieldType>
+        <formLabel xml:lang="en">weitere elektronische Ressourcen</formLabel>
+        <fieldType>group</fieldType>
+        <template>
+            <bibl type="trismegistos" default="false" status="draft">$other_id
+                <date instant="false">$other_date</date>
+            </bibl>
+        </template>
+        <teiElement>
+            <nm>other_id</nm>
+            <xpath>/tei:idno</xpath>
+            <contentType>text</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">ID</formLabel>
+            <fieldType>input</fieldType>
+        </teiElement>
+        <teiElement>
+            <nm>other_date</nm>
+            <xpath>/tei:date</xpath>
+            <contentType>text</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Datum</formLabel>
+            <fieldType>input</fieldType>
+        </teiElement>
     </teiElement>
-</teiElement>
 
     
 
