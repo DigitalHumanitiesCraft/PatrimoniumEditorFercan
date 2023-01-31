@@ -868,7 +868,7 @@ function saveData2( element,
     let pattern_iso_date = /\b0\d{3}$/g;
     let pattern_abbildung = /\w+\.(jpg|png)*$/g;
     let pattern_abbildung_type = /image\/jpeg|image\/png|text\/csv$/g;
-    let pattern_apparatus_criticus_Loc = /^\d+$/g;
+    let pattern_digit_only = /^\d+$/g;
     let pattern_buchstabenhoehe_text = /\d+,\d+–\d+,\d+ cm$/g;
     let pattern_buchstabenhoehe_att = /\d+\.\d+$/g;
     let pattern_pid = /o:fercan.\d+$/g;
@@ -898,8 +898,9 @@ function saveData2( element,
     {
         alert("'" + newValue + "'" + " is not a valid MIME-Type. valid is something like 'image/jpeg'");
     }
-    else if (   elementNickName == 'Appcrit_loc' &&
-                !pattern_apparatus_criticus_Loc.test(newValue))
+    // digit only for "Zeile" and Editionen und Lesungen/ID
+    else if (   (elementNickName  == 'Appcrit_loc' || elementNickName == 'Editionen_id') &&
+                !pattern_digit_only.test(newValue))
     {
         alert("'" + newValue + "'" + " is not valid. valid is something like '1'");
     }
@@ -937,8 +938,10 @@ function saveData2( element,
         {
             newValue = '#MIN.' + newValue + ' ' + '#MAJ.' + newValue;
         }
-        console.log('newValue:');
-        console.log(newValue);
+        if(elementNickName == 'Editionen_id')
+        {
+            newValue = 'LIT.' + newValue ;
+        }
     }
 
        
