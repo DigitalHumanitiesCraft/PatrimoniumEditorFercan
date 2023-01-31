@@ -863,7 +863,7 @@ function saveData2( element,
     // CP: input is not valid at first
     let isInputValid = false;
     let pattern_dimensions = /^[0-9,]*$/g;
-    let pattern_iso_date = /0\d+$/g;
+    let pattern_iso_date = /\b0\d{3}$/g;
     let pattern_abbildung = /\w+\.(jpg|png)*$/g;
     let pattern_abbildung_type = /image\/jpeg|image\/png|text\/csv$/g;
     let pattern_apparatus_criticus_Loc = /\d+$/g;
@@ -871,6 +871,7 @@ function saveData2( element,
     let pattern_buchstabenhoehe_att = /\d+\.\d+$/g;
     let pattern_pid = /o:fercan.\d+$/g;
     let pattern_weihestein = /Weihestein$/g;
+    let pattern_fundjahr = /\b\d{4}$/g;
 
     if((elementNickName == 'Hoehe' || 
         elementNickName == 'Breite' || 
@@ -917,9 +918,14 @@ function saveData2( element,
         }    
     else if (   elementNickName == 'Inschrifttraeger' &&
                 !pattern_weihestein.test(newValue))
-        {
-        alert("'" + newValue + "'" + " is not valid. valid is only 'Weihestein'");
-        }  
+    {
+    alert("'" + newValue + "'" + " is not valid. valid is only 'Weihestein'");
+    } 
+    else if (   elementNickName == 'Fundjahr' &&
+                !pattern_fundjahr.test(newValue))
+    {
+    alert("'" + newValue + "'" + " is not valid. valid is something like '1929'");
+    } 
     else
     {
         isInputValid = true;
