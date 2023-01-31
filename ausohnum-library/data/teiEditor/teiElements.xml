@@ -492,7 +492,7 @@
         <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="trismegistos"]</xpath>
         <contentType>nodes</contentType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">weitere elektronische Ressourcen</formLabel>
+        <formLabel xml:lang="en">Trismegistos</formLabel>
         <fieldType>group</fieldType>
         <template>
             <bibl type="trismegistos" default="false" status="draft">$trismegistos_id
@@ -615,7 +615,7 @@
             <xpath>/@loc</xpath>
             <contentType>attribute</contentType>
             <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Loc</formLabel>
+            <formLabel xml:lang="en">Zeile</formLabel>
             <fieldType>input</fieldType>
         </teiElement>
     </teiElement>

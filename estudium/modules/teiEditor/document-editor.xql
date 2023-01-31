@@ -89,6 +89,7 @@ return
         {teiEditor:displayElement('subTitle', (), (), ())}
         {teiEditor:displayElement('PID', (), (), ())}
         {teiEditor:displayElement('civitas', (), (), ())}
+        <p class="bg-info" style="margin: 10px;">Eingabe für 'Zeile' ist eine Zahl (z. B. 1), die dann zu "#MIN.1 #MAJ.1" erweitert wird.</p>
         {teiEditor:displayElement('Appcrit', (), (), ())}
         <h3>Übersetzung</h3>
         {teiEditor:displayElement('dtUEbers', (), (), ())}
