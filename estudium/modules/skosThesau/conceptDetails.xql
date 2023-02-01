@@ -185,7 +185,7 @@ let $relatedDocuments:=
             <div class="panel-body">
               <ol>
               {
-        for $match in $doc-collection//tei:TEI[.//tei:term[@ref = $conceptUri ]]
+        for $match in $doc-collection//tei:TEI[.//tei:term[@ana = $conceptUri ]]
         return 
             <li>
                 { data($match/@xml:id) } - { $match//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title/text() }<a href="{ $match//tei:publicationStmt/tei:idno[@type="uri"]/text() }" target="about"><i class="glyphicon glyphicon-new-window" /></a></li>

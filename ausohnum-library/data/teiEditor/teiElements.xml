@@ -187,10 +187,25 @@
         <contentType>textNodeAndAttribute</contentType>
         <cardinality>x</cardinality>
         <formLabel xml:lang="en">Archäologische Klassifikation</formLabel>
+        <taxoId/>
+        <fieldType>combobox</fieldType>
+        <thesauDb>internal</thesauDb>
+        <thesauTopConceptURI>https://gams.uni-graz.at/o:fercan.arch#C.100000</thesauTopConceptURI>
+        <attributeValueType>uri</attributeValueType>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    <!--
+    <teiElement>
+        <nm>ArchKlass</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:decoDesc/tei:decoNote/tei:term/@ana</xpath>
+        <contentType>textNodeAndAttribute</contentType>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">Archäologische Klassifikation</formLabel>
         <fieldType>input</fieldType>
         <xpath2ref>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:decoDesc/tei:decoNote/tei:term/tei:ref</xpath2ref>
     </teiElement>
-
+    -->
     <!-- Obj.beschr. -->
     <teiElement>
         <nm>Objbeschr</nm>

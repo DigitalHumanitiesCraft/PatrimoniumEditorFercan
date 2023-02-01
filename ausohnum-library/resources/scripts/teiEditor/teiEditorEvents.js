@@ -1594,7 +1594,7 @@ function removeItemFromList(docId, list, item, index, topConceptId){
         // CP refresh after delete
         setTimeout(function(){
             window.location.reload(1);
-         }, 2500);
+         }, 500);
         
         } else{}
 };

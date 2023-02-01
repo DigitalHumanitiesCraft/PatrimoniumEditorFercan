@@ -143,6 +143,7 @@ return
         {teiEditor:peopleList($teiEditor:docId)}
         -->
         <h3>Abbildungen</h3>
+        <p class="bg-info" style="margin: 10px;">Eingabe für 'MIME-Type': image/jpeg , image/png .</p>
         {teiEditor:displayElement('Abb', (), (), ())}
       </div>
         <div class="col-sm-5 col-md-5 col-lg-5">

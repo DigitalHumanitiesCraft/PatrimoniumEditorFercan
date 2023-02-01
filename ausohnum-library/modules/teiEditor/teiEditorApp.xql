@@ -1800,7 +1800,11 @@ let $inputName := 'selectDropDown' ||$topConceptId
                           </span></span>
                           -->
                           <div id="{$teiElementNickname}_value_{$indexNo}_{$pos}"
-                          title="{normalize-space(string-join($item/string(), ""))} = concept {$item/@ref/string()}" class="teiElementValue">{ $value2Bedisplayed }</div>
+                          title="{normalize-space(string-join($item/string(), ""))} = concept {$item/@ref/string()}" class="teiElementValue">
+                            <!-- CP: changed to only $item 
+                             { $value2Bedisplayed } -->
+                            {$item}
+                          </div>
                           <button id="edit{$teiElementNickname}_{$indexNo}_{$pos}" class="btn btn-primary editbutton pull-right"
                            onclick="editValue('{$teiElementNickname}', '{$indexNo}', '{$pos}')"
                                   appearance="minimal" type="button"><i class="glyphicon glyphicon-edit
@@ -2158,7 +2162,7 @@ declare function teiEditor:displayTeiElementWithThesauInputCardi($teiElementNick
               let $itemPathEnding := if(contains($teiXPath, '/@')) then "/@" || substring-after($teiXPath, '/@')
                                                   else ()
                                                   
-              let $value2Bedisplayed:= 
+              (:let $value2Bedisplayed:= 
                         if (not(contains($contentType, 'text'))) 
                             then (
                                             if (not($attributeValueType) or $attributeValueType="uri") then
@@ -2171,13 +2175,15 @@ declare function teiEditor:displayTeiElementWithThesauInputCardi($teiElementNick
                                     )
                         else if (($contentType ="text") and ($attributeValueType="xml-value") and (not($item[.='']))) then
                        data(util:eval( "collection('" || $teiEditor:concept-collection-path ||"')//skos:Concept[skos:prefLabel[@xml:lang='xml']='" || $item/string() || "']//skos:prefLabel[not(ancestor-or-self::skos:exactMatch)][@xml:lang='en']/text()"))
-                        else if (contains($contentType, "textNodeAndAttribute")) then  $item/text()
+                        else if (contains($contentType, "textNodeAndAttribute")) then $item/text()
 
                         else(
                                $contentType || " " || (if ($attributeValueType) then $attributeValueType
                                                                 else ($item/string())       
                                                                 )           
                                 )
+                :)
+                let $value2Bedisplayed:= "hudriwu1"
               return
               (
               <div class="itemInDisplayElement">
@@ -2187,7 +2193,11 @@ declare function teiEditor:displayTeiElementWithThesauInputCardi($teiElementNick
                           </span></span>
                           -->
                           <div id="{$teiElementNickname}_value_{$indexNo}_{$pos}"
-                          title="{normalize-space(($item[1]/text()))} = concept {$item/@ref/string()}" class="teiElementValue">{ $value2Bedisplayed }</div>
+                          title="{normalize-space(($item[1]/text()))} = concept {$item/@ref/string()}" class="teiElementValue">{ $value2Bedisplayed }
+                          {$item}
+                                                    { "test CP 1"}
+                          
+                          </div>
                           <button id="edit{$teiElementNickname}_{$indexNo}_{$pos}" class="btn btn-primary editbutton pull-right"
                            onclick="editValue('{$teiElementNickname}', '{$indexNo}', '{$pos}')"
                                   appearance="minimal" type="button"><i class="glyphicon glyphicon-edit

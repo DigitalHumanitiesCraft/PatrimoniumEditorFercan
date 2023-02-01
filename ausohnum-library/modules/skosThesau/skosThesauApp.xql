@@ -261,7 +261,7 @@ return
                                         value="{
                                                         if($dataType = '' or $dataType="uri") then
                                                         $child/@rdf:about
-                                                        else $child//skos:prefLabel[@xml:lang="xml"]
+                                                        else $child//skos:prefLabel[1]
                                                      }">{skosThesau:nodesInHTMLUl($nts, (), $child/@type, $lang, "selectDropDown" || $topConceptId, $indexNo, $pos, $dataType)}</a>
                                         else skosThesau:nodesInHTMLUl($nts, (), $child/@type, $lang, 'selectDropDown' || $topConceptId, $indexNo, $pos, $dataType)
                                         }</li>
@@ -709,7 +709,7 @@ declare function skosThesau:nodesInHTMLUl($nodes as element()*,
                         <a  menu="#{$xmlElementNickname}_{$index}_{$pos}" value="{
                               if(not($dataType) or $dataType="uri")
                                         then $ntSkosConcept/@rdf:about
-                                        else $ntSkosConcept//skos:prefLabel[@xml:lang="xml"]}"
+                                        else $ntSkosConcept//skos:prefLabel[1]}"
                                         conceptHierarchyUris="{ string-join(($visited//@rdf:resource, $childnodes//@rdf:resource), " ")  }">{$title 
                                         }{
                                         if ($ntSkosConcept/name() ='skos:Collection')then(concat(' ', '&#62;')) else('')
@@ -728,10 +728,10 @@ declare function skosThesau:nodesInHTMLUl($nodes as element()*,
                     <li><a tabindex="-1" menu="#{$xmlElementNickname}_{$index}_{$pos}" value="{
                     (:switch($dataType)
                         case "uri" return data($ntSkosConcept/@rdf:about)
-                        default return data($ntSkosConcept//skos:prefLabel[@xml:lang="xml"]):)
+                        default return data($ntSkosConcept//skos:prefLabel[1]):)
                         if(not($dataType) or $dataType="uri") then
                             $ntSkosConcept/@rdf:about
-                        else $ntSkosConcept//skos:prefLabel[@xml:lang="xml"]
+                        else $ntSkosConcept//skos:prefLabel[1]
                     }"
                     conceptHierarchyUris="{ string-join(($visited//@rdf:resource, $childnodes//@rdf:resource), " ")  }">{ $title 
                           }</a></li>
@@ -794,7 +794,7 @@ declare function skosThesau:nodesWithConceptHierarchyInHTMLUl($nodes as element(
                         <a  menu="#{$xmlElementNickname}_{$index}_{$pos}" value="a{string-join($visited/@rdf:resource/string(), " ")}b{
                               if(not($dataType) or $dataType="uri")
                                         then $ntSkosConcept/@rdf:about
-                                        else $ntSkosConcept//skos:prefLabel[@xml:lang="xml"]}">{$title 
+                                        else $ntSkosConcept//skos:prefLabel[1]}">{$title 
                                         }{
                                         if ($ntSkosConcept/name() ='skos:Collection')then(concat(' ', '&#62;')) else('')
                                         }<span class="caret"></span></a>
@@ -811,10 +811,10 @@ declare function skosThesau:nodesWithConceptHierarchyInHTMLUl($nodes as element(
                     <li><a tabindex="-1" menu="#{$xmlElementNickname}_{$index}_{$pos}" value="a{string-join($visited/@rdf:resource/string(), " ")}b{
                     (:switch($dataType)
                         case "uri" return data($ntSkosConcept/@rdf:about)
-                        default return data($ntSkosConcept//skos:prefLabel[@xml:lang="xml"]):)
+                        default return data($ntSkosConcept//skos:prefLabel[1]):)
                         if(not($dataType) or $dataType="uri") then
                             $ntSkosConcept/@rdf:about
-                        else $ntSkosConcept//skos:prefLabel[@xml:lang="xml"]
+                        else $ntSkosConcept//skos:prefLabel[1]
                     }">{ $title 
                           }</a></li>
                     )
@@ -3657,8 +3657,8 @@ declare function skosThesau:retrieveDocuments($project as xs:string, $conceptUri
   (: If $start = () then all documents are returned :)
     let $doc-collection := collection("/db/apps/" || $project || "Data/documents")
     let $startSubseq:=if(not(exists($start))) then 1 else $start
-    let $query:= if(not(exists($start))) then $doc-collection//tei:term[@ref = $conceptUri ]|$doc-collection//tei:rs[@ref = $conceptUri ]
-                  else subsequence($doc-collection//tei:term[@ref = $conceptUri ]|$doc-collection//tei:rs[@ref = $conceptUri ], $startSubseq, 20)
+    let $query:= if(not(exists($start))) then $doc-collection//tei:term[@ana = $conceptUri ]|$doc-collection//tei:rs[@ref = $conceptUri ]
+                  else subsequence($doc-collection//tei:term[@ana = $conceptUri ]|$doc-collection//tei:rs[@ref = $conceptUri ], $startSubseq, 20)
    
     return
         <ul>
@@ -3686,7 +3686,7 @@ declare function skosThesau:retrieveDocumentsPanel($project, $conceptUri){
             <div class="panel-body">
               <ol>
               {
-        for $match in $doc-collection//tei:TEI[.//tei:term[@ref = $conceptUri ]]
+        for $match in $doc-collection//tei:TEI[.//tei:term[@ana = $conceptUri ]]
             |$doc-collection//tei:TEI[.//tei:rs[@ref = $conceptUri ]]
         return 
             <li>
