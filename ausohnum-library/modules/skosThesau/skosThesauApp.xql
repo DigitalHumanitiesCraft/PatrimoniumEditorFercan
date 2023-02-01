@@ -65,19 +65,6 @@ declare variable $skosThesau:schemes := doc('/db/apps/' || $skosThesau:thesaurus
 declare variable $skosThesau:langList := string-join($skosThesau:appParam//languages//lang/text(), " "); 
 
 (:
-declare variable $skosThesau:concept-collection := collection('/db/apps/' || $skosThesau:project || '-data/concepts');
-declare variable $skosThesau:concept-backup-collection := collection('/db/apps/' || $skosThesau:project || '-data/backups/concepts');
-declare variable $skosThesau:account-collection := collection('/db/apps/' || $skosThesau:project || '-data/accounts');
-declare variable $skosThesau:logs-collection := collection('/db/apps/' || $skosThesau:project || '-data/logs');
-declare variable $skosThesau:appParam := doc('/db/apps/' || $skosThesau:project || '-data/app-general-parameters.xml');
-declare variable $skosThesau:baseUri := doc('/db/apps/' || $skosThesau:project || '-data/app-general-parameters.xml')//uriBase/text();
-declare variable $skosThesau:thesBaseUri := $skosThesau:baseUri ||'/apc/thesaurus';
-declare variable $skosThesau:conceptBaseUri := $skosThesau:baseUri ||'/apc/concept/';
-declare variable $skosThesau:peopleBaseUri := $skosThesau:baseUri ||'/people/';
-declare variable $skosThesau:schemes := doc('/db/apps/' || $skosThesau:project || '-data/schemes/external-schemes.rdf');
-:)
-
-(:
  :***************************
  :*     BUILDING TREES      *
  :***************************

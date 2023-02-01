@@ -186,8 +186,8 @@ return
           <p></p>
         </div>
         
-        <!--{teiEditor:textPreview($teiEditor:docId, count($teiEditor:teiDoc//tei:div[@type="edition"]))}-->
-        <!--{teiEditor:displayElement('textPartGroup', (), (), ())}-->
+        {teiEditor:textPreview($teiEditor:docId, count($teiEditor:teiDoc//tei:div[@type="edition"]))}
+        {teiEditor:displayElement('textPartGroup', (), (), ())}
         </div>
         </div>
     </div><!-- End of tab -->     
@@ -201,12 +201,15 @@ return
 
     <div class="tab-pane fade in" id="nav-text" role="tabpanel" aria-labelledby="nav-text-tab">
         <div class="row">
+          <!-- CP: removed -->
+          <!--
           <div class="sideToolPane col-sm-2 col-md-2 col-lg-2">
-          <!--{teiEditor:semanticAnnotation("Subject Indexing", "subject", "rs", "c21849") }-->
+          {teiEditor:semanticAnnotation("Subject Indexing", "subject", "rs", "c21849") }
           {teiEditor:annotationPlacePeopleTime()}
           </div>
-          <!-- col-sm-8 col-md-8 col-lg-8  -->
-          <div id="editorPanel" class="col-sm-10 col-md-10 col-lg-10">
+          -->
+          <!-- col-sm-8 col-md-8 col-lg-8 -->
+          <div id="editorPanel" class="col-sm-12 col-md-12 col-lg-12">
             {teiEditor:textEditor($teiEditor:docId, ())}
           </div> 
         </div>
@@ -216,11 +219,8 @@ return
     </div>
     <div class="tab-pane fade in" id="nav-xmlfile" role="tabpanel" aria-labelledby="nav-text-tab">
       {teiEditor:xmlFileEditor()}
-
-
-<!--<div id="xml-editor-file" class="">
-           {serialize($teiEditor:teiDoc, ())}
-
+      <!--<div id="xml-editor-file" class="">
+            {serialize($teiEditor:teiDoc, ())}
            </div>
            -->
     </div>
@@ -230,7 +230,8 @@ return
     </div>
     </div>
     </div>
-{ teiEditor:searchProjectPeopleModal() }
+<!-- CP: removed -->
+<!-- { teiEditor:searchProjectPeopleModal() }-->
 
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
             integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="

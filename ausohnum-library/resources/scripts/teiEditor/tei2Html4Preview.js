@@ -322,6 +322,25 @@ try { xmlDoc = $.parseXML("<root>" + text + "</root>");
                
                });
 
+ //CP: in fercan we have: @reason @unit @quantity           
+ //gap reason lost extent character    First reason and quantity
+ regexGapLost = /<gap reason=\"illegible\" unit=\"character\" quantity=\"([0-9]*)\"\/>/g
+ substGap= "[·· ? ··]"
+ text = text.replace(regexGapLost, function(a, match){
+             number = match;
+/*                console.log("number: " + number);*/
+             
+             var dots="";
+                     for (var i = 0; i < number; i++) {
+                         /*dots = dots.concat("·");*/
+                         dots = dots.concat("+");
+                     }
+                 return "" + dots + "";
+                 
+            //console.log("match = " + match);
+            
+            });              
+
 
                
 //gap reason lost extent character with precision low
