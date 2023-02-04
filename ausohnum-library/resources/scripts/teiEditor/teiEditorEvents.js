@@ -243,6 +243,12 @@ function addData(   element,
                 console.log("newValueTxt: " + newValueTxt);
                 console.log("valueText: " + valueText);
                 console.log("elementInput.text(): " + elementInput.text().trim);
+                console.log("CP: test for add thesaurus concept");
+                // CP does not work:
+                
+                // <ref type="context" target="context:fercan.arch.baum">Baum</ref>
+                //newValue = "&lt;ref type='context' target='context:fercan.arch." + newValue + "'&gt;" + newValue + "&lt;/ref&gt;";
+
    // console.log("value textual value= " + input.text());
         $("body").css("cursor", "wait");
         $("body").css("opacity", "0.5");

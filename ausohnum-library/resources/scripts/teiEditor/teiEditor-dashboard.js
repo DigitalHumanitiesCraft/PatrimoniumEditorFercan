@@ -26,7 +26,7 @@ function openDialog(dialogId, project){
  
   $(".dropdown-menu li a").click(function(){
                 console.log("menu: " + $(this).attr('menu'));
-                console.log("v: " + $(this).attr('value'));
+                console.log("v test: " + $(this).attr('value'));
                 var menu = $(this).attr('menu');
                  $(menu).html($(this).text()  + '<span class="caret"></span>');
                  $(menu).attr('value', $(this).attr('value'));
