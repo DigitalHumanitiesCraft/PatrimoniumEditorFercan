@@ -880,6 +880,8 @@ function saveData2( element,
     let pattern_pid = /o:fercan.\d+$/g;
     let pattern_weihestein = /Weihestein$/g;
     let pattern_fundjahr = /\b\d{4}$/g;
+    let pattern_EDH_id = /\bHD\d+$/g;
+    let pattern_ClaussSlaby_id = /\bEDCS-\d+$/g;
 
     if((elementNickName == 'Hoehe' || 
         elementNickName == 'Breite' || 
@@ -935,6 +937,16 @@ function saveData2( element,
     {
         alert("'" + newValue + "'" + " is not valid. valid is something like '1929'");
     } 
+    else if (   elementNickName == 'EDH_id' &&
+                !pattern_EDH_id.test(newValue))
+    {
+        alert("'" + newValue + "'" + " is not valid. valid is something like 'HD025629'");
+    }
+    else if (   elementNickName == 'ClaussSlaby_id' &&
+                !pattern_ClaussSlaby_id.test(newValue))
+    {
+        alert("'" + newValue + "'" + " is not valid. valid is something like 'EDCS-11202312'");
+    }    
     else
     {
         isInputValid = true;
@@ -3822,8 +3834,10 @@ var table = $('#documentList').DataTable( {
     
 });
 
+
+    // CP: here to chagne event for text preview
      xmlEditorSession.on('change', function(){
-     $("#body").toggleClass('overlap');
+     //$("#body").toggleClass('overlap');
      $("#editionAlert" + no).fadeIn(500);
      $("#changeComment" + no).val("");
      

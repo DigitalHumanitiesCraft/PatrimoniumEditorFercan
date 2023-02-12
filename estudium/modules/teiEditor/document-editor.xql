@@ -146,8 +146,10 @@ return
         <p class="bg-info" style="margin: 10px;">Eingabe für 'MIME-Type': image/jpeg , image/png .</p>
         {teiEditor:displayElement('Abb', (), (), ())}
       </div>
-        <div class="col-sm-5 col-md-5 col-lg-5">
+        <div class="col-sm-5 col-md-5 col-lg-5" style="position: -webkit-sticky; position: sticky; top: 0;">
           <h3>Preview</h3>
+          <p>Um eine Vorschau des Textes zu erhalten, muss im Feld "XML Editor 1" unter "Text annotation" eine Bearbeitung durchführen, um die Vorschau zu aktivieren. </p>
+          
           <!--
           <div id="PID_display_1_1" class="teiElementGroup">
           
@@ -167,28 +169,12 @@ return
           
         </div>
         -->
-        <!-- -->
-        <div id="PID_display_1_1" class="teiElementGroup">
-          <div class="TeiElementGroupHeaderInline">
-            <span class="labelForm">Majuscule
-              <span class="teiInfo">
-                <a title="TEI element: tei:div[@type='edition'][@xml:id='majuscule']">
-                  <i class="glyphicon glyphicon glyphicon-info-sign"></i>
-                </a>
-              </span>
-            </span>
-          </div>
-          <div id="PID_value_1_1" class="teiElementValue" style="">
-            <span>{$teiEditor:teiDoc//tei:div[@type="edition"][@xml:id='majuscule']}</span>
-          </div>
-        </div>
-
+        <!--
         <div id="text_preview" class="row">
           <p></p>
         </div>
-        
+        -->
         {teiEditor:textPreview($teiEditor:docId, count($teiEditor:teiDoc//tei:div[@type="edition"]))}
-        {teiEditor:displayElement('textPartGroup', (), (), ())}
         </div>
         </div>
     </div><!-- End of tab -->     

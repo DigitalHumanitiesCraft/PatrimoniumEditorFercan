@@ -3066,7 +3066,7 @@ declare function teiEditor:textEditor($docId as xs:string, $editorType as xs:str
                         {teiEditor:displaySurface()}
                         -->
                         <div class="previewPane col-xs-6 col-sm-6 col-md-6">
-                            <h4>Preview {teiEditor:previewToolBar($index)}</h4>
+                            <h4>Preview <!-- {teiEditor:previewToolBar($index)} --></h4>
                                 <div id="textPreviewHTML-{$index}" class="textPreviewHTML"/>
                         </div></div>
                         )
@@ -3081,7 +3081,7 @@ declare function teiEditor:textEditor($docId as xs:string, $editorType as xs:str
                         {teiEditor:displaySurface()}
                         -->
                         <div class="previewPane col-xs-12 col-sm-12 col-md-12">
-                            <h4>Preview {teiEditor:previewToolBar($index)}</h4>
+                            <h4>Preview <!-- {teiEditor:previewToolBar($index)}--></h4>
                                 <div id="textPreviewHTML-{$index}" class="textPreviewHTML"/>
                         </div>
                         </div>
@@ -3096,7 +3096,7 @@ declare function teiEditor:textEditor($docId as xs:string, $editorType as xs:str
                                {teiEditor:displaySurface()}
                                -->
                                <div class="previewPane col-xs-6 col-sm-6 col-md-6">
-                                   <h4>Preview {teiEditor:previewToolBar($index)}</h4>
+                                   <h4>Preview <!-- {teiEditor:previewToolBar($index)} --></h4>
                                        <div id="textPreviewHTML-{$index}" class="textPreviewHTML"/>
                                </div>
                         </div>)

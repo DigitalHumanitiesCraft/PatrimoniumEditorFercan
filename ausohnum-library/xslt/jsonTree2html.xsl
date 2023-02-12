@@ -86,7 +86,7 @@
                         </xsl:if>
                     </xsl:attribute>
                     
-                    <em>Select an item  AAAA</em>
+                    <em>Select an item</em>
                     <span class="caret"/>
                 </xsl:element>
                 <ul class="dropdown-menu skosThesauDropDown">
