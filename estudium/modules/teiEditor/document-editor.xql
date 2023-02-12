@@ -91,21 +91,25 @@ return
         {teiEditor:displayElement('civitas', (), (), ())}
         <p class="bg-info" style="margin: 10px;">Eingabe für 'Zeile' ist eine Zahl (z. B. 1), die dann zu "#MIN.1 #MAJ.1" erweitert wird.</p>
         {teiEditor:displayElement('Appcrit', (), (), ())}
-        <h3>Übersetzung</h3>
-        {teiEditor:displayElement('dtUEbers', (), (), ())}
-        {teiEditor:displayElement('englUEbers', (), (), ())}
-        <h3>Autopsie, Editionen, Elektronische Ressourcen</h3>
+        <h3>Autopsie und Editionen</h3>
         {teiEditor:displayElement('Autopsie', (), (), ())}
         {teiEditor:displayElement('Editionen', (), (), ())}
+        <h3>Elektronische Ressourcen</h3>
         {teiEditor:displayElement('EDH', (), (), ())} 
+        {teiEditor:displayElement('Lupa', (), (), ())} 
         {teiEditor:displayElement('ClaussSlaby', (), (), ())}
         {teiEditor:displayElement('trismegistos', (), (), ())}
         {teiEditor:displayElement('other', (), (), ())}
+        <h3>Übersetzungen</h3>
+        {teiEditor:displayElement('dtUEbers', (), (), ())}
+        {teiEditor:displayElement('englUEbers', (), (), ())}
+        <h3>Abbildungen</h3>
+        <p class="bg-info" style="margin: 10px;">Eingabe für 'MIME-Type': image/jpeg , image/png .</p>
+        {teiEditor:displayElement('Abb', (), (), ())}
         <h3>Fund</h3>
         {teiEditor:displayElement('FOantik', (), (), ())}
         {teiEditor:displayElement('FOmodern', (), (), ())}
         {teiEditor:displayElement('Fundstelle', (), (), ())}
-        {teiEditor:displayElement('FSID', (), (), ())}
         {teiEditor:displayElement('Fundumst', (), (), ())}
         {teiEditor:displayElement('Fundjahr', (), (), ())}
         <h3>Verwahrung</h3>
@@ -116,16 +120,19 @@ return
         {teiEditor:displayElement('Inschrifttraeger', (), (), ())}
         {teiEditor:displayElement('Material', (), (), ())}
         {teiEditor:displayElement('ArchKlass', (), (), ())}
-        {teiEditor:displayElement('ErhzustInschr', (), (), ())}
         {teiEditor:displayElement('Objbeschr', (), (), ())}
+        <p class="bg-info" style="margin: 10px;">Auswahl aus: vollständig, weitgehend vollständig, größere Fehlstelle/n, größeres Fragment, kleineres Fragment, unklar, unzusammenhängende Fragmente</p>
         {teiEditor:displayElement('ErhzustObj', (), (), ())}
-        <h4>Maße</h4>
+        <h4>Maße Objekt</h4>
         {teiEditor:displayElement('Hoehe', (), (), ())}
         {teiEditor:displayElement('Breite', (), (), ())}
         {teiEditor:displayElement('Tiefe', (), (), ())}
         {teiEditor:displayElement('MasseKommentar', (), (), ())}
+        <p class="bg-info" style="margin: 10px;"> </p>
         {teiEditor:displayElement('Ikonogr', (), (), ())}
         {teiEditor:displayElement('Inschrtext', (), (), ())}
+        <p class="bg-info" style="margin: 10px;">Auswahl aus: vollständig, weitgehend vollständig, größere Fehlstelle/n, größeres Fragment, kleineres Fragment, unklar, unzusammenhängende Fragmente</p>
+        {teiEditor:displayElement('ErhzustInschr', (), (), ())}
         {teiEditor:displayElement('Schrifttechnik', (), (), ())}
         {teiEditor:displayElement('Buchsthoehe', (), (), ())}
         <h3>Kommentare</h3>
@@ -134,7 +141,7 @@ return
         {teiEditor:displayElement('SonstKomm', (), (), ())}
         <h3>Datierung</h3>
         {teiEditor:displayElement('Datierung', (), (), ())}
-        <h4>Dat. ISO</h4>
+        <h4>Datierung ISO</h4>
         {teiEditor:displayElement('DatISO_notAfter', (), (), ())}
         {teiEditor:displayElement('DatISO_notBefore', (), (), ())}
         <!--
@@ -142,9 +149,6 @@ return
         {teiEditor:placesList($teiEditor:docId)}
         {teiEditor:peopleList($teiEditor:docId)}
         -->
-        <h3>Abbildungen</h3>
-        <p class="bg-info" style="margin: 10px;">Eingabe für 'MIME-Type': image/jpeg , image/png .</p>
-        {teiEditor:displayElement('Abb', (), (), ())}
       </div>
         <div class="col-sm-5 col-md-5 col-lg-5" style="position: -webkit-sticky; position: sticky; top: 0;">
           <h3>Preview</h3>

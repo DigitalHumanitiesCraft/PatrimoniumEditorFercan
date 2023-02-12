@@ -49,9 +49,18 @@
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Civitas</formLabel>
         <xpath2ref/>
-        <comments/>
     </teiElement>
     <!-- FO antik -->
+    <teiElement>
+        <nm>FOantik</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Fundort antik</formLabel>
+        <comments>Fundort antik comment</comments>
+    </teiElement>
+    <!-- 
     <teiElement>
         <nm>FOantik</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName</xpath>
@@ -62,7 +71,17 @@
         <thesauDb>internal</thesauDb>
         <xpath2ref>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName/@ref</xpath2ref>
     </teiElement>
+    -->
     <!-- FO modern -->
+    <teiElement>
+        <nm>FOmodern</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName/tei:ref</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Fundort modern</formLabel>
+    </teiElement>
+    <!--
     <teiElement>
         <nm>FOmodern</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName/tei:ref</xpath>
@@ -73,6 +92,7 @@
         <thesauDb>internal</thesauDb>
         <xpath2GAMSContext>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName</xpath2GAMSContext>
     </teiElement>
+    -->
     <!-- FS ID -->
     <teiElement>
         <nm>FSID</nm>
@@ -81,8 +101,6 @@
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">FS ID (ToDo)</formLabel>
-        <xpath2ref/>
-        <comments/>
     </teiElement>
     <!-- Fundstelle -->
     <teiElement>
@@ -92,19 +110,6 @@
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Fundstelle</formLabel>
-        <xpath2ref/>
-        <comments/>
-    </teiElement>
-    <!-- Fundjahr -->
-    <teiElement>
-        <nm>Fundjahr</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/@when</xpath>
-        <contentType>attribute</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Fundjahr</formLabel>
-        <xpath2ref/>
-        <comments/>
     </teiElement>
     <!-- Fundumst. -->
     <teiElement>
@@ -114,6 +119,17 @@
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Fundumstände</formLabel>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+     <!-- Fundjahr -->
+     <teiElement>
+        <nm>Fundjahr</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/@when</xpath>
+        <contentType>attribute</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Fundjahr</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement>
@@ -128,7 +144,7 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Verwahrung (Ort)</formLabel>
+        <formLabel xml:lang="en">Verwahrort</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement>
@@ -150,7 +166,7 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Inventarnummer</formLabel>
+        <formLabel xml:lang="en">Inv.Nr.</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement>
@@ -213,7 +229,7 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Beschreibung Objekt</formLabel>
+        <formLabel xml:lang="en">Objektbeschreibung</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement>
@@ -281,7 +297,7 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Ikonografie</formLabel>
+        <formLabel xml:lang="en">Ikonographie</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement>
@@ -292,7 +308,7 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Erh.zust. Inschr.</formLabel>
+        <formLabel xml:lang="en">Zustand Inschrift</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement> 
@@ -399,7 +415,7 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Not. var.</formLabel>
+        <formLabel xml:lang="en">Notabilia varia</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement>
@@ -410,7 +426,7 @@
         <contentType>enrichedText</contentType>
         <fieldType>textarea</fieldType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Kommentar Götternamen</formLabel>
+        <formLabel xml:lang="en">Kommentar zu Götternamen</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement> 
@@ -436,7 +452,7 @@
         <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="EDH"]</xpath>
         <contentType>nodes</contentType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Epigraphische Datenbank Heidelberg</formLabel>
+        <formLabel xml:lang="en">EDH</formLabel>
         <fieldType>group</fieldType>
         <template>
             <bibl type="EDH" default="false" status="draft">$EDH_id
@@ -460,24 +476,43 @@
             <fieldType>input</fieldType>
         </teiElement>
     </teiElement>
-
     <!-- Lupa -->
     <teiElement>
         <nm>Lupa</nm>
         <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="lupa"]</xpath>
-        <contentType>text</contentType>
+        <contentType>nodes</contentType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Lupa (ToDo)</formLabel>
-        <fieldType>input</fieldType>
+        <formLabel xml:lang="en">Lupa</formLabel>
+        <fieldType>group</fieldType>
+        <template>
+            <bibl type="lupa" default="false" status="draft">$Lupa_id
+                <date instant="false">$Lupa_date</date>
+            </bibl>
+        </template>
+        <teiElement>
+            <nm>Lupa_id</nm>
+            <xpath>/tei:idno</xpath>
+            <contentType>text</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">ID</formLabel>
+            <fieldType>input</fieldType>
+        </teiElement>
+        <teiElement>
+            <nm>Lupa_date</nm>
+            <xpath>/tei:date</xpath>
+            <contentType>text</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Datum</formLabel>
+            <fieldType>input</fieldType>
+        </teiElement>
     </teiElement>
-    
     <!-- ClaussSlaby, EDCS -->
     <teiElement>
         <nm>ClaussSlaby</nm>
         <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="EDCS"]</xpath>
         <contentType>nodes</contentType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Epigraphik-Datenbank Clauss/Slaby</formLabel>
+        <formLabel xml:lang="en">ClaussSlaby</formLabel>
         <fieldType>group</fieldType>
         <template>
             <bibl type="EDCS" default="false" status="draft">$ClaussSlaby_id
@@ -638,12 +673,22 @@
     <teiElement>
         <nm>Autopsie</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance[@type="observed"][@subtype="autopsied"]</xpath>
+        <contentType>enrichedText</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Autopsie der Inschrift</formLabel>
+        <fieldType>textarea</fieldType>
+    </teiElement>
+    <!-- 
+    <teiElement>
+        <nm>Autopsie</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance[@type="observed"][@subtype="autopsied"]</xpath>
         <contentType>text</contentType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Autopsie</formLabel>
         <fieldType>input</fieldType>
         <comments>Hudriwu</comments>
     </teiElement>
+    -->
     <!-- Editionen, <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1930, Nr.45</bibl> -->
     <teiElement>
         <nm>Editionen</nm>
