@@ -397,19 +397,15 @@
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Tiefe (cm)</formLabel>
-        <xpath2ref/>
-        <comments/>
     </teiElement>
     <!-- Masse Kommentar -->
     <teiElement>
-        <nm>MasseKommentar</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:note[@type='dimensions']</xpath>
+        <nm>MasseKommentar</nm>      
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:note</xpath>
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Maße Kommentar</formLabel>
-        <xpath2ref/>
-        <comments/>
     </teiElement>
         <!-- Masse_note  -->
         <teiElement>

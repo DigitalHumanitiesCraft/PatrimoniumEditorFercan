@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Germania_Inferior" n="">
-	<!--    @xml:id must be URI beyond the project and unique at corpus level, and should include reference to project whenever it is possible-->
-	<!--    @n should be used to specify the source project-->
 	<teiHeader xml:lang="en">
-		<!--@xml:lang should be used so that multilingual metadata on a same document could be compiled from different projects-->
 		<fileDesc>
 			<titleStmt>
 				<title type="full"><title type="main"> </title><title type="sub"> </title></title>
@@ -201,7 +198,7 @@
 				<p/>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
-				<app loc="#MIN.1 #MAJ.1">
+				<app loc="1">
 					<note anchored="true"/>
 				</app>
 			</div>
@@ -234,11 +231,9 @@
 			<note type="Autopsie_note"/> 
 			<note type="Appcrit_note"/>
 			<note type="Abb_note"/>
-	
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
 			<note type="Editionen_note"/>
-			
 			<note type="ErhzustObj_note"/> 
 			<note type="Masse_note"/>
 			<note type="Ikonogr_note"/> 
@@ -251,5 +246,4 @@
 			<note type="Datierung_note"/>
 		</back>
 	</text>
-
 </TEI>

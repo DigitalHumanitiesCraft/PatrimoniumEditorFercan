@@ -450,7 +450,7 @@ let $updateExternalResource :=
     (:CP:)
     let $updatePID:= update replace  util:eval( "doc('" || $doc-collection-path ||"/" || $filename
                     ||"')")/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type="PID"]/text()
-                    with concat('o:fercan.', substring-after($newDocId, 'doc')) 
+                    with concat('o:fercan.', substring-after($newDocId, 'erior')) 
 
   let $updateTitle := update replace  util:eval( "doc('" || $doc-collection-path ||"/" || $filename
                             ||"')")/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title/tei:title[@type="main"]/text()
@@ -714,7 +714,7 @@ let $updateExternalResource :=
     (:CP:)
     let $updatePID:= update replace  util:eval( "doc('" || $doc-collection-path ||"/" || $filename
                     ||"')")/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type="PID"]/text()
-                    with concat('o:fercan.', substring-after($newDocId, 'doc')) 
+                    with concat('o:fercan.', substring-after($newDocId, 'erior')) 
 
 
   let $updateTitle := update replace  util:eval( "doc('" || $doc-collection-path ||"/" || $filename

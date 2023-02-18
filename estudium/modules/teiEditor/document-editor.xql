@@ -60,7 +60,9 @@ return
             <!--<span class="pull-right">{teiEditor:displayEditorLabel("editing_document")} {$teiEditor:docId}</span>
             -->
             </h2>
-            <h4><span class="pastilleLabelBlue pastilleURI">URI</span>{ teiEditor:buildDocumentUri($teiEditor:docId) }</h4>
+            <h4><span class="pastilleLabelBlue pastilleURI">URI</span><span id="uri_pid">{ teiEditor:buildDocumentUri($teiEditor:docId)}</span></h4>
+
+
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                 <li class="nav-item active">
                   <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#nav-metadata" role="tab" aria-controls="pills-home" aria-selected="false">Document overview</a>
@@ -93,7 +95,6 @@ return
         <div class="collapse bg-info" id="civitas_note_collapse">
           {teiEditor:displayElement('civitas_note', (), (), ())}
         </div>
-        <p class="bg-info" style="margin: 10px;">Eingabe für 'Zeile' ist eine Zahl (z. B. 1), die dann zu "#MIN.1 #MAJ.1" erweitert wird.</p>
         {teiEditor:displayElement('Appcrit', (), (), ())}
         <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#Appcrit_note_collapse" aria-expanded="false" aria-controls="Appcrit_note_collapse">Editor's comment</a></p>
         <div class="collapse bg-info" id="Appcrit_note_collapse">

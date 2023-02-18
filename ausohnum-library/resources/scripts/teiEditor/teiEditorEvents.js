@@ -875,7 +875,7 @@ function saveData2( element,
     let pattern_abbildung = /\w+\.(jpg|png)*$/g;
     let pattern_abbildung_type = /image\/jpeg|image\/png|text\/csv$/g;
     let pattern_digit_only = /^\d+$/g;
-    let pattern_buchstabenhoehe_text = /\d+,\d+–\d+,\d+ cm$/g;
+    let pattern_buchstabenhoehe_text = /\d+(,\d+)?–\d+(,\d+)? cm$/g;
     let pattern_buchstabenhoehe_att = /\d+\.\d+$/g;
     let pattern_pid = /o:fercan.\d+$/g;
     let pattern_weihestein = /Weihestein$/g;
@@ -925,7 +925,7 @@ function saveData2( element,
     else if (   elementNickName == 'PID' &&
                 !pattern_pid.test(newValue))
     {
-        alert("'" + newValue + "'" + " is not valid. valid is something like '2.3'");
+        alert("'" + newValue + "'" + " is not valid. valid is something like 'o:fercan.468'");
     }    
     else if (   elementNickName == 'Inschrifttraeger' &&
                 !pattern_weihestein.test(newValue))
@@ -952,14 +952,6 @@ function saveData2( element,
         isInputValid = true;
         // CP:
         // input adaption
-        if(elementNickName == 'Appcrit_loc')
-        {
-            newValue = '#MIN.' + newValue + ' ' + '#MAJ.' + newValue;
-        }
-        if(elementNickName == 'Editionen_id')
-        {
-            newValue = 'LIT.' + newValue ;
-        }
     }
 
        
