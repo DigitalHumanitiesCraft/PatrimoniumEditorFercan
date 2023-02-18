@@ -50,6 +50,16 @@
         <formLabel xml:lang="en">Civitas</formLabel>
         <xpath2ref/>
     </teiElement>
+        <!-- civitas_note -->
+        <teiElement>
+            <nm>civitas_note</nm>
+            <xpath>/tei:text/tei:back/tei:note[@type="civitas_note"]</xpath>
+            <contentType>text</contentType>
+            <fieldType>input</fieldType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Editor's comment</formLabel>
+            <xpath2ref/>
+        </teiElement>
     <!-- FO antik -->
     <teiElement>
         <nm>FOantik</nm>
@@ -60,6 +70,15 @@
         <formLabel xml:lang="en">Fundort antik</formLabel>
         <comments>Fundort antik comment</comments>
     </teiElement>
+                <!-- FOantik_note  -->
+                <teiElement>
+                    <nm>FOantik_note</nm>
+                    <xpath>/tei:text/tei:back/tei:note[@type="FOantik_note"]</xpath>
+                    <contentType>text</contentType>
+                    <fieldType>input</fieldType>
+                    <cardinality>1</cardinality>
+                    <formLabel xml:lang="en">Editor's comment</formLabel>
+                </teiElement>
     <!-- 
     <teiElement>
         <nm>FOantik</nm>
@@ -81,6 +100,15 @@
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Fundort modern</formLabel>
     </teiElement>
+                <!-- FOmodern_note  -->
+                <teiElement>
+                    <nm>FOmodern_note</nm>
+                    <xpath>/tei:text/tei:back/tei:note[@type="FOmodern_note"]</xpath>
+                    <contentType>text</contentType>
+                    <fieldType>input</fieldType>
+                    <cardinality>1</cardinality>
+                    <formLabel xml:lang="en">Editor's comment</formLabel>
+                </teiElement>
     <!--
     <teiElement>
         <nm>FOmodern</nm>
@@ -111,6 +139,15 @@
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Fundstelle</formLabel>
     </teiElement>
+            <!-- Fundstelle_note  -->
+            <teiElement>
+                <nm>Fundstelle_note</nm>
+                <xpath>/tei:text/tei:back/tei:note[@type="Fundstelle_note"]</xpath>
+                <contentType>text</contentType>
+                <fieldType>input</fieldType>
+                <cardinality>1</cardinality>
+                <formLabel xml:lang="en">Editor's comment</formLabel>
+            </teiElement>
     <!-- Fundumst. -->
     <teiElement>
         <nm>Fundumst</nm>
@@ -122,6 +159,15 @@
         <xpath2ref/>
         <comments/>
     </teiElement>
+            <!-- Fundumst_note  -->
+            <teiElement>
+                <nm>Fundumst_note</nm>
+                <xpath>/tei:text/tei:back/tei:note[@type="Fundumst_note"]</xpath>
+                <contentType>text</contentType>
+                <fieldType>input</fieldType>
+                <cardinality>1</cardinality>
+                <formLabel xml:lang="en">Editor's comment</formLabel>
+            </teiElement>
      <!-- Fundjahr -->
      <teiElement>
         <nm>Fundjahr</nm>
@@ -133,6 +179,15 @@
         <xpath2ref/>
         <comments/>
     </teiElement>
+        <!-- Fundjahr_note  -->
+        <teiElement>
+            <nm>Fundjahr_note</nm>
+            <xpath>/tei:text/tei:back/tei:note[@type="Fundjahr_note"]</xpath>
+            <contentType>text</contentType>
+            <fieldType>input</fieldType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Editor's comment</formLabel>
+        </teiElement>
 
     <!-- /// -->
     <!-- Lokalisierung -->
@@ -148,6 +203,15 @@
         <xpath2ref/>
         <comments/>
     </teiElement>
+           <!-- VerwahrortOrt_note  -->
+           <teiElement>
+            <nm>VerwahrortOrt_note</nm>
+            <xpath>/tei:text/tei:back/tei:note[@type="VerwahrortOrt_note"]</xpath>
+            <contentType>text</contentType>
+            <fieldType>input</fieldType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Editor's comment</formLabel>
+        </teiElement>
     <!-- Verwahrort Institution -->
     <teiElement>
         <nm>VerwahrortInstitution</nm>
@@ -156,8 +220,6 @@
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Verwahrung (Institution)</formLabel>
-        <xpath2ref/>
-        <comments/>
     </teiElement>
     <!-- Verwahrort Institution -->
     <teiElement>
@@ -170,6 +232,15 @@
         <xpath2ref/>
         <comments/>
     </teiElement>
+            <!-- InvNr_note  -->
+            <teiElement>
+            <nm>InvNr_note</nm>
+            <xpath>/tei:text/tei:back/tei:note[@type="InvNr_note"]</xpath>
+            <contentType>text</contentType>
+            <fieldType>input</fieldType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Editor's comment</formLabel>
+        </teiElement>
 
     <!-- /// -->
     <!-- Objektbeschreibung -->
@@ -185,6 +256,16 @@
         <xpath2ref/>
         <comments/>
     </teiElement>
+        <!-- Inschrifttraeger_note  -->
+        <teiElement>
+            <nm>Inschrifttraeger_note</nm>
+            <xpath>/tei:text/tei:back/tei:note[@type="Inschrifttraeger_note"]</xpath>
+            <contentType>text</contentType>
+            <fieldType>input</fieldType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Editor's comment</formLabel>
+            <xpath2ref/>
+        </teiElement>
     <!-- Material -->
     <teiElement>
         <nm>Material</nm>
@@ -196,6 +277,16 @@
         <xpath2ref/>
         <comments/>
     </teiElement>
+            <!-- Material_note  -->
+            <teiElement>
+                <nm>Material_note</nm>
+                <xpath>/tei:text/tei:back/tei:note[@type="Material_note"]</xpath>
+                <contentType>text</contentType>
+                <fieldType>input</fieldType>
+                <cardinality>1</cardinality>
+                <formLabel xml:lang="en">Editor's comment</formLabel>
+                <xpath2ref/>
+            </teiElement>
     <!-- Arch. Klass. -->
     <teiElement>
         <nm>ArchKlass</nm>
@@ -211,6 +302,16 @@
         <xpath2ref/>
         <comments/>
     </teiElement>
+        <!-- ArchKlass_note  -->
+        <teiElement>
+            <nm>ArchKlass_note</nm>
+            <xpath>/tei:text/tei:back/tei:note[@type="ArchKlass_note"]</xpath>
+            <contentType>text</contentType>
+            <fieldType>input</fieldType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Editor's comment</formLabel>
+            <xpath2ref/>
+        </teiElement>
     <!--
     <teiElement>
         <nm>ArchKlass</nm>
@@ -233,6 +334,16 @@
         <xpath2ref/>
         <comments/>
     </teiElement>
+            <!-- Objbeschr_note  -->
+            <teiElement>
+                <nm>Objbeschr_note</nm>
+                <xpath>/tei:text/tei:back/tei:note[@type="Objbeschr_note"]</xpath>
+                <contentType>text</contentType>
+                <fieldType>input</fieldType>
+                <cardinality>1</cardinality>
+                <formLabel xml:lang="en">Editor's comment</formLabel>
+                <xpath2ref/>
+            </teiElement>
     <!-- Erh.zust. Obj. -->
     <teiElement>
         <nm>ErhzustObj</nm>
@@ -244,6 +355,16 @@
         <xpath2ref/>
         <comments/>
     </teiElement>
+            <!-- ErhzustObj_note  -->
+            <teiElement>
+                <nm>ErhzustObj_note</nm>
+                <xpath>/tei:text/tei:back/tei:note[@type="ErhzustObj_note"]</xpath>
+                <contentType>text</contentType>
+                <fieldType>input</fieldType>
+                <cardinality>1</cardinality>
+                <formLabel xml:lang="en">Editor's comment</formLabel>
+                <xpath2ref/>
+            </teiElement>
     <!-- //// -->
     <!-- Maße-->
     <!-- Höhe -->
@@ -290,6 +411,16 @@
         <xpath2ref/>
         <comments/>
     </teiElement>
+        <!-- Masse_note  -->
+        <teiElement>
+            <nm>Masse_note</nm>
+            <xpath>/tei:text/tei:back/tei:note[@type="Masse_note"]</xpath>
+            <contentType>text</contentType>
+            <fieldType>input</fieldType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Editor's comment</formLabel>
+            <xpath2ref/>
+        </teiElement>
     <!-- Ikonogr. -->
     <teiElement>
         <nm>Ikonogr</nm>
@@ -301,6 +432,16 @@
         <xpath2ref/>
         <comments/>
     </teiElement>
+        <!-- Ikonogr_note  -->
+        <teiElement>
+            <nm>Ikonogr_note</nm>
+            <xpath>/tei:text/tei:back/tei:note[@type="Ikonogr_note"]</xpath>
+            <contentType>text</contentType>
+            <fieldType>input</fieldType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Editor's comment</formLabel>
+            <xpath2ref/>
+        </teiElement>
     <!-- Erh.zust. Inschr. -->
     <teiElement>
         <nm>ErhzustInschr</nm>
@@ -312,6 +453,16 @@
         <xpath2ref/>
         <comments/>
     </teiElement> 
+        <!-- ErhzustInschr_note  -->
+        <teiElement>
+            <nm>ErhzustInschr_note</nm>
+            <xpath>/tei:text/tei:back/tei:note[@type="ErhzustInschr_note"]</xpath>
+            <contentType>text</contentType>
+            <fieldType>input</fieldType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Editor's comment</formLabel>
+            <xpath2ref/>
+        </teiElement>
     <!-- Schrifttechnik, <handNote><desc type="execution">gemeißelt</desc>-->
     <teiElement>
         <nm>Schrifttechnik</nm>
@@ -322,7 +473,17 @@
         <formLabel xml:lang="en">Schrifttechnik</formLabel>
         <xpath2ref/>
         <comments/>
-    </teiElement>   
+    </teiElement>
+        <!-- Schrifttechnik_note  -->
+        <teiElement>
+            <nm>Schrifttechnik_note</nm>
+            <xpath>/tei:text/tei:back/tei:note[@type="Schrifttechnik_note"]</xpath>
+            <contentType>text</contentType>
+            <fieldType>input</fieldType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Editor's comment</formLabel>
+            <xpath2ref/>
+        </teiElement>      
     <!-- Buchst.hoehe, <handNote><desc type="execution">gemeißelt</desc><height unit="cm" atLeast="2.3" atMost="5.1">2,3–5,1 cm</height></handNote> -->
     <teiElement>
         <nm>Buchsthoehe</nm>
@@ -358,7 +519,17 @@
             <formLabel xml:lang="en">atMost</formLabel>
             <fieldType>input</fieldType>
         </teiElement>
-    </teiElement>   
+    </teiElement>
+    	<!-- Buchsthoehe_note  -->
+        <teiElement>
+            <nm>Buchsthoehe_note</nm>
+            <xpath>/tei:text/tei:back/tei:note[@type="Buchsthoehe_note"]</xpath>
+            <contentType>text</contentType>
+            <fieldType>input</fieldType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Editor's comment</formLabel>
+            <xpath2ref/>
+        </teiElement>   
     <!-- Inschr.text -->
     <teiElement>
         <nm>Inschrtext</nm>
@@ -369,7 +540,17 @@
         <formLabel xml:lang="en">Inschrift</formLabel>
         <xpath2ref/>
         <comments/>
-    </teiElement>   
+    </teiElement>
+    	<!-- Inschrtext_note  -->
+        <teiElement>
+            <nm>Inschrtext_note</nm>
+            <xpath>/tei:text/tei:back/tei:note[@type="Inschrtext_note"]</xpath>
+            <contentType>text</contentType>
+            <fieldType>input</fieldType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Editor's comment</formLabel>
+            <xpath2ref/>
+        </teiElement>   
 
     <!-- /// -->
     <!-- Datierung -->
@@ -383,6 +564,16 @@
         <xpath2ref/>
         <comments/>
     </teiElement>
+    	<!-- Datierung_note  -->
+        <teiElement>
+            <nm>Datierung_note</nm>
+            <xpath>/tei:text/tei:back/tei:note[@type="Datierung_note"]</xpath>
+            <contentType>text</contentType>
+            <fieldType>input</fieldType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Editor's comment</formLabel>
+            <xpath2ref/>
+        </teiElement>
     <!-- Dat. ISO --> 
     <!-- notBefore -->
     <teiElement>
@@ -419,6 +610,16 @@
         <xpath2ref/>
         <comments/>
     </teiElement>
+            <!-- Notvar_note  -->
+            <teiElement>
+                <nm>Notvar_note</nm>
+                <xpath>/tei:text/tei:back/tei:note[@type="Notvar_note"]</xpath>
+                <contentType>text</contentType>
+                <fieldType>input</fieldType>
+                <cardinality>1</cardinality>
+                <formLabel xml:lang="en">Editor's comment</formLabel>
+                <xpath2ref/>
+            </teiElement>  
     <!-- Komm. Göttern. -->
     <teiElement>
         <nm>KommGoettern</nm>
@@ -429,7 +630,7 @@
         <formLabel xml:lang="en">Kommentar zu Götternamen</formLabel>
         <xpath2ref/>
         <comments/>
-    </teiElement> 
+    </teiElement>
     <!-- Sonst. Komm. -->
     <teiElement>
         <nm>SonstKomm</nm>
@@ -440,7 +641,17 @@
         <formLabel xml:lang="en">Kommentar allgemein</formLabel>
         <xpath2ref/>
         <comments/>
-    </teiElement> 
+    </teiElement>
+    	<!-- _note  -->
+        <teiElement>
+            <nm>SonstKomm_note</nm>
+            <xpath>/tei:text/tei:back/tei:note[@type="SonstKomm_note"]</xpath>
+            <contentType>text</contentType>
+            <fieldType>input</fieldType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Editor's comment</formLabel>
+            <xpath2ref/>
+        </teiElement> 
 
     <!-- /// -->
     <!-- Elektronische Ressourcen -->
@@ -641,6 +852,16 @@
             <fieldType>input</fieldType>
         </teiElement>
     </teiElement>
+        <!-- Abb_note_note  -->
+        <teiElement>
+            <nm>Abb_note</nm>
+            <xpath>/tei:text/tei:back/tei:note[@type="Abb_note"]</xpath>
+            <contentType>text</contentType>
+            <fieldType>input</fieldType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Editor's comment</formLabel>
+            <xpath2ref/>
+        </teiElement>
     <!-- App. crit. -->
     <teiElement>
         <nm>Appcrit</nm>
@@ -650,10 +871,10 @@
         <formLabel xml:lang="en">Apparatus criticus</formLabel>
         <fieldType>group</fieldType>
         <template>
-            <app loc="$Appcrit_loc"><note anchored="true">$Appcrit_note</note></app>
+            <app loc="$Appcrit_loc"><note anchored="true">$Appcrit_anmerkung</note></app>
         </template>
         <teiElement>
-            <nm>Appcrit_note</nm>
+            <nm>Appcrit_anmerkung</nm>
             <xpath>/tei:note</xpath>
             <contentType>text</contentType>
             <cardinality>1</cardinality>
@@ -669,6 +890,16 @@
             <fieldType>input</fieldType>
         </teiElement>
     </teiElement>
+        <!-- Appcrit_note  -->
+        <teiElement>
+            <nm>Appcrit_note</nm>
+            <xpath>/tei:text/tei:back/tei:note[@type="Appcrit_note"]</xpath>
+            <contentType>text</contentType>
+            <fieldType>input</fieldType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Editor's comment s</formLabel>
+            <xpath2ref/>
+        </teiElement>
     <!-- Autopsie -->
     <teiElement>
         <nm>Autopsie</nm>
@@ -678,6 +909,16 @@
         <formLabel xml:lang="en">Autopsie der Inschrift</formLabel>
         <fieldType>textarea</fieldType>
     </teiElement>
+        <!-- Autopsie_note  -->
+        <teiElement>
+            <nm>Autopsie_note</nm>
+            <xpath>/tei:text/tei:back/tei:note[@type="Autopsie_note"]</xpath>
+            <contentType>text</contentType>
+            <fieldType>input</fieldType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Editor's comment</formLabel>
+            <xpath2ref/>
+        </teiElement>
     <!-- 
     <teiElement>
         <nm>Autopsie</nm>
@@ -717,6 +958,16 @@
             <fieldType>input</fieldType>
         </teiElement>
     </teiElement>
+        <!-- Editionen_note  -->
+        <teiElement>
+            <nm>Editionen_note</nm>
+            <xpath>/tei:text/tei:back/tei:note[@type="Editionen_note"]</xpath>
+            <contentType>text</contentType>
+            <fieldType>input</fieldType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Editor's comment</formLabel>
+            <xpath2ref/>
+        </teiElement>
 
     <!-- /// -->
     <!-- Übersetzungen -->
@@ -731,7 +982,17 @@
         <formLabel xml:lang="en">Übersetzung Deutsch</formLabel>
         <comments>Hudriwu</comments>
     </teiElement>
-    <!-- dtUEbers -->
+        <!-- dtUEbers_note  -->
+        <teiElement>
+            <nm>dtUEbers_note</nm>
+            <xpath>/tei:text/tei:back/tei:note[@type="dtUEbers_note"]</xpath>
+            <contentType>text</contentType>
+            <fieldType>input</fieldType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Editor's comment</formLabel>
+            <xpath2ref/>
+        </teiElement>
+    <!-- englUEbers -->
     <teiElement>
         <nm>englUEbers</nm>
         <xpath>/tei:text/tei:body/tei:div[@type="translation"][@xml:lang="en"]/tei:p</xpath>
@@ -740,9 +1001,16 @@
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Übersetzung Englisch</formLabel>
     </teiElement>
-    
-
-
+        <!-- englUEbers_note  -->
+        <teiElement>
+            <nm>englUEbers_note</nm>
+            <xpath>/tei:text/tei:back/tei:note[@type="englUEbers_note"]</xpath>
+            <contentType>text</contentType>
+            <fieldType>input</fieldType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Editor's comment</formLabel>
+            <xpath2ref/>
+        </teiElement>
     <!-- -->
     <teiElement>
         <nm>docEditionStmt</nm>
