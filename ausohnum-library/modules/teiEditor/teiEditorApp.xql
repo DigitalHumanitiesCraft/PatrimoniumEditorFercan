@@ -3169,7 +3169,7 @@ declare function teiEditor:textPreview($docId as xs:string){
     <div id="test"/>
                 <div class="textpartPane" id="editionPane-9999">
                     <div class="previewPane">
-                            <h4>Text Preview {teiEditor:previewToolBar(9999)}</h4>
+                            <h4>Text Preview</h4>
 
                             <div id="textPreviewHTML-9999" class="textPreviewHTMLOverview"/>
                         </div>    
@@ -3185,7 +3185,7 @@ declare function teiEditor:textPreview($docId as xs:string, $numberOfTextparts a
         <div id="test"/>
         <div class="textpartPane" id="editionPane-9999">
             <div class="previewPane">
-                <h4>Text Preview {teiEditor:previewToolBar(9999)}</h4>
+                <h4>Text Preview</h4>
                 {if($numberOfTextparts > 12) then <h5>⚠ Only 12 on a total of { $numberOfTextparts } textparts are displayed ⚠</h5> else ()}
                 <div id="textPreviewHTML-9999" class="textPreviewHTMLOverview"/>
             </div>      
@@ -3253,7 +3253,7 @@ declare function teiEditor:textPreviewMulti($docId as xs:string){
                     </h3>
                     {if(count($teiDoc//tei:div[@type='edition']) > 12) then <h5>Only 12 on a total of {count($teiDoc//tei:div[@type='edition'])} textparts are displayed</h5> else ()}
                     <div class="previewPane">
-                            <h4>Text Preview {teiEditor:previewToolBar(9999)}</h4>
+                            <h4>Text Preview</h4>
 {if(count($teiDoc//tei:div[@type='edition']) > 12) then <h5>Only 12 on a total of {count($teiDoc//tei:div[@type='edition'])} textparts are displayed</h5> else ("r")}
                             <div id="textPreviewHTML-9999" class="textPreviewHTMLOverview"/>
                         </div>    

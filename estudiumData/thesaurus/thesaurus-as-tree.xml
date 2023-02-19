@@ -51,10 +51,13 @@
 				>https://ausohnum.huma-num.fr/concept/c24476</topConceptUri>
 			<topConceptUri status="published"
 				>https://ausohnum.huma-num.fr/concept/c24110</topConceptUri>
+				<!-- arch klassifikation -->
 			<topConceptUri status="published"
 				>https://ausohnum.huma-num.fr/concept/c23775</topConceptUri>
+				<!-- civitas-->
 			<topConceptUri status="draft"
 				>https://ausohnum.huma-num.fr/concept/c26554</topConceptUri>
+				<!-- Zustand Objekt, Zustand Inschrift -->
 			<topConceptUri status="draft"
 				>https://ausohnum.huma-num.fr/concept/c26467</topConceptUri>
 		</topConceptsUris>
@@ -67,6 +70,92 @@
 				<isFolder>true</isFolder>
 				<orderedCollection json:literal="true">true</orderedCollection>
 				<lang>en</lang>
+				<!-- Zustand Objekt, Zustand Inschrift  -->
+				<children json:array="true" status="published" type="collectionItem" groups="">
+					<title>Zustand</title>
+					<id>c23775</id>
+					<uri>https://ausohnum.huma-num.fr/concept/c26467</uri>
+					<key>c23775</key>
+					<xmlValue/>
+					<lang>en</lang>
+					<isFolder>true</isFolder>
+					<!-- CP: here add concepts for "Zustand" -->
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>vollständig</title>
+						<id>vollständig</id>
+						<uri>vollständig</uri>
+						<key>vollständig</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>weitgehend vollständig</title>
+						<id>weitgehend vollständig</id>
+						<uri>weitgehend vollständig</uri>
+						<key>weitgehend vollständig</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>größere Fehlstelle/n</title>
+						<id>größere Fehlstelle/n</id>
+						<uri>größere Fehlstelle/n</uri>
+						<key>größere Fehlstelle/n</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>größeres Fragment</title>
+						<id>größeres Fragment</id>
+						<uri>größeres Fragment</uri>
+						<key>größeres Fragment</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>kleineres Fragment</title>
+						<id>kleineres Fragment</id>
+						<uri>kleineres Fragment</uri>
+						<key>kleineres Fragment</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>unklar</title>
+						<id>unklar</id>
+						<uri>unklar</uri>
+						<key>unklar</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>unzusammenhängende Fragmente</title>
+						<id>unzusammenhängende Fragmente</id>
+						<uri>unzusammenhängende Fragmente</uri>
+						<key>unzusammenhängende Fragmente</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+				</children>
+				<!-- CIVITAS -->
+				<children json:array="true" status="published" type="collectionItem" groups="">
+					<title>Civitas</title>
+					<id>c23775</id>
+					<uri>https://ausohnum.huma-num.fr/concept/c26554</uri>
+					<key>c23775</key>
+					<xmlValue/>
+					<lang>en</lang>
+					<isFolder>true</isFolder>
+					<!-- CP: here add all civitas -->
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>CCAA</title>
+						<id>CCAA</id>
+						<uri>CCAA</uri>
+						<key>CCAA</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+				</children>
 				<children json:array="true" status="published" type="collectionItem" groups="">
 					<title>＜ EAGLE Vocabulary - Dating Criteria ＞</title>
 					<id>c23775</id>

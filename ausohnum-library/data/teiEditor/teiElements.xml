@@ -40,16 +40,18 @@
     <!-- /// -->
     <!-- Fund -->
 
-    <!-- civitas -->
     <teiElement>
         <nm>civitas</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:region</xpath>
         <contentType>text</contentType>
-        <fieldType>input</fieldType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Civitas</formLabel>
-        <xpath2ref/>
+        <fieldType>combobox</fieldType>
+        <thesauDb>internal</thesauDb>
+        <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c26554</thesauTopConceptURI>
     </teiElement>
+
+
         <!-- civitas_note -->
         <teiElement>
             <nm>civitas_note</nm>
@@ -349,11 +351,11 @@
         <nm>ErhzustObj</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:condition/tei:ref</xpath>
         <contentType>text</contentType>
-        <fieldType>input</fieldType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Zustand Objekt</formLabel>
-        <xpath2ref/>
-        <comments/>
+        <fieldType>combobox</fieldType>
+        <thesauDb>internal</thesauDb>
+        <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c26467</thesauTopConceptURI>
     </teiElement>
             <!-- ErhzustObj_note  -->
             <teiElement>
@@ -443,12 +445,12 @@
         <nm>ErhzustInschr</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:layoutDesc/tei:layout/tei:note</xpath>
         <contentType>text</contentType>
-        <fieldType>input</fieldType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Zustand Inschrift</formLabel>
-        <xpath2ref/>
-        <comments/>
-    </teiElement> 
+        <fieldType>combobox</fieldType>
+        <thesauDb>internal</thesauDb>
+        <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c26467</thesauTopConceptURI>
+    </teiElement>
         <!-- ErhzustInschr_note  -->
         <teiElement>
             <nm>ErhzustInschr_note</nm>
