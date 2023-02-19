@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns="http://www.tei-c.org/ns/1.0"
 	exclude-result-prefixes="#all"
 	version="2.0">
-	
-	
-	<xsl:template match="/">
-		<xsl:apply-templates/>
-	</xsl:template>
 	
 	<!-- --> 
 	<xsl:template match="@*|node()">
@@ -31,13 +27,35 @@
 		</bibl>
 	</xsl:template>
 	
-	<!-- data cleaning -->
-	<xsl:template match="text()">
-		<xsl:value-of select="normalize-space(.)"/>
+	<xsl:template match="*:TEI/*:text/*:body/*:div[@xml:id='majuscule']/*:ab[not(*:orig)]">
+		<xsl:copy>
+			<orig>
+				<xsl:apply-templates/>
+			</orig>
+		</xsl:copy>
 	</xsl:template>
 	
-	<!-- remove all elements with empty textfield and none attribtue; and not <br>  -->
-	<xsl:template match="*[not(text()) and not(@*) and local-name() != 'br']"/>
+	<!-- lb xml:id MIN. -->
+	<xsl:template match="*:TEI/*:text/*:body/*:div[@xml:id='minuscule']/*:ab/*:lb">
+		<lb n="{@n}" xml:id="{concat('MIN.', @n)}"/>
+	</xsl:template>
+	
+	<!-- lb xml:id MAJ. -->
+	<xsl:template match="*:TEI/*:text/*:body/*:div[@xml:id='majuscule']/*:ab/*:lb">
+		<lb n="{@n}" xml:id="{concat('MAJ.', @n)}"/>
+	</xsl:template>
+	
+	<xsl:template match="*:i"/>
+	
+	<!-- add <ref type="context" target="context:fercan.arch.fragment">Fragment</ref> -->
+	<xsl:template match="/*:TEI/*:teiHeader/*:fileDesc/*:sourceDesc/*:msDesc/*:physDesc/*:decoDesc/*:decoNote/*:term">
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<ref type="context" target="{concat( 'context:fercan.arch.', translate(lower-case(normalize-space(text())), ' ', '') )}">
+				<xsl:apply-templates/>	
+			</ref>
+		</xsl:copy>
+	</xsl:template>
 	
 	<!-- skip all Editors's comments in back/note -->
 	<xsl:template match="*:back"/>
@@ -47,9 +65,7 @@
 	<xsl:template match="@notAfter"/>
 	
 	<!-- fix <p> in <p> -->
-	<xsl:template match="*:p/*:p">
-		<xsl:apply-templates/>
-	</xsl:template>
+	<xsl:template match="*:p/*:p"><xsl:apply-templates/></xsl:template>
 	
 	<!-- remove all comments -->
 	<xsl:template match="comment()"/>

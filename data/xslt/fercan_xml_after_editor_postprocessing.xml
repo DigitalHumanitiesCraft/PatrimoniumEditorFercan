@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="inferior467" n="">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="inferior467" n="">
+	
+	
 	<teiHeader xml:lang="en">
+		
 		<fileDesc>
 			<titleStmt>
-				<title type="full"><title type="main">Caiva</title><title type="sub"
-					>CF-GeS-071</title></title>
+				<title type="full"> <title type="main">Caiva</title> <title type="sub">CF-GeS-071</title> </title>
 				<respStmt>
 					<resp>Inschriftenedition</resp>
-					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+					<persName> <forename>Werner</forename> <surname>Petermandl</surname> </persName>
 				</respStmt>
 				<respStmt>
 					<resp>Archäologische Beschreibung und geografische Daten</resp>
-					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+					<persName> <forename>Astrid</forename> <surname>Schmölzer</surname> </persName>
 				</respStmt>
 				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
 			</titleStmt>
 			<publicationStmt>
-				<publisher><link target="https://antike.uni-graz.at"/><orgName
-					ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
-					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
-				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName
-					ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
-					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
-					Graz</orgName></authority>
-				<distributor><link target="https://gams.uni-graz.at"/><orgName>GAMS -
-					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<publisher> <link target="https://antike.uni-graz.at"/> <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike,
+					Fachbereich Alte Geschichte und Epigraphik, Karl-Franzens-Universität
+					Graz</orgName> </publisher>
+				<authority> <link target="https://informationsmodellierung.uni-graz.at"/> <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+					Informationsmodellierung - Austrian Centre for Digital Humanities,
+					Karl-Franzens-Universität Graz</orgName> </authority>
+				<distributor> <link target="https://gams.uni-graz.at"/> <orgName>GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName> </distributor>
 				<date when="2022">2022</date>
 				<pubPlace>Graz</pubPlace>
 				<idno type="PID">o:fercan.467</idno>
@@ -38,78 +38,71 @@
 					Celticarum Antiquarum</title>
 				<respStmt>
 					<resp>Projektleitung</resp>
-					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+					<persName> <forename>Wolfgang</forename> <surname>Spickermann</surname> </persName>
 				</respStmt>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
+						<settlement/>
 						<repository>Trier, Rheinisches Landesmuseum</repository>
+						<idno/>
 					</msIdentifier>
-					<msContents/>
+					<msContents>
+						<summary/>
+					</msContents>
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support><p>sdsdsd</p><material><ref type="context"
-									target="context:fercan.material."
-									ana="https://gams.uni-graz.at/o:fercan.arch"
-									>Ton</ref></material><objectType>Weihestein</objectType><dimensions>
+								<support> <p>sdsdsd</p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch">Ton</ref>
+									</material> <objectType>Weihestein</objectType> <dimensions>
 									<height unit="cm">10,0</height>
 									<width unit="cm">10,0</width>
 									<depth unit="cm">10,0</depth>
-									</dimensions><note type="dimensions"/></support>
-								<condition><ref type="context" target="context:fercan.condition"
-									ana="https://gams.uni-graz.at/o:fercan.arch#">weitgehend
-									vollständig</ref></condition>
+									</dimensions> <note type="dimensions"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#">weitgehend
+									vollständig</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout><p>Das ist A ohne Querhaste geschrieben (EDH</p><note
-									type="condition">weitgehend vollständig</note></layout>
+								<layout> <p>Das ist A ohne Querhaste geschrieben (EDH</p> <note type="condition">weitgehend vollständig</note>
+								</layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote><desc type="execution">geritzt</desc><height unit="cm"
-								atLeast="0" atMost="0"/></handNote>
+							<handNote> <desc type="execution">geritzt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote><p>sdsd</p><term
-								ana="https://gams.uni-graz.at/o:fercan.arch#C.100000">Funktionale
-								Beschreibung</term><term
-								ana="https://gams.uni-graz.at/o:fercan.arch#C.110100"
-								>Schmuckgegenstand</term><term
-								ana="https://gams.uni-graz.at/o:fercan.arch#C.110000"
-								>Inschriftenträger</term><term
-								ana="https://gams.uni-graz.at/o:fercan.arch#C.130100"
-								>Abschrift</term></decoNote>
+							<decoNote> <p>sdsd</p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.100000"><ref type="context" target="context:fercan.arch.funktionalebeschreibung">Funktionale
+								Beschreibung</ref></term> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.110100"><ref type="context" target="context:fercan.arch.schmuckgegenstand">Schmuckgegenstand</ref></term> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.110000"><ref type="context" target="context:fercan.arch.inschriftenträger">Inschriftenträger</ref></term> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130100"><ref type="context" target="context:fercan.arch.abschrift">Abschrift</ref></term> </decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin><origPlace><placeName>test</placeName><region>TEST</region></origPlace><origDate>EDH:
-							171 AD – 270 AD</origDate></origin>
-						<provenance type="found" when="1857"><placeName><ref type="context"
-							target="context:fercan.geog.modern."
-							>Büdesheim</ref></placeName><p>Straße nach Wallersheim</p><location>
+						<origin> <origPlace> <placeName>test</placeName>
+							<region>TEST</region> </origPlace> <origDate> EDH: 171 AD – 270 AD</origDate> </origin>
+						<provenance type="found" when="1857"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Büdesheim</ref>
+							</placeName> <p>Straße nach Wallersheim</p> <location>
 							<geo decls="#WGS"/>
-							</location><note/></provenance>
-						<provenance type="observed" subtype="autopsied"><p part="N">non
-							vidimus<lb/>Lesung gründet auf: EDH</p></provenance>
+							</location> <note/> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>non vidimus<lb/>Lesung
+							gründet auf: EDH</p></provenance>
 					</history>
 				</msDesc>
 				<listPlace>
+					<place/>
 					<place type="antique_term">
-						<placeName><ref type="context" target="context:fercan.geog.term."
-							/></placeName>
+						<placeName> <ref type="context" target="context:fercan.geog.term."/> </placeName>
 					</place>
 				</listPlace>
 				<listPerson>
 					<person>
-						<persName type="gentilnomen"><ref type="context"
-							target="context:fercan.person."/></persName>
+						<persName type="gentilnomen"> <ref type="context" target="context:fercan.person."/> </persName>
 					</person>
 				</listPerson>
 				<listOrg>
+					<org/>
 					<org type="military_unit">
-						<orgName><ref type="context" target="context:fercan.org."/></orgName>
+						<orgName> <ref type="context" target="context:fercan.org."/>
+						</orgName>
 					</org>
 				</listOrg>
 			</sourceDesc>
@@ -136,11 +129,11 @@
 					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
 					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
 					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
-					Provinzialreligion in Niedergermanien beigetragen werden.Die
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
 					Abschlusspublikation wird ergänzt um einen ausführlichen
 					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
 					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
-					antiquarum)‘ erscheinen.</p>
+					antiquarum)‘ erscheinen. </p>
 			</projectDesc>
 		</encodingDesc>
 		<profileDesc>
@@ -149,48 +142,46 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc>
-			<change when="2019" n="1"
-				corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
 				Version</change>
-			<change when="2020" n="2"
-				corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
 				2</change>
 			<change when="2022" n="3">Version 3</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
 		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="Dateiname2.jpg">
-			<desc>test</desc>
+			<desc> test</desc>
 		</graphic>
 	</facsimile>
 	<text>
 		<body>
-			<ab><ref target="context:fercan" type="context">FERCAN</ref><ref type="context"
-				target="context:fercan.other.nachtraegliches_einfuegen">nachträgliches
-				Einfügen</ref></ab>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> <ref type="context" target="context:fercan.other.nachtraegliches_einfuegen">nachträgliches
+				Einfügen</ref> </ab>
 			<div subtype="editions" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl xml:id="LIT.1" default="false" status="draft"/>
-					<bibl xml:id="LIT.2" default="false" status="draft">test</bibl>
-					<bibl xml:id="LIT.3" default="false" status="draft">test3</bibl>
+					<bibl xml:id="LIT.1"> </bibl>
+					<bibl xml:id="LIT.2">test</bibl>
+					<bibl xml:id="LIT.3">test3</bibl>
 				</listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl type="EDCS"><idno>EDCS-06100432</idno><date/></bibl>
-					<bibl type="EDH"><idno>HD018168</idno><date>Version von 2021-05-12</date></bibl>
-					<bibl type="trismegistos"
-						><idno>www.trismegistos.org/text/208240</idno><date>test</date></bibl>
-					<bibl type="other"><idno>aaa</idno><date>test</date></bibl>
+					<bibl type="EDCS"> <idno>EDCS-06100432</idno> <date> </date> </bibl>
+					<bibl type="EDH"> <idno>HD018168</idno> <date>Version von 2021-05-12</date> </bibl>
+					<bibl type="trismegistos"> <idno>www.trismegistos.org/text/208240</idno> <date>
+						test</date> </bibl>
+					<bibl type="other"> <idno> aaa</idno> <date> test</date> </bibl>
 				</listBibl>
 			</div>
-			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><lb n="1"/>EE CAIVE AV</ab></div>
-			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>e<expan><abbr>Caiv</abbr><ex>a</ex>e</expan>AV<gap reason="lost" extent="unknown" unit="character"/></ab></div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform">
+				<ab><orig><lb n="1" xml:id="MAJ.1"/>EE CAIVE AV<lb n="2" xml:id="MAJ.2"/></orig></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1" xml:id="MIN.1"/><lb n="2" xml:id="MIN.2"/><expan><abbr><supplied reason="lost">D</supplied>e</abbr><ex>a</ex></expan>e <expan><abbr>Caiv</abbr><ex>a</ex>e</expan> AV<gap reason="lost" extent="unknown" unit="character"/></ab></div>
 			<div type="translation" xml:lang="de" org="uniform">
-				<p>Für die Göttin<rs type="divine">Caiva</rs></p>
+				<p> Für die Göttin <rs type="divine">Caiva</rs>    </p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform">
-				<p>To the goddess<rs type="divine">Caiva</rs></p>
+				<p>To the goddess <rs type="divine">Caiva</rs> </p>
 			</div>
 			<div type="apparatus" org="uniform">
 				<app loc="1">
@@ -204,7 +195,7 @@
 				<p>sdsdsdsdsd</p>
 			</div>
 			<div type="commentary" subtype="language" org="uniform">
-				<p>sdsdsdsd</p>
+				<p> sdsdsdsd</p>
 			</div>
 			<div type="commentary" subtype="deity" org="uniform">
 				<p>sdsdsdsdsdsd</p>
@@ -213,5 +204,6 @@
 				<link target="#MAJ.1 #MIN.1"/>
 			</linkGrp>
 		</body>
+		
 	</text>
 </TEI>
