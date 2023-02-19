@@ -57,6 +57,13 @@
 		</xsl:copy>
 	</xsl:template>
 	
+	<!-- adding context in @target to ref; <ref ana="https://gams.uni-graz.at/o:fercan.arch#C.120210" target="context:fercan.material.kalkstein" type="context">Kalkstein</ref> -->
+	<xsl:template match="/*:TEI/*:teiHeader/*:fileDesc/*:sourceDesc/*:msDesc/*:physDesc/*:objectDesc/*:supportDesc/*:support/*:material/*:ref">
+		<ref ana="{@ana}" target="{concat('context:fercan.material.', translate(lower-case(normalize-space(text())), ' ', '') )}">
+			<xsl:apply-templates/>
+		</ref>
+	</xsl:template>
+	
 	<!-- skip all Editors's comments in back/note -->
 	<xsl:template match="*:back"/>
 	

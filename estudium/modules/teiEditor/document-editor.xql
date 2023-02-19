@@ -113,7 +113,9 @@ return
         </div>
         <h3>Elektronische Ressourcen</h3>
         {teiEditor:displayElement('EDH', (), (), ())} 
-        {teiEditor:displayElement('Lupa', (), (), ())} 
+        <!--
+        {teiEditor:displayElement('Lupa', (), (), ())}
+        --> 
         {teiEditor:displayElement('ClaussSlaby', (), (), ())}
         {teiEditor:displayElement('trismegistos', (), (), ())}
         {teiEditor:displayElement('other', (), (), ())}

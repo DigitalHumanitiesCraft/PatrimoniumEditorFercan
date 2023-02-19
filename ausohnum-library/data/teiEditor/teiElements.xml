@@ -50,8 +50,6 @@
         <thesauDb>internal</thesauDb>
         <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c26554</thesauTopConceptURI>
     </teiElement>
-
-
         <!-- civitas_note -->
         <teiElement>
             <nm>civitas_note</nm>
@@ -271,13 +269,14 @@
     <!-- Material -->
     <teiElement>
         <nm>Material</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:material/tei:ref</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:material/tei:ref/@ana</xpath>
+        <contentType>textNodeAndAttribute</contentType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Material</formLabel>
-        <xpath2ref/>
-        <comments/>
+        <fieldType>combobox</fieldType>
+        <thesauDb>internal</thesauDb>
+        <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c24110</thesauTopConceptURI>
+        <attributeValueType>uri</attributeValueType>
     </teiElement>
             <!-- Material_note  -->
             <teiElement>
@@ -466,11 +465,11 @@
         <nm>Schrifttechnik</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:desc</xpath>
         <contentType>text</contentType>
-        <fieldType>input</fieldType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Schrifttechnik</formLabel>
-        <xpath2ref/>
-        <comments/>
+        <fieldType>combobox</fieldType>
+        <thesauDb>internal</thesauDb>
+        <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c24476</thesauTopConceptURI>
     </teiElement>
         <!-- Schrifttechnik_note  -->
         <teiElement>

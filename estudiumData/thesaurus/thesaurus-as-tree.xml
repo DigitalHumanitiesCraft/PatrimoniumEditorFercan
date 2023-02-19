@@ -47,8 +47,10 @@
 				>https://ausohnum.huma-num.fr/concept/c25305</topConceptUri>
 			<topConceptUri status="published"
 				>https://ausohnum.huma-num.fr/concept/c24686</topConceptUri>
+			<!-- Technik -->
 			<topConceptUri status="published"
 				>https://ausohnum.huma-num.fr/concept/c24476</topConceptUri>
+			<!-- Material -->
 			<topConceptUri status="published"
 				>https://ausohnum.huma-num.fr/concept/c24110</topConceptUri>
 				<!-- arch klassifikation -->
@@ -70,6 +72,204 @@
 				<isFolder>true</isFolder>
 				<orderedCollection json:literal="true">true</orderedCollection>
 				<lang>en</lang>
+				<!-- Technik  -->
+				<children json:array="true" status="published" type="collectionItem" groups="">
+					<title>Technik</title>
+					<id>c23775</id>
+					<uri>https://ausohnum.huma-num.fr/concept/c24476</uri>
+					<key>c23775</key>
+					<xmlValue/>
+					<lang>en</lang>
+					<isFolder>true</isFolder>
+					<!-- CP: here add concepts for "Technik" -->
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>gemeißelt</title>
+						<id>gemeißelt</id>
+						<uri>gemeißelt</uri>
+						<key>gemeißelt</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>graviert</title>
+						<id>graviert</id>
+						<uri>graviert</uri>
+						<key>graviert</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>gepunzt</title>
+						<id>gepunzt</id>
+						<uri>gepunzt</uri>
+						<key>gepunzt</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>geritzt</title>
+						<id>geritzt</id>
+						<uri>geritzt</uri>
+						<key>geritzt</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>stilo scripta (CIL)</title>
+						<id>stilo scripta (CIL)</id>
+						<uri>stilo scripta (CIL)</uri>
+						<key>stilo scripta (CIL)</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+				</children>				
+				<!-- Zustand Objekt, Zustand Inschrift  -->
+				<children json:array="true" status="published" type="collectionItem" groups="">
+					<title>Material</title>
+					<id>c23775</id>
+					<uri>https://ausohnum.huma-num.fr/concept/c24110</uri>
+					<key>c23775</key>
+					<xmlValue/>
+					<lang>en</lang>
+					<isFolder>true</isFolder>
+					<!-- CP: here add concepts for "Material" -->
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Kalkstein</title>
+						<id>Kalkstein</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.120210</uri>
+						<key>Kalkstein</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Sandstein</title>
+						<id>Sandstein</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.120220</uri>
+						<key>Sandstein</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Bronze</title>
+						<id>Bronze</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.120110</uri>
+						<key>Bronze</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Stein</title>
+						<id>Stein</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.120200</uri>
+						<key>Stein</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Kalktuff</title>
+						<id>Kalktuff</id>
+						<uri>Kalktuff</uri>
+						<key>Kalktuff</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Trachyt</title>
+						<id>Trachyt</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.120230</uri>
+						<key>Trachyt</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Tuff</title>
+						<id>Tuff</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.120240</uri>
+						<key>Tuff</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Muschelkalk</title>
+						<id>Muschelkalk</id>
+						<uri>Muschelkalk</uri>
+						<key>Muschelkalk</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Silber</title>
+						<id>Silber</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.120120</uri>
+						<key>Silber</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Marmor</title>
+						<id>Marmor</id>
+						<uri>Marmor</uri>
+						<key>Marmor</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Quarz</title>
+						<id>Quarz</id>
+						<uri>Quarz</uri>
+						<key>Quarz</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Quarzsandstein</title>
+						<id>Quarzsandstein</id>
+						<uri>Quarzsandstein</uri>
+						<key>Quarzsandstein</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Bronze; Emaill</title>
+						<id>Bronze; Emaill</id>
+						<uri>Bronze; Emaill</uri>
+						<key>Bronze; Emaill</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Keramik</title>
+						<id>Keramik</id>
+						<uri>Keramik</uri>
+						<key>Keramik</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Kohlenkalk</title>
+						<id>Kohlenkalk</id>
+						<uri>Kohlenkalk</uri>
+						<key>Kohlenkalk</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Basalt</title>
+						<id>Basalt</id>
+						<uri>Basalt</uri>
+						<key>Basalt</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Ton</title>
+						<id>Ton</id>
+						<uri>Ton</uri>
+						<key>Ton</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+				</children>
 				<!-- Zustand Objekt, Zustand Inschrift  -->
 				<children json:array="true" status="published" type="collectionItem" groups="">
 					<title>Zustand</title>
