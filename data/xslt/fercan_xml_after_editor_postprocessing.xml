@@ -1,30 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="inferior467" n="">
-	
-	
 	<teiHeader xml:lang="en">
-		
 		<fileDesc>
 			<titleStmt>
-				<title type="full"> <title type="main">Caiva</title> <title type="sub">CF-GeS-071</title> </title>
+				<title type="full">
+                    <title type="main">Hudriwu</title>
+                    <title type="sub"> </title>
+                </title>
 				<respStmt>
 					<resp>Inschriftenedition</resp>
-					<persName> <forename>Werner</forename> <surname>Petermandl</surname> </persName>
+					<persName>
+                        <forename>Werner</forename>
+                        <surname>Petermandl</surname>
+                    </persName>
 				</respStmt>
 				<respStmt>
 					<resp>Archäologische Beschreibung und geografische Daten</resp>
-					<persName> <forename>Astrid</forename> <surname>Schmölzer</surname> </persName>
+					<persName>
+                        <forename>Astrid</forename>
+                        <surname>Schmölzer</surname>
+                    </persName>
 				</respStmt>
 				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
 			</titleStmt>
 			<publicationStmt>
-				<publisher> <link target="https://antike.uni-graz.at"/> <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike,
-					Fachbereich Alte Geschichte und Epigraphik, Karl-Franzens-Universität
-					Graz</orgName> </publisher>
-				<authority> <link target="https://informationsmodellierung.uni-graz.at"/> <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
-					Informationsmodellierung - Austrian Centre for Digital Humanities,
-					Karl-Franzens-Universität Graz</orgName> </authority>
-				<distributor> <link target="https://gams.uni-graz.at"/> <orgName>GAMS -
-					Geisteswissenschaftliches Asset Management System</orgName> </distributor>
+				<publisher>
+                    <link target="https://antike.uni-graz.at"/>
+                    <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
+                </publisher>
+				<authority>
+                    <link target="https://informationsmodellierung.uni-graz.at"/>
+                    <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName>
+                </authority>
+				<distributor>
+                    <link target="https://gams.uni-graz.at"/>
+                    <orgName>GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName>
+                </distributor>
 				<date when="2022">2022</date>
 				<pubPlace>Graz</pubPlace>
 				<idno type="PID">o:fercan.467</idno>
@@ -38,71 +52,110 @@
 					Celticarum Antiquarum</title>
 				<respStmt>
 					<resp>Projektleitung</resp>
-					<persName> <forename>Wolfgang</forename> <surname>Spickermann</surname> </persName>
+					<persName>
+                        <forename>Wolfgang</forename>
+                        <surname>Spickermann</surname>
+                    </persName>
 				</respStmt>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<settlement/>
-						<repository>Trier, Rheinisches Landesmuseum</repository>
-						<idno/>
+						<settlement>t4</settlement>
+						<repository>a</repository>
+						<idno>a</idno>
 					</msIdentifier>
 					<msContents>
-						<summary/>
+						<summary>Weihinschrift</summary>
 					</msContents>
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>sdsdsd</p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch">Ton</ref>
-									</material> <objectType>Weihestein</objectType> <dimensions>
+								<support> <p>trtdcdf</p> <material> <ref type="context" target="context:fercan.material.kalkstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref> </material>
+									<objectType>Weihestein</objectType> <dimensions>
 									<height unit="cm">10,0</height>
 									<width unit="cm">10,0</width>
 									<depth unit="cm">10,0</depth>
-									</dimensions> <note type="dimensions"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#">weitgehend
-									vollständig</ref> </condition>
+									</dimensions> <note type="dimensions"> trdz</note> </support>
+								<condition>
+									<ref type="context" target="context:fercan.conditionvollständig" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>Das ist A ohne Querhaste geschrieben (EDH</p> <note type="condition">weitgehend vollständig</note>
-								</layout>
+								<layout> <p>aaa</p> <note type="condition">vollständig</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote> <desc type="execution">geritzt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+							<handNote> <desc type="execution">graviert</desc> <height atLeast="3.1" atMost="3.3" unit="cm">3,1–3,3 cm</height></handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p>sdsd</p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.100000"><ref type="context" target="context:fercan.arch.funktionalebeschreibung">Funktionale
-								Beschreibung</ref></term> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.110100"><ref type="context" target="context:fercan.arch.schmuckgegenstand">Schmuckgegenstand</ref></term> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.110000"><ref type="context" target="context:fercan.arch.inschriftenträger">Inschriftenträger</ref></term> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130100"><ref type="context" target="context:fercan.arch.abschrift">Abschrift</ref></term> </decoNote>
+							<decoNote> <p>aaa</p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.100000"><ref type="context" target="context:fercan.arch.funktionalebeschreibung">Funktionale Beschreibung</ref></term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.110000"><ref type="context" target="context:fercan.arch.inschriftenträger">Inschriftenträger</ref></term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130100"><ref type="context" target="context:fercan.arch.abschrift">Abschrift</ref></term>
+							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName>test</placeName>
-							<region>TEST</region> </origPlace> <origDate> EDH: 171 AD – 270 AD</origDate> </origin>
-						<provenance type="found" when="1857"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Büdesheim</ref>
-							</placeName> <p>Straße nach Wallersheim</p> <location>
-							<geo decls="#WGS"/>
-							</location> <note/> </provenance>
-						<provenance type="observed" subtype="autopsied"><p>non vidimus<lb/>Lesung
-							gründet auf: EDH</p></provenance>
+						<origin> <origPlace> <placeName>fundort 1</placeName> <region>CCAA</region> </origPlace> <origDate>1000</origDate> </origin>
+						<provenance type="found" when="1980"> <placeName> <ref type="context" target="context:fercan.geog.modern.fundort12">fundort 12</ref> </placeName> <p>fundort 133</p> <location>
+							<geo decls="#WGS">ToDo: add coordinates</geo>
+							</location> <note>fundort 1444</note> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>non vidimus |Lesung gründet auf: Vollgraff 1931</p></provenance>
 					</history>
 				</msDesc>
 				<listPlace>
-					<place/>
 					<place type="antique_term">
-						<placeName> <ref type="context" target="context:fercan.geog.term."/> </placeName>
+						<placeName>
+                            <ref type="context" target="context:fercan.geog.termalbiobola">Albiobola</ref><ref type="context" target="context:fercan.geog.termalbiobolabataborum">Albiobola Bataborum</ref><ref type="context" target="context:fercan.geog.termcoloniasudobebabrabonum">Colonia Sudobeba Brabonum</ref><ref type="context" target="context:fercan.geog.termsudobebabrabonum">Sudobeba Brabonum</ref> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref type="context" target="context:fercan.geog.sacral.auten">auten</ref>
+						</placeName>
 					</place>
 				</listPlace>
 				<listPerson>
 					<person>
-						<persName type="gentilnomen"> <ref type="context" target="context:fercan.person."/> </persName>
+						<persName subtype="celtic_element" type="divine"> <ref type="context" target="context:fercan.dce.borvoboendoa?">Borvoboendoa?</ref><ref type="context" target="context:fercan.dce.cobba?">Cobba?</ref> </persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref type="context" target="context:fercan.person.cognomencognomen">cognomen</ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref type="context" target="context:fercan.person.religioustionäre">tionäre</ref>
+							</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen">
+                            <ref type="context" target="context:fercan.person.gentilnomen.gentilnomen">Gentilnomen</ref>
+                        </persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref type="context" target="context:fercan.person.other.sdsdsd">sdsdsd</ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref type="context" target="context:fercan.person.military.dienstgrade">Dienstgrade</ref>
+							</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref type="context" target="context:fercan.person.office.träger">träger</ref>
+							</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref type="context" target="context:fercan.person.sovereign.herrscher">herrscher</ref> </persName>
 					</person>
 				</listPerson>
 				<listOrg>
-					<org/>
-					<org type="military_unit">
-						<orgName> <ref type="context" target="context:fercan.org."/>
+					<org type="admin_unit">
+						<orgName> <ref type="context" target="context:fercan.org.admin.albiobola">Albiobola</ref><ref type="context" target="context:fercan.org.admin.albiobolabataborum">Albiobola Bataborum</ref><ref type="context" target="context:fercan.org.admin.coloniasudobebabrabonum">Colonia Sudobeba Brabonum</ref><ref type="context" target="context:fercan.org.admin.sudobebabrabonum">Sudobeba Brabonum</ref>
 						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName>
+                            <ref type="context" target="context:fercan.org.military.einheit">Einheit</ref>
+                        </orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref type="context" target="context:fercan.org.population.gruppe">gruppe</ref> </orgName>
 					</org>
 				</listOrg>
 			</sourceDesc>
@@ -140,6 +193,17 @@
 			<langUsage>
 				<language ident="la">Latein</language>
 			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref type="context" target="context:fercan.dedication.formel">formel</ref> </item>
+						<item> <ref type="context" target="context:fercan.character.besondere,extremverschlungeneschrift">besondere, extrem verschlungene Schrift</ref> </item>
+						<item> <ref type="context" target="context:fercan.other.sonstigebesonderheiten">Sonstige Besonderheiten</ref> </item>
+						<item> <ref type="context" target="context:fercan.rel.other.sdsd">sdsd</ref>
+						</item>
+					</list>
+				</keywords>
+			</textClass>
 		</profileDesc>
 		<revisionDesc>
 			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
@@ -150,59 +214,76 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="Dateiname2.jpg">
-			<desc> test</desc>
+		<graphic mimeType="image/png" xml:id="IMAGE.1" url="0262_Front.png">
+			
 		</graphic>
-	</facsimile>
+	
+            
+            <graphic mimeType="image/png " url="0262_Front.png ">
+            
+        </graphic>
+        </facsimile>
 	<text>
 		<body>
-			<ab> <ref target="context:fercan" type="context">FERCAN</ref> <ref type="context" target="context:fercan.other.nachtraegliches_einfuegen">nachträgliches
-				Einfügen</ref> </ab>
+			<ab> <ref type="context" target="context:fercanfercan">FERCAN</ref> </ab>
 			<div subtype="editions" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl xml:id="LIT.1"> </bibl>
-					<bibl xml:id="LIT.2">test</bibl>
-					<bibl xml:id="LIT.3">test3</bibl>
-				</listBibl>
+					<bibl xml:id="LIT.1">Vollgraff 1931, 256-257, tabula B Nr.4 </bibl>
+				
+            <bibl xml:id="LIT.2">Reuter 2012, Nr.96</bibl>
+        </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl type="EDCS"> <idno>EDCS-06100432</idno> <date> </date> </bibl>
-					<bibl type="EDH"> <idno>HD018168</idno> <date>Version von 2021-05-12</date> </bibl>
-					<bibl type="trismegistos"> <idno>www.trismegistos.org/text/208240</idno> <date>
-						test</date> </bibl>
-					<bibl type="other"> <idno> aaa</idno> <date> test</date> </bibl>
+					<bibl type="EDCS">
+                        <idno> EDCS-59700175</idno>
+                        <date>zuletzt aufgerufen am 24. Februar 2020</date>
+                    </bibl>
+					<bibl type="EDH">
+                        <idno>HD111</idno>
+                        <date> ts</date>
+                    </bibl>
+					<bibl type="trismegistos">
+                        <idno> www.trismegistos.org/text/662543</idno>
+                        <date>zuletzt aufgerufen am 26. Juli 2021</date>
+                    </bibl>
+					
 				</listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform">
-				<ab><orig><lb n="1" xml:id="MAJ.1"/>EE CAIVE AV<lb n="2" xml:id="MAJ.2"/></orig></ab></div>
-			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1" xml:id="MIN.1"/><lb n="2" xml:id="MIN.2"/><expan><abbr><supplied reason="lost">D</supplied>e</abbr><ex>a</ex></expan>e <expan><abbr>Caiv</abbr><ex>a</ex>e</expan> AV<gap reason="lost" extent="unknown" unit="character"/></ab></div>
+				<ab>TSS L PPOS COLON SVDOBEB BRAB LOBBO ALBIOBO G S LBE A V SOLV DEAB BORVO BOEDOAE COBBAE ALBIOBO BA POS</ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1" xml:id="MIN.1"/><expan><abbr><supplied reason="lost">v</supplied></abbr><ex>o</ex><abbr>t</abbr><ex>is</ex></expan> <expan><abbr>s</abbr><ex>uscepti</ex>s</expan> <expan><abbr>l</abbr><ex>ibentes</ex></expan> <expan><abbr>pos</abbr><ex>uerunt</ex></expan>. <expan><abbr>Colon</abbr><ex>ia</ex></expan> <expan><abbr>Sudobeb</abbr><ex>a</ex></expan> <expan><abbr>Brab</abbr><ex>onum</ex></expan> <expan><abbr>Lobbo</abbr><ex>no</ex></expan>, <expan><abbr>Albiobo</abbr><ex>lae</ex></expan> <expan><abbr>G</abbr><ex>enio</ex></expan> <expan><abbr>s</abbr><ex>ancto</ex></expan>, <expan><abbr>l</abbr><ex>i</ex><abbr>be</abbr><ex>ns</ex></expan> <expan><abbr>a</abbr><ex>nimo</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>solv</abbr><ex>it</ex></expan>, <expan><abbr>deab</abbr><ex>us</ex></expan> Borvoboedoae Cobbae <expan><abbr>Albiobo</abbr><ex>lae</ex></expan> <expan><abbr>Ba</abbr><ex>taborum</ex></expan> <expan><abbr>pos</abbr><ex>uit</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform">
-				<p> Für die Göttin <rs type="divine">Caiva</rs>    </p>
+				<p>
+                    Nachdem Gelübde abgelegt worden waren haben sie dies gerne aufgestellt. Die Colonia Sudobeba Brabonum hat dem <rs type="divine">Lobbonus</rs> – dem #Genius sanctus der (Colonia) Albiobola# – mit freudigem Herzen das Gelübde gerne erfüllt (und?) dies für die Göttinnen  und  der (Colonia) Albiobola Bataborum aufgestellt.
+                    
+                </p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform">
-				<p>To the goddess <rs type="divine">Caiva</rs> </p>
+				<p>
+                    After vows were taken they willingly set this up. The Colonia Sudobeba Brabonum paid <rs type="divine">Lobbonus</rs> – the  – their vow with a joyful heart (and?) set this up for the goddesses  and #Cobba# of the (Colonia) Albiobola Bataborum.
+                    
+                </p>
 			</div>
 			<div type="apparatus" org="uniform">
 				<app loc="1">
-					<note>Caiv(ae) – AE 1989, Scheungraber</note>
+					<note>ohne Ligatur – ILS, CIL, Riese, Reuter </note>
 				</app>
-				<app loc="2">
-					<note>test 2</note>
-				</app>
-			</div>
+			
+            <app loc="2">
+                    <note>[---]nius – CIL, Espérandieu. Die unterstrichenen Buchstaben sind seit dem 2. Weltkrieg verloren.</note>
+                </app>
+        </div>
 			<div type="commentary" subtype="general" org="uniform">
-				<p>sdsdsdsdsd</p>
+				<p>test</p>
 			</div>
 			<div type="commentary" subtype="language" org="uniform">
-				<p> sdsdsdsd</p>
+				<p> dfdf</p>
 			</div>
 			<div type="commentary" subtype="deity" org="uniform">
-				<p>sdsdsdsdsdsd</p>
+				<p>test</p>
 			</div>
-			<linkGrp type="alignment" domains="#majuscule #minuscule">
-				<link target="#MAJ.1 #MIN.1"/>
-			</linkGrp>
+			<linkGrp type="alignment" domains="#majuscule #minuscule"><link target="#MAJ.1 #MIN.1"/><link target="#MAJ.2 #MIN.2"/></linkGrp>
 		</body>
 		
 	</text>

@@ -12,12 +12,14 @@
 		</xsl:copy>
 	</xsl:template>
 	
-	<!--  target="#MAJ.1 #MIN.1" -->
-	<xsl:template match="*:TEI/*:text/*:body/*:linkGrp/*:link">
-		<xsl:variable name="id" select="normalize-space(@target)"/>
-		<link target="{concat('#MAJ.', $id, ' #MIN.', $id)}">
-			<xsl:apply-templates/>
-		</link>
+	<!-- add <link> based on <app>; target="#MAJ.1 #MIN.1" -->
+	<xsl:template match="*:TEI/*:text/*:body/*:linkGrp">
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<xsl:for-each select="//*:app[@loc]">
+				<link target="{concat('#MAJ.', @loc, ' #MIN.', @loc)}"/>
+			</xsl:for-each>
+		</xsl:copy>
 	</xsl:template>
 
 	<!-- fix @xml:id in bibliography; adding "LIT." -->
@@ -46,23 +48,6 @@
 	</xsl:template>
 	
 	<xsl:template match="*:i"/>
-	
-	<!-- add <ref type="context" target="context:fercan.arch.fragment">Fragment</ref> -->
-	<xsl:template match="/*:TEI/*:teiHeader/*:fileDesc/*:sourceDesc/*:msDesc/*:physDesc/*:decoDesc/*:decoNote/*:term">
-		<xsl:copy>
-			<xsl:apply-templates select="@*"/>
-			<ref type="context" target="{concat( 'context:fercan.arch.', translate(lower-case(normalize-space(text())), ' ', '') )}">
-				<xsl:apply-templates/>	
-			</ref>
-		</xsl:copy>
-	</xsl:template>
-	
-	<!-- adding context in @target to ref; <ref ana="https://gams.uni-graz.at/o:fercan.arch#C.120210" target="context:fercan.material.kalkstein" type="context">Kalkstein</ref> -->
-	<xsl:template match="/*:TEI/*:teiHeader/*:fileDesc/*:sourceDesc/*:msDesc/*:physDesc/*:objectDesc/*:supportDesc/*:support/*:material/*:ref">
-		<ref ana="{@ana}" target="{concat('context:fercan.material.', translate(lower-case(normalize-space(text())), ' ', '') )}">
-			<xsl:apply-templates/>
-		</ref>
-	</xsl:template>
 	
 	<!-- skip all Editors's comments in back/note -->
 	<xsl:template match="*:back"/>
@@ -96,6 +81,53 @@
 					</p>
 				</xsl:otherwise>
 			</xsl:choose>
+		</xsl:copy>
+	</xsl:template>
+	
+	<!--  add context target; ";" seperation-->
+	<xsl:template match="*:ref[@type='context']">
+		<xsl:choose>
+			<xsl:when test="contains(text(), ';')">
+				<xsl:variable name="ana" select="@ana"/>
+				<xsl:variable name="target" select="@target"/>
+				<xsl:for-each select="tokenize(text(), ';')">
+					<ref type="context" target="{concat($target, translate(lower-case(normalize-space(.)), ' ', '') )}">
+						<xsl:if test="$ana">
+							<xsl:attribute name="ana" select="$ana"/>
+						</xsl:if>
+						<xsl:value-of select="normalize-space(.)"/>
+					</ref>
+				</xsl:for-each>
+			</xsl:when>
+			<xsl:otherwise>
+				<ref type="context" target="{concat( @target, translate(lower-case(normalize-space(text())), ' ', '') )}">
+					<xsl:if test="@ana">
+						<xsl:attribute name="ana" select="@ana"/>
+					</xsl:if>
+					<xsl:value-of select="normalize-space(.)"/>
+				</ref>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+	
+	<!-- skip all nodes that dont have text or just " " and have no attributes and of no childs and are not <lb> -->
+	<xsl:template match="*[not(text()) or text() = ' '][not(@*)][not(*)][not(local-name()= 'lb')]"/>
+	
+	<!-- add <ref type="context" target="context:fercan.arch.fragment">Fragment</ref> -->
+	<xsl:template match="/*:TEI/*:teiHeader/*:fileDesc/*:sourceDesc/*:msDesc/*:physDesc/*:decoDesc/*:decoNote/*:term">
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<ref type="context" target="{concat( 'context:fercan.arch.', translate(lower-case(normalize-space(text())), ' ', '') )}">
+				<xsl:apply-templates/>	
+			</ref>
+		</xsl:copy>
+	</xsl:template>
+	
+	<!--  -->
+	<xsl:template match="/*:TEI/*:teiHeader/*:fileDesc/*:sourceDesc/*:msDesc/*:history/*:provenance/*:location/*:geo">
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<xsl:text>ToDo: add coordinates</xsl:text>
 		</xsl:copy>
 	</xsl:template>
 	

@@ -259,6 +259,27 @@ return
         <h4>Datierung ISO</h4>
         {teiEditor:displayElement('DatISO_notAfter', (), (), ())}
         {teiEditor:displayElement('DatISO_notBefore', (), (), ())}
+        <h3>Index Liste</h3>
+        <p class="bg-info" style="margin: 10px;">Mehrfache Zuordnung durch Trennung mittels ";": "Borvoboendoa; Cobba"</p>
+        {teiEditor:displayElement('keltischesGoetternamenelement', (), (), ())}
+        {teiEditor:displayElement('GeographischeBezeichnungantik', (), (), ())}
+        {teiEditor:displayElement('Bevoelkerungsgruppe', (), (), ())}
+        {teiEditor:displayElement('Verwaltungseinheit', (), (), ())}
+        {teiEditor:displayElement('MilitaerischeEinheit', (), (), ())}
+        {teiEditor:displayElement('MilitaerischeDienstgrade', (), (), ())}
+        {teiEditor:displayElement('Gentilnomen', (), (), ())}
+        {teiEditor:displayElement('Cognomen', (), (), ())}
+        {teiEditor:displayElement('Kultfuktionaere', (), (), ())}
+        {teiEditor:displayElement('Kultbauten', (), (), ())}
+        {teiEditor:displayElement('Inschriftenformel', (), (), ())}
+        {teiEditor:displayElement('ReligionSonstiges', (), (), ())}
+        {teiEditor:displayElement('Herrscher', (), (), ())}
+        {teiEditor:displayElement('Amtstraeger', (), (), ())}
+        {teiEditor:displayElement('StatusSonstiges', (), (), ())}
+        {teiEditor:displayElement('DatierungsangabenimISText', (), (), ())}
+        {teiEditor:displayElement('BesondereZeichen', (), (), ())}
+        {teiEditor:displayElement('SonstigeBesonderheiten', (), (), ())}
+
         <!--
         <h3>Listen</h3>
         {teiEditor:placesList($teiEditor:docId)}

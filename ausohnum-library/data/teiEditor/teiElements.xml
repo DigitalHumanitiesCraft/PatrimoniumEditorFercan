@@ -37,6 +37,175 @@
         <comments/>
     </teiElement>
 
+
+    <!-- /// -->
+    <!-- Index Liste -->
+    <!-- keltisches Götternamenelement -->
+    <teiElement>
+        <nm>keltischesGoetternamenelement</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName[@subtype="celtic_element"]/tei:ref</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">keltisches Götternamenelement</formLabel>
+    </teiElement>
+    <!-- Geographische Bezeichnung antik -->
+    <teiElement>
+        <nm>GeographischeBezeichnungantik</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPlace/tei:place[@type="antique_term"]/tei:placeName/tei:ref</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Geographische Bezeichnung antik</formLabel>
+    </teiElement>
+    <!-- Bevölkerungsgruppe -->
+    <teiElement>
+        <nm>Bevoelkerungsgruppe</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listOrg/tei:org[@type="population_group"]/tei:orgName/tei:ref</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Bevölkerungsgruppe</formLabel>
+    </teiElement>
+    <!-- Verw.einh. -->
+    <teiElement>
+        <nm>Verwaltungseinheit</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listOrg/tei:org[@type="admin_unit"]/tei:orgName/tei:ref</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Verwaltungseinheit</formLabel>
+    </teiElement>
+    <!--  -->
+    <teiElement>
+        <nm>MilitaerischeEinheit</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listOrg/tei:org[@type="military_unit"]/tei:orgName/tei:ref</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Militärische Einheit</formLabel>
+    </teiElement>
+    <!--  -->
+    <teiElement>
+        <nm>MilitaerischeDienstgrade</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName/tei:roleName[@type="military"]/tei:ref</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Militärische Dienstgrade</formLabel>
+    </teiElement>
+    <!--  -->
+    <teiElement>
+        <nm>Gentilnomen</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName[@type="gentilnomen"]/tei:ref</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Gentilnomen</formLabel>
+    </teiElement>
+    <!--  -->
+    <teiElement>
+        <nm>Cognomen</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName[@type="cognomen"]/tei:ref</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Cognomen</formLabel>
+    </teiElement>
+    <!-- Kultfuktionaere -->
+    <teiElement>
+        <nm>Kultfuktionaere</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName/tei:roleName[@type="religious"]/tei:ref</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Kultfunktionäre</formLabel>
+    </teiElement>
+    <!-- Kultbauten -->
+    <teiElement>
+        <nm>Kultbauten</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPlace/tei:place[@type="sacral_building"]/tei:placeName/tei:ref</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Kultbauten</formLabel>
+    </teiElement>
+    <!--  -->
+    <teiElement>
+        <nm>Inschriftenformel</nm>
+        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[@target="context:fercan.dedication."]</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Inschriftenformel</formLabel>
+    </teiElement>
+    <!--  -->
+    <teiElement>
+        <nm>ReligionSonstiges</nm>
+        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[@target="context:fercan.rel.other."]</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Religion: Sonstiges:</formLabel>
+    </teiElement>
+    <!-- Herrscher -->
+    <teiElement>
+        <nm>Herrscher</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName[@type="sovereign"]/tei:ref</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Herrscher</formLabel>
+    </teiElement>
+    <!-- Amtsträger -->
+    <teiElement>
+        <nm>Amtstraeger</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName/tei:roleName[@type="office"]/tei:ref</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Amtstraeger</formLabel>
+    </teiElement>
+    <!--  -->
+    <teiElement>
+        <nm>StatusSonstiges</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName/tei:roleName[@type="other"]/tei:ref</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Status: Sonstiges</formLabel>
+    </teiElement>
+    <!--  -->
+    <teiElement>
+        <nm>DatierungsangabenimISText</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate/tei:note[type="original"]/tei:ref</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Datierungsangaben im IS-Text</formLabel>
+    </teiElement>
+    <!--  -->
+    <teiElement>
+        <nm>BesondereZeichen</nm>
+        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[@target="context:fercan.character."]</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Besondere Zeichen</formLabel>
+    </teiElement>
+    <!--  -->
+    <teiElement>
+        <nm>SonstigeBesonderheiten</nm>
+        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[@target="context:fercan.other."]</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Sonstige Besonderheiten</formLabel>
+    </teiElement>
+    
+
+
+
     <!-- /// -->
     <!-- Fund -->
 
@@ -348,13 +517,14 @@
     <!-- Erh.zust. Obj. -->
     <teiElement>
         <nm>ErhzustObj</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:condition/tei:ref</xpath>
-        <contentType>text</contentType>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:condition/tei:ref/@ana</xpath>
+        <contentType>textNodeAndAttribute</contentType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Zustand Objekt</formLabel>
         <fieldType>combobox</fieldType>
         <thesauDb>internal</thesauDb>
         <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c26467</thesauTopConceptURI>
+        <attributeValueType>uri</attributeValueType>
     </teiElement>
             <!-- ErhzustObj_note  -->
             <teiElement>
@@ -1339,20 +1509,6 @@
         <fieldType>combobox</fieldType>
         <thesauDb>internal</thesauDb>
         <thesauTopConceptURI>http://ausonius.huma-num.fr/concept/c19310</thesauTopConceptURI>
-        <xpath2ref/>
-        <comments/>
-    </teiElement>
-    <teiElement>
-        <nm>docSupportMaterial</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:material/@ref</xpath>
-        <contentType>textNodeAndAttribute</contentType>
-        <cardinality>x</cardinality>
-        <formLabel xml:lang="en">Material</formLabel>
-        <formLabel xml:lang="fr">Matière</formLabel>
-        <taxoId/>
-        <fieldType>combobox</fieldType>
-        <thesauDb>internal</thesauDb>
-        <thesauTopConceptURI>http://ausonius.huma-num.fr/concept/c6200</thesauTopConceptURI>
         <xpath2ref/>
         <comments/>
     </teiElement>
