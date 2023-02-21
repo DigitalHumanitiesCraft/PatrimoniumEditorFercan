@@ -620,6 +620,17 @@
         <thesauDb>internal</thesauDb>
         <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c26467</thesauTopConceptURI>
     </teiElement>
+    <teiElement>
+        <nm>ErhzustInschr</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:condition/tei:ref/@ana</xpath>
+        <contentType>textNodeAndAttribute</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Zustand Objekt</formLabel>
+        <fieldType>combobox</fieldType>
+        <thesauDb>internal</thesauDb>
+        <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c26467</thesauTopConceptURI>
+        <attributeValueType>uri</attributeValueType>
+    </teiElement>
         <!-- ErhzustInschr_note  -->
         <teiElement>
             <nm>ErhzustInschr_note</nm>
