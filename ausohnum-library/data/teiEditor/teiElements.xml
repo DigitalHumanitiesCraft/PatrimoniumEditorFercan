@@ -290,15 +290,6 @@
         <xpath2GAMSContext>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName</xpath2GAMSContext>
     </teiElement>
     -->
-    <!-- FS ID -->
-    <teiElement>
-        <nm>FSID</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:p</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">FS ID (ToDo)</formLabel>
-    </teiElement>
     <!-- Fundstelle -->
     <teiElement>
         <nm>Fundstelle</nm>
@@ -610,16 +601,6 @@
             <xpath2ref/>
         </teiElement>
     <!-- Erh.zust. Inschr. -->
-    <teiElement>
-        <nm>ErhzustInschr</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:layoutDesc/tei:layout/tei:note</xpath>
-        <contentType>text</contentType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Zustand Inschrift</formLabel>
-        <fieldType>combobox</fieldType>
-        <thesauDb>internal</thesauDb>
-        <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c26467</thesauTopConceptURI>
-    </teiElement>
     <teiElement>
         <nm>ErhzustInschr</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:condition/tei:ref/@ana</xpath>
@@ -1097,17 +1078,6 @@
             <formLabel xml:lang="en">Editor's comment</formLabel>
             <xpath2ref/>
         </teiElement>
-    <!-- 
-    <teiElement>
-        <nm>Autopsie</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance[@type="observed"][@subtype="autopsied"]</xpath>
-        <contentType>text</contentType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Autopsie</formLabel>
-        <fieldType>input</fieldType>
-        <comments>Hudriwu</comments>
-    </teiElement>
-    -->
     <!-- Editionen, <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1930, Nr.45</bibl> -->
     <teiElement>
         <nm>Editionen</nm>
