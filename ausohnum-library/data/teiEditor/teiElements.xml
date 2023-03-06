@@ -302,7 +302,7 @@
     <!-- Fundstelle -->
     <teiElement>
         <nm>Fundstelle</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:p</xpath>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance[@type="found"]/tei:p</xpath>
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
