@@ -89,7 +89,6 @@ return
         <h3>Titel</h3>
         {teiEditor:displayElement('docTitle', (), (), ())}
         {teiEditor:displayElement('subTitle', (), (), ())}
-        {teiEditor:displayElement('PID', (), (), ())}
         {teiEditor:displayElement('civitas', (), (), ())}
         <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#civitas_note_collapse" aria-expanded="false" aria-controls="civitas_note_collapse">Editor's comment</a></p>
         <div class="collapse bg-info" id="civitas_note_collapse">

@@ -870,7 +870,7 @@ function saveData2( element,
     // input validation 
     // input is not valid at first
     let isInputValid = false;
-    let pattern_dimensions = /^[0-9,]*$/g;
+    let pattern_dimensions = /^[0-9, ]*$/g;
     let pattern_iso_date = /\b0\d{3}$/g;
     let pattern_abbildung = /\w+\.(jpg|png)*$/g;
     let pattern_abbildung_type = /image\/jpeg|image\/png|text\/csv$/g;
@@ -879,7 +879,7 @@ function saveData2( element,
     let pattern_buchstabenhoehe_att = /\d+\.\d+$/g;
     let pattern_pid = /o:fercan.\d+$/g;
     let pattern_weihestein = /Weihestein$/g;
-    let pattern_fundjahr = /\b\d{4}$/g;
+    let pattern_fundjahr = /\b\d{4}(\/\d{4})?$/g;
     let pattern_EDH_id = /\bHD\d+$/g;
     let pattern_ClaussSlaby_id = /\bEDCS-\d+$/g;
 
