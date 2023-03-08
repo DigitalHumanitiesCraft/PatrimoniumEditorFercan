@@ -1,13 +1,184 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><teiHeader><fileDesc><titleStmt><title type="full"><title type="main">Sunuxsalis</title><title type="sub">CF-GeI-305</title></title><respStmt><resp>Inschriftenedition</resp><persName><forename>Werner</forename><surname>Petermandl</surname></persName></respStmt><respStmt><resp>Archäologische Beschreibung und geografische Daten</resp><persName><forename>Astrid</forename><surname>Schmölzer</surname></persName></respStmt><funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
-                  29274-G25</funder></titleStmt><publicationStmt><publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
-                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher><authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior305">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Sunuxsalis</title>
+                    <title type="sub">CF-GeI-305</title>
+                </title>
+                <respStmt>
+                    <resp>Inschriftenedition</resp>
+                    <persName>
+                        <forename>Werner</forename>
+                        <surname>Petermandl</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Archäologische Beschreibung und geografische Daten</resp>
+                    <persName>
+                        <forename>Astrid</forename>
+                        <surname>Schmölzer</surname>
+                    </persName>
+                </respStmt>
+                <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
+                  29274-G25</funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <link target="https://antike.uni-graz.at"/>
+                    <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
+                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
+                </publisher>
+                <authority>
+                    <link target="https://informationsmodellierung.uni-graz.at"/>
+                    <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
                     Informationsmodellierung - Austrian Centre for Digital Humanities,
-                    Karl-Franzens-Universität Graz</orgName></authority><distributor><link target="https://gams.uni-graz.at"/><orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor><date when="2022">2022</date><pubPlace>Graz</pubPlace><idno type="PID">o:fercan.305</idno><availability><licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
-                    BY-NC 4.0</licence></availability></publicationStmt><seriesStmt><title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
-                  Celticarum Antiquarum</title><respStmt><resp>Projektleitung</resp><persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName></respStmt></seriesStmt><sourceDesc><msDesc><msIdentifier><settlement>Berlin</settlement><repository>Staatliche Museen, Antikensammlung</repository><idno>TC 6296</idno></msIdentifier><msContents><summary>Weihinschrift</summary></msContents><physDesc><objectDesc><supportDesc><support><p>Es handelt sich um einen Einhenkelkrug oder Guttus, der wohl wertvolle Flüssigkeiten wie Salben oder Öl bzw. Duftöl beinhaltet hat. Die Wände des Gefäßes sind glatt, es ist mit einem Henkel versehen und verfügt über einen bauchigen Behälter mit einer schwachen und leicht wulstig abgesetzten Standfläche, die eine leichte Aufwölbung und Rillung aufweist. Der Hals ist kurz und durch den breiten Bandwulstrand charakterisiert (Kütter 2008, 231). Die eingeritzte Inschrift verläuft ringförmig rechts des Henkels beginnend an der Schulter des Gefäßes. Der Ton des Gefäßes wird als hell oder weißlich beschrieben (Kütter 2008, 231; Freudenberg 1873, 310f.) und dürfte über kein Dekor verfügt haben.<lb/>Es dürfte sich, wie Kütter (2008, 231) schreibt, um eine in Serie hergestellte Opfergabe gehandelt haben, die in der Töpferei des Claudius Victorinus für die Verehrung der Göttin #Sunuxal# (u.a.) hergestellt wurde.</p><material><ref type="context" target="context:fercan.material.keramik" ana="https://gams.uni-graz.at/o:fercan.arch#C.120300">Keramik</ref></material><objectType>Guttus</objectType></support><condition><ref type="context" target="context:fercan.condition-o.vollstaendig" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref></condition></supportDesc><layoutDesc><layout><p>Besondere Zeichen: Im Text wird das sog. gallisches E verwendet, außerdem finden sich besondere Formen des F, des A und des L.</p><note type="condition">vollständig</note></layout></layoutDesc></objectDesc><handDesc><handNote><desc type="execution">stilo scripta (CIL)</desc></handNote></handDesc><decoDesc><decoNote><p>kein Dekor vorhanden</p><term><ref type="context" target="context:fercan.arch.aryballos">Aryballos</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.252840"><ref type="context" target="context:fercan.arch.gefaesz">Gefäß</ref></term><term><ref type="context" target="context:fercan.arch.graffito">Graffito</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.140400"><ref type="context" target="context:fercan.arch.kursivschrift">Kursivschrift</ref></term></decoNote></decoDesc></physDesc><history><origin><origPlace><placeName ref="https://pleiades.stoa.org/places/109215">Novaesium</placeName><region>CCAA</region></origPlace><origDate/></origin><provenance type="found" when="1872"><placeName><ref type="context" target="context:fercan.geog.modern.neuss">Neuss</ref></placeName><location><geo decls="#WGS">51.204344 6.688123</geo></location></provenance><provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: CIL</provenance></history></msDesc><listPlace><place/></listPlace><listPerson><person><persName type="gentilnomen"><ref type="context" target="context:fercan.person.gentilnomen.claudius">Claudius</ref></persName></person><person><persName type="cognomen"><ref type="context" target="context:fercan.person.cognomen.victorinus">Victorinus</ref></persName></person><person><persName type="divine" subtype="celtic_normalized"><ref type="context" target="context:fercan.dcn.sunuxsalis">Sunuxsalis</ref></persName></person><person><persName type="divine" subtype="celtic_diplomatic"><ref type="context" target="context:fercan.dcd.sunuxsalis.d_e_ae_sunxalis">d(e)ae Sunxalis</ref></persName></person><person><persName type="divine" subtype="celtic_element"><ref type="context" target="context:fercan.dce.sunuxsalis">Sunuxsalis</ref></persName></person></listPerson><listOrg><org/></listOrg></sourceDesc></fileDesc><encodingDesc><geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl><editorialDecl><p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p><p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
-                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p></editorialDecl><projectDesc><p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+                    Karl-Franzens-Universität Graz</orgName>
+                </authority>
+                <distributor>
+                    <link target="https://gams.uni-graz.at"/>
+                    <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                </distributor>
+                <date when="2022">2022</date>
+                <pubPlace>Graz</pubPlace>
+                <idno type="PID">o:fercan.305</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
+                    BY-NC 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+                  Celticarum Antiquarum</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Wolfgang</forename>
+                        <surname>Spickermann</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatliche Museen, Antikensammlung</repository>
+                        <idno>TC 6296</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Weihinschrift</summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Es handelt sich um einen Einhenkelkrug oder Guttus, der wohl wertvolle Flüssigkeiten wie Salben oder Öl bzw. Duftöl beinhaltet hat. Die Wände des Gefäßes sind glatt, es ist mit einem Henkel versehen und verfügt über einen bauchigen Behälter mit einer schwachen und leicht wulstig abgesetzten Standfläche, die eine leichte Aufwölbung und Rillung aufweist. Der Hals ist kurz und durch den breiten Bandwulstrand charakterisiert (Kütter 2008, 231). Die eingeritzte Inschrift verläuft ringförmig rechts des Henkels beginnend an der Schulter des Gefäßes. Der Ton des Gefäßes wird als hell oder weißlich beschrieben (Kütter 2008, 231; Freudenberg 1873, 310f.) und dürfte über kein Dekor verfügt haben.<lb/>Es dürfte sich, wie Kütter (2008, 231) schreibt, um eine in Serie hergestellte Opfergabe gehandelt haben, die in der Töpferei des Claudius Victorinus für die Verehrung der Göttin #Sunuxal# (u.a.) hergestellt wurde.</p>
+                                    <material>
+                                        <ref type="context" target="context:fercan.material.keramik" ana="https://gams.uni-graz.at/o:fercan.arch#C.120300">Keramik</ref>
+                                    </material>
+                                    <objectType>Guttus</objectType>
+                                </support>
+                                <condition>
+                                    <ref type="context" target="context:fercan.condition-o.vollstaendig" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Besondere Zeichen: Im Text wird das sog. gallisches E verwendet, außerdem finden sich besondere Formen des F, des A und des L.</p>
+                                    <note type="condition">vollständig</note>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <desc type="execution">stilo scripta (CIL)</desc>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <p>kein Dekor vorhanden</p>
+                                <term>
+                                    <ref type="context" target="context:fercan.arch.aryballos">Aryballos</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252840">
+                                    <ref type="context" target="context:fercan.arch.gefaesz">Gefäß</ref>
+                                </term>
+                                <term>
+                                    <ref type="context" target="context:fercan.arch.graffito">Graffito</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140400">
+                                    <ref type="context" target="context:fercan.arch.kursivschrift">Kursivschrift</ref>
+                                </term>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName ref="https://pleiades.stoa.org/places/109215">Novaesium</placeName>
+                                <region>CCAA</region>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1872">
+                            <placeName>
+                                <ref type="context" target="context:fercan.geog.modern.neuss">Neuss</ref>
+                            </placeName>
+                            <location>
+                                <geo decls="#WGS">51.204344 6.688123</geo>
+                            </location>
+                        </provenance>
+                        <provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: CIL</provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person>
+                        <persName type="gentilnomen">
+                            <ref type="context" target="context:fercan.person.gentilnomen.claudius">Claudius</ref>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName type="cognomen">
+                            <ref type="context" target="context:fercan.person.cognomen.victorinus">Victorinus</ref>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName type="divine" subtype="celtic_normalized">
+                            <ref type="context" target="context:fercan.dcn.sunuxsalis">Sunuxsalis</ref>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName type="divine" subtype="celtic_diplomatic">
+                            <ref type="context" target="context:fercan.dcd.sunuxsalis.d_e_ae_sunxalis">d(e)ae Sunxalis</ref>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName type="divine" subtype="celtic_element">
+                            <ref type="context" target="context:fercan.dce.sunuxsalis">Sunuxsalis</ref>
+                        </persName>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org/>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+            <editorialDecl>
+                <p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+                <p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+            </editorialDecl>
+            <projectDesc>
+                <p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
                   Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
-                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p><p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+                <p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
                   lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
                   zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
                   besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
@@ -21,11 +192,78 @@
                   beigetragen werden.<lb/> Die Abschlusspublikation wird ergänzt um einen
                   ausführlichen sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo
                   Stempel) in der Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum
-                  Celticarum antiquarum)‘ erscheinen. </p></projectDesc></encodingDesc><profileDesc><langUsage><language ident="la">Latein</language></langUsage><textClass><keywords><list><item/></list></keywords></textClass></profileDesc><revisionDesc><change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.305/TEI_SOURCE.2020-02-26">Initial Version</change><change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.305/TEI_SOURCE.2022-03-07">Version 2</change><change when="2022" n="3">Version 3</change></revisionDesc></teiHeader><text><body><ab><ref target="context:fercan" type="context">FERCAN</ref></ab><div subtype="editions" type="bibliography"><listBibl><bibl xml:id="LIT.1">CIL XIII 8546</bibl><bibl xml:id="LIT.2">Kütter 2008, Nr.964</bibl><bibl xml:id="LIT.3">Sylvestre 2015, 86 Nr.84</bibl></listBibl></div><div subtype="concordances" type="bibliography"><listBibl><bibl type="EDCS">EDCS-11100640<date>zuletzt aufgerufen am 24. Februar 2020</date></bibl><bibl type="trismegistos">www.trismegistos.org/text/415561<date>zuletzt aufgerufen am 26. Juli 2021</date></bibl></listBibl></div><div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve"><ab><orig><lb n="1" xml:id="MAJ.1"/>DAII SVNXALIS FIIRIINDAS FIICIT CLAVDIVS VICTORINVS</orig></ab></div><div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve"><ab><lb n="1" xml:id="MIN.1"/><expan><abbr>D</abbr><ex>e</ex></expan>ae Sunxalis ferendas fecit Claudius Victorinus</ab></div><div type="translation" xml:lang="de"><p>Die der Göttin  <rs type="divine">Sunxalis</rs> zu bringenden hat Claudius Victorinus gemacht.</p></div><div type="translation" xml:lang="en"><p>Those that have to be brought to the goddess  <rs type="divine">Sunxalis</rs> have been made by Claudius Victorinus.</p></div><div type="commentary" subtype="general"><p>Claudius Victorinus: römisches Namensformular ohne Praenomen <lb/>
+                  Celticarum antiquarum)‘ erscheinen. </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latein</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <list>
+                        <item/>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.305/TEI_SOURCE.2020-02-26">Initial Version</change>
+            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.305/TEI_SOURCE.2022-03-07">Version 2</change>
+            <change when="2022" n="3">Version 3</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab>
+                <ref target="context:fercan" type="context">FERCAN</ref>
+            </ab>
+            <div subtype="editions" type="bibliography" org="uniform">
+                <listBibl>
+                    <bibl xml:id="LIT.1">CIL XIII 8546</bibl>
+                    <bibl xml:id="LIT.2">Kütter 2008, Nr.964</bibl>
+                    <bibl xml:id="LIT.3">Sylvestre 2015, 86 Nr.84</bibl>
+                </listBibl>
+            </div>
+            <div subtype="concordances" type="bibliography" org="uniform">
+                <listBibl>
+                    <bibl type="EDCS">
+                        <idno>EDCS-11100640</idno> <date>zuletzt aufgerufen am 24. Februar 2020</date>
+                    </bibl>
+                    <bibl type="trismegistos">
+                        <idno>www.trismegistos.org/text/415561</idno> <date>zuletzt aufgerufen am 26. Juli 2021</date>
+                    </bibl>
+                </listBibl>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/>DAII SVNXALIS FIIRIINDAS FIICIT CLAVDIVS VICTORINVS</orig></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/><expan><abbr>D</abbr><ex>e</ex></expan>ae Sunxalis ferendas fecit Claudius Victorinus</ab></div>
+            <div type="translation" xml:lang="de" org="uniform">
+                <p>Die der Göttin  <rs type="divine">Sunxalis</rs> zu bringenden hat Claudius Victorinus gemacht.</p>
+            </div>
+            <div type="translation" xml:lang="en" org="uniform">
+                <p>Those that have to be brought to the goddess  <rs type="divine">Sunxalis</rs> have been made by Claudius Victorinus.</p>
+            </div>
+            <div type="commentary" subtype="general" org="uniform">
+                <p>Claudius Victorinus: römisches Namensformular ohne Praenomen <lb/>
 Claudius: italisches Gentilnomen der Kaiser Claudius und Nero, überall äußerst gängig (Kakoschke 2006, GN 327) <lb/>
-Victorinus: lateinisches Cognomen, Weiterbildung des Cognomens Victor, überall äußerst gängiger Name (Kakoschke 2008, CN 3323)</p></div><div type="commentary" subtype="language"><p>v.1: „dae“ pro „deae“</p></div><div type="commentary" subtype="deity"><p> <rs type="divine"> Sunxalis:</rs> Variante von  <rs type="divine">Sunuxsalis:</rs> keltisch (de Bernardo Stempel 2013 Celtic „son“, 278f.; Delamarre 2007, 175); anders: germanisch (Gutenbrunner 1936, 228); die Gottheit wird als Stammesgottheit der Sunuci angesehen (Spickermann 2008, 46). </p><p>
+Victorinus: lateinisches Cognomen, Weiterbildung des Cognomens Victor, überall äußerst gängiger Name (Kakoschke 2008, CN 3323)</p>
+            </div>
+            <div type="commentary" subtype="language" org="uniform">
+                <p>v.1: „dae“ pro „deae“</p>
+            </div>
+            <div type="commentary" subtype="deity" org="uniform">
+                <p> <rs type="divine"> Sunxalis:</rs> Variante von  <rs type="divine">Sunuxsalis:</rs> keltisch (de Bernardo Stempel 2013 Celtic „son“, 278f.; Delamarre 2007, 175); anders: germanisch (Gutenbrunner 1936, 228); die Gottheit wird als Stammesgottheit der Sunuci angesehen (Spickermann 2008, 46). </p>
+                <p>
 
-Vorkommen in theonymischen Formularen: </p><p>
+Vorkommen in theonymischen Formularen: </p>
+                <p>
  <rs type="divine">Sunuxsalis</rs>: <lb/>
 - Germania Inferior: 10 x gesichert belegt und jeweils als  <rs type="divine">dea Sunuxsalis</rs>. <lb/> 
-- außerhalb der Germania Inferior: -</p></div><linkGrp type="alignment" domains="#majuscule #minuscule"><link target="#MAJ.1 #MIN.1"/></linkGrp></body></text></TEI>
+- außerhalb der Germania Inferior: -</p>
+            </div>
+            <linkGrp type="alignment" domains="#majuscule #minuscule">
+                <link target="#MAJ.1 #MIN.1"/>
+            </linkGrp>
+        </body>
+    </text>
+</TEI>

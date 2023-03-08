@@ -40,6 +40,42 @@
 		</xsl:copy>
 	</xsl:template>
 	
+	<xsl:template match="*:body">
+		<xsl:copy>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+		<back>
+			<note type="Objbeschr_note"/>
+			<note type="ArchKlass_note"/>
+			<note type="Material_note"/>
+			<note type="Inschrifttraeger_note"/>
+			<note type="VerwahrortOrt_note"/>
+			<note type="InvNr_note"/>
+			<note type="Fundstelle_note"/>
+			<note type="Fundumst_note"/>
+			<note type="Fundjahr_note"/>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note"/>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note"/>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note"/>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note"/>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note"/>
+			<note type="Notvar_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note"/>
+		</back>
+	</xsl:template>
+	
 	
 	<!-- add <idno> next to <date> for 'Elektronische Ressourcen' -->
 	<xsl:template match="*:body/*:div/*:listBibl/*:bibl[@type = 'EDCS' or @type = 'EDH' or @type = 'trismegistos' ]"> 

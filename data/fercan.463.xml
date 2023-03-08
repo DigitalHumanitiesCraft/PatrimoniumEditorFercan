@@ -1,13 +1,167 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><teiHeader><fileDesc><titleStmt><title type="full"><title type="main">Matronae Seccannehae</title><title type="sub">CF-GeI-463</title></title><respStmt><resp>Inschriftenedition</resp><persName><forename>Werner</forename><surname>Petermandl</surname></persName></respStmt><respStmt><resp>Archäologische Beschreibung und geografische Daten</resp><persName><forename>Astrid</forename><surname>Schmölzer</surname></persName></respStmt><funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
-                  29274-G25</funder></titleStmt><publicationStmt><publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
-                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher><authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior463">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Matronae Seccannehae</title>
+                    <title type="sub">CF-GeI-463</title>
+                </title>
+                <respStmt>
+                    <resp>Inschriftenedition</resp>
+                    <persName>
+                        <forename>Werner</forename>
+                        <surname>Petermandl</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Archäologische Beschreibung und geografische Daten</resp>
+                    <persName>
+                        <forename>Astrid</forename>
+                        <surname>Schmölzer</surname>
+                    </persName>
+                </respStmt>
+                <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
+                  29274-G25</funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <link target="https://antike.uni-graz.at"/>
+                    <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
+                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
+                </publisher>
+                <authority>
+                    <link target="https://informationsmodellierung.uni-graz.at"/>
+                    <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
                     Informationsmodellierung - Austrian Centre for Digital Humanities,
-                    Karl-Franzens-Universität Graz</orgName></authority><distributor><link target="https://gams.uni-graz.at"/><orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor><date when="2022">2022</date><pubPlace>Graz</pubPlace><idno type="PID">o:fercan.463</idno><availability><licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
-                    BY-NC 4.0</licence></availability></publicationStmt><seriesStmt><title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
-                  Celticarum Antiquarum</title><respStmt><resp>Projektleitung</resp><persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName></respStmt></seriesStmt><sourceDesc><msDesc><msIdentifier><repository>verschollen</repository></msIdentifier><msContents><summary>Weihinschrift</summary></msContents><physDesc><objectDesc><supportDesc><support><p>Da der Stein verschollen ist und keine ausschlaggebende Beschreibung in der Literatur angeführt wird, ist keine Aussage möglich.</p><objectType>Weihestein</objectType></support><condition><ref type="context" target="context:fercan.condition-o.unklar" ana="https://gams.uni-graz.at/o:fercan.arch#C.130700">unklar</ref></condition></supportDesc><layoutDesc><layout><p>Der Inschriftentext ist nur als Abschrift erhalten. Aus inhaltlichen Gründen ist anzunehmen, dass er vollständig ist.</p><note type="condition">vollständig</note></layout></layoutDesc></objectDesc><handDesc><handNote/></handDesc><decoDesc><decoNote><p>keine Aussage möglich</p><term ana="https://gams.uni-graz.at/o:fercan.arch#C.130100"><ref type="context" target="context:fercan.arch.abschrift">Abschrift</ref></term></decoNote></decoDesc></physDesc><history><origin><origPlace><region>CCAA</region></origPlace><origDate/></origin><provenance type="found"><placeName><ref type="context" target="context:fercan.geog.modern.blankenheim">Blankenheim</ref></placeName><location><geo decls="#WGS">50.439093 6.644899</geo></location></provenance><provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: CIL</provenance></history></msDesc><listPlace><place/></listPlace><listPerson><person><persName type="gentilnomen"><ref type="context" target="context:fercan.person.gentilnomen.secundinus">Secundinus</ref></persName></person><person><persName type="cognomen"><ref type="context" target="context:fercan.person.cognomen.certus">Certus</ref></persName></person><person><persName type="divine" subtype="celtic_normalized"><ref type="context" target="context:fercan.dcn.matronae_seccannehae">Matronae Seccannehae</ref></persName></person><person><persName type="divine" subtype="celtic_diplomatic"><ref type="context" target="context:fercan.dcd.matronae_seccannehae.matronis_seccannehis">Matronis Seccannehis</ref></persName></person><person><persName type="divine" subtype="celtic_element"><ref type="context" target="context:fercan.dce.seccannehae">Seccannehae</ref></persName></person></listPerson><listOrg><org/></listOrg></sourceDesc></fileDesc><encodingDesc><geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl><editorialDecl><p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p><p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
-                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p></editorialDecl><projectDesc><p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+                    Karl-Franzens-Universität Graz</orgName>
+                </authority>
+                <distributor>
+                    <link target="https://gams.uni-graz.at"/>
+                    <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                </distributor>
+                <date when="2022">2022</date>
+                <pubPlace>Graz</pubPlace>
+                <idno type="PID">o:fercan.463</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
+                    BY-NC 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+                  Celticarum Antiquarum</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Wolfgang</forename>
+                        <surname>Spickermann</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Weihinschrift</summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Da der Stein verschollen ist und keine ausschlaggebende Beschreibung in der Literatur angeführt wird, ist keine Aussage möglich.</p>
+                                    <objectType>Weihestein</objectType>
+                                </support>
+                                <condition>
+                                    <ref type="context" target="context:fercan.condition-o.unklar" ana="https://gams.uni-graz.at/o:fercan.arch#C.130700">unklar</ref>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Der Inschriftentext ist nur als Abschrift erhalten. Aus inhaltlichen Gründen ist anzunehmen, dass er vollständig ist.</p>
+                                    <note type="condition">vollständig</note>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote/>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <p>keine Aussage möglich</p>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130100">
+                                    <ref type="context" target="context:fercan.arch.abschrift">Abschrift</ref>
+                                </term>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <region>CCAA</region>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found">
+                            <placeName>
+                                <ref type="context" target="context:fercan.geog.modern.blankenheim">Blankenheim</ref>
+                            </placeName>
+                            <location>
+                                <geo decls="#WGS">50.439093 6.644899</geo>
+                            </location>
+                        </provenance>
+                        <provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: CIL</provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person>
+                        <persName type="gentilnomen">
+                            <ref type="context" target="context:fercan.person.gentilnomen.secundinus">Secundinus</ref>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName type="cognomen">
+                            <ref type="context" target="context:fercan.person.cognomen.certus">Certus</ref>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName type="divine" subtype="celtic_normalized">
+                            <ref type="context" target="context:fercan.dcn.matronae_seccannehae">Matronae Seccannehae</ref>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName type="divine" subtype="celtic_diplomatic">
+                            <ref type="context" target="context:fercan.dcd.matronae_seccannehae.matronis_seccannehis">Matronis Seccannehis</ref>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName type="divine" subtype="celtic_element">
+                            <ref type="context" target="context:fercan.dce.seccannehae">Seccannehae</ref>
+                        </persName>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org/>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+            <editorialDecl>
+                <p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+                <p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+            </editorialDecl>
+            <projectDesc>
+                <p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
                   Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
-                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p><p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+                <p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
                   lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
                   zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
                   besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
@@ -21,17 +175,89 @@
                   beigetragen werden.<lb/> Die Abschlusspublikation wird ergänzt um einen
                   ausführlichen sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo
                   Stempel) in der Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum
-                  Celticarum antiquarum)‘ erscheinen. </p></projectDesc></encodingDesc><profileDesc><langUsage><language ident="la">Latein</language></langUsage><textClass><keywords><list><item><ref type="context" target="context:fercan.dedication.solvit_libens_merito">solvit libens merito</ref></item><item/></list></keywords></textClass></profileDesc><revisionDesc><change n="1" when="2022">Initial Version</change></revisionDesc></teiHeader><facsimile><graphic mimeType="image/png" xml:id="IMAGE.1" url="file:///0463_Abschrift.PNG"><desc>Abschrift, CIL XIII 8846, CC BY-NC</desc></graphic></facsimile><text><body><ab><ref target="context:fercan" type="context">FERCAN</ref></ab><div subtype="editions" type="bibliography"><listBibl><bibl xml:id="LIT.1">CIL XIII 8846</bibl></listBibl></div><div subtype="concordances" type="bibliography"><listBibl><bibl type="EDCS">EDCS-11100936<date>zuletzt aufgerufen am 24. Februar 2020</date></bibl><bibl type="trismegistos">www.trismegistos.org/text/415840<date>zuletzt aufgerufen am 26. Juli 2021</date></bibl></listBibl></div><div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve"><ab><orig><lb n="1" xml:id="MAJ.1"/>MATRONIS <lb n="2" xml:id="MAJ.2"/> 
-SECCANNE <lb n="3" xml:id="MAJ.3"/>
-HIS · SECVN <lb n="4" xml:id="MAJ.4"/>
-DINVS · CER <lb n="5" xml:id="MAJ.5"/>
-TVS · S · L · M</orig></ab></div><div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve"><ab><lb n="1" xml:id="MIN.1"/>Matronis<lb n="2" xml:id="MIN.2"/>Seccanne<lb n="3" xml:id="MIN.3" break="no"/>his Secun<lb n="4" xml:id="MIN.4" break="no"/>dinus Cer<lb n="5" xml:id="MIN.5" break="no"/>tus <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div><div type="translation" xml:lang="de"><p>Für die  <rs type="divine">Matronae Seccannehae!</rs> 
-Secundinus Certus hat (sein Gelübde) gerne und verdientermaßen erfüllt.</p></div><div type="translation" xml:lang="en"><p>To the  <rs type="divine">Matronae Seccannehae!</rs> 
-Secundinus Certus paid (his vow) willingly and deservedly.</p></div><div type="commentary" subtype="general"><p>Secundinus Certus: römisches Namensformular ohne Pränomen <lb/>
+                  Celticarum antiquarum)‘ erscheinen. </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latein</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <list>
+                        <item>
+                            <ref type="context" target="context:fercan.dedication.solvit_libens_merito">solvit libens merito</ref>
+                        </item>
+                        <item/>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change n="1" when="2022">Initial Version</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic mimeType="image/png" xml:id="IMAGE.1" url="file:///0463_Abschrift.PNG">
+            <desc>Abschrift, CIL XIII 8846, CC BY-NC</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <ab>
+                <ref target="context:fercan" type="context">FERCAN</ref>
+            </ab>
+            <div subtype="editions" type="bibliography" org="uniform">
+                <listBibl>
+                    <bibl xml:id="LIT.1">CIL XIII 8846</bibl>
+                </listBibl>
+            </div>
+            <div subtype="concordances" type="bibliography" org="uniform">
+                <listBibl>
+                    <bibl type="EDCS">
+                        <idno>EDCS-11100936</idno> <date>zuletzt aufgerufen am 24. Februar 2020</date>
+                    </bibl>
+                    <bibl type="trismegistos">
+                        <idno>www.trismegistos.org/text/415840</idno> <date>zuletzt aufgerufen am 26. Juli 2021</date>
+                    </bibl>
+                </listBibl>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/>MATRONIS <lb n="2"/> 
+SECCANNE <lb n="3"/>
+HIS · SECVN <lb n="4"/>
+DINVS · CER <lb n="5"/>
+TVS · S · L · M</orig></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Matronis<lb n="2"/>Seccanne<lb n="3" break="no"/>his Secun<lb n="4" break="no"/>dinus Cer<lb n="5" break="no"/>tus <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
+            <div type="translation" xml:lang="de" org="uniform">
+                <p>Für die  <rs type="divine">Matronae Seccannehae!</rs> 
+Secundinus Certus hat (sein Gelübde) gerne und verdientermaßen erfüllt.</p>
+            </div>
+            <div type="translation" xml:lang="en" org="uniform">
+                <p>To the  <rs type="divine">Matronae Seccannehae!</rs> 
+Secundinus Certus paid (his vow) willingly and deservedly.</p>
+            </div>
+            <div type="commentary" subtype="general" org="uniform">
+                <p>Secundinus Certus: römisches Namensformular ohne Pränomen <lb/>
 Secundinus: steht möglicherweise für Secundin(i)us; Secundin(i)us: einheimisches Pseudogentinomen, abgeleitet vom lateinischen Cognomen Secundus/Secundinus (Kakoschke 2006, GN 1131) <lb/>
-Certus: lateinisches Cognomen, gängiger Name (Kakoschke 2007, CN 774)</p></div><div type="commentary" subtype="deity"><p> <rs type="divine">Seccannehae:</rs> keltisch (Delamarre 2007, 163; vgl. Schmidt 1987, 145) </p><p>
+Certus: lateinisches Cognomen, gängiger Name (Kakoschke 2007, CN 774)</p>
+            </div>
+            <div type="commentary" subtype="deity" org="uniform">
+                <p> <rs type="divine">Seccannehae:</rs> keltisch (Delamarre 2007, 163; vgl. Schmidt 1987, 145) </p>
+                <p>
 
-Vorkommen in theonymischen Formularen: </p><p>
+Vorkommen in theonymischen Formularen: </p>
+                <p>
  <rs type="divine">Matronae Seccannehae</rs>: <lb/>
 - Germania Inferior: Das theonymische Formular ist nur in dieser Inschrift bezeugt. <lb/> 
-- außerhalb der Germania Inferior: -</p></div><linkGrp type="alignment" domains="#majuscule #minuscule"><link target="#MAJ.1 #MIN.1"/><link target="#MAJ.2 #MIN.2"/><link target="#MAJ.3 #MIN.3"/><link target="#MAJ.4 #MIN.4"/><link target="#MAJ.5 #MIN.5"/></linkGrp></body></text></TEI>
+- außerhalb der Germania Inferior: -</p>
+            </div>
+            <linkGrp type="alignment" domains="#majuscule #minuscule">
+                <link target="#MAJ.1 #MIN.1"/>
+                <link target="#MAJ.2 #MIN.2"/>
+                <link target="#MAJ.3 #MIN.3"/>
+                <link target="#MAJ.4 #MIN.4"/>
+                <link target="#MAJ.5 #MIN.5"/>
+            </linkGrp>
+        </body>
+    </text>
+</TEI>

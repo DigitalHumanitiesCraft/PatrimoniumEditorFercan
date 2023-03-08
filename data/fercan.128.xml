@@ -1,13 +1,185 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><teiHeader><fileDesc><titleStmt><title type="full"><title type="main">Hercules Magusanus</title><title type="sub">CF-GeI-128</title></title><respStmt><resp>Inschriftenedition</resp><persName><forename>Werner</forename><surname>Petermandl</surname></persName></respStmt><respStmt><resp>Archäologische Beschreibung und geografische Daten</resp><persName><forename>Astrid</forename><surname>Schmölzer</surname></persName></respStmt><funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
-                  29274-G25</funder></titleStmt><publicationStmt><publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
-                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher><authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior128">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Hercules Magusanus</title>
+                    <title type="sub">CF-GeI-128</title>
+                </title>
+                <respStmt>
+                    <resp>Inschriftenedition</resp>
+                    <persName>
+                        <forename>Werner</forename>
+                        <surname>Petermandl</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Archäologische Beschreibung und geografische Daten</resp>
+                    <persName>
+                        <forename>Astrid</forename>
+                        <surname>Schmölzer</surname>
+                    </persName>
+                </respStmt>
+                <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
+                  29274-G25</funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <link target="https://antike.uni-graz.at"/>
+                    <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
+                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
+                </publisher>
+                <authority>
+                    <link target="https://informationsmodellierung.uni-graz.at"/>
+                    <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
                     Informationsmodellierung - Austrian Centre for Digital Humanities,
-                    Karl-Franzens-Universität Graz</orgName></authority><distributor><link target="https://gams.uni-graz.at"/><orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor><date when="2022">2022</date><pubPlace>Graz</pubPlace><idno type="PID">o:fercan.128</idno><availability><licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
-                    BY-NC 4.0</licence></availability></publicationStmt><seriesStmt><title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
-                  Celticarum Antiquarum</title><respStmt><resp>Projektleitung</resp><persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName></respStmt></seriesStmt><sourceDesc><msDesc><msIdentifier/><msContents><summary>Weihinschrift</summary></msContents><physDesc><objectDesc><supportDesc><support><p>Laut Literatur (AE 1994, 1282) handelt es sich um ein verziertes Silberarmband.</p><material><ref type="context" target="context:fercan.material.silber" ana="https://gams.uni-graz.at/o:fercan.arch#C.120120">Silber</ref></material><objectType>Armband</objectType><dimensions><height unit="cm"/><width unit="cm">1,55–1,7</width><depth unit="cm"/></dimensions></support><condition><ref type="context" target="context:fercan.condition-o.weitgehend_vollstaendig" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref></condition></supportDesc><layoutDesc><layout><p>Der kurze Weihetext ist vollständig erhalten.</p></layout></layoutDesc></objectDesc><handDesc><handNote/></handDesc><decoDesc><decoNote><p>Das Silberarmband ist mit Palmetten, Dreiecken und Kranzmotiven verziert, die eine Einheit mit der Inschrift bilden. Jedes Feld beinhaltet einen Buchstaben, oder am Ende des Textes einen Kranz/eine Krone mit Bändern.</p><term ana="https://gams.uni-graz.at/o:fercan.arch#C.160500"><ref type="context" target="context:fercan.arch.dreieck">Dreieck</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.253500"><ref type="context" target="context:fercan.arch.kranz">Kranz</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.160100"><ref type="context" target="context:fercan.arch.lineardekor">Lineardekor</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.160600"><ref type="context" target="context:fercan.arch.palmette">Palmette</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.253000"><ref type="context" target="context:fercan.arch.pflanzenornament">Pflanzenornament</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.160000"><ref type="context" target="context:fercan.arch.reliefdekor">Reliefdekor</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.110100"><ref type="context" target="context:fercan.arch.schmuckgegenstand">Schmuckgegenstand</ref></term></decoNote></decoDesc></physDesc><history><origin><origPlace><region>Civitas Batavorum</region></origPlace><origDate/></origin><provenance type="found" when="1992"><placeName><ref type="context" target="context:fercan.geog.modern.waardenburg">Waardenburg</ref></placeName><location><geo decls="#WGS">51.832268 5.260340</geo></location></provenance><provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: EDH</provenance></history></msDesc><listPlace><place/></listPlace><listPerson><person><persName type="cognomen"><ref type="context" target="context:fercan.person.cognomen.pacius">Pacius</ref></persName></person><person><persName type="divine" subtype="celtic_normalized"><ref type="context" target="context:fercan.dcn.hercules_magusanus">Hercules Magusanus</ref></persName></person><person><persName type="divine" subtype="celtic_diplomatic"><ref type="context" target="context:fercan.dcd.hercules_magusanus.her_culi__mag_____">Her(culi) Mag(---)</ref></persName></person><person><persName type="divine" subtype="celtic_element"><ref type="context" target="context:fercan.dce.magusanus">Magusanus</ref></persName></person></listPerson><listOrg><org/></listOrg></sourceDesc></fileDesc><encodingDesc><geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl><editorialDecl><p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p><p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
-                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p></editorialDecl><projectDesc><p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+                    Karl-Franzens-Universität Graz</orgName>
+                </authority>
+                <distributor>
+                    <link target="https://gams.uni-graz.at"/>
+                    <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                </distributor>
+                <date when="2022">2022</date>
+                <pubPlace>Graz</pubPlace>
+                <idno type="PID">o:fercan.128</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
+                    BY-NC 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+                  Celticarum Antiquarum</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Wolfgang</forename>
+                        <surname>Spickermann</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <msContents>
+                        <summary>Weihinschrift</summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Laut Literatur (AE 1994, 1282) handelt es sich um ein verziertes Silberarmband.</p>
+                                    <material>
+                                        <ref type="context" target="context:fercan.material.silber" ana="https://gams.uni-graz.at/o:fercan.arch#C.120120">Silber</ref>
+                                    </material>
+                                    <objectType>Armband</objectType>
+                                    <dimensions>
+                                        <height unit="cm"/>
+                                        <width unit="cm">1,55–1,7</width>
+                                        <depth unit="cm"/>
+                                    </dimensions>
+                                </support>
+                                <condition>
+                                    <ref type="context" target="context:fercan.condition-o.weitgehend_vollstaendig" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Der kurze Weihetext ist vollständig erhalten.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote/>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <p>Das Silberarmband ist mit Palmetten, Dreiecken und Kranzmotiven verziert, die eine Einheit mit der Inschrift bilden. Jedes Feld beinhaltet einen Buchstaben, oder am Ende des Textes einen Kranz/eine Krone mit Bändern.</p>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160500">
+                                    <ref type="context" target="context:fercan.arch.dreieck">Dreieck</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253500">
+                                    <ref type="context" target="context:fercan.arch.kranz">Kranz</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160100">
+                                    <ref type="context" target="context:fercan.arch.lineardekor">Lineardekor</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160600">
+                                    <ref type="context" target="context:fercan.arch.palmette">Palmette</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253000">
+                                    <ref type="context" target="context:fercan.arch.pflanzenornament">Pflanzenornament</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160000">
+                                    <ref type="context" target="context:fercan.arch.reliefdekor">Reliefdekor</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.110100">
+                                    <ref type="context" target="context:fercan.arch.schmuckgegenstand">Schmuckgegenstand</ref>
+                                </term>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <region>Civitas Batavorum</region>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1992">
+                            <placeName>
+                                <ref type="context" target="context:fercan.geog.modern.waardenburg">Waardenburg</ref>
+                            </placeName>
+                            <location>
+                                <geo decls="#WGS">51.832268 5.260340</geo>
+                            </location>
+                        </provenance>
+                        <provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: EDH</provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person>
+                        <persName type="cognomen">
+                            <ref type="context" target="context:fercan.person.cognomen.pacius">Pacius</ref>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName type="divine" subtype="celtic_normalized">
+                            <ref type="context" target="context:fercan.dcn.hercules_magusanus">Hercules Magusanus</ref>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName type="divine" subtype="celtic_diplomatic">
+                            <ref type="context" target="context:fercan.dcd.hercules_magusanus.her_culi__mag_____">Her(culi) Mag(---)</ref>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName type="divine" subtype="celtic_element">
+                            <ref type="context" target="context:fercan.dce.magusanus">Magusanus</ref>
+                        </persName>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org/>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+            <editorialDecl>
+                <p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+                <p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+            </editorialDecl>
+            <projectDesc>
+                <p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
                   Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
-                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p><p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+                <p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
                   lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
                   zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
                   besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
@@ -21,17 +193,89 @@
                   beigetragen werden.<lb/> Die Abschlusspublikation wird ergänzt um einen
                   ausführlichen sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo
                   Stempel) in der Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum
-                  Celticarum antiquarum)‘ erscheinen. </p></projectDesc></encodingDesc><profileDesc><langUsage><language ident="la">Latein</language></langUsage><textClass><keywords><list><item/></list></keywords></textClass></profileDesc><revisionDesc><change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.128/TEI_SOURCE.2020-02-26">Initial Version</change><change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.128/TEI_SOURCE.2022-03-07">Version 2</change><change when="2022" n="3">Version 3</change></revisionDesc></teiHeader><text><body><ab><ref target="context:fercan" type="context">FERCAN</ref></ab><div subtype="editions" type="bibliography"><listBibl><bibl xml:id="LIT.1">AE 1994, 1282</bibl></listBibl></div><div subtype="concordances" type="bibliography"><listBibl><bibl type="EDCS">EDCS-00380702<date>zuletzt aufgerufen am 24. Februar 2020</date></bibl><bibl type="EDH">HD051687<date>Version vom 29. September 2008</date></bibl><bibl type="trismegistos">www.trismegistos.org/text/209717<date>zuletzt aufgerufen am 29. Juni 2021</date></bibl></listBibl></div><div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve"><ab><orig><lb n="1" xml:id="MAJ.1"/>HER MAG PACIVS</orig></ab></div><div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve"><ab><lb n="1" xml:id="MIN.1"/><expan><abbr>Her</abbr><ex>culi</ex></expan> <abbr>Mag</abbr> Pacius</ab></div><div type="translation" xml:lang="de"><p>Für  <rs type="divine">Hercules Mag… !</rs> <lb/> 
-Pacius. </p></div><div type="translation" xml:lang="en"><p>To  <rs type="divine">Hercules Mag… !</rs>  <lb/> 
-Pacius. </p></div><div type="apparatus"><app loc="#MIN.1 #MAJ.1"><note>Mag(usano) – AE, EDH</note></app></div><div type="commentary" subtype="general"><p>Pacius: möglicherweise keltisches Cognomen (Kakoschke 2008, CN 2258); der Name Paccius ist als Gentilnomen belegt (Kakoschke 2006, GN 915).</p></div><div type="commentary" subtype="deity"><p> <rs type="divine">Mag…</rs>: Rest von  <rs type="divine">Magusanus</rs> oder einer Variante: Germanisierung des keltischen Kultnamens * <rs type="divine">Mogusenos:</rs> ,der mächtige Alte‘, später sukzessive germanisiert zu  <rs type="divine">Magusenos</rs>,  <rs type="divine">Magusanos</rs> und  <rs type="divine">Macusanos</rs> (de Bernardo Stempel in Spickermann 2005, 146, vgl. Toorians 2003) </p><p>
+                  Celticarum antiquarum)‘ erscheinen. </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latein</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <list>
+                        <item/>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.128/TEI_SOURCE.2020-02-26">Initial Version</change>
+            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.128/TEI_SOURCE.2022-03-07">Version 2</change>
+            <change when="2022" n="3">Version 3</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab>
+                <ref target="context:fercan" type="context">FERCAN</ref>
+            </ab>
+            <div subtype="editions" type="bibliography" org="uniform">
+                <listBibl>
+                    <bibl xml:id="LIT.1">AE 1994, 1282</bibl>
+                </listBibl>
+            </div>
+            <div subtype="concordances" type="bibliography" org="uniform">
+                <listBibl>
+                    <bibl type="EDCS">
+                        <idno>EDCS-00380702</idno> <date>zuletzt aufgerufen am 24. Februar 2020</date>
+                    </bibl>
+                    <bibl type="EDH">
+                        <idno>HD051687</idno> <date>Version vom 29. September 2008</date>
+                    </bibl>
+                    <bibl type="trismegistos">
+                        <idno>www.trismegistos.org/text/209717</idno> <date>zuletzt aufgerufen am 29. Juni 2021</date>
+                    </bibl>
+                </listBibl>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/>HER MAG PACIVS</orig></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/><expan><abbr>Her</abbr><ex>culi</ex></expan> <abbr>Mag</abbr> Pacius</ab></div>
+            <div type="translation" xml:lang="de" org="uniform">
+                <p>Für  <rs type="divine">Hercules Mag… !</rs> <lb/> 
+Pacius. </p>
+            </div>
+            <div type="translation" xml:lang="en" org="uniform">
+                <p>To  <rs type="divine">Hercules Mag… !</rs>  <lb/> 
+Pacius. </p>
+            </div>
+            <div type="apparatus" org="uniform">
+                <app loc="#MIN.1 #MAJ.1">
+                    <note>Mag(usano) – AE, EDH</note>
+                </app>
+            </div>
+            <div type="commentary" subtype="general" org="uniform">
+                <p>Pacius: möglicherweise keltisches Cognomen (Kakoschke 2008, CN 2258); der Name Paccius ist als Gentilnomen belegt (Kakoschke 2006, GN 915).</p>
+            </div>
+            <div type="commentary" subtype="deity" org="uniform">
+                <p> <rs type="divine">Mag…</rs>: Rest von  <rs type="divine">Magusanus</rs> oder einer Variante: Germanisierung des keltischen Kultnamens * <rs type="divine">Mogusenos:</rs> ,der mächtige Alte‘, später sukzessive germanisiert zu  <rs type="divine">Magusenos</rs>,  <rs type="divine">Magusanos</rs> und  <rs type="divine">Macusanos</rs> (de Bernardo Stempel in Spickermann 2005, 146, vgl. Toorians 2003) </p>
+                <p>
 
-Vorkommen in theonymischen Formularen: </p><p>
+Vorkommen in theonymischen Formularen: </p>
+                <p>
  <rs type="divine">Hercules Magusanus</rs>: <lb/>
 - Germania Inferior: sehr gut belegt (CF-GeI-115, 127–132, 134–139, 242–244), 1x darunter in Verbindung mit dem Gottheitsdeterminativ deus (CF-GeI-139). Ob das theonymische Formular in der hier besprochenen Inschrift auf  <rs type="divine">Hercules Magusenus</rs> oder  <rs type="divine">Hercules Magusanus</rs> zu ergänzen ist, ist nicht zu entscheiden, doch ist zweiteres viel häufiger belegt. <lb/> 
-- außerhalb der Germania Inferior: in Rom und in verschiedenen Provinzen vereinzelt nachgewiesen: Belgica, Britannia, Dacia (hier 1x auch als  <rs type="divine">deus invictus Hercules Magusanus</rs> [AE 1977, 702]), Pannonia Superior </p><p>
+- außerhalb der Germania Inferior: in Rom und in verschiedenen Provinzen vereinzelt nachgewiesen: Belgica, Britannia, Dacia (hier 1x auch als  <rs type="divine">deus invictus Hercules Magusanus</rs> [AE 1977, 702]), Pannonia Superior </p>
+                <p>
  <rs type="divine">Magusanus Hercules</rs>: <lb/>
 - Germania Inferior: 1x bezeugt (CF-GeI-133)    <lb/>
-- außerhalb der Germania Inferior: -  </p><p>
+- außerhalb der Germania Inferior: -  </p>
+                <p>
  <rs type="divine">Magusanus</rs>: <lb/>
 - Germania Inferior: in dieser Provinz nicht bezeugt  <lb/>
-- außerhalb der Germania Inferior:  In der Provinz Dacia ist 1x ein  <rs type="divine">deus Mag…</rs> bezeugt (AE 1995, 1280).   </p></div><linkGrp type="alignment" domains="#majuscule #minuscule"><link target="#MAJ.1 #MIN.1"/></linkGrp></body></text></TEI>
+- außerhalb der Germania Inferior:  In der Provinz Dacia ist 1x ein  <rs type="divine">deus Mag…</rs> bezeugt (AE 1995, 1280).   </p>
+            </div>
+            <linkGrp type="alignment" domains="#majuscule #minuscule">
+                <link target="#MAJ.1 #MIN.1"/>
+            </linkGrp>
+        </body>
+    </text>
+</TEI>

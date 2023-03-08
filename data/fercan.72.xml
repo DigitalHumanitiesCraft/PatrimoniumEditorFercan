@@ -1,29 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior72">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="full"><title type="main">Mercurius? Cissonius?</title><title type="sub"
-            >CF-GeI-72</title></title>
+        <title type="full">
+                    <title type="main">Mercurius? Cissonius?</title>
+                    <title type="sub">CF-GeI-72</title>
+                </title>
         <respStmt>
           <resp>Inschriftenedition</resp>
-          <persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+          <persName>
+                        <forename>Werner</forename>
+                        <surname>Petermandl</surname>
+                    </persName>
         </respStmt>
         <respStmt>
           <resp>Archäologische Beschreibung und geografische Daten</resp>
-          <persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+          <persName>
+                        <forename>Astrid</forename>
+                        <surname>Schmölzer</surname>
+                    </persName>
         </respStmt>
         <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 29274-G25</funder>
       </titleStmt>
       <publicationStmt>
-        <publisher><link target="https://antike.uni-graz.at"/><orgName
-            ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte Geschichte
-            und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
-        <authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName
-            ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung - Austrian
-            Centre for Digital Humanities, Karl-Franzens-Universität Graz</orgName></authority>
-        <distributor><link target="https://gams.uni-graz.at"/><orgName>GAMS -
-            Geisteswissenschaftliches Asset Management System</orgName></distributor>
+        <publisher>
+                    <link target="https://antike.uni-graz.at"/>
+                    <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte Geschichte
+            und Epigraphik, Karl-Franzens-Universität Graz</orgName>
+                </publisher>
+        <authority>
+                    <link target="https://informationsmodellierung.uni-graz.at"/>
+                    <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung - Austrian
+            Centre for Digital Humanities, Karl-Franzens-Universität Graz</orgName>
+                </authority>
+        <distributor>
+                    <link target="https://gams.uni-graz.at"/>
+                    <orgName>GAMS -
+            Geisteswissenschaftliches Asset Management System</orgName>
+                </distributor>
         <date when="2022">2022</date>
         <pubPlace>Graz</pubPlace>
         <idno type="PID">o:fercan.72</idno>
@@ -37,7 +52,10 @@
           Celticarum Antiquarum</title>
         <respStmt>
           <resp>Projektleitung</resp>
-          <persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+          <persName>
+                        <forename>Wolfgang</forename>
+                        <surname>Spickermann</surname>
+                    </persName>
         </respStmt>
       </seriesStmt>
       <sourceDesc>
@@ -53,61 +71,88 @@
           <physDesc>
             <objectDesc>
               <supportDesc>
-                <support><p>Von dem Weihestein ist der Aufsatz samt Resten der Bekrönung mit
+                <support>
+                                    <p>Von dem Weihestein ist der Aufsatz samt Resten der Bekrönung mit
                     mittigem Giebel und seitlichen Pulvini und dem anschließenden Teil des
                     Altarkörpers mit nicht gerahmtem Inschriftenfeld erhalten. Das trennende Gesims
                     ist stark bestoßen und teilweise abgeschlagen, dürfte aber einfach profiliert
                     gewesen sein.<lb/>Der Aufsatz weist Rest eines Reliefdekors auf. Genaue Form und
                     Gestaltung können aufgrund der Beschädigung allerdings nicht mehr nachvollzogen
-                    werden.</p><material><ref type="context"
-                      target="context:fercan.material.kalkstein"
-                      ana="https://gams.uni-graz.at/o:fercan.arch#C.120210"
-                    >Kalkstein</ref></material><objectType>Weihealtar</objectType><dimensions>
+                    werden.</p>
+                                    <material>
+                                        <ref type="context" target="context:fercan.material.kalkstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref>
+                                    </material>
+                                    <objectType>Weihealtar</objectType>
+                                    <dimensions>
                     <height unit="cm">34,0</height>
                     <width unit="cm">36,0</width>
                     <depth unit="cm">20,0</depth>
-                  </dimensions></support>
-                <condition><ref type="context"
-                    target="context:fercan.condition-o.kleineres_fragment"
-                    ana="https://gams.uni-graz.at/o:fercan.arch#C.130320">kleineres
-                  Fragment</ref></condition>
+                  </dimensions>
+                                </support>
+                <condition>
+                                    <ref type="context" target="context:fercan.condition-o.kleineres_fragment" ana="https://gams.uni-graz.at/o:fercan.arch#C.130320">kleineres
+                  Fragment</ref>
+                                </condition>
               </supportDesc>
               <layoutDesc>
-                <layout><p>Es sind nur geringe Reste der rechten oberen Ecke des Inschriftentextes
-                    vorhanden. Die Oberfläche der Inschrift ist stark bestoßen.</p><note
-                    type="condition">kleineres Fragment</note></layout>
+                <layout>
+                                    <p>Es sind nur geringe Reste der rechten oberen Ecke des Inschriftentextes
+                    vorhanden. Die Oberfläche der Inschrift ist stark bestoßen.</p>
+                                    <note type="condition">kleineres Fragment</note>
+                                </layout>
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote><desc type="execution">gemeißelt</desc><height unit="cm" atLeast="4.0"
-                  atMost="5.0">4,0–5,0 cm</height></handNote>
+              <handNote>
+                                <desc type="execution">gemeißelt</desc>
+                                <height unit="cm" atLeast="4.0" atMost="5.0">4,0–5,0 cm</height>
+                            </handNote>
             </handDesc>
             <decoDesc>
-              <decoNote><p>Laut Galsterer/Galsterer (2010, 208) soll sich auf der rechten
-                  vorhandenen Seitenansicht der Rest eines Baumes befinden.</p><term
-                  ana="https://gams.uni-graz.at/o:fercan.arch#C.150800"><ref type="context"
-                    target="context:fercan.arch.aufsatzschmuck">Aufsatzschmuck</ref></term><term
-                  ana="https://gams.uni-graz.at/o:fercan.arch#C.253200"><ref type="context"
-                    target="context:fercan.arch.baum">Baum</ref></term><term
-                  ana="https://gams.uni-graz.at/o:fercan.arch#C.160200"><ref type="context"
-                    target="context:fercan.arch.blattdekor">Blattdekor</ref></term><term
-                  ana="https://gams.uni-graz.at/o:fercan.arch#C.130300"><ref type="context"
-                    target="context:fercan.arch.fragment">Fragment</ref></term><term
-                  ana="https://gams.uni-graz.at/o:fercan.arch#C.160000"><ref type="context"
-                    target="context:fercan.arch.reliefdekor">Reliefdekor</ref></term><term
-                  ana="https://gams.uni-graz.at/o:fercan.arch#C.150400"><ref type="context"
-                    target="context:fercan.arch.reliefschmuck">Reliefschmuck</ref></term><term
-                  ana="https://gams.uni-graz.at/o:fercan.arch#C.253060"><ref type="context"
-                    target="context:fercan.arch.rosette">Rosette</ref></term></decoNote>
+              <decoNote>
+                                <p>Laut Galsterer/Galsterer (2010, 208) soll sich auf der rechten
+                  vorhandenen Seitenansicht der Rest eines Baumes befinden.</p>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">
+                                    <ref type="context" target="context:fercan.arch.aufsatzschmuck">Aufsatzschmuck</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253200">
+                                    <ref type="context" target="context:fercan.arch.baum">Baum</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160200">
+                                    <ref type="context" target="context:fercan.arch.blattdekor">Blattdekor</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">
+                                    <ref type="context" target="context:fercan.arch.fragment">Fragment</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160000">
+                                    <ref type="context" target="context:fercan.arch.reliefdekor">Reliefdekor</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150400">
+                                    <ref type="context" target="context:fercan.arch.reliefschmuck">Reliefschmuck</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">
+                                    <ref type="context" target="context:fercan.arch.rosette">Rosette</ref>
+                                </term>
+                            </decoNote>
             </decoDesc>
           </physDesc>
           <history>
-            <origin><origPlace><placeName ref="https://pleiades.stoa.org/places/108751"
-                  >CCAA</placeName><region>CCAA</region></origPlace><origDate/></origin>
-            <provenance type="found" when="1977"><placeName><ref type="context"
-                  target="context:fercan.geog.modern.koeln">Köln</ref></placeName><p>St. Gereon</p><location>
+            <origin>
+                            <origPlace>
+                                <placeName ref="https://pleiades.stoa.org/places/108751">CCAA</placeName>
+                                <region>CCAA</region>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+            <provenance type="found" when="1977">
+                            <placeName>
+                                <ref type="context" target="context:fercan.geog.modern.koeln">Köln</ref>
+                            </placeName>
+                            <p>St. Gereon</p>
+                            <location>
                 <geo decls="#WGS">50.937769 6.958583</geo>
-              </location></provenance>
+              </location>
+                        </provenance>
             <provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf:
               Photo und Galsterer/Galsterer 2010</provenance>
           </history>
@@ -117,18 +162,20 @@
         </listPlace>
         <listPerson>
           <person>
-            <persName type="divine" subtype="celtic_normalized"><ref type="context"
-                target="context:fercan.dcn.mercurius__cissonius_">Mercurius?
-              Cissonius?</ref></persName>
+            <persName type="divine" subtype="celtic_normalized">
+                            <ref type="context" target="context:fercan.dcn.mercurius__cissonius_">Mercurius?
+              Cissonius?</ref>
+                        </persName>
           </person>
           <person>
-            <persName type="divine" subtype="celtic_diplomatic"><ref type="context"
-                target="context:fercan.dcd.mercurius__cissonius_._merc_urio___cisso__ni"
-                >[Merc(urio)? Cisso?]nio</ref></persName>
+            <persName type="divine" subtype="celtic_diplomatic">
+                            <ref type="context" target="context:fercan.dcd.mercurius__cissonius_._merc_urio___cisso__ni">[Merc(urio)? Cisso?]nio</ref>
+                        </persName>
           </person>
           <person>
-            <persName type="divine" subtype="celtic_element"><ref type="context"
-                target="context:fercan.dce.cissonius_">Cissonius?</ref></persName>
+            <persName type="divine" subtype="celtic_element">
+                            <ref type="context" target="context:fercan.dce.cissonius_">Cissonius?</ref>
+                        </persName>
           </person>
         </listPerson>
         <listOrg>
@@ -176,10 +223,8 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.72/TEI_SOURCE.2020-02-26"
-        >Initial Version</change>
-      <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.72/TEI_SOURCE.2022-03-07"
-        >Version 2</change>
+      <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.72/TEI_SOURCE.2020-02-26">Initial Version</change>
+      <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.72/TEI_SOURCE.2022-03-07">Version 2</change>
       <change when="2022" n="3">Version 3</change>
     </revisionDesc>
   </teiHeader>
@@ -190,8 +235,10 @@
   </facsimile>
   <text>
     <body>
-      <ab><ref target="context:fercan" type="context">FERCAN</ref></ab>
-      <div subtype="editions" type="bibliography">
+      <ab>
+                <ref target="context:fercan" type="context">FERCAN</ref>
+            </ab>
+      <div subtype="editions" type="bibliography" org="uniform">
         <listBibl>
           <bibl xml:id="LIT.1">Galsterer/Galsterer 1981, Nr.18</bibl>
           <bibl xml:id="LIT.2">AE 1981, 672</bibl>
@@ -199,27 +246,33 @@
           <bibl xml:id="LIT.4">KIK 2012, Nr.116</bibl>
         </listBibl>
       </div>
-      <div subtype="concordances" type="bibliography">
+      <div subtype="concordances" type="bibliography" org="uniform">
         <listBibl>
-          <bibl type="EDCS">EDCS-47600172<date>zuletzt aufgerufen am 24. Februar 2020</date></bibl>
-          <bibl type="EDH">HD005434<date>Version vom 24. Januar 2018</date></bibl>
-          <bibl type="trismegistos">www.trismegistos.org/text/208796<date>zuletzt aufgerufen am 29.
-              Juni 2021</date></bibl>
+          <bibl type="EDCS">
+                        <idno>EDCS-47600172</idno> <date>zuletzt aufgerufen am 24. Februar 2020</date>
+                    </bibl>
+          <bibl type="EDH">
+                        <idno>HD005434</idno> <date>Version vom 24. Januar 2018</date>
+                    </bibl>
+          <bibl type="trismegistos">
+                        <idno>www.trismegistos.org/text/208796</idno> <date>zuletzt aufgerufen am 29.
+              Juni 2021</date>
+                    </bibl>
         </listBibl>
       </div>
-      <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve"><ab><orig><lb n="1" xml:id="MAJ.1"/><gap reason="lost" extent="unknown" unit="character"/>N<unclear>I</unclear>O <lb n="2" xml:id="MAJ.2"/> 
-<gap reason="lost" extent="unknown" unit="character"/>CANI <lb n="3" xml:id="MAJ.3"/> 
+      <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>N<unclear>I</unclear>O <lb n="2"/> 
+<gap reason="lost" extent="unknown" unit="character"/>CANI <lb n="3"/> 
 <gap reason="lost" extent="unknown" unit="character"/><unclear>RO</unclear></orig></ab></div>
-      <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve"><ab><lb n="1" xml:id="MIN.1"/><supplied cert="low" reason="lost"><expan><abbr>Merc</abbr><ex>urio</ex></expan></supplied> <supplied cert="low" reason="lost">Cisso</supplied>nio <lb n="2" xml:id="MIN.2"/><gap reason="lost" extent="unknown" unit="character"/>CANI<lb n="3" xml:id="MIN.3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">p</supplied><expan><abbr>ro</abbr><ex cert="low"/></expan></ab></div>
-      <div type="translation" xml:lang="de">
+      <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/><supplied cert="low" reason="lost"><expan><abbr>Merc</abbr><ex>urio</ex></expan></supplied> <supplied cert="low" reason="lost">Cisso</supplied>nio <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>CANI<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">p</supplied><expan><abbr>ro</abbr><ex cert="low"/></expan></ab></div>
+      <div type="translation" xml:lang="de" org="uniform">
         <p>Für <rs type="divine">Mercurius Cissonius!</rs>
           <lb/> … für …</p>
       </div>
-      <div type="translation" xml:lang="en">
+      <div type="translation" xml:lang="en" org="uniform">
         <p>To <rs type="divine">Mercurius Cissonius!</rs>
           <lb/> … for …</p>
       </div>
-      <div type="apparatus">
+      <div type="apparatus" org="uniform">
         <app loc="#MIN.2 #MAJ.2">
           <note>[et Ahrec?]cani- – Galsterer/Galsterer 1981, AE; [et matronis Ahrec?]cani- –
             Galsterer/Galsterer 2010, KIK 2012, EDH; diese Ergänzungen werden auf CIL XIII 8161
@@ -230,7 +283,7 @@
             Z.4 mit [se et suis?] – Galsterer/Galsterer 2010, KIK 2012, EDH</note>
         </app>
       </div>
-      <div type="commentary" subtype="deity">
+      <div type="commentary" subtype="deity" org="uniform">
         <p>
           <rs type="divine">Cissonius:</rs> keltisch, Funktionsbeiname: ‚der zu den Kisten Gehörige‘
           (de Bernardo Stempel in Spickermann 2005, 139); eine andere Deutung leitet den Namen vom

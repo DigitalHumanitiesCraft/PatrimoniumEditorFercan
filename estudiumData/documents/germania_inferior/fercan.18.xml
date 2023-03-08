@@ -1,18 +1,220 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior18"><teiHeader><fileDesc><titleStmt><title type="full"><title type="main">Albiahenae</title><title type="sub">CF-GeI-18</title></title><respStmt><resp>Inschriftenedition</resp><persName><forename>Werner</forename><surname>Petermandl</surname></persName></respStmt><respStmt><resp>Archäologische Beschreibung und geografische Daten</resp><persName><forename>Astrid</forename><surname>Schmölzer</surname></persName></respStmt><funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
-                  29274-G25</funder></titleStmt><publicationStmt><publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
-                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher><authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior18">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Albiahenae</title>
+                    <title type="sub">CF-GeI-18</title>
+                </title>
+                <respStmt>
+                    <resp>Inschriftenedition</resp>
+                    <persName>
+                        <forename>Werner</forename>
+                        <surname>Petermandl</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Archäologische Beschreibung und geografische Daten</resp>
+                    <persName>
+                        <forename>Astrid</forename>
+                        <surname>Schmölzer</surname>
+                    </persName>
+                </respStmt>
+                <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
+                  29274-G25</funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <link target="https://antike.uni-graz.at"/>
+                    <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
+                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
+                </publisher>
+                <authority>
+                    <link target="https://informationsmodellierung.uni-graz.at"/>
+                    <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
                     Informationsmodellierung - Austrian Centre for Digital Humanities,
-                    Karl-Franzens-Universität Graz</orgName></authority><distributor><link target="https://gams.uni-graz.at"/><orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor><date when="2022">2022</date><pubPlace>Graz</pubPlace><idno type="PID">o:fercan.18</idno><availability><licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
-                    BY-NC 4.0</licence></availability></publicationStmt><seriesStmt><title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
-                  Celticarum Antiquarum</title><respStmt><resp>Projektleitung</resp><persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName></respStmt></seriesStmt><sourceDesc><msDesc><msIdentifier><settlement>Bonn</settlement><repository>Rheinisches Landesmuseum</repository><idno>U 37</idno></msIdentifier><msContents><summary>Weihinschrift</summary></msContents><physDesc><objectDesc><supportDesc><support><p>Der Stein ist oberhalb der plastischen Darstellung der drei Göttinnen/Matronen abgebrochen. Die linke Seite ist stark bestoßen, die linke Matrone ist im Bereich des Unterkörpers abgeschlagen. Das Inschriftenfeld war vermutlich nicht gerahmt, ist jedoch an allen Seiten abgeschlagen. Die drei sitzend dargestellten Göttinnen befinden sich in einer leicht eingetieften Nische, die, wie an der rechts erhaltenen Säule erkennbar, auf beiden Seiten architektonisch gerahmt war. Der Säulenschaft war glatt und stand auf einer niedrigen einstufigen Basis. Bekrönt wird er von einem Kapitell, an dem wulstige Blätter erkennbar sind.<lb/>Die Nische setzt sich durch eine leichte Wölbung, vermutlich ein stark bestoßenes kleines Gesims, vom Inschriftenfeld ab. Der Sockel ist nicht erkennbar, da der Stein am unteren Ende stark bestoßen ist. Über der rechten erhaltenen Säule ist der Aufsatz des Altars erkennbar, allerdings ist die Gestaltung des Giebels unklar. Er könnte, wie Lehner (1918, 122f.) meint, geradlinig verlaufen sein, doch auch Exemplare mit gebrochenem Giebel sind bekannt.</p><material><ref type="context" target="context:fercan.material.sandstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref></material><objectType>Aedicula-Altar</objectType><dimensions><height unit="cm">80,0</height><width unit="cm">46,0</width><depth unit="cm">26,0</depth></dimensions></support><condition><ref type="context" target="context:fercan.condition-o.groeszere_fehlstelle_n" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref></condition></supportDesc><layoutDesc><layout><p>Vom Inschriftentext ist nur etwa ein Drittel der rechten Seite von der ersten bis zur letzten Zeile erhalten.</p><note type="condition">größeres Fragment</note></layout></layoutDesc></objectDesc><handDesc><handNote><desc type="execution">gemeißelt</desc></handNote></handDesc><decoDesc><decoNote><p>Die drei Matronen sind eng beieinandersitzend in einer wenig eingetieften Nische oberhalb des Inschriftenfeldes dargestellt. Aufgrund einer Beschädigung der linken Seite ist die linke Matrone nur im Brust- und Kopfbereich klar erhalten geblieben. <lb/>
+                    Karl-Franzens-Universität Graz</orgName>
+                </authority>
+                <distributor>
+                    <link target="https://gams.uni-graz.at"/>
+                    <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                </distributor>
+                <date when="2022">2022</date>
+                <pubPlace>Graz</pubPlace>
+                <idno type="PID">o:fercan.18</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
+                    BY-NC 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+                  Celticarum Antiquarum</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Wolfgang</forename>
+                        <surname>Spickermann</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Bonn</settlement>
+                        <repository>Rheinisches Landesmuseum</repository>
+                        <idno>U 37</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Weihinschrift</summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Der Stein ist oberhalb der plastischen Darstellung der drei Göttinnen/Matronen abgebrochen. Die linke Seite ist stark bestoßen, die linke Matrone ist im Bereich des Unterkörpers abgeschlagen. Das Inschriftenfeld war vermutlich nicht gerahmt, ist jedoch an allen Seiten abgeschlagen. Die drei sitzend dargestellten Göttinnen befinden sich in einer leicht eingetieften Nische, die, wie an der rechts erhaltenen Säule erkennbar, auf beiden Seiten architektonisch gerahmt war. Der Säulenschaft war glatt und stand auf einer niedrigen einstufigen Basis. Bekrönt wird er von einem Kapitell, an dem wulstige Blätter erkennbar sind.<lb/>Die Nische setzt sich durch eine leichte Wölbung, vermutlich ein stark bestoßenes kleines Gesims, vom Inschriftenfeld ab. Der Sockel ist nicht erkennbar, da der Stein am unteren Ende stark bestoßen ist. Über der rechten erhaltenen Säule ist der Aufsatz des Altars erkennbar, allerdings ist die Gestaltung des Giebels unklar. Er könnte, wie Lehner (1918, 122f.) meint, geradlinig verlaufen sein, doch auch Exemplare mit gebrochenem Giebel sind bekannt.</p>
+                                    <material>
+                                        <ref type="context" target="context:fercan.material.sandstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref>
+                                    </material>
+                                    <objectType>Aedicula-Altar</objectType>
+                                    <dimensions>
+                                        <height unit="cm">80,0</height>
+                                        <width unit="cm">46,0</width>
+                                        <depth unit="cm">26,0</depth>
+                                    </dimensions>
+                                </support>
+                                <condition>
+                                    <ref type="context" target="context:fercan.condition-o.groeszere_fehlstelle_n" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Vom Inschriftentext ist nur etwa ein Drittel der rechten Seite von der ersten bis zur letzten Zeile erhalten.</p>
+                                    <note type="condition">größeres Fragment</note>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <desc type="execution">gemeißelt</desc>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <p>Die drei Matronen sind eng beieinandersitzend in einer wenig eingetieften Nische oberhalb des Inschriftenfeldes dargestellt. Aufgrund einer Beschädigung der linken Seite ist die linke Matrone nur im Brust- und Kopfbereich klar erhalten geblieben. <lb/>
 Charakteristisch sind die voluminösen Hauben der beiden äußeren Matronen, die nierenförmig auf den Köpfen ruhen. Die mittlere Göttin trägt offenes Haar. Aufgrund des enganliegenden Haarschopfes wirkt ihr Kopf verhältnismäßig sehr klein. Die mittlere und die rechte Matrone halten in ihrem Schoß jeweils eine Schale mit Früchten bzw. könnte die rechte Matrone auch eine Art Brotlaib auf den Knien halten. Unklar ist, was die linke Matrone auf ihrem Schoß gehalten hat. <lb/>
 Gut erkennbar ist bei allen drei Göttinnen, soweit erhalten, der lange Mantel, der über Schultern und Arme sowie auf die Knie in schweren Falten herabfällt. Bei der mittleren und der rechten Matrone ist die Raffung in Brustmitte gut erkennbar. Auch die Fibel, die den Stoff zusammenhält, ist klar zu sehen. Bei der mittleren Matrone ist zudem im Halsausschnitt eine Kette mit Lunula-Anhänger klar erkennbar. Bei den beiden äußeren Matronen ist kein Schmuckelement zu sehen. <lb/>
 Die Matronen tragen ein im Sitzen knöchellanges Kleid. Hinter ihren Füßen wird die durchgehende Bank sichtbar. Auch hinter den Matronen auf ungefährer Schulterhöhe kann ein schmaler Rand der Sitzgelegenheit erahnt werden. <lb/>
 Die Aedicula erscheint nur leicht in den Schrein eingetieft. Die Darstellungen der Matronen lassen durch ihre scharfen Umrisse ihrer Silhouetten die Nische tiefer wirken. Da sich die Nischenrückwand dicht an ihren Körpern hält, wäre ein geradliniger Abschluss zu vermuten, wie auch Lehner (1918, 122f.) meint. <lb/>
-Auf der rechten Seite soll eine Akanthusranke in Relief dargestellt sein.</p><term ana="https://gams.uni-graz.at/o:fercan.arch#C.253020"><ref type="context" target="context:fercan.arch.akanthus">Akanthus</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.220000"><ref type="context" target="context:fercan.arch.architektur">Architektur</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.252400"><ref type="context" target="context:fercan.arch.bank">Bank</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.252710"><ref type="context" target="context:fercan.arch.brot">Brot</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.210000"><ref type="context" target="context:fercan.arch.frucht">Frucht</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.252840"><ref type="context" target="context:fercan.arch.gefaesz">Gefäß</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.240100"><ref type="context" target="context:fercan.arch.goetterbild">Götterbild</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.251910"><ref type="context" target="context:fercan.arch.halskette">Halskette</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.220200"><ref type="context" target="context:fercan.arch.kapitell">Kapitell</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.251911"><ref type="context" target="context:fercan.arch.lunula">Lunula</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.251700"><ref type="context" target="context:fercan.arch.obstschale">Obstschale</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.253000"><ref type="context" target="context:fercan.arch.pflanzenornament">Pflanzenornament</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.253010"><ref type="context" target="context:fercan.arch.ranke">Ranke</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.150400"><ref type="context" target="context:fercan.arch.reliefschmuck">Reliefschmuck</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.220300"><ref type="context" target="context:fercan.arch.saeule">Säule</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.251900"><ref type="context" target="context:fercan.arch.schmuck">Schmuck</ref></term></decoNote></decoDesc></physDesc><history><origin><origPlace><region>CCAA</region></origPlace><origDate/></origin><provenance type="found" when="1863"><placeName><ref type="context" target="context:fercan.geog.modern.oberelvenich">Oberelvenich</ref></placeName><p>sog. „Heidenfeld“</p><location><geo decls="#WGS">50.7821 6.708241</geo></location><note>gemeinsam mit CF-GeI-11, CF-GeI-12 und CF-GeI-13 </note></provenance><provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)</provenance></history></msDesc><listPlace><place/></listPlace><listPerson><person><persName type="divine" subtype="celtic_normalized"><ref type="context" target="context:fercan.dcn.albiahenae">Albiahenae</ref></persName></person><person><persName type="divine" subtype="celtic_diplomatic"><ref type="context" target="context:fercan.dcd.albiahenae.albia_henis____">Albia[henis---]</ref></persName></person><person><persName type="divine" subtype="celtic_element"><ref type="context" target="context:fercan.dce.albiahenae">Albiahenae</ref></persName></person></listPerson><listOrg><org/></listOrg></sourceDesc></fileDesc><encodingDesc><geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl><editorialDecl><p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p><p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
-                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p></editorialDecl><projectDesc><p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+Auf der rechten Seite soll eine Akanthusranke in Relief dargestellt sein.</p>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253020">
+                                    <ref type="context" target="context:fercan.arch.akanthus">Akanthus</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220000">
+                                    <ref type="context" target="context:fercan.arch.architektur">Architektur</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252400">
+                                    <ref type="context" target="context:fercan.arch.bank">Bank</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252710">
+                                    <ref type="context" target="context:fercan.arch.brot">Brot</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.210000">
+                                    <ref type="context" target="context:fercan.arch.frucht">Frucht</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252840">
+                                    <ref type="context" target="context:fercan.arch.gefaesz">Gefäß</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.240100">
+                                    <ref type="context" target="context:fercan.arch.goetterbild">Götterbild</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251910">
+                                    <ref type="context" target="context:fercan.arch.halskette">Halskette</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220200">
+                                    <ref type="context" target="context:fercan.arch.kapitell">Kapitell</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251911">
+                                    <ref type="context" target="context:fercan.arch.lunula">Lunula</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251700">
+                                    <ref type="context" target="context:fercan.arch.obstschale">Obstschale</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253000">
+                                    <ref type="context" target="context:fercan.arch.pflanzenornament">Pflanzenornament</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253010">
+                                    <ref type="context" target="context:fercan.arch.ranke">Ranke</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150400">
+                                    <ref type="context" target="context:fercan.arch.reliefschmuck">Reliefschmuck</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220300">
+                                    <ref type="context" target="context:fercan.arch.saeule">Säule</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251900">
+                                    <ref type="context" target="context:fercan.arch.schmuck">Schmuck</ref>
+                                </term>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <region>CCAA</region>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1863">
+                            <placeName>
+                                <ref type="context" target="context:fercan.geog.modern.oberelvenich">Oberelvenich</ref>
+                            </placeName>
+                            <p>sog. „Heidenfeld“</p>
+                            <location>
+                                <geo decls="#WGS">50.7821 6.708241</geo>
+                            </location>
+                            <note>gemeinsam mit CF-GeI-11, CF-GeI-12 und CF-GeI-13 </note>
+                        </provenance>
+                        <provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)</provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person>
+                        <persName type="divine" subtype="celtic_normalized">
+                            <ref type="context" target="context:fercan.dcn.albiahenae">Albiahenae</ref>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName type="divine" subtype="celtic_diplomatic">
+                            <ref type="context" target="context:fercan.dcd.albiahenae.albia_henis____">Albia[henis---]</ref>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName type="divine" subtype="celtic_element">
+                            <ref type="context" target="context:fercan.dce.albiahenae">Albiahenae</ref>
+                        </persName>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org/>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+            <editorialDecl>
+                <p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+                <p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+            </editorialDecl>
+            <projectDesc>
+                <p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
                   Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
-                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p><p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+                <p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
                   lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
                   zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
                   besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
@@ -26,14 +228,94 @@ Auf der rechten Seite soll eine Akanthusranke in Relief dargestellt sein.</p><te
                   beigetragen werden.<lb/> Die Abschlusspublikation wird ergänzt um einen
                   ausführlichen sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo
                   Stempel) in der Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum
-                  Celticarum antiquarum)‘ erscheinen. </p></projectDesc></encodingDesc><profileDesc><langUsage><language ident="la">Latein</language></langUsage><textClass><keywords><list><item><ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref></item><item/></list></keywords></textClass></profileDesc><revisionDesc><change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.18/TEI_SOURCE.2020-02-26">Initial Version</change><change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.18/TEI_SOURCE.2022-03-07">Version 2</change><change when="2022" n="3">Version 3</change></revisionDesc></teiHeader><facsimile><graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="file:///0018_Front.jpg"><desc>Front, CIL XIII Projekt, CC BY-NC</desc></graphic></facsimile><text><body><ab><ref target="context:fercan" type="context">FERCAN</ref></ab><div subtype="editions" type="bibliography" org="uniform"><listBibl><bibl xml:id="LIT.1">CIL XIII 7933</bibl><bibl xml:id="LIT.2">Lehner 1918, Nr.253</bibl><bibl xml:id="LIT.3">Espérandieu VIII 6353</bibl></listBibl></div><div subtype="concordances" type="bibliography" org="uniform"><listBibl><bibl type="EDCS"><idno>EDCS-11100159</idno> <date>zuletzt aufgerufen am 24. Februar 2020</date></bibl><bibl type="trismegistos"><idno>www.trismegistos.org/text/414994</idno> <date>zuletzt aufgerufen am 26. Juli 2021</date></bibl></listBibl></div><div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ALBIA <lb n="2"/> 
+                  Celticarum antiquarum)‘ erscheinen. </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latein</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <list>
+                        <item>
+                            <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
+                        </item>
+                        <item/>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.18/TEI_SOURCE.2020-02-26">Initial Version</change>
+            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.18/TEI_SOURCE.2022-03-07">Version 2</change>
+            <change when="2022" n="3">Version 3</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="file:///0018_Front.jpg">
+            <desc>Front, CIL XIII Projekt, CC BY-NC</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <ab>
+                <ref target="context:fercan" type="context">FERCAN</ref>
+            </ab>
+            <div subtype="editions" type="bibliography" org="uniform">
+                <listBibl>
+                    <bibl xml:id="LIT.1">CIL XIII 7933</bibl>
+                    <bibl xml:id="LIT.2">Lehner 1918, Nr.253</bibl>
+                    <bibl xml:id="LIT.3">Espérandieu VIII 6353</bibl>
+                </listBibl>
+            </div>
+            <div subtype="concordances" type="bibliography" org="uniform">
+                <listBibl>
+                    <bibl type="EDCS"><idno>
+                         
+                    </idno> <date>zuletzt aufgerufen am 24. Februar 2020</date></bibl>
+                    <bibl type="trismegistos"><idno>
+                         
+                    </idno> <date>zuletzt aufgerufen am 26. Juli 2021</date></bibl>
+                </listBibl>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ALBIA <lb n="2"/> 
 <gap reason="lost" extent="unknown" unit="character"/>TIAE <lb n="3"/> 
 <gap reason="lost" extent="unknown" unit="character"/>VERA <lb n="4"/> 
-<gap reason="lost" extent="unknown" unit="character"/> L · <gap reason="lost" extent="unknown" unit="character"/></orig></ab></div><div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> Albia<lb n="2" break="no"/><supplied reason="lost">henis </supplied><gap reason="lost" extent="unknown" unit="character"/>tiae<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>vera<lb n="4"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan></supplied> <expan><abbr>l</abbr><ex>ibens</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>erito</ex></expan></supplied></ab></div><div type="translation" xml:lang="de" org="uniform"><p>Für die  <rs type="divine">... Albiahenae!</rs> <lb/>
- …tiae … …?vera hat das Gelübde gerne und verdientermaßen erfüllt.</p></div><div type="translation" xml:lang="en" org="uniform"><p>To the  <rs type="divine">... Albiahenae!</rs> <lb/> 
-…tiae … …?vera has fulfilled a vow willingly and deservedly.</p></div><div type="apparatus" org="uniform"><app loc="#MIN.1 #MAJ.1"><note>[Matronis] Albia – Lehner, Espérandieu</note></app></div><div type="commentary" subtype="general" org="uniform"><p>…?vera: darunter ist entweder der hintere Teil des Cognomens der Dedikantin zu verstehen oder das Cognomen Vera, die weibliche Form von Verus: lateinisches Cognomen, überall äußerst gängig (Kakoschke 2008, CN 3295)</p></div><div type="commentary" subtype="deity" org="uniform"><p> <rs type="divine">Albiahenae:</rs> keltisch germanisches Kompositum: ‚die zur diesseitigen Welt Gehörigen‘ (de Bernardo Stempel in Spickermann 2005, 142) </p><p>
+<gap reason="lost" extent="unknown" unit="character"/> L · <gap reason="lost" extent="unknown" unit="character"/></orig></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> Albia<lb n="2" break="no"/><supplied reason="lost">henis </supplied><gap reason="lost" extent="unknown" unit="character"/>tiae<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>vera<lb n="4"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan></supplied> <expan><abbr>l</abbr><ex>ibens</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>erito</ex></expan></supplied></ab></div>
+            <div type="translation" xml:lang="de" org="uniform">
+                <p>Für die  <rs type="divine">... Albiahenae!</rs> <lb/>
+ …tiae … …?vera hat das Gelübde gerne und verdientermaßen erfüllt.</p>
+            </div>
+            <div type="translation" xml:lang="en" org="uniform">
+                <p>To the  <rs type="divine">... Albiahenae!</rs> <lb/> 
+…tiae … …?vera has fulfilled a vow willingly and deservedly.</p>
+            </div>
+            <div type="apparatus" org="uniform">
+                <app loc="#MIN.1 #MAJ.1">
+                    <note>[Matronis] Albia – Lehner, Espérandieu</note>
+                </app>
+            </div>
+            <div type="commentary" subtype="general" org="uniform">
+                <p>…?vera: darunter ist entweder der hintere Teil des Cognomens der Dedikantin zu verstehen oder das Cognomen Vera, die weibliche Form von Verus: lateinisches Cognomen, überall äußerst gängig (Kakoschke 2008, CN 3295)</p>
+            </div>
+            <div type="commentary" subtype="deity" org="uniform">
+                <p> <rs type="divine">Albiahenae:</rs> keltisch germanisches Kompositum: ‚die zur diesseitigen Welt Gehörigen‘ (de Bernardo Stempel in Spickermann 2005, 142) </p>
+                <p>
 
-Vorkommen in theonymischen Formularen: </p><p>
+Vorkommen in theonymischen Formularen: </p>
+                <p>
  <rs type="divine">Albiahenae</rs>:  <lb/> 
 - Germania Inferior: insgesamt maximal 4x belegt (CF-GeI-11 bis CF-GeI-13 und CF-GeI-18). In dieser Inschrift ist links von dem auf  <rs type="divine">Albiahenae</rs> ergänzten Götternamen noch ausreichend Platz, sodass hier sehr wohl  <rs type="divine">Matronae</rs> aber auch  <rs type="divine">Matres</rs> gestanden haben könnte, aber auch ein weiterer Göttername wäre denkbar. Auf Matronen weist jedenfalls das Relief mit einer sog. Matronendreiheit. Alle Zeugnisse stammen aus Oberelvenich. <lb/> 
-- außerhalb der Germania Inferior: - </p></div><linkGrp type="alignment" domains="#majuscule #minuscule"><link target="#MAJ.1 #MIN.1"/><link target="#MAJ.2 #MIN.2"/><link target="#MAJ.3 #MIN.3"/><link target="#MAJ.4 #MIN.4"/></linkGrp></body></text></TEI>
+- außerhalb der Germania Inferior: - </p>
+            </div>
+            <linkGrp type="alignment" domains="#majuscule #minuscule">
+                <link target="#MAJ.1 #MIN.1"/>
+                <link target="#MAJ.2 #MIN.2"/>
+                <link target="#MAJ.3 #MIN.3"/>
+                <link target="#MAJ.4 #MIN.4"/>
+            </linkGrp>
+        </body><back><note type="Objbeschr_note"/><note type="ArchKlass_note"/><note type="Material_note"/><note type="Inschrifttraeger_note"/><note type="VerwahrortOrt_note"/><note type="InvNr_note"/><note type="Fundstelle_note"/><note type="Fundumst_note"/><note type="Fundjahr_note"/><note type="FOantik_note"/><note type="FOmodern_note"/><note type="civitas_note"/><note type="Autopsie_note"/><note type="Appcrit_note"/><note type="Abb_note"/><note type="englUEbers_note"/><note type="dtUEbers_note"/><note type="Editionen_note"/><note type="ErhzustObj_note"/><note type="Masse_note"/><note type="Ikonogr_note"/><note type="Inschrtext_note"/><note type="ErhzustInschr_note"/><note type="Schrifttechnik_note"/><note type="Buchsthoehe_note"/><note type="Notvar_note"/><note type="SonstKomm_note"/><note type="Datierung_note"/></back>
+    </text>
+</TEI>

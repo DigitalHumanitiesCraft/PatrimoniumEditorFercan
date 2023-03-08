@@ -1,17 +1,239 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><teiHeader><fileDesc><titleStmt><title type="full"><title type="main">Nehalennia</title><title type="sub">CF-GeI-326</title></title><respStmt><resp>Inschriftenedition</resp><persName><forename>Werner</forename><surname>Petermandl</surname></persName></respStmt><respStmt><resp>Archäologische Beschreibung und geografische Daten</resp><persName><forename>Astrid</forename><surname>Schmölzer</surname></persName></respStmt><funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
-                  29274-G25</funder></titleStmt><publicationStmt><publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
-                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher><authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior326">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Nehalennia</title>
+                    <title type="sub">CF-GeI-326</title>
+                </title>
+                <respStmt>
+                    <resp>Inschriftenedition</resp>
+                    <persName>
+                        <forename>Werner</forename>
+                        <surname>Petermandl</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Archäologische Beschreibung und geografische Daten</resp>
+                    <persName>
+                        <forename>Astrid</forename>
+                        <surname>Schmölzer</surname>
+                    </persName>
+                </respStmt>
+                <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
+                  29274-G25</funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <link target="https://antike.uni-graz.at"/>
+                    <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
+                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
+                </publisher>
+                <authority>
+                    <link target="https://informationsmodellierung.uni-graz.at"/>
+                    <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
                     Informationsmodellierung - Austrian Centre for Digital Humanities,
-                    Karl-Franzens-Universität Graz</orgName></authority><distributor><link target="https://gams.uni-graz.at"/><orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor><date when="2022">2022</date><pubPlace>Graz</pubPlace><idno type="PID">o:fercan.326</idno><availability><licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
-                    BY-NC 4.0</licence></availability></publicationStmt><seriesStmt><title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
-                  Celticarum Antiquarum</title><respStmt><resp>Projektleitung</resp><persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName></respStmt></seriesStmt><sourceDesc><msDesc><msIdentifier><settlement>Leiden</settlement><repository>Rijksmuseum van Oudheden</repository><idno>i 1970/12.3</idno></msIdentifier><msContents><summary>Weihinschrift</summary></msContents><physDesc><objectDesc><supportDesc><support><p>Der Aedicula-Altar ist komplett erhalten; Kanten und Ecken sind leicht bestoßen. Die architektonisch gerahmte Nische wirkt flach. Die Nische ist von zwei Pilastern mit Blattornament gerahmt, darüber schließt das Gebälk an. Der Giebel ist gebrochen, die Konche von einer Muschel mit gezacktem Rand geschmückt, an deren Enden sich runde Knöpfe befinden. Oben ist das fast natürlich wirkende Schloss der Muschel gut erkennbar. Der Aufsatz ist mit einer flachen Platte und zwei Pulvini geschmückt, die seitlich als rosettenverzierter Giebel dargestellt sind. Oben liegen 22 bis 23 Früchte – es handelt sich um Äpfel und Birnen, sowie kleinere Früchte, vermutlich Nüsse oder Pflaumen.</p><material><ref type="context" target="context:fercan.material.kalkstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref></material><objectType>Aedicula-Altar</objectType><dimensions><height unit="cm">60,0</height><width unit="cm">34,0</width><depth unit="cm">17,0</depth></dimensions></support><condition><ref type="context" target="context:fercan.condition-o.vollstaendig" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref></condition></supportDesc><layoutDesc><layout><p>Die zu Gänze erhaltene Inschrift ist stark abgerieben aber lesbar.<lb/>Ligatur: s. Majuskeltext</p><note type="condition">vollständig</note></layout></layoutDesc></objectDesc><handDesc><handNote><desc type="execution">gemeißelt</desc></handNote></handDesc><decoDesc><decoNote><p> <rs type="divine">Nehalennia</rs> sitzt auf einem Stuhl. Sie trägt ihr Haar kurz mit deutlichem Mittelscheitel. Die Pelerine geht ihr bis zur Mitte der Oberarme und scheint einen unregelmäßigen Rand zu besitzen. Der lange Mantel fällt ihr in Falten an den Seiten der Arme über die Knie nach innen. Darunter trägt sie ein knöchellanges Kleid, das ihre Füße frei lässt. Auf dem rechten Knie hält sie einen flachen Obstkorb mit der rechten Hand. In der linken scheint sie einen Blumenstrauß oder ein Büschel Pflanzen zu halten, die sie auf das andere Knie abgelegt hat. <lb/>
+                    Karl-Franzens-Universität Graz</orgName>
+                </authority>
+                <distributor>
+                    <link target="https://gams.uni-graz.at"/>
+                    <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                </distributor>
+                <date when="2022">2022</date>
+                <pubPlace>Graz</pubPlace>
+                <idno type="PID">o:fercan.326</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
+                    BY-NC 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+                  Celticarum Antiquarum</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Wolfgang</forename>
+                        <surname>Spickermann</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Leiden</settlement>
+                        <repository>Rijksmuseum van Oudheden</repository>
+                        <idno>i 1970/12.3</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Weihinschrift</summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Der Aedicula-Altar ist komplett erhalten; Kanten und Ecken sind leicht bestoßen. Die architektonisch gerahmte Nische wirkt flach. Die Nische ist von zwei Pilastern mit Blattornament gerahmt, darüber schließt das Gebälk an. Der Giebel ist gebrochen, die Konche von einer Muschel mit gezacktem Rand geschmückt, an deren Enden sich runde Knöpfe befinden. Oben ist das fast natürlich wirkende Schloss der Muschel gut erkennbar. Der Aufsatz ist mit einer flachen Platte und zwei Pulvini geschmückt, die seitlich als rosettenverzierter Giebel dargestellt sind. Oben liegen 22 bis 23 Früchte – es handelt sich um Äpfel und Birnen, sowie kleinere Früchte, vermutlich Nüsse oder Pflaumen.</p>
+                                    <material>
+                                        <ref type="context" target="context:fercan.material.kalkstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref>
+                                    </material>
+                                    <objectType>Aedicula-Altar</objectType>
+                                    <dimensions>
+                                        <height unit="cm">60,0</height>
+                                        <width unit="cm">34,0</width>
+                                        <depth unit="cm">17,0</depth>
+                                    </dimensions>
+                                </support>
+                                <condition>
+                                    <ref type="context" target="context:fercan.condition-o.vollstaendig" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Die zu Gänze erhaltene Inschrift ist stark abgerieben aber lesbar.<lb/>Ligatur: s. Majuskeltext</p>
+                                    <note type="condition">vollständig</note>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <desc type="execution">gemeißelt</desc>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <p> <rs type="divine">Nehalennia</rs> sitzt auf einem Stuhl. Sie trägt ihr Haar kurz mit deutlichem Mittelscheitel. Die Pelerine geht ihr bis zur Mitte der Oberarme und scheint einen unregelmäßigen Rand zu besitzen. Der lange Mantel fällt ihr in Falten an den Seiten der Arme über die Knie nach innen. Darunter trägt sie ein knöchellanges Kleid, das ihre Füße frei lässt. Auf dem rechten Knie hält sie einen flachen Obstkorb mit der rechten Hand. In der linken scheint sie einen Blumenstrauß oder ein Büschel Pflanzen zu halten, die sie auf das andere Knie abgelegt hat. <lb/>
 Links von ihr sitzt der von ihr abgewandte Hund, der ihr den Kopf schräg nach oben gewandt zudreht. Auf der rechten Seite steht ein Obstkorb mit auffallend großen Früchten am Boden. <lb/>
 Die Nische ist eigentlich flach gearbeitet, durch die Anwesenheit von Hund und Obstkorb wirkt sie auch sehr voll.  <rs type="divine">Nehalennia</rs> vermittelt mit ihrem faltenreichen Gewand räumliche Tiefe, die jedoch durch die kleine Muschel über ihr etwas abgemildert wird. <lb/>
 Auf der linken Schmalseite befindet sich eine Baumdarstellung. Es handelt sich um einen Laubbaum mit geradem Stamm und einem mittig nach links ragenden Aststumpf. Der Stamm ist bis zum oben abschließenden Blattpaar durchgehend gearbeitet, links und rechts teilen sich Blätter sowie neue Zweige ab. <lb/>
-Die rechte Schmalseite zeigt ein ähnliches Motiv. Auch hier ist ein Laubbaum in Relief zu sehen, ebenfalls mit mittig ansetzendem Aststumpf nach links. Die Baumkrone ist jedoch qualitativ besser und versierter gearbeitet – so sind mehrere Verzweigungen und Äste sowie reicherer Blattschmuck vorhanden.</p><term ana="https://gams.uni-graz.at/o:fercan.arch#C.253020"><ref type="context" target="context:fercan.arch.akanthus">Akanthus</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.210100"><ref type="context" target="context:fercan.arch.apfel">Apfel</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.220000"><ref type="context" target="context:fercan.arch.architektur">Architektur</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800"><ref type="context" target="context:fercan.arch.aufsatzschmuck">Aufsatzschmuck</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.253200"><ref type="context" target="context:fercan.arch.baum">Baum</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.210200"><ref type="context" target="context:fercan.arch.birne">Birne</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.252100"><ref type="context" target="context:fercan.arch.blumenstrausz">Blumenstrauß</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.210000"><ref type="context" target="context:fercan.arch.frucht">Frucht</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.240100"><ref type="context" target="context:fercan.arch.goetterbild">Götterbild</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.254110"><ref type="context" target="context:fercan.arch.hund">Hund</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.253210"><ref type="context" target="context:fercan.arch.laubbaum">Laubbaum</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.251600"><ref type="context" target="context:fercan.arch.obstkorb">Obstkorb</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.251700"><ref type="context" target="context:fercan.arch.obstschale">Obstschale</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.253000"><ref type="context" target="context:fercan.arch.pflanzenornament">Pflanzenornament</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.220500"><ref type="context" target="context:fercan.arch.pilaster">Pilaster</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.160000"><ref type="context" target="context:fercan.arch.reliefdekor">Reliefdekor</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.150400"><ref type="context" target="context:fercan.arch.reliefschmuck">Reliefschmuck</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060"><ref type="context" target="context:fercan.arch.rosette">Rosette</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.254100"><ref type="context" target="context:fercan.arch.tier">Tier</ref></term></decoNote></decoDesc></physDesc><history><origin><origPlace><placeName ref="https://pleiades.stoa.org/places/109000">Ganuenta</placeName><region>Civitas Frisiavonum</region></origPlace><origDate/></origin><provenance type="found" when="1970"><placeName><ref type="context" target="context:fercan.geog.modern.oosterschelde_bei_colijnsplaat">Oosterschelde bei Colijnsplaat</ref></placeName><location><geo decls="#WGS">51.599839 3.849262</geo></location><note>aus dem Meer geborgen</note></provenance><provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: Stuart/Bogaers 2001</provenance></history></msDesc><listPlace><place/></listPlace><listPerson><person><persName type="gentilnomen"><ref type="context" target="context:fercan.person.gentilnomen.quartius">Quartius</ref></persName></person><person><persName type="cognomen"><ref type="context" target="context:fercan.person.cognomen.reditus">Reditus</ref></persName></person><person><persName type="divine" subtype="celtic_normalized"><ref type="context" target="context:fercan.dcn.nehalennia">Nehalennia</ref></persName></person><person><persName type="divine" subtype="celtic_diplomatic"><ref type="context" target="context:fercan.dcd.nehalennia.deae_nehalenniae">deae Nehalenniae</ref></persName></person><person><persName type="divine" subtype="celtic_element"><ref type="context" target="context:fercan.dce.nehalennia">Nehalennia</ref></persName></person></listPerson><listOrg><org/></listOrg></sourceDesc></fileDesc><encodingDesc><geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl><editorialDecl><p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p><p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
-                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p></editorialDecl><projectDesc><p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+Die rechte Schmalseite zeigt ein ähnliches Motiv. Auch hier ist ein Laubbaum in Relief zu sehen, ebenfalls mit mittig ansetzendem Aststumpf nach links. Die Baumkrone ist jedoch qualitativ besser und versierter gearbeitet – so sind mehrere Verzweigungen und Äste sowie reicherer Blattschmuck vorhanden.</p>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253020">
+                                    <ref type="context" target="context:fercan.arch.akanthus">Akanthus</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.210100">
+                                    <ref type="context" target="context:fercan.arch.apfel">Apfel</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220000">
+                                    <ref type="context" target="context:fercan.arch.architektur">Architektur</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">
+                                    <ref type="context" target="context:fercan.arch.aufsatzschmuck">Aufsatzschmuck</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253200">
+                                    <ref type="context" target="context:fercan.arch.baum">Baum</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.210200">
+                                    <ref type="context" target="context:fercan.arch.birne">Birne</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252100">
+                                    <ref type="context" target="context:fercan.arch.blumenstrausz">Blumenstrauß</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.210000">
+                                    <ref type="context" target="context:fercan.arch.frucht">Frucht</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.240100">
+                                    <ref type="context" target="context:fercan.arch.goetterbild">Götterbild</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.254110">
+                                    <ref type="context" target="context:fercan.arch.hund">Hund</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253210">
+                                    <ref type="context" target="context:fercan.arch.laubbaum">Laubbaum</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251600">
+                                    <ref type="context" target="context:fercan.arch.obstkorb">Obstkorb</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251700">
+                                    <ref type="context" target="context:fercan.arch.obstschale">Obstschale</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253000">
+                                    <ref type="context" target="context:fercan.arch.pflanzenornament">Pflanzenornament</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220500">
+                                    <ref type="context" target="context:fercan.arch.pilaster">Pilaster</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160000">
+                                    <ref type="context" target="context:fercan.arch.reliefdekor">Reliefdekor</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150400">
+                                    <ref type="context" target="context:fercan.arch.reliefschmuck">Reliefschmuck</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">
+                                    <ref type="context" target="context:fercan.arch.rosette">Rosette</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.254100">
+                                    <ref type="context" target="context:fercan.arch.tier">Tier</ref>
+                                </term>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName ref="https://pleiades.stoa.org/places/109000">Ganuenta</placeName>
+                                <region>Civitas Frisiavonum</region>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1970">
+                            <placeName>
+                                <ref type="context" target="context:fercan.geog.modern.oosterschelde_bei_colijnsplaat">Oosterschelde bei Colijnsplaat</ref>
+                            </placeName>
+                            <location>
+                                <geo decls="#WGS">51.599839 3.849262</geo>
+                            </location>
+                            <note>aus dem Meer geborgen</note>
+                        </provenance>
+                        <provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: Stuart/Bogaers 2001</provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person>
+                        <persName type="gentilnomen">
+                            <ref type="context" target="context:fercan.person.gentilnomen.quartius">Quartius</ref>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName type="cognomen">
+                            <ref type="context" target="context:fercan.person.cognomen.reditus">Reditus</ref>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName type="divine" subtype="celtic_normalized">
+                            <ref type="context" target="context:fercan.dcn.nehalennia">Nehalennia</ref>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName type="divine" subtype="celtic_diplomatic">
+                            <ref type="context" target="context:fercan.dcd.nehalennia.deae_nehalenniae">deae Nehalenniae</ref>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName type="divine" subtype="celtic_element">
+                            <ref type="context" target="context:fercan.dce.nehalennia">Nehalennia</ref>
+                        </persName>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org/>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+            <editorialDecl>
+                <p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+                <p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+            </editorialDecl>
+            <projectDesc>
+                <p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
                   Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
-                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p><p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+                <p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
                   lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
                   zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
                   besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
@@ -25,16 +247,108 @@ Die rechte Schmalseite zeigt ein ähnliches Motiv. Auch hier ist ein Laubbaum in
                   beigetragen werden.<lb/> Die Abschlusspublikation wird ergänzt um einen
                   ausführlichen sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo
                   Stempel) in der Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum
-                  Celticarum antiquarum)‘ erscheinen. </p></projectDesc></encodingDesc><profileDesc><langUsage><language ident="la">Latein</language></langUsage><textClass><keywords><list><item><ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref></item><item/></list></keywords></textClass></profileDesc><revisionDesc><change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.326/TEI_SOURCE.2020-02-26">Initial Version</change><change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.326/TEI_SOURCE.2022-03-07">Version 2</change><change when="2022" n="3">Version 3</change></revisionDesc></teiHeader><facsimile><graphic mimeType="image/png" xml:id="IMAGE.1" url="file:///0326_Front.PNG"><desc>Front, Stuart/Bogaers 2001, Taf.13, A15, Rechte vorbehalten</desc></graphic><graphic mimeType="image/png" xml:id="IMAGE.2" url="file:///0326_li.PNG"><desc>links, Stuart/Bogaers 2001, Taf.13, A15, Rechte vorbehalten</desc></graphic><graphic mimeType="image/png" xml:id="IMAGE.3" url="file:///0326_re.PNG"><desc>rechts, Stuart/Bogaers 2001, Taf.13, A15, Rechte vorbehalten</desc></graphic><graphic mimeType="image/png" xml:id="IMAGE.4" url="file:///0326_oben.PNG"><desc>oben, Stuart/Bogaers 2001, Taf.114, A15, Rechte vorbehalten</desc></graphic></facsimile><text><body><ab><ref target="context:fercan" type="context">FERCAN</ref></ab><div subtype="editions" type="bibliography"><listBibl><bibl xml:id="LIT.1">Stuart/Bogaers 1971, Nr.3</bibl><bibl xml:id="LIT.2">Stuart/Bogaers 2001, A15</bibl><bibl xml:id="LIT.3">AE 1973, 363</bibl></listBibl></div><div subtype="concordances" type="bibliography"><listBibl><bibl type="EDCS">EDCS-23400566<date>zuletzt aufgerufen am 24. Februar 2020</date></bibl><bibl type="EDH">HD011192<date>Version vom 12. Juni 2017</date></bibl><bibl type="trismegistos">www.trismegistos.org/text/208901<date>zuletzt aufgerufen am 30. Juni 2021</date></bibl></listBibl></div><div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve"><ab><orig><lb n="1" xml:id="MAJ.1"/>DEAE <lb n="2" xml:id="MAJ.2"/>
-NEHALENNIAE <lb n="3" xml:id="MAJ.3"/>
-QVART<hi rend="ligature">̣I</hi>VS · REDITVS <lb n="4" xml:id="MAJ.4"/>
-V · S · L · M</orig></ab></div><div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve"><ab><lb n="1" xml:id="MIN.1"/>Deae<lb n="2" xml:id="MIN.2"/>Nehalenniae<lb n="3" xml:id="MIN.3"/>Quartius Reditus<lb n="4" xml:id="MIN.4"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div><div type="translation" xml:lang="de"><p>Für die Göttin  <rs type="divine">Nehalennia!</rs> <lb/> <lb/>
-Quartius Reditus hat das Gelübde gerne und verdientermaßen erfüllt.</p></div><div type="translation" xml:lang="en"><p>To the goddess  <rs type="divine">Nehalennia!</rs> <lb/> <lb/>
-Quartius Reditus has fulfilled a vow willingly and deservedly. </p></div><div type="apparatus"><app loc="#MIN.3 #MAJ.3"><note>ohne Ligatur – AE, EDH; reditus als Grund für die Weihung und nicht als Cognomen – De Bernardo Stempel 2004, 185f.</note></app></div><div type="commentary" subtype="general"><p>Quartius Reditus: Römisches Namensformular ohne Praenomen <lb/>  
+                  Celticarum antiquarum)‘ erscheinen. </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latein</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <list>
+                        <item>
+                            <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
+                        </item>
+                        <item/>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.326/TEI_SOURCE.2020-02-26">Initial Version</change>
+            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.326/TEI_SOURCE.2022-03-07">Version 2</change>
+            <change when="2022" n="3">Version 3</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic mimeType="image/png" xml:id="IMAGE.1" url="file:///0326_Front.PNG">
+            <desc>Front, Stuart/Bogaers 2001, Taf.13, A15, Rechte vorbehalten</desc>
+        </graphic>
+        <graphic mimeType="image/png" xml:id="IMAGE.2" url="file:///0326_li.PNG">
+            <desc>links, Stuart/Bogaers 2001, Taf.13, A15, Rechte vorbehalten</desc>
+        </graphic>
+        <graphic mimeType="image/png" xml:id="IMAGE.3" url="file:///0326_re.PNG">
+            <desc>rechts, Stuart/Bogaers 2001, Taf.13, A15, Rechte vorbehalten</desc>
+        </graphic>
+        <graphic mimeType="image/png" xml:id="IMAGE.4" url="file:///0326_oben.PNG">
+            <desc>oben, Stuart/Bogaers 2001, Taf.114, A15, Rechte vorbehalten</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <ab>
+                <ref target="context:fercan" type="context">FERCAN</ref>
+            </ab>
+            <div subtype="editions" type="bibliography" org="uniform">
+                <listBibl>
+                    <bibl xml:id="LIT.1">Stuart/Bogaers 1971, Nr.3</bibl>
+                    <bibl xml:id="LIT.2">Stuart/Bogaers 2001, A15</bibl>
+                    <bibl xml:id="LIT.3">AE 1973, 363</bibl>
+                </listBibl>
+            </div>
+            <div subtype="concordances" type="bibliography" org="uniform">
+                <listBibl>
+                    <bibl type="EDCS">
+                        <idno>EDCS-23400566</idno> <date>zuletzt aufgerufen am 24. Februar 2020</date>
+                    </bibl>
+                    <bibl type="EDH">
+                        <idno>HD011192</idno> <date>Version vom 12. Juni 2017</date>
+                    </bibl>
+                    <bibl type="trismegistos">
+                        <idno>www.trismegistos.org/text/208901</idno> <date>zuletzt aufgerufen am 30. Juni 2021</date>
+                    </bibl>
+                </listBibl>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/>DEAE <lb n="2"/>
+NEHALENNIAE <lb n="3"/>
+QVART<hi rend="ligature">̣I</hi>VS · REDITVS <lb n="4"/>
+V · S · L · M</orig></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Deae<lb n="2"/>Nehalenniae<lb n="3"/>Quartius Reditus<lb n="4"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
+            <div type="translation" xml:lang="de" org="uniform">
+                <p>Für die Göttin  <rs type="divine">Nehalennia!</rs> <lb/> <lb/>
+Quartius Reditus hat das Gelübde gerne und verdientermaßen erfüllt.</p>
+            </div>
+            <div type="translation" xml:lang="en" org="uniform">
+                <p>To the goddess  <rs type="divine">Nehalennia!</rs> <lb/> <lb/>
+Quartius Reditus has fulfilled a vow willingly and deservedly. </p>
+            </div>
+            <div type="apparatus" org="uniform">
+                <app loc="#MIN.3 #MAJ.3">
+                    <note>ohne Ligatur – AE, EDH; reditus als Grund für die Weihung und nicht als Cognomen – De Bernardo Stempel 2004, 185f.</note>
+                </app>
+            </div>
+            <div type="commentary" subtype="general" org="uniform">
+                <p>Quartius Reditus: Römisches Namensformular ohne Praenomen <lb/>  
 Quartius: italisches Gentilnomen oder einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Cognomen Quartus (Kakoschke 2006, GN 1026) <lb/>
-Reditus: lateinisches Cognomen (Kakoschke 2008, CN 2557); De Bernardo Stempel (2004, 185f.) sieht „reditus“ als Grund für die Weihung und nicht als Cognomen. </p></div><div type="commentary" subtype="deity"><p> <rs type="divine">Nehalennia:</rs> keltisch; ‚diejenige im Salzwasser bzw. in der See‘ (de Bernardo Stempel in Spickermann 2005, 141; de Bernardo Stempel 2004)   </p><p>
+Reditus: lateinisches Cognomen (Kakoschke 2008, CN 2557); De Bernardo Stempel (2004, 185f.) sieht „reditus“ als Grund für die Weihung und nicht als Cognomen. </p>
+            </div>
+            <div type="commentary" subtype="deity" org="uniform">
+                <p> <rs type="divine">Nehalennia:</rs> keltisch; ‚diejenige im Salzwasser bzw. in der See‘ (de Bernardo Stempel in Spickermann 2005, 141; de Bernardo Stempel 2004)   </p>
+                <p>
 
-Vorkommen in theonymischen Formularen: </p><p>
+Vorkommen in theonymischen Formularen: </p>
+                <p>
  <rs type="divine">Nehalennia</rs>: <lb/>
 - Germania Inferior: Belege sind überaus häufig. Zwei Inschriften stammen aus Köln alle anderen aus Domburg und Colijnsplaat. Die Göttin wird dabei, bis auf wenige Ausnahmen, stets als  <rs type="divine">dea Nehalennia</rs> angesprochen. <lb/> 
-- außerhalb der Germania Inferior: -</p></div><linkGrp type="alignment" domains="#majuscule #minuscule"><link target="#MAJ.1 #MIN.1"/><link target="#MAJ.2 #MIN.2"/><link target="#MAJ.3 #MIN.3"/><link target="#MAJ.4 #MIN.4"/></linkGrp></body></text></TEI>
+- außerhalb der Germania Inferior: -</p>
+            </div>
+            <linkGrp type="alignment" domains="#majuscule #minuscule">
+                <link target="#MAJ.1 #MIN.1"/>
+                <link target="#MAJ.2 #MIN.2"/>
+                <link target="#MAJ.3 #MIN.3"/>
+                <link target="#MAJ.4 #MIN.4"/>
+            </linkGrp>
+        </body>
+    </text>
+</TEI>
