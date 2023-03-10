@@ -223,8 +223,8 @@
         <teiElement>
             <nm>civitas_note</nm>
             <xpath>/tei:text/tei:back/tei:note[@type="civitas_note"]</xpath>
-            <contentType>text</contentType>
-            <fieldType>input</fieldType>
+            <contentType>enrichedText</contentType>
+            <fieldType>textarea</fieldType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Editor's comment</formLabel>
             <xpath2ref/>
@@ -243,8 +243,8 @@
                 <teiElement>
                     <nm>FOantik_note</nm>
                     <xpath>/tei:text/tei:back/tei:note[@type="FOantik_note"]</xpath>
-                    <contentType>text</contentType>
-                    <fieldType>input</fieldType>
+                    <contentType>enrichedText</contentType>
+                    <fieldType>textarea</fieldType>
                     <cardinality>1</cardinality>
                     <formLabel xml:lang="en">Editor's comment</formLabel>
                 </teiElement>
@@ -273,8 +273,8 @@
                 <teiElement>
                     <nm>FOmodern_note</nm>
                     <xpath>/tei:text/tei:back/tei:note[@type="FOmodern_note"]</xpath>
-                    <contentType>text</contentType>
-                    <fieldType>input</fieldType>
+                    <contentType>enrichedText</contentType>
+                    <fieldType>textarea</fieldType>
                     <cardinality>1</cardinality>
                     <formLabel xml:lang="en">Editor's comment</formLabel>
                 </teiElement>
@@ -303,8 +303,8 @@
             <teiElement>
                 <nm>Fundstelle_note</nm>
                 <xpath>/tei:text/tei:back/tei:note[@type="Fundstelle_note"]</xpath>
-                <contentType>text</contentType>
-                <fieldType>input</fieldType>
+                <contentType>enrichedText</contentType>
+                <fieldType>textarea</fieldType>
                 <cardinality>1</cardinality>
                 <formLabel xml:lang="en">Editor's comment</formLabel>
             </teiElement>
@@ -323,8 +323,8 @@
             <teiElement>
                 <nm>Fundumst_note</nm>
                 <xpath>/tei:text/tei:back/tei:note[@type="Fundumst_note"]</xpath>
-                <contentType>text</contentType>
-                <fieldType>input</fieldType>
+                <contentType>enrichedText</contentType>
+                <fieldType>textarea</fieldType>
                 <cardinality>1</cardinality>
                 <formLabel xml:lang="en">Editor's comment</formLabel>
             </teiElement>
@@ -343,8 +343,8 @@
         <teiElement>
             <nm>Fundjahr_note</nm>
             <xpath>/tei:text/tei:back/tei:note[@type="Fundjahr_note"]</xpath>
-            <contentType>text</contentType>
-            <fieldType>input</fieldType>
+            <contentType>enrichedText</contentType>
+            <fieldType>textarea</fieldType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Editor's comment</formLabel>
         </teiElement>
@@ -367,8 +367,8 @@
            <teiElement>
             <nm>VerwahrortOrt_note</nm>
             <xpath>/tei:text/tei:back/tei:note[@type="VerwahrortOrt_note"]</xpath>
-            <contentType>text</contentType>
-            <fieldType>input</fieldType>
+            <contentType>enrichedText</contentType>
+            <fieldType>textarea</fieldType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Editor's comment</formLabel>
         </teiElement>
@@ -396,8 +396,8 @@
             <teiElement>
             <nm>InvNr_note</nm>
             <xpath>/tei:text/tei:back/tei:note[@type="InvNr_note"]</xpath>
-            <contentType>text</contentType>
-            <fieldType>input</fieldType>
+            <contentType>enrichedText</contentType>
+            <fieldType>textarea</fieldType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Editor's comment</formLabel>
         </teiElement>
@@ -420,8 +420,8 @@
         <teiElement>
             <nm>Inschrifttraeger_note</nm>
             <xpath>/tei:text/tei:back/tei:note[@type="Inschrifttraeger_note"]</xpath>
-            <contentType>text</contentType>
-            <fieldType>input</fieldType>
+            <contentType>enrichedText</contentType>
+            <fieldType>textarea</fieldType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Editor's comment</formLabel>
             <xpath2ref/>
@@ -442,8 +442,8 @@
             <teiElement>
                 <nm>Material_note</nm>
                 <xpath>/tei:text/tei:back/tei:note[@type="Material_note"]</xpath>
-                <contentType>text</contentType>
-                <fieldType>input</fieldType>
+                <contentType>enrichedText</contentType>
+                <fieldType>textarea</fieldType>
                 <cardinality>1</cardinality>
                 <formLabel xml:lang="en">Editor's comment</formLabel>
                 <xpath2ref/>
@@ -467,8 +467,8 @@
         <teiElement>
             <nm>ArchKlass_note</nm>
             <xpath>/tei:text/tei:back/tei:note[@type="ArchKlass_note"]</xpath>
-            <contentType>text</contentType>
-            <fieldType>input</fieldType>
+            <contentType>enrichedText</contentType>
+            <fieldType>textarea</fieldType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Editor's comment</formLabel>
             <xpath2ref/>
@@ -488,8 +488,8 @@
     <teiElement>
         <nm>Objbeschr</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:p</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
+        <contentType>enrichedText</contentType>
+        <fieldType>textarea</fieldType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Objektbeschreibung</formLabel>
         <xpath2ref/>
@@ -499,8 +499,8 @@
             <teiElement>
                 <nm>Objbeschr_note</nm>
                 <xpath>/tei:text/tei:back/tei:note[@type="Objbeschr_note"]</xpath>
-                <contentType>text</contentType>
-                <fieldType>input</fieldType>
+                <contentType>enrichedText</contentType>
+                <fieldType>textarea</fieldType>
                 <cardinality>1</cardinality>
                 <formLabel xml:lang="en">Editor's comment</formLabel>
                 <xpath2ref/>
@@ -521,8 +521,8 @@
             <teiElement>
                 <nm>ErhzustObj_note</nm>
                 <xpath>/tei:text/tei:back/tei:note[@type="ErhzustObj_note"]</xpath>
-                <contentType>text</contentType>
-                <fieldType>input</fieldType>
+                <contentType>enrichedText</contentType>
+                <fieldType>textarea</fieldType>
                 <cardinality>1</cardinality>
                 <formLabel xml:lang="en">Editor's comment</formLabel>
                 <xpath2ref/>
@@ -573,8 +573,8 @@
         <teiElement>
             <nm>Masse_note</nm>
             <xpath>/tei:text/tei:back/tei:note[@type="Masse_note"]</xpath>
-            <contentType>text</contentType>
-            <fieldType>input</fieldType>
+            <contentType>enrichedText</contentType>
+            <fieldType>textarea</fieldType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Editor's comment</formLabel>
             <xpath2ref/>
@@ -594,8 +594,8 @@
         <teiElement>
             <nm>Ikonogr_note</nm>
             <xpath>/tei:text/tei:back/tei:note[@type="Ikonogr_note"]</xpath>
-            <contentType>text</contentType>
-            <fieldType>input</fieldType>
+            <contentType>enrichedText</contentType>
+            <fieldType>textarea</fieldType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Editor's comment</formLabel>
             <xpath2ref/>
@@ -616,8 +616,8 @@
         <teiElement>
             <nm>ErhzustInschr_note</nm>
             <xpath>/tei:text/tei:back/tei:note[@type="ErhzustInschr_note"]</xpath>
-            <contentType>text</contentType>
-            <fieldType>input</fieldType>
+            <contentType>enrichedText</contentType>
+            <fieldType>textarea</fieldType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Editor's comment</formLabel>
             <xpath2ref/>
@@ -637,8 +637,8 @@
         <teiElement>
             <nm>Schrifttechnik_note</nm>
             <xpath>/tei:text/tei:back/tei:note[@type="Schrifttechnik_note"]</xpath>
-            <contentType>text</contentType>
-            <fieldType>input</fieldType>
+            <contentType>enrichedText</contentType>
+            <fieldType>textarea</fieldType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Editor's comment</formLabel>
             <xpath2ref/>
@@ -683,8 +683,8 @@
         <teiElement>
             <nm>Buchsthoehe_note</nm>
             <xpath>/tei:text/tei:back/tei:note[@type="Buchsthoehe_note"]</xpath>
-            <contentType>text</contentType>
-            <fieldType>input</fieldType>
+            <contentType>enrichedText</contentType>
+            <fieldType>textarea</fieldType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Editor's comment</formLabel>
             <xpath2ref/>
@@ -704,8 +704,8 @@
         <teiElement>
             <nm>Inschrtext_note</nm>
             <xpath>/tei:text/tei:back/tei:note[@type="Inschrtext_note"]</xpath>
-            <contentType>text</contentType>
-            <fieldType>input</fieldType>
+            <contentType>enrichedText</contentType>
+            <fieldType>textarea</fieldType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Editor's comment</formLabel>
             <xpath2ref/>
@@ -727,8 +727,8 @@
         <teiElement>
             <nm>Datierung_note</nm>
             <xpath>/tei:text/tei:back/tei:note[@type="Datierung_note"]</xpath>
-            <contentType>text</contentType>
-            <fieldType>input</fieldType>
+            <contentType>enrichedText</contentType>
+            <fieldType>textarea</fieldType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Editor's comment</formLabel>
             <xpath2ref/>
@@ -773,8 +773,8 @@
             <teiElement>
                 <nm>Notvar_note</nm>
                 <xpath>/tei:text/tei:back/tei:note[@type="Notvar_note"]</xpath>
-                <contentType>text</contentType>
-                <fieldType>input</fieldType>
+                <contentType>enrichedText</contentType>
+                <fieldType>textarea</fieldType>
                 <cardinality>1</cardinality>
                 <formLabel xml:lang="en">Editor's comment</formLabel>
                 <xpath2ref/>
@@ -790,6 +790,16 @@
         <xpath2ref/>
         <comments/>
     </teiElement>
+            <!-- KommGoettern_note  -->
+            <teiElement>
+                <nm>KommGoettern_note</nm>
+                <xpath>/tei:text/tei:back/tei:note[@type="KommGoettern_note"]</xpath>
+                <contentType>enrichedText</contentType>
+                <fieldType>textarea</fieldType>
+                <cardinality>1</cardinality>
+                <formLabel xml:lang="en">Editor's comment</formLabel>
+                <xpath2ref/>
+            </teiElement> 
     <!-- Sonst. Komm. -->
     <teiElement>
         <nm>SonstKomm</nm>
@@ -805,8 +815,8 @@
         <teiElement>
             <nm>SonstKomm_note</nm>
             <xpath>/tei:text/tei:back/tei:note[@type="SonstKomm_note"]</xpath>
-            <contentType>text</contentType>
-            <fieldType>input</fieldType>
+            <contentType>enrichedText</contentType>
+            <fieldType>textarea</fieldType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Editor's comment</formLabel>
             <xpath2ref/>
@@ -1015,8 +1025,8 @@
         <teiElement>
             <nm>Abb_note</nm>
             <xpath>/tei:text/tei:back/tei:note[@type="Abb_note"]</xpath>
-            <contentType>text</contentType>
-            <fieldType>input</fieldType>
+            <contentType>enrichedText</contentType>
+            <fieldType>textarea</fieldType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Editor's comment</formLabel>
             <xpath2ref/>
@@ -1072,8 +1082,8 @@
         <teiElement>
             <nm>Autopsie_note</nm>
             <xpath>/tei:text/tei:back/tei:note[@type="Autopsie_note"]</xpath>
-            <contentType>text</contentType>
-            <fieldType>input</fieldType>
+            <contentType>enrichedText</contentType>
+            <fieldType>textarea</fieldType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Editor's comment</formLabel>
             <xpath2ref/>
@@ -1110,8 +1120,8 @@
         <teiElement>
             <nm>Editionen_note</nm>
             <xpath>/tei:text/tei:back/tei:note[@type="Editionen_note"]</xpath>
-            <contentType>text</contentType>
-            <fieldType>input</fieldType>
+            <contentType>enrichedText</contentType>
+            <fieldType>textarea</fieldType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Editor's comment</formLabel>
             <xpath2ref/>
@@ -1128,14 +1138,13 @@
         <fieldType>textarea</fieldType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Übersetzung Deutsch</formLabel>
-        <comments>Hudriwu</comments>
     </teiElement>
         <!-- dtUEbers_note  -->
         <teiElement>
             <nm>dtUEbers_note</nm>
             <xpath>/tei:text/tei:back/tei:note[@type="dtUEbers_note"]</xpath>
-            <contentType>text</contentType>
-            <fieldType>input</fieldType>
+            <contentType>enrichedText</contentType>
+            <fieldType>textarea</fieldType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Editor's comment</formLabel>
             <xpath2ref/>
@@ -1153,8 +1162,8 @@
         <teiElement>
             <nm>englUEbers_note</nm>
             <xpath>/tei:text/tei:back/tei:note[@type="englUEbers_note"]</xpath>
-            <contentType>text</contentType>
-            <fieldType>input</fieldType>
+            <contentType>enrichedText</contentType>
+            <fieldType>textarea</fieldType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Editor's comment</formLabel>
             <xpath2ref/>

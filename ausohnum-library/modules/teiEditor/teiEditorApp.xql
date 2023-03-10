@@ -927,7 +927,7 @@ let $inputName := 'selectDropDown' (:||$topConceptId:)
                                                          {{
                                                          toolbar: [
                                                            //['style', ['style']],
-                                                           //['font', ['italic','bold','underline','clear']],
+                                                           ['font', ['bold','underline']],
                                                            ['font', ['italic']],
                                                            //['para', ['ul','ol','paragraph']],
                                                            //['insert', ['link']],

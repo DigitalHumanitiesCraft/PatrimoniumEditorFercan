@@ -73,6 +73,7 @@
 			<note type="Notvar_note"/>
 			<note type="SonstKomm_note"/>
 			<note type="Datierung_note"/>
+			<note type="KommGoettern_note"/>
 		</back>
 	</xsl:template>
 	

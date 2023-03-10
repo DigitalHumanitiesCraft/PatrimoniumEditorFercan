@@ -90,115 +90,94 @@ return
         {teiEditor:displayElement('docTitle', (), (), ())}
         {teiEditor:displayElement('subTitle', (), (), ())}
         {teiEditor:displayElement('civitas', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#civitas_note_collapse" aria-expanded="false" aria-controls="civitas_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="civitas_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="civitas_note_collapse">
           {teiEditor:displayElement('civitas_note', (), (), ())}
         </div>
         {teiEditor:displayElement('Appcrit', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#Appcrit_note_collapse" aria-expanded="false" aria-controls="Appcrit_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="Appcrit_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="Appcrit_note_collapse">
               {teiEditor:displayElement('Appcrit_note', (), (), ())}
         </div>
         <h3>Autopsie und Editionen</h3>
         {teiEditor:displayElement('Autopsie', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#Autopsie_note_collapse" aria-expanded="false" aria-controls="Autopsie_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="Autopsie_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="Autopsie_note_collapse">
            {teiEditor:displayElement('Autopsie_note', (), (), ())}
         </div>
         {teiEditor:displayElement('Editionen', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#Editionen_note_collapse" aria-expanded="false" aria-controls="Editionen_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="Editionen_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="Editionen_note_collapse">
            {teiEditor:displayElement('Editionen_note', (), (), ())}
         </div>
         <h3>Elektronische Ressourcen</h3>
         {teiEditor:displayElement('EDH', (), (), ())} 
-        <!--
         {teiEditor:displayElement('Lupa', (), (), ())}
-        --> 
         {teiEditor:displayElement('ClaussSlaby', (), (), ())}
         {teiEditor:displayElement('trismegistos', (), (), ())}
         {teiEditor:displayElement('other', (), (), ())}
         <h3>Übersetzungen</h3>
         {teiEditor:displayElement('dtUEbers', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#dtUEbers_note_collapse" aria-expanded="false" aria-controls="dtUEbers_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="dtUEbers_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="dtUEbers_note_collapse">
          {teiEditor:displayElement('dtUEbers_note', (), (), ())}
         </div>
         {teiEditor:displayElement('englUEbers', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#englUEbers_note_collapse" aria-expanded="false" aria-controls="englUEbers_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="englUEbers_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="englUEbers_note_collapse">
           {teiEditor:displayElement('englUEbers_note', (), (), ())}
         </div>
         <h3>Abbildungen</h3>
         <p class="bg-info" style="margin: 10px;">Eingabe für 'MIME-Type': image/jpeg , image/png .</p>
         {teiEditor:displayElement('Abb', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#Abb_note_collapse" aria-expanded="false" aria-controls="Abb_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="Abb_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="Abb_note_collapse">
            {teiEditor:displayElement('Abb_note', (), (), ())}
         </div>
         <h3>Fund</h3>
         {teiEditor:displayElement('FOantik', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#FOantik_note_collapse" aria-expanded="false" aria-controls="FOantik_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="FOantik_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="FOantik_note_collapse">
           {teiEditor:displayElement('FOantik_note', (), (), ())}
         </div>
         {teiEditor:displayElement('FOmodern', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#FOmodern_note_collapse" aria-expanded="false" aria-controls="FOmodern_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="FOmodern_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="FOmodern_note_collapse">
            {teiEditor:displayElement('FOmodern_note', (), (), ())}
         </div>
         {teiEditor:displayElement('Fundstelle', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#Fundstelle_not_collapse" aria-expanded="false" aria-controls="Fundstelle_not_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="Fundstelle_not_collapse">
+        <div class="bg-info" style="margin: 10px;" id="Fundstelle_not_collapse">
           {teiEditor:displayElement('Fundstelle_note', (), (), ())}
         </div>
         {teiEditor:displayElement('Fundumst', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#Fundumst_note_collapse" aria-expanded="false" aria-controls="Fundumst_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="Fundumst_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="Fundumst_note_collapse">
            {teiEditor:displayElement('Fundumst_note', (), (), ())}
         </div>
         {teiEditor:displayElement('Fundjahr', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#Fundjahr_note_collapse" aria-expanded="false" aria-controls="Fundjahr_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="Fundjahr_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="Fundjahr_note_collapse">
           {teiEditor:displayElement('Fundjahr_note', (), (), ())}
         </div>
         <h3>Verwahrung</h3>
         {teiEditor:displayElement('VerwahrortOrt', (), (), ())}
-       <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#VerwahrortOrt_note_collapse" aria-expanded="false" aria-controls="VerwahrortOrt_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="VerwahrortOrt_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="VerwahrortOrt_note_collapse">
             {teiEditor:displayElement('VerwahrortOrt_note', (), (), ())}
         </div>
         {teiEditor:displayElement('VerwahrortInstitution', (), (), ())}
         {teiEditor:displayElement('InvNr', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#InvNr_note_collapse" aria-expanded="false" aria-controls="InvNr_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="InvNr_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="InvNr_note_collapse">
           {teiEditor:displayElement('InvNr_note', (), (), ())}
         </div>
         <h3>Objektbeschreibung</h3>
         {teiEditor:displayElement('Inschrifttraeger', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#Inschrifttraeger_note_collapse" aria-expanded="false" aria-controls="Inschrifttraeger_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="Inschrifttraeger_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="Inschrifttraeger_note_collapse">
             {teiEditor:displayElement('Inschrifttraeger_note', (), (), ())}
         </div>
         {teiEditor:displayElement('Material', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#Material_note_collapse" aria-expanded="false" aria-controls="Material_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="Material_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="Material_note_collapse">
             {teiEditor:displayElement('Material_note', (), (), ())}
         </div>
         {teiEditor:displayElement('ArchKlass', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#ArchKlass_note_collapse" aria-expanded="false" aria-controls="ArchKlass_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="ArchKlass_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="ArchKlass_note_collapse">
            {teiEditor:displayElement('ArchKlass_note', (), (), ())}
         </div>
         {teiEditor:displayElement('Objbeschr', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#Objbeschr_note_collapse" aria-expanded="false" aria-controls="Objbeschr_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="Objbeschr_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="Objbeschr_note_collapse">
            {teiEditor:displayElement('Objbeschr_note', (), (), ())}
         </div>
         <p class="bg-info" style="margin: 10px;">Auswahl aus: vollständig, weitgehend vollständig, größere Fehlstelle/n, größeres Fragment, kleineres Fragment, unklar, unzusammenhängende Fragmente</p>
         {teiEditor:displayElement('ErhzustObj', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#ErhzustObj_note_collapse" aria-expanded="false" aria-controls="ErhzustObj_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="ErhzustObj_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="ErhzustObj_note_collapse">
            {teiEditor:displayElement('ErhzustObj_note', (), (), ())}
         </div>
         <h4>Maße Objekt</h4>
@@ -206,53 +185,47 @@ return
         {teiEditor:displayElement('Breite', (), (), ())}
         {teiEditor:displayElement('Tiefe', (), (), ())}
         {teiEditor:displayElement('MasseKommentar', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#Masse_note_collapse" aria-expanded="false" aria-controls="Masse_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="Masse_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="Masse_note_collapse">
                 {teiEditor:displayElement('Masse_note', (), (), ())}
         </div>
         <p class="bg-info" style="margin: 10px;"> </p>
         {teiEditor:displayElement('Ikonogr', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#Ikonogr_note_collapse" aria-expanded="false" aria-controls="Ikonogr_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="Ikonogr_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="Ikonogr_note_collapse">
            {teiEditor:displayElement('Ikonogr_note', (), (), ())}
         </div>
         {teiEditor:displayElement('Inschrtext', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#Inschrtext_note_collapse" aria-expanded="false" aria-controls="Inschrtext_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="Inschrtext_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="Inschrtext_note_collapse">
            {teiEditor:displayElement('Inschrtext_note', (), (), ())}
         </div>
         <p class="bg-info" style="margin: 10px;">Auswahl aus: vollständig, weitgehend vollständig, größere Fehlstelle/n, größeres Fragment, kleineres Fragment, unklar, unzusammenhängende Fragmente</p>
         {teiEditor:displayElement('ErhzustInschr', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#ErhzustInschr_note_collapse" aria-expanded="false" aria-controls="ErhzustInschr_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="ErhzustInschr_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="ErhzustInschr_note_collapse">
            {teiEditor:displayElement('ErhzustInschr_note', (), (), ())}
         </div>
         {teiEditor:displayElement('Schrifttechnik', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#Schrifttechnik_note_collapse" aria-expanded="false" aria-controls="Schrifttechnik_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="Schrifttechnik_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="Schrifttechnik_note_collapse">
           {teiEditor:displayElement('Schrifttechnik_note', (), (), ())}
         </div>
         {teiEditor:displayElement('Buchsthoehe', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#Buchsthoehe_note_collapse" aria-expanded="false" aria-controls="Buchsthoehe_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="Buchsthoehe_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="Buchsthoehe_note_collapse">
                {teiEditor:displayElement('Buchsthoehe_note', (), (), ())}
         </div>
         <h3>Kommentare</h3>
         {teiEditor:displayElement('Notvar', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#Notvar_note_collapse" aria-expanded="false" aria-controls="Notvar_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="Notvar_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="Notvar_note_collapse">
            {teiEditor:displayElement('Notvar_note', (), (), ())}
         </div>
         {teiEditor:displayElement('KommGoettern', (), (), ())}
+        <div class="bg-info" style="margin: 10px;" id="KommGoettern_note_collapse">
+          {teiEditor:displayElement('KommGoettern_note', (), (), ())}
+        </div>
         {teiEditor:displayElement('SonstKomm', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#SonstKomm_note_collapse" aria-expanded="false" aria-controls="SonstKomm_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="SonstKomm_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="SonstKomm_note_collapse">
           {teiEditor:displayElement('SonstKomm_note', (), (), ())}
         </div>
         <h3>Datierung</h3>
         {teiEditor:displayElement('Datierung', (), (), ())}
-        <p class="bg-info" style="margin: 10px;"><a data-toggle="collapse" href="#Datierung_note_collapse" aria-expanded="false" aria-controls="Datierung_note_collapse">Editor's comment</a></p>
-        <div class="collapse bg-info" id="Datierung_note_collapse">
+        <div class="bg-info" style="margin: 10px;" id="Datierung_note_collapse">
           {teiEditor:displayElement('Datierung_note', (), (), ())}
         </div>
         <h4>Datierung ISO</h4>
