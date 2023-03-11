@@ -920,7 +920,7 @@ function saveData2( element,
     else if (   (elementNickName == 'Buchsthoehe_atLeast' || elementNickName == 'Buchsthoehe_atMost') &&
                 !pattern_buchstabenhoehe_att.test(newValue))
     {
-        alert("'" + newValue + "'" + " is not valid. valid is something like 'o:fercan.100'");
+        alert("'" + newValue + "'" + " is not valid. valid is something like '0.4'");
     }
     else if (   elementNickName == 'PID' &&
                 !pattern_pid.test(newValue))

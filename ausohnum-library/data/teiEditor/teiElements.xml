@@ -847,7 +847,7 @@
     <!-- Elektronische Ressourcen -->
 
     <!-- EDH -->
-    <!-- <bibl type="EDH" default="false" status="draft">HD025308<date instant="false">Version vom 13. Januar 2016</date></bibl> -->
+    <!-- <bibl type="EDH">HD025308<date>Version vom 13. Januar 2016</date></bibl> -->
     <teiElement>
         <nm>EDH</nm>
         <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="EDH"]</xpath>
@@ -856,8 +856,9 @@
         <formLabel xml:lang="en">EDH</formLabel>
         <fieldType>group</fieldType>
         <template>
-            <bibl type="EDH" default="false" status="draft">$EDH_id
-                <date instant="false">$EDH_date</date>
+            <bibl type="EDH">
+                <idno>$EDH_id</idno>
+                <date>$EDH_date</date>
             </bibl>
         </template>
         <teiElement>
@@ -886,8 +887,9 @@
         <formLabel xml:lang="en">Lupa</formLabel>
         <fieldType>group</fieldType>
         <template>
-            <bibl type="lupa" default="false" status="draft">$Lupa_id
-                <date instant="false">$Lupa_date</date>
+            <bibl type="lupa">
+                <idno>$Lupa_id</idno>
+                <date>$Lupa_date</date>
             </bibl>
         </template>
         <teiElement>
@@ -916,8 +918,9 @@
         <formLabel xml:lang="en">ClaussSlaby</formLabel>
         <fieldType>group</fieldType>
         <template>
-            <bibl type="EDCS" default="false" status="draft">$ClaussSlaby_id
-                <date instant="false">$ClaussSlaby_date</date>
+            <bibl type="EDCS">
+                <idno>$ClaussSlaby_id</idno>
+                <date>$ClaussSlaby_date</date>
             </bibl>
         </template>
         <teiElement>
@@ -946,8 +949,9 @@
         <formLabel xml:lang="en">Trismegistos</formLabel>
         <fieldType>group</fieldType>
         <template>
-            <bibl type="trismegistos" default="false" status="draft">$trismegistos_id
-                <date instant="false">$trismegistos_date</date>
+            <bibl type="trismegistos">
+                <idno>$trismegistos_id</idno>
+                <date>$trismegistos_date</date>
             </bibl>
         </template>
         <teiElement>
@@ -972,12 +976,13 @@
         <nm>other</nm>
         <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="other"]</xpath>
         <contentType>nodes</contentType>
-        <cardinality>1</cardinality>
+        <cardinality>x</cardinality>
         <formLabel xml:lang="en">weitere elektronische Ressourcen</formLabel>
         <fieldType>group</fieldType>
         <template>
-            <bibl type="trismegistos" default="false" status="draft">$other_id
-                <date instant="false">$other_date</date>
+            <bibl type="other">
+                <idno>$other_id</idno>
+                <date>$other_date</date>
             </bibl>
         </template>
         <teiElement>
@@ -1109,7 +1114,7 @@
             <formLabel xml:lang="en">Editor's comment</formLabel>
             <xpath2ref/>
         </teiElement>
-    <!-- Editionen, <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1930, Nr.45</bibl> -->
+    <!-- Editionen, <bibl xml:id="LIT.1">Lehner 1930, Nr.45</bibl> -->
     <teiElement>
         <nm>Editionen</nm>
         <xpath>/tei:text/tei:body/tei:div[@subtype="editions"][@type="bibliography"]/tei:listBibl/tei:bibl</xpath>
@@ -1118,7 +1123,7 @@
         <formLabel xml:lang="en">Editionen und Lesungen</formLabel>
         <fieldType>group</fieldType>
         <template>
-            <bibl xml:id="$Editionen_id" default="false" status="draft">$Editionen_text</bibl>
+            <bibl xml:id="$Editionen_id">$Editionen_text</bibl>
         </template>
         <teiElement>
             <nm>Editionen_text</nm>
