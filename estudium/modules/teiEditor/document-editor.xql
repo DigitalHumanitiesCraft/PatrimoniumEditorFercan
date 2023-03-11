@@ -251,6 +251,9 @@ return
         {teiEditor:displayElement('DatierungsangabenimISText', (), (), ())}
         {teiEditor:displayElement('BesondereZeichen', (), (), ())}
         {teiEditor:displayElement('SonstigeBesonderheiten', (), (), ())}
+        {teiEditor:displayElement('KeltischesGoetternamenelement', (), (), ())}
+        {teiEditor:displayElement('TheonymischesFormular', (), (), ())}
+        
 
         <!--
         <h3>Listen</h3>

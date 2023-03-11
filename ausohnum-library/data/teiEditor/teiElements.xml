@@ -178,7 +178,7 @@
     <!--  -->
     <teiElement>
         <nm>DatierungsangabenimISText</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate/tei:note[type="original"]/tei:ref</xpath>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate/tei:note[@type="original"]/tei:ref</xpath>
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
@@ -202,6 +202,27 @@
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Sonstige Besonderheiten</formLabel>
     </teiElement>
+    <!--  -->
+    <teiElement>
+        <nm>KeltischesGoetternamenelement</nm>
+        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[@target="context:fercan.divinepart."]</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Keltisches Götternamenelement</formLabel>
+    </teiElement>
+    <!--  -->
+    <teiElement>
+        <nm>TheonymischesFormular</nm>
+        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[@target="context:fercan.theonymischesFormular."]</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Theonymisches Formular</formLabel>
+    </teiElement>
+
+
+    
     
 
 
@@ -606,7 +627,7 @@
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:condition/tei:ref/@ana</xpath>
         <contentType>textNodeAndAttribute</contentType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Zustand Objekt</formLabel>
+        <formLabel xml:lang="en">Zustand Inschrift</formLabel>
         <fieldType>combobox</fieldType>
         <thesauDb>internal</thesauDb>
         <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c26467</thesauTopConceptURI>
@@ -649,7 +670,7 @@
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:height</xpath>
         <contentType>nodes</contentType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Buchstabenhöhe</formLabel>
+        <formLabel xml:lang="en">Buchstabenhöhe (cm)</formLabel>
         <fieldType>group</fieldType>
         <template>
             <height unit="cm" atLeast="$Buchsthoehe_atLeast" atMost="$Buchsthoehe_atMost">$Buchsthoehe_text</height>

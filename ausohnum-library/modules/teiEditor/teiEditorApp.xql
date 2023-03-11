@@ -6395,7 +6395,7 @@ return
         <td>notAfter</td>
         <td>TM no.</td><!--Header for TM -->
         <td>Edition</td>
-        <td>GAMS</td><!--Header for other identifiers-->
+        <td>GAMS</td>
         </tr>
         </thead>
         <tbody>
@@ -6406,6 +6406,9 @@ return
         let $datingNotBefore := data($document//tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate/@notBefore)
         let $datingNotAfter := data($document//tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate/@notAfter)
         let $editions := $document//tei:div[@type="bibliography"][@subtype="editions"]//tei:bibl/text()
+        let $pid_from_subtitle := if( contains($document//tei:title[@type='sub']/text(), 'GeS-') ) 
+            then ( substring-after($document//tei:title[@type='sub']/text(), 'GeS-') ) 
+            else ( $document//tei:idno[@type='PID']/text() )
         
        order by xs:int(substring-after(data($document/@xml:id), $docPrefix ))
                return
@@ -6426,7 +6429,12 @@ return
            <td>{ $datingNotAfter }</td>
            <td>{ $document//tei:idno[@subtype="tm"]/text()}</td>
            <td><ul>{ for $edition in $editions return <li>{$edition}</li>}</ul></td>
-           <td><a href="{concat('https://gams.uni-graz.at/', $document//tei:idno[@type='PID']/text())}" target="_blank">{concat('https://gams.uni-graz.at/', $document//tei:idno[@type='PID']/text())}</a></td>
+           <td> 
+                     
+                <a href="{concat('https://gams.uni-graz.at/o:fercan.', $pid_from_subtitle)}" target="_blank">
+                    {concat('https://gams.uni-graz.at/o:fercan.', $pid_from_subtitle)}
+                </a>
+            </td>
            </tr>
            
 
