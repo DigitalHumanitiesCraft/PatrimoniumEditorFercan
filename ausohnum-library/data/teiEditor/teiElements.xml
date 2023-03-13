@@ -1089,8 +1089,8 @@
         <teiElement>
             <nm>Appcrit_note</nm>
             <xpath>/tei:text/tei:back/tei:note[@type="Appcrit_note"]</xpath>
-            <contentType>text</contentType>
-            <fieldType>input</fieldType>
+            <contentType>enrichedText</contentType>
+            <fieldType>textarea</fieldType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Editor's comment s</formLabel>
             <xpath2ref/>
