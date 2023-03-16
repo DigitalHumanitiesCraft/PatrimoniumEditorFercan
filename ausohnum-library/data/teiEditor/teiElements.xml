@@ -452,7 +452,7 @@
         <nm>Material</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:material/tei:ref/@ana</xpath>
         <contentType>textNodeAndAttribute</contentType>
-        <cardinality>1</cardinality>
+        <cardinality>x</cardinality>
         <formLabel xml:lang="en">Material</formLabel>
         <fieldType>combobox</fieldType>
         <thesauDb>internal</thesauDb>

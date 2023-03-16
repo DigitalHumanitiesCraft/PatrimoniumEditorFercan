@@ -206,6 +206,7 @@ return
         <div class="bg-info" style="margin: 10px;" id="Schrifttechnik_note_collapse">
           {teiEditor:displayElement('Schrifttechnik_note', (), (), ())}
         </div>
+        <p class="bg-info" style="margin: 10px;">Eingabe: 2,3–5,1 cm</p>
         {teiEditor:displayElement('Buchsthoehe', (), (), ())}
         <div class="bg-info" style="margin: 10px;" id="Buchsthoehe_note_collapse">
                {teiEditor:displayElement('Buchsthoehe_note', (), (), ())}

@@ -878,7 +878,6 @@ function saveData2( element,
     let pattern_buchstabenhoehe_text = /\d+(,\d+)?–\d+(,\d+)? cm$/g;
     let pattern_buchstabenhoehe_att = /\d+\.\d+$/g;
     let pattern_pid = /o:fercan.\d+$/g;
-    let pattern_weihestein = /Weihestein$/g;
     let pattern_fundjahr = /\b\d{4}(\/\d{4})?$/g;
     let pattern_EDH_id = /\bHD\d+$/g;
     let pattern_ClaussSlaby_id = /\bEDCS-\d+$/g;
@@ -926,12 +925,7 @@ function saveData2( element,
                 !pattern_pid.test(newValue))
     {
         alert("'" + newValue + "'" + " is not valid. valid is something like 'o:fercan.468'");
-    }    
-    else if (   elementNickName == 'Inschrifttraeger' &&
-                !pattern_weihestein.test(newValue))
-    {
-        alert("'" + newValue + "'" + " is not valid. valid is only 'Weihestein'");
-    } 
+    }
     else if (   elementNickName == 'Fundjahr' &&
                 !pattern_fundjahr.test(newValue))
     {
