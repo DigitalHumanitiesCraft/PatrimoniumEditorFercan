@@ -47,7 +47,7 @@
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">keltisches Götternamenelement</formLabel>
+        <formLabel xml:lang="en">Keltisches Götternamenelement</formLabel>
     </teiElement>
     <!-- Geographische Bezeichnung antik -->
     <teiElement>
@@ -205,7 +205,7 @@
     <!--  -->
     <teiElement>
         <nm>KeltischesGoetternamenelement</nm>
-        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[@target="context:fercan.divinepart."]</xpath>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName[@subtype="celtic_element"][@type="divine"]/tei:ref</xpath>
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
@@ -213,13 +213,41 @@
     </teiElement>
     <!--  -->
     <teiElement>
+        <nm>Belegformgesamt</nm>
+        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[@target="context:fercan.divinepart."]</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Belegform gesamt</formLabel>
+    </teiElement>
+    <!--  -->
+    <teiElement>
         <nm>TheonymischesFormular</nm>
-        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[@target="context:fercan.theonymischesFormular."]</xpath>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName[@subtype="celtic_normalized"][@type="divine"]/tei:ref</xpath>
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Theonymisches Formular</formLabel>
     </teiElement>
+    <!--  -->
+    <teiElement>
+        <nm>SonstigeTheonymischesFormular</nm>
+        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[@target="context:fercan.theonymischesFormular."]</xpath>
+        <contentType>text</contentType>
+        <fieldType>input</fieldType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Sonstige Theonymisches Formular</formLabel>
+    </teiElement>
+            <!-- Index_note -->
+            <teiElement>
+                <nm>Index_note</nm>
+                <xpath>/tei:text/tei:back/tei:note[@type="index_note"]</xpath>
+                <contentType>enrichedText</contentType>
+                <fieldType>textarea</fieldType>
+                <cardinality>1</cardinality>
+                <formLabel xml:lang="en">Editor's comment</formLabel>
+                <xpath2ref/>
+            </teiElement>
 
 
     
@@ -669,7 +697,7 @@
         <nm>Buchsthoehe</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:height</xpath>
         <contentType>nodes</contentType>
-        <cardinality>1</cardinality>
+        <cardinality>x</cardinality>
         <formLabel xml:lang="en">Buchstabenhöhe (cm)</formLabel>
         <fieldType>group</fieldType>
         <template>
@@ -1002,6 +1030,18 @@
             <fieldType>input</fieldType>
         </teiElement>
     </teiElement>
+        <!-- ElektronischeRessourcen_note  -->
+        <teiElement>
+            <nm>ElektronischeRessourcen_note</nm>
+            <xpath>/tei:text/tei:back/tei:note[@type="Appcrit_note"]</xpath>
+            <contentType>enrichedText</contentType>
+            <fieldType>textarea</fieldType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Editor's comment s</formLabel>
+            <xpath2ref/>
+        </teiElement>
+
+   
 
     
 

@@ -875,7 +875,7 @@ function saveData2( element,
     let pattern_abbildung = /\w+\.(jpg|png)*$/g;
     let pattern_abbildung_type = /image\/jpeg|image\/png|text\/csv$/g;
     let pattern_digit_only = /^\d+$/g;
-    let pattern_buchstabenhoehe_text = /\d+(,\d+)?–\d+(,\d+)? cm$/g;
+    let pattern_buchstabenhoehe_text = /\d+(,\d+)?–\d+(,\d+)?$/g;
     let pattern_buchstabenhoehe_att = /\d+\.\d+$/g;
     let pattern_pid = /o:fercan.\d+$/g;
     let pattern_fundjahr = /\b\d{4}(\/\d{4})?$/g;
@@ -914,7 +914,7 @@ function saveData2( element,
     else if (   elementNickName == 'Buchsthoehe_text' &&
                 !pattern_buchstabenhoehe_text.test(newValue))
     {
-        alert("'" + newValue + "'" + " is not valid. valid is something like '2,3–5,1 cm'");
+        alert("'" + newValue + "'" + " is not valid. valid is something like '2,3–5,1'");
     }
     else if (   (elementNickName == 'Buchsthoehe_atLeast' || elementNickName == 'Buchsthoehe_atMost') &&
                 !pattern_buchstabenhoehe_att.test(newValue))

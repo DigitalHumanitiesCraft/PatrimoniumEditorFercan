@@ -93,6 +93,7 @@ return
         <div class="bg-info" style="margin: 10px;" id="civitas_note_collapse">
           {teiEditor:displayElement('civitas_note', (), (), ())}
         </div>
+        <p class="bg-info" style="margin: 10px;"><![CDATA[&lt;]]> = &lt; | <![CDATA[&gt;]]> = &gt;</p>
         {teiEditor:displayElement('Appcrit', (), (), ())}
         <div class="bg-info" style="margin: 10px;" id="Appcrit_note_collapse">
               {teiEditor:displayElement('Appcrit_note', (), (), ())}
@@ -112,6 +113,9 @@ return
         {teiEditor:displayElement('ClaussSlaby', (), (), ())}
         {teiEditor:displayElement('trismegistos', (), (), ())}
         {teiEditor:displayElement('other', (), (), ())}
+        <div class="bg-info" style="margin: 10px;" id="Editionen_note_collapse">
+           {teiEditor:displayElement('ElektronischeRessourcen_note', (), (), ())}
+        </div>
         <h3>Übersetzungen</h3>
         {teiEditor:displayElement('dtUEbers', (), (), ())}
         <div class="bg-info" style="margin: 10px;" id="dtUEbers_note_collapse">
@@ -252,9 +256,13 @@ return
         {teiEditor:displayElement('DatierungsangabenimISText', (), (), ())}
         {teiEditor:displayElement('BesondereZeichen', (), (), ())}
         {teiEditor:displayElement('SonstigeBesonderheiten', (), (), ())}
-        {teiEditor:displayElement('KeltischesGoetternamenelement', (), (), ())}
+        {teiEditor:displayElement('Belegformgesamt', (), (), ())}
         {teiEditor:displayElement('TheonymischesFormular', (), (), ())}
-        
+        {teiEditor:displayElement('SonstigeTheonymischesFormular', (), (), ())}
+        <div class="bg-info" style="margin: 10px;" id="Datierung_note_collapse">
+          {teiEditor:displayElement('Index_note', (), (), ())}
+        </div>
+
 
         <!--
         <h3>Listen</h3>

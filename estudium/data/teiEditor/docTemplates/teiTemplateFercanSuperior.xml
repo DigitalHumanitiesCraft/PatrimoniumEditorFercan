@@ -101,8 +101,14 @@
 				</listPlace>
 				<listPerson>
 					<person>
-						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce."
-							type="context"> </ref> </persName>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context"> </ref>
+						</persName>
+					</person>
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context"> </ref>
+						</persName>
 					</person>
 					<person>
 						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> </ref> </persName>
@@ -286,6 +292,8 @@
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
 			<note type="Datierung_note"/>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
 		</back>
 	</text>
 </TEI>
