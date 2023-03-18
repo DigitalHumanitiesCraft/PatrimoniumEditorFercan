@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior10" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Casses</title><title type="sub"> CF-GeS-1039</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName>GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.10</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Speyer</settlement>
+						<repository>Historisches Museum der Pfalz</repository>
+						<idno>A 15</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p>Das Inschriftenfeld des vollständig erhaltenem Weihealtars mit gedrungener Basis ist nicht gerahmt. Auch auf dem Gesims finden sich Buchstaben. Der Aufsatzschmuck besteht aus einem Dreiecksgiebel in der Mitte, links und rechts davon jeweils eine Volute, die mit Punktrosetten gefüllt ist. </p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType>Weihestein</objectType> <dimensions>
+										<height unit="cm"> 36</height>
+										<width unit="cm"> 21</width>
+										<depth unit="cm"> 15</depth>
+									</dimensions> <note type="dimensions"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>Der Inschriftentext ist vollständig erhalten und füllt das Inschriftenfeld zur Gänze aus. Die erste Zeile befindet sich außerhalb des Inschriftenfeldes auf dem Gesims. Das I N D D in Z.2 ist vermutlich auf einen Fehler des Steinmetzen zurückzuführen. Vielleicht war die verschriebene Zeile durch eine Kalkschicht bzw. Bemalung verdeckt und auf dem Gesims als IN H D D richtig eingemeißelt worden (Hirte 1995, 450). | Die Zeilen sind nicht waagrecht und die Buchstaben unebenmäßig. </p> <note type="condition"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p>Keine bildliche Gestaltung vorhanden. </p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">Rosette</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150100">Inschrift außerhalb des Inschriftenfeldes</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="" notAfter=""> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1822"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Neustadt an der Weinstraße</ref> </placeName> <p>„an der Anhöhe gleich ausserhalb (der Stadt) links an der Strasse gegen Mussbach an einem Orte die Schanze genannt“ (CIL)</p> <location>
+								<geo decls="#WGS"/>
+							</location> <note>„bei der Anlage eines Weinbergs“ (Stichauer 1823, S.688)</note> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context"/></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context"/></persName></person>
+					<person>
+						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context"> Casses</ref> </persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> Casstus; Taluppe</ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">
+						</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">
+						</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list><item><ref target="context:fercan.divinepart." type="context"/></item>
+						<item> <ref target="context:fercan.dedication." type="context"> in honorem domus divinae; votum solvit laetus libens merito</ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref>
+						</item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="Casses 1039_fr.jpg">
+			<desc> </desc>
+		</graphic>
+	</facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform">
+				<listBibl>
+					<bibl xml:id="1"> CIL XIII 6116 (4, p.88) </bibl>
+				
+            <bibl xml:id="2">ILS 4736 </bibl>
+        
+            <bibl xml:id="3">Keune 1924 (Epigraph.Studien), 75 </bibl>
+        
+            <bibl xml:id="4">Hirte 1995, 450  </bibl>
+        
+            <bibl xml:id="5">Scheungraber 2020, 217 Nr.1</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform">
+				<listBibl>
+					<bibl type="EDCS"><idno> EDCS-11000110</idno><date> 2023-03-10</date></bibl>
+					<bibl type="EDH"><idno> HD075758</idno><date> 2021-02-18</date></bibl>
+					<bibl type="trismegistos"><idno> </idno><date> </date></bibl>
+					<bibl type="other"><idno> lupa.at/25543 </idno><date> 2020-07-09</date></bibl>
+				<bibl type="lupa"><idno/><date/></bibl></listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform">
+				<ab><orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab/></div>
+			<div type="translation" xml:lang="de" org="uniform">
+				<p><p>Zu Ehren des Kaiserhauses. Zu Ehren des Kaiserhauses für die Götter <rs type="divine">Casses</rs>!</p><p>Castus, (der Sohn) des Taluppa, hat das Gelübde freudig, gerne und verdientermaßen erfüllt.</p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform">
+				<p><p>In honour of the Divine Household. In honour of the Divine Household to the gods <rs type="divine">Casses</rs>!</p><p>Castus, (the son) of Taluppa, has fulfilled a vow gladly, willingly and deservedly.<br/></p></p>
+			</div>
+			<div type="apparatus" org="uniform">
+				<app loc="1">
+					<note/>
+				</app>
+			</div>
+			<div type="commentary" subtype="general" org="uniform">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="language" org="uniform">
+				<p> v.5: „Taluppe“ pro „Taluppae“</p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note">Lupa: Giebel zwischen pulvini mit Rosetten</note>
+			<note type="ArchKlass_note"/>
+			<note type="Material_note">CIL Kartei Flensburg S. 5: Inventarverzeichnis Museum Speyer: gelber Sandstein Hirte: gelber Sandstein </note>
+			<note type="Inschrifttraeger_note">WSpDB: ara</note>
+			<note type="VerwahrortOrt_note"/>
+			<note type="InvNr_note"/>
+			<note type="Fundstelle_note">CIL: an der Anhöhe gleich ausserhalb (der Stadt) links an der Strasse gegen Mussbach an einem Orte die Schanze genannt</note>
+			<note type="Fundumst_note"/>
+			<note type="Fundjahr_note">CIL</note>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note"/>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note">FilmNr 131/35; Gute Abb in lupa</note>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note">Photos von online nicht verfügbaren Inschriftentexten  s. Ordner: ISntexte Slg  ev noch einsehen Stichauer 1823 in: Intelligenzblatt des Rheinkreises, S.688 (im Ordner Fundberichte) Hildebrand 1911, n.203</note>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note">so CIL Datei Flensburg, S. 3: Keune, Dis Cassibus, in: Pfälzisches Mus 41 (1924) 120, und CIL Datei Flensburg. S. 5 Inventarverzeichnis Museum Speyer</note>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note"/>
+			<note type="Notvar_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note">175-250 – WSpDB Frühestens 2.H.2.Jh. – Keune 1924 (Pfälzisches Mus.41) 151-300 – EDH  E.2./A.3.Jh. – Kakoschke </note>
+		<note type="ElektronischeRessourcen_note"/><note type="Index_note"/></back>
+	</text>
+</TEI>

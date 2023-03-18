@@ -18,6 +18,60 @@
 		</xsl:copy>
 	</xsl:template>
 	
+	<xsl:template match="*:listPerson">
+		<xsl:copy>
+			<xsl:if test="not(*:person/*:persName[@subtype = 'celtic_normalized'][@type ='divine'])">
+				<person>
+					<persName subtype="celtic_normalized" type="divine">
+						<ref target="context:fercan.dcn." type="context"> </ref>
+					</persName>
+				</person>
+			</xsl:if>
+			<xsl:if test="not(*:person/*:persName[@subtype = 'celtic_normalized_other'][@type ='divine'])">
+				<person>
+					<persName subtype="celtic_normalized_other" type="divine">
+						<ref target="context:fercan.dcn.other" type="context"> </ref>
+					</persName>
+				</person>
+			</xsl:if>
+			
+			
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	
+	<xsl:template match="*:keywords/*:list">
+		<xsl:copy>
+			<xsl:if test="not(*:item/*:ref[@target = 'context:fercan.dedication.'])">
+				<item> <ref target="context:fercan.dedication." type="context"> </ref> </item>
+			</xsl:if>
+			<xsl:if test="not(*:item/*:ref[@target = 'context:fercan.character.'])">
+				<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+			</xsl:if>
+			<xsl:if test="not(*:item/*:ref[@target = 'context:fercan.other.'])">
+				<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+			</xsl:if>
+			<xsl:if test="not(*:item/*:ref[@target = 'context:fercan.rel.other.'])">
+				<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+			</xsl:if>
+			<xsl:if test="not(*:item/*:ref[@target = 'context:fercan.divinepart.'])">
+				<!-- Belegform gesamt  -->
+				<item> <ref target="context:fercan.divinepart." type="context"> </ref> </item>
+			</xsl:if>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+
+	
+	<!-- skip nasty attributes from schema -->
+	<xsl:template match="@instant"/>
+	<xsl:template match="@default"/>
+	<xsl:template match="@full"/>
+	<xsl:template match="@status"/>
+	<xsl:template match="@part"/>
+	<xsl:template match="@anchored"/>
+	<xsl:template match="@sample"/>
+	
 	<xsl:template match="*:text/*:back">
 		<xsl:copy>
 			<xsl:apply-templates select="@*|node()"/>

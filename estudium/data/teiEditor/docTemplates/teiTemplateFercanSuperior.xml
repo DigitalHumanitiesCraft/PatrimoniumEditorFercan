@@ -100,11 +100,19 @@
 					</place>
 				</listPlace>
 				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
 					<person>
 						<persName subtype="celtic_normalized" type="divine">
 							<ref target="context:fercan.dcn." type="context"> </ref>
 						</persName>
 					</person>
+					<!-- keltisches götternamenelement  -->
 					<person>
 						<persName subtype="celtic_element" type="divine">
 							<ref target="context:fercan.dce." type="context"> </ref>
@@ -198,8 +206,8 @@
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
 						<item> <ref target="context:fercan.divinepart." type="context"> </ref> </item>
-						<item> <ref target="context:fercan.theonymischesFormular." type="context"> </ref> </item>
 					</list>
 				</keywords>
 			</textClass>

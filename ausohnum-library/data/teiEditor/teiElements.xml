@@ -232,7 +232,7 @@
     <!--  -->
     <teiElement>
         <nm>SonstigeTheonymischesFormular</nm>
-        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[@target="context:fercan.theonymischesFormular."]</xpath>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName[@subtype="celtic_normalized_other"][@type="divine"]/tei:ref</xpath>
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
@@ -632,8 +632,8 @@
     <teiElement>
         <nm>Ikonogr</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:decoDesc/tei:decoNote/tei:p</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
+        <contentType>enrichedText</contentType>
+        <fieldType>textarea</fieldType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Ikonographie</formLabel>
         <xpath2ref/>
@@ -742,8 +742,8 @@
     <teiElement>
         <nm>Inschrtext</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:layoutDesc/tei:layout/tei:p</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
+        <contentType>enrichedText</contentType>
+        <fieldType>textarea</fieldType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Inschrift</formLabel>
         <xpath2ref/>
@@ -811,8 +811,8 @@
     <teiElement>
         <nm>Notvar</nm>
         <xpath>/tei:text/tei:body/tei:div[@type="commentary"][@subtype="language"]/tei:p</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
+        <contentType>enrichedText</contentType>
+        <fieldType>textarea</fieldType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Notabilia varia</formLabel>
         <xpath2ref/>
