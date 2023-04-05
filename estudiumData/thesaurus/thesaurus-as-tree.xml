@@ -45,6 +45,7 @@
 				>https://ausohnum.huma-num.fr/concept/c25328</topConceptUri>
 			<topConceptUri status="published"
 				>https://ausohnum.huma-num.fr/concept/c25305</topConceptUri>
+			<!-- Inschriftenträger -->
 			<topConceptUri status="published"
 				>https://ausohnum.huma-num.fr/concept/c24686</topConceptUri>
 			<!-- Technik -->
@@ -72,6 +73,129 @@
 				<isFolder>true</isFolder>
 				<orderedCollection json:literal="true">true</orderedCollection>
 				<lang>en</lang>
+				<!-- Inschriftenträger -->
+				<children json:array="true" status="published" type="collectionItem" groups="">
+					<title>Inschriftenträger</title>
+					<id>c23775</id>
+					<uri>https://ausohnum.huma-num.fr/concept/c24686</uri>
+					<key>c23775</key>
+					<xmlValue/>
+					<lang>en</lang>
+					<isFolder>true</isFolder>
+					<!-- CP: here add concepts for Inschriftenträger -->
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Schmuckgegenstand</title>
+						<id>Schmuckgegenstand</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.110100</uri>
+						<key>Schmuckgegenstand</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Armband</title>
+						<id>Armband</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.110110</uri>
+						<key>Armband</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Aedicula-Altar</title>
+						<id>Aedicula-Altar</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.110200</uri>
+						<key>Aedicula-Altar</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Weihealtar</title>
+						<id>Weihealtar</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.110300</uri>
+						<key>Weihealtar</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Weihestein</title>
+						<id>Weihestein</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.110400</uri>
+						<key>Weihestein</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Tafel</title>
+						<id>Tafel</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.110500</uri>
+						<key>Tafel</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Statuenbasis/Basis</title>
+						<id>Statuenbasis/Basis</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.110600</uri>
+						<key>Statuenbasis/Basis</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Bronzebasis</title>
+						<id>Bronzebasis</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.110610</uri>
+						<key>Bronzebasis</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>freistehende Figur</title>
+						<id>freistehende Figur</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.110620</uri>
+						<key>freistehende Figur</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Statue</title>
+						<id>Statue</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.110621</uri>
+						<key>Statue</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Statuette</title>
+						<id>Statuette</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.110622</uri>
+						<key>Statuette</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Bronzekästchen</title>
+						<id>Bronzekästchen</id>
+						<uri></uri>
+						<key>https://gams.uni-graz.at/o:fercan.arch#C.110700</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Bauinschrift</title>
+						<id>Bauinschrift</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.110800</uri>
+						<key>Bauinschrift</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Guttus/Aryballos/Einhenkelkrug/Salbfläschchen</title>
+						<id>Guttus/Aryballos/Einhenkelkrug/Salbfläschchen</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.110900</uri>
+						<key>Guttus/Aryballos/Einhenkelkrug/Salbfläschchen</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+				</children>
 				<!-- Technik  -->
 				<children json:array="true" status="published" type="collectionItem" groups="">
 					<title>Technik</title>

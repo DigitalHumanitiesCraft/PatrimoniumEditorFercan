@@ -457,13 +457,14 @@
     <!-- Inschriftträger -->
     <teiElement>
         <nm>Inschrifttraeger</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:objectType</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:objectType/@ana</xpath>
+        <contentType>textNodeAndAttribute</contentType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Inschriftträger</formLabel>
-        <xpath2ref/>
-        <comments/>
+        <fieldType>combobox</fieldType>
+        <thesauDb>internal</thesauDb>
+        <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c24686</thesauTopConceptURI>
+        <attributeValueType>uri</attributeValueType>
     </teiElement>
         <!-- Inschrifttraeger_note  -->
         <teiElement>
@@ -831,7 +832,7 @@
     <!-- Komm. Göttern. -->
     <teiElement>
         <nm>KommGoettern</nm>
-        <xpath>/tei:text/tei:body/tei:div[@type="commentary"][@subtype="deity"]/tei:p</xpath>
+        <xpath>/tei:text/tei:body/tei:div[@type="commentary"][@subtype="deity"]</xpath>
         <contentType>enrichedText</contentType>
         <fieldType>textarea</fieldType>
         <cardinality>1</cardinality>
@@ -852,7 +853,7 @@
     <!-- Sonst. Komm. -->
     <teiElement>
         <nm>SonstKomm</nm>
-        <xpath>/tei:text/tei:body/tei:div[@type="commentary"][@subtype="general"]/tei:p</xpath>
+        <xpath>/tei:text/tei:body/tei:div[@type="commentary"][@subtype="general"]</xpath>
         <contentType>enrichedText</contentType>
         <fieldType>textarea</fieldType>
         <cardinality>1</cardinality>
