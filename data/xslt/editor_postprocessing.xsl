@@ -16,15 +16,18 @@
 	<xsl:template match="*:TEI/*:text/*:body/*:linkGrp">
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<xsl:for-each select="//*:app[@loc]">
-				<link target="{concat('#MAJ.', @loc, ' #MIN.', @loc)}"/>
+			<xsl:for-each select="//*:div[@subtype='diplomatic'][@type='edition']/*:ab/*:orig/*:lb">
+				<link target="{concat('#MAJ.', position(), ' #MIN.', position())}"/>
 			</xsl:for-each>
 		</xsl:copy>
 	</xsl:template>
+	
+	<!-- remove all idno with " " or empty -->
+	<xsl:template match="//*:idno[not(text()) or text() = ' ']"/>
 
 	<!-- fix @xml:id in bibliography; adding "LIT." -->
 	<xsl:template match="*:TEI/*:text/*:body/*:div[@type='bibliography'][@subtype='editions']/*:listBibl/*:bibl">
-		<bibl xml:id="{concat('LIT.', @xml:id)}">
+		<bibl xml:id="{normalize-space(@xml:id)}">
 			<xsl:apply-templates/>
 		</bibl>
 	</xsl:template>
@@ -117,7 +120,7 @@
 	<xsl:template match="/*:TEI/*:teiHeader/*:fileDesc/*:sourceDesc/*:msDesc/*:physDesc/*:decoDesc/*:decoNote/*:term">
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<ref type="context" target="{concat( 'context:fercan.arch.', translate(lower-case(normalize-space(text())), ' ', '') )}">
+			<ref type="context" target="{concat( 'context:fercan.arch.', translate(lower-case(*:ref/text()), ' ', '') )}">
 				<xsl:apply-templates/>	
 			</ref>
 		</xsl:copy>
@@ -139,5 +142,8 @@
 	<xsl:template match="@part"/>
 	<xsl:template match="@anchored"/>
 	<xsl:template match="@sample"/>
+	<xsl:template match="@org"/>
+	<xsl:template match="@lang"/>
+	
 	
 </xsl:stylesheet>
