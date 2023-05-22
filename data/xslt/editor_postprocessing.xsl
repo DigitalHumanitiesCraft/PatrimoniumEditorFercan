@@ -22,12 +22,38 @@
 		</xsl:copy>
 	</xsl:template>
 	
+	<xsl:template match="*:teiHeader">
+		<xsl:copy>
+			<xsl:attribute name="xml:lang" select="'de'"/>
+			<xsl:apply-templates/>
+		</xsl:copy>
+	</xsl:template>
+	
+	<!-- new date -->
+	<xsl:template match="*:teiHeader//*:publicationStmt/*:date">
+		<date when="2023"><xsl:text>2023</xsl:text></date>
+	</xsl:template>
+	
+	<xsl:template match="*:div[@type='commentary'][@subtype='deity']/*:p/text()">
+		<xsl:value-of select="normalize-space(.)"/>
+	</xsl:template>
+	
 	<!-- remove all idno with " " or empty -->
 	<xsl:template match="//*:idno[not(text()) or text() = ' ']"/>
 
 	<!-- fix @xml:id in bibliography; adding "LIT." -->
 	<xsl:template match="*:TEI/*:text/*:body/*:div[@type='bibliography'][@subtype='editions']/*:listBibl/*:bibl">
-		<bibl xml:id="{normalize-space(@xml:id)}">
+		<bibl>
+			<xsl:attribute name="xml:id">
+				<xsl:choose>
+					<xsl:when test="contains(@xml:id, 'LIT.')">
+						<xsl:value-of select="normalize-space(@xml:id)"/>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:value-of select="concat('LIT.', normalize-space(@xml:id))"/>
+					</xsl:otherwise>
+				</xsl:choose>
+			</xsl:attribute>
 			<xsl:apply-templates/>
 		</bibl>
 	</xsl:template>
@@ -150,8 +176,22 @@
 	<xsl:template match="/*:TEI/*:teiHeader/*:fileDesc/*:sourceDesc/*:msDesc/*:history/*:provenance/*:location/*:geo">
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<xsl:text>ToDo: add coordinates</xsl:text>
 		</xsl:copy>
+	</xsl:template>
+	
+	<!--  -->
+	<xsl:template match="*:note">
+		<note>
+			<xsl:apply-templates select="@*"/>
+			<xsl:apply-templates/>
+		</note>
+	</xsl:template>
+	
+	<!--  -->
+	<xsl:template match="*:location">
+		<location>
+			<xsl:apply-templates/>
+		</location>
 	</xsl:template>
 	
 	<!-- skip attributes from schema -->
