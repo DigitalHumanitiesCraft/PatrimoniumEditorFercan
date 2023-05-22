@@ -87,20 +87,20 @@
 		</xsl:copy>
 	</xsl:template>
 	
-	<!--  add context target; ";" seperation-->
-	<xsl:template match="*:ref[@type='context']">
+	<!--  add context target; ";" seperation; select all ref if they end with "." -> context:fercan.arch.stifterstifter  context:fercan.arch. -->
+	<xsl:template match="*:ref[@type='context'][substring(text(), string-length(text()), 1) = '.']">
 		<xsl:choose>
 			<xsl:when test="contains(text(), ';')">
 				<xsl:variable name="ana" select="@ana"/>
 				<xsl:variable name="target" select="@target"/>
-				<xsl:for-each select="tokenize(text(), ';')">
-					<ref type="context" target="{concat($target, translate(lower-case(normalize-space(.)), ' ', '') )}">
-						<xsl:if test="$ana">
-							<xsl:attribute name="ana" select="$ana"/>
-						</xsl:if>
-						<xsl:value-of select="normalize-space(.)"/>
-					</ref>
-				</xsl:for-each>
+					<xsl:for-each select="tokenize(text(), ';')">
+						<ref type="context" target="{concat($target, translate(lower-case(normalize-space(.)), ' ', '') )}">
+							<xsl:if test="$ana">
+								<xsl:attribute name="ana" select="$ana"/>
+							</xsl:if>
+							<xsl:value-of select="normalize-space(.)"/>
+						</ref>
+					</xsl:for-each>
 			</xsl:when>
 			<xsl:otherwise>
 				<ref type="context" target="{concat( @target, translate(lower-case(normalize-space(text())), ' ', '') )}">
@@ -119,11 +119,31 @@
 	<!-- add <ref type="context" target="context:fercan.arch.fragment">Fragment</ref> -->
 	<xsl:template match="/*:TEI/*:teiHeader/*:fileDesc/*:sourceDesc/*:msDesc/*:physDesc/*:decoDesc/*:decoNote/*:term">
 		<xsl:copy>
-			<xsl:apply-templates select="@*"/>
-			<ref type="context" target="{concat( 'context:fercan.arch.', translate(lower-case(*:ref/text()), ' ', '') )}">
-				<xsl:apply-templates/>	
-			</ref>
+			<xsl:choose>
+				<xsl:when test="substring(*:ref, string-length(*:ref), 1) = '.'">
+					<ref type="context" target="{concat( 'context:fercan.arch.', translate(lower-case(*:ref/text()), ' ', '') )}">
+						<xsl:apply-templates/>	
+					</ref>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:apply-templates/>	
+				</xsl:otherwise>
+			</xsl:choose>
+			
 		</xsl:copy>
+		
+		<!--<xsl:choose>
+			<xsl:when test="substring(*:ref/text(), string-length(*:ref/text()), 1) = '.'">
+				<xsl:copy>
+					<ref type="context" target="{concat( 'context:fercan.arch.', translate(lower-case(*:ref/text()), ' ', '') )}">
+						<xsl:apply-templates/>	
+					</ref>
+				</xsl:copy>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:apply-templates select="@*"/>
+			</xsl:otherwise>
+		</xsl:choose>-->
 	</xsl:template>
 	
 	<!--  -->
@@ -134,7 +154,7 @@
 		</xsl:copy>
 	</xsl:template>
 	
-	<!-- skip nasty attributes from schema -->
+	<!-- skip attributes from schema -->
 	<xsl:template match="@instant"/>
 	<xsl:template match="@default"/>
 	<xsl:template match="@full"/>
@@ -143,7 +163,14 @@
 	<xsl:template match="@anchored"/>
 	<xsl:template match="@sample"/>
 	<xsl:template match="@org"/>
-	<xsl:template match="@lang"/>
+	
+	<!-- Get rid of elements created by copying and pasting into a text area in editor. -->
+	<xsl:template match="*:span[@lang]">
+		<xsl:apply-templates/>
+	</xsl:template>
+	<xsl:template match="*:font">
+		<xsl:apply-templates/>
+	</xsl:template>
 	
 	
 </xsl:stylesheet>

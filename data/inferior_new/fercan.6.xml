@@ -1,4 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior6">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior6">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -8,16 +8,16 @@
                 </title>
                 <respStmt>
                     <resp>Inschriftenedition</resp>
-                    <persName>
-                        <forename>Werner</forename>
-                        <surname>Petermandl</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Werner</forename>
+                        <surname full="yes">Petermandl</surname>
                     </persName>
                 </respStmt>
                 <respStmt>
                     <resp>Archäologische Beschreibung und geografische Daten</resp>
-                    <persName>
-                        <forename>Astrid</forename>
-                        <surname>Schmölzer</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Astrid</forename>
+                        <surname full="yes">Schmölzer</surname>
                     </persName>
                 </respStmt>
                 <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
@@ -26,23 +26,23 @@
             <publicationStmt>
                 <publisher>
                     <link target="https://antike.uni-graz.at"/>
-                    <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
+                    <orgName ref="https://d-nb.info/gnd/1213531357" instant="false" full="yes">Institut für Antike, Fachbereich
                     Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
                 </publisher>
                 <authority>
                     <link target="https://informationsmodellierung.uni-graz.at"/>
-                    <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                    <orgName ref="http://d-nb.info/gnd/1137284463" instant="false" full="yes">Zentrum für
                     Informationsmodellierung - Austrian Centre for Digital Humanities,
                     Karl-Franzens-Universität Graz</orgName>
                 </authority>
                 <distributor>
                     <link target="https://gams.uni-graz.at"/>
-                    <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                    <orgName instant="false" full="yes">GAMS - Geisteswissenschaftliches Asset Management System</orgName>
                 </distributor>
-                <date when="2022">2022</date>
+                <date when="2022" instant="false">2022</date>
                 <pubPlace>Graz</pubPlace>
                 <idno type="PID">o:fercan.6</idno>
-                <availability>
+                <availability default="false">
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
                     BY-NC 4.0</licence>
                 </availability>
@@ -52,14 +52,14 @@
                   Celticarum Antiquarum</title>
                 <respStmt>
                     <resp>Projektleitung</resp>
-                    <persName>
-                        <forename>Wolfgang</forename>
-                        <surname>Spickermann</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Wolfgang</forename>
+                        <surname full="yes">Spickermann</surname>
                     </persName>
                 </respStmt>
             </seriesStmt>
-            <sourceDesc>
-                <msDesc>
+            <sourceDesc default="false">
+                <msDesc status="draft">
                     <msIdentifier>
                         <settlement>Bonn</settlement>
                         <repository>Rheinisches Landesmuseum</repository>
@@ -72,7 +72,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Der Altarkörper ruht auf einem deutlich abgesetzten Sockel. Die Bekrönung ist nur mehr in stark beschädigten und bestoßenen Ansätzen vorhanden, die Seitansichten zeigen deutlichere Überreste von Pulvini, die mit Blattdekor versehen waren.<lb/>Über dem nicht gerahmten Inschriftenfeld befindet sich eine Nische für das stehende Götterbild mit leicht vorspringendem Gesims als Trennung. Die Begrenzungen links und rechts entsprechen der normalen Altaroberfläche, links oben schließt ein kapitellartiger Aufsatz an, d.h. es ist von angedeuteten, glatten Pilastern auszugehen.</p>
+                                    <p part="N">Der Altarkörper ruht auf einem deutlich abgesetzten Sockel. Die Bekrönung ist nur mehr in stark beschädigten und bestoßenen Ansätzen vorhanden, die Seitansichten zeigen deutlichere Überreste von Pulvini, die mit Blattdekor versehen waren.<lb/>Über dem nicht gerahmten Inschriftenfeld befindet sich eine Nische für das stehende Götterbild mit leicht vorspringendem Gesims als Trennung. Die Begrenzungen links und rechts entsprechen der normalen Altaroberfläche, links oben schließt ein kapitellartiger Aufsatz an, d.h. es ist von angedeuteten, glatten Pilastern auszugehen.</p>
                                     <material>
                                         <ref type="context" target="context:fercan.material.kalkstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref>
                                     </material>
@@ -89,8 +89,8 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Der Text ist in seiner ganzen Ausdehnung erhalten. Abgesehen von einer schmalen Lücke im rechten Teil ist er zwar etwas korrodiert aber lesbar.<lb/>In Z.5 findet sich eine Ligatur von E und T mit seitenverkehrtem E.</p>
-                                    <note type="condition">weitgehend vollständig</note>
+                                    <p part="N">Der Text ist in seiner ganzen Ausdehnung erhalten. Abgesehen von einer schmalen Lücke im rechten Teil ist er zwar etwas korrodiert aber lesbar.<lb/>In Z.5 findet sich eine Ligatur von E und T mit seitenverkehrtem E.</p>
+                                    <note type="condition" anchored="true">weitgehend vollständig</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -102,7 +102,7 @@
                         </handDesc>
                         <decoDesc>
                             <decoNote>
-                                <p>Der aufrecht im Kontrapost stehende Merkur (rechtes Standbein, linkes Bein stark beschädigt bzw. fast nicht mehr vorhanden) ist bis auf den um die Schultern liegenden Mantel, der links an der Schulter festgemacht ist und ihm den Rücken hinabfällt, nackt. Seine Unterarme fehlen, der Kopf ist stark zerstört und nur in Umrissen vorhanden. Da diese an den oberen Enden etwas ausufern, kann eine Flügelkappe bzw. ein geflügeltes Haupt des Merkur angenommen werden. <lb/> 
+                                <p part="N">Der aufrecht im Kontrapost stehende Merkur (rechtes Standbein, linkes Bein stark beschädigt bzw. fast nicht mehr vorhanden) ist bis auf den um die Schultern liegenden Mantel, der links an der Schulter festgemacht ist und ihm den Rücken hinabfällt, nackt. Seine Unterarme fehlen, der Kopf ist stark zerstört und nur in Umrissen vorhanden. Da diese an den oberen Enden etwas ausufern, kann eine Flügelkappe bzw. ein geflügeltes Haupt des Merkur angenommen werden. <lb/> 
 Hinter seinen Beinen liegt ein schafsähnliches Tier. Hier wird ein Widder vermutet, allerdings fehlt der Kopf. Klar erkennbar sind hingegen die zottige Fellgestaltung und die am Boden ruhenden Vorderbeine. Nach der Haltung des Halses dürfte die Blickrichtung des Tieres entweder frontal oder leicht nach links geneigt gewesen sein. <lb/> 
 Auf den Schmalseiten befinden sich Baumdarstellungen in Relief. Die Darstellungen sind durch die ansetzenden Sockel bzw. den Aufsatz begrenzt. Links weist der geradstämmige Baum auf mittlerer Stammhöhe rechts einen Aststummel auf. Seine Blätter sind großflächig und laufen nach oben hin geschwungen spitz zu. <lb/> 
 Die rechte Darstellung ist wesentlich schlechter erhalten, die Oberfläche mehr bestoßen. Der gerade Stamm weist keine Besonderheiten auf. Es sind wesentlich weniger Blätter vorhanden, die sehr rund ausgebildet sind, allerdings ebenso spitz nach oben zulaufen. </p>
@@ -149,68 +149,68 @@ Die rechte Darstellung ist wesentlich schlechter erhalten, die Oberfläche mehr 
                         </decoDesc>
                     </physDesc>
                     <history>
-                        <origin>
-                            <origPlace>
-                                <placeName ref="https://pleiades.stoa.org/places/108818">Bonna</placeName>
+                        <origin instant="false">
+                            <origPlace instant="false">
+                                <placeName ref="https://pleiades.stoa.org/places/108818" instant="false" full="yes">Bonna</placeName>
                                 <region>CCAA</region>
                             </origPlace>
-                            <origDate/>
+                            <origDate instant="false"/>
                         </origin>
                         <provenance type="found" when="1929">
-                            <placeName>
+                            <placeName instant="false" full="yes">
                                 <ref type="context" target="context:fercan.geog.modern.bonn">Bonn</ref>
                             </placeName>
-                            <p>Münsterkirche</p>
-                            <location>
+                            <p part="N">Münsterkirche</p>
+                            <location instant="false">
                                 <geo decls="#WGS">50.732598 7.108382</geo>
                             </location>
-                            <note>im Fundament eines fränkischen Grabsaals verbaut</note>
+                            <note anchored="true">im Fundament eines fränkischen Grabsaals verbaut</note>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)</provenance>
                     </history>
                 </msDesc>
-                <listPlace>
-                    <place/>
+                <listPlace default="false">
+                    <place instant="false"/>
                 </listPlace>
-                <listPerson>
-                    <person>
-                        <persName type="cognomen">
+                <listPerson default="false">
+                    <person instant="false">
+                        <persName type="cognomen" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.cognomen.victor">Victor</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_normalized">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dcn.mercurius_gebrinius">Mercurius Gebrinius</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_diplomatic">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_diplomatic" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dcd.mercurius_gebrinius.mercurio__g_ebrinio">Mercurio [G]ebrinio</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_element">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_element" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dce.gebrinius">Gebrinius</ref>
                         </persName>
                     </person>
                 </listPerson>
-                <listOrg>
-                    <org/>
+                <listOrg default="false">
+                    <org instant="false"/>
                 </listOrg>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
-            <editorialDecl>
-                <p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
-                <p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+            <geoDecl xml:id="WGS" datum="WGS84" default="false">World Geodetic System</geoDecl>
+            <editorialDecl default="false">
+                <p part="N">Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+                <p part="N">Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
                   Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
             </editorialDecl>
-            <projectDesc>
-                <p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+            <projectDesc default="false">
+                <p part="N">Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
                   Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
                   Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
-                <p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+                <p part="N">Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
                   lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
                   zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
                   besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
@@ -228,10 +228,10 @@ Die rechte Darstellung ist wesentlich schlechter erhalten, die Oberfläche mehr 
             </projectDesc>
         </encodingDesc>
         <profileDesc>
-            <langUsage>
+            <langUsage default="false">
                 <language ident="la">Latein</language>
             </langUsage>
-            <textClass>
+            <textClass default="false">
                 <keywords>
                     <list>
                         <item>
@@ -245,10 +245,10 @@ Die rechte Darstellung ist wesentlich schlechter erhalten, die Oberfläche mehr 
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc>
-            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.6/TEI_SOURCE.2020-02-26">Initial Version</change>
-            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.6/TEI_SOURCE.2022-03-07">Version 2</change>
-            <change when="2022" n="3">Version 3</change>
+        <revisionDesc status="draft">
+            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.6/TEI_SOURCE.2020-02-26" status="draft">Initial Version</change>
+            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.6/TEI_SOURCE.2022-03-07" status="draft">Version 2</change>
+            <change when="2022" n="3" status="draft">Version 3</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -264,65 +264,64 @@ Die rechte Darstellung ist wesentlich schlechter erhalten, die Oberfläche mehr 
     </facsimile>
     <text>
         <body>
-            <ab>
+            <ab part="N">
                 <ref target="context:fercan" type="context">FERCAN</ref>
             </ab>
-            <div subtype="editions" type="bibliography" org="uniform">
-                <listBibl>
-                    <bibl xml:id="LIT.1">Lehner 1930, Nr.50</bibl>
-                    <bibl xml:id="LIT.2">Nesselhauf 1937, Nr.191</bibl>
-                    <bibl xml:id="LIT.3">Espérandieu XI 7781</bibl>
-                    <bibl xml:id="LIT.4">Bauchhenß 2014, 174 Nr.92</bibl>
-                </listBibl>
+            <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl default="false">
+                    <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1930, Nr.50</bibl>
+                    <bibl xml:id="LIT.2" default="false" status="draft">Nesselhauf 1937, Nr.191</bibl>
+                    <bibl xml:id="LIT.3" default="false" status="draft">Espérandieu XI 7781</bibl>
+                    <bibl xml:id="LIT.4" default="false" status="draft">Bauchhenß 2014, 174 Nr.92</bibl>
+                
+            <bibl xml:id="LIT.5" default="false" status="draft">Scheungraber 2020, 296 Nr.9</bibl>
+        </listBibl>
             </div>
-            <div subtype="concordances" type="bibliography" org="uniform">
-                <listBibl>
-                    <bibl type="EDCS"><idno>
-                         
-                    </idno> <date>zuletzt aufgerufen am 24. Februar 2020</date></bibl>
-                    <bibl type="trismegistos"><idno>
-                         
-                    </idno> <date>zuletzt aufgerufen am 26. Juli 2021</date></bibl>
-                </listBibl>
+            <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl><bibl type="EDCS"><idno>EDCS-11202316</idno><date>zuletzt aufgerufen am 24. Februar 2020</date></bibl><bibl type="trismegistos"><idno>www.trismegistos.org/text/419752</idno><date>zuletzt aufgerufen am 26. Juli 2021</date></bibl></listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/>MERCVRIO <gap reason="lost" quantity="1" unit="character"/>EBRI <lb n="2"/> 
-NIO · M · CV<gap reason="lost" extent="unknown" unit="character"/>O <lb n="3"/> 
-NIVS · VICT<gap reason="lost" quantity="1" unit="character"/>R <lb n="4"/> 
-PRO SE <hi rend="ligature">ET</hi> SV<gap reason="lost" extent="unknown" unit="character"/>· S · L · M</orig></ab></div>
-            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Mercurio <supplied reason="lost">G</supplied>ebri<lb n="2" break="no"/>nio <expan><abbr>M</abbr><ex>arcus</ex></expan> Cu<gap reason="lost" extent="unknown" unit="character"/>o<lb n="3" break="no"/>nius Vict<supplied reason="lost">o</supplied>r<lb n="4"/>pro se et su<supplied reason="lost">is</supplied> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
-            <div type="translation" xml:lang="de" org="uniform">
-                <p>Für  <rs type="divine">Mercurius Gebrinius!</rs> <lb/> 
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>MERCVRIO <gap reason="lost" quantity="1" unit="character" instant="false"/>EBRI <lb n="2"/> 
+NIO · M · CV<gap reason="lost" extent="unknown" unit="character" instant="false"/>O <lb n="3"/> 
+NIVS · VICT<gap reason="lost" quantity="1" unit="character" instant="false"/>R <lb n="4"/> 
+PRO SE <hi rend="ligature">ET</hi> SV<gap reason="lost" extent="unknown" unit="character" instant="false"/>· S · L · M</orig></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Mercurio <supplied reason="lost" instant="false">G</supplied>ebri<lb n="2" break="no"/>nio <expan instant="false"><abbr>M</abbr><ex instant="false">arcus</ex></expan> Cu<gap reason="lost" extent="unknown" unit="character" instant="false"/>o<lb n="3" break="no"/>nius Vict<supplied reason="lost" instant="false">o</supplied>r<lb n="4"/>pro se et su<supplied reason="lost" instant="false">is</supplied> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
+            <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
+                <p part="N">Für  <rs type="divine">Mercurius Gebrinius!</rs> <lb/> 
 Marcus Cu…onius Victor hat für sich und die Seinen (das Gelübde) gerne und verdientermaßen erfüllt.</p>
             </div>
-            <div type="translation" xml:lang="en" org="uniform">
-                <p>To  <rs type="divine">Mercurius Gebrinius!</rs> <lb/> 
+            <div type="translation" xml:lang="en" org="uniform" part="N" sample="complete">
+                <p part="N">To  <rs type="divine">Mercurius Gebrinius!</rs> <lb/> 
 Marcus Cu…onius Victor has fulfilled (a vow) willingly and deservedly for himself and his family.</p>
             </div>
-            <div type="apparatus" org="uniform">
+            <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <note>Gebri – Lehner, Nesselhauf, Espérandieu, Bauchhenß</note>
+                    <note anchored="true">Gebri – Lehner, Nesselhauf, Espérandieu, Bauchhenß, Scheungraber</note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <note>vor und nach der Lücke zw. CV und O, höchstens 2 Buchstaben, jeweils eine senkrechte Haste – Nesselhauf</note>
+                    <note anchored="true">vor und nach der Lücke zw. CV und O, höchstens 2 Buchstaben, jeweils eine senkrechte Haste – Nesselhauf</note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <note>Victor – Lehner</note>
+                    <note anchored="true">Victor – Lehner</note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <note>ohne Ligatur – Nesselhauf, Espérandieu, Bauchhenß; suis [v(otum)] – Lehner, Bauchhenß; su[is v(otum)] – Espérandieu</note>
+                    <note anchored="true">ohne Ligatur – Nesselhauf, Espérandieu, Bauchhenß; suis [v(otum)] – Lehner, Bauchhenß; su[is v(otum)] – Espérandieu</note>
                 </app>
             </div>
-            <div type="commentary" subtype="general" org="uniform">
-                <p>Marcus Cu…onius Victor: tria nomina <lb/>
+            <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
+                <p part="N">Marcus Cu…onius Victor: tria nomina <lb/>
 Victor: lateinisches Cognomen, überall äußerst gängig (Kakoschke 2008, CN 3321)</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform"><p><rs type="divine">Gebrinius</rs>: keltisch: ‚der Gott mit dem Widder‘ (de Bernardo Stempel in <span lang="pt-PT">Corpus F.E.R.C.A.N. II/1 138f</span>) </p><p>Vorkommen in theonymischen Formularen: </p><p><i>Mercurius Gebrinius</i>: - Germania Inferior: 10x belegt (CF-GeI-1 bis CF-GeI-10). Alle Zeugnisse stammen aus Bonn. - außerhalb der Germania Inferior: - <br/></p></div>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N">
+                                                    <rs type="divine">Gebrinius</rs>: keltisch: ‚Der Gott mit dem Widder‘ (de Bernardo Stempel <span lang="pt-PT">Corpus F.E.R.C.A.N. II/1 138f</span>). </p>
+                                                <p part="N">Vorkommen in theonymischen Formularen: </p>
+                                                <p part="N">
+                                                    <rs type="divine">Mercurius Gebrinius</rs>: - Germania Inferior: 10x belegt (CF-GeI-1 bis CF-GeI-10). Alle Zeugnisse stammen aus Bonn. - außerhalb der Germania Inferior: - <br/></p></div>
             <linkGrp type="alignment" domains="#majuscule #minuscule">
                 <link target="#MAJ.1 #MIN.1"/>
                 <link target="#MAJ.2 #MIN.2"/>
                 <link target="#MAJ.3 #MIN.3"/>
                 <link target="#MAJ.4 #MIN.4"/>
             </linkGrp>
-        </body><back><note type="Objbeschr_note"/><note type="ArchKlass_note"/><note type="Material_note"/><note type="Inschrifttraeger_note"/><note type="VerwahrortOrt_note"/><note type="InvNr_note"/><note type="Fundstelle_note"/><note type="Fundumst_note"/><note type="Fundjahr_note"/><note type="FOantik_note"/><note type="FOmodern_note"/><note type="civitas_note"/><note type="Autopsie_note"/><note type="Appcrit_note"/><note type="Abb_note"/><note type="englUEbers_note"/><note type="dtUEbers_note"/><note type="Editionen_note"/><note type="ErhzustObj_note"/><note type="Masse_note"/><note type="Ikonogr_note"/><note type="Inschrtext_note"/><note type="ErhzustInschr_note"/><note type="Schrifttechnik_note"/><note type="Buchsthoehe_note"/><note type="Notvar_note"/><note type="SonstKomm_note"/><note type="Datierung_note"/></back>
+        </body><back><note type="Objbeschr_note" anchored="true"/><note type="ArchKlass_note" anchored="true"/><note type="Material_note" anchored="true"/><note type="Inschrifttraeger_note" anchored="true"/><note type="VerwahrortOrt_note" anchored="true"/><note type="InvNr_note" anchored="true"/><note type="Fundstelle_note" anchored="true"/><note type="Fundumst_note" anchored="true"/><note type="Fundjahr_note" anchored="true"/><note type="FOantik_note" anchored="true"/><note type="FOmodern_note" anchored="true"/><note type="civitas_note" anchored="true"/><note type="Autopsie_note" anchored="true"/><note type="Appcrit_note" anchored="true"/><note type="Abb_note" anchored="true"/><note type="englUEbers_note" anchored="true"/><note type="dtUEbers_note" anchored="true"/><note type="Editionen_note" anchored="true"/><note type="ErhzustObj_note" anchored="true"/><note type="Masse_note" anchored="true"/><note type="Ikonogr_note" anchored="true"/><note type="Inschrtext_note" anchored="true"/><note type="ErhzustInschr_note" anchored="true"/><note type="Schrifttechnik_note" anchored="true"/><note type="Buchsthoehe_note" anchored="true"/><note type="Notvar_note" anchored="true"/><note type="SonstKomm_note" anchored="true"/><note type="Datierung_note" anchored="true"/><note type="KommGoettern_note" anchored="true"/></back>
     </text>
 </TEI>
