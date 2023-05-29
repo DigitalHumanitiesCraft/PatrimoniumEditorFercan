@@ -38,6 +38,15 @@
 		<xsl:value-of select="normalize-space(.)"/>
 	</xsl:template>
 	
+	<!-- add whitspace to "von<rs type="divine">Gebrinius:</rs>keltisch:" -->
+	<xsl:template match="*:rs">
+		<xsl:text> </xsl:text>
+		<xsl:copy>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+		<xsl:text> </xsl:text>
+	</xsl:template>
+	
 	<!-- remove all idno with " " or empty -->
 	<xsl:template match="//*:idno[not(text()) or text() = ' ']"/>
 
@@ -63,6 +72,22 @@
 			<orig>
 				<xsl:apply-templates/>
 			</orig>
+		</xsl:copy>
+	</xsl:template>
+	
+	<xsl:template match="*:app">
+		<xsl:copy>
+			<xsl:choose>
+				<xsl:when test="contains(@loc, '#MIN.')">
+					<xsl:apply-templates select="@*|node()"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:attribute name="loc">
+						<xsl:value-of select="concat('#MIN.', @loc, ' ', '#MAJ.', @loc)"/>
+					</xsl:attribute>
+					<xsl:apply-templates/>
+				</xsl:otherwise>
+			</xsl:choose>
 		</xsl:copy>
 	</xsl:template>
 	
