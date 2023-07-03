@@ -765,7 +765,7 @@
     <!-- Datierung -->
     <teiElement>
         <nm>Datierung</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate/tei:note/tei:ref</xpath>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate/tei:date</xpath>
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
