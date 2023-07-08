@@ -9,16 +9,16 @@
                 </title>
                 <respStmt>
                     <resp>Inschriftenedition</resp>
-                    <persName>
-                        <forename>Werner</forename>
-                        <surname>Petermandl</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Werner</forename>
+                        <surname full="yes">Petermandl</surname>
                     </persName>
                 </respStmt>
                 <respStmt>
                     <resp>Archäologische Beschreibung und geografische Daten</resp>
-                    <persName>
-                        <forename>Astrid</forename>
-                        <surname>Schmölzer</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Astrid</forename>
+                        <surname full="yes">Schmölzer</surname>
                     </persName>
                 </respStmt>
                 <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
@@ -27,23 +27,23 @@
             <publicationStmt>
                 <publisher>
                     <link target="https://antike.uni-graz.at"/>
-                    <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
+                    <orgName ref="https://d-nb.info/gnd/1213531357" instant="false" full="yes">Institut für Antike, Fachbereich
                     Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
                 </publisher>
                 <authority>
                     <link target="https://informationsmodellierung.uni-graz.at"/>
-                    <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                    <orgName ref="http://d-nb.info/gnd/1137284463" instant="false" full="yes">Zentrum für
                     Informationsmodellierung - Austrian Centre for Digital Humanities,
                     Karl-Franzens-Universität Graz</orgName>
                 </authority>
                 <distributor>
                     <link target="https://gams.uni-graz.at"/>
-                    <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                    <orgName instant="false" full="yes">GAMS - Geisteswissenschaftliches Asset Management System</orgName>
                 </distributor>
-                <date when="2022">2022</date>
+                <date when="2022" instant="false">2022</date>
                 <pubPlace>Graz</pubPlace>
                 <idno type="PID">o:fercan.465</idno>
-                <availability>
+                <availability default="false">
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
                     BY-NC 4.0</licence>
                 </availability>
@@ -53,14 +53,14 @@
                   Celticarum Antiquarum</title>
                 <respStmt>
                     <resp>Projektleitung</resp>
-                    <persName>
-                        <forename>Wolfgang</forename>
-                        <surname>Spickermann</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Wolfgang</forename>
+                        <surname full="yes">Spickermann</surname>
                     </persName>
                 </respStmt>
             </seriesStmt>
-            <sourceDesc>
-                <msDesc>
+            <sourceDesc default="false">
+                <msDesc status="draft">
                     <msIdentifier>
                         <repository>verschollen</repository>
                     </msIdentifier>
@@ -71,8 +71,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Es handelt sich um einen oben abgebrochenen Aedicula-Altar. Da das Objekt nur als Zeichnung und in Abschrift erhalten geblieben ist, bleiben die Objektdetails aufgrund der künstlerischen Freiheit des Zeichners teilweise fraglich.<lb/>Die Gottheiten sind in einer Nische sitzend dargestellt. Die rechte Schmalseite ist undokumentiert geblieben, für die linke Seite ist im unteren Register ein Gefäß mit Ranke und für das obere die Darstellung eines Opferdieners belegt (Noelke 2011, 561).</p>
-                                    <p>Der obere Abschluss der rahmenden Nische sowie der Kopf der Göttin rechts außen fehlen vollständig. Der Kopf der mittleren Göttin ist in der oberen Hälfte abgebrochen.</p>
+                                    <p part="N">Es handelt sich um einen oben abgebrochenen Aedicula-Altar. Da das Objekt nur als Zeichnung und in Abschrift erhalten geblieben ist, bleiben die Objektdetails aufgrund der künstlerischen Freiheit des Zeichners teilweise fraglich.<lb/>Die Gottheiten sind in einer Nische sitzend dargestellt. Die rechte Schmalseite ist undokumentiert geblieben, für die linke Seite ist im unteren Register ein Gefäß mit Ranke und für das obere die Darstellung eines Opferdieners belegt (Noelke 2011, 561).</p>
+                                    <p part="N">Der obere Abschluss der rahmenden Nische sowie der Kopf der Göttin rechts außen fehlen vollständig. Der Kopf der mittleren Göttin ist in der oberen Hälfte abgebrochen.</p>
                                     <objectType>Aedicula-Altar</objectType>
                                 </support>
                                 <condition>
@@ -81,8 +81,8 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Der vollständige Inschriftentext ist nur bekannt aus einer Zeichnung in Chronik des Johannes Turck in Kleve, die jedenfalls vor 1625 (dem Todesdatum des Verfassers) entstanden ist.<lb/>Die erste Zeile - mit Matribus - steht oberhalb des Inschriftenfeldes auf dem Gesimse.</p>
-                                    <note type="condition">vollständig</note>
+                                    <p part="N">Der vollständige Inschriftentext ist nur bekannt aus einer Zeichnung in Chronik des Johannes Turck in Kleve, die jedenfalls vor 1625 (dem Todesdatum des Verfassers) entstanden ist.<lb/>Die erste Zeile - mit Matribus - steht oberhalb des Inschriftenfeldes auf dem Gesimse.</p>
+                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">vollständig</tei:note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -93,8 +93,8 @@
                         </handDesc>
                         <decoDesc>
                             <decoNote>
-                                <p>Die Nische ist an der linken Seite noch erkennbar mit einem Pilaster und Kpitell gerahmt. Die drei Göttinnen sind sitzend auf einer Bank dargestellt. Die Mäntel werden von Diedenhofen (1973, 158 f.) als „schwer verbrämt“ beschrieben und sind auf Schlüsselbeinhöhe mit einer großen Schließe zusammengenommen. Der Mantelkragen der mittleren Göttin ist hochgeschlagen. Die linke und vollständig erhaltene Göttin scheint eine Kurzhaarfrisur zu tragen. Alle drei haben ihre Hände auf ihren Knien abgelegt. </p>
-                                <p>
+                                <p part="N">Die Nische ist an der linken Seite noch erkennbar mit einem Pilaster und Kpitell gerahmt. Die drei Göttinnen sind sitzend auf einer Bank dargestellt. Die Mäntel werden von Diedenhofen (1973, 158 f.) als „schwer verbrämt“ beschrieben und sind auf Schlüsselbeinhöhe mit einer großen Schließe zusammengenommen. Der Mantelkragen der mittleren Göttin ist hochgeschlagen. Die linke und vollständig erhaltene Göttin scheint eine Kurzhaarfrisur zu tragen. Alle drei haben ihre Hände auf ihren Knien abgelegt. </p>
+                                <p part="N">
 Auf der linken Schmalseite ist im unteren Register eine gerippte Vase mit wuchtigen Henkel dargestellt, aus der eine Ranke entwächst. Im oberen Register steht ein zur Vorderseite gewandter Opferdiener. Er trägt eine Tunika, die bis zur Mitte des Oberschenkels reicht und anscheinend eine Hose. In seiner echten Hand hält er eine einhenkelige Kanne. Darüber befindet sich ein Feld mit Blattdekor.</p>
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252400">
                                     <ref type="context" target="context:fercan.arch.bank">Bank</ref>
@@ -154,68 +154,72 @@ Auf der linken Schmalseite ist im unteren Register eine gerippte Vase mit wuchti
                         </decoDesc>
                     </physDesc>
                     <history>
-                        <origin>
-                            <origPlace>
+                        <origin instant="false">
+                            <origPlace instant="false">
                                 <region>CUT</region>
                             </origPlace>
-                            <origDate when="0233">233<note type="original">
+                            <origDate when="0233" instant="false">233<tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="original" anchored="true">
                                     <ref type="context" target="context:fercan.date.maximo_et_paterno_consulibus">Maximo et Paterno consulibus</ref>
-                                </note>
+                                </tei:note>
                             </origDate>
                         </origin>
                         <provenance type="found" notBefore="0001" notAfter="1870">
-                            <placeName>
+                            <placeName instant="false" full="yes">
                                 <ref type="context" target="context:fercan.geog.modern.xanten">Xanten</ref>
                             </placeName>
-                            <location>
+                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
                                 <geo decls="#WGS">51.657204 6.448585</geo>
-                            </location>
-                            <note>Fundjahr und ursprünglicher Fundort sind nicht bekannt; der Stein dürfte aber auf Xanten stammen, da er in der Sammlung auf Schloss Wissen (Diedenhofen 1973) verwahrt war </note>
+                            </tei:location>
+                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Fundjahr und ursprünglicher Fundort sind nicht bekannt; der Stein dürfte aber auf Xanten stammen, da er in der Sammlung auf Schloss Wissen (Diedenhofen 1973) verwahrt war </tei:note>
                         </provenance>
-                        <provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: Umzeichnung aus der Chronik des Johannes Turck (Kleve)</provenance>
+                        <provenance type="observed" subtype="autopsied">
+                            <p part="N">non vidimus</p>
+                            <p part="N">
+                                <lb/>Lesung gründet auf: Umzeichnung aus der Chronik des Johannes Turck (Kleve)</p>
+                        </provenance>
                     </history>
                 </msDesc>
-                <listPlace>
-                    <place/>
+                <listPlace default="false">
+                    <place instant="false"/>
                 </listPlace>
-                <listPerson>
-                    <person>
-                        <persName type="gentilnomen">
+                <listPerson default="false">
+                    <person instant="false">
+                        <persName type="gentilnomen" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.gentilnomen.vetius">Vetius</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="cognomen">
+                    <person instant="false">
+                        <persName type="cognomen" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.cognomen.quintus">Quintus</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_normalized">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dcn.matres_annaneptiae">Matres Annaneptiae</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_diplomatic">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_diplomatic" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dcd.matres_annaneptiae.matribus_annaneptis">Matribus Annaneptis</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_element">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_element" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dce.annaneptiae">Annaneptiae</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName>
-                            <roleName type="military">
+                    <person instant="false">
+                        <persName instant="false" full="yes">
+                            <roleName type="military" full="yes">
                                 <ref type="context" target="context:fercan.person.military.optio_legionis">optio legionis</ref>
                             </roleName>
                         </persName>
                     </person>
                 </listPerson>
-                <listOrg>
-                    <org/>
-                    <org type="military_unit">
-                        <orgName>
+                <listOrg default="false">
+                    <org instant="false"/>
+                    <org type="military_unit" instant="false">
+                        <orgName instant="false" full="yes">
                             <ref type="context" target="context:fercan.org.military.legio_xxx_ulpia_victrix_pia_fidelis">legio XXX Ulpia victrix pia fidelis Severiana Alexandriana</ref>
                         </orgName>
                     </org>
@@ -223,17 +227,17 @@ Auf der linken Schmalseite ist im unteren Register eine gerippte Vase mit wuchti
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
-            <editorialDecl>
-                <p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
-                <p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+            <geoDecl xml:id="WGS" datum="WGS84" default="false">World Geodetic System</geoDecl>
+            <editorialDecl default="false">
+                <p part="N">Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+                <p part="N">Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
                   Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
             </editorialDecl>
-            <projectDesc>
-                <p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+            <projectDesc default="false">
+                <p part="N">Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
                   Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
                   Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
-                <p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+                <p part="N">Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
                   lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
                   zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
                   besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
@@ -251,10 +255,10 @@ Auf der linken Schmalseite ist im unteren Register eine gerippte Vase mit wuchti
             </projectDesc>
         </encodingDesc>
         <profileDesc>
-            <langUsage>
+            <langUsage default="false">
                 <language ident="la">Latein</language>
             </langUsage>
-            <textClass>
+            <textClass default="false">
                 <keywords>
                     <list>
                         <item>
@@ -265,8 +269,8 @@ Auf der linken Schmalseite ist im unteren Register eine gerippte Vase mit wuchti
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc>
-            <change n="1" when="2022">Initial Version</change>
+        <revisionDesc status="draft">
+            <change n="1" when="2022" status="draft">Initial Version</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -276,55 +280,57 @@ Auf der linken Schmalseite ist im unteren Register eine gerippte Vase mit wuchti
     </facsimile>
     <text>
         <body>
-            <ab>
+            <ab part="N">
                 <ref target="context:fercan" type="context">FERCAN</ref>
             </ab>
-            <div subtype="editions" type="bibliography" org="uniform">
-                <listBibl>
-                    <bibl xml:id="LIT.1">CIL XIII 8629</bibl>
-                    <bibl xml:id="LIT.2">Diedenhofen 1973, Nr.12</bibl>
-                    <bibl xml:id="LIT.3">Reuter 2012 Nr.63</bibl>
+            <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl default="false">
+                    <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 8629</bibl>
+                    <bibl xml:id="LIT.2" default="false" status="draft">Diedenhofen 1973, Nr.12</bibl>
+                    <bibl xml:id="LIT.3" default="false" status="draft">Reuter 2012, Nr.63</bibl>
                 </listBibl>
             </div>
-            <div subtype="concordances" type="bibliography" org="uniform">
+            <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
                     <bibl type="EDCS">
-                        <idno>EDCS-17200045</idno> <date>zuletzt aufgerufen am 24. Februar 2020</date>
+                        <idno>EDCS-17200045</idno>
+                        <date>zuletzt aufgerufen am 24. Februar 2020</date>
                     </bibl>
                     <bibl type="EDH">
-                        <idno>HD075267</idno> <date>Version vom 18. Februar 2021, Feraudi</date>
+                        <idno>HD075267</idno>
+                        <date>Version vom 18. Februar 2021, Feraudi</date>
                     </bibl>
                     <bibl type="trismegistos">
-                        <idno>www.trismegistos.org/text/415639</idno> <date>zuletzt aufgerufen am 30. Juni 2021</date>
+                        <idno>www.trismegistos.org/text/415639</idno>
+                        <date>zuletzt aufgerufen am 30. Juni 2021</date>
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/>MATRIBVS  <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>MATRIBVS  <lb n="2"/>
 ANNA NEPTIS <lb n="3"/>
 QVETIVS QVINTVS <lb n="4"/>
 OPT · LEG · XXX · V · V · P · F · SA <lb n="5"/>
 V · S · L · M · MAXIMO ET <lb n="6"/>
 PATERNO COSS</orig></ab></div>
-            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Matribus<lb n="2"/>Annaneptis<lb n="3"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Vetius Quintus<lb n="4"/><expan><abbr>opt</abbr><ex>io</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XXX <expan><abbr>U</abbr><ex>lpiae</ex></expan> <expan><abbr>v</abbr><ex>ictricis</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <expan><abbr>S</abbr><ex>everianae</ex></expan> <expan><abbr>A</abbr><ex>lexandrianae</ex></expan><lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> Maximo et<lb n="6"/>Paterno <expan><abbr>co</abbr><ex>n</ex></expan><expan><abbr>ss</abbr><ex>ulibus</ex></expan></ab></div>
-            <div type="translation" xml:lang="de" org="uniform">
-                <p>Für die  <rs type="divine">Matres Annaneptiae!</rs>  <lb/>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Matribus<lb n="2"/>Annaneptis<lb n="3"/><expan instant="false"><abbr>Q</abbr><ex instant="false">uintus</ex></expan> Vetius Quintus<lb n="4"/><expan instant="false"><abbr>opt</abbr><ex instant="false">io</ex></expan> <expan instant="false"><abbr>leg</abbr><ex instant="false">ionis</ex></expan> XXX <expan instant="false"><abbr>U</abbr><ex instant="false">lpiae</ex></expan> <expan instant="false"><abbr>v</abbr><ex instant="false">ictricis</ex></expan> <expan instant="false"><abbr>p</abbr><ex instant="false">iae</ex></expan> <expan instant="false"><abbr>f</abbr><ex instant="false">idelis</ex></expan> <expan instant="false"><abbr>S</abbr><ex instant="false">everianae</ex></expan> <expan instant="false"><abbr>A</abbr><ex instant="false">lexandrianae</ex></expan><lb n="5"/><expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan> Maximo et<lb n="6"/>Paterno <expan instant="false"><abbr>co</abbr><ex instant="false">n</ex></expan><expan instant="false"><abbr>ss</abbr><ex instant="false">ulibus</ex></expan></ab></div>
+            <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
+                <p part="N">Für die  <rs type="divine">Matres Annaneptiae!</rs>  <lb/>
 Quintus Vetius Quintus, optio der legio XXX Ulpia Victrix Pia Fidelis Severiana Alexandriana, hat das Gelübde gerne und verdientermaßen erfüllt, als Maximus und Paternus Konsuln waren.</p>
             </div>
-            <div type="translation" xml:lang="en" org="uniform">
-                <p>To the  <rs type="divine">Matres Annaneptiae!</rs>  <lb/>
+            <div type="translation" xml:lang="en" org="uniform" part="N" sample="complete">
+                <p part="N">To the  <rs type="divine">Matres Annaneptiae!</rs>  <lb/>
 Quintus Vetius Quintus, optio of the legio XXX Ulpia Victrix Pia Fidelis Severiana Alexandriana, fulfilled the vow willingly and deservedly, during the consulship of Maximus and Paternus.</p>
             </div>
-            <div type="commentary" subtype="general" org="uniform">
-                <p>Quintus Vetius Quintus: tria nomina   <lb/>
+            <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
+                <p part="N">Quintus Vetius Quintus: tria nomina   <lb/>
 Vetius bzw. Vettius: italisches Gentilnomen, gängiger Name (Kakoschke 2006, GN 1412)  <lb/>
 Quintus: lateinisches Cognomen bzw. Praenomen, überall gängiger Name (Kakoschke 2008, CN 2530) </p>
-                <p>
+                <p part="N">
 
 legio XXX Ulpia Victrix Pia Fidelis Severiana Alexandriana: Die Legion folgte ab ca. 120 n.Chr. in Xanten auf die legio VI Victrix (Reuter 2012, 11). Pia Fidels hieß sie offenbar schon bald nachdem Septimus Severus 193 in Carnuntum zum Kaiser ausgerufen worden war (Reuter 2012, 19). Die Beinamen Severiana Alexandriana werden in der Zeit des Kaisers Severus Alexander verwendet (Stein 1932, 106, 116). </p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform">
-                <p> <rs type="divine">Annaneptiae</rs>: keltisch (de Bernardo Stempel, im Druck); anders: germanisch, „freundliche Verwandte“ (Gutenbrunner 1936, 150) </p>
-                <p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Annaneptiae</rs>: keltisch erklärbar, aber lautlich latinisiert: ‚Die [göttlichen Mütter] der Ururenkel’. (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 230f). </p>
+                                                <p part="N">
 
 Vorkommen in theonymischen Formularen: <lb/>
  <rs type="divine">Matres Annaneptiae </rs> (incl. ev. Varianten): <lb/>
@@ -340,5 +346,44 @@ Vorkommen in theonymischen Formularen: <lb/>
                 <link target="#MAJ.6 #MIN.6"/>
             </linkGrp>
         </body>
+        <back>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true">
+                <p>233<br/>
+                </p>
+            </tei:note>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+                <p part="N">Alte Version (25.04.23):<br/>
+                </p>
+                <p part="N">Annaneptiae: keltisch (de Bernardo Stempel, im Druck); anders: germanisch, „freundliche Verwandte“ (Gutenbrunner 1936, 150) <span style="font-size:12.0pt;font-family: &#34;Times New Roman&#34;,serif;mso-fareast-font-family:&#34;Times New Roman&#34;;mso-ansi-language: PT;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA" lang="PT"/>
+                </p>
+            </tei:note>
+        </back>
     </text>
 </TEI>

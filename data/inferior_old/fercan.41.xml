@@ -9,16 +9,16 @@
                 </title>
                 <respStmt>
                     <resp>Inschriftenedition</resp>
-                    <persName>
-                        <forename>Werner</forename>
-                        <surname>Petermandl</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Werner</forename>
+                        <surname full="yes">Petermandl</surname>
                     </persName>
                 </respStmt>
                 <respStmt>
                     <resp>Archäologische Beschreibung und geografische Daten</resp>
-                    <persName>
-                        <forename>Astrid</forename>
-                        <surname>Schmölzer</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Astrid</forename>
+                        <surname full="yes">Schmölzer</surname>
                     </persName>
                 </respStmt>
                 <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
@@ -27,23 +27,23 @@
             <publicationStmt>
                 <publisher>
                     <link target="https://antike.uni-graz.at"/>
-                    <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
+                    <orgName ref="https://d-nb.info/gnd/1213531357" instant="false" full="yes">Institut für Antike, Fachbereich
                     Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
                 </publisher>
                 <authority>
                     <link target="https://informationsmodellierung.uni-graz.at"/>
-                    <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                    <orgName ref="http://d-nb.info/gnd/1137284463" instant="false" full="yes">Zentrum für
                     Informationsmodellierung - Austrian Centre for Digital Humanities,
                     Karl-Franzens-Universität Graz</orgName>
                 </authority>
                 <distributor>
                     <link target="https://gams.uni-graz.at"/>
-                    <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                    <orgName instant="false" full="yes">GAMS - Geisteswissenschaftliches Asset Management System</orgName>
                 </distributor>
-                <date when="2022">2022</date>
+                <date when="2022" instant="false">2022</date>
                 <pubPlace>Graz</pubPlace>
                 <idno type="PID">o:fercan.41</idno>
-                <availability>
+                <availability default="false">
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
                     BY-NC 4.0</licence>
                 </availability>
@@ -53,14 +53,14 @@
                   Celticarum Antiquarum</title>
                 <respStmt>
                     <resp>Projektleitung</resp>
-                    <persName>
-                        <forename>Wolfgang</forename>
-                        <surname>Spickermann</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Wolfgang</forename>
+                        <surname full="yes">Spickermann</surname>
                     </persName>
                 </respStmt>
             </seriesStmt>
-            <sourceDesc>
-                <msDesc>
+            <sourceDesc default="false">
+                <msDesc status="draft">
                     <msIdentifier>
                         <settlement>Köln</settlement>
                         <repository>Römisch-Germanisches Museum</repository>
@@ -73,7 +73,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Der Weihealtar ist am oberen Ende abgebrochen, ein größerer Teil der rechten Ecke fehlt. Vom Sockel ist nur die rechte untere Ecke erhalten, der Rest wurde modern als Standfläche ergänzt. Das Inschriftenfeld ist nicht gerahmt.</p>
+                                    <p part="N">Der Weihealtar ist am oberen Ende abgebrochen, ein größerer Teil der rechten Ecke fehlt. Vom Sockel ist nur die rechte untere Ecke erhalten, der Rest wurde modern als Standfläche ergänzt. Das Inschriftenfeld ist nicht gerahmt.</p>
                                     <material>
                                         <ref type="context" target="context:fercan.material.kalkstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref>
                                     </material>
@@ -90,8 +90,8 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Der Text füllt das Inschriftenfeld nicht zur Gänze aus (unter dem Text bleibt ein Freiraum). Er ist wohl weitestgehend erhalten. Oben ist der Stein zwar abgebrochen, doch kann aus inhaltlichen Gründen angenommen werden, dass Z.1 auch ursprünglich die erste Zeile war. Die rechte obere Ecke fehlt. Die Zeilen sind z.T. schlecht zentriert.<lb/>Ligaturen: s. Majuskeltext. Besondere Zeichen: Z.1: Ligatur von T und R mit erhöhtem T; Z.2: Ligatur von D und I mit erhöhter senkrechter Haste, kleines o eingefügt, erhöhtes T und Ligatur von E und erhöhtem T; Z.3: Ligatur von R und I mit erhöhter senkrechter Haste; Z.4: Ligatur von T und R mit erhöhtem T. – Querstrich über der Nummer der Legion. – Trennzeichen mit drei geschwungenen Kreuzarmen in Z.3 und 5.<lb/>Die Inschrift ist heute mit Farbe hervorgehoben.</p>
-                                    <note type="condition">weitgehend vollständig</note>
+                                    <p part="N">Der Text füllt das Inschriftenfeld nicht zur Gänze aus (unter dem Text bleibt ein Freiraum). Er ist wohl weitestgehend erhalten. Oben ist der Stein zwar abgebrochen, doch kann aus inhaltlichen Gründen angenommen werden, dass Z.1 auch ursprünglich die erste Zeile war. Die rechte obere Ecke fehlt. Die Zeilen sind z.T. schlecht zentriert.<lb/>Ligaturen: s. Majuskeltext. Besondere Zeichen: Z.1: Ligatur von T und R mit erhöhtem T; Z.2: Ligatur von D und I mit erhöhter senkrechter Haste, kleines o eingefügt, erhöhtes T und Ligatur von E und erhöhtem T; Z.3: Ligatur von R und I mit erhöhter senkrechter Haste; Z.4: Ligatur von T und R mit erhöhtem T. – Querstrich über der Nummer der Legion. – Trennzeichen mit drei geschwungenen Kreuzarmen in Z.3 und 5.<lb/>Die Inschrift ist heute mit Farbe hervorgehoben.</p>
+                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">weitgehend vollständig</tei:note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -103,7 +103,7 @@
                         </handDesc>
                         <decoDesc>
                             <decoNote>
-                                <p>Die Schmalseiten sind mit einfach gehaltenen Baumdarstellungen versehen. Auf der linken Schmalseite befindet sich ein gerader Stamm, der im unteren Teil einen Aststumpf auf der linken Seite und im oberen Teil einen Aststumpf auf der rechten Seite aufweist. Der Stamm geht in einer Linie ins erste Blätterpaar über; knapp darüber ist der Stein abgebrochen. Die Blätter sind oval spitz zulaufend und weisen in den Zwischenräumen kleine, runde Früchte auf. Deswegen ist von einem Lorbeerbaum zu sprechen. <lb/>
+                                <p part="N">Die Schmalseiten sind mit einfach gehaltenen Baumdarstellungen versehen. Auf der linken Schmalseite befindet sich ein gerader Stamm, der im unteren Teil einen Aststumpf auf der linken Seite und im oberen Teil einen Aststumpf auf der rechten Seite aufweist. Der Stamm geht in einer Linie ins erste Blätterpaar über; knapp darüber ist der Stein abgebrochen. Die Blätter sind oval spitz zulaufend und weisen in den Zwischenräumen kleine, runde Früchte auf. Deswegen ist von einem Lorbeerbaum zu sprechen. <lb/>
 Auf der rechten Schmalseite fehlt die Baumkrone komplett. Der Baumstamm ist auch hier einfach und gerade gehalten, mit einem Aststumpf unten rechts und einem Aststumpf oben links, d.h. dasselbe Motiv wurde spiegelverkehrt angebracht.</p>
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253200">
                                     <ref type="context" target="context:fercan.arch.baum">Baum</ref>
@@ -124,67 +124,71 @@ Auf der rechten Schmalseite fehlt die Baumkrone komplett. Der Baumstamm ist auch
                         </decoDesc>
                     </physDesc>
                     <history>
-                        <origin>
-                            <origPlace>
-                                <placeName ref="https://pleiades.stoa.org/places/108751">CCAA</placeName>
+                        <origin instant="false">
+                            <origPlace instant="false">
+                                <placeName ref="https://pleiades.stoa.org/places/108751" instant="false" full="yes">CCAA</placeName>
                                 <region>CCAA</region>
                             </origPlace>
-                            <origDate notBefore="0101" notAfter="0300">0101/0300</origDate>
+                            <origDate notBefore="0101" notAfter="0300" instant="false">0101/0300</origDate>
                         </origin>
                         <provenance type="found" when="1859">
-                            <placeName>
+                            <placeName instant="false" full="yes">
                                 <ref type="context" target="context:fercan.geog.modern.koeln">Köln</ref>
                             </placeName>
-                            <p>Trankgasse 13</p>
-                            <location>
+                            <p part="N">Trankgasse 13</p>
+                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
                                 <geo decls="#WGS">50.937769 6.958583</geo>
-                            </location>
-                            <note>beim Neubau des Hauses </note>
+                            </tei:location>
+                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">beim Neubau des Hauses </tei:note>
                         </provenance>
-                        <provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: Photo</provenance>
+                        <provenance type="observed" subtype="autopsied">
+                            <p part="N">non vidimus</p>
+                            <p part="N">
+                                <lb/>Lesung gründet auf: Photo</p>
+                        </provenance>
                     </history>
                 </msDesc>
-                <listPlace>
-                    <place/>
+                <listPlace default="false">
+                    <place instant="false"/>
                 </listPlace>
-                <listPerson>
-                    <person>
-                        <persName type="gentilnomen">
+                <listPerson default="false">
+                    <person instant="false">
+                        <persName type="gentilnomen" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.gentilnomen.iulius">Iulius</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="cognomen">
+                    <person instant="false">
+                        <persName type="cognomen" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.cognomen.primus">Primus</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_normalized">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dcn.matres_mediotautehae">Matres Mediotautehae</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_diplomatic">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_diplomatic" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dcd.matres_mediotautehae.matrib_us__mediotauteh">Matrib[us] Mediotauteh[is]</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_element">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_element" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dce.mediotautehae">Mediotautehae</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName>
-                            <roleName type="military">
+                    <person instant="false">
+                        <persName instant="false" full="yes">
+                            <roleName type="military" full="yes">
                                 <ref type="context" target="context:fercan.person.military.veteranus_legionis">veteranus legionis</ref>
                             </roleName>
                         </persName>
                     </person>
                 </listPerson>
-                <listOrg>
-                    <org/>
-                    <org type="military_unit">
-                        <orgName>
+                <listOrg default="false">
+                    <org instant="false"/>
+                    <org type="military_unit" instant="false">
+                        <orgName instant="false" full="yes">
                             <ref type="context" target="context:fercan.org.military.legio_i_minervia_pia_fidelis">legio I Minervia Pia Fidelis</ref>
                         </orgName>
                     </org>
@@ -192,17 +196,17 @@ Auf der rechten Schmalseite fehlt die Baumkrone komplett. Der Baumstamm ist auch
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
-            <editorialDecl>
-                <p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
-                <p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+            <geoDecl xml:id="WGS" datum="WGS84" default="false">World Geodetic System</geoDecl>
+            <editorialDecl default="false">
+                <p part="N">Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+                <p part="N">Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
                   Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
             </editorialDecl>
-            <projectDesc>
-                <p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+            <projectDesc default="false">
+                <p part="N">Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
                   Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
                   Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
-                <p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+                <p part="N">Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
                   lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
                   zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
                   besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
@@ -220,10 +224,10 @@ Auf der rechten Schmalseite fehlt die Baumkrone komplett. Der Baumstamm ist auch
             </projectDesc>
         </encodingDesc>
         <profileDesc>
-            <langUsage>
+            <langUsage default="false">
                 <language ident="la">Latein</language>
             </langUsage>
-            <textClass>
+            <textClass default="false">
                 <keywords>
                     <list>
                         <item>
@@ -234,10 +238,10 @@ Auf der rechten Schmalseite fehlt die Baumkrone komplett. Der Baumstamm ist auch
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc>
-            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.41/TEI_SOURCE.2020-02-26">Initial Version</change>
-            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.41/TEI_SOURCE.2022-03-07">Version 2</change>
-            <change when="2022" n="3">Version 3</change>
+        <revisionDesc status="draft">
+            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.41/TEI_SOURCE.2020-02-26" status="draft">Initial Version</change>
+            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.41/TEI_SOURCE.2022-03-07" status="draft">Version 2</change>
+            <change when="2022" n="3" status="draft">Version 3</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -253,84 +257,85 @@ Auf der rechten Schmalseite fehlt die Baumkrone komplett. Der Baumstamm ist auch
     </facsimile>
     <text>
         <body>
-            <ab>
+            <ab part="N">
                 <ref target="context:fercan" type="context">FERCAN</ref>
             </ab>
-            <div subtype="editions" type="bibliography" org="uniform">
-                <listBibl>
-                    <bibl xml:id="LIT.1">CIL XIII 8222</bibl>
-                    <bibl xml:id="LIT.2">Espérandieu VIII 6513</bibl>
-                    <bibl xml:id="LIT.3">Schoppa 1959, Nr.78</bibl>
-                    <bibl xml:id="LIT.4">Galsterer/Galsterer 1975, Nr.105</bibl>
-                    <bibl xml:id="LIT.5">Galsterer/Galsterer 2010, Nr.152</bibl>
-                    <bibl xml:id="LIT.6">KIK 2012, Nr.172</bibl>
+            <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl default="false">
+                    <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 8222</bibl>
+                    <bibl xml:id="LIT.2" default="false" status="draft">Espérandieu VIII 6513</bibl>
+                    <bibl xml:id="LIT.3" default="false" status="draft">Schoppa 1959, Nr.78</bibl>
+                    <bibl xml:id="LIT.4" default="false" status="draft">Galsterer/Galsterer 1975, Nr.105</bibl>
+                    <bibl xml:id="LIT.5" default="false" status="draft">Galsterer/Galsterer 2010, Nr.152</bibl>
+                    <bibl xml:id="LIT.6" default="false" status="draft">KIK 2012, Nr.172</bibl>
                 </listBibl>
             </div>
-            <div subtype="concordances" type="bibliography" org="uniform">
+            <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
                     <bibl type="EDCS">
-                        <idno>EDCS-01200060</idno> <date>zuletzt aufgerufen am 24. Februar 2020</date>
+                        <idno>EDCS-01200060</idno>
+                        <date>zuletzt aufgerufen am 24. Februar 2020</date>
                     </bibl>
                     <bibl type="trismegistos">
-                        <idno>www.trismegistos.org/text/415267</idno> <date>zuletzt aufgerufen am 26. Juli 2021</date>
+                        <idno>www.trismegistos.org/text/415267</idno>
+                        <date>zuletzt aufgerufen am 26. Juli 2021</date>
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/>MA<hi rend="ligature">TR</hi>IB<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/> 
-ME<hi rend="ligature">DI</hi>OTAV<hi rend="ligature">TE</hi>H<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/> 
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>MA<hi rend="ligature">TR</hi>IB<gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="2"/> 
+ME<hi rend="ligature">DI</hi>OTAV<hi rend="ligature">TE</hi>H<gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="3"/> 
 IVL · P<hi rend="ligature">RI</hi>MVS <lb n="4"/> 
 VE<hi rend="ligature">TR</hi>ANVS <lb n="5"/> 
 LEG · I · M · <lb n="6"/> 
 P · F · V · S · L M</orig></ab></div>
-            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Matrib<supplied reason="lost">us</supplied><lb n="2"/>Mediotauteh<supplied reason="lost">is</supplied><lb n="3"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Primus<lb n="4"/><expan><abbr>vet</abbr><ex>e</ex></expan>ranus<lb n="5"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>M</abbr><ex>inerviae</ex></expan><lb n="6"/><expan><abbr>P</abbr><ex>iae</ex></expan> <expan><abbr>F</abbr><ex>idelis</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
-            <div type="translation" xml:lang="de" org="uniform">
-                <p>Für die  <rs type="divine">Matres Mediotautehae!</rs> <lb/> 
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Matrib<supplied reason="lost" instant="false">us</supplied><lb n="2"/>Mediotauteh<supplied reason="lost" instant="false">is</supplied><lb n="3"/><expan instant="false"><abbr>Iul</abbr><ex instant="false">ius</ex></expan> Primus<lb n="4"/><expan instant="false"><abbr>vet</abbr><ex instant="false">e</ex></expan>ranus<lb n="5"/><expan instant="false"><abbr>leg</abbr><ex instant="false">ionis</ex></expan> I <expan instant="false"><abbr>M</abbr><ex instant="false">inerviae</ex></expan><lb n="6"/><expan instant="false"><abbr>P</abbr><ex instant="false">iae</ex></expan> <expan instant="false"><abbr>F</abbr><ex instant="false">idelis</ex></expan> <expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
+            <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
+                <p part="N">Für die  <rs type="divine">Matres Mediotautehae!</rs> <lb/> 
 Iulius Primus, Veteran der legio I Minervia 
 Pia Fidelis, hat das Gelübde gerne und verdientermaßen erfüllt.</p>
             </div>
-            <div type="translation" xml:lang="en" org="uniform">
-                <p>To the  <rs type="divine">Matres Mediotautehae!</rs> <lb/> 
+            <div type="translation" xml:lang="en" org="uniform" part="N" sample="complete">
+                <p part="N">To the  <rs type="divine">Matres Mediotautehae!</rs> <lb/> 
 Iulius Primus, veteran of the legio I Minervia <lb/>
 Pia Fidelis, has fulfilled a vow willingly and deservedly.</p>
             </div>
-            <div type="apparatus" org="uniform">
+            <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <note>Mat̂ribu – CIL; Matribus – Espérandieu; Mat̂ribu[s] – Galsterer/Galsterer (1975); Matribu[s] – Galsterer/Galsterer (2010), KIK2012</note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Mat̂ribu – CIL; Matribus – Espérandieu; Mat̂ribu[s] – Galsterer/Galsterer (1975); Matribu[s] – Galsterer/Galsterer (2010), KIK2012</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <note>Med̂iotaut̂ehi[s] – CIL, Galsterer/Galsterer (1975); Mediotautehi[s] – Espérandieu, Galsterer/Galsterer (2010), KIK2012</note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Med̂iotaut̂ehi[s] – CIL, Galsterer/Galsterer (1975); Mediotautehi[s] – Espérandieu, Galsterer/Galsterer (2010), KIK2012</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <note>ohne Ligatur – Espérandieu, Galsterer/Galsterer (2010), KIK2012</note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Espérandieu, Galsterer/Galsterer (2010), KIK2012</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <note>veteranus – Espérandieu; vet(e)ranus – Galsterer/Galsterer (2010), KIK2012</note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">veteranus – Espérandieu; vet(e)ranus – Galsterer/Galsterer (2010), KIK2012</tei:note>
                 </app>
             </div>
-            <div type="commentary" subtype="general" org="uniform">
-                <p>Iulius Primus: römisches Namensformular mit Gentilnomen und Cognomen, ohne Praenomen <lb/>
+            <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
+                <p part="N">Iulius Primus: römisches Namensformular mit Gentilnomen und Cognomen, ohne Praenomen <lb/>
 Iulius: italisches kaiserliches Gentilnomen, überall äußerst gängig (Kakoschke 2006, GN 621) <lb/>
 Primus: lateinisches Cognomen, überall äußerst gängig (Kakoschke 2008, CN 2445) </p>
-                <p>
+                <p part="N">
 
 legio I Minervia Pia Fidelis: Die Legion war ab 83 n.Chr. in Bonn stationiert. Nach 89 n.Chr. erhielt sie (wie auch die anderen 3 niedergermanischen Legionen) den Titel Pia Fidelis Domitiana. Domitiana wurde 96 n.Chr. wieder gestrichen (Stein 1932, 100–106).</p>
             </div>
-            <div type="commentary" subtype="language" org="uniform">
-                <p>v.4: „vetranus” pro „veteranus”</p>
+            <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
+                <p part="N">v.4: „vetranus” pro „veteranus”</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform">
-                <p> <rs type="divine">Mediotautehae:</rs> keltischer Zugehörigkeitsbeiname mit Germanisierung des zweiten Bestandteils (*teuta ‚Stamm‘ und Adjektivsuffix -ehae), ‚die zum mittleren Stamm bzw. Stammesgebiet Gehörigen‘ (de Bernardo Stempel in Spickermann 2005, 143; anders Schmidt 1987, 144) </p>
-                <p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Mediotautehae:</rs> keltisch mit partieller lautlicher Germanisierung: ‚In der Mitte des Volkes Wohnende [Muttergöttinnen]’ bzw. ‚Zum Stamm der Mitte Gehörende [Muttergöttinen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 268f). </p>
+                                                <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
-                <p>
+                                                <p part="N">
  <rs type="divine">Matres Mediotautehae</rs>: <lb/>
 - Germania Inferior: nur in dieser Inschrift belegt <lb/>
 - außerhalb der Germania Inferior: -  </p>
-                <p>
+                                                <p part="N">
  <rs type="divine">Mediotautehae</rs>: <lb/>
 - Germania Inferior: - <lb/>
-- außerhalb der Germania Inferior: In der Germania Superior fand sich in Bad Wimpfen ein Altar für die  <rs type="divine">Leudinae et Mediotoutehae</rs> (eine Ligatur von D und I, scheint nach Photo zweifelsfrei; von bisherigen Editionen nicht gesehen, vgl. EDH HD036595, letzte Änderung: 17. März 2005).</p>
+- außerhalb der Germania Inferior: In der Germania Superior fand sich in Bad Wimpfen ein Altar für die  <rs type="divine">Leudinae et Mediotoutehae</rs> (CF-GeS-1097; eine Ligatur von D und I, scheint nach Photo zweifelsfrei; von bisherigen Editionen nicht gesehen, vgl. EDH HD036595, letzte Änderung: 17. März 2005).</p>
             </div>
             <linkGrp type="alignment" domains="#majuscule #minuscule">
                 <link target="#MAJ.1 #MIN.1"/>
@@ -341,5 +346,43 @@ Vorkommen in theonymischen Formularen: </p>
                 <link target="#MAJ.6 #MIN.6"/>
             </linkGrp>
         </body>
+        <back>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+                <p part="N">Alte Version (17.04.23):</p>
+                <p part="N">Mediotautehae: keltischer Zugehörigkeitsbeiname 
+mit Germanisierung des zweiten Bestandteils (*teuta ‚Stamm‘ und 
+Adjektivsuffix -ehae), ‚die zum mittleren Stamm bzw. Stammesgebiet 
+Gehörigen‘ (de Bernardo Stempel in Spickermann 2005, 143; anders Schmidt
+ 1987, 144) </p>
+            </tei:note>
+        </back>
     </text>
 </TEI>

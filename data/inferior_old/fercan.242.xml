@@ -9,16 +9,16 @@
                 </title>
                 <respStmt>
                     <resp>Inschriftenedition</resp>
-                    <persName>
-                        <forename>Werner</forename>
-                        <surname>Petermandl</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Werner</forename>
+                        <surname full="yes">Petermandl</surname>
                     </persName>
                 </respStmt>
                 <respStmt>
                     <resp>Archäologische Beschreibung und geografische Daten</resp>
-                    <persName>
-                        <forename>Astrid</forename>
-                        <surname>Schmölzer</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Astrid</forename>
+                        <surname full="yes">Schmölzer</surname>
                     </persName>
                 </respStmt>
                 <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
@@ -27,23 +27,23 @@
             <publicationStmt>
                 <publisher>
                     <link target="https://antike.uni-graz.at"/>
-                    <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
+                    <orgName ref="https://d-nb.info/gnd/1213531357" instant="false" full="yes">Institut für Antike, Fachbereich
                     Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
                 </publisher>
                 <authority>
                     <link target="https://informationsmodellierung.uni-graz.at"/>
-                    <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                    <orgName ref="http://d-nb.info/gnd/1137284463" instant="false" full="yes">Zentrum für
                     Informationsmodellierung - Austrian Centre for Digital Humanities,
                     Karl-Franzens-Universität Graz</orgName>
                 </authority>
                 <distributor>
                     <link target="https://gams.uni-graz.at"/>
-                    <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                    <orgName instant="false" full="yes">GAMS - Geisteswissenschaftliches Asset Management System</orgName>
                 </distributor>
-                <date when="2022">2022</date>
+                <date when="2022" instant="false">2022</date>
                 <pubPlace>Graz</pubPlace>
                 <idno type="PID">o:fercan.242</idno>
-                <availability>
+                <availability default="false">
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
                     BY-NC 4.0</licence>
                 </availability>
@@ -53,14 +53,14 @@
                   Celticarum Antiquarum</title>
                 <respStmt>
                     <resp>Projektleitung</resp>
-                    <persName>
-                        <forename>Wolfgang</forename>
-                        <surname>Spickermann</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Wolfgang</forename>
+                        <surname full="yes">Spickermann</surname>
                     </persName>
                 </respStmt>
             </seriesStmt>
-            <sourceDesc>
-                <msDesc>
+            <sourceDesc default="false">
+                <msDesc status="draft">
                     <msIdentifier>
                         <settlement>Middelburg</settlement>
                         <repository>Zeeuws Museum, collection KZGN</repository>
@@ -73,7 +73,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Es handelt sich um den unteren Teil eines Weihesteins. Der Sockel springt ein wenig nach vor und ist links und rechts abgeschlagen. Die Inschrift war nicht gerahmt.</p>
+                                    <p part="N">Es handelt sich um den unteren Teil eines Weihesteins. Der Sockel springt ein wenig nach vor und ist links und rechts abgeschlagen. Die Inschrift war nicht gerahmt.</p>
                                     <material>
                                         <ref type="context" target="context:fercan.material.marmor">Marmor</ref>
                                     </material>
@@ -87,8 +87,8 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Nach dem Inhalt der Abschrift zu schließen ist der Text vollständig erhalten.<lb/>„omnes litterae refectae sunt“ – CIL. II in Z.3 könnte als gallisches E gelesen werden.</p>
-                                    <note type="condition">vollständig</note>
+                                    <p part="N">Nach dem Inhalt der Abschrift zu schließen ist der Text vollständig erhalten.<lb/>„omnes litterae refectae sunt“ – CIL. II in Z.3 könnte als gallisches E gelesen werden.</p>
+                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">vollständig</tei:note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -100,7 +100,7 @@
                         </handDesc>
                         <decoDesc>
                             <decoNote>
-                                <p>Auf der linken Schmalseite ist der untere Rest eines Füllhorns erkennbar. Die Darstellung ist von einem einfachen Rahmen umgeben. Die Oberfläche ist bestoßen. Weiterer Dekor ist nicht erkennbar. <lb/>
+                                <p part="N">Auf der linken Schmalseite ist der untere Rest eines Füllhorns erkennbar. Die Darstellung ist von einem einfachen Rahmen umgeben. Die Oberfläche ist bestoßen. Weiterer Dekor ist nicht erkennbar. <lb/>
 Die Darstellung auf der rechten Schmalseite ist zu zerstört für eine Beschreibung.</p>
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130100">
                                     <ref type="context" target="context:fercan.arch.abschrift">Abschrift</ref>
@@ -115,72 +115,72 @@ Die Darstellung auf der rechten Schmalseite ist zu zerstört für eine Beschreib
                         </decoDesc>
                     </physDesc>
                     <history>
-                        <origin>
-                            <origPlace>
+                        <origin instant="false">
+                            <origPlace instant="false">
                                 <region>Civitas Frisiavonum</region>
                             </origPlace>
-                            <origDate/>
+                            <origDate instant="false"/>
                         </origin>
                         <provenance type="found" when="1514">
-                            <placeName>
+                            <placeName instant="false" full="yes">
                                 <ref type="context" target="context:fercan.geog.modern.westkapelle">Westkapelle</ref>
                             </placeName>
-                            <p>direkt an der Küste</p>
-                            <location>
+                            <p part="N">direkt an der Küste</p>
+                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
                                 <geo decls="#WGS">51.529140 3.440656</geo>
-                            </location>
-                            <note>gemeinsam mit einer Statue des Gottes (Martin 1727, 26 f.)</note>
+                            </tei:location>
+                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">gemeinsam mit einer Statue des Gottes (Martin 1727, 26 f.)</tei:note>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">vidimus (23.5.2019)</provenance>
                     </history>
                 </msDesc>
-                <listPlace>
-                    <place/>
+                <listPlace default="false">
+                    <place instant="false"/>
                 </listPlace>
-                <listPerson>
-                    <person>
-                        <persName type="gentilnomen">
+                <listPerson default="false">
+                    <person instant="false">
+                        <persName type="gentilnomen" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.gentilnomen.primhuis">Primhuis</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="cognomen">
+                    <person instant="false">
+                        <persName type="cognomen" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.cognomen.tertius">Tertius</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_normalized">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dcn.hercules_magusanus">Hercules Magusanus</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_diplomatic">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_diplomatic" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dcd.hercules_magusanus.herculi_magusano">Herculi Magusano</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_element">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_element" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dce.magusanus">Magusanus</ref>
                         </persName>
                     </person>
                 </listPerson>
-                <listOrg>
-                    <org/>
+                <listOrg default="false">
+                    <org instant="false"/>
                 </listOrg>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
-            <editorialDecl>
-                <p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
-                <p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+            <geoDecl xml:id="WGS" datum="WGS84" default="false">World Geodetic System</geoDecl>
+            <editorialDecl default="false">
+                <p part="N">Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+                <p part="N">Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
                   Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
             </editorialDecl>
-            <projectDesc>
-                <p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+            <projectDesc default="false">
+                <p part="N">Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
                   Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
                   Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
-                <p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+                <p part="N">Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
                   lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
                   zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
                   besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
@@ -198,10 +198,10 @@ Die Darstellung auf der rechten Schmalseite ist zu zerstört für eine Beschreib
             </projectDesc>
         </encodingDesc>
         <profileDesc>
-            <langUsage>
+            <langUsage default="false">
                 <language ident="la">Latein</language>
             </langUsage>
-            <textClass>
+            <textClass default="false">
                 <keywords>
                     <list>
                         <item>
@@ -212,10 +212,10 @@ Die Darstellung auf der rechten Schmalseite ist zu zerstört für eine Beschreib
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc>
-            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.242/TEI_SOURCE.2020-02-26">Initial Version</change>
-            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.242/TEI_SOURCE.2022-03-07">Version 2</change>
-            <change when="2022" n="3">Version 3</change>
+        <revisionDesc status="draft">
+            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.242/TEI_SOURCE.2020-02-26" status="draft">Initial Version</change>
+            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.242/TEI_SOURCE.2022-03-07" status="draft">Version 2</change>
+            <change when="2022" n="3" status="draft">Version 3</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -231,57 +231,58 @@ Die Darstellung auf der rechten Schmalseite ist zu zerstört für eine Beschreib
     </facsimile>
     <text>
         <body>
-            <ab>
+            <ab part="N">
                 <ref target="context:fercan" type="context">FERCAN</ref>
             </ab>
-            <div subtype="editions" type="bibliography" org="uniform">
-                <listBibl>
-                    <bibl xml:id="LIT.1">CIL XIII 8777</bibl>
+            <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl default="false">
+                    <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 8777</bibl>
                 </listBibl>
             </div>
-            <div subtype="concordances" type="bibliography" org="uniform">
+            <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
                     <bibl type="EDCS">
-                        <idno>EDCS-11100867</idno> <date>zuletzt aufgerufen am 24. Februar 2020</date>
+                        <idno>EDCS-11100867</idno>
+                        <date>zuletzt aufgerufen am 24. Februar 2020</date>
                     </bibl>
                     <bibl type="trismegistos">
-                        <idno>www.trismegistos.org/text/415774</idno> <date>zuletzt aufgerufen am 26. Juli 2021</date>
+                        <idno>www.trismegistos.org/text/415774</idno>
+                        <date>zuletzt aufgerufen am 26. Juli 2021</date>
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/>HERCVLI <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>HERCVLI <lb n="2"/>
 MAGVSANO <lb n="3"/> 
 M PRIMHVIS <lb n="4"/> 
 TERTIVS <lb n="5"/>
 V · S · L · M</orig></ab></div>
-            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Herculi<lb n="2"/>Magusano<lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Primhuis<lb n="4"/>Tertius<lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
-            <div type="translation" xml:lang="de" org="uniform">
-                <p>Für  <rs type="divine">Hercules Magusanus!</rs> <lb/> 
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Herculi<lb n="2"/>Magusano<lb n="3"/><expan instant="false"><abbr>M</abbr><ex instant="false">arcus</ex></expan> Primhuis<lb n="4"/>Tertius<lb n="5"/><expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
+            <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
+                <p part="N">Für  <rs type="divine">Hercules Magusanus!</rs> <lb/> 
 Marcus Primhuis Tertius hat das Gelübde gerne und verdientermaßen erfüllt.</p>
             </div>
-            <div type="translation" xml:lang="en" org="uniform">
-                <p>To  <rs type="divine">Hercules Magusanus!</rs> <lb/> 
+            <div type="translation" xml:lang="en" org="uniform" part="N" sample="complete">
+                <p part="N">To  <rs type="divine">Hercules Magusanus!</rs> <lb/> 
 Marcus Primhuis Tertius has fulfilled a vow willingly and deservedly.</p>
             </div>
-            <div type="commentary" subtype="general" org="uniform">
-                <p>Marcus Primihuis Tertius: tria nomina <lb/>
+            <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
+                <p part="N">Marcus Primihuis Tertius: tria nomina <lb/>
 Primhuis: Der Name ist vermutlich verderbt. Es fragt sich, wie er richtig zu lesen wäre. Kakoschke 2006, GN 987 korrigiert auf „Primevi(u)s“ und sieht darin eine einheimische Bildung bzw. eine Verschreibung für Priminius; Riese 1914, Nr.2817: „Primituis“ = „Primitius“; Gutenbrunner 1936, Nr.77,3: „Primitius“; Byvanck 1935, Nr.233: „Primituis“ = „Priminius(?)“. <lb/>
 Tertius: lateinisches Cognomen, überall äußerst gängig (Kakoschke 2008, CN 3037) </p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform">
-                <p> <rs type="divine">Magusanus</rs>: Germanisierung des keltischen Kultnamens * <rs type="divine">Mogusenos</rs> ,der mächtige Alte‘, später sukzessive germanisiert zu  <rs type="divine">Magusenos</rs>,  <rs type="divine">Magusanos</rs> und  <rs type="divine">Macusanos</rs> (de Bernardo Stempel in Spickermann 2005, 146, vgl. Toorians 2003) </p>
-                <p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Magusanus</rs>: keltisch: ‚Mächtiger Alter' (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 109-111). </p>
+                                                <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
-                <p>
+                                                <p part="N">
  <rs type="divine">Hercules Magusanus</rs>: <lb/>
 - Germania Inferior: sehr gut belegt (CF-GeI-115, 127–132, 134–139, 242–244); 1x darunter in Verbindung mit dem Gottheitsdeterminativ  <rs type="divine">deus</rs> (CF-GeI-139) <lb/> 
 - außerhalb der Germania Inferior: in Rom und in verschiedenen Provinzen vereinzelt nachgewiesen: Belgica, Britannia, Dacia (hier 1x auch als  <rs type="divine">deus invictus Hercules Magusanus</rs> [AE 1977, 702]), Pannonia Superior  </p>
-                <p>
+                                                <p part="N">
  <rs type="divine">Magusanus Hercules</rs>: <lb/>
 - Germania Inferior: nur 1x bezeugt (CF-GeI-133)   <lb/>
 - außerhalb der Germania Inferior: -  </p>
-                <p>
+                                                <p part="N">
  <rs type="divine">Magusanus</rs>: <lb/>
 - Germania Inferior: in dieser Provinz nicht bezeugt  <lb/>
 - außerhalb der Germania Inferior: In der Provinz Dacia ist 1x ein  <rs type="divine">deus Mag…</rs> bezeugt (AE 1995, 1280).   </p>
@@ -294,5 +295,39 @@ Vorkommen in theonymischen Formularen: </p>
                 <link target="#MAJ.5 #MIN.5"/>
             </linkGrp>
         </body>
+        <back>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+                <p part="N">Für Alte Version (17.04.23) siehe CF-GeI-115<br/>
+                </p>
+            </tei:note>
+        </back>
     </text>
 </TEI>

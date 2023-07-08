@@ -9,16 +9,16 @@
                 </title>
                 <respStmt>
                     <resp>Inschriftenedition</resp>
-                    <persName>
-                        <forename>Werner</forename>
-                        <surname>Petermandl</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Werner</forename>
+                        <surname full="yes">Petermandl</surname>
                     </persName>
                 </respStmt>
                 <respStmt>
                     <resp>Archäologische Beschreibung und geografische Daten</resp>
-                    <persName>
-                        <forename>Astrid</forename>
-                        <surname>Schmölzer</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Astrid</forename>
+                        <surname full="yes">Schmölzer</surname>
                     </persName>
                 </respStmt>
                 <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
@@ -27,23 +27,23 @@
             <publicationStmt>
                 <publisher>
                     <link target="https://antike.uni-graz.at"/>
-                    <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
+                    <orgName ref="https://d-nb.info/gnd/1213531357" instant="false" full="yes">Institut für Antike, Fachbereich
                     Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
                 </publisher>
                 <authority>
                     <link target="https://informationsmodellierung.uni-graz.at"/>
-                    <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                    <orgName ref="http://d-nb.info/gnd/1137284463" instant="false" full="yes">Zentrum für
                     Informationsmodellierung - Austrian Centre for Digital Humanities,
                     Karl-Franzens-Universität Graz</orgName>
                 </authority>
                 <distributor>
                     <link target="https://gams.uni-graz.at"/>
-                    <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                    <orgName instant="false" full="yes">GAMS - Geisteswissenschaftliches Asset Management System</orgName>
                 </distributor>
-                <date when="2022">2022</date>
+                <date when="2022" instant="false">2022</date>
                 <pubPlace>Graz</pubPlace>
                 <idno type="PID">o:fercan.124</idno>
-                <availability>
+                <availability default="false">
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
                     BY-NC 4.0</licence>
                 </availability>
@@ -53,14 +53,14 @@
                   Celticarum Antiquarum</title>
                 <respStmt>
                     <resp>Projektleitung</resp>
-                    <persName>
-                        <forename>Wolfgang</forename>
-                        <surname>Spickermann</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Wolfgang</forename>
+                        <surname full="yes">Spickermann</surname>
                     </persName>
                 </respStmt>
             </seriesStmt>
-            <sourceDesc>
-                <msDesc>
+            <sourceDesc default="false">
+                <msDesc status="draft">
                     <msIdentifier>
                         <repository>verschollen</repository>
                     </msIdentifier>
@@ -71,7 +71,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Anhand der Zeichnung und Abschrift des Altars kann man von einem Aedicula-Altar sprechen. Auf dem einfach profilierten Sockel setzt ein nicht gerahmtes Inschriftenfeld an, darüber ragen, vermutlich über einem leicht vorspringenden Gesims die Überreste der Aedicula nach oben. Nach der Zeichnung dürften Reste der Nische erhalten gewesen sein, sowie die Füße samt restlicher Gewandsäume von drei sitzenden Frauenfiguren.</p>
+                                    <p part="N">Anhand der Zeichnung und Abschrift des Altars kann man von einem Aedicula-Altar sprechen. Auf dem einfach profilierten Sockel setzt ein nicht gerahmtes Inschriftenfeld an, darüber ragen, vermutlich über einem leicht vorspringenden Gesims die Überreste der Aedicula nach oben. Nach der Zeichnung dürften Reste der Nische erhalten gewesen sein, sowie die Füße samt restlicher Gewandsäume von drei sitzenden Frauenfiguren.</p>
                                     <objectType>Aedicula-Altar</objectType>
                                 </support>
                                 <condition>
@@ -80,8 +80,8 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Der Inschriftentext scheint vollständig überliefert zu sein. Doch könnte er einige Fehler beinhalten. Die seit Bergk (1882) immer wieder vorgeschlagene Verbesserung (s. Apparatus criticus; weitere Literatur dazu s. Kakosche 2016 AdEp VI, p.5 Anm.15) auf #Matres Marsacae# erscheint all zu gewagt. Die Unklarheit, die sich in Z.4. aus „PRAEFECT · I“ ergibt, ist am leichtesten zu erklären, wenn man annimmt, dass der Punkt vor dem I fasch gesetzt ist.<lb/>Ligatur: s. Majuskeltext</p>
-                                    <note type="condition">vollständig</note>
+                                    <p part="N">Der Inschriftentext scheint vollständig überliefert zu sein. Doch könnte er einige Fehler beinhalten. Die seit Bergk (1882) immer wieder vorgeschlagene Verbesserung (s. Apparatus criticus; weitere Literatur dazu s. Kakosche 2016 AdEp VI, p.5 Anm.15) auf #Matres Marsacae# erscheint all zu gewagt. Die Unklarheit, die sich in Z.4. aus „PRAEFECT · I“ ergibt, ist am leichtesten zu erklären, wenn man annimmt, dass der Punkt vor dem I fasch gesetzt ist.<lb/>Ligatur: s. Majuskeltext</p>
+                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">vollständig</tei:note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -92,7 +92,7 @@
                         </handDesc>
                         <decoDesc>
                             <decoNote>
-                                <p>Anhand der Abzeichnung handelt es sich vermutlich um eine typische Darstellung der drei sitzenden Göttinnen. Eine genaue Beschreibung ist nicht möglich. </p>
+                                <p part="N">Anhand der Abzeichnung handelt es sich vermutlich um eine typische Darstellung der drei sitzenden Göttinnen. Eine genaue Beschreibung ist nicht möglich. </p>
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130100">
                                     <ref type="context" target="context:fercan.arch.abschrift">Abschrift</ref>
                                 </term>
@@ -106,79 +106,83 @@
                         </decoDesc>
                     </physDesc>
                     <history>
-                        <origin>
-                            <origPlace>
-                                <placeName ref="https://pleiades.stoa.org/places/108896">CUT</placeName>
+                        <origin instant="false">
+                            <origPlace instant="false">
+                                <placeName ref="https://pleiades.stoa.org/places/108896" instant="false" full="yes">CUT</placeName>
                                 <region>CUT</region>
                             </origPlace>
-                            <origDate notBefore="0212" notAfter="0250">212–250</origDate>
+                            <origDate notBefore="0212" notAfter="0250" instant="false">212–250</origDate>
                         </origin>
                         <provenance type="found">
-                            <placeName>
+                            <placeName instant="false" full="yes">
                                 <ref type="context" target="context:fercan.geog.modern.xanten">Xanten</ref>
                             </placeName>
-                            <p>„bey dem Herrn zu Wissen“ (nach Schallmeyer u. a. 1990, 84)</p>
-                            <location>
+                            <p part="N">„bey dem Herrn zu Wissen“ (nach Schallmeyer u. a. 1990, 84)</p>
+                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
                                 <geo decls="#WGS">51.657204 6.448585</geo>
-                            </location>
+                            </tei:location>
                         </provenance>
-                        <provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: CIL (aus älterer Literatur)</provenance>
+                        <provenance type="observed" subtype="autopsied">
+                            <p part="N">non vidimus<lb>
+                                    <br/>
+                                </lb>Lesung gründet auf: CIL (aus älterer Literatur)</p>
+                        </provenance>
                     </history>
                 </msDesc>
-                <listPlace>
-                    <place/>
+                <listPlace default="false">
+                    <place instant="false"/>
                 </listPlace>
-                <listPerson>
-                    <person>
-                        <persName type="gentilnomen">
+                <listPerson default="false">
+                    <person instant="false">
+                        <persName type="gentilnomen" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.gentilnomen.veronius">Veronius</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="cognomen">
+                    <person instant="false">
+                        <persName type="cognomen" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.cognomen.verus">Verus</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_normalized">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dcn.matres_arsacae">Matres Arsacae</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_diplomatic">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_diplomatic" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dcd.matres_arsacae.matribus_arsacis_pater">Matribus Arsacis paternis sive maternis</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_element">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_element" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dce.arsacae">Arsacae</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName>
-                            <roleName type="military">
+                    <person instant="false">
+                        <persName instant="false" full="yes">
+                            <roleName type="military" full="yes">
                                 <ref type="context" target="context:fercan.person.military.beneficiarius_praefecti">beneficiarius praefecti</ref>
                             </roleName>
                         </persName>
                     </person>
                 </listPerson>
-                <listOrg>
-                    <org/>
+                <listOrg default="false">
+                    <org instant="false"/>
                 </listOrg>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
-            <editorialDecl>
-                <p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
-                <p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+            <geoDecl xml:id="WGS" datum="WGS84" default="false">World Geodetic System</geoDecl>
+            <editorialDecl default="false">
+                <p part="N">Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+                <p part="N">Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
                   Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
             </editorialDecl>
-            <projectDesc>
-                <p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+            <projectDesc default="false">
+                <p part="N">Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
                   Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
                   Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
-                <p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+                <p part="N">Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
                   lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
                   zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
                   besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
@@ -196,10 +200,10 @@
             </projectDesc>
         </encodingDesc>
         <profileDesc>
-            <langUsage>
+            <langUsage default="false">
                 <language ident="la">Latein</language>
             </langUsage>
-            <textClass>
+            <textClass default="false">
                 <keywords>
                     <list>
                         <item>
@@ -213,10 +217,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc>
-            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.124/TEI_SOURCE.2020-02-26">Initial Version</change>
-            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.124/TEI_SOURCE.2022-03-07">Version 2</change>
-            <change when="2022" n="3">Version 3</change>
+        <revisionDesc status="draft">
+            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.124/TEI_SOURCE.2020-02-26" status="draft">Initial Version</change>
+            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.124/TEI_SOURCE.2022-03-07" status="draft">Version 2</change>
+            <change when="2022" n="3" status="draft">Version 3</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -226,75 +230,76 @@
     </facsimile>
     <text>
         <body>
-            <ab>
+            <ab part="N">
                 <ref target="context:fercan" type="context">FERCAN</ref>
             </ab>
-            <div subtype="editions" type="bibliography" org="uniform">
-                <listBibl>
-                    <bibl xml:id="LIT.1">ILS 4782</bibl>
-                    <bibl xml:id="LIT.2">CIL XIII 8630</bibl>
-                    <bibl xml:id="LIT.3">Schallmayer/Eibl/Ott/Preuss/Wittkopf 1990, Nr.92.</bibl>
-                    <bibl xml:id="LIT.4">Haensch 2001, Nr.175</bibl>
-                    <bibl xml:id="LIT.5">de Bernardo Stempel/Hainzmann 2009, 90</bibl>
-                    <bibl xml:id="LIT.6">de Bernardo Stempel/Hainzmann 2010, 39</bibl>
-                    <bibl xml:id="LIT.7">Reuter 2012, Nr.69</bibl>
+            <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl default="false">
+                    <bibl xml:id="LIT.1" default="false" status="draft">ILS 4782</bibl>
+                    <bibl xml:id="LIT.2" default="false" status="draft">CIL XIII 8630</bibl>
+                    <bibl xml:id="LIT.3" default="false" status="draft">Schallmayer/Eibl/Ott/Preuss/Wittkopf 1990, Nr.92.</bibl>
+                    <bibl xml:id="LIT.4" default="false" status="draft">Haensch 2001, Nr.175</bibl>
+                    <bibl xml:id="LIT.5" default="false" status="draft">de Bernardo Stempel/Hainzmann 2009, 90</bibl>
+                    <bibl xml:id="LIT.6" default="false" status="draft">de Bernardo Stempel/Hainzmann 2010, 39</bibl>
+                    <bibl xml:id="LIT.7" default="false" status="draft">Reuter 2012, Nr.69</bibl>
                 </listBibl>
             </div>
-            <div subtype="concordances" type="bibliography" org="uniform">
+            <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
                     <bibl type="EDCS">
-                        <idno>EDCS-11100724</idno> <date>zuletzt aufgerufen am 24. Februar 2020</date>
+                        <idno>EDCS-11100724</idno>
+                        <date>zuletzt aufgerufen am 24. Februar 2020</date>
                     </bibl>
                     <bibl type="trismegistos">
-                        <idno>www.trismegistos.org/text/415640</idno> <date>zuletzt aufgerufen am 26. Juli 2021</date>
+                        <idno>www.trismegistos.org/text/415640</idno>
+                        <date>zuletzt aufgerufen am 26. Juli 2021</date>
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/>MATRIBVS ARSACIS PA <lb n="2"/> 
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>MATRIBVS ARSACIS PA <lb n="2"/> 
 TERNIS SIVE MATERNIS <lb n="3"/> 
 M · AVR · LV · VERONIVS VE <lb n="4"/> 
 RVS · PE · PR<hi rend="ligature">AE</hi>FECT · I · PRO SE <lb n="5"/> 
 ET · SVIS V · S · L · M</orig></ab></div>
-            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Matribus Arsacis pa<lb n="2" break="no"/>ternis sive maternis<lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aur</abbr><ex>elius</ex></expan> <expan><abbr>Lu</abbr><ex cert="low">cius</ex></expan> Veronius Ve<lb n="4" break="no"/>rus <supplied reason="omitted"><expan><abbr>b</abbr><ex>ene</ex></expan><expan><abbr>f</abbr><ex>iciarius</ex></expan></supplied> praefecti pro se<lb n="5"/>et suis <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
-            <div type="translation" xml:lang="de" org="uniform">
-                <p>Für die  <rs type="divine">Matres Arsacae, sowohl die väterlichen sowie auch die mütterlichen!</rs> <lb/> 
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Matribus Arsacis pa<lb n="2" break="no"/>ternis sive maternis<lb n="3"/><expan instant="false"><abbr>M</abbr><ex instant="false">arcus</ex></expan> <expan instant="false"><abbr>Aur</abbr><ex instant="false">elius</ex></expan> <expan instant="false"><abbr>Lu</abbr><ex cert="low" instant="false">cius</ex></expan> Veronius Ve<lb n="4" break="no"/>rus <supplied reason="omitted" instant="false"><expan instant="false"><abbr>b</abbr><ex instant="false">ene</ex></expan><expan instant="false"><abbr>f</abbr><ex instant="false">iciarius</ex></expan></supplied> praefecti pro se<lb n="5"/>et suis <expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
+            <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
+                <p part="N">Für die  <rs type="divine">Matres Arsacae, sowohl die väterlichen sowie auch die mütterlichen!</rs> <lb/> 
 Marcus Aurelis Lu(cius) Veronius Verus, beneficiarius praefecti, hat für sich und die Seinen das Gelübde gerne und verdientermaßen erfüllt.</p>
             </div>
-            <div type="translation" xml:lang="en" org="uniform">
-                <p>To the  <rs type="divine">Matres Arsacae, both the paternal and maternal!</rs> <lb/> 
+            <div type="translation" xml:lang="en" org="uniform" part="N" sample="complete">
+                <p part="N">To the  <rs type="divine">Matres Arsacae, both the paternal and maternal!</rs> <lb/> 
 Marcus Aurelis Lu(cius) Veronius Verus, beneficiarius praefecti, has fulfilled a vow willingly and deservedly for himself and his family.</p>
             </div>
-            <div type="apparatus" org="uniform">
+            <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <note>Zeilenwechsel nach Arsacis – ILS; &lt;M&gt;arsacis (so schon Bergk in Westdt.Zs. I 1882, 153) – Schallmayer/Eibl/Ott/Preuss/Wittkopf, Reuter</note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Zeilenwechsel nach Arsacis – ILS; &lt;M&gt;arsacis (so schon Bergk in Westdt.Zs. I 1882, 153) – Schallmayer/Eibl/Ott/Preuss/Wittkopf, Reuter</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <note>LV für Lu(cius)?, vielleicht Verginius – Schallmayer/Eibl/Ott/Preuss/Wittkopf; Aurel.(?) Veronius – Haensch</note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">LV für Lu(cius)?, vielleicht Verginius – Schallmayer/Eibl/Ott/Preuss/Wittkopf; Aurel.(?) Veronius – Haensch</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <note>Zeilenwechsel nach pro – ILS; praefecti I pro se – de Bernardo Stempel/Hainzmann 2009, de Bernardo Stempel/Hainzmann 2010; ohne Ligatur – ILS, de Bernardo Stempel/Hainzmann 2009, de Bernardo Stempel/Hainzmann 2010, Reuter.</note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Zeilenwechsel nach pro – ILS; praefecti I pro se – de Bernardo Stempel/Hainzmann 2009, de Bernardo Stempel/Hainzmann 2010; ohne Ligatur – ILS, de Bernardo Stempel/Hainzmann 2009, de Bernardo Stempel/Hainzmann 2010, Reuter.</tei:note>
                 </app>
             </div>
-            <div type="commentary" subtype="general" org="uniform">
-                <p>sive: Zum Verständnis von ‚sive‘ s. de Bernardo Stempel/Hainzmann 2009, 80f. und de Bernardo Stempel/Hainzmann 2010, 32 </p>
-                <p>
+            <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
+                <p part="N">sive: Zum Verständnis von ‚sive‘ s. de Bernardo Stempel/Hainzmann 2009, 80f. und de Bernardo Stempel/Hainzmann 2010, 32 </p>
+                <p part="N">
 
 beneficiarius praefecti: Der beneficiarius war dem praefectus legionis (s. zu diesem Rang Domaszewski/Dobson 1967, XXXIf.) zugeteilt, seine Aufgabe bestand vermutlich in „klassischen Stabsfunktionen“, der Informationsaufbereitung und Befehlsweitergabe (Ott 1995, 67). </p>
-                <p>
+                <p part="N">
 
 Marcus Aurelius Lucius Veronius Verus: dabei handelt es sich um tria nomina, denen der Namensinhaber nach der Constitutio Antoniniana die kaiserlichen Namensbestandteile M(arcus) Aur(elius) voranstellte. Die Abkürzung LV für Lucius ist allerdings ungewöhnlich. <lb/>
 Veronius: italisches Gentilnomen (Kakoschke 2006, GN 1399) <lb/>
 Verus: lateinisches Cognomen, überall äußerst gängig (Kakoschke 2008, CN 3295)</p>
             </div>
-            <div type="commentary" subtype="language" org="uniform">
-                <p>v.4: „PE” pro „B(ene)F(iciarius)”</p>
+            <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
+                <p part="N">v.4: „PE” pro „B(ene)F(iciarius)”</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform">
-                <p> <rs type="divine">Arsacae:</rs> Zugehörigkeitsbeiname zum keltischen Stamm der Aresaces (de Bernardo Stempel in Spickermann 2005, 145) </p>
-                <p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Arsacae:</rs> keltisch: ‚Zum Volksstamm der Aresaces Gehörige [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 271). </p>
+                                                <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
-                <p>
+                                                <p part="N">
  <rs type="divine">Matres Arsacae:</rs>   <lb/>
 - Germania Inferior: nur in dieser Inschrift gut bezeugt, wo die Göttinnen als  <rs type="divine">Matres Arsacae paternae sive maternae</rs> bezeichnet werden. Es wurde allerdings vorgeschlagen, Reste ihrer Nennung auch noch in 2 weiteren Inschriften zu erkennen (CF-GeI-125 und 126). <lb/> 
 - außerhalb der Germania Inferior:  -  </p>
@@ -307,5 +312,38 @@ Vorkommen in theonymischen Formularen: </p>
                 <link target="#MAJ.5 #MIN.5"/>
             </linkGrp>
         </body>
+        <back>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+                <p part="N">Alte Version (24.04.23):<br/>Arsacae: Zugehörigkeitsbeiname zum keltischen Stamm der Aresaces (de Bernardo Stempel in Spickermann 2005, 145) </p>
+            </tei:note>
+        </back>
     </text>
 </TEI>

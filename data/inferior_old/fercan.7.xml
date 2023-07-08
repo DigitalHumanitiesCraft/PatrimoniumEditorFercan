@@ -9,16 +9,16 @@
                 </title>
                 <respStmt>
                     <resp>Inschriftenedition</resp>
-                    <persName>
-                        <forename>Werner</forename>
-                        <surname>Petermandl</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Werner</forename>
+                        <surname full="yes">Petermandl</surname>
                     </persName>
                 </respStmt>
                 <respStmt>
                     <resp>Archäologische Beschreibung und geografische Daten</resp>
-                    <persName>
-                        <forename>Astrid</forename>
-                        <surname>Schmölzer</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Astrid</forename>
+                        <surname full="yes">Schmölzer</surname>
                     </persName>
                 </respStmt>
                 <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
@@ -27,23 +27,23 @@
             <publicationStmt>
                 <publisher>
                     <link target="https://antike.uni-graz.at"/>
-                    <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
+                    <orgName ref="https://d-nb.info/gnd/1213531357" instant="false" full="yes">Institut für Antike, Fachbereich
                     Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
                 </publisher>
                 <authority>
                     <link target="https://informationsmodellierung.uni-graz.at"/>
-                    <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                    <orgName ref="http://d-nb.info/gnd/1137284463" instant="false" full="yes">Zentrum für
                     Informationsmodellierung - Austrian Centre for Digital Humanities,
                     Karl-Franzens-Universität Graz</orgName>
                 </authority>
                 <distributor>
                     <link target="https://gams.uni-graz.at"/>
-                    <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                    <orgName instant="false" full="yes">GAMS - Geisteswissenschaftliches Asset Management System</orgName>
                 </distributor>
-                <date when="2022">2022</date>
+                <date when="2022" instant="false">2022</date>
                 <pubPlace>Graz</pubPlace>
                 <idno type="PID">o:fercan.7</idno>
-                <availability>
+                <availability default="false">
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
                     BY-NC 4.0</licence>
                 </availability>
@@ -53,14 +53,14 @@
                   Celticarum Antiquarum</title>
                 <respStmt>
                     <resp>Projektleitung</resp>
-                    <persName>
-                        <forename>Wolfgang</forename>
-                        <surname>Spickermann</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Wolfgang</forename>
+                        <surname full="yes">Spickermann</surname>
                     </persName>
                 </respStmt>
             </seriesStmt>
-            <sourceDesc>
-                <msDesc>
+            <sourceDesc default="false">
+                <msDesc status="draft">
                     <msIdentifier>
                         <settlement>Bonn</settlement>
                         <repository>Rheinisches Landesmuseum</repository>
@@ -73,7 +73,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>An den bestoßenen, aber etwas abgesetzten Sockel setzt das nicht gerahmte Inschriftenfeld an. Die Bekrönung ist teilweise noch vorhanden, allerdings ist die genaue Form nicht mehr zu erschließen. Lehner (1930, 22) will in der Bekrönung Reste eines Giebels erkennen; es handelt sich um die untersten Reste der Rosette, die das Giebelfeld geschmückt hat.</p>
+                                    <p part="N">An den bestoßenen, aber etwas abgesetzten Sockel setzt das nicht gerahmte Inschriftenfeld an. Die Bekrönung ist teilweise noch vorhanden, allerdings ist die genaue Form nicht mehr zu erschließen. Lehner (1930, 22) will in der Bekrönung Reste eines Giebels erkennen; es handelt sich um die untersten Reste der Rosette, die das Giebelfeld geschmückt hat.</p>
                                     <material>
                                         <ref type="context" target="context:fercan.material.kalkstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref>
                                     </material>
@@ -90,8 +90,8 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Der Text füllt das Inschriftenfeld nicht zur Gänze aus (unter dem Text bleibt ein Freiraum). Er ist vollständig erhalten.<lb/>Ligaturen: s. Majuskeltext. Besondere Zeichen: In Z.2 Ligatur von E und B mit seitenverkehrtem E; Z.1 Ligatur von R und I mit Verlängerung der senkrechten Haste (H: 5,2 cm) am Ende ein kleineres o (H: 2 cm); Z.2 am Ende ein kleineres o (H: 2,1 cm); Z.3 Ligatur von N und I mit Verlängerung der rechten senkrechten Haste (H: 5,2 cm).</p>
-                                    <note type="condition">weitgehend vollständig</note>
+                                    <p part="N">Der Text füllt das Inschriftenfeld nicht zur Gänze aus (unter dem Text bleibt ein Freiraum). Er ist vollständig erhalten.<lb/>Ligaturen: s. Majuskeltext. Besondere Zeichen: In Z.2 Ligatur von E und B mit seitenverkehrtem E; Z.1 Ligatur von R und I mit Verlängerung der senkrechten Haste (H: 5,2 cm) am Ende ein kleineres o (H: 2 cm); Z.2 am Ende ein kleineres o (H: 2,1 cm); Z.3 Ligatur von N und I mit Verlängerung der rechten senkrechten Haste (H: 5,2 cm).</p>
+                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">weitgehend vollständig</tei:note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -103,7 +103,7 @@
                         </handDesc>
                         <decoDesc>
                             <decoNote>
-                                <p>Die flachreliefierten Bäume links und rechts weisen auf ihrer rechten Seite jeweils auf halber Stammhöhe einen Aststumpf auf – bei näherem Hinsehen scheint sich daraus etwas emporzuwinden (Schlangenkopf oder Blatt?). Die Blätter der Bäume sind nach oben gerichtet und laufen spitz zu. </p>
+                                <p part="N">Die flachreliefierten Bäume links und rechts weisen auf ihrer rechten Seite jeweils auf halber Stammhöhe einen Aststumpf auf – bei näherem Hinsehen scheint sich daraus etwas emporzuwinden (Schlangenkopf oder Blatt?). Die Blätter der Bäume sind nach oben gerichtet und laufen spitz zu. </p>
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">
                                     <ref type="context" target="context:fercan.arch.aufsatzschmuck">Aufsatzschmuck</ref>
                                 </term>
@@ -126,73 +126,73 @@
                         </decoDesc>
                     </physDesc>
                     <history>
-                        <origin>
-                            <origPlace>
-                                <placeName ref="https://pleiades.stoa.org/places/108818">Bonna</placeName>
+                        <origin instant="false">
+                            <origPlace instant="false">
+                                <placeName ref="https://pleiades.stoa.org/places/108818" instant="false" full="yes">Bonna</placeName>
                                 <region>CCAA</region>
                             </origPlace>
-                            <origDate/>
+                            <origDate instant="false"/>
                         </origin>
                         <provenance type="found" when="1928">
-                            <placeName>
+                            <placeName instant="false" full="yes">
                                 <ref type="context" target="context:fercan.geog.modern.bonn">Bonn</ref>
                             </placeName>
-                            <p>Münsterkirche</p>
-                            <location>
+                            <p part="N">Münsterkirche</p>
+                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
                                 <geo decls="#WGS">50.732598 7.108382</geo>
-                            </location>
-                            <note>im Fundament eines fränkischen Grabsaals verbaut</note>
+                            </tei:location>
+                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">im Fundament eines fränkischen Grabsaals verbaut</tei:note>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)</provenance>
                     </history>
                 </msDesc>
-                <listPlace>
-                    <place/>
+                <listPlace default="false">
+                    <place instant="false"/>
                 </listPlace>
-                <listPerson>
-                    <person>
-                        <persName type="gentilnomen">
+                <listPerson default="false">
+                    <person instant="false">
+                        <persName type="gentilnomen" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.gentilnomen.manius">Manius</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="cognomen">
+                    <person instant="false">
+                        <persName type="cognomen" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.cognomen.sacer">Sacer</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_normalized">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dcn.mercurius_gebrinius">Mercurius Gebrinius</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_diplomatic">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_diplomatic" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dcd.mercurius_gebrinius.mercurio_gebrinio">Mercurio Gebrinio</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_element">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_element" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dce.gebrinius">Gebrinius</ref>
                         </persName>
                     </person>
                 </listPerson>
-                <listOrg>
-                    <org/>
+                <listOrg default="false">
+                    <org instant="false"/>
                 </listOrg>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
-            <editorialDecl>
-                <p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
-                <p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+            <geoDecl xml:id="WGS" datum="WGS84" default="false">World Geodetic System</geoDecl>
+            <editorialDecl default="false">
+                <p part="N">Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+                <p part="N">Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
                   Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
             </editorialDecl>
-            <projectDesc>
-                <p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+            <projectDesc default="false">
+                <p part="N">Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
                   Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
                   Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
-                <p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+                <p part="N">Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
                   lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
                   zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
                   besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
@@ -210,10 +210,10 @@
             </projectDesc>
         </encodingDesc>
         <profileDesc>
-            <langUsage>
+            <langUsage default="false">
                 <language ident="la">Latein</language>
             </langUsage>
-            <textClass>
+            <textClass default="false">
                 <keywords>
                     <list>
                         <item>
@@ -224,10 +224,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc>
-            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.7/TEI_SOURCE.2020-02-26">Initial Version</change>
-            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.7/TEI_SOURCE.2022-03-07">Version 2</change>
-            <change when="2022" n="3">Version 3</change>
+        <revisionDesc status="draft">
+            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.7/TEI_SOURCE.2020-02-26" status="draft">Initial Version</change>
+            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.7/TEI_SOURCE.2022-03-07" status="draft">Version 2</change>
+            <change when="2022" n="3" status="draft">Version 3</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -243,63 +243,66 @@
     </facsimile>
     <text>
         <body>
-            <ab>
+            <ab part="N">
                 <ref target="context:fercan" type="context">FERCAN</ref>
             </ab>
-            <div subtype="editions" type="bibliography" org="uniform">
-                <listBibl>
-                    <bibl xml:id="LIT.1">Lehner 1929, 170</bibl>
-                    <bibl xml:id="LIT.2">Lehner 1930, Nr.52</bibl>
-                    <bibl xml:id="LIT.3">Nesselhauf 1937, Nr.192</bibl>
-                    <bibl xml:id="LIT.4">Bauchhenß 2014, 174f. Nr.93</bibl>
-                </listBibl>
+            <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl default="false">
+                    <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1929, 170</bibl>
+                    <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1930, Nr.52</bibl>
+                    <bibl xml:id="LIT.3" default="false" status="draft">Nesselhauf 1937, Nr.192</bibl>
+                    <bibl xml:id="LIT.4" default="false" status="draft">Bauchhenß 2014, 174f. Nr.93</bibl>
+                
+            <bibl xml:id="LIT.5" default="false" status="draft">Scheungraber 2020, 295 Nr.5</bibl>
+        </listBibl>
             </div>
-            <div subtype="concordances" type="bibliography" org="uniform">
+            <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
                     <bibl type="EDCS">
-                        <idno>EDCS-11202317</idno> <date>zuletzt aufgerufen am 24. Februar 2020</date>
+                        <idno>EDCS-11202317</idno>
+                        <date>zuletzt aufgerufen am 24. Februar 2020</date>
                     </bibl>
                     <bibl type="trismegistos">
-                        <idno>www.trismegistos.org/text/419753</idno> <date>zuletzt aufgerufen am 26. Juli 2021</date>
+                        <idno>www.trismegistos.org/text/419753</idno>
+                        <date>zuletzt aufgerufen am 26. Juli 2021</date>
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/><hi rend="ligature">ME</hi>RCV<hi rend="ligature">RI</hi>O <lb n="2"/> 
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/><hi rend="ligature">ME</hi>RCV<hi rend="ligature">RI</hi>O <lb n="2"/> 
 G<hi rend="ligature">EB</hi>RINIO <lb n="3"/> 
 L MA<hi rend="ligature">NI</hi>VS <lb n="4"/> 
 SACER <lb n="5"/> 
 V · S · L · M</orig></ab></div>
-            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Mercurio<lb n="2"/>Gebrinio<lb n="3"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Manius<lb n="4"/>Sacer<lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
-            <div type="translation" xml:lang="de" org="uniform">
-                <p>Für  <rs type="divine">Mercurius Gebrinius!</rs> <lb/> 
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Mercurio<lb n="2"/>Gebrinio<lb n="3"/><expan instant="false"><abbr>L</abbr><ex instant="false">ucius</ex></expan> Manius<lb n="4"/>Sacer<lb n="5"/><expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
+            <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
+                <p part="N">Für  <rs type="divine">Mercurius Gebrinius!</rs> <lb/> 
 Lucius Manius Sacer hat das Gelübde gerne und verdientermaßen erfüllt.</p>
             </div>
-            <div type="translation" xml:lang="en" org="uniform">
-                <p>To  <rs type="divine">Mercurius Gebrinius!</rs> <lb/> 
+            <div type="translation" xml:lang="en" org="uniform" part="N" sample="complete">
+                <p part="N">To  <rs type="divine">Mercurius Gebrinius!</rs> <lb/> 
 Lucius Manius Sacer has fulfilled a vow willingly and deservedly.</p>
             </div>
-            <div type="apparatus" org="uniform">
+            <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <note>ohne Ligaturen – Nesselhauf, Bauchhenß</note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligaturen – Nesselhauf, Bauchhenß</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <note>ohne Ligatur – Nesselhauf, Bauchhenß</note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Nesselhauf, Bauchhenß</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <note>ohne Ligatur – Nesselhauf, Bauchhenß</note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Nesselhauf, Bauchhenß</tei:note>
                 </app>
             </div>
-            <div type="commentary" subtype="general" org="uniform">
-                <p>Lucius Manius Sacer: tria nomina <lb/>
+            <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
+                <p part="N">Lucius Manius Sacer: tria nomina <lb/>
 Manius: italisches Gentilnomen oder einheimisches Pseudogentilnomen abgeleitet vom lateinischen bzw. keltischen Cognomen Man(i)us (Kakoschke 2006, GN 734) <lb/>
 Sacer: keltisches oder lateinisches Cognomen; die Verteilung des Namens spricht für einen keltischen Hintergrund (Kakoschke 2008, CN 2634).</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform">
-                <p> <rs type="divine">Gebrinius:</rs> keltisch, mit der etymologischen Bedeutung ‚der Gott mit dem Widder‘ (de Bernardo Stempel in Spickermann 2005, 140) </p>
-                <p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                <p part="N"> <rs type="divine">Gebrinius:</rs> keltisch: ‚Der Gott mit dem Widder‘ (de Bernardo Stempel <span lang="pt-PT">Corpus F.E.R.C.A.N. II/1 138f</span>). </p>
+                <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
-                <p>
+                <p part="N">
  <rs type="divine">Mercurius Gebrinius</rs>: <lb/>
 - Germania Inferior: 10x belegt (CF-GeI-1 bis CF-GeI-10). Alle Zeugnisse stammen aus Bonn. <lb/>
 - außerhalb der Germania Inferior: -  </p>
@@ -312,5 +315,36 @@ Vorkommen in theonymischen Formularen: </p>
                 <link target="#MAJ.5 #MIN.5"/>
             </linkGrp>
         </body>
+        <back>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true"/>
+        </back>
     </text>
 </TEI>

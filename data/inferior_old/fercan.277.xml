@@ -9,16 +9,16 @@
                 </title>
                 <respStmt>
                     <resp>Inschriftenedition</resp>
-                    <persName>
-                        <forename>Werner</forename>
-                        <surname>Petermandl</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Werner</forename>
+                        <surname full="yes">Petermandl</surname>
                     </persName>
                 </respStmt>
                 <respStmt>
                     <resp>Archäologische Beschreibung und geografische Daten</resp>
-                    <persName>
-                        <forename>Astrid</forename>
-                        <surname>Schmölzer</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Astrid</forename>
+                        <surname full="yes">Schmölzer</surname>
                     </persName>
                 </respStmt>
                 <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
@@ -27,23 +27,23 @@
             <publicationStmt>
                 <publisher>
                     <link target="https://antike.uni-graz.at"/>
-                    <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
+                    <orgName ref="https://d-nb.info/gnd/1213531357" instant="false" full="yes">Institut für Antike, Fachbereich
                     Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
                 </publisher>
                 <authority>
                     <link target="https://informationsmodellierung.uni-graz.at"/>
-                    <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                    <orgName ref="http://d-nb.info/gnd/1137284463" instant="false" full="yes">Zentrum für
                     Informationsmodellierung - Austrian Centre for Digital Humanities,
                     Karl-Franzens-Universität Graz</orgName>
                 </authority>
                 <distributor>
                     <link target="https://gams.uni-graz.at"/>
-                    <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                    <orgName instant="false" full="yes">GAMS - Geisteswissenschaftliches Asset Management System</orgName>
                 </distributor>
-                <date when="2022">2022</date>
+                <date when="2022" instant="false">2022</date>
                 <pubPlace>Graz</pubPlace>
                 <idno type="PID">o:fercan.277</idno>
-                <availability>
+                <availability default="false">
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
                     BY-NC 4.0</licence>
                 </availability>
@@ -53,14 +53,14 @@
                   Celticarum Antiquarum</title>
                 <respStmt>
                     <resp>Projektleitung</resp>
-                    <persName>
-                        <forename>Wolfgang</forename>
-                        <surname>Spickermann</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Wolfgang</forename>
+                        <surname full="yes">Spickermann</surname>
                     </persName>
                 </respStmt>
             </seriesStmt>
-            <sourceDesc>
-                <msDesc>
+            <sourceDesc default="false">
+                <msDesc status="draft">
                     <msIdentifier>
                         <settlement>Köln</settlement>
                         <repository>Römisch-Germanisches Museum</repository>
@@ -73,7 +73,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Es handelt sich um einen kleinen Weihealtar, dessen Inschrift rot nachgezogen wurde. Der Aufsatz ist großteils erhalten geblieben, ansonsten ist der Altar vollständig, bis auf einige kleine Einkerbungen und Bestoßungen. Düntzer (1869, 38 f.) beschreibt einen Kranz in der Mitte des Aufsatzes, d.h. man kann hierbei von einer Opferschale aus Stein als Aufsatzbekrönung ausgehen, die hinter dem mittigen Giebel und zwischen den beiden Pulvini platziert wurde.</p>
+                                    <p part="N">Es handelt sich um einen kleinen Weihealtar, dessen Inschrift rot nachgezogen wurde. Der Aufsatz ist großteils erhalten geblieben, ansonsten ist der Altar vollständig, bis auf einige kleine Einkerbungen und Bestoßungen. Düntzer (1869, 38 f.) beschreibt einen Kranz in der Mitte des Aufsatzes, d.h. man kann hierbei von einer Opferschale aus Stein als Aufsatzbekrönung ausgehen, die hinter dem mittigen Giebel und zwischen den beiden Pulvini platziert wurde.</p>
                                     <material>
                                         <ref type="context" target="context:fercan.material.kalkstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref>
                                     </material>
@@ -90,8 +90,8 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Der Text ist vollständig erhalten. Die Buchstaben sind heute rot ausgemalt.<lb/>Ligatur: s. Majuskeltext. Besondere Zeichen: In Z.7 findet sich eine Ligatur von D und I mit erhöhter senkrechter Haste (H: 3,3 cm).</p>
-                                    <note type="condition">vollständig</note>
+                                    <p part="N">Der Text ist vollständig erhalten. Die Buchstaben sind heute rot ausgemalt.<lb/>Ligatur: s. Majuskeltext. Besondere Zeichen: In Z.7 findet sich eine Ligatur von D und I mit erhöhter senkrechter Haste (H: 3,3 cm).</p>
+                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">vollständig</tei:note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -103,7 +103,7 @@
                         </handDesc>
                         <decoDesc>
                             <decoNote>
-                                <p>Bis auf das pflanzlich anmutende Reliefdekor des Aufsatzes sind keine weiteren Hinweise auf Reliefschmuck bekannt.</p>
+                                <p part="N">Bis auf das pflanzlich anmutende Reliefdekor des Aufsatzes sind keine weiteren Hinweise auf Reliefschmuck bekannt.</p>
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">
                                     <ref type="context" target="context:fercan.arch.aufsatzschmuck">Aufsatzschmuck</ref>
                                 </term>
@@ -123,71 +123,75 @@
                         </decoDesc>
                     </physDesc>
                     <history>
-                        <origin>
-                            <origPlace>
-                                <placeName ref="https://pleiades.stoa.org/places/108751">CCAA</placeName>
+                        <origin instant="false">
+                            <origPlace instant="false">
+                                <placeName ref="https://pleiades.stoa.org/places/108751" instant="false" full="yes">CCAA</placeName>
                                 <region>CCAA</region>
                             </origPlace>
-                            <origDate notBefore="0201" notAfter="0300">3.Jh.</origDate>
+                            <origDate notBefore="0201" notAfter="0300" instant="false">3.Jh.</origDate>
                         </origin>
                         <provenance type="found" notBefore="1501" notAfter="1600">
-                            <placeName>
+                            <placeName instant="false" full="yes">
                                 <ref type="context" target="context:fercan.geog.modern.koeln">Köln</ref>
                             </placeName>
-                            <p>Hohe Pforte</p>
-                            <location>
+                            <p part="N">Hohe Pforte</p>
+                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
                                 <geo decls="#WGS">50.937769 6.958583</geo>
-                            </location>
+                            </tei:location>
                         </provenance>
-                        <provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: Photo</provenance>
+                        <provenance type="observed" subtype="autopsied">
+                            <p part="N">non vidimus<lb>
+                                    <br/>
+                                </lb>Lesung gründet auf: Photo</p>
+                        </provenance>
                     </history>
                 </msDesc>
-                <listPlace>
-                    <place/>
+                <listPlace default="false">
+                    <place instant="false"/>
                 </listPlace>
-                <listPerson>
-                    <person>
-                        <persName type="gentilnomen">
+                <listPerson default="false">
+                    <person instant="false">
+                        <persName type="gentilnomen" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.gentilnomen.aurelius">Aurelius</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="cognomen">
+                    <person instant="false">
+                        <persName type="cognomen" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.cognomen.verecundus">Verecundus</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_normalized">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dcn.malvisae">Malvisae</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_diplomatic">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_diplomatic" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dcd.malvisae.d_e_abus_malvisis">d&lt;e&gt;abus Malvisis</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_element">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_element" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dce.malvisae">Malvisae</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine">
+                    <person instant="false">
+                        <persName type="divine" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.divine-o.silvanus">Silvanus</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName>
-                            <roleName type="military">
+                    <person instant="false">
+                        <persName instant="false" full="yes">
+                            <roleName type="military" full="yes">
                                 <ref type="context" target="context:fercan.person.military.ordinarius">ordinarius</ref>
                             </roleName>
                         </persName>
                     </person>
                 </listPerson>
-                <listOrg>
-                    <org/>
-                    <org type="military_unit">
-                        <orgName>
+                <listOrg default="false">
+                    <org instant="false"/>
+                    <org type="military_unit" instant="false">
+                        <orgName instant="false" full="yes">
                             <ref type="context" target="context:fercan.org.military.numerus_britonum">numerus Britonum</ref>
                         </orgName>
                     </org>
@@ -195,17 +199,17 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
-            <editorialDecl>
-                <p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
-                <p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+            <geoDecl xml:id="WGS" datum="WGS84" default="false">World Geodetic System</geoDecl>
+            <editorialDecl default="false">
+                <p part="N">Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+                <p part="N">Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
                   Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
             </editorialDecl>
-            <projectDesc>
-                <p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+            <projectDesc default="false">
+                <p part="N">Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
                   Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
                   Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
-                <p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+                <p part="N">Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
                   lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
                   zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
                   besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
@@ -223,10 +227,10 @@
             </projectDesc>
         </encodingDesc>
         <profileDesc>
-            <langUsage>
+            <langUsage default="false">
                 <language ident="la">Latein</language>
             </langUsage>
-            <textClass>
+            <textClass default="false">
                 <keywords>
                     <list>
                         <item>
@@ -240,10 +244,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc>
-            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.277/TEI_SOURCE.2020-02-26">Initial Version</change>
-            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.277/TEI_SOURCE.2022-03-07">Version 2</change>
-            <change when="2022" n="3">Version 3</change>
+        <revisionDesc status="draft">
+            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.277/TEI_SOURCE.2020-02-26" status="draft">Initial Version</change>
+            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.277/TEI_SOURCE.2022-03-07" status="draft">Version 2</change>
+            <change when="2022" n="3" status="draft">Version 3</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -253,31 +257,33 @@
     </facsimile>
     <text>
         <body>
-            <ab>
+            <ab part="N">
                 <ref target="context:fercan" type="context">FERCAN</ref>
             </ab>
-            <div subtype="editions" type="bibliography" org="uniform">
-                <listBibl>
-                    <bibl xml:id="LIT.1">ILS 4762</bibl>
-                    <bibl xml:id="LIT.2">CIL XIII 8208</bibl>
-                    <bibl xml:id="LIT.3">Riese 1914, Nr.1745</bibl>
-                    <bibl xml:id="LIT.4">Alföldy 1968 (Hilfstruppen), Nr.183</bibl>
-                    <bibl xml:id="LIT.5">Galsterer/Galsterer 1975, Nr.79</bibl>
-                    <bibl xml:id="LIT.6">Galsterer/Galsterer 2010, Nr.112</bibl>
-                    <bibl xml:id="LIT.7">KIK2012 146</bibl>
+            <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl default="false">
+                    <bibl xml:id="LIT.1" default="false" status="draft">ILS 4762</bibl>
+                    <bibl xml:id="LIT.2" default="false" status="draft">CIL XIII 8208</bibl>
+                    <bibl xml:id="LIT.3" default="false" status="draft">Riese 1914, Nr.1745</bibl>
+                    <bibl xml:id="LIT.4" default="false" status="draft">Alföldy 1968 (Hilfstruppen), Nr.183</bibl>
+                    <bibl xml:id="LIT.5" default="false" status="draft">Galsterer/Galsterer 1975, Nr.79</bibl>
+                    <bibl xml:id="LIT.6" default="false" status="draft">Galsterer/Galsterer 2010, Nr.112</bibl>
+                    <bibl xml:id="LIT.7" default="false" status="draft">KIK2012 146</bibl>
                 </listBibl>
             </div>
-            <div subtype="concordances" type="bibliography" org="uniform">
+            <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
                     <bibl type="EDCS">
-                        <idno>EDCS-01200046</idno> <date>zuletzt aufgerufen am 24. Februar 2020</date>
+                        <idno>EDCS-01200046</idno>
+                        <date>zuletzt aufgerufen am 24. Februar 2020</date>
                     </bibl>
                     <bibl type="trismegistos">
-                        <idno>www.trismegistos.org/text/415256</idno> <date>zuletzt aufgerufen am 26. Juli 2021</date>
+                        <idno>www.trismegistos.org/text/415256</idno>
+                        <date>zuletzt aufgerufen am 26. Juli 2021</date>
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/>IN H D D <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>IN H D D <lb n="2"/>
 DIABVS <lb n="3"/>
 MALVISIS <lb n="4"/>
 ET SILVANO <lb n="5"/>
@@ -285,41 +291,40 @@ AVR VERE <lb n="6"/>
 CVNDVS <lb n="7"/>
 OR<hi rend="ligature">DI</hi> · BRITO <lb n="8"/>
 V S L M</orig></ab></div>
-            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan><lb n="2"/>d<supplied reason="omitted">e</supplied>abus<lb n="3"/>Malvisis<lb n="4"/>et Silvano<lb n="5"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Vere<lb n="6" break="no"/>cundus<lb n="7"/><expan><abbr>ordi</abbr><ex>narius</ex></expan> <expan><abbr>Brito</abbr><ex>num</ex></expan><lb n="8"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
-            <div type="translation" xml:lang="de" org="uniform">
-                <p>Zu Ehren des Kaiserhauses <lb/>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>In <expan instant="false"><abbr>h</abbr><ex instant="false">onorem</ex></expan> <expan instant="false"><abbr>d</abbr><ex instant="false">omus</ex></expan> <expan instant="false"><abbr>d</abbr><ex instant="false">ivinae</ex></expan><lb n="2"/>d<supplied reason="omitted" instant="false">e</supplied>abus<lb n="3"/>Malvisis<lb n="4"/>et Silvano<lb n="5"/><expan instant="false"><abbr>Aur</abbr><ex instant="false">elius</ex></expan> Vere<lb n="6" break="no"/>cundus<lb n="7"/><expan instant="false"><abbr>ordi</abbr><ex instant="false">narius</ex></expan> <expan instant="false"><abbr>Brito</abbr><ex instant="false">num</ex></expan><lb n="8"/><expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
+            <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
+                <p part="N">Zu Ehren des Kaiserhauses <lb/>
 für die Göttinnen  <rs type="divine">Malvisae</rs> und für  <rs type="divine">Silvanus!</rs>  <lb/>
 Aurelius Verecundus, ordinarius der Britones, hat das Gelübde gerne und verdientermaßen erfüllt. </p>
             </div>
-            <div type="translation" xml:lang="en" org="uniform">
-                <p>In honour of the Divine Household <lb/>
+            <div type="translation" xml:lang="en" org="uniform" part="N" sample="complete">
+                <p part="N">In honour of the Divine Household <lb/>
 to the goddesses  <rs type="divine">Malvisae</rs> and to  <rs type="divine">Silvanus!</rs>  <lb/>
 Aurelius Verecundus, ordinarius of the Britones, has fulfilled a vow willingly and deservedly.</p>
             </div>
-            <div type="apparatus" org="uniform">
+            <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.7 #MAJ.7">
-                    <note>ohne Ligatur – ILS, Riese, Alföldy, Galsterer/Galsterer 2010, KIK2012</note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – ILS, Riese, Alföldy, Galsterer/Galsterer 2010, KIK2012</tei:note>
                 </app>
             </div>
-            <div type="commentary" subtype="general" org="uniform">
-                <p>Aurelius Verecundus: römisches Namensformular mit Gentil- und Cognomen, ohne Praenomen <lb/>
+            <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
+                <p part="N">Aurelius Verecundus: römisches Namensformular mit Gentil- und Cognomen, ohne Praenomen <lb/>
 Aurelius: italisches kaiserliches Gentilnomen; die Häufigkeit des Namens steht in Zusammenhang mit der Constitutio Antoniniana, nach der viele Neubürger dieses Gentilnomen annahmen; doch auch Personen, die zuvor schon im Besitz des Bürgerrecht waren, fügten dieses Gentile nun nicht selten ihrem Namen an (Kakoschke 2006, GN 173). <lb/>
 Verecundus: lateinisches Cognomen, überall äußerst gängig (Kakoschke 2008, CN 3278) </p>
-                <p>
+                <p part="N">
 
 ordinarius: Bezeichnung, die schon im 3.Jh. für die Centurionen eines numerus belegt ist; im 4.Jh. auch in den Legionen verwendet (Domaszewski-Dobson 60) </p>
-                <p> 
+                <p part="N"> 
 Britones: Angesprochen ist wohl ein numerus Britonum: Der Stationierungsort des numerus ist unbekannt (Noelke 2016, 601). Nach Alföldy war die Einheit in Divitiae (Deutz) stationiert; sie sei von numeri der Britones in Obergermanien zu trennen (Alföldy 1968, Hilfstruppen, 79).</p>
             </div>
-            <div type="commentary" subtype="language" org="uniform">
-                <p>v.2: „diabus“ pro „deabus“</p>
+            <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
+                <p part="N">v.2: „diabus“ pro „deabus“</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform">
-                <p> <rs type="divine">Malvisae:</rs> vielleicht eine aus Dakien mitgebrachte detoponymische Gottheit, benannt nach dem Ort ‚Malva’ (de Bernardo Stempel in Spickermann 2005, 146)  </p>
-                <p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Malvisae:</rs> keltisch: ‚Diejenigen [Göttinnen] der Stadt Malva’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 279).  </p>
+                                                <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
-                <p>
+                                                <p part="N">
  <rs type="divine">Malvisae</rs>: <lb/>
 - Germania Inferior:  Der Göttername ist bislang nur 2x – in der hier vorgelegten Inschrift und möglicherweise in CF-GeI-278 – belegt.  <lb/> 
 - außerhalb der Germania Inferior: -</p>
@@ -335,5 +340,41 @@ Vorkommen in theonymischen Formularen: </p>
                 <link target="#MAJ.8 #MIN.8"/>
             </linkGrp>
         </body>
+        <back>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+                <p part="N">Alte Version (25.04.23):</p>
+                <p part="N">Malvisae: vielleicht eine aus Dakien mitgebrachte
+ detoponymische Gottheit, benannt nach dem Ort ‚Malva’ (de Bernardo 
+Stempel in Spickermann 2005, 146) </p>
+            </tei:note>
+        </back>
     </text>
 </TEI>

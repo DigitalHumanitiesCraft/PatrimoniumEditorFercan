@@ -9,16 +9,16 @@
                 </title>
                 <respStmt>
                     <resp>Inschriftenedition</resp>
-                    <persName>
-                        <forename>Werner</forename>
-                        <surname>Petermandl</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Werner</forename>
+                        <surname full="yes">Petermandl</surname>
                     </persName>
                 </respStmt>
                 <respStmt>
                     <resp>Archäologische Beschreibung und geografische Daten</resp>
-                    <persName>
-                        <forename>Astrid</forename>
-                        <surname>Schmölzer</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Astrid</forename>
+                        <surname full="yes">Schmölzer</surname>
                     </persName>
                 </respStmt>
                 <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
@@ -27,23 +27,23 @@
             <publicationStmt>
                 <publisher>
                     <link target="https://antike.uni-graz.at"/>
-                    <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
+                    <orgName ref="https://d-nb.info/gnd/1213531357" instant="false" full="yes">Institut für Antike, Fachbereich
                     Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
                 </publisher>
                 <authority>
                     <link target="https://informationsmodellierung.uni-graz.at"/>
-                    <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                    <orgName ref="http://d-nb.info/gnd/1137284463" instant="false" full="yes">Zentrum für
                     Informationsmodellierung - Austrian Centre for Digital Humanities,
                     Karl-Franzens-Universität Graz</orgName>
                 </authority>
                 <distributor>
                     <link target="https://gams.uni-graz.at"/>
-                    <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                    <orgName instant="false" full="yes">GAMS - Geisteswissenschaftliches Asset Management System</orgName>
                 </distributor>
-                <date when="2022">2022</date>
+                <date when="2022" instant="false">2022</date>
                 <pubPlace>Graz</pubPlace>
                 <idno type="PID">o:fercan.466</idno>
-                <availability>
+                <availability default="false">
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
                     BY-NC 4.0</licence>
                 </availability>
@@ -53,14 +53,14 @@
                   Celticarum Antiquarum</title>
                 <respStmt>
                     <resp>Projektleitung</resp>
-                    <persName>
-                        <forename>Wolfgang</forename>
-                        <surname>Spickermann</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Wolfgang</forename>
+                        <surname full="yes">Spickermann</surname>
                     </persName>
                 </respStmt>
             </seriesStmt>
-            <sourceDesc>
-                <msDesc>
+            <sourceDesc default="false">
+                <msDesc status="draft">
                     <msIdentifier>
                         <repository>verschollen</repository>
                     </msIdentifier>
@@ -71,7 +71,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Das Objekt ist verschollen und nur in Abschrift erhalten. Eine Beschreibung ist in der Literatur nicht vorhanden.</p>
+                                    <p part="N">Das Objekt ist verschollen und nur in Abschrift erhalten. Eine Beschreibung ist in der Literatur nicht vorhanden.</p>
                                     <objectType>Weihestein</objectType>
                                 </support>
                                 <condition>
@@ -80,8 +80,8 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Der Inschriftentext ist nur abschriftlich überliefert. Das Original war am linken und rechten Rand abgebrochen, der Text kann aber mit einiger Sicherheit ergänzt werden.<lb/>Ligatur: s. Majuskeltext</p>
-                                    <note type="condition">weitgehend vollständig</note>
+                                    <p part="N">Der Inschriftentext ist nur abschriftlich überliefert. Das Original war am linken und rechten Rand abgebrochen, der Text kann aber mit einiger Sicherheit ergänzt werden.<lb/>Ligatur: s. Majuskeltext</p>
+                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">weitgehend vollständig</tei:note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -90,7 +90,7 @@
                         </handDesc>
                         <decoDesc>
                             <decoNote>
-                                <p>keine Angaben möglich</p>
+                                <p part="N">keine Angaben möglich</p>
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130100">
                                     <ref type="context" target="context:fercan.arch.abschrift">Abschrift</ref>
                                 </term>
@@ -98,66 +98,70 @@
                         </decoDesc>
                     </physDesc>
                     <history>
-                        <origin>
-                            <origPlace/>
-                            <origDate/>
+                        <origin instant="false">
+                            <origPlace instant="false"/>
+                            <origDate instant="false"/>
                         </origin>
                         <provenance type="found">
-                            <placeName>
+                            <placeName instant="false" full="yes">
                                 <ref type="context" target="context:fercan.geog.modern.unbekannt">Unbekannt</ref>
                             </placeName>
-                            <note>Zu den Fundumständen sind keine Details bekannt.</note>
+                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Zu den Fundumständen sind keine Details bekannt.</tei:note>
                         </provenance>
-                        <provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: CIL</provenance>
+                        <provenance type="observed" subtype="autopsied">
+                            <p part="N">non vidimus</p>
+                            <p part="N">
+                                <lb/>Lesung gründet auf: CIL</p>
+                        </provenance>
                     </history>
                 </msDesc>
-                <listPlace>
-                    <place/>
+                <listPlace default="false">
+                    <place instant="false"/>
                 </listPlace>
-                <listPerson>
-                    <person>
-                        <persName type="gentilnomen">
+                <listPerson default="false">
+                    <person instant="false">
+                        <persName type="gentilnomen" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.gentilnomen.candidius">Candidius</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="cognomen">
+                    <person instant="false">
+                        <persName type="cognomen" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.cognomen.maternus">Maternus</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_normalized">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dcn.tenianeae">Tenianeae</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_diplomatic">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_diplomatic" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dcd.tenianeae.matro_nis__teniaveh_is">Matro[nis] Teniaveh[is]</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_element">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_element" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dce.teniavehae">Teniavehae</ref>
                         </persName>
                     </person>
                 </listPerson>
-                <listOrg>
-                    <org/>
+                <listOrg default="false">
+                    <org instant="false"/>
                 </listOrg>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
-            <editorialDecl>
-                <p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
-                <p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+            <geoDecl xml:id="WGS" datum="WGS84" default="false">World Geodetic System</geoDecl>
+            <editorialDecl default="false">
+                <p part="N">Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+                <p part="N">Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
                   Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
             </editorialDecl>
-            <projectDesc>
-                <p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+            <projectDesc default="false">
+                <p part="N">Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
                   Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
                   Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
-                <p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+                <p part="N">Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
                   lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
                   zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
                   besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
@@ -175,10 +179,10 @@
             </projectDesc>
         </encodingDesc>
         <profileDesc>
-            <langUsage>
+            <langUsage default="false">
                 <language ident="la">Latein</language>
             </langUsage>
-            <textClass>
+            <textClass default="false">
                 <keywords>
                     <list>
                         <item>
@@ -192,8 +196,8 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc>
-            <change n="1" when="2022">Initial Version</change>
+        <revisionDesc status="draft">
+            <change n="1" when="2022" status="draft">Initial Version</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -203,47 +207,50 @@
     </facsimile>
     <text>
         <body>
-            <ab>
+            <ab part="N">
                 <ref target="context:fercan" type="context">FERCAN</ref>
             </ab>
-            <div subtype="editions" type="bibliography" org="uniform">
-                <listBibl>
-                    <bibl xml:id="LIT.1">CIL XIII 8847</bibl>
+            <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl default="false">
+                    <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 8847</bibl>
                 </listBibl>
             </div>
-            <div subtype="concordances" type="bibliography" org="uniform">
+            <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
                     <bibl type="EDCS">
-                        <idno>EDCS-11100937</idno> <date>zuletzt aufgerufen am 24. Februar 2020</date>
+                        <idno>EDCS-11100937</idno>
+                        <date>zuletzt aufgerufen am 24. Februar 2020</date>
                     </bibl>
                     <bibl type="trismegistos">
-                        <idno>www.trismegistos.org/text/415841</idno> <date>zuletzt aufgerufen am 26. Juli 2021</date>
+                        <idno>www.trismegistos.org/text/415841</idno>
+                        <date>zuletzt aufgerufen am 26. Juli 2021</date>
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/>MATRO<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>
-TENIA VEH<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/> 
-<gap reason="lost" quantity="1" unit="character"/>EX CAN<hi rend="ligature">DI</hi><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>
-MATERN<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>
-<gap reason="lost" quantity="1" unit="character"/>RO SE ET <gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>
-<gap reason="lost" extent="unknown" unit="character"/> IMP <gap reason="lost" extent="unknown" unit="character"/></orig></ab></div>
-            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Matro<supplied reason="lost">nis</supplied><lb n="2"/>Teniaveh<supplied reason="lost">is</supplied><lb n="3"/><supplied reason="lost">S</supplied><expan><abbr>ex</abbr><ex>tus</ex></expan> Candi<supplied reason="lost"><expan><abbr>di</abbr><ex>us</ex></expan></supplied><lb n="4"/>Matern<supplied reason="lost">us</supplied><lb n="5"/><supplied reason="lost">p</supplied>ro se et <supplied reason="lost">suis</supplied><lb n="6"/><supplied reason="lost">ex</supplied> <expan><abbr>imp</abbr><ex>erio</ex></expan> <supplied reason="lost">ipsarum</supplied></ab></div>
-            <div type="translation" xml:lang="de" org="uniform">
-                <p>Für die  <rs type="divine">Matronae Teniavehae!</rs> <lb/> 
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>MATRO<gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="2"/>
+TENIA VEH<gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="3"/> 
+<gap reason="lost" quantity="1" unit="character" instant="false"/>EX CAN<hi rend="ligature">DI</hi><gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="4"/>
+MATERN<gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="5"/>
+<gap reason="lost" quantity="1" unit="character" instant="false"/>RO SE ET <gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="6"/>
+<gap reason="lost" extent="unknown" unit="character" instant="false"/> IMP <gap reason="lost" extent="unknown" unit="character" instant="false"/></orig></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Matro<supplied reason="lost" instant="false">nis</supplied><lb n="2"/>Teniaveh<supplied reason="lost" instant="false">is</supplied><lb n="3"/><supplied reason="lost" instant="false">S</supplied><expan instant="false"><abbr>ex</abbr><ex instant="false">tus</ex></expan> Candi<supplied reason="lost" instant="false"><expan instant="false"><abbr>di</abbr><ex instant="false">us</ex></expan></supplied><lb n="4"/>Matern<supplied reason="lost" instant="false">us</supplied><lb n="5"/><supplied reason="lost" instant="false">p</supplied>ro se et <supplied reason="lost" instant="false">suis</supplied><lb n="6"/><supplied reason="lost" instant="false">ex</supplied> <expan instant="false"><abbr>imp</abbr><ex instant="false">erio</ex></expan> <supplied reason="lost" instant="false">ipsarum</supplied></ab></div>
+            <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
+                <p part="N">Für die  <rs type="divine">Matronae Teniavehae!</rs> <lb/> 
 Sextus Candidius Maternus für sich und die Seinen auf deren Befehl.</p>
             </div>
-            <div type="translation" xml:lang="en" org="uniform">
-                <p>To the  <rs type="divine">Matronae Teniavehae!</rs> <lb/> 
+            <div type="translation" xml:lang="en" org="uniform" part="N" sample="complete">
+                <p part="N">To the  <rs type="divine">Matronae Teniavehae!</rs> <lb/> 
 Sextus Candidius Maternus for himself and his family in response to their order.</p>
             </div>
-            <div type="commentary" subtype="general" org="uniform">
-                <p>Sextus Candidius Maternus: tria nomina. Ein Dedikant dieses Namens ist auch von einem Altar für die  <rs type="divine">Matronae Vesuniahenae</rs> aus Zülpich bekannt (CF-GeI-59). Die Ergänzung des Namens in der hier behandelten Inschrift hat sich daran orientiert. Ob es sich dabei um die gleiche Person handelt ist aber zweifelhaft. <lb/>
+            <div type="apparatus" org="uniform" part="N" sample="complete">
+            </div>
+            <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
+                <p part="N">Sextus Candidius Maternus: tria nomina. Ein Dedikant dieses Namens ist auch von einem Altar für die  <rs type="divine">Matronae Vesuniahenae</rs> aus Zülpich bekannt (CF-GeI-59). Die Ergänzung des Namens in der hier behandelten Inschrift hat sich daran orientiert. Ob es sich dabei um die gleiche Person handelt ist aber zweifelhaft. <lb/>
 Candidius: einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Cognomen Candidus; besonders verbreitet in den germanischen Provinzen (Kakoschke 2006, GN 264) <lb/>
 Maternus: lateinisches Cognomen, überall gängig (Kakoschke 2008, CN 1965)</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform">
-                <p> <rs type="divine">Teniavehae</rs>: keltisch (de Bernardo Stempel, im Druck) </p>
-                <p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Teniavehae</rs>: keltisch: ‚Die [Muttergöttinnen] der Holunderbäume’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 238f). </p>
+                                                <p part="N">
 
 Vorkommen in theonymischen Formularen: <lb/>
  <rs type="divine">Matres Teniavehae </rs> (incl. ev. Varianten): <lb/>
@@ -259,5 +266,39 @@ Vorkommen in theonymischen Formularen: <lb/>
                 <link target="#MAJ.6 #MIN.6"/>
             </linkGrp>
         </body>
+        <back>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+                <p part="N">Alte Version (25.04.23):</p>
+                <p part="N">Teniavehae: keltisch (de Bernardo Stempel, im Druck) </p>
+            </tei:note>
+        </back>
     </text>
 </TEI>

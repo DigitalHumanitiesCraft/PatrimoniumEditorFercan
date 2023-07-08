@@ -9,16 +9,16 @@
                 </title>
                 <respStmt>
                     <resp>Inschriftenedition</resp>
-                    <persName>
-                        <forename>Werner</forename>
-                        <surname>Petermandl</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Werner</forename>
+                        <surname full="yes">Petermandl</surname>
                     </persName>
                 </respStmt>
                 <respStmt>
                     <resp>Archäologische Beschreibung und geografische Daten</resp>
-                    <persName>
-                        <forename>Astrid</forename>
-                        <surname>Schmölzer</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Astrid</forename>
+                        <surname full="yes">Schmölzer</surname>
                     </persName>
                 </respStmt>
                 <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
@@ -27,23 +27,23 @@
             <publicationStmt>
                 <publisher>
                     <link target="https://antike.uni-graz.at"/>
-                    <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
+                    <orgName ref="https://d-nb.info/gnd/1213531357" instant="false" full="yes">Institut für Antike, Fachbereich
                     Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
                 </publisher>
                 <authority>
                     <link target="https://informationsmodellierung.uni-graz.at"/>
-                    <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                    <orgName ref="http://d-nb.info/gnd/1137284463" instant="false" full="yes">Zentrum für
                     Informationsmodellierung - Austrian Centre for Digital Humanities,
                     Karl-Franzens-Universität Graz</orgName>
                 </authority>
                 <distributor>
                     <link target="https://gams.uni-graz.at"/>
-                    <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                    <orgName instant="false" full="yes">GAMS - Geisteswissenschaftliches Asset Management System</orgName>
                 </distributor>
-                <date when="2022">2022</date>
+                <date when="2022" instant="false">2022</date>
                 <pubPlace>Graz</pubPlace>
                 <idno type="PID">o:fercan.298</idno>
-                <availability>
+                <availability default="false">
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
                     BY-NC 4.0</licence>
                 </availability>
@@ -53,14 +53,14 @@
                   Celticarum Antiquarum</title>
                 <respStmt>
                     <resp>Projektleitung</resp>
-                    <persName>
-                        <forename>Wolfgang</forename>
-                        <surname>Spickermann</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Wolfgang</forename>
+                        <surname full="yes">Spickermann</surname>
                     </persName>
                 </respStmt>
             </seriesStmt>
-            <sourceDesc>
-                <msDesc>
+            <sourceDesc default="false">
+                <msDesc status="draft">
                     <msIdentifier/>
                     <msContents>
                         <summary>Weihinschrift</summary>
@@ -69,7 +69,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Es handelt sich um einen sehr gut erhaltenen bronzenen Hahn mit verschiedenfarbigen Emaille-Einlagen. Sein Rücken ist hohl. Unmittelbar neben dem Bronzehahn kam ein Metallfuß (eines Gefäßes und wohl zum Hahn als Standfläche gehörig) zum Vorschein, der mit einer zweizeiligen Inschrift versehen war.</p>
+                                    <p part="N">Es handelt sich um einen sehr gut erhaltenen bronzenen Hahn mit verschiedenfarbigen Emaille-Einlagen. Sein Rücken ist hohl. Unmittelbar neben dem Bronzehahn kam ein Metallfuß (eines Gefäßes und wohl zum Hahn als Standfläche gehörig) zum Vorschein, der mit einer zweizeiligen Inschrift versehen war.</p>
                                     <material>
                                         <ref type="context" target="context:fercan.material.bronze;_emaille">Bronze; Emaille</ref>
                                     </material>
@@ -81,8 +81,8 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Der Inschriftentext ist vollständig erhalten.</p>
-                                    <note type="condition">vollständig</note>
+                                    <p part="N">Der Inschriftentext ist vollständig erhalten.</p>
+                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">vollständig</tei:note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -91,7 +91,7 @@
                         </handDesc>
                         <decoDesc>
                             <decoNote>
-                                <p>Der Hahn ist vollplastisch dargestellt. Die Bronzefigur weißt einen hohlen Rücken auf und breite Füße, die wenig mit natürlichen Hühnerkrallen gemeinsam haben, sondern eher an Entenfüße erinnern. Augen, Kamm und die mit kariertem Muster versehene Brust sind mit Glaspaste- bzw. Emaille-Einlagen in Rot, Gelb und Blau gehalten. Das Fundobjekt wird als Votiv gesehen und so mit der oben genannten Inschrift in Verbindung gebracht.</p>
+                                <p part="N">Der Hahn ist vollplastisch dargestellt. Die Bronzefigur weißt einen hohlen Rücken auf und breite Füße, die wenig mit natürlichen Hühnerkrallen gemeinsam haben, sondern eher an Entenfüße erinnern. Augen, Kamm und die mit kariertem Muster versehene Brust sind mit Glaspaste- bzw. Emaille-Einlagen in Rot, Gelb und Blau gehalten. Das Fundobjekt wird als Votiv gesehen und so mit der oben genannten Inschrift in Verbindung gebracht.</p>
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252840">
                                     <ref type="context" target="context:fercan.arch.gefaesz">Gefäß</ref>
                                 </term>
@@ -105,65 +105,69 @@
                         </decoDesc>
                     </physDesc>
                     <history>
-                        <origin>
-                            <origPlace>
+                        <origin instant="false">
+                            <origPlace instant="false">
                                 <region>CUT</region>
                             </origPlace>
-                            <origDate notBefore="0101" notAfter="0200">2.Jh.</origDate>
+                            <origDate notBefore="0101" notAfter="0200" instant="false">2.Jh.</origDate>
                         </origin>
                         <provenance type="found" when="1976">
-                            <placeName>
+                            <placeName instant="false" full="yes">
                                 <ref type="context" target="context:fercan.geog.modern.born_buchten">Born-Buchten</ref>
                             </placeName>
-                            <location>
+                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
                                 <geo decls="#WGS">51.040322 5.810565</geo>
-                            </location>
-                            <note>im Zuge einer Notgrabung; mehrere römerzeitliche Funde, darunter auch römische Siedlungsreste neben einer größeren rechteckigen Anlage aus Stein</note>
+                            </tei:location>
+                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">im Zuge einer Notgrabung; mehrere römerzeitliche Funde, darunter auch römische Siedlungsreste neben einer größeren rechteckigen Anlage aus Stein</tei:note>
                         </provenance>
-                        <provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: Bloemers</provenance>
+                        <provenance type="observed" subtype="autopsied">
+                            <p part="N">non vidimus<lb>
+                                    <br/>
+                                </lb>Lesung gründet auf: Bloemers</p>
+                        </provenance>
                     </history>
                 </msDesc>
-                <listPlace>
-                    <place/>
+                <listPlace default="false">
+                    <place instant="false"/>
                 </listPlace>
-                <listPerson>
-                    <person>
-                        <persName type="gentilnomen">
+                <listPerson default="false">
+                    <person instant="false">
+                        <persName type="gentilnomen" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.gentilnomen.ulpius">Ulpius</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="cognomen">
+                    <person instant="false">
+                        <persName type="cognomen" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.cognomen.verinus">Verinus</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_normalized">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dcn.arcanua">Arcanua</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_diplomatic">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_diplomatic" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dcd.arcanua.deae_arcanu_a_e">deae Arcanu(a)e</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_element">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_element" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dce.arcanua">Arcanua</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName>
-                            <roleName type="military">
+                    <person instant="false">
+                        <persName instant="false" full="yes">
+                            <roleName type="military" full="yes">
                                 <ref type="context" target="context:fercan.person.military.veteranus_legionis">veteranus legionis</ref>
                             </roleName>
                         </persName>
                     </person>
                 </listPerson>
-                <listOrg>
-                    <org/>
-                    <org type="military_unit">
-                        <orgName>
+                <listOrg default="false">
+                    <org instant="false"/>
+                    <org type="military_unit" instant="false">
+                        <orgName instant="false" full="yes">
                             <ref type="context" target="context:fercan.org.military.legio_vi">legio VI</ref>
                         </orgName>
                     </org>
@@ -171,17 +175,17 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
-            <editorialDecl>
-                <p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
-                <p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+            <geoDecl xml:id="WGS" datum="WGS84" default="false">World Geodetic System</geoDecl>
+            <editorialDecl default="false">
+                <p part="N">Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+                <p part="N">Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
                   Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
             </editorialDecl>
-            <projectDesc>
-                <p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+            <projectDesc default="false">
+                <p part="N">Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
                   Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
                   Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
-                <p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+                <p part="N">Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
                   lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
                   zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
                   besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
@@ -199,10 +203,10 @@
             </projectDesc>
         </encodingDesc>
         <profileDesc>
-            <langUsage>
+            <langUsage default="false">
                 <language ident="la">Latein</language>
             </langUsage>
-            <textClass>
+            <textClass default="false">
                 <keywords>
                     <list>
                         <item>
@@ -213,10 +217,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc>
-            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.298/TEI_SOURCE.2020-02-26">Initial Version</change>
-            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.298/TEI_SOURCE.2022-03-07">Version 2</change>
-            <change when="2022" n="3">Version 3</change>
+        <revisionDesc status="draft">
+            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.298/TEI_SOURCE.2020-02-26" status="draft">Initial Version</change>
+            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.298/TEI_SOURCE.2022-03-07" status="draft">Version 2</change>
+            <change when="2022" n="3" status="draft">Version 3</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -232,62 +236,66 @@
     </facsimile>
     <text>
         <body>
-            <ab>
+            <ab part="N">
                 <ref target="context:fercan" type="context">FERCAN</ref>
             </ab>
-            <div subtype="editions" type="bibliography" org="uniform">
-                <listBibl>
-                    <bibl xml:id="LIT.1">Bloemers 1977, 21</bibl>
-                    <bibl xml:id="LIT.2">Bogaers in Willems 1983, 254</bibl>
-                    <bibl xml:id="LIT.3">AE 1983, 723</bibl>
-                    <bibl xml:id="LIT.4">Raepsaet-Charlier 1993, 76f.</bibl>
+            <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl default="false">
+                    <bibl xml:id="LIT.1" default="false" status="draft">Bloemers 1977, 21</bibl>
+                    <bibl xml:id="LIT.2" default="false" status="draft">Bogaers in Willems 1983, 254</bibl>
+                    <bibl xml:id="LIT.3" default="false" status="draft">AE 1983, 723</bibl>
+                    <bibl xml:id="LIT.4" default="false" status="draft">Raepsaet-Charlier 1993, 76f.</bibl>
                 </listBibl>
             </div>
-            <div subtype="concordances" type="bibliography" org="uniform">
+            <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
                     <bibl type="EDCS">
-                        <idno>EDCS-08500491</idno> <date>zuletzt aufgerufen am 24. Februar 2020</date>
+                        <idno>EDCS-08500491</idno>
+                        <date>zuletzt aufgerufen am 24. Februar 2020</date>
                     </bibl>
                     <bibl type="EDH">
-                        <idno>HD000349</idno> <date>Version vom 18. Juni 2012</date>
+                        <idno>HD000349</idno>
+                        <date>Version vom 18. Juni 2012</date>
                     </bibl>
                     <bibl type="trismegistos">
-                        <idno>www.trismegistos.org/text/208723</idno> <date>zuletzt aufgerufen am 30. Juni 2021</date>
+                        <idno>www.trismegistos.org/text/208723</idno>
+                        <date>zuletzt aufgerufen am 30. Juni 2021</date>
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>
 DEAE ARCANVE · VLPIVS · <lb n="2"/>
 VERINVS VETERANVS LEG VI V S L M</orig></ab></div>
-            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Deae <expan><abbr>Arcanu</abbr><ex>a</ex></expan>e Ulpius<lb n="2"/>Verinus veteranus <expan><abbr>leg</abbr><ex>ionis</ex></expan> VI <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
-            <div type="translation" xml:lang="de" org="uniform">
-                <p>Für die Göttin  <rs type="divine">Arcanua!</rs> <lb/>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Deae <expan instant="false"><abbr>Arcanu</abbr><ex instant="false">a</ex></expan>e Ulpius<lb n="2"/>Verinus veteranus <expan instant="false"><abbr>leg</abbr><ex instant="false">ionis</ex></expan> VI <expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
+            <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
+                <p part="N">Für die Göttin  <rs type="divine">Arcanua!</rs> <lb/>
 Ulpius Verinus, Veteran der legio VI hat das Gelübde gerne und verdientermaßen erfüllt.</p>
             </div>
-            <div type="translation" xml:lang="en" org="uniform">
-                <p>To the goddess  <rs type="divine">Arcanua!</rs> <lb/>
+            <div type="translation" xml:lang="en" org="uniform" part="N" sample="complete">
+                <p part="N">To the goddess  <rs type="divine">Arcanua!</rs> <lb/>
 Ulpius Verinus, veteran of the legio VI has fulfilled a vow willingly and deservedly.</p>
             </div>
-            <div type="commentary" subtype="general" org="uniform">
-                <p> dea: Bogaers (in Willems 1983, 254) möchte die Inschrift einem Veteranen der legio VI Victrix zuschreiben, der in der Zeit zwischen 123 und ca. 142 aus Britannien in seine Heimat zurückgekehrt ist (anders: Raepsaet-Charlier 1993, 76f.). Bogaers sieht damit darin das früheste Beispiel für die Nennung des Gottheitsdeterminativs dea/deus vor einem Götternamen in der Germania Inferior.  </p>
-                <p>
+            <div type="apparatus" org="uniform" part="N" sample="complete">
+            </div>
+            <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
+                <p part="N"> dea: Bogaers (in Willems 1983, 254) möchte die Inschrift einem Veteranen der legio VI Victrix zuschreiben, der in der Zeit zwischen 123 und ca. 142 aus Britannien in seine Heimat zurückgekehrt ist (anders: Raepsaet-Charlier 1993, 76f.). Bogaers sieht damit darin das früheste Beispiel für die Nennung des Gottheitsdeterminativs dea/deus vor einem Götternamen in der Germania Inferior.  </p>
+                <p part="N">
 
 Ulpius Verinus: römisches Namensformular ohne Praenomen <lb/>
 Ulpius: überall gängiges, italisches, kaiserliches Gentilnomen (Kakoschke 2006, GN 1329)  <lb/>
 Verinus: lateinisches Cognomen, Weiterbildung des Cognomens Verus (Kakoschke 2007, CN 3281) </p>
-                <p>
+                <p part="N">
 
 legio VI: Standorte der legio VI Victrix waren ab ca. 70 in Novaesium/Neuß, ab der Wende vom 1. zum 2. Jahrhundert Vetra/Xanten; spätestens 122 wurde sie nach Britannien verlegt (Stein 1932, 99, 105, 106). Daraus ergibt sich nur ein vager Hinweis auf die Datierung der Inschrift. Ulpius Verinus könnte ja einen Großteil seiner Dienstzeit in Britannien abgeleistet haben und als Veteran nach Niedergermanien zurückgekehrt sein.</p>
             </div>
-            <div type="commentary" subtype="language" org="uniform">
-                <p>v.1: „Arcanue” pro „Arcanuae”</p>
+            <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
+                <p part="N">v.1: „Arcanue” pro „Arcanuae”</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform">
-                <p> <rs type="divine">Arcanua:</rs> keltisch ,die Vorsängerin‘ bzw. ,die Verkünderin‘ (Toorians 2015, 156–157)  </p>
-                <p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Arcanua:</rs> keltisch: ,Die Vorsängerin‘ bzw. ,Die Verkünderin‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 86f).  </p>
+                                                <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
-                <p>
+                                                <p part="N">
  <rs type="divine">Arcanua:</rs>  <lb/>
 - Germania Inferior: Das theonymische Formular ist 2 x als  <rs type="divine">dea Arcanua</rs> belegt (Cf-GeI-298, CF-GeI-299). <lb/> 
 - außerhalb der Germania Inferior: -</p>
@@ -297,5 +305,39 @@ Vorkommen in theonymischen Formularen: </p>
                 <link target="#MAJ.2 #MIN.2"/>
             </linkGrp>
         </body>
+        <back>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+                <p part="N">Alte Version (25.04.23):</p>
+                <p part="N">Arcanua: keltisch ,die Vorsängerin‘ bzw. ,die Verkünderin‘ (Toorians 2015, 156–157)  </p>
+            </tei:note>
+        </back>
     </text>
 </TEI>

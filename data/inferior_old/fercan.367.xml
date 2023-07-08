@@ -9,16 +9,16 @@
                 </title>
                 <respStmt>
                     <resp>Inschriftenedition</resp>
-                    <persName>
-                        <forename>Werner</forename>
-                        <surname>Petermandl</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Werner</forename>
+                        <surname full="yes">Petermandl</surname>
                     </persName>
                 </respStmt>
                 <respStmt>
                     <resp>Archäologische Beschreibung und geografische Daten</resp>
-                    <persName>
-                        <forename>Astrid</forename>
-                        <surname>Schmölzer</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Astrid</forename>
+                        <surname full="yes">Schmölzer</surname>
                     </persName>
                 </respStmt>
                 <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
@@ -27,23 +27,23 @@
             <publicationStmt>
                 <publisher>
                     <link target="https://antike.uni-graz.at"/>
-                    <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
+                    <orgName ref="https://d-nb.info/gnd/1213531357" instant="false" full="yes">Institut für Antike, Fachbereich
                     Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
                 </publisher>
                 <authority>
                     <link target="https://informationsmodellierung.uni-graz.at"/>
-                    <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                    <orgName ref="http://d-nb.info/gnd/1137284463" instant="false" full="yes">Zentrum für
                     Informationsmodellierung - Austrian Centre for Digital Humanities,
                     Karl-Franzens-Universität Graz</orgName>
                 </authority>
                 <distributor>
                     <link target="https://gams.uni-graz.at"/>
-                    <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                    <orgName instant="false" full="yes">GAMS - Geisteswissenschaftliches Asset Management System</orgName>
                 </distributor>
-                <date when="2022">2022</date>
+                <date when="2022" instant="false">2022</date>
                 <pubPlace>Graz</pubPlace>
                 <idno type="PID">o:fercan.367</idno>
-                <availability>
+                <availability default="false">
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
                     BY-NC 4.0</licence>
                 </availability>
@@ -53,14 +53,14 @@
                   Celticarum Antiquarum</title>
                 <respStmt>
                     <resp>Projektleitung</resp>
-                    <persName>
-                        <forename>Wolfgang</forename>
-                        <surname>Spickermann</surname>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Wolfgang</forename>
+                        <surname full="yes">Spickermann</surname>
                     </persName>
                 </respStmt>
             </seriesStmt>
-            <sourceDesc>
-                <msDesc>
+            <sourceDesc default="false">
+                <msDesc status="draft">
                     <msIdentifier>
                         <settlement>Leiden</settlement>
                         <repository>Rijksmuseum van Oudheden</repository>
@@ -73,7 +73,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>Der Weihealtar wurde in vier nicht nahtlos aneinanderpassenden Fragmenten geborgen und konnte wieder vollständig zusammengesetzt werden. Eine ausgefüllte Bruchkante verläuft vorne von links unten knapp über der Sockelkante nach schräg oben bis knapp an den oberen Rand. Der Sockel weist in der Mitte ebenfalls eine ausgefüllte Bruchkante und kleine Ausbrüche auf. Die Vorderseite ist oberflächlich auch von leichter Verwitterung betroffen.<lb/>Der Aufsatzschmuck besteht aus einer Platte und dem mittigen Giebel samt den seitlichen Pulvini. Oben liegen zwei Äpfel.<lb/>Auffallend ist noch, dass Gesims und Sockel auf der Rückseite komplett gerade sind.</p>
+                                    <p part="N">Der Weihealtar wurde in vier nicht nahtlos aneinanderpassenden Fragmenten geborgen und konnte wieder vollständig zusammengesetzt werden. Eine ausgefüllte Bruchkante verläuft vorne von links unten knapp über der Sockelkante nach schräg oben bis knapp an den oberen Rand. Der Sockel weist in der Mitte ebenfalls eine ausgefüllte Bruchkante und kleine Ausbrüche auf. Die Vorderseite ist oberflächlich auch von leichter Verwitterung betroffen.<lb/>Der Aufsatzschmuck besteht aus einer Platte und dem mittigen Giebel samt den seitlichen Pulvini. Oben liegen zwei Äpfel.<lb/>Auffallend ist noch, dass Gesims und Sockel auf der Rückseite komplett gerade sind.</p>
                                     <material>
                                         <ref type="context" target="context:fercan.material.kalkstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref>
                                     </material>
@@ -90,8 +90,8 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Das Inschriftenfeld ist vollständig erhalten, doch ist der Text teilweise stark korrodiert und an manchen Stellen nicht erhalten.<lb/>Ligaturen: s. Majuskeltext. Besondere Zeichen: In Z. 2 findet sich eine Ligatur von N und I mit erhöhter rechter vertikaler Haste des N.</p>
-                                    <note type="condition">weitgehend vollständig</note>
+                                    <p part="N">Das Inschriftenfeld ist vollständig erhalten, doch ist der Text teilweise stark korrodiert und an manchen Stellen nicht erhalten.<lb/>Ligaturen: s. Majuskeltext. Besondere Zeichen: In Z. 2 findet sich eine Ligatur von N und I mit erhöhter rechter vertikaler Haste des N.</p>
+                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">weitgehend vollständig</tei:note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -102,7 +102,7 @@
                         </handDesc>
                         <decoDesc>
                             <decoNote>
-                                <p>Der mittige Giebel ist mit einer Rosette verziert. Die Pulvini weisen an der Vorderseite und den Schmalseiten Blattdekor auf. <lb/>
+                                <p part="N">Der mittige Giebel ist mit einer Rosette verziert. Die Pulvini weisen an der Vorderseite und den Schmalseiten Blattdekor auf. <lb/>
 Auf der linken Schmalseite, die durch Ausbrüche am Rand und kleinere Risse an der Oberfläche leicht beschädigt wurde, ist in einem einfachen Rahmen ein Laubbaum zu sehen. Der Stamm ist gerade und breit, rechts in der Mitte wächst ein Aststumpf nach rechts aus. Die Blätter sind länglich spitzoval zulaufend. Die Baumkrone ist kaum breiter als der Stamm, daher ergibt sich für den Baum ein eher strauchartiges Gesamterscheinungsbild. <lb/>
 Auf der rechten Schmalseite sieht das Baummotiv ganz anders aus. Der Stamm ist dünn und führt in weichen Biegungen nach oben, bevor er in eine buschige Blätterkrone mündet. In der Mitte vor der ersten leichten Ausbuchtung sind zwei Aststümpfe zu erkennen. Das Relieffeld ist nicht gerahmt. <lb/>
 Durch die unterschiedliche Ausformung des Baummotives könnte von zwei verschiedenen Steinmetzen ausgegangen werden.</p>
@@ -146,86 +146,90 @@ Durch die unterschiedliche Ausformung des Baummotives könnte von zwei verschied
                         </decoDesc>
                     </physDesc>
                     <history>
-                        <origin>
-                            <origPlace>
-                                <placeName ref="https://pleiades.stoa.org/places/109000">Ganuenta</placeName>
+                        <origin instant="false">
+                            <origPlace instant="false">
+                                <placeName ref="https://pleiades.stoa.org/places/109000" instant="false" full="yes">Ganuenta</placeName>
                                 <region>Civitas Frisiavonum</region>
                             </origPlace>
-                            <origDate/>
+                            <origDate instant="false"/>
                         </origin>
                         <provenance type="found" when="1971">
-                            <placeName>
+                            <placeName instant="false" full="yes">
                                 <ref type="context" target="context:fercan.geog.modern.oosterschelde_bei_colijnsplaat">Oosterschelde bei Colijnsplaat</ref>
                             </placeName>
-                            <location>
+                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
                                 <geo decls="#WGS">51.599839 3.849262</geo>
-                            </location>
-                            <note>aus dem Meer geborgen</note>
+                            </tei:location>
+                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">aus dem Meer geborgen</tei:note>
                         </provenance>
-                        <provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: Stuart/Bogaers</provenance>
+                        <provenance type="observed" subtype="autopsied">
+                            <p part="N">non vidimus</p>
+                            <p part="N">
+                                <lb/>Lesung gründet auf: Stuart/Bogaers</p>
+                        </provenance>
                     </history>
                 </msDesc>
-                <listPlace>
-                    <place/>
+                <listPlace default="false">
+                    <place instant="false"/>
                 </listPlace>
-                <listPerson>
-                    <person>
-                        <persName type="gentilnomen">
+                <listPerson default="false">
+                    <person instant="false">
+                        <persName type="gentilnomen" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.gentilnomen.arisenius">Arisenius</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="cognomen">
+                    <person instant="false">
+                        <persName type="cognomen" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.cognomen.marius">Marius</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_normalized">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dcn.nehalennia">Nehalennia</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_diplomatic">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_diplomatic" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dcd.nehalennia.deae_nehalenniae">deae Nehalenniae</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName type="divine" subtype="celtic_element">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_element" instant="false" full="yes">
                             <ref type="context" target="context:fercan.dce.nehalennia">Nehalennia</ref>
                         </persName>
                     </person>
-                    <person>
-                        <persName>
-                            <roleName type="other">
+                    <person instant="false">
+                        <persName instant="false" full="yes">
+                            <roleName type="other" full="yes">
                                 <ref type="context" target="context:fercan.person.other.libertus">libertus</ref>
                             </roleName>
                         </persName>
                     </person>
-                    <person>
-                        <persName>
-                            <roleName type="other">
+                    <person instant="false">
+                        <persName instant="false" full="yes">
+                            <roleName type="other" full="yes">
                                 <ref type="context" target="context:fercan.person.other.negotiator_britannicianus">negotiator Britannicianus</ref>
                             </roleName>
                         </persName>
                     </person>
                 </listPerson>
-                <listOrg>
-                    <org/>
+                <listOrg default="false">
+                    <org instant="false"/>
                 </listOrg>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
-            <editorialDecl>
-                <p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
-                <p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+            <geoDecl xml:id="WGS" datum="WGS84" default="false">World Geodetic System</geoDecl>
+            <editorialDecl default="false">
+                <p part="N">Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+                <p part="N">Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
                   Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
             </editorialDecl>
-            <projectDesc>
-                <p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+            <projectDesc default="false">
+                <p part="N">Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
                   Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
                   Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
-                <p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+                <p part="N">Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
                   lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
                   zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
                   besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
@@ -243,10 +247,10 @@ Durch die unterschiedliche Ausformung des Baummotives könnte von zwei verschied
             </projectDesc>
         </encodingDesc>
         <profileDesc>
-            <langUsage>
+            <langUsage default="false">
                 <language ident="la">Latein</language>
             </langUsage>
-            <textClass>
+            <textClass default="false">
                 <keywords>
                     <list>
                         <item>
@@ -260,10 +264,10 @@ Durch die unterschiedliche Ausformung des Baummotives könnte von zwei verschied
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc>
-            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.367/TEI_SOURCE.2020-02-26">Initial Version</change>
-            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.367/TEI_SOURCE.2022-03-07">Version 2</change>
-            <change when="2022" n="3">Version 3</change>
+        <revisionDesc status="draft">
+            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.367/TEI_SOURCE.2020-02-26" status="draft">Initial Version</change>
+            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.367/TEI_SOURCE.2022-03-07" status="draft">Version 2</change>
+            <change when="2022" n="3" status="draft">Version 3</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -282,73 +286,75 @@ Durch die unterschiedliche Ausformung des Baummotives könnte von zwei verschied
     </facsimile>
     <text>
         <body>
-            <ab>
+            <ab part="N">
                 <ref target="context:fercan" type="context">FERCAN</ref>
             </ab>
-            <div subtype="editions" type="bibliography" org="uniform">
-                <listBibl>
-                    <bibl xml:id="LIT.1">Bogaers 1983, 16–17</bibl>
-                    <bibl xml:id="LIT.2">AE 1983, 721</bibl>
-                    <bibl xml:id="LIT.3">Stuart/Bogaers 2001, B10</bibl>
+            <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl default="false">
+                    <bibl xml:id="LIT.1" default="false" status="draft">Bogaers 1983, 16–17</bibl>
+                    <bibl xml:id="LIT.2" default="false" status="draft">AE 1983, 721</bibl>
+                    <bibl xml:id="LIT.3" default="false" status="draft">Stuart/Bogaers 2001, B10</bibl>
                 </listBibl>
             </div>
-            <div subtype="concordances" type="bibliography" org="uniform">
+            <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
                     <bibl type="EDCS">
-                        <idno>EDCS-23400599</idno> <date>zuletzt aufgerufen am 24. Februar 2020</date>
+                        <idno>EDCS-23400599</idno>
+                        <date>zuletzt aufgerufen am 24. Februar 2020</date>
                     </bibl>
                     <bibl type="EDH">
-                        <idno>HD000343</idno> <date>Version vom 12. Juni 2017</date>
+                        <idno>HD000343</idno>
+                        <date>Version vom 12. Juni 2017</date>
                     </bibl>
                     <bibl type="trismegistos">
-                        <idno>www.trismegistos.org/text/208721</idno> <date>zuletzt aufgerufen am 30. Juni 2021</date>
+                        <idno>www.trismegistos.org/text/208721</idno>
+                        <date>zuletzt aufgerufen am 30. Juni 2021</date>
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/>DEAE · NEHALEN  <lb n="2"/>
-NIAE · <unclear>P</unclear> · ARISE<hi rend="ligature">NI</hi><unclear>V</unclear>  <lb n="3"/>
-S MARIVS LIBE<unclear>R</unclear>T  <lb n="4"/>
-VS <unclear>P</unclear> ARISENI · V<gap reason="lost" extent="unknown" unit="character"/>  <lb n="5"/>
-HI · NEGOTI<unclear>AT</unclear>O  <lb n="6"/>
-<unclear>R</unclear>IS <unclear>B</unclear>RITA<unclear>NN</unclear>ICIA  <lb n="7"/>
-NI <unclear>OB</unclear> M<unclear>ER</unclear>CES  <lb n="8"/>
-BEN<unclear>E</unclear> <unclear>CONS</unclear><gap reason="lost" quantity="1" unit="character"/><unclear>R</unclear><hi rend="ligature">VA</hi>  <lb n="9"/>
-<unclear>TA</unclear><gap reason="lost" extent="unknown" unit="character"/> <unclear>L</unclear> · M</orig></ab></div>
-            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Deae Nehalen<lb n="2" break="no"/>niae <expan><abbr>P</abbr><ex>ublius</ex></expan> Ariseniu<lb n="3" break="no"/>s Marius libert<lb n="4" break="no"/>us <expan><abbr>P</abbr><ex>ubli</ex></expan> Ariseni V<gap reason="lost" extent="unknown" unit="character"/><lb n="5"/>hi negotiato<lb n="6" break="no"/>ris Britannicia<lb n="7" break="no"/>ni ob merces<lb n="8"/>bene cons<supplied reason="lost">e</supplied>rva<lb n="9" break="no"/>ta<supplied reason="lost">s <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan></supplied> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
-            <div type="translation" xml:lang="de" org="uniform">
-                <p>Für die Göttin  <rs type="divine">Nehalennia!</rs>  <lb/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>DEAE · NEHALEN  <lb n="2"/>
+NIAE · <unclear instant="false">P</unclear> · ARISE<hi rend="ligature">NI</hi><unclear instant="false">V</unclear>  <lb n="3"/>
+S MARIVS LIBE<unclear instant="false">R</unclear>T  <lb n="4"/>
+VS <unclear instant="false">P</unclear> ARISENI · V<gap reason="lost" extent="unknown" unit="character" instant="false"/>  <lb n="5"/>
+HI · NEGOTI<unclear instant="false">AT</unclear>O  <lb n="6"/>
+<unclear instant="false">R</unclear>IS <unclear instant="false">B</unclear>RITA<unclear instant="false">NN</unclear>ICIA  <lb n="7"/>
+NI <unclear instant="false">OB</unclear> M<unclear instant="false">ER</unclear>CES  <lb n="8"/>
+BEN<unclear instant="false">E</unclear> <unclear instant="false">CONS</unclear><gap reason="lost" quantity="1" unit="character" instant="false"/><unclear instant="false">R</unclear><hi rend="ligature">VA</hi>  <lb n="9"/>
+<unclear instant="false">TA</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/> <unclear instant="false">L</unclear> · M</orig></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Deae Nehalen<lb n="2" break="no"/>niae <expan instant="false"><abbr>P</abbr><ex instant="false">ublius</ex></expan> Ariseniu<lb n="3" break="no"/>s Marius libert<lb n="4" break="no"/>us <expan instant="false"><abbr>P</abbr><ex instant="false">ubli</ex></expan> Ariseni V<gap reason="lost" extent="unknown" unit="character" instant="false"/><lb n="5"/>hi negotiato<lb n="6" break="no"/>ris Britannicia<lb n="7" break="no"/>ni ob merces<lb n="8"/>bene cons<supplied reason="lost" instant="false">e</supplied>rva<lb n="9" break="no"/>ta<supplied reason="lost" instant="false">s <expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan></supplied> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
+            <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
+                <p part="N">Für die Göttin  <rs type="divine">Nehalennia!</rs>  <lb/>
 Publius Arisenius Marius, Freigelassener des Publius Arisenius V…hi, des Britannienhändlers, hat wegen dem guten Erhalt der Waren das Gelübde gerne und verdientermaßen erfüllt.</p>
             </div>
-            <div type="translation" xml:lang="en" org="uniform">
-                <p>To the goddess  <rs type="divine">Nehalennia!</rs>  <lb/>
+            <div type="translation" xml:lang="en" org="uniform" part="N" sample="complete">
+                <p part="N">To the goddess  <rs type="divine">Nehalennia!</rs>  <lb/>
 Publius Arisenius Marius, freedman of Publius Arisenius V…hi, the merchant with Britannia, for the protection of the wares has fulfilled a vow willingly and deservedly.</p>
             </div>
-            <div type="apparatus" org="uniform">
+            <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <note>ohne Ligatur – AE, EDH</note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – AE, EDH</tei:note>
                 </app>
                 <app loc="#MIN.8 #MAJ.8">
-                    <note>ohne Ligatur – AE, EDH</note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – AE, EDH</tei:note>
                 </app>
             </div>
-            <div type="commentary" subtype="general" org="uniform">
-                <p>Publius Arisenius Marius: tria nomina <lb/>
+            <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
+                <p part="N">Publius Arisenius Marius: tria nomina <lb/>
 Arisenius: Gentilnomen einheimischer Bildung mit möglicherweise keltischer Basis; der Name ist sonst nicht bezeugt (Kakoschke 2006, GN 121; vgl. auch Delamarre 2007, 26).  <lb/>
 Marius: lateinische Cognomen, gängiger Name (Kakoschke 2008, CN 1923); Anklangsname nach keltisch ‚*maros „groß“ (Maid 2005, 198)  </p>
-                <p>
+                <p part="N">
 
 Publius Arisenius V…hi: tria nomina <lb/>
 Arisenius: s.o.</p>
             </div>
-            <div type="commentary" subtype="language" org="uniform">
-                <p>v.4: „Ariseni" pro „Ariseni"</p>
+            <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
+                <p part="N">v.4: „Ariseni" pro „Ariseni"</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform">
-                <p> <rs type="divine">Nehalennia:</rs> keltisch; ‚diejenige im Salzwasser bzw. in der See‘ (de Bernardo Stempel in Spickermann 2005, 141; de Bernardo Stempel 2004)   </p>
-                <p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).   </p>
+                                                <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
-                <p>
+                                                <p part="N">
  <rs type="divine">Nehalennia</rs>: <lb/>
 - Germania Inferior: Belege sind überaus häufig. Zwei Inschriften stammen aus Köln alle anderen aus Domburg und Colijnsplaat. Die Göttin wird dabei, bis auf wenige Ausnahmen, stets als  <rs type="divine">dea Nehalennia</rs> angesprochen. <lb/> 
 - außerhalb der Germania Inferior: -</p>
@@ -365,5 +371,39 @@ Vorkommen in theonymischen Formularen: </p>
                 <link target="#MAJ.9 #MIN.9"/>
             </linkGrp>
         </body>
+        <back>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+                <p part="N">Für die Alte Version (25.04.23) siehe CF-GeI-286<br/>
+                </p>
+            </tei:note>
+        </back>
     </text>
 </TEI>
