@@ -1,16 +1,275 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior84"><teiHeader><fileDesc><titleStmt><title type="full"><title type="main">Matres Octocannae</title><title type="sub">CF-GeI-84</title></title><respStmt><resp>Inschriftenedition</resp><persName><forename>Werner</forename><surname>Petermandl</surname></persName></respStmt><respStmt><resp>Archäologische Beschreibung und geografische Daten</resp><persName><forename>Astrid</forename><surname>Schmölzer</surname></persName></respStmt><funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
-                  29274-G25</funder></titleStmt><publicationStmt><publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
-                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher><authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior84">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Matres Octocannae</title>
+                    <title type="sub">CF-GeI-84</title>
+                </title>
+                <respStmt>
+                    <resp>Inschriftenedition</resp>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Werner</forename>
+                        <surname full="yes">Petermandl</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Archäologische Beschreibung und geografische Daten</resp>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Astrid</forename>
+                        <surname full="yes">Schmölzer</surname>
+                    </persName>
+                </respStmt>
+                <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
+                  29274-G25</funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <link target="https://antike.uni-graz.at"/>
+                    <orgName ref="https://d-nb.info/gnd/1213531357" instant="false" full="yes">Institut für Antike, Fachbereich
+                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
+                </publisher>
+                <authority>
+                    <link target="https://informationsmodellierung.uni-graz.at"/>
+                    <orgName ref="http://d-nb.info/gnd/1137284463" instant="false" full="yes">Zentrum für
                     Informationsmodellierung - Austrian Centre for Digital Humanities,
-                    Karl-Franzens-Universität Graz</orgName></authority><distributor><link target="https://gams.uni-graz.at"/><orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor><date when="2022">2022</date><pubPlace>Graz</pubPlace><idno type="PID">o:fercan.84</idno><availability><licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
-                    BY-NC 4.0</licence></availability></publicationStmt><seriesStmt><title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
-                  Celticarum Antiquarum</title><respStmt><resp>Projektleitung</resp><persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName></respStmt></seriesStmt><sourceDesc><msDesc><msIdentifier><settlement>Krefeld</settlement><repository>Museum Burg Linn</repository><idno>1977/11</idno></msIdentifier><msContents><summary>Weihinschrift</summary></msContents><physDesc><objectDesc><supportDesc><support><p>Der einfache Sockel ist in der linken Ecke ein kleines bisschen, in der rechten Ecke zu einem größeren Stück abgebrochen. Der Altarkörper mit dem nicht gerahmten Inschriftenfeld ist durch einen vorspringenden Grat von der Aedicula getrennt, von der die unteren Reste der Pilaster zu beiden Seiten und das Götterbild mit den drei Matres erhalten ist. Die Pilaster stehen auf einer dreistufigen Basis.<lb/>Der Rest der Aedicula ist in stark bestoßenem Zustand vorhanden. Die Bekrönung dürfte zwei Pulvini beinhaltet haben, am Aufsatz selbst liegt ein rundes Objekt.</p><material><ref type="context" target="context:fercan.material.sandstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref></material><objectType>Aedicula-Altar</objectType><dimensions><height unit="cm">126,0</height><width unit="cm">74,5</width><depth unit="cm">33,0</depth></dimensions></support><condition><ref type="context" target="context:fercan.condition-o.groeszere_fehlstelle_n" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref></condition></supportDesc><layoutDesc><layout><p>Der Inschriftentext ist fast vollständig erhalten. Er ist stark abgerieben und am linken Rand von Z.3 bis 9 nicht mehr lesbar. Am Beginn von Z.5 und 6 sind nur eine nach links gebauchte Rundung und eine senkrechte Haste erkennbar; sie können als C bzw. I gelesen werden, aber auch andere Lesungen sind denkbar; in beiden Zeilen scheinen sich anschließend Reste eines A erhalten zu haben. Ligaturen: s. Majuskeltext. Besondere Zeichen: In Z.2 findet sich eine Ligatur von I und N mit Erhöhung der linken senkrechten Haste des N (H: 4,5 cm) und ein kleines V (H: 2,0 cm); in Z.5 eine Ligatur von N und I mit Erhöhung der rechten senkrechten Haste des N (H: 4,4 cm)</p><note type="condition">weitgehend vollständig</note></layout></layoutDesc></objectDesc><handDesc><handNote><desc type="execution">gemeißelt</desc><height unit="cm" atLeast="3.8" atMost="4.0">3,8–4,0 cm</height></handNote></handDesc><decoDesc><decoNote><p>Die drei sitzenden, in der Inschrift als  <rs type="divine">Matres</rs> bezeichneten Frauen folgen dem Darstellungsschema der drei Matres. Die beiden äußeren tragen die voluminöse Haube, wenngleich sie etwas flacher und nicht so hoch gerundet auf ihrem Kopf sitzt. Auffällig ist das Vorhandensein von deutlich erkennbaren Nadeln, die die Haube an beiden Seiten festzuhalten scheinen. Die Gesichter sind in groben Zügen nachvollziehbar, z.B. sind die groß wirkenden Augen klar erkennbar. Die mittlere Matrone trägt das Haar offen; es fällt ihr in zwei dicken Strängen zu beiden Seiten auf die Schultern. <lb/>
+                    Karl-Franzens-Universität Graz</orgName>
+                </authority>
+                <distributor>
+                    <link target="https://gams.uni-graz.at"/>
+                    <orgName instant="false" full="yes">GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                </distributor>
+                <date when="2022" instant="false">2022</date>
+                <pubPlace>Graz</pubPlace>
+                <idno type="PID">o:fercan.84</idno>
+                <availability default="false">
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
+                    BY-NC 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+                  Celticarum Antiquarum</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Wolfgang</forename>
+                        <surname full="yes">Spickermann</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <msDesc status="draft">
+                    <msIdentifier>
+                        <settlement>Krefeld</settlement>
+                        <repository>Museum Burg Linn</repository>
+                        <idno>1977/11</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Weihinschrift</summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p part="N">Der einfache Sockel ist in der linken Ecke ein kleines bisschen, in der rechten Ecke zu einem größeren Stück abgebrochen. Der Altarkörper mit dem nicht gerahmten Inschriftenfeld ist durch einen vorspringenden Grat von der Aedicula getrennt, von der die unteren Reste der Pilaster zu beiden Seiten und das Götterbild mit den drei Matres erhalten ist. Die Pilaster stehen auf einer dreistufigen Basis.<lb/>Der Rest der Aedicula ist in stark bestoßenem Zustand vorhanden. Die Bekrönung dürfte zwei Pulvini beinhaltet haben, am Aufsatz selbst liegt ein rundes Objekt.</p>
+                                    <material>
+                                        <ref type="context" target="context:fercan.material.sandstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref>
+                                    </material>
+                                    <objectType>Aedicula-Altar</objectType>
+                                    <dimensions>
+                                        <height unit="cm">126,0</height>
+                                        <width unit="cm">74,5</width>
+                                        <depth unit="cm">33,0</depth>
+                                    </dimensions>
+                                </support>
+                                <condition>
+                                    <ref type="context" target="context:fercan.condition-o.groeszere_fehlstelle_n" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p part="N">Der Inschriftentext ist fast vollständig erhalten. Er ist stark abgerieben und am linken Rand von Z.3 bis 9 nicht mehr lesbar. Am Beginn von Z.5 und 6 sind nur eine nach links gebauchte Rundung und eine senkrechte Haste erkennbar; sie können als C bzw. I gelesen werden, aber auch andere Lesungen sind denkbar; in beiden Zeilen scheinen sich anschließend Reste eines A erhalten zu haben. Ligaturen: s. Majuskeltext. Besondere Zeichen: In Z.2 findet sich eine Ligatur von I und N mit Erhöhung der linken senkrechten Haste des N (H: 4,5 cm) und ein kleines V (H: 2,0 cm); in Z.5 eine Ligatur von N und I mit Erhöhung der rechten senkrechten Haste des N (H: 4,4 cm)</p>
+                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">weitgehend vollständig</tei:note>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <desc type="execution">gemeißelt</desc>
+                                <height unit="cm" atLeast="3.8" atMost="4.0">3,8–4,0 cm</height>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <p part="N">Die drei sitzenden, in der Inschrift als  <rs type="divine">Matres</rs> bezeichneten Frauen folgen dem Darstellungsschema der drei Matres. Die beiden äußeren tragen die voluminöse Haube, wenngleich sie etwas flacher und nicht so hoch gerundet auf ihrem Kopf sitzt. Auffällig ist das Vorhandensein von deutlich erkennbaren Nadeln, die die Haube an beiden Seiten festzuhalten scheinen. Die Gesichter sind in groben Zügen nachvollziehbar, z.B. sind die groß wirkenden Augen klar erkennbar. Die mittlere Matrone trägt das Haar offen; es fällt ihr in zwei dicken Strängen zu beiden Seiten auf die Schultern. <lb/>
 Der weite, schwere Mantel wird in Brustmitte von einer Spange gehalten und wirft besonders bei den Knien auffallende Falten. Die langen Kleider der Matres reichen bis zu ihren Füßen, die leicht verwittert wirken. Auf dem Schoß halten alle drei vermutlich einen Korb, jedoch ist nichts Genaues erkennbar. Um den Hals tragen die Matres Ketten, die ein Lunula-Anhänger ziert. Der Halsschmuck wirkt ebenso wie die Gesichter grob und teigig. <lb/>
 Die Sitzbank ist zwar durchgehend, besitzt aber keine sichtbare Lehne. Im Allgemeinen wirkt die Darstellung klobig und niedergedrückt. Dennoch sind die äußeren Matres der mittleren zugewandt, d.h. durch diese vorgetäuschte Rundung entsteht der Eindruck der Räumlichkeit. Die Nische und die Figuren sind nicht besonders tief in den Stein gearbeitet. <lb/>
-Auf der rechten Seitansicht, laut Rüger (1981, 320-304), ist eine barhäuptige Opferdienerin zu sehen, mit langen Haaren und von ihren Händen herabhängenden Girlanden. Sie steht auf einem Kapitell bzw. Akanthusbaluster – ebenso ist der links zu sehende Opferdiener dargestellt. Unter der Dienerin ist des Weiteren eine diagonale Hasta (bzw. eher eine Lanze oder ein Speer) hinter einem Rundschild (parma) zu sehen, unter dem Diener ist eine Herkules-Keule erkennbar. Die Bildnisse von Opferdienerin und Opferdiener sind von zwei Pilastern ohne Dekor eingerahmt, während die Reliefregister darunter nur einen einfachen schmalen Rahmen aufweisen.</p><term ana="https://gams.uni-graz.at/o:fercan.arch#C.220000"><ref type="context" target="context:fercan.arch.architektur">Architektur</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800"><ref type="context" target="context:fercan.arch.aufsatzschmuck">Aufsatzschmuck</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.252400"><ref type="context" target="context:fercan.arch.bank">Bank</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.210000"><ref type="context" target="context:fercan.arch.frucht">Frucht</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.240100"><ref type="context" target="context:fercan.arch.goetterbild">Götterbild</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.250400"><ref type="context" target="context:fercan.arch.keule">Keule</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.251911"><ref type="context" target="context:fercan.arch.lunula">Lunula</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.230200"><ref type="context" target="context:fercan.arch.maennliche_figur">männliche Figur</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.230000"><ref type="context" target="context:fercan.arch.menschliche_figur">menschliche Figur</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.251920"><ref type="context" target="context:fercan.arch.nadel">Nadel</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.251700"><ref type="context" target="context:fercan.arch.obstschale">Obstschale</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.230220"><ref type="context" target="context:fercan.arch.opferdiener">Opferdiener</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.230320"><ref type="context" target="context:fercan.arch.opferdienerin">Opferdienerin</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.220500"><ref type="context" target="context:fercan.arch.pilaster">Pilaster</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.253010"><ref type="context" target="context:fercan.arch.ranke">Ranke</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.160000"><ref type="context" target="context:fercan.arch.reliefdekor">Reliefdekor</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.150400"><ref type="context" target="context:fercan.arch.reliefschmuck">Reliefschmuck</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.254000"><ref type="context" target="context:fercan.arch.schild">Schild</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.251900"><ref type="context" target="context:fercan.arch.schmuck">Schmuck</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.230300"><ref type="context" target="context:fercan.arch.weibliche_figur">weibliche Figur</ref></term></decoNote></decoDesc></physDesc><history><origin><origPlace><placeName ref="https://pleiades.stoa.org/places/109002">Gelduba</placeName><region>CCAA</region></origPlace><origDate/></origin><provenance type="found" when="1977"><placeName><ref type="context" target="context:fercan.geog.modern.krefeld">Krefeld</ref></placeName><p>Hafen von Krefeld, im Bereich des Auxiliarlagers Gelduba</p><location><geo decls="#WGS">51.338546 6.584831</geo></location><note>stammt aus der spätrömischen Befestigung des Auxiliarkastells von Gelduba</note></provenance><provenance type="observed" subtype="autopsied">vidimus (21.5.2019)</provenance></history></msDesc><listPlace><place/></listPlace><listPerson><person><persName type="gentilnomen"><ref type="context" target="context:fercan.person.gentilnomen.albinius">Albinius</ref></persName></person><person><persName type="cognomen"><ref type="context" target="context:fercan.person.cognomen.gratinus">Gratinus</ref></persName></person><person><persName type="cognomen"><ref type="context" target="context:fercan.person.cognomen.lubainius">Lubainius</ref></persName></person><person><persName type="cognomen"><ref type="context" target="context:fercan.person.cognomen.messor">Messor</ref></persName></person><person><persName type="cognomen"><ref type="context" target="context:fercan.person.cognomen.paternus">Paternus</ref></persName></person><person><persName type="cognomen"><ref type="context" target="context:fercan.person.cognomen.ursulus">Ursulus</ref></persName></person><person><persName type="cognomen"><ref type="context" target="context:fercan.person.cognomen.verinus">Verinus</ref></persName></person><person><persName type="divine" subtype="celtic_normalized"><ref type="context" target="context:fercan.dcn.matres_octocannae">Matres Octocannae</ref></persName></person><person><persName type="divine" subtype="celtic_diplomatic"><ref type="context" target="context:fercan.dcd.matres_octocannae.matribus_octocannis">Matribus Octocannis</ref></persName></person><person><persName type="divine" subtype="celtic_element"><ref type="context" target="context:fercan.dce.octocannae">Octocannae</ref></persName></person><person><persName><roleName type="military"><ref type="context" target="context:fercan.person.military.miles">miles</ref></roleName></persName></person></listPerson><listOrg><org/></listOrg></sourceDesc></fileDesc><encodingDesc><geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl><editorialDecl><p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p><p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
-                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p></editorialDecl><projectDesc><p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+Auf der rechten Seitansicht, laut Rüger (1981, 320-304), ist eine barhäuptige Opferdienerin zu sehen, mit langen Haaren und von ihren Händen herabhängenden Girlanden. Sie steht auf einem Kapitell bzw. Akanthusbaluster – ebenso ist der links zu sehende Opferdiener dargestellt. Unter der Dienerin ist des Weiteren eine diagonale Hasta (bzw. eher eine Lanze oder ein Speer) hinter einem Rundschild (parma) zu sehen, unter dem Diener ist eine Herkules-Keule erkennbar. Die Bildnisse von Opferdienerin und Opferdiener sind von zwei Pilastern ohne Dekor eingerahmt, während die Reliefregister darunter nur einen einfachen schmalen Rahmen aufweisen.</p>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220000">
+                                    <ref type="context" target="context:fercan.arch.architektur">Architektur</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">
+                                    <ref type="context" target="context:fercan.arch.aufsatzschmuck">Aufsatzschmuck</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252400">
+                                    <ref type="context" target="context:fercan.arch.bank">Bank</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.210000">
+                                    <ref type="context" target="context:fercan.arch.frucht">Frucht</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.240100">
+                                    <ref type="context" target="context:fercan.arch.goetterbild">Götterbild</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.250400">
+                                    <ref type="context" target="context:fercan.arch.keule">Keule</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251911">
+                                    <ref type="context" target="context:fercan.arch.lunula">Lunula</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.230200">
+                                    <ref type="context" target="context:fercan.arch.maennliche_figur">männliche Figur</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.230000">
+                                    <ref type="context" target="context:fercan.arch.menschliche_figur">menschliche Figur</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251920">
+                                    <ref type="context" target="context:fercan.arch.nadel">Nadel</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251700">
+                                    <ref type="context" target="context:fercan.arch.obstschale">Obstschale</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.230220">
+                                    <ref type="context" target="context:fercan.arch.opferdiener">Opferdiener</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.230320">
+                                    <ref type="context" target="context:fercan.arch.opferdienerin">Opferdienerin</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220500">
+                                    <ref type="context" target="context:fercan.arch.pilaster">Pilaster</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253010">
+                                    <ref type="context" target="context:fercan.arch.ranke">Ranke</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160000">
+                                    <ref type="context" target="context:fercan.arch.reliefdekor">Reliefdekor</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150400">
+                                    <ref type="context" target="context:fercan.arch.reliefschmuck">Reliefschmuck</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.254000">
+                                    <ref type="context" target="context:fercan.arch.schild">Schild</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251900">
+                                    <ref type="context" target="context:fercan.arch.schmuck">Schmuck</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.230300">
+                                    <ref type="context" target="context:fercan.arch.weibliche_figur">weibliche Figur</ref>
+                                </term>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin instant="false">
+                            <origPlace instant="false">
+                                <placeName ref="https://pleiades.stoa.org/places/109002" instant="false" full="yes">Gelduba</placeName>
+                                <region>CCAA</region>
+                            </origPlace>
+                            <origDate instant="false"/>
+                        </origin>
+                        <provenance type="found" when="1977">
+                            <placeName instant="false" full="yes">
+                                <ref type="context" target="context:fercan.geog.modern.krefeld">Krefeld</ref>
+                            </placeName>
+                            <p part="N">Hafen von Krefeld, im Bereich des Auxiliarlagers Gelduba</p>
+                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                                <geo decls="#WGS">51.338546 6.584831</geo>
+                            </tei:location>
+                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">stammt aus der spätrömischen Befestigung des Auxiliarkastells von Gelduba</tei:note>
+                        </provenance>
+                        <provenance type="observed" subtype="autopsied">vidimus (21.5.2019)</provenance>
+                    </history>
+                </msDesc>
+                <listPlace default="false">
+                    <place instant="false"/>
+                </listPlace>
+                <listPerson default="false">
+                    <person instant="false">
+                        <persName type="gentilnomen" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.person.gentilnomen.albinius">Albinius</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="cognomen" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.person.cognomen.gratinus">Gratinus</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="cognomen" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.person.cognomen.lubainius">Lubainius</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="cognomen" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.person.cognomen.messor">Messor</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="cognomen" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.person.cognomen.paternus">Paternus</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="cognomen" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.person.cognomen.ursulus">Ursulus</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="cognomen" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.person.cognomen.verinus">Verinus</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dcn.matres_octocannae">Matres Octocannae</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_diplomatic" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dcd.matres_octocannae.matribus_octocannis">Matribus Octocannis</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_element" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dce.octocannae">Octocannae</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName instant="false" full="yes">
+                            <roleName type="military" full="yes">
+                                <ref type="context" target="context:fercan.person.military.miles">miles</ref>
+                            </roleName>
+                        </persName>
+                    </person>
+                </listPerson>
+                <listOrg default="false">
+                    <org instant="false"/>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <geoDecl xml:id="WGS" datum="WGS84" default="false">World Geodetic System</geoDecl>
+            <editorialDecl default="false">
+                <p part="N">Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+                <p part="N">Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+            </editorialDecl>
+            <projectDesc default="false">
+                <p part="N">Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
                   Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
-                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p><p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+                <p part="N">Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
                   lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
                   zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
                   besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
@@ -24,36 +283,209 @@ Auf der rechten Seitansicht, laut Rüger (1981, 320-304), ist eine barhäuptige 
                   beigetragen werden.<lb/> Die Abschlusspublikation wird ergänzt um einen
                   ausführlichen sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo
                   Stempel) in der Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum
-                  Celticarum antiquarum)‘ erscheinen. </p></projectDesc></encodingDesc><profileDesc><langUsage><language ident="la">Latein</language></langUsage><textClass><keywords><list><item><ref type="context" target="context:fercan.dedication.ex_iussu_ipsarum">ex iussu ipsarum</ref></item><item><ref type="context" target="context:fercan.dedication.pro_se_et_suis">pro se et suis</ref></item><item><ref type="context" target="context:fercan.dedication.vota_solverunt_libentes_merito">vota solverunt libentes merito</ref></item><item/></list></keywords></textClass></profileDesc><revisionDesc><change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.84/TEI_SOURCE.2020-02-26">Initial Version</change><change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.84/TEI_SOURCE.2022-03-07">Version 2</change><change when="2022" n="3">Version 3</change></revisionDesc></teiHeader><facsimile><graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="file:///0084_Front(Astrid).jpg"><desc>Front, FercanGermaniaInferior, CC BY-NC</desc></graphic><graphic mimeType="image/jpeg" xml:id="IMAGE.2" url="file:///0084_IS(Astrid).jpg"><desc>Front (Inschrift), FercanGermaniaInferior, CC BY-NC</desc></graphic><graphic mimeType="image/jpeg" xml:id="IMAGE.3" url="file:///0084_li(Astrid).jpg"><desc>links, FercanGermaniaInferior, CC BY-NC</desc></graphic><graphic mimeType="image/jpeg" xml:id="IMAGE.4" url="file:///0084_re(Astrid).jpg"><desc>rechts, FercanGermaniaInferior, CC BY-NC</desc></graphic><graphic mimeType="image/jpeg" xml:id="IMAGE.5" url="file:///0084_oben(Astrid).jpg"><desc>oben, FercanGermaniaInferior, CC BY-NC</desc></graphic></facsimile><text><body><ab><ref target="context:fercan" type="context">FERCAN</ref></ab><div subtype="editions" type="bibliography" org="uniform"><listBibl><bibl xml:id="LIT.1">Rüger 1981, 16</bibl><bibl xml:id="LIT.2">AE 1981, 686</bibl><bibl xml:id="LIT.3">Reichmann 1998, 129</bibl></listBibl></div><div subtype="concordances" type="bibliography" org="uniform"><listBibl><bibl type="EDCS"><idno> </idno> <date>zuletzt aufgerufen am 24. Februar 2020</date></bibl><bibl type="EDH"><idno> </idno> <date>Version vom 7. März 2019</date></bibl><bibl type="trismegistos"><idno> </idno> <date>zuletzt aufgerufen am 29. Juni 2021</date></bibl></listBibl></div><div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/>MATRIBVS OCTOCANNIS <lb n="2"/> 
-<hi rend="ligature">AL</hi>̣BINIVS <unclear>G</unclear>RAT<hi rend="ligature">IN</hi>V <hi rend="ligature">AL</hi>BINIVS <lb n="3"/> 
-<gap reason="lost" extent="unknown" unit="character"/>V<unclear>L</unclear>VS · <hi rend="ligature">AL</hi>̣BINIVS · VRS<hi rend="ligature">VL</hi>VS <lb n="4"/> 
-<gap reason="lost" extent="unknown" unit="character"/>INIVS · PATERNVS MILIS <lb n="5"/> 
-<gap reason="lost" quantity="1" unit="character"/><unclear>CIA</unclear><gap reason="lost" extent="unknown" unit="character"/>NIVS · LVBAI<hi rend="ligature">NI</hi><hi rend="ligature">VS</hi> · MI<gap reason="lost" quantity="1" unit="character"/> <lb n="6"/> 
-<gap reason="lost" quantity="1" unit="character"/><unclear>CIA</unclear> <gap reason="lost" extent="unknown" unit="character"/>NIVS · <hi rend="ligature">ME</hi>SSOR · MI<unclear>L</unclear><gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/> 
-<gap reason="lost" extent="unknown" unit="character"/><unclear>IS</unclear><gap reason="lost" extent="unknown" unit="character"/>IVS · VERINVS <lb n="8"/> 
-<gap reason="lost" extent="unknown" unit="character"/>O SE<gap reason="lost" extent="unknown" unit="character"/><unclear>S</unclear>VIS · EX · IVSSV · I<unclear>P</unclear> <lb n="9"/> 
-<gap reason="lost" extent="unknown" unit="character"/>RV<gap reason="lost" extent="unknown" unit="character"/>V · S · L · M</orig></ab></div><div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Matribus Octocannis<lb n="2"/>Albinius <expan><abbr>Gratinu</abbr><ex>s</ex></expan> Albinius<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ulus Albinius Ursulus<lb n="4"/><supplied reason="lost">Alb</supplied>inius Paternus milis<note>sic</note><lb n="5"/><gap reason="lost" quantity="1" unit="character"/>CIA<gap reason="lost" extent="unknown" unit="character"/>nius Lubainius mi<supplied reason="lost"><expan><abbr>l</abbr><ex>is</ex></expan></supplied><lb n="6"/><gap reason="lost" quantity="1" unit="character"/>CIA<gap reason="lost" extent="unknown" unit="character"/>nius Messor mil<supplied reason="lost">is</supplied><lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>IS<gap reason="lost" extent="unknown" unit="character"/>ius Verinus<lb n="8"/><supplied reason="lost">pr</supplied>o se <supplied reason="lost">et</supplied> suis ex iussu ip<lb n="9" break="no"/><supplied reason="lost">sa</supplied>ru<supplied reason="lost">m</supplied> <expan><abbr>v</abbr><ex>ota</ex></expan> <expan><abbr>s</abbr><ex>olverunt</ex></expan> <expan><abbr>l</abbr><ex>ibentes</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div><div type="translation" xml:lang="de" org="uniform"><p>Für die  <rs type="divine">Matres Octocannae!</rs> <lb/> 
-Albinius Gratinus, Albinius …ulus, Albinius Ursulus, der Soldat Albinius Paternus, der Soldat ...CIA...nius Lubainius, der Soldat …CIA…nius Messor und …IS…ius Verinus haben für sich und die Ihren auf deren Geheiß das Gelübde gerne und verdientermaßen erfüllt.</p></div><div type="translation" xml:lang="en" org="uniform"><p>To the  <rs type="divine">Matres Octocannae!</rs> <lb/> 
-Albinius Gratinus, Albinius …ulus, Albinius Ursulus, the soldier Albinius Paternus, the soldier ...CIA...nius Lubainius, the soldier …CIA…nius Messor and …IS…ius Verinus have fulfilled a vow willingly and deservedly for themselves and their families in response to an order of the goddesses.</p></div><div type="apparatus" org="uniform"><app loc="#MIN.2 #MAJ.2"><note>Gratînus – Rüger; Gratinus – AE, EDH; ohne Ligaturen – AE, EDH</note></app><app loc="#MIN.3 #MAJ.3"><note>Âlbulus – Rüger; Albulus – AE, Reichmann, EDH; ohne Ligaturen – AE, EDH</note></app><app loc="#MIN.4 #MAJ.4"><note>Âlbinius – Rüger; Albinius – AE, EDH; [Al]binius – Reichmann</note></app><app loc="#MIN.5 #MAJ.5"><note>Oglannius Lubainus mil(es) – Rüger, AE, EDH; Daci Albinius Lubainus mil(is), im Text des dazugehörigen Aufsatzes: Iubainus – Reichmann</note></app><app loc="#MIN.6 #MAJ.6"><note>[O]glannius Messor milis(!) – Rüger, AE, EDH; Daci Albinius Messor milis – Reichmann</note></app><app loc="#MIN.7 #MAJ.7"><note>[---]issinius – Rüger, AE, EDH; Daci Albinius Verinus – Reichmann</note></app><app loc="#MIN.8 #MAJ.8"><note>pro se et – Rüger, AE, Reichmann, EDH</note></app><app loc="#MIN.9 #MAJ.9"><note>sarum – Rüger, AE, EDH</note></app></div><div type="commentary" subtype="general" org="uniform"><p>Als Dedikanten treten in der Inschrift 7 männliche Personen mit Gentil- und Cognomen, aber ohne Praenomen, auf. 4 davon tragen gesichert das Gentile Albinius, bei den 3 restlichen könnten die Gentilnomina zumindest auf Albinius ergänzt werden. <lb/>
-In der Lesung bei Reichmann 1998, 129 sind drei der Dedikanten als Soldaten ausgewiesen: Albinius Paternus milis Daci, Albinius Lubainius milis Daci, Albinius Messor milis Daci (in der im Museum Burg Linn aufgestellten erklärenden Tafel ist „Daci“ jeweils durch „Leg. I“ ersetzt; Stand Sommer 2019, so auch in Reichmann 2012, 54) </p><p>
-Albinius: italisches Gentilnomen oder einheimisches Pseudogentilnomen (Kakoschke 2006, GN 43) </p><p> 
-Gratinus: lateinisches Cognomen, Weiterbildung des Cognomens Gratus (Kakoschke 2007, CN 1462) </p><p>
-Ursulus: lateinisches Cognomen, Weiterbildung (Diminutiv) der Cognomens Ursus, gängiger Name (Kakoschke 2007, CN 3178) </p><p>
-Paternus: lateinisches Cognomen, überall gängiger Name, tritt verstärkt im Großraum Gallien, in Norditalien und in Hispanien auf (Kakoschke 2007, CN 2299) </p><p>
+                  Celticarum antiquarum)‘ erscheinen. </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage default="false">
+                <language ident="la">Latein</language>
+            </langUsage>
+            <textClass default="false">
+                <keywords>
+                    <list>
+                        <item>
+                            <ref type="context" target="context:fercan.dedication.ex_iussu_ipsarum">ex iussu ipsarum</ref>
+                        </item>
+                        <item>
+                            <ref type="context" target="context:fercan.dedication.pro_se_et_suis">pro se et suis</ref>
+                        </item>
+                        <item>
+                            <ref type="context" target="context:fercan.dedication.vota_solverunt_libentes_merito">vota solverunt libentes merito</ref>
+                        </item>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.84/TEI_SOURCE.2020-02-26" status="draft">Initial Version</change>
+            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.84/TEI_SOURCE.2022-03-07" status="draft">Version 2</change>
+            <change when="2022" n="3" status="draft">Version 3</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="file:///0084_Front(Astrid).jpg">
+            <desc>Front, FercanGermaniaInferior, CC BY-NC</desc>
+        </graphic>
+        <graphic mimeType="image/jpeg" xml:id="IMAGE.2" url="file:///0084_IS(Astrid).jpg">
+            <desc>Front (Inschrift), FercanGermaniaInferior, CC BY-NC</desc>
+        </graphic>
+        <graphic mimeType="image/jpeg" xml:id="IMAGE.3" url="file:///0084_li(Astrid).jpg">
+            <desc>links, FercanGermaniaInferior, CC BY-NC</desc>
+        </graphic>
+        <graphic mimeType="image/jpeg" xml:id="IMAGE.4" url="file:///0084_re(Astrid).jpg">
+            <desc>rechts, FercanGermaniaInferior, CC BY-NC</desc>
+        </graphic>
+        <graphic mimeType="image/jpeg" xml:id="IMAGE.5" url="file:///0084_oben(Astrid).jpg">
+            <desc>oben, FercanGermaniaInferior, CC BY-NC</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <ab part="N">
+                <ref target="context:fercan" type="context">FERCAN</ref>
+            </ab>
+            <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl default="false">
+                    <bibl xml:id="LIT.1" default="false" status="draft">Rüger 1981, 16</bibl>
+                    <bibl xml:id="LIT.2" default="false" status="draft">AE 1981, 686</bibl>
+                    <bibl xml:id="LIT.3" default="false" status="draft">Reichmann 1998, 129</bibl>
+                </listBibl>
+            </div>
+            <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl>
+                    <bibl type="EDCS">
+                        <idno>EDCS-09001549</idno>
+                        <date>zuletzt aufgerufen am 24. Februar 2020</date>
+                    </bibl>
+                    <bibl type="EDH">
+                        <idno>HD005386</idno>
+                        <date>Version vom 7. März 2019</date>
+                    </bibl>
+                    <bibl type="trismegistos">
+                        <idno>www.trismegistos.org/text/208786</idno>
+                        <date>zuletzt aufgerufen am 29. Juni 2021</date>
+                    </bibl>
+                </listBibl>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>MATRIBVS OCTOCANNIS <lb n="2"/> 
+<hi rend="ligature">AL</hi>̣BINIVS <unclear instant="false">G</unclear>RAT<hi rend="ligature">IN</hi>V <hi rend="ligature">AL</hi>BINIVS <lb n="3"/> 
+<gap reason="lost" extent="unknown" unit="character" instant="false"/>V<unclear instant="false">L</unclear>VS · <hi rend="ligature">AL</hi>̣BINIVS · VRS<hi rend="ligature">VL</hi>VS <lb n="4"/> 
+<gap reason="lost" extent="unknown" unit="character" instant="false"/>INIVS · PATERNVS MILIS <lb n="5"/> 
+<gap reason="lost" quantity="1" unit="character" instant="false"/><unclear instant="false">CIA</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>NIVS · LVBAI<hi rend="ligature">NI</hi><hi rend="ligature">VS</hi> · MI<gap reason="lost" quantity="1" unit="character" instant="false"/> <lb n="6"/> 
+<gap reason="lost" quantity="1" unit="character" instant="false"/><unclear instant="false">CIA</unclear> <gap reason="lost" extent="unknown" unit="character" instant="false"/>NIVS · <hi rend="ligature">ME</hi>SSOR · MI<unclear instant="false">L</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="7"/> 
+<gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">IS</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>IVS · VERINVS <lb n="8"/> 
+<gap reason="lost" extent="unknown" unit="character" instant="false"/>O SE<gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">S</unclear>VIS · EX · IVSSV · I<unclear instant="false">P</unclear> <lb n="9"/> 
+<gap reason="lost" extent="unknown" unit="character" instant="false"/>RV<gap reason="lost" extent="unknown" unit="character" instant="false"/>V · S · L · M</orig></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Matribus Octocannis<lb n="2"/>Albinius <expan instant="false"><abbr>Gratinu</abbr><ex instant="false">s</ex></expan> Albinius<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ulus Albinius Ursulus<lb n="4"/><supplied reason="lost" instant="false">Alb</supplied>inius Paternus milis<tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">sic</tei:note><lb n="5"/><gap reason="lost" quantity="1" unit="character" instant="false"/>CIA<gap reason="lost" extent="unknown" unit="character" instant="false"/>nius Lubainius mi<supplied reason="lost" instant="false"><expan instant="false"><abbr>l</abbr><ex instant="false">is</ex></expan></supplied><lb n="6"/><gap reason="lost" quantity="1" unit="character" instant="false"/>CIA<gap reason="lost" extent="unknown" unit="character" instant="false"/>nius Messor mil<supplied reason="lost" instant="false">is</supplied><lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>IS<gap reason="lost" extent="unknown" unit="character" instant="false"/>ius Verinus<lb n="8"/><supplied reason="lost" instant="false">pr</supplied>o se <supplied reason="lost" instant="false">et</supplied> suis ex iussu ip<lb n="9" break="no"/><supplied reason="lost" instant="false">sa</supplied>ru<supplied reason="lost" instant="false">m</supplied> <expan instant="false"><abbr>v</abbr><ex instant="false">ota</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olverunt</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibentes</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
+            <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
+                <p part="N">Für die  <rs type="divine">Matres Octocannae!</rs> <lb/> 
+Albinius Gratinus, Albinius …ulus, Albinius Ursulus, der Soldat Albinius Paternus, der Soldat ...CIA...nius Lubainius, der Soldat …CIA…nius Messor und …IS…ius Verinus haben für sich und die Ihren auf deren Geheiß das Gelübde gerne und verdientermaßen erfüllt.</p>
+            </div>
+            <div type="translation" xml:lang="en" org="uniform" part="N" sample="complete">
+                <p part="N">To the  <rs type="divine">Matres Octocannae!</rs> <lb/> 
+Albinius Gratinus, Albinius …ulus, Albinius Ursulus, the soldier Albinius Paternus, the soldier ...CIA...nius Lubainius, the soldier …CIA…nius Messor and …IS…ius Verinus have fulfilled a vow willingly and deservedly for themselves and their families in response to an order of the goddesses.</p>
+            </div>
+            <div type="apparatus" org="uniform" part="N" sample="complete">
+                <app loc="#MIN.2 #MAJ.2">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Gratînus – Rüger; Gratinus – AE, EDH; ohne Ligaturen – AE, EDH</tei:note>
+                </app>
+                <app loc="#MIN.3 #MAJ.3">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Âlbulus – Rüger; Albulus – AE, Reichmann, EDH; ohne Ligaturen – AE, EDH</tei:note>
+                </app>
+                <app loc="#MIN.4 #MAJ.4">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Âlbinius – Rüger; Albinius – AE, EDH; [Al]binius – Reichmann</tei:note>
+                </app>
+                <app loc="#MIN.5 #MAJ.5">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Oglannius Lubainus mil(es) – Rüger, AE, EDH; Daci Albinius Lubainus mil(is), im Text des dazugehörigen Aufsatzes: Iubainus – Reichmann</tei:note>
+                </app>
+                <app loc="#MIN.6 #MAJ.6">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[O]glannius Messor milis(!) – Rüger, AE, EDH; Daci Albinius Messor milis – Reichmann</tei:note>
+                </app>
+                <app loc="#MIN.7 #MAJ.7">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]issinius – Rüger, AE, EDH; Daci Albinius Verinus – Reichmann</tei:note>
+                </app>
+                <app loc="#MIN.8 #MAJ.8">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">pro se et – Rüger, AE, Reichmann, EDH</tei:note>
+                </app>
+                <app loc="#MIN.9 #MAJ.9">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">sarum – Rüger, AE, EDH</tei:note>
+                </app>
+            </div>
+            <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
+                <p part="N">Als Dedikanten treten in der Inschrift 7 männliche Personen mit Gentil- und Cognomen, aber ohne Praenomen, auf. 4 davon tragen gesichert das Gentile Albinius, bei den 3 restlichen könnten die Gentilnomina zumindest auf Albinius ergänzt werden. <lb/>
+In der Lesung bei Reichmann 1998, 129 sind drei der Dedikanten als Soldaten ausgewiesen: Albinius Paternus milis Daci, Albinius Lubainius milis Daci, Albinius Messor milis Daci (in der im Museum Burg Linn aufgestellten erklärenden Tafel ist „Daci“ jeweils durch „Leg. I“ ersetzt; Stand Sommer 2019, so auch in Reichmann 2012, 54) </p>
+                <p part="N">
+Albinius: italisches Gentilnomen oder einheimisches Pseudogentilnomen (Kakoschke 2006, GN 43) </p>
+                <p part="N"> 
+Gratinus: lateinisches Cognomen, Weiterbildung des Cognomens Gratus (Kakoschke 2007, CN 1462) </p>
+                <p part="N">
+Ursulus: lateinisches Cognomen, Weiterbildung (Diminutiv) der Cognomens Ursus, gängiger Name (Kakoschke 2007, CN 3178) </p>
+                <p part="N">
+Paternus: lateinisches Cognomen, überall gängiger Name, tritt verstärkt im Großraum Gallien, in Norditalien und in Hispanien auf (Kakoschke 2007, CN 2299) </p>
+                <p part="N">
 Oglannius: Der Name wurde so von Rüger gelesen - einheimische Bildung (mit keltischer Basis?)? Der Name ist nur in dieser Inschrift belegt (Kakoschke 2006, GN 887). <lb/>
-Lubainius: vgl. nach älterer Lesung Lubainus: germanisches Cognomen (Kakoschke 2007, CN 1769) </p><p>
-Messor: lateinisches Cognomen (Kakoschke 2007, CN 2035) </p><p>
-Verinus: lateinisches Cognomen; Weiterbildung des Cognomens Verus (Kakoschke 2007, CN 3281)</p></div><div type="commentary" subtype="language" org="uniform"><p>v.4 et 6: „milis“ pro „miles“</p></div><div type="commentary" subtype="deity" org="uniform"><p> <rs type="divine">Octocannae:</rs> keltisch, die Etymologie weist auf Baumgottheiten hin: ‘die Fichtengöttinnen’ (de Bernardo Stempel in Spickermann 2005, 141) </p><p>
+Lubainius: vgl. nach älterer Lesung Lubainus: germanisches Cognomen (Kakoschke 2007, CN 1769) </p>
+                <p part="N">
+Messor: lateinisches Cognomen (Kakoschke 2007, CN 2035) </p>
+                <p part="N">
+Verinus: lateinisches Cognomen; Weiterbildung des Cognomens Verus (Kakoschke 2007, CN 3281)</p>
+            </div>
+            <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
+                <p part="N">v.4 et 6: „milis“ pro „miles“</p>
+            </div>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Octocannae:</rs> keltisch: ‚[Muttergöttinnen] der Fichten’ bzw. ‘Fichtengöttinnen’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 236f).</p>
+                                                <p part="N">
 
-Vorkommen in theonymischen Formularen: </p><p>
+Vorkommen in theonymischen Formularen: </p>
+                                                <p part="N">
  <rs type="divine">Matres Octocannae</rs>: <lb/>
 - Germania Inferior: Dieses theonymische Formular ist nur in der hier besprochenen Inschrift sicher bezeugt. In einer weiteren Inschrift (CF-GeI-82) könnte das belegte „Mat“ allerdings für  <rs type="divine">Matres</rs> ebenso wie für  <rs type="divine">Matronae</rs> stehen. <lb/> 
-- außerhalb der Germania Inferior: - </p><p>
+- außerhalb der Germania Inferior: - </p>
+                                                <p part="N">
  <rs type="divine">Matronae Octocannae</rs>: <lb/>
 - Germania Inferior: Es finden sich 5 gesicherte Belege (CF-GeI-77 bis CF-GeI-81) und ein möglicher (CF-GeI-82). <lb/>
-- außerhalb der Germania Inferior: - </p><p>
+- außerhalb der Germania Inferior: - </p>
+                                                <p part="N">
  <rs type="divine">Octocannae</rs>: <lb/>
 - Germania Inferior: In einem einzigen Inschriftenfragment (CF-GeI-83) scheint das theonymische Formular  <rs type="divine">Octocannae</rs> zu finden zu sein. Es hat zumindest nicht den Anschein, als wäre davor eine Bezeichnung als  <rs type="divine">Matres</rs> oder  <rs type="divine">Matronae</rs> abgebrochen. <lb/>
-- außerhalb der Germania Inferior: - </p><p>
+- außerhalb der Germania Inferior: - </p>
+                                                <p part="N">
 
-Alle Inschriften für  <rs type="divine">Octocannae</rs> stammen aus dem Raum Krefeld. Alle bis auf eine (CF-GeI-84) wurden in Krefeld-Lank (Gripswald) gefunden.  </p></div><linkGrp type="alignment" domains="#majuscule #minuscule"><link target="#MAJ.1 #MIN.1"/><link target="#MAJ.2 #MIN.2"/><link target="#MAJ.3 #MIN.3"/><link target="#MAJ.4 #MIN.4"/><link target="#MAJ.5 #MIN.5"/><link target="#MAJ.6 #MIN.6"/><link target="#MAJ.7 #MIN.7"/><link target="#MAJ.8 #MIN.8"/><link target="#MAJ.9 #MIN.9"/></linkGrp></body><back><note type="Objbeschr_note"/><note type="ArchKlass_note"/><note type="Material_note"/><note type="Inschrifttraeger_note"/><note type="VerwahrortOrt_note"/><note type="InvNr_note"/><note type="Fundstelle_note"/><note type="Fundumst_note"/><note type="Fundjahr_note"/><note type="FOantik_note"/><note type="FOmodern_note"/><note type="civitas_note"/><note type="Autopsie_note"/><note type="Appcrit_note"/><note type="Abb_note"/><note type="englUEbers_note"/><note type="dtUEbers_note"/><note type="Editionen_note"/><note type="ErhzustObj_note"/><note type="Masse_note"/><note type="Ikonogr_note"/><note type="Inschrtext_note"/><note type="ErhzustInschr_note"/><note type="Schrifttechnik_note"/><note type="Buchsthoehe_note"/><note type="Notvar_note"/><note type="SonstKomm_note"/><note type="Datierung_note"/></back></text></TEI>
+Alle Inschriften für  <rs type="divine">Octocannae</rs> stammen aus dem Raum Krefeld. Alle bis auf eine (CF-GeI-84) wurden in Krefeld-Lank (Gripswald) gefunden.  </p>
+            </div>
+            <linkGrp type="alignment" domains="#majuscule #minuscule">
+                <link target="#MAJ.1 #MIN.1"/>
+                <link target="#MAJ.2 #MIN.2"/>
+                <link target="#MAJ.3 #MIN.3"/>
+                <link target="#MAJ.4 #MIN.4"/>
+                <link target="#MAJ.5 #MIN.5"/>
+                <link target="#MAJ.6 #MIN.6"/>
+                <link target="#MAJ.7 #MIN.7"/>
+                <link target="#MAJ.8 #MIN.8"/>
+                <link target="#MAJ.9 #MIN.9"/>
+            </linkGrp>
+        </body>
+        <back>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+                <p part="N">Für Alte Version (17.04.23) siehe CF-GeI-77</p>
+            </tei:note>
+        </back>
+    </text>
+</TEI>

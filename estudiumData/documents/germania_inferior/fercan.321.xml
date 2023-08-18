@@ -1,13 +1,188 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior321"><teiHeader><fileDesc><titleStmt><title type="full"><title type="main">Matres Hiannanef…</title><title type="sub">CF-GeI-321</title></title><respStmt><resp>Inschriftenedition</resp><persName><forename>Werner</forename><surname>Petermandl</surname></persName></respStmt><respStmt><resp>Archäologische Beschreibung und geografische Daten</resp><persName><forename>Astrid</forename><surname>Schmölzer</surname></persName></respStmt><funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
-                  29274-G25</funder></titleStmt><publicationStmt><publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
-                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher><authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior321">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Matres Hiannanef…</title>
+                    <title type="sub">CF-GeI-321</title>
+                </title>
+                <respStmt>
+                    <resp>Inschriftenedition</resp>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Werner</forename>
+                        <surname full="yes">Petermandl</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Archäologische Beschreibung und geografische Daten</resp>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Astrid</forename>
+                        <surname full="yes">Schmölzer</surname>
+                    </persName>
+                </respStmt>
+                <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
+                  29274-G25</funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <link target="https://antike.uni-graz.at"/>
+                    <orgName ref="https://d-nb.info/gnd/1213531357" instant="false" full="yes">Institut für Antike, Fachbereich
+                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
+                </publisher>
+                <authority>
+                    <link target="https://informationsmodellierung.uni-graz.at"/>
+                    <orgName ref="http://d-nb.info/gnd/1137284463" instant="false" full="yes">Zentrum für
                     Informationsmodellierung - Austrian Centre for Digital Humanities,
-                    Karl-Franzens-Universität Graz</orgName></authority><distributor><link target="https://gams.uni-graz.at"/><orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor><date when="2022">2022</date><pubPlace>Graz</pubPlace><idno type="PID">o:fercan.321</idno><availability><licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
-                    BY-NC 4.0</licence></availability></publicationStmt><seriesStmt><title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
-                  Celticarum Antiquarum</title><respStmt><resp>Projektleitung</resp><persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName></respStmt></seriesStmt><sourceDesc><msDesc><msIdentifier><repository>verschollen</repository></msIdentifier><msContents><summary>Weihinschrift</summary></msContents><physDesc><objectDesc><supportDesc><support><p>Eine Beschreibung des Weihesteins ist nicht möglich, da er verschollen ist und in der Literatur, bis auf die Angaben zur Inschrift, keine Informationen vorhanden sind.</p><objectType>Weihestein</objectType></support><condition><ref type="context" target="context:fercan.condition-o.unklar" ana="https://gams.uni-graz.at/o:fercan.arch#C.130700">unklar</ref></condition></supportDesc><layoutDesc><layout><p>Der überlieferte Inschriftentext scheint dem Inhalt nach zu schließen vollständig zu sein. Eine Unsicherheit für die Lesung des Götternamens stellt allerdings das Spatium am Ende von Z.1 dar. Der fehlende Abstand hinter XXX bereitet dagegen kaum Verständnisprobleme.<lb/>Ligaturen: s. Majuskeltext. Besondere Zeichen: In Z.1 findet sich eine Ligatur von I, A und N mit erhöhter linker senkrechter Haste des N.</p><note type="condition">vollständig</note></layout></layoutDesc></objectDesc><handDesc><handNote/></handDesc><decoDesc><decoNote><p>keine Beschreibung möglich</p><term ana="https://gams.uni-graz.at/o:fercan.arch#C.130100"><ref type="context" target="context:fercan.arch.abschrift">Abschrift</ref></term></decoNote></decoDesc></physDesc><history><origin><origPlace><placeName ref="https://pleiades.stoa.org/places/108751">CCAA</placeName><region>CCAA</region></origPlace><origDate notBefore="0101" notAfter="0300">2./3. Jh.</origDate></origin><provenance type="found" when="1643"><placeName><ref type="context" target="context:fercan.geog.modern.koeln">Köln</ref></placeName><p>St. Ursula, in der sog. „Goldenen Kammer“</p><location><geo decls="#WGS">50.937769 6.958583</geo></location><note>vermauert </note></provenance><provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: CIL (aus älterer Literatur)</provenance></history></msDesc><listPlace><place/></listPlace><listPerson><person><persName type="gentilnomen"><ref type="context" target="context:fercan.person.gentilnomen.flavius">Flavius</ref></persName></person><person><persName type="cognomen"><ref type="context" target="context:fercan.person.cognomen.victorinus">Victorinus</ref></persName></person><person><persName type="divine" subtype="celtic_normalized"><ref type="context" target="context:fercan.dcn.matres_hiannanef">Matres Hiannanef…</ref></persName></person><person><persName type="divine" subtype="celtic_diplomatic"><ref type="context" target="context:fercan.dcd.matres_hiannanef.matribus_paternis_hian">Matribus paternis Hiannanef(…))</ref></persName></person><person><persName type="divine" subtype="celtic_element"><ref type="context" target="context:fercan.dce.hiannanef">Hiannanef…</ref></persName></person><person><persName><roleName type="military"><ref type="context" target="context:fercan.person.military.centurio_legionis">centurio legionis</ref></roleName></persName></person></listPerson><listOrg><org/><org type="military_unit"><orgName><ref type="context" target="context:fercan.org.military.legio_xxx_ulpia_victrix">legio XXX Ulpia Victrix</ref></orgName></org></listOrg></sourceDesc></fileDesc><encodingDesc><geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl><editorialDecl><p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p><p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
-                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p></editorialDecl><projectDesc><p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+                    Karl-Franzens-Universität Graz</orgName>
+                </authority>
+                <distributor>
+                    <link target="https://gams.uni-graz.at"/>
+                    <orgName instant="false" full="yes">GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                </distributor>
+                <date when="2022" instant="false">2022</date>
+                <pubPlace>Graz</pubPlace>
+                <idno type="PID">o:fercan.321</idno>
+                <availability default="false">
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
+                    BY-NC 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+                  Celticarum Antiquarum</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Wolfgang</forename>
+                        <surname full="yes">Spickermann</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <msDesc status="draft">
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Weihinschrift</summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p part="N">Eine Beschreibung des Weihesteins ist nicht möglich, da er verschollen ist und in der Literatur, bis auf die Angaben zur Inschrift, keine Informationen vorhanden sind.</p>
+                                    <objectType>Weihestein</objectType>
+                                </support>
+                                <condition>
+                                    <ref type="context" target="context:fercan.condition-o.unklar" ana="https://gams.uni-graz.at/o:fercan.arch#C.130700">unklar</ref>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p part="N">Der überlieferte Inschriftentext scheint dem Inhalt nach zu schließen vollständig zu sein. Eine Unsicherheit für die Lesung des Götternamens stellt allerdings das Spatium am Ende von Z.1 dar. Der fehlende Abstand hinter XXX bereitet dagegen kaum Verständnisprobleme.<lb/>Ligaturen: s. Majuskeltext. Besondere Zeichen: In Z.1 findet sich eine Ligatur von I, A und N mit erhöhter linker senkrechter Haste des N.</p>
+                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">vollständig</tei:note>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote/>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <p part="N">keine Beschreibung möglich</p>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130100">
+                                    <ref type="context" target="context:fercan.arch.abschrift">Abschrift</ref>
+                                </term>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin instant="false">
+                            <origPlace instant="false">
+                                <placeName ref="https://pleiades.stoa.org/places/108751" instant="false" full="yes">CCAA</placeName>
+                                <region>CCAA</region>
+                            </origPlace>
+                            <origDate notBefore="0101" notAfter="0300" instant="false">
+                                <date>2./3. Jh.</date>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" when="1643">
+                            <placeName instant="false" full="yes">
+                                <ref type="context" target="context:fercan.geog.modern.koeln">Köln</ref>
+                            </placeName>
+                            <p part="N">St. Ursula, in der sog. „Goldenen Kammer“</p>
+                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                                <geo decls="#WGS">50.937769 6.958583</geo>
+                            </tei:location>
+                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">vermauert </tei:note>
+                        </provenance>
+                        <provenance type="observed" subtype="autopsied">
+                            <p part="N">non vidimus</p>
+                            <p part="N">
+                                <lb/>Lesung gründet auf: CIL (aus älterer Literatur)</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace default="false">
+                    <place instant="false"/>
+                </listPlace>
+                <listPerson default="false">
+                    <person instant="false">
+                        <persName type="gentilnomen" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.person.gentilnomen.flavius">Flavius</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="cognomen" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.person.cognomen.victorinus">Victorinus</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dcn.matres_hiannanef">Matres Hiannanef…</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_diplomatic" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dcd.matres_hiannanef.matribus_paternis_hian">Matribus paternis Hiannanef(…))</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_element" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dce.hiannanef">Hiannanef…</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName instant="false" full="yes">
+                            <roleName type="military" full="yes">
+                                <ref type="context" target="context:fercan.person.military.centurio_legionis">centurio legionis</ref>
+                            </roleName>
+                        </persName>
+                    </person>
+                </listPerson>
+                <listOrg default="false">
+                    <org instant="false"/>
+                    <org type="military_unit" instant="false">
+                        <orgName instant="false" full="yes">
+                            <ref type="context" target="context:fercan.org.military.legio_xxx_ulpia_victrix">legio XXX Ulpia Victrix</ref>
+                        </orgName>
+                    </org>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <geoDecl xml:id="WGS" datum="WGS84" default="false">World Geodetic System</geoDecl>
+            <editorialDecl default="false">
+                <p part="N">Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+                <p part="N">Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+            </editorialDecl>
+            <projectDesc default="false">
+                <p part="N">Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
                   Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
-                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p><p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+                <p part="N">Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
                   lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
                   zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
                   besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
@@ -21,19 +196,144 @@
                   beigetragen werden.<lb/> Die Abschlusspublikation wird ergänzt um einen
                   ausführlichen sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo
                   Stempel) in der Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum
-                  Celticarum antiquarum)‘ erscheinen. </p></projectDesc></encodingDesc><profileDesc><langUsage><language ident="la">Latein</language></langUsage><textClass><keywords><list><item><ref type="context" target="context:fercan.dedication.votum_solvit">votum solvit</ref></item><item><ref type="context" target="context:fercan.character.zeichen_fuer_centurio">Zeichen für centurio</ref></item><item/></list></keywords></textClass></profileDesc><revisionDesc><change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.321/TEI_SOURCE.2020-02-26">Initial Version</change><change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.321/TEI_SOURCE.2022-03-07">Version 2</change><change when="2022" n="3">Version 3</change></revisionDesc></teiHeader><facsimile><graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="file:///0321_Abschrift.jpg"><desc>Abschrift, CIL XIII 8219, CC BY-NC</desc></graphic></facsimile><text><body><ab><ref target="context:fercan" type="context">FERCAN</ref></ab><div subtype="editions" type="bibliography" org="uniform"><listBibl><bibl xml:id="LIT.1">ILS 4781</bibl><bibl xml:id="LIT.2">CIL XIII 8219</bibl><bibl xml:id="LIT.3">Galsterer/Galsterer 1975, Nr.102</bibl><bibl xml:id="LIT.4">Richier 2004, Nr. 268</bibl><bibl xml:id="LIT.5">Galsterer/Galsterer 2010, Nr.146</bibl><bibl xml:id="LIT.6">KIK 2012, Nr.169</bibl><bibl xml:id="LIT.7">Reuter 2012, Nr.33b</bibl></listBibl></div><div subtype="concordances" type="bibliography" org="uniform"><listBibl><bibl type="EDCS"><idno> </idno> <date>zuletzt aufgerufen am 24. Februar 2020</date></bibl><bibl type="trismegistos"><idno> </idno> <date>zuletzt aufgerufen am 26. Juli 2021</date></bibl></listBibl></div><div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/>MATRIBVS PATERNIS H<hi rend="ligature">IAN</hi>NA<hi rend="ligature">NE</hi> F · <lb n="2"/>
+                  Celticarum antiquarum)‘ erscheinen. </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage default="false">
+                <language ident="la">Latein</language>
+            </langUsage>
+            <textClass default="false">
+                <keywords>
+                    <list>
+                        <item>
+                            <ref type="context" target="context:fercan.dedication.votum_solvit">votum solvit</ref>
+                        </item>
+                        <item>
+                            <ref type="context" target="context:fercan.character.zeichen_fuer_centurio">Zeichen für centurio</ref>
+                        </item>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.321/TEI_SOURCE.2020-02-26" status="draft">Initial Version</change>
+            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.321/TEI_SOURCE.2022-03-07" status="draft">Version 2</change>
+            <change when="2022" n="3" status="draft">Version 3</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="file:///0321_Abschrift.jpg">
+            <desc>Abschrift, CIL XIII 8219, CC BY-NC</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <ab part="N">
+                <ref target="context:fercan" type="context">FERCAN</ref>
+            </ab>
+            <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl default="false">
+                    <bibl xml:id="LIT.1" default="false" status="draft">ILS 4781</bibl>
+                    <bibl xml:id="LIT.2" default="false" status="draft">CIL XIII 8219</bibl>
+                    <bibl xml:id="LIT.3" default="false" status="draft">Galsterer/Galsterer 1975, Nr.102</bibl>
+                    <bibl xml:id="LIT.4" default="false" status="draft">Richier 2004, Nr. 268</bibl>
+                    <bibl xml:id="LIT.5" default="false" status="draft">Galsterer/Galsterer 2010, Nr.146</bibl>
+                    <bibl xml:id="LIT.6" default="false" status="draft">KIK 2012, Nr.169</bibl>
+                    <bibl xml:id="LIT.7" default="false" status="draft">Reuter 2012, Nr.33b</bibl>
+                </listBibl>
+            </div>
+            <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl>
+                    <bibl type="EDCS">
+                        <idno>EDCS-01200057</idno>
+                        <date>zuletzt aufgerufen am 24. Februar 2020</date>
+                    </bibl>
+                    <bibl type="trismegistos">
+                        <idno>www.trismegistos.org/text/415265</idno>
+                        <date>zuletzt aufgerufen am 26. Juli 2021</date>
+                    </bibl>
+                </listBibl>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>MATRIBVS PATERNIS H<hi rend="ligature">IAN</hi>NA<hi rend="ligature">NE</hi> F · <lb n="2"/>
 T FL · VICTORINUS <lb n="3"/>
-&gt; LEG · XXXVV VS</orig></ab></div><div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Matribus Paternis Hiannanef(…)<lb n="2"/><expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Victorinus<lb n="3"/><g type="centurio"/> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XXX <expan><abbr>U</abbr><ex>lpiae</ex></expan> <expan><abbr>V</abbr><ex>ictricis</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan></ab></div><div type="translation" xml:lang="de" org="uniform"><p>Für die väterlichen  <rs type="divine">Matres Hiannanef…!</rs> <lb/>
-T(itus) Fl(avius) Victorinus, centurio der legio XXX Ulpia Victrix, hat das Gelübde erfüllt.</p></div><div type="translation" xml:lang="en" org="uniform"><p>To the paternal  <rs type="divine">Matres Hiannanef…!</rs> <lb/>
-T(itus) Fl(avius) Victorinus, centurio of the legio XXX Ulpia Victrix has fulfilled a vow.  </p></div><div type="apparatus" org="uniform"><app loc="#MIN.1 #MAJ.1"><note>Hannanef –ILS; Hannanef(is) – Richier; ohne Ligaturen – ILS, KIK</note></app></div><div type="commentary" subtype="general" org="uniform"><p>Titus Flavius Victorinus: tria nomina <lb/>
+&gt; LEG · XXXVV VS</orig></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Matribus Paternis Hiannanef(…)<lb n="2"/><expan instant="false"><abbr>T</abbr><ex instant="false">itus</ex></expan> <expan instant="false"><abbr>Fl</abbr><ex instant="false">avius</ex></expan> Victorinus<lb n="3"/><g type="centurio"/> <expan instant="false"><abbr>leg</abbr><ex instant="false">ionis</ex></expan> XXX <expan instant="false"><abbr>U</abbr><ex instant="false">lpiae</ex></expan> <expan instant="false"><abbr>V</abbr><ex instant="false">ictricis</ex></expan> <expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan></ab></div>
+            <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
+                <p part="N">Für die väterlichen  <rs type="divine">Matres Hiannanef…!</rs> <lb/>
+T(itus) Fl(avius) Victorinus, centurio der legio XXX Ulpia Victrix, hat das Gelübde erfüllt.</p>
+            </div>
+            <div type="translation" xml:lang="en" org="uniform" part="N" sample="complete">
+                <p part="N">To the paternal  <rs type="divine">Matres Hiannanef…!</rs> <lb/>
+T(itus) Fl(avius) Victorinus, centurio of the legio XXX Ulpia Victrix has fulfilled a vow.  </p>
+            </div>
+            <div type="apparatus" org="uniform" part="N" sample="complete">
+                <app loc="#MIN.1 #MAJ.1">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Hannanef –ILS; Hannanef(is) – Richier; ohne Ligaturen – ILS, KIK</tei:note>
+                </app>
+            </div>
+            <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
+                <p part="N">Titus Flavius Victorinus: tria nomina <lb/>
 Flavius: italisches Gentilnomen der Kaiser Vespasian, Titus, Domitian; überall äußerst gängig (Kakoschke 2006, GN 497) <lb/>
-Victorinus: lateinisches Cognomen, Weiterbildung des Cognomens Victor; überall äußerst gängiger Name (Kakoschke 2008, CN 3323) </p><p>
+Victorinus: lateinisches Cognomen, Weiterbildung des Cognomens Victor; überall äußerst gängiger Name (Kakoschke 2008, CN 3323) </p>
+                <p part="N">
 
-Der centurio Titus Flavius Victorinus ist auch noch in einer zweiten Inschrift (CIL XIII 8233) aus Köln (mit einer Weihung an Mercurius) bezeugt (Richier 2004, Nr.268). </p><p>
+Der centurio Titus Flavius Victorinus ist auch noch in einer zweiten Inschrift (CIL XIII 8233) aus Köln (mit einer Weihung an Mercurius) bezeugt (Richier 2004, Nr.268). </p>
+                <p part="N">
 
-legio XXX Ulpia Victrix: Die Legion folgte ab 121/122 n.Chr. in Xanten auf die legio VI Victrix (Stein 1932, 106). </p></div><div type="commentary" subtype="deity" org="uniform"><p> <rs type="divine">Hiannanef…:</rs> vielleicht Rest von  <rs type="divine">Hiannanef(ates):</rs> möglicherweise vom Stammesnamen  <rs type="divine">Chiannanefates</rs>, sonst überliefert als  <rs type="divine">Cannanefates:</rs> keltisch-germanisch, „Het Keltische woord *kannina betekent 'look, prei', terwijl we in fat- een Germaanse vorm van PIE, *potis 'meester' kunnen herkennen“ (Toorians 2000, 86–87); germanisch: Gutenbrunner 1936, 146–148  </p><p>
+legio XXX Ulpia Victrix: Die Legion folgte ab 121/122 n.Chr. in Xanten auf die legio VI Victrix (Stein 1932, 106). </p>
+            </div>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Hiannanef…:</rs> vielleicht Rest von  <rs type="divine">Hiannanef(ates):</rs> vermutlich aus <rs type="divine">Channanef</rs>(<i>tiae</i> <i>vel</i> -<i>tum</i>): keltolateinisch mit lautlicher Germanisierung: ‚Zum Volkstamm der Canninefates Gehörende [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 277f).  </p>
+                                                <p part="N">
 
-Vorkommen in theonymischen Formularen: </p><p>
+Vorkommen in theonymischen Formularen: </p>
+                                                <p part="N">
  <rs type="divine">Matres Hiannanef…:</rs>: <lb/>
 - Germania Inferior: Das theonymische Formular kann nur in der hier besprochenen Inschrift erkannt werden. Die Inschrift dürfte so zu verstehen sein, dass das theonymische Formular in seiner vollständigen Form  <rs type="divine">Matres Paternae Hiannanef…</rs> (‚die väterlichen Matres der Hiannanef…‘) lautet. <lb/> 
-- außerhalb der Germania Inferior: -</p></div><linkGrp type="alignment" domains="#majuscule #minuscule"><link target="#MAJ.1 #MIN.1"/><link target="#MAJ.2 #MIN.2"/><link target="#MAJ.3 #MIN.3"/></linkGrp></body><back><note type="Objbeschr_note"/><note type="ArchKlass_note"/><note type="Material_note"/><note type="Inschrifttraeger_note"/><note type="VerwahrortOrt_note"/><note type="InvNr_note"/><note type="Fundstelle_note"/><note type="Fundumst_note"/><note type="Fundjahr_note"/><note type="FOantik_note"/><note type="FOmodern_note"/><note type="civitas_note"/><note type="Autopsie_note"/><note type="Appcrit_note"/><note type="Abb_note"/><note type="englUEbers_note"/><note type="dtUEbers_note"/><note type="Editionen_note"/><note type="ErhzustObj_note"/><note type="Masse_note"/><note type="Ikonogr_note"/><note type="Inschrtext_note"/><note type="ErhzustInschr_note"/><note type="Schrifttechnik_note"/><note type="Buchsthoehe_note"/><note type="Notvar_note"/><note type="SonstKomm_note"/><note type="Datierung_note"/></back></text></TEI>
+- außerhalb der Germania Inferior: -</p>
+            </div>
+            <linkGrp type="alignment" domains="#majuscule #minuscule">
+                <link target="#MAJ.1 #MIN.1"/>
+                <link target="#MAJ.2 #MIN.2"/>
+                <link target="#MAJ.3 #MIN.3"/>
+            </linkGrp>
+        </body>
+        <back>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+                <p part="N">Alte Version (25.04.23):</p>
+                <p part="N">Hiannanef…: vielleicht Rest von  Hiannanef(ates): möglicherweise vom Stammesnamen  Chiannanefates, sonst überliefert als  Cannanefates:
+ keltisch-germanisch, „Het Keltische woord *kannina betekent 'look, 
+prei', terwijl we in fat- een Germaanse vorm van PIE, *potis 'meester' 
+kunnen herkennen“ (Toorians 2000, 86–87); germanisch: Gutenbrunner 1936,
+ 146–148  </p>
+            </tei:note>
+        </back>
+    </text>
+</TEI>

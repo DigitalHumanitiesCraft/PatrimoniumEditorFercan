@@ -1,13 +1,179 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior87"><teiHeader><fileDesc><titleStmt><title type="full"><title type="main">Matronae Gabiae</title><title type="sub">CF-GeI-87</title></title><respStmt><resp>Inschriftenedition</resp><persName><forename>Werner</forename><surname>Petermandl</surname></persName></respStmt><respStmt><resp>Archäologische Beschreibung und geografische Daten</resp><persName><forename>Astrid</forename><surname>Schmölzer</surname></persName></respStmt><funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
-                  29274-G25</funder></titleStmt><publicationStmt><publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
-                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher><authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior87">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Matronae Gabiae</title>
+                    <title type="sub">CF-GeI-87</title>
+                </title>
+                <respStmt>
+                    <resp>Inschriftenedition</resp>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Werner</forename>
+                        <surname full="yes">Petermandl</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Archäologische Beschreibung und geografische Daten</resp>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Astrid</forename>
+                        <surname full="yes">Schmölzer</surname>
+                    </persName>
+                </respStmt>
+                <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
+                  29274-G25</funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <link target="https://antike.uni-graz.at"/>
+                    <orgName ref="https://d-nb.info/gnd/1213531357" instant="false" full="yes">Institut für Antike, Fachbereich
+                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
+                </publisher>
+                <authority>
+                    <link target="https://informationsmodellierung.uni-graz.at"/>
+                    <orgName ref="http://d-nb.info/gnd/1137284463" instant="false" full="yes">Zentrum für
                     Informationsmodellierung - Austrian Centre for Digital Humanities,
-                    Karl-Franzens-Universität Graz</orgName></authority><distributor><link target="https://gams.uni-graz.at"/><orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor><date when="2022">2022</date><pubPlace>Graz</pubPlace><idno type="PID">o:fercan.87</idno><availability><licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
-                    BY-NC 4.0</licence></availability></publicationStmt><seriesStmt><title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
-                  Celticarum Antiquarum</title><respStmt><resp>Projektleitung</resp><persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName></respStmt></seriesStmt><sourceDesc><msDesc><msIdentifier><settlement>Bonn</settlement><repository>Rheinisches Landesmuseum</repository><idno>29760</idno></msIdentifier><msContents><summary>Weihinschrift</summary></msContents><physDesc><objectDesc><supportDesc><support><p>Der Altar ist nur im oberen Abschnitt erhalten. Der Sockel und ein Teil des Körpers fehlen. Der Aufsatz bekrönt den Körper abgesetzt durch ein profiliertes Gesims, das vermutlich umlaufend ist. Am Aufsatz sind die verwitterten Reste der Pulvini vorhanden. In der Mitte ragt ein undefinierbares Stück hervor – eventuell wäre hier ein Giebel zu vermuten.<lb/>Das Inschriftenfeld war nicht gerahmt. Der Altar ist der Länge nach in zwei Teile gebrochen. Die verschieden großen Bruchstücke wurden modern wieder zusammengesetzt und zum Teil ergänzt.</p><material><ref type="context" target="context:fercan.material.kalkstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref></material><objectType>Weihealtar</objectType><dimensions xml:id="PART.1"><height unit="cm">24,5</height><width unit="cm">24,0</width><depth unit="cm">19,5</depth></dimensions><dimensions xml:id="PART.2"><height unit="cm">18,5</height><width unit="cm">13,5</width><depth unit="cm">19,5</depth></dimensions></support><condition><ref type="context" target="context:fercan.condition-o.mehrere_fragmente">mehrere Fragmente</ref></condition></supportDesc><layoutDesc><layout><p>Der Inschriftentext ist auf zwei größeren und einem kleineren Bruchstück erhalten. Die beiden größeren anpassenden Teile beinhalten den oberen Teil der Inschrift in vollständiger Breite. Auf dem linken Stück sind 4 Zeilen erhalten, auf dem rechten 2 Zeilen. Das dritte Bruchstück enthält nur den Buchstaben M. Es schließt nicht direkt an die beiden anderen Bruchstücke an, und hat sich offenbar in der letzten Zeile des Inschriftenfeldes befunden. Ob bzw. wie viele Zeilen zwischen diesem Stück und den größeren beiden verloren gegangen sind, kann nicht gesagt werden.<lb/>Ligaturen: s. Majuskeltext. Besondere Zeichen: Z.1 eine Ligatur von T und R mit erhöhtem T (H: 3,7 cm); Z.3. kleines E über der waagrechten Haste des L (H: 2,2 cm)</p><note type="condition">mehrere Fragmente</note></layout></layoutDesc></objectDesc><handDesc><handNote><desc type="execution">gemeißelt</desc><height unit="cm" atLeast="2.7" atMost="3.2">2,7–3,2 cm</height></handNote></handDesc><decoDesc><decoNote><p>Der profilierte Aufsatz zeigt die Reste der Altarpulvini, deren mögliches Dekor nicht mehr erkennbar ist. In der Mitte undefinierter Rest.</p><term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800"><ref type="context" target="context:fercan.arch.aufsatzschmuck">Aufsatzschmuck</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300"><ref type="context" target="context:fercan.arch.fragment">Fragment</ref></term></decoNote></decoDesc></physDesc><history><origin><origPlace><region>CCAA</region></origPlace><origDate/></origin><provenance type="found"><placeName><ref type="context" target="context:fercan.geog.modern.miel">Miel</ref></placeName><p>in einem römischen Brunnen</p><location><geo decls="#WGS">50.670394 6.916928</geo></location></provenance><provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)</provenance></history></msDesc><listPlace><place/></listPlace><listPerson><person><persName type="divine" subtype="celtic_normalized"><ref type="context" target="context:fercan.dcn.matronae_gabiae">Matronae Gabiae</ref></persName></person><person><persName type="divine" subtype="celtic_diplomatic"><ref type="context" target="context:fercan.dcd.matronae_gabiae.matronis_gabiabus">Matronis Gabiabus</ref></persName></person><person><persName type="divine" subtype="celtic_element"><ref type="context" target="context:fercan.dce.gabiae">Gabiae</ref></persName></person></listPerson><listOrg><org/></listOrg></sourceDesc></fileDesc><encodingDesc><geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl><editorialDecl><p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p><p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
-                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p></editorialDecl><projectDesc><p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+                    Karl-Franzens-Universität Graz</orgName>
+                </authority>
+                <distributor>
+                    <link target="https://gams.uni-graz.at"/>
+                    <orgName instant="false" full="yes">GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                </distributor>
+                <date when="2022" instant="false">2022</date>
+                <pubPlace>Graz</pubPlace>
+                <idno type="PID">o:fercan.87</idno>
+                <availability default="false">
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
+                    BY-NC 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+                  Celticarum Antiquarum</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Wolfgang</forename>
+                        <surname full="yes">Spickermann</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <msDesc status="draft">
+                    <msIdentifier>
+                        <settlement>Bonn</settlement>
+                        <repository>Rheinisches Landesmuseum</repository>
+                        <idno>29760</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Weihinschrift</summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p part="N">Der Altar ist nur im oberen Abschnitt erhalten. Der Sockel und ein Teil des Körpers fehlen. Der Aufsatz bekrönt den Körper abgesetzt durch ein profiliertes Gesims, das vermutlich umlaufend ist. Am Aufsatz sind die verwitterten Reste der Pulvini vorhanden. In der Mitte ragt ein undefinierbares Stück hervor – eventuell wäre hier ein Giebel zu vermuten.<lb/>Das Inschriftenfeld war nicht gerahmt. Der Altar ist der Länge nach in zwei Teile gebrochen. Die verschieden großen Bruchstücke wurden modern wieder zusammengesetzt und zum Teil ergänzt.</p>
+                                    <material>
+                                        <ref type="context" target="context:fercan.material.kalkstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref>
+                                    </material>
+                                    <objectType>Weihealtar</objectType>
+                                    <dimensions xml:id="PART.1">
+                                        <height unit="cm">24,5</height>
+                                        <width unit="cm">24,0</width>
+                                        <depth unit="cm">19,5</depth>
+                                    </dimensions>
+                                    <dimensions xml:id="PART.2">
+                                        <height unit="cm">18,5</height>
+                                        <width unit="cm">13,5</width>
+                                        <depth unit="cm">19,5</depth>
+                                    </dimensions>
+                                </support>
+                                <condition>
+                                    <ref type="context" target="context:fercan.condition-o.mehrere_fragmente">mehrere Fragmente</ref>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p part="N">Der Inschriftentext ist auf zwei größeren und einem kleineren Bruchstück erhalten. Die beiden größeren anpassenden Teile beinhalten den oberen Teil der Inschrift in vollständiger Breite. Auf dem linken Stück sind 4 Zeilen erhalten, auf dem rechten 2 Zeilen. Das dritte Bruchstück enthält nur den Buchstaben M. Es schließt nicht direkt an die beiden anderen Bruchstücke an, und hat sich offenbar in der letzten Zeile des Inschriftenfeldes befunden. Ob bzw. wie viele Zeilen zwischen diesem Stück und den größeren beiden verloren gegangen sind, kann nicht gesagt werden.<lb/>Ligaturen: s. Majuskeltext. Besondere Zeichen: Z.1 eine Ligatur von T und R mit erhöhtem T (H: 3,7 cm); Z.3. kleines E über der waagrechten Haste des L (H: 2,2 cm)</p>
+                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">mehrere Fragmente</tei:note>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <desc type="execution">gemeißelt</desc>
+                                <height unit="cm" atLeast="2.7" atMost="3.2">2,7–3,2 cm</height>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <p part="N">Der profilierte Aufsatz zeigt die Reste der Altarpulvini, deren mögliches Dekor nicht mehr erkennbar ist. In der Mitte undefinierter Rest.</p>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">
+                                    <ref type="context" target="context:fercan.arch.aufsatzschmuck">Aufsatzschmuck</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">
+                                    <ref type="context" target="context:fercan.arch.fragment">Fragment</ref>
+                                </term>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin instant="false">
+                            <origPlace instant="false">
+                                <region>CCAA</region>
+                            </origPlace>
+                            <origDate instant="false"/>
+                        </origin>
+                        <provenance type="found">
+                            <placeName instant="false" full="yes">
+                                <ref type="context" target="context:fercan.geog.modern.miel">Miel</ref>
+                            </placeName>
+                            <p part="N">in einem römischen Brunnen</p>
+                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                                <geo decls="#WGS">50.670394 6.916928</geo>
+                            </tei:location>
+                        </provenance>
+                        <provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)</provenance>
+                    </history>
+                </msDesc>
+                <listPlace default="false">
+                    <place instant="false"/>
+                </listPlace>
+                <listPerson default="false">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dcn.matronae_gabiae">Matronae Gabiae</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_diplomatic" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dcd.matronae_gabiae.matronis_gabiabus">Matronis Gabiabus</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_element" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dce.gabiae">Gabiae</ref>
+                        </persName>
+                    </person>
+                </listPerson>
+                <listOrg default="false">
+                    <org instant="false"/>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <geoDecl xml:id="WGS" datum="WGS84" default="false">World Geodetic System</geoDecl>
+            <editorialDecl default="false">
+                <p part="N">Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+                <p part="N">Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+            </editorialDecl>
+            <projectDesc default="false">
+                <p part="N">Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
                   Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
-                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p><p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+                <p part="N">Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
                   lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
                   zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
                   besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
@@ -21,26 +187,144 @@
                   beigetragen werden.<lb/> Die Abschlusspublikation wird ergänzt um einen
                   ausführlichen sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo
                   Stempel) in der Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum
-                  Celticarum antiquarum)‘ erscheinen. </p></projectDesc></encodingDesc><profileDesc><langUsage><language ident="la">Latein</language></langUsage><textClass><keywords><list><item/></list></keywords></textClass></profileDesc><revisionDesc><change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.87/TEI_SOURCE.2020-02-26">Initial Version</change><change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.87/TEI_SOURCE.2022-03-07">Version 2</change><change when="2022" n="3">Version 3</change></revisionDesc></teiHeader><facsimile><graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="file:///0087_Front.jpg"><desc>Front, CIL XIII Projekt, CC BY-NC</desc></graphic><graphic mimeType="image/jpeg" xml:id="IMAGE.2" url="file:///0087_Frgt.jpg"><desc>, Rechte vorbehalten</desc></graphic></facsimile><text><body><ab><ref target="context:fercan" type="context">FERCAN</ref></ab><div subtype="editions" type="bibliography" org="uniform"><listBibl><bibl xml:id="LIT.1">Finke 1927, Nr.273</bibl></listBibl></div><div subtype="concordances" type="bibliography" org="uniform"><listBibl><bibl type="EDCS"><idno> </idno> <date>zuletzt aufgerufen am 24. Februar 2020</date></bibl><bibl type="trismegistos"><idno> </idno> <date>zuletzt aufgerufen am 26. Juli 2021</date></bibl></listBibl></div><div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/><hi rend="ligature">MA</hi><hi rend="ligature">TR</hi>ONIS <lb n="2"/> 
+                  Celticarum antiquarum)‘ erscheinen. </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage default="false">
+                <language ident="la">Latein</language>
+            </langUsage>
+            <textClass default="false">
+                <keywords>
+                    <list>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.87/TEI_SOURCE.2020-02-26" status="draft">Initial Version</change>
+            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.87/TEI_SOURCE.2022-03-07" status="draft">Version 2</change>
+            <change when="2022" n="3" status="draft">Version 3</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="file:///0087_Front.jpg">
+            <desc>Front, CIL XIII Projekt, CC BY-NC</desc>
+        </graphic>
+        <graphic mimeType="image/jpeg" xml:id="IMAGE.2" url="file:///0087_Frgt.jpg">
+            <desc>, Rechte vorbehalten</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <ab part="N">
+                <ref target="context:fercan" type="context">FERCAN</ref>
+            </ab>
+            <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl default="false">
+                    <bibl xml:id="LIT.1" default="false" status="draft">Finke 1927, Nr.273</bibl>
+                </listBibl>
+            </div>
+            <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl>
+                    <bibl type="EDCS">
+                        <idno>EDCS-11201990</idno>
+                        <date>zuletzt aufgerufen am 24. Februar 2020</date>
+                    </bibl>
+                    <bibl type="trismegistos">
+                        <idno>www.trismegistos.org/text/417775</idno>
+                        <date>zuletzt aufgerufen am 26. Juli 2021</date>
+                    </bibl>
+                </listBibl>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/><hi rend="ligature">MA</hi><hi rend="ligature">TR</hi>ONIS <lb n="2"/> 
 GABIABVS <lb n="3"/> 
-<hi rend="ligature">NE</hi>LEV<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/> 
-CAI F<unclear>I</unclear><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/> 
-<gap reason="lost" extent="unknown" unit="line"/> <lb n="6"/> 
-<gap reason="lost" extent="unknown" unit="character"/> M</orig></ab></div><div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Matronis<lb n="2"/>Gabiabus<lb n="3"/>Neleu<gap reason="lost" extent="unknown" unit="character"/><lb n="4"/><expan><abbr>Cai</abbr><ex cert="low"/></expan> fi<supplied reason="lost" cert="low">lius</supplied><lb n="5"/><gap reason="lost" extent="unknown" unit="line"/><lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> M</ab></div><div type="translation" xml:lang="de" org="uniform"><p>Für die  <rs type="divine">Matronae Gabiae!</rs> <lb/> 
-Neleu… der Sohn des Gaius …</p></div><div type="translation" xml:lang="en" org="uniform"><p>To the  <rs type="divine">Matronae Gabiae!</rs> <lb/> 
-Neleu… the son of Gaius …</p></div><div type="apparatus" org="uniform"><app loc="#MIN.5 #MAJ.5"><note>[v. s. l. l.] M – Finke</note></app></div><div type="commentary" subtype="general" org="uniform"><p>Neleu[---]: offensichtlich der erste Teil des Namens des Dedikanten</p></div><div type="commentary" subtype="language" org="uniform"><p>v.2: „Gabiabus” pro „Gabiis”</p></div><div type="commentary" subtype="deity" org="uniform"><p> <rs type="divine">Gabiae:</rs> keltisch ‚die Gebenden‘; vgl. auch die Nebenform  <rs type="divine">Gabinae</rs> (de Bernardo Stempel in Spickermann 2005, 140; de Bernardo Stempel 2005) </p><p>
+<hi rend="ligature">NE</hi>LEV<gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="4"/> 
+CAI F<unclear instant="false">I</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="5"/> 
+<gap reason="lost" extent="unknown" unit="line" instant="false"/> <lb n="6"/> 
+<gap reason="lost" extent="unknown" unit="character" instant="false"/> M</orig></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Matronis<lb n="2"/>Gabiabus<lb n="3"/>Neleu<gap reason="lost" extent="unknown" unit="character" instant="false"/><lb n="4"/><expan instant="false"><abbr>Cai</abbr><ex cert="low" instant="false"/></expan> fi<supplied reason="lost" cert="low" instant="false">lius</supplied><lb n="5"/><gap reason="lost" extent="unknown" unit="line" instant="false"/><lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> M</ab></div>
+            <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
+                <p part="N">Für die  <rs type="divine">Matronae Gabiae!</rs> <lb/> 
+Neleu… der Sohn des Gaius …</p>
+            </div>
+            <div type="translation" xml:lang="en" org="uniform" part="N" sample="complete">
+                <p part="N">To the  <rs type="divine">Matronae Gabiae!</rs> <lb/> 
+Neleu… the son of Gaius …</p>
+            </div>
+            <div type="apparatus" org="uniform" part="N" sample="complete">
+                <app loc="#MIN.5 #MAJ.5">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[v. s. l. l.] M – Finke</tei:note>
+                </app>
+            </div>
+            <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
+                <p part="N">Neleu[---]: offensichtlich der erste Teil des Namens des Dedikanten</p>
+            </div>
+            <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
+                <p part="N">v.2: „Gabiabus” pro „Gabiis”</p>
+            </div>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Gabiae:</rs> keltisch: ‚Die Gebenden [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 215f).</p>
+                                                <p part="N">
 
-Vorkommen in theonymischen Formularen: </p><p>
+Vorkommen in theonymischen Formularen: </p>
+                                                <p part="N">
  <rs type="divine">Matronae Gabiae</rs>: <lb/>
 - Germania Inferior: insgesamt 3x belegt (CF-GeI-87, CF-GeI-93, CF-GeI-94) <lb/> 
-- außerhalb der Germania Inferior: - </p><p>
+- außerhalb der Germania Inferior: - </p>
+                                                <p part="N">
  <rs type="divine">Gabiae</rs>: <lb/>
-- Germania Inferior: Dieses eingliedrige theonymische Formular ist 5x bezeugt; 1x davon in der Form  <rs type="divine">Gabinae</rs>. In CF-GeI-89 werden außerdem  <rs type="divine">Iunones sive Gabiae</rs> genannt. <lb/>
-- außerhalb der Germania Inferior: -  </p><p>
+- Germania Inferior: Dieses eingliedrige theonymische Formular ist 4x bezeugt. In CF-GeI-89 werden außerdem  <rs type="divine">Iunones sive Gabiae</rs> genannt. <lb/>
+- außerhalb der Germania Inferior: -  </p>
+                                                <p part="N">
  <rs type="divine">Iunones Gabiae</rs>: <lb/>
 - Germania Inferior: Dieses theonymische Formular ist nur 1x bezeugt (CF-GeI-86). In CF-GeI-89 werden aber außerdem  <rs type="divine">Iunones sive Gabiae</rs> genannt. <lb/>
-- außerhalb der Germania Inferior:  - </p><p>
+- außerhalb der Germania Inferior:  - </p>
+                                                <p part="N">
  <rs type="divine">Idb…? Gabia</rs>: <lb/>
 - Germania Inferior: Das Votivformular „deae Idbans Gabiae“ ist nur in einer schwer lesbaren Inschrift (CF-GeI-92) belegt. Die Bedeutung und die Nominativform von „Idbans“ sind bislang unbekannt. Schwierigkeiten bereitet auch der Dativ Singular „Gabiae“. 
 Letzteres Problem würde hinfällig, wenn Kamp (1866, 195), der im letzten Buchstaben der zweiten Zeile „nach wiederholter Untersuchung“ ein B gelesen hat, recht hat: Die Auflösung „Gabiab(us)“ läge damit auf der Hand (was auch Lehner 1918, Nr.240 vermutet hat) und es bliebe nur noch zu klären, welche Einzelgottheit davor mit „deae Idbans“ auf der Inschrift angesprochen ist, doch wurde auch hier das „deae“ von Kamp als „deab“ gelesen.  <lb/>
-- außerhalb der Germania Inferior: - </p></div><linkGrp type="alignment" domains="#majuscule #minuscule"><link target="#MAJ.1 #MIN.1"/><link target="#MAJ.2 #MIN.2"/><link target="#MAJ.3 #MIN.3"/><link target="#MAJ.4 #MIN.4"/><link target="#MAJ.5 #MIN.5"/><link target="#MAJ.6 #MIN.6"/></linkGrp></body><back><note type="Objbeschr_note"/><note type="ArchKlass_note"/><note type="Material_note"/><note type="Inschrifttraeger_note"/><note type="VerwahrortOrt_note"/><note type="InvNr_note"/><note type="Fundstelle_note"/><note type="Fundumst_note"/><note type="Fundjahr_note"/><note type="FOantik_note"/><note type="FOmodern_note"/><note type="civitas_note"/><note type="Autopsie_note"/><note type="Appcrit_note"/><note type="Abb_note"/><note type="englUEbers_note"/><note type="dtUEbers_note"/><note type="Editionen_note"/><note type="ErhzustObj_note"/><note type="Masse_note"/><note type="Ikonogr_note"/><note type="Inschrtext_note"/><note type="ErhzustInschr_note"/><note type="Schrifttechnik_note"/><note type="Buchsthoehe_note"/><note type="Notvar_note"/><note type="SonstKomm_note"/><note type="Datierung_note"/></back></text></TEI>
+- außerhalb der Germania Inferior: - </p>
+            </div>
+            <linkGrp type="alignment" domains="#majuscule #minuscule">
+                <link target="#MAJ.1 #MIN.1"/>
+                <link target="#MAJ.2 #MIN.2"/>
+                <link target="#MAJ.3 #MIN.3"/>
+                <link target="#MAJ.4 #MIN.4"/>
+                <link target="#MAJ.5 #MIN.5"/>
+                <link target="#MAJ.6 #MIN.6"/>
+            </linkGrp>
+        </body>
+        <back>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+                <p part="N">Für Alte Version (17.04.23) siehe CF-GeI-86</p>
+            </tei:note>
+        </back>
+    </text>
+</TEI>

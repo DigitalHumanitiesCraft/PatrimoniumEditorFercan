@@ -1,13 +1,191 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior75"><teiHeader><fileDesc><titleStmt><title type="full"><title type="main">Viradecdis</title><title type="sub">CF-GeI-75</title></title><respStmt><resp>Inschriftenedition</resp><persName><forename>Werner</forename><surname>Petermandl</surname></persName></respStmt><respStmt><resp>Archäologische Beschreibung und geografische Daten</resp><persName><forename>Astrid</forename><surname>Schmölzer</surname></persName></respStmt><funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
-                  29274-G25</funder></titleStmt><publicationStmt><publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
-                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher><authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior75">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Viradecdis</title>
+                    <title type="sub">CF-GeI-75</title>
+                </title>
+                <respStmt>
+                    <resp>Inschriftenedition</resp>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Werner</forename>
+                        <surname full="yes">Petermandl</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Archäologische Beschreibung und geografische Daten</resp>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Astrid</forename>
+                        <surname full="yes">Schmölzer</surname>
+                    </persName>
+                </respStmt>
+                <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
+                  29274-G25</funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <link target="https://antike.uni-graz.at"/>
+                    <orgName ref="https://d-nb.info/gnd/1213531357" instant="false" full="yes">Institut für Antike, Fachbereich
+                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
+                </publisher>
+                <authority>
+                    <link target="https://informationsmodellierung.uni-graz.at"/>
+                    <orgName ref="http://d-nb.info/gnd/1137284463" instant="false" full="yes">Zentrum für
                     Informationsmodellierung - Austrian Centre for Digital Humanities,
-                    Karl-Franzens-Universität Graz</orgName></authority><distributor><link target="https://gams.uni-graz.at"/><orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor><date when="2022">2022</date><pubPlace>Graz</pubPlace><idno type="PID">o:fercan.75</idno><availability><licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
-                    BY-NC 4.0</licence></availability></publicationStmt><seriesStmt><title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
-                  Celticarum Antiquarum</title><respStmt><resp>Projektleitung</resp><persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName></respStmt></seriesStmt><sourceDesc><msDesc><msIdentifier><settlement>St. Nicolas in Strée-lez-Huy</settlement><repository>in der Kirche beim Chor aufgestellt (ILB 51)</repository></msIdentifier><msContents><summary>Weihinschrift</summary></msContents><physDesc><objectDesc><supportDesc><support><p>Der Altarkörper mit der nicht gerahmten Inschrift setzt auf einem Sockel an – dessen genaue Ausgestaltung ist nicht eindeutig zu klären. Der Aufsatz mit einer kuppelartigen Bekrönung schließt sich durch ein wuchtiges Gesims abgesetzt an den Altarkörper an.<lb/>Der Stein ist an Kanten und Ecken leicht bestoßen auf der rechten Seite zieht sich ein Riss vertikal von oben nach unten. Das Gesims und ein Teil der Kante linkerhand sind im oberen Bereich abgebrochen bzw. weggeschlagen. Rechts an der Kante befinden sich in der unteren Hälfte zwei kleinere Ausbrüche.</p><material><ref type="context" target="context:fercan.material.kalkstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref></material><objectType>Weihealtar</objectType><dimensions><height unit="cm">96,0</height><width unit="cm">51,0</width><depth unit="cm">47,0</depth></dimensions></support><condition><ref type="context" target="context:fercan.condition-o.weitgehend_vollstaendig" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref></condition></supportDesc><layoutDesc><layout><p>Der Inschriftentext ist so gut wie vollständig erhalten. Die erste Zeile des Textes steht nicht am Inschriftenfeld, sondern am Gesims. Die Buchstaben der letzten Zeile sind deutlich größer als die übrigen.<lb/>Ligatur: s. Majuskeltext</p><note type="condition">vollständig</note></layout></layoutDesc></objectDesc><handDesc><handNote><desc type="execution">gemeißelt</desc><height unit="cm" atLeast="4.5" atMost="7.5">4,5–7,5 cm</height></handNote></handDesc><decoDesc><decoNote><p>Laut Bogaers (1976, 128) handelt es sich hierbei um die sekundär abgeschlagene Statue der Göttin  <rs type="divine">Viradecdis</rs>; kein Dekor bekannt</p><term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800"><ref type="context" target="context:fercan.arch.aufsatzschmuck">Aufsatzschmuck</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.150100"><ref type="context" target="context:fercan.arch.inschrift_auszerhalb_des_inschriftenfeldes">Inschrift außerhalb des Inschriftenfeldes</ref></term><term><ref type="context" target="context:fercan.arch.statuenbasis">Statuenbasis</ref></term></decoNote></decoDesc></physDesc><history><origin><origPlace><region>Civitas Tungrorum</region></origPlace><origDate/></origin><provenance type="found" when="1967"><placeName><ref type="context" target="context:fercan.geog.modern.stree_lez_huy">Strée-lez-Huy</ref></placeName><p>Kirche St. Nicolas</p><location><geo decls="#WGS">50.488533 5.324198</geo></location><note>in den Substruktionen der Kirche, unter dem Fußboden aus dem. 12/13.Jh., unter dem Altar auf dem Kopf stehend </note></provenance><provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: Photo und EDH</provenance></history></msDesc><listPlace><place/></listPlace><listPerson><person><persName type="cognomen"><ref type="context" target="context:fercan.person.cognomen.superina">Superina</ref></persName></person><person><persName type="cognomen"><ref type="context" target="context:fercan.person.cognomen.suppo">Suppo</ref></persName></person><person><persName type="divine" subtype="celtic_normalized"><ref type="context" target="context:fercan.dcn.viradecdis">Viradecdis</ref></persName></person><person><persName type="divine" subtype="celtic_diplomatic"><ref type="context" target="context:fercan.dcd.viradecdis.d_eae__virathethi">d(eae) Virathethi</ref></persName></person><person><persName type="divine" subtype="celtic_element"><ref type="context" target="context:fercan.dce.viradecdis">Viradecdis</ref></persName></person></listPerson><listOrg><org/></listOrg></sourceDesc></fileDesc><encodingDesc><geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl><editorialDecl><p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p><p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
-                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p></editorialDecl><projectDesc><p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+                    Karl-Franzens-Universität Graz</orgName>
+                </authority>
+                <distributor>
+                    <link target="https://gams.uni-graz.at"/>
+                    <orgName instant="false" full="yes">GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                </distributor>
+                <date when="2022" instant="false">2022</date>
+                <pubPlace>Graz</pubPlace>
+                <idno type="PID">o:fercan.75</idno>
+                <availability default="false">
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
+                    BY-NC 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+                  Celticarum Antiquarum</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Wolfgang</forename>
+                        <surname full="yes">Spickermann</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <msDesc status="draft">
+                    <msIdentifier>
+                        <settlement>St. Nicolas in Strée-lez-Huy</settlement>
+                        <repository>in der Kirche beim Chor aufgestellt (ILB 51)</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Weihinschrift</summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p part="N">Der Altarkörper mit der nicht gerahmten Inschrift setzt auf einem Sockel an – dessen genaue Ausgestaltung ist nicht eindeutig zu klären. Der Aufsatz mit einer kuppelartigen Bekrönung schließt sich durch ein wuchtiges Gesims abgesetzt an den Altarkörper an.<lb/>Der Stein ist an Kanten und Ecken leicht bestoßen auf der rechten Seite zieht sich ein Riss vertikal von oben nach unten. Das Gesims und ein Teil der Kante linkerhand sind im oberen Bereich abgebrochen bzw. weggeschlagen. Rechts an der Kante befinden sich in der unteren Hälfte zwei kleinere Ausbrüche.</p>
+                                    <material>
+                                        <ref type="context" target="context:fercan.material.kalkstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref>
+                                    </material>
+                                    <objectType>Weihealtar</objectType>
+                                    <dimensions>
+                                        <height unit="cm">96,0</height>
+                                        <width unit="cm">51,0</width>
+                                        <depth unit="cm">47,0</depth>
+                                    </dimensions>
+                                </support>
+                                <condition>
+                                    <ref type="context" target="context:fercan.condition-o.weitgehend_vollstaendig" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p part="N">Der Inschriftentext ist so gut wie vollständig erhalten. Die erste Zeile des Textes steht nicht am Inschriftenfeld, sondern am Gesims. Die Buchstaben der letzten Zeile sind deutlich größer als die übrigen.<lb/>Ligatur: s. Majuskeltext</p>
+                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">vollständig</tei:note>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <desc type="execution">gemeißelt</desc>
+                                <height unit="cm" atLeast="4.5" atMost="7.5">4,5–7,5 cm</height>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <p part="N">Laut Bogaers (1976, 128) handelt es sich hierbei um die sekundär abgeschlagene Statue der Göttin  <rs type="divine">Viradecdis</rs>; kein Dekor bekannt</p>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">
+                                    <ref type="context" target="context:fercan.arch.aufsatzschmuck">Aufsatzschmuck</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150100">
+                                    <ref type="context" target="context:fercan.arch.inschrift_auszerhalb_des_inschriftenfeldes">Inschrift außerhalb des Inschriftenfeldes</ref>
+                                </term>
+                                <term>
+                                    <ref type="context" target="context:fercan.arch.statuenbasis">Statuenbasis</ref>
+                                </term>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin instant="false">
+                            <origPlace instant="false">
+                                <region>Civitas Tungrorum</region>
+                            </origPlace>
+                            <origDate instant="false"/>
+                        </origin>
+                        <provenance type="found" when="1967">
+                            <placeName instant="false" full="yes">
+                                <ref type="context" target="context:fercan.geog.modern.stree_lez_huy">Strée-lez-Huy</ref>
+                            </placeName>
+                            <p part="N">Kirche St. Nicolas</p>
+                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                                <geo decls="#WGS">50.488533 5.324198</geo>
+                            </tei:location>
+                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">in den Substruktionen der Kirche, unter dem Fußboden aus dem. 12/13.Jh., unter dem Altar auf dem Kopf stehend </tei:note>
+                        </provenance>
+                        <provenance type="observed" subtype="autopsied">
+                            <p part="N">non vidimus<lb>
+                                    <br/>
+                                </lb>Lesung gründet auf: Photo und EDH</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace default="false">
+                    <place instant="false"/>
+                </listPlace>
+                <listPerson default="false">
+                    <person instant="false">
+                        <persName type="cognomen" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.person.cognomen.superina">Superina</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="cognomen" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.person.cognomen.suppo">Suppo</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dcn.viradecdis">Viradecdis</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_diplomatic" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dcd.viradecdis.d_eae__virathethi">d(eae) Virathethi</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_element" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dce.viradecdis">Viradecdis</ref>
+                        </persName>
+                    </person>
+                </listPerson>
+                <listOrg default="false">
+                    <org instant="false"/>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <geoDecl xml:id="WGS" datum="WGS84" default="false">World Geodetic System</geoDecl>
+            <editorialDecl default="false">
+                <p part="N">Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+                <p part="N">Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+            </editorialDecl>
+            <projectDesc default="false">
+                <p part="N">Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
                   Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
-                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p><p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+                <p part="N">Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
                   lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
                   zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
                   besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
@@ -21,20 +199,154 @@
                   beigetragen werden.<lb/> Die Abschlusspublikation wird ergänzt um einen
                   ausführlichen sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo
                   Stempel) in der Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum
-                  Celticarum antiquarum)‘ erscheinen. </p></projectDesc></encodingDesc><profileDesc><langUsage><language ident="la">Latein</language></langUsage><textClass><keywords><list><item><ref type="context" target="context:fercan.dedication.in_honorem_domus_divinae">in honorem domus divinae</ref></item><item><ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref></item><item/></list></keywords></textClass></profileDesc><revisionDesc><change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.75/TEI_SOURCE.2020-02-26">Initial Version</change><change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.75/TEI_SOURCE.2022-03-07">Version 2</change><change when="2022" n="3">Version 3</change></revisionDesc></teiHeader><facsimile><graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="file:///0075_Front.jpg"><desc>Front, EDCS-11901963, Rechte vorbehalten</desc></graphic></facsimile><text><body><ab><ref target="context:fercan" type="context">FERCAN</ref></ab><div subtype="editions" type="bibliography" org="uniform"><listBibl><bibl xml:id="LIT.1">AE 1968, 311</bibl><bibl xml:id="LIT.2">ILB 51</bibl><bibl xml:id="LIT.3">Bogaers 1976, 128</bibl></listBibl></div><div subtype="concordances" type="bibliography" org="uniform"><listBibl><bibl type="EDCS"><idno> </idno> <date>zuletzt aufgerufen am 24. Februar 2020</date></bibl><bibl type="EDH"><idno> </idno> <date>Version vom 18. Februar 2015</date></bibl><bibl type="trismegistos"><idno> </idno> <date>zuletzt aufgerufen am 29. Juni 2021</date></bibl></listBibl></div><div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/><gap reason="lost" quantity="1" unit="character"/>N H D D <lb n="2"/> 
+                  Celticarum antiquarum)‘ erscheinen. </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage default="false">
+                <language ident="la">Latein</language>
+            </langUsage>
+            <textClass default="false">
+                <keywords>
+                    <list>
+                        <item>
+                            <ref type="context" target="context:fercan.dedication.in_honorem_domus_divinae">in honorem domus divinae</ref>
+                        </item>
+                        <item>
+                            <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
+                        </item>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.75/TEI_SOURCE.2020-02-26" status="draft">Initial Version</change>
+            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.75/TEI_SOURCE.2022-03-07" status="draft">Version 2</change>
+            <change when="2022" n="3" status="draft">Version 3</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="file:///0075_Front.jpg">
+            <desc>Front, EDCS-11901963, Rechte vorbehalten</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <ab part="N">
+                <ref target="context:fercan" type="context">FERCAN</ref>
+            </ab>
+            <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl default="false">
+                    <bibl xml:id="LIT.1" default="false" status="draft">AE 1968, 311</bibl>
+                    <bibl xml:id="LIT.2" default="false" status="draft">ILB 51</bibl>
+                    <bibl xml:id="LIT.3" default="false" status="draft">Bogaers 1976, 128</bibl>
+                </listBibl>
+            </div>
+            <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl>
+                    <bibl type="EDCS">
+                        <idno>EDCS-11901963</idno>
+                        <date>zuletzt aufgerufen am 24. Februar 2020</date>
+                    </bibl>
+                    <bibl type="EDH">
+                        <idno>HD014321</idno>
+                        <date>Version vom 18. Februar 2015</date>
+                    </bibl>
+                    <bibl type="trismegistos">
+                        <idno>www.trismegistos.org/text/208960</idno>
+                        <date>zuletzt aufgerufen am 29. Juni 2021</date>
+                    </bibl>
+                </listBibl>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/><gap reason="lost" quantity="1" unit="character" instant="false"/>N H D D <lb n="2"/> 
 D VIRA<hi rend="ligature">TH</hi>E <lb n="3"/> 
 THI SVPE <lb n="4"/> 
 RINA · SVP <lb n="5"/> 
 PONIS <lb n="6"/> 
-V · S · L · M</orig></ab></div><div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/><supplied reason="lost">I</supplied>n <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan><lb n="2"/><expan><abbr>D</abbr><ex>eae</ex></expan> Virathe<lb n="3" break="no"/>thi Supe<lb n="4" break="no"/>rina Sup<lb n="5" break="no"/>ponis<lb n="6"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div><div type="translation" xml:lang="de" org="uniform"><p>Zur Ehre des Kaiserhauses <lb/> 
+V · S · L · M</orig></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/><supplied reason="lost" instant="false">I</supplied>n <expan instant="false"><abbr>h</abbr><ex instant="false">onorem</ex></expan> <expan instant="false"><abbr>d</abbr><ex instant="false">omus</ex></expan> <expan instant="false"><abbr>d</abbr><ex instant="false">ivinae</ex></expan><lb n="2"/><expan instant="false"><abbr>D</abbr><ex instant="false">eae</ex></expan> Virathe<lb n="3" break="no"/>thi Supe<lb n="4" break="no"/>rina Sup<lb n="5" break="no"/>ponis<lb n="6"/><expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
+            <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
+                <p part="N">Zur Ehre des Kaiserhauses <lb/> 
 für die Göttin  <rs type="divine">Virathethis!</rs> <lb/> 
-Superina, Tochter des Suppo, hat das Gelübde gerne und verdientermaßen erfüllt.</p></div><div type="translation" xml:lang="en" org="uniform"><p>In honour for the Divine Household <lb/> 
+Superina, Tochter des Suppo, hat das Gelübde gerne und verdientermaßen erfüllt.</p>
+            </div>
+            <div type="translation" xml:lang="en" org="uniform" part="N" sample="complete">
+                <p part="N">In honour for the Divine Household <lb/> 
 to the goddess  <rs type="divine">Virathethis.</rs> <lb/> 
-Superina, daughter of Suppo, has fulfilled a vow willingly and deservedly.</p></div><div type="apparatus" org="uniform"><app loc="#MIN.1 #MAJ.1"><note>In – ILB</note></app><app loc="#MIN.2 #MAJ.2"><note>ohne Ligatur – AE, EDH</note></app><app loc="#MIN.5 #MAJ.5"><note>ponis (filia) – AE, ILB</note></app></div><div type="commentary" subtype="general" org="uniform"><p>Superina Supponis: weibliches einheimisches Namensformular mit Angabe des Vaternamens im Genetiv <lb/>
+Superina, daughter of Suppo, has fulfilled a vow willingly and deservedly.</p>
+            </div>
+            <div type="apparatus" org="uniform" part="N" sample="complete">
+                <app loc="#MIN.1 #MAJ.1">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">In – ILB</tei:note>
+                </app>
+                <app loc="#MIN.2 #MAJ.2">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – AE, EDH</tei:note>
+                </app>
+                <app loc="#MIN.5 #MAJ.5">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ponis (filia) – AE, ILB</tei:note>
+                </app>
+            </div>
+            <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
+                <p part="N">Superina Supponis: weibliches einheimisches Namensformular mit Angabe des Vaternamens im Genetiv <lb/>
 Superina: weibliche Form von Superinus: lateinisches Cognomen; Weiterbildung des lateinisches Cognomens Super (Kakoschke 2008, CN 2973) <lb/>
-Suppo: germanisches Cognomen (Kakoschke 2008, CN 2975)</p></div><div type="commentary" subtype="deity" org="uniform"><p> <rs type="divine">Virathethis:</rs> Variante von  <rs type="divine">Viradecdis:</rs> keltisches Theonym mit germanisiertem Vokalismus; traditionelle Deutung als Gottheit der Männlichkeit (Schmidt 1957, 297, de Bernardo Stempel in Spickermann 2005, 144) </p><p>
+Suppo: germanisches Cognomen (Kakoschke 2008, CN 2975)</p>
+            </div>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Virathethis:</rs> Variante von  <rs type="divine">Viradecdis:</rs> keltisch erklärbar: ‚Mannesfeuer’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 163f) 
+                                                </p>
+                <p part="N">
 	
-Vorkommen in theonymischen Formularen: </p><p>
- <rs type="divine">Viradecdis</rs>: <lb/>
-- Germania Inferior: Das theonymische Formular ist 2x (CF-GeI-74 und 75) belegt. Eine weitere Inschrift lässt eine entsprechende Ergänzung zu (CF-GeI-76). <lb/> 
-- außerhalb der Germania Inferior: Das theonymische Formular ist in Britannien belegt (Viradecthis: CIL VII 1073, RIB 2108) und mit anderen Varianten des Götternamens in der Germania Superior: (Virodactis: CIL XIII 6761; Virodacthis: CIL XIII 11944; Viroddis: CIL XIII 6486). </p></div><linkGrp type="alignment" domains="#majuscule #minuscule"><link target="#MAJ.1 #MIN.1"/><link target="#MAJ.2 #MIN.2"/><link target="#MAJ.3 #MIN.3"/><link target="#MAJ.4 #MIN.4"/><link target="#MAJ.5 #MIN.5"/><link target="#MAJ.6 #MIN.6"/></linkGrp></body><back><note type="Objbeschr_note"/><note type="ArchKlass_note"/><note type="Material_note"/><note type="Inschrifttraeger_note"/><note type="VerwahrortOrt_note"/><note type="InvNr_note"/><note type="Fundstelle_note"/><note type="Fundumst_note"/><note type="Fundjahr_note"/><note type="FOantik_note"/><note type="FOmodern_note"/><note type="civitas_note"/><note type="Autopsie_note"/><note type="Appcrit_note"/><note type="Abb_note"/><note type="englUEbers_note"/><note type="dtUEbers_note"/><note type="Editionen_note"/><note type="ErhzustObj_note"/><note type="Masse_note"/><note type="Ikonogr_note"/><note type="Inschrtext_note"/><note type="ErhzustInschr_note"/><note type="Schrifttechnik_note"/><note type="Buchsthoehe_note"/><note type="Notvar_note"/><note type="SonstKomm_note"/><note type="Datierung_note"/></back></text></TEI>
+Vorkommen in theonymischen Formularen: </p>
+                                                <p part="N">
+ <rs type="divine">Viradecdis</rs>: 
+- Germania Inferior: Das theonymische Formular ist 2x (CF-GeI-74 und 75)
+ belegt. Eine weitere Inschrift lässt eine entsprechende Ergänzung zu 
+(CF-GeI-76).  
+- außerhalb der Germania Inferior: Das theonymische Formular ist in 
+Britannien belegt (<i>Viradecthis</i>: CIL VII 1073, RIB 2108) und in anderen 
+Varianten des Götternamens in der Germania Superior: (<i>Virodactis</i>: 
+CF-GeS-1021; <i>Virodacthis</i>: CF-GeS-1085; <i>Viroddis</i>: CF-GeS-1119).</p>
+            </div>
+            <linkGrp type="alignment" domains="#majuscule #minuscule">
+                <link target="#MAJ.1 #MIN.1"/>
+                <link target="#MAJ.2 #MIN.2"/>
+                <link target="#MAJ.3 #MIN.3"/>
+                <link target="#MAJ.4 #MIN.4"/>
+                <link target="#MAJ.5 #MIN.5"/>
+                <link target="#MAJ.6 #MIN.6"/>
+            </linkGrp>
+        </body>
+        <back>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+                <p part="N">Für Alte Version (17.04.23) siehe CF-GeI-74<br/>
+                </p>
+            </tei:note>
+        </back>
+    </text>
+</TEI>

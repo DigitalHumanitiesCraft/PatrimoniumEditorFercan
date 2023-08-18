@@ -1,14 +1,213 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior387"><teiHeader><fileDesc><titleStmt><title type="full"><title type="main">Nehalennia</title><title type="sub">CF-GeI-387</title></title><respStmt><resp>Inschriftenedition</resp><persName><forename>Werner</forename><surname>Petermandl</surname></persName></respStmt><respStmt><resp>Archäologische Beschreibung und geografische Daten</resp><persName><forename>Astrid</forename><surname>Schmölzer</surname></persName></respStmt><funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
-                  29274-G25</funder></titleStmt><publicationStmt><publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
-                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher><authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior387">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Nehalennia</title>
+                    <title type="sub">CF-GeI-387</title>
+                </title>
+                <respStmt>
+                    <resp>Inschriftenedition</resp>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Werner</forename>
+                        <surname full="yes">Petermandl</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Archäologische Beschreibung und geografische Daten</resp>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Astrid</forename>
+                        <surname full="yes">Schmölzer</surname>
+                    </persName>
+                </respStmt>
+                <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
+                  29274-G25</funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <link target="https://antike.uni-graz.at"/>
+                    <orgName ref="https://d-nb.info/gnd/1213531357" instant="false" full="yes">Institut für Antike, Fachbereich
+                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
+                </publisher>
+                <authority>
+                    <link target="https://informationsmodellierung.uni-graz.at"/>
+                    <orgName ref="http://d-nb.info/gnd/1137284463" instant="false" full="yes">Zentrum für
                     Informationsmodellierung - Austrian Centre for Digital Humanities,
-                    Karl-Franzens-Universität Graz</orgName></authority><distributor><link target="https://gams.uni-graz.at"/><orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor><date when="2022">2022</date><pubPlace>Graz</pubPlace><idno type="PID">o:fercan.387</idno><availability><licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
-                    BY-NC 4.0</licence></availability></publicationStmt><seriesStmt><title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
-                  Celticarum Antiquarum</title><respStmt><resp>Projektleitung</resp><persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName></respStmt></seriesStmt><sourceDesc><msDesc><msIdentifier><settlement>Leiden</settlement><repository>Rijksmuseum van Oudheden</repository><idno>i 1970/12.42</idno></msIdentifier><msContents><summary>Weihinschrift</summary></msContents><physDesc><objectDesc><supportDesc><support><p>Der Altar ist durch einige Bruchlinien beschädigt, jedoch annähernd vollständig erhalten. An der linken Kante befindet sich im oberen Bereich ein kleiner Ausbruch. Ebenfalls sind der Sockel und die rechte untere Kante etwas bestoßen und ausgebrochen. An der linken Seite ist das Relief durch eine von links oben nach rechts unten schräg verlaufende Bruchlinie beschädigt.<lb/>Der Sockel ist profiliert, das Gesims zwischen Altarkörper und Aufsatz springt erheblich nach vor. Sockel und Gesims sind auf drei Seiten umlaufend. Auf dem Aufsatz ruhen auf einer Platte der mittige, rosettenverzierte Giebel und links und rechts die blattverzierten Pulvini. Oben sind links hinten eine Birne und rechts hinten Spuren einer weiteren Frucht erhalten.</p><material><ref type="context" target="context:fercan.material.kalkstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref></material><objectType>Weihealtar</objectType><dimensions><height unit="cm">59,0</height><width unit="cm">36,5</width><depth unit="cm">15,0</depth></dimensions></support><condition><ref type="context" target="context:fercan.condition-o.vollstaendig" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref></condition></supportDesc><layoutDesc><layout><p>Der Text ist weitgehend vollständig erhalten, doch z.T. stark korrodiert. Er füllt das Inschriftenfeld nicht zur Gänze aus; unten bleibt ein Freiraum von der Höhe ca. einer Zeile.<lb/>Ligaturen: s. Majuskeltext. Besondere Zeichen: In Z.2 findet sich das Zeichen für den velaren Reibelaut, doch könnte es sich in Verbindung mit dem vorangehenden I auch um ein H mit nicht ganz nach links durchgezogener Querhaste handeln; in Z.5 befindet sich ein I longum in suis.</p><note type="condition">weitgehend vollständig</note></layout></layoutDesc></objectDesc><handDesc><handNote><desc type="execution">gemeißelt</desc></handNote></handDesc><decoDesc><decoNote><p>Auf der linken Schmalseite ist ein Füllhorn mit Blattkelch dargestellt. Die Formen sind behäbig und plastisch ausgearbeitet. Das Füllhorn ist von zwei Birnen und einem Apfel bekrönt. Die Krempe wird von einem akanthusblattartigen Dekor gebildet. <lb/>
-Auf der rechten Seite befindet sich ebenfalls ein gleich gestaltetes Füllhorn – hier ist als Füllung nur mehr eine Birne erkennbar (Stuart/Bogaers 2001, 122).</p><term ana="https://gams.uni-graz.at/o:fercan.arch#C.210100"><ref type="context" target="context:fercan.arch.apfel">Apfel</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800"><ref type="context" target="context:fercan.arch.aufsatzschmuck">Aufsatzschmuck</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.210200"><ref type="context" target="context:fercan.arch.birne">Birne</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.160200"><ref type="context" target="context:fercan.arch.blattdekor">Blattdekor</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300"><ref type="context" target="context:fercan.arch.fragment">Fragment</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.210000"><ref type="context" target="context:fercan.arch.frucht">Frucht</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.251510"><ref type="context" target="context:fercan.arch.fuellhorn_mit_blattkelch">Füllhorn mit Blattkelch</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.160000"><ref type="context" target="context:fercan.arch.reliefdekor">Reliefdekor</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.150400"><ref type="context" target="context:fercan.arch.reliefschmuck">Reliefschmuck</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060"><ref type="context" target="context:fercan.arch.rosette">Rosette</ref></term></decoNote></decoDesc></physDesc><history><origin><origPlace><placeName ref="https://pleiades.stoa.org/places/109000">Ganuenta</placeName><region>Civitas Frisiavonum</region></origPlace><origDate/></origin><provenance type="found" when="1970"><placeName><ref type="context" target="context:fercan.geog.modern.oosterschelde_bei_colijnsplaat">Oosterschelde bei Colijnsplaat</ref></placeName><location><geo decls="#WGS">51.599839 3.849262</geo></location><note>aus dem Meer geborgen</note></provenance><provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: Stuart/Bogaers 2001</provenance></history></msDesc><listPlace><place/></listPlace><listPerson><person><persName type="gentilnomen"><ref type="context" target="context:fercan.person.gentilnomen.senius">Senius</ref></persName></person><person><persName type="cognomen"><ref type="context" target="context:fercan.person.cognomen.secundus">Secundus</ref></persName></person><person><persName type="divine" subtype="celtic_normalized"><ref type="context" target="context:fercan.dcn.nehalennia">Nehalennia</ref></persName></person><person><persName type="divine" subtype="celtic_diplomatic"><ref type="context" target="context:fercan.dcd.nehalennia.deae_neichalenniae">deae Neichalenniae</ref></persName></person><person><persName type="divine" subtype="celtic_element"><ref type="context" target="context:fercan.dce.nehalennia">Nehalennia</ref></persName></person></listPerson><listOrg><org/></listOrg></sourceDesc></fileDesc><encodingDesc><geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl><editorialDecl><p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p><p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
-                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p></editorialDecl><projectDesc><p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+                    Karl-Franzens-Universität Graz</orgName>
+                </authority>
+                <distributor>
+                    <link target="https://gams.uni-graz.at"/>
+                    <orgName instant="false" full="yes">GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                </distributor>
+                <date when="2022" instant="false">2022</date>
+                <pubPlace>Graz</pubPlace>
+                <idno type="PID">o:fercan.387</idno>
+                <availability default="false">
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
+                    BY-NC 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+                  Celticarum Antiquarum</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Wolfgang</forename>
+                        <surname full="yes">Spickermann</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <msDesc status="draft">
+                    <msIdentifier>
+                        <settlement>Leiden</settlement>
+                        <repository>Rijksmuseum van Oudheden</repository>
+                        <idno>i 1970/12.42</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Weihinschrift</summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p part="N">Der Altar ist durch einige Bruchlinien beschädigt, jedoch annähernd vollständig erhalten. An der linken Kante befindet sich im oberen Bereich ein kleiner Ausbruch. Ebenfalls sind der Sockel und die rechte untere Kante etwas bestoßen und ausgebrochen. An der linken Seite ist das Relief durch eine von links oben nach rechts unten schräg verlaufende Bruchlinie beschädigt.<lb/>Der Sockel ist profiliert, das Gesims zwischen Altarkörper und Aufsatz springt erheblich nach vor. Sockel und Gesims sind auf drei Seiten umlaufend. Auf dem Aufsatz ruhen auf einer Platte der mittige, rosettenverzierte Giebel und links und rechts die blattverzierten Pulvini. Oben sind links hinten eine Birne und rechts hinten Spuren einer weiteren Frucht erhalten.</p>
+                                    <material>
+                                        <ref type="context" target="context:fercan.material.kalkstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref>
+                                    </material>
+                                    <objectType>Weihealtar</objectType>
+                                    <dimensions>
+                                        <height unit="cm">59,0</height>
+                                        <width unit="cm">36,5</width>
+                                        <depth unit="cm">15,0</depth>
+                                    </dimensions>
+                                </support>
+                                <condition>
+                                    <ref type="context" target="context:fercan.condition-o.vollstaendig" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p part="N">Der Text ist weitgehend vollständig erhalten, doch z.T. stark korrodiert. Er füllt das Inschriftenfeld nicht zur Gänze aus; unten bleibt ein Freiraum von der Höhe ca. einer Zeile.<lb/>Ligaturen: s. Majuskeltext. Besondere Zeichen: In Z.2 findet sich das Zeichen für den velaren Reibelaut, doch könnte es sich in Verbindung mit dem vorangehenden I auch um ein H mit nicht ganz nach links durchgezogener Querhaste handeln; in Z.5 befindet sich ein I longum in suis.</p>
+                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">weitgehend vollständig</tei:note>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <desc type="execution">gemeißelt</desc>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <p part="N">Auf der linken Schmalseite ist ein Füllhorn mit Blattkelch dargestellt. Die Formen sind behäbig und plastisch ausgearbeitet. Das Füllhorn ist von zwei Birnen und einem Apfel bekrönt. Die Krempe wird von einem akanthusblattartigen Dekor gebildet. <lb/>
+Auf der rechten Seite befindet sich ebenfalls ein gleich gestaltetes Füllhorn – hier ist als Füllung nur mehr eine Birne erkennbar (Stuart/Bogaers 2001, 122).</p>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.210100">
+                                    <ref type="context" target="context:fercan.arch.apfel">Apfel</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">
+                                    <ref type="context" target="context:fercan.arch.aufsatzschmuck">Aufsatzschmuck</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.210200">
+                                    <ref type="context" target="context:fercan.arch.birne">Birne</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160200">
+                                    <ref type="context" target="context:fercan.arch.blattdekor">Blattdekor</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">
+                                    <ref type="context" target="context:fercan.arch.fragment">Fragment</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.210000">
+                                    <ref type="context" target="context:fercan.arch.frucht">Frucht</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251510">
+                                    <ref type="context" target="context:fercan.arch.fuellhorn_mit_blattkelch">Füllhorn mit Blattkelch</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160000">
+                                    <ref type="context" target="context:fercan.arch.reliefdekor">Reliefdekor</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150400">
+                                    <ref type="context" target="context:fercan.arch.reliefschmuck">Reliefschmuck</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">
+                                    <ref type="context" target="context:fercan.arch.rosette">Rosette</ref>
+                                </term>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin instant="false">
+                            <origPlace instant="false">
+                                <placeName ref="https://pleiades.stoa.org/places/109000" instant="false" full="yes">Ganuenta</placeName>
+                                <region>Civitas Frisiavonum</region>
+                            </origPlace>
+                            <origDate instant="false"/>
+                        </origin>
+                        <provenance type="found" when="1970">
+                            <placeName instant="false" full="yes">
+                                <ref type="context" target="context:fercan.geog.modern.oosterschelde_bei_colijnsplaat">Oosterschelde bei Colijnsplaat</ref>
+                            </placeName>
+                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                                <geo decls="#WGS">51.599839 3.849262</geo>
+                            </tei:location>
+                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">aus dem Meer geborgen</tei:note>
+                        </provenance>
+                        <provenance type="observed" subtype="autopsied">
+                            <p part="N">non vidimus</p>
+                            <p part="N">
+                                <lb/>Lesung gründet auf: Stuart/Bogaers 2001</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace default="false">
+                    <place instant="false"/>
+                </listPlace>
+                <listPerson default="false">
+                    <person instant="false">
+                        <persName type="gentilnomen" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.person.gentilnomen.senius">Senius</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="cognomen" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.person.cognomen.secundus">Secundus</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dcn.nehalennia">Nehalennia</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_diplomatic" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dcd.nehalennia.deae_neichalenniae">deae Neichalenniae</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_element" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dce.nehalennia">Nehalennia</ref>
+                        </persName>
+                    </person>
+                </listPerson>
+                <listOrg default="false">
+                    <org instant="false"/>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <geoDecl xml:id="WGS" datum="WGS84" default="false">World Geodetic System</geoDecl>
+            <editorialDecl default="false">
+                <p part="N">Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+                <p part="N">Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+            </editorialDecl>
+            <projectDesc default="false">
+                <p part="N">Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
                   Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
-                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p><p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+                <p part="N">Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
                   lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
                   zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
                   besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
@@ -22,18 +221,155 @@ Auf der rechten Seite befindet sich ebenfalls ein gleich gestaltetes Füllhorn �
                   beigetragen werden.<lb/> Die Abschlusspublikation wird ergänzt um einen
                   ausführlichen sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo
                   Stempel) in der Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum
-                  Celticarum antiquarum)‘ erscheinen. </p></projectDesc></encodingDesc><profileDesc><langUsage><language ident="la">Latein</language></langUsage><textClass><keywords><list><item><ref type="context" target="context:fercan.dedication.pro_se_et_suis">pro se et suis</ref></item><item><ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref></item><item><ref type="context" target="context:fercan.character.sonderzeichen_fuer_velaren_reibelaut">Sonderzeichen für velaren Reibelaut </ref></item><item/></list></keywords></textClass></profileDesc><revisionDesc><change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.387/TEI_SOURCE.2020-02-26">Initial Version</change><change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.387/TEI_SOURCE.2022-03-07">Version 2</change><change when="2022" n="3">Version 3</change></revisionDesc></teiHeader><facsimile><graphic mimeType="image/png" xml:id="IMAGE.1" url="file:///0387_Front.PNG"><desc>Front, Stuart/Bogaers 2001, Taf.79, B31, Rechte vorbehalten</desc></graphic><graphic mimeType="image/png" xml:id="IMAGE.2" url="file:///0387_li.PNG"><desc>links, Stuart/Bogaers 2001, Taf.79, B31, Rechte vorbehalten</desc></graphic></facsimile><text><body><ab><ref target="context:fercan" type="context">FERCAN</ref></ab><div subtype="editions" type="bibliography" org="uniform"><listBibl><bibl xml:id="LIT.1">Stuart/Bogaers 1971, Nr.42</bibl><bibl xml:id="LIT.2">AE 1975, 649</bibl><bibl xml:id="LIT.3">Stuart/Bogaers 2001, B31</bibl></listBibl></div><div subtype="concordances" type="bibliography" org="uniform"><listBibl><bibl type="EDCS"><idno> </idno> <date>zuletzt aufgerufen am 24. Februar 2020</date></bibl><bibl type="EDH"><idno> </idno> <date>Version vom 12. Juni 2017</date></bibl><bibl type="trismegistos"><idno> </idno> <date>zuletzt aufgerufen am 30. Juni 2021</date></bibl></listBibl></div><div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/>DEAE  <lb n="2"/>
+                  Celticarum antiquarum)‘ erscheinen. </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage default="false">
+                <language ident="la">Latein</language>
+            </langUsage>
+            <textClass default="false">
+                <keywords>
+                    <list>
+                        <item>
+                            <ref type="context" target="context:fercan.dedication.pro_se_et_suis">pro se et suis</ref>
+                        </item>
+                        <item>
+                            <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
+                        </item>
+                        <item>
+                            <ref type="context" target="context:fercan.character.sonderzeichen_fuer_velaren_reibelaut">Sonderzeichen für velaren Reibelaut </ref>
+                        </item>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.387/TEI_SOURCE.2020-02-26" status="draft">Initial Version</change>
+            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.387/TEI_SOURCE.2022-03-07" status="draft">Version 2</change>
+            <change when="2022" n="3" status="draft">Version 3</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic mimeType="image/png" xml:id="IMAGE.1" url="file:///0387_Front.PNG">
+            <desc>Front, Stuart/Bogaers 2001, Taf.79, B31, Rechte vorbehalten</desc>
+        </graphic>
+        <graphic mimeType="image/png" xml:id="IMAGE.2" url="file:///0387_li.PNG">
+            <desc>links, Stuart/Bogaers 2001, Taf.79, B31, Rechte vorbehalten</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <ab part="N">
+                <ref target="context:fercan" type="context">FERCAN</ref>
+            </ab>
+            <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl default="false">
+                    <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 1971, Nr.42</bibl>
+                    <bibl xml:id="LIT.2" default="false" status="draft">AE 1975, 649</bibl>
+                    <bibl xml:id="LIT.3" default="false" status="draft">Stuart/Bogaers 2001, B31</bibl>
+                </listBibl>
+            </div>
+            <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl>
+                    <bibl type="EDCS">
+                        <idno>EDCS-09400567</idno>
+                        <date>zuletzt aufgerufen am 24. Februar 2020</date>
+                    </bibl>
+                    <bibl type="EDH">
+                        <idno>HD010798</idno>
+                        <date>Version vom 12. Juni 2017</date>
+                    </bibl>
+                    <bibl type="trismegistos">
+                        <idno>www.trismegistos.org/text/208882</idno>
+                        <date>zuletzt aufgerufen am 30. Juni 2021</date>
+                    </bibl>
+                </listBibl>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>DEAE  <lb n="2"/>
 <hi rend="ligature">NE</hi>I˧ALENNI  <lb n="3"/>
-AE C SENIV<unclear>S</unclear>  <lb n="4"/>
+AE C SENIV<unclear instant="false">S</unclear>  <lb n="4"/>
 SECVNDVS  <lb n="5"/>
-PR<gap reason="lost" extent="unknown" unit="character"/> <hi rend="ligature">ET</hi> SVI<unclear>S</unclear>  <lb n="6"/>
-V <unclear>S</unclear> L M</orig></ab></div><div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Deae<lb n="2"/>Neichalenni<lb n="3" break="no"/>ae <expan><abbr>C</abbr><ex>aius</ex></expan> Senius<lb n="4"/>Secundus<lb n="5"/>pr<supplied reason="lost">o se</supplied> et suis<lb n="6"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div><div type="translation" xml:lang="de" org="uniform"><p>Für die Göttin  <rs type="divine">Neichalennia!</rs>  <lb/>
-Gaius Senius Secundus hat für sich und die Seinen das Gelübde gerne und verdientermaßen erfüllt.</p></div><div type="translation" xml:lang="en" org="uniform"><p>To the goddess  <rs type="divine">Neichalennia!</rs>  <lb/>
-Gaius Senius Secundus has fulfilled a vow willingly and deservedly for himself and his family.  </p></div><div type="apparatus" org="uniform"><app loc="#MIN.2 #MAJ.2"><note>N̂ehalenni – Stuart/Bogaers 1971; Nehalenni, ohne Ligatur – AE, EDH</note></app><app loc="#MIN.3 #MAJ.3"><note>ohne Zeilenwechsel nach Senius – Stuart/Bogaers 1971, EDH</note></app><app loc="#MIN.5 #MAJ.5"><note>ohne Ligatur – AE, EDH</note></app><app loc="#MIN.6 #MAJ.6"><note>[s(olvit)] – Stuart/Bogaers 1971, AE, EDH</note></app></div><div type="commentary" subtype="general" org="uniform"><p>Gaius Senius Secundus: tria nomina <lb/>
+PR<gap reason="lost" extent="unknown" unit="character" instant="false"/> <hi rend="ligature">ET</hi> SVI<unclear instant="false">S</unclear>  <lb n="6"/>
+V <unclear instant="false">S</unclear> L M</orig></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Deae<lb n="2"/>Neichalenni<lb n="3" break="no"/>ae <expan instant="false"><abbr>C</abbr><ex instant="false">aius</ex></expan> Senius<lb n="4"/>Secundus<lb n="5"/>pr<supplied reason="lost" instant="false">o se</supplied> et suis<lb n="6"/><expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
+            <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
+                <p part="N">Für die Göttin  <rs type="divine">Neichalennia!</rs>  <lb/>
+Gaius Senius Secundus hat für sich und die Seinen das Gelübde gerne und verdientermaßen erfüllt.</p>
+            </div>
+            <div type="translation" xml:lang="en" org="uniform" part="N" sample="complete">
+                <p part="N">To the goddess  <rs type="divine">Neichalennia!</rs>  <lb/>
+Gaius Senius Secundus has fulfilled a vow willingly and deservedly for himself and his family.  </p>
+            </div>
+            <div type="apparatus" org="uniform" part="N" sample="complete">
+                <app loc="#MIN.2 #MAJ.2">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">N̂ehalenni – Stuart/Bogaers 1971; Nehalenni, ohne Ligatur – AE, EDH</tei:note>
+                </app>
+                <app loc="#MIN.3 #MAJ.3">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Zeilenwechsel nach Senius – Stuart/Bogaers 1971, EDH</tei:note>
+                </app>
+                <app loc="#MIN.5 #MAJ.5">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – AE, EDH</tei:note>
+                </app>
+                <app loc="#MIN.6 #MAJ.6">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[s(olvit)] – Stuart/Bogaers 1971, AE, EDH</tei:note>
+                </app>
+            </div>
+            <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
+                <p part="N">Gaius Senius Secundus: tria nomina <lb/>
 Senius: Variante von Sennius: italisches Gentilnomen oder einheimisches Pseudogentilnomen, abgeleitet vom keltischen Cognomen Sen(n)us (Kakoschke 2006, GN 1147) <lb/>
-Secundus: lateinisches Cognomen, überall äußerst gängig (Kakoschke 2008, CN 2757)</p></div><div type="commentary" subtype="deity" org="uniform"><p> <rs type="divine">Neichalennia:</rs> Variante von  <rs type="divine">Nehalennia:</rs> keltisch; ‚diejenige im Salzwasser bzw. in der See‘ (de Bernardo Stempel in Spickermann 2005, 141; de Bernardo Stempel 2004)   </p><p>
+Secundus: lateinisches Cognomen, überall äußerst gängig (Kakoschke 2008, CN 2757)</p>
+            </div>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Neichalennia:</rs> Variante von  <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).</p>
+                                                <p part="N">
 
-Vorkommen in theonymischen Formularen: </p><p>
+Vorkommen in theonymischen Formularen: </p>
+                                                <p part="N">
  <rs type="divine">Nehalennia</rs>: <lb/>
 - Germania Inferior: Belege sind überaus häufig. Zwei Inschriften stammen aus Köln alle anderen aus Domburg und Colijnsplaat. Die Göttin wird dabei, bis auf wenige Ausnahmen, stets als  <rs type="divine">dea Nehalennia</rs> angesprochen. <lb/> 
-- außerhalb der Germania Inferior: -</p></div><linkGrp type="alignment" domains="#majuscule #minuscule"><link target="#MAJ.1 #MIN.1"/><link target="#MAJ.2 #MIN.2"/><link target="#MAJ.3 #MIN.3"/><link target="#MAJ.4 #MIN.4"/><link target="#MAJ.5 #MIN.5"/><link target="#MAJ.6 #MIN.6"/></linkGrp></body><back><note type="Objbeschr_note"/><note type="ArchKlass_note"/><note type="Material_note"/><note type="Inschrifttraeger_note"/><note type="VerwahrortOrt_note"/><note type="InvNr_note"/><note type="Fundstelle_note"/><note type="Fundumst_note"/><note type="Fundjahr_note"/><note type="FOantik_note"/><note type="FOmodern_note"/><note type="civitas_note"/><note type="Autopsie_note"/><note type="Appcrit_note"/><note type="Abb_note"/><note type="englUEbers_note"/><note type="dtUEbers_note"/><note type="Editionen_note"/><note type="ErhzustObj_note"/><note type="Masse_note"/><note type="Ikonogr_note"/><note type="Inschrtext_note"/><note type="ErhzustInschr_note"/><note type="Schrifttechnik_note"/><note type="Buchsthoehe_note"/><note type="Notvar_note"/><note type="SonstKomm_note"/><note type="Datierung_note"/></back></text></TEI>
+- außerhalb der Germania Inferior: -</p>
+            </div>
+            <linkGrp type="alignment" domains="#majuscule #minuscule">
+                <link target="#MAJ.1 #MIN.1"/>
+                <link target="#MAJ.2 #MIN.2"/>
+                <link target="#MAJ.3 #MIN.3"/>
+                <link target="#MAJ.4 #MIN.4"/>
+                <link target="#MAJ.5 #MIN.5"/>
+                <link target="#MAJ.6 #MIN.6"/>
+            </linkGrp>
+        </body>
+        <back>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+                <p part="N">Für die Alte Version (25.04.23) siehe CF-GeI-286<br/>
+                </p>
+            </tei:note>
+        </back>
+    </text>
+</TEI>

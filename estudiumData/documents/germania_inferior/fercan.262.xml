@@ -1,13 +1,233 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior262"><teiHeader><fileDesc><titleStmt><title type="full"><title type="main">Borvoboendoa? | Cobba?</title><title type="sub">CF-GeI-262</title></title><respStmt><resp>Inschriftenedition</resp><persName><forename>Werner</forename><surname>Petermandl</surname></persName></respStmt><respStmt><resp>Archäologische Beschreibung und geografische Daten</resp><persName><forename>Astrid</forename><surname>Schmölzer</surname></persName></respStmt><funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
-                  29274-G25</funder></titleStmt><publicationStmt><publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich
-                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher><authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior262">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Borvoboendoa? | Cobba?</title>
+                    <title type="sub">CF-GeI-262</title>
+                </title>
+                <respStmt>
+                    <resp>Inschriftenedition</resp>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Werner</forename>
+                        <surname full="yes">Petermandl</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Archäologische Beschreibung und geografische Daten</resp>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Astrid</forename>
+                        <surname full="yes">Schmölzer</surname>
+                    </persName>
+                </respStmt>
+                <funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P
+                  29274-G25</funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <link target="https://antike.uni-graz.at"/>
+                    <orgName ref="https://d-nb.info/gnd/1213531357" instant="false" full="yes">Institut für Antike, Fachbereich
+                    Alte Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
+                </publisher>
+                <authority>
+                    <link target="https://informationsmodellierung.uni-graz.at"/>
+                    <orgName ref="http://d-nb.info/gnd/1137284463" instant="false" full="yes">Zentrum für
                     Informationsmodellierung - Austrian Centre for Digital Humanities,
-                    Karl-Franzens-Universität Graz</orgName></authority><distributor><link target="https://gams.uni-graz.at"/><orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor><date when="2022">2022</date><pubPlace>Graz</pubPlace><idno type="PID">o:fercan.262</idno><availability><licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
-                    BY-NC 4.0</licence></availability></publicationStmt><seriesStmt><title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
-                  Celticarum Antiquarum</title><respStmt><resp>Projektleitung</resp><persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName></respStmt></seriesStmt><sourceDesc><msDesc><msIdentifier><settlement>Utrecht</settlement><repository>Museum Catharijneconvent</repository></msIdentifier><msContents><summary>Weihinschrift</summary></msContents><physDesc><objectDesc><supportDesc><support><p>Eine Steintafel mit insgesamt acht Zeilen von Weihungen bzw. Nennungen von Gottheiten. Die Tafel weist keine Rahmen auf.</p><material><ref type="context" target="context:fercan.material.sandstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref></material><objectType>Weihestein</objectType><dimensions><height unit="cm">46,0</height><width unit="cm">69,0</width><depth unit="cm">13,0</depth></dimensions></support><condition><ref type="context" target="context:fercan.condition-o.unklar" ana="https://gams.uni-graz.at/o:fercan.arch#C.130700">unklar</ref></condition></supportDesc><layoutDesc><layout><p>Der Text findet sich auf einer von mehreren Tafeln (bzw. Resten davon), die mit außergewöhnlicher Schrift beschrieben sind. Sie enthält mehrere Weihetexte, die aber nicht überall eindeutig voneinander abgegrenzt werden können. Die Interpunktion ist unsicher und könnte auch anders gesetzt werden. Es ist auch unklar, ob die Zeile Anfang und Ende des ursprünglichen Textes erfasst. Es ist wohl nicht auszuschließen, dass sich der Text links und rechts auf weiteren Tafeln fortsetzte. Hier erfasst ist die 4. Zeile der Tafel B (Tafel B Nr.4, nach Vollgraff 1931), die möglicherweise den Rest eines ersten und einen vollständigen zweiten Weihetext enthält.<lb/>Bemerkenswert ist die einzigartige, ungewöhnliche Form der ineinander verschlungenen Buchstaben. Die Lesung des Textes ist problematisch. Sie beruht in der hier vorgelegten Form auf Vollgraff. Nesselhauf 1937, Nr.257 meint, dass eine zunächst normal geschriebene Inschrift zugrunde zu liegen scheint, die durch „Auflegen eines spinnwebartigen Schnörkelnetzes über die einzelnen Zeilen verziert oder unverständlich gemacht werden sollte“.<lb/>In die vorliegende Sammlung wurden auch noch zwei weitere Zeilen dieser Tafel aufgenommen: CF-GeI-136 und CF-GeI-137.</p><note type="condition">weitgehend vollständig</note></layout></layoutDesc></objectDesc><handDesc><handNote><height unit="cm" atLeast="3.5" atMost="5">3,5–5 cm</height></handNote></handDesc><decoDesc><decoNote><p>kein Dekor vorhanden</p><term><ref type="context" target="context:fercan.arch.inschriftenansammlung">Inschriftenansammlung</ref></term><term ana="https://gams.uni-graz.at/o:fercan.arch#C.110500"><ref type="context" target="context:fercan.arch.tafel">Tafel</ref></term></decoNote></decoDesc></physDesc><history><origin><origPlace><placeName ref="https://pleiades.stoa.org/places/99046">Traiectum</placeName><region>Civitas Canninefatium</region></origPlace><origDate/></origin><provenance type="found" when="1929"><placeName><ref type="context" target="context:fercan.geog.modern.utrecht">Utrecht</ref></placeName><p>mitten in der Stadt vor den Toren der Akademie</p><location><geo decls="#WGS">52.082366 5.132945</geo></location></provenance><provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: Vollgraff 1931</provenance></history></msDesc><listPlace><place/><place type="antique_term"><placeName><ref type="context" target="context:fercan.geog.term.albiobola">Albiobola</ref></placeName></place><place type="antique_term"><placeName><ref type="context" target="context:fercan.geog.term.albiobola_bataborum">Albiobola Bataborum</ref></placeName></place><place type="antique_term"><placeName><ref type="context" target="context:fercan.geog.term.colonia_sudobeba_brabonum">Colonia Sudobeba Brabonum</ref></placeName></place><place type="antique_term"><placeName><ref type="context" target="context:fercan.geog.term.sudobeba_brabonum">Sudobeba Brabonum</ref></placeName></place></listPlace><listPerson><person><persName type="divine" subtype="celtic_normalized"><ref type="context" target="context:fercan.dcn.borvoboendoa_">Borvoboendoa?</ref></persName></person><person><persName type="divine" subtype="celtic_diplomatic"><ref type="context" target="context:fercan.dcd.borvoboendoa_.deab_us__borvoboedoae_">deab(us) Borvoboedoae Cobbae</ref></persName></person><person><persName type="divine" subtype="celtic_normalized"><ref type="context" target="context:fercan.dcn.cobba_">Cobba?</ref></persName></person><person><persName type="divine" subtype="celtic_diplomatic"><ref type="context" target="context:fercan.dcd.cobba_.deab_us__borvoboedoae_">deab(us) Borvoboedoae Cobbae</ref></persName></person><person><persName type="divine" subtype="celtic_element"><ref type="context" target="context:fercan.dce.borvoboendoa_">Borvoboendoa?</ref></persName></person><person><persName type="divine" subtype="celtic_element"><ref type="context" target="context:fercan.dce.cobba_">Cobba?</ref></persName></person><person><persName type="divine"><ref type="context" target="context:fercan.person.divine-o.lobbonus_albiobolae_genius_sanct">Lobbonus Albiobolae Genius sanctus</ref></persName></person></listPerson><listOrg><org/><org type="admin_unit"><orgName><ref type="context" target="context:fercan.org.admin.albiobola">Albiobola</ref></orgName></org><org type="admin_unit"><orgName><ref type="context" target="context:fercan.org.admin.albiobola_bataborum">Albiobola Bataborum</ref></orgName></org><org type="admin_unit"><orgName><ref type="context" target="context:fercan.org.admin.colonia_sudobeba_brabonum">Colonia Sudobeba Brabonum</ref></orgName></org><org type="admin_unit"><orgName><ref type="context" target="context:fercan.org.admin.sudobeba_brabonum">Sudobeba Brabonum</ref></orgName></org></listOrg></sourceDesc></fileDesc><encodingDesc><geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl><editorialDecl><p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p><p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
-                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p></editorialDecl><projectDesc><p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+                    Karl-Franzens-Universität Graz</orgName>
+                </authority>
+                <distributor>
+                    <link target="https://gams.uni-graz.at"/>
+                    <orgName instant="false" full="yes">GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                </distributor>
+                <date when="2022" instant="false">2022</date>
+                <pubPlace>Graz</pubPlace>
+                <idno type="PID">o:fercan.262</idno>
+                <availability default="false">
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
+                    BY-NC 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+                  Celticarum Antiquarum</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName instant="false" full="yes">
+                        <forename full="yes">Wolfgang</forename>
+                        <surname full="yes">Spickermann</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc default="false">
+                <msDesc status="draft">
+                    <msIdentifier>
+                        <settlement>Utrecht</settlement>
+                        <repository>Museum Catharijneconvent</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Weihinschrift</summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p part="N">Eine Steintafel mit insgesamt acht Zeilen von Weihungen bzw. Nennungen von Gottheiten. Die Tafel weist keine Rahmen auf.</p>
+                                    <material>
+                                        <ref type="context" target="context:fercan.material.sandstein" ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref>
+                                    </material>
+                                    <objectType>Weihestein</objectType>
+                                    <dimensions>
+                                        <height unit="cm">46,0</height>
+                                        <width unit="cm">69,0</width>
+                                        <depth unit="cm">13,0</depth>
+                                    </dimensions>
+                                </support>
+                                <condition>
+                                    <ref type="context" target="context:fercan.condition-o.unklar" ana="https://gams.uni-graz.at/o:fercan.arch#C.130700">unklar</ref>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p part="N">Der Text findet sich auf einer von mehreren Tafeln (bzw. Resten davon), die mit außergewöhnlicher Schrift beschrieben sind. Sie enthält mehrere Weihetexte, die aber nicht überall eindeutig voneinander abgegrenzt werden können. Die Interpunktion ist unsicher und könnte auch anders gesetzt werden. Es ist auch unklar, ob die Zeile Anfang und Ende des ursprünglichen Textes erfasst. Es ist wohl nicht auszuschließen, dass sich der Text links und rechts auf weiteren Tafeln fortsetzte. Hier erfasst ist die 4. Zeile der Tafel B (Tafel B Nr.4, nach Vollgraff 1931), die möglicherweise den Rest eines ersten und einen vollständigen zweiten Weihetext enthält.<lb/>Bemerkenswert ist die einzigartige, ungewöhnliche Form der ineinander verschlungenen Buchstaben. Die Lesung des Textes ist problematisch. Sie beruht in der hier vorgelegten Form auf Vollgraff. Nesselhauf 1937, Nr.257 meint, dass eine zunächst normal geschriebene Inschrift zugrunde zu liegen scheint, die durch „Auflegen eines spinnwebartigen Schnörkelnetzes über die einzelnen Zeilen verziert oder unverständlich gemacht werden sollte“.<lb/>In die vorliegende Sammlung wurden auch noch zwei weitere Zeilen dieser Tafel aufgenommen: CF-GeI-136 und CF-GeI-137.</p>
+                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">weitgehend vollständig</tei:note>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height unit="cm" atLeast="3.5" atMost="5">3,5–5 cm</height>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <p part="N">kein Dekor vorhanden</p>
+                                <term>
+                                    <ref type="context" target="context:fercan.arch.inschriftenansammlung">Inschriftenansammlung</ref>
+                                </term>
+                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.110500">
+                                    <ref type="context" target="context:fercan.arch.tafel">Tafel</ref>
+                                </term>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin instant="false">
+                            <origPlace instant="false">
+                                <placeName ref="https://pleiades.stoa.org/places/99046" instant="false" full="yes">Traiectum</placeName>
+                                <region>Civitas Canninefatium</region>
+                            </origPlace>
+                            <origDate instant="false"/>
+                        </origin>
+                        <provenance type="found" when="1929">
+                            <placeName instant="false" full="yes">
+                                <ref type="context" target="context:fercan.geog.modern.utrecht">Utrecht</ref>
+                            </placeName>
+                            <p part="N">mitten in der Stadt vor den Toren der Akademie</p>
+                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                                <geo decls="#WGS">52.082366 5.132945</geo>
+                            </tei:location>
+                        </provenance>
+                        <provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: Vollgraff 1931</provenance>
+                    </history>
+                </msDesc>
+                <listPlace default="false">
+                    <place instant="false"/>
+                    <place type="antique_term" instant="false">
+                        <placeName instant="false" full="yes">
+                            <ref type="context" target="context:fercan.geog.term.albiobola">Albiobola</ref>
+                        </placeName>
+                    </place>
+                    <place type="antique_term" instant="false">
+                        <placeName instant="false" full="yes">
+                            <ref type="context" target="context:fercan.geog.term.albiobola_bataborum">Albiobola Bataborum</ref>
+                        </placeName>
+                    </place>
+                    <place type="antique_term" instant="false">
+                        <placeName instant="false" full="yes">
+                            <ref type="context" target="context:fercan.geog.term.colonia_sudobeba_brabonum">Colonia Sudobeba Brabonum</ref>
+                        </placeName>
+                    </place>
+                    <place type="antique_term" instant="false">
+                        <placeName instant="false" full="yes">
+                            <ref type="context" target="context:fercan.geog.term.sudobeba_brabonum">Sudobeba Brabonum</ref>
+                        </placeName>
+                    </place>
+                </listPlace>
+                <listPerson default="false">
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dcn.borvoboendoa_">Borvoboendoa?</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_diplomatic" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dcd.borvoboendoa_.deab_us__borvoboedoae_">deab(us) Borvoboedoae Cobbae</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dcn.cobba_">Cobba?</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_diplomatic" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dcd.cobba_.deab_us__borvoboedoae_">deab(us) Borvoboedoae Cobbae</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_element" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dce.borvoboendoa_">Borvoboendoa?</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_element" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dce.cobba_">Cobba?</ref>
+                        </persName>
+                    </person>
+                    <person instant="false">
+                        <persName type="divine" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.person.divine-o.lobbonus_albiobolae_genius_sanct">Lobbonus Albiobolae Genius sanctus</ref>
+                        </persName>
+                    </person>
+                </listPerson>
+                <listOrg default="false">
+                    <org instant="false"/>
+                    <org type="admin_unit" instant="false">
+                        <orgName instant="false" full="yes">
+                            <ref type="context" target="context:fercan.org.admin.albiobola">Albiobola</ref>
+                        </orgName>
+                    </org>
+                    <org type="admin_unit" instant="false">
+                        <orgName instant="false" full="yes">
+                            <ref type="context" target="context:fercan.org.admin.albiobola_bataborum">Albiobola Bataborum</ref>
+                        </orgName>
+                    </org>
+                    <org type="admin_unit" instant="false">
+                        <orgName instant="false" full="yes">
+                            <ref type="context" target="context:fercan.org.admin.colonia_sudobeba_brabonum">Colonia Sudobeba Brabonum</ref>
+                        </orgName>
+                    </org>
+                    <org type="admin_unit" instant="false">
+                        <orgName instant="false" full="yes">
+                            <ref type="context" target="context:fercan.org.admin.sudobeba_brabonum">Sudobeba Brabonum</ref>
+                        </orgName>
+                    </org>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <geoDecl xml:id="WGS" datum="WGS84" default="false">World Geodetic System</geoDecl>
+            <editorialDecl default="false">
+                <p part="N">Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+                <p part="N">Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+                  Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+            </editorialDecl>
+            <projectDesc default="false">
+                <p part="N">Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
                   Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
-                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p><p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+                  Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+                <p part="N">Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
                   lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen haben,
                   zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage erscheint
                   besonders geeignet Erscheinungsformen zu untersuchen, welche auf religiöser Ebene
@@ -21,28 +241,149 @@
                   beigetragen werden.<lb/> Die Abschlusspublikation wird ergänzt um einen
                   ausführlichen sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo
                   Stempel) in der Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum
-                  Celticarum antiquarum)‘ erscheinen. </p></projectDesc></encodingDesc><profileDesc><langUsage><language ident="la">Latein</language></langUsage><textClass><keywords><list><item><ref type="context" target="context:fercan.dedication.libens_animo_votum_solvit">libens animo votum solvit</ref></item><item><ref type="context" target="context:fercan.dedication.votis_susceptis_libentes_posuerunt">votis susceptis libentes posuerunt</ref></item><item><ref type="context" target="context:fercan.character.besondere,_extrem_verschlungene_schrift">besondere, extrem verschlungene Schrift</ref></item><item/></list></keywords></textClass></profileDesc><revisionDesc><change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.262/TEI_SOURCE.2020-02-26">Initial Version</change><change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.262/TEI_SOURCE.2022-03-07">Version 2</change><change when="2022" n="3">Version 3</change></revisionDesc></teiHeader><facsimile><graphic mimeType="image/png" xml:id="IMAGE.1" url="file:///0262_Front.PNG"><desc>Front, Vollgraff 1931, Taf.III; unser Text Zeile 4, Rechte vorbehalten</desc></graphic><graphic mimeType="image/png" xml:id="IMAGE.2" url="file:///0262_Abschrift.PNG"><desc>Abschrift, Vollgraff 1931, Taf.IV; unser Text Zeile 4, Rechte vorbehalten</desc></graphic></facsimile><text><body><ab><ref target="context:fercan" type="context">FERCAN</ref></ab><div subtype="editions" type="bibliography" org="uniform"><listBibl><bibl xml:id="LIT.1">Vollgraff 1931, 256-257, tabula B Nr.4</bibl></listBibl></div><div subtype="concordances" type="bibliography" org="uniform"><listBibl><bibl type="EDCS"><idno> </idno> <date>zuletzt aufgerufen am 24. Februar 2020</date></bibl><bibl type="trismegistos"><idno> </idno> <date>zuletzt aufgerufen am 26. Juli 2021</date></bibl></listBibl></div><div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform"><ab><orig><lb n="1"/>TSS L PPOS COLON SVDOBEB BRAB LOBBO ALBIOBO G S LBE A V SOLV DEAB BORVO BOEDOAE COBBAE ALBIOBO BA POS</orig></ab></div><div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/><supplied reason="lost">v</supplied>(o)<expan><abbr>t</abbr><ex>is</ex></expan> <expan><abbr>s</abbr><ex>uscepti</ex></expan>s <expan><abbr>l</abbr><ex>ibentes</ex></expan> <expan><abbr>pos</abbr><ex>uerunt</ex></expan>. <expan><abbr>Colon</abbr><ex>ia</ex></expan> <expan><abbr>Sudobeb</abbr><ex>a</ex></expan> <expan><abbr>Brab</abbr><ex>onum</ex></expan> <expan><abbr>Lobbo</abbr><ex>no</ex></expan>, <expan><abbr>Albiobo</abbr><ex>lae</ex></expan> <expan><abbr>G</abbr><ex>enio</ex></expan> <expan><abbr>s</abbr><ex>ancto</ex></expan>, <expan><abbr>l</abbr><ex>i</ex></expan><expan><abbr>be</abbr><ex>ns</ex></expan> <expan><abbr>a</abbr><ex>nimo</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>solv</abbr><ex>it</ex></expan>, <expan><abbr>deab</abbr><ex>us</ex></expan> Borvoboedoae Cobbae <expan><abbr>Albiobo</abbr><ex>lae</ex></expan> <expan><abbr>Ba</abbr><ex>taborum</ex></expan> <expan><abbr>pos</abbr><ex>uit</ex></expan></ab></div><div type="translation" xml:lang="de" org="uniform"><p>Nachdem Gelübde abgelegt worden waren haben sie dies gerne aufgestellt. Die Colonia Sudobeba Brabonum hat dem  <rs type="divine">Lobbonus</rs> – dem  <rs type="divine">Genius sanctus der (Colonia) Albiobola</rs> – mit freudigem Herzen das Gelübde gerne erfüllt (und?) dies für die Göttinnen  <rs type="divine">Borvoboedoa</rs> und  <rs type="divine">Cobba</rs> der (Colonia) Albiobola Bataborum aufgestellt.</p></div><div type="translation" xml:lang="en" org="uniform"><p>After vows were taken they willingly set this up. The Colonia Sudobeba Brabonum paid  <rs type="divine">Lobbonus</rs> – the  <rs type="divine">Genius sanctus of the (Colonia) Albiobola</rs> – their vow with a joyful heart (and?) set this up for the goddesses  <rs type="divine">Borvoboedoa</rs> and  <rs type="divine">Cobba</rs> of the (Colonia) Albiobola Bataborum.</p></div><div type="commentary" subtype="general" org="uniform"><p>Es könnte sich bei den Utrechter Tafeln um eine Sammlung von Weihinschriften handeln, die für anderwärtige Verwendung zusammengestellt worden waren. Das könnte vielleicht auch die seltsame Schriftform erklären. Franke (RE S VI 1935, Sp.3 s.v. Albiobola) vermutet, dass es sich bei den Tafeln um Weihinschriften für einen arcus quadrifrons handelt.  </p><p>
+                  Celticarum antiquarum)‘ erscheinen. </p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage default="false">
+                <language ident="la">Latein</language>
+            </langUsage>
+            <textClass default="false">
+                <keywords>
+                    <list>
+                        <item>
+                            <ref type="context" target="context:fercan.dedication.libens_animo_votum_solvit">libens animo votum solvit</ref>
+                        </item>
+                        <item>
+                            <ref type="context" target="context:fercan.dedication.votis_susceptis_libentes_posuerunt">votis susceptis libentes posuerunt</ref>
+                        </item>
+                        <item>
+                            <ref type="context" target="context:fercan.character.besondere,_extrem_verschlungene_schrift">besondere, extrem verschlungene Schrift</ref>
+                        </item>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.262/TEI_SOURCE.2020-02-26" status="draft">Initial Version</change>
+            <change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.262/TEI_SOURCE.2022-03-07" status="draft">Version 2</change>
+            <change when="2022" n="3" status="draft">Version 3</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic mimeType="image/png" xml:id="IMAGE.1" url="file:///0262_Front.PNG">
+            <desc>Front, Vollgraff 1931, Taf.III; unser Text Zeile 4, Rechte vorbehalten</desc>
+        </graphic>
+        <graphic mimeType="image/png" xml:id="IMAGE.2" url="file:///0262_Abschrift.PNG">
+            <desc>Abschrift, Vollgraff 1931, Taf.IV; unser Text Zeile 4, Rechte vorbehalten</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <ab part="N">
+                <ref target="context:fercan" type="context">FERCAN</ref>
+            </ab>
+            <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl default="false">
+                    <bibl xml:id="LIT.1" default="false" status="draft">Vollgraff 1931, 256-257, tabula B Nr.4</bibl>
+                </listBibl>
+            </div>
+            <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
+                <listBibl>
+                    <bibl type="EDCS">
+                        <idno>EDCS-59700175</idno>
+                        <date>zuletzt aufgerufen am 24. Februar 2020</date>
+                    </bibl>
+                    <bibl type="trismegistos">
+                        <idno>www.trismegistos.org/text/662543</idno>
+                        <date>zuletzt aufgerufen am 26. Juli 2021</date>
+                    </bibl>
+                </listBibl>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>TSS L PPOS COLON SVDOBEB BRAB LOBBO ALBIOBO G S LBE A V SOLV DEAB BORVO BOEDOAE COBBAE ALBIOBO BA POS</orig></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/><supplied reason="lost" instant="false">v</supplied>(o)<expan instant="false"><abbr>t</abbr><ex instant="false">is</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">uscepti</ex></expan>s <expan instant="false"><abbr>l</abbr><ex instant="false">ibentes</ex></expan> <expan instant="false"><abbr>pos</abbr><ex instant="false">uerunt</ex></expan>. <expan instant="false"><abbr>Colon</abbr><ex instant="false">ia</ex></expan> <expan instant="false"><abbr>Sudobeb</abbr><ex instant="false">a</ex></expan> <expan instant="false"><abbr>Brab</abbr><ex instant="false">onum</ex></expan> <expan instant="false"><abbr>Lobbo</abbr><ex instant="false">no</ex></expan>, <expan instant="false"><abbr>Albiobo</abbr><ex instant="false">lae</ex></expan> <expan instant="false"><abbr>G</abbr><ex instant="false">enio</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">ancto</ex></expan>, <expan instant="false"><abbr>l</abbr><ex instant="false">i</ex></expan><expan instant="false"><abbr>be</abbr><ex instant="false">ns</ex></expan> <expan instant="false"><abbr>a</abbr><ex instant="false">nimo</ex></expan> <expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>solv</abbr><ex instant="false">it</ex></expan>, <expan instant="false"><abbr>deab</abbr><ex instant="false">us</ex></expan> Borvoboedoae Cobbae <expan instant="false"><abbr>Albiobo</abbr><ex instant="false">lae</ex></expan> <expan instant="false"><abbr>Ba</abbr><ex instant="false">taborum</ex></expan> <expan instant="false"><abbr>pos</abbr><ex instant="false">uit</ex></expan></ab></div>
+            <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
+                <p part="N">Nachdem Gelübde abgelegt worden waren haben sie dies gerne aufgestellt. Die Colonia Sudobeba Brabonum hat dem  <rs type="divine">Lobbonus</rs> – dem  <rs type="divine">Genius sanctus der (Colonia) Albiobola</rs> – mit freudigem Herzen das Gelübde gerne erfüllt (und?) dies für die Göttinnen  <rs type="divine">Borvoboedoa</rs> und  <rs type="divine">Cobba</rs> der (Colonia) Albiobola Bataborum aufgestellt.</p>
+            </div>
+            <div type="translation" xml:lang="en" org="uniform" part="N" sample="complete">
+                <p part="N">After vows were taken they willingly set this up. The Colonia Sudobeba Brabonum paid  <rs type="divine">Lobbonus</rs> – the  <rs type="divine">Genius sanctus of the (Colonia) Albiobola</rs> – their vow with a joyful heart (and?) set this up for the goddesses  <rs type="divine">Borvoboedoa</rs> and  <rs type="divine">Cobba</rs> of the (Colonia) Albiobola Bataborum.</p>
+            </div>
+            <div type="apparatus" org="uniform" part="N" sample="complete">
+            </div>
+            <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
+                <p part="N">Es könnte sich bei den Utrechter Tafeln um eine Sammlung von Weihinschriften handeln, die für anderwärtige Verwendung zusammengestellt worden waren. Das könnte vielleicht auch die seltsame Schriftform erklären. Franke (RE S VI 1935, Sp.3 s.v. Albiobola) vermutet, dass es sich bei den Tafeln um Weihinschriften für einen arcus quadrifrons handelt.  </p>
+                <p part="N">
 
-Colonia Sudobeba Brabonum: bislang nicht lokalisiert; unter den Brabones ist ein bisher sonst nicht belegter Stammesname zu verstehen (s. dazu Vollgraff 1931, 254). </p><p>
+Colonia Sudobeba Brabonum: bislang nicht lokalisiert; unter den Brabones ist ein bisher sonst nicht belegter Stammesname zu verstehen (s. dazu Vollgraff 1931, 254). </p>
+                <p part="N">
 
-Albiobola Bataborum: Die Colonia Albiobola dürfte am Gebiet des späteren Traiectum (Utrecht) oder zur gleichen Zeit in unmittelbarer Nähe gelegen sein (Franke, RE S VI, 1935, Sp.3 s.v. Albiobola). – Bataborum steht auf diesen Tafeln für Batavorum. </p></div><div type="commentary" subtype="deity" org="uniform"><p> <rs type="divine">Borvoboedoa:</rs> Variante von  <rs type="divine">Borvoboendoa:</rs> Vollgraff 1931, 259 zitiert aus einem Schreiben von A.G. van Hamel: „Hoc nomen procul dubio Gallicum est.“  </p><p>
+Albiobola Bataborum: Die Colonia Albiobola dürfte am Gebiet des späteren Traiectum (Utrecht) oder zur gleichen Zeit in unmittelbarer Nähe gelegen sein (Franke, RE S VI, 1935, Sp.3 s.v. Albiobola). – Bataborum steht auf diesen Tafeln für Batavorum. </p>
+            </div>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">
+                <p part="N"> <rs type="divine">Borvoboedoa:</rs> Variante von  <rs type="divine">Borvoboendoa:</rs> Vollgraff 1931, 259 zitiert aus einem Schreiben von A.G. van Hamel: „Hoc nomen procul dubio Gallicum est.“  </p>
+                <p part="N">
 
-Vorkommen in theonymischen Formularen: </p><p>
+Vorkommen in theonymischen Formularen: </p>
+                <p part="N">
  <rs type="divine">Borvoboendoa:</rs> <lb/>
 - Germania Inferior: 2 x bezeugt (CF-GeI-136 und CF-GeI-262). In der hier vorgelegten Inschrift wird  <rs type="divine">Borvoboedoa</rs> zudem als  <rs type="divine">dea</rs> bezeichnet. <lb/> 
-- außerhalb der Germania Inferior: - </p><p>
+- außerhalb der Germania Inferior: - </p>
+                <p part="N">
 
-*** </p><p>
+*** </p>
+                <p part="N">
 
- <rs type="divine">Cobba</rs>: möglicherweise keltisch; vielleicht eine translatio Celtica von Victoriae (Vollgraff 1931, 260; vgl. Gutenbrunner 1936, 66f.) </p><p>
+ <rs type="divine">Cobba</rs>: möglicherweise keltisch; vielleicht eine translatio Celtica von Victoriae (Vollgraff 1931, 260; vgl. Gutenbrunner 1936, 66f.) </p>
+                <p part="N">
 
-Vorkommen in theonymischen Formularen: </p><p>
+Vorkommen in theonymischen Formularen: </p>
+                <p part="N">
  <rs type="divine">Cobba:</rs> <lb/>
 - Germania Inferior: nur in dieser Inschrift belegt. In der hier vorgelegten Inschrift wird  <rs type="divine">Cobba</rs> zudem als  <rs type="divine">dea</rs> bezeichnet.  <lb/> 
-- außerhalb der Germania Inferior: In Mandeure (F) ist auf einer Schale möglicherweise  <rs type="divine">Cobeia</rs> belegt (CIL XIII 5412). </p><p>
+- außerhalb der Germania Inferior: In Mandeure (F) ist auf einer Schale möglicherweise  <rs type="divine">Cobeia</rs> belegt (CIL XIII 5412). </p>
+                <p part="N">
 
-*** </p><p>
+*** </p>
+                <p part="N">
 
-Nicht keltische Götternamen: </p><p>
+Nicht keltische Götternamen: </p>
+                <p part="N">
 
- <rs type="divine">Lobbonus:</rs> germanisch (Vollgraff 1931, 251f.; vgl. Gutenbrunner 1931, 65–66). Das Verständnis von  <rs type="divine">Lobbonus</rs> als  <rs type="divine">Genius sanctus der (Colonia) Albiobola</rs> ergibt sich aus einer in anderen Textstellen auf den in Utrecht gefundenen Tafeln, wo ein  <rs type="divine">Genius sanctus Lobbonnus coloniae Albiobolae</rs> belegt ist. Außerdem finden sich noch  <rs type="divine">Genius sanctus Batabourum</rs>,  <rs type="divine">Genius Lobonnus Barabourum</rs>,  <rs type="divine">deus Lobbonnus coloniae Albiobolae Bataborum</rs>,  <rs type="divine">deus Bataborum Lobbon(n)us</rs> etc.  </p></div><linkGrp type="alignment" domains="#majuscule #minuscule"><link target="#MAJ.1 #MIN.1"/></linkGrp></body><back><note type="Objbeschr_note"/><note type="ArchKlass_note"/><note type="Material_note"/><note type="Inschrifttraeger_note"/><note type="VerwahrortOrt_note"/><note type="InvNr_note"/><note type="Fundstelle_note"/><note type="Fundumst_note"/><note type="Fundjahr_note"/><note type="FOantik_note"/><note type="FOmodern_note"/><note type="civitas_note"/><note type="Autopsie_note"/><note type="Appcrit_note"/><note type="Abb_note"/><note type="englUEbers_note"/><note type="dtUEbers_note"/><note type="Editionen_note"/><note type="ErhzustObj_note"/><note type="Masse_note"/><note type="Ikonogr_note"/><note type="Inschrtext_note"/><note type="ErhzustInschr_note"/><note type="Schrifttechnik_note"/><note type="Buchsthoehe_note"/><note type="Notvar_note"/><note type="SonstKomm_note"/><note type="Datierung_note"/></back></text></TEI>
+ <rs type="divine">Lobbonus:</rs> germanisch (Vollgraff 1931, 251f.; vgl. Gutenbrunner 1931, 65–66). Das Verständnis von  <rs type="divine">Lobbonus</rs> als  <rs type="divine">Genius sanctus der (Colonia) Albiobola</rs> ergibt sich aus einer in anderen Textstellen auf den in Utrecht gefundenen Tafeln, wo ein  <rs type="divine">Genius sanctus Lobbonnus coloniae Albiobolae</rs> belegt ist. Außerdem finden sich noch  <rs type="divine">Genius sanctus Batabourum</rs>,  <rs type="divine">Genius Lobonnus Barabourum</rs>,  <rs type="divine">deus Lobbonnus coloniae Albiobolae Bataborum</rs>,  <rs type="divine">deus Bataborum Lobbon(n)us</rs> etc.  </p>
+            </div>
+            <linkGrp type="alignment" domains="#majuscule #minuscule">
+                <link target="#MAJ.1 #MIN.1"/>
+            </linkGrp>
+        </body>
+        <back>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true"/>
+        </back>
+    </text>
+</TEI>
