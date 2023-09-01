@@ -1,68 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<file xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/"
-	xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/"
-	xmlns:tei="http://www.tei-c.org/ns/1.0"
-	xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:time="http://www.w3.org/2006/time#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<file xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:time="http://www.w3.org/2006/time#" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<thesauri>
 		<last-update>2022-02-07T18:01:35.736+01:00</last-update>
 		<generated-in>36.894 seconds</generated-in>
 		<count/>
 		<topConceptsUris>
-			<topConceptUri status="draft"
-				>https://ausohnum.huma-num.fr/concept/c19930</topConceptUri>
-			<topConceptUri status="published"
-				>https://ausohnum.huma-num.fr/concept/c66</topConceptUri>
-			<topConceptUri status="draft"
-				>https://ausohnum.huma-num.fr/concept/c19298</topConceptUri>
-			<topConceptUri status="draft"
-				>https://ausohnum.huma-num.fr/concept/c21849</topConceptUri>
-			<topConceptUri status="published"
-				>https://ausohnum.huma-num.fr/concept/c39</topConceptUri>
-			<topConceptUri status="draft"
-				>https://ausohnum.huma-num.fr/concept/c19422</topConceptUri>
-			<topConceptUri status="draft"
-				>https://ausohnum.huma-num.fr/concept/c19290</topConceptUri>
-			<topConceptUri status="published"
-				>https://ausohnum.huma-num.fr/concept/c6200</topConceptUri>
-			<topConceptUri status="draft"
-				>https://ausohnum.huma-num.fr/concept/c19356</topConceptUri>
-			<topConceptUri status="draft"
-				>https://ausohnum.huma-num.fr/concept/c19890</topConceptUri>
-			<topConceptUri status="draft"
-				>https://ausohnum.huma-num.fr/concept/c19310</topConceptUri>
-			<topConceptUri status="published"
-				>https://ausohnum.huma-num.fr/concept/c19933</topConceptUri>
-			<topConceptUri status="published"
-				>https://ausohnum.huma-num.fr/concept/c25660</topConceptUri>
-			<topConceptUri status="published"
-				>https://ausohnum.huma-num.fr/concept/c20583</topConceptUri>
-			<topConceptUri status="published"
-				>https://ausohnum.huma-num.fr/concept/c25544</topConceptUri>
-			<topConceptUri status="published"
-				>https://ausohnum.huma-num.fr/concept/c25328</topConceptUri>
-			<topConceptUri status="published"
-				>https://ausohnum.huma-num.fr/concept/c25305</topConceptUri>
+			<topConceptUri status="draft">https://ausohnum.huma-num.fr/concept/c19930</topConceptUri>
+			<topConceptUri status="published">https://ausohnum.huma-num.fr/concept/c66</topConceptUri>
+			<topConceptUri status="draft">https://ausohnum.huma-num.fr/concept/c19298</topConceptUri>
+			<topConceptUri status="draft">https://ausohnum.huma-num.fr/concept/c21849</topConceptUri>
+			<topConceptUri status="published">https://ausohnum.huma-num.fr/concept/c39</topConceptUri>
+			<topConceptUri status="draft">https://ausohnum.huma-num.fr/concept/c19422</topConceptUri>
+			<topConceptUri status="draft">https://ausohnum.huma-num.fr/concept/c19290</topConceptUri>
+			<topConceptUri status="published">https://ausohnum.huma-num.fr/concept/c6200</topConceptUri>
+			<topConceptUri status="draft">https://ausohnum.huma-num.fr/concept/c19356</topConceptUri>
+			<topConceptUri status="draft">https://ausohnum.huma-num.fr/concept/c19890</topConceptUri>
+			<topConceptUri status="draft">https://ausohnum.huma-num.fr/concept/c19310</topConceptUri>
+			<topConceptUri status="published">https://ausohnum.huma-num.fr/concept/c19933</topConceptUri>
+			<topConceptUri status="published">https://ausohnum.huma-num.fr/concept/c25660</topConceptUri>
+			<topConceptUri status="published">https://ausohnum.huma-num.fr/concept/c20583</topConceptUri>
+			<topConceptUri status="published">https://ausohnum.huma-num.fr/concept/c25544</topConceptUri>
+			<topConceptUri status="published">https://ausohnum.huma-num.fr/concept/c25328</topConceptUri>
+			<topConceptUri status="published">https://ausohnum.huma-num.fr/concept/c25305</topConceptUri>
 			<!-- Inschriftenträger -->
-			<topConceptUri status="published"
-				>https://ausohnum.huma-num.fr/concept/c24686</topConceptUri>
+			<topConceptUri status="published">https://ausohnum.huma-num.fr/concept/c24686</topConceptUri>
 			<!-- Technik -->
-			<topConceptUri status="published"
-				>https://ausohnum.huma-num.fr/concept/c24476</topConceptUri>
+			<topConceptUri status="published">https://ausohnum.huma-num.fr/concept/c24476</topConceptUri>
 			<!-- Material -->
-			<topConceptUri status="published"
-				>https://ausohnum.huma-num.fr/concept/c24110</topConceptUri>
+			<topConceptUri status="published">https://ausohnum.huma-num.fr/concept/c24110</topConceptUri>
 				<!-- arch klassifikation -->
-			<topConceptUri status="published"
-				>https://ausohnum.huma-num.fr/concept/c23775</topConceptUri>
+			<topConceptUri status="published">https://ausohnum.huma-num.fr/concept/c23775</topConceptUri>
 				<!-- civitas-->
-			<topConceptUri status="draft"
-				>https://ausohnum.huma-num.fr/concept/c26554</topConceptUri>
+			<topConceptUri status="draft">https://ausohnum.huma-num.fr/concept/c26554</topConceptUri>
 				<!-- Zustand Objekt, Zustand Inschrift -->
-			<topConceptUri status="draft"
-				>https://ausohnum.huma-num.fr/concept/c26467</topConceptUri>
+			<topConceptUri status="draft">https://ausohnum.huma-num.fr/concept/c26467</topConceptUri>
 		</topConceptsUris>
 		<user>vrazanajao</user>
 		<thesaurus xml:lang="en">
@@ -174,7 +144,7 @@
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Bronzekästchen</title>
 						<id>Bronzekästchen</id>
-						<uri></uri>
+						<uri/>
 						<key>https://gams.uni-graz.at/o:fercan.arch#C.110700</key>
 						<xmlValue/>
 						<lang>en</lang>
@@ -192,6 +162,55 @@
 						<id>Guttus/Aryballos/Einhenkelkrug/Salbfläschchen</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.110900</uri>
 						<key>Guttus/Aryballos/Einhenkelkrug/Salbfläschchen</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Kapitell</title>
+						<id>Kapitell</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.220200</uri>
+						<key>Kapitell</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<!--<children json:array="false" status="draft" type="collectionItem">
+						<title>Räucherkelch</title>
+						<id>Räucherkelch</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#</uri>
+						<key>Räucherkelch</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Wasserauslaufuhr</title>
+						<id>Wasserauslaufuhr</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#</uri>
+						<key>Wasserauslaufuhr</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Felsinschrift</title>
+						<id>Felsinschrift</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#</uri>
+						<key>Felsinschrift</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					-->
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Signum</title>
+						<id>Signum</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#</uri>
+						<key>Signum</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Säule</title>
+						<id>C.220300</id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch#C.220300</uri>
+						<key>C.220300</key>
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
@@ -297,22 +316,22 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Trachyt</title>
 						<id>Trachyt</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.120230</uri>
 						<key>Trachyt</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					</children>-->
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Tuff</title>
 						<id>Tuff</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.120240</uri>
 						<key>Tuff</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Muschelkalk</title>
 						<id>Muschelkalk</id>
@@ -390,6 +409,22 @@
 						<id>Ton</id>
 						<uri>Ton</uri>
 						<key>Ton</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Kupfer</title>
+						<id>Kupfer</id>
+						<uri>Kupfer</uri>
+						<key>Kupfer</key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Gold</title>
+						<id>Gold</id>
+						<uri>Gold</uri>
+						<key>Gold</key>
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
@@ -621,6 +656,7 @@
 						<lang>en</lang>
 					</children>
 				</children>
+				<!-- CP: here add Archäologische Klassifikation -->
 				<children json:array="true" status="published" type="collectionItem" groups="">
 					<title>＜ EAGLE Vocabulary - Dating Criteria ＞</title>
 					<id>c23775</id>
@@ -629,15 +665,15 @@
 					<xmlValue/>
 					<lang>en</lang>
 					<isFolder>true</isFolder>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Funktionale Beschreibung</title>
 						<id>C.100000</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.100000</uri>
 						<key>C.100000</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					</children>-->
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Inschriftenträger</title>
 						<id>C.110000</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.110000</uri>
@@ -668,7 +704,7 @@
 						<key>C.110200</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Akanthus</title>
 						<id>C.253020</id>
@@ -709,14 +745,15 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Architektur</title>
 						<id>C.220000</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.220000</uri>
 						<key>C.220000</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
+					<!-- 
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Armband</title>
 						<id>C.110110</id>
@@ -725,14 +762,15 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					-->
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Attribute bzw. Bildmotive</title>
 						<id>C.250000</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.250000</uri>
 						<key>C.250000</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Aufsatzschmuck</title>
 						<id>C.150800</id>
@@ -749,14 +787,14 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Ausführung</title>
 						<id>C.140000</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.140000</uri>
 						<key>C.140000</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Band</title>
 						<id>C.253600</id>
@@ -773,14 +811,14 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Bauinschrift</title>
 						<id>C.110800</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.110800</uri>
 						<key>C.110800</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Baum</title>
 						<id>C.253200</id>
@@ -789,14 +827,14 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Bildbeschreibung</title>
 						<id>C.200000</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.200000</uri>
 						<key>C.200000</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Birne</title>
 						<id>C.210200</id>
@@ -829,14 +867,14 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Blauer Kalkstein</title>
 						<id>C.120211</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.120211</uri>
 						<key>C.120211</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Blumenstrauß</title>
 						<id>C.252100</id>
@@ -861,7 +899,7 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Bronze</title>
 						<id>C.120110</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.120110</uri>
@@ -876,7 +914,7 @@
 						<key>C.110610</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Bronzekästchen</title>
 						<id>C.110700</id>
@@ -973,14 +1011,14 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Erhaltungszustand</title>
 						<id>C.130000</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.130000</uri>
 						<key>C.130000</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Fackel</title>
 						<id>C.251400</id>
@@ -1117,14 +1155,14 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Gestaltungsmerkmal</title>
 						<id>C.150000</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.150000</uri>
 						<key>C.150000</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Giebel</title>
 						<id>C.220100</id>
@@ -1261,14 +1299,14 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Kalkstein</title>
 						<id>C.120210</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.120210</uri>
 						<key>C.120210</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Kanne</title>
 						<id>C.2528408</id>
@@ -1309,14 +1347,14 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Keramik</title>
 						<id>C.120300</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.120300</uri>
 						<key>C.120300</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Kerberos</title>
 						<id>C.254150</id>
@@ -1445,14 +1483,14 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Material</title>
 						<id>C.120000</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.120000</uri>
 						<key>C.120000</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Messer</title>
 						<id>C.252900</id>
@@ -1461,14 +1499,14 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Metall</title>
 						<id>C.120100</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.120100</uri>
 						<key>C.120100</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Metallklammer</title>
 						<id>C.140720</id>
@@ -1773,14 +1811,14 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Sandstein</title>
 						<id>C.120220</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.120220</uri>
 						<key>C.120220</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Schale</title>
 						<id>C.2528406</id>
@@ -1853,14 +1891,14 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Silber</title>
 						<id>C.120120</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.120120</uri>
 						<key>C.120120</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Sonne</title>
 						<id>C.160400</id>
@@ -1877,14 +1915,14 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Statuenbasis/Basis</title>
 						<id>C.110600</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.110600</uri>
 						<key>C.110600</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Statuette</title>
 						<id>C.110622</id>
@@ -1893,14 +1931,14 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Stein</title>
 						<id>C.120200</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.120200</uri>
 						<key>C.120200</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Steuerruder</title>
 						<id>C.250730</id>
@@ -2077,14 +2115,14 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>Weihealtar</title>
 						<id>C.110300</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.110300</uri>
 						<key>C.110300</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Weihestein</title>
 						<id>C.110400</id>
@@ -2181,7 +2219,7 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>größere Fehlstelle/n</title>
 						<id>C.130600</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.130600</uri>
@@ -2196,7 +2234,7 @@
 						<key>C.130310</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>kanneliert</title>
 						<id>C.220800</id>
@@ -2205,14 +2243,14 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>kleineres Fragment</title>
 						<id>C.130320</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.130320</uri>
 						<key>C.130320</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>korinthisches Kapitell</title>
 						<id>C.220210</id>
@@ -2261,15 +2299,15 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>unklar</title>
 						<id>C.130700</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.130700</uri>
 						<key>C.130700</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					</children>-->
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>unzusammenhängende Fragmente</title>
 						<id>C.130330</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.130330</uri>
@@ -2284,7 +2322,7 @@
 						<key>C.130800</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>versilbert</title>
 						<id>C.140500</id>
@@ -2317,14 +2355,14 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
-					<children json:array="false" status="draft" type="collectionItem">
+					<!--<children json:array="false" status="draft" type="collectionItem">
 						<title>weitgehend vollständig</title>
 						<id>C.130500</id>
 						<uri>https://gams.uni-graz.at/o:fercan.arch#C.130500</uri>
 						<key>C.130500</key>
 						<xmlValue/>
 						<lang>en</lang>
-					</children>
+					</children>-->
 					<children json:array="false" status="draft" type="collectionItem">
 						<title>Ährenbüschel</title>
 						<id>C.252000</id>
@@ -2333,6 +2371,111 @@
 						<xmlValue/>
 						<lang>en</lang>
 					</children>
+					<!-- CP new 01.09.23 -->
+					<!--<children json:array="false" status="draft" type="collectionItem">
+						<title>Kopf</title>
+						<id> </id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch# </uri>
+						<key> </key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>tabula ansata</title>
+						<id> </id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch# </uri>
+						<key> </key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Eisenstift</title>
+						<id> </id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch# </uri>
+						<key> </key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Bohrloch</title>
+						<id> </id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch# </uri>
+						<key> </key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Fälschung</title>
+						<id> </id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch# </uri>
+						<key> </key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Axt</title>
+						<id> </id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch# </uri>
+						<key> </key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Sessel</title>
+						<id> </id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch# </uri>
+						<key> </key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Köcher</title>
+						<id> </id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch# </uri>
+						<key> </key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Bogen</title>
+						<id> </id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch# </uri>
+						<key> </key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Bleibatzen</title>
+						<id> </id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch# </uri>
+						<key> </key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Lötstelle</title>
+						<id> </id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch# </uri>
+						<key> </key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Feuerschale</title>
+						<id> </id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch# </uri>
+						<key> </key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>
+					<children json:array="false" status="draft" type="collectionItem">
+						<title>Pferd</title>
+						<id> </id>
+						<uri>https://gams.uni-graz.at/o:fercan.arch# </uri>
+						<key> </key>
+						<xmlValue/>
+						<lang>en</lang>
+					</children>-->
 				</children>
 			</children>
 		</thesaurus>
