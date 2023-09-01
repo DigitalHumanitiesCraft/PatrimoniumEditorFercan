@@ -36,6 +36,7 @@
                 </xsl:element>
                 <ul class="dropdown-menu skosThesauDropDown">
                       <xsl:for-each select="./children">
+                          <xsl:sort select="title" data-type="text" lang="de"/>
                           <xsl:call-template name="children"/>
                       </xsl:for-each>
                 </ul>
@@ -91,6 +92,7 @@
                 </xsl:element>
                 <ul class="dropdown-menu skosThesauDropDown">
                     <xsl:for-each select="./children">
+                        <xsl:sort select="title" data-type="text" lang="de"/>
                         <xsl:call-template name="children"/>
                     </xsl:for-each>
                 </ul>
