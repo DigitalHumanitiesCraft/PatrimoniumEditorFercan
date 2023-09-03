@@ -870,27 +870,27 @@ function saveData2( element,
     // input validation 
     // input is not valid at first
     let isInputValid = false;
-    let pattern_dimensions = /^[0-9, ]*$/g;
-    let pattern_iso_date = /\b0\d{3}$/g;
+    let pattern_dimensions = /^([0-9, ]*)?$/g;
+    let pattern_iso_date = /(\b0\d{3})?$/g;
     let pattern_abbildung = /\w+\.(jpg|png)*$/g;
     let pattern_abbildung_type = /image\/jpeg|image\/png|text\/csv$/g;
     let pattern_digit_only = /^\d+$/g;
-    let pattern_buchstabenhoehe_text = /\d+(,\d+)?–\d+(,\d+)?$/g;
-    let pattern_buchstabenhoehe_att = /\d+\.\d+$/g;
+    let pattern_buchstabenhoehe_text = /(\d+(,\d+)?–\d+(,\d+)?)?$/;
+    let pattern_buchstabenhoehe_att = /(\d+\.\d+)?$/g;
     let pattern_pid = /o:fercan.\d+$/g;
-    let pattern_fundjahr = /\b\d{4}(\/\d{4})?$/g;
+    let pattern_fundjahr = /^(\b\d{4}(\/\d{4})?\b)?$/ 
     let pattern_EDH_id = /\bHD\d+$/g;
     let pattern_ClaussSlaby_id = /\bEDCS-\d+$/g;
 
     if((elementNickName == 'Hoehe' || 
         elementNickName == 'Breite' || 
-        elementNickName == 'Tiefe') && 
+        elementNickName == 'Tiefe') && newValue !== "" && 
         !pattern_dimensions.test(newValue))
     {
         alert("'" + newValue + "'" + " is not valid. valid is something like '10,5'");
     }
     else if ((  elementNickName == 'DatISO_notAfter' || 
-                elementNickName == 'DatISO_notBefore') &&
+                elementNickName == 'DatISO_notBefore') && newValue !== "" &&
                 !pattern_iso_date.test(newValue))
     {
         alert("'" + newValue + "'" + " is not a valid ISO date. valid is something like '0100'");
@@ -911,12 +911,12 @@ function saveData2( element,
     {
         alert("'" + newValue + "'" + " is not valid. valid is something like '1'");
     }
-    else if (   elementNickName == 'Buchsthoehe_text' &&
+    else if (elementNickName == 'Buchsthoehe_text' && newValue !== "" &&
                 !pattern_buchstabenhoehe_text.test(newValue))
     {
         alert("'" + newValue + "'" + " is not valid. valid is something like '2,3–5,1'");
     }
-    else if (   (elementNickName == 'Buchsthoehe_atLeast' || elementNickName == 'Buchsthoehe_atMost') &&
+    else if (   (elementNickName == 'Buchsthoehe_atLeast' || elementNickName == 'Buchsthoehe_atMost') && newValue !== "" &&
                 !pattern_buchstabenhoehe_att.test(newValue))
     {
         alert("'" + newValue + "'" + " is not valid. valid is something like '0.4'");
@@ -926,7 +926,7 @@ function saveData2( element,
     {
         alert("'" + newValue + "'" + " is not valid. valid is something like 'o:fercan.468'");
     }
-    else if (   elementNickName == 'Fundjahr' &&
+    else if (   elementNickName == 'Fundjahr' && newValue !== "" &&
                 !pattern_fundjahr.test(newValue))
     {
         alert("'" + newValue + "'" + " is not valid. valid is something like '1929'");
