@@ -34,12 +34,28 @@
                     </xsl:attribute>
                     <xsl:value-of select="./title/text()"/>
                 </xsl:element>
-                <ul class="dropdown-menu skosThesauDropDown">
+                <ul class="dropdown-menu skosThesauDropDown" id="skosThesauDropDown-1">
+                    <input id="skosThesauDropDown-1" type="text">
                       <xsl:for-each select="./children">
                           <xsl:sort select="title" data-type="text" lang="de"/>
                           <xsl:call-template name="children"/>
                       </xsl:for-each>
                 </ul>
+                <script>
+                $( function() {
+                    var availableTags = [
+                    <xsl:for-each select="./children">
+                        <xsl:value-of select="concat('&quot;', title, '&quot;')"/>
+                        <xsl:if test="not(last())">
+                            <xsl:text>, </xsl:text>
+                        </xsl:if>
+                    </xsl:for-each>
+                    ];
+                    $( "#skosThesauDropDown-1" ).autocomplete({
+                    source: availableTags
+                    });
+                } );
+                </script>
             </li>
         
         </xsl:if>
@@ -90,12 +106,33 @@
                     <em>Select an item</em>
                     <span class="caret"/>
                 </xsl:element>
+                <!-- CP skosThesauDropDown-2-->
                 <ul class="dropdown-menu skosThesauDropDown">
+                <input id="skosThesauDropDown-2" type="text">
                     <xsl:for-each select="./children">
                         <xsl:sort select="title" data-type="text" lang="de"/>
                         <xsl:call-template name="children"/>
                     </xsl:for-each>
                 </ul>
+
+                <script>
+                console.log("test");
+
+                $( function() {
+                    var availableTags = [
+                    <xsl:for-each select="./children">
+                        <xsl:value-of select="concat('&quot;', title, '&quot;')"/>
+                        <xsl:if test="not(last())">
+                            <xsl:text>, </xsl:text>
+                        </xsl:if>
+                    </xsl:for-each>
+                    ];
+                    $( "#skosThesauDropDown-2" ).autocomplete({
+                    source: availableTags
+                    });
+                } );
+                </script>
+
             </div>
             
     </xsl:template>
