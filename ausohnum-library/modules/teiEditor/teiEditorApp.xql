@@ -928,8 +928,8 @@ let $inputName := 'selectDropDown' (:||$topConceptId:)
                                                          toolbar: [
                                                            //['style', ['style']],
                                                            ['font', ['bold','underline']],
-                                                           ['font', ['italic', 'strikethrough']],
-                                                           //['para', ['ul','ol','paragraph']],
+                                                           ['font', ['italic', 'strikethrough', 'superscript']],
+                                                           ['para', ['ul','ol','paragraph']],
                                                            //['insert', ['link']],
                                                            ['view', ['fullscreen','codeview','help']],
                                                              ],
