@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <teiElements>
     
     <!-- ///// -->
@@ -343,8 +342,8 @@
     <teiElement>
         <nm>Fundstelle</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance[@type="found"]/tei:p</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
+        <contentType>enrichedText</contentType>
+        <fieldType>textarea</fieldType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Fundstelle</formLabel>
     </teiElement>
@@ -361,8 +360,8 @@
     <teiElement>
         <nm>Fundumst</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:note</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
+        <contentType>enrichedText</contentType>
+        <fieldType>textarea</fieldType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Fundumstände</formLabel>
         <xpath2ref/>
@@ -706,7 +705,7 @@
         </template>
         <teiElement>
             <nm>Buchsthoehe_text</nm>
-            <xpath></xpath>
+            <xpath/>
             <contentType>text</contentType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Text</formLabel>
@@ -1061,7 +1060,9 @@
         <fieldType>group</fieldType>
         <template>
             <!-- todo: @xml:id-->
-            <graphic mimeType="$Abb_type" url="$Abb_filename"><desc>$Abb_desc</desc></graphic>
+            <graphic mimeType="$Abb_type" url="$Abb_filename">
+                <desc>$Abb_desc</desc>
+            </graphic>
         </template>
         <teiElement>
             <nm>Abb_filename</nm>
@@ -1107,7 +1108,9 @@
         <formLabel xml:lang="en">Apparatus criticus</formLabel>
         <fieldType>group</fieldType>
         <template>
-            <app loc="$Appcrit_loc"><note anchored="true">$Appcrit_anmerkung</note></app>
+            <app loc="$Appcrit_loc">
+                <note anchored="true">$Appcrit_anmerkung</note>
+            </app>
         </template>
         <teiElement>
             <nm>Appcrit_anmerkung</nm>
@@ -1168,7 +1171,7 @@
         </template>
         <teiElement>
             <nm>Editionen_text</nm>
-            <xpath></xpath>
+            <xpath/>
             <contentType>text</contentType>
             <cardinality>1</cardinality>
             <formLabel xml:lang="en">Text</formLabel>
