@@ -91,6 +91,8 @@ Using Docker simplifies the process of setting up eXist-db. Docker can encapsula
 
 ## Customisation of the Patrimonium editor
 
+The customised Fercan editor uses less funcationality from the original editor. it removes the place and person ediro. and focuses only on having two corous and on adding the metadata and the transcription.
+
 ### Customization of the Patrimonium Editor
 
 #### Using the Patrimonium Editor
@@ -165,6 +167,23 @@ This XQuery script defines the input fields within the document editor. For inst
 {teiEditor:displayElement('docTitle', (), (), ())}
 ```
 This function dynamically creates the UI components based on the definitions in `teiElements.xml`, allowing for a highly customizable editing environment.
+
+### Document Overview
+
+![Document Overview](img/screen-1.png)
+
+The "Document Overview" serves as a portal for scholars to record metadata relevant to their epigraphic research. It's designed to shape the foundational data linked to each entry in the Fercan project's digital repository.
+
+Customized data fields in the "Document Overview" include:
+
+**Title (Titel)**
+- **Deity Name (Göttername)**: This field is intended for inputting the names of deities, like "Mars Camulus," mentioned within inscriptions.
+- **Subtitle**: Provides space for additional details or identifiers, such as "CF-GeS-1010."
+- **Civitas**: Here, users can choose the relevant civitas from a dropdown menu.
+
+The **Editor's Comment** area is reserved for editorial input and is not part of the main data corpus. These comments serve as internal annotations for editorial reference.
+
+The **Apparatus Criticus** section facilitates the compilation of notes or observations regarding the inscriptions, enhancing the document's scholarly utility.
 
 ## Resources
 
