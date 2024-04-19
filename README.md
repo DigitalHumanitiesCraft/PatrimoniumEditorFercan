@@ -3,7 +3,7 @@ Project-specific adaptation of https://patrimonium.huma-num.fr/atlas/editor/
 
 ## Introduction
 
-This document serves as a guide for users and developers involved in customising the Patrimonium Editor specifically for the Fercan project. The Fercan project, which focuses on the study of Celtic divine names in ancient inscriptions, uses the Patrimonium Editor to manage and analyse epigraphic data. This document outlines the scope of the customisation, introduces the project, and details the integration and extensions made to the Patrimonium Editor to meet the specific needs of the project.
+This document serves as a guide for users and developers involved in customising the Patrimonium Editor specifically for the Fercan project. The Fercan project, which focuses on the study of Celtic divine names in ancient inscriptions, uses the Patrimonium Editor to collect and manage epigraphic data. This document outlines the scope of the customisation, introduces the project, and details the integration and extensions made to the Patrimonium Editor to meet the specific needs of the project.
 
 The Fercan project is supported by the Austrian Science Fund (FWF) through grants P 29274-G25 and P 34422 G. It aims to explore Celtic divine names in the Roman provinces of Germania Inferior and Germania Superior, with a focus on understanding cultural interactions and religious dynamics during the Roman period. The research examines how local Celtic traditions were integrated into Roman practices, using epigraphic evidence to trace changes and continuities in religious expression.
 
@@ -11,64 +11,64 @@ The Fercan project is supported by the Austrian Science Fund (FWF) through grant
 
 The Patrimonium Editor is an integrated suite of web applications tailored for academic and research use, focusing on the encoding, management and analysis of epigraphic and historical textual sources. Prior to customisation, it included an XML editor for accurate text encoding, text conversion tools that adhere to the Leiden Conventions, and data management capabilities for handling information about places, people, and thematic categories relevant to historical texts. It is designed to support a wide range of epigraphic documentation needs and is suitable for a variety of academic and research environments.
 
-Its modular architecture not only provides considerable flexibility in terms of customisation, but also leverages the robust power of the eXist-db XML database. Structured to work with the TEI (Text Encoding Initiative) and EpiDoc (Epigraphic Documents) guidelines, the editor provides a robust framework for document encoding and data representation. This basic design allows it to be adapted to the specific needs of different research projects, ensuring that the Patrimonium Editor remains a versatile tool for scholars in the digital humanities.
+Its modular architecture not only provides flexibility in terms of customisation, but also leverages the use of the eXist-db XML database. Structured to work with the TEI (Text Encoding Initiative) and EpiDoc (Epigraphic Documents) guidelines, the editor provides a framework for document encoding and data representation.
 
 ### Core Components
 
 **1. Base Library: ausohnum-library**.
 
-Serves as the base library that provides backend functionality. It contains a collection of XQuery functions, JavaScript scripts and CSS stylesheets long with other resources needed to build the TEI/EpiDoc editor, places manager, and people manager. This library contains reusable modules that handle various tasks such as data retrieval, transformation, presentation and interaction within the web application framework.It includes modules, resources, templates and a build configuration (`build.xml`) as well as a collection configuration (`collection.xconf`).
+Serves as the base library that provides backend functionality. It contains a collection of XQuery functions, JavaScript scripts and CSS stylesheets long with other resources needed to build the TEI/EpiDoc editor, places manager, and people manager. This library contains reusable modules that handle various tasks such as data retrieval, transformation, presentation and interaction within the web application framework.
 
 **2. Front-end application: eStudium**.
 
-The primary user interface where the actual interaction with the coded texts and datasets takes place. It is the main web application of eXist-db. Provides project-specific settings such as customisation of TEI elements and templates, making it adaptable to the specific needs of different historical projects. Includes an easy-to-use XML editor that provides users with tools for encoding, editing, and wrapping text with XML elements in a visually accessible interface.
+The primary user interface where the actual interaction with the encoded texts and datasets takes place. It is the main web application of eXist-db. Provides project-specific settings such as customisation of TEI elements and templates, making it adaptable to the specific needs of different epigraphic projects. Includes an easy-to-use XML editor that provides users with tools for encoding, editing and wrapping text with XML elements in a visually accessible interface.
 
 **3. Data repository: eStudiumData**.
 
-Serves as a data repository application supporting the eStudium front-end. This includes TEI-coded texts, records of places and people, and thesaurus schemas. Ensures data integrity and retrievability. It is optimised for efficient querying and manipulation of the XML data that is central to the function of the Patrimonium Editor.
+Serves as a data repository application supporting the eStudium front-end. This includes TEI-coded texts, records of places and people, and thesaurus schemas. Ensures data integrity and retrievability. It is used for querying and manipulation of the XML data that is central to the function of the Patrimonium Editor.
 
 ### Functional Overview & Technical Infrastructure & Data Models
 
 **Text Editor**
-- XML encoding: The text editor panel allows easy creation and editing of XML files, facilitating epigraphic text encoding by wrapping selected text with the necessary XML tags.
-- Tools: Includes a number of additional editing tools such as search and replace, validation and formatting options to assist users in creating valid and well-structured TEI documents..
+- The text editor panel allows easy creation and editing of XML files, facilitating epigraphic text encoding by wrapping selected text with the necessary XML tags.
+- Includes a number of additional editing tools such as search and replace, validation and formatting options to assist users in creating valid and well-structured TEI documents.
 
 **Places Manager:**
-- **Spatial Data**: Supports the creation and curation of spatial entities. It is designed to interact with place data models such as Pleiades and other ontologies that help connect, organise and relate spatial information.
-- **Integration**: Links places to texts and other datasets within the Patrimonium framework, enabling multi-dimensional analysis of epigraphic data.
+- Supports the creation and curation of spatial entities. It is designed to interact with place data models such as Pleiades and other ontologies that help connect, organise and relate spatial information.
+- Links places to texts and other datasets within the Patrimonium framework, enabling multi-dimensional analysis of epigraphic data.
 
 **People Manager:**
-- **Prosopographical Data**: Manages the creation and curation of person-related data, using models such as SNAP:DRGN to describe historical figures, their attributes, and their relationships to one another.
-- **Linkage**: Ensures that individuals mentioned in texts are accurately documented and linked, providing a comprehensive prosopographical dataset.
+- Manages the creation and curation of person-related data, using models such as SNAP:DRGN to describe historical figures, their attributes, and their relationships to one another.
+- Ensures that individuals mentioned in texts are accurately documented and linked, providing a comprehensive prosopographical dataset.
 
 **Thesaurus Management:**
-- **Controlled Vocabulary**: Handles thesaurus systems which provide controlled vocabularies for subjects, objects, and terms used within historical texts.
-- **Standardization**: Aims to standardize the terminology used across documents, facilitating consistent tagging and easier retrieval of related texts.
+- Handles thesaurus systems which provide controlled vocabularies for subjects, objects, and terms used within historical texts.
+- Aims to standardize the terminology used across documents, facilitating consistent tagging and easier retrieval of related texts.
 
 **Zotero Integration:**
-- **Bibliographic Data**: The editor integrates with Zotero, allowing users to manage references and bibliographic data directly within the application.
-- **Synchronization**: Ensures that citations and sources are kept up-to-date and are easily accessible during the research and documentation process.
+- The editor integrates with Zotero, allowing users to manage references and bibliographic data directly within the application.
+- Ensures that citations and sources are kept up-to-date and are easily accessible during the research and documentation process.
 
-- **eXist-db**: A NoSQL XML database at the core of the Patrimonium Editor, responsible for storing, indexing, and querying XML data.
-- **XML Standards**: Compliance with TEI and EpiDoc standards for encoding texts, ensuring that data conforms to internationally recognized guidelines in digital humanities.
-- **Web Application**: The editor is accessible through a web browser, reducing the need for local installation and allowing for collaborative work across different locations.
+- eXist-db: A NoSQL XML database at the core of the Patrimonium Editor, responsible for storing, indexing, and querying XML data.
+- XML Standards: Compliance with TEI and EpiDoc standards for encoding texts, ensuring that data conforms to internationally recognized guidelines in digital humanities.
+- Web Application: The editor is accessible through a web browser, reducing the need for local installation and allowing for collaborative work across different locations.
 
-**Data Models:**
-- **Places Documents**: Based on Pleiades and NeoGeo spatial ontologies, enriched with connections described in SKOS and Dublin Core.
-- **People Documents**: Modeled after Pleiades Place and SNAP:DRGN standards, also utilizing SKOS and Dublin Core for describing and relating individuals in historical texts.
+**Data Models:
+- Places Documents: Based on Pleiades and NeoGeo spatial ontologies, enriched with connections described in SKOS and Dublin Core.
+- People Documents: Modeled after Pleiades Place and SNAP:DRGN standards, also utilizing SKOS and Dublin Core for describing and relating individuals in historical texts.
 
 ### Setting Up the Patrimonium Editor
 
 The source files for the Patrimonium Editor are packaged in `.xar` format, which is a standard package format used by the eXist-db XML database system. These files include all the necessary components and configurations needed for the editor to function properly.
 
-- **.xar Files**: A `.xar` file is an XML Archive used by eXist-db to package applications. It contains all the resources required for an application, such as scripts, stylesheets, and XML documents, structured in a way that eXist-db can easily deploy.
-- **Ant**: Apache Ant is a Java-based build tool used to automate software build processes. It is used to compile source code, copy files, and execute other tasks defined in an XML file called `build.xml`. In the context of Patrimonium Editor, Ant is used to build `.xar` files from source code and resources. More information on Ant can be found at the [official Apache Ant website](https://ant.apache.org/).
+- A `.xar` file is an XML Archive used by eXist-db to package applications. It contains all the resources required for an application, such as scripts, stylesheets, and XML documents, structured in a way that eXist-db can easily deploy.
+- Apache Ant is a Java-based build tool used to automate software build processes. It is used to compile source code, copy files, and execute other tasks defined in an XML file called `build.xml`. In the context of Patrimonium Editor, Ant is used to build `.xar` files from source code and resources. More information on Ant can be found at the [official Apache Ant website](https://ant.apache.org/).
 
 #### Installing Packages in eXist-db
 To deploy the Patrimonium Editor on an eXist-db instance, you need to install the `.xar` packages through the eXist-db's Package Manager. This can be accessed via the dashboard at `http://localhost:8080/exist/apps/dashboard/index.html` after setting up the eXist-db instance. The following `.xar` packages are required:
 - **ausohnum-library**: The main program that includes core functionalities.
 - **estudium**: Contains project-specific customizations.
-- **estudiumData**: Includes the data files, primarily XML/TEI documents.
+- **estudiumData**: Includes the data files, primarily TEI XML documents.
 
 These packages are uploaded and installed through the Package Manager in the eXist-db dashboard.
 
@@ -91,11 +91,9 @@ Using Docker simplifies the process of setting up eXist-db. Docker can encapsula
 
 ## Customisation of the Patrimonium editor
 
-The customised Fercan editor uses less funcationality from the original editor. it removes the place and person ediro. and focuses only on having two corous and on adding the metadata and the transcription.
+The Fercan custom editor uses less functionality than the original editor. It removes the place and person editors and focuses on just having two editors to add the metadata and transcription.
 
-### Customization of the Patrimonium Editor
-
-#### Using the Patrimonium Editor
+### Using the Patrimonium Editor
 
 The Patrimonium Editor is designed to be a versatile tool for historians and researchers working on the Fercan project. Here’s how individuals typically interact with the system:
 
@@ -174,7 +172,7 @@ This function dynamically creates the UI components based on the definitions in 
 
 The "Document Overview" serves as a portal for scholars to record metadata relevant to their epigraphic research. It's designed to shape the foundational data linked to each entry in the Fercan project's digital repository.
 
-Customized data fields in the "Document Overview" include:
+Here is an example of customised data fields in the Document Overview:
 
 **Title (Titel)**
 - **Deity Name (Göttername)**: This field is intended for inputting the names of deities, like "Mars Camulus," mentioned within inscriptions.
