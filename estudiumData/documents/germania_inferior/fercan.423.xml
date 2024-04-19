@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior423">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior423">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -245,7 +244,11 @@ Auf den Schmalseiten sind Baumdarstellungen in Relief vorhanden (Stuart/Bogaers 
             <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, B67</bibl>
-                </listBibl>
+                
+            <bibl xml:id="2">Scheungraber 2020, 410 Nr.136</bibl>
+        
+            <bibl xml:id="3">Ferlut 2022, Nr.1037</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -272,7 +275,11 @@ HAL<gap reason="lost" extent="unknown" unit="character" instant="false"/></orig>
                 </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">hal[enniae(?) – Scheungraber; hal[eniae – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehal…:</rs> Rest von  <rs type="divine">Nehalennia</rs> oder einer Variante: keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).  </p>
                                                 <p part="N">
 

@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior339">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior339">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -411,6 +410,10 @@
           <bibl xml:id="LIT.2" default="false" status="draft">AE 1980, 658</bibl>
           <bibl xml:id="LIT.3" default="false" status="draft">Schwarz/Berger 2000, 25</bibl>
           <bibl xml:id="LIT.4" default="false" status="draft">Stuart/Bogaers 2001, A41</bibl>
+        
+            <bibl xml:id="5">Scheungraber 2020, 400 Nr.58</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.1080</bibl>
         </listBibl>
       </div>
       <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
@@ -446,11 +449,10 @@ RAV<unclear instant="false">RA</unclear>CORV<unclear instant="false">M</unclear>
       </div>
       <div type="apparatus" org="uniform" part="N" sample="complete">
         <app loc="#MIN.3 #MAJ.3">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">überflüssiger Zeilenumbruch nach I – EDH</tei:note>
+          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">überflüssiger Zeilenumbruch nach I – EDH; I[ul(ius)] – Ferlut</tei:note>
         </app>
         <app loc="#MIN.4 #MAJ.4">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">I[IIIIIvir? Aug(ustalis)? civit]at(is)(?) – EDH; I[IIIIIvir aug(ustalis)
-            civit]at(is) – Stuart/Bogaers 1980, Schwarz/Berger, Stuart/Bogaers 2001</tei:note>
+          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">I[IIIIIvir? Aug(ustalis)? civit]at(is)(?) – EDH; I[IIIIIvir aug(ustalis)            civit]at(is) – Stuart/Bogaers 1980, Schwarz/Berger, Stuart/Bogaers 2001, Scheungraber, Ferlut</tei:note>
         </app>
       </div>
       <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

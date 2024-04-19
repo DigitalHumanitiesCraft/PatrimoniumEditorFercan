@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior455">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior455">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -273,7 +272,11 @@
                     <bibl xml:id="LIT.2" default="false" status="draft">Byvanck 1935, Nr.244</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Hondius-Crone 1955, Nr.19</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Stuart 2013, Nr.13</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 396 Nr.26</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.1071</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -297,7 +300,17 @@
                 <p part="N">To  <rs type="divine">Nehal…!</rs> </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="1">
+                <note anchored="true">Ne]hal[enniae – Scheungraber; [Ne]hal[ennia] – Ferlut</note>
+            </app>
+        
+            
+        
+            
+        
+            
+        </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehal…:</rs> Rest von  <rs type="divine">Nehalennia</rs> oder einer Variante: keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).</p>
                                                 <p part="N">
 

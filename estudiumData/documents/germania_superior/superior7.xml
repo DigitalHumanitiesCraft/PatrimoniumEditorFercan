@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior7" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior7" n="">
 	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
-				<title type="full"><title type="main">Bucius</title><title type="sub">
+				<title type="full"><title type="main">Bucius | Nerius</title><title type="sub">
 					CF-GeS-1070</title></title>
 				<respStmt>
 					<resp>Inschriftenedition</resp>
@@ -51,45 +51,40 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>Der Weihealtar ist ein Stück unter der Bekrönung, die
-									durch einen Giebel mit abgestoßenen Pulvini und wohl modern
-									angeklebter, stark abgeschlagener Rosette in der Mitte gestaltet
-									ist, gebrochen. Auch die Seitenteile scheinen bestoßen. Zwischen
-									den Pulvini ist die reliefierte Opferschale erhalten. Das
-									Inschriftenfeld ist ungerahmt. </p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material> <objectType>Weihestein</objectType> <dimensions>
+								<support> <p>Der Weihealtar ist ein Stück unter der Bekrönung, die durch einen Giebel mit abgestoßenen Pulvini und wohl modern angeklebter, stark abgeschlagener Rosette in der Mitte gestaltet ist, gebrochen. Auch die Seitenteile scheinen bestoßen. Zwischen den Pulvini ist die reliefierte Opferschale erhalten. Das Inschriftenfeld, das von der Bekrönung durch eine doppelte Stufung getrennt ist, ist ungerahmt.</p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material> <objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 									<height unit="cm"> 41</height>
 									<width unit="cm"> 41</width>
 									<depth unit="cm"> 33</depth>
-									</dimensions> <note type="dimensions"> </note> </support>
+									</dimensions> <note type="dimensions"> Die Angegebenen Maße beziehen sich auf das erhaltene Fragment.</note> </support>
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres
 									Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
 								<layout> <p>Erhalten sind die beiden obersten Zeilen der Inschrift.
-									Ob und wieweit sich die Inschrift untern weiter fortsetzte kann
+									Ob und wieweit sich die Inschrift unten weiter fortsetzte kann
 									nicht gesagt werden. Die Buchstaben sind unregelmäßig und
 									ungelenk ausgeführt. </p> <note type="condition"/> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast=" 0" atMost="0"/> </handNote>
 						</handDesc>
 						<decoDesc>
 							<decoNote> <p>Keine bildliche Gestaltung vorhanden. </p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
 								<term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">Rosette</term>
-								<term ana="https://gams.uni-graz.at/o:fercan.arch#C.140700">Reparatur</term> </decoNote>
+								<term ana="https://gams.uni-graz.at/o:fercan.arch#C.140700">Reparatur</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252810">Opferschale</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term> </decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName>Tres Tabernae</placeName> <region/>
+						<origin> <origPlace> <placeName>Tres Tabernae</placeName> <region>Civitas Tribocorum</region>
 							</origPlace> <origDate notBefore="" notAfter=""> <note type="original"> <ref target="context:fercan.date." type="context">
 							</ref> </note></origDate> </origin>
 						<provenance type="found" when="1971"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Haegen</ref> </placeName>
 							<p>Wasserwald, außerhalb des Heiligtums</p> <location>
 							<geo decls="#WGS"/>
-							</location> <note>bei der Ausgrabung eines kleinen
-							Heiligtums mit rechteckiger Cella (AE 2000 1067); à 12m à l’extérieur au
-							sud-est de la porte de la cella (Goubet 2015, S. 245, Nr. 226)</note> </provenance>
+							</location> <note>bei der Ausgrabung eines kleinen Heiligtums mit rechteckiger Cella (AE 2000, 1067); "à 12m à l’extérieur au sud-est de la porte de la cella" (Goubet 2015, 245, Nr.226)</note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung
 							gründet auf: Photo<br/></p></provenance>
 					</history>
@@ -104,9 +99,9 @@
 						</placeName>
 					</place>
 				</listPlace>
-				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context"/></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context"/></persName></person>
+				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context">Bucius; Nerius</ref></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context"/></persName></person>
 					<person>
-						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context"> Bucius; Nerius</ref>
+						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context">Bucius; Nerius</ref>
 						</persName>
 					</person>
 					<person>
@@ -187,7 +182,7 @@
 			</langUsage>
 			<textClass>
 				<keywords>
-					<list><item><ref target="context:fercan.divinepart." type="context"/></item>
+					<list><item><ref target="context:fercan.divinepart." type="context">Bucio; Nerio</ref></item>
 						<item> <ref target="context:fercan.dedication." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
@@ -206,49 +201,55 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="Bucius 1070_fr.jpg">
-			<desc> </desc>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1070_front.jpg">
+			<desc> Front, Musées du chateau des Rohan, Foto: Ortolf Harl 2017</desc>
 		</graphic>
 		<!-- todo: @xml:id-->
-		<graphic mimeType="image/png" url="Bucius 1070_fr2.png">
-			<desc/>
-		</graphic>
+		
 	</facsimile>
 	<text>
 		<body>
 			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
 			<div subtype="editions" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl xml:id="1"> Flotté/Fuchs 2000 (= CAG 67,1), S. 316</bibl>
-					<bibl xml:id="2">AE 2000, 1067 </bibl>
-					<bibl xml:id="3">Scheungraber 2020, S. 205,
+					<bibl xml:id="1">CAG 67,1, 316</bibl>
+					<bibl xml:id="3">AE 2000, 1067 </bibl>
+					<bibl xml:id="5">Scheungraber 2020, S. 205,
 						Nr.418</bibl>
-				</listBibl>
+				
+            <bibl xml:id="2">Pétry 1972, 411</bibl>
+        
+            <bibl xml:id="4">Goubet 2015, Nr.226</bibl>
+        </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl type="EDCS"><idno> EDCS-20500403</idno><date> 2023-03-09</date></bibl>
-					<bibl type="EDH"><idno> HD047808</idno><date> 2018-09-05</date></bibl>
-					<bibl type="trismegistos"><idno> www.trismegistos.org/text/211450</idno><date>
-						2023-03-09</date></bibl>
-					<bibl type="other"><idno> http://lupa.at/27859 </idno><date>
-						2017-06-14</date></bibl>
-				<bibl type="lupa"><idno/><date/></bibl></listBibl>
+					<bibl type="EDCS"><idno> EDCS-20500403</idno><date>zuletzt abgerufen 2023-03-09</date></bibl>
+					<bibl type="EDH"><idno>HD047808</idno><date>Version von 2018-09-05</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/211450</idno><date>zuletzt abgerufen 2023-03-09</date></bibl>
+					
+				<bibl type="lupa"><idno>http://lupa.at/27859</idno><date>Version von 2017-06-14</date></bibl></listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform">
-				<ab><orig/></ab></div>
-			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab/></div>
+				<ab><lb n="1"/>BVCIO E
+<lb n="2"/><unclear>T</unclear> NERIO
+<lb n="3"/><gap reason="lost" extent="unknown" unit="line"/><orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Bucio e
+<lb n="2" break="no"/>t Nerio
+<lb n="3"/><gap reason="lost" extent="unknown" unit="line"/></ab></div>
 			<div type="translation" xml:lang="de" org="uniform">
-				<p> <p>Für <rs type="divine">Bucius</rs> und <i>Nerius</i></p></p>
+				<p> <p>Für <rs type="divine">Bucius</rs> und <rs type="divine">Nerius</rs></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform">
-				<p> <p>To <rs type="divine">Bucius</rs> and <i>Nerius</i><br/></p></p>
+				<p> <p>To <rs type="divine">Bucius</rs> and <rs type="divine">Nerius</rs><br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform">
 				<app loc="1">
-					<note/>
+					<note>Bugio – CAG, AE, EDH, Scheungraber; Bucius – Goubet</note>
 				</app>
-			</div>
+			
+            <app loc="2"><note anchored="true">[t] – Goubet</note></app>
+        </div>
 			<div type="commentary" subtype="general" org="uniform">
 				<p> </p>
 			</div>
@@ -264,11 +265,11 @@
 			<note type="Objbeschr_note"/>
 			<note type="ArchKlass_note"/>
 			<note type="Material_note">rot</note>
-			<note type="Inschrifttraeger_note"><p><b>Weihealtar</b><br/></p></note>
+			<note type="Inschrifttraeger_note">                                                    <p><br/></p></note>
 			<note type="VerwahrortOrt_note"/>
 			<note type="InvNr_note"/>
-			<note type="Fundstelle_note">Lt. Lupa EDH: Wasserwald, gallo-römische Siedlung,
-				Heiligtum</note>
+			<note type="Fundstelle_note"><p>Lt. Lupa </p><p>EDH: Wasserwald, gallo-römische Siedlung,
+				Heiligtum</p></note>
 			<note type="Fundumst_note"/>
 			<note type="Fundjahr_note"/>
 			<note type="FOantik_note">bei</note>
@@ -276,21 +277,28 @@
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
-			<note type="Abb_note"/>
+			<note type="Abb_note">                                                    <p><br/></p></note>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note">Photos von online nicht verfügbaren Inschriftentexten s.
-				Ordner: ISntexte Slg ev. noch einzusehen F. Pétry, Gallia 30, 1972, 411-412; fig.
-				39C. - AE 2000. F. Goubet - F. Jodry - N. Meyer - N. Weiss, Au "grès" du temps.
+			<note type="Editionen_note">                                                    <p>
+                                                        </p>
+                                                    <p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p>CAG = Flotté/Fuchs (Provost Hrsg.) 2000<p><u/>
+                                                    </p>
+                                                    <p>
+                                                        <u>eingesehen</u><br/></p>
+                                                    <p>F. Pétry, Gallia 30, 1972, 411-412; fig.
+				39C </p>
+                                                    <p>AE 2000, 1067 </p>
+                                                    <p>F. Goubet - F. Jodry - N. Meyer - N. Weiss, Au "grès" du temps.
 				Collections lapidaires celtes et gallo-romaines du Musée archéologique de Saverne
-				(Saverne 2015) 245, Nr. 226; Foto. (B)</note>
+				(Saverne 2015) 245, Nr. 226; Foto. (B)</p></note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note">lt. EDH</note>
+			<note type="Masse_note">lt. EDH und Goubet<br/></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"/>
+			<note type="Buchsthoehe_note"><b style="mso-bidi-font-weight: normal"><span style="font-size:12.0pt;font-family:LeedsUniExt; mso-ansi-language:EN-US" lang="EN-US">Mail an Museum am 5.7.23</span></b>, keine Antwort, neues Mail am 7.8.23 - kommt wohl nix mehr (Stand 16.8.23)<br/><p/></note>
 			<note type="Notvar_note"/>
 			<note type="SonstKomm_note"/>
 			<note type="Datierung_note">EDH: 71 AD – 300 AD<br/></note>

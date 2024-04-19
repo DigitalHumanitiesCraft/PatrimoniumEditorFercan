@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior207">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior207">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -221,7 +220,9 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1918, Nr.369</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Alföldy 1968, Nr.125</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">AE 1968, 351</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 570 Nr.127</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -255,19 +256,19 @@ ET · SVI<gap reason="lost" extent="unknown" unit="character" instant="false"/><
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Vocalli[nehis ---] – Lehner; Vocalli[nehis] – Alföldy, AE, EDH; möglicherweise ging der ersten Zeile ursprünglich noch eine jetzt verlorene voraus – Alföldy, AE, EDH.</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Vocalli[nehis ---] – Lehner; Vocalli[nehis] – Alföldy, AE, EDH, Scheungraber; möglicherweise ging der ersten Zeile ursprünglich noch eine jetzt verlorene voraus – Alföldy, AE, EDH, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Zeile fehlt bei Lehner, Alföldy, AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Zeile fehlt bei Lehner, Alföldy, AE, EDH, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">keine Leerzeile(n), sondern direkter Anschluss der beiden Fragmente – Alföldy, AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">keine Leerzeile(n), sondern direkter Anschluss der beiden Fragmente – Alföldy, AE, EDH, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]ius – Lehner; [.]S[eve]rius(?) Lu[pus (?)] – Alföldy, AE; [-]S[---]rius Lu[pus?] – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]ius – Lehner; [.]S[eve]rius(?) Lu[pus (?)] – Alföldy, AE; [-]S[---]rius Lu[pus?] – EDH; [3]S[eve]rius(?) Lu[pus (?)] – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[pro se] et sui[s---] – Lehner, [pro se] et sui[s v.s.] – Alföldy, [pro se] et sui[s v(otum) s(olvit) l(ibens) m(erito)] – AE, EDH; im Anschluss daran noch eine weitere Zeile mit [l(ibens) m(erito)] – Alföldy</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[pro se] et sui[s---] – Lehner, [pro se] et sui[s v.s.] – Alföldy, [pro se] et sui[s v(otum) s(olvit) l(ibens) m(erito)] – AE, EDH; [pro se] et sui[s v(otum) s(olvit)] – Scheungraber; im Anschluss daran noch eine weitere Zeile mit [l(ibens) m(erito)] – Alföldy, Scheungraber</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Vocalli…:</rs> Rest einer Variante von  <rs type="divine">Vacallinehae:</rs> keltisch: ‚Unter den Bäumen bzw. dem Wald Verweilende [Muttergöttinen]‘ 

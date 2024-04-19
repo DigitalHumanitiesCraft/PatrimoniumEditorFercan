@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior298">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior298">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -245,7 +244,11 @@
                     <bibl xml:id="LIT.2" default="false" status="draft">Bogaers in Willems 1983, 254</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">AE 1983, 723</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Raepsaet-Charlier 1993, 76f.</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 120 Nr.2</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.24</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -276,7 +279,15 @@ Ulpius Verinus, Veteran der legio VI hat das Gelübde gerne und verdientermaßen
 Ulpius Verinus, veteran of the legio VI has fulfilled a vow willingly and deservedly.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="1">
+                <note anchored="true">kein Zeilenwechsel – Scheungraber, Ferlut </note>
+            </app>
+        
+            
+        
+            
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N"> dea: Bogaers (in Willems 1983, 254) möchte die Inschrift einem Veteranen der legio VI Victrix zuschreiben, der in der Zeit zwischen 123 und ca. 142 aus Britannien in seine Heimat zurückgekehrt ist (anders: Raepsaet-Charlier 1993, 76f.). Bogaers sieht damit darin das früheste Beispiel für die Nennung des Gottheitsdeterminativs dea/deus vor einem Götternamen in der Germania Inferior.  </p>
                 <p part="N">

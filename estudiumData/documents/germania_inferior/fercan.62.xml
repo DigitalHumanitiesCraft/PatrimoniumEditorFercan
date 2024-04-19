@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior62">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior62">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -295,7 +294,11 @@ Die rechte Seite zeigt ein Füllhorn, aus dessen Mündung in der Mitte ein Pinie
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 7851</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Espérandieu IX 6562</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Lehner 1918, Nr.510</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 593 Nr.3</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.747</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -324,9 +327,13 @@ Marcus Antonius Pacatus willingly and deservedly. </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">im CIL mit einem überflüssigen Zeichen nach ˧ falsch widergegeben; Vesunia˧enis – Lehner; Vesuniahenis – Espérandieu; heute ist von ˧ nichts mehr zu sehen, doch scheint aufgrund des Buchstabenabstandes und des mit dieser Schreibung bezeugten Götternamens (CF-GeI-63) Lehner und CIL rechtzugeben zu sein</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">im CIL mit einem überflüssigen Zeichen nach ˧ falsch widergegeben; Vesunia˧enis – Lehner; Vesuniahenis – Espérandieu, Scheungraber, Ferlut; heute ist von ˧ nichts mehr zu sehen, doch scheint aufgrund des Buchstabenabstandes und des mit dieser Schreibung bezeugten Götternamens (CF-GeI-63) Lehner und CIL rechtzugeben zu sein</tei:note>
                 </app>
-            </div>
+            
+            <app loc="1">
+                <note anchored="true">ausgelassen – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Marcus Antonius Pacatus: tria nomina <lb/>
 Antonius: lateinisches Gentilnomen, äußerst gängig (Kakoschke 2006, GN 94) <lb/>

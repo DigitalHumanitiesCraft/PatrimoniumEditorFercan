@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior413">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior413">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -238,7 +237,11 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, B58</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1497</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 409 Nr.129</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.1032</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -270,7 +273,11 @@ N<unclear instant="false">E</unclear><gap reason="lost" quantity="1" unit="chara
 …o Pat…</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="4">
+                <note anchored="true">es folgt eine weitere Zeile unbestimmten Inhalts – Scheungraber, Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).  </p>
                                                 <p part="N">
 

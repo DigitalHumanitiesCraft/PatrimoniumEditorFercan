@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior60">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior60">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -274,7 +273,11 @@ Auf der rechten stark beschädigten Seitansicht ist das Motiv bis auf einige Res
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 7850</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1918, Nr.512</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Espeérandieu IX 6563</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 593 Nr.2</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.888</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -303,12 +306,16 @@ Gaius Nigrinius …ius in response to an order …</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]us ex imp(erio) ip[s(arum)] – Lehner; ...tus – Espérandieu</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]us ex imp(erio) ip[s(arum)] – Lehner; ...tus – Espérandieu; ius – Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">nach dem C weitere Buchstabenreste – CIL; v(otum) s(olvit) l(ibens) m(erito) – Espérandieu</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">nach dem C weitere Buchstabenreste – CIL; v(otum) s(olvit) l(ibens) m(erito) – Espérandieu; [3]CAI(?)[ – Scheungraber; ……….CAI[…] – Ferlut</tei:note>
                 </app>
-            </div>
+            
+            <app loc="1">
+                <note anchored="true">Vesuniahenis – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Gaius Nigrinius …ius: tria nomina <lb/> 
 Nigrinius: einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Cognomen Niger/Nigrinus (Kakoschke 2006, GN 855)</p>

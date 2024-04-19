@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior457">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior457">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -236,7 +235,11 @@
                     <bibl xml:id="LIT.5" default="false" status="draft">Galsterer/Galsterer 1975, Nr.127</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">Galsterer/Galsterer 2010, Nr.182</bibl>
                     <bibl xml:id="LIT.7" default="false" status="draft">KIK 2012, Nr.194</bibl>
-                </listBibl>
+                
+            <bibl xml:id="8">Scheungraber 2020, 393 Nr.2</bibl>
+        
+            <bibl xml:id="9">Ferlut 2022, Nr.1118</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -269,10 +272,10 @@ Marcus Saturninus Eupulus, the sevir Augustalis, has fulfilled a vow willingly a
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Saturnin(i)us – Riese; Saturn(i)nius – Hondius-Crone 1955; Saturnin̂ius – Galsterer/Galsterer 1975; Saturninius – Galsterer/Galsterer 2010, KIK 2012, Nr.194</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Saturnin(i)us – Riese; Saturn(i)nius – Hondius-Crone 1955; Saturnin̂ius – Galsterer/Galsterer 1975; Saturninius – Galsterer/Galsterer 2010, KIK 2012, Nr.194, Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Lupulus – Riese, Byvanck; Galsterer/Galsterer 1975, Galsterer/Galsterer 2010, KIK 2012, Nr.194</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Lupulus – Riese, Byvanck; Galsterer/Galsterer 1975, Galsterer/Galsterer 2010, KIK 2012, Nr.194, Scheungraber, Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

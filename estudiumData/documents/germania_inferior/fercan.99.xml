@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior99">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior99">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -258,7 +257,11 @@
                     <bibl xml:id="LIT.4" default="false" status="draft">Galsterer/Galsterer 1975, Nr.111</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Galsterer/Galsterer 2010, Nr.162</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">KIK 2012, Nr.178</bibl>
-                </listBibl>
+                
+            <bibl xml:id="7">Scheungraber 2020, 578 Nr.3</bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.592</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -288,23 +291,17 @@ Iulia Lella, the daughter of Genetus, by (their) order.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Matronis?] – Galsterer/Galsterer 1975, Galsterer/Galsterer 2010, KIK 2012</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">vor Z.1: [Matronis?] – Galsterer/Galsterer 1975, Galsterer/Galsterer 2010, KIK 2012; [Matronis] – Scheungraber, Ferlut; Z.1: die unterstrichenen Buchstaben in Z.1-5 sind heute nicht mehr erhalten, sie werden nach ILS und CIL wiedergegeben; Vallamnei – ILS; Vallam̂âenei – CIL; ohne Ligatur – Espérandieu, Galsterer/Galsterer 1975, Galsterer/Galsterer 2010, KIK 2012 </tei:note>
                 </app>
-                <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">unterstrichene Buchstaben nicht mehr erhalten, nach ILS und CIL noch da; Vallamnei – ILS; Vallam̂âenei – CIL; ohne Ligatur – Espérandieu, Galsterer/Galsterer 1975, Galsterer/Galsterer 2010, KIK 2012</tei:note>
-                </app>
-                <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">unterstrichene Buchstaben nicht mehr erhalten, nach ILS und CIL noch da</tei:note>
-                </app>
+                
+                
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">unterstrichene Buchstaben nicht mehr erhalten, nach ILS und CIL noch da; Iulia [---]geneti – Galsterer/Galsterer 2010, KIK 2012</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Iulia [---]geneti – Galsterer/Galsterer 2010, KIK 2012</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">unterstrichene Buchstaben nicht mehr erhalten, nach ILS und CIL noch da; Zeilenwechsel fehlt nach Lella – Galsterer/Galsterer 2010, KIK 2012</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Zeilenwechsel fehlt nach Lella – Galsterer/Galsterer 2010, KIK 2012</tei:note>
                 </app>
-                <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">unterstrichene Buchstaben nicht mehr erhalten, nach ILS und CIL noch da</tei:note>
-                </app>
+                
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Iulia Geneti f(ilia) Lella: weibliches römisches Namensformular mit Patronym im Genetiv <lb/>

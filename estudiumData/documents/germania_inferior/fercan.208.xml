@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior208">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior208">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -212,7 +211,9 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1918, Nr.370</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Alföldy 1968, Nr.126</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 568 Nr.106</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -239,9 +240,13 @@
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Voca[l]l[i] – Lehner; Vôcal̂[i] – Alföldy</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Es steht Z. 0 unbestimmten Inhalts voran – Scheungraber; Voca[l]l[i] – Lehner, Scheungraber; Vôcal̂[i] – Alföldy</tei:note>
                 </app>
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">ne(h)abus, es folgt Z. 3 mit unbestimmtem Inhalt – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.1: „Vocalineabus” pro „Vocalineis”</p>
             </div>

@@ -1,0 +1,339 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior92" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Sulis?</title><title type="sub">CF-GeS-1059</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.92</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Mainz</settlement>
+						<repository>Landesmuseum</repository>
+						<idno>S 1219</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p>                                                <p>Von diesem Weihealtar ist nur mehr die Bekrönung und der Beginn des ungerahmten Inschriftenfeldes vorhanden. Diese zwei Teile sind durch mehrere Stufen voneinander getrennt. Der Aufsatz ist durch Pulvini mit Rosetten geschmückt, wobei die rechte Volute abgebrochen ist. Dazwischen befindet sich ein Dreiecksgiebel und dahinter eventuell die Opferschale.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
+										<height unit="cm">63</height>
+										<width unit="cm">30</width>
+										<depth unit="cm">24</depth>
+									</dimensions> <note type="dimensions" anchored="true">Die angegebenen Maße sind die des erhaltenen Fragmentes.</note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>Der Inschriftentext befand sich auf zwei Blöcken, von denen nur der obere mit Z. 1 und 2 erhalten ist. Der untere, auf dem eine weitere Zeile zu lesen war, ist nur mehr abschriftlich erhalten (s. Frenz 1992, Nr.185). Ob sich der Inschriftentext über die ersten drei Zeilen hinaus nach unten vielleicht noch weiter fortgesetzt hat, kann nicht mehr überprüft werden. Der Text ist stark abgerieben aber lesbar.</p>
+                                                <p>Besondere Zeichen: Oberhalb des I von Z.2 ist ein kleineres V wohl nachträglich über dem I zwischen Z.1 und Z.2 eingefügt worden. Das O in Z.2 ist kleiner als die übrigen Buchstaben.</p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden. <br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">Rosette</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale (Gestaltungsmerkmal)</term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName>Altiaia</placeName> <region>Civitas Vangionum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1872"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Alzey</ref> </placeName> <p>auf den Drommäckern zwischen der alten Schlossruine und der Loge [spätantikem Kastell] (CIL); „in einem Acker des Gärtners A. Braun“ (Wimmer 1874, 10); „zwischen dem Schloß und dem Dautenheimer Weg“ (Weber 1966, 3, Nr.6266)</p> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true"/> </provenance>
+						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (CIL XIII Projekt)</p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Sulis?</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Sulis?</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Lucanus</ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">Attonius</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">
+						</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">dea(e) Sul(i)?</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1059_front.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
+		</graphic>
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1059_front_Abschr.jpg">
+                <desc>Abschrift, CIL</desc>
+            </graphic>
+        </facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="2">CIL XIII 6266 </bibl>
+				
+            <bibl xml:id="3">Riese 1914, Nr.3513</bibl>
+        
+            <bibl xml:id="4">Heichelheim 1931 (Sul), 724 </bibl>
+        
+            <bibl xml:id="5">Weber 1966, 3 </bibl>
+        
+            <bibl xml:id="6">Klumbach 1973 (Altiaium), 12f. </bibl>
+        
+            <bibl xml:id="7">Künzl 1975, Nr.57 </bibl>
+        
+            <bibl xml:id="8">Kakoschke 2002, Nr.5.34</bibl>
+        
+            <bibl xml:id="1">Becker 1873, 142 Nr.1</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno>EDCS-11000274</idno><date>zuletzt abgerufen 2023-07-07</date></bibl>
+					<bibl type="EDH"><idno>HD054777</idno><date>Version von 2019-06-28</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/211803</idno><date>zuletzt abgerufen 2023-07-07</date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/15574</idno><date>Version von 2023-01-01</date></bibl>
+					<bibl type="other"><idno> </idno><date> </date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/>DEA<g type="interpunct">▴</g>SVL
+<lb n="2"/>ATTONI<add place="above">V</add>S
+<lb n="3"/><supplied evidence="previouseditor" reason="undefined">LVCANV</supplied><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="line"/><orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><expan><abbr>Dea</abbr><ex>e</ex></expan> <expan><abbr>Sul</abbr><ex>i</ex></expan>
+<lb n="2"/>Attonius
+<lb n="3"/>Lucanu<supplied reason="lost">s</supplied>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="line"/></ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p>                                                <p>Für die Göttin <rs type="divine">Sulis</rs>!</p>
+                                                <p>Attonius Lucanus ...?<br/></p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p>                                                <p>To the goddess <rs type="divine">Sulis</rs>!</p>
+                                                <p>Attonius Lucanus ...?<br/></p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="2">
+					<note anchored="true">Sul – CIL, Weber, Klumbach; Dea(bus) Sul(eviis) – Heichelheim; falscher Zeilenwechsel nach Dea(e) – Künzl</note>
+				</app>
+			
+            <app loc="3">
+                <note anchored="true">der unterstrichene Teil in Z.3 ist heute nicht mehr erhalten, er wird nach CIL wiedergegeben; Lucanus – Riese</note>
+            </app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Attonius Lucanus: römisches Namensformular ohne Pränomen</p>
+                                                <p>Attonius: einheimisches Pseudugentilnomen, abgeleitet vom keltischen oder germanischen Namen Atto, vor allem in der Germania Superior auftretend (Kakoschke 2021, GN 164)</p>
+                                                <p>Lucanus: gängiger lateinischer Name (Kakoschke 2021, CN 1783)</p></div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">                                                <rs type="divine"><br/></rs></div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note"><p>Lupa: untere Hälfte fehlt heute, bestoßen, rechts verbr. Volutenposter (pulvini) mit Rosetten, dazwischen Giebel</p><p>Franz 1992 (CSIR Dtschld. 2,4,) Nr.185: unteres Fgt.: verschollen</p></note>
+			<note type="ArchKlass_note"><p>Pulvini</p><p>Giebel</p><p>Rosette</p><p>Opferschale</p></note>
+			<note type="Material_note"><p>rot – Becker 1873, S. 142, Nr. 1<br/></p></note>
+			<note type="Inschrifttraeger_note"><p>WSpDB: ara<br/>EDH: Altar</p></note>
+			<note type="VerwahrortOrt_note"/>
+			<note type="InvNr_note"/>
+			<note type="Fundstelle_note"/>
+			<note type="Fundumst_note"><p>in zwei Theile zerbrochen aufgefunden – Becker 1873 S. 142, Nr. 1<br/></p></note>
+			<note type="Fundjahr_note"><p>1872 – Becker 1873, S. 142, Nr. 1, so auch Schwabe 1873, S. 295</p><p>1871 - Wimmer</p></note>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note"><p>Kraft 1951, S. 144 Nr. 211 Ladenburg??!<br/></p></note>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note"/>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note">                                                    <p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p><p>eingesehen</p>
+                                                    <p>Alföldy, Géza: Epigraphisches aus dem Rheinland II. in: Epigraphische Studien 4, 1967, S. 13 (Nr. 26); S. 11 Karte - eingesehen</p>
+                                                    <p>Kienle, Richard von: Das Auftreten keltischer und germanischer Gottheiten zwischen Oberrhein und Limes. In: Archiv für Religionswissenschaft 35. 1938. S.252ff S.257, - eingesehen</p>
+                                                    <p>CSIR Deutschland 2,4, Nr. 185 – eingesehen – Nachtrag der Abb</p>
+                                                    <p>Scheungraber – hat die IS nicht</p>
+                                                    
+                                                    
+                                                    <p>Ihm 1887, Nr.551,</p>
+                                                    <p>Riese 1914, Nr.3513, - eingearbeitet</p><p>Ivleva, Tatiana Alexandrovna: Britons Abroad. The mobility of Britons
+ and the circulation of British-made objects in the Roman Empire. Diss. 
+Leiden 2012 S.245f., - eingesehen<br/></p>
+                                                    Kakoschke, 
+Andreas: Ortsfremde in den römischen Provinzen Germania inferior und 
+Germania superior. Eine Untersuchung zur Mobilität in den germanischen 
+Provinzen anhand der Inschriften des 1. bis 3. Jahrhunderts n. Chr. 
+(Osnabrücker Forschungen zu Altertum und Antike-Rezeption; 5), Möhnesee:
+ Bibliopolis 2002. Nr. 5.34 - eingearbeitet
+                                                    <p>Gricourt, Daniel; Hollard, Dominique; Pilon, Fabien : Le Mercure Solitumaros de Châteaubleau (Seine-et-Marne): Lugus macrophtalme, visionnaire et guérisseur. in: Dialogues d’Histoire Ancienne 25,2, 1999 S. 135 - eingesehen</p></note>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note"><p>so Künzl 1975<br/></p></note>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note"/>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"><p><rs type="divine">Sulis</rs>: wenn die Herstellung des GN so richtig; und nicht etwa <i>Suleviae</i>, wie schon Heichelheim 1931 (Sul) 724. <br/></p><p> </p>
+			</note>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note"><p>severisch: Weber</p><p>E.2./3.Jh. – Künzl</p><p>171 AD – 230 EDH</p><p>190-250: WSpDB</p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

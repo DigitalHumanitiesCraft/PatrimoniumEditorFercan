@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior309">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior309">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -281,7 +280,11 @@
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1930, Nr.56</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">AE 1931, 28</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Günther/Köpstein 1985, 429</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 520 Nr.6</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.1252</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -316,7 +319,11 @@ Cominia Apra hat für das Heil des Bruders Apuleius Severus und für ihr eigenes
 Cominia Apra has fulfilled a vow willingly and deservedly for the wellbeing of her brother Apuleius Severus and her own. </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">{s}ali – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Cominia Apra: weibliches römisches Namensformular <lb/> 
 Cominia: weibliche Form von Cominius: italisches Gentilnomen, gängiger Name (Kakoschke 2006, GN 345) <lb/>

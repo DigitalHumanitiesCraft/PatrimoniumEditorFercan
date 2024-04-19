@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior250">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior250">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -278,7 +277,11 @@ An den Schmalseiten sind die ebenfalls zerstörten Überreste von Baumdarstellun
                     <bibl xml:id="LIT.3" default="false" status="draft">Espérandieu VIII 6354</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Alföldy 1968, Nr.11</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Biller 2010, 220</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 559 Nr.21</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.831</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -307,13 +310,13 @@ Marcus Licinius Finitimus and Verania Vera by order (of the goddesses).</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">M(atronis) V̂ac[al]l̂in̂êcĥis – Lehner, Biller; Vac[all]inehis – Espérandieu; M(atronis) V̂ac[al]l̂in̂êĥis – Alföldy</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">M(atronis) V̂ac[al]l̂in̂êcĥis – Lehner, Biller; Vac[all]inehis – Espérandieu; M(atronis) V̂ac[al]l̂in̂êĥis – Alföldy, Scheungraber; M(atronis) Vacallinehis – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Lic[în]ius – Alföldy</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Lic[în]ius – Alföldy; Licinius – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[us êt?] – Biller</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[us êt?] – Biller; mitimus et Vera – Ferlut (verschrieben?)</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ÎM̂PE – CIL; ÎMPE – Lehner; impe – Espérandieu; împe – Alföldy; împe(rio ipsarum) – Biller. Bisweilen wird auch noch eine weitere folgende Zeile angenommen mit [rio ipsarum?] – Lehner; [rio ips(arum), l(ibentes) m(erito)] – Espérandieu; [rio ipsa ---] – Alföldy</tei:note>

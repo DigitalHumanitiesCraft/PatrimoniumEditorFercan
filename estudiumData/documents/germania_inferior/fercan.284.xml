@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior284">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior284">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -291,7 +290,9 @@ Auf der linken wie rechten Schmalseite befindet sich ein einfach gehaltener Baum
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Neuffer 1948, 399f.</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Nesselhauf/Lieb 1959, Nr.236</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 585 Nr.5; 189</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -325,10 +326,10 @@ Titus Ianuarinus Similis for himself and his family willingly and deservedly.</p
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Neuffer, Nesselhauf-Lieb</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Berhliahenis – Neuffer, Nesselhauf-Lieb; ohne Ligatur – Nesselhauf-Lieb</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Berhliahenis – Neuffer, Nesselhauf-Lieb, Scheungraber; ohne Ligatur – Nesselhauf-Lieb, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Ianuarîn̂ius – Neuffer; Ianuarinius, ohne Ligatur – Nesselhauf-Lieb</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Ianuarîn̂ius – Neuffer; Ianuarinius, ohne Ligatur – Nesselhauf-Lieb, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Nesselhauf-Lieb</tei:note>

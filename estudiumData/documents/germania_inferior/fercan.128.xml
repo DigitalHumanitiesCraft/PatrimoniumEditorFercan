@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior128">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior128">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -224,7 +223,9 @@
             <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">AE 1994, 1282</bibl>
-                </listBibl>
+                
+            <bibl xml:id="2">Scheungraber 2020, 367 Nr.14</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -254,7 +255,7 @@ Pacius. </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Mag(usano) – AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Mag(usano) – AE, EDH, Scheungraber</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

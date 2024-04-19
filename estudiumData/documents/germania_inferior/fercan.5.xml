@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior5">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior5">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -292,7 +291,9 @@ Auf der rechten Schmalseite ist im ebenfalls eingerahmten Relieffeld ein Baum mi
                         <item>
                             <ref type="context" target="context:fercan.dedication.libentes_merito">libentes merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item>
+                    </list>
+                </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -333,6 +334,14 @@ Auf der rechten Schmalseite ist im ebenfalls eingerahmten Relieffeld ein Baum mi
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD075074</idno>
+                        <date>Version vom 17. August 2021</date>
+                    </bibl>
+                	<bibl type="lupa">
+                        <idno>http://lupa.at/20467</idno>
+                        <date>Version von 2020-09-25</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-11202315</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -343,7 +352,7 @@ Auf der rechten Schmalseite ist im ebenfalls eingerahmten Relieffeld ein Baum mi
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>MERCVRIO GEBRI <lb n="2"/> 
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>MERCVRIO GEBRI <lb n="2"/> 
 <hi rend="ligature">NI</hi>O · EX · IMP · IPS · C · ANA <lb n="3"/> 
 ILLIVS · ATTO <hi rend="ligature">ET</hi> ANA<hi rend="ligature">IL</hi> <lb n="4"/> 
 LIVS · ATTO<hi rend="ligature">NI</hi>VS · PRO <lb n="5"/> 
@@ -408,7 +417,12 @@ Vorkommen in theonymischen Formularen: </p>
             <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
             <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
             <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true">                <p>
+                    <a href="http://lupa.at/20467" target="_blank">http://lupa.at/20467</a>
+                    <a href="http://lupa.at/20467" target="_blank"/> Version vom 31. Dezember 2021<br/>
+                </p>
+                <p>HD075074 Version vom 17. August 2021</p>
+            </tei:note>
             <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
             <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
             <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>

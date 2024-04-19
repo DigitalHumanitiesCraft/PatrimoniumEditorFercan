@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior465">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior465">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -288,7 +287,11 @@ Auf der linken Schmalseite ist im unteren Register eine gerippte Vase mit wuchti
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 8629</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Diedenhofen 1973, Nr.12</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Reuter 2012, Nr.63</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 117</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.687</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -312,7 +315,12 @@ QVETIVS QVINTVS <lb n="4"/>
 OPT · LEG · XXX · V · V · P · F · SA <lb n="5"/>
 V · S · L · M · MAXIMO ET <lb n="6"/>
 PATERNO COSS</orig></ab></div>
-            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Matribus<lb n="2"/>Annaneptis<lb n="3"/><expan instant="false"><abbr>Q</abbr><ex instant="false">uintus</ex></expan> Vetius Quintus<lb n="4"/><expan instant="false"><abbr>opt</abbr><ex instant="false">io</ex></expan> <expan instant="false"><abbr>leg</abbr><ex instant="false">ionis</ex></expan> XXX <expan instant="false"><abbr>U</abbr><ex instant="false">lpiae</ex></expan> <expan instant="false"><abbr>v</abbr><ex instant="false">ictricis</ex></expan> <expan instant="false"><abbr>p</abbr><ex instant="false">iae</ex></expan> <expan instant="false"><abbr>f</abbr><ex instant="false">idelis</ex></expan> <expan instant="false"><abbr>S</abbr><ex instant="false">everianae</ex></expan> <expan instant="false"><abbr>A</abbr><ex instant="false">lexandrianae</ex></expan><lb n="5"/><expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan> Maximo et<lb n="6"/>Paterno <expan instant="false"><abbr>co</abbr><ex instant="false">n</ex></expan><expan instant="false"><abbr>ss</abbr><ex instant="false">ulibus</ex></expan></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><lb n="1"/>Matribus
+<lb n="2"/>Annaneptis
+<lb n="3"/><expan instant="false"><abbr>Q</abbr><ex instant="false">uintus</ex></expan> Vetius Quintus
+<lb n="4"/><expan instant="false"><abbr>opt</abbr><ex instant="false">io</ex></expan> <expan instant="false"><abbr>leg</abbr><ex instant="false">ionis</ex></expan> XXX <expan instant="false"><abbr>U</abbr><ex instant="false">lpiae</ex></expan> <expan instant="false"><abbr>v</abbr><ex instant="false">ictricis</ex></expan> <expan instant="false"><abbr>p</abbr><ex instant="false">iae</ex></expan> <expan instant="false"><abbr>f</abbr><ex instant="false">idelis</ex></expan> <expan instant="false"><abbr>S</abbr><ex instant="false">everianae</ex></expan> <expan instant="false"><abbr>A</abbr><ex instant="false">lexandrianae</ex></expan>
+<lb n="5"/><expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan> Maximo et
+<lb n="6"/>Paterno <expan instant="false"><abbr>co</abbr><ex instant="false">n</ex></expan><expan instant="false"><abbr>s</abbr><ex instant="false">ulibus</ex></expan></ab></div>
             <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
                 <p part="N">Für die  <rs type="divine">Matres Annaneptiae!</rs>  <lb/>
 Quintus Vetius Quintus, optio der legio XXX Ulpia Victrix Pia Fidelis Severiana Alexandriana, hat das Gelübde gerne und verdientermaßen erfüllt, als Maximus und Paternus Konsuln waren.</p>

@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior56">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior56">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -241,7 +240,11 @@
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1967, Nr.344</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Schillinger-Häfele 1977, Nr.148</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Biller 2010, 77–80</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 304</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.752</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>

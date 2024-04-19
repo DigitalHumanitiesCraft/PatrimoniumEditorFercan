@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior103">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior103">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -251,7 +250,9 @@
                     <bibl xml:id="LIT.3" default="false" status="draft">AE 1958, 12</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Gose 1955–1956, 170</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Cabuy 1991, 222, Nr.1</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 583 Nr.2</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -287,7 +288,11 @@ Marcus Fucissius Secundus, Sexviralis Augustorum of the Colonia Claudia Augusta 
                 <app loc="#MIN.2 #MAJ.2">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Fuciss[i]us – Finke; Fucissius Secun – Cabuy</tei:note>
                 </app>
-            </div>
+            
+            <app loc="4">
+                <note anchored="true">A(rae) A(grippinensium) – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Marcus Fucissius Secundus: tria nomina <lb/>
 Fucissius: Gentilnomen mit keltischer Basis (Kakoschke 2006, GN 511). Das nomen gentile des Stifters war zum Zeitpunkt der ältesten Editionen (Riese, Finke) offenbar noch voll erhalten. Der Name ist nur in dieser Inschrift bezeugt. <lb/>

@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior401">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior401">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -270,7 +269,11 @@
                     <bibl xml:id="LIT.4" default="false" status="draft">Stuart/Bogaers 2001, B44</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Wierschowski 2001, Nr.19</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">Beck 2013, 226–227</bibl>
-                </listBibl>
+                
+            <bibl xml:id="7">Scheungraber 2020, 408 Nr.117</bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.1047</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -320,7 +323,11 @@ Gaius Catullinius Secco, the merchant with allec, a member of the civitas of the
                 <app loc="#MIN.5 #MAJ.5">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Seggo – Stuart/Bogaers 1971</tei:note>
                 </app>
-            </div>
+            
+            <app loc="8">
+                <note anchored="true">civ&lt;i=E&gt;s – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">C(aius) Catullinius Secco: tria nomina <lb/>
 Catullinius: einheimisches Pseudogentilnomen, abgeleitet vom lateinischen/keltischen Cognomen Cat(ull)us/Catullinus (Kakoschke 2006, GN 298) <lb/>

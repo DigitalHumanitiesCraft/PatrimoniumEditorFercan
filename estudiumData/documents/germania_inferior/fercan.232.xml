@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior232">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior232">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -259,7 +258,9 @@ Laut Literatur (Lehner 1918, 167) sind Rück- sowie Seitansichten vollständig g
                     <bibl xml:id="LIT.2" default="false" status="draft">Finke 1927, Nr.270</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Alföldy 1968, Nr.135</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">AE 1968, 356</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 568 Nr.112</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -293,7 +294,7 @@ By order (of the goddesses) Lucius Vennonius Saturninus and Aiva.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">VACÂLLNE˧S – Finke; Vacâll̂in̂êh(i)s – Alföldy; Vacallineh(i)s, ohne Ligaturen – AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">VACÂLLNE˧S – Finke; Vacâll̂in̂êh(i)s – Alföldy; Vacallineh(i)s, ohne Ligaturen – AE, EDH, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – AE, EDH</tei:note>

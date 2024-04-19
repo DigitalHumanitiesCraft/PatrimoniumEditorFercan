@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior102">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior102">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -219,7 +218,9 @@
                     <bibl xml:id="LIT.4" default="false" status="draft">Gose 1955–1956, 171</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">AE 1958, 13</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">Cabuy 1991, 222, Nr.2</bibl>
-                </listBibl>
+                
+            <bibl xml:id="7">Scheungraber 2020, 583 Nr.1</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>

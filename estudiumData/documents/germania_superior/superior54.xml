@@ -1,0 +1,342 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior54" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Mars? Loucetius</title><title type="sub">CF-GeS-1045</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.54</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Mainz</settlement>
+						<repository>Landesmuseum</repository>
+						<idno>S 325 a,b = S 179</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p>                                                <p>Es handelt sich um einen Weihestein, der mittig in zwei Teile zerschnitten wurde. Der Stein ist rundherum stark bestoßen bzw. an der Oberseite und den äußeren Seiten auch abgebrochen. Das linke der Fragmente ist an der Basis und bis in das Inschriftenfeld zugespachtelt, beim rechten Fragment scheint das gleiche Material am Boden der Basis verwendet worden zu sein. Am rechten äußeren Rand des linken Fragmentes befindet sich ein Bohrloch, das auf eine Verwendung als Brunnen hinweisen könnte (vgl. lupa und EDH).</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref> </material>
+									<objectType>Weihestein</objectType> <dimensions>
+										<height unit="cm">114</height>
+										<width unit="cm">142</width>
+										<depth unit="cm">18</depth>
+									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>Nur der untere Rand des Inschriftentextes ist sichtbar. Wie weit sich der Text links, oben und rechts ursprünglich noch erstreckt hatte, bleibt unbekannt. Die runde Öffnung in Z.1, bei der es sich um das Ausflussrohr eines Brunnens handeln könnte, hat man sich möglicherweise in der Mitte der Zeile vorzustellen. Die Buchstaben sind sehr regelmäßig. Ihre Größe nimmt von der obersten zur untersten Zeile ab. </p>
+                                                <p>In Z.1 beruht die Ergänzung darauf, dass Loucetius stehts in Verbindung mit Mars genannt wird und diese sich Platzmäßig auch ausgeht. Ob jedoch die Schreibung Lou- oder Leu- war kann nicht entschieden werden. Die Umzeichnung bei Körber (1879, 32) und im CIL zeigt in Z.4 bei Aresace nach den Resten des 
+letzten E auch einen Bogen, bei dem es sich aus Inhaltlichen Gründen nur
+ um ein S handeln kann. Bis auf das obere Eck des E ist von diesen 
+Resten jedoch nichts mehr erhalten.</p>
+                                                <p>Besonder Zeichen: Das P in Z.4 ist unten offen.<br/></p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="9.0" atMost="14.0">9,0–14,0</height> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.</p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140740">Bohrloch</term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1852"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Kleinwinternheim</ref> </placeName> <p>„im heiligen Bezirk des Mars Leucetius auf der Gemarkung Ober-Olm“ (Weber 1966, 100, Nr.7252); Flur „Füllkeller“ (Bayer 1967, 165)</p> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true">Die rechte Hälfte wurde „nach einer handschriftlichen Notiz des Herrn Oberst A. von Cohausen […] aus einer langen Mauer ausgebrochen“ (Becker 1875, 29f., Nr.105) </note> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung gründet auf: Photo<br/></p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context">templum</ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Mars? Loucetius</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Loucetius</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> </ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">Iulius</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">
+						</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">Aresaces</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context">publice posuerunt</ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">[Marti? Lo]ucetio</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1045_front.jpg">
+			<desc> Front, https://edh.ub.uni-heidelberg.de/edh/foto/F020326, © K. Matijević</desc>
+		</graphic>
+	</facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="3">CIL XIII 7252</bibl>
+				
+            <bibl xml:id="4">Behrens 1941, 14</bibl>
+        
+            <bibl xml:id="5">Klumbach 1959, 69f.</bibl>
+        
+            <bibl xml:id="6">Weber 1966, 100f.</bibl>
+        
+            <bibl xml:id="7">Hatt 1979, 125</bibl>
+        
+            <bibl xml:id="8">Schumacher 1983, 51–52</bibl>
+        
+            <bibl xml:id="9">Selzer et.al. 1988, 249</bibl>
+        
+            <bibl xml:id="10">Scheungraber 2020, 358 Nr.6</bibl>
+        
+            <bibl xml:id="1">Brambach 1867 (Corpus), Nr.925</bibl>
+        
+            <bibl xml:id="2">Körber 1897, Nr.29</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno>EDCS-11001341</idno><date>zuletzt abgerufen 2023-06-07</date></bibl>
+					<bibl type="EDH"><idno>HD072472</idno><date>Version von 2018-01-25</date></bibl>
+					<bibl type="trismegistos"><idno>http://www.trismegistos.org/text/425566</idno><date>zuletzt abgerufen 2023-06-07</date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/20439</idno><date>Version von 2021-04-12</date></bibl>
+					<bibl type="other"><idno>https://arachne.dainst.org/entity/3460576</idno><date>zuletzt abgerufen 2023-06-07</date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>VCETIO L<g type="interpunct">▴</g>IVLIVS<g type="interpunct">▴</g>B<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>VLLA <g type="interpunct">▴</g>FONTEM<g type="interpunct">▴</g>ET<g type="interpunct">▴</g>IT<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ONEM<g type="interpunct">▴</g>SVAM<g type="interpunct">▴</g>AD<g type="interpunct">▴</g>TEM<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> ARESACE<supplied evidence="previouseditor" reason="undefined"><unclear>S</unclear></supplied> PVBLICE<g type="interpunct">▴</g>P<gap reason="lost" extent="unknown" unit="character"/><orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Marti? Lo</supplied>ucetio <expan><abbr>L</abbr><ex>ucius</ex></expan> Iulius B<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ulla fontem et it<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>onem suam ad tem<supplied reason="lost">plum</supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">?</supplied>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">?</supplied> Aresaces publice p<supplied reason="lost">osuerunt?</supplied></ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p>                                                <p>Für <rs type="divine">Loucetius</rs>!</p>
+                                                <p>Lucius Iulius B… (und?) ...ulla (haben) die Quelle und … ihre … zum/beim Tempel …</p>
+                                                <p>Die …? Aresaces haben dies öffentlich aufgestellt.<br/></p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p>                                                <p>To <rs type="divine">Loucetius</rs>!</p>
+                                                <p>Lucius Iulius B… (and?) ...ulla have … the source and … their … to/at the temple …</p>
+                                                <p>The …? Aresaces have set this up publicly.<br/></p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="1">
+					<note anchored="true">[Marti Lo]ucetio – CIL, EDH, Hatt, Scheungraber, arachne; [Marti Le]ucetio – Körber, Behrens, Klumbach, Weber, Schumacher, Selzer et.al.</note>
+				</app>
+			
+            <app loc="2"><note anchored="true">[et ---]ulla fontem et it[er per] – Behrens, Selzer et.al.; [--- et Tert]ulla(?) fontem et it[er per] – Scheungraber, arachne; it[er per] – CIL, EDH, Klumbach, Weber, Hatt, Schumacher; it[er actumq(ue)?] – Körber</note></app>
+        
+            <app loc="3"><note anchored="true">[per possess]ionem suam ad tem[plum conces-] – Körber; [possessi]onem – CIL, EDH, Behrens, Klumbach, Weber, Hatt, Schumacher, Selzer et.al., Scheungraber, arachne; tem[plum con-] – Behrens, Klumbach, Weber, Schumacher, Selzer et.al., lupa; tem[plum] – Hatt</note></app>
+        
+            <app loc="4"><note anchored="true">der unterstrichene Teil in Z.4 ist heute nicht mehr erhalten, er wird nach Körber und CIL wiedergegeben; [cesserunt] Aresaces – Behrens, Hatt, Selzer et.al.;  [cessit?] Aresaces – Klumbach, Weber, Schumacher;  [concessit. Vicani (?)] Aresaces – arachne; [-sit vicani] Aresaces – Körber, Behrens, Weber, Schumacher, Selzer et.al.; [---]ARESACE[---] – Scheungraber </note></app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Verschiedene wahrscheinliche aber nicht völlig abgesicherte Ergänzungen (s. Apparatus criticus) ergeben als Aussage der Inschrift, dass Lucius Iulius B… und …ulla „die Quelle und die Leitung zum Tempel durch ihr Besitztum gestattet“ hätten (fontem et it[er per] / [possessi]onem suam ad tem[plum] / [concesserunt).</p>
+                                                <p>…ulla könnte allerdings auch das Ende des Cognomens des Lucius Iulius sein (B… wäre dann vermutlich eher der Name des Vaters); in diesem Fall wäre Z.3/4 nicht auf concesserunt zu ergänzen, sondern auf concessit.</p>
+                                                <p>Iulius: italisches Gentilnomen, kaiserliches Gentilnomen, überall äußerst gängig (Kakoschke 2021, GN 637)
+			</p></div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note">                                                    <p>IDAI: 2 anpassende Platten. An den äußeren Rändern stark bestoßen. Inschriftenfeld geglättet und leicht eingetieft. Die linke Platte ist in der oberen rechten Ecke durchbohrt (Wasserauslass?); Schriftfeld (cm): (73) x 142</p>
+                                                    <p>Lupa: oben u. seitlich abgebr., in 2 Teile zerschnitten, oben Bohrung für Wasserrohr</p>
+                                                    <p>EDH: In zwei Teile zersägtes Fragment wohl eines Brunnens; zwischen VCETIO und L in Z. 1 ein kreisrundes Loch als Wasserauslass.</p></note>
+			<note type="ArchKlass_note">                                                    <p><br/></p></note>
+			<note type="Material_note"><p>Gelblicher Kalkstein – Körber 1897, S. 32, Nr. 29<br/></p></note>
+			<note type="Inschrifttraeger_note"/>
+			<note type="VerwahrortOrt_note"/>
+			<note type="InvNr_note"><p>Arachne: S 325<br/></p></note>
+			<note type="Fundstelle_note"><p>Ober-Olm, am Füllkeller<br/></p></note>
+			<note type="Fundumst_note"/>
+			<note type="Fundjahr_note"><p>Becker 1875, S. 29, Nr. 105 – im Sommer des Jahres 1852</p><p>EDH: 1854</p></note>
+			<note type="FOantik_note"><p>Lupa: im Heiligtum des Mars Loucetius u. der Nemetona</p></note>
+			<note type="FOmodern_note"><p>CSIR-Deutschland 2,8, Taf.90: Mögliche Herkunft des Rohlings: Dogger, Lothringer Jura<br/></p></note>
+			<note type="civitas_note"><p>Zur Platzfrage:</p><p>[MARTI LO]UCETIO</p><p>[MARTI LO]VCETIO <b>O</b> L IVLIVS B[-------------]</p><p>[----------------]VLLA FONTEM ET IT[ER PER]</p><p>[POSSESSI]ONEM SVAM AD TEM[PLVM]</p><p>[---] ARESACES PVBLICE P</p></note>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note">                                                    <span style="font-size:12.0pt;line-height:107%; font-family:LeedsUniExt;mso-ansi-language:DE-AT;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-bidi-font-weight:bold">Film Nr.: HFK 360/15,25</span></note>
+			<note type="englUEbers_note">                                                    <p><br/></p></note>
+			<note type="dtUEbers_note"><p>Arachne: Dem Mars Leucetius haben Lucius Iulius B… und …ulla die Quelle und die Leitung zum Tempel durch ihr Besitztum bewilligt. Die Aresaces haben diese Inschrift aus öffentlichen Mitteln aufgestellt.<br/></p></note>
+			<note type="Editionen_note">                                                    <p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p>
+                                                    <p>eingesehen</p>
+                                                    <p>K.-V. Decker, Die Anfänge der Mainzer Geschichte, in: F. Dumont - F. Scherf -F. Schütz (Hrsg.): Mainz – Die Geschichte der Stadt. (Mainz 1999, 2. Aufl.), 1-35 – eingesehen, nix</p>
+                                                    <p>A. v. Domaszewski, in: K. Körber Inschriften des Mainzer Museums (1900), Kat.Nr. 29 - Minuskelumschrift bei Ihm in RE</p>
+                                                    <p>M. Ihm, Aresaces, RE Suppl. 1 (1903), 125 – bringt nur Ergänzungen nach Domaszewski</p>
+                                                    <p>Klein 2003. S. 89 mit Anm. 3; S. 90 Abb. 1 - eingesehen</p>
+                                                    <p>J. Scheid, Carnuntum Jahrbuch 2016, 16 - eingesehen</p>
+                                                    <p>M. Wittener, Mogontiacum – Militärbasis und Verwaltungszentrum. Der 
+archäologische Befund, in: F. Dumont - F. Scherf - F. Schütz (Hrsg.): 
+Mainz – Die Geschichte der Stadt. (Mainz 1999, 2. Aufl.), 1021-1059 - 
+nichts</p>
+                                                    
+                                                    <p>Körber 1897, Nr.29 - eingearbeitet<br/></p>
+                                                    <p>Egelhaaf-Gaiser, Ulrike: Kulträume im römischen Alltag. Das Isisbuch des Apuleius und der Ort von Religion im kaiserzeitlichen Rom. (Potsdamer Altertumswissenschaftliche Beiträge; 2), Stuttgart: Steiner 2000. S. 338 A. 71 - nur ein Teil wiedergegeben</p></note>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note"><p>EDH: Breite: 141<br/></p></note>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note"/>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note"><p>Klumbach: nach den Buchstabenformen M.1-Jh.</p><p>Lupa, EDH, WSpDB: 1-99</p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

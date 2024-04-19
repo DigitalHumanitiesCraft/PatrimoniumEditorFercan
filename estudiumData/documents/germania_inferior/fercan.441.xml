@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior441">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior441">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -257,7 +256,11 @@
                     <bibl xml:id="LIT.2" default="false" status="draft">Byvanck 1935, Nr.258</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Hondius-Crone 1955, Nr.25</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Stuart 2013, Nr.25</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 394 Nr.11</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr. 975</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -289,9 +292,17 @@ Primitius, the freedman of Titus Flavius Fortunatus, has fulfilled a vow willing
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Nehalen(n)i – Byvanck</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Nehalen(n)i – Byvanck, Scheungraber</tei:note>
                 </app>
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">ae Fla[u]i(us) – Ferlut</note>
+            </app>
+        
+            <app loc="5">
+                <note anchored="true">zusätzlicher Zeilenwechsel nach lib(ertus) – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Titus Flavius Fortunatus: tria nomina <lb/>   
 Flavius: italisches Gentilnomen der Kaiser Vespasian, Titus und Domitian; überall äußerst gängig (Kakoschke 2006, GN 497) <lb/>

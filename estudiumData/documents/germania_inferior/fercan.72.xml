@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior72">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior72">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -246,6 +245,8 @@
           <bibl xml:id="LIT.2" default="false" status="draft">AE 1981, 672</bibl>
           <bibl xml:id="LIT.3" default="false" status="draft">Galsterer/Galsterer 2010, Nr.245</bibl>
           <bibl xml:id="LIT.4" default="false" status="draft">KIK 2012, Nr.116</bibl>
+        
+            <bibl xml:id="5">Scheungraber 2020, 235 Nr.2</bibl>
         </listBibl>
       </div>
       <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
@@ -284,8 +285,7 @@
             gestützt, wo aber eindeutig [.]hueccanis zu lesen ist</tei:note>
         </app>
         <app loc="#MIN.3 #MAJ.3">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[bus? ---p]ro(?)[ – AE, Galsterer/Galsterer 2010, KIK 2012, EDH; eine zusätzliche
-            Z.4 mit [se et suis?] – Galsterer/Galsterer 2010, KIK 2012, EDH</tei:note>
+          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[bus? ---p]ro(?)[ – AE, Galsterer/Galsterer 2010, KIK 2012, EDH; eine zusätzliche            Z.4 mit [se et suis?] – Galsterer/Galsterer 2010, KIK 2012, EDH; [3][p]ro / [ – Scheungraber</tei:note>
         </app>
       </div>
       <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">        <p part="N">

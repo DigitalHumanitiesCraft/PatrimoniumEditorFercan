@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior357">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior357">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -307,7 +306,11 @@ Auf der rechten Schmalseite befindet sich ein Füllhorn mit Blattkelch. Die Blä
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart 1997, 43</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1997, 1159</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Stuart/Bogaers 2001, A71</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 402 Nr.76</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.1083</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -344,7 +347,11 @@ Iustinius: einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Cognomen
 Albus: lateinisches Cognomen (Kakoschke 2007, CN 119) </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">Nehalen(n)iae – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalenia:</rs> Variante von  <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).</p>
                                                 <p part="N">
 

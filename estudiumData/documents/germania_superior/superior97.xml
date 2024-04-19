@@ -1,0 +1,383 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior97" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Mercurius Tourenus</title><title type="sub">CF-GeS-1121</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.97</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Osterburken</settlement>
+						<repository>Römermuseum</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
+										<height unit="cm">108</height>
+										<width unit="cm">27</width>
+										<depth unit="cm">72</depth>
+									</dimensions> <note type="dimensions" anchored="true">Die angegebenen Maße sind die des erhaltenen Fragmentes.</note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>Der erhaltenen Inschrift nach zu urteilen, wurde das Inschriftenfeld zur Gänze ausgefüllt, nur unten blieb etwas weniger als eine Zeile frei. Die Buchstaben sind regelmäßig, und werden nach unten hin kleiner.</p>
+                                                <p>Die rechte Schräghaste des V in Z.4 ist Senkrecht, da in Ligatur mit R oder P, jedoch sicher nicht T (s. Apparatus criticus; Es handelt sich um die selbe Gottheit wie in CF-GeS-1055 und CF-GesS-1057). Der Ausbruch in Z.5 hat, bis auf den ersten Buchstaben, zum Verlust der oberen Hälfte aller Buchstaben dieser Zeile geführt, dennoch sind beim zweiten und letzen Buchstaben eindeutig jeweils zwei Längshasten zu erkennen, weswegen sie als E zu lesen sind. Den Rasurspuren in Z.8 zum Trotz sind die Buchstaben gut lesbar. Die Worttrenner sind im erhaltenen Teil korrekt gesetzt.<br/></p>
+                                                <p>Zu Ligaturen: s. Majuskelumschrift. – Besondere Zeichen: In Z.3 ein I-Longa. In Z.7 ist, wie üblich, über der Zahl VIII, in Z.9 jeweils über dem BF und dem COS und in Z.12 über dem COS ein waagrechter Strich gesetzt. In Z.9 und Z.12 ist jeweils das O kleiner zwischen C und S eingeschrieben. Die Längshaste aller G ist nicht gerade, sondern eingerollt.</p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="5.0" atMost="6.8">5,0–6,8</height> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p>                                                <br/></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
+								<ref type="context" target="context:fercan.arch."/> </term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName/> <region>Civitas Alisinensium</region> </origPlace> <origDate notBefore="0224" notAfter="0224" instant="false"><date>224</date> <note type="original"> <ref target="context:fercan.date." type="context">Iuliano et Crispino consulibus</ref> </note></origDate> </origin>
+						<provenance type="found" when="1971"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Osterburken</ref> </placeName> <p>Kirche St. Kilian (Schillinger-Häfele 1974, 533 Nr.46) </p> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true">beim Abbruch der Kirche, in der der Stein verbaut war (Schillinger-Häfele 174, 537); in den Fundamenten verbaut (Schallmeyer/Eibl/Ott/Preuss/Wittkopf 1990, 156 Nr.171)</note> </provenance>
+						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (CIL XIII Projekt) <br/></p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context">Iupiter Optimus Maximus; Iuno; dis deabusque </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Mercurius Tourenus</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Tourenus </ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> </ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">
+						</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context">miles; beneficiarius consularis</ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">Legio VIII Augusta Alexandriana</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context">Rasur</ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">[Mercuri]o Toureio</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1121_front.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
+		</graphic>
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1121_re.jpg">
+                <desc>rechts, CIL XIII Projekt, CC BY-NC</desc>
+            </graphic>
+        
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1121_IS1.jpg">
+                <desc>Inschrift, Archäologisches Landesmuseum Baden-Württemberg, Konstanz, Foto: Ortolf Harl 2015</desc>
+            </graphic>
+        
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1121_IS2.jpg">
+                <desc>Inschrift, Archäologisches Landesmuseum Baden-Württemberg, Konstanz, Foto: Ortolf Harl 2015</desc>
+            </graphic>
+        </facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="4">AE 1978, 527</bibl>
+				
+            <bibl xml:id="2">Schillinger-Häfele 1977, Nr.46</bibl>
+        
+            <bibl xml:id="3">Castritius/Clauss/Hefner 1977, Nr.94</bibl>
+        
+            <bibl xml:id="5">Schillinger-Häfele 1986, 122 Abb.20</bibl>
+        
+            <bibl xml:id="6">Schallmayer et al. 1990, Nr.171</bibl>
+        
+            <bibl xml:id="7">Cubaynes 2018, 416f. Nr.107</bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.385</bibl>
+        
+            <bibl xml:id="1">Schillinger-Häfele 1974, 38 Nr.3</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno>EDCS-10700413</idno><date>zuletzt abgerufen 2023-07-14</date></bibl>
+					<bibl type="EDH"><idno>HD004603</idno><date>Version von 2019-05-24</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/209862</idno><date>zuletzt abgerufen 2023-07-14</date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/25696</idno><date>Version von 2022-12-30</date></bibl>
+					<bibl type="other"><idno> </idno><date> </date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>N</unclear>ONI
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> DEAB
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> O<hi rend="ligature">MNI</hi>BVS
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>O<g type="interpunct">▴</g>TO<hi rend="ligature">VR</hi>EIO
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>SEGIOPE
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>S<g type="interpunct">▴</g>VICTO
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>L<g type="interpunct">▴</g>LEG<g type="interpunct">▴</g><hi rend="supraline">VIII</hi>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <del rend="erasure">XA<hi rend="ligature">ND</hi>RI</del>
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><hi rend="supraline">BF</hi><g type="interpunct">▴</g><hi rend="supraline">COS</hi>
+<lb n="10"/><gap reason="lost" quantity="3" unit="character"/>L<g type="interpunct">▴</g>M
+<lb n="11"/><gap reason="lost" quantity="2" unit="character"/>LIANO<g type="interpunct">▴</g>ET
+<lb n="12"/><gap reason="lost" quantity="8" unit="character"/><g type="interpunct">▴</g><hi rend="supraline">COS</hi><orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><expan><abbr><supplied reason="lost">I</supplied></abbr><ex>ovi</ex></expan> <supplied reason="lost"> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> Iu</supplied>noni
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">dis</supplied> deab
+<lb n="3" break="no"/><supplied reason="lost">usque</supplied> omnibus
+<lb n="4"/><supplied reason="lost">Mercuri</supplied>o Toureio
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>SEGIOPE
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>s Victo
+<lb n="7" break="no"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">mi</supplied><expan><abbr>l</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> VIII
+<lb n="8"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></supplied> <del rend="erasure"><supplied reason="lost">Ale</supplied>xandri</del>
+<lb n="9"/><supplied reason="lost">⟦anae⟧</supplied> <expan><abbr>b</abbr><ex>ene</ex></expan><expan><abbr>f</abbr><ex>icarius</ex></expan> <expan><abbr>co</abbr><ex>n</ex></expan><expan><abbr>s</abbr><ex>ularis</ex></expan>
+<lb n="10"/><expan><abbr><supplied reason="lost">v</supplied></abbr><ex>otum</ex></expan> <supplied reason="lost"> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan></supplied> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+<lb n="11"/><supplied reason="lost">Iu</supplied>liano et
+<lb n="12"/><supplied reason="lost">Crispino</supplied> <expan><abbr>co</abbr><ex>n</ex></expan><expan><abbr>s</abbr><ex>ulibus</ex></expan></ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p>                                                <p>Für <rs type="divine">Iuppiter Optimus Maximus</rs>, <rs type="divine">Juno</rs>, allen Göttern und Göttinnen, dem <i>Mercurius Tourenus</i> [und] SEGIOPE!<br/>Victo[r...], Soldat der Legio VIII Augusta Alexandria, beneficarius consularis, hat das Gelübde freudig, gerne und verdientermaßen erfüllt. Julianus und Crispinus waren Konsuln.</p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p>                                                <p>To <rs type="divine">Iuppiter Optimus Maximus</rs>, <rs type="divine">Juno</rs>, all gods and goddesses, <i>Mercurius Tourenus</i> [and] SEGIOPE!<br/>Victo[r...], soldier of the legio VIII Augusta Alexandriana, beneficarius consularis, has fulfilled a vow gladly, willingly and deservedly. During the consulship of Julianus and Crispinus.</p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="2">
+					<note anchored="true">c.2 dis – Schillinger-Häfele 1974/1977/1986; [..] dis deab – Ferlut; [Regi(inae)? dis] – EDH, Castritius/Clauss/Hefner, Schallmayer et al.; [Reg(inae) dis] –  Cubaynes; [Reg(inae), dis deab – AE</note>
+				</app>
+			
+            <app loc="4">
+                <note anchored="true">[.....]o TOVTIO – AE, EDH; c.6o TOVTIO – Schillinger-Häfele 1974/1977/1986; [5-6]o TOVTIO – Schallmayer et al.; [5-7]o Toutio – Castritius/Clauss/Hefner; [....]o TOVTIO –  Cubaynes; [...]o TOVTIO –  Ferlut</note>
+            </app>
+        
+            <app loc="5">
+                <note anchored="true">SIGIOPI – AE; [...]SIGIOPI – EDH; c.6 SIGIOPI – Schillinger-Häfele 1974/1977/1986; [5-6] SIGIOPI – Schallmayer et al.; [5-7] Sigiopi – Castritius/Clauss/Hefner; [...] SIGIOPI – Cubaynes, Ferlut</note>
+            </app>
+        
+            <app loc="6">
+                <note anchored="true">c.6s Schillinger-Häfele 1974/1977/1986; [5-7]s – Castritius/Clauss/Hefner; [3-4]s – Schallmayer et al.; [... iu]s –  Cubaynes; [...]s – Ferlut</note>
+            </app>
+        
+            <app loc="7">
+                <note anchored="true">Am Anfang der Zeile [rinus] – EDH, AE, Schillinger-Häfele 1974/1977/1986, Cubaynes, Ferlut; [rinus ?] – Castritius/Clauss/Hefner</note>
+            </app>
+        
+            <app loc="8">
+                <note anchored="true">[Aug(ustae) [Ale]xandri – Castritius/Clauss/Hefner; [Aug(ustae) Ale]xandri –  Cubaynes</note>
+            </app>
+        
+            <app loc="9">
+                <note anchored="true">Am Anfang der Zeile [anae]]] – Castritius/Clauss/Hefner; [anae] –  Cubaynes</note>
+            </app>
+        
+            <app loc="10">
+                <note anchored="true">[v(otum) s(olvit)] l(ibens) m(erito) – AE, EDCS, EDH, Schillinger-Häfele 1974/1977/1986, Ferlut; [v(otum) s(olvit) l(ibens)] l(aetus) m(erito) – Castritius/Clauss/Hefner, Schallmayer et al.</note>
+            </app>
+        
+            <app loc="11">
+                <note anchored="true">[.....]liano – AE, EDH; c6-8liano – Schillinger-Häfele 1974/1977/1986; Castritius/Clauss/Hefner; [6-8 Jul]liano – Schallmayer et al.; [... Ju]liano –  Cubaynes; [...]liano – Ferlut</note>
+            </app>
+        
+            <app loc="12">
+                <note anchored="true">[.....] co(n)s(ulibus) – AE, EDH; c6-8 co(n)s(ulibus) – Schillinger-Häfele 1974/1977/1986; [7-9] co(n)sulibus) – Castritius/Clauss/Hefner; [Maximo] co(n)s(ulibus) – Schallmayer et al., Cubaynes;; [...] co(n)s(ulibus) – Ferlut</note>
+            </app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>…s Victo…: tria nomina? mindestens römisches Namensformular ohne Pränomen</p>
+                                                <p>Victo...: Anfang einiger Namen (Victor und seine Varianten; Kakoschke 2021, CN 3336–3339)</p>
+                                                <p><br/></p>
+                                                <p>legio VIII Augusta Alexandriana: die Beinamen Severiana und Alexandriana wurden während der Herrschaft des Severus Alexander verliehen, letzterer fiel nach dessen damnatio memoriae wieder weg (Stein 1932, 116). Die Legion war bis 44 n.Chr. in Ptui stationiert, dann bis 69 n.Chr. in Stalken bei Swischtow, nach ihrer Beteiligung an der Niederschlagung des Bataveraufstandes kurzzeitig in der Nähe von Dijon bevor sie in den 80ern für die nächsten drei Jahrhunderte nach Straßburg verlegt wurde.</p>
+                                                <p>Iuliano et Crispino consulibus: Konsuldatierung vermutlich für das Jahr 224. Die Konsuln waren Appius Claudius Iulianus und Gaius Bruttius Crispinus.</p>
+                                                <p>Alternativ 1: Aeliano et Maximo consulibus: Konsuldatierung vermutlich für das Jahr 223. Diese Nennung wäre in umgekehrter Reihung der Konsuln Lucius Marius Maximus Perpetuus Aurelianus und Lucius Roscius Aelianus Paculus Salvius Iulianus.</p>
+                                                <p>Alternative 2: Prisciliano et Agricola consulibus: Konsuldatierung vermutlich für das Jahr 230. Diese Nennung wäre in umgekehrter Reihung der Konsuln Lucius Virius Agricola und Sextus Catius Clementinus Priscillianus. (zur Datierungsfrage Schillinger-Häfele 1986, 122)
+			</p></div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note"><p>rechte Hälfte, in der Mitte gebrochen (5. Zeile); Eradierung 8. Zeile - CIL-Kartei</p><p>rechte Hälfte einer etwa in der Mitte gespaltenen Weihinschrift - 4N46</p><p>Schallmeyer et al 1990. S. 156, Nr. 171: Aus zwei Bruchstücken zusammengesetzt. Linker Teil gerade abgespalten, Sockel und Profile abgemeißelt. Auf der Vorderseite rechter Teil des rahmenlosen Inschriftenfeldes erhalten. Aufsatz mit Rest des dreieckigen Giebelfeldes und rechts Pulvinus mit Kerbschnittrosette. <br/></p></note>
+			<note type="ArchKlass_note"/>
+			<note type="Material_note">                                                    <p>Buntsandstein Schillinger-Häfele 1977</p><p>rötlich - CIL-Kartei<br/></p></note>
+			<note type="Inschrifttraeger_note"><p>EDH: ara<br/></p></note>
+			<note type="VerwahrortOrt_note"/>
+			<note type="InvNr_note"><p><u>Winfried</u>: Bildrechte (für Exalbix 1122, [Neckarburken, Elantia Museum] Exalbiovix 1123 und Tourenus 1121 [Osterburken, Römermuseum]) liegen aber beim Archäologischen Landesmuseum Baden-Württemberg, daher hatte ich keine Korrespondenz mit den Aufbewahrungsmuseen, ergo keine Info über die Inventarnummer.<br/></p></note>
+			<note type="Fundstelle_note"><p>s. Schillinger-Häfele 1974, 533f<br/></p></note>
+			<note type="Fundumst_note"><p>+4N46<br/></p></note>
+			<note type="Fundjahr_note"/>
+			<note type="FOantik_note"><p>EDH: <span style="color: rgb(51, 51, 51); font-family: Ubuntu, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">(Civitas Alisinensium)</span></p></note>
+			<note type="FOmodern_note"><p>4N46<br/></p></note>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"><p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p></note>
+			<note type="Abb_note"/>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note"><p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p></note>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note">                                                    <p>Schillinger-Häfele 1977 H 108, Inschriftenspiegel 72 cmh., 25-27 cm br.</p>
+                                                    <p>Cubaynes: H.: 141, l.: 28, ép.: 22</p><p>siehe CIL-Kartei: H 1,10m; B 28cm: T 28cm<br/></p></note>
+			<note type="Ikonogr_note"><p>CIL-Kartei: Seiten: Baumornament</p><p>4N46: Die rechte abschließende Schmalseite des Steines zeigt in Kerblinien die Darstellung eines entlaubten Baumes.</p><p>Schallmeyer et. al 1990: Auf der rechten Nebenseite stilisierter Baum eingeritzt. <br/></p></note>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note">                                                    <p>EDH, Cubaynes, Schallmeyer et. al.<br/></p><p>siehe CIL-Kartei! dort 2,2-5,5 (2,2 = eingeschriebenes o in cos)</p></note>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note"><p>Iuliano et Crispino consulibus<br/></p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

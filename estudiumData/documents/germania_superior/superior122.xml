@@ -1,0 +1,384 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior122" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Boni Casses?</title><title type="sub">CF-GeS-1110</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.122</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Stuttgart</settlement>
+						<repository>Württembergisches Landesmuseum</repository>
+						<idno>RL 68, 162</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
+									<objectType>Weihestein</objectType> <dimensions>
+										<height unit="cm">136</height>
+										<width unit="cm">76,5</width>
+										<depth unit="cm">38,5</depth>
+									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>Die Inschrift füllt das Feld komplett aus, ist jedoch am rechten Rand durchgehend beschädigt, sodass in jeder Zeile entweder Buchstaben beschädigt sind oder ganz fehlen. Die Buchstaben sind bis auf wenige Ausnahmen gleichmäßig gearbeitet.</p>
+                                                <p>In Z.2 ist ein S von Cassibus zwischen das A und S, in Z.3. ist das O von quod in das V und in Z.7 das L von Licinius zwischen dem L für L(ucius) und dem ersten I von Licinius kleiner eingeschrieben. Schillinger-Häfele (1977, 477) vermutet, dass in Z.10 im ausgebrochenen Bereich das IT von posuit ebenfalls kleiner eingehauen war.</p>
+                                                <p>In Z.4 ist vom letzten Buchstaben nur mehr die linke Senkrecht- und eine Schrägahste erhalten. Aufgrund des Winkels wird es sich um ein M gehandelt haben. Schillinger-Häfele (1977, 476) hingegen schlägt vor den Buchstaben als ein enger gesetztes N für navem oder naviculam zu deuten, da ansonsten das Beziehungswort für summersam fehle. In Z.7 und Z.8 sind noch die tiefer eingehauenen Reste der oberen Bögen der jeweiligen S zu sehen. <br/></p>
+                                                <p>In Z1., Z.7 und Z13. wurden Worttrenner gesetzt. In Z.7 finden sich diese nur vor und nach dem ersten L, in Z.13 wurden zwischen dem letzten L und dem M kein Trenner gesetzt.</p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
+								<ref type="context" target="context:fercan.arch."/> </term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName/> <region>Civitas Aurelia G-?</region> </origPlace> <origDate notBefore="0227" notAfter="0227" instant="false"><date>227</date> <note type="original"> <ref target="context:fercan.date." type="context">Albino et Maximo consulibus</ref> </note></origDate> </origin>
+						<provenance type="found" when="1967"> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true"/> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung gründet auf: Paret und Photo<br/></p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Boni Casses?</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Casses?</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Divixtus</ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">Licinius</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context">negotiator</ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">
+						</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context">in honorem domus divinae; ex voto posuit laetus libens merito</ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">Bonis Cassibu[s]</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1110_front1.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
+		</graphic>
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1110_front2.jpg">
+                <desc>Front, https://edh.ub.uni-heidelberg.de/edh/foto/F039290, © K. Matijević</desc>
+            </graphic>
+        </facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="1">Paret 1968, 323f</bibl>
+				
+            <bibl xml:id="2">Duval 1969, 423 Nr.30.14</bibl>
+        
+            <bibl xml:id="3">AE 1969/1970, 436</bibl>
+        
+            <bibl xml:id="4">Schillinger-Häfele 1977, Nr.36</bibl>
+        
+            <bibl xml:id="5">Luik/Reutti 1988, 84</bibl>
+        
+            <bibl xml:id="6">Kakoschke 2002, Nr.1.123</bibl>
+        
+            <bibl xml:id="7">Raybould/Sims-Williams 2007, 87 Nr.BEG 193</bibl>
+        
+            <bibl xml:id="8">Broekaert 2010, Nr.112</bibl>
+        
+            <bibl xml:id="9">Schmidts 2011, 152</bibl>
+        
+            <bibl xml:id="10">Lockau 2017, CD-ROM Nr.132</bibl>
+        
+            <bibl xml:id="11">Scheungraber 2020, 219 Nr.15</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno>EDCS-10700403</idno><date>2024-02-29</date></bibl>
+					<bibl type="EDH"><idno>HD013906</idno><date>2018-12-12</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/209993</idno><date>2024-02-29</date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/7335</idno><date>2021-01-19</date></bibl>
+					<bibl type="other"><idno> </idno><date> </date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/>IN<g type="interpunct">▴</g>H<g type="interpunct">▴</g>D<g type="interpunct">▴</g>D
+<lb n="2"/>BONIS CASSIBV<gap reason="lost" quantity="1" unit="character"/>
+<lb n="3"/>EO QVOD POS<gap reason="lost" quantity="1" unit="character"/>
+<lb n="4"/>SVMMERSAMM
+<lb n="5"/>BONE SALVT<gap reason="lost" quantity="1" unit="character"/>
+<lb n="6"/>SIT REDDITV<gap reason="lost" quantity="1" unit="character"/>
+<lb n="7"/>ET SVI<g type="interpunct">▴</g>L<g type="interpunct">▴</g>LICINIVS
+<lb n="8"/>DIVIXTVS
+<lb n="9"/>NEGOTIATO<gap reason="lost" quantity="1" unit="character"/>
+<lb n="10"/>EX VOTO POSV
+<lb n="11"/>ABBINO
+<lb n="12"/>ET MAXIMO 
+<lb n="13"/>COS<g type="interpunct">▴</g>L<g type="interpunct">▴</g>L M<orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+<lb n="2"/>bonis Cassibu<supplied reason="lost">s</supplied>
+<lb n="3"/>eo quod pos<supplied reason="lost">t</supplied>
+<lb n="4"/>summersamm
+<lb n="5"/><expan><abbr>bon</abbr><ex>a</ex></expan>e salut<supplied reason="lost">i</supplied>
+<lb n="6"/>sit redditu<supplied reason="lost">s</supplied>
+<lb n="7"/>et <expan><abbr>sui</abbr><ex>s</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> Licinius
+<lb n="8"/>Divixtus
+<lb n="9"/>negotiato<supplied reason="lost">r</supplied>
+<lb n="10"/>ex voto <expan><abbr>posu</abbr><ex>it</ex></expan>
+<lb n="11"/>Abbino
+<lb n="12"/>et Maximo
+<lb n="13"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p><p>Zu Ehren des Kaiserhauses, für die <rs type="divine">Boni Casses</rs>!</p><p>Dieses hat, da er nach einem (Schiffs?)Untergang wieder zu guter Gesundheit und den Seinen zurückgekehrt war, Lucius Licinius Divixtus, der Händler, aufgrund eines Gelübdes, unter dem Konsulat des Albinus und Maximus, freudig, gerne und verdientermaßen aufgestellt.<br/></p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p><p>In honor of the divine household, to the <rs type="divine">Boni Casses</rs>!</p><p>Since, after he had sunk(in a shipwreck?), he returend to good health and his family, Lucius Licinius Divixtus, the merchant, has set this up according to a vow, during the consulship of Albino and Maximo, gladly, willingly and deservedly.<br/></p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="2">
+					<note anchored="true">Cassibu(s) – Paret, Duval, AE, Luik/Reutti; Cas{s}ibu[s] – EDH, Broekaert; Cas{s}ibu(s) – Schmidts</note>
+				</app>
+			
+            <app loc="8">
+                <note anchored="true">Divixtu[s] – Schillinger-Häfele, Kakoschke, Raybould/Sims-Williams, Broekaert, Scheungraber</note>
+            </app>
+        
+            <app loc="13">
+                <note anchored="true">l(ibens) l(aetus) – AE, EDH, Schillinger-Häfele, Kakoschke, Raybould/Sims-Williams, Broekaert, Schmidts, Scheungraber</note>
+            </app>
+        
+            <app loc="4">
+                <note anchored="true">summersamṃ – Paret; summersam – Duval; summersam Ṇ – Schillinger-Häfele; summersam {N} – Broekaert; summersam{m} – EDH, Schmidts, Lockau; summersam &lt;m=N&gt;(ercem) – Scheungraber</note>
+            </app>
+        
+            <app loc="11">
+                <note anchored="true">Ablino – Duval; A&lt;l=B&gt;bino – EDH, Schmidts, Lockau, Scheungraber</note>
+            </app>
+        
+            <app loc="7">
+                <note anchored="true">Liciniu[s] – Paret, Duval, AE; Liciniuṣ – Schillinger-Häfele; Liciniu(s) – Luik/Reutti; et sui – Raybould/Sims-Williams</note>
+            </app>
+        
+            <app loc="3">
+                <note anchored="true">pos(t) – Luik/Reutti</note>
+            </app>
+        
+            <app loc="5">
+                <note anchored="true">salut(i) – Luik/Reutti</note>
+            </app>
+        
+            <app loc="6">
+                <note anchored="true">redditu(s) – Luik/Reutti; redditu[s d; – Lockau</note>
+            </app>
+        
+            <app loc="9">
+                <note anchored="true">negotiato(r) – Luik/Reutti</note>
+            </app>
+        
+            <app loc="10">
+                <note anchored="true">posu[it] – Schillinger-Häfele</note>
+            </app>
+        
+            <app loc="1">
+                <note anchored="true">hdd – Lockau</note>
+            </app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete"><p>Lucius Licinius Divixtus: tria nomina</p><p>Licinius: italisches Gentilnomen, äußerst gängig (Kakoschke 2021, GN 685)</p><p>Divixtus; keltischer Name, in den keltischen Provinzen verbreitet (Kakoschke 2021, CN 1109)</p><p>Albino et Maximo consulibus: Konsuldatierung des Jahres 227. Die Konsuln waren M. Nummius Senecio Albinus und M. Laelius Maximus Aemilianus.
+			</p></div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p>                                                <p>v.4: „summersamm“ pro „summeram“</p>
+                                                <p>v.11: „Abbino“ pro „Albino“</p></p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note"/>
+			<note type="ArchKlass_note"/>
+			<note type="Material_note"/>
+			<note type="Inschrifttraeger_note"/>
+			<note type="VerwahrortOrt_note"/>
+			<note type="InvNr_note"/>
+			<note type="Fundstelle_note"/>
+			<note type="Fundumst_note"><p>Paret 1968, Schillinger-Häfele 1977<br/></p></note>
+			<note type="Fundjahr_note"/>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note"/>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note"/>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note"/>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note"/>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note"/>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note"/>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

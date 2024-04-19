@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior117">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior117">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -234,7 +233,11 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 8723</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Reuter 2012, Nr.107</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 326 Nr.2</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.242</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -264,10 +267,22 @@
 …ammi …cundus, soldier of the legio XXX Ulpia Victirix, has fulfilled a vow willingly and deservedly, when Lateranus was consul.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-                <app loc="#MIN.6 #MAJ.6">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Reuter</tei:note>
+                <app loc="2">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">fehlt – Ferlut</tei:note>
                 </app>
-            </div>
+            
+            <app loc="4">
+                <note anchored="true">[mi]l(es) leg(ionis) XXX [U(lpiae) V(ictricis)] – Scheungraber, Ferlut</note>
+            </app>
+        
+            <app loc="5">
+                <note anchored="true">v(otum) s(olvit) l(ibens) [m(erito)] – Scheungraber, Ferlut</note>
+            </app>
+        
+            <app loc="6">
+                <note anchored="true">ohne Ligatur – Reuter; [L]aterano(?) [ – Scheungraber; [L]aterano […] – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Dedikant: Der Inschriftensetzer war (nach Reuter 2012, Nr.107) aufgrund des Fundortes des Altars sicher Angehöriger eines Ziegelei-Kommandos in Holdeurn (in der Nähe von Nijmegen). </p>
                 <p part="N">

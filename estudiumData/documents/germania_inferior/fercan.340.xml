@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior340">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior340">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -265,7 +264,11 @@ Die rechte Schmalseite zeigt ebenfalls einen Baum; die Darstellung ähnelt der l
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, A42</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1462</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 400 Nr.59</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.1108</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -298,12 +301,16 @@ Die rechte Schmalseite zeigt ebenfalls einen Baum; die Darstellung ähnelt der l
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – EDH; Nehalenn[iae 3] – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">cons- und eine Fortsetzung [servatas] in einer weiteren nicht erhaltenen v.5 – Stuart/Bogaers 2001, AE, EDH</tei:note>
                 </app>
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">[3]i[3 ob merc] – Scheungraber, Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f). </p>
                                                 <p part="N">
 

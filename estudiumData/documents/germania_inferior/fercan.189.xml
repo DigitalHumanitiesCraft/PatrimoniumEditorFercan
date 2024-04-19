@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior189">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior189">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -225,7 +224,9 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1918, Nr.388</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Alföldy 1968, Nr.99</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">AE 1968, 349</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 565 Nr.80</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -258,16 +259,16 @@ Flo(…) (…)rania by order of the goddesses </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Vacalli]n̂echis – Lehner; [Vacalli]n̂êhis – Alföldy; Vacalli]nehis, Zeilenwechsel fehlt – AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Es steht vorweg Z.0 unbestimmten Inhalts – Scheungraber; [Vacalli]n̂echis – Lehner; [Vacalli]n̂êhis – Alföldy, Scheungraber; Vacalli]nehis, Zeilenwechsel fehlt – AE, EDH</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---iu]s Flo-</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[rus et Ve]rania – Alföldy, AE, EDH; Zeilenwechsel fehlt – AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[rus et Ve]rania – Alföldy, AE, EDH, Scheungraber; Zeilenwechsel fehlt – AE, EDH</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]vi[---] – Lehner; anschließend eine zusätzliche Z.5 mit [ipsar ---] – Alföldy, AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]vi[---] – Lehner; anschließend eine zusätzliche Z.5 mit [ipsar ---] – Alföldy, AE, EDH; anschließend eine zusätzliche Z.5 mit [ipsar(um) – Scheungraber</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

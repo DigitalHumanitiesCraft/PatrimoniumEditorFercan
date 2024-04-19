@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior445">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior445">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -322,6 +321,10 @@
           <bibl xml:id="LIT.5" default="false" status="draft">Stuart 2013, Nr.8</bibl>
           <bibl xml:id="LIT.6" default="false" status="draft">AE 2014, 885</bibl>
           <bibl xml:id="LIT.7" default="false" status="draft">Kakoschke, 2015 AdnotatEpigraph III, Nr.7</bibl>
+        
+            <bibl xml:id="8">Scheungraber 2020, 394 Nr.14</bibl>
+        
+            <bibl xml:id="9">Ferlut 2022, Nr.1062</bibl>
         </listBibl>
       </div>
       <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
@@ -350,22 +353,16 @@ SVSCEPTO · L M</orig></ab></div>
       </div>
       <div type="apparatus" org="uniform" part="N" sample="complete">
         <app loc="#MIN.1 #MAJ.1">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Deae [N̂eha] – CIL; Deae [Neha] – Espérandieu, Byvanck; ohne Ligatur –
-            Hondius-Crone, Stuart, EpRom; die unterstrichenen Buchstaben sind nur abschriftlich
-            überliefert.</tei:note>
+          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Deae [N̂eha] – CIL; Deae [Neha] – Espérandieu, Byvanck; ohne Ligatur – Hondius-Crone, Stuart, EpRom; die unterstrichenen Buchstaben sind nur abschriftlich überliefert</tei:note>
         </app>
         <app loc="#MIN.2 #MAJ.2">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne M am Zeilenende – CIL; lenniae [.] – Stuart, AE; die unterstrichenen Buchstaben
-            sind nur abschriftlich überliefert.</tei:note>
+          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne M am Zeilenende – CIL, Scheungraber; lenniae [.] – Stuart, AE; die unterstrichenen Buchstaben sind nur abschriftlich überliefert; kein Zeilenwechsel hinter M(arcus) – Ferlut</tei:note>
         </app>
         <app loc="#MIN.3 #MAJ.3">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Taurinius – Espérandieu; M Hitarin̂iu[s] – CIL; Hitariniu[s] – Byvanck,
-            Hondius-Crone; Mintarin̂iu[s] – Stuart; Mintarin̂ius – AE; falsch angegebene Ligatur –
-            EpRom; die unterstrichenen Buchstaben sind nur abschriftlich überliefert.</tei:note>
+          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Taurinius – Espérandieu; M Hitarin̂iu[s] – CIL; Hitariniu[s] – Byvanck, Hondius-Crone; Hitarinius – Ferlut; Mintarin̂iu[s] – Stuart; Mintarin̂ius – AE; falsch angegebene Ligatur – EpRom; die unterstrichenen Buchstaben sind nur abschriftlich überliefert; Mintarinius – Scheungraber</tei:note>
         </app>
         <app loc="#MIN.4 #MAJ.4">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Espérandieu, Byvanck, Hondius-Crone; falsch angegebene Ligatur –
-            EpRom</tei:note>
+          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Espérandieu, Byvanck, Hondius-Crone; falsch angegebene Ligatur – EpRom</tei:note>
         </app>
       </div>
       <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

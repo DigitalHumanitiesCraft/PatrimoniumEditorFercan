@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior118">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior118">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -256,7 +255,11 @@ Es ist kein Fundjahr angegeben.</tei:note>
                     <bibl xml:id="LIT.3" default="false" status="draft">Lehner 1918, Nr.238</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Saxer 1967, Nr.220</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Alföldy 1968, 20f. Nr.6</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 327 Nr.4 </bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.239</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -294,7 +297,7 @@ As a gift for the welfare of the imperator Caesar Severus Alexander Pius Felix I
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[in h. d. d. deae] – ILS</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur, [sacrum] – ILS; Sa[crum] – CIL, s[acrum ---] – Lehner</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur, [sacrum] – ILS; Sa[crum] – CIL, Scheungraber; s[acrum ---] – Lehner; Hlutenae sa[crum] – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur, im[p. M. Aureli] – ILS; Im[p. caes. m. aur.] – CIL; Im[p(eratoris) Caes(aris) M(arci) Aur(eli)] – Lehner</tei:note>
@@ -309,10 +312,10 @@ As a gift for the welfare of the imperator Caesar Severus Alexander Pius Felix I
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ma[tris Aug.] – ILS</tei:note>
                 </app>
                 <app loc="#MIN.7 #MAJ.7">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">leg. [I M.], Zeilenumbruch nicht angegeben – ILS; leg. [I m. sev. alex.] – CIL; leg(ionis) [I M(inerviae) Sever(ianae) Alex(andrianae)] – Lehner; [l]eg(ionis) [I M(inerviae) p(iae) f(idelis) Sev(erianae] – Saxer; leg(ionis) [I M(inerviae) Sever(ianae)] – Alföldy</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">leg. [I M.], Zeilenumbruch nicht angegeben – ILS; leg. [I m. sev. alex.] – CIL; leg(ionis) [I M(inerviae) Sever(ianae) Alex(andrianae)] – Lehner; [l]eg(ionis) [I M(inerviae) p(iae) f(idelis) Sev(erianae] – Saxer; leg(ionis) [I M(inerviae) Sever(ianae)] – Alföldy, Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.8 #MAJ.8">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[P. f., cu]r. [a]gen. Ing[enuo], ohne Ligatur – ILS; [p.] facen̂t. in c[ustodia?] – CIL; [p(iae)] f(idelis) agent(e) Ino[---] oder Inc[---] – Lehner; [cu]r(am) agent(e), ohne Ligatur – Saxer; p(iae) f(idelis) agent(is) in c[alcariis (?)] – Alföldy</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[P. f., cu]r. [a]gen. Ing[enuo], ohne Ligatur – ILS; [p.] facen̂t. in c[ustodia?] – CIL; [p(iae)] f(idelis) agent(e) Ino[---] oder Inc[---] – Lehner; [cu]r(am) agent(e), ohne Ligatur – Saxer; p(iae) f(idelis) agent(is) in c[alcariis (?)] – Alföldy; [P(iae) F(idelis) agent(e) in c[alcariis(?) – Scheungraber; [P(iae) F(idelis) agent(e) in c[alcariis] – Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

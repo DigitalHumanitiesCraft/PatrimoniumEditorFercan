@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:time="http://www.w3.org/2006/time#" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <skos:ConceptScheme rdf:about="https://ausohnum.huma-num.fr/thesaurus/haura/">
         <dc:title type="full">Thesaurus haura</dc:title>
         <dc:title type="short">haura</dc:title>
@@ -17,9 +16,9 @@
     <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26569"/>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/haura/"/>
         <dct:created>2021-10-28T15:12:12.868+02:00</dct:created>
-    <dct:modified>2021-10-28T15:25:20.79+02:00</dct:modified>
-    <dct:modified>2021-11-14T16:40:04.199+01:00</dct:modified>
-    <dct:modified>2021-11-14T16:51:50.737+01:00</dct:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-10-28T15:25:20.79+02:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T16:40:04.199+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T16:51:50.737+01:00</dcterms:modified>
         <skosThesau:admin status="draft"/>
     </skos:Collection>
 
@@ -39,14 +38,14 @@
         <skosThesau:admin status="draft"/>
         <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
         <dct:created>2021-11-14T16:40:04.199+01:00</dct:created>
-    <dct:modified>2021-11-14T16:41:20.055+01:00</dct:modified>
-    <dct:modified>2021-11-14T16:44:34.738+01:00</dct:modified>
-    <dct:modified>2021-11-14T16:45:07.01+01:00</dct:modified>
-    <dct:modified>2021-11-14T16:45:26.151+01:00</dct:modified>
-    <dct:modified>2021-11-14T16:46:05.106+01:00</dct:modified>
-    <dct:modified>2021-11-14T16:46:43.989+01:00</dct:modified>
-    <dct:modified>2021-11-14T16:46:53.495+01:00</dct:modified>
-    <dct:modified>2021-11-14T16:47:47.058+01:00</dct:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T16:41:20.055+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T16:44:34.738+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T16:45:07.01+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T16:45:26.151+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T16:46:05.106+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T16:46:43.989+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T16:46:53.495+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T16:47:47.058+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c26559" rdf:about="https://ausohnum.huma-num.fr/concept/c26559">
         <skos:prefLabel xml:lang="fr">Viticulture</skos:prefLabel>
@@ -57,8 +56,8 @@
         <skosThesau:admin status="draft"/>
         <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
         <dct:created>2021-11-14T16:41:20.055+01:00</dct:created>
-    <dct:modified>2021-11-14T16:42:45.721+01:00</dct:modified>
-    <dct:modified>2021-11-14T16:43:22.819+01:00</dct:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T16:42:45.721+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T16:43:22.819+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c26560" rdf:about="https://ausohnum.huma-num.fr/concept/c26560">
         <skos:prefLabel xml:lang="fr">Vignoble</skos:prefLabel>
@@ -140,7 +139,7 @@
         <skosThesau:admin status="draft"/>
         <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
         <dct:created>2021-11-14T16:51:50.737+01:00</dct:created>
-    <dct:modified>2021-11-14T16:52:49.056+01:00</dct:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T16:52:49.056+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c26570" rdf:about="https://ausohnum.huma-num.fr/concept/c26570">
         <skos:prefLabel xml:lang="fr">Sites</skos:prefLabel>
@@ -161,18 +160,18 @@
         <skosThesau:admin status="draft"/>
         <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/nprevot"> </dct:creator>
         <dct:created>2021-11-14T16:52:49.056+01:00</dct:created>
-    <dct:modified>2021-11-14T16:59:31.171+01:00</dct:modified>
-    <dct:modified>2021-11-14T16:59:44.731+01:00</dct:modified>
-    <dct:modified>2021-11-14T17:00:02.318+01:00</dct:modified>
-    <dct:modified>2021-11-14T17:00:16.185+01:00</dct:modified>
-    <dct:modified>2021-11-14T17:00:33.172+01:00</dct:modified>
-    <dct:modified>2021-11-14T17:00:55.35+01:00</dct:modified>
-    <dct:modified>2021-11-14T17:01:06.684+01:00</dct:modified>
-    <dct:modified>2021-11-14T17:01:14.478+01:00</dct:modified>
-    <dct:modified>2021-11-14T17:01:27.401+01:00</dct:modified>
-    <dct:modified>2021-11-14T17:01:50.737+01:00</dct:modified>
-    <dct:modified>2021-11-14T17:02:26.189+01:00</dct:modified>
-    <dct:modified>2021-11-14T17:02:41.226+01:00</dct:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T16:59:31.171+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T16:59:44.731+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T17:00:02.318+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T17:00:16.185+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T17:00:33.172+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T17:00:55.35+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T17:01:06.684+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T17:01:14.478+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T17:01:27.401+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T17:01:50.737+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T17:02:26.189+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-11-14T17:02:41.226+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c26571" rdf:about="https://ausohnum.huma-num.fr/concept/c26571">
         <skos:prefLabel xml:lang="fr">agglomération de hauteur</skos:prefLabel>

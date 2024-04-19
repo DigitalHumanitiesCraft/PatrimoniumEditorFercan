@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="inferior" n="">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="inferior" n="">
 	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
@@ -16,11 +14,9 @@
 				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
 			</titleStmt>
 			<publicationStmt>
-				<publisher><link target="https://antike.uni-graz.at"/><orgName
-					ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
 					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
-				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName
-					ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
 					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
 					Graz</orgName></authority>
 				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
@@ -54,24 +50,20 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context"
-									target="context:fercan.material."
-									ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
+								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
 									<objectType>Weihestein</objectType> <dimensions>
 									<height unit="cm"> </height>
 									<width unit="cm"> </width>
 									<depth unit="cm"> </depth>
 									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition"
-									ana="https://gams.uni-graz.at/o:fercan.arch#"/> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#"/> </condition>
 							</supportDesc>
 							<layoutDesc>
 								<layout> <p/> <note type="condition" anchored="true"/> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote> <desc type="execution"/> <height unit="cm" atLeast="0"
-								atMost="0"/> </handNote>
+							<handNote> <desc type="execution"/> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
 						</handDesc>
 						<decoDesc>
 							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
@@ -80,11 +72,8 @@
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate
-							notBefore="" notAfter="" instant="false"> <note type="original"> <ref
-							target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when=""> <placeName> <ref type="context"
-							target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="" notAfter="" instant="false"> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
 							<geo decls="#WGS"/>
 							</location> <note anchored="true"/> </provenance>
 						<provenance type="observed" subtype="autopsied"/>
@@ -101,39 +90,33 @@
 				</listPlace>
 				<listPerson>
 					<person>
-						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce."
-							type="context"> </ref> </persName>
+						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context"> </ref> </persName>
 					</person>
 					<person>
 						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> </ref> </persName>
 					</person>
 					<person>
-						<persName> <roleName type="religious"> <ref
-							target="context:fercan.person.religious" type="context"> </ref>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
 							</roleName> </persName>
 					</person>
 					<person>
-						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context" >
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">
 							</ref></persName>
 					</person>
 					<person>
-						<persName> <roleName type="other"> <ref
-							target="context:fercan.person.other." type="context"> </ref> </roleName>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
 						</persName>
 					</person>
 					<person>
-						<persName> <roleName type="military"> <ref
-							target="context:fercan.person.military." type="context"> </ref>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
 							</roleName> </persName>
 					</person>
 					<person>
-						<persName> <roleName type="office"> <ref
-							target="context:fercan.person.office." type="context"> </ref>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
 							</roleName> </persName>
 					</person>
 					<person>
-						<persName type="sovereign"> <ref target="context:fercan.person.sovereign."
-							type="context"> </ref> </persName>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
 					</person>
 				</listPerson>
 				<listOrg>
@@ -199,11 +182,9 @@
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
-			<change when="2019" n="1"
-				corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
 				Version</change>
-			<change when="2020" n="2"
-				corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
 				2</change>
 			<change when="2022" n="3">Version 3</change>
 		</revisionDesc>
@@ -287,7 +268,6 @@
 			<note type="SonstKomm_note"/>
 			<note type="Datierung_note"/>
 			<note type="ElektronischeRessourcen_note"/>
-			<note type="Index_note"/>
 		</back>
 	</text>
 </TEI>

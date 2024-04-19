@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior70">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior70">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -270,7 +269,9 @@ Die Darstellung der rechten Seite wird wohl der linken Seite ähneln.</p>
                     <bibl xml:id="LIT.2" default="false" status="draft">CIL XIII 8579</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Lehner 1918, 184</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Espérandieu IX 6584</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 128 Nr.1</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>

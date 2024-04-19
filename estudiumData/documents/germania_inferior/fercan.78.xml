@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior78">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior78">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -221,7 +220,11 @@
             <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 8575</bibl>
-                </listBibl>
+                
+            <bibl xml:id="2">Scheungraber 2020, 429 Nr.5</bibl>
+        
+            <bibl xml:id="3">Ferlut 2022, Nr.802</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -235,9 +238,9 @@
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>MATRONIS <lb n="2"/> 
-<gap reason="lost" extent="unknown" unit="character" instant="false"/>CANN<hi rend="ligature">AB</hi>VS <lb n="3"/> 
-<gap reason="lost" extent="unknown" unit="character" instant="false"/>CTORINI</orig></ab></div>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>MATRONIS 
+<lb n="2"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>CANN<hi rend="ligature">AB</hi>VS 
+<lb n="3"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>CTORINI</orig></ab></div>
             <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Matronis<lb n="2"/><supplied reason="lost" instant="false">Octo</supplied>cannabus<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false"> Vi</supplied>ctorini</ab></div>
             <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
                 <p part="N">Für die  <rs type="divine">Matronae Octocannae!</rs> <lb/>
@@ -249,10 +252,10 @@
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">unterstrichene Buchstaben wurden von CIL noch gelesen, sind aber nichtmehr erhalten</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">die unterstrichene Buchstaben in Z.1-3 sind heute nicht mehr erhalten, sie werden nach CIL wiedergegeben</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[--- Vi]ctorin+ – CIL; unterstrichene Buchstaben wurden von CIL noch gelesen, sind aber nichtmehr erhalten</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[--- Vi]ctorin+ – CIL; [3 Vi]ctorin(a)e – Scheungraber; [--- Vi]ctorine – Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

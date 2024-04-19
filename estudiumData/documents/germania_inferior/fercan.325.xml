@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior325">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior325">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -260,7 +259,11 @@ Auf den Seiten sind Füllhörner dargestellt, in denen eine Birne klar erkennbar
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 1971, Nr.19</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Stuart/Bogaers 2001, A13</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">AE 2001, 1450</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 398 Nr.41</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.1103</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -294,9 +297,13 @@ S L <gap reason="lost" extent="unknown" unit="character" instant="false"/></orig
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">N[ehalenniae] – Stuart/Bogaers 1971, AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">N[ehalenniae] – Stuart/Bogaers 1971, AE, EDH, Scheungraber, Ferlut</tei:note>
                 </app>
-            </div>
+            
+            <app loc="4">
+                <note anchored="true">[1]VEEO[3] – Scheungraber, Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Zu möglichen Ergänzungen des Dedikatennamens s. Raepsaet-Charlier 2003, 293.</p>
             </div>

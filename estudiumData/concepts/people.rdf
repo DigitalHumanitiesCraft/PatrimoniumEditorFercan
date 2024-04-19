@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:RDF xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <skos:ConceptScheme rdf:about="https://ausohnum.huma-num.fr/thesaurus/people/">
         <dc:title type="full">People and prosopography</dc:title>
         <dc:title type="short">people</dc:title>
@@ -15,7 +14,7 @@
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/people/"/>
         <skosThesau:admin status="published"/>
         <dct:created>2018-04-23T11:14:07.359+02:00</dct:created>
-        <dct:modified>2018-04-23T11:14:07.359+02:00</dct:modified>
+        <dcterms:modified>2018-04-23T11:14:07.359+02:00</dcterms:modified>
         <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19291"/>
         <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19297"/>
         <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19303"/>
@@ -28,7 +27,7 @@
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/people/"/>
         <skosThesau:admin status="published"/>
         <dct:created>2018-04-23T11:14:07.359+02:00</dct:created>
-        <dct:modified>2018-04-23T11:14:07.359+02:00</dct:modified>
+        <dcterms:modified>2018-04-23T11:14:07.359+02:00</dcterms:modified>
         <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19292"/>
         <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19293"/>
         <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19294"/>
@@ -42,10 +41,10 @@
     
         <skosThesau:admin status="published"/>
         <dct:created>2018-06-06T16:50:55.057+02:00</dct:created>
-        <dct:modified>2018-06-06T16:50:55.057+02:00</dct:modified>
-    <dct:modified when="2018-09-13T12:44:51.347+02:00" who="vrazanajao"/>
-    <dct:modified when="2018-09-13T14:01:03.357+02:00" who="vrazanajao"/>
-    <dct:modified when="2018-09-13T14:04:21.302+02:00" who="vrazanajao"/>
+        <dcterms:modified>2018-06-06T16:50:55.057+02:00</dcterms:modified>
+    <dcterms:modified when="2018-09-13T12:44:51.347+02:00" who="vrazanajao"/>
+    <dcterms:modified when="2018-09-13T14:01:03.357+02:00" who="vrazanajao"/>
+    <dcterms:modified when="2018-09-13T14:04:21.302+02:00" who="vrazanajao"/>
     </skos:Concept>
     <skos:Concept xml:id="c19293" rdf:about="https://ausohnum.huma-num.fr/concept/c19293" type="non-ordered">
         <skos:prefLabel xml:lang="en">slave</skos:prefLabel>
@@ -53,7 +52,7 @@
         <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19291"/>
         <skosThesau:admin status="published"/>
         <dct:created>2018-06-06T16:50:55.057+02:00</dct:created>
-        <dct:modified>2018-06-06T16:50:55.057+02:00</dct:modified>
+        <dcterms:modified>2018-06-06T16:50:55.057+02:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c19294" rdf:about="https://ausohnum.huma-num.fr/concept/c19294" type="non-ordered">
         <skos:prefLabel xml:lang="en">freedman/freedwoman</skos:prefLabel>
@@ -61,9 +60,9 @@
         <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19291"/>
         <skosThesau:admin status="published"/>
         <dct:created>2018-06-06T16:50:55.057+02:00</dct:created>
-        <dct:modified>2018-06-06T16:50:55.057+02:00</dct:modified>
-    <dct:modified when="2018-09-13T12:23:25.589+02:00" who="vrazanajao"/>
-    <dct:modified when="2018-09-13T12:23:50.666+02:00" who="vrazanajao"/>
+        <dcterms:modified>2018-06-06T16:50:55.057+02:00</dcterms:modified>
+    <dcterms:modified when="2018-09-13T12:23:25.589+02:00" who="vrazanajao"/>
+    <dcterms:modified when="2018-09-13T12:23:50.666+02:00" who="vrazanajao"/>
     </skos:Concept>
     <skos:Concept xml:id="c19295" rdf:about="https://ausohnum.huma-num.fr/concept/c19295" type="non-ordered">
         <skos:prefLabel xml:lang="en">imperial slave</skos:prefLabel>
@@ -71,7 +70,7 @@
         <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19291"/>
         <skosThesau:admin status="published"/>
         <dct:created>2018-06-06T16:50:55.057+02:00</dct:created>
-        <dct:modified>2018-06-06T16:50:55.057+02:00</dct:modified>
+        <dcterms:modified>2018-06-06T16:50:55.057+02:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c19296" rdf:about="https://ausohnum.huma-num.fr/concept/c19296" type="non-ordered">
         <skos:prefLabel xml:lang="en">Imperial freedman/freedwoman</skos:prefLabel>
@@ -79,7 +78,7 @@
         <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19291"/>
         <skosThesau:admin status="published"/>
         <dct:created>2018-06-06T16:50:55.057+02:00</dct:created>
-        <dct:modified>2018-06-06T16:50:55.057+02:00</dct:modified>
+        <dcterms:modified>2018-06-06T16:50:55.057+02:00</dcterms:modified>
     </skos:Concept>
     
     
@@ -93,7 +92,7 @@
         <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19302"/>
         <skosThesau:admin status="published"/>
         <dct:created>2018-06-06T16:50:55.057+02:00</dct:created>
-        <dct:modified>2018-06-06T16:50:55.057+02:00</dct:modified>
+        <dcterms:modified>2018-06-06T16:50:55.057+02:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept rdf:about="https://ausohnum.huma-num.fr/concept/c19299" xml:id="c19299">
         <skos:prefLabel xml:lang="en">City councillor</skos:prefLabel>
@@ -101,7 +100,7 @@
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/people/"/>
         <skosThesau:admin status="published"/>
         <dct:created>2018-04-23T11:14:07.359+02:00</dct:created>
-        <dct:modified>2018-04-23T11:14:07.359+02:00</dct:modified>
+        <dcterms:modified>2018-04-23T11:14:07.359+02:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept rdf:about="https://ausohnum.huma-num.fr/concept/c19300" xml:id="c19300">
         <skos:prefLabel xml:lang="en">Emperor</skos:prefLabel>
@@ -109,7 +108,7 @@
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/people/"/>
         <skosThesau:admin status="published"/>
         <dct:created>2018-04-23T11:14:07.359+02:00</dct:created>
-        <dct:modified>2018-04-23T11:14:07.359+02:00</dct:modified>
+        <dcterms:modified>2018-04-23T11:14:07.359+02:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept rdf:about="https://ausohnum.huma-num.fr/concept/c19301" xml:id="c19301">
         <skos:prefLabel xml:lang="en">Knight</skos:prefLabel>
@@ -117,7 +116,7 @@
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/people/"/>
         <skosThesau:admin status="published"/>
         <dct:created>2018-04-23T11:14:07.359+02:00</dct:created>
-        <dct:modified>2018-04-23T11:14:07.359+02:00</dct:modified>
+        <dcterms:modified>2018-04-23T11:14:07.359+02:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept rdf:about="https://ausohnum.huma-num.fr/concept/c19302" xml:id="c19302">
         <skos:prefLabel xml:lang="en">Senator</skos:prefLabel>
@@ -125,7 +124,7 @@
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/people/"/>
         <skosThesau:admin status="published"/>
         <dct:created>2018-04-23T11:14:07.359+02:00</dct:created>
-        <dct:modified>2018-04-23T11:14:07.359+02:00</dct:modified>
+        <dcterms:modified>2018-04-23T11:14:07.359+02:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c19303" rdf:about="https://ausohnum.huma-num.fr/concept/c19303" type="non-ordered">
         <skos:prefLabel xml:lang="en">Citizenship</skos:prefLabel>
@@ -141,11 +140,11 @@
         
         <skosThesau:admin status="published"/>
         <dct:created>2018-06-06T16:50:55.057+02:00</dct:created>
-        <dct:modified>2018-06-06T16:50:55.057+02:00</dct:modified>
-    <dct:modified when="2018-08-28T16:22:44.633+02:00" who="vrazanajao"/>
-    <dct:modified when="2018-08-29T11:13:25.842+02:00" who="vrazanajao"/>
-    <dct:modified when="2018-08-29T11:13:28.981+02:00" who="vrazanajao"/>
-    <dct:modified when="2018-09-13T14:46:06.991+02:00" who="vrazanajao"/>
+        <dcterms:modified>2018-06-06T16:50:55.057+02:00</dcterms:modified>
+    <dcterms:modified when="2018-08-28T16:22:44.633+02:00" who="vrazanajao"/>
+    <dcterms:modified when="2018-08-29T11:13:25.842+02:00" who="vrazanajao"/>
+    <dcterms:modified when="2018-08-29T11:13:28.981+02:00" who="vrazanajao"/>
+    <dcterms:modified when="2018-09-13T14:46:06.991+02:00" who="vrazanajao"/>
     <skos:prefLabel xml:lang="fr">Citoyenneté</skos:prefLabel>
     </skos:Concept>
     <skos:Concept rdf:about="https://ausohnum.huma-num.fr/concept/c19304" xml:id="c19304">
@@ -154,7 +153,7 @@
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/people/"/>
         <skosThesau:admin status="published"/>
         <dct:created>2018-04-23T11:14:07.359+02:00</dct:created>
-        <dct:modified>2018-04-23T11:14:07.359+02:00</dct:modified>
+        <dcterms:modified>2018-04-23T11:14:07.359+02:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept rdf:about="https://ausohnum.huma-num.fr/concept/c19305" xml:id="c19305">
         <skos:prefLabel xml:lang="en">Peregrin</skos:prefLabel>
@@ -162,7 +161,7 @@
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/people/"/>
         <skosThesau:admin status="published"/>
         <dct:created>2018-04-23T11:14:07.359+02:00</dct:created>
-        <dct:modified>2018-04-23T11:14:07.359+02:00</dct:modified>
+        <dcterms:modified>2018-04-23T11:14:07.359+02:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept rdf:about="https://ausohnum.huma-num.fr/concept/c19306" xml:id="c19306">
         <skos:prefLabel xml:lang="en">Alexandrian</skos:prefLabel>
@@ -170,7 +169,7 @@
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/people/"/>
         <skosThesau:admin status="published"/>
         <dct:created>2018-04-23T11:14:07.359+02:00</dct:created>
-        <dct:modified>2018-04-23T11:14:07.359+02:00</dct:modified>
+        <dcterms:modified>2018-04-23T11:14:07.359+02:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c19307" rdf:about="https://ausohnum.huma-num.fr/concept/c19307" type="non-ordered">
         <skos:prefLabel xml:lang="en">Functions</skos:prefLabel>
@@ -180,7 +179,7 @@
         <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c19309"/>
         <skosThesau:admin status="published"/>
         <dct:created>2018-06-06T16:50:55.057+02:00</dct:created>
-        <dct:modified>2018-06-12T16:50:55.057+02:00</dct:modified>
+        <dcterms:modified>2018-06-12T16:50:55.057+02:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c19308" rdf:about="https://ausohnum.huma-num.fr/concept/c19308" type="non-ordered">
         <skos:prefLabel xml:lang="en">Procurator</skos:prefLabel>
@@ -191,8 +190,8 @@
         
         <skosThesau:admin status="published"/>
         <dct:created>2018-06-06T16:50:55.057+02:00</dct:created>
-        <dct:modified>2018-06-12T16:50:55.057+02:00</dct:modified>
-    <dct:modified when="2018-09-13T12:22:17.992+02:00" who="vrazanajao"/>
+        <dcterms:modified>2018-06-12T16:50:55.057+02:00</dcterms:modified>
+    <dcterms:modified when="2018-09-13T12:22:17.992+02:00" who="vrazanajao"/>
     </skos:Concept>
     <skos:Concept xml:id="c19309" rdf:about="https://ausohnum.huma-num.fr/concept/c19309" type="non-ordered">
         <skos:prefLabel xml:lang="en">tabularius</skos:prefLabel>
@@ -203,6 +202,6 @@
         <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c19307"/>
         <skosThesau:admin status="published"/>
         <dct:created>2018-06-06T16:50:55.057+02:00</dct:created>
-        <dct:modified>2018-06-12T16:50:55.057+02:00</dct:modified>
+        <dcterms:modified>2018-06-12T16:50:55.057+02:00</dcterms:modified>
     </skos:Concept>
 </rdf:RDF>

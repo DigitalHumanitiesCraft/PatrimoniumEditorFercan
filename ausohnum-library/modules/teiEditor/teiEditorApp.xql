@@ -1821,7 +1821,7 @@ else()}
                           <a title="TEI element: {$teiXPath}"><i class="glyphicon glyphicon glyphicon-info-sign"></i></a>
                           </span></span>
                           -->
-                             {skosThesau:dropDownThesauForXMLElement($teiElementNickname, $topConceptId, $teiEditor:lang, 'noLabel', 'inline', $index, $pos, $attributeValueType)}
+                          {skosThesau:dropDownThesauForXMLElement($teiElementNickname, $topConceptId, $teiEditor:lang, 'noLabel', 'inline', $index, $pos, $attributeValueType)}
 
 
                               <button class="btn btn-success"

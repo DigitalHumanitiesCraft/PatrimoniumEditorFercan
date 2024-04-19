@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior85">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior85">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -268,7 +267,11 @@ Die Darstellung der rechten Seite ist der linken ähnlich. Abgebildet ist ein ei
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Rüger 1981, Nr.7</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1981, 678</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 287</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.718</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -302,7 +305,11 @@ Auf deren Geheiß hat Lucius Fonteius Firmus das Gelübde gerne und vedienterma�
 Lucius Fonteius Firmus has fulfilled a vow willingly and deservedly in response to an order of the goddesses. </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="1">
+                <note anchored="true">Gabian[i]s – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Lucius Fonteius Firmus: tria nomina <lb/>
 Fonteius: lateinisches Gentilnomen (Kakoschke 2006, GN 504) <lb/>

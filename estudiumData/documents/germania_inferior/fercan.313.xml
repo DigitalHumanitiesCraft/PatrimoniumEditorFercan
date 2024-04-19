@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior313">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior313">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -239,7 +238,11 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 7891</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Espérandieu VIII 6346</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 585 Nr.9</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.762</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -271,7 +274,11 @@ Quintus Iulius Primus has fulfilled a vow willingly and deservedly for himself a
                 <app loc="#MIN.4 #MAJ.4">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Espérandieu</tei:note>
                 </app>
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">Iulius – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Q(uintus) Iul(ius) Primus: tria nomina <lb/>
 Iulius: italisches Gentilnomen von Caesar bis Caligula, in den germanischen Provinzen überaus häufig bezeugt (Kakoschke 2006, GN 621) <lb/>

@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior104">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior104">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -215,7 +214,11 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">Alföldy 1968, 89f. Nr.1</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1968, 324</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Schillinger-Häfele 1977, Nr.146</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 525 Nr.1</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.740</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -249,12 +252,20 @@ L M <lb n="5"/>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[his] – Alföldy, AE, Schillinger-Häfele, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[his] – Alföldy, AE, Schillinger-Häfele, EDH; [his] Ambia[marcis(?)] – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">möglicherweise [ex imperio ip]s(arum) – Alföldy</tei:note>
                 </app>
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">[T]extume[ihis] Ambia[marcis] – Ferlut (Z.3 fehlt dort)</note>
+            </app>
+        
+            <app loc="4">
+                <note anchored="true">l(ibens) m(erito) […]s – Ferlut (dort Z.3)</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Ambia…: ist als Teil eines Stifternamens zu verstehen und nicht als zweiter Matronenname (vgl.  <rs type="divine">Ambiamarcae</rs>), weil dann sogleich L M folgt (Alföldy 1968, 89).  </p>
             </div>

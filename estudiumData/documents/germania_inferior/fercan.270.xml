@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior270">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior270">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -216,7 +215,11 @@
             <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 7894</bibl>
-                </listBibl>
+                
+            <bibl xml:id="2">Scheungraber 2020, 293 Nr.7</bibl>
+        
+            <bibl xml:id="3">Ferlut 2022, Nr.751</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -245,7 +248,19 @@ Caldivius Sevirus und Caldivius Super gerne und verdientermaßen.</p>
 Caldivius Sevirus and Caldivius Super willingly and deservedly.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">Caldiv(ius) Sev&lt;e=I&gt; – Scheungraber; Caldius – Ferlut</note>
+            </app>
+        
+            <app loc="4">
+                <note anchored="true">rus {E} Super – Scheungraber; rus et Super – Ferlut</note>
+            </app>
+        
+            <app loc="5">
+                <note anchored="true">l(ibentes) m(erito) – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Caldivii Sevirus et Super: Der erhaltene Text ist vermutlich auf diese Art zu lesen. Es handelt sich dann dabei um zwei römische Namensformulare jeweils bestehend aus Gentil- und Cognomen. <lb/>
 Caldivius: Herkunft unbekannt (Kakoschke 2006, GN 242a); vielleicht Verschreibung von Caldinius (Kakoschke 2014, 69f.) <lb/>

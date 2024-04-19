@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior278">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior278">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -268,6 +267,10 @@
         <listBibl default="false">
           <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 8598</bibl>
           <bibl xml:id="LIT.2" default="false" status="draft">Riese 1914, 144</bibl>
+        
+            <bibl xml:id="3">Scheungraber 2020, 373 Nr.2</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.494</bibl>
         </listBibl>
       </div>
       <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
@@ -310,10 +313,21 @@
           <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">der getilgte Beiname war vermutlich Felicis – Alföldy</tei:note>
         </app>
         <app loc="#MIN.6 #MAJ.6">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">littera ante INVS aut C aut G aut T fuit – CIL; das Gentilnomen des Legaten war
-            [Iu]l. oder [Ae]l. vielleicht fand sich auch [T. F]l. – Alföldy</tei:note>
+          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">littera ante INVS aut C aut G aut T fuit – CIL; das Gentilnomen des Legaten war [Iu]l. oder [Ae]l. vielleicht fand sich auch [T. F]l. – Alföldy; L(ucius) P[3]ustinus(?) – Scheungraber; L(ucius) P[…]ustinus – Ferlut</tei:note>
         </app>
-      </div>
+      
+            <app loc="1">
+                <note anchored="true">[Ma]lvisi(i)s – Scheungraber, Ferlut</note>
+            </app>
+        
+            <app loc="3">
+                <note anchored="true">Antoni(ni) – Scheungraber, Ferlut</note>
+            </app>
+        
+            <app loc="9">
+                <note anchored="true">s(olvit) l(ibens) – Scheungraber, Ferlut</note>
+            </app>
+        </div>
       <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
         <p part="N">Plotinus: lateinisches Cognomen (Kakoschke 2008, CN 2394) </p>
         <p part="N"> legatus Augusti legionis: Kommandant der legio I Minervia, vermutlich von 190–192

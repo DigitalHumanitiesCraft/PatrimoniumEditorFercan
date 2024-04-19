@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior334">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior334">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -300,7 +299,11 @@ Auf der linken Seite ist ein Füllhorn im Blattkelch dargestellt. Drei Birnen ra
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, A27</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1457</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 399 Nr.50</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.1090</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -335,12 +338,20 @@ Gaius Sentius Certus and Gaius Sentius Primitius by her order. </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Sent(i)us – Stuart/Bogaers, AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Sent(i)us – Stuart/Bogaers, AE, EDH, Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Primiti(v)us – Stuart/Bogaers, AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Primiti(v)us – Stuart/Bogaers, AE, EDH, Scheungraber, Ferlut</tei:note>
                 </app>
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">Nehalen(n)iae –</note>
+            </app>
+        
+            <app loc="6">
+                <note anchored="true">ips&lt;i=E&gt;us – Scheungraber; ipse(i)us – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Gaius Sentius Certus, Gaius Sentius Primitius: zwei tria nomina, offensichtlich Verwandte </p>
                 <p part="N">

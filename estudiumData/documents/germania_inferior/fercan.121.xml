@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior121">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior121">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -296,7 +295,11 @@
                     <bibl xml:id="LIT.2" default="false" status="draft">CIL XIII 7789</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Lehner 1918, Nr.99</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Reuter 2012, Nr.94</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 98 Nr.4</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.853</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -331,22 +334,32 @@ Die Soldaten der legio XXX Ulpia Victrix, Marcus Ulpius Panno, Titus Mansuetius?
 The soldiers of the legio XXX Ulpia Victrix, Marcus Ulpius Panno, Titus Mansuetius? Marcus, Marcus Ulpius Lellavus and Titus Aurelius Lavinus have fulfilled a vow willingly and deservedly.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-                <app loc="#MIN.4 #MAJ.4">
+                <app loc="4">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Zeilenwechsel nach Mercurio – ILS</tei:note>
                 </app>
-                <app loc="#MIN.8 #MAJ.8">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Marcus – ILS</tei:note>
+                <app loc="8">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Marcus – ILS; Mans(uetius) – Ferlut</tei:note>
                 </app>
-                <app loc="#MIN.9 #MAJ.9">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Lellavuo – ILS, Reuter</tei:note>
+                <app loc="9">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Lellavuo – ILS, Reuter; letzter Buchstabe ein kleines o oder ein kleines s – CIL</tei:note>
                 </app>
-                <app loc="#MIN. #MAJ.">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true"/>
+                
+                <app loc="10">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Lavinius – Reuter, Ferlut; Aurelius – Scheungraber</tei:note>
                 </app>
-                <app loc="#MIN.10 #MAJ.10">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Lavinius – Reuter</tei:note>
-                </app>
-            </div>
+            
+            <app loc="1">
+                <note anchored="true">Iovi Optimo Maximo – Ferlut</note>
+            </app>
+        
+            <app loc="2">
+                <note anchored="true">loci – Ferlut</note>
+            </app>
+        
+            <app loc="3">
+                <note anchored="true">Herc[u]li – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Marcus Ulpius Panno; Titus Mansuetius Marcus; Marcus Ulpius Lellavus, Titus Aurelius Lavinus: 4x tria nomina </p>
                 <p part="N">

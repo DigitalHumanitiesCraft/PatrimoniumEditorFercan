@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior271">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior271">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -212,7 +211,11 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 8536</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Riese 1914, Nr.3144</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 293 Nr.8</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.799</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -245,7 +248,15 @@ Friannius …arann …ienu.</p>
                 <app loc="#MIN.5 #MAJ.5">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">vorgeschlagene mögliche Ergänzung des Namens in dieser und der folgenden Zeile auf Farannaienus – Riese</tei:note>
                 </app>
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">Ga(v)adi – Scheungraber, Ferlut</note>
+            </app>
+        
+            <app loc="6">
+                <note anchored="true">ienu[s – Scheungraber; ienu[s] – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Friannius: einheimische Bildung mit möglicherweise germanischer Basis (Kakoschke 2006, GN 507) </p>
             </div>

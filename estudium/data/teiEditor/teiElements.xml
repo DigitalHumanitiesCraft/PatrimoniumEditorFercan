@@ -1,1274 +1,22 @@
 <teiElements>
-    
-    <!-- ///// -->
-    <!-- Title-->
-
-    <!-- Göttername -->
     <teiElement>
-        <nm>docTitle</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title/tei:title[@type="main"]</xpath>
+        <nm>docTitlee</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title</xpath>
         <contentType>text</contentType>
         <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Göttername</formLabel>
-        <xpath2ref/>
-        <comments/>
-    </teiElement>
-    <teiElement>
-        <nm>subTitle</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title/tei:title[@type="sub"]</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Subtitle</formLabel>
-        <xpath2ref/>
-        <comments/>
-    </teiElement>
-    <!-- PID -->
-    <teiElement>
-        <nm>PID</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type="PID"]</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">PID</formLabel>
-        <xpath2ref/>
-        <comments/>
-    </teiElement>
-
-
-    <!-- /// -->
-    <!-- Index Liste -->
-    <!-- keltisches Götternamenelement -->
-    <teiElement>
-        <nm>keltischesGoetternamenelement</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName[@subtype="celtic_element"]/tei:ref</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Keltisches Götternamenelement</formLabel>
-    </teiElement>
-    <!-- Geographische Bezeichnung antik -->
-    <teiElement>
-        <nm>GeographischeBezeichnungantik</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPlace/tei:place[@type="antique_term"]/tei:placeName/tei:ref</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Geographische Bezeichnung antik</formLabel>
-    </teiElement>
-    <!-- Bevölkerungsgruppe -->
-    <teiElement>
-        <nm>Bevoelkerungsgruppe</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listOrg/tei:org[@type="population_group"]/tei:orgName/tei:ref</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Bevölkerungsgruppe</formLabel>
-    </teiElement>
-    <!-- Verw.einh. -->
-    <teiElement>
-        <nm>Verwaltungseinheit</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listOrg/tei:org[@type="admin_unit"]/tei:orgName/tei:ref</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Verwaltungseinheit</formLabel>
-    </teiElement>
-    <!--  -->
-    <teiElement>
-        <nm>MilitaerischeEinheit</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listOrg/tei:org[@type="military_unit"]/tei:orgName/tei:ref</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Militärische Einheit</formLabel>
-    </teiElement>
-    <!--  -->
-    <teiElement>
-        <nm>MilitaerischeDienstgrade</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName/tei:roleName[@type="military"]/tei:ref</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Militärische Dienstgrade</formLabel>
-    </teiElement>
-    <!--  -->
-    <teiElement>
-        <nm>Gentilnomen</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName[@type="gentilnomen"]/tei:ref</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Gentilnomen</formLabel>
-    </teiElement>
-    <!--  -->
-    <teiElement>
-        <nm>Cognomen</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName[@type="cognomen"]/tei:ref</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Cognomen</formLabel>
-    </teiElement>
-    <!-- Kultfuktionaere -->
-    <teiElement>
-        <nm>Kultfuktionaere</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName/tei:roleName[@type="religious"]/tei:ref</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Kultfunktionäre</formLabel>
-    </teiElement>
-    <!-- Kultbauten -->
-    <teiElement>
-        <nm>Kultbauten</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPlace/tei:place[@type="sacral_building"]/tei:placeName/tei:ref</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Kultbauten</formLabel>
-    </teiElement>
-    <!--  -->
-    <teiElement>
-        <nm>Inschriftenformel</nm>
-        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[@target="context:fercan.dedication."]</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Inschriftenformel</formLabel>
-    </teiElement>
-    <!--  -->
-    <teiElement>
-        <nm>ReligionSonstiges</nm>
-        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[@target="context:fercan.rel.other."]</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Religion: Sonstiges:</formLabel>
-    </teiElement>
-    <!-- Herrscher -->
-    <teiElement>
-        <nm>Herrscher</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName[@type="sovereign"]/tei:ref</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Herrscher</formLabel>
-    </teiElement>
-    <!-- Amtsträger -->
-    <teiElement>
-        <nm>Amtstraeger</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName/tei:roleName[@type="office"]/tei:ref</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Amtstraeger</formLabel>
-    </teiElement>
-    <!--  -->
-    <teiElement>
-        <nm>StatusSonstiges</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName/tei:roleName[@type="other"]/tei:ref</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Status: Sonstiges</formLabel>
-    </teiElement>
-    <!--  -->
-    <teiElement>
-        <nm>DatierungsangabenimISText</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate/tei:note[@type="original"]/tei:ref</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Datierungsangaben im IS-Text</formLabel>
-    </teiElement>
-    <!--  -->
-    <teiElement>
-        <nm>BesondereZeichen</nm>
-        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[@target="context:fercan.character."]</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Besondere Zeichen</formLabel>
-    </teiElement>
-    <!--  -->
-    <teiElement>
-        <nm>SonstigeBesonderheiten</nm>
-        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[@target="context:fercan.other."]</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Sonstige Besonderheiten</formLabel>
-    </teiElement>
-    <!--  -->
-    <teiElement>
-        <nm>KeltischesGoetternamenelement</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName[@subtype="celtic_element"][@type="divine"]/tei:ref</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Keltisches Götternamenelement</formLabel>
-    </teiElement>
-    <!--  -->
-    <teiElement>
-        <nm>Belegformgesamt</nm>
-        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[@target="context:fercan.divinepart."]</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Belegform gesamt</formLabel>
-    </teiElement>
-    <!--  -->
-    <teiElement>
-        <nm>TheonymischesFormular</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName[@subtype="celtic_normalized"][@type="divine"]/tei:ref</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Theonymisches Formular</formLabel>
-    </teiElement>
-    <!--  -->
-    <teiElement>
-        <nm>SonstigeTheonymischesFormular</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName[@subtype="celtic_normalized_other"][@type="divine"]/tei:ref</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Sonstige Theonymisches Formular</formLabel>
-    </teiElement>
-            <!-- Index_note -->
-            <teiElement>
-                <nm>Index_note</nm>
-                <xpath>/tei:text/tei:back/tei:note[@type="index_note"]</xpath>
-                <contentType>enrichedText</contentType>
-                <fieldType>textarea</fieldType>
-                <cardinality>1</cardinality>
-                <formLabel xml:lang="en">Editor's comment</formLabel>
-                <xpath2ref/>
-            </teiElement>
-
-
-    
-    
-
-
-
-    <!-- /// -->
-    <!-- Fund -->
-
-    <teiElement>
-        <nm>civitas</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:region</xpath>
-        <contentType>text</contentType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Civitas</formLabel>
-        <fieldType>combobox</fieldType>
-        <thesauDb>internal</thesauDb>
-        <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c26554</thesauTopConceptURI>
-    </teiElement>
-        <!-- civitas_note -->
-        <teiElement>
-            <nm>civitas_note</nm>
-            <xpath>/tei:text/tei:back/tei:note[@type="civitas_note"]</xpath>
-            <contentType>enrichedText</contentType>
-            <fieldType>textarea</fieldType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Editor's comment</formLabel>
-            <xpath2ref/>
-        </teiElement>
-    <!-- FO antik -->
-    <teiElement>
-        <nm>FOantik</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Fundort antik</formLabel>
-        <comments>Fundort antik comment</comments>
-    </teiElement>
-                <!-- FOantik_note  -->
-                <teiElement>
-                    <nm>FOantik_note</nm>
-                    <xpath>/tei:text/tei:back/tei:note[@type="FOantik_note"]</xpath>
-                    <contentType>enrichedText</contentType>
-                    <fieldType>textarea</fieldType>
-                    <cardinality>1</cardinality>
-                    <formLabel xml:lang="en">Editor's comment</formLabel>
-                </teiElement>
-    <!-- 
-    <teiElement>
-        <nm>FOantik</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName</xpath>
-        <contentType>textNodeAndAttribute</contentType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Fundort antik</formLabel>
-        <fieldType>place</fieldType>
-        <thesauDb>internal</thesauDb>
-        <xpath2ref>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName/@ref</xpath2ref>
-    </teiElement>
-    -->
-    <!-- FO modern -->
-    <teiElement>
-        <nm>FOmodern</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName/tei:ref</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Fundort modern</formLabel>
-    </teiElement>
-                <!-- FOmodern_note  -->
-                <teiElement>
-                    <nm>FOmodern_note</nm>
-                    <xpath>/tei:text/tei:back/tei:note[@type="FOmodern_note"]</xpath>
-                    <contentType>enrichedText</contentType>
-                    <fieldType>textarea</fieldType>
-                    <cardinality>1</cardinality>
-                    <formLabel xml:lang="en">Editor's comment</formLabel>
-                </teiElement>
-    <!--
-    <teiElement>
-        <nm>FOmodern</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName/tei:ref</xpath>
-        <contentType>textNodeAndAttribute</contentType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Fundort modern</formLabel>
-        <fieldType>place</fieldType>
-        <thesauDb>internal</thesauDb>
-        <xpath2GAMSContext>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/tei:placeName</xpath2GAMSContext>
-    </teiElement>
-    -->
-    <!-- Fundstelle -->
-    <teiElement>
-        <nm>Fundstelle</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance[@type="found"]/tei:p</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Fundstelle</formLabel>
-    </teiElement>
-            <!-- Fundstelle_note  -->
-            <teiElement>
-                <nm>Fundstelle_note</nm>
-                <xpath>/tei:text/tei:back/tei:note[@type="Fundstelle_note"]</xpath>
-                <contentType>enrichedText</contentType>
-                <fieldType>textarea</fieldType>
-                <cardinality>1</cardinality>
-                <formLabel xml:lang="en">Editor's comment</formLabel>
-            </teiElement>
-    <!-- Fundumst. -->
-    <teiElement>
-        <nm>Fundumst</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:note</xpath>
-        <contentType>enrichedText</contentType>
-        <fieldType>textarea</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Fundumstände</formLabel>
-        <xpath2ref/>
-        <comments/>
-    </teiElement>
-            <!-- Fundumst_note  -->
-            <teiElement>
-                <nm>Fundumst_note</nm>
-                <xpath>/tei:text/tei:back/tei:note[@type="Fundumst_note"]</xpath>
-                <contentType>enrichedText</contentType>
-                <fieldType>textarea</fieldType>
-                <cardinality>1</cardinality>
-                <formLabel xml:lang="en">Editor's comment</formLabel>
-            </teiElement>
-     <!-- Fundjahr -->
-     <teiElement>
-        <nm>Fundjahr</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/@when</xpath>
-        <contentType>attribute</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Fundjahr</formLabel>
-        <xpath2ref/>
-        <comments/>
-    </teiElement>
-        <!-- Fundjahr_note  -->
-        <teiElement>
-            <nm>Fundjahr_note</nm>
-            <xpath>/tei:text/tei:back/tei:note[@type="Fundjahr_note"]</xpath>
-            <contentType>enrichedText</contentType>
-            <fieldType>textarea</fieldType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Editor's comment</formLabel>
-        </teiElement>
-
-    <!-- /// -->
-    <!-- Lokalisierung -->
-
-    <!-- Verwahrort Ort -->
-    <teiElement>
-        <nm>VerwahrortOrt</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:settlement</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Verwahrort</formLabel>
-        <xpath2ref/>
-        <comments/>
-    </teiElement>
-           <!-- VerwahrortOrt_note  -->
-           <teiElement>
-            <nm>VerwahrortOrt_note</nm>
-            <xpath>/tei:text/tei:back/tei:note[@type="VerwahrortOrt_note"]</xpath>
-            <contentType>enrichedText</contentType>
-            <fieldType>textarea</fieldType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Editor's comment</formLabel>
-        </teiElement>
-    <!-- Verwahrort Institution -->
-    <teiElement>
-        <nm>VerwahrortInstitution</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:repository</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Verwahrung (Institution)</formLabel>
-    </teiElement>
-    <!-- Verwahrort Institution -->
-    <teiElement>
-        <nm>InvNr</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Inv.Nr.</formLabel>
-        <xpath2ref/>
-        <comments/>
-    </teiElement>
-            <!-- InvNr_note  -->
-            <teiElement>
-            <nm>InvNr_note</nm>
-            <xpath>/tei:text/tei:back/tei:note[@type="InvNr_note"]</xpath>
-            <contentType>enrichedText</contentType>
-            <fieldType>textarea</fieldType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Editor's comment</formLabel>
-        </teiElement>
-
-    <!-- /// -->
-    <!-- Objektbeschreibung -->
-
-    <!-- Inschriftträger -->
-    <teiElement>
-        <nm>Inschrifttraeger</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:objectType/@ana</xpath>
-        <contentType>textNodeAndAttribute</contentType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Inschriftträger</formLabel>
-        <fieldType>combobox</fieldType>
-        <thesauDb>internal</thesauDb>
-        <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c24686</thesauTopConceptURI>
-        <attributeValueType>uri</attributeValueType>
-    </teiElement>
-        <!-- Inschrifttraeger_note  -->
-        <teiElement>
-            <nm>Inschrifttraeger_note</nm>
-            <xpath>/tei:text/tei:back/tei:note[@type="Inschrifttraeger_note"]</xpath>
-            <contentType>enrichedText</contentType>
-            <fieldType>textarea</fieldType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Editor's comment</formLabel>
-            <xpath2ref/>
-        </teiElement>
-    <!-- Material -->
-    <teiElement>
-        <nm>Material</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:material/tei:ref/@ana</xpath>
-        <contentType>textNodeAndAttribute</contentType>
         <cardinality>x</cardinality>
-        <formLabel xml:lang="en">Material</formLabel>
-        <fieldType>combobox</fieldType>
-        <thesauDb>internal</thesauDb>
-        <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c24110</thesauTopConceptURI>
-        <attributeValueType>uri</attributeValueType>
-    </teiElement>
-            <!-- Material_note  -->
-            <teiElement>
-                <nm>Material_note</nm>
-                <xpath>/tei:text/tei:back/tei:note[@type="Material_note"]</xpath>
-                <contentType>enrichedText</contentType>
-                <fieldType>textarea</fieldType>
-                <cardinality>1</cardinality>
-                <formLabel xml:lang="en">Editor's comment</formLabel>
-                <xpath2ref/>
-            </teiElement>
-    <!-- Arch. Klass. -->
-    <teiElement>
-        <nm>ArchKlass</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:decoDesc/tei:decoNote/tei:term/@ana</xpath>
-        <contentType>textNodeAndAttribute</contentType>
-        <cardinality>x</cardinality>
-        <formLabel xml:lang="en">Archäologische Klassifikation</formLabel>
-        <taxoId/>
-        <fieldType>combobox</fieldType>
-        <thesauDb>internal</thesauDb>
-        <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c23775</thesauTopConceptURI>
-        <attributeValueType>uri</attributeValueType>
-        <xpath2ref/>
-        <comments/>
-    </teiElement>
-        <!-- ArchKlass_note  -->
-        <teiElement>
-            <nm>ArchKlass_note</nm>
-            <xpath>/tei:text/tei:back/tei:note[@type="ArchKlass_note"]</xpath>
-            <contentType>enrichedText</contentType>
-            <fieldType>textarea</fieldType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Editor's comment</formLabel>
-            <xpath2ref/>
-        </teiElement>
-    <!--
-    <teiElement>
-        <nm>ArchKlass</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:decoDesc/tei:decoNote/tei:term/@ana</xpath>
-        <contentType>textNodeAndAttribute</contentType>
-        <cardinality>x</cardinality>
-        <formLabel xml:lang="en">Archäologische Klassifikation</formLabel>
-        <fieldType>input</fieldType>
-        <xpath2ref>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:decoDesc/tei:decoNote/tei:term/tei:ref</xpath2ref>
-    </teiElement>
-    -->
-    <!-- Obj.beschr. -->
-    <teiElement>
-        <nm>Objbeschr</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:p</xpath>
-        <contentType>enrichedText</contentType>
-        <fieldType>textarea</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Objektbeschreibung</formLabel>
-        <xpath2ref/>
-        <comments/>
-    </teiElement>
-            <!-- Objbeschr_note  -->
-            <teiElement>
-                <nm>Objbeschr_note</nm>
-                <xpath>/tei:text/tei:back/tei:note[@type="Objbeschr_note"]</xpath>
-                <contentType>enrichedText</contentType>
-                <fieldType>textarea</fieldType>
-                <cardinality>1</cardinality>
-                <formLabel xml:lang="en">Editor's comment</formLabel>
-                <xpath2ref/>
-            </teiElement>
-    <!-- Erh.zust. Obj. -->
-    <teiElement>
-        <nm>ErhzustObj</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:condition/tei:ref/@ana</xpath>
-        <contentType>textNodeAndAttribute</contentType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Zustand Objekt</formLabel>
-        <fieldType>combobox</fieldType>
-        <thesauDb>internal</thesauDb>
-        <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c26467</thesauTopConceptURI>
-        <attributeValueType>uri</attributeValueType>
-    </teiElement>
-            <!-- ErhzustObj_note  -->
-            <teiElement>
-                <nm>ErhzustObj_note</nm>
-                <xpath>/tei:text/tei:back/tei:note[@type="ErhzustObj_note"]</xpath>
-                <contentType>enrichedText</contentType>
-                <fieldType>textarea</fieldType>
-                <cardinality>1</cardinality>
-                <formLabel xml:lang="en">Editor's comment</formLabel>
-                <xpath2ref/>
-            </teiElement>
-    <!-- //// -->
-    <!-- Maße-->
-    <!-- Höhe -->
-    <teiElement>
-        <nm>Hoehe</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:height</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Höhe (cm)</formLabel>
-        <xpath2ref/>
-        <comments/>
-    </teiElement>
-    <!-- Breite -->
-    <teiElement>
-        <nm>Breite</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:width</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Breite (cm)</formLabel>
-        <xpath2ref/>
-        <comments/>
-    </teiElement>
-    <!-- Tiefe -->
-    <teiElement>
-        <nm>Tiefe</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:depth</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Tiefe (cm)</formLabel>
-    </teiElement>
-    <!-- Masse Kommentar -->
-    <teiElement>
-        <nm>MasseKommentar</nm>      
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:note</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Maße Kommentar</formLabel>
-    </teiElement>
-        <!-- Masse_note  -->
-        <teiElement>
-            <nm>Masse_note</nm>
-            <xpath>/tei:text/tei:back/tei:note[@type="Masse_note"]</xpath>
-            <contentType>enrichedText</contentType>
-            <fieldType>textarea</fieldType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Editor's comment</formLabel>
-            <xpath2ref/>
-        </teiElement>
-    <!-- Ikonogr. -->
-    <teiElement>
-        <nm>Ikonogr</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:decoDesc/tei:decoNote/tei:p</xpath>
-        <contentType>enrichedText</contentType>
-        <fieldType>textarea</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Ikonographie</formLabel>
-        <xpath2ref/>
-        <comments/>
-    </teiElement>
-        <!-- Ikonogr_note  -->
-        <teiElement>
-            <nm>Ikonogr_note</nm>
-            <xpath>/tei:text/tei:back/tei:note[@type="Ikonogr_note"]</xpath>
-            <contentType>enrichedText</contentType>
-            <fieldType>textarea</fieldType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Editor's comment</formLabel>
-            <xpath2ref/>
-        </teiElement>
-    <!-- Erh.zust. Inschr. -->
-    <teiElement>
-        <nm>ErhzustInschr</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:condition/tei:ref/@ana</xpath>
-        <contentType>textNodeAndAttribute</contentType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Zustand Inschrift</formLabel>
-        <fieldType>combobox</fieldType>
-        <thesauDb>internal</thesauDb>
-        <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c26467</thesauTopConceptURI>
-        <attributeValueType>uri</attributeValueType>
-    </teiElement>
-        <!-- ErhzustInschr_note  -->
-        <teiElement>
-            <nm>ErhzustInschr_note</nm>
-            <xpath>/tei:text/tei:back/tei:note[@type="ErhzustInschr_note"]</xpath>
-            <contentType>enrichedText</contentType>
-            <fieldType>textarea</fieldType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Editor's comment</formLabel>
-            <xpath2ref/>
-        </teiElement>
-    <!-- Schrifttechnik, <handNote><desc type="execution">gemeißelt</desc>-->
-    <teiElement>
-        <nm>Schrifttechnik</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:desc</xpath>
-        <contentType>text</contentType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Schrifttechnik</formLabel>
-        <fieldType>combobox</fieldType>
-        <thesauDb>internal</thesauDb>
-        <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c24476</thesauTopConceptURI>
-    </teiElement>
-        <!-- Schrifttechnik_note  -->
-        <teiElement>
-            <nm>Schrifttechnik_note</nm>
-            <xpath>/tei:text/tei:back/tei:note[@type="Schrifttechnik_note"]</xpath>
-            <contentType>enrichedText</contentType>
-            <fieldType>textarea</fieldType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Editor's comment</formLabel>
-            <xpath2ref/>
-        </teiElement>      
-    <!-- Buchst.hoehe, <handNote><desc type="execution">gemeißelt</desc><height unit="cm" atLeast="2.3" atMost="5.1">2,3–5,1 cm</height></handNote> -->
-    <teiElement>
-        <nm>Buchsthoehe</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:height</xpath>
-        <contentType>nodes</contentType>
-        <cardinality>x</cardinality>
-        <formLabel xml:lang="en">Buchstabenhöhe (cm)</formLabel>
-        <fieldType>group</fieldType>
-        <template>
-            <height unit="cm" atLeast="$Buchsthoehe_atLeast" atMost="$Buchsthoehe_atMost">$Buchsthoehe_text</height>
-        </template>
-        <teiElement>
-            <nm>Buchsthoehe_text</nm>
-            <xpath/>
-            <contentType>text</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Text</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-        <teiElement>
-            <nm>Buchsthoehe_atLeast</nm>
-            <xpath>/@atLeast</xpath>
-            <contentType>attribute</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">atLeast</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-        <teiElement>
-            <nm>Buchsthoehe_atMost</nm>
-            <xpath>/@atMost</xpath>
-            <contentType>attribute</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">atMost</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-    </teiElement>
-    	<!-- Buchsthoehe_note  -->
-        <teiElement>
-            <nm>Buchsthoehe_note</nm>
-            <xpath>/tei:text/tei:back/tei:note[@type="Buchsthoehe_note"]</xpath>
-            <contentType>enrichedText</contentType>
-            <fieldType>textarea</fieldType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Editor's comment</formLabel>
-            <xpath2ref/>
-        </teiElement>   
-    <!-- Inschr.text -->
-    <teiElement>
-        <nm>Inschrtext</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:layoutDesc/tei:layout/tei:p</xpath>
-        <contentType>enrichedText</contentType>
-        <fieldType>textarea</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Inschrift</formLabel>
-        <xpath2ref/>
-        <comments/>
-    </teiElement>
-    	<!-- Inschrtext_note  -->
-        <teiElement>
-            <nm>Inschrtext_note</nm>
-            <xpath>/tei:text/tei:back/tei:note[@type="Inschrtext_note"]</xpath>
-            <contentType>enrichedText</contentType>
-            <fieldType>textarea</fieldType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Editor's comment</formLabel>
-            <xpath2ref/>
-        </teiElement>   
-
-    <!-- /// -->
-    <!-- Datierung -->
-    <teiElement>
-        <nm>Datierung</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate/tei:date</xpath>
-        <contentType>text</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Datierung</formLabel>
-        <xpath2ref/>
-        <comments/>
-    </teiElement>
-    	<!-- Datierung_note  -->
-        <teiElement>
-            <nm>Datierung_note</nm>
-            <xpath>/tei:text/tei:back/tei:note[@type="Datierung_note"]</xpath>
-            <contentType>enrichedText</contentType>
-            <fieldType>textarea</fieldType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Editor's comment</formLabel>
-            <xpath2ref/>
-        </teiElement>
-    <!-- Dat. ISO --> 
-    <!-- notBefore -->
-    <teiElement>
-        <nm>DatISO_notBefore</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate/@notBefore</xpath>
-        <contentType>attribute</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">not Before</formLabel>
-        <xpath2ref/>
-        <comments/>
-    </teiElement> 
-    <!-- notAfter -->
-    <teiElement>
-        <nm>DatISO_notAfter</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate/@notAfter</xpath>
-        <contentType>attribute</contentType>
-        <fieldType>input</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">not After</formLabel>
+        <formLabel xml:lang="en">Title</formLabel>
+        <formLabel xml:lang="fr">Titre</formLabel>
         <xpath2ref/>
         <comments/>
     </teiElement>
     
-    <!-- /// -->
-    <!-- Not. var. -->
-    <teiElement>
-        <nm>Notvar</nm>
-        <xpath>/tei:text/tei:body/tei:div[@type="commentary"][@subtype="language"]/tei:p</xpath>
-        <contentType>enrichedText</contentType>
-        <fieldType>textarea</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Notabilia varia</formLabel>
-        <xpath2ref/>
-        <comments/>
-    </teiElement>
-            <!-- Notvar_note  -->
-            <teiElement>
-                <nm>Notvar_note</nm>
-                <xpath>/tei:text/tei:back/tei:note[@type="Notvar_note"]</xpath>
-                <contentType>enrichedText</contentType>
-                <fieldType>textarea</fieldType>
-                <cardinality>1</cardinality>
-                <formLabel xml:lang="en">Editor's comment</formLabel>
-                <xpath2ref/>
-            </teiElement>  
-    <!-- Komm. Göttern. -->
-    <teiElement>
-        <nm>KommGoettern</nm>
-        <xpath>/tei:text/tei:body/tei:div[@type="commentary"][@subtype="deity"]</xpath>
-        <contentType>enrichedText</contentType>
-        <fieldType>textarea</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Kommentar zu Götternamen</formLabel>
-        <xpath2ref/>
-        <comments/>
-    </teiElement>
-            <!-- KommGoettern_note  -->
-            <teiElement>
-                <nm>KommGoettern_note</nm>
-                <xpath>/tei:text/tei:back/tei:note[@type="KommGoettern_note"]</xpath>
-                <contentType>enrichedText</contentType>
-                <fieldType>textarea</fieldType>
-                <cardinality>1</cardinality>
-                <formLabel xml:lang="en">Editor's comment</formLabel>
-                <xpath2ref/>
-            </teiElement> 
-    <!-- Sonst. Komm. -->
-    <teiElement>
-        <nm>SonstKomm</nm>
-        <xpath>/tei:text/tei:body/tei:div[@type="commentary"][@subtype="general"]</xpath>
-        <contentType>enrichedText</contentType>
-        <fieldType>textarea</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Kommentar allgemein</formLabel>
-        <xpath2ref/>
-        <comments/>
-    </teiElement>
-    	<!-- _note  -->
-        <teiElement>
-            <nm>SonstKomm_note</nm>
-            <xpath>/tei:text/tei:back/tei:note[@type="SonstKomm_note"]</xpath>
-            <contentType>enrichedText</contentType>
-            <fieldType>textarea</fieldType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Editor's comment</formLabel>
-            <xpath2ref/>
-        </teiElement> 
-
-    <!-- /// -->
-    <!-- Elektronische Ressourcen -->
-
-    <!-- EDH -->
-    <!-- <bibl type="EDH">HD025308<date>Version vom 13. Januar 2016</date></bibl> -->
-    <teiElement>
-        <nm>EDH</nm>
-        <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="EDH"]</xpath>
-        <contentType>nodes</contentType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">EDH</formLabel>
-        <fieldType>group</fieldType>
-        <template>
-            <bibl type="EDH">
-                <idno>$EDH_id</idno>
-                <date>$EDH_date</date>
-            </bibl>
-        </template>
-        <teiElement>
-            <nm>EDH_id</nm>
-            <xpath>/tei:idno</xpath>
-            <contentType>text</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">ID</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-        <teiElement>
-            <nm>EDH_date</nm>
-            <xpath>/tei:date</xpath>
-            <contentType>text</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Datum</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-    </teiElement>
-    <!-- Lupa -->
-    <teiElement>
-        <nm>Lupa</nm>
-        <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="lupa"]</xpath>
-        <contentType>nodes</contentType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Lupa</formLabel>
-        <fieldType>group</fieldType>
-        <template>
-            <bibl type="lupa">
-                <idno>$Lupa_id</idno>
-                <date>$Lupa_date</date>
-            </bibl>
-        </template>
-        <teiElement>
-            <nm>Lupa_id</nm>
-            <xpath>/tei:idno</xpath>
-            <contentType>text</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">ID</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-        <teiElement>
-            <nm>Lupa_date</nm>
-            <xpath>/tei:date</xpath>
-            <contentType>text</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Datum</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-    </teiElement>
-    <!-- ClaussSlaby, EDCS -->
-    <teiElement>
-        <nm>ClaussSlaby</nm>
-        <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="EDCS"]</xpath>
-        <contentType>nodes</contentType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">ClaussSlaby</formLabel>
-        <fieldType>group</fieldType>
-        <template>
-            <bibl type="EDCS">
-                <idno>$ClaussSlaby_id</idno>
-                <date>$ClaussSlaby_date</date>
-            </bibl>
-        </template>
-        <teiElement>
-            <nm>ClaussSlaby_id</nm>
-            <xpath>/tei:idno</xpath>
-            <contentType>text</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">ID</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-        <teiElement>
-            <nm>ClaussSlaby_date</nm>
-            <xpath>/tei:date</xpath>
-            <contentType>text</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Datum</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-    </teiElement>
-    <!-- trismegistos -->
-    <teiElement>
-        <nm>trismegistos</nm>
-        <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="trismegistos"]</xpath>
-        <contentType>nodes</contentType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Trismegistos</formLabel>
-        <fieldType>group</fieldType>
-        <template>
-            <bibl type="trismegistos">
-                <idno>$trismegistos_id</idno>
-                <date>$trismegistos_date</date>
-            </bibl>
-        </template>
-        <teiElement>
-            <nm>trismegistos_id</nm>
-            <xpath>/tei:idno</xpath>
-            <contentType>text</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">ID</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-        <teiElement>
-            <nm>trismegistos_date</nm>
-            <xpath>/tei:date</xpath>
-            <contentType>text</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Datum</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-    </teiElement>
-    <!-- -->
-    <teiElement>
-        <nm>other</nm>
-        <xpath>/tei:text/tei:body/tei:div[@subtype="concordances"][@type="bibliography"]/tei:listBibl/tei:bibl[@type="other"]</xpath>
-        <contentType>nodes</contentType>
-        <cardinality>x</cardinality>
-        <formLabel xml:lang="en">weitere elektronische Ressourcen</formLabel>
-        <fieldType>group</fieldType>
-        <template>
-            <bibl type="other">
-                <idno>$other_id</idno>
-                <date>$other_date</date>
-            </bibl>
-        </template>
-        <teiElement>
-            <nm>other_id</nm>
-            <xpath>/tei:idno</xpath>
-            <contentType>text</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">ID</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-        <teiElement>
-            <nm>other_date</nm>
-            <xpath>/tei:date</xpath>
-            <contentType>text</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Datum</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-    </teiElement>
-        <!-- ElektronischeRessourcen_note  -->
-        <teiElement>
-            <nm>ElektronischeRessourcen_note</nm>
-            <xpath>/tei:text/tei:back/tei:note[@type="Appcrit_note"]</xpath>
-            <contentType>enrichedText</contentType>
-            <fieldType>textarea</fieldType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Editor's comment s</formLabel>
-            <xpath2ref/>
-        </teiElement>
-
-   
-
-    
-
-    <!-- /// -->
-    <!-- Bibliographie-->
-
-    <!-- Abb, group -->
-    <!-- <graphic mimeType="{}" xml:id="IMAGE.1" url="file:///0001_Front.jpg"></graphic> -->
-    <!--<idno type="$altIdentifierType" subtype="$altIdentifierSubtype">$altIdentifierValue</idno>-->
-    <teiElement>
-        <nm>Abb</nm>
-        <xpath>/tei:facsimile/tei:graphic</xpath>
-        <contentType>nodes</contentType>
-        <cardinality>x</cardinality>
-        <formLabel xml:lang="en">Abbildungen</formLabel>
-        <fieldType>group</fieldType>
-        <template>
-            <!-- todo: @xml:id-->
-            <graphic mimeType="$Abb_type" url="$Abb_filename">
-                <desc>$Abb_desc</desc>
-            </graphic>
-        </template>
-        <teiElement>
-            <nm>Abb_filename</nm>
-            <xpath>/@url</xpath>
-            <contentType>attribute</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Dateiname</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-        <teiElement>
-            <nm>Abb_desc</nm>
-            <xpath>/tei:desc</xpath>
-            <contentType>text</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Beschreibung</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-        <teiElement>
-            <nm>Abb_type</nm>
-            <xpath>/@mimeType</xpath>
-            <contentType>attribute</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">MIME-Type</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-    </teiElement>
-        <!-- Abb_note_note  -->
-        <teiElement>
-            <nm>Abb_note</nm>
-            <xpath>/tei:text/tei:back/tei:note[@type="Abb_note"]</xpath>
-            <contentType>enrichedText</contentType>
-            <fieldType>textarea</fieldType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Editor's comment</formLabel>
-            <xpath2ref/>
-        </teiElement>
-    <!-- App. crit. -->
-    <teiElement>
-        <nm>Appcrit</nm>
-        <xpath>/tei:text/tei:body/tei:div[@type="apparatus"]/tei:app</xpath>
-        <contentType>nodes</contentType>
-        <cardinality>x</cardinality>
-        <formLabel xml:lang="en">Apparatus criticus</formLabel>
-        <fieldType>group</fieldType>
-        <template>
-            <app loc="$Appcrit_loc">
-                <note anchored="true">$Appcrit_anmerkung</note>
-            </app>
-        </template>
-        <teiElement>
-            <nm>Appcrit_anmerkung</nm>
-            <xpath>/tei:note</xpath>
-            <contentType>text</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Note</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-        <teiElement>
-            <nm>Appcrit_loc</nm>
-            <xpath>/@loc</xpath>
-            <contentType>attribute</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Zeile</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-    </teiElement>
-        <!-- Appcrit_note  -->
-        <teiElement>
-            <nm>Appcrit_note</nm>
-            <xpath>/tei:text/tei:back/tei:note[@type="Appcrit_note"]</xpath>
-            <contentType>enrichedText</contentType>
-            <fieldType>textarea</fieldType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Editor's comment s</formLabel>
-            <xpath2ref/>
-        </teiElement>
-    <!-- Autopsie -->
-    <teiElement>
-        <nm>Autopsie</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance[@type="observed"][@subtype="autopsied"]</xpath>
-        <contentType>enrichedText</contentType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Autopsie der Inschrift</formLabel>
-        <fieldType>textarea</fieldType>
-    </teiElement>
-        <!-- Autopsie_note  -->
-        <teiElement>
-            <nm>Autopsie_note</nm>
-            <xpath>/tei:text/tei:back/tei:note[@type="Autopsie_note"]</xpath>
-            <contentType>enrichedText</contentType>
-            <fieldType>textarea</fieldType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Editor's comment</formLabel>
-            <xpath2ref/>
-        </teiElement>
-    <!-- Editionen, <bibl xml:id="LIT.1">Lehner 1930, Nr.45</bibl> -->
-    <teiElement>
-        <nm>Editionen</nm>
-        <xpath>/tei:text/tei:body/tei:div[@subtype="editions"][@type="bibliography"]/tei:listBibl/tei:bibl</xpath>
-        <contentType>nodes</contentType>
-        <cardinality>x</cardinality>
-        <formLabel xml:lang="en">Editionen und Lesungen</formLabel>
-        <fieldType>group</fieldType>
-        <template>
-            <bibl xml:id="$Editionen_id">$Editionen_text</bibl>
-        </template>
-        <teiElement>
-            <nm>Editionen_text</nm>
-            <xpath/>
-            <contentType>text</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Text</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-        <teiElement>
-            <nm>Editionen_id</nm>
-            <xpath>/@xml:id</xpath>
-            <contentType>attribute</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">ID</formLabel>
-            <fieldType>input</fieldType>
-        </teiElement>
-    </teiElement>
-        <!-- Editionen_note  -->
-        <teiElement>
-            <nm>Editionen_note</nm>
-            <xpath>/tei:text/tei:back/tei:note[@type="Editionen_note"]</xpath>
-            <contentType>enrichedText</contentType>
-            <fieldType>textarea</fieldType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Editor's comment</formLabel>
-            <xpath2ref/>
-        </teiElement>
-
-    <!-- /// -->
-    <!-- Übersetzungen -->
-
-    <!-- dtUEbers -->
-    <teiElement>
-        <nm>dtUEbers</nm>
-        <xpath>/tei:text/tei:body/tei:div[@type="translation"][@xml:lang="de"]/tei:p</xpath>
-        <contentType>enrichedText</contentType>
-        <fieldType>textarea</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Übersetzung Deutsch</formLabel>
-    </teiElement>
-        <!-- dtUEbers_note  -->
-        <teiElement>
-            <nm>dtUEbers_note</nm>
-            <xpath>/tei:text/tei:back/tei:note[@type="dtUEbers_note"]</xpath>
-            <contentType>enrichedText</contentType>
-            <fieldType>textarea</fieldType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Editor's comment</formLabel>
-            <xpath2ref/>
-        </teiElement>
-    <!-- englUEbers -->
-    <teiElement>
-        <nm>englUEbers</nm>
-        <xpath>/tei:text/tei:body/tei:div[@type="translation"][@xml:lang="en"]/tei:p</xpath>
-        <contentType>enrichedText</contentType>
-        <fieldType>textarea</fieldType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Übersetzung Englisch</formLabel>
-    </teiElement>
-        <!-- englUEbers_note  -->
-        <teiElement>
-            <nm>englUEbers_note</nm>
-            <xpath>/tei:text/tei:back/tei:note[@type="englUEbers_note"]</xpath>
-            <contentType>enrichedText</contentType>
-            <fieldType>textarea</fieldType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Editor's comment</formLabel>
-            <xpath2ref/>
-        </teiElement>
-    <!-- -->
-    <teiElement>
-        <nm>docEditionStmt</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:editionStmt</xpath>
-        <contentType>nodes</contentType>
-        <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Edition</formLabel>
-        <formLabel xml:lang="fr">Edition</formLabel>
-        <xpath2ref/>
-        <comments/>
-        <teiElement>
-            <nm>editionDesc</nm>
-            <xpath>/tei:edition</xpath>
-            <contentType>nodes</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Edition</formLabel>
-            <formLabel xml:lang="fr">Edition</formLabel>
-            <taxoId/>
-            <fieldType>textarea</fieldType>
-            <thesauDb/>
-            <thesauTopConceptURI/>
-            <xpath2ref/>
-            <comments/>
-        </teiElement>
-    </teiElement>
     
     
     <teiElement>
         <nm>docEditor</nm>
         <xpath>/tei:fileDesc/tei:titleStmt/tei:editor</xpath>
-        <contentType>text</contentType>formLabel
+        <contentType>text</contentType>
         <cardinality>x</cardinality>
         <formLabel xml:lang="en">Editor(s)</formLabel>
         <formLabel xml:lang="fr">Editeur(s)</formLabel>
@@ -1277,35 +25,47 @@
         </teiElement>
     <teiElement>
         <nm>docType</nm>
-        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:catRef/@ref</xpath>
-        <contentType>attribute</contentType>
+        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:catRef/@target</xpath>
+        <contentType>textNodeAndAttribute</contentType>
+        <attributeValueType>uri</attributeValueType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Document type</formLabel>
         <formLabel xml:lang="fr">Type de document</formLabel>
-        <taxoId>teiEditorGeneralDocumentClass</taxoId>
+        <taxoId/>
         <fieldType>combobox</fieldType>
         <thesauDb>internal</thesauDb>
-        <thesauTopConceptURI>http://ausonius.huma-num.fr//concept/c19361</thesauTopConceptURI>
-        <xpath2ref>/tei:teiHeader/tei:encodingDesc/tei:classDecl/tei:taxonomy/tei:category[@xml:id='teiEditorGeneralDocumentClass']</xpath2ref>
+        <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c21851</thesauTopConceptURI>
+        <xpath2ref/>
         <comments/>
     </teiElement>
-
-        <teiElement>
-            <nm>textMainLang</nm>
-            <xpath>/tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language</xpath>
-            <contentType>attribute</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Main language</formLabel>
-            <formLabel xml:lang="fr">Langue principale</formLabel>
-            <taxoId/>
-            <fieldType>combobox</fieldType>
-            <thesauDb>internal</thesauDb>
-            <thesauTopConceptURI>http://ausonius.huma-num.fr//concept/c39</thesauTopConceptURI>
-            <attributeValueType>xml-value</attributeValueType>
-            <xpath2ref/>
-            <comments/>
-        </teiElement>
-
+    <teiElement>
+        <nm>docCommentary</nm>
+        <xpath>/tei:text/tei:body/tei:div[@type="commentary"]</xpath>
+        <contentType>enrichedText</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Commentary</formLabel>
+        <formLabel xml:lang="fr">Commentaire</formLabel>
+        <taxoId/>
+        <fieldType>textarea</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    <teiElement>
+        <nm>privateCommentary</nm>
+        <xpath>/tei:text/tei:body/tei:div[@type="privateCommentary"]</xpath>
+        <contentType>enrichedText</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Private Commentary</formLabel>
+        <formLabel xml:lang="fr">Commentaire personnel</formLabel>
+        <taxoId/>
+        <fieldType>textarea</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
     <teiElement>
         <nm>docKeywords</nm>
         <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:term/@ref</xpath>
@@ -1316,48 +76,304 @@
         <taxoId/>
         <fieldType>combobox</fieldType>
         <thesauDb>internal</thesauDb>
-        <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c21849</thesauTopConceptURI>
+        <thesauTopConceptURI>http://ausonius.huma-num.fr/concept/c21849</thesauTopConceptURI>
         <attributeValueType>uri</attributeValueType>
         <xpath2ref/>
         <comments/>
     </teiElement>
+
+<!--
+**************************************************
+*           DOCUMENT METADATA             *
+**************************************************      
+        -->
+    
     <teiElement>
-        <nm>docKeywords2</nm>
-        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:term/@ref</xpath>
-        <contentType>textNodeAndAttribute</contentType>
-        <cardinality>x</cardinality>
-        <formLabel xml:lang="en">Keywords</formLabel>
-        <formLabel xml:lang="fr">Mots-clés</formLabel>
+        <nm>origDateNote</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate</xpath>
+        <contentType>enrichedText</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Date note</formLabel>
+        <formLabel xml:lang="fr">Note de datation</formLabel>
         <taxoId/>
-        <fieldType>comboboxAndInput</fieldType>
-        <thesauDb>internal</thesauDb>
-        <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c21849</thesauTopConceptURI>
-        <attributeValueType>uri</attributeValueType>
+        <fieldType>textarea</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <attributeValueType/>
         <xpath2ref/>
         <comments/>
     </teiElement>
     
-    <!--  PLACE OF ORIGIN  -->
     <teiElement>
-        <nm>placeOfOrigin</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace/@ref</xpath>
-        <contentType>textNodeAndAttribute</contentType>
+        <nm>origDateNotBefore</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate/@notBefore-custom</xpath>
+        <contentType>attribute</contentType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Place of origin</formLabel>
-        <formLabel xml:lang="fr">Lieu d'origine</formLabel>
-        <fieldType>place</fieldType>
-        <thesauDb>internal</thesauDb>
-        <thesauTopConceptURI>http://ausonius.huma-num.fr//concept/c19361</thesauTopConceptURI>
-        <xpath2ref>/tei:teiHeader/tei:encodingDesc/tei:classDecl/tei:taxonomy/tei:category[@xml:id='teiEditorGeneralDocumentClass']</xpath2ref>
+        <formLabel xml:lang="en">Date post quem</formLabel>
+        <formLabel xml:lang="fr">Date post quem</formLabel>
+        <taxoId/>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <attributeValueType/>
+        <xpath2ref/>
         <comments/>
     </teiElement>
+    <teiElement>
+        <nm>origDateNotAfter</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate/@notAfter-custom</xpath>
+        <contentType>attribute</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Date ante quem</formLabel>
+        <formLabel xml:lang="fr">Date ante quem</formLabel>
+        <taxoId/>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <attributeValueType/>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+
+    <teiElement>
+        <nm>digitalResources</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[not(contains(./@type, 'uri'))]</xpath>
+        <contentType>text</contentType>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">Digital resources</formLabel>
+        <formLabel xml:lang="fr">Resources numériques</formLabel>
+        <taxoId/>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <attributeValueType/>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+
+
+<!--DELETE digitalResourcesGroup !!!!-->
+    <teiElement>
+        <nm>digitalResourcesGroup</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno</xpath>
+        <contentType>nodes</contentType>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">Digital resources</formLabel>
+        <formLabel xml:lang="fr">Resources numériques</formLabel>
+        <taxoId/>
+        <fieldType>group</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <attributeValueType/>
+        <xpath2ref/>
+        <comments/>
+        
+        <teiElement>
+            <nm>digitalResourcesType</nm>
+            <xpath>/@type</xpath>
+            <contentType>attribute</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Type</formLabel>
+            <formLabel xml:lang="fr">Type</formLabel>
+            <taxoId/>
+            <fieldType>input</fieldType>
+            <thesauDb/>
+            <thesauTopConceptURI/>
+            <attributeValueType/>
+            <xpath2ref/>
+            <comments/>
+        </teiElement>
+        <teiElement>
+            <nm>digitalResourcesUri</nm>
+            <xpath/>
+            <contentType>text</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">URI</formLabel>
+            <formLabel xml:lang="fr">URI</formLabel>
+            <taxoId/>
+            <fieldType>input</fieldType>
+            <thesauDb/>
+            <thesauTopConceptURI/>
+            <attributeValueType/>
+            <xpath2ref/>
+            <comments/>
+        </teiElement>
+        
+        
+    </teiElement>
+    <teiElement>
+        <nm>altIdentifierGroup</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:altIdentifier</xpath>
+        <template>
+            <altIdentifier>
+                <idno type="$altIdentifierType" subtype="$altIdentifierSubtype">$altIdentifierValue</idno>
+        </altIdentifier>
+        </template>
+        <contentType>nodes</contentType>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">Other Identifer</formLabel>
+        <formLabel xml:lang="fr">Autre identifiant</formLabel>
+        <taxoId/>
+        <fieldType>group</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <attributeValueType/>
+        <xpath2ref/>
+        <comments/>
+        
+        <teiElement>
+            <nm>altIdentifierType</nm>
+            <xpath>/tei:idno/@type</xpath>
+            <contentType>attribute</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Type</formLabel>
+            <formLabel xml:lang="fr">Type</formLabel>
+            <taxoId/>
+            <fieldType>combobox</fieldType>
+            <thesauDb>internal</thesauDb>
+            <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c23504</thesauTopConceptURI>
+            <attributeValueType>xml-value</attributeValueType>
+            <xpath2ref/>
+            <comments/>
+        </teiElement>
+        <teiElement>
+            <nm>altIdentifierSubtype</nm>
+            <xpath>/tei:idno/@subtype</xpath>
+            <contentType>attribute</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Subtype</formLabel>
+            <formLabel xml:lang="fr">Sous-type</formLabel>
+            <fieldType>combobox</fieldType>
+            <taxoId>externalResources</taxoId>
+            <thesauDb>internal</thesauDb>
+            <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c23500</thesauTopConceptURI>
+            <attributeValueType>xml-value</attributeValueType>
+            <xpath2ref/>
+            <comments/>
+        </teiElement>
+        <teiElement>
+            <nm>altIdentifierValue</nm>
+            <xpath>/tei:idno</xpath>
+            <contentType>text</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Value</formLabel>
+            <formLabel xml:lang="fr">Valeur</formLabel>
+            <taxoId/>
+            <fieldType>input</fieldType>
+            <thesauDb/>
+            <thesauTopConceptURI/>
+            <attributeValueType/>
+            <xpath2ref/>
+            <comments/>
+        </teiElement>
+        
+        
+    </teiElement>
+
+<teiElement>
+    
+    <nm>origDateGroup</nm>
+    <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate</xpath>
+    <template>
+        <origDate notBefore-custom="$origDateGroupNotBefore" notAfter-custom="$origDateGroupNotAfter">$origDateGroupNote</origDate>
+    </template>
+    <contentType>nodes</contentType>
+    <cardinality>x</cardinality>
+    <formLabel xml:lang="en">Date</formLabel>
+    <formLabel xml:lang="fr">Date</formLabel>
+    <taxoId/>
+    <fieldType>group</fieldType>
+    <thesauDb/>
+    <thesauTopConceptURI/>
+    <attributeValueType/>
+    <xpath2ref/>
+    <comments/>
+    
+    <teiElement>
+        <nm>origDateGroupNote</nm>
+        <xpath>/self::node()</xpath>
+        <contentType>text</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Date note</formLabel>
+        <formLabel xml:lang="fr">Note de datation</formLabel>
+        <taxoId/>
+        <fieldType>textarea</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <attributeValueType/>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    
+    <teiElement>
+        <nm>origDateGroupNotBefore</nm>
+        <xpath>/@notBefore-custom</xpath>
+        <contentType>text</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Date post quem</formLabel>
+        <formLabel xml:lang="fr">Date post quem</formLabel>
+        <taxoId/>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <attributeValueType/>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    <teiElement>
+        <nm>origDateGroupNotAfter</nm>
+        <xpath>/@notAfter-custom</xpath>
+        <contentType>attribute</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Date ante quem</formLabel>
+        <formLabel xml:lang="fr">Date ante quem</formLabel>
+        <taxoId/>
+        <fieldType>input</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <attributeValueType/>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    
+    
+</teiElement>
+
+    <teiElement>
+        <nm>provenance</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate</xpath>
+        <contentType>text</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Date</formLabel>
+        <formLabel xml:lang="fr">Date</formLabel>
+        <taxoId/>
+        <fieldType>textarea</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <attributeValueType/>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+
+
+    <!--
+**************************************************
+*                 EDITION (BIBL)                 *
+**************************************************
+ -->
     
 
+    
  <!--
 **************************************************
 *                 TEXT METADATA                  *
 **************************************************
- --><!--Abtsract text-->
+ -->
+
+ 
+ 
+    
+    <!--Abtsract text-->
        
     
     <teiElement>
@@ -1370,16 +386,31 @@
         <xpath2ref>/tei:teiHeader/tei:encodingDesc/tei:classDecl/tei:taxonomy/tei:category</xpath2ref>
         <comments/>
         <teiElement>
+            <nm>textMainLang</nm>
+            <xpath>/tei:textLang/@mainLang</xpath>
+            <contentType>attribute</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Main language</formLabel>
+            <formLabel xml:lang="fr">Langue principale</formLabel>
+            <taxoId/>
+            <fieldType>combobox</fieldType>
+            <thesauDb>internal</thesauDb>
+            <thesauTopConceptURI>https://ausonius.huma-num.fr//concept/c39</thesauTopConceptURI>
+            <attributeValueType>xml-value</attributeValueType>
+            <xpath2ref/>
+            <comments/>
+        </teiElement>
+        <teiElement>
             <nm>textOtherLangs</nm>
             <xpath>/tei:textLang/@otherLangs</xpath>
             <contentType>attribute</contentType>
-            <cardinality>x</cardinality>
+            <cardinality>1</cardinality>
             <formLabel xml:lang="en">Other language(s)</formLabel>
             <formLabel xml:lang="fr">Autre(s) langue(s)</formLabel>
             <taxoId/>
             <fieldType>combobox</fieldType>
             <thesauDb>internal</thesauDb>
-            <thesauTopConceptURI>http://ausonius.huma-num.fr//concept/c39</thesauTopConceptURI>
+            <thesauTopConceptURI>https://ausonius.huma-num.fr//concept/c39</thesauTopConceptURI>
             <attributeValueType>xml-value</attributeValueType>
             <xpath2ref/>
             <comments/>
@@ -1573,11 +604,25 @@
         <comments/>
     </teiElement>
     <teiElement>
+        <nm>docSupportMaterial</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:material/@ref</xpath>
+        <contentType>textNodeAndAttribute</contentType>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">Material</formLabel>
+        <formLabel xml:lang="fr">Matière</formLabel>
+        <taxoId/>
+        <fieldType>combobox</fieldType>
+        <thesauDb>internal</thesauDb>
+        <thesauTopConceptURI>http://ausonius.huma-num.fr/concept/c6200</thesauTopConceptURI>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    <teiElement>
         <nm>docSupportComment</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support</xpath>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:p</xpath>
         <contentType>text</contentType>
         <cardinality>1</cardinality>
-        <formLabel xml:lang="en">Comment</formLabel>
+        <formLabel xml:lang="en">Commentary</formLabel>
         <formLabel xml:lang="fr">Commentaire</formLabel>
         <xpath2ref/>
         <comments/>
@@ -1613,7 +658,6 @@
  /TEI/teiHeader[1]/fileDesc[1]/sourceDesc[1]/msDesc[1]/msFrag[1]
  /TEI/teiHeader[1]/fileDesc[1]/sourceDesc[1]/msDesc[1]/msFrag[1]/msIdentifier[1]
     -->
-    
     <teiElement>
         <nm>fragment</nm>
         <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msFrag</xpath>
@@ -1646,8 +690,29 @@
                 <xpath2ref/>
                 <comments/>
             </teiElement>
-
-            <!--
+            
+            <teiElement>
+                <nm>fragProvenanceFindspotDateNotBefore</nm>
+                <xpath>/@notBefore-custom</xpath>
+                <contentType>text</contentType>
+                <cardinality>1</cardinality>
+                <formLabel xml:lang="en">Discovery date (not before)</formLabel>
+                <formLabel xml:lang="fr">Date de découverte (ante quem)</formLabel>
+                <fieldType>input</fieldType>
+                <xpath2ref/>
+                <comments/>
+            </teiElement>
+            <teiElement>
+                <nm>fragProvenanceFindspotDateNotAfter</nm>
+                <xpath>/@notAfter</xpath>
+                <contentType>text</contentType>
+                <cardinality>1</cardinality>
+                <formLabel xml:lang="en">Discovery date (not after)</formLabel>
+                <formLabel xml:lang="fr">Date de découverte (post quem)</formLabel>
+                <fieldType>input</fieldType>
+                <xpath2ref/>
+                <comments/>
+            </teiElement>
             <teiElement>
                 <nm>fragProvenanceFinder</nm>
                 <xpath>/tei:persName[@type="finder"]</xpath>
@@ -1659,7 +724,6 @@
                 <xpath2ref/>
                 <comments/>
             </teiElement>
-   -->
             <teiElement>
                 <nm>fragProvenanceFindspotLocation</nm>
                 <xpath>/tei:location</xpath>
@@ -1804,50 +868,7 @@
             </teiElement>-->
             
         </teiElement>
-        <teiElement>
-            <nm>fragmentDimensions</nm>
-            <xpath>/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions</xpath>
-            <contentType>nodes</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Dimensions</formLabel>
-            <formLabel xml:lang="fr">Dimensions</formLabel>
-            <fieldType>group</fieldType>
-            <xpath2ref/>
-            <comments/>
-            <teiElement>
-                <nm>fragmentHeight</nm>
-                <xpath>/tei:height</xpath>
-                <contentType>text</contentType>
-                <cardinality>1</cardinality>
-                <formLabel xml:lang="en">Height</formLabel>
-                <formLabel xml:lang="fr">Hauteur</formLabel>
-                <fieldType>input</fieldType>
-                <xpath2ref/>
-                <comments/>
-            </teiElement>
-            <teiElement>
-                <nm>fragmentWidth</nm>
-                <xpath>/tei:width</xpath>
-                <contentType>text</contentType>
-                <cardinality>1</cardinality>
-                <formLabel xml:lang="en">Width</formLabel>
-                <formLabel xml:lang="fr">Largeur</formLabel>
-                <fieldType>input</fieldType>
-                <xpath2ref/>
-                <comments/>
-            </teiElement>
-            <teiElement>
-                <nm>fragmentDepth</nm>
-                <xpath>/tei:depth</xpath>
-                <contentType>text</contentType>
-                <cardinality>1</cardinality>
-                <formLabel xml:lang="en">Depth</formLabel>
-                <formLabel xml:lang="fr">Epaisseur</formLabel>
-                <fieldType>input</fieldType>
-                <xpath2ref/>
-                <comments/>
-            </teiElement>
-        </teiElement>
+        
         
         <teiElement>
             <nm>fragmentHistory</nm>
@@ -1881,7 +902,7 @@
     </teiElement>
     <teiElement>
         <nm>docTextMultiple</nm>
-        <xpath>/tei:text/tei:body/tei:div[@type="edition"]</xpath>
+        <xpath>/tei:text/tei:body/tei:div[@type="edition"]/tei:div[@type="edition"]</xpath>
         <contentType>nodes</contentType>
         <cardinality>x</cardinality>
         <formLabel xml:lang="en">Text</formLabel>
@@ -1890,8 +911,59 @@
         <comments/>
     </teiElement>
 
-
-
+    <teiElement>
+        <nm>textPartGroup</nm>
+        <xpath>/tei:text/tei:body/tei:div[@type="edition"]/tei:div[@type="edition"]</xpath>
+        <template>
+            <div type="textpart" subtype="$textpartSubtype" n="$textpartN">
+                    <ab/>
+                </div>
+        </template>
+        <contentType>nodes</contentType>
+        <cardinality>x</cardinality>
+        <formLabel xml:lang="en">Textpart</formLabel>
+        <formLabel xml:lang="fr">Textpart</formLabel>
+        <taxoId/>
+        <fieldType>group</fieldType>
+        <thesauDb/>
+        <thesauTopConceptURI/>
+        <attributeValueType/>
+        <xpath2ref/>
+        <comments/>
+        
+        <teiElement>
+            <nm>textpartSubtype</nm>
+            <xpath>/self::node()/@subtype</xpath>
+            <contentType>attribute</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Subtype</formLabel>
+            <formLabel xml:lang="fr">Sous-type</formLabel>
+            <taxoId/>
+            <fieldType>combobox</fieldType>
+            <thesauDb>internal</thesauDb>
+            <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c23528</thesauTopConceptURI>
+            <attributeValueType>xml-value</attributeValueType>
+            <xpath2ref/>
+            <comments/>
+        </teiElement>
+        <teiElement>
+            <nm>textpartN</nm>
+            <xpath>/self::node()/@n</xpath>
+            <contentType>attribute</contentType>
+            <cardinality>1</cardinality>
+            <formLabel xml:lang="en">Label</formLabel>
+            <formLabel xml:lang="fr">Intitulé</formLabel>
+            <fieldType>input</fieldType>
+            <taxoId/>
+            <thesauDb/>
+            <thesauTopConceptURI/>
+            <attributeValueType/>
+            <xpath2ref/>
+            <comments/>
+        </teiElement>
+    </teiElement>
+    
+<!--End of Textpart-->
 
 
 
@@ -1909,23 +981,6 @@
 **************************************************
  -->
     
- <!-- 
-
-    <teiElement>
-            <nm>Lupa</nm>
-            <xpath>/tei:bibl[@type="lupa"]</xpath>
-            <contentType>text</contentType>
-            <cardinality>1</cardinality>
-            <formLabel xml:lang="en">Lupa (ToDo)</formLabel>
-            <fieldType>combobox</fieldType>
-            <taxoId>externalResources</taxoId>
-            <thesauDb>internal</thesauDb>
-            <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c23500</thesauTopConceptURI>
-            <attributeValueType>xml-value</attributeValueType>
-            <xpath2ref/>
-            <comments/>
-        </teiElement>
- -->
     
     
     
@@ -1969,5 +1024,20 @@
         <xpath2ref/>
         <comments/>
     </teiElement>
-
+    <teiElement>
+        <nm>placeStatus</nm>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPlace/tei:place/tei:placeName/@ana</xpath>
+        <contentType>attribute</contentType>
+        <cardinality>1</cardinality>
+        <formLabel xml:lang="en">Type</formLabel>
+        <formLabel xml:lang="fr">Type</formLabel>
+        <taxoId/>
+        <fieldType>combobox</fieldType>
+        <thesauDb>internal</thesauDb>
+        <thesauTopConceptURI>https://ausohnum.huma-num.fr/concept/c22114</thesauTopConceptURI>
+        <attributeValueType>xml-value</attributeValueType>
+        <xpath2ref/>
+        <comments/>
+    </teiElement>
+    
 </teiElements>

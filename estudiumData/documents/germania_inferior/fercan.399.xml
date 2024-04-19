@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior399">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior399">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -224,7 +223,11 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, B40</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1490</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 408 Nr.115</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.1020</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -258,9 +261,17 @@
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Nehal(a?)e]nn̂iâe –Stuart/Bogaers; [Nehale]nniae – AE, EDH; ohne Ligatur – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Nehal(a?)e]nn̂iâe –Stuart/Bogaers; [Nehale]nniae – AE, EDH, Scheungraber, Ferlut; ohne Ligatur – EDH</tei:note>
                 </app>
-            </div>
+            
+            <app loc="4">
+                <note anchored="true">Ulp(ius?) – Scheungraber; Ulp(ius) – Ferlut</note>
+            </app>
+        
+            <app loc="5">
+                <note anchored="true">[v(otum) s(olvit)] l(ibens) m(erito) – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">ULP: Es handelt sich dabei höchstwahrscheinlich um einen Namensbestandteil des Dedikanten, doch ist nicht zu entscheiden, wie er zu ergänzen ist: Ulpius, Ulpianus, Ulpii od. ähnl. (Stuart/Bogaers; AE; Raepsaet-Charlier 2003, 298).</p>
             </div>

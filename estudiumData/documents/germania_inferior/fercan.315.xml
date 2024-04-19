@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior315">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior315">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -269,7 +268,11 @@ Auf den Schmalseiten befindet sich eine Füllhorndarstellung in Relief. Das Fül
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 7893</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Espérandieu VIII 6352</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 586 Nr.11</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, 628 Nr.761</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -301,7 +304,19 @@ Iulia Mandia, die Tochter des Vegetus, hat für sich und die Ihren das Gelübde 
 Iulia Mandia, the daughter of Vegetus, has fulfilled a vow willingly and deservedly for herself and her family. </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="4">
+                <note anchored="true">Man- – Ferlut</note>
+            </app>
+        
+            <app loc="5">
+                <note anchored="true">pro se et – Ferlut </note>
+            </app>
+        
+            <app loc="6">
+                <note anchored="true">vit m(erito) – Ferlut </note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Iulia Vegeti filia Mandia: weibliches römisches Namensformular mit Angabe des Cognomens des Vaters <lb/>
 Iulia: weibliche Form von Iulius: italisches Gentilnomen von Caesar bis Caligula, in den germanischen Provinzen überaus häufig bezeugt (Kakoschke 2006, GN 621) <lb/>

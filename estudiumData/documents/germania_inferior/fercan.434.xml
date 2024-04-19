@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior434">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior434">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -262,7 +261,11 @@
                     <bibl xml:id="LIT.2" default="false" status="draft">Byvanck 1935, Nr.257</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Hondius-Crone 1955, p.66</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Stuart 2013, Nr.22</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 393 Nr.4</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.1054</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -291,7 +294,11 @@ Ascattinius Rasuco hat das Gelübde gerne und verdientermaßen erfüllt.</p>
 Ascattinius Rasuco has fulfilled a vow willingly and deservedly.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">Nehalleniae – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Ascattinius Rasuco: römisches Namensformular ohne Praenomen <lb/>
 Ascattinius: einheimisches Pseudogentilnomen mit vermutlich germanischer Basis; der Name ist nur in dieser Inschrift belegt (Kakoschke 2006, GN 132). <lb/>

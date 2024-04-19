@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior66">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior66">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -298,7 +297,9 @@ Auf der rechten Schmalseite befindet sich ebenfalls in einem einfachen Rahmen ei
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 8709</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Espérandieu IX 6610</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Hupe 1997, Nr.74</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 129 Nr.4</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -330,7 +331,7 @@ A temple (dedicated) Irmidius Macro by order.</p>
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">“ hasta transversa in littera D novicia est Zangem(eister) qui intellegit [a]ed(em)” – CIL; [a]ed(iculam), ohne Ligatur – Espérandieu; vielleicht &lt;F&gt;irmidius (Kakoschke 2006, GN 614)</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Maro – Hupe; möglicher weise auch Ma[r]o zu lesen – Kakoschke (2008, CN 1830 und CN 1922); ex(s)t(ruxit) – Espérandieu</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Maro – Hupe; möglicher weise auch Ma[r]o zu lesen – Kakoschke (2008, CN 1830 und CN 1922); ex(s)t(ruxit) – Espérandieu; ex i(ussu?) – Scheungraber</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

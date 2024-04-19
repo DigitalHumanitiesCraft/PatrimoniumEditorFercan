@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior125">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior125">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -258,7 +257,11 @@
                     <bibl xml:id="LIT.2" default="false" status="draft">Spickermann 2005, 134 Anm.45</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Reuter 2012, Nr.106</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Kakoschke 2016 (AnEp VI), 5 Anm.17</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 204 Nr.1</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.689</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -288,13 +291,13 @@ Mavacis Landa(…), soldier of the legio XXX Ulpia Victrix …</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">MA[---] – CIL, Reuter; (et) M(atribus) A[rs-] – Spickermann</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">MA[---] – CIL, Reuter; (et) M(atribus) A[rs-] – Spickermann; M(atribus) A[rs] – Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">IANDA[---] – Reuter</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">IANDA[---] – Reuter; L(ucius) Anda[3] – Scheungraber, Ferlut </tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[.]N · PRE · IVI[.]I[---] – Reuter</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[.]N · PRE · IVI[.]I[---] – Reuter; [1]N PTL() IVI[3] – Scheungraber, Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

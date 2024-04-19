@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior377">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior377">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -249,7 +248,11 @@ Die Darstellung der rechten Schmalseite gleicht der linken.</p>
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 1971, Nr.24</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1973, 377</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Stuart/Bogaers 2001, B20</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 405 Nr.96</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.992</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -285,12 +288,16 @@ Primanus, the son of Ursulus, has fulfilled a vow for himself willingly and dese
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – AE 1973, EDH</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">niae Îr̂aman – Stuart/Bogaers 1971, AE 1973; [n(n)]iae Priaman, ohne Ligaturen – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">niae Îr̂aman – Stuart/Bogaers 1971, AE 1973, Ferlut; [n(n)]iae Priaman, ohne Ligaturen – EDH; n(n)iae Iraman – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – AE 1973, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – AE 1973, EDH; pro se (et suis) – Ferlut; l(ibens) m(erito) – Scheungraber</tei:note>
                 </app>
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">Ursul[(us)] – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Primanus Ursuli: peregrines Namensformular mit Angabe des Namens des Vaters im Genetiv <lb/>
 Primanus: lateinisches Cognomen, Weiterbildung des Cognomens Primus (Kakoschke 2008, CN 2437) <lb/> 

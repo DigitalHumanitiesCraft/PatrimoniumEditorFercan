@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior351">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior351">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -344,7 +343,11 @@ Auf der rechten Seite ist im oberen Register eine stehende männliche Gestalt da
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart 1997, 50–51</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1997, 1162</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Stuart/Bogaers 2001, A54</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 401 Nr.70</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.1112</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -362,11 +365,11 @@ Auf der rechten Seite ist im oberen Register eine stehende männliche Gestalt da
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>AE NEHALENNIAE  <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>AE NEHALENNIAE  <lb n="2"/>
 <unclear instant="false">M</unclear> OTTINIVS FREQVENS  <lb n="3"/>
 <gap reason="lost" extent="unknown" unit="character" instant="false"/> <unclear instant="false">A</unclear>V<unclear instant="false">G</unclear> C C A A V S L M  <lb n="4"/>
 <unclear instant="false">F</unclear>VS<unclear instant="false">C</unclear>IANO II <hi rend="ligature">ET</hi> S<unclear instant="false">IL</unclear>ANO <unclear instant="false">II</unclear> <unclear instant="false">C</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></orig></ab></div>
-            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/><supplied reason="lost" instant="false">De</supplied>ae Nehalenniae<lb n="2"/><expan instant="false"><abbr>M</abbr><ex instant="false">arcus</ex></expan> Ottinius Frequens<lb n="3"/><supplied reason="lost" instant="false">sevir</supplied> <expan instant="false"><abbr>Aug</abbr><ex instant="false">ustalis</ex></expan> <expan instant="false"><abbr>c</abbr><ex instant="false">oloniae</ex></expan> <expan instant="false"><abbr>C</abbr><ex instant="false">laudiae</ex></expan> <expan instant="false"><abbr>A</abbr><ex instant="false">ugustae</ex></expan> <expan instant="false"><abbr>A</abbr><ex instant="false">grippinensium</ex></expan> <expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan><lb n="4"/>Fusciano II et Silano II c<supplied reason="lost" instant="false"><expan instant="false"><abbr>o</abbr><ex instant="false">n</ex></expan><expan instant="false"><abbr>s</abbr><ex instant="false">ulibus</ex></expan></supplied></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><lb n="1"/><supplied reason="lost" instant="false">De</supplied>ae Nehalenniae<lb n="2"/><expan instant="false"><abbr>M</abbr><ex instant="false">arcus</ex></expan> Ottinius Frequens<lb n="3"/><supplied reason="lost" instant="false">sevir</supplied> <expan instant="false"><abbr>Aug</abbr><ex instant="false">ustalis</ex></expan> <expan instant="false"><abbr>c</abbr><ex instant="false">oloniae</ex></expan> <expan instant="false"><abbr>C</abbr><ex instant="false">laudiae</ex></expan> <expan instant="false"><abbr>A</abbr><ex instant="false">ugustae</ex></expan> <expan instant="false"><abbr>A</abbr><ex instant="false">grippinensium</ex></expan> <expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan><lb n="4"/>Fusciano II et Silano II c<supplied reason="lost" instant="false"><expan instant="false"><abbr>o</abbr><ex instant="false">n</ex></expan><expan instant="false"><abbr>s</abbr><ex instant="false">ulibus</ex></expan></supplied></ab></div>
             <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
                 <p part="N">Für die Göttin  <rs type="divine">Nehalennia!</rs>  <lb/>
 Marcus Ottinius Frequens, sevir Augustalis der Colonia Claudia Augusta Agrippinensium, hat das Gelübde gerne und verdientermaßen erfüllt; unter dem Konsulat des Fuscianus – zum zweiten Mal – und des Silanus –zum zweiten Mal.</p>
@@ -382,7 +385,11 @@ Marcus Ottinius Frequens, sevir Augustalis of the Colonia Claudia Augusta Agripp
                 <app loc="#MIN.4 #MAJ.4">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Stuart, EDH</tei:note>
                 </app>
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">c(oloniae) A(rae) A(grippinensium) – Scheungraber; c(oloniae) A(rae) A(grippinensis) – Ferlut </note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Marcus Ottinius Frequens: tria nomina <lb/>
 Ottinius: einheimische Bildung, sonst nicht weiter bezeugter Name; der Name mit -inius ist typisch für die Germania Inferior (Kakoschke 2006, GN 910) <lb/>

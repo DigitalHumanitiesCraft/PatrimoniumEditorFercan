@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior241">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior241">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -253,7 +252,11 @@ Die Schmalseiten sind mit einander sehr ähnlichen Baumdarstellungen versehen. D
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 12021</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1918, Nr.355</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Alföldy 1968, Nr.3</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 558 Nr.16</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.823</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -282,12 +285,20 @@ Atilia Amada has fulfilled a vow.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">M̂at(ronis) – Lehner, Alföldy</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">M̂at(ronis) – Lehner, Alföldy, Scheungraber, Ferlut; Vacal(l) – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Ama(n)da – CIL, Alföldy</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Ama(n)da – CIL, Alföldy, Scheungraber, Ferlut; v(otum) s(olvit) – Scheungraber</tei:note>
                 </app>
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">Att – Ferlut</note>
+            </app>
+        
+            <app loc="4">
+                <note anchored="true">fehlt – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Atilia: weibliche Form von Atilius; italisches Gentilnomen, gängiger Name (Kakoschke 2006, GN 145)  <lb/>
 Amada: weibliche Form von Amadus, häufig ergänzt auf Amandus/a; lateinisches Cognomen, überall gängig (Kakoschke 2007, CN 146) </p>

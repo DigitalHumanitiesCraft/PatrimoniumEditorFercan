@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior130">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior130">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -254,7 +253,9 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 8010</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1918, Nr.136</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Richier 2004, Nr.244</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 365 Nr.1</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -274,7 +275,7 @@ Q · CLODIVS <lb n="4"/>
 <hi rend="ligature">MA</hi>RCELL<hi rend="ligature">IN</hi>VS <lb n="5"/> 
 &gt; · LEG · I · <hi rend="ligature">MP</hi> F <lb n="6"/> 
 V · S · L · M</orig></ab></div>
-            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Herculi<lb n="2"/>Magusano<lb n="3"/><expan instant="false"><abbr>Q</abbr><ex instant="false">uintus</ex></expan> Clodius<lb n="4"/>Marcellinus<lb n="5"/><g type="centurio"/> <expan instant="false"><abbr>leg</abbr><ex instant="false">ionis</ex></expan> I <expan instant="false"><abbr>M</abbr><ex instant="false">inerviae</ex></expan> <expan instant="false"><abbr>P</abbr><ex instant="false">iae</ex></expan> <expan instant="false"><abbr>F</abbr><ex instant="false">idelis</ex></expan><lb n="6"/><expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><lb n="1"/>Herculi<lb n="2"/>Magusano<lb n="3"/><expan instant="false"><abbr>Q</abbr><ex instant="false">uintus</ex></expan> Clodius<lb n="4"/>Marcellinus<lb n="5"/><g type="centurio"/> <expan instant="false"><abbr>leg</abbr><ex instant="false">ionis</ex></expan> I <expan instant="false"><abbr>M</abbr><ex instant="false">inerviae</ex></expan> <expan instant="false"><abbr>P</abbr><ex instant="false">iae</ex></expan> <expan instant="false"><abbr>F</abbr><ex instant="false">idelis</ex></expan><lb n="6"/><expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
             <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
                 <p part="N">Für  <rs type="divine">Hercules Magusanus!</rs> <lb/> 
 Quintus Clodius Marcellinus, centurio der legio I Minervia Pia Fidelis hat das Gelübde gerne und verdientermaßen erfüllt.</p>

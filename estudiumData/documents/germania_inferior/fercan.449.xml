@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior449">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior449">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -249,7 +248,11 @@
                     <bibl xml:id="LIT.2" default="false" status="draft">Byvanck 1935, Nr.261</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Hondius-Crone 1955, Nr.27</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Stuart 2013, Nr.27</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 395 Nr.20</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.978</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -274,7 +277,11 @@ NEHALAEN</orig></ab></div>
                 </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">Nehal{a}en – Scheungraber; es folgt eine weitere Zeile mit [niae – Scheungraber, Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalaen…:</rs> Rest einer Variante von  <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).</p>
                                                 <p part="N">
 

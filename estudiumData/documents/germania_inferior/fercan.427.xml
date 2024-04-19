@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior427">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior427">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -218,7 +217,11 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, B75</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1502</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 411 Nr.141</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.1042</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -251,13 +254,13 @@
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[--- Nehale]nnia[e] –AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[--- Nehale]nnia[e] –AE, EDH; [Deae(?) Nehale]nnia[e] – Scheungraber; ; [Deae Nehale]nnia[e] –  Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Primi?]tiu[s] – AE, EDH</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]M – Stuart/Bogaers</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]M – Stuart/Bogaers; [v(otum) s(olvit) l(bens?)] m(erito), Tippfehler bei ‚l(bens?)‘ – Scheungraber; [v(otum) s(olvit) l(ibens)] m(erito) – Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">...nnia:</rs> Rest einer Variante von  <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).  </p>

@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior364">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior364">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -296,6 +295,10 @@
           <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 1971, Nr.31</bibl>
           <bibl xml:id="LIT.2" default="false" status="draft">AE 1975, 645</bibl>
           <bibl xml:id="LIT.3" default="false" status="draft">Stuart/Bogaers 2001, B7</bibl>
+        
+            <bibl xml:id="4">Scheungraber 2020, 403 Nr.83</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.1005</bibl>
         </listBibl>
       </div>
       <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
@@ -331,7 +334,7 @@ V · <unclear instant="false">S</unclear> · L · Ms</orig></ab></div>
       </div>
       <div type="apparatus" org="uniform" part="N" sample="complete">
         <app loc="#MIN.2 #MAJ.2">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Nehalenniae – Stuart/Bogaers 1971; Nehalenniae, ohne Ligaturen – AE, EDH</tei:note>
+          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Nehalenniae – Stuart/Bogaers 1971; Nehalenniae, ohne Ligaturen – AE, EDH, Scheungraber, Ferlut</tei:note>
         </app>
         <app loc="#MIN. #MAJ.">
           <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – AE, EDH</tei:note>

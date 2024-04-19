@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior435">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior435">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -265,7 +264,11 @@
                     <bibl xml:id="LIT.3" default="false" status="draft">Byvanck 1935, Nr.256</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Hondius-Crone 1955, Nr.1</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Stuart 2013, Nr.28</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 393 Nr.5</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.1055</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -295,7 +298,7 @@ Marcus Assonius Aelius …</p>
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">“Deae Nehalenniae, volkomen onzeker” – Byvanck</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">unterstrichene Teile sind heute verloren; Ael(ianus) v(otum) s(olvit) q(uod) b(onum?) – Espérandieu; ohne Ligaturen – Espérandieu, Hondius-Crone, Byvanck</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">unterstrichene Teile sind heute verloren; Ael(ianus) v(otum) s(olvit) q(uod) b(onum?) – Espérandieu; ohne Ligaturen – Espérandieu, Hondius-Crone, Byvanck; Aelius Q() B() – Scheungraber; Aeliu(s) Q() B() – Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior320">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior320">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -250,7 +249,11 @@ Die Schmalseiten weisen keine Reliefverzierung auf.</p>
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Neuffer 1948, 400</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Nesselhauf/Lieb 1959, Nr.235</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 585 Nr.4</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.635</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -278,7 +281,19 @@ Marcus Firminius Bassus hat für sich und die Seinen (das Gelübde) gerne und ve
 Marcus Firminius Bassus has fulfilled (a vow) willingly and deservedly for himself and his family.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="1">
+                <note anchored="true">Zeilenwechsel nach Mat(ronis) – Ferlut</note>
+            </app>
+        
+            <app loc="3">
+                <note anchored="true">Firminus – Ferlut</note>
+            </app>
+        
+            <app loc="4">
+                <note anchored="true">kein Zeilenwechsel nach pro se – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Marcus Firminius Bassus: tria nomina <lb/>
 Firminius: einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Cognomen Firmus/Firminus (Kakoschke 2006, GN 489) <lb/>

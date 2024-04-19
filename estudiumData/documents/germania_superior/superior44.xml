@@ -1,0 +1,325 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior44" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main"> Apollo Grannus Mogounus </title><title type="sub"> CF-GeS-1009</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.44</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement> </settlement>
+						<repository>verschollen</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p>                                                <p>Die Form und Gestaltung des Weihealtars können nur anhand einer Umzeichnung beschrieben werden. Das ungerahmte Inschriftenfeld befindet sich auf einer sechsfach abgestuften Basis, deren vorderes Eck links abgebrochen ist. Die Bekrönung befindet sich auf einem doppelt gekragten Aufsatz und wird durch Pulvini und einen doppelten Giebel, in dessen Zentren sich jeweils eine runde Erhöhung befindet, geschmückt. Den obersten Abschluss bildet eine nur leicht vertiefte Opferschale. Durch die Schale, den Giebel und den Aufsatz geht rechts der Mitte ein Riss.<br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
+										<height unit="cm"> 100</height>
+										<width unit="cm"> 55</width>
+										<depth unit="cm"> 57</depth>
+									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130700">unklar</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>Der Inschriftentext ist nur mehr abschriftlich erhalten. Aus inhaltlichen Gründen ist er als vollständig anzunehmen.</p>
+                                                <p>Zu Ligaturen: s. Majuskelumschrift. – Besondere Zeichen: Die Abschrift zeigt in Z.4 ein überhöhtes T.</p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p><p>Es ist keine bildliche Gestaltung überliefert.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130200">Umzeichnung</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252810">Opferschale</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName/> <region>Civitas Tribocorum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1603"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Horbourg-Wihr</ref> </placeName> <p>„dans la maison d‘un particulier“ (de Mautour 1727, 3) ; „maison Hirtz“ (Bonnet 1995, 158); "A droite, vers le nord, la Bergstraße court le long de toute la face ouest du castrum. […] A côté se trouve la maison n°112, appartenant à Isaac Meyer. […] Lors de la construction de cette maison, on découvrit un autel d’Apollon […]" (Herrenschneider 1993, 114).</p> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true">„lors de la construction de la maison Hirtz“ (Zehner 1998, 191, Nr.24)</note> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>non vidimus<br/>Lesung gründet auf: CIL</p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context">ara</ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Apollo Grannus Mogounus</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Grannus; Mogounus</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Trio</ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">Licinius</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">
+						</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context">aram dedit</ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">Apollini Granno Mogouno</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/png" url="1009_front_Zeichnung.png"><desc>Front, Schöpflin 1751, Taf.I Nr.6</desc></graphic>
+        </facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="1"> CIL XIII 5315</bibl>
+				
+            <bibl xml:id="2">ILS 4649</bibl>
+        
+            <bibl xml:id="4">Weisgerber 1975, 119</bibl>
+        
+            <bibl xml:id="5">Bonnet 1995, 158</bibl>
+        
+            <bibl xml:id="6">CAG 68, 191 Nr.24*</bibl>
+        
+            <bibl xml:id="7">Hainzmann 2016, 48 Nr.18</bibl>
+        
+            <bibl xml:id="8">Scheungraber 2020, 307 Nr.15</bibl>
+        
+            <bibl xml:id="3">Riese 1914, Nr.2650</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno> EDCS-10800719</idno><date> zuletzt abgerufen 2023-06-05</date></bibl>
+					<bibl type="EDH"><idno>HD080516</idno><date>Version von 2019-08-22</date></bibl>
+					<bibl type="trismegistos"><idno> </idno><date> </date></bibl>
+					<bibl type="lupa"><idno> </idno><date> </date></bibl>
+					<bibl type="other"><idno> </idno><date> </date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/>APOLLI<hi rend="ligature">NI</hi> GRAN
+<lb n="2"/>NO MOGOVNO
+<lb n="3"/>ARAM
+<lb n="4"/>Q LICI<hi rend="ligature">NI</hi> TRIO
+<lb n="5"/>D S D<orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Apollini Gran
+<lb n="2" break="no"/>no Mogouno
+<lb n="3"/>aram
+<lb n="4"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> <expan><abbr>Licini</abbr><ex>us</ex></expan> Trio
+<lb n="5"/><expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>uo</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan></ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p><p>Für <rs type="divine">Apollo Grannus Mogounus</rs>!<br/>Quintus Licinius Trio hat den Altar aus eigenen Mitteln gegeben.</p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p><p>To <rs type="divine">Apollo Grannus Mogounus</rs>!</p><p>Quintus Licinius Trio gave the altar at his own expense.</p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="1">
+					<note anchored="true">Apollin(i) – CAG, Hainzmann, Scheungraber</note>
+				</app>
+			
+            <app loc="4"><note anchored="true">Licin(ius) – CAG</note></app>
+        
+            <app loc="5"><note anchored="true">d(edicavit) – Weisgerber</note></app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Quintus Licinius Trio: tria nomina</p>
+                                                <p>Licinius: italisches Gentilnomen, äußert gängig (Kakoschke 2021, GN 685)</p>
+                                                <p>Trio: lateinischer Name, in den nördlichen Provinzen belegt (Kakoschke 2021, CN 3134)</p>				<p> </p>
+			</div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">                                                <p><br/></p></div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note"/>
+			<note type="ArchKlass_note">                                                    <p><br/></p></note>
+			<note type="Material_note">                                                    <p>Lt. Zehner 1998, S.191, Nr.24: en grès rose</p></note>
+			<note type="Inschrifttraeger_note"/>
+			<note type="VerwahrortOrt_note"><p>AE, WSpDB: Straßburg – 1870 verloren</p><p>Zerstört: Bonnet 1995, S. 158</p></note>
+			<note type="InvNr_note">                                                    <p>verschollen<br/></p></note>
+			<note type="Fundstelle_note"/>
+			<note type="Fundumst_note"><p>CIL: reperta Horburgi in domo civis cuiusdam MAVTOVR (1726), anno 1740 Argentoratum translata in museum Schoepflini OBERLIN, ubi anno 1870 periit.</p></note>
+			<note type="Fundjahr_note">                                                    <p>So Bonnet 1995 S. 158 und Herrenschneider 1993- dieser bezieht sich auf die Jahreszahl 1603, die über dem Eingang des Hauses angebracht ist und auf das Jahr des Neubaus hinweist.</p>
+                                                    
+                                                    <p>Zehner: 1663</p></note>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note"/>
+			<note type="civitas_note">                                                    <p>WSpDB: Tri.?</p></note>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note"/>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note">                                                    <p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p>CAG = Zehner (Provost Hrsg.) 1998<p/>Fuchs, Matthieu (Hrsg.): Horbourg-Wihr à la lumiere de l’archéologie. Histoire et nouveautés. Mélanges offerts à CharlesBonnet.Horbourg-Wihr 1995. (= Association d’Archéologie et d’histoire de Horbourg-Wihr. Actes 2. 1996. S.158. Nr.1 (mit Zeichnung),
+                                                    
+                                                    <p>eingesehen</p>
+                                                    <p>Schnitzler, Bernadette: Cinq siècles de civilisation romaine en Alsace. Strasbourg 1996. (= Les collections du Musée Archéologique. Tome 4.) S.74 (mit Zeichnung), - nur Zeichnung, eingesehen</p>
+                                                    <p>Steiner 1837, 142, - eingesehen, nichts anderes<br/></p>
+                                                    <p>Hatt, Jean-Jacques: Mythes et dieux de la Gaule. Bd.1. Les grandes divinités masculines. Paris 1989. S.275, - eingesehen</p>
+                                                    <p>Jacobi I S.183f., - <b>1996? Fernleihe?</b></p></note>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note">                                                    <p>So Bonnet, Zehner<br/></p></note>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note">                                                    <p>Nicht mehr nachvollziehbar, da verschollen. <br/></p></note>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"><p>CIL: Mogouno nomine topico non appellatur nisi hoc loco<br/></p></note>
+			<note type="Datierung_note"><p>WSpDB: 100-250<br/></p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,346 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior42" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Apollo Grannus</title><title type="sub"> CF-GeS-1004</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.42</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Alzey</settlement>
+						<repository>Museum</repository>
+						<idno>R 15479</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p>                                                <p>Die Inschrift befindet sich auf einem Quader, der auf allen Seiten, vor allem an der Oberseite, stark behauen ist. An der unteren Seite befindet sich mittig eine rechteckige Aussparung, wo der Stein wohl für die Verbauung passend gemacht wurde. Das Inschriftenfeld ist rundherum doppelt gerahmt.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110800">Bauinschrift</objectType> <dimensions>
+										<height unit="cm"> 71</height>
+										<width unit="cm"> 75</width>
+										<depth unit="cm"> 51</depth>
+									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>Die Inschrift füllt das Textfeld bis auf einen kleinen Abstand in der Höhe einer halben Zeile am unteren Ende völlig aus. Die Zentrierung der Z.1, Z.2, Z.4, Z.5 und Z.6 ist nicht geglückt. Die Buchstabengröße nimmt im Wesentlichen nach unten hin ab. Die Buchstaben sind regelmäßig und gut lesbar.</p>
+                                                <p>Besondere Zeichen: Z.1 kleines A (2,2 cm) am Ende der Zeile zwischen R und N eingeschrieben.<br/></p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="4.2" atMost="5.3">4,2–5,3</height> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.</p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150500">Rahmen</term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName>Altiaia</placeName> <region>Civitas Vangionum</region> </origPlace> <origDate notBefore="0175" notAfter="0175" instant="false"><date>18. August 175</date> <note type="original"> <ref target="context:fercan.date." type="context">ante diem XV kalendas Septembres Pisone et Iuliano consulibus</ref> </note></origDate> </origin>
+						<provenance type="found" when="1929"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Alzey</ref> </placeName> <p>in den Fundamenten eines römischen Gebäudes im Kastell Alzey (Behrens 1938, 41); im Fundament als nordwestliche Ecke verlegt (Behn 1929/30, 85)</p> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true">bei Ausgrabungen im spätrömischen Kastell Alzey/Altiaia (Behn 1929/30, 85)</note> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Apollo Grannus</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Grannus</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Novellus</ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">Martius; Senopoatius</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">
+						</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context">dedicavit</ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">Apollini Granno</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1004_front.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
+		</graphic>
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1004_li.jpg"><desc>links, CIL XIII Projekt, CC BY-NC</desc></graphic>
+        </facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="1"> Behn 1929/30, 85f.  </bibl>
+				
+            <bibl xml:id="2">AE 1933, 138</bibl>
+        
+            <bibl xml:id="3">Nesselhauf 1937, Nr.88</bibl>
+        
+            <bibl xml:id="4">Behrens 1938, Nr.6</bibl>
+        
+            <bibl xml:id="5">Stümpel 1965, 51</bibl>
+        
+            <bibl xml:id="6">Weber 1966, 154</bibl>
+        
+            <bibl xml:id="7">Klumbach 1973, 14f. </bibl>
+        
+            <bibl xml:id="8">Künzl 1975, Nr.14</bibl>
+        
+            <bibl xml:id="9">Herz 1975, 259</bibl>
+        
+            <bibl xml:id="10">Weisgerber 1975, 119</bibl>
+        
+            <bibl xml:id="11">Kakoschke 2016 FeRA, 8–13</bibl>
+        
+            <bibl xml:id="12">Hainzmann 2016, 48. Nr.28</bibl>
+        
+            <bibl xml:id="13">Lobüscher 2002, 147, Nr.111</bibl>
+        
+            <bibl xml:id="14">Scheungraber 2020, 307 Nr.13</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno> EDCS-11202205</idno><date>zuletzt abgerufen 2023-06-02</date></bibl>
+					<bibl type="EDH"><idno>HD024000</idno><date>Version von 2021-01-12</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/210418</idno><date>zuletzt abgerufen 2023-06-02</date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/15479</idno><date> Version von 2021-04-05</date></bibl>
+					<bibl type="other"><idno>https://cil.bbaw.de/ace/id/KO0000640</idno><date>zuletzt abgerufen 2023-08-16</date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/>APOLLINI GRAN
+<lb n="2"/>NO<g type="interpunct">▴</g>MARTIVS
+<lb n="3"/>SENOPATIVS<g type="interpunct">▴</g>
+<lb n="4"/>NOVELLVS<g type="interpunct">▴</g>DE
+<lb n="5"/>DICAVIT<g type="interpunct">▴</g>XV<g type="interpunct">▴</g>K<g type="interpunct">▴</g>SEP
+<lb n="6"/>PISONE ET IVLIANO
+<lb n="7"/>COS<orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Apollini Gran
+<lb n="2" break="no"/>no Martius
+<lb n="3"/>Senopatius
+<lb n="4"/>Novellus de
+<lb n="5"/>dicavit (ante diem) XV <expan><abbr>k</abbr><ex>alendas</ex></expan> <expan><abbr>Sep</abbr><ex>tembres</ex></expan>
+<lb n="6"/>Pisone et Iuliano
+<lb n="7"/><expan><abbr>co</abbr><ex>n</ex></expan><expan><abbr>s</abbr><ex>ulibus</ex></expan></ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p><p>Dem <rs type="divine">Apollo Grannus</rs> hat (dies) Martius Senopatius Novellus am 18. August geweiht, unter dem Konsulat des Piso und des Iulianus.<br/></p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p><p>To <rs type="divine">Apollo Grannus</rs> (this) was dedicated by Martius Senopatius Novellus, on the 18th August during the consulat of Piso and Iulianus.<br/></p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="1">
+					<note anchored="true"/>
+				</app>
+			</div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Entsprechend der Deutung des Inschriftenträgers als Bauquader (Behn 1929/30, 85f.) wurde die Inschrift für die Bauinschrift eines nicht erhaltenen Tempels für Apollo Grannus gehalten (Nesselhauf 1937, Nr. 88; Behrens 1938, Nr. 6; Weber 1966, 154; Klumbach 1973, 14f.; Künzl 1975, Nr.14; Weisgerber 1975, 119).</p>
+                                                <p>Martius Senopatius Novellus: der Name besteht aus Gentiliz, Pseudogentiliz und Cognomen. Diese Namensform ist nur in den germanischen Provinzen, der Belgica und Raetien üblich; vgl. CF-GeS-1008. In dem Pseudogentiliz Senopatius ist ein Patronymikon zu erkennen, d.h. es steht für „Sohn des Senopatus“. Im Laufe der Zeit konnten solche Pseudogentilnamen auch zu normalen, an die nächsten Generationen weitergegebenen Gentilnamen werden (Kakoschke 2016 FeRA, 10; etwas anders Solin 2011, 265, der in diesen Namesbildungen nur die Mode sieht, aus dem Cognomen des Vaters einen Gentilnomen zu bilden).</p>
+                                                <p>Martius: italisches Gentilnomen oder einheimisches Pseudogentilnomen, entlehnt vom keltischen bzw. lateinischen Namen Martius, weit verbreitet (Kakoschke 2021, GN 775)</p>
+                                                <p>Senopatius: einheimisches Pseudogentilnomen mit keltischer Basis, nur hier und ein weiteres Mal in der Belgica belegt (Kakosche 2021, GN 1177)</p>
+                                                <p>Novellus: lateinischer Name, weit verbreitet (Kakoschke 2021, CN 2217)</p>
+                                                <p>Pisone et Iuliano consulibus: Konsuldatierung des Jahres 175. Die Konsulen waren Lucius Calpurnius Piso und Publius Salvius Iulianus.</p></div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note">                                                    <p>s. Behn in: CIL XIII Kartei/Flensburg/Scans/2.N.88.pdf</p>
+                                                    <p>Kakoschke: würfelförmiger Quader</p></note>
+			<note type="ArchKlass_note"/>
+			<note type="Material_note"><p>Nesselhauf, Kakoschke, EDH: Sandstein</p><p>2N88: Sandstein gebrochen in Flonheim</p><p>Weisgerber: Flonheimer Sandstein</p></note>
+			<note type="Inschrifttraeger_note">                                                    <p>Behn – Bauquader – s. Behn in: CIL XIII</p><p> Kartei/Flensburg/Scans/2.N.88.pdf</p>
+                                                    <p>EDH: Block <br/></p>
+                                                    <p>Bauinschrift, zB Stümpel 1964</p></note>
+			<note type="VerwahrortOrt_note"/>
+			<note type="InvNr_note">                                                    <p>Weisgerber: Museum Alzey Nr. 11 (siehe CIL Kartei)<br/>Mail an Museum geschickt. – IvNr. lt. Mail am 5.5.23 Fr. Dr. Eva heller Karneth</p></note>
+			<note type="Fundstelle_note"/>
+			<note type="Fundumst_note"/>
+			<note type="Fundjahr_note"/>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note"/>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"><p>Z.5 u 7: NICHT nach CIL XIII Projekt<br/></p></note>
+			<note type="Appcrit_note">                                                    <p>CIL XIII Projekt:</p>
+                                                    <p>Z.5: XVI SEPT – folge ich (Werner) nicht (s. Photo, andere Ed.n)</p>
+                                                    <p>Z.7: Punkt nach COS – folge ich (Werner) nicht (s. Photo, andere Ed.n)</p></note>
+			<note type="Abb_note"/>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note">                                                    <p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p><p><u>ev noch einsehen</u>:</p><p>AE 2016, +01158</p><p>Elbe, Joachim von: Unser römisches Erbe. Frankfurt am Main 1985. (= Deutschland – das unbekannte Land. Bd.1.) S.64 (mit Photo)</p><p><u>eingesehen</u></p><p>Leunissen S.188 (einheimische Dedikation) - eingesehen</p><p>Spickermann Germania superior. S.346. Nr.28, - eingesehen</p><p>Herz, Peter: Untersuchungen zum Festkalender der römischen Kaiserzeit 
+nach datierten Weih- und Ehreninschriften. 2 Bde. Diss. Mainz 1975 Bd.1.
+ S.259 (zur Datierung: „Man könnte an einen Bezug zu der großen Seuche 
+unter Mark Aurel denken.“) - eingesehen</p><p>Klumbach S.8. Abb.4(Photo) - (Kein Klumbach in citavi at eine S. 8) aber Klumbach 1973, 14 - eingearbeitet</p><p>B. Stümpel 
+Römische Abteilung: Das römische Alzey / Der Kreis Alzey im Römischen 
+Weltreich / Die Steinsammlung der römischen Abteilung. In: Alzeyer 
+Museum. Hrsg. vom Altertumsverein Alzey und Umgebung e. V. und 
+Kuratorium Museum Alzey. Alzey 1965. (= Alzeyer Geschichtsblätter. 
+Sonderheft 1.) S.40ff. S.51 (mit Photo) - eingearbeitet</p><p/></note>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note"><p>So: CIL XIII Projekt</p><p>Künzl, Lupa, Kakoschke, EDH: H 72,5, B 76 T 72</p><p>Klumbach, Weisgerber: H 75, B 73, T 70</p></note>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note"><p>so CIL XIII Projekt</p></note>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note">                                                    <p>ante diem XV kalendas Septembres Pisone et Iuliano consulibus</p>
+                                                    <p>Nesselhauf, EDH: 18. August 175 n. Chr.</p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

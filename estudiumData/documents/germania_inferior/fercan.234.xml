@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior234">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior234">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -229,7 +228,11 @@
                     <bibl xml:id="LIT.2" default="false" status="draft">Finke 1927, Nr.271</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Alföldy 1968, Nr.5</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">AE 1968, 331</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 570 Nr.122 </bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.838</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -262,16 +265,16 @@ Tiberius Claudius Silvanus. </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Mâ (vor Zusammenstellung mit dem zweiten Bruchstück) – Lehner, Finke; ohne Ligatur – AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Mâ (vor Zusammenstellung mit dem zweiten Bruchstück) – Lehner, Finke; ohne Ligatur – AE, EDH; Ma[tronis] – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Vâc (vor Zusammenstellung mit dem zweiten Bruchstück) – Lehner, Finke; Vâc[all̂]in̂[êĥis] – Alföldy; Vac[all]in[ehis] – AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Vâc (vor Zusammenstellung mit dem zweiten Bruchstück) – Lehner, Finke; Vâc[all̂]in̂[êĥis] – Alföldy; Vac[all]in[ehis] – AE, EDH, Scheungraber; Vac[allinehis] – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Alföldy, AE, EDH</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Silvan[us v s l m] – Finke; ohne Ligatur – AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Silvan[us v s l m] – Finke; ohne Ligatur – AE, EDH; Silvan[us v(otum) s(olvit) l(ibens) m(erito)] – Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

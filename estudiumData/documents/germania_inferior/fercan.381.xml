@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior381">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior381">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -248,7 +247,11 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, B24</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1482</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 405 Nr.100</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.1019</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -289,10 +292,10 @@ Securus, the son of …, … deservingly.  </p>
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Securus – AE</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[S]erganti – Stuart/Bogaers; auch möglich [B]erganti oder [V]erganti – AE; Serganti – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[S]erganti – Stuart/Bogaers, Scheungraber, Ferlut; auch möglich [B]erganti oder [V]erganti – AE; Serganti – EDH</tei:note>
                 </app>
                 <app loc="#MIN.6 #MAJ.6">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[v(otum)? s(olvit)?] l(ibens) [l(aetus)](?) m(erito) – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[v(otum)? s(olvit)?] l(ibens) [l(aetus)](?) m(erito) – EDH; [v(otum) s(olvit) l(ibens)] m(erito) – Scheungraber, Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

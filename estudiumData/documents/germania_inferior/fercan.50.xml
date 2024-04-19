@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior50">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior50">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -332,7 +331,9 @@ Auf der rechten Schmalseite ist am linken Rand ein Pilaster mit Basis und geschm
                     <bibl xml:id="LIT.5" default="false" status="draft">Schillinger-Häfele 1977, Nr.184</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">Galsterer/Galsterer 2010, Nr.141</bibl>
                     <bibl xml:id="LIT.7" default="false" status="draft">KIK 2012, Nr.165</bibl>
-                </listBibl>
+                
+            <bibl xml:id="8">Scheungraber 2020, 199 Nr.2</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior23" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior23" n="">
 	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
@@ -42,7 +42,7 @@
 					<msIdentifier>
 						<settlement>Karlsruhe</settlement>
 						<repository>Badisches Landesmuseum</repository>
-						<idno/>
+						<idno>C 64 13779</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>Weihinschrift</summary>
@@ -50,33 +50,35 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
+								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
 									<objectType>Weihestein</objectType> <dimensions>
-										<height unit="cm"> </height>
-										<width unit="cm"> </width>
-										<depth unit="cm"> </depth>
+										<height unit="cm">79</height>
+										<width unit="cm">70</width>
+										<depth unit="cm">50</depth>
 									</dimensions> <note type="dimensions"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#"/> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p/> <note type="condition"/> </layout>
+								<layout> <p>                                                <p>Die Inschrift ist vollständig erhalten und lässt unten noch Platz für ungefähr eine Zeile. Die Autopsie ergab mögliche Reste einer dritten Zeile. Die Buchstaben sind unregelmäßig und stark abgerieben.</p><p>In Z.2 wird beim zweiten Dedikantennamen eine I-Ligatur gelesen (s. Apparatus criticus), bei der Autopsie konnten aber keine Hinweise auf ein eingehauenes I gefunden werden, was möglicherweise am besonders schlechten Zustand der Buchstaben an dieser Stelle liegt.<br/></p>
+                                                <p>Zu Ligaturen: s. Majuskelumschrift. – Besondere Zeichen: In Z.1 ein D von domus divinae in das andere eingeschrieben; das I von Aericurae in Z.1 ist kleiner und Hochgestellt zwischen R und C eingeschrieben, bei Autopsie kaum zu erkennen. Bei den R ist die Schräghaste vorne an den Bogen angesetzt, nicht hinten an der Senkrechthaste.</p></p> <note type="condition"/> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote> <desc type="execution"/> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="3.7" atMost="4.2">3,7–4,2</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.240100">Götterbild</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251700">Obstschale</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252400">Bank</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="" notAfter=""><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1813"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Malsch</ref> </placeName> <p/> <location>
+						<origin> <origPlace> <placeName/> <region>Civitas Port-?</region> </origPlace> <origDate notBefore="" notAfter=""><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1813"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Malsch</ref> </placeName> <p>Ortsteil Sulzbach; in einem Keller (CIL)</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note/> </provenance>
-						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
+							</location> <note> </note> </provenance>
+						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (6.11.2023)<br/></p></provenance>
 					</history>
 				</msDesc>
 				<listPlace>
@@ -88,19 +90,19 @@
 						</placeName>
 					</place>
 				</listPlace>
-				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context"/></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context"/></persName></person>
+				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context">Herecura</ref></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context">Dis Pater</ref></persName></person>
 					<person>
-						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context"> Herecura</ref> </persName>
+						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context">Herecura</ref> </persName>
 					</person>
 					<person>
-						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> Paternus; Paterna</ref> </persName>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Paternus; Paterna</ref> </persName>
 					</person>
 					<person>
 						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
 						</roleName> </persName>
 					</person>
 					<person>
-						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">Veterius</ref></persName>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">Veterius; Adiectia</ref></persName>
 					</person>
 					<person>
 						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
@@ -170,11 +172,11 @@
 			<textClass>
 				<keywords>
 					<list>
-						<item> <ref target="context:fercan.dedication." type="context"> In honorem domus divinae</ref> </item>
+						<item> <ref target="context:fercan.dedication." type="context">In honorem domus divinae</ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
-						<item> <ref target="context:fercan.divinepart." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.divinepart." type="context">Aericur[ae]</ref> </item>
 						<item> <ref target="context:fercan.theonymischesFormular." type="context"> </ref> </item>
 					</list>
 				</keywords>
@@ -189,18 +191,18 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="Herecure 1113_fr.jpg">
-			<desc> </desc>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1113_front.jpg">
+			<desc>Front, Badisches Landesmuseum, Karlsruhe, Inventar-Nr.C 64, Foto: Ortolf Harl</desc>
 		</graphic>
 	
             <!-- todo: @xml:id-->
-            <graphic mimeType="image/jpeg" url="Herecure 1113_IS.jpg"><desc> </desc></graphic>
+            <graphic mimeType="image/jpeg" url="1113_front_IS.jpg"><desc>Inschrift, Badisches Landesmuseum, Karlsruhe, Inventar-Nr.C 64, Foto: Ortolf Harl</desc></graphic>
         
             <!-- todo: @xml:id-->
-            <graphic mimeType="image/jpeg" url="Herecure 1113_li.jpg"><desc/></graphic>
+            <graphic mimeType="image/jpeg" url="1113_re.jpg"><desc>rechts, Badisches Landesmuseum, Karlsruhe, Inventar-Nr.C 64, Foto: Ortolf Harl</desc></graphic>
         
             <!-- todo: @xml:id-->
-            <graphic mimeType="image/jpeg" url="Herecure 1113_Oben.jpg"><desc> </desc></graphic>
+            <graphic mimeType="image/jpeg" url="1113_oben.jpg"><desc>Oben, Badisches Landesmuseum, Karlsruhe, Inventar-Nr.C 64, Foto: Ortolf Harl</desc></graphic>
         </facsimile>
 	<text>
 		<body>
@@ -208,38 +210,52 @@
 			<div subtype="editions" type="bibliography" org="uniform">
 				<listBibl>
 					<bibl xml:id="1"> CIL XIII 6322</bibl>
-				</listBibl>
+				
+            <bibl xml:id="2">Wagner 1911, Nr.41</bibl>
+        
+            <bibl xml:id="3">Fritsch 1912, 21</bibl>
+        
+            <bibl xml:id="4">ILS 3967</bibl>
+        
+            <bibl xml:id="5"> Espérandieu 1931, Nr.347 </bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.236</bibl>
+        </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform">
 				<listBibl>
 					<bibl type="EDCS"><idno> EDCS-11000331</idno><date> 2023-03-15</date></bibl>
-					<bibl type="EDH"><idno> HD036867</idno><date> 2020-09-08</date></bibl>
-					<bibl type="trismegistos"><idno> www.trismegistos.org/text/211088</idno><date> 2023-03-15</date></bibl>
-					<bibl type="lupa"><idno> http://lupa.at/13779</idno><date> 2022-12-29</date></bibl>
+					<bibl type="EDH"><idno>HD036867</idno><date> 2020-09-08</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/211088</idno><date> 2023-03-15</date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/13779</idno><date> 2022-12-29</date></bibl>
 					<bibl type="other"><idno> </idno><date> </date></bibl>
 				<bibl type="lupa"><idno/><date/></bibl></listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform">
-				<ab><lb n="1"/>I H D D D S AERICVR <hi rend="ligature">ET</hi> DITI PAT
-<lb n="2"/>V<hi rend="ligature">ET</hi>ER PA<hi rend="ligature">TE</hi>RNVS <hi rend="ligature">ET</hi> AD<hi rend="ligature">IE</hi> PA<hi rend="ligature">TE</hi>R<orig/></ab></div>
-			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>I(n) h(onorem) d(omus) d(ivinae) d(eae) s(anctae) Aericur(ae) et Diti Pat(ri)
-<lb n="2"/>Veter(ius) paternus et Adie(cta) Pater(na)</ab></div>
+				<ab><lb n="1"/>I H <hi rend="ligature">DD</hi> D S AERICVR <hi rend="ligature">ET</hi> DITI PAT
+<lb n="2"/>V<hi rend="ligature">ET</hi>ER PA<hi rend="ligature">TE</hi>RNVS <hi rend="ligature">ET</hi> ADE PA<hi rend="ligature">TE</hi>R<orig/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>S<unclear>E</unclear><gap reason="lost" extent="unknown" unit="character"/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/><expan><abbr>I</abbr><ex>n</ex></expan> <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> <expan><abbr>d</abbr><ex>eae</ex></expan> <expan><abbr>s</abbr><ex>anctae</ex></expan> <expan><abbr>Aericur</abbr><ex>ae</ex></expan> et Diti <expan><abbr>Pat</abbr><ex>ri</ex></expan>
+<lb n="2"/><expan><abbr>Veter</abbr><ex>ius</ex></expan> Paternus et Ad<supplied reason="lost">i</supplied><expan><abbr>e</abbr><ex>ctia</ex></expan> <expan><abbr>Pater</abbr><ex>na</ex></expan>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>SE<gap reason="lost" extent="unknown" unit="character"/></ab></div>
 			<div type="translation" xml:lang="de" org="uniform">
-				<p><p>Zu Ehren des Kaiserhauses</p><p>für die heilige Göttin <rs type="divine">Herecura </rs>und für <i>Dis Pater</i>!</p><p>Veterius Paternus und Ad Paterna.<br/></p></p>
+				<p>                                                <p>Zu Ehren des Kaiserhauses</p>
+                                                <p>für die heilige Göttin <rs type="divine">Herecura </rs>und für <rs type="divine">Dis Pater</rs>!</p>
+                                                <p>Veterius Paternus und Adiectia Paterna.<br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform">
-				<p><p>In honour of the Divine household</p><p>to the sacred godess <rs type="divine">Herecura</rs> and to <i>Dis Pater</i>!</p><p>Veterius Paternus and Ad Paterna.<br/></p></p>
+				<p>                                                <p>In honour of the Divine household</p>
+                                                <p>to the sacred godess <rs type="divine">Herecura</rs> and to <rs type="divine">Dis Pater</rs>!</p>
+                                                <p>Veterius Paternus and Adiectia Paterna.<br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform">
 				<app loc="2">
-					<note> Adie(cta?) - EDH; Adie(ctia?) - EDCS; Adi() - Lupa</note>
+					<note>I-Ligatur: Adie(cta?) – EDH; Adie(ctia?) – Wagner, Espérandieu; Adie... – Fritsch; ohne I-Ligatur: Adi(...) – Ferlut</note>
 				</app>
 			</div>
-			<div type="commentary" subtype="general" org="uniform">
-				<p> </p>
-			</div>
+			<div type="commentary" subtype="general" org="uniform"><p>Veterius Paternus: römisches Namensformular ohne Praenomen</p><p>Veterius: seltenes Gentilnomen (einheimischer Bildung? Abgeleitet vom lateinischen Namen Vetus?) (Kakoschke 2021, GN 1439)</p><p> Paternus: lateinischer Name, überall äußerst gängig (Kakoschke 2021, CN 2319)</p><p>Adiectia Paterna: Der Name ist nur eine mögliche Ergänzung, jedenfalls handelt es sich dabei um ein römisches weibliches Namensformular</p><p>Adiectia: einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Namen Adiectus, sehr selten (Kakoschke 2021, GN 15)</p><p>Paterna: s. oben Paternus<br/></p></div>
 			<div type="commentary" subtype="language" org="uniform">
-				<p> In v.1 ein D von "domus divinae" in das andere eingeschrieben. Das I von "Aericurae" zwischen R und C kleiner und hochgestellt eingefügt. "Aericurae" pro "Herecurae".</p>
+				<p><p> v.1: <span style="font-size:12.0pt;line-height:107%; font-family:">„</span>Aericurae<span style="font-size:12.0pt;line-height:107%; font-family:">”</span> pro <span style="font-size:12.0pt;line-height:107%; font-family:">„</span>Herecurae<span style="font-size:12.0pt;line-height:107%; font-family:">”</span></p></p>
 			</div>
 			<div type="commentary" subtype="deity" org="uniform">
 				<p> </p>
@@ -250,13 +266,14 @@
 		<back>
 			<note type="Objbeschr_note"/>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"/>
+			<note type="Material_note">                                                    <p>lt. Esperandieu 1931, S. 216 Nr. 347<br/></p>
+                                                    <p>Wagner: Buntsandstein</p><p>Eckerle 1846, S. 91: rother Sandstein</p></note>
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"/>
 			<note type="InvNr_note"/>
-			<note type="Fundstelle_note"/>
+			<note type="Fundstelle_note"><p>in cellario - CIL<br/></p></note>
 			<note type="Fundumst_note"/>
-			<note type="Fundjahr_note"/>
+			<note type="Fundjahr_note">                                                    <p>Wagner, EDH, CIL<br/></p></note>
 			<note type="FOantik_note"/>
 			<note type="FOmodern_note"/>
 			<note type="civitas_note"><p>Civitas Port-?<br/></p></note>
@@ -264,19 +281,26 @@
 			<note type="Appcrit_note"/>
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
-			<note type="dtUEbers_note"><p>Sobald Lesung geklärt, Frauenname vervollständigen<br/></p></note>
+			<note type="dtUEbers_note">                                                    <p><br/></p></note>
 			<note type="Editionen_note"/>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"/>
-			<note type="Ikonogr_note"/>
+			<note type="Masse_note"><p>Wagner<br/></p></note>
+			<note type="Ikonogr_note">                                                    <p><b>Rausch 1813, S. 76:</b> "Auf einem antiken Lehnstuhl sizet ein römischgekleidetes Frauenzimmer, welches auf seinem Schooße eine Opferplatte mit Früchten in Händen hält: zur Linken desselben sizet ein Mann in einer bis über die Knie hangenden Tunik, welcher eine Rolle entwickelt. Benden Figuren sind die Köpfe abgeschlagen."</p>
+                                                    <p><b>Eckerle 1846, S. 91: </b>Das Ganze stellt einen Lehnsitz vor, auf welchem zwei Personen in römischer Kleidung sizen, und zwar eine männliche, mit einer bis an die Kniee reichende Tunika, und dieser zur Rechten eine weibliche, in einer leichten bis auf die Füße reichenden Kleidung. Die männliche Person hält mit beiden Händen eine auf dem Schooße liegende, etwas aufgeschlagene Rolle oder Urkunde, die weibliche Figur hält ebenfalls mit beiden Händen auf dem Schooße ein mit Früchten oder Geld angefülltes Körbchen, oder eine Opferschaale mit Früchten. An beiden Figuren sind die Köpfe abgeschlagen. Auf dem Fußgestelle oder dem untern Rande des Stuhles befinden sich folgende meistens schwer zu erkennende Buchstaben: ...</p>
+                                                    <p><b>Mommsen 1865, Sp. 88:</b> Auf einem Lehnstuhl sitzt eine männliche Figur, bis zu den Knien mit der Tunica bekleidet, auf dem Schooss eine aufgeschlagene Rolle mit beiden Händen haltend. Rechts von ihm eine Frau im langen Gewand, ein Körbchen mit Aepfeln auf dem Schoosse.</p>
+                                                    <p><b>Brambach 1867, S. 31:</b> Das Bild der Göttin zeigt eine mit langem Gewande bekleidete Frau, welche ein Körbchen mit Aepfeln auf dem Schoosse trägt: sie wird auf diese Weise als Spenderin von Gaben symbolisirt und ganz der Natur ihres Gefährten, des 'reichen Vaters,' angepasst. Ihr Name Aericura bezeichnet sie demgemäss wohl als die "geldschaffende" Göttin, als das dem männlichen Reichthum entsprechende weibliche Wesen, welches auch auf der Freske des Grabes der Vibia in den Katakomben von S. Pretestato nebem dem Dis pater thront (...). Der Gott ist auf unserem Bilde mit der bis zu den Knieen reichenden Tunica bekleidet und hält eine aufgeschlagene Rolle mit beiden Händen. </p>
+                                                    <p><b>Wagner 1911, S. 73: </b>Über der Inschrift thonen auf einem gemeinsamen Lehnsessel die beiden Gottheiten, Aericura mit langem Gewand, Gürtel und Schuhen, einen flachen Korb mit Früchten im Schoß haltend; Dis Pater im kurzen, faltigen Rock, eine aufgeschlagene Rolle mit den Händen fassend.</p>
+                                                    <p><b>Steiner Dan et Rhen 879:</b> Oberhalb der Schrift zwei sitzende Figuren, an welchen die Köpfe fehlen. Die eine, ein Mann in der Toga, hält ein Körbchen mit Geld in beiden Händen auf dem Schoose; die andere auch ein Mann in der Tunika, entwickelt mit beiden Händen eine Rolle.</p>
+                                                    <p><b>Steiner Rhen. 112</b>: Zwei gravitätisch sitzende Figuren, die eine in der Toga, die andere in der Tunica, deuten auf den Inhalt der Schrift. Es sind 2 Personen, welche mit Geldzählen (Soldauszahlen an die hinzutretenden Soldaten) beschäftigt sind</p>
+                                                    <p><b>Becker 1853, S. 115: </b>...das Geld im Schoosse und, wie es scheint, die entleerte Börse in den Händen des Mercurius...ob sich vielleicht auch noch Spuren der Schlangenstäbe nachweisen liessen, müsste eine genauere Untersuchung des Denkmals feststellen...</p><p><b>Michaelis, Adolf 895, S. 146</b>: "Auf gemeinsamem Lehnsessel thronen neben- (S. 147) einander Aericuram mit einem dicken Gürtel um das Gewand und mit Schuhen, einen flachen Korb mit Früchten im Schoss, und Dis Pater, in der kurzen faltenreichen Exomis, die die rechte Brust freilässt, eine aufgeschlagene Rolle (ganz sicher nach Luckenbach) mit beiden Händen anfassend;"<br/></p></note>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"/>
+			<note type="Buchsthoehe_note"><p>Wenn eine dann erhalten Z.3 2,8-3,0<br/></p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"/>
+			<note type="Datierung_note"><p>EDH: 171 AD – 250 AD</p><p>Fritsch: Der Zusatz deae sanctae deutet auf das Ende des 2. Jh.<br/></p></note>
 		<note type="ElektronischeRessourcen_note"/><note type="Index_note"/></back>
 	</text>
 </TEI>

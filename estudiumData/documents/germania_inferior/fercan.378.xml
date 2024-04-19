@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior378">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior378">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -251,7 +250,11 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 1971, Nr.23</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1973, 376</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Stuart/Bogaers 2001, B21</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 405 Nr.97</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.981</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -285,7 +288,11 @@ Lucius Amminius Saturninus hat das Gelübde gerne und verdientermaßen erfüllt.
 Lucius Amminius Saturninus has fulfilled a vow willingly and deservedly.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="6">
+                <note anchored="true">v(otum) s(olvit) – Scheungraber, Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Lucius Amminius Saturninus: tria nomina <lb/>
 Amminius: einheimisches Pseudogentilnomen, abgeleitet vom keltischen bzw. lateinischen Cognomen Amm(ian)us (Kakoschke 2006, GN 68) <lb/>

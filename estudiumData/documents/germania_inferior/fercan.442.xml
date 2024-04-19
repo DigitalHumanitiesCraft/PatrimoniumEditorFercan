@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior442">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior442">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -327,8 +326,14 @@ Auf der Rückseite hat sich Rahmung durch kannelierte Pilaster links und rechts 
                     <bibl xml:id="LIT.3" default="false" status="draft">Espérandieu IX 6650</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Byvanck 1935, 251</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Hondius-Crone 1955, Nr.2</bibl>
-                    <bibl xml:id="LIT.6" default="false" status="draft">Stuart 2013, Nr.19</bibl>
-                </listBibl>
+                    <bibl xml:id="LIT.6" default="false" status="draft">Raybould/Sims-Williams 2007, 70f Nr.BEG 134</bibl>
+                
+            <bibl xml:id="7">Stuart 2013, Nr.19</bibl>
+        
+            <bibl xml:id="8">Scheungraber 2020, 394 Nr.12</bibl>
+        
+            <bibl xml:id="9">Ferlut 2022, Nr.1060</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -342,10 +347,10 @@ Auf der Rückseite hat sich Rahmung durch kannelierte Pilaster links und rechts 
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>DEAE · <hi rend="ligature">NE</hi>HALEN<hi rend="ligature">NI</hi>  <lb n="2"/>
-AE · IANVARI<hi rend="ligature">NI</hi>VS  <lb n="3"/>
-AMBACTHIVS · PRO  <lb n="4"/> 
-SE · <hi rend="ligature">ET</hi> · SVIS  ·V · R · L · M</orig></ab></div>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/><supplied reason="undefined" evidence="previouseditor" instant="false">DEAE · <hi rend="ligature">NE</hi>HALEN<hi rend="ligature">NI</hi></supplied>
+<lb n="2"/><supplied reason="undefined" evidence="previouseditor" instant="false">AE · IANV</supplied>ARI<hi rend="ligature">NI</hi><supplied reason="undefined" evidence="previouseditor" instant="false">VS</supplied>  
+<lb n="3"/><supplied reason="undefined" evidence="previouseditor" instant="false">AMBACT</supplied>HIVS <supplied reason="undefined" evidence="previouseditor" instant="false">· PRO</supplied>
+<lb n="4"/><supplied reason="undefined" evidence="previouseditor" instant="false">SE · <hi rend="ligature">ET</hi> · SVIS</supplied>·V · R · L<supplied reason="undefined" evidence="previouseditor" instant="false"> · M</supplied></orig></ab></div>
             <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Deae Nehalenni<lb n="2" break="no"/>ae Ianuarinius<lb n="3"/>Ambacthius pro<lb n="4"/>se et suis <expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>r</abbr><ex instant="false">eddidit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
             <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
                 <p part="N">Für die Göttin  <rs type="divine">Nehalennia!</rs>  <lb/>
@@ -357,15 +362,19 @@ Ianuarinius Ambacthius has fulfilled a  vow willingly and deservedly for himself
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligaturen: ILS, Espérandieu, Byvanck, Hondius-Crone</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">die unterstrichenen Buchstaben der Z.1 bis Z.4 sind nur abschriftlich überliefert; ohne Ligaturen: ILS, Espérandieu, Byvanck, Hondius-Crone; Nehalen(n)i – Scheungraber; Nehalleni – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur: ILS, Espérandieu, Byvanck, Hondius-Crone</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[ae Ian]uarinu[us] – Raybould/Sims-Williams; ohne Ligatur: ILS, Espérandieu, Byvanck, Hondius-Crone</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur: ILS, Espérandieu, Byvanck, Hondius-Crone</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">se [et] su[i]s v(otum) ?s(olvit) [l(ibens) m(erito)] – Raybould/Sims-Williams; ohne Ligatur: ILS, Espérandieu, Byvanck, Hondius-Crone</tei:note>
                 </app>
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">[Am]bacthius – Raybould/Sims-Williams; Ambathius – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Ianuarinius Ambacthius: römisches Namensformular ohne Praenomen <lb/>
 Ianuarinius: einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Cognomen Ianuarius; tritt nur in den germanischen Provinzen auf (Kakoschke 2006, GN 586) <lb/> 

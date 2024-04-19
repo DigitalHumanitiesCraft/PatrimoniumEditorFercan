@@ -1,0 +1,341 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior56" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Mars Loucetius</title><title type="sub">CF-GeS-1047</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.56</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Worms</settlement>
+						<repository>Museum der Stadt im Andreasstift</repository>
+						<idno>R 1625</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p>Erhalten sind zwei miteinander verklammerte Steinblöcke, von denen Zangmeister (1888, Sp.15) vermutet, dass „links und rechts ursprünglich noch ein Stein angesetzt [war]; sonst würde die Ausladung des Sockels gänzlich gefehlt haben.“ Köhl beschreibt, dass ein „noch mit einem Untersatz verklammerter Altar gefunden“ wurde (Köhl 1899, 120). Laut lupa fehlt der oberste Block. Der Block, der die Inschrift trägt, hat keine Verzierung und scheint, abgesehen von einem kleinen Ausbruch an der rechten unteren Seite, vollständig vorhanden zu sein. Der unterste Block trägt keine Inschrift und hat lediglich an seinem oberen Abschluss eine doppelte Profilierung. Da an der Oberseite des Steines mit der Inschrift noch zwei Eisenstifte herausragen, könnte ein dritter, oberster Block vorhanden gewesen sein.</p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType>Weihestein</objectType> <dimensions>
+										<height unit="cm">29</height>
+										<width unit="cm">59</width>
+										<depth unit="cm">35</depth>
+									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p><p>Der Text füllt das Inschriftenfeld auf dem Block vollständig aus, auf einem darüberliegenden Block muss sich aber zumindest eine weitere Zeile befunden haben, was sich aus der unvollständig erhaltenen Formel [in honorem] domus divinae ergibt.</p><p>Die Buchstaben sind gut erhalten und werden mit den unteren Zeilen deutlich kleiner.</p><p>Zu Ligaturen: s. Majuskelumschrift. – Besondere Zeichen: Z.1 ein überhöhtes I in Ligatur mit nachfolgendem N; Z.2 ein überhöhtes I in Ligatur mit O.</p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="4.5" atMost="6.3">4,5–6,3</height> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150600">Zierleiste</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140730">Eisenstift</term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName>Borbetomagus</placeName> <region>Civitas Vangionum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1888"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Worms</ref> </placeName> <p>„am Wasserwerk gegen Mariamünster“ (CIL); im Mars-Tempel „am südöstlichen Stadtrand […] heute Stadtwerke an der Klosterstraße“ (Grünewald 1986, 67)</p> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true">beim Bau des Gas- und Wasserwerkes; beim Bau des Wasserfilters (Köhl 1899, 120)</note> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung gründet auf: EDH und Photo</p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Mars Loucetius</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Loucetius</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Amandus; Velugnius</ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">
+						</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">
+						</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">Devas</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context">in honorem domus divinae; sacrum</ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">Marti Loucetio</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1047_front1.jpg">
+			<desc> Front, CIL XIII Projekt, CC BY-NC</desc>
+		</graphic>
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1047_front2.jpg">
+                <desc>Front, https://edh.ub.uni-heidelberg.de/edh/foto/F026066, © C. Witschel</desc>
+            </graphic>
+        </facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="1"> AE 1888, 121</bibl>
+				
+            <bibl xml:id="2">CIL XIII 6221</bibl>
+        
+            <bibl xml:id="3">ILS 4573</bibl>
+        
+            <bibl xml:id="4">Riese 1914, Nr.3051</bibl>
+        
+            <bibl xml:id="5">Behrens 1941, 15</bibl>
+        
+            <bibl xml:id="6">Klumbach 1959, 72</bibl>
+        
+            <bibl xml:id="7">Merten 1985, 45f.</bibl>
+        
+            <bibl xml:id="8">Grünewald 1986, 67</bibl>
+        
+            <bibl xml:id="9">Boppert 1998, Nr.40</bibl>
+        
+            <bibl xml:id="10">Kakoschke 2002, Nr.5.35</bibl>
+        
+            <bibl xml:id="11">Scheungraber 2020, 358 Nr.9</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno>EDCS-11000228</idno><date>zuletzt abgerufen 2023-06-09</date></bibl>
+					<bibl type="EDH"><idno>HD075796</idno><date>Version von 2021-02-24</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/425184</idno><date>zuletzt abgerufen 2023-06-09</date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/16814</idno><date>Version von 2021-01-11</date></bibl>
+					<bibl type="other"><idno>https://cil.bbaw.de/ace/id/KO0000469</idno><date>zuletzt abgerufen 2023-06-09</date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/>DOMV DIV<hi rend="ligature">IN</hi>AE
+<lb n="3"/>MARTI LOVCET<hi rend="ligature">IO</hi>
+<lb n="4"/>SACRVM AMA<hi rend="ligature">ND</hi>VS
+<lb n="5"/>VELVGNI F DEVAS<orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><supplied reason="lost">In honorem</supplied>
+<lb n="2"/><expan><abbr>domu</abbr><ex>s</ex></expan> divinae
+<lb n="3"/>Marti Loucetio
+<lb n="4"/>sacrum Amandus
+<lb n="5"/>Velugni <expan><abbr>f</abbr><ex>ilius</ex></expan> Devas</ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p>                                                <p>Zu Ehren des Kaiserhauses dem <rs type="divine">Mars Loucetius</rs> geheiligt.</p>
+                                                <p>Amandus, der Sohn des Velugnus, aus Deva.</p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p><p>In honour of the Divine Household sacred to <rs type="divine">Mars Loucetius</rs>.</p><p>Amandus, son of Velugnus, from Deva</p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="2">
+					<note anchored="true">domus – Behrens, Grünewald</note>
+				</app>
+			
+            <app loc="4"><note anchored="true">falscher Zeilenwechsel nach sacrum – ILS</note></app>
+        
+            <app loc="6"><note anchored="true">[v.s.l.l.m. (?)] – Klumbach; [v(otum) s(olvit) l(ibens) m(erito) ?] – Merten; [v(otum) s(olvit) l(ibens) m(erito)] – Kakoschke</note></app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete"><p>Amandus Velugni filius: einheimisches Namensformular</p><p>Amandus: lateinischer Name, überall gängig (Kakoschke 2021, CN 138)</p><p>Velugnus: keltischer Name, nur hier gesichert belegt (Kakoschke 2021, CN 3273) Vater des ersten.</p><p>Devas: Das Wort ist nicht zweifelsfrei geklärt. Der Inschriftensetzer gibt damit vielleicht seine Herkunft aus Deva an, womit möglicherweise Deva (Chester) in Britannien gemeint sein könnte (so z.B. AE, CIL, ILS, Grünewald). Es könnte sich aber auch um eine geographische oder ethnische Bezeichnung im Gebiet der Treverer handeln (z.B. Klumbach 1959, 72; Merten 1985, 45f.). Gegen die Deutung als Cognomen spricht eine Inschrift aus Trier (AE 1915, 70)<br/></p></div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note"><p>Lupa: 2 verklammerte Blöcke, der 3. (oberste) Block fehlt</p><p>EDH: Block von einem mehrteiligen, nicht näher identifizierten Votivmonument. Ein weiterer, anepigraphischer, unten anschließender Block mit Profil ist erhalten (Maße: 33 x 62 x 33). An der Oberseite noch Klammerkanäle mit Resten der Verklammerung (siehe Fotos).</p></note>
+			<note type="ArchKlass_note">                                                    <p><br/></p></note>
+			<note type="Material_note">                                                    <p>Gelb: Zangmeister 1888 Sp. 15</p>
+                                                    <p>Boppert: gelblicher Sandstein</p></note>
+			<note type="Inschrifttraeger_note"><p>Ara? WSpDB<br/></p></note>
+			<note type="VerwahrortOrt_note"/>
+			<note type="InvNr_note"/>
+			<note type="Fundstelle_note"/>
+			<note type="Fundumst_note">                                                    <p>Boppert: in der Nähe des Fundplatzes wurden eine große Anzahl dicht beieinander stehende großer Krüge gefunden, mehrere mit RitzIS „Marti“; waren zur Libation von Wein bestimmt<br/></p></note>
+			<note type="Fundjahr_note"><p>28. April (Zangmeister 1888 Sp.15)<br/></p></note>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note"/>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note"><p>FilmNr 12/32+33</p></note>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note">                                                    <p>Photos von online nicht verfügbaren Inschriftentexten</p>
+                                                    <p>s. Ordner: ISntexte Slg</p>
+                                                    <p>eingesehen<br/>Häussler, R.: Worms - eine Spurensuche. Monsheim 2003. S.15 (mit Photo) (aus Chester/Deva), - eingesehen</p>
+                                                    <p>Illert, Georg: Führer durch das Museum der Stadt Worms im Andreasstift. 5., erweiterte Aufl. Worms am Rhein 1969. S.30 ´- eingesehen nur Photo</p>
+                                                    <p>Kienle II S.256 (Britannier), - eingesehen</p>
+                                                    <p>Ivleva, Tatiana Alexandrovna: Britons Abroad. The mobility of Britons 
+and the circulation of British-made objects in the Roman Empire. Diss. 
+Leiden 2012. S.223f. - nur verwiesen</p>
+                                                    <p>Drexel S.27. Anm.126 (aufgrund der Weihung wohl ein Treverer) - nur erwähnt</p>
+                                                    <p>Zangemeister, K. In: WZKorrbl VII. 1888. Sp.115ff. (Devas = aus Chester/Deva) - eingesehen</p>
+                                                    <p>Kakoschke I (CD-ROM) Nr.5.35 (stammt aus dem Raum Trier) - eingearbeitet</p>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    <p>Wierschowski, Lothar: Handels- und Wirtschaftsbeziehungen der Städte in den nordwestlichen Provinzen des römischen Reiches. In: Eck, Werner und Hartmut Galsterer (Hrsg.): Die Stadt in Oberitalien und in den nordwestlichen Provinzen des römischen Reiches. Mainz 1991. (= Kölner Forschungen. Bd.4.) S.121ff. S.139 (aus Chester/Deva) - eingesehen, nur aufgelistet</p></note>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note"><p>So EDH</p><p>Lupa: Breite 60 und 62cm, Höhe 29,3 und 33cm, Tiefe 35 und 33cm</p></note>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note"/>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"><p>CIL: gentilicium Velugnius praebet titulus prope Bastogne Belgii repertus</p><p>AE: „Devas signifie natif de Deva, aujourd’hui Chester"</p><p>CIL: Devas i. e. ex Deva (Britanniae).</p><p>ILS: Hominem oriendum ex Deva Britannicae intellegit Zangemeister<br/>Vgl. Finke 20:</p><p>Leno Marti / et Ancamnae / Optatius / Verus Devas / ex [v]oto / posuit</p></note>
+			<note type="Datierung_note"><p>150-200 WSpDB</p><p>Häussler (S. CIL Kartei) – nach 150</p><p>151-250: EDH</p><p>2.H.2.Jh und später: Boppert</p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

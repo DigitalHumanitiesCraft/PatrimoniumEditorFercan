@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior448">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior448">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -259,8 +258,14 @@
                     <bibl xml:id="LIT.2" default="false" status="draft">Espérandieu IX 6655</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Byvanck 1935, Nr.236</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Hondius-Crone 1955, Nr.24</bibl>
-                    <bibl xml:id="LIT.5" default="false" status="draft">Stuart 2013, Nr.24</bibl>
-                </listBibl>
+                    <bibl xml:id="LIT.5" default="false" status="draft">Raybould/Sims-Williams 2007, 71 Nr.BEG 136</bibl>
+                
+            <bibl xml:id="6">Stuart 2013, Nr.24</bibl>
+        
+            <bibl xml:id="7">Scheungraber 2020, 395 Nr.19</bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.977</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -274,7 +279,7 @@
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>DEAE  <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>DEAE  <lb n="2"/>
 NEHALENNIAE  <lb n="3"/>
 SVMARONIVS  <lb n="4"/> 
 PRIMANVS  <lb n="5"/>

@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior59">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior59">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -279,7 +278,11 @@ Die rechte Schmalseite ist auf ihrer linken Seite stark bestoßen. Das Relieffel
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 7925</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1918, Nr.514</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Espérandieu VIII 6356</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 593 Nr.6</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.899</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -309,7 +312,19 @@ Sextus Candidius Maternus für sich und die Seinen auf deren Befehl gerne und ve
 Sextus Candidius Maternus in response to an order of the goddesses for himself and his family willingly and deservedly.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="1">
+                <note anchored="true">Matronis Vesuniahenis – Scheungraber (Z.2 entfällt dort)</note>
+            </app>
+        
+            <app loc="3">
+                <note anchored="true">Sex(tus) (das Gentilnomen fehlt) – Ferlut</note>
+            </app>
+        
+            <app loc="6">
+                <note anchored="true">l(ibens) m(erito) – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Sextus Candidius Maternus: tria nomina. Ein Dedikant dieses Namens ist vermutlich auch von einer Inschrift für die  <rs type="divine">Matronae Teniavehae</rs> ungewisser Herkunft (vielleicht stammt er aus Blankenheim) bekannt (CF-GeI-466). Ob es sich dabei um die gleiche Person handelt ist aber zweifelhaft. <lb/> 
 Candidius: einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Cognomen Candidus; besonders verbreitet in den germanischen Provinzen (Kakoschke 2006, GN 264) <lb/>

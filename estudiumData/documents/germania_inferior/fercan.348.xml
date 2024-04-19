@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior348">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior348">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -250,7 +249,15 @@ Auf der rechten Schmalseite ist ein Baum zu erkennen. Er ist einfach eingemeiße
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, A51</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1465</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Raepsaet-Charlier 2003, 295</bibl>
+        
+            <bibl xml:id="4">Raybould/Sims-Williams 2009, 63 Nr.BEG 198</bibl>
+        
+            <bibl xml:id="5">Scheungraber 2020, 401 Nr.67</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.1111</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -268,7 +275,7 @@ Auf der rechten Schmalseite ist ein Baum zu erkennen. Er ist einfach eingemeiße
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>DEAE NE  <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>DEAE NE  <lb n="2"/>
 HA<unclear instant="false">L</unclear>EN<hi rend="ligature">NI</hi>AE  <lb n="3"/>
 E<unclear instant="false">X</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>O  <lb n="4"/>
 <gap reason="lost" extent="unknown" unit="character" instant="false"/>IVS</orig></ab></div>
@@ -286,9 +293,13 @@ EX…O …ius.   </p>
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – EDH</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Ex[ci]ngo – AE; möglicherweise Excingo oder v.2–3: Excingonius – Stuart/Bogaers; möglicherweise Reste einer fünften Zeile mit CIV (ciu[es] oder civ[is]) zu erkennen – Raepsaet-Charlier 2003, 295</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Ex[ci]ngo – AE, Raybould/Sims-Williams</tei:note>
                 </app>
-            </div>
+            
+            <app loc="5">
+                <note anchored="true">möglicherweise Reste einer fünften Zeile mit CIV (ciu[es] oder civ[is]) zu erkennen – Raepsaet-Charlier; es folgt eine weitere Zeile 5 unsicheren Inhalts – Scheungraber, Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).   </p>
                                                 <p part="N">
 

@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior97">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior97">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -255,7 +254,11 @@
                     <bibl xml:id="LIT.4" default="false" status="draft">Galsterer/Galsterer 1975, Nr. 109</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Galsterer/Galsterer 2010, Nr. 160</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">KIK 2012, Nr. 176</bibl>
-                </listBibl>
+                
+            <bibl xml:id="7">Scheungraber 2020, 577 Nr.2</bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.598</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -301,7 +304,7 @@ Lucius Acconius Candidus by their order has fulfilled a vow willingly and deserv
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">i[mp] – ILS; im[p(erio)] – Galsterer/Galsterer (1975)</tei:note>
                 </app>
                 <app loc="#MIN.8 #MAJ.8">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">p. p. s. s. – ILS; IPS V S [L] – CIL</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">p. p. s. s. – ILS; IPS V S [L] – CIL; m(erito) – Scheungraber; (i)ps(arum) – Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

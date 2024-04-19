@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior300">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior300">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -289,18 +288,26 @@
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Valer – AE 1893</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Valer – AE; Valeri(us) – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Friedrich</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Friedrich; [Ba]ssus – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">M(inerviae) p(iae) f(idelis) – AE 1893, Lehner, Friedrich</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">M(inerviae) p(iae) f(idelis) – AE, Lehner, Friedrich; P(iae) – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.6 #MAJ.6">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[pro s]e êt – Lehner; [pro s]e et – Friedrich</tei:note>
                 </app>
-            </div>
+            
+            <app loc="7">
+                <note anchored="true">Scheungraber 2020, 521 Nr.10</note>
+            </app>
+        
+            <app loc="8">
+                <note anchored="true">Ferlut 2022, Nr. 1253</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Valerius Bassus: römisches Namensformular ohne Praenomen <lb/>
 Valerius: italisches Gentilnomen, überall äußerst gängig (Kakoschke 2006, GN 1346) <lb/>

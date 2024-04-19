@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior410">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior410">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -253,7 +252,11 @@ Das Motiv der rechten Schmalseite dürfte dem auf der linken Seite ähnlich sein
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, B55</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1494</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 409 Nr.126</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.988</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -287,7 +290,11 @@ Claudius Mar…</p>
                 <app loc="#MIN.2 #MAJ.2">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – EDH</tei:note>
                 </app>
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">Es folgt eine weitere Zeile unbestimmten Inhalts – Scheungraber, Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Claudius Mar…: römisches Namensformular mit fehlendem Praenomen und nicht zur Gänze erhaltenem Cognomen <lb/>
 Claudius: italisches Gentilnomen der Kaiser Claudius und Nero, überall äußerst gängig (Kakoschke 2006, GN 327)</p>

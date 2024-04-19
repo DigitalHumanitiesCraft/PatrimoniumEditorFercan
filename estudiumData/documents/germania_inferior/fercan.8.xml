@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior8">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior8">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -263,7 +262,7 @@ Von der rechten Schmalseite ist aufgrund der Beschädigung nur die unter Hälfte
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/><hi rend="ligature">ME</hi><gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="2"/> 
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/><hi rend="ligature">ME</hi><gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="2"/> 
 GE<unclear instant="false">B</unclear>RI<gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="3"/> 
 L · PACCIV<unclear instant="false">S</unclear> <lb n="4"/> 
 PARIS <lb n="5"/> 

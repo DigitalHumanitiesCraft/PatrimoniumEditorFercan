@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior55">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior55">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -223,7 +222,11 @@
                     <bibl xml:id="LIT.3" default="false" status="draft">Galsterer/Galsterer 1975, Nr.101</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Galsterer/Galsterer 2010, Nr.145</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">KIK 2012, Nr.168</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 302 Nr.5</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.621</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -252,7 +255,7 @@ Latinia Fusca has fulfilled a vow willingly and deservedly. </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Gesaĥen̂is – Galsterer/Galsterer 1975; Gesahenis – Alföldy, Galsterer/Galsterer 2010; KIK 2012)</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Gesaĥen̂is – Galsterer/Galsterer 1975; Gesahenis – Alföldy, Galsterer/Galsterer 2010, KIK 2012, Scheungraber, Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

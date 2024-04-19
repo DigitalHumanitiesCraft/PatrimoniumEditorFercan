@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior356">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior356">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -231,7 +230,11 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, A62</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1468</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 402 Nr.75</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.1021</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -266,7 +269,7 @@ BO<hi rend="ligature">NI</hi>VS <gap reason="lost" extent="unknown" unit="charac
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[--- Dea]e – Stuart/Bogaers, AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[--- Dea]e – Stuart/Bogaers, AE, EDH; [Dea]e – Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">mercib[us ---]ctor(um?) – EDH</tei:note>

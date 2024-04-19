@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior292">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior292">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -280,7 +279,11 @@ Auf der rechten und linken Schmalseite sind verwitterte Füllhörner dargestellt
                     <bibl xml:id="LIT.3" default="false" status="draft">Chastagnol 1994, 411 Stuart/Bogaers 2001, A6</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Wierschowski 2001, Nr.27</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Beck 2013, 227</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 397 Nr.34</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.1102</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -316,7 +319,11 @@ Placidus, the son of Viducus, member of the civitas of the Veliocassi and mercha
                 <app loc="#MIN.2 #MAJ.2">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">f(ilius) – Chastagnol</tei:note>
                 </app>
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">civ&lt;i=E&gt;s - Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Placidus: lateinisches Cognomen, gängiger Name (Kakoschke 2008, CN 2388) <lb/> 
 Viducus: keltisches Cognomen; *vidu- Wald; aus dem Cognomen wurde das Pseudogentilnomen Viducius gebildet (Kakoschke 2008, CN 3327). </p>

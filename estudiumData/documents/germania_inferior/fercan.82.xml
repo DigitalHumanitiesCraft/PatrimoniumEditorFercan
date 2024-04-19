@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior82">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior82">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -329,7 +328,11 @@ Auf der rechten Schmalseite ist eine große akanthusartige Pflanzenranke dargest
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 8571</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1918, Nr.336</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Espérandieu IX 6616</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 428 Nr.1</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.904</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -358,7 +361,7 @@ Quintus Iulius Quietus and Iucundus and Ursulus in response to an order of the g
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Mat(ronis) – Lehner, Espérandieu</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Mat(ronis) – Lehner, Espérandieu, Scheungraber, Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

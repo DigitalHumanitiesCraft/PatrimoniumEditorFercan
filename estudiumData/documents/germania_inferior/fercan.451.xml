@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior451">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior451">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -276,7 +275,11 @@ Auf den Schmalseiten sind laut Literatur (Stuart 2013 81 f.) Füllhörner darges
                     <bibl xml:id="LIT.4" default="false" status="draft">Hondius-Crone 1955, Nr.16</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Stuart 2013, Nr.23</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">AE 2014, 888</bibl>
-                </listBibl>
+                
+            <bibl xml:id="7">Scheungraber 2020, 395 Nr.22</bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.1067</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -304,13 +307,13 @@ Auf den Schmalseiten sind laut Literatur (Stuart 2013 81 f.) Füllhörner darges
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">unlesbare Buchstabenreste – CIL; keine Lesung – Espérandieu; [---]a[---] –Byvanck, Nehalleniae – Hondius-Crone</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">unlesbare Buchstabenreste – CIL; keine Lesung – Espérandieu; [---]a[---] –Byvanck, Nehalleniae – Hondius-Crone, Ferlut; Ne{i}hale(nniae) – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">IICINIV – CIL; keine Lesung – Espérandieu; [---]iniu[---] – Byvanck, … ine ini f(ilius) – Hondius-Crone; nninis – Stuart 2013</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">IICINIV – CIL; keine Lesung – Espérandieu; [---]iniu[---] – Byvanck, … ine ini f(ilius) – Hondius-Crone, Ferlut; nninis – Stuart 2013; [3]inius – Scheungraber; es folgt eine weitere Zeile mit V[3] – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">keine Lesung – Espérandieu; fehlt – Byvanck, Hondius-Crone</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">keine Lesung – Espérandieu; fehlt – Byvanck, Hondius-Crone; v(otum) [s(olvit) l(ibens)] m(erito) – Scheungraber</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

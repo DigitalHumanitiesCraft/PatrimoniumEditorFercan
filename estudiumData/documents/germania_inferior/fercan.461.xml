@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior461">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior461">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -220,6 +219,10 @@
       <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
         <listBibl default="false">
           <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 7972 (4, p 138)</bibl>
+        
+            <bibl xml:id="2">Scheungraber 2020, 441</bibl>
+        
+            <bibl xml:id="3">Ferlut 2022, Nr.723</bibl>
         </listBibl>
       </div>
       <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
@@ -248,7 +251,11 @@ L · M</orig></ab></div>
           <lb/> Verecundinius Super willingly and deservedly. </p>
       </div>
       <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">Verecundinus – Ferlut</note>
+            </app>
+        </div>
       <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
         <p part="N">Verecundinius Super: römisches Namensformular mit Gentile und Cognomen ohne Praenomen
           <lb/> Verecundinius: einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Cognomen

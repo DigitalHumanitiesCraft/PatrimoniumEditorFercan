@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior305">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior305">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -225,7 +224,11 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 8546</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Kütter 2008, Nr.964</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Sylvestre 2015, 86 Nr.84</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 519 Nr.1 </bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr. 1257</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -248,7 +251,11 @@
                 <p part="N">Those that have to be brought to the goddess  <rs type="divine">Sunxalis</rs> have been made by Claudius Victorinus.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="1">
+                <note anchored="true">Sun(u)xalis – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Claudius Victorinus: römisches Namensformular ohne Praenomen <lb/>
 Claudius: italisches Gentilnomen der Kaiser Claudius und Nero, überall äußerst gängig (Kakoschke 2006, GN 327) <lb/>

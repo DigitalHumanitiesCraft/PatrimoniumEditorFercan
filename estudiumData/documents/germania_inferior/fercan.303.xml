@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior303">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior303">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -261,7 +260,11 @@
                     <bibl xml:id="LIT.4" default="false" status="draft">Grünewald 1996, 22</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Lobüscher 2002, Nr.123</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">Biller 2010, 126</bibl>
-                </listBibl>
+                
+            <bibl xml:id="7">Scheungraber 2020, 520 Nr.3</bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.1255</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -290,7 +293,7 @@ Probia Iustina had the temple newly made by order of the goddess herself for her
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ex ius[s]u i[psius] – ILS; ex iussu – CIL, Follmann-Schulz, Grünewald, Lobüscher; ex ius[s]u n[uminis – Biller</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ex ius[s]u i[psius] – ILS; ex iussu – CIL, Follmann-Schulz, Grünewald, Lobüscher; ex ius[s]u n[uminis] – Biller, Scheungraber; ex iussu n[uminis] – Ferlut; Sunux{s}ali – Scheungraber; Zeilenumbruch nach Sunuxsali – Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – ILS, Follmann-Schulz, Grünewald</tei:note>

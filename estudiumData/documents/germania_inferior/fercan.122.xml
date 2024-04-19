@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior122">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior122">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -231,7 +230,9 @@
                     <bibl xml:id="LIT.3" default="false" status="draft">Lehner 1918, Nr.234</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Gummerus 1932, Nr.372</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Rémy/Faure 2010, Nr.65</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 84</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -264,13 +265,13 @@ By (her) order, Divos, the physician.</p>
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – ILS</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">nach iussu noch ein senkrechter dünner Strich und daneben verwitterte Spuren, iussu i[p(sius)?] – Lehner; Buchstabenreste am Ende der Zeile sind „sans doute du xxe siècle“ _ Rémy/Faure</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">nach iussu noch ein senkrechter dünner Strich und daneben verwitterte Spuren, iussu i[p(sius)?] – Lehner, Scheungraber; Buchstabenreste am Ende der Zeile sind „sans doute du xxe siècle“ – Rémy/Faure</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Henzen vermutet, dass das S am Ende der Zeile zum darunter stehenden medicu zu stellen ist; also Divo / medicus – ILS, Gummerus</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">medicus – Lehner</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">medicus – Lehner, Scheungraber</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

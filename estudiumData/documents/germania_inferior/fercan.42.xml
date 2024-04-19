@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior42">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior42">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -260,7 +259,11 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">ILS 4811</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">CIL XIII 8725</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Willems/Enckevort 2009, 128</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 388</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.697</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -297,7 +300,11 @@ Marcus Liberius Victor, der Angehörige der civitas der Nervier und Getreidehän
 Marcus Liberius Victor, the Nervian and grain merchant, has fulfilled a vow willingly and deservedly. </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="8">
+                <note anchored="true">frum(entarius) – Scheungraber, negotiator frumentarius – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Marcus Liberius Victor: tria nomina <lb/>
 Liberius: einheimisches Pseudogentilnomen (Kakoschke 2006, GN 665) <lb/>

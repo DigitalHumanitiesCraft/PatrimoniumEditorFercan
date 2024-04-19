@@ -1,26 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior13" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior13" n="">
 	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
-				<title type="full"><title type="main">Casses</title><title type="sub"> CF-GeS-1086</title></title>
+				<title type="full">
+                    <title type="main">Casses</title>
+                    <title type="sub"> CF-GeS-1086</title>
+                </title>
 				<respStmt>
 					<resp>Inschriftenedition</resp>
-					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+					<persName>
+                        <forename>Werner</forename>
+                        <surname>Petermandl</surname>
+                    </persName>
 				</respStmt>
 				<respStmt>
 					<resp>Archäologische Beschreibung und geografische Daten</resp>
-					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+					<persName>
+                        <forename>Astrid</forename>
+                        <surname>Schmölzer</surname>
+                    </persName>
 				</respStmt>
 				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
 			</titleStmt>
 			<publicationStmt>
-				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
-					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
-				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+				<publisher>
+                    <link target="https://antike.uni-graz.at"/>
+                    <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
+                </publisher>
+				<authority>
+                    <link target="https://informationsmodellierung.uni-graz.at"/>
+                    <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
 					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
-					Graz</orgName></authority>
-				<distributor><link target="https://gams.uni-graz.at"/><orgName>GAMS -
-					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+					Graz</orgName>
+                </authority>
+				<distributor>
+                    <link target="https://gams.uni-graz.at"/>
+                    <orgName>GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName>
+                </distributor>
 				<date when="2022">2022</date>
 				<pubPlace>Graz</pubPlace>
 				<idno type="PID">o:fercan.13</idno>
@@ -34,7 +52,10 @@
 					Celticarum Antiquarum</title>
 				<respStmt>
 					<resp>Projektleitung</resp>
-					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+					<persName>
+                        <forename>Wolfgang</forename>
+                        <surname>Spickermann</surname>
+                    </persName>
 				</respStmt>
 			</seriesStmt>
 			<sourceDesc>
@@ -42,7 +63,7 @@
 					<msIdentifier>
 						<settlement>Lorsch</settlement>
 						<repository>Museumszentrum</repository>
-						<idno/>
+						<idno>3.5.367</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>Weihinschrift</summary>
@@ -50,45 +71,64 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
-									<objectType>Weihestein</objectType> <dimensions>
+								<support> <p><p>Erhalten sind die Bekrönung, sowie die ersten eineinhalb Zeilen der anscheinend ungerahmten Inschrift. Da der Stein für seine sekundäre Verwendung als Mauerstein rechteckig zugeschlagen und an allen Seiten behauen wurde, sind keine möglicherweise vorher existierenden Verzierungen mehr sichtbar. Das Inschriftenfeld dürfte ohne Stufung an den Aufsatz angeschlossen haben. <br/></p></p> <material>  
+                      <ref ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref></material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm"> 47</height>
 										<width unit="cm"> 60</width>
 										<depth unit="cm"> 40</depth>
 									</dimensions> <note type="dimensions"> Die angegebenen Maße sind die des erhaltenen Fragments.</note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130320">kleineres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>Die Ergänzung von Biviae wird gestützt durch weitere Weihungen aus der Superior CIL XIII 5070, CIL XIII 5621, CIL XIII 6096; CIL XIII 6437, CIL XIII 111474, CIL XIII 5069; 4 N. 33; M. Mattern AKB 28, 1998, 613 auf denen diese Göttertrias stehts in Kombination erscheint.</p> <note type="condition"/> </layout>
+								<layout> <p>                                                <p>Von der Inschrift sind nur die ersten beiden Zeilen erhalten, wobei die zweite beschädigt ist. Aufgrund des Erhaltungszustandes ist es ungewiss, ob die Inschrift noch weitere Zeilen aufwies. Die Buchstaben sind ungleichmäßig gearbeitet.</p>
+                                                <p>Christ 1879 ergänzt im abgearbeiteten Altaraufsatz ein I O M.</p>
+                                                <p>Die Ergänzung von Biviae für Z.1 wird gestützt durch weitere Weihungen aus der Superior (CIL XIII 5070, CIL XIII 5621, CIL XIII 6096; CIL XIII 6437, CIL XIII 111474, CIL XIII 5069; 4 N. 33; M. Mattern AKB 28, 1998, 613) auf denen die Triviae und Quadruviae stets als Göttertrias zusammen mit den Biviae erscheinen.</p>
+                                                <p>In Z.2 sind die erhaltenen oberen Hälften von S und A ausgebrochen, vom L nur die Senkrechthaste erhalten, aus der Literatur geht nicht hervor ob früher mehr erhalten war, oder die Rekonstruktion stets auf dem Kontext basierte.</p>
+                                    </p> <note type="condition"/> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="1.5" atMost="1.5">1,5–1,5</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p><p>Keine bildliche Gestaltung erhalten. <br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName> </placeName> <region/> </origPlace> <origDate notBefore="" notAfter=""> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="vor 1877"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Lorsch</ref> </placeName> <p>Kloster von Lorsch</p> <location>
+						<origin> <origPlace> <placeName> </placeName> <region>Civitas Ulpia Sueborum Nicrensium</region> </origPlace> <origDate notBefore="0198" notAfter="0211"> <date>198–211</date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note>
+                            </origDate> </origin>
+						<provenance type="found" when=" "> <placeName> <ref type="context" target="context:fercan.geog.modern.">Lorsch</ref> </placeName> <p>in den Ruinen des Klosters; zwischen den Kreuzgängen des Klosters, im Garten des Oberforstmeisters von Dörnberg (CIL)</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note/> </provenance>
-						<provenance type="observed" subtype="autopsied">                                                vidimus (CIL XIII Projekt)<br/></provenance>
+							</location> <note>"als Mauerstein beim Bau des Klosters Lorsch, zwischen Odenwald und Worms, verwendet" (Keune 1924, 120). Das Fundjahr ist nicht mehr nachvollziehbar, muss aber vor 1877 gewesen sein.</note> </provenance>
+						<provenance type="observed" subtype="autopsied">
+                            <p>                                                vidimus (CIL XIII Projekt)<br/>
+                            </p>
+                        </provenance>
 					</history>
 				</msDesc>
 				<listPlace>
 					<place type="antique_term">
-						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+						<placeName>
+                            <ref target="context:fercan.geog.term" type="context"/> </placeName>
 					</place>
 					<place type="sacral_building">
 						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
 						</placeName>
 					</place>
 				</listPlace>
-				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context"/></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context"/></persName></person>
+				<listPerson>
+                    <person>
+                        <persName subtype="celtic_normalized" type="divine">
+                            <ref target="context:fercan.dcn." type="context">Casses</ref>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName subtype="celtic_normalized_other" type="divine">
+                            <ref target="context:fercan.dcn.other" type="context">Biviae; Tribiae; Quadriviae</ref>
+                        </persName>
+                    </person>
 					<person>
 						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context"> Casses</ref> </persName>
 					</person>
@@ -100,8 +140,10 @@
 						</roleName> </persName>
 					</person>
 					<person>
-						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">
-						</ref></persName>
+						<persName type="gentilnomen">
+                            <ref target="context:fercan.person.gentilnomen." type="context">
+						</ref>
+                        </persName>
 					</person>
 					<person>
 						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
@@ -125,8 +167,10 @@
 						</orgName>
 					</org>
 					<org type="military_unit">
-						<orgName><ref target="context:fercan.org.military." type="context">
-						</ref></orgName>
+						<orgName>
+                            <ref target="context:fercan.org.military." type="context">
+						</ref>
+                        </orgName>
 					</org>
 					<org type="population_group">
 						<orgName> <ref target="context:fercan.org.population." type="context">
@@ -170,7 +214,10 @@
 			</langUsage>
 			<textClass>
 				<keywords>
-					<list><item><ref target="context:fercan.divinepart." type="context"/></item>
+					<list>
+                        <item>
+                            <ref target="context:fercan.divinepart." type="context">Cas[sibus]</ref>
+                        </item>
 						<item> <ref target="context:fercan.dedication." type="context"> pro salute dominorum nostrorum</ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
@@ -189,13 +236,13 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic mimeType="" xml:id="IMAGE.1" url="Casses 1086_fr.jpg">
-			<desc> </desc>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1086_front.jpg">
+			<desc> Front, CIL XIII Projekt, CC BY-NC</desc>
 		</graphic>
 	
             <!-- todo: @xml:id-->
-            <graphic mimeType="" url="Casses 1086_fr IS.jpg">
-                <desc/>
+            <graphic mimeType="image/jpeg" url="1086_front_IS.jpg">
+                <desc>Inschrift, CIL XIII Projekt, CC BY-NC</desc>
             </graphic>
         </facsimile>
 	<text>
@@ -207,41 +254,66 @@
 				
             <bibl xml:id="2">CIL XIII 6426 </bibl>
         
-            <bibl xml:id="3">Scheungraber 2020, 219 Nr.13 </bibl>
+            <bibl xml:id="6">Scheungraber 2020, 219 Nr.13 </bibl>
         
-            <bibl xml:id="4">Mattern 2005, 189-190 Nr.371 </bibl>
+            <bibl xml:id="5">Mattern 2005, Nr.371 </bibl>
         
-            <bibl xml:id="5">Castritius 1980, 054 </bibl>
+            <bibl xml:id="4">Castritius/Clauss 1980, Nr.54 </bibl>
         
-            <bibl xml:id="6">Reis 2018, 356 Nr.14</bibl>
+            
         
-            <bibl xml:id="7">Ferlut 2022, 766 Nr.1163</bibl>
+            <bibl xml:id="7">Ferlut 2022, Nr.1163</bibl>
+        
+            <bibl xml:id="3">Keune 1924 (Epigraph. Miscellen), Nr.5</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl type="EDCS"><idno> EDCS-11000444</idno><date> 2023-03-10</date></bibl>
-					<bibl type="EDH"><idno> HD075899</idno><date> 2021-02-24</date></bibl>
-					<bibl type="trismegistos"><idno> www.trismegistos.org/text/425242 </idno><date> 2023-03-10</date></bibl>
-					<bibl type="other"><idno> http://lupa.at/26902</idno><date> 2023-01-01</date></bibl>
-				<bibl type="lupa"><idno/><date/></bibl></listBibl>
+					<bibl type="EDCS">
+                        <idno> EDCS-11000444</idno>
+                        <date>zuletzt abgerufen 2023-03-10</date>
+                    </bibl>
+					<bibl type="EDH">
+                        <idno>HD075899</idno>
+                        <date>Version von 2021-02-24</date>
+                    </bibl>
+					<bibl type="trismegistos">
+                        <idno>https://www.trismegistos.org/text/425242</idno>
+                        <date>zuletzt abgerufen 2023-03-10</date>
+                    </bibl>
+					
+				<bibl type="lupa">
+                        <idno>http://lupa.at/26902 </idno>
+                        <date>Version von 2023-01-01</date>
+                    </bibl>
+                </listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform">
-				<ab><orig/></ab></div>
-			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab/></div>
+				<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><g type="interpunct">▴</g>ET<g type="interpunct">▴</g>TRIB<g type="interpunct">▴</g>QVA<g type="interpunct">▴</g>CAS<g type="interpunct">▴</g>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>P</unclear>RO<g type="interpunct">▴</g><unclear>S</unclear>AL<g type="interpunct">▴</g>D<g type="interpunct">▴</g>D<g type="interpunct">▴</g>N<g type="interpunct">▴</g>N
+<lb n="3"/><gap reason="lost" extent="unknown" unit="line"/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/><supplied reason="lost"><expan><abbr>Biv</abbr><ex>iis</ex></expan></supplied> et <expan><abbr>Trib</abbr><ex>iis</ex></expan> <expan><abbr>Qua</abbr><ex>driviis</ex></expan> <expan><abbr>Cas</abbr><ex>sibus</ex></expan> 
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>pro <expan><abbr>sal</abbr><ex>ute</ex></expan> <expan><abbr>d</abbr><ex>ominorum</ex></expan><expan> <abbr>n</abbr><ex>ostrorum</ex></expan>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="line"/></ab></div>
 			<div type="translation" xml:lang="de" org="uniform">
-				<p>Den <rs type="divine">Biviae</rs> und <i>Tribiae</i>, <i>Quadriviae</i>, <i>Casses</i> für das Wohl unserer Herren.<br/></p>
+				<p>                    <p>Den <rs type="divine">Biviae</rs>? und <rs type="divine">Tribiae</rs>, <rs type="divine">Quadriviae</rs>, <rs type="divine">Casses</rs>!</p>
+                    <p>Für das Wohl unserer Herren.<br/>
+                    </p>
+                </p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform">
-				<p>For the <rs type="divine">Biviae</rs>, and <i>Tribiae</i>, <i>Quadriviae</i>, <i>Casses</i> as a gift for the welfare of our lords.<br/></p>
+				<p>                    <p>For the <rs type="divine">Biviae</rs>? and <rs type="divine">Tribiae</rs>, <rs type="divine">Quadriviae</rs>, <rs type="divine">Casses</rs>!</p>
+                    <p>As a gift for the welfare of our lords.<br/>
+                    </p>
+                </p>
 			</div>
 			<div type="apparatus" org="uniform">
 				<app loc="1">
-					<note/>
+					<note>in eienr zusätzlichen Zeile oberhalb von dieser [I O M] – Christ; Tri&lt;v=B&gt;(iis) Qua(driviis) Cas(ibus) – EDH, Scheungraber; Trib(is = Triviis), Qua(driviis), Cas(ibus?) – Keune; Trib(is) Qua(drivis) – Castritius (u.a.), Ferlut; Cas [- - -] – Mattern</note>
 				</app>
 			</div>
-			<div type="commentary" subtype="general" org="uniform">
-				<p> </p>
+			<div type="commentary" subtype="general" org="uniform">Das Kloster Lorsch befindet sich zwar im Gebiet der Civitas Ulpia Sueborum Nicrensium. Es liegt jedoch im Bereich des Möglichen, dass der Stein von außerhalb stammt und in einer der Bauphasen des Klosters nach Lorsch transportiert wurde, weswegen die Herkunft der Inschrift ungesichert bleibt.<br/>
+                                                <p> </p>
 			</div>
 			<div type="commentary" subtype="language" org="uniform">
 				<p> </p>
@@ -253,26 +325,34 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"/>
+			<note type="Objbeschr_note"><p>Baatz 1982, S. 424: rechteckig zugeschlagener, offenbar in zweiter Verwendung verbauter Altarstein aus Marmor, der den Rest einer Inschrift trug...</p><p>CIL Kartei: quaderförmig behauen, früher sekundär verbaut</p><p>Inventarblatt: Das Profil zwischen Inschrift und Altarsteinbekrönung für Zweitverwendung abgespitzt, Altarsteinbekrönung abgearbeitet; Fuß und unterer Teil der Inschrift abgebrochen, erhalten die oberste und die Hälfte der Inschrift</p><p>Steiner Dan. et Rhen. Nr. 193: Bruckstück eines Dedicationsdenkmals in Gestalt eines Würfels (???) von allen Seiten rauh bearbeitet bis auf die Stelle der Schrift, welche glatt ist, augenscheinlich zum Vermauern so verunstaltet. Der untere Teil des Denkmals ist abgeschlagen, wodurch wohl der grössere Teil der Schrift verloren ging. <br/></p></note>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"><p>Bonner Jahrbuch und CIL Kartei: weißer Marmor<br/></p></note>
+			<note type="Material_note">                <p>Bonner Jahrbuch und CIL Kartei: weißer Marmor</p>
+                                                    <p>CIL: Auerbacher Marmor</p><p>Christ 1879, S. 48: Dasselbe besteht aus sogenanntem weissen Marmor, welcher am Ausgang des Felsberger Thales bei Hochstätten hinter Auerbach der Bergstrasse gebrochen wird. Es ist ein schöner, weisser, oft ins Bläuliche spielender Kalkstein, der zwischen Granit und Syenit dortiger Gegend zu Bildhauerarbeiten gebraucht wurde.<br/>
+                </p>
+            </note>
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"/>
-			<note type="Fundstelle_note"/>
-			<note type="Fundumst_note"/>
-			<note type="Fundjahr_note"/>
+			<note type="InvNr_note"><p>CIL Kartei: Lorsch Lapidarium IVNr 3.5.367; auch Inventarblatt Staatliche Schlösser und Gärten Hessen; ehemaliges Benediktinerkloster Kurfürstliches Haus, Vorrat, 1raum 01/02 auf Palette im hinteren Raumteil, linke Seite<br/></p></note>
+			<note type="Fundstelle_note"><p>in den Ruinen des Klosters ... Möglicherweise war der Stein in der Nähe der Kreuzung der linken Rheinuferstraße und einer vom Rhein über Lorsch in den Odenwald führenden Straße aufgestellt. Der ursprüngliche Standort läßt sich aber nicht mehr exakt bestimmen. (Baatz 1982, S. 424)<br/></p></note>
+			<note type="Fundumst_note">                                                    <p>Ihm 1887, S. 134 Nr. 188: Kloster Lorsch; in der Kapelle aufbewahrt, wo K. Christ den längeren Zeit verschollenen Stein wiederfand.<br/></p></note>
+			<note type="Fundjahr_note"><p>vor 1877, da hier das erste Mal beschrieben<br/></p></note>
 			<note type="FOantik_note"/>
 			<note type="FOmodern_note"/>
-			<note type="civitas_note"/>
+			<note type="civitas_note">
+                <p>Civitas Ulpia Sueborum Nicrensium? (EDH)<br/>
+                </p>
+            </note>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
 			<note type="Editionen_note">Photos von online nicht verfügbaren Inschriftentexten  s. Ordner: ISntexte Slg</note>
-			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"/>
+			<note type="ErhzustObj_note"><p>kleiner im Sinne von vom ganzen Stein ist nicht viel erhalten<br/></p></note>
+			<note type="Masse_note">                <p>EDH Nennt Höhe (47) und Breite 60 und Tiefe 40 cm, Karteikarte von 06/2012 gibt Höhe als 60, Breite als 40 und Tiefe als 42,5 cm, eine Kartei der Verwaltung der Staatlichen Schlösser und Gärten nennt nur 42,5x60,0x40,0 cm. Vom Photo her wirkt der Stein mehr Breit, als Hoch.</p><p>CIL Kartei: H60, B40, T42,5</p><p>Inventarblatt: 42,5x60x40<br/>
+                </p>
+            </note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
@@ -280,7 +360,9 @@
 			<note type="Buchsthoehe_note"/>
 			<note type="Notvar_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"/>
-		<note type="ElektronischeRessourcen_note"/><note type="Index_note"/></back>
+			<note type="Datierung_note"><p>198 n. Chr. – 211 n. Chr. wegen dem DD NN</p><p>s. Mattern 1998 S. 601-620, S. 612</p></note>
+		<note type="ElektronischeRessourcen_note"/>
+            <note type="Index_note"/>
+        </back>
 	</text>
 </TEI>

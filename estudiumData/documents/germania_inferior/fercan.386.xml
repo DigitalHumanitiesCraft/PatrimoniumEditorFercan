@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior386">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior386">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -287,7 +286,13 @@ Die Darstellung der linken Schmalseite ähnelt der der rechten Seite. </p>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1997, 1161</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Stuart/Bogaers 2001, B30</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Kakoschke 2005, 258f.</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Raybould/Sims-Williams 2009, 69 Nr.BEG 219</bibl>
+        
+            <bibl xml:id="6">Scheungraber 2020, 404 Nr.87</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.1008</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -305,14 +310,14 @@ Die Darstellung der linken Schmalseite ähnelt der der rechten Seite. </p>
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/><unclear instant="false">D</unclear>EAE NEHALE  <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/><unclear instant="false">D</unclear>EAE NEHALE  <lb n="2"/>
 <unclear instant="false">N</unclear>IAE S<unclear instant="false">V</unclear>MARO  <lb n="3"/>
 NIVS VI<unclear instant="false">T</unclear>ALIS  <lb n="4"/>
 SESQVI<unclear instant="false">P</unclear> ALAE  <lb n="5"/>
 NORIC AVERI<hi rend="ligature">NI</hi>  <lb n="6"/>
 VS SECVNDV<unclear instant="false">S</unclear>  <lb n="7"/>
 V S L M</orig></ab></div>
-            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Deae Nehale<lb n="2" break="no"/>niae Sumaro<lb n="3" break="no"/>nius Vitalis<lb n="4"/><expan instant="false"><abbr>sesquip</abbr><ex instant="false">licarius</ex></expan> alae<lb n="5"/><expan instant="false"><abbr>Noric</abbr><ex instant="false">orum</ex></expan> Averini<lb n="6" break="no"/>us Secundus<lb n="7"/><expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olverunt</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibentes</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><lb n="1"/>Deae Nehale<lb n="2" break="no"/>niae Sumaro<lb n="3" break="no"/>nius Vitalis<lb n="4"/><expan instant="false"><abbr>sesquip</abbr><ex instant="false">licarius</ex></expan> alae<lb n="5"/><expan instant="false"><abbr>Noric</abbr><ex instant="false">orum</ex></expan> Averini<lb n="6" break="no"/>us Secundus<lb n="7"/><expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olverunt</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibentes</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
             <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
                 <p part="N">Für die Göttin  <rs type="divine">Nehalenia!</rs> <lb/>
 Sumaronius Vitalis, sesquiplicarius alae Noricorum, (und) Averinius Secundus haben das Gelübde gerne und verdientermaßen erfüllt.  </p>
@@ -323,10 +328,10 @@ Sumaronius Vitalis, sesquiplicarius alae Noricorum, (and) Averinius Secundus hav
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">n(n)iae – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">n(n)iae – EDH, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">A(ulus) Verini – Kakoschke, EDH; ohne Ligatur – Stuart 1997, AE, Kakoschke, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">A(ulus) Verini – Kakoschke, EDH, Scheungraber; Noric(orum) (et) Averini- –  Raybould/Sims-Williams; ohne Ligatur – Stuart 1997, AE, Kakoschke, EDH</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

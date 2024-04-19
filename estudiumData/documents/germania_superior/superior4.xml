@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior4" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior4" n="">
 	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
-				<title type="full"><title type="main">Artioni</title><title type="sub">CF-GeS-1091</title></title>
+				<title type="full"><title type="main">Artio?</title><title type="sub">CF-GeS-1091</title></title>
 				<respStmt>
 					<resp>Inschriftenedition</resp>
 					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
@@ -40,9 +40,9 @@
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<settlement>Bad Homburg</settlement>
-						<repository>Höhe Römerkastell Saalburg</repository>
-						<idno/>
+						<settlement>Stockstadt</settlement>
+						<repository>Saalburgmuseum</repository>
+						<idno>St 13</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>Weihinschrift</summary>
@@ -50,33 +50,37 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
-									<objectType>Weihestein</objectType> <dimensions>
+								<support> <p>                                                <p>Es handelt sich um die Basis für eine steinerne Statue, die eine ungerahmte Inschrift trägt. Links unten ist ein großer Teil ausgebrochen und als Verlängerung des Bruchs zieht sich mittig ein Riss nach oben. Auch rechts außen ist Material abgebrochen. In der Mitte und links davon sind zwei tiefe unregelmäßige Löcher vorhanden. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110600">Statuenbasis/Basis</objectType> <dimensions>
 										<height unit="cm"> 15,0</height>
 										<width unit="cm"> 23,0</width>
 										<depth unit="cm"> 12,0</depth>
 									</dimensions> <note type="dimensions"> Die angegebenen Maße sind die des erhaltenen Fragments.</note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#"/> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p/> <note type="condition"/> </layout>
+								<layout> <p>                                                <p>Das Inschriftenfeld ist bis auf die Oberkante auf allen Seiten beschädigt.</p>
+                                                <p>Im erhaltenen Inschriftenfeld zieht sich ein mehrmals verzweigender Sprung durch die nach rechts geneigte Schräghaste des X in Z.2 bis an den oberen und rechten Rand.</p>
+                                                <p>Zu Beginn von Z.1 ist vom Buchstaben nur mehr eine Schräghaste gesichert zu erkennen, die auf den Buchstaben K oder R hinweist. Zu Beginn von Z.2 ist von den beiden S nur mehr der obere Bogen erhalten.<br/></p></p> <note type="condition"/> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote> <desc type="execution"/> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p>                                                <p>Auf der Basis sind noch zwei Schuhe der einst dargestsellten Figur erhalten. Rechts daneben liegt ein länglicher Gegenstand, der gemeinhin als Schlangenschwanz gedeutet wird. Um diese These zu unterstützen oder zu widerlegen, sind jedoch nicht genügend Anhaltspunkte erhalten. <br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251801">Schuhe</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.254210">Schwanz</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.1">Schlange</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="" notAfter=""> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1902"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Stockstadt a. M.</ref> </placeName> <p>Kastell Stockstadt</p> <location>
+						<origin> <origPlace> <placeName/> <region>Civitas Auderiensium</region> </origPlace> <origDate notBefore="" notAfter=""> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1902"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Stockstadt</ref> </placeName> <p>Kastell Stockstadt</p> <location>
 								<geo decls="#WGS"/>
 							</location> <note/> </provenance>
-						<provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)<br/></provenance>
+						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung gründet auf: CIL, Photo<br/></p></provenance>
 					</history>
 				</msDesc>
 				<listPlace>
@@ -88,9 +92,9 @@
 						</placeName>
 					</place>
 				</listPlace>
-				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context"/></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context"/></persName></person>
+				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context">Artio?</ref></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context"> </ref></persName></person>
 					<person>
-						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context"> Artioni</ref> </persName>
+						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context">Artio?</ref> </persName>
 					</person>
 					<person>
 						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> </ref> </persName>
@@ -169,8 +173,8 @@
 			</langUsage>
 			<textClass>
 				<keywords>
-					<list><item><ref target="context:fercan.divinepart." type="context"/></item>
-						<item> <ref target="context:fercan.dedication." type="context"> de suo</ref> </item>
+					<list><item><ref target="context:fercan.divinepart." type="context">[A]rtioni</ref></item>
+						<item> <ref target="context:fercan.dedication." type="context">de suo</ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref>
@@ -188,10 +192,13 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic mimeType="" xml:id="IMAGE.1" url="Artioni 091_fr.jpg">
-			<desc> </desc>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1091_front1.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC </desc>
 		</graphic>
-	</facsimile>
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1091_front2.jpg"><desc>Front, CIL XIII Projekt, CC BY-NC </desc></graphic>
+        </facsimile>
 	<text>
 		<body>
 			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
@@ -199,34 +206,56 @@
 				<listBibl>
 					<bibl xml:id="1"> CIL XIII 11789 </bibl>
 				
-            <bibl xml:id="2">Ferlut 2022, 356 Nr.29</bibl>
+            <bibl xml:id="2">Drexel 1914, 85 Nr.11</bibl>
+        
+            <bibl xml:id="3">Espérandieu 1931, Nr.266 (2 Lesungen für Z.1)</bibl>
+        
+            <bibl xml:id="4">Vermaseren 1960, Nr.1173</bibl>
+        
+            <bibl xml:id="5">Castritius/Clauss 1980, Nr.52</bibl>
+        
+            <bibl xml:id="6">Mattern 2005, Nr.92</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.29</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl type="EDCS"><idno> EDCS-12700295</idno><date> 2023-03-09</date></bibl>
-					<bibl type="EDH"><idno> HD042517</idno><date> 2017-08-11</date></bibl>
-					<bibl type="trismegistos"><idno> www.trismegistos.org/text/211304</idno><date> 2023-03-09</date></bibl>
+					<bibl type="EDCS"><idno> EDCS-12700295</idno><date> zuletzt abgerufen 2023-03-09</date></bibl>
+					<bibl type="EDH"><idno>HD042517</idno><date> Version von 2017-08-11</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/211304</idno><date> zuletzt abgerufen 2023-03-09</date></bibl>
 					<bibl type="other"><idno> </idno><date> </date></bibl>
 				<bibl type="lupa"><idno/><date/></bibl></listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform">
-				<ab><orig/></ab></div>
-			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab/></div>
+				<ab><orig/><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>R</unclear>TIONI S<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>S SEXTI S<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>E SV<gap reason="lost" extent="unknown" unit="character"/><orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/><supplied reason="lost">Deae A</supplied>rtioni s<supplied reason="lost"><expan><abbr>acr</abbr><ex>um</ex></expan></supplied>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>s <expan><abbr>Sexti</abbr><ex>us</ex></expan> S<gap reason="lost" extent="unknown" unit="character"/> 
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">d</supplied>e su<supplied reason="lost">o <expan><abbr>p</abbr><ex>osuit</ex></expan></supplied></ab></div>
 			<div type="translation" xml:lang="de" org="uniform">
-				<p/>
+				<p>                                                <p>Der Göttin <rs type="divine">Artio</rs> geweiht!</p>
+                                                <p>... Sextius ... aus eigenen Mitteln ...<br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform">
-				<p/>
+				<p>                                                <p>Sacred to the goddess <rs type="divine">Artio</rs>!</p>
+                                                <p>... Sextius ... from his own funds ...<br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform">
 				<app loc="1">
-					<note/>
+					<note>[....]rtionis – Drexel, Espérandieu (Lesung 1), Vermaseren; [---]rtioni[---] – Mattern</note>
 				</app>
-			</div>
-			<div type="commentary" subtype="general" org="uniform">
-				<p> </p>
-			</div>
+			
+            <app loc="2"><note anchored="true">[....]ssextis – Drexel, Espérandieu, Vermaseren; Sexti – EDH </note></app>
+        
+            <app loc="3"><note anchored="true">su[o ...] – Drexel; su[o posuit] – Espérandieu; su/o [...] – Vermaseren; [pos(uit)] – Castritius/Clauss, Mattern, Ferlut; [--- ser(vus)? d]e su[o p(osuit)] – EDH</note></app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform">                                                <p>[...]s Sextius S[...]: tria nomina?<br/></p>
+                                                <p>Sextius: italisches Gentilnomen oder einheimisches Pseudogentilnomen abgeleitet von Sextus, reichsweit verbreitet (Kakoschke 2021, GN 1206)</p>
+                                                <p> </p>
+			<p/>
+                                                <p/></div>
 			<div type="commentary" subtype="language" org="uniform">
 				<p> </p>
 			</div>
@@ -238,12 +267,12 @@
 		</body>
 		<back>
 			<note type="Objbeschr_note"/>
-			<note type="ArchKlass_note"/>
-			<note type="Material_note"/>
+			<note type="ArchKlass_note"><br/></note>
+			<note type="Material_note">                                                    <p>roter Sandstein (Vermaseren 1960, S. 89, Nr. 1172; Schwertheim 1974, S. 139); Castritius, Clauss 1980, S. 209, Nr. 52; Drexel 1914, S. 85 Nr. 11: rötlicher Sandstein<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
-			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"/>
-			<note type="Fundstelle_note"/>
+			<note type="VerwahrortOrt_note"><p>lt CIL Kartei von 2007<br/></p></note>
+			<note type="InvNr_note"><p>lt. CIL Kartei von 2007<br/></p></note>
+			<note type="Fundstelle_note">                                                    <p>Mithraeum (CIL) - Schwertheim 1974, S. 139: "Im CIL, wo als Fundort irrtümlich das Praetorium angegeben ist..."<br/></p></note>
 			<note type="Fundumst_note"/>
 			<note type="Fundjahr_note"/>
 			<note type="FOantik_note"/>
@@ -254,11 +283,17 @@
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note"/>
+			<note type="Editionen_note"><p>Photos von online nicht verfügbaren Inschriftentexten  s. Ordner: ISntexte Slg</p></note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"/>
-			<note type="Ikonogr_note"/>
-			<note type="Inschrtext_note"/>
+			<note type="Masse_note">                                                    <p>EDH; Mattern Unterschied bei Tiefe 12,5 cm</p>
+                                                    <p>Espérandieu, Ferlut hauteru 13, largeur 25, épaisseur 10 cm</p>
+                                                    <p>Castritius/Clauss 13x25x?</p>
+                                                    <p>Schwertheim 1974, S. 139: H 0,127m; B 0,245m</p>
+                                                    <p>Drexel 1914, S. 85 Nr. 11: Höhe 12,7; Breite 24,5<br/></p></note>
+			<note type="Ikonogr_note">                                                    <p>CIL und Vermaseren 1960, S. 89, Nr. 1172: Upon a base which has an inscription are the feet of a standing figure. Next to the left foot, part of a serpent (Aion?)</p>
+                                                    <p>Schwertheim 1974, S. 139: Auf der Basis sind die Füße einer stehenden Figur zu sehen. Der neben S. 140: dem linken Fuß sichtbare Teil einer Schlange deutet auf die Darstellung eines Aion hin. </p>
+                                                    <p>Drexel 1914, S. 85 Nr. 11: Auf der Oberseite der Basis sind die scheinbar in weichen Schuhen steckenden Füsse einer Figur erhalten, die fast vollplastisch gegen die 3-3,5cm dicke Rückwand stand. Rechts liegt die Spitze eines Schwanzes, vermutlich eines Schlangenschwanzes, auf der Erde. Dargestellt war der löwenköpfige Dämon des mithrischen Kreises, dessen Namen die Inschrift zum ersten Male nennen würde, wenn sie besser erhalten wäre. <br/></p></note>
+			<note type="Inschrtext_note"><p>Die erste Abzweigung geht nach oben direkt durch die erste Senkrechthaste des ‚N‘ in Z.1. Der Hauptsprung verläuft nach rechts durch die Waagrechthaste des ‚T‘ in Z.2 an dessen Ende ein weiterer feiner Sprung leicht schräg nach rechts unten, durch das ‚I‘ und ‚S‘ von Z.2 verlaufend, abzweigt, während der Sprung einen nach oben gewölbten Bogen beschreibt durch den das ‚I‘ und ‚S‘ von Z.1 miteinander verbunden werden.<br/></p></note>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
 			<note type="Buchsthoehe_note"/>

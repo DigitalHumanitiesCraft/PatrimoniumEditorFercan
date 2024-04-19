@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior186">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior186">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -211,7 +210,9 @@
             <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Alföldy 1968, Nr.95</bibl>
-                </listBibl>
+                
+            <bibl xml:id="2">Scheungraber 2020, 565 Nr.76</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -239,12 +240,16 @@ Titus V…</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[V]aca[lline] – Alföldy</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[V]aca[lline] – Alföldy, Scheungraber; es steht v.0 mit unbestimmtem Inhalt – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[h]is - Alföldy</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[h]is - Alföldy, Scheungraber</tei:note>
                 </app>
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">us [ – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Vaca…ae:</rs> Rest von  <rs type="divine">Vacallinehae</rs> oder einer Variante: keltisch: ‚Unter den Bäumen bzw. dem Wald Verweilende [Muttergöttinen]‘ 
 (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243).    </p>
                                                 <p part="N">

@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior290">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior290">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -312,7 +311,11 @@ Die linke Schmalseite ist komplett verwittert, daher ist keine weitere Beschreib
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, A4</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1446</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 397 Nr.32</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.1078</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>

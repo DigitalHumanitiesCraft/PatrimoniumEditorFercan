@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior446">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior446">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -343,8 +342,14 @@ An der Rückseite sind ein zwischen den beiden Kapitellen aufgehängter bodenlan
                     <bibl xml:id="LIT.2" default="false" status="draft">Espérandieu IX 6651</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Byvanck 1935, Nr.238</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Hondius-Crone 1955, Nr.10</bibl>
-                    <bibl xml:id="LIT.5" default="false" status="draft">Stuart 2013, Nr.10</bibl>
-                </listBibl>
+                    <bibl xml:id="LIT.5" default="false" status="draft">Raybould/Sims-Williams 2007, 71 Nr.BEG 135</bibl>
+                
+            <bibl xml:id="6">Stuart 2013, Nr.10</bibl>
+        
+            <bibl xml:id="7">Scheungraber 2020, 394 Nr.16 </bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.1064</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -358,7 +363,7 @@ An der Rückseite sind ein zwischen den beiden Kapitellen aufgehängter bodenlan
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>DE<supplied reason="undefined" evidence="previouseditor" instant="false">AE</supplied>  <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>DE<supplied reason="undefined" evidence="previouseditor" instant="false">AE</supplied>  <lb n="2"/>
 NEH<supplied reason="undefined" evidence="previouseditor" instant="false">AL</supplied>ENN<supplied reason="undefined" evidence="previouseditor" instant="false">IAE</supplied>  <lb n="3"/>
 SEXT <supplied reason="undefined" evidence="previouseditor" instant="false">N</supplied>ERTO<supplied reason="undefined" evidence="previouseditor" instant="false">MA</supplied>  <lb n="4"/>
 <supplied reason="undefined" evidence="previouseditor" instant="false">R</supplied>IVS NE<supplied reason="undefined" evidence="previouseditor" instant="false">R</supplied>T<supplied reason="undefined" evidence="previouseditor" instant="false">ONV</supplied>S  <lb n="5"/>
@@ -374,19 +379,19 @@ Sextus Nertomarius Nertonus has fulfilled a vow gladly, willingly and deservedly
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">fehlender Zeilenwechsel nach „deae“ – Hondius-Crone; die unterstrichenen Buchstaben sind nur abschriftlich überliefert.</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">fehlender Zeilenwechsel nach „deae“ – Hondius-Crone; die unterstrichenen Buchstaben sind nur abschriftlich überliefert</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Nehalenniae] – Espérandieu; Nehalenn[iae] – Byvanck; Nehalennia[e] – Hondius-Crone; die unterstrichenen Buchstaben sind nur abschriftlich überliefert.</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Nehalenniae] – Espérandieu; Nehalenn[iae] – Byvanck; Nehalennia[e] – Hondius-Crone; die unterstrichenen Buchstaben sind nur abschriftlich überliefert</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Sext(us) Nertoma] – Espérandieu; Nert[oma] – Byvanck; die unterstrichenen Buchstaben sind nur abschriftlich überliefert.</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Sext(us) Nertoma] – Espérandieu; Nert[oma] – Byvanck; die unterstrichenen Buchstaben sind nur abschriftlich überliefert</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[rius Nerton]us – Espérandieu; rius Nert[on]us – Byvanck; Nert[onus] – Hondius-Crone; die unterstrichenen Buchstaben sind nur abschriftlich überliefert.</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[rius Nerton]us – Espérandieu; rius Nert[on]us – Byvanck; Nert[onus] – Hondius-Crone; die unterstrichenen Buchstaben sind nur abschriftlich überliefert</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[v(otum)] s(olvit) l(ibens) l(aetus) m(erito) – Byvanck; [v(otum) s(olvit)] l(ibens) l(aetus) m(erito) – – Espérandieu, Hondius-Crone; die unterstrichenen Buchstaben sind nur abschriftlich überliefert.</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[v(otum)] s(olvit) l(ibens) l(aetus) m(erito) – Byvanck; [v(otum) s(olvit)] l(ibens) l(aetus) m(erito) – – Espérandieu, Hondius-Crone; die unterstrichenen Buchstaben sind nur abschriftlich überliefert; l(ibens) l(aetus) – Scheungraber, Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior295">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior295">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -343,6 +342,10 @@
           <bibl xml:id="LIT.2" default="false" status="draft">Bogaers 1983, 13</bibl>
           <bibl xml:id="LIT.3" default="false" status="draft">AE 1983, 720</bibl>
           <bibl xml:id="LIT.4" default="false" status="draft">Stuart/Bogaers 2001, A9</bibl>
+        
+            <bibl xml:id="5">Scheungraber 2020, 397 Nr.37</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.1095</bibl>
         </listBibl>
       </div>
       <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
@@ -383,20 +386,16 @@
           <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[D]e[ae] Ne[h]alenni[ae] – Stuart/Bogaers 1971</tei:note>
         </app>
         <app loc="#MIN.2 #MAJ.2">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[ca.2] VA [ca.3] M [ca.8] – Stuart/Bogaers 1971; Mar[tialis/-cianus/-cellus] –
-            Boegaers, AE</tei:note>
+          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[ca.2] VA [ca.3] M [ca.8] – Stuart/Bogaers 1971; Mar[tialis/-cianus/-cellus] –            Boegaers, AE; [3] Val(erius) – Scheungraber</tei:note>
         </app>
         <app loc="#MIN.3 #MAJ.3">
           <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">negot(iator) S [ca.2] N [ca.6] – Stuart/Bogaers 1971; Can[tianus] et – AE</tei:note>
         </app>
         <app loc="#MIN.4 #MAJ.4">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[ca.4] SE.ECAN[ca.6] – Stuart/Bogaers 1971; Zeile beginnt gleich mit Geserecan[us
-            ---] – Bogaers, AE; möglw. auch Geserican[us] – Bogaers, Stuart/Bogaers 2001; am
-            Zeilenende vielleicht CCAA – Stuart/Bogaers 2001</tei:note>
+          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[ca.4] SE.ECAN[ca.6] – Stuart/Bogaers 1971; Zeile beginnt gleich mit Geserecan[us ---] – Bogaers, AE; möglw. auch Geserican[us] – Bogaers, Stuart/Bogaers 2001; am Zeilenende vielleicht CCAA – Stuart/Bogaers 2001; [et] Geserecan[us)…] – Ferlut</tei:note>
         </app>
         <app loc="#MIN.5 #MAJ.5">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[ob] – Stuart/Bogaers 1971; Zeile endet mit c[ons(ervatas)] – Stuart/Bogaers 1971,
-            Bogaers, AE</tei:note>
+          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[ob] – Stuart/Bogaers 1971; Zeile endet mit c[ons(ervatas)] – Stuart/Bogaers 1971, Bogaers, AE, Scheungraber; Zeile endet mit c[onser(vatas)] – Ferlut</tei:note>
         </app>
       </div>
       <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

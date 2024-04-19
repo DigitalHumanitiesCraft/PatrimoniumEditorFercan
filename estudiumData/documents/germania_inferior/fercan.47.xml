@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior47">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior47">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -261,7 +260,11 @@ Die Reliefdarstellung der rechten Schmalseite gleicht der von links. Hier wirkt 
                     <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1930, Nr.38</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1931, 23</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Nesselhauf 1937, 145</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 113 Nr.3</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.544</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -300,7 +303,11 @@ Iulius Romulus and Iulius Peregrinus have fulfilled a vow willingly and deserved
                 <app loc="#MIN.4 #MAJ.4">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Nesselhauf, EDH</tei:note>
                 </app>
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">Iuli – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Iulius Romulus und Iulius Peregrinus: römisches Namensformular mit Gentile und Cognomen ohne Praenomen <lb/>
 Iulius: italisches kaiserliches Gentilnomen von Caesar bis Caligula, überall äußerst gängig (Kakosche 2006, GN 621); das Gentile Iulius ist in den südlichen Gebieten der Germania Inferior auffällig oft bezeugt. Für eine Liste des Vorkommens dieses Gentilnomens in der Provinz s. Alföldy 1967, 20-27). <lb/>

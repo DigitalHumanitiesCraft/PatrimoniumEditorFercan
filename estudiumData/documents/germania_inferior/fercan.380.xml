@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior380">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior380">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -267,7 +266,11 @@ Die Darstellung der rechten Seite gleicht der linken.</p>
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 1971, Nr.51</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1975, 656</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Stuart/Bogaers 2001, B23</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 405 Nr.99</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.999</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -304,7 +307,7 @@ Gaius Sabinianus Sextus has fulfilled a vow willingly and deservedly.</p>
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">D[ea]e – EDH</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Sannianu[s] – Stuart/Bogaers 1971, AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Sannianu[s] – Stuart/Bogaers 1971, AE, EDH, Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

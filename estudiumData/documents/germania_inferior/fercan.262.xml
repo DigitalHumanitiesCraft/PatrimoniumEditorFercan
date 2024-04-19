@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior262">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior262">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -285,7 +284,9 @@
             <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Vollgraff 1931, 256-257, tabula B Nr.4</bibl>
-                </listBibl>
+                
+            <bibl xml:id="2">Scheungraber 2020, 192 Nr.2; 239</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -299,7 +300,7 @@
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>TSS L PPOS COLON SVDOBEB BRAB LOBBO ALBIOBO G S LBE A V SOLV DEAB BORVO BOEDOAE COBBAE ALBIOBO BA POS</orig></ab></div>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>TSS L PPOS COLON SVDOBEB BRAB LOBBO ALBIOBO G S LBE A V SOLV DEAB BORVO BOEDOAE COBBAE ALBIOBO BA POS</orig></ab></div>
             <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/><supplied reason="lost" instant="false">v</supplied>(o)<expan instant="false"><abbr>t</abbr><ex instant="false">is</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">uscepti</ex></expan>s <expan instant="false"><abbr>l</abbr><ex instant="false">ibentes</ex></expan> <expan instant="false"><abbr>pos</abbr><ex instant="false">uerunt</ex></expan>. <expan instant="false"><abbr>Colon</abbr><ex instant="false">ia</ex></expan> <expan instant="false"><abbr>Sudobeb</abbr><ex instant="false">a</ex></expan> <expan instant="false"><abbr>Brab</abbr><ex instant="false">onum</ex></expan> <expan instant="false"><abbr>Lobbo</abbr><ex instant="false">no</ex></expan>, <expan instant="false"><abbr>Albiobo</abbr><ex instant="false">lae</ex></expan> <expan instant="false"><abbr>G</abbr><ex instant="false">enio</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">ancto</ex></expan>, <expan instant="false"><abbr>l</abbr><ex instant="false">i</ex></expan><expan instant="false"><abbr>be</abbr><ex instant="false">ns</ex></expan> <expan instant="false"><abbr>a</abbr><ex instant="false">nimo</ex></expan> <expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>solv</abbr><ex instant="false">it</ex></expan>, <expan instant="false"><abbr>deab</abbr><ex instant="false">us</ex></expan> Borvoboedoae Cobbae <expan instant="false"><abbr>Albiobo</abbr><ex instant="false">lae</ex></expan> <expan instant="false"><abbr>Ba</abbr><ex instant="false">taborum</ex></expan> <expan instant="false"><abbr>pos</abbr><ex instant="false">uit</ex></expan></ab></div>
             <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
                 <p part="N">Nachdem Gelübde abgelegt worden waren haben sie dies gerne aufgestellt. Die Colonia Sudobeba Brabonum hat dem  <rs type="divine">Lobbonus</rs> – dem  <rs type="divine">Genius sanctus der (Colonia) Albiobola</rs> – mit freudigem Herzen das Gelübde gerne erfüllt (und?) dies für die Göttinnen  <rs type="divine">Borvoboedoa</rs> und  <rs type="divine">Cobba</rs> der (Colonia) Albiobola Bataborum aufgestellt.</p>
@@ -308,7 +309,11 @@
                 <p part="N">After vows were taken they willingly set this up. The Colonia Sudobeba Brabonum paid  <rs type="divine">Lobbonus</rs> – the  <rs type="divine">Genius sanctus of the (Colonia) Albiobola</rs> – their vow with a joyful heart (and?) set this up for the goddesses  <rs type="divine">Borvoboedoa</rs> and  <rs type="divine">Cobba</rs> of the (Colonia) Albiobola Bataborum.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="1">
+                <note anchored="true">[v(otis)] – Scheungraber; ppos(uerunt) – Scheungraber; Ba(tavorum) – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Es könnte sich bei den Utrechter Tafeln um eine Sammlung von Weihinschriften handeln, die für anderwärtige Verwendung zusammengestellt worden waren. Das könnte vielleicht auch die seltsame Schriftform erklären. Franke (RE S VI 1935, Sp.3 s.v. Albiobola) vermutet, dass es sich bei den Tafeln um Weihinschriften für einen arcus quadrifrons handelt.  </p>
                 <p part="N">

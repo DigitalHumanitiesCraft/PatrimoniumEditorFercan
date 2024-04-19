@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior247">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior247">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -234,7 +233,11 @@
                     <bibl xml:id="LIT.3" default="false" status="draft">AE 1920, 5</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Alföldy 1968, Nr.8</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Biller 2001, 219</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 571 Nr.133</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.827</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -268,7 +271,7 @@ Flaccinia Lefa by order of them (the goddesses) willingly and deservedly.</p>
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Mtron̂is – CIL</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">V̂acall̂in̂êiĥis – Lehner; ohne Ligatur des Zeichens für den velaren Reibelaut und I – AE; V̂aĉall̂in̂êĥis – Alföldy; V̂aĉall̂in̂êiĥis – Biller</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">V̂acall̂in̂êiĥis – Lehner; ohne Ligatur des Zeichens für den velaren Reibelaut und I – AE, Ferlut; V̂aĉall̂in̂êĥis – Alföldy; V̂aĉall̂in̂êiĥis – Biller, Scheungraber</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

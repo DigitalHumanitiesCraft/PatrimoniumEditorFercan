@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior319">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior319">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -245,7 +244,11 @@ Laut Literatur (Neuffer 1948, 399) sind die Schmalseiten des Altares glatt und o
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Neuffer 1948, 399</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Nesselhauf/Lieb 1959, Nr.234</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 585 Nr.3</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.649</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -275,7 +278,7 @@ Caius Sollius Saturninus according to their order willingly and deservedly. </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Nesselhauf/Lieb</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Nesselhauf/Lieb; IM̂P – Neuffer; Saturninius – Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior29" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior29" n="">
 	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
@@ -40,9 +40,9 @@
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<settlement/>
-						<repository/>
-						<idno/>
+						<settlement>Karlsruhe</settlement>
+						<repository>Badisches Landesmuseum</repository>
+						<idno> C 546</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>Weihinschrift</summary>
@@ -50,33 +50,39 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
-									<objectType>Weihestein</objectType> <dimensions>
-										<height unit="cm"> </height>
-										<width unit="cm"> </width>
+								<support> <p>                                                <p>Die hochrechteckiege Bronzetafel ist ungefähr in der Mitte gebrochen und modern wieder zusammengefügt. Ansonsten scheint sie gut erhalten, zeigt aber keine weiteren Gestaltungsmerkmale. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120110">Bronze</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110500">Tafel</objectType> <dimensions>
+										<height unit="cm">23</height>
+										<width unit="cm">19</width>
 										<depth unit="cm"> </depth>
 									</dimensions> <note type="dimensions"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#"/> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p/> <note type="condition"/> </layout>
+								<layout> <p>                                                <p>Das Inschriftenfeld ist etwa im unteren Drittel durchgebrochen. Oben und unten ist etwas mehr als eine Zeile als Rahmung freigelassen. Die Inschrift ist komplett erhalten und unsauber zentriert. Die Buchstaben sind bis auf eine Ausnahme gleichmäßig.</p>
+                                                
+                                                <p>Die als Worttrenner verwendeten Dreiecke sind in Z.1, Z.3 und Z.5 vor und nach jedem Wort gesetzt, wodurch der Name der Göttin, in Z.2, und des Dedikanten, in Z.4, optisch betont werden.</p>
+                                                <p>Besondere Zeichen: In Z.4 ist das U kleiner zwischen N und S eingeschrieben. Der auffallend
+ größer gehaltene Abstand zwischen N und S lässt vermuten, dass der 
+Steinmetz, als er merkte, dass der Platz in der Zeile nicht mehr 
+ausreichte, das U kleiner schlug, um noch in der Zeile zu bleiben, sowie
+ um nicht mit einem kleineren Buchstaben zu Enden.</p></p> <note type="condition"/> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote> <desc type="execution"/> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+							<handNote> <desc type="execution">graviert</desc> <height unit="cm" atLeast="2.3" atMost="2.3">2,3–2,3</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140700">Reparatur</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="" notAfter=""><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1846"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Hockenheim</ref> </placeName> <p/> <location>
+						<origin> <origPlace> <placeName> </placeName> <region>Civitas Ulpia Sueborum Nicrensium</region> </origPlace> <origDate notBefore="" notAfter=""><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1846"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Hockenheim</ref> </placeName> <p>"Ungefähr eine Stunde von diesem Dorfe [Hockenheim], in der Richtung gegen Speier [...] auf einem sehr ausgedehnten Wiesengrunde, früher zum grössten Theil nur Sümpfe und Moräste"" (Rappenegger 1847, 3)</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note/> </provenance>
-						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
+							</location> <note>bei der Vornehmung "verschiedener Nivellierungen [...] um durch Entwässerung einerseits, und durch Zuleitung von Wasser andererseits, besseres Feld zu gewinnen." (Rappenegger 1846, 3). Der Fundort ist nicht gänzlich geklärt. Es kommen auch Maximiliansau und Lampertheim in Frage (Wagner 1911, 198).</note> </provenance>
+						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (6.11.2023)</p></provenance>
 					</history>
 				</msDesc>
 				<listPlace>
@@ -88,12 +94,12 @@
 						</placeName>
 					</place>
 				</listPlace>
-				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context"/></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context"/></persName></person>
+				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context">Sirona</ref></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context"/></persName></person>
 					<person>
-						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context"> Sirona</ref> </persName>
+						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context">Sirona</ref> </persName>
 					</person>
 					<person>
-						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> Marcianus</ref> </persName>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Marcianus</ref> </persName>
 					</person>
 					<person>
 						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
@@ -170,11 +176,11 @@
 			<textClass>
 				<keywords>
 					<list>
-						<item> <ref target="context:fercan.dedication." type="context"> votum solvit libens laetus merito</ref> </item>
+						<item> <ref target="context:fercan.dedication." type="context">votum solvit laetus libens merito</ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
-						<item> <ref target="context:fercan.divinepart." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.divinepart." type="context">Deae Sironae</ref> </item>
 						<item> <ref target="context:fercan.theonymischesFormular." type="context"> </ref> </item>
 					</list>
 				</keywords>
@@ -189,28 +195,45 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="Sirona 1114_fr.jpg">
-			<desc> </desc>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1114_front1.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
 		</graphic>
-	</facsimile>
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1114_front2.jpg"><desc>Front, Kopie, https://edh.ub.uni-heidelberg.de/edh/foto/F023775, © F. Feraudi-Gruénais</desc></graphic>
+        </facsimile>
 	<text>
 		<body>
 			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
 			<div subtype="editions" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl xml:id="1"> CIL XIII 6327</bibl>
+					<bibl xml:id="3">Brambach 1867 (Corpus), Nr.1698</bibl>
 				
-            <bibl xml:id="2">Scheungraber 2020, 489 Nr.18</bibl>
+            <bibl xml:id="8">Scheungraber 2020, 489 Nr.18</bibl>
+        
+            <bibl xml:id="4">CIL XIII 6327</bibl>
+        
+            <bibl xml:id="5">Wagner 1911, 198</bibl>
+        
+            <bibl xml:id="6">Weisgerber 1975, 118 Nr.18.4</bibl>
+        
+            <bibl xml:id="7">Pfahl 2012, Nr.199</bibl>
+        
+            <bibl xml:id="9">Ferlut 2022, Nr.1231</bibl>
+        
+            <bibl xml:id="1">Rappenegger 1947, Nr.4</bibl>
+        
+            <bibl xml:id="2">Rappenegger 1848-1849, 292</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl type="EDCS"><idno> EDCS-11000336</idno><date> 2023-03-10 </date></bibl>
-					<bibl type="EDH"><idno>  HD036540</idno><date>  2020-04-22</date></bibl>
-					<bibl type="trismegistos"><idno> www.trismegistos.org/text/210819</idno><date> 2023-03-10</date></bibl>
+					<bibl type="EDCS"><idno> EDCS-11000336</idno><date>zuletzt abgerufen 2023-03-10 </date></bibl>
+					<bibl type="EDH"><idno>HD036540</idno><date>  2020-04-22</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/210819</idno><date>zuletzt abgerufen 2023-03-10</date></bibl>
 					<bibl type="lupa"><idno> </idno><date> </date></bibl>
-					<bibl type="other"><idno> https://cil.bbaw.de/ace/id/55518</idno><date> 2023-03-10 </date></bibl>
-				<bibl type="lupa"><idno/><date/></bibl></listBibl>
+					<bibl type="other"><idno>https://cil.bbaw.de/ace/id/55518</idno><date>zuletzt abgerufen 2023-03-10</date></bibl>
+				</listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform">
 				<ab><lb n="1"/><g type="interpunct">▴</g>DEAE<g type="interpunct">▴</g>
@@ -220,9 +243,9 @@
 <lb n="5"/><g type="interpunct">▴</g>V<g type="interpunct">▴</g>S<g type="interpunct">▴</g>L<g type="interpunct">▴</g>L<g type="interpunct">▴</g>M<g type="interpunct">▴</g><orig/></ab></div>
 			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Deae
 <lb n="2"/>Sironae
-<lb n="3"/>Cl(audius)
+<lb n="3"/><expan><abbr>Cl</abbr><ex>audius</ex></expan>
 <lb n="4"/>Marcianus
-<lb n="5"/>v(otum) s(olvit) l(ibens) l(aetus) m(erito)</ab></div>
+<lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform">
 				<p><p>Für die Göttin <rs type="divine">Sirona</rs>!</p><p>Claudius Marcianus hat das Gelübe freudig, gerne und verdientermaßen erfüllt.<br/></p></p>
 			</div>
@@ -230,15 +253,22 @@
 				<p><p>To the godess <rs type="divine">Sirona</rs>!</p><p>Claudius Marcianus has fulfilled a vow gladly, willingly and deservedly.<br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform">
-				<app loc="1">
-					<note/>
+				<app loc="3">
+					<note>ohne Zeilenwechsel CL Marianus – Brambach</note>
 				</app>
-			</div>
-			<div type="commentary" subtype="general" org="uniform">
-				<p> </p>
-			</div>
+			
+            <app loc="4"><note anchored="true">Marianus – Rappenegger 1847/1848-1849</note></app>
+        
+            <app loc="5">
+                <note anchored="true">lubens libens – Rappenegger 1947; lubens laetus – Rappenegger 1848-1849; v. s. l. m. – Weisgerber; v(otum) s(olvit) l(ibens) l(aetus) m(erito) – EDH, Pfahl, Scheungraber, Ferlut</note>
+            </app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform">                                                <p>Claudius Marcianus: römisches Namensformular ohne Praenomen</p>
+                                                <p>Claudius: italisches Gentilnomen, kaiserliches Gentilnomen, überall äußerst gängig (Kakoschke 2021, GN 342)</p>
+                                                <p>Marcianus: lateinischer Name, Weiterbildung des Gentilnomenss Marcius oder des Personennamens/Namens Marcus, überall gängig (Kakoschke 2021, CN 1914)
+			</p></div>
 			<div type="commentary" subtype="language" org="uniform">
-				<p> In v.4 das U von "Marcianus" kleiner zwischen N und S eingeschrieben.</p>
+				<p/>
 			</div>
 			<div type="commentary" subtype="deity" org="uniform">
 				<p> </p>
@@ -250,32 +280,32 @@
 			<note type="Objbeschr_note"/>
 			<note type="ArchKlass_note"/>
 			<note type="Material_note"/>
-			<note type="Inschrifttraeger_note"/>
+			<note type="Inschrifttraeger_note"><p>EDH: tabula<br/></p></note>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"/>
+			<note type="InvNr_note">                                                    <p>Wagner, Pfahl, Kartei<br/></p></note>
 			<note type="Fundstelle_note"/>
-			<note type="Fundumst_note"/>
-			<note type="Fundjahr_note"/>
-			<note type="FOantik_note"/>
-			<note type="FOmodern_note"/>
+			<note type="Fundumst_note"><p>s. Wagner 198<br/></p></note>
+			<note type="Fundjahr_note"><p>Sommer, Wagner 1911, S. 198<br/></p></note>
+			<note type="FOantik_note"><p>EDH: (Civitas Ulpia Sueborum Nicrensium)</p><p>Pfahl: Fundort unbekannt<br/></p></note>
+			<note type="FOmodern_note"><p>so Rappenegger 1847 S.3</p><p>lt. Weisgerber 1975, S. 118: Fundort unbestimmt: auf dem linken Rheinufer gegenüber Maxau bei Karsruhe? oder bei Worms? oder bei Straßburg? oder Hockenheim gegenüber Speyer?</p><p>Wagner 1911, S. 198: nach dem Inventar der Gr.S.Khe aus Maximiliansau am Rhein, nach Creuzer aus Lampertheim, nach Rappenegger, Fickler und Christ aus Hockenheim stammend<br/></p></note>
 			<note type="civitas_note"><p>Civitas Ulpia Sueborum Nicrensium</p></note>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note"/>
+			<note type="Editionen_note"><p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p></note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"/>
+			<note type="Masse_note"><p>So EDH</p><p>Wagner, Breite 19,3</p><p>Weisgerber, Breite 14<br/></p></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"/>
+			<note type="Buchsthoehe_note">                                                    <p>Wagener, EDH, <b>Was mit dem kleineren U?</b><br/></p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"/>
+			<note type="Datierung_note"><p>EDH 51 AD – 150 AD<br/></p></note>
 		<note type="ElektronischeRessourcen_note"/><note type="Index_note"/></back>
 	</text>
 </TEI>

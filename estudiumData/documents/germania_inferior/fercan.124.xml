@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior124">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior124">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -80,7 +79,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p part="N">Der Inschriftentext scheint vollständig überliefert zu sein. Doch könnte er einige Fehler beinhalten. Die seit Bergk (1882) immer wieder vorgeschlagene Verbesserung (s. Apparatus criticus; weitere Literatur dazu s. Kakosche 2016 AdEp VI, p.5 Anm.15) auf #Matres Marsacae# erscheint all zu gewagt. Die Unklarheit, die sich in Z.4. aus „PRAEFECT · I“ ergibt, ist am leichtesten zu erklären, wenn man annimmt, dass der Punkt vor dem I fasch gesetzt ist.<lb/>Ligatur: s. Majuskeltext</p>
+                                    <p part="N">                                                <p>Der Inschriftentext scheint vollständig überliefert zu sein. Doch könnte er einige Fehler beinhalten. Die seit Bergk (1882) immer wieder vorgeschlagene Verbesserung (s. Apparatus criticus; weitere Literatur dazu s. Kakosche 2016 AdEp VI, p.5 Anm.15) auf <rs type="divine">Matres Marsacae</rs> erscheint all zu gewagt. Die Unklarheit, die sich in Z.4. aus „PRAEFECT · I“ ergibt, ist am leichtesten zu erklären, wenn man annimmt, dass der Punkt vor dem I falsch gesetzt ist.<lb><br/></lb>Ligatur: s. Majuskeltext</p></p>
                                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">vollständig</tei:note>
                                 </layout>
                             </layoutDesc>
@@ -242,7 +241,11 @@
                     <bibl xml:id="LIT.5" default="false" status="draft">de Bernardo Stempel/Hainzmann 2009, 90</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">de Bernardo Stempel/Hainzmann 2010, 39</bibl>
                     <bibl xml:id="LIT.7" default="false" status="draft">Reuter 2012, Nr.69</bibl>
-                </listBibl>
+                
+            <bibl xml:id="8">Scheungraber 2020, 126 Nr.1</bibl>
+        
+            <bibl xml:id="9">Ferlut 2022, Nr.873</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -275,10 +278,10 @@ Marcus Aurelis Lu(cius) Veronius Verus, beneficiarius praefecti, has fulfilled a
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Zeilenwechsel nach Arsacis – ILS; &lt;M&gt;arsacis (so schon Bergk in Westdt.Zs. I 1882, 153) – Schallmayer/Eibl/Ott/Preuss/Wittkopf, Reuter</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">LV für Lu(cius)?, vielleicht Verginius – Schallmayer/Eibl/Ott/Preuss/Wittkopf; Aurel.(?) Veronius – Haensch</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">LV für Lu(cius)?, vielleicht Verginius – Schallmayer/Eibl/Ott/Preuss/Wittkopf; Aurel.(?) Veronius – Haensch; LV(?) – Scheungraber; Lu(cius) – Ferlut </tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Zeilenwechsel nach pro – ILS; praefecti I pro se – de Bernardo Stempel/Hainzmann 2009, de Bernardo Stempel/Hainzmann 2010; ohne Ligatur – ILS, de Bernardo Stempel/Hainzmann 2009, de Bernardo Stempel/Hainzmann 2010, Reuter.</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Zeilenwechsel nach pro – ILS; praefecti I pro se – de Bernardo Stempel/Hainzmann 2009, de Bernardo Stempel/Hainzmann 2010; ohne Ligatur – ILS, de Bernardo Stempel/Hainzmann 2009, de Bernardo Stempel/Hainzmann 2010, Reuter; &lt; b=P&gt; e(neficiarius) praefecti (!) I pro se – Scheungraber; be(neficarius) praefecti I pro se – Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

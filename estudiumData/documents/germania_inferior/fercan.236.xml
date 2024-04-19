@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior236">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior236">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -243,6 +242,10 @@
           <bibl xml:id="LIT.5" default="false" status="draft">Weisgerber 1968, 28 Nr.177</bibl>
           <bibl xml:id="LIT.6" default="false" status="draft">Scheid 2006, 321</bibl>
           <bibl xml:id="LIT.7" default="false" status="draft">Kakoschke 2015, Nr.4</bibl>
+        
+            <bibl xml:id="8">Scheungraber 2020, 557 Nr.3</bibl>
+        
+            <bibl xml:id="9">Ferlut 2022, Nr.787</bibl>
         </listBibl>
       </div>
       <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
@@ -274,18 +277,19 @@ I<gap reason="lost" extent="unknown" unit="character" instant="false"/> M</orig>
       </div>
       <div type="apparatus" org="uniform" part="N" sample="complete">
         <app loc="#MIN.3 #MAJ.3">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Am(ius) Nomieiius – Freudenberg; Am(ius) Nomi. eiius – Holder; Am. Nomienus – Riese;
-            AM · NOMI · EIIVS, corruptus – CIL; Am. Nomi. eiius – Weisgerber; AM NOMI EIIUS –
-            Scheid; *Amnomieiius – CIL XIII/5 2 (Index)</tei:note>
+          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Am(ius) Nomieiius – Freudenberg; Am(ius) Nomi. eiius – Holder; Am. Nomienus – Riese; AM · NOMI · EIIVS, corruptus – CIL; Am. Nomi. eiius – Weisgerber; AM NOMI EIIUS – Scheid; *Amnomieiius – CIL XIII/5 2 (Index); Amnomiei{i}us – Scheungraber; AM NOMI eius – Ferlut </tei:note>
         </app>
         <app loc="#MIN.4 #MAJ.4">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Primu[s] [ex] imp(erio) – Freudenberg; PRIMV · I IMP, corruptus – CIL</tei:note>
+          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Primu[s] [ex] imp(erio) – Freudenberg; PRIMV · I IMP, corruptus – CIL; imp(erio?) – Scheungraber; Primus [ex] – Ferlut</tei:note>
         </app>
         <app loc="#MIN.5 #MAJ.5">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">i[psarum] [votum solvit lubens (sic)] m[erito] – Freudenberg; I M, corruptus –
-            CIL</tei:note>
+          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">i[psarum] [votum solvit lubens (sic)] m[erito] – Freudenberg; I M, corruptus – CIL; l(ibens) m(erito) – Ferlut</tei:note>
         </app>
-      </div>
+      
+            <app loc="2">
+                <note anchored="true">Vacal(l)inehis – Scheungraber</note>
+            </app>
+        </div>
       <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
         <p part="N">Amnomieiius Primus: römisches Namensformular mit Gentilnomen und Cognomen ohne Praenomen
           <lb/> Amnomieiius: einheimische Bildung (Kakoschke 2006, GN 74) <lb/> Primus: lateinisches

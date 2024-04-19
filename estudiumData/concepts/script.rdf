@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:thot="http://thot.philo.ulg.ac.be/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:RDF xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:thot="http://thot.philo.ulg.ac.be/" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <skos:ConceptScheme rdf:about="https://ausohnum.huma-num.fr/thesaurus/scripts/">
         <skosThesau:admin status="published"/>
         <dc:title type="full">Scripts</dc:title>
@@ -35,21 +34,21 @@
         <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c2562"/>
         <skosThesau:admin status="published"/>
         <dct:created>2016-11-30T14:32:31</dct:created>
-        <dct:modified when="2017-08-23T15:21:44.462+02:00" who="vincent"/>
-        <dct:modified when="2017-08-23T15:29:53.043+02:00" who="vincent"/>
-        <dct:modified when="2017-08-23T15:54:21.613+02:00" who="vincent"/>
-        <dct:modified when="2017-08-23T16:05:56.534+02:00" who="vincent"/>
-        <dct:modified when="2017-08-23T16:13:32.674+02:00" who="vincent"/>
-        <dct:modified when="2017-08-23T16:15:24.69+02:00" who="vincent"/>
-        <dct:modified when="2017-08-23T16:15:49.817+02:00" who="vincent"/>
-        <dct:modified when="2017-08-23T16:31:19.799+02:00" who="vincent"/>
-        <dct:modified when="2017-08-23T16:32:59.543+02:00" who="vincent"/>
-        <dct:modified when="2017-08-23T16:42:18.117+02:00" who="vincent"/>
-        <dct:modified when="2017-08-23T16:46:16.11+02:00" who="vincent"/>
-        <dct:modified when="2017-08-23T16:48:14.052+02:00" who="vincent"/>
-        <dct:modified when="2017-08-23T16:55:24.946+02:00" who="vincent"/>
-        <dct:modified when="2017-08-23T16:57:32.964+02:00" who="vincent"/>
-        <dct:modified when="2017-08-23T16:59:07.635+02:00" who="vincent"/>
+        <dcterms:modified when="2017-08-23T15:21:44.462+02:00" who="vincent"/>
+        <dcterms:modified when="2017-08-23T15:29:53.043+02:00" who="vincent"/>
+        <dcterms:modified when="2017-08-23T15:54:21.613+02:00" who="vincent"/>
+        <dcterms:modified when="2017-08-23T16:05:56.534+02:00" who="vincent"/>
+        <dcterms:modified when="2017-08-23T16:13:32.674+02:00" who="vincent"/>
+        <dcterms:modified when="2017-08-23T16:15:24.69+02:00" who="vincent"/>
+        <dcterms:modified when="2017-08-23T16:15:49.817+02:00" who="vincent"/>
+        <dcterms:modified when="2017-08-23T16:31:19.799+02:00" who="vincent"/>
+        <dcterms:modified when="2017-08-23T16:32:59.543+02:00" who="vincent"/>
+        <dcterms:modified when="2017-08-23T16:42:18.117+02:00" who="vincent"/>
+        <dcterms:modified when="2017-08-23T16:46:16.11+02:00" who="vincent"/>
+        <dcterms:modified when="2017-08-23T16:48:14.052+02:00" who="vincent"/>
+        <dcterms:modified when="2017-08-23T16:55:24.946+02:00" who="vincent"/>
+        <dcterms:modified when="2017-08-23T16:57:32.964+02:00" who="vincent"/>
+        <dcterms:modified when="2017-08-23T16:59:07.635+02:00" who="vincent"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://ausohnum.huma-num.fr/concept/c67" type="non-ordered" xml:id="c67">
         <dc:identifier scheme="bts">UHT63RLVTNFE3BC4EM7H6L6RJY</dc:identifier>

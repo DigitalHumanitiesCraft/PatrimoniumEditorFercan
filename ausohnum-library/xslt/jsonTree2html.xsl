@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:json="http://www.json.org" version="2.0">
     <!--    Attribute removed:xpath-default-namespace="http://www.tei-c.org/ns/1.0" -->
     <xsl:output method="html" omit-xml-declaration="yes" indent="yes"/>
@@ -34,44 +33,28 @@
                     </xsl:attribute>
                     <xsl:value-of select="./title/text()"/>
                 </xsl:element>
-                <ul class="dropdown-menu skosThesauDropDown" id="skosThesauDropDown-1">
-                    <input id="skosThesauDropDown-1" type="text">
-                      <xsl:for-each select="./children">
-                          <xsl:sort select="title" data-type="text" lang="de"/>
-                          <xsl:call-template name="children"/>
-                      </xsl:for-each>
-                </ul>
-                <script>
-                $( function() {
-                    var availableTags = [
+              
+                <ul class="dropdown-menu skosThesauDropDown" id="itemList-1">
                     <xsl:for-each select="./children">
-                        <xsl:value-of select="concat('&quot;', title, '&quot;')"/>
-                        <xsl:if test="not(last())">
-                            <xsl:text>, </xsl:text>
-                        </xsl:if>
+                        <xsl:call-template name="children"/>
                     </xsl:for-each>
-                    ];
-                    $( "#skosThesauDropDown-1" ).autocomplete({
-                    source: availableTags
-                    });
-                } );
-                </script>
+                </ul>
             </li>
-        
+            
         </xsl:if>
         <xsl:if test="./[@json:array] = 'false'">
-        
+            
             <li>
-                    <xsl:element name="a">
-                        <xsl:attribute name="menu">#<xsl:value-of select="$xmlElement"/>_<xsl:value-of select="$index"/>_<xsl:value-of select="$pos"/>
+                <xsl:element name="a">
+                    <xsl:attribute name="menu">#<xsl:value-of select="$xmlElement"/>_<xsl:value-of select="$index"/>_<xsl:value-of select="$pos"/>
                     </xsl:attribute>
-                        <xsl:attribute name="value">
+                    <xsl:attribute name="value">
                         <xsl:value-of select="$value"/>
                     </xsl:attribute>
-                        <xsl:value-of select="./title/text()"/>
-                    </xsl:element>
-                    
-                </li>
+                    <xsl:value-of select="./title/text()"/>
+                </xsl:element>
+                
+            </li>
             
         </xsl:if>
     </xsl:template>
@@ -84,56 +67,35 @@
     </xsl:template>
     
     <xsl:template match="/children">
-            <div class="dropdown">
-                <xsl:element name="button">
-                    <xsl:attribute name="id">
+        <div class="dropdown">
+            <xsl:element name="button">
+                <xsl:attribute name="id">
                     <xsl:value-of select="$xmlElement"/>_<xsl:value-of select="$index"/>_<xsl:value-of select="$pos"/>
                 </xsl:attribute>
-                    <xsl:attribute name="class">btn btn-xs btn-default dropdown-toggle elementWithValue<xsl:if test="number($pos) &gt; 1"> hidden</xsl:if>
+                <xsl:attribute name="class">btn btn-xs btn-default dropdown-toggle elementWithValue<xsl:if test="number($pos) &gt; 1"> hidden</xsl:if>
                 </xsl:attribute>
-                    <xsl:attribute name="type">button</xsl:attribute>
-                    <xsl:attribute name="name">
+                <xsl:attribute name="type">button</xsl:attribute>
+                <xsl:attribute name="name">
                     <xsl:value-of select="$xmlElement"/>
                 </xsl:attribute>
-                    <xsl:attribute name="value"/>
-                    <xsl:attribute name="data-toggle">dropdown</xsl:attribute>
-                    <xsl:attribute name="activateFollowing">
+                <xsl:attribute name="value"/>
+                <xsl:attribute name="data-toggle">dropdown</xsl:attribute>
+                <xsl:attribute name="activateFollowing">
                     <xsl:if test="$activateFollowing !=''">
                         <xsl:value-of select="$xmlElement"/>_<xsl:value-of select="$index"/>_<xsl:value-of select="number($activateFollowing)"/>
-                        </xsl:if>
-                    </xsl:attribute>
-                    
-                    <em>Select an item</em>
-                    <span class="caret"/>
-                </xsl:element>
-                <!-- CP skosThesauDropDown-2-->
-                <ul class="dropdown-menu skosThesauDropDown">
-                <input id="skosThesauDropDown-2" type="text">
-                    <xsl:for-each select="./children">
-                        <xsl:sort select="title" data-type="text" lang="de"/>
-                        <xsl:call-template name="children"/>
-                    </xsl:for-each>
-                </ul>
-
-                <script>
-                console.log("test");
-
-                $( function() {
-                    var availableTags = [
-                    <xsl:for-each select="./children">
-                        <xsl:value-of select="concat('&quot;', title, '&quot;')"/>
-                        <xsl:if test="not(last())">
-                            <xsl:text>, </xsl:text>
-                        </xsl:if>
-                    </xsl:for-each>
-                    ];
-                    $( "#skosThesauDropDown-2" ).autocomplete({
-                    source: availableTags
-                    });
-                } );
-                </script>
-
-            </div>
-            
+                    </xsl:if>
+                </xsl:attribute>
+                
+                <em>Select an item</em>
+                <span class="caret"/>
+            </xsl:element>
+            <!-- CP skosThesauDropDown-2-->
+            <ul class="dropdown-menu skosThesauDropDown" id="itemList2">
+                <xsl:for-each select="./children">
+                    <xsl:call-template name="children"/>
+                </xsl:for-each>
+            </ul>
+        </div>
+        
     </xsl:template>
 </xsl:stylesheet>

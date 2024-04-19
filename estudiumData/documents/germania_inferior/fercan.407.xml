@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior407">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior407">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -256,7 +255,11 @@ Die Darstellung auf der rechten Seite dürfte diesem Motiv ähnlich sein.</p>
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, B52</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1492</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 409, Nr.123</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.1006</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -293,9 +296,13 @@ Die Darstellung auf der rechten Seite dürfte diesem Motiv ähnlich sein.</p>
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligaturen – EDH</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Pri[mit]i(v)u[s] – Stuart/Bogaers 2001; Pri[mit]ius – AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Pri[mit]i(v)u[s] – Stuart/Bogaers 2001, Scheungraber, Ferlut; Pri[mit]ius – AE, EDH</tei:note>
                 </app>
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">[3] T[e]rtiniu[s] – Scheungraber, Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">… Tertinius Pri…ius: der Rest eines Namensformulars mit tria nomina <lb/>
 Tertinius: einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Cognomen Tertius/Tertinus; der Name findet sich fast ausschließlich nördlich der Alpen, vor allem im Rheinland (Kakoschke 2006, GN 1281). <lb/>

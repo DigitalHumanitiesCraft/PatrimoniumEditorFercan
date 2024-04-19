@@ -1,0 +1,324 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior43" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Apollo Grannus</title><title type="sub"> CF-GeS-1008</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.43</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Speyer</settlement>
+						<repository>Historisches Museum der Pfalz</repository>
+						<idno>1936/29</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p>                                                <p>Die Inschrift befindet sich am Abakus eines toskanischen Kapitells (lupa). Der Abakus ist rundherum abgeschlagen, am stärksten am rechten Rand der Inschrift. Von der Säule ist noch der Ansatz vorhanden. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.220200">Kapitell</objectType> <dimensions>
+										<height unit="cm"> 37</height>
+										<width unit="cm"> 53</width>
+										<depth unit="cm"> 50</depth>
+									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>Der Inschriftentext ist bis auf die Ausbruchstelle am rechten Rand vollständig erhalten und, auch wenn die Buchstaben z.T. schon stark abgerieben sind, lesbar.</p>
+                                                <p>Am Ende von Z.2 scheinen nach dem letzten vollständig erhaltenen Buchstaben, einem G, noch Reste eines R erhalten.<br/></p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="2.8" atMost="3.3">2,8–3,3</height> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName>Noviomagus</placeName> <region>Civitas Nemetum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1936"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Speyer</ref> </placeName> <p>am ‚Tafelsbrunnen‘ (Bernhard 1983, 103)</p> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true">„F. Sprater hat hier am Hangfuß der Hochterrasse Ausgrabungen durchgeführt“ (Bernhard 1983, 103)</note> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Apollo Grannus</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Grannus</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> </ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">Aulius; Florius</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context">civis Trever</ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">
+						</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">civis Trever</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context">votum libens merito</ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">Apollini Grann[o]</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1008_front.jpg">
+			<desc> Front, Historisches Museum der Pfalz, Speyer, Foto: Ortolf Harl 2016</desc>
+		</graphic>
+	</facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="1"> AE 1936, 76</bibl>
+				
+            <bibl xml:id="2">Sprater 1936, 60</bibl>
+        
+            <bibl xml:id="3">Nesselhauf 1937, Nr.71</bibl>
+        
+            <bibl xml:id="4">Weisgerber 1975, 119</bibl>
+        
+            <bibl xml:id="5">Krier 1981, 76f.</bibl>
+        
+            <bibl xml:id="6">Bernhard 1983, 103</bibl>
+        
+            <bibl xml:id="7">Hirte 1995, 373</bibl>
+        
+            <bibl xml:id="8">Wierschowski 2001, 451</bibl>
+        
+            <bibl xml:id="9">Hainzmann 2016, 48. Nr.25</bibl>
+        
+            <bibl xml:id="10">Scheungraber 2020, 307 Nr.16</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno> EDCS-11202168</idno><date> zuletzt abgerufen 2023-06-05</date></bibl>
+					<bibl type="EDH"><idno>HD024342</idno><date> Version von 2016-05-30</date></bibl>
+					<bibl type="trismegistos"><idno> </idno><date> </date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/26599</idno><date> Version von 2021-01-12</date></bibl>
+					<bibl type="other"><idno> </idno><date> </date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/>APOLLINI GRANN<gap reason="lost" quantity="1" unit="character"/>
+<lb n="2"/>AVLIVS FLORIVS G<unclear>R</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/>TVS C TREVER<g type="interpunct">▴</g>V L <unclear>M</unclear></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Apollini Grann<supplied reason="lost">o</supplied>
+<lb n="2"/>Aulius Florius Gr<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3" break="no"/>tus <expan><abbr>c</abbr><ex>ivis</ex></expan> Trever <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p><p>Für <rs type="divine">Apollo Grannus</rs>!</p><p>Aulius Florius Gr[---]tus, ein Angehöriger der civitas der Treverer, (hat) das Gelübde gerne und verdientermaßen (erfüllt).</p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p><p>To <rs type="divine">Apollo Grannus</rs>!<br/>Aulius Florius Gr[---]tus, a member of the civitas of the Treveri, (has fulfilled) the vow willingly and deservedly.</p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="1">
+					<note anchored="true">GRANNO – AE, Sprater</note>
+				</app>
+			
+            <app loc="2"><note anchored="true">AVLLVS – AE, Sprater; am Ende der Zeile CA – AE, Sprater; G[---] – Nesselhauf, Weisgerber, Krier, Hirte, Wierschowski, EDH, Lupa; G[at] als Möglichkeit – Hirte; Gr[at]us mit fehlendem Zeilenwechsel vor tus – Bernhard; Gr[a] – Hainzmann, Scheungraber</note></app>
+        
+            <app loc="3"><note anchored="true">tus(?) – Scheungraber; TREVERVS – AE, Sprater; v(ovit) l(ibens) [m(erito)] – AE, Nesselhauf, Weisgerber, Krier, Bernhard, Hirte, Wierschowski, Haintmann, EDH, Scheungraber</note></app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Aulius Florius Gr[---]tus: vermutlich dreiteiliger Personenamen in der Form: Gentiliz, Pseudogentiliz und Cognomen. Florius dürfte ein Pseudogentiliz sein und für Sohn des Florus stehen. Diese Namensform ist fast ausschließlich in den zwei germanischen Provinzen, der Belgica und Rätien bezeugt (Kakoschke 2016 Annotationes, 11; anders Hirte 1995, 373); vgl. CF-GeS-1004.</p>
+                                                <p>
+                                                    </p>
+                                                <p>Aulius: italisches Gentilnomen oder einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Namen Aulus, weit verbreitet (Kakoschke 2021, GN 177)</p>
+                                                    <p>Florius: italisches Gentilnomen oder einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Namen Florus, weit verbreitet (Kakoschke 2021, GN 518)</p>
+                                                    <p>Gr[---]tus: eine Ergänzung auf Gratus liegt nahe: der lateinische Name Gratus (16x in der Germania Superior belegt), überall gängig (Kakoschke 2021, CN 1476); die Rest des letzten sichtbaren Buchstabens der Zeile könnte aber auch zu einem N gehören, sodass sich Gnatus ergäbe: der keltische Name Gnatus (3x in der Germania Superior belegt), selten belegt (Kakoschke 2021, CN 1462). Beide Möglichkeiten schon bei Nesselhauf (1937, Nr.71). </p>
+			<p/></div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note">                                                    <p>Vgl. Hirte 1995, 373 <br/></p></note>
+			<note type="ArchKlass_note">                                                    <p><br/></p></note>
+			<note type="Material_note">                                                    <p>So: EDH, lupa, CIL XIII Kartei</p>
+                                                    <p>Nesselhauf: Kalkstein</p>
+                                                    <p>CIL Kartei: hellgrauer Kalkstein und auf nächster Seite Sandstein…</p><p>Lt. Mail vom 20.7.23</p></note>
+			<note type="Inschrifttraeger_note">EDH: Archtekturteil, Kapitell mit Säulenansatz.<p>Lupa: Toskanisches Kapitell, auf dem Abakus Inschrift. Basis für ein Weihgeschenk</p></note>
+			<note type="VerwahrortOrt_note"/>
+			<note type="InvNr_note"><p>…WSpDB: Speyer Magazin 1936/29</p><p>Lupa: Depot<br/></p></note>
+			<note type="Fundstelle_note"/>
+			<note type="Fundumst_note"/>
+			<note type="Fundjahr_note"><p>Lt. Mail vom 20.7.23<br/></p></note>
+			<note type="FOantik_note"><p>ClausSlaby: Noviomagus Nemetum<br/></p></note>
+			<note type="FOmodern_note"/>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note">                                                    <br/></note>
+			<note type="Abb_note">                                                    <p>WSpDB: Film Nr.160/3-7</p>
+                                                    <p>gutes Photo in lupa - Recht überprüfen<br/></p></note>
+			<note type="englUEbers_note"><p>a member of the civitas - gelb markiert - überprüfen<br/></p></note>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note">                                                    <p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p>
+                                                    <p>Verw. durch ClaussSlaby: auf CIL: RIU Suppl. = AE 2005, 1222 – falsch</p>
+                                                    <p>Kakoschke I (CD-ROM)Nr.1.153</p></note>
+			<note type="ErhzustObj_note"><p>wenn man vom Kapitell ohne Säule ausgeht, was ja der Inschriftenträger ist...<br/></p></note>
+			<note type="Masse_note">                                                    <p>So CIL Kartei</p>
+                                                    <p>Lupa: H 37, B 52, T 52</p>
+                                                    <p>EDH: H: 52, B: 52</p></note>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note"/>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note"><p>WSpDB: 150-250</p><p>Krier: 2.H.2.Jh.</p><p>EDH: 101-300</p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

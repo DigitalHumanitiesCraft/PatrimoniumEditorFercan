@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior384">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior384">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -238,7 +237,11 @@ Auf den Seiten sind Baumdarstellungen erkennbar.</p>
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, B26</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1484</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 406 Nr.102</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.1023</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -273,10 +276,10 @@ Auf den Seiten sind Baumdarstellungen erkennbar.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Ne]halen[n(iae)] – AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Ne]halen[n(iae)] – AE, EDH; [Ne]halen[niae] – Scheungraber; [Ne]halen[iae] – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">möglw. Brinno (vgl. Tac.Hist.4,15) – AE, Raepsaet-Charlier 2003, 297</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">möglw. Brinno (vgl. Tac.Hist.4,15) – AE, Raepsaet-Charlier 2003, 297; [3]ri[3]n[3]o – Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]ini (filius) – Raepsaet-Charlier 2003, 297</tei:note>

@@ -1,0 +1,330 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior117" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Diana Abnoba</title><title type="sub">CF-GeS-1107</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.117</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement/>
+						<repository/>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref> </material>
+									<objectType>Weihestein</objectType> <dimensions>
+										<height unit="cm"> 68,5</height>
+										<width unit="cm">98</width>
+										<depth unit="cm">123</depth>
+									</dimensions> <note type="dimensions" anchored="true">Die Maße sind die des rekonstruierten Objektes.</note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>Die Inschrift ist in mehreren Fragmenten erhalten. Die Buchstaben von Z.1-2 sind breiter gearbeitet als die der übrigen Zeilen.</p>
+                                                <p>Die A haben einen Mittelhaken, statt einer Querhaste. Da sich auf dem letzten Fragment in Z.3 keine Spuren eines I finden, bleibt als Möglichkeit, dass dieses entweder mit dem beschädigten N elongiert war, oder aber, dass der Steinmetz (irrtümlich?) das Congomen Sennus (Kakoschke 2021, CN 2812) statt des Gentilnomens Sennius (Kakoschke 2021, GN 1175) schrieb. Das ineinandergeschriebene VS am Ende von Z.3 zeigt zumindest die Platzprobleme mit denen der Steinmetz konfrontiert war. In Z.4 sind eindeutig die oberen Reste eines O sowie einer NT-Ligatur erhalten. Der letzte Buchstabe von Z.4 ist als L zu lesen, da sich am darüber befindlichen Fragment keine Spuren der oberen Querhaste eines E feststellen lassen. Auf den Fragmenten für Z.5 lassen sich die Reste zweier Schräghasten feststellen, die aufgrund inhaltlicher Überlegungen und vom vorhandenen Platz aus betrachtet als X und V zu rekonstruieren sind. Vgl. hierzu Wiegels (1982, 41-43).</p>
+                                                <p>zu Ligaturen: s. Majuskelumschrift</p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="5.0" atMost="5.5">5,0–5,5</height> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
+								<ref type="context" target="context:fercan.arch."/> </term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1784"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Badenweiler</ref> </placeName> <p><p>am Eingang zum Bad Richtung Westen (CIL)<br/></p></p> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true"><p>während gezielter Ausgrabungen<br/></p></note> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung gründet auf: Wiegels 1982<br/></p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Diana Abnoba</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Abnoba</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> </ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">
+						</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">
+						</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context">solvit libens ex voto</ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">Dianae Abnob[ae]</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1107_front1.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
+		</graphic>
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1107_front2.jpg">
+                <desc>Front, Ubi Erat Lupa Foto: Ortolf Harl 2005</desc>
+            </graphic>
+        </facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="1">Brambach 1867 (Corpus), Nr.1654, Nr.1657a-c</bibl>
+				
+            <bibl xml:id="2">CIL XIII 5334, 5337a-e</bibl>
+        
+            <bibl xml:id="4">Riese 1914, Nr.2714</bibl>
+        
+            <bibl xml:id="5">Wiegels 1982, 41</bibl>
+        
+            <bibl xml:id="7">Scheungraber 2020, 63 Nr.3</bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.2</bibl>
+        
+            <bibl xml:id="3">Wagner 1908, 166</bibl>
+        
+            <bibl xml:id="6">Kakoschke 2002, Nr.2.92</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno>EDCS-10800739</idno><date>2024-02-13</date></bibl>
+					<bibl type="EDH"><idno>HD001803</idno><date>2020-07-03</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/209809</idno><date>2024-02-13</date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/8307</idno><date>2022-12-20</date></bibl>
+					<bibl type="other"><idno> </idno><date> </date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/>DIANAE
+<lb n="2"/>ABNOB<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/>M<g type="interpunct">▴</g>SENN<gap reason="lost" quantity="1" unit="character"/><hi rend="ligature">VS</hi>
+<lb n="4"/><gap reason="lost" quantity="2" unit="character"/><unclear>O</unclear><hi rend="ligature">NT</hi>O S <unclear>L</unclear>
+<lb n="5"/><unclear>E</unclear><unclear>X</unclear> <unclear>V</unclear>OTO<orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Dianae
+<lb n="2"/>Abnob<supplied reason="lost">ae</supplied>
+<lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Senn<supplied reason="lost">i</supplied>us
+<lb n="4"/><supplied reason="lost">Fr</supplied>onto <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan>
+<lb n="5"/>ex voto</ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p>                                                <p>Für <rs type="divine">Diana Abnoba</rs>!</p>
+                                                <p>Marcus Sennius Fronto hat nach einem Gelübde freudig eingelöst.<br/></p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p><p>To <rs type="divine">Diana Abnoba</rs>!</p><p>Marcus Sennius Fronto has fulfilled willingly on account of a vow.<br/></p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="3">
+					<note anchored="true">Nur Wiedergabe von Z.1-2 – Brambach Nr.1654, CIL 5334, Riese, Wagner (kein Zusammenhang mit den Bruchstücken von Z.3-5: Brambach Nr.1657a-c, CIL 5337a-e hergestellt)</note>
+				</app>
+			
+            <app loc="4">
+                <note anchored="true">[pr]o s[e] – CIL 5337b; s(ibi) oder s(olvit) oder S(ennic) l(ibertus) – Wiegels; s(olvit?) l(ibens?) – Kakoschke, Scheungraber</note>
+            </app>
+        
+            <app loc="5">
+                <note anchored="true">[ex v]oto – CIL 5337b</note>
+            </app>
+        
+            <app loc="2">
+                <note anchored="true">Abnob[e] – Kakoschke</note>
+            </app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Marcus Sennius Fronto: tria nomina</p><p>Sennius: italisches Gentilnomen oder einhemisches Pseudogentil, abgeleitet vom keltischen Namen Sen(n)us, in den keltischen Provinzen verbreitet (Kakoschke 2021, GN 1175)</p><p>Fronto: gängiges lateinisches Cognomen (Kakoschke 2021, CN
+1365)</p></div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note"/>
+			<note type="ArchKlass_note"/>
+			<note type="Material_note"><p>Wiegels 1982, 41: oolithischer Schillkalk<br/></p></note>
+			<note type="Inschrifttraeger_note"/>
+			<note type="VerwahrortOrt_note"/>
+			<note type="InvNr_note"/>
+			<note type="Fundstelle_note"/>
+			<note type="Fundumst_note">                                                    <p>Siehe Wagner 1908, 165-167; Heinz 1982 "Der Diana Abnoba-Altar in Badenweiler"<br/></p></note>
+			<note type="Fundjahr_note"><p>so CIL - im Frühjahr<br/></p></note>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note"><p>so CIL<br/></p></note>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note"/>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note"/>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note"><p>Wiegels 1982, 41<br/></p></note>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note"><p>Wiegels 1982, 41<br/></p></note>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note"><p>EDH: <span style="color: rgb(51, 51, 51); font-family: Ubuntu, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 100; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">71 AD – 250 AD</span></p><p><span style="color: rgb(51, 51, 51); font-family: Ubuntu, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 100; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Heinz 1982 (archäologisch): spätes 1. bis 2. Jh.</span></p><p><span style="color: rgb(51, 51, 51); font-family: Ubuntu, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 100; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Wiegels 1982 (epigraphisch): Ende 1. bis Ende 2. Jh<br/></span></p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior134">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior134">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -207,7 +206,9 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 10027,212a</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Deman/Raepsaet-Charlier 2002, Nr.139a</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 365 Nr.6</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -237,7 +238,7 @@
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">M(agusano) – Deman/Raepsaet-Charlier, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">M(agusano) – Deman/Raepsaet-Charlier, EDH, Scheungraber</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">M…:</rs> vermutlich Rest von  <rs type="divine">Magusanus</rs>: keltisch: ‚Mächtiger Alter' (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 109-111).</p>

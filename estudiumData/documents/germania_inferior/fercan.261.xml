@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior261">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior261">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -246,7 +245,11 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 12039</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1918, Nr.508</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 558 Nr. 2</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr. 82</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -275,12 +278,16 @@ Caius Iulius Secundus has fulfilled a vow willingly and deservedly. </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Va]callin̂eis – CIL, Lehner</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Va]callin̂eis – CIL, Lehner, Ferlut; [Va]calline(h)is – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">v [s l l m] – CIL</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">v [s l l m] – CIL; u(otum) s(oluit) l(aetus) l(ibens) m(erito) – Ferlut</tei:note>
                 </app>
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">Secundus – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Gaius Iulius Secundus: tria nomina <lb/>
 Iulius: italisches kaiserliches Gentilnomen von Caesar bis Caligula, überall äußerst gängig (Kakosche 2006, GN 621); das Gentile Iulius ist den südlichen Gebieten der Germania Inferior auffällig oft bezeugt. Für eine Liste des Vorkommens dieses Gentilnomens in der Provinz s. Alföldy (1967, 20-27). <lb/>

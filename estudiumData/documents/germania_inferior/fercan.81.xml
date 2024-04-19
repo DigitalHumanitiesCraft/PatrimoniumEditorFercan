@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior81">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior81">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -258,7 +257,11 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 8572</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1918, Nr.337</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Oxé 1935, Nr.VII</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 428 Nr.2</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.804</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -291,7 +294,15 @@ Gaius Iulius Seranus and Vipsania Fahena have fulfilled a  vow willingly and des
                 <app loc="#MIN.3 #MAJ.3">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Sern̂us – CIL</tei:note>
                 </app>
-            </div>
+            
+            <app loc="5">
+                <note anchored="true">hena ex imp(erio) i&lt;p=B&gt;sa(rum) v(otum) s(olverunt) l(ibentes) m(erito) – Scheungraber (Z.6 fehlt)</note>
+            </app>
+        
+            <app loc="6">
+                <note anchored="true">ips(arum) – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Gaius Iulius Seranus: tria nomina <lb/>
 Iulius: italisches kaiserliches Gentilnomen, überall äußerst gängig (Kakoschke 2006, GN 621) <lb/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior21" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior21" n="">
 	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
@@ -42,7 +42,7 @@
 					<msIdentifier>
 						<settlement>Baden-Baden</settlement>
 						<repository>Stadtmuseum</repository>
-						<idno/>
+						<idno>1013</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>Weihinschrift</summary>
@@ -50,20 +50,20 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
-									<objectType>Weihestein</objectType> <dimensions>
-										<height unit="cm"> </height>
-										<width unit="cm"> </width>
-										<depth unit="cm"> </depth>
+								<support> <p>                                                <p><br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
+										<height unit="cm">60</height>
+										<width unit="cm">30</width>
+										<depth unit="cm"> 16</depth>
 									</dimensions> <note type="dimensions"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#"/> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p/> <note type="condition"/> </layout>
+								<layout> <p><p>Die erste Zeile mit dem Götternamen befindet sich am Gesims. Die Buchstaben sind unregelmäßig.</p><p>Zwischen Z.6 und Z.7 befindet sich die Darstellung zweier Gefäße.</p><p>Besondere Zeichen: In Z.6 ist zwischen A und T ein V-förmiges Zeichen gesetzt. Da dieses einerseits zentral über dem Hals des darunterbefindlichen Gefäßes positioniert, und andererseits es weniger tief gemeißelt ist als alle anderen Buchstaben der Inschrift, kann eine Lesung als Schreibfehler nur als unsicher eingestufgt werden. Es kann nur mit Haug gesagt werden: <span>"Das einem V gleichende Zeichen Z. 6 kann ich nicht erklären;[...]" (Haug 1907, 7)<br/></span></p></p> <note type="condition"/> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote> <desc type="execution"/> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
 						</handDesc>
 						<decoDesc>
 							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
@@ -72,10 +72,10 @@
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName>Aquae</placeName> <region/> </origPlace> <origDate notBefore="" notAfter=""><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1911"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Baden-Baden</ref> </placeName> <p/> <location>
+						<origin> <origPlace> <placeName>Aquae</placeName> <region>Civitas Aurelia Aquensis</region> </origPlace> <origDate notBefore="" notAfter=""><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1901"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Baden-Baden</ref> </placeName> <p>"im Keller des Hauses Römerplatz 7, Ecke der Bäderstraße, also unmittelbar bei den römischen Bädern" (Keune 1906, 513); "im Keller von E. Bischoff" (Wagner 1911, 19). Kah (1908, 22) nennt als Adresse "Römerplatz No. 2, Pl. 1, Lgb. No. 96. Das Haus steht gegenüber dem Hauptportal des Großgerzogl. Friedrichsbades."</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note/> </provenance>
+							</location> <note>"bei den Kanalisations-Anschluß-Arbeiten" (Kah 1908, 22)</note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
 					</history>
 				</msDesc>
@@ -88,19 +88,19 @@
 						</placeName>
 					</place>
 				</listPlace>
-				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context"/></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context"/></persName></person>
+				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context">Visuna</ref></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context"/></persName></person>
 					<person>
-						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context"> Visuna</ref> </persName>
+						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context">Visuna</ref> </persName>
 					</person>
 					<person>
-						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> Similis</ref> </persName>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Similis</ref> </persName>
 					</person>
 					<person>
 						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
 						</roleName> </persName>
 					</person>
 					<person>
-						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">				Salvius		</ref></persName>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">Salvius</ref></persName>
 					</person>
 					<person>
 						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
@@ -170,11 +170,11 @@
 			<textClass>
 				<keywords>
 					<list>
-						<item> <ref target="context:fercan.dedication." type="context"> votum solvit libens merito</ref> </item>
+						<item> <ref target="context:fercan.dedication." type="context">votum solvit libens merito</ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
-						<item> <ref target="context:fercan.divinepart." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.divinepart." type="context">Visunae</ref> </item>
 						<item> <ref target="context:fercan.theonymischesFormular." type="context"> </ref> </item>
 					</list>
 				</keywords>
@@ -189,8 +189,8 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="Visuna 1112_fr.jpg">
-			<desc> </desc>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1112_front.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
 		</graphic>
 	</facsimile>
 	<text>
@@ -198,17 +198,31 @@
 			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
 			<div subtype="editions" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl xml:id="1"> CIL XIII 11714</bibl>
-				</listBibl>
+					<bibl xml:id="1">AE 1907, 110</bibl>
+				
+            <bibl xml:id="2">Haug 1907 (Neue Inschriften), 6f.</bibl>
+        
+            <bibl xml:id="3">Wagner 19011, 20</bibl>
+        
+            <bibl xml:id="4">Fritsch 1912, 21</bibl>
+        
+            <bibl xml:id="5">CIL XIII 11714</bibl>
+        
+            <bibl xml:id="6">Espérandieu 1931, 449</bibl>
+        
+            <bibl xml:id="7">Wierschowski 2001, Nr.589</bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.1337</bibl>
+        </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl type="EDCS"><idno> EDCS-1260001</idno><date> 2023-03-15</date></bibl>
-					<bibl type="EDH"><idno>  HD023612</idno><date> 2019-04-18</date></bibl>
-					<bibl type="trismegistos"><idno> www.trismegistos.org/text/210387</idno><date> 2023-03-15 </date></bibl>
-					<bibl type="lupa"><idno> http://lupa.at/8278</idno><date> 2023-01-02</date></bibl>
+					<bibl type="EDCS"><idno>EDCS-12600015</idno><date> 2023-03-15</date></bibl>
+					<bibl type="EDH"><idno>HD023612</idno><date> 2019-04-18</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/210387</idno><date> 2023-03-15 </date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/8278</idno><date> 2023-01-02</date></bibl>
 					<bibl type="other"><idno> </idno><date> </date></bibl>
-				<bibl type="lupa"><idno/><date/></bibl></listBibl>
+				</listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform">
 				<ab><lb n="1"/>VISVNAE
@@ -227,19 +241,26 @@
 <lb n="7"/>v(otum) s(olvit) l(ibens) m(erito)
 </ab></div>
 			<div type="translation" xml:lang="de" org="uniform">
-				<p><p>Für <rs type="divine">Visunae</rs>!</p><p>Lucius Salvius Similis, Sohn des Salvius Similis, aus Mediomatis hat das Gelübde gerne und verdientermaßen erfüllt.<br/></p></p>
+				<p>                                                <p>Für <rs type="divine">Visuna</rs>!</p>
+                                                <p>Lucius Salvius Similis, Sohn des Salvius Similis, aus Mediomatricum hat das Gelübde gerne und verdientermaßen erfüllt.<br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform">
-				<p><p>To <rs type="divine">Visunae</rs>!</p><p>Lucius Salvius Similis, son of Salvius Similis, from Mediomatis has fulfilled a vow willingly and deservedly.<br/></p></p>
+				<p>                                                <p>To <rs type="divine">Visuna</rs>!</p>
+                                                <p>Lucius Salvius Similis, son of Salvius Similis, from Mediomatricum has fulfilled a vow willingly and deservedly.<br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform">
-				<app loc="1">
-					<note/>
+				<app loc="3">
+					<note>das letzte S eine irrtümliche Wiederholung {s} – AE, Haug, Wagner, Fritsch, Espérandieu, Wierschowski</note>
 				</app>
-			</div>
-			<div type="commentary" subtype="general" org="uniform">
-				<p> </p>
-			</div>
+			
+            <app loc="6">
+                <note anchored="true">O MATvT (in der Minuskel idente Lesung) – AE; "Das einem V gleichende Zeichen Z. 6 kann ich nicht erklären" – Haug</note>
+            </app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform">                                                <p>Lucius Salvius Similis Salvi Simili filius: tria nomina mit dem römischen Namensformular des Vaters im Genitiv</p>
+                                                <p>Salvius: gängiges italisches Gentilnomen (Kakoschke 2021, GN 1123)</p>
+                                                <p>Similis: lateinischer Name, besonders häufig in der Germania Inferior (Kakoschke 2021, CN 2885)</p>
+                                                <p>Mediomatricus: Der Stifter gibt damit seine Zugehörigkeit zur civitas Mediomatricorum, heute Metz, in der Belgica bekannt. Die Dedikation erfolgte vermutlich im Rahmen eines Kuraufenthaltes (so bereits Haug 1907, 7).<br/></p></div>
 			<div type="commentary" subtype="language" org="uniform">
 				<p> </p>
 			</div>
@@ -250,15 +271,15 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"/>
+			<note type="Objbeschr_note"><p>Haug 1907, S. 6: oben geradlinig abgeschlossen, mit runder, pfannenartiger Vertiefung</p><p>Kah 1908, S. 21: Oben schließt das Gesims 22cm zu 13cm (Seitenflächen), horizintal ab, in der Mitte dieser Fläche ist eine kreisrunde Vertiefung, Durchmesser 8,5cm, Tiefe am Rand 2,5cm, welche sich (dem Zirkeleinsatzpunkte) der Mitte zu leicht wölbend bis auf 1,5cm verringert. Jedenfalls ist hier irgend ein Gegenstand aufgesetzt worden. <br/></p></note>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"/>
-			<note type="Inschrifttraeger_note"/>
+			<note type="Material_note">                                                    <p>Wagner: roter Sandstein</p><p>Kah 1908 S. 21: Grauer Sandstein<br/></p></note>
+			<note type="Inschrifttraeger_note">                                                    <p>Kartei: Eindeutig ein Altar; irrig Fritsch, der eine Statuenbasis erkennen will. - auch Wagner 1911, S. 20: Der wagrechte Abschluß der Oberseite mit flacher, kreisrunder Vertiefung weist auch hier auf eine Statuette hin.</p><p>Keune 1906, S. 513: Es ist ein pfeilerartiger Altar mit Sockel und Gesims, in dessen Oberfläche eine Opferschale eingehauen ist...Der Name der Göttin steht auf dem Gesims.</p></note>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"/>
-			<note type="Fundstelle_note"/>
-			<note type="Fundumst_note"/>
-			<note type="Fundjahr_note"/>
+			<note type="InvNr_note"><p>so Kartei - Esperandieu 1931 S. 294 Nr. 449: moulage au Musee de Bade; original in Karlsruhe??!!<br/></p></note>
+			<note type="Fundstelle_note"><p>Haug?!<br/></p></note>
+			<note type="Fundumst_note"><p>Wagner 19: Eine weitere Grupep bilden vier am 9. Januar 1901 im Keller von e. Bischoff, Römerplatz 7, gefundende Votivsteine.<br/></p></note>
+			<note type="Fundjahr_note"><p>9. Januar 1901 - Wagner 1911, S. 19<br/></p></note>
 			<note type="FOantik_note"><p>Civitas Aurelia Aquensis<br/></p></note>
 			<note type="FOmodern_note"/>
 			<note type="civitas_note"><p>Civitas Aurelia Aquensis</p></note>
@@ -269,8 +290,16 @@
 			<note type="dtUEbers_note"/>
 			<note type="Editionen_note"/>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"/>
-			<note type="Ikonogr_note"/>
+			<note type="Masse_note">                                                    <p>Wagner Höhe 60,5</p>
+                                                    <p>Haug, EDH H 60, B 30</p>
+                                                    <p>Haug 1907, S. 6: Höhe 60,5, Breite 30cm</p>
+                                                    <p>Esperandieu 1931, S. 294 Nr. 449: H 61cm; T 16cm</p>
+                                                    <p>Keune 1906, S. 513: H 60,5cm, B 30cm, T 19,5cm</p>
+                                                    <p>Wagner 1911, S. 20: H 60,5cm</p><p>Kah 1908 S. 21: H 60,5, B 30cm<br/></p></note>
+			<note type="Ikonogr_note">                                                    <p>Haug 1907, S. 6: zwischen der 6. und 7. Zeile sind zwei Gefässe in Relief angebracht, links ein einhenkeliger, bauchiger Krug, der noch in Z. 6 hineinreicht, rechts ein ringförmiges Gefäss mit Hals, ersteres wohl für das Wasser, letzteres für das Öl beim Baden bestimmt.</p>
+                                                    <p>Keune 1906, S. 513: Zwischen die Buchstaben der Zeile 6 und in einem Zwischenraum zwischen Zeile 6 und 7 sind die Reliefbilder eines Henkelkruges und einer Flasche eingeordnet.</p>
+                                                    <p>Wagner 1911, S. 20: Die beiden auf der Inschriftfläche abgebildeten Gefäße. ein einhenkeliger Krug mit Fuß und ein ringförmiges Gefäß mit Hals, erklären sich aus dem Gebrauch der Bäder.</p>
+                                                    <p>Fritsch 1912: Ein bauchiger Henkelkrug und eine ringförmige Flasche, die zur Kur benützt wurden, sind in Relief hübsch dargestellt.</p><p>Kah 1908, S. 22: Der bauchige, mit einem Henkel versehene Krug hat eine Höhe von 12cm, die größte Breite beträgt 7,5cm. Das kleinere, kreisrunde, ringförmige Gefäß hat 6cm im Durchmesser, der Hals 3cm Höhe... Der einhenkelige bauchige Krug wird owhl für Wasser, das rinförmige Gefäß für Oel beim Baden bestimmt gewesen sein.<br/></p></note>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
@@ -278,7 +307,7 @@
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"/>
+			<note type="Datierung_note"><p>EDH 101 AD – 250 AD</p></note>
 		<note type="ElektronischeRessourcen_note"/><note type="Index_note"/></back>
 	</text>
 </TEI>

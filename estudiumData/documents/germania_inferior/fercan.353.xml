@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior353">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior353">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -330,7 +329,11 @@ Auf der rechten Schmalseite wächst, ebenfalls aus einem Akanthus und zwischen z
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1973, 372</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Stuart/Bogaers 2001, A57</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Schmidts 2011, 143, Nr.56</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 402 Nr.72</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.1097</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -366,7 +369,15 @@ Vegisonius Martinus, a member of the civitas of the Sequani and ship owner, has 
                 <app loc="#MIN.1 #MAJ.1">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligaturen – AE; Schmidts</tei:note>
                 </app>
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">civ&lt;i=E&gt;s – Scheungraber</note>
+            </app>
+        
+            <app loc="4">
+                <note anchored="true">Se&lt;q=C&gt;uanus – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Vegisonius Martinus: römisches Namensformular ohne Praenomen <lb/>
 Vegisonius: einheimisches Pseudogentilnomen, abgeleitet vom keltischen Cognomen Vegiso (Kakoschke 2006, GN 1370) <lb/>

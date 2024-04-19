@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior92">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior92">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -247,7 +246,11 @@
                     <bibl xml:id="LIT.4" default="false" status="draft">Lehner 1918, Nr.240</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Franke 1999, Nr.8</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">AE 2001, 1433</bibl>
-                </listBibl>
+                
+            <bibl xml:id="7">Scheungraber 2020, 284 Nr.4</bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.750</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -285,19 +288,19 @@ Publius Albanius Primus has fulfilled (a vow) in response to an order willingly 
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">deab – Kamp; DEAE / IDBA – Lehner</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">n. Gabiae – ILS; n[.] Gabiae, vielleicht n[i] (et) Gabiab(us) – Lehner; Kamp hat im letzten Buchstaben der Zeile „nach wiederholter Untersuchung“ ein B gelesen.</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">n. Gabiae – ILS; n[.] Gabiae, vielleicht n[i] (et) Gabiab(us) – Lehner; Kamp hat im letzten Buchstaben der Zeile „nach wiederholter Untersuchung“ ein B gelesen; n(i)s Gabiae – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">sacrum̂ex – Kamp; sacrum ex – Lehner</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">sacrum̂ex – Kamp; sacrum ex – Lehner; sacru[m] ex – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[i]mp(erio) i(psarum) – Kamp; [i]mp(erio) ip[sius] – ILS; [i]mp – CIL, Lehner, EDH; (i)mp(erio) – Franke, AE</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[i]mp(erio) i(psarum) – Kamp; [i]mp(erio) ip[sius] – ILS; [i]mp – CIL, Lehner, EDH, Scheungraber; (i)mp(erio) – Franke, AE</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Primu[s v.] – ILS; Primu[s], fin. potest periisse V – CIL; Prim(us) – Franke, AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Primu[s v.] – ILS; Primu[s], fin. potest periisse V – CIL; Prim(us) – Franke, AE, EDH; us Primus [v(otum)] – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.6 #MAJ.6">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">s l [m] – Kamp, Lehner, Franke, AE; [s] l [m] – ILS; S L + – CIL; s(olvit) l(ibens) m(erito) – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">s l [m] – Kamp, Lehner, Franke, AE; [s] l [m] – ILS; S L + – CIL; s(olvit) l(ibens) m(erito) – EDH, Scheungraber, Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

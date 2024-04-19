@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior228">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior228">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -271,8 +270,14 @@ Die Schmalseiten sind mit Baumdarstellungen in Relief gestaltet. Die Motive ähn
                     <bibl xml:id="LIT.2" default="false" status="draft">Finke 1927, Nr.266</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Alföldy 1968, Nr.25</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">AE 1968, 339</bibl>
-                    <bibl xml:id="LIT.5" default="false" status="draft">Biller 2010, 222f.</bibl>
-                </listBibl>
+                    <bibl xml:id="LIT.5" default="false" status="draft">Raybould/Sims-Williams 2007, 81 Nr.BEG 169</bibl>
+                
+            <bibl xml:id="6">Biller 2010, 222f.</bibl>
+        
+            <bibl xml:id="7">Scheungraber 2020, 570 Nr.124</bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.829</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -290,7 +295,7 @@ Die Schmalseiten sind mit Baumdarstellungen in Relief gestaltet. Die Motive ähn
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>M · <hi rend="ligature">VA</hi>CALL<hi rend="ligature">INE</hi> <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>M · <hi rend="ligature">VA</hi>CALL<hi rend="ligature">INE</hi> <lb n="2"/>
 HIS · LEVBASN <lb n="3"/>
 IVS · EXOM<hi rend="ligature">NI</hi> <lb n="4"/>
 PRO SE · ET · SVI <lb n="5"/>
@@ -306,13 +311,13 @@ Leubasnius, the son of Exomnus, has fulfilled a vow willingly and deservedly for
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">M(atronis) – Lehner, Alföldy, AE, Biller; ohne Ligaturen – AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">M(atronis) – Lehner, Alföldy, AE, Raybould/Sims-Williams, Biller, Scheungraber, Ferlut; ohne Ligaturen – AE, EDH, Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Leubas – AE</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">nius – AE; ohne Ligaturen – AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">nius – AE; ohne Ligaturen – AE, EDH; ius Exomni – Scheungraber; Exomn(ius) - Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

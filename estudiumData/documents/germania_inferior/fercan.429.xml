@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior429">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior429">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -243,7 +242,11 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, B94</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1509</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 411 Nr.144</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.1048</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -279,9 +282,13 @@ Iucundinius Verinus … </p>
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Iucundini[us?] – AE, EDH</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[V]erinu[s ---] – AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[V]erinu[s ---] – AE, EDH; [us 3]erinu[3] – Scheungraber, Ferlut</tei:note>
                 </app>
-            </div>
+            
+            <app loc="4">
+                <note anchored="true">[3]n[ – Scheungraber; [3]n[3] – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Iucundinius Verinus: römisches Namensformular ohne Praenomen; aus Hermühlheim ist ein Q. Iucundinius Verinus bekannt (Finke 1927, Nr.280). <lb/>
 Iucundinius: einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Cognomen Iucundus/Iucundinus (Kakoschke 2006, GN 618) <lb/>

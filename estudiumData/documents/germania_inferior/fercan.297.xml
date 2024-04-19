@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior297">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior297">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -265,7 +264,11 @@ Auf der linken Schmalseite befindet sich ein dreibeiniger Tisch mit einem Kästc
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1935, 101</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Siebourg 1936, 422</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Nesselhauf 1937, Nr.241</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 371 Nr.2</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.595</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -303,10 +306,10 @@ The Viponii Vitalis, Lellua, Candidus, Fervesa und Quintus willingly and deserve
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">auffallend das zweite H in der zweiten Zeile – Fremersdorf; Mahlin̂ehis –AE; Mahlinehis – Nesselhauf, EDH</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Viponi(us) – Fremersdorf, AE; ohne Ligatur – Nesselhauf, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Viponi(us) – Fremersdorf, AE; ohne Ligatur – Nesselhauf, EDH; Viponi(i) – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Leliva – Fremersdorf, AE; Can̂d̂idus – Fremersdorf, AE; ohne Ligaturen – Nesselhauf, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Leliva – Fremersdorf, AE; Can̂d̂idus – Fremersdorf, AE; ohne Ligaturen – Nesselhauf, EDH; Candidius – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Nesselhauf, EDH</tei:note>

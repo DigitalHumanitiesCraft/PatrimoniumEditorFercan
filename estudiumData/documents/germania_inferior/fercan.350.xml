@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior350">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior350">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -253,7 +252,11 @@ Auf den Schmalseiten ist je ein Füllhorn im Blattkelch dargestellt. Es handelt 
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, A53</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1466</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 401 Nr.69</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.1092</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -286,7 +289,7 @@ Sextius Mi…, the … merchant … </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">neg[otiator?] – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">neg[otiator?] – EDH, Scheungraber; neg[otiator] – Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

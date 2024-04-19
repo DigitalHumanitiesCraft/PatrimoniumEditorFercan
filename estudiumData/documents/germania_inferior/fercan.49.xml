@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior49">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior49">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -223,7 +222,11 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 7995</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1918, Nr.259</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 113 Nr.4</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.568</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -255,7 +258,19 @@ Bella has fulfilled a vow willingly and deservedly.</p>
                 <p part="N">Bella: weibliche Form von Bellus: Keltisches oder lateinisches Cognomen, das vor allem im Großraum Gallien auftritt (Kakoschke 2007, CN 496).</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">teihiabus – Scheungraber, Ferlut</note>
+            </app>
+        
+            <app loc="4">
+                <note anchored="true">Bella – Scheungraber, Ferlut</note>
+            </app>
+        
+            <app loc="5">
+                <note anchored="true">v(otum) s(olvit) l(ibens) m(erito) – Scheungraber, Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.2/3: „Andrustei(c)hiabus“ pro „Andrustei(c)hiis“</p>
             </div>

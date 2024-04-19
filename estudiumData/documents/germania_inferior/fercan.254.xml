@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior254">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior254">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -237,7 +236,11 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 12031</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1918, Nr.352</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Alföldy 1968, Nr.16</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 559 Nr.25</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.833</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -251,7 +254,7 @@
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>M · <hi rend="ligature">VA</hi>CALLIN <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>M · <hi rend="ligature">VA</hi>CALLIN <lb n="2"/>
 E<hi rend="ligature">˧I</hi>S · Q VERAN <lb n="3"/>
 IVS · VERECVN <lb n="4"/>
 DVS · L · M</orig></ab></div>
@@ -266,10 +269,10 @@ Quintus Veranius Verecundus willingly and deservedly. </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">M(atronis) – Lehner, Alföldy</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">in einer zusätzlichen Zeile oberhalb von dieser M(atronis) – Ferlut (möglicherweise verschrieben?); M(atronis) – Lehner, Alföldy, Scheungraber; Vacallin – Ferlut (s.o.)</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">êĥîs – Alföldy</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">êĥîs – Alföldy, Scheungraber, Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

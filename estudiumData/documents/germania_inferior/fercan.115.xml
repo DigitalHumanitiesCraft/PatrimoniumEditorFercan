@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior115">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior115">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -342,6 +341,10 @@
           <bibl xml:id="LIT.5" default="false" status="draft">Galsterer/Galsterer 1981, 230, Anm.12</bibl>
           <bibl xml:id="LIT.6" default="false" status="draft">Galsterer/Galsterer 2010, Nr.52</bibl>
           <bibl xml:id="LIT.7" default="false" status="draft">KIK 2012, Nr.55</bibl>
+        
+            <bibl xml:id="8">Scheungraber 2020, 62</bibl>
+        
+            <bibl xml:id="9">Ferlut 2022, Nr.622</bibl>
         </listBibl>
       </div>
       <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
@@ -384,24 +387,21 @@
       </div>
       <div type="apparatus" org="uniform" part="N" sample="complete">
         <app loc="#MIN.1 #MAJ.1">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Am Anf.: In h(onorem) d(omus) d(ivinae) – Alföldy; die unterstrichenen Teile in
-            Z.1–12 sind heute nicht mehr erhalten, sie werden nach CIL wiedergegeben</tei:note>
+          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Am Anf.: In h(onorem) d(omus) d(ivinae) – Alföldy; die unterstrichenen Teile in            Z.1–12 sind heute nicht mehr erhalten, sie werden nach CIL wiedergegeben; fehlt – Scheungraber; Pro sa[l(ute) d(omini) n(ostri)] – Ferlut </tei:note>
         </app>
         <app loc="#MIN.2 #MAJ.2">
           <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Herc]uli Magusan[o Ambi-] – Galsterer/Galsterer 1981; ohne Ligaturen – ILS,
             Alföldy, Galsterer/Galsterer 2010, KIK 2012</tei:note>
         </app>
         <app loc="#MIN.3 #MAJ.3">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[amarc]is Abirenibu[s et] – Galsterer/Galsterer 1981; ohne Ligatur – ILS, Alföldy,
-            Galsterer/Galsterer 2010, KIK 2012; ohne Zeilenwechsel – ILS</tei:note>
+          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[amarc]is Abirenibu[s et] – Galsterer/Galsterer 1981; ohne Ligatur – ILS, Alföldy,            Galsterer/Galsterer 2010, KIK 2012; ohne Zeilenwechsel – ILS; [-tron]is Abirenibu[s et] – Ferlut</tei:note>
         </app>
         <app loc="#MIN.4 #MAJ.4">
           <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Geni[o], ohne Ligatur – ILS; ohne Ligatur – Alföldy, Galsterer/Galsterer 2010, KIK
             2012</tei:note>
         </app>
         <app loc="#MIN.5 #MAJ.5">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Dia]nae – Alföldy, [Dia]ne – Galsterer/Galsterer 1975, Galsterer/Galsterer 2010,
-            KIK2012; Mahal[ineis] – Galsterer/Galsterer 2010, KIK 2012</tei:note>
+          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Dia]nae – Alföldy, [Dia]ne – Galsterer/Galsterer 1975, Galsterer/Galsterer 2010,            KIK2012; Mahal[ineis] – Galsterer/Galsterer 2010, KIK 2012, Scheungraber; Mahal[inis] – Ferlut </tei:note>
         </app>
         <app loc="#MIN.6 #MAJ.6">
           <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">am Anf. [---]rie, ohne Ligatur – ILS; [Vic]torie – Galsterer/Galsterer 1975,
@@ -409,14 +409,10 @@
             KIK 2012</tei:note>
         </app>
         <app loc="#MIN.7 #MAJ.7">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">dis dea[busque], ohne Ligaturen – ILS; dis – Alföldy, Galsterer/Galsterer 1975,
-            Galsterer/Galsterer 2010, KIK 2012; ohne Ligaturen – Alföldy, Galsterer/Galsterer 2010,
-            KIK 2012</tei:note>
+          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">dis dea[busque], ohne Ligaturen – ILS; dis – Alföldy, Galsterer/Galsterer 1975,            Galsterer/Galsterer 2010, KIK 2012, Scheungraber, Ferlut; ohne Ligaturen – Alföldy, Galsterer/Galsterer 2010, KIK 2012</tei:note>
         </app>
         <app loc="#MIN.8 #MAJ.8">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[omn]ibus, ohne Ligatur – ILS; Similini[us] – Alföldy, Galsterer/Galsterer 1975,
-            Galsterer/Galsterer 2010, KIK2012; ohne Ligaturen – Alföldy, Galsterer/Galsterer 2010;
-            KIK 2012</tei:note>
+          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[omn]ibus, ohne Ligatur – ILS; Similini[us] – Alföldy, Galsterer/Galsterer 1975, Galsterer/Galsterer 2010, KIK2012, Scheungraber, Ferlut; ohne Ligaturen – Alföldy, Galsterer/Galsterer 2010;            KIK 2012</tei:note>
         </app>
         <app loc="#MIN.9 #MAJ.9">
           <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">vered[ar.] – ILS</tei:note>
@@ -429,7 +425,7 @@
           <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">item c[---] – ILS</tei:note>
         </app>
         <app loc="#MIN.12 #MAJ.12">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[…]cu[…] – ILS; [n(umeri) Brit(t)o]num cum [---] – Alföldy</tei:note>
+          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[…]cu[…] – ILS; [n(umeri) Brit(t)o]num cum [---] – Alföldy; [n(umeri) Britto]num cum [ – Scheungraber, Ferlut</tei:note>
         </app>
       </div>
       <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

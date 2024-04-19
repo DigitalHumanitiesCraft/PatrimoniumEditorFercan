@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior393">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior393">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -252,7 +251,11 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, B33</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1486</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 407 Nr.109</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.998</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -291,7 +294,11 @@ Sabinus, the son of Super, has fulfilled a  vow willingly and deservedly.  </p>
                 <app loc="#MIN.4 #MAJ.4">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Superis (filius) – AE</tei:note>
                 </app>
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">Sabinus – AE, EDH</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Sabinus Superis: einheimisches Namensformular mit Angabe des Namens des Vaters im Genetiv (hier offenbar in einer falschen Genetivform) <lb/>
 Sabinus: überall gängiges lateinisches (ethnisches) Cognomen (Kakoschke 2008, CN 2631) <lb/>

@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior2">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior2">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -273,9 +272,11 @@ Beide Relieffelder sind durch einen einfachen glatten Rahmen begrenzt.</p>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1930, 31</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Lehner 1930, Nr.44</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Nesselhauf 1937, Nr.187</bibl>
-                    <bibl xml:id="LIT.5" default="false" status="draft">Bauchhenß 2014, 174 Nr.89</bibl>
+                    <bibl xml:id="LIT.5" default="false" status="draft">Raybould/Sims-Williams 2007, 86 Nr.BEG 189</bibl>
                 
-            <bibl xml:id="LIT.6" default="false" status="draft">Scheungraber 2020, 296 Nr.7</bibl>
+            <bibl xml:id="LIT.6" default="false" status="draft">Bauchhenß 2014, 174 Nr.89</bibl>
+        
+            <bibl xml:id="7">Scheungraber 2020, 296 Nr.7</bibl>
         </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
@@ -294,7 +295,7 @@ Beide Relieffelder sind durch einen einfachen glatten Rahmen begrenzt.</p>
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>MERCV<hi rend="ligature">RI</hi>O <lb n="2"/> 
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>MERCV<hi rend="ligature">RI</hi>O <lb n="2"/>
 GEBRINIO <lb n="3"/> 
 AD<hi rend="ligature">NA</hi><hi rend="ligature">MA</hi><hi rend="ligature">TI</hi>VS <lb n="4"/> 
 DVBITATVS <lb n="5"/> 

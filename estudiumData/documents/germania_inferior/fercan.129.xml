@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior129">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior129">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -223,7 +222,9 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Van Es/Hessing 1990, 81–90</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1994, 1284</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 366 Nr.11</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>

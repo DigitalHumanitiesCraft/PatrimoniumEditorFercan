@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior259">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior259">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -254,7 +253,11 @@
                     <bibl xml:id="LIT.2" default="false" status="draft">CIL XIII 12037</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Lehner 1918, Nr.506</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Espérandieu VIII 6365</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 557 Nr.10</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.728</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -288,18 +291,22 @@ Marcus Antonius Masuetus for himself and his family willingly and deservedly.</p
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">M̂ât(ronis) – Lehner Mat(ronis) – Espérandieu, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">M̂ât(ronis) – Lehner Mat(ronis) – Espérandieu, EDH, Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">(h)is – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">(h)is – EDH, Scheungraber; Anton – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligaturen – Espérandieu, EDH; Ma(n)suet – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligaturen – Espérandieu, EDH; Ma(n)suet – EDH, Scheungraber; ius Mansuet – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">et s[u] – Lehner, Espérandieu</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">et s[u] – Lehner, Espérandieu; su[is] – Ferlut</tei:note>
                 </app>
-            </div>
+            
+            <app loc="5">
+                <note anchored="true">[v(otum)] s(olvit) [l(ibens)] m(erito) – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Marcus Antonius Masuetus: tria nomina <lb/>
 Antonius: lateinisches Gentilnomen, äußerst gängig (Kakoschke 2006, GN 94) <lb/>

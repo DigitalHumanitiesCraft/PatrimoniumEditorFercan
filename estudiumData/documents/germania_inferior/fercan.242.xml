@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior242">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior242">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -207,7 +206,9 @@ Die Darstellung auf der rechten Schmalseite ist zu zerstört für eine Beschreib
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item>
+                    </list>
+                </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -235,7 +236,9 @@ Die Darstellung auf der rechten Schmalseite ist zu zerstört für eine Beschreib
             <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 8777</bibl>
-                </listBibl>
+                
+            <bibl xml:id="2">Scheungraber 2020, 365 Nr.5</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -263,6 +266,15 @@ Marcus Primhuis Tertius hat das Gelübde gerne und verdientermaßen erfüllt.</p
                 <p part="N">To  <rs type="divine">Hercules Magusanus!</rs> <lb/> 
 Marcus Primhuis Tertius has fulfilled a vow willingly and deservedly.</p>
             </div>
+            <div type="apparatus" org="uniform" part="N" sample="complete">
+            
+            <app loc="3">
+                <note anchored="true">Primi&lt;tiu=IVI&gt;s – Scheungraber</note>
+            </app>
+        
+            
+        </div>
+            
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Marcus Primihuis Tertius: tria nomina <lb/>
 Primhuis: Der Name ist vermutlich verderbt. Es fragt sich, wie er richtig zu lesen wäre. Kakoschke 2006, GN 987 korrigiert auf „Primevi(u)s“ und sieht darin eine einheimische Bildung bzw. eine Verschreibung für Priminius; Riese 1914, Nr.2817: „Primituis“ = „Primitius“; Gutenbrunner 1936, Nr.77,3: „Primitius“; Byvanck 1935, Nr.233: „Primituis“ = „Priminius(?)“. <lb/>

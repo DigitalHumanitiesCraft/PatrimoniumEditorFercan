@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior154">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior154">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -216,7 +215,11 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1918, Nr.367</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Alföldy 1968, Nr.28</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">AE 1968, 341</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 570 Nr.126</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.842</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -246,13 +249,13 @@ ABVSGR<gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Vocallin[e] – Lehner; Vocall[i]n[e] – Alföldy, EDH; Vocall[i]n[e]h- – AE; vor Z.1 eine weitere Zeile mit [Matronis] – Alföldy, AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Vocallin[e] – Lehner; Vocall[i]n[e] – Alföldy, EDH, Ferlut; Vocall[i]n[e]h- – AE, Scheungraber; vor Z.1 eine weitere Zeile mit [Matronis] – Alföldy, AE, EDH, Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">abus Cr[---] – Lehner; [h]abus Gr[---] – Alföldy, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">abus Cr[---] – Lehner; [h]abus Gr[---] – Alföldy, EDH, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Me]rca[tor? – Lehner; [M]erca[tor?] vielleicht [Lup]erc[a--- – Alföldy; [M]erca[tor?] – AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Me]rca[tor? – Lehner; [M]erca[tor?] vielleicht [Lup]erc[a--- – Alföldy; [M]erca[tor?] – AE, EDH, Scheungraber; [M]erca[tor], es folgt Z.4 mit unbestimmtem Inhalt – Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Vocallin…ae:</rs> Reste einer Variante von  <rs type="divine">Vacallinehae:</rs> keltisch: ‚Unter den Bäumen bzw. dem Wald Verweilende [Muttergöttinen]‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243).</p>

@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior362">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior362">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -277,7 +276,11 @@ Auf der linken Schmalseite ist ebenfalls auf einem Podest eine weitere mit einer
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart 1997, 46</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1997, 1160</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Stuart/Bogaers 2001, B5</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 403 Nr.81</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.996</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -316,7 +319,11 @@ Lucius Patruitius Saturninus has fulfilled a vow willingly and deservedly.   </p
                 <app loc="#MIN.4 #MAJ.4">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Saturninus – Stuart 1997, AE</tei:note>
                 </app>
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">Ne{c}halen(n)iae – Scheungraber; Ne{c}haleniae – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Lucius Patruitius Saturninus: tria nomina <lb/>
 Patruitius: einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Cognomen Patruitus; der Name ist bislang nur hier belegt (Kakoschke 2006, GN 932). <lb/>

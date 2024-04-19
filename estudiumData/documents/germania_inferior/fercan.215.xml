@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior215">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior215">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -214,7 +213,9 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1918, Nr.1433</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Alföldy 1968, Nr.138</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">AE 1968, 357</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 571 Nr.128</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -245,10 +246,10 @@ Secund…</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Vocal̂lîn̂e[is] – Lehner, Vocal̂lîn̂eh[is] – Alföldy; Vocallineh[is] – AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Vocal̂lîn̂e[is] – Lehner, Vocal̂lîn̂eh[is] – Alföldy; Vocallineh[is] – AE, EDH, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Secund[a (?), vielleicht Secund[i/us oder ähnlich – Alföldy; Secund[a (?) – AE</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Secund[a (?), vielleicht Secund[i/us oder ähnlich – Alföldy; Secund[a (?) – AE; Secund[a (?)], es folgt Z. 3 mit unbestimmtem Inhalt – Scheungraber</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

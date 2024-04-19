@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior354">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior354">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -245,7 +244,11 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, A59</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1467</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Raepsaet-Charlier 2003, 295</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 402 Nr.73</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.1082</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -279,7 +282,7 @@ Sextus Iulius Vitalis for himself and … willingly and deservedly. </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[D(eae)] N̂ehala[eniae?] – Stuart/Bogaers; [D(eae)] N̂ehala[enniae] – AE, Raepsaet-Charlier; [D(eae)] Nehala[enniae], ohne Ligatur – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">D(eae)] N̂ehala[eniae?] – Stuart/Bogaers, Scheungraber; [D(eae)] N̂ehala[enniae] – AE, Raepsaet-Charlier; [D(eae)] Nehala[enniae], ohne Ligatur – EDH; [D(eae)] Nehala[eniae] – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">et M[---] – AE, EDH; et M[aiu?] mit fehlendem Zeichen für Zeilenumbruch – Raepsaet-Charlier</tei:note>

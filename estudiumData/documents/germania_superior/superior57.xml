@@ -1,0 +1,370 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior57" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Mars Loucetius</title><title type="sub">CF-GeS-1048</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.57</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Mainz</settlement>
+						<repository>Landesarchäologie Mainz der Generaldirektion Kulturelles Erbe</repository>
+						<idno>FM 80-035</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p>                                                <p>„Es handelt sich um ein […] Buntmetallblech, dessen rechtes unteres Viertel in früherer Zeit mit einer Blechschere herausgeschnitten worden war und dessen rechte obere Ecke durch Abbruch verlorenging. […Genau in der Mitte befindet sich ein Nagelloch], dem an der Unterseite sicher ein Pendant entsprach. Die Aufwölbung des Bleches am Nagellochrand auf der Rückseite zeigt, daß der Nagel in ein weiches Material, wohl Holz, getrieben wurde.“ (Rupprecht 1988, 285)</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120110">Bronze</ref> </material>
+									<objectType>Weihestein</objectType> <dimensions>
+										<height unit="cm">6</height>
+										<width unit="cm"> 5</width>
+										<depth unit="cm"> </depth>
+									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p><p>Der Inschriftentext weist Fehlstellen auf der rechten Seite auf. Da das Wort sacrum in der ersten Zeil zentriert zu sein scheint, kann man eine Vorstellung davon gewinnen, wieviel Text auf der rechten Seite verloren gegangen ist.</p><p>In Z.1 hederae vor und nach sacrum.</p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gepunzt</desc> <height unit="cm" atLeast="0.4" atMost="0.5">0,4–0,5</height> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
+								<ref type="context" target="context:fercan.arch."/> </term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern.">Ober-Olm</ref> </placeName> <p>in der Gewann Hemel; Am Füllkeller/Im Villenkeller</p> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true">„Der Fundreichtum sowie das Marktangebot von Metalldetektoren führte dazu, daß mehrere Privatleute das betreffende Gebiet systematisch absuchten […]. Zahlreiche Funde und ihre Fundzusammenhänge gingen dadurch verloren […] Aus dieser Fundmenge stammt die folgende Inschrift.“ (Rupprecht 1988, 285)</note> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung gründet auf: EDH</p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Mars Loucetius</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Loucetius</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Claudius</ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">
+						</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">legio XXII Primigenia Pia Fidelis</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context">votum solvit laetus libens merito; sacrum</ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">Marti Lou[cetio]</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1048_front.jpg">
+			<desc>Front, GDKE RLP Landesarchäologie, Mainz</desc>
+		</graphic>
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1048_posterior.jpg">
+                <desc>Rückseite, GDKE RLP Landesarchäologie, Mainz</desc>
+            </graphic>
+        </facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="1">Stümpel 1982/83, 204</bibl>
+				
+            <bibl xml:id="2">Rupprecht 1988, 285–286</bibl>
+        
+            <bibl xml:id="3">AE 1990, 750</bibl>
+        
+            <bibl xml:id="4">Scheungraber 2020, 358 Nr.7</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno>EDCS-05200521</idno><date>zuletzt abgerufen 2023-06-09</date></bibl>
+					<bibl type="EDH"><idno>HD024663</idno><date>Version von 2018-02-15</date></bibl>
+					<bibl type="trismegistos"><idno>http://www.trismegistos.org/text/210455</idno><date>zuletzt abgerufen 2023-06-09</date></bibl>
+					<bibl type="lupa"><idno> </idno><date> </date></bibl>
+					<bibl type="other"><idno> </idno><date> </date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/><g type="hedera">❦</g>SACRVM<g type="hedera">❦</g><orig/> 
+<lb n="2"/>MARTI LOV<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/>TIB CL A<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/>LEG XXI<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="5"/>V S L <gap reason="lost" extent="unknown" unit="character"/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Sacrum
+<lb n="2"/>Marti Lou<supplied reason="lost">cetio</supplied>
+<lb n="3"/><expan><abbr>Tib</abbr><ex>erius</ex></expan> <expan><abbr>Cl</abbr><ex>audius</ex></expan> A<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XXI<supplied reason="lost">I <expan><abbr>Pr</abbr><ex>imigeniae</ex></expan> <expan><abbr>P</abbr><ex>iae</ex></expan> <expan><abbr>F</abbr><ex>idelis</ex></expan></supplied>
+<lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <supplied reason="lost"><expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></supplied></ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p><p>Dem <rs type="divine">Mars Loucetius</rs> geheiligt!</p><p>Tiberius Claudius A…, von der legio XXII Primigenia Pia Fidelis hat das Gelübde freudig, gern und verdientermaßen erfüllt.</p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p><p>Sacred to <rs type="divine">Mars Loucetius</rs>!</p><p>Tiberius Claudius A…, of the legio XXII Primigenia Pia Fidelis has fulfilled the vow gladly, willingly and deservedly.</p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="2">
+					<note anchored="true">IOV… – Stümpel</note>
+				</app>
+			
+            <app loc="4"><note anchored="true">V.S. … – Stümpel; V S L [L MV] das letzte V offensichtlich irrtümlich – Rupprecht</note></app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Tiberius Claudius A…: tria nomina</p>
+                                                <p>Claudius: italisches Gentilnomen, kaiserliches Gentilnomen, überall äußerst gängig (Kakoschke 2021, GN 342)</p>
+                                                <p><br/>Legio XXII Primigenia Pia Fidelis: Die Legio XXII Primigenia erhielt nach dem Scheitern des Saturninus-Aufstanden 89 n.Chr. gemeinsam mit anderen Legionen und Truppenkörpern den Ehrenbeinamen Pia Fidelis Domitiana; letzterer fiel nach der damnatio memoriae Domitians wieder weg. Die Legion wurde 97 n.Chr. von Xanten nach Mainz verlegt, wo sie die nächsten zwei Jahrhunderte verblieb. Zwischen 70/71 und 97 n.Chr. sowie 101/102 bis 106/107 n.Chr. wurden Teile der Truppe für Steinbrucharbeiten im Brohtal eingesetzt (Matijević 2010, 29, 227–233).
+			</p></div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note"/>
+			<note type="ArchKlass_note"/>
+			<note type="Material_note"/>
+			<note type="Inschrifttraeger_note"><p>Bronzeblättchen</p><p>WSpDB: Bronzeblech</p><p>EDH: Tessera</p></note>
+			<note type="VerwahrortOrt_note"><p>WSpDB: Mainz LM (Privatbesitz); </p><p>Stümpel: Privatbesitz und Mus. Mainz <b>in Word gelb</b><br/></p></note>
+			<note type="InvNr_note">                                                    <p><strike>?79/137–38? s. Stümpel - Fotonummer, nicht Inventarnummer!</strike></p><p><strike><br/></strike><b>Mail von Dolata am 07.08</b></p><p><font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;">Sehr geehrter Herr Kumpitsch,</span></font>
+                                                            </p>
+<div style="margin:0;">
+                                                                <font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;">inzwischen
+ ist das Blech bei mir auf dem Schreibtisch. Ich habe einen Kollegen um 
+die Sichtung vorhandener und die Erstellung neuer Photographien gebeten.
+ In der Anlage
+übermittle ich diese. Bitte nennen Sie als Quelle: GDKE RLP 
+Landesarchäologie Mainz.</span></font>
+                                                            </div>
+<div style="margin:0;">
+                                                                <font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;">Das
+ Stück steht im Eigentum des Landes Rheinlad-Pfalz, vertreten durch die 
+Landesarchäologie Mainz der Generaldirektion Kulturelles Erbe. 
+Inventarnummer des Stückes
+ist: FM 80-035. Fundort: Ober-Olm, Am Füllkeller / Im Villenkeller.</span></font>
+                                                            </div>
+<div style="margin:0;">
+                                                                <font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;"/></font>
+                                                            </div>
+<div style="margin:0;">
+                                                                <font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;">
+                                                                        <font size="2"><span style="font-size:10pt;">Mit freundlichen Grüßen</span></font></span></font>
+                                                            </div>
+<div style="margin:0;">
+                                                                <font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;">
+                                                                        <font size="2"><span style="font-size:10pt;">im Auftrag</span></font></span></font>
+                                                            </div>
+<div style="margin:0;">
+                                                                <font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;">
+                                                                        <font size="2"><span style="font-size:10pt;">Jens Dolata</span></font></span></font></div></note>
+			<note type="Fundstelle_note"><p>ev. „sogen. Klein-Winternheimer Tempelbezirk – oder einen dazugehörigen Gebäudeteil – […], der in der benachbarten Gewann „Füllkeller“ […] ausgegraben wurde.“ (Stümpel 1982/83, S.204)</p><p><b>Mail von Dolata am 07.08.<br/></b><span style="background-color:white;" lang="de"/></p><div style="margin:0;"><font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;">Sehr geehrter Herr Kumpitsch,</span></font></div>
+<div style="margin:0;"><font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;">inzwischen
+ ist das Blech bei mir auf dem Schreibtisch. Ich habe einen Kollegen um 
+die Sichtung vorhandener und die Erstellung neuer Photographien gebeten.
+ In der Anlage
+übermittle ich diese. Bitte nennen Sie als Quelle: GDKE RLP 
+Landesarchäologie Mainz.</span></font></div>
+<div style="margin:0;"><font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;">Das
+ Stück steht im Eigentum des Landes Rheinlad-Pfalz, vertreten durch die 
+Landesarchäologie Mainz der Generaldirektion Kulturelles Erbe. 
+Inventarnummer des Stückes
+ist: FM 80-035. Fundort: Ober-Olm, Am Füllkeller / Im Villenkeller.</span></font></div>
+<div style="margin:0;"><font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;"/></font></div>
+<div style="margin:0;"><font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;"><font size="2"><span style="font-size:10pt;">Mit freundlichen Grüßen</span></font></span></font></div>
+<div style="margin:0;"><font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;"><font size="2"><span style="font-size:10pt;">im Auftrag</span></font></span></font></div>
+<div style="margin:0;"><font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;"><font size="2"><span style="font-size:10pt;">Jens Dolata</span></font></span></font></div></note>
+			<note type="Fundumst_note"/>
+			<note type="Fundjahr_note"><p>?1979 – Titel des Aufsatzes von Stümpel: Bodendenkmalpflege Mainz 1979? – würde auch zur Inv. Nr. passen? <b>in Word gelb</b><br/></p></note>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note"/>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note"><p><b>Mail von Dolata am 07.08.<br/></b><span style="background-color:white;" lang="de"/></p><div style="margin:0;"><font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;">Sehr geehrter Herr Kumpitsch,</span></font></div>
+<div style="margin:0;"><font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;">inzwischen
+ ist das Blech bei mir auf dem Schreibtisch. Ich habe einen Kollegen um 
+die Sichtung vorhandener und die Erstellung neuer Photographien gebeten.
+ In der Anlage
+übermittle ich diese. Bitte nennen Sie als Quelle: GDKE RLP 
+Landesarchäologie Mainz.</span></font></div>
+<div style="margin:0;"><font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;">Das
+ Stück steht im Eigentum des Landes Rheinlad-Pfalz, vertreten durch die 
+Landesarchäologie Mainz der Generaldirektion Kulturelles Erbe. 
+Inventarnummer des Stückes
+ist: FM 80-035. Fundort: Ober-Olm, Am Füllkeller / Im Villenkeller.</span></font></div>
+<div style="margin:0;"><font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;"/></font></div>
+<div style="margin:0;"><font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;"><font size="2"><span style="font-size:10pt;">Mit freundlichen Grüßen</span></font></span></font></div>
+<div style="margin:0;"><font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;"><font size="2"><span style="font-size:10pt;">im Auftrag</span></font></span></font></div>
+<div style="margin:0;"><font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;"><font size="2"><span style="font-size:10pt;">Jens Dolata</span></font></span></font></div><p/></note>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note"><p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p></note>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note"><p>s. Rupprecht 1988 S.285</p><p>Breite 4-5 cm<br/></p></note>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note"/>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note"><p>AE: nach 96, wenn der Name der Leg richtig ergänzt</p><p>EDH: 92 n. Chr. – 130 n. Chr.</p><p>WSpDB: 89-250</p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

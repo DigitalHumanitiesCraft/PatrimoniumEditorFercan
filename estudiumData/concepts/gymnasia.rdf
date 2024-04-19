@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:RDF xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:time="http://www.w3.org/2006/time#" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <skos:ConceptScheme rdf:about="https://ausohnum.huma-num.fr/thesaurus/gymnasium/">
         <dc:title type="full">gymnasium</dc:title>
         <dc:title type="short">gymnasium</dc:title>
@@ -24,8 +23,8 @@
     <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26615"/>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
         <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
-    <dct:modified>2020-01-22T11:51:27.878+01:00</dct:modified>
-    <dct:modified>2022-02-07T15:28:37.257+01:00</dct:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-01-22T11:51:27.878+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2022-02-07T15:28:37.257+01:00</dcterms:modified>
         <skosThesau:admin status="draft"/>
     </skos:Concept>
     <skos:Concept xml:id="c19891" rdf:about="https://ausohnum.huma-num.fr/concept/c19891">
@@ -43,7 +42,7 @@
     <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c23519"/>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
         <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
-    <dct:modified>2019-04-12T09:36:51.024+02:00</dct:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2019-04-12T09:36:51.024+02:00</dcterms:modified>
         <skosThesau:admin status="draft"/>
     </skos:Concept>
     <skos:Concept xml:id="c19892" rdf:about="https://ausohnum.huma-num.fr/concept/c19892">
@@ -205,9 +204,9 @@
     <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c26584"/>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
         <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
-    <dct:modified>2019-07-02T13:03:30.58+02:00</dct:modified>
-    <dct:modified>2019-07-09T11:37:15.016+02:00</dct:modified>
-    <dct:modified>2021-12-08T14:28:55.909+01:00</dct:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2019-07-02T13:03:30.58+02:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2019-07-09T11:37:15.016+02:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2021-12-08T14:28:55.909+01:00</dcterms:modified>
         <skosThesau:admin status="draft"/>
     </skos:Concept>
     <skos:Concept xml:id="c19908" rdf:about="https://ausohnum.huma-num.fr/concept/c19908">
@@ -287,7 +286,7 @@
     <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c21835"/>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
         <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
-    <dct:modified>2019-08-20T16:46:44.315+02:00</dct:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2019-08-20T16:46:44.315+02:00</dcterms:modified>
         <skosThesau:admin status="draft"/>
     </skos:Concept>
     <skos:Concept xml:id="c19916" rdf:about="https://ausohnum.huma-num.fr/concept/c19916">
@@ -352,9 +351,9 @@
     <skos:narrower rdf:resource="https://ausohnum.huma-num.fr/concept/c22108"/>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/gymnasium/"/>
         <dct:created>2018-12-06T15:42:48.918+01:00</dct:created>
-    <dct:modified>2019-07-16T15:01:48.968+02:00</dct:modified>
-    <dct:modified>2019-08-29T15:20:03.269+02:00</dct:modified>
-    <dct:modified>2019-10-21T12:37:07.71+02:00</dct:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2019-07-16T15:01:48.968+02:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2019-08-29T15:20:03.269+02:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2019-10-21T12:37:07.71+02:00</dcterms:modified>
         <skosThesau:admin status="draft"/>
     </skos:Concept>
     <skos:Concept xml:id="c19922" rdf:about="https://ausohnum.huma-num.fr/concept/c19922">
@@ -632,11 +631,11 @@
         <skosThesau:admin status="draft"/>
         <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
         <dct:created>2020-01-22T11:51:27.878+01:00</dct:created>
-    <dct:modified>2020-01-22T11:52:04.359+01:00</dct:modified>
-    <dct:modified>2020-02-17T15:49:06.776+01:00</dct:modified>
-    <dct:modified>2020-02-17T16:11:11.178+01:00</dct:modified>
-    <dct:modified when="2020-02-17T16:11:22.404+01:00" who="jbernini"/>
-    <dct:modified>2020-02-28T11:13:36.801+01:00</dct:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-01-22T11:52:04.359+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-02-17T15:49:06.776+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-02-17T16:11:11.178+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/" when="2020-02-17T16:11:22.404+01:00" who="jbernini"/>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-02-28T11:13:36.801+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23474" rdf:about="https://ausohnum.huma-num.fr/concept/c23474">
         <skos:prefLabel xml:lang="en">city</skos:prefLabel>
@@ -689,7 +688,7 @@
         <skosThesau:admin status="draft"/>
         <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
         <dct:created>2022-02-07T15:28:37.257+01:00</dct:created>
-    <dct:modified>2022-02-07T15:29:32.505+01:00</dct:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2022-02-07T15:29:32.505+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c26616" rdf:about="https://ausohnum.huma-num.fr/concept/c26616">
         <skos:prefLabel xml:lang="en">Place type relations</skos:prefLabel>
@@ -702,9 +701,9 @@
         <skosThesau:admin status="draft"/>
         <dct:creator rdf:resource="https://ausohnum.huma-num.fr/people/vrazanajao"> </dct:creator>
         <dct:created>2022-02-07T15:29:32.505+01:00</dct:created>
-    <dct:modified>2022-02-07T15:32:45.24+01:00</dct:modified>
-    <dct:modified>2022-02-07T15:33:18.13+01:00</dct:modified>
-    <dct:modified>2022-02-07T17:22:35.178+01:00</dct:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2022-02-07T15:32:45.24+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2022-02-07T15:33:18.13+01:00</dcterms:modified>
+    <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2022-02-07T17:22:35.178+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c26617" rdf:about="https://ausohnum.huma-num.fr/concept/c26617">
         <skos:prefLabel xml:lang="en">Origin (ancient place)</skos:prefLabel>

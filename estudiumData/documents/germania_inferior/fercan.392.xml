@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior392">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior392">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -246,7 +245,11 @@ Auf der rechten Seite ist ein ungefülltes und auch ansonsten unverziertes Füll
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, B32</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1485</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 407 Nr.108</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.1027</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -270,7 +273,12 @@ Auf der rechten Seite ist ein ungefülltes und auch ansonsten unverziertes Füll
 <gap reason="lost" extent="unknown" unit="character" instant="false"/>TIV<gap reason="lost" extent="unknown" unit="character" instant="false"/>  <lb n="5"/>
 <gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">O</unclear> <gap reason="lost" quantity="1" unit="character" instant="false"/>E ET  <lb n="6"/>
 <gap reason="lost" quantity="1" unit="character" instant="false"/>VIS V S L M</orig></ab></div>
-            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Deae<lb n="2"/>Nehalen<lb n="3" break="no"/>n<supplied reason="lost" instant="false">ia</supplied>e<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>TIV<gap reason="lost" extent="unknown" unit="character" instant="false"/><lb n="5"/><supplied reason="lost" instant="false">pr</supplied>o <supplied reason="lost" instant="false">s</supplied>e et<lb n="6"/><supplied reason="lost" instant="false">s</supplied>uis <expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">ovit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><lb n="1"/>Deae
+<lb n="2"/>Nehalen
+<lb n="3" break="no"/>n<supplied reason="lost">ia</supplied>e
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>TIV<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="5"/><supplied reason="lost">pr</supplied>o <supplied reason="lost">s</supplied>e et
+<lb n="6"/><supplied reason="lost">s</supplied>uis <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
             <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
                 <p part="N">Für die Göttin  <rs type="divine">Nehalennia!</rs>   <lb/>
 ... hat für sich und die Seinen das Gelübde gerne und verdientermaßen erfüllt.</p>
@@ -283,7 +291,11 @@ Auf der rechten Seite ist ein ungefülltes und auch ansonsten unverziertes Füll
                 <app loc="#MIN.2 #MAJ.2">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – EDH</tei:note>
                 </app>
-            </div>
+            
+            <app loc="6">
+                <note anchored="true">s(ovit) – Scheungraber, Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).</p>
                                                 <p part="N">
 

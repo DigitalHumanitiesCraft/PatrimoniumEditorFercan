@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior74">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior74">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -257,7 +256,11 @@ Auf der linken Seite ist ein geradstämmiger Baum mit länglich nach oben zulauf
                     <bibl xml:id="LIT.2" default="false" status="draft">CIL XIII 8815</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Wierschowski 2001, Nr.583</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Schmidts 2011, Nr.59</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 602 Nr.1</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.1326</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -296,7 +299,7 @@ The members of the civitas of the Tungrians and shipowners, who reside in Fectio
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[De]ae – Wierschowski</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Vir]adecd(i) – Wierschowski, Schmidts; [Vir]adecd(is) – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Vir]adecd(i) – Wierschowski, Schmidts; [Vir]adecd(is) – EDH, Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[ci]ves – Wierschowski</tei:note>

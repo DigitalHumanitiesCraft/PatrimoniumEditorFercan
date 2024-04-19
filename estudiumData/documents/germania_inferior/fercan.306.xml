@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior306">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior306">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -228,7 +227,11 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 12004</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1918, Nr.247</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Byvanck 1935, Nr.1549</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 520 Nr.8</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.1256</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -259,9 +262,21 @@ Proxsimenia Iusiutinia has fulfilled a vow she made willingly and deservedly.</p
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Iusiutin – CIL, Lehner, Byvanck</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">a(!) – Scheungraber; Iusiutin – CIL, Lehner, Byvanck, Scheungraber, Ferlut</tei:note>
                 </app>
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">Pro[x] – Scheungraber, Ferlut</note>
+            </app>
+        
+            <app loc="4">
+                <note anchored="true">simeni – Scheungraber, Ferlut</note>
+            </app>
+        
+            <app loc="6">
+                <note anchored="true">a(!) – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Proxsimenia Iusiutinia: weibliches römisches Namensformular <lb/>
 Proxsimenia: einheimische Bildung, vermutlich mit lateinischer Basis, wohl vom lateinischen Cognomen Proxumus/Proximus (Kakoschke 2006, GN 1005) <lb/>

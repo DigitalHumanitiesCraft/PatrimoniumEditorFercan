@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior106">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior106">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -291,7 +290,7 @@
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solverunt_libentes_merito">votum solverunt libentes merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">test</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -320,7 +319,11 @@
                     <bibl xml:id="LIT.3" default="false" status="draft">Galsterer/Galsterer 2010, Nr.3</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">KIK 2012, Nr.635</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Kakoschke 2017. Nr.1</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 97 Nr.3</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.623</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -365,10 +368,10 @@ Priminius Octavius, Verinius Felicio, Quartius Quetus and Minicius Vitalis have 
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ergänzung [I O M] – Galsterer 1981, AE, Galsterer/Galsterer 2010, KIK2012</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ergänzung [I O M] – Galsterer 1981, AE, Galsterer/Galsterer 2010, KIK2012, Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">lo[ci] – Galsterer 1981, AE, Galsterer/Galsterer 2010, KIK2012</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">lo[ci] – Galsterer 1981, AE, Galsterer/Galsterer 2010, KIK2012, Scheungraber; lo(ci) Ambiamarcis – Ferlut (Z.3 fehlt dort)</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligaturen – AE, Galsterer/Galsterer 2010, EDH, KIK2012</tei:note>
@@ -377,27 +380,35 @@ Priminius Octavius, Verinius Felicio, Quartius Quetus and Minicius Vitalis have 
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – AE, Galsterer/Galsterer 2010, EDH, KIK2012</tei:note>
                 </app>
                 <app loc="#MIN.7 #MAJ.7">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligaturen – AE, Galsterer/Galsterer 2010, EDH, KIK2012</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligaturen – AE, Galsterer/Galsterer 2010, EDH, KIK2012; diis (!) – Scheungraber; deabusque – Ferlut (dort Z.6)</tei:note>
                 </app>
                 <app loc="#MIN.8 #MAJ.8">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Primini – Galsterer 1981, Galsterer/Galsterer 2010, KIK2012; Primini(i) – AE; ohne Ligatur – AE, Galsterer/Galsterer 2010, EDH, KIK2012</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Primini – Galsterer 1981, Galsterer/Galsterer 2010, KIK2012; Primini(i) – AE; ohne Ligatur – AE, Galsterer/Galsterer 2010, EDH, KIK2012; Primin(ius) – Ferlut (dort Z.7)</tei:note>
                 </app>
                 <app loc="#MIN.9 #MAJ.9">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Ver(us) Felic(issimus?) – Galsterer 1981, AE; Ver(us) Felic(ior?, issimus?) – Galsterer/Galsterer 2010, KIK 2012; ohne Ligatur – AE, Galsterer/Galsterer 2010, EDH, KIK2012</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Ver(us) Felic(issimus?) – Galsterer 1981, AE; Ver(us) Felic(ior?, issimus?) – Galsterer/Galsterer 2010, KIK 2012; ohne Ligatur – AE, Galsterer/Galsterer 2010, EDH, KIK2012; Ver(us) Felic(issimus) – Ferlut (dort Z.8)</tei:note>
                 </app>
                 <app loc="#MIN.10 #MAJ.10">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Vetus – Galsterer 1981, AE, Galsterer/Galsterer 2010, KIK2012; ohne Ligatur – AE, Galsterer/Galsterer 2010, EDH, KIK2012</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Vetus – Galsterer 1981, AE, Galsterer/Galsterer 2010, KIK2012, Scheungraber, Ferlut (dort Z.9); ohne Ligatur – AE, Galsterer/Galsterer 2010, EDH, KIK2012</tei:note>
                 </app>
                 <app loc="#MIN.11 #MAJ.11">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Mi[nius?] – Galsterer 1981, AE; ohne Ligaturen – AE, Galsterer/Galsterer 2010, EDH, KIK2012; bei dem vermeintlichen I am Beginn der Lücke könnte es sich auch um ein E handeln – Kakoschke.</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Mi[nius?] – Galsterer 1981, AE; ohne Ligaturen – AE, Galsterer/Galsterer 2010, EDH, KIK2012; bei dem vermeintlichen I am Beginn der Lücke könnte es sich auch um ein E handeln – Kakoschke; Mi[3 Vi]talis(?) – Scheungraber; Mi[nius Vi]talis – Ferlut (dort Z.10)</tei:note>
                 </app>
                 <app loc="#MIN.12 #MAJ.12">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Zeilenwechsel fehlt nach Ga]llo – Galsterer/Galsterer 2010, KIK 2012</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Zeilenwechsel fehlt nach Ga]llo – Galsterer/Galsterer 2010, KIK 2012; d(ominis) [n(ostris) Ga]llo – Ferlut (dort Z.11)</tei:note>
                 </app>
                 <app loc="#MIN.13 #MAJ.13">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[I]I (iterum) et – Galsterer 1981, AE; ohne Ligatur – AE, Galsterer/Galsterer 2010, EDH, KIK2012</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[I]I (iterum) et – Galsterer 1981, AE, Ferlut (dort Z.12); ohne Ligatur – AE, Galsterer/Galsterer 2010, EDH, KIK2012</tei:note>
                 </app>
-            </div>
+            
+            <app loc="4">
+                <note anchored="true">Ambiorene(n)sibus – Scheungraber</note>
+            </app>
+        
+            <app loc="14">
+                <note anchored="true">co(n)s(ulibus) – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Die 8 erhaltenen Namen sind höchstwahrscheinlich als 4 Personennamen bestehend aus Gentilnomen und Cognomen zu verstehen: Priminius Octavius, Verinius Felicio, Quartius Quetus und Minicius Vitalis. Nach anderer Lesung (siehe Apparatus criticus) haben wir es hier mit 3 Primini(i): Octavius, Ver(us) und Felic(ior? oder ähnlich), zu tun. </p>
                 <p part="N">

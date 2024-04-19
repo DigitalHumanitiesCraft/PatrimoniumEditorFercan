@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior437">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior437">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -346,7 +345,11 @@ Die Rückseite ist mit einem auf zwei runden Knöpfen drapierten Vorhang verzier
                     <bibl xml:id="LIT.3" default="false" status="draft">Byvanck 1935, Nr.253</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Hondius-Crone 1955, Nr.5</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Stuart 2013, Nr.1</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 393 Nr.7</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.1061</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -378,7 +381,11 @@ Dacinus, der Sohn des Liffio, hat das Gelübde gerne und verdientermaßen erfül
 Dacinus, the son of Liffio, has fulfilled a vow willingly and deservedly. </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">Nehalleniae – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Dacinus: vermutlich germanisches Cognomen (Kakoschke 2007, CN 998) </p>
                 <p part="N">

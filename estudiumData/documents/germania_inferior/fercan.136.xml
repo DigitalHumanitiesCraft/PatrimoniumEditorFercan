@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior136">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior136">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -279,7 +278,11 @@
                     <bibl xml:id="LIT.2" default="false" status="draft">Vollgraff 1931, 256-257, tabula B Nr.5</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Jaczynowska 1977, Nr.10</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">AE 1977, 539</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 173</bibl>
+        
+            <bibl xml:id="6">Scheungraber 2020, 192 Nr.1</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -313,7 +316,7 @@ with a joyful heart.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[vota Erc]oul(eo) – Vollgraff 1930 und 1932, Jaczynowska; ohne Interpunktion – EDH; DECVR – EDH; VO S A LB – EDH.</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[vota Erc]oul(eo) – Vollgraff 1930 und 1932, Jaczynowska; ohne Interpunktion – EDH; DECVR – EDH; VO S A LB – EDH; [Deo(?) (H)erc]oul(eo) – Scheungraber 2020, 173; [Vota (H)erc]oul(eo) Ma&lt;g=C&gt;usa(n)o Baldruo Lobbo(no) sol(verunt) ddecur(iones) Vabusoae deo Lobbo(no) Borvoboendoae vo(ta) ss(olverunt) a(nimo) l(i)bb(entes) – Scheungraber 2020, 192</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

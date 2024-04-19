@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior464">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior464">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -228,7 +227,11 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">ILS 4807a</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">CIL XIII 7915</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Biller 2010, 125</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 462 Nr.2</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.703</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -257,12 +260,20 @@ Quintus Cominius Primio willingly and deservedly.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Saithamia[b], ohne Ligaturen – ILS; Sait˧âm̂iab(us) – Biller</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Saithamia[b], ohne Ligaturen – ILS; Sait˧âm̂iab(us) – Biller; Saithamia(bus) – Scheungraber; Saithamiais – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligaturen – ILS v.4: l. [m.], ohne Ligaturen – ILS</tei:note>
                 </app>
-            </div>
+            
+            <app loc="1">
+                <note anchored="true">Matronis – Ferlut</note>
+            </app>
+        
+            <app loc="4">
+                <note anchored="true">l. [m.], ohne Ligaturen – ILS</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Quintus Cominius Primio: tria nomina <lb/> 
 Cominius: gängiges italisches Gentilnomen (Kakoschke GN, 345) <lb/>

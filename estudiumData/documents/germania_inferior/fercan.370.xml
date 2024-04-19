@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior370">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior370">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -267,7 +266,11 @@ Auf der rechten Seite, die schwerer von Verwitterungserscheinungen betroffen ist
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, B13</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1474</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 404 Nr.89</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.985</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -304,7 +307,11 @@ Quintus Castricius Senecianus according to her order willingly and deservedly. <
                 <app loc="#MIN.2 #MAJ.2">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligaturen – EDH</tei:note>
                 </app>
-            </div>
+            
+            <app loc="5">
+                <note anchored="true">ips(arum) – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Quintus Castricius Senecianus: tria nomina <lb/>
 Castricius: italisches Gentilnomen (Kakoschke 2006, GN 293) <lb/> 

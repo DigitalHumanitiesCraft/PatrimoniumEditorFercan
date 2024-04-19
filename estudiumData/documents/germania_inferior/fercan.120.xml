@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior120">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior120">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -383,7 +382,9 @@ Auf der rechten Schmalseite ist das Motiv wohl ähnlich aufgebaut, doch ist hier
                     <bibl xml:id="LIT.4" default="false" status="draft">CLE 20</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Eck 1985, 209</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">Hainzmann 2016, 241</bibl>
-                </listBibl>
+                
+            <bibl xml:id="7">Scheungraber 2020, 306 Nr.10</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -428,7 +429,7 @@ Gaius Fulvius, the son of Gaius, Maximus, legatus Augusti pro praetore.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">consu[l ex] – CLE; e[t] – ILS; für eine Ergänzung von [ex] am Ende der Zeile kein Platz; auch nicht am Anfang von v.2. – Eck</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">consu[l ex] – CLE, Scheungraber; e[t] – ILS; für eine Ergänzung von [ex] am Ende der Zeile kein Platz; auch nicht am Anfang von v.2. – Eck</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Sicano[s] – ILS, CLE</tei:note>
@@ -440,31 +441,31 @@ Gaius Fulvius, the son of Gaius, Maximus, legatus Augusti pro praetore.</p>
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Ce[lt]as – ILS</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Delmatas [---] – ILS; De[l]matas – CLE; L in DELM incerta; fin. LIBVR fuisse potest – CIL; Delmata[s] Lib[u]r- – Eck; L[i]b[u]r – Hainzmann</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Delmatas [---] – ILS; De[l]matas – CLE; L in DELM incerta; fin. LIBVR fuisse potest – CIL; Delmata[s] Lib[u]r- – Eck; L[i]b[u]r – Hainzmann; D&lt;a=E&gt;lmata[s] L[i]b[u]r – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.6 #MAJ.6">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">I[ap]u- – ILS</tei:note>
                 </app>
                 <app loc="#MIN.8 #MAJ.8">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[.]ularis – CIL; [s]ularis – Eck, Hainzmann</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[.]ularis – CIL; [s]ularis – Eck, Hainzmann, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.10 #MAJ.10">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[l]iberum – ILS</tei:note>
                 </app>
                 <app loc="#MIN.11 #MAJ.11">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Concordiae – ILS, Eck, Hainzmann</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Concordiae – ILS, Eck, Hainzmann, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.12 #MAJ.12">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Granno – CLE</tei:note>
                 </app>
                 <app loc="#MIN.13 #MAJ.13">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">quin – Eck, Hainzmann</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">quin – Eck, Hainzmann, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.14 #MAJ.14">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">et – ILS</tei:note>
                 </app>
                 <app loc="#MIN.16 #MAJ.16">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">G(aius) – Eck</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">G(aius) – Eck; G(ai!) – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.18 #MAJ.18">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Aug. – ILS</tei:note>

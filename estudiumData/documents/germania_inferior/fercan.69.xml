@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior69">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior69">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -239,7 +238,9 @@
                     <bibl xml:id="LIT.4" default="false" status="draft">Galsterer/Galsterer 2010, Nr.173</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">KIK 2012, Nr.187</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">Kakoschke 2017 Annotationes VII, Nr.VIII</bibl>
-                </listBibl>
+                
+            <bibl xml:id="7">Scheungraber 2020, 129 Nr.3</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -269,7 +270,7 @@ Iulius Iu… by his order.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Iul(ius) Iustu(s) – Kakoschke</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Iul(ius) Iustu(s) – Kakoschke; Iulius Ius&lt;t=I&gt;us – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">impe(rio) – Galsterer/Galsterer 2010, KIK 2012</tei:note>

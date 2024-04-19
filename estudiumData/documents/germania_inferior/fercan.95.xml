@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior95">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior95">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -236,7 +235,11 @@ Die Darstellung weicht in einigen Details vom typischen Schema der Matronenbilde
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Broelmann 1608, Tabella III Nr.35</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">CIL XIII 7939</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 285 Nr.7 </bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.714</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>

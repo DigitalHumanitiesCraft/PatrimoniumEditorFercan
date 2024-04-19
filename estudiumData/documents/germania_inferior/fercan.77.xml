@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior77">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior77">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -220,7 +219,11 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 8576</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1918, Nr.338</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 429 Nr.6</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.803</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -251,18 +254,22 @@ V…ius … has fulfilled a vow willingly and deservedly. </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">n[na]bus – CIL; nnabus – Lehner</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">n[na]bus – CIL; nnabus – Lehner, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]us – CIL; [---]ius – Lehner</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]us – CIL, Ferlut; [---]ius – Lehner, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[.]+[---]O V – CIL</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[.]+[---]O V – CIL; [---]O votum – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.6 #MAJ.6">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---] M – CIL; Lehner</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---] M – CIL; Lehner; [s(olvit) l(ibens)] – Scheungraber, Ferlut</tei:note>
                 </app>
-            </div>
+            
+            <app loc="1">
+                <note anchored="true">Matronis – Scheungraber, Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.2/3: „Octocannabus“ pro „Octocannis“</p>
             </div>

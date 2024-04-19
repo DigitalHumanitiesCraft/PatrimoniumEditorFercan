@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior16" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior16" n="">
 	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
@@ -50,34 +50,37 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>Der sechsseitige Weihealtar ist an den Seiten stark behauen. Am Aufsatz mit Opferschale lassen sich noch Pulvini erkennen. Das Inschriftenfeld ist nicht gerahmt, jedoch durch Reliefdekor vom Aufsatz getrennt. </p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
-									<objectType>Weihestein</objectType> <dimensions>
+								<support> <p>Der sechsseitige Weihealtar ist an den Seiten stark behauen. Am Aufsatz mit Opferschale lassen sich Rosetten und ein giebelförmiger Blattdekor erkennen. Für genauere Aussagen ist dieser jedoch zu stark verwittert. Das Inschriftenfeld ist nicht gerahmt, jedoch durch mehrere Stufen vom Aufsatz getrennt. Die Basis setzt ohne Abstufung an das Inschriftenfeld an.</p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm"> 46</height>
 										<width unit="cm"> 14</width>
-										<depth unit="cm"> 5</depth>
-									</dimensions> <note type="dimensions"> Die angegebene Breite bezieht sich auf eine der Seiten des sechsseitigen Weihealtars. </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+										<depth unit="cm"> 26</depth>
+									</dimensions> <note type="dimensions"> Die angegebene Breite bezieht sich auf die Seite mit dem Inschriftenfeld des Weihaltares. </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>Der Text füllt das Inschriftenfeld vollständig aus. Die Bedeutung des O als letztem Buchstaben bleibt unklar. Die Buchstaben sind unregelmäßig und liegen nicht exakt auf einer waagrechten Linie. Das O am Ende von Z.3 ist erheblich kleiner als die anderen Buchstaben.</p> <note type="condition"/> </layout>
+								<layout> <p>                                                <p>Der Text füllt das Inschriftenfeld vollständig aus. Die Buchstaben sind unregelmäßig und liegen nicht exakt auf einer waagrechten Linie.</p>
+                                                <p>Besondere Zeichen: Das O am Ende von Z.3 ist erheblich kleiner als die anderen Buchstaben. Die Bedeutung des O als letztem Buchstaben in Z.5 bleibt unklar. </p></p> <note type="condition"/> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="2.0" atMost="3.8">2,0–3,8</height> </handNote>
 						</handDesc>
 						<decoDesc>
 							<decoNote> <p>Keine bildliche Gestaltung vorhanden.</p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160000">Reliefdekor</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160200">Blattdekor</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">Rosette</term>
+                      
+                      
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="" notAfter=""> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1821"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Ruppertsberg</ref> </placeName> <p>in den Weinbergen von Wolf zu Ruppertsberg und Grohé zu Neustadt (Bernhard 1976, S.148 und König 1821, S.485 Nr.3) </p> <location>
+						<origin> <origPlace> <placeName/> <region>Civitas Nemetum</region> </origPlace> <origDate notBefore="" notAfter=""> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1821"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Ruppertsberg</ref> </placeName> <p>auf der Hohenburg; in den Weinbergen von Wolf zu Ruppertsberg und Grohé zu Neustadt (Bernhard 1976, 148 und König 1821, 485, Nr.3) </p> <location>
 								<geo decls="#WGS"/>
-							</location> <note>„bei Rigolung der Weinberge“ (Bernhard 1976, S.148)</note> </provenance>
+							</location> <note>„bei Rigolung der Weinberge“ (Bernhard 1976, 148); gemeinsam mit CF-GeS-1057</note> </provenance>
 						<provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)<br/></provenance>
 					</history>
 				</msDesc>
@@ -90,12 +93,12 @@
 						</placeName>
 					</place>
 				</listPlace>
-				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context"/></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context"/></persName></person>
+				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context">Cissonius</ref></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context"/></persName></person>
 					<person>
-						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context"> Cissonius</ref> </persName>
+						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context">Cissonius</ref> </persName>
 					</person>
 					<person>
-						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> Paternus</ref> </persName>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Paternus</ref> </persName>
 					</person>
 					<person>
 						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
@@ -172,8 +175,8 @@
 			</langUsage>
 			<textClass>
 				<keywords>
-					<list><item><ref target="context:fercan.divinepart." type="context"/></item>
-						<item> <ref target="context:fercan.dedication." type="context"> ex voto posuit</ref> </item>
+					<list><item><ref target="context:fercan.divinepart." type="context">Deo Cisonio</ref></item>
+						<item> <ref target="context:fercan.dedication." type="context">ex voto posuit</ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref>
@@ -191,38 +194,58 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="Cissonius 1011_fr.jpg">
-			<desc> </desc>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1011_front1.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
 		</graphic>
 	
             <!-- todo: @xml:id-->
-            <graphic mimeType="image/jpeg" url="Cissonius 1011_fr IS.jpg">
-                <desc/>
+            <graphic mimeType="image/jpeg" url="1011_front2.jpg">
+                <desc>Front, Historisches Museum der Pfalz, Speyer, Foto: Ortolf Harl 2015</desc>
             </graphic>
+        
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg " url="1011_front3.jpg"><desc> Front, EDCS-11000113, Rechte vorbehalten</desc></graphic>
         </facsimile>
 	<text>
 		<body>
 			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
 			<div subtype="editions" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl xml:id="1"> CIL XIII 6119 </bibl>
+					<bibl xml:id="2"> CIL XIII 6119 </bibl>
 				
-            <bibl xml:id="2">Bernhard 1976, 149 </bibl>
+            <bibl xml:id="3">Hildenbrand 1911 (Steinsaal), Nr.218</bibl>
         
-            <bibl xml:id="3">Scheungraber 2020, 235 Nr.8</bibl>
+            <bibl xml:id="4">Bernhard 1976, 149 Nr.6</bibl>
+        
+            <bibl xml:id="5"> Scheungraber 2020, 235 Nr.8 </bibl>
+        
+            <bibl xml:id="1">König 1821, 458 Nr.3</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl type="EDCS"><idno> EDCS-11000113</idno><date> </date></bibl>
+					<bibl type="EDCS"><idno> EDCS-11000113</idno><date> zuletzt abgerufen 2023-03-10</date></bibl>
 					<bibl type="EDH"><idno> </idno><date> </date></bibl>
 					<bibl type="trismegistos"><idno> </idno><date> </date></bibl>
-					<bibl type="other"><idno> lupa.at/25533</idno><date> 2023-03-10</date></bibl>
-				<bibl type="lupa"><idno/><date/></bibl></listBibl>
+					
+				<bibl type="lupa"><idno>http://lupa.at/25533</idno><date>Version von 2020-07-09</date></bibl>
+            <bibl type="other">
+                <idno>https://cil.bbaw.de/ace/id/KO0022067</idno>
+                <date>zuletzt abgerufen 2023-08-11</date>
+            </bibl>
+        </listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform">
-				<ab><orig/></ab></div>
-			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab/></div>
+				<ab><orig/><lb n="1"/>DEO CIS
+<lb n="2"/>ONIO EX
+<lb n="3"/>VOTO PO
+<lb n="4"/>SVT PAT
+<lb n="5"/>ERNVS O</ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Deo Cis
+<lb n="2" break="no"/>onio ex
+<lb n="3"/>voto po
+<lb n="4" break="no"/><expan><abbr>su</abbr><ex>i</ex></expan>t pat
+<lb n="5" break="no"/>ernus O<abbr/></ab></div>
 			<div type="translation" xml:lang="de" org="uniform">
 				<p><p>Für den Gott <rs type="divine">Cisonius</rs>!</p><p>Einem Gelübde folgend hat es Paternus O(?) aufgestellt.</p></p>
 			</div>
@@ -231,14 +254,18 @@
 			</div>
 			<div type="apparatus" org="uniform">
 				<app loc="1">
-					<note/>
+					<note>Am Ende der Zeile CIS – König; Cis(s) – Scheungraber</note>
 				</app>
-			</div>
-			<div type="commentary" subtype="general" org="uniform">
-				<p> </p>
-			</div>
+			
+            <app loc="2">
+                <note anchored="true">Am Anfang der Zeile CNIO – König</note>
+            </app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform">                                                <p>Paternus: einheimisches Namensformular</p><p>Paternus: lateinischer Name, überall verbreitet, mit Häfung in Gallien, Hispanien und Norditalien (Kakoschke 2021, CN 2319)</p>
+			<p/></div>
 			<div type="commentary" subtype="language" org="uniform">
-				<p> v.1/2: „Cisonio“ pro „Cissonio“; v.3/4: “posut” pro “posuit”</p>
+				<p>                                                <p>v.1/2: „Cisonio“ pro „Cissonio“</p>
+                                                <p>v.3/4: „posut” pro „posuit”</p></p>
 			</div>
 			<div type="commentary" subtype="deity" org="uniform">
 				<p> </p>
@@ -249,7 +276,7 @@
 		<back>
 			<note type="Objbeschr_note"/>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note">So: Lupa Gelber Sandstein nach CIL Dateikarten</note>
+			<note type="Material_note"><p>So: Lupa</p><p>Gelber Sandstein nach CIL Dateikarten</p></note>
 			<note type="Inschrifttraeger_note">Ara (sechseckig) Lupa: Votivaltar</note>
 			<note type="VerwahrortOrt_note">WSpDB: Speyer (Magazin) A 19<br/></note>
 			<note type="InvNr_note"/>
@@ -257,21 +284,33 @@
 			<note type="Fundumst_note">Siehe CIL Dateikarten</note>
 			<note type="Fundjahr_note">König 1821 S. 485 und Bernhard 1976 S. 148   </note>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note">(Gemeinde: Ruppertsberg, Kreis: Bad Dürkheim) CIL: rep. Hohenburg prope Ruppertsberg Lupa: Ruppertsberg <b>Hildenbrand, Steinsaal Nr.218: Ruppertsberg auf der sog. Hohenburg</b></note>
+			<note type="FOmodern_note">(Gemeinde: Ruppertsberg, Kreis: Bad Dürkheim) CIL: rep. Hohenburg prope Ruppertsberg Lupa: Ruppertsberg Hildenbrand, Steinsaal Nr.218: Ruppertsberg auf der sog. Hohenburg</note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
 			<note type="Abb_note">WSpDB: Film: 146/15,19,21</note>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note">Photos von online nicht verfügbaren Inschriftentexten  s. Ordner: ISntexte Slg  www-CIL: = AE 1992, 1300 – falsche IS  Hildenbrand 1911, Steinsaal Nr.218  Wichtig: Bernhard, Helmut, Beiträge zur römischen Besiedlung im Hinterland von Speyer, in: Mitteilungen des Historischen Vereins der Pfalz 73 (1976), S.??  Fundbericht: König in: Intelligenzblatt des Rheinkreises 1821, S. 485 Nr. 3 + Abb. </note>
+			<note type="Editionen_note">                                                    <p>Photos von online nicht verfügbaren Inschriftentexten  s. Ordner: ISntexte Slg  </p>
+                                                    <p>www-CIL: = AE 1992, 1300 – falsche IS  </p><b>Fundbericht:</b> König in: Intelligenzblatt des Rheinkreises 1821, S. 485 Nr. 3 + Abb.- eingearbeitet<br/></note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note">so CIL Kartei – <b>Tiefe 5cm??? S. S.4 in Karte</b>i 		Lupa: Höhe: 45 cm</note>
+			<note type="Masse_note">                                                    <p>so CIL Kartei – 		Lupa: Höhe: 45 cm</p><p>Die angegebene Breite bezieht sich auf eine der Seiten des sechsseitigen Weihealtars. <br/></p>
+                                                    <p>auf welche Seite beziehen sich die Maße??</p><p><b>Mail vom 8.8. von Frau Hergert</b></p><p><span style="background-color:white;" lang="de"><font size="3" face="Times New Roman,serif"><span style="font-size:12pt;"><font size="2" face="Calibri,sans-serif" color="black"><span style="font-size:11pt;"/></font><font face="Calibri,sans-serif" color="#0070C0">Gesamthöhe
+46 cm, Gesamtbreite 29 cm, Gesamttiefe 26 cm, Seitenbreite vorne 
+(Inschriftenfeld) 14 cm (die an das Inschriftenfeld links und rechts 
+anschließenden Seiten sind geringfügig länger [ca. 14,5 cm], die 
+rückwärtigen Seiten konnte ich nicht nachmessen). Buchstabenhöhe
+2,0 – 3,8 cm.</font></span></font></span></p></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"/>
+			<note type="Buchsthoehe_note"><b>Mail vom 8.8. von Frau Hergert</b><p><span style="background-color:white;" lang="de"><font size="3" face="Times New Roman,serif"><span style="font-size:12pt;"><font size="2" face="Calibri,sans-serif" color="black"><span style="font-size:11pt;"/></font><font face="Calibri,sans-serif" color="#0070C0">Gesamthöhe
+46 cm, Gesamtbreite 29 cm, Gesamttiefe 26 cm, Seitenbreite vorne 
+(Inschriftenfeld) 14 cm (die an das Inschriftenfeld links und rechts 
+anschließenden Seiten sind geringfügig länger [ca. 14,5 cm], die 
+rückwärtigen Seiten konnte ich nicht nachmessen). Buchstabenhöhe
+2,0 – 3,8 cm.</font></span></font></span></p><p/></note>
 			<note type="Notvar_note"/>
 			<note type="SonstKomm_note"/>
 			<note type="Datierung_note">WSpDB: 175-250 Kakoschke: 175-300</note>

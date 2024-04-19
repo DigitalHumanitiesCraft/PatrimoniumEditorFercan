@@ -1,0 +1,368 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior95" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Titaca?</title><title type="sub"> CF-GeS-1020</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.95</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Koblenz</settlement>
+						<repository>Mittelrhein-Museum</repository>
+						<idno>A5822</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p><p>Das heute noch erhaltene rechte untere Eck der Weihetafel weist eine doppelte Rahmung des Inschriftenfeldes auf.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref> </material>
+									<objectType>Weihestein</objectType> <dimensions>
+										<height unit="cm">20</height>
+										<width unit="cm">14</width>
+										<depth unit="cm">12</depth>
+									</dimensions> <note type="dimensions" anchored="true">Die angegebenen Maße sind die des erhaltenen Fragmentes. </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>Heute ist nurmehr die rechte untere Ecke des Inschriftentextes erhalten,
+ von Bodewig und CIL wurden aber auch noch die ersten beiden Zeilen 
+gelesen. Die erhaltenen Buchstaben sind unregelmäßig aber gut lesbar. 
+</p>
+                                                <p>Besondere Zeichen: Der Buchstabe A weist keine Querhaste auf.</p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="3.0" atMost="3.5">3,0–3,5</height> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.</p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150500">Rahmen</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName>Confluentes</placeName> <region/> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern.">Koblenz</ref> </placeName> <p>Ecke Gemüsegasse – Florinsmarkt (CIL); heute „An der Liebfrauenkirche“</p> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true">während der Kanalisation[sarbeiten] (Bodewig 1898, 226, Nr.13), d.h. zwischen 1893 und 1898</note> </provenance>
+						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (CIL XIII Projekt)<br/></p>
+                                                <p>Lesung gründet auf: CIL und Photo</p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Titaca?</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Titaca?</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> </ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">
+						</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">
+						</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context">in honorem domus divinae</ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">dea(e) Ti[tac]a(e)</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/png" xml:id="IMAGE.1" url="1020_front_unklar1.png">
+			<desc> Front, Mittelrhein-Museum, Koblenz</desc>
+		</graphic>
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/png" url="1020_front_unklar2.jpg">
+                <desc>Front, CIL XIII Projekt, CC BY-NC</desc>
+            </graphic>
+        
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/png" url="1020_front_Abschr.png">
+                <desc>Abschrift, CIL</desc>
+            </graphic>
+        </facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="1">Bodewig 1898, 106, Nr.13</bibl>
+				
+            <bibl xml:id="2">CIL XIII 7624 </bibl>
+        
+            <bibl xml:id="3">Wiegels 2010 (Steininschriften), 456f. Nr.3</bibl>
+        
+            <bibl xml:id="4">Scheungraber 2020, 529 Nr.2</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.1262</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno>EDCS-11001752</idno><date>zuletzt abgerufen 2023-07-13</date></bibl>
+					<bibl type="EDH"><idno>HD051917</idno><date>Version von 2018-07-12</date></bibl>
+					<bibl type="trismegistos"><idno> </idno><date> </date></bibl>
+					<bibl type="lupa"><idno> </idno><date> </date></bibl>
+					<bibl type="other"><idno> </idno><date> </date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/><supplied evidence="previouseditor" reason="undefined">IN H D D</supplied>
+<lb n="2"/><supplied evidence="previouseditor" reason="undefined">DEA<g type="interpunct">▴</g>TI</supplied>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>A<g type="interpunct">▴</g>R
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ATI
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>NA
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>VS<orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+<lb n="2"/><expan><abbr>Dea</abbr><ex>e</ex></expan> Ti
+<lb n="3" break="no"/><expan><abbr><supplied reason="lost">tac</supplied>a</abbr><ex>e</ex></expan> R
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ATI
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>NA
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>VS</ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p>                                                <p>Zur Ehre des Kaiserhauses</p>
+                                                <p>für die Göttin <rs type="divine">Titaca</rs>!</p>
+                                                ...<p/></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p>                                                <p>In honour of the Divine Household</p>
+                                                <p>To the goddess <rs type="divine">Titaca</rs>!</p>
+                                                <p>...</p>
+                                                <p/></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="1">
+					<note anchored="true">Z.1–2 sind heute nicht mehr erhalten, sie werden nach CIL wiedergegeben. </note>
+				</app>
+			
+            <app loc="3">
+                <note anchored="true">[ta]ca(e) – Scheungraber und Ferlut </note>
+            </app>
+        
+            <app loc="6">
+                <note anchored="true">v(otum) s(olvit) (?) – Wiegels</note>
+            </app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete"><br/><p> </p> </div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note">                                                    <p>Inschrift auf einer kleinen, mit einem doppelten Profil umrahmten Tafel,
+ von der links unten etwa ein Drittel fehlt. Heute ist auch der obere 
+Teil bis an den unteren Rand der dritten Schriftzeile verloren. (Wiegels
+ 2010, 456f., Nr. 3)</p></note>
+			<note type="ArchKlass_note">                                                    <p><br/></p></note>
+			<note type="Material_note"/>
+			<note type="Inschrifttraeger_note"><p>EDH: Altar <br/>Bodewig 1898 S. 226: „Die...Tafel war an einem Tempel oder Altare angebracht.“</p></note>
+			<note type="VerwahrortOrt_note">                                                    <p>So EDH</p><p/></note>
+			<note type="InvNr_note">                                                    <p><br/></p></note>
+			<note type="Fundstelle_note">                                                    
+                                                    <p>So EDH, auch CIL (hier nur Markt)</p>
+                                                    <p>Sehr geehrte Frau Reiter,</p>
+                                                    <p>Zum Objekt A5882 (CIL XIII 7624) kann ich folgende Informationen ergänzen:<br/>Das
+ Objekt wurde während der „Kanalarbeiten“ (d.h. zw. 1893 und 1898) im 
+Bereich zwischen Gemüsegasse und Markt (heute „An der Liebfrauenkirche“)
+ in der Koblenzer Altstadt gefunden. Genauere Angaben zum Fundjahr habe 
+ich leider nicht ermitteln können.</p>
+                                                    <p>In der Hoffnung, Ihnen damit ein wenig weitergeholfen zu haben verbleibe ich mit freundlichen Grüßen,</p>
+                                                    <p>Claudia Heitmann</p>
+                                                    <p/></note>
+			<note type="Fundumst_note">So EDH, auch CIL (hier nur Markt)
+                                                    <p>Sehr geehrte Frau Reiter,</p>
+                                                    <p>Zum Objekt A5882 (CIL XIII 7624) kann ich folgende Informationen ergänzen:<br/>Das
+ Objekt wurde während der „Kanalarbeiten“ (d.h. zw. 1893 und 1898) im 
+Bereich zwischen Gemüsegasse und Markt (heute „An der Liebfrauenkirche“)
+ in der Koblenzer Altstadt gefunden. Genauere Angaben zum Fundjahr habe 
+ich leider nicht ermitteln können.</p>
+                                                    <p>In der Hoffnung, Ihnen damit ein wenig weitergeholfen zu haben verbleibe ich mit freundlichen Grüßen,</p>
+                                                    <p>Claudia Heitmann</p>
+                                                    <p/></note>
+			<note type="Fundjahr_note"><p><b>Genaues Jahr nicht ermittelbar, Fundzeitraum steht in den Fundumständen</b></p>
+                                                    <p>EDH: Fundjahr: 1898 oder kurz davor.</p>
+                                                    <p>Mail ans Museum am 3.7.23</p>
+                                                    <p>Sehr geehrte Frau Reiter,</p>
+                                                    <p>Zum Objekt A5882 (CIL XIII 7624) kann ich folgende Informationen ergänzen:<br/>Das
+ Objekt wurde während der „Kanalarbeiten“ (d.h. zw. 1893 und 1898) im 
+Bereich zwischen Gemüsegasse und Markt (heute „An der Liebfrauenkirche“)
+ in der Koblenzer Altstadt gefunden. Genauere Angaben zum Fundjahr habe 
+ich leider nicht ermitteln können.</p>
+                                                    <p>In der Hoffnung, Ihnen damit ein wenig weitergeholfen zu haben verbleibe ich mit freundlichen Grüßen,</p>
+                                                    <p>Claudia Heitmann</p><p/></note>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note"/>
+			<note type="civitas_note"><p>EDH: Bei der Auffindung war noch ein weiteres Fragment mit den Z. 1 u. 2 und den oberen Buchstabenhälften am Ende von Z. 3 erhalten.<br/></p></note>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note">                                                    <p> <br/></p></note>
+			<note type="Abb_note"/>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note">                                                    <p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p><p>Günther 1937, 57 Nr.35 - nur erwähnt, eingesehen, ABB verwendet Taf.16<br/></p></note>
+			<note type="ErhzustObj_note"><p>Dies bezieht sich auf die ursprünglich erhaltenen zwei Fragmente, nicht auf das kleine, heute noch erhaltene Fragment.<br/></p></note>
+			<note type="Masse_note"><p>EDH: Maße beziehen sich auf den erhaltenen Teil; Maße bei Auffindung: 32 x 22 x 12 cm. bzw. Bodewig: 32 x 22 10</p></note>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"><p>EDH: Buchstabe A ohne Querhaste. Autopsie R. Wiegels.</p></note>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note"/>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note">                                                    <p>Die Ergänzung auf Titaca wurde schon im CIL vorgeschlagen, ist aber sehr
+ unsicher und nur auf Grundlage der Inschrift für Titaca in Germania 
+Inferior (CF-GeI-108, CIL XIII 8853) möglich.				</p><p>Editors Comment:<br/>Die Namensübersetzung ist problematisch, da das keltische TITACA gemeinsam mit dem lateinischen CANDIDA verbunden wurde, was unsauber ist. HERKULES MAGUSANUS wurde auch nicht als „Mächtiger Alter HERKULES“ übersetzt. Aufgrund Formaler Vorgaben dennoch übernommen.</p>
+			</note>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note"><p>EDH: 171 n. Chr. – 250 n. Chr.</p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

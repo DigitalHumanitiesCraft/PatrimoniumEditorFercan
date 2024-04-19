@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior412">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior412">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -224,7 +223,11 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, B57</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1496</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 409 Nr.128</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.1003</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -256,9 +259,13 @@ Vindoni…</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">vermutet wird ein sich auf die nächste Zeile erstreckender Name Vindonius – Stuart/Bogaers, AE, Raepsaet-Charlier 2003, 298, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">vermutet wird ein sich auf die nächste Zeile erstreckender Name Vindonius – Stuart/Bogaers, AE, Raepsaet-Charlier 2003, 298, EDH, Scheungraber, Ferlut; dem Namen folgt weiterer Text in der folgenden Zeile – Scheungraber, Ferlut</tei:note>
                 </app>
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">[N]ehalen(n)i(ae) – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Vindoni…: vermutlich zu ergänzen auf Vindonius: einheimisches Pseudogentilnomen, abgeleitet vom keltischen Cognomen Vindo; der Name tritt nur im keltischen Bereich auf (Kakoschke 2006, GN 1443).</p>
             </div>

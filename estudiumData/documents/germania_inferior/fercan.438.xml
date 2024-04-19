@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior438">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior438">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -308,8 +307,14 @@ Auf der rechten Schmalseite ist nur mehr der mittlere Teil des Motivs erhalten g
                     <bibl xml:id="LIT.2" default="false" status="draft">Espérandieu IX 6649</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Bywanck 1935, Nr.254</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Hondius-Crone 1955, Nr.17</bibl>
-                    <bibl xml:id="LIT.5" default="false" status="draft">Stuart 2013, Nr.15</bibl>
-                </listBibl>
+                    <bibl xml:id="LIT.5" default="false" status="draft">Raybould/Sims-Williams 2007, 70 Nr.BEG 133</bibl>
+                
+            <bibl xml:id="6">Stuart 2013, Nr.15</bibl>
+        
+            <bibl xml:id="7">Scheungraber 2020, 393 Nr.8</bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.1057</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -323,7 +328,7 @@ Auf der rechten Schmalseite ist nur mehr der mittlere Teil des Motivs erhalten g
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>DEAE NEHALEN  <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>DEAE NEHALEN  <lb n="2"/>
 NIAE C EXOM  <lb n="3"/>
 NIANIVS VERVS <lb n="4"/>
 D · D</orig></ab></div>

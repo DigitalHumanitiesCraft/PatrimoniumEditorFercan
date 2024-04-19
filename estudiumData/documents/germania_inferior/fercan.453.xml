@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior453">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior453">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -308,7 +307,11 @@ Auf der linken Schmalseite ist ein Füllhorn mit knapp über der Mitte ansetzend
                     <bibl xml:id="LIT.4" default="false" status="draft">Hondius-Crone 1955, Nr.15</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Stuart 2013, Nr.11</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">AE 2014, 886</bibl>
-                </listBibl>
+                
+            <bibl xml:id="7">Scheungraber 2020, 395 Nr.24</bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.1069</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -341,16 +344,16 @@ V <gap reason="lost" extent="unknown" instant="false"/>S L M<gap reason="lost" e
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">fehlender Zeilenumbruch nach ae – Hondius-Crone; deae – AE</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Nehalenniae, vielleicht auch Nehalaenniae – AE</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Nehalenniae, vielleicht auch Nehalaenniae – AE; [Neh]a[l]enniae – Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">C(aius) [---]anius – Espérandieu; C[---]sanius – CIL, Byvanck, Hondius-Crone; der Buchstabe vor dem A war vielleicht ein S oder ein B –AE</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">C(aius) [---]anius – Espérandieu; C[---]sanius – CIL, Byvanck, Hondius-Crone; der Buchstabe vor dem A war vielleicht ein S oder ein B –AE; C(aius) [3]sanius – Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]cion – CIL; [---]sio v[---] – Byvanck, Hondius-Crone; [---]cio – AE</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]cion – CIL; [---]sio v[---] – Byvanck, Hondius-Crone; [---]cio – AE; [3]CIOV[3] – Scheungraber; […]CIOV</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]v[---], danach noch eine weitere Zeile v.6: v[---] – CIL</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]v[---], danach noch eine weitere Zeile v.6: v[---] – CIL, Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).<br/>

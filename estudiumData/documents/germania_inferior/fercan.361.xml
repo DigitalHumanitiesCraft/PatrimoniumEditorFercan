@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior361">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior361">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -260,7 +259,11 @@ Die Darstellung der rechten Schmalseite ähnelt der linken.</p>
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, B4</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1470</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 403 Nr.80</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.995</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -294,7 +297,11 @@ Mercatorius Amabilis hat es aufgrund eines Gelübdes gerne, freudig und verdient
 Mercatorius Amabilis set this up according to a vow willingly, gladly and deservedly.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">Nehal[e]nnia – Scheungraber, Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Mercatorius Amabilis: römisches Namensformular ohne Praenomen <lb/>
 „Mercator“ wird wohl mit einiger Sicherheit als Gentilnomen „Mercatorius“ aufzulösen sein (vgl. CF-GeI-359), obwohl grundsätzlich auch „mercator“ denkbar wäre. <lb/>

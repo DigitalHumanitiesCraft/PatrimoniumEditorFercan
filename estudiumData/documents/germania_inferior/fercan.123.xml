@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior123">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior123">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -235,7 +234,11 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">ILS 9326</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">CIL XIII 12066</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Lehner 1918, Nr.258</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 105</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.885</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -270,13 +273,13 @@ Sextus Albanius Valens for himself and for his family according to an order of t
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Amnesa[bus], ohne Ligatur – ILS, EDH; Amnesa[henis?] – CIL, Lehner</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Amnesa[bus], ohne Ligatur – ILS, EDH; Amnesa[henis?] – CIL, Lehner, Scheungraber; Amnesahe[nis] – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Alba[ ] – EDH</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">i[mp. … - ILS</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">i[mp. … – ILS; imp(erio) ips(arum) – Scheungraber; im[p(erio) ips(arum)] – Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

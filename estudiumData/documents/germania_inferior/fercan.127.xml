@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior127">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior127">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -246,7 +245,9 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Roymans/Derks 1990, 449f.</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1990, 740</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 367 Nr.7</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -281,7 +282,7 @@ Iulius Genialis, veteran of the legio X Gemmina Pia Fidelis, has fulfilled a vow
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.6 #MAJ.6">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">l(aetus) l(ibens) – Roymans/Derks</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">l(aetus) l(ibens) – Roymans/Derks, Scheungraber</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

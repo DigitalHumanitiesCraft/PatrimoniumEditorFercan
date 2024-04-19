@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior439">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior439">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -278,7 +277,11 @@ Auf den Schmalseiten sind Bäume in Relief dargestellt, die Stuart (2013, 70 f.)
                     <bibl xml:id="LIT.3" default="false" status="draft">Byvanck 1935, Nr.247</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Hondius-Crone 1955, Nr.18</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Stuart 2013, Nr.16</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 393 Nr.9</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.1058</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -307,9 +310,13 @@ Lucius Festius Primus has fulfilled a vow willingly and deservedly.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Nehalenniae – Byvanck</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Nehalenniae – Byvanck; Nehal{a}enniae – Scheungraber</tei:note>
                 </app>
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">Festiuus – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Lucius Festius Primus: tria nomina <lb/>
 Festius: einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Cognomen Festus <lb/> 

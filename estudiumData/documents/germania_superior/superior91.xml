@@ -1,0 +1,372 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior91" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Suleviae</title><title type="sub">CF-GeS-1095</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.91</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement> </settlement>
+						<repository>verschollen</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p><p>Vom Weihealtar sind wohl das gesamte Inschriftenfeld sowie die Basis erhalten. Von der Basis ist das linke untere Eck abgebrochen, rechts ist diese abgestoßen. Drei Stufen führen zum ungerahmten Inschriftenfeld, auf dessen rechter Seite auf Höhe der zweiten und dritten Zeile ein kleiner Teil ausgebrochen ist. Vom Aufsatz ist nichts erhalten.<br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
+										<height unit="cm">46</height>
+										<width unit="cm">36</width>
+										<depth unit="cm">14</depth>
+									</dimensions> <note type="dimensions" anchored="true"> Die angegebenen Maße sind die des erhaltenen Fragmentes.</note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130700">unklar</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>Die Inschrift füllt das erhaltene Feld zur gänze aus, wobei auf der linken Seite ein Rand gelassen wurde. Die Buchstaben waren ungleichmäßig und nach unten hin kleiner und näherten sich ab Z.3 "teilweise der Actuaria an" (Wiegels 2000, 55).</p>
+                                                <p>Aufgrund des dokumentierten Zustandes der Inschrift ist es unklar ob Worttrenner über die ersten beiden Zeilen hinaus verwendet wurden.</p>
+                                                <p>Besondere Zeichen: Das V für v(otum) in Z.5 ist schräg gehauen und ähnelt damit der Form der N in der Inschrift.</p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="3.5" atMost="5.5">3,5–5,5</height> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName>Lopodunum</placeName> <region>Civitas Ulpia Sueborum Nicrensium</region> </origPlace> <origDate notBefore="0069" notAfter="0116" instant="false"><date> Letztes Drittel 1. Jh.</date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1906"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Ladenburg</ref> </placeName> <p>"in der alten [mittelalterlichen] Stadtmauer an deren Nordostseite" (CIL)</p> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true">gefunden vom Gärtner Christian Höflein (Wagner 1911, 231); bei Abriss der Nordostseite (Haug 1906, 191)</note> </provenance>
+						<provenance type="observed" subtype="autopsied"><!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG></o:AllowPNG>
+ </o:OfficeDocumentSettings>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves></w:TrackMoves>
+  <w:TrackFormatting></w:TrackFormatting>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:PunctuationKerning></w:PunctuationKerning>
+  <w:ValidateAgainstSchemas></w:ValidateAgainstSchemas>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF></w:DoNotPromoteQF>
+  <w:LidThemeOther>DE-AT</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables></w:BreakWrappedTables>
+   <w:SnapToGridInCell></w:SnapToGridInCell>
+   <w:WrapTextWithPunct></w:WrapTextWithPunct>
+   <w:UseAsianBreakRules></w:UseAsianBreakRules>
+   <w:DontGrowAutofit></w:DontGrowAutofit>
+   <w:SplitPgBreakAndParaMark></w:SplitPgBreakAndParaMark>
+   <w:EnableOpenTypeKerning></w:EnableOpenTypeKerning>
+   <w:DontFlipMirrorIndents></w:DontFlipMirrorIndents>
+   <w:OverrideTableStyleHps></w:OverrideTableStyleHps>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"></m:mathFont>
+   <m:brkBin m:val="before"></m:brkBin>
+   <m:brkBinSub m:val="&#45;-"></m:brkBinSub>
+   <m:smallFrac m:val="off"></m:smallFrac>
+   <m:dispDef></m:dispDef>
+   <m:lMargin m:val="0"></m:lMargin>
+   <m:rMargin m:val="0"></m:rMargin>
+   <m:defJc m:val="centerGroup"></m:defJc>
+   <m:wrapIndent m:val="1440"></m:wrapIndent>
+   <m:intLim m:val="subSup"></m:intLim>
+   <m:naryLim m:val="undOvr"></m:naryLim>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]-->vidimus (CIL XIII Projekt)
+
+</provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Suleviae</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Suleviae</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Ianuarius; Ianuaris</ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">Gallionius</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context">Decurio</ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">Alae I Cannefatium</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">Soldat</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context">votum solvit laetus libens merito</ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">Sulevis sororibus</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1095_front.jpg">
+			<desc>Inschrift, CIL XIII Projekt, CC BY-NC</desc>
+		</graphic>
+	</facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="1">Haug 1906 (Ladenburg), 119f.</bibl>
+				
+            <bibl xml:id="2">Haug 1906 (Nochmals Ladenburg), 225f.</bibl>
+        
+            <bibl xml:id="3"> Wagner 1911, 231</bibl>
+        
+            <bibl xml:id="4">CIL XIII 11740</bibl>
+        
+            <bibl xml:id="5">Riese 1914, Nr.1435</bibl>
+        
+            <bibl xml:id="6">ILS 9323</bibl>
+        
+            <bibl xml:id="7"> Castritius/Clauss 1980, Nr.19 </bibl>
+        
+            <bibl xml:id="8">Wiegels 2000, 55f Nr.13</bibl>
+        
+            <bibl xml:id="9">Scheungraber 2020, 510 Nr.23</bibl>
+        
+            <bibl xml:id="10">Lipps et al. 2021, 590-593 Kat.138</bibl>
+        
+            <bibl xml:id="11">Ferlut 2022, Nr.1243</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno>EDCS-12700243</idno><date>zuletzt abgerufen 2023-07-06</date></bibl>
+					<bibl type="EDH"><idno>HD036400</idno><date>Version von 2018-03-02</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/210694</idno><date>zuletzt abgerufen 2023-07-06</date></bibl>
+					<bibl type="lupa"><idno> </idno><date> </date></bibl>
+					<bibl type="other"><idno> </idno><date> </date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/>SVLEVIS<g type="interpunct">▴</g>SO
+<lb n="2"/>RORIBVS<g type="interpunct">▴</g>L<g type="interpunct">▴</g>
+<lb n="3"/>GALLIONIVS<g type="interpunct">▴</g>IANVAR<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/>DIC AL I CANNANEF
+<lb n="5"/>V S L L M<orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Sulevis so
+<lb n="2" break="no"/>roribus <expan><abbr>L</abbr><ex>ucius</ex></expan>
+<lb n="3"/>Gallionius <expan><abbr>Ianuar</abbr><ex>ius</ex></expan>
+<lb n="4"/><expan><abbr>dic</abbr><ex>urio</ex></expan><note>!</note> <expan><abbr>al</abbr><ex>ae</ex></expan> I <expan><abbr>Cannanef</abbr><ex>atium</ex></expan>
+<lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p><p>Für die Schwestern <rs type="divine">Suleviae</rs>!</p><p>Lucius Gallionius Ianuarius, decurio der ala I Cannanefatum, hat das Gelübde freudig, gerne und verdientermaßen erfüllt.</p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p><p>To the sisters <rs type="divine">Suleviae</rs>!</p><p>Lucius Gallionius Ianuarius, decurio of the ala I Cannanefatum, has fulfilled a vow gladly, willingly and deservedly.</p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="3">
+					<note anchored="true">Ianuai – Haug; Ianuaṛ. – Riese</note>
+				</app>
+			
+            <app loc="4">
+                <note anchored="true">dec(urio) – EDH, Wagner, ILS, Castritius/Clauss, Scheungraber, Ferlut; d&lt;e&gt;c(urio) – Wiegels, Lipps et al.; dec(urio) al(ae) I Ca[nn]anẹf(atium) – Riese; Dicali Ca[...]ani f(ilius) – Haug 1906 (Ladenburg); Cannanif – CIL</note>
+            </app>
+        
+            <app loc="5">
+                <note anchored="true">ḷ(ibens) ḷ (laetus) – Wiegels; l(ibens) l(aetus) – Scheungraber, Ferlut </note>
+            </app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Lucius Gallionius Ianuarius: tria nomina</p>
+                                                <p>Gallionius: (ober?)italisches Gentilnomen, abgeleitet vom keltischen Namen Gallio, seltener Name (Kakoschke 2021, GN 541)</p>
+                                                <p>Ianuarius: lateinischer Name, überall gängiger Name (Kakoschke 2021, CN 1572) oder Ianuaris: lateinischer Name, fast ausschließlich im Großraum Gallien und Afrika belegt (Kakoschke 2021, CN 1571)</p>
+                                                <p>Zur Verwandschaft mit L. Gallionius Luci f. Fabia Primus (CIL V 5006) s. Speidel (1973, 173); Lipps et al. (2021, 592).<br/></p>
+                                                <p>Ala I Cannefatium: Im 1. Drittel des 1. Jh.n.Chr. aus den chattischen Cannanefates aufgestellte Auxiliareinheit. Nach ihrer Beteiligung am Aufstand des Civilis 69/70 n.Chr. in das obergermanische Auxiliarkastell Ladenburg abkommandiert. Unter Trajan wurde sie verlegt und begegnet 116 n.Chr. im oberpannonischen Gerulata/Rusovce (Lipps et al. 2021, 592f.).
+			</p></div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p>v.4: <span style="font-size:12.0pt;line-height:107%; font-family:">„</span>dic(urio)<span style="font-size:12.0pt;line-height:107%; font-family:">”</span> pro <span style="font-size:12.0pt;line-height:107%; font-family:">„</span>dec(urio)<span style="font-size:12.0pt;line-height:107%; font-family:">”</span></p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note"><p>z 2+3rechts Ausbruch - CIL Kartei S. 4;</p><p>Haug 1906, S. 191: Es fehlt wohl oben von der Inschrift nichts, sondern nur das Gesims.</p></note>
+			<note type="ArchKlass_note"/>
+			<note type="Material_note"><p>roter Sandstein (Wagner 1911, S. 231), auch Wagner 1906, S. 191, Wiegels 200, S. 55 Nr. 13</p><p>brauner Sandstein (Castritius/Clauss 1980, S. 201)</p></note>
+			<note type="Inschrifttraeger_note"/>
+			<note type="VerwahrortOrt_note"><p>( laut EDH verschollen; Wiegels 56 "nachweislich um 1950 vorhanden"; Lipps et al. Kriegsverlust?)<br/></p></note>
+			<note type="InvNr_note"><p>Riese: Ladenburg. C 135<br/></p></note>
+			<note type="Fundstelle_note"><p>Wiegels 2000, S. 55f, Nr. 13: Gefunden 1906 beim Abreißen der mittelalterlichen Stadtmauer, und zwar an deren Nordseite, die sich hier nach neueren Erkenntnissen mit dem Verlauf der antiken Stadtmauer deckt.<br/></p></note>
+			<note type="Fundumst_note"><p>bei Abriss der Nordostseite: CIL Kartei S. 4<br/></p></note>
+			<note type="Fundjahr_note"><p>Juli 1906 - Domaszewski/Finke 1906/07, S. 84, Nr. 135<br/></p></note>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note"/>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note">                                                    <p>CIL liest DIC und CANNANIF<br/>EDH DEC und CANNANEF</p><p>CIL Kartei lies in Z.5 AV Ligatur</p></note>
+			<note type="Abb_note"/>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note"><p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p></note>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note"><p>Haug, Wagner, Wiegels, Lipps et al.<br/></p></note>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note">                                                    <p>Haug, Lipps et al.<br/></p></note>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note"><p>Wiegels, Lipps et al.<br/></p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

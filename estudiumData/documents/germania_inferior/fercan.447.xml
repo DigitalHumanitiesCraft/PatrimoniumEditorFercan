@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior447">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior447">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -326,7 +325,11 @@ Auf der rechten Schmalseite entwächst die Akanthusranke unmittelbar aus der Erd
                     <bibl xml:id="LIT.3" default="false" status="draft">Byvanck 1935, Nr.252</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Hondius-Crone 1955, Nr.8</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Stuart 2013, Nr.3</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 395 Nr.18</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.1065</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>

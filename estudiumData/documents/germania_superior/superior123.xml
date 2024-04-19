@@ -1,0 +1,350 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior123" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Mars Caturix</title><title type="sub">CF-GeS-1098</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.123</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Aalen</settlement>
+						<repository>Limesmuseum</repository>
+						<idno>1712-0001-0001-0001</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
+									<objectType>Weihestein</objectType> <dimensions>
+										<height unit="cm">120</height>
+										<width unit="cm">68</width>
+										<depth unit="cm">40</depth>
+									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>Das Inschriftenfeld ist von einem doppelt profiliertem Rahmen umgeben und vertieft, es wird vom Text fast vollständig ausgefüllt. Die Buchstaben sind regelmäßig gearbeitet, wobei die T überhöhten sind.</p><p>Zu Ligaturen: s. Majuskelumschrift. – Besondere Zeichen: In Z.1, Z.4, Z.5 und Z.7 sind Wortrenner gesetzt, wobei der zweite Worttrenner in Z.1 sowie der zweite und dritte in Z.4 keine Dreiecke sind, sondern nach links zugespitzte Keile. Z.6 Sonderzeichen für beneficiarius, das o von consularis wesentlich kleiner eingeschrieben.</p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="5.0" atMost="6.0">5,0–6,0</height> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
+								<ref type="context" target="context:fercan.arch."/> </term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName/> <region>Civitas Port-?</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1712"> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true"/> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context">Iupiter Optimus Maximus; Genius loci</ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Mars Caturix</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Caturix</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Quietus</ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">Iulius</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context">beneficarius consularis</ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">
+						</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context">votum solvit laetus libens merito</ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">Marti Caturigi</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1098_front.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
+		</graphic>
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1098_li.jpg">
+                <desc>links, CIL XIII Projekt, CC BY-NC</desc>
+            </graphic>
+        
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1098_re.jpg">
+                <desc>rechts, CIL XIII Projekt, CC BY-NC</desc>
+            </graphic>
+        </facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="1">Steiner 1937, Nr.54</bibl>
+				
+            <bibl xml:id="2">Steiner 1851, Nr.21</bibl>
+        
+            <bibl xml:id="3">Brambach 1867 (Corpus), Nr.1588</bibl>
+        
+            <bibl xml:id="4">Steimle 1898, 14 Nr.4</bibl>
+        
+            <bibl xml:id="5">CIL XIII 6474</bibl>
+        
+            <bibl xml:id="6">ILS 4553</bibl>
+        
+            <bibl xml:id="7">Haug/Sixt 1914, 529-531 Nr. 371</bibl>
+        
+            <bibl xml:id="8">Riese 1914, Nr.1948,22</bibl>
+        
+            <bibl xml:id="9">Filtzinger 1971, 203 Nr.8</bibl>
+        
+            <bibl xml:id="10">Filtzinger 1980, Nr.57</bibl>
+        
+            <bibl xml:id="11">Schallmayer et al. 1990, Nr.110</bibl>
+        
+            <bibl xml:id="12">Walser 1993, Nr.23</bibl>
+        
+            <bibl xml:id="13">Hüssen 2000, 169 Nr.2</bibl>
+        
+            <bibl xml:id="14">Kemkes/Willburger 2004, 115 Abb.109</bibl>
+        
+            <bibl xml:id="15">Luginbühl 2006, 67</bibl>
+        
+            <bibl xml:id="16">Schmidt Heidenreich 2013 (Böckingen), 158 Nr.6 </bibl>
+        
+            <bibl xml:id="17">Scheungraber 2020, 222 Nr.2</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno>EDCS-11000496</idno><date>2024-03-06</date></bibl>
+					<bibl type="EDH"><idno>HD036979</idno><date>2020-12-02</date></bibl>
+					<bibl type="trismegistos"><idno>www.trismegistos.org/text/211138</idno><date>2024-03-06</date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/7376</idno><date>2021-12-03</date></bibl>
+					<bibl type="other"><idno>https://cil.bbaw.de/ace/id/KO0019702</idno><date>2024-03-06</date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/>I<g type="interpunct">▴</g>O<g type="interpunct">▴</g>M
+<lb n="2"/><hi rend="ligature">ET</hi> MARTI CA
+<lb n="3"/>TVRIGI GEN
+<lb n="4"/>IO<g type="interpunct">▴</g>LOCI<g type="interpunct">▴</g>C<g type="interpunct">▴</g>
+<lb n="5"/>IVL<g type="interpunct">▴</g>QVIETVS
+<lb n="6"/><hi rend="ligature">BF</hi> COS
+<lb n="7"/>V<g type="interpunct">▴</g>S<g type="interpunct">▴</g>L<g type="interpunct">▴</g>L<g type="interpunct">▴</g>M<orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan>
+<lb n="2"/>et Marti Ca
+<lb n="3" break="no"/>turigi Gen
+<lb n="4" break="no"/>Io loci <expan><abbr>C</abbr><ex>aius</ex></expan>
+<lb n="5"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Quietus
+<lb n="6"/><expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan>
+<lb n="7"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p><p>Für <rs type="divine">Iupiter Optimus Maximus</rs> und <i>Mars Catiurix</i> (und) den <i>Genius Loci</i>!</p><p>Gaius Iulius Quietus, der beneficarius consularis, hat das Gelübde freudig, gerne und verdientermaßen erfüllt.<br/></p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p><p>To <rs type="divine">Iupiter Optimus Maximus</rs> and <i>Mars Catiurix</i> (and) the <i>Genius Loci</i>!<br/></p><p>Gaius Iulius Quietus, the beneficarius consularis, has fulfilled a vow gladly, willingly and deservedly.</p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="5">
+					<note anchored="true">Kein Zeilenwechsel nach Quietus – ILS</note>
+				</app>
+			
+            <app loc="6">
+                <note anchored="true">wegen fehlendem Zeilenwechsel v. s. l. l. m. – ILS</note>
+            </app>
+        
+            <app loc="7">
+                <note anchored="true">l(aetus) l(ibenter) – Steiner 1837; l(aetus) l(ubens) – Steiner 1851; wegen fehlendem Zeilenwechsel keine Z.7 – ILS; l(ibens) l(aetus) – EDH, Schallmayer, Walser, Hüssen, Luginbühl, Scheungraber</note>
+            </app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete"><p>Gaius Iulius Quietus: tria nomina</p><p>Iulius: italisches Gentilnomen, kaiserliches Gentilnomen, überall äußerst gängig (Kakoschke 2021, GN 637)</p><p>Quietus: gängiger lateinischer Name (Kakoschke 2021, CN 2545)</p></div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note"><p>Haug/Sixt 1914 529f; Schallmayer 1990, 100<br/></p></note>
+			<note type="ArchKlass_note"/>
+			<note type="Material_note"/>
+			<note type="Inschrifttraeger_note"/>
+			<note type="VerwahrortOrt_note"/>
+			<note type="InvNr_note">                                                    <p>lupa; EDH auch Aalen Limesmuseum<br/></p><p>Schallmayer: Stuttgart, WML RL404</p></note>
+			<note type="Fundstelle_note">                                                    <p>lupa: Westliche Seite der Straße zwischen Böckingen und Neckargartach auf der Böckinger Markung</p>
+                                                    <p>siehe auch Filtzinger 1980, 116<br/></p></note>
+			<note type="Fundumst_note"/>
+			<note type="Fundjahr_note"/>
+			<note type="FOantik_note"><p>EDH: Heilbronn-Böckingen<br/></p></note>
+			<note type="FOmodern_note"><p>EDH: Heilbronn-Böckingen<br/></p></note>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note"/>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note"/>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note"/>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note">                                                    <p>so EDH</p>
+                                                    <p>Schallmayer 1990, 100 BH 5-7</p><p>Walser 1993, 71 BH 4,5-6<br/></p></note>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note"><p>EDH: 131 AD – 200 AD</p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

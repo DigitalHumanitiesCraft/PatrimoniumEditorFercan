@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior327">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior327">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -319,7 +318,11 @@ Rechts befindet sich ebenfalls ein Füllhorn mit Blattkelch, dessen Spitze ebens
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, A16</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1451</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 398 Nr.43</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.1099</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>

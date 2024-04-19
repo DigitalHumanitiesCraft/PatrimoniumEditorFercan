@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior240">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior240">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -244,7 +243,9 @@
                     <bibl xml:id="LIT.3" default="false" status="draft">AE 1920, 6</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Alföldy 1968, Nr.147</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Biller 2010, 224f</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 558 Nr.15</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -279,10 +280,10 @@ Albanus, the son of Vennenus, and Priga have fulfilled a vow willingly and deser
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">V̂ACALLIN – CIL, AE; V̂acallin(ehis) – Lehner; Vacallis, der letzte Buchstabe war sicher kein N – Alföldy; V̂acall[î]n(ehis) – Biller; Vacallin(eihis) – EDH. Nach CIL, Lehner und EDH ist eine erste Zeile verloren; auch Alföldy und Biller nehmen vor dem erhaltenen Textbestand noch eine Zeile mit [„Matronis“] an.</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">V̂ACALLIN – CIL, AE; V̂acallin(ehis) – Lehner, Scheungraber; Vacallis, der letzte Buchstabe war sicher kein N – Alföldy; V̂acall[î]n(ehis) – Biller; Vacallin(eihis) – EDH. Nach CIL, Lehner und EDH ist eine erste Zeile verloren; auch Alföldy und Biller nehmen vor dem erhaltenen Textbestand noch eine Zeile mit [„Matronis“] an; Scheungraber geht ebenfalls von einer davorliegenden Zeile aus in der ebenfalls „vacallin“ gestanden habe (evtl. Verwechslung mit Alföldys/Billers [„Matronis“]?)</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Ven̂nen̂i – Alföldy; f(ilius) – CIL, Lehner, Alföldy, Biller; f[il(ius)] – AE, EDH; ohne Ligaturen – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Ven̂nen̂i – Alföldy; f(ilius) – CIL, Lehner, Alföldy, Biller; f[il(ius)] – AE, EDH, Scheungraber; ohne Ligaturen – EDH</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior418">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior418">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -227,7 +226,11 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, B65</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1501</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 410 Nr.134</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.1050</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -258,7 +261,7 @@ to the goddess  <rs type="divine">Neha…!</rs>  </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">möglich wäre eine Ergänzung in der folgenden verlorenen Zeile auf [lenniae ---] AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">möglich wäre eine Ergänzung in der folgenden verlorenen Zeile auf [lenniae ---] AE, EDH, Scheungraber; es folgt eine Zeile mit [lenniae …] – Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Neha…:</rs> Rest von  <rs type="divine">Nehalennia</rs> oder einer Variante: keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).  </p>

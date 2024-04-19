@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior272">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior272">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -244,7 +243,9 @@ Auf der linken Schmalseite hat sich der obere Teil einer Akanthusranke mit Pinie
                     <bibl xml:id="LIT.1" default="false" status="draft">Clauss 1976, Nr.8</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1977, 550</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Biller 2010, 76f.</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 292 Nr.3</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -276,7 +277,7 @@ Titus Sec…</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Gava[diabus] – Clauss, AE, EDH, Biller</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Gava[diabus] – Clauss, AE, EDH, Biller, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Sec[urius/inius ?] – Biller</tei:note>

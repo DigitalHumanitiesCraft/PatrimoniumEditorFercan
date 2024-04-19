@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior328">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior328">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -277,7 +276,11 @@ Die rechte Schmalseite zeigt ein ähnliches Relief, allerdings ist der Aststumpf
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, A19</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1452</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 398 Nr.44</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.1093</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -313,7 +316,11 @@ Tagamas, the son of Tagadianus, has fulfilled a vow willingly and deservedly. </
                 <app loc="#MIN.2 #MAJ.2">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Nehalenniâ[e] – Stuart/Bogaers</tei:note>
                 </app>
-            </div>
+            
+            <app loc="4">
+                <note anchored="true">Tagadiani(us) – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Tagadianus: keltisch (Delamarre 2007, 176); vermutlich germanisches Cognomen (Kakoschke 2008, CN 2997) </p>
                 <p part="N">

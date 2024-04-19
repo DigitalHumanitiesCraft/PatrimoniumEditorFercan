@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior252">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior252">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -227,7 +226,9 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 12029</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1918, Nr.368</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Alföldy 1968, Nr.29</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 559 Nr.23</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -256,16 +257,16 @@ Ru…nia Iunia for herself and for her family.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">M[a]t[ro]n[i]s – CIL</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">M[a]t[ro]n[i]s – CIL, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">VO[c]ALL[i]N[e]IIS – CIL; Vo[c]all[i]nehis – Lehner, Vo[c]all[î]nêhis – Alföldy</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">VO[c]ALL[i]N[e]IIS – CIL; Vo[c]all[i]nehis – Lehner, Vo[c]all[î]nêhis – Alföldy; Vo[c]all[i]n[e]his – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Ru[---]n̂îtia, nach dem RV wird die obere Hälfte einer senkrechten Haste gesehen – CIL, Lehner; Ruf[î]ni{i}a – Alföldy</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Ru[---]n̂îtia, nach dem RV wird die obere Hälfte einer senkrechten Haste gesehen – CIL, Lehner, Scheungraber; Ruf[î]ni{i}a – Alföldy</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">se e[t s]u[i]s – CIL, Lehner; se e[t s]uis – Alföldy</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">se e[t s]u[i]s – CIL, Lehner, Scheungraber; se e[t s]uis – Alföldy</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

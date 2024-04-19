@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior336">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior336">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -271,7 +270,11 @@ Auf der linken Schmalseite ist ein größeres Fragment der Reliefverzierung erha
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, A34</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1460</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 400 Nr.55</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.1101</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -304,10 +307,10 @@ PRO SE <gap reason="lost" extent="unknown" unit="character" instant="false"/> V 
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">N[e]hale[nniae] – AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">N[e]hale[nniae] – AE, EDH, Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">A[.i]us – AE; A[--u?]s G[r?]atus – EDH; G[r]atus – Stuart/Bogaers; möglich wären etwa Gratus oder Gnatus, Raepsaet-Charlier 2003, 294</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">A[.i]us – AE; A[--u?]s G[r?]atus – EDH; […] A[…]us – Scheungraber, Ferlut; G[r]atus – Stuart/Bogaers, Ferlut; möglich wären etwa Gratus oder Gnatus, Raepsaet-Charlier 2003, 294</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

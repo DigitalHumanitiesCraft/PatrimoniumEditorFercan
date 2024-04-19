@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior321">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior321">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -240,7 +239,11 @@
                     <bibl xml:id="LIT.5" default="false" status="draft">Galsterer/Galsterer 2010, Nr.146</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">KIK 2012, Nr.169</bibl>
                     <bibl xml:id="LIT.7" default="false" status="draft">Reuter 2012, Nr.33b</bibl>
-                </listBibl>
+                
+            <bibl xml:id="8">Scheungraber 2020, 324</bibl>
+        
+            <bibl xml:id="9">Ferlut 2022, Nr.608</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>

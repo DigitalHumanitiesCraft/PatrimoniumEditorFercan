@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior146">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior146">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -221,7 +220,9 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1918, Nr.392</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Alföldy 1968, Nr.20</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 561 Nr.37</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -249,9 +250,13 @@
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Vacalli]neis – Lehner; [Vacalli]nêĥis – Alföldy</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Vacalli]neis – Lehner; [Vacalli]nêĥis – Alföldy; [Vacalli]nehis – Scheungraber</tei:note>
                 </app>
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">es folgt noch v.4 unbestimmten Inhalts – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">...nechae:</rs> Rest einer Variante von  <rs type="divine">Vacallinehae:</rs> keltisch: ‚Unter den Bäumen bzw. dem Wald Verweilende [Muttergöttinen]‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243).</p>
                                                 <p part="N">
 

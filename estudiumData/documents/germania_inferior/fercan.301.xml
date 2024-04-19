@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior301">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior301">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -246,7 +245,11 @@ In der Literatur wird kein weiteres Dekor erwähnt, die Schmalseiten dürften gl
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1918, Nr.245</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Espérandieu IX 6565</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Oxé 1935, 176</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 520 Nr.7</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.1259</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -274,7 +277,11 @@ Ulpius Hunicius hat das Gelübde gerne und verdientermaßen erfüllt.</p>
 Ulpius Hunicius has fulfilled a vow willingly and deservedly. </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">Sunux{s}ali – Scheungraber; Sunuxsali – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Ulpius Hunicius: römisches Namensformular ohne Praenomen <lb/>
 

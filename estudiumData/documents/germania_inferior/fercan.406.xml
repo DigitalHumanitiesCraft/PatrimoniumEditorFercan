@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior406">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior406">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -244,7 +243,11 @@
                     <bibl xml:id="LIT.5" default="false" status="draft">AE 1975, 641</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">Stuart 1997, 56</bibl>
                     <bibl xml:id="LIT.7" default="false" status="draft">Stuart/Bogaers 2001, B50</bibl>
-                </listBibl>
+                
+            <bibl xml:id="8">Scheungraber 2020, 396 Nr.29</bibl>
+        
+            <bibl xml:id="9">Ferlut 2022, Nr.1015</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -278,16 +281,16 @@ Gimio, who resides in Ganuenta, has fulfilled a vow willingly and deservedly.</p
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Deâe N̂eha[le] – Stuart/Bogaers 1971, Bogaers/Gysseling 1971; Deae N̂eha[le] – Stuart/Bogaers 2001; Deae Neha[le] – AE 1973, AE 1975, EDH; Deae Neha[len] – Raepsaet-Charlier/Raepsaet; Neha[lae] – Stuart;</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Deâe N̂eha[le] – Stuart/Bogaers 1971, Bogaers/Gysseling 1971; Deae N̂eha[le] – Stuart/Bogaers 2001; Deae Neha[le] – AE 1973, AE 1975, EDH, Scheungraber, Ferlut ; Deae Neha[len] – Raepsaet-Charlier/Raepsaet; Neha[lae] – Stuart</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – AE 1973, AE 1975, Raepsaet-Charlier/Raepsaet, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – AE 1973, AE 1975, Raepsaet-Charlier/Raepsaet, EDH; n(n)iae – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Gimioga – Stuart/Bogaers 1971; ohne Ligatur – AE 1973, AE 1975, Raepsaet-Charlier/Raepsaet, EDH</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">n(auta?) V̂ê{a?}n̂t(ae?) cons(istens) – Stuart/Bogaers 1971; nuent(a) – Raepsaet-Charlier/Raepsaet</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">n(auta?) V̂ê{a?}n̂t(ae?) cons(istens) – Stuart/Bogaers 1971; nuent(a) – Raepsaet-Charlier/Raepsaet; nuent(ae) – Scheungraber, Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

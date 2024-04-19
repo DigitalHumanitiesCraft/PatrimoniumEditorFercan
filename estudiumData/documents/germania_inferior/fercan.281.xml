@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior281">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior281">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -224,7 +223,9 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1918, Nr.549</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Finke 1927, Nr.315</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 443 Nr.2</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -250,9 +251,17 @@ MV</orig></ab></div>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">RENAHI[S---] – Lehner, Finke</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">RENAHI[S---] – Lehner, Finke, Scheungraber</tei:note>
                 </app>
-            </div>
+            
+            <app loc="1">
+                <note anchored="true">Matro[nis 3] – Scheungraber</note>
+            </app>
+        
+            <app loc="3">
+                <note anchored="true">MV[ – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Renahenae:</rs> keltisch erklärbar: ‚Im Rhein Geborene [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 256f). </p>
                                                 <p part="N"> 
 

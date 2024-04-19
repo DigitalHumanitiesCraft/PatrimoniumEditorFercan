@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior52">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior52">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -324,7 +323,11 @@ Die rechte Schmalseite ist ab der Mitte stark zerstört. Erkennbar ist ein mensc
                     <bibl xml:id="LIT.3" default="false" status="draft">Lehner 1918, Nr.332</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Espérandieu VIII 6336</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Alföldy 1967, 2 Nr.1</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 301 Nr.2</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.894</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -353,13 +356,13 @@ Marcus Iulius Valentinus and Iulia Iustina willingly and deservedly in response 
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur, Gesaien[is] – ILS; Gesaien[i]s – CIL; Matro(nis) Gesahen[is] – Espérandieu; ohne Ligatur, Gesahenis – Alföldy</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur, Gesaien[is] – ILS; Gesaien[i]s – CIL; Matro(nis) Gesahen[is] – Espérandieu; ohne Ligatur, Gesahenis – Alföldy; Gesahen[i]s – Scheungraber; Matr(o)n(is) Gesaienis – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Valentinus – CIL</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Valentinus – CIL, Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Iustina – ILS, Espérandieu, Alföldy; Iustina – priores CIL; Iu[li]nna – CIL</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Iustina – ILS, Espérandieu, Alföldy; Iustina – priores CIL; Iu[li]nna – CIL; Iu[sti]na – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – ILS, Espérandieu, Alföldy</tei:note>

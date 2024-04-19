@@ -1,0 +1,311 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior39" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Epona</title><title type="sub"> CF-GeS-1007</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.39</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Speyer</settlement>
+						<repository>Historisches Museum der Pfalz</repository>
+						<idno>D 116</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p>                                                <p>Die Basis des Weihealtars ist an ihrer linken Seite abgebrochen. Der Aufsatz wird durch ein mit Blattdekor gefülltes Giebelfeld mit Rosetten in Pulvini links und rechts davon geschmückt. Er ist vom ungerahmten Inschriftenfeld durch eine breite Stufung, die teilweise ausgeschlagen ist, getrennt.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
+										<height unit="cm"> 65,5</height>
+										<width unit="cm"> 31,5</width>
+										<depth unit="cm"> 20</depth>
+									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>Der Inschriftentext ist vollständig erhalten. Er füllt das Inschriftenfeld nicht zur Gänze aus, sodass unten ein Leerraum freibleibt. Die Buchstaben sind regelmäßig.<br/></p>
+                                                <p>In Z.3 wurde das F offenbar aus T verbessert. Nach den ersten drei Buchstaben von Z.3 ist möglicherweise ein Trennzeichen zu erkennen.</p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="3.0" atMost="3.5">3,0–3,5</height> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">Rosette</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252810">Opferschale</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160200">Blattdekor</term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName>Noviomagus</placeName> <region>Civitas Nemetum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1961"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Speyer</ref> </placeName> <p>Dom, im Fundament der Pfeilerarkade in der Querhauskrypta D3/D4</p> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true">bei Grabungen geborgen</note> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Epona</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Epona</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Firmanus</ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">Iulius</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">
+						</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context">votum exsolvit</ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">D(eae) E(ponae)</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1007_front.jpg">
+			<desc> Front, Historisches Museum der Pfalz, Speyer, Foto: Ortolf Harl 2016</desc>
+		</graphic>
+	</facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="1"> Kubach/Haas 1972, 1096</bibl>
+				
+            <bibl xml:id="2">Kubach 1982, 380 Nr.195,10</bibl>
+        
+            <bibl xml:id="3">Bernhard 1983, 102</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno> EDCS-68900017</idno><date> zuletzt abgerufen 2023-06-02</date></bibl>
+					<bibl type="EDH"><idno>HD075991</idno><date> Version von 2018-03-08</date></bibl>
+					<bibl type="trismegistos"><idno> </idno><date> </date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/26537</idno><date> Version vom 2020-09-29</date></bibl>
+					<bibl type="other"><idno> </idno><date> </date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/>D E
+<lb n="2"/>QIVL
+<lb n="3"/>FIRMAN
+<lb n="4"/>V S
+<lb n="5"/>V E<orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><expan><abbr>D</abbr><ex>eae</ex></expan> <expan><abbr>E</abbr><ex>ponae</ex></expan>
+<lb n="2"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan>
+<lb n="3"/>Firman
+<lb n="4" break="no"/>us
+<lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>e</abbr><ex>xsolvit</ex></expan></ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p>                                                <p>Für die Göttin <rs type="divine">Epona</rs>!<br/>Quintus Iulius Firmanus hat ein Gelübde erfüllt.</p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p>                                                <p>To the goddess <rs type="divine">Epona</rs>!<br/></p>
+                                                <p>Quintus Iulius Firmanus has fulfilled a vow.</p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="1">
+					<note anchored="true">D(e--) – EDH</note>
+				</app>
+			
+            <app loc="2"><note anchored="true">fälschlich Q(uintus) I(ulius) Firman – EDH</note></app>
+        
+            <app loc="3"><note anchored="true">FIRM · MAN – Kubach/Haas</note></app>
+        
+            <app loc="5"><note anchored="true">v(ir) e(gregius) – Kubach, Bernhard</note></app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete"><p>Quintus Iulius Firmanus: tria nomina</p><p><p>Iulius: italisches Gentilnomen, kaiserliches Gentilnomen, überall äußerst gängig (Kakoschke 2021, GN 637)</p><p>Firmanus: lateinischer Name, Weiterbildung des Namens Firmus oder des italischen Ortsnamens Firmum, besonders häufig in Hispanien und den keltischen Gebieten (Kakoschke 2021, CN 1318)</p></p></div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note"/>
+			<note type="ArchKlass_note"/>
+			<note type="Material_note"><p>CIL Kartei: Sandstein, hell<br/></p></note>
+			<note type="Inschrifttraeger_note"/>
+			<note type="VerwahrortOrt_note"/>
+			<note type="InvNr_note"/>
+			<note type="Fundstelle_note">                                                    <p>Mail vom 20.7.23: der Altar wurde am 15.12.1961 bei Grabungen im Speyerer Dom geborgen (im Fundament der Pfeilerarkade in der Querhauskrypta D3/D4</p></note>
+			<note type="Fundumst_note"><p>Mail vom 20.7.23: der Altar wurde am 15.12.1961 bei Grabungen im Speyerer Dom geborgen (im Fundament der Pfeilerarkade in der Querhauskrypta D3/D4<br/></p></note>
+			<note type="Fundjahr_note">                                                    <p>Der Dom zu Speyer wurde in den Jahren 1957 bis 1968 von Außen und Innen umfassend restauriert - <a href="https://rlp.museum-digital.de/series/29" target="_blank">https://rlp.museum-digital.de/series/29</a></p><p>-&gt; Mail hinschreiben versuchen?</p><p>Mail vom 20.7.23: der Altar wurde am 15.12.1961 bei Grabungen im Speyerer Dom geborgen (im Fundament der Pfeilerarkade in der Querhauskrypta D3/D4</p></note>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note"/>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note"><p>Rechte bei Lupa noch einholen<br/></p></note>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note"><p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p></note>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note"><p>So CIL Kartei </p><p>Lupa: H 60<br/></p></note>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note">                                                    <p>Siehe CIL Kartei</p>
+                                                    <p>Lt. Mail vom 20.7. – ev kommen noch genauere Maße</p><p><b>Mail vom 8.8. von Frau Hergert</b><span style="background-color:white;" lang="de"><font size="3" face="Times New Roman,serif"><span style="font-size:12pt;"><font size="2" face="Calibri,sans-serif" color="black"><span style="font-size:11pt;"><br/></span></font></span></font></span></p><p><span style="background-color:white;" lang="de"><font size="3" face="Times New Roman,serif"><span style="font-size:12pt;"><font face="Calibri,sans-serif" color="#0070C0"/></span></font></span></p><p><span style="background-color:white;" lang="de"><font size="3" face="Times New Roman,serif"><span style="font-size:12pt;"><font face="Calibri,sans-serif" color="#0070C0">Buchstabenhöhe
+3,0 – 3,5 cm </font></span></font></span></p><p/></note>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note"><p>EDH: 101 AD – 200 AD<br/></p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

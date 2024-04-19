@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior308">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior308">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -129,7 +128,7 @@
                             </tei:location>
                             <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">mit zwei weiteren Bronzetäfelchen (AE 1958, 12 und AE 1958, 13) gefunden</tei:note>
                         </provenance>
-                        <provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: EDH</provenance>
+                        <provenance type="observed" subtype="autopsied"><p>non vidimus<lb><br/></lb>Lesung gründet auf: EDH</p></provenance>
                     </history>
                 </msDesc>
                 <listPlace default="false">
@@ -226,7 +225,11 @@
                     <bibl xml:id="LIT.3" default="false" status="draft">AE 1958, 14</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Cabuy 1991, 222, Nr.3</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Spickermann 2008, 94 Anm.97</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 520 Nr.5</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.1251</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -260,7 +263,11 @@ Luo, son of Cissonis, has fulfilled a vow willingly and deservedly. </p>
                 <app loc="#MIN.2 #MAJ.2">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Anfang der zweiten Zeile wohl I – Finke; (I)? LVO Cabuy; (i) lvo (?), der Anfang der zweiten Zeile ist unsicher – Gose; L. Vocissonis – Spickermann</tei:note>
                 </app>
-            </div>
+            
+            <app loc="1">
+                <note anchored="true">Sunux{s}al(i) – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Wegen der hier vorgelegten Bronzetafel wird der Tempelbezirk in Kornelimünster – neben dem Varneno – auch der Sunuxsalis zugeschrieben. </p>
                 <p part="N">

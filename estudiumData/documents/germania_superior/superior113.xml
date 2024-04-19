@@ -1,0 +1,390 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior113" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full">
+                    <title type="main">Abnoba</title>
+                    <title type="sub">CF-GeS-1103</title>
+                </title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName>
+                        <forename>Werner</forename>
+                        <surname>Petermandl</surname>
+                    </persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName>
+                        <forename>Astrid</forename>
+                        <surname>Schmölzer</surname>
+                    </persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>
+                    <link target="https://antike.uni-graz.at"/>
+                    <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
+                </publisher>
+				<authority>
+                    <link target="https://informationsmodellierung.uni-graz.at"/>
+                    <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName>
+                </authority>
+				<distributor>
+                    <link target="https://gams.uni-graz.at"/>
+                    <orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName>
+                </distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.113</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName>
+                        <forename>Wolfgang</forename>
+                        <surname>Spickermann</surname>
+                    </persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Stuttgart</settlement>
+						<repository>Württembergisches Landesmuseum</repository>
+						<idno>RL 344</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType>Weihestein</objectType> <dimensions>
+										<height unit="cm">45</height>
+										<width unit="cm">19</width>
+										<depth unit="cm">18</depth>
+									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>Die Inschrift ist vollständig erhalten und füllt das Inschriftenfeld fast zur Gänze aus. Die Buchstaben sind unregelmäßig.</p>
+                                                <p>Während die Inschrift linksbündig gesetz ist, ist Z.2 nach rechts eingerückt. Bei Auffindung war in den Buchstaben ncoh rote Farbe zu erkennen (Gradmann 1904, 122).<br/></p>
+                                                <p>Die beiden A in Z.1 erinnern an das kleine griechische Lambda. In das erste A ist ein Punkt gesetzt. In Z.2 treffen die linken Schräghasten des A und des M etwas unterhalb der vorgesehenen Buchstabenhöhe auf die rechten Schräghasten. Alle A sind ohne Querhaste gearbeitet.</p>
+                                                <p>Zu einer Ligatur: s. Majuskelumschrift.</p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p/> 
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName/> <region>Civitas Port-?</region> </origPlace> <origDate notBefore="" notAfter="" instant="false">
+                                <date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note>
+                            </origDate> </origin>
+						<provenance type="found" when="1904"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Stuttgart</ref> </placeName> <p>heute Bezirk Bad Cannstatt; "Unweit der römischen Strassenkreuzung auf der 'Altenburg', nahe der Südwestecke des Kastells [...] gefunden..." (Haug 1906, 2 Nr. 2). "Auf der Altenburg nahe des W-Ecke des Kastells" (Filtzinger 1980, 23 Nr. 1); auf dem Staigfriedhof (Barthel 1907, 32). Auf "der Altenburg bei dem sog. 'Bad' [...] nahe der W-Ecke des Kastells." (Haug/Sixt 1914, 24)<br/></p> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true"><p>zusammen mit FeGeS-1104<br/></p></note> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)</p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName>
+                            <ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Abnoba</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Abnoba</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Verus</ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen">
+                            <ref target="context:fercan.person.gentilnomen." type="context">Proclinius</ref>
+                        </persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context">stator</ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName>
+                            <ref target="context:fercan.org.military." type="context">
+						</ref>
+                        </orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context">sacrum</ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">Abnobae</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1103_front1.jpg">
+			<desc>Front, Landesmuseum Württemberg, Foto: Ortolf Harl</desc>
+		</graphic>
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1103_front2.jpg">
+                <desc>Front, CIL XIII Projekt, CC BY-NC</desc>
+            </graphic>
+        </facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="1">Gradmann 1904, 122</bibl>
+				
+            <bibl xml:id="2">Goessler 1905, 17</bibl>
+        
+            <bibl xml:id="3">AE 1906, 59</bibl>
+        
+            <bibl xml:id="4">Haug 1906 (Zwei neue Inschriften), Nr.2</bibl>
+        
+            <bibl xml:id="5">Haug 1906 (Nachträge), 37</bibl>
+        
+            <bibl xml:id="6">ILS 9269</bibl>
+        
+            <bibl xml:id="7">Barthel 1907, 32 Nr.1</bibl>
+        
+            <bibl xml:id="8">CIL XIII 11746 </bibl>
+        
+            <bibl xml:id="9">Haug/Sixt 1914, 369 Nr.530</bibl>
+        
+            <bibl xml:id="10">Riese 1914, 2613</bibl>
+        
+            <bibl xml:id="11">Goessler 1921, 45</bibl>
+        
+            <bibl xml:id="12"> Filtzinger 1980, Nr.1</bibl>
+        
+            <bibl xml:id="13"> Kemkes/Willburger 2004, 114 Abb.106</bibl>
+        
+            <bibl xml:id="14">Scheungraber 2020, 63 Nr.1</bibl>
+        
+            <bibl xml:id="15">Ferlut 2022, Nr.4</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS">
+                        <idno>EDCS-12700249</idno>
+                        <date>2024-01-24</date>
+                    </bibl>
+					<bibl type="EDH">
+                        <idno>HD021773</idno>
+                        <date>2020-01-16</date>
+                    </bibl>
+					<bibl type="trismegistos">
+                        <idno>www.trismegistos.org/text/210200</idno>
+                        <date>2024-01-24</date>
+                    </bibl>
+					<bibl type="lupa">
+                        <idno>http://lupa.at/7420</idno>
+                        <date>2022-12-20</date>
+                    </bibl>
+					<bibl type="other">
+                        <idno> </idno>
+                        <date> </date>
+                    </bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/>ABNOBAE
+<lb n="2"/>SACRVM
+<lb n="3"/>M<g type="interpunct">▴</g>PROCLINIVS
+<lb n="4"/>VERVS<g type="interpunct">▴</g>STAT<hi rend="ligature">OR</hi>
+<lb n="5"/>V<g type="interpunct">▴</g>S<g type="interpunct">▴</g>L<g type="interpunct">▴</g>L<g type="interpunct">▴</g>M<orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Abnobae
+<lb n="2"/>sacrum
+<lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Proclinius
+<lb n="4"/>Verus stator
+<lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p><p>Der <rs type="divine">Abnoba</rs> geheiligt!</p><p>Marcus Proclinius Verus, der stator, hat das Gelübe freudig, gerne und verdientermaßen erfüllt.</p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p><p>Sacred to <rs type="divine">Abnoba</rs>!</p><p>Marcus Proclinius Verus, a stator, has fulfilled a vow gladly, willingly and deservedly.</p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="3">
+					<note anchored="true">Proc[…]VS – Gradmann</note>
+				</app>
+			
+            <app loc="4">
+                <note anchored="true">SI[…] – Gradmann; fälschlich gesetzter Zeilenwechsel nach Verus – Kemkes/Willburger</note>
+            </app>
+        
+            <app loc="5">
+                <note anchored="true">l(aetus) l(ubens) – Haug/Sixt, Goessler 1921; Stator, wegen fälschlich gesetztem Zeilenwechsel in Z.4 stator in dieser Zeile – Kemkes/Willburger; l(ibens) l(aetus) – EDH, Scheungraber, Ferlut; wegen fälschlich gesetztem Zeilenwechsel in Z.4 v(otum) s(olvit) l(aetus) l(ibens) m(erito) in einer zusätzlichen Z.6 – Kemkes/Willburger</note>
+            </app>
+        
+            
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Marcus Proclinius Verus: tria nomina</p>
+                                                <p>Proclinius: Verschreibung oder Variante von Proculinius, einheimisches Pseudogentilnomen abgeleitet vom lateinischen Namen Proc(u)l(in)us sehr selten (Kakoschke 2021, GN 1026)</p>
+                                                <p>Verus: überall äußerst gängiger lateinischer Name (Kakoschke 2021, CN 3312)</p>
+                                                <p>stator: Unteroffizier im Stab eines Alenpräfekten, Zuständig für Polizei- und Gerichtdienst. (Filtzinger 1980, S. 23). Oder auch ein "Verbindungsmann zwischen hochrangigen Amtspersonen" (Kotterba 1996, 14).<br/></p>
+                                                <p> </p>
+			<p/></div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note">                                                    <p>Filtzinger Hic saxa, S. 23 Nr. 1: Das Altärchen hat oben über vier Absätzen eine Krönung mit Dreieck und Voluten und unten einen Sockel mit ebenfalls vier Absätzen. </p>
+                                                    <p>Haug 1906, 2 Nr. 2: Das Gesims hat ganz eiinfache Formen: ein von zwei Voluten flankiertes Dreieck. </p><p>Haug/Sixt 1914, 369: Der Altar hat oben über vier Absätzen eine Krönung mit Dreieck und Voluten, ohne Schmuck, unten einen Sockel mit ebenfalls vier Absätzen. <br/></p></note>
+			<note type="ArchKlass_note"/>
+			<note type="Material_note"><p>Gradmann 1904, S. 122</p><p>Die Römer in Badenwürttemberg 1976, S. 520: Stubensandstein<br/></p></note>
+			<note type="Inschrifttraeger_note"/>
+			<note type="VerwahrortOrt_note"/>
+			<note type="InvNr_note"><p>Laut Filtzinger 1980, S. 23 und Karteikarte von 03/08 S. 12<br/></p></note>
+			<note type="Fundstelle_note">                                                    <p>zur Fundstelle Kotterba 1996, 14.</p>
+                                                    <p>CIL: Cannstatt rep. auf dem Altenburger Feld Gradmann, a. 1904 nach Mitteilung von Prof. Knorr-Stuttgart in der römischen Strassenkreuzung an der Südweststrecke des Kastells Goessler</p>
+                                                    <p>Filtzinger Hic saxa, S. 23 Nr. 1:auf der Altenburg nahe der W-Ecke des Kastells<br/></p></note>
+			<note type="Fundumst_note">                                                    <p>so CIL</p><p>siehe Barthle 1907, 32</p></note>
+			<note type="Fundjahr_note"><p>Filtzinger Hic saxa, S. 23 Nr. 1: Herbst<br/></p></note>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note"><p>Cannstatt<br/></p></note>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note"/>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note"/>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note"><p>so Filtzinger Hic saxa, S. 23 Nr. 1. Dieser auch: H. der Mitte 23cm - B. 15cm - T. 14cm</p><p>Gradmann 1904, S. 122: 40 cm hoch</p><p>Haug 1906, 2 Nr. 2: Höhe 45, Breite 20, Dicke 18 cm, die des mittleren Teils H. 23, Br. 16, D. 14 cm</p><p>Barthel 1907, 31: 45 cm hoch, 20 breit und 18 tief<br/></p></note>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note"><p>Haug 1906, 2 Nr. 2: Die Buchstaben sind rot bemalt und nur etwa 2 cm hoch ; die Schrift ist etwas roh und unregelmäßig, zum Teil der Pinselschrift sich nähernd.<br/></p></note>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"><p>Ob hiermit tatsächlich die Stationierung einer Ala in Stuttgart bezeugt ist, wie Haug/Sixt (1914, 369) meinen, oder ob die Weihung nicht von einem durchreisenden stator stammt muss offen bleiben.<br/></p></note>
+			<note type="Datierung_note"><p>EDH: 71 AD – 150 AD</p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

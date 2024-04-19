@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior116">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior116">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -255,7 +254,11 @@ Der Baum auf der rechten Schmalseite weist einen Knick in der oberen Hälfte sei
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 8611</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1918, Nr.239</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 326 Nr.1</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.240</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>

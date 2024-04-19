@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior462">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior462">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -228,7 +227,11 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">ILS 4807</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">CIL XIII 7916</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Biller 2010, 124f.</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 462 Nr.1</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.707</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -257,7 +260,7 @@ Primus, son of Freiatto, willingly and deservedly.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Saitchamims – ILS, Biller; ohne Ligatur – Biller; SAITC˧AM̂IMI(s) – CIL</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Saitchamims – ILS, Biller; ohne Ligatur – Biller; SAITC˧AM̂IMI(s) – CIL; Saitchamimi[s] – Scheungraber; Saitchamimis – Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

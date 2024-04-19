@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior44">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior44">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -254,7 +253,11 @@
                     <bibl xml:id="LIT.3" default="false" status="draft">Lehner 1918, 345</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Diedenhofen 1989, Nr. 6</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Reuter 2012, Nr.58</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 544</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.690</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>

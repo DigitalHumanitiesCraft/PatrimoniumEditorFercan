@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior265">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior265">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -242,7 +241,11 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">ILS 4800</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">CIL XIII 8529</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 80 Nr.1</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.795</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -275,9 +278,13 @@ Iulia Pusua has fulfilled a vow willingly and deservedly for herself and her son
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Iuli[s] ohne F – ILS</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Iuli[s] ohne F – ILS; Iuli[o] ohne F – Ferlut</tei:note>
                 </app>
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">Iul(ius) Pusus – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Iulia Pusua: weiblicher Name mit Gentil- und Cognomen <lb/> 
 Iulia: italisches kaiserliches Gentilnomen von Caesar bis Caligula, überall äußerst gängig (Kakosche 2006, GN 621); das Gentile Iulius ist in den südlichen Gebieten der Germania Inferior auffällig oft bezeugt. Für eine Liste des Vorkommens dieses Gentilnomens in der Provinz s. Alföldy (1967, 20-27). <lb/> 

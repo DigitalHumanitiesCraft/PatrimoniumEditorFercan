@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior310">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior310">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -195,7 +194,9 @@
             <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 7861a</bibl>
-                </listBibl>
+                
+            <bibl xml:id="2">Scheungraber 2020, 585 Nr.6</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -220,7 +221,11 @@ M<gap reason="lost" extent="unknown" unit="character" instant="false"/></orig></
                 <p part="N">To the  <rs type="divine">Vatviae!</rs> …</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="1">
+                <note anchored="true">]VATVIM[3] ELE – Scheungraber </note>
+            </app>
+        </div>
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.1: „Vatvims” pro „Vatviis”</p>
             </div>

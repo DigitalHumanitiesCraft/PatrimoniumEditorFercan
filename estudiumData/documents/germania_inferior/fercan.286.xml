@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior286">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior286">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -334,8 +333,14 @@ Die Baumdarstellungen an den Altarseiten ähneln sich sehr. Sie sind sehr einfac
                     <bibl xml:id="LIT.3" default="false" status="draft">Krier 1981, 115, Nr.41</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Wierschowski, 2001, Nr.18</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Stuart/Bogaers 2001, A1</bibl>
-                    <bibl xml:id="LIT.6" default="false" status="draft">Beck 2013, 226</bibl>
-                </listBibl>
+                    <bibl xml:id="LIT.6" default="false" status="draft">Raybould/Sims-Williams 2007, 79 Nr.BEG 163</bibl>
+                
+            <bibl xml:id="7">Beck 2013, 226</bibl>
+        
+            <bibl xml:id="8">Scheungraber 2020, 396 Nr.30</bibl>
+        
+            <bibl xml:id="9">Ferlut 2022, Nr.1075</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -353,7 +358,7 @@ Die Baumdarstellungen an den Altarseiten ähneln sich sehr. Sie sind sehr einfac
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>DEAE <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>DEAE <lb n="2"/>
 NEHALENIAE <lb n="3"/> 
 M · EXGINGIVS <lb n="4"/> 
 AGRICOLA <lb n="5"/> 
@@ -361,7 +366,7 @@ CIVES · TREVER <lb n="6"/>
 NEGOTIATOR <lb n="7"/> 
 SALARIVS <lb n="8"/>
 C · C · A · A · V · S · L · M</orig></ab></div>
-            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Deae<lb n="2"/>Nehaleniae<lb n="3"/><expan instant="false"><abbr>M</abbr><ex instant="false">arcus</ex></expan> Exgingius<lb n="4"/>Agricola<lb n="5"/>cives Trever<lb n="6"/>negotiator<lb n="7"/>salarius<lb n="8"/><expan instant="false"><abbr>c</abbr><ex instant="false">oloniae</ex></expan> <expan instant="false"><abbr>C</abbr><ex instant="false">laudiae</ex></expan> <expan instant="false"><abbr>A</abbr><ex instant="false">ugustae</ex></expan> <expan instant="false"><abbr>A</abbr><ex instant="false">grippinensium</ex></expan> <expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><lb n="1"/>Deae<lb n="2"/>Nehaleniae<lb n="3"/><expan instant="false"><abbr>M</abbr><ex instant="false">arcus</ex></expan> Exgingius<lb n="4"/>Agricola<lb n="5"/>cives Trever<lb n="6"/>negotiator<lb n="7"/>salarius<lb n="8"/><expan instant="false"><abbr>c</abbr><ex instant="false">oloniae</ex></expan> <expan instant="false"><abbr>C</abbr><ex instant="false">laudiae</ex></expan> <expan instant="false"><abbr>A</abbr><ex instant="false">ugustae</ex></expan> <expan instant="false"><abbr>A</abbr><ex instant="false">grippinensium</ex></expan> <expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
             <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
                 <p part="N">Für die Göttin  <rs type="divine">Nehalenia!</rs> <lb/> 
 Marcus Exgingius Agricola, Angehöriger der civitas der Treverer (und) Salzhändler in der Colonia Claudia Augusta Agrippinensium hat das Gelübde gerne und verdientermaßen erfüllt.</p>
@@ -372,12 +377,20 @@ Marcus Exgingius Agricola, member of the civitas of the Treveri (and) salt merch
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Nehalen(n)ia – Wierschowski, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Nehalen(n)ia – Wierschowski, EDH, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Excingius – Wierschowski; Excincius – EDH</tei:note>
                 </app>
-            </div>
+            
+            <app loc="5">
+                <note anchored="true">civ&lt;i=E&gt;s – Scheungraber</note>
+            </app>
+        
+            <app loc="8">
+                <note anchored="true">A(rae) A(grippinensium) – Raybould/Sims-Williams, Scheungraber; A(rae) A(grippinensis) – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Marcus Exgingius Agricola: tria nomina <lb/>
 Exgingius: einheimisches Pseudogentilnomen, abgeleitet vom keltischen Cognomen Excingus (Kakoschke 2006, GN 459) <lb/>

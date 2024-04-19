@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior53">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior53">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -307,7 +306,13 @@ Auf den Schmalseiten sind kaum erkennbare Reste von Blättern im oberen Teil des
                     <bibl xml:id="LIT.4" default="false" status="draft">Espérandieu VIII 6349</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Alföldy 1967, 2 Nr.3</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">Biller 2010, 91</bibl>
-                </listBibl>
+                
+            <bibl xml:id="7">Scheungraber 2020, 301 Nr.3</bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.891</bibl>
+        
+            <bibl xml:id="9">Ferlut 2022, Nr.906</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -342,16 +347,16 @@ Marcus Iulius Amandus.</p>
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – ILS, Espérandieu, Alföldy</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – ILS; Ettra – Espérandieu; Etttrra – Alföldy</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – ILS; Ettra – Espérandieu, Ferlut Nr.891; Etttrra – Alföldy; Etttrahenis – Ferlut Nr.906</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – ILS, Espérandieu, Alföldy</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – ILS, Espérandieu, Alföldy; Zeile entfällt – Ferlut Nr.906</tei:note>
                 </app>
                 <app loc="#MIN.6 #MAJ.6">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – IlS, Espérandieu, Alföldy</tei:note>
                 </app>
                 <app loc="#MIN.7 #MAJ.7">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Amanus – ILS; Aman[.]us, möglw. Amandus – CIL; Aman[d]us – Espérandieu, Lehner; noch eine zusätzliche Z.8 mit [ex imp(erio) ips(arum) l(ibens) m(erito) ?] – Alföldy</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Amanus – ILS, Ferlut Nr.906 (dort aber Z.6); Aman[.]us, möglw. Amandus – CIL; Aman[d]us – Espérandieu, Lehner, Scheungraber; noch eine zusätzliche Z.8 mit [ex imp(erio) ips(arum) l(ibens) m(erito) ?] – Alföldy</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior283">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior283">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -304,7 +303,11 @@ Auf der rechten Schmalseite ist eine Akanthusranke dargestellt, die oben von ein
                     <bibl xml:id="LIT.8" default="false" status="draft">Follmann-Schulz 1986, 782f. Nr.10</bibl>
                     <bibl xml:id="LIT.9" default="false" status="draft">Lobüscher 2002, 150 Nr.138</bibl>
                     <bibl xml:id="LIT.10" default="false" status="draft">Reuter 2012, Nr.25</bibl>
-                </listBibl>
+                
+            <bibl xml:id="11">Scheungraber 2020, 477</bibl>
+        
+            <bibl xml:id="12">Ferlut 2022, Nr.256</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -344,10 +347,10 @@ I<unclear instant="false">X</unclear><gap reason="lost" quantity="1" unit="chara
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Deae(ise?) – Espérandieu</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">N(e)bucaege – Espérandieu; [Ise?]nbucaege – Oxé, AE 1933; Iseneucaeg(a)e – Nesselhauf, Fitz, Lobüscher; Seneucaeg(a)e oder Iseneucaeg(a)e – Stuart, Reuter; Seneucaeg(a)e oder Isenen(!)caeg(a)e ; das zweite N in Isenen(!)caeg(a)e ist offensichtlich ein Tippfehler – AE 1981; [I]seneucaege – Follmann-Schulz; S(?)eneucaeg(a)e – EDH.</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">N(e)bucaege – Espérandieu; [Ise?]nbucaege – Oxé, AE 1933; Iseneucaeg(a)e – Nesselhauf, Fitz, Lobüscher, Ferlut; Seneucaeg(a)e oder Iseneucaeg(a)e – Stuart, Reuter;  Seneucaeg(a)e oder Isenen(!)caeg(a)e ; das zweite N in Isenen(!)caeg(a)e ist offensichtlich ein Tippfehler – AE 1981; [I]seneucaege – Follmann-Schulz; S(?)eneucaeg(a)e – EDH; Seneucaeg(a)e(?) – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Ulp. Filinus p(rimi) p(ilaris) – Espérandieu, Oxé, AE 1933; Fl. F[i]l[i]nus – Nesselhauf, Fitz; Ulfenus – Stuart, AE 1981, Follmann-Schulz, Lobüscher, Reuter</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Ulp. Filinus p(rimi) p(ilaris) – Espérandieu, Oxé, AE 1933; Fl. F[i]l[i]nus – Nesselhauf, Fitz, Ferlut; Ulfenus – Stuart, AE 1981, Follmann-Schulz, Lobüscher, Reuter, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[leg(ionis)] – Espérandieu, Reuter; [l]eg – Stuart, Follmann-Schulz; ohne Ligaturen – Espérandieu, Oxé, AE 1933, Nesselhauf, AE 1981, Fitz, Reuter, EDH</tei:note>
@@ -362,7 +365,7 @@ I<unclear instant="false">X</unclear><gap reason="lost" quantity="1" unit="chara
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[re]fecit – Espérandieu, Oxé, AE 1933</tei:note>
                 </app>
                 <app loc="#MIN.8 #MAJ.8">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">d. n. Severo [Alexandro Aug. cos.] – Oxé, AE 1933; d(omino) n(ostro) Severo [Alexandro] Aug(usto) co(n)s(ule)] Klammern sic! – Espérandieu ; Zeilenwechsel nach [[Alexandro]] und eine weitere folgende Zeile mit [[Aug(usto)---]] – AE 1981; Zeilenwechsel nach [[Alexandro]] und eine weitere folgende Zeile mit [[COS]] – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">d. n. Severo [Alexandro Aug. cos.] – Oxé, AE 1933; d(omino) n(ostro) Severo [Alexandro] Aug(usto) co(n)s(ule)] Klammern sic! – Espérandieu; Zeilenwechsel nach [[Alexandro]] und eine weitere folgende Zeile mit [[Aug(usto)---]] – AE 1981; Zeilenwechsel nach [[Alexandro]] und eine weitere folgende Zeile mit [[COS]] – EDH; Zeilenwechsel nach [[Alexandro]] und eine weitere folgende Zeile mit [[Aug(usto) co(n)s(ule)]] – Scheungraber; [[Alexandro]] [co(n)s(ule)] – Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

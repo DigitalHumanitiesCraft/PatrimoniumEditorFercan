@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior440">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior440">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -379,7 +378,11 @@ Auf der rechten Schmalseite ist im unteren ebenfalls nur einfach gerahmten Regis
                     <bibl xml:id="LIT.4" default="false" status="draft">Byvanck 1935, Nr.237</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Hondius-Crone 1955, Nr.6</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">Stuart 2013, Nr. 9</bibl>
-                </listBibl>
+                
+            <bibl xml:id="7">Scheungraber 2020, 394 Nr.10</bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.1059</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -409,9 +412,13 @@ Flettius, the son of Gennalo, has fulfilled a vow willingly and deservedly for h
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – ILS, Espérandieu, yvanck</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – ILS, Espérandieu, Byvanck</tei:note>
                 </app>
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">Nehalleniae – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Flettius, der Sohn des Gennalo: nicht-römisches Namensformular mit Angabe des Namens des Vaters im Genetiv <lb/>
 Flettius: germanisches Cognomen (Kakoschke 2007, CN 1320) <lb/> 

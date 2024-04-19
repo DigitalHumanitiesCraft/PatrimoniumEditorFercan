@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior318">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior318">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -261,7 +260,11 @@ Auch die rechte Schmalseite ist an ihrer linken Hälfte beschädigt und ausgebro
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Neuffer 1948, 399</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Nesselhauf/Lieb 1959, Nr.233</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 585 Nr.2</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, 594 Nr.644</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -301,7 +304,15 @@ Lucius Laubasnianus Ammalenus has fulfilled a vow willingly and deservedly for h
                 <app loc="#MIN.3 #MAJ.3">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">keine Ligaturen – Nesselhauf-Lieb</tei:note>
                 </app>
-            </div>
+            
+            <app loc="4">
+                <note anchored="true">Ammal fehlt (ausgelassen?) – Ferlut</note>
+            </app>
+        
+            <app loc="5">
+                <note anchored="true">-enus fehlt (ausgelassen?) – Ferlut </note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Lucius Laubasnianus Ammalenus: tria nomina <lb/>
 Laubasnianus: einheimisches Pseudogentilnomen, abgeleitet vom germanischen Cognomen Laubasn(ian)us (Kakoschke 2006, GN 653) <lb/>

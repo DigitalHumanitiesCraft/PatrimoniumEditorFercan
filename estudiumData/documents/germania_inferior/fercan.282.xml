@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior282">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior282">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -249,7 +248,11 @@ Auf der linken und rechten Schmalseite sind Füllhörner aus Blattkelchen wachse
                     <bibl xml:id="LIT.1" default="false" status="draft">ILS 4753</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">CIL XIII 8774</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Toorians 1995, 131</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 463</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, 785 Nr.1218</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>

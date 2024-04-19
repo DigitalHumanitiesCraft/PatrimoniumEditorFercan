@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior363">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior363">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -264,7 +263,11 @@ Die linke Schmalseite ist durch den Ausbruch beschädigt und an der linken Seite
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, B6</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1471</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 403 Nr.82</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.980</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -299,10 +302,10 @@ V · S · L · <unclear instant="false">M</unclear></orig></ab></div>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Nehalen[niae] – AE; Nehalen[niae], ohne Ligatur – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Nehalen[niae] – AE; Nehalen[niae], ohne Ligatur – EDHScheungraber; Nehalen[iae] – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Iassus – AE; Raepsaet-Charlier 2003, 296; EDH; [B]assus – Stuart/Bogaers</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Iassus – AE; Raepsaet-Charlier 2003, 296; EDH; [B]assus – Stuart/Bogaers, Scheungraber, Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

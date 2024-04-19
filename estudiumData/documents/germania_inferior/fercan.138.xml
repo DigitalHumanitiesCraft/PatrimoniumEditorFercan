@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior138">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior138">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -256,7 +255,9 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Clauss 1976, Nr.60</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1977, 570</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 367 Nr.16</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -296,10 +297,10 @@ Ulpius Agilis, Vadullius(?) Victor, Valerius Placidus, …n... Hetinius, H... �
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Mag(usano) – Clauss, AE, EDH; ohne Ligatur – AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Mag(usano) – Clauss, AE, EDH, Scheungraber; ohne Ligatur – AE, EDH</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Ulp(ius), Vad- – Clauss, AE, EDH; ohne Ligatur – AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Ulp(ius), Vad- – Clauss, AE, EDH, Scheungraber; ohne Ligatur – AE, EDH</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Clauss, AE, EDH</tei:note>
@@ -308,13 +309,13 @@ Ulpius Agilis, Vadullius(?) Victor, Valerius Placidus, …n... Hetinius, H... �
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Hedinius, ohne Ligaturen – AE, EDH</tei:note>
                 </app>
                 <app loc="#MIN.6 #MAJ.6">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]asvo – Clauss, AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]asvo – Clauss, AE, EDH, Scheungraber; Amabilin[us] – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.7 #MAJ.7">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]I[---]V[---]M[---] – Clauss, AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]I[---]V[---]M[---] – Clauss, AE, EDH; [3]I[3]V[1]M[1] – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.8 #MAJ.8">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]I[---]OI[---]N[---] – Clauss, AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]I[---]OI[---]N[---] – Clauss, AE, EDH; [3]I[3]OI[1]N[3] – Scheungraber</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

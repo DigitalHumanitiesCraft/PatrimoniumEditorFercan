@@ -1,26 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior32" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior32" n="">
 	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
-				<title type="full"><title type="main">Mars Cnabetius</title><title type="sub"> CF-GeS-1116</title></title>
+				<title type="full">
+                    <title type="main">Epona</title>
+                    <title type="sub"> CF-GeS-1002</title>
+                </title>
 				<respStmt>
 					<resp>Inschriftenedition</resp>
-					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+					<persName>
+                        <forename>Werner</forename>
+                        <surname>Petermandl</surname>
+                    </persName>
 				</respStmt>
 				<respStmt>
 					<resp>Archäologische Beschreibung und geografische Daten</resp>
-					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+					<persName>
+                        <forename>Astrid</forename>
+                        <surname>Schmölzer</surname>
+                    </persName>
 				</respStmt>
 				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
 			</titleStmt>
 			<publicationStmt>
-				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
-					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
-				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+				<publisher>
+                    <link target="https://antike.uni-graz.at"/>
+                    <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
+                </publisher>
+				<authority>
+                    <link target="https://informationsmodellierung.uni-graz.at"/>
+                    <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
 					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
-					Graz</orgName></authority>
-				<distributor><link target="https://gams.uni-graz.at"/><orgName>GAMS -
-					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+					Graz</orgName>
+                </authority>
+				<distributor>
+                    <link target="https://gams.uni-graz.at"/>
+                    <orgName>GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName>
+                </distributor>
 				<date when="2022">2022</date>
 				<pubPlace>Graz</pubPlace>
 				<idno type="PID">o:fercan.32</idno>
@@ -34,15 +52,18 @@
 					Celticarum Antiquarum</title>
 				<respStmt>
 					<resp>Projektleitung</resp>
-					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+					<persName>
+                        <forename>Wolfgang</forename>
+                        <surname>Spickermann</surname>
+                    </persName>
 				</respStmt>
 			</seriesStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<settlement/>
-						<repository/>
-						<idno/>
+						<settlement>Bonn</settlement>
+						<repository>Rheinisches Landesmuseum</repository>
+						<idno>1933.195,0-1</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>Weihinschrift</summary>
@@ -50,58 +71,85 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
-									<objectType>Weihestein</objectType> <dimensions>
-										<height unit="cm"> </height>
-										<width unit="cm"> </width>
-										<depth unit="cm"> </depth>
+								<support> <p>                                                <p>Sockel wie Aufsatz sind durch vierfach profilierte Absätze vom Altarkörper getrennt. Der Altar ist an der unteren rechten Kante ausgebrochen und mit Zement modern repariert worden. Generell ist der Altar an allen Kanten eher stark bestoßen. Der Aufsatz ist stark verwittert, Reste einer Bekrönung sind allerdings noch nachvollziehbar. Düntzer (1885, 37, Nr.32) beschreibt noch einen „Kranz in der Mitte“, der wohl den Umriss der Opferschale wiedergibt. Außerdem ist rechts der Rest eines Pulvinus zu erkennen. Auf der Vorderseite des Aufsatzes befinden sich zwei Kreise, wobei nicht gesagt werden kann, ob diese Teil eines ursprünglichen Dekors waren oder später entstanden sind. Das Inschriftenfeld ist nicht gerahmt.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120240">Tuff</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
+										<height unit="cm">61</height>
+										<width unit="cm">29</width>
+										<depth unit="cm">29</depth>
 									</dimensions> <note type="dimensions"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#"/> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p/> <note type="condition"/> </layout>
+								<layout> <p>                                                <p>Der Inschriftentext ist weitgehend erhalten, nur rechts unten ist er 
+abgebrochen. Wenig qualitätvolle, unregelmäßige Buchstaben.</p>
+                                                <p>Es ist 
+nicht auszuschließen, dass in Z.3 „Cacius“ zu lesen ist. In Z.6 wäre 
+etwa auch „v(otum) s(olvit)“ denkbar.</p><p>Besondere Zeichen: Am Ende von Z.2 das R; am Ende von Z.3 das S kleiner zwischen Rand und vorletzten Buchstaben eingeschrieben. 
+                                                </p>
+                                                <p/></p> <note type="condition"/> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote> <desc type="execution"/> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="3.0" atMost="5.0">3–5</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden. </p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252810">Opferschale</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140700">Reparatur</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="" notAfter=""><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="vor 1600"> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+						<origin> <origPlace> <placeName>Antunnacum</placeName> <region/> </origPlace> <origDate notBefore="" notAfter="">
+                                <date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note>
+                            </origDate> </origin>
+						<provenance type="found" when=" "> 
+						  <placeName> <ref type="context" target="context:fercan.geog.modern.">Andernach</ref> </placeName> 
+						  <p>an der Nordostseite des Domes (Düntzer 1885, 37 Nr.32)</p> 
+						  <location>
 								<geo decls="#WGS"/>
-							</location> <note/> </provenance>
-						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung beruht auf CIL<br/></p></provenance>
+							</location> <note>Fundumstände und Fundjahr sind nicht mehr nachvollziehbar, der Altar muss aber vor 1801 gefunden worden sein.</note>
+							    
+							</provenance>
+						<provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)</provenance>
 					</history>
 				</msDesc>
 				<listPlace>
 					<place type="antique_term">
-						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+						<placeName>
+                            <ref target="context:fercan.geog.term" type="context"/> </placeName>
 					</place>
 					<place type="sacral_building">
 						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
 						</placeName>
 					</place>
 				</listPlace>
-				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context"/></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context"/></persName></person>
+				<listPerson>
+                    <person>
+                        <persName subtype="celtic_normalized" type="divine">
+                            <ref target="context:fercan.dcn." type="context">Epona</ref>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName subtype="celtic_normalized_other" type="divine">
+                            <ref target="context:fercan.dcn.other" type="context"/>
+                        </persName>
+                    </person>
 					<person>
-						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context"> Cnabetius</ref> </persName>
+						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context">Epona</ref> </persName>
 					</person>
 					<person>
-						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> </ref> </persName>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Optatus</ref> </persName>
 					</person>
 					<person>
 						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
 						</roleName> </persName>
 					</person>
 					<person>
-						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">
-						</ref></persName>
+						<persName type="gentilnomen">
+                            <ref target="context:fercan.person.gentilnomen." type="context">Acius; Cacius</ref>
+                        </persName>
 					</person>
 					<person>
 						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
@@ -125,8 +173,10 @@
 						</orgName>
 					</org>
 					<org type="military_unit">
-						<orgName><ref target="context:fercan.org.military." type="context">
-						</ref></orgName>
+						<orgName>
+                            <ref target="context:fercan.org.military." type="context">
+						</ref>
+                        </orgName>
 					</org>
 					<org type="population_group">
 						<orgName> <ref target="context:fercan.org.population." type="context">
@@ -171,11 +221,11 @@
 			<textClass>
 				<keywords>
 					<list>
-						<item> <ref target="context:fercan.dedication." type="context"> in honorem domus divinae; votum solvit libens laetus merito</ref> </item>
+						<item> <ref target="context:fercan.dedication." type="context">sacrum; votum solvit libens merito</ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
-						<item> <ref target="context:fercan.divinepart." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.divinepart." type="context">Eponae</ref> </item>
 						<item> <ref target="context:fercan.theonymischesFormular." type="context"> </ref> </item>
 					</list>
 				</keywords>
@@ -190,8 +240,8 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic mimeType="" xml:id="IMAGE.1" url="">
-			<desc> </desc>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1002_front.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
 		</graphic>
 	</facsimile>
 	<text>
@@ -199,53 +249,101 @@
 			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
 			<div subtype="editions" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl xml:id="1"> CIL XIII 6455</bibl>
+					<bibl xml:id="1">CIL XIII 7680 </bibl>
 				
-            <bibl xml:id="2">Scheungraber 2020, 237 Nr.1</bibl>
+            <bibl xml:id="2">Riese 1914, Nr.2731</bibl>
+        
+            <bibl xml:id="3">Galsterer/Galsterer 1975, Nr.20 </bibl>
+        
+            <bibl xml:id="4">Euskirchen 1993, Nr.262 </bibl>
+        
+            <bibl xml:id="5">Galsterer/Galsterer 2010, Nr.28</bibl>
+        
+            <bibl xml:id="6">KIK 2012, Nr.36 </bibl>
+        
+            <bibl xml:id="7">Scheungraber 2020, 265 Nr.2</bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.134</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl type="EDCS"><idno> EDCS-11000476</idno><date>  2023-03-15</date></bibl>
-					<bibl type="EDH"><idno> HD037059</idno><date> 2018-04-25</date></bibl>
-					<bibl type="trismegistos"><idno> www.trismegistos.org/text/211165</idno><date> 2023-03-15</date></bibl>
-					<bibl type="lupa"><idno> </idno><date> </date></bibl>
-					<bibl type="other"><idno> </idno><date> </date></bibl>
-				<bibl type="lupa"><idno/><date/></bibl></listBibl>
+					<bibl type="EDCS">
+                        <idno>EDCS-11001807</idno>
+                        <date>zuletzt abgerufen 2023-03-15</date>
+                    </bibl>
+					<bibl type="EDH">
+                        <idno>HD061360</idno>
+                        <date>Version von 2019-02-01</date>
+                    </bibl>
+					<bibl type="trismegistos">
+                        <idno>https://www.trismegistos.org/text/212451</idno>
+                        <date>zuletzt abgerufen 2023-03-15</date>
+                    </bibl>
+					<bibl type="lupa">
+                        <idno> </idno>
+                        <date> </date>
+                    </bibl>
+					<bibl type="other">
+                        <idno>https://cil.bbaw.de/ace/id/KO0021397</idno>
+                        <date>zuletzt abgerufen 2023-03-15</date>
+                    </bibl>
+				
+                </listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform">
-				<ab><lb n="1"/>IN HON[
-<lb n="2"/>]MARTI C[
-<lb n="3"/>ABETIO SIM[
-<lb n="4"/>LACVM CAR
-<lb n="5"/>TSRCON<g type="interpunct">▴</g>V<g type="interpunct">▴</g>S<g type="interpunct">▴</g>L<g type="interpunct">▴</g>L<g type="interpunct">▴</g>M</ab></div>
-			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>In hon[orem]
-<lb n="2"/>[d(omus) d(ivinae)] Marti C[n]-
-<lb n="3"/>abetio sim[u]-
-<lb n="4"/>laclum CAR-
-<lb n="5"/>TSRCON v(otum) s(olvit) l(ibens) l(aetus) m(erito)</ab></div>
+				<ab><orig><lb n="1"/>EPONAE 
+<lb n="2"/>SACR
+<lb n="3"/>CACIVS 
+<lb n="4"/>OPTAT<gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="5"/>MV<gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="6"/>V <gap reason="lost" extent="unknown" unit="character" instant="false"/></orig></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Eponae
+<lb n="2"/><expan><abbr>sacr</abbr><ex>um</ex></expan>
+<lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Acius</abbr><ex cert="low"/></expan>
+<lb n="4"/>Optat<supplied reason="lost">us</supplied>
+<lb n="5"/>mu<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="6"/><expan><abbr>v</abbr><ex>otum</ex></expan> <supplied reason="lost"><expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></supplied></ab></div>
 			<div type="translation" xml:lang="de" org="uniform">
-				<p><p>Zu Ehren des Kaiserhauses</p><p>für <rs type="divine">Mars Cnabetius</rs>!</p><p>Cartsrcon hat mit dieser Statue das Gelübde freudig, gerne und verdientermaßen erfüllt.<br/></p></p>
+				<p><p>Der <rs type="divine">Epona </rs>geheiligt
+                                                </p><p>Gaius Acius Optatus MV … hat das Gelübde gerne und verdientermaßen erfüllt.<p>
+                    </p>
+                </p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform">
-				<p><p>In honour of the Divine Household</p><p>to <rs type="divine">Mars Cnabetius</rs>!</p><p>With this statue has Cartsrcon fulfilled a vow glady, willingly and deservedly.<br/></p></p>
+				<p><p>Sacred to <rs type="divine">Epona</rs>!</p><p>Gaius Acius Optatus MV … has fulfilled a vow willingly and deservedly.<p>
+                    </p>
+                </p></p>
 			</div>
 			<div type="apparatus" org="uniform">
-				<app loc="1">
-					<note>hon(orem) [d(omus) d(ivinae)] - EDCS, EDH, Scheungraber</note>
+				<app loc="2">
+					<note>sac(rum) – Ferlut</note>
 				</app>
 			
-            <app loc="2"><note>de[o] - EDH;  &lt;de=II&gt;[o] - EDCS, Scheungraber</note></app>
+            <app loc="3">
+                    <note>interpunctio post c adesse videtur nulla – CIL; tertia littera g potius videtur quam c esse– CIL;  CACIV[S] – Euskirchen; Cagius – Riese; Ac(c)ius(?) – EDH</note>
+                </app>
         
-            <app loc="4"><note>{l}ac&lt;r=L&gt;um - EDCS, EDH, Scheungraber ; am Ende der Zeile C(aius) AR- - EDCS, Scheungraber</note></app>
+            <app loc="5">
+                    <note>mu[lio] – CIL</note>
+                </app>
         
-            <app loc="5"><note>am Anfang der Zeile TRSCON - EDCS, Scheungraber</note></app>
+            
         </div>
-			<div type="commentary" subtype="general" org="uniform">
-				<p> </p>
+			<div type="commentary" subtype="general" org="uniform">                                                <p>Gaius Acius Optatus: tria nomina</p>
+                                                <p>Acius: italisches 
+Gentilnomen, besonders in Hispanien und Italien verbreitet  (Kakoschke 2021, GN 7); es könnte 
+auch Cacius gelesen werden: italisches Gentilnomen, sonst nirgends 
+bezeugt (Kakoschke 2021, GN 239) </p>
+                                                <p>Optatus: lateinisches Cognomen, überall gängig (Kakoschke 2021, CN 2260)</p>
+                                                <p>MV[---]:
+ in dieser Angabe hinter dem Namen ist vermutlich eine 
+Funktionsbezeichnung des Optatus zu sehen. In CIL wird wohl im Hinblick 
+auf die Tatsache, dass es sich bei Epona um eine Pferdegöttin handelt, 
+die Ergänzung auf mulio (= Maultiertreiber) vorgeschlagen. s. Apparatus criticus<br/></p>				<p> </p>
 			</div>
 			<div type="commentary" subtype="language" org="uniform">
-				<p> In v.3-4 "simullaclum" pro "simulacrum".</p>
+				<p/>
 			</div>
 			<div type="commentary" subtype="deity" org="uniform">
 				<p> </p>
@@ -254,35 +352,63 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"/>
-			<note type="ArchKlass_note"/>
-			<note type="Material_note"/>
-			<note type="Inschrifttraeger_note"/>
+			<note type="Objbeschr_note"><p>„rechts unten abgebrochen“ – GalstGalst1975</p>
+                                                    <p>zu den Seitansichten keine Info vorhanden</p>Beschreibung
+ von Astrid (zuvor in Inferior aufgenommen), außer &gt; Düntzer (1885, 
+S.37, Nr.32) beschreibt jedoch noch einen „Kranz in der Mitte“.&lt;<p/></note>
+			<note type="ArchKlass_note"><p>Aufsatzschmuck</p><p>Opferschale</p><p>Pulvini</p><p>Reparatur</p></note>
+			<note type="Material_note">                                                    <p>Kalktuff: Gesteine - klastische Sedimente (EDH) -- ??</p>
+                                                    <p>EDH: Tuff</p>
+                                                    <p>Tuffstein – GalstGalst1975</p>
+                                                    <p>Trass (Lersch Centralmuseum Nr.16)</p>
+                                                    <p>Jurakalk (Düntzer 1885, S.37 Nr.32)</p>
+                                                    <p/></note>
+			<note type="Inschrifttraeger_note">                                                    <p><br/></p></note>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"/>
-			<note type="Fundstelle_note"/>
-			<note type="Fundumst_note"/>
-			<note type="Fundjahr_note"><p>vor 1600<br/></p></note>
-			<note type="FOantik_note"/>
-			<note type="FOmodern_note"/>
-			<note type="civitas_note"><p>Civitas Aurelia G-?</p></note>
-			<note type="Autopsie_note"/>
-			<note type="Appcrit_note"><p>&lt;&gt;<br/></p></note>
+			<note type="InvNr_note">                                                    <p>Köln (WS DB; CIL XIII Karteikarte)</p>
+                                                    <p>Bonn, Rhein. Landesmus. (EDH)</p>
+                                                    <p>Galsterer2010</p>
+                                                    <p>Der Stein wurde 1933 (von Köln) mit dem Bonner Provinzialmuseum ausgetauscht</p>
+                                                    <p>Mail an Museum am 5.7.23 – Inventarnummer lt. Angabe des Museums, Mail vom 12.7.<br/>Früher 343, jetzt 33. 195 Galsterer2010</p>
+                                                    <p>IVNr:<span style="font-size:12.0pt;line-height:107%; font-family:LeedsUniExt;mso-ansi-language:DE-AT;mso-fareast-language:EN-US; mso-bidi-language:AR-SA"> Früher 343, jetzt 33. 195 Galsterer2010</span></p>
+                                                    <p/></note>
+			<note type="Fundstelle_note">                                                    <p>So auch Düntzer 1885: in Andernach, an der Nordostseite des Domes</p>
+                                                    <p>Köln: Nordostseite des Domes (Inv.Buch)</p>
+                                                    <p>1866 bei Grabungen am Domhügel entdeckt nach Doppelfeld-Weyres 1980, 201</p>
+                                                    <p>Diese Angaben von Galsterer2010 wiederlegt</p>
+                                                    <p>daher eher Andernach richtig (so auch CIL, EDH)</p>
+                                                    <p>Andernach: daher Germania Superior</p>
+                                                    <p>nach ClaussSlaby:</p>
+                                                    <p>wohl eher Andernach als Köln Galsterer2010</p><p><br/></p><p>Mail an Werner 23.2.22!</p><p/></note>
+			<note type="Fundumst_note">                                                    <p>Mail an Museum am 5.7.23 – Antwort am 12.7.23: gefunden in Andernach, das LMB hat diesen Stein 1933 im Tausch mit dem Wallraf-Richartz-Museum in Köln erhalten (<b>Fundumstände und Fundjahr werden im Inventar nicht genannt</b>)</p><p>Siehe dazu Galsterer/Galsterer (2010, Nr.28) und KIK (2012, Nr.36), wo der Fundort Köln in Frage gestellt wird. CIL nennt als Fundort Andernach (Antunnacum) in der Germania Superior.</p><p>Beispiel: „aus einem Grabe geborgen“ = Fundumstand</p><p>Da der Stein nicht nur bei Hüpsch, sondern u.a. auch bei Lersch 1839, 22 schon aufgeführt ist, sind die Angaben von Doppelfeld-Weyres, den Fundort des Steines nordöstlich des Domes (Grabung 1866) zu lokalisieren, mit Skepsis zu betrachten. Die Fundumstände dieses Epona-Altars sind nicht ganz geklärt. Laut Fremersdorf und Doppelfeld-Weyres wurde er 1866 bei Grabungen auf dem Domhügel entdeckt. Diese Angabe kann aber nicht richtig sein, da er bereits 1801 von Hüpsch beschrieben und 1833 in das Corpus von Lersch aufgenommen wurde. Zudem ist es fraglich, ob dieser Altar überhaupt aus Köln stammt. Die Herausgeber des CIL übernahmen die Angabe Hüpschs, der den Stein aus Andernach stammen läßt. Düntzer hingegen verzeichnet ihn unter den „Alterthümern des Museums Wallraf-Richartz“ in Köln und setzt damit stillschweigend eine Herkunft aus Köln voraus. Sicher ist nur, daß der Stein im Oktober 1933 mit dem Bonner Provinzialmuseum ausgetauscht wurde, wohl in der Meinung, er sei nicht Kölnischer Herkunft, und dort zu einem unbekannten Zeitpunkt verloren ging. – KIK2012</p></note>
+			<note type="Fundjahr_note">                <p><span style="font-size:12.0pt;font-family:LeedsUniExt">Vor 1801 da von Hüpsch 1801 S.18 Nr.64 beschrieben</span></p><p><span style="font-size:12.0pt;font-family:LeedsUniExt">Mail an Museum am 5.7.23 - Antwort am 12.7.23: gefunden in Andernach, das LMB hat diesen Stein 1933 im Tausch mit dem Wallraf-Richartz-Museum in Köln erhalten (<b>Fundumstände und Fundjahr werden im Inventar nicht genannt</b>)</span></p></note>
+			<note type="FOantik_note"><p>CCAA ist sehr fraglich; eher Antunnacum</p></note>
+			<note type="FOmodern_note"><p>                                                    <p>So CIL Kartei</p>
+                                                    So schon Hüpsch 1801</p><p><p>Mail von Museum am 12.7.23: gefunden in Andernach, das LMB hat diesen Stein 1933 im Tausch mit dem Wallraf-Richartz-Museum in Köln erhalten</p></p></note>
+			<note type="civitas_note">                <p>ACHTUNG:</p>
+                                                    <p>Inschrift als CF-GeI-32 schon aufgenommen – muss ausgetauscht werden! </p>
+                                                    -&gt; Entfernung aus Inferior erledigt (31.05.2023)
+            </note>
+			<note type="Autopsie_note"><p>Karteikarte sagt Photo - ja, Lesung nciht zu verbessern. Liste Altfund hingegen sagt Gesehen: FALSCH Verschollen: WAHR - Winfried: ich folge der Karteikarte und sage vidimus.<br/></p></note>
+			<note type="Appcrit_note"/>
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note"/>
+			<note type="Editionen_note">                                                    <p>Lersch 1839, Bd.1. S.22. Nr.16 (Cacius), - eingesehen</p><p>Düntzer 3.Auflage 1885 S.37f. Nr.32 (Cacius), - eingesehen</p><p>Noelke, P. In: KJb 49. 2016. S.634.Nr.7.3. Abb.129 (Photo) („aus dem Andernacher Gebiet“), - eingesehen, nicht gelesen nur besprochen</p><p>Magnen S.41. Nr.11 (Cagius; FO: Andernach) - eingesehen, nur erwähnt<br/></p><p>Raepsaet-Charlier 2006, 423 - eingesehen, nur erwähnt</p><p/></note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"/>
+			<note type="Masse_note"><p>nach EDH, GalstGalst1975, Galsterer2010</p></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"/>
+			<note type="Buchsthoehe_note"><p>berechnet aus Foto mit Maßstab: </p><p>Z1: 3,5-4,5</p><p>Z2: 4-5</p><p>Z3: 4-5</p><p>Z4: 3,5-4</p><p>Z5: 4</p><p>Z6: 3<br/></p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"/>
-		<note type="ElektronischeRessourcen_note"/><note type="Index_note"/></back>
+			<note type="Datierung_note"><p>150-250 (WS DB)</p>
+                                                    51 n. Chr. – 400 n. Chr. (EDH)<p/></note>
+		<note type="ElektronischeRessourcen_note"/>
+            <note type="Index_note"/>
+        </back>
 	</text>
 </TEI>

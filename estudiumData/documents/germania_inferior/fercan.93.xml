@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior93">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior93">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -214,7 +213,11 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">Broelmann 1608, Tabella III Nr.33</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">ILS 4804</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">CIL XIII 7937</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 284 Nr.5</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.715</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -243,7 +246,7 @@ Celorius Iust… has fulfilled a vow willingly and deservedly. </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne T – Broelmann; tus l. m. – ILS</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne T – Broelmann; tus l. m. – ILS; tus v(otum) s(olvit) l(ibens) m(erito) – Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

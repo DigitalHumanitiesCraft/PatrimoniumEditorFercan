@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior19" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior19" n="">
 	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
@@ -40,7 +40,7 @@
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<settlement>Strassburg</settlement>
+						<settlement>Straßburg</settlement>
 						<repository>Archäologisches Museum</repository>
 						<idno/>
 					</msIdentifier>
@@ -50,7 +50,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>An der Basis rechts ist ein Stück ausgebrochen. Ein Teil der Inschrift befindet sich am Aufsatz außerhalb des ungerahmten Inschriftenfeldes. Der Aufsatz ist durch Pulvini verziert, in deren Mitte sich „ein sonnenartiges Motiv“ (Forrer 1915, S.49) oder ein „small globe“ (Vermaseren 1960, S.133 Nr.1350) befindet. In der „nur roh behauenen Opferschale […] sind zwei starke Eisenösen verbleit […] Dort sieht man starke Brand- oder Rauchspuren.“ (Forrer 1915, S.49)<br/></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+								<support> <p>An der Basis rechts ist ein Stück ausgebrochen. Ein Teil der Inschrift befindet sich am Aufsatz außerhalb des ungerahmten Inschriftenfeldes. Der Aufsatz ist durch Pulvini verziert, in deren Mitte sich „ein sonnenartiges Motiv“ (Forrer 1915, 49) oder ein „small globe“ (Vermaseren 1960, 133 Nr.1350) befindet. In der „nur roh behauenen Opferschale […] sind zwei starke Eisenösen verbleit […] Dort sieht man starke Brand- oder Rauchspuren.“ (Forrer 1915, 49)<br/></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
 									<objectType>Weihestein</objectType> <dimensions>
 										<height unit="cm"> 44</height>
 										<width unit="cm"> 22</width>
@@ -59,7 +59,8 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>Die erste Zeile mit dem Votivformular befindet sich außerhalb des Inschriftenfeldes auf der corona; die Buchstaben sind bedeutend kleiner als jene des Inschriftenfeldes. Der Inschriftenfeld wird von Text völlig ausgefüllt. Die Buchstaben sind durchweg unregelmäßig und in unterschiedlichen Zeilen von verschiedener Größe. Farbreste lassen darauf schließen, dass die Buchstaben ursprünglich rot ausgemalt waren; später wurde die ganze Inschrift weiß überstrichen. | Zu Ligaturen: In Z.1 könnte eventuell N als N in Ligatur mit I gelesen werden, doch dürfte das eher nicht zutreffen.  – Besondere Zeichen: in Z.1 findet sich eine hedera nach D.</p> <note type="condition"/> </layout>
+								<layout> <p>                                                <p>Die erste Zeile mit dem Votivformular befindet sich außerhalb des Inschriftenfeldes auf der corona; die Buchstaben sind bedeutend kleiner als jene des Inschriftenfeldes. Das Inschriftenfeld wird vom Text vollständig ausgefüllt. Die Buchstaben sind durchweg unregelmäßig und in unterschiedlichen Zeilen von verschiedener Größe. Farbreste lassen darauf schließen, dass die Buchstaben ursprünglich rot ausgemalt waren; später wurde die ganze Inschrift weiß überstrichen.</p>
+                                                <p>Zu Ligaturen: In Z.1 könnte das N eventuell als N in Ligatur mit I gelesen werden, doch dürfte das eher nicht zutreffen.  – Besondere Zeichen: in Z.1 findet sich eine hedera nach D.</p></p> <note type="condition"/> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -77,8 +78,8 @@
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName>Argentorate</placeName> <region/> </origPlace> <origDate notBefore="" notAfter=""><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1911"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Strassburg</ref> </placeName> <p>Königshofen, im Mithraeum, hinter dem Eingang zur cella (Vermaseren 1960, S.133, Nr.1350)</p> <location>
+						<origin> <origPlace> <placeName>Argentorate</placeName> <region>Civitas Tribocorum</region> </origPlace> <origDate notBefore="" notAfter=""><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1911"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Straßburg</ref> </placeName> <p>Königshofen, im Mithraeum, hinter dem Eingang zur cella (Vermaseren 1960, 133, Nr.1350)</p> <location>
 								<geo decls="#WGS"/>
 							</location> <note/> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung gründet auf: CIL und Photo</p></provenance>
@@ -93,12 +94,12 @@
 						</placeName>
 					</place>
 				</listPlace>
-				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context"/></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context"/></persName></person>
+				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context">Cissonius</ref></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context"/></persName></person>
 					<person>
 						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context">Cissonius</ref> </persName>
 					</person>
 					<person>
-						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> Pippausus</ref> </persName>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Pippausus</ref> </persName>
 					</person>
 					<person>
 						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
@@ -175,11 +176,11 @@
 			<textClass>
 				<keywords>
 					<list>
-						<item> <ref target="context:fercan.dedication." type="context"> votum solvit laetus libens merito</ref> </item>
+						<item> <ref target="context:fercan.dedication." type="context">votum solvit laetus libens merito</ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
-						<item> <ref target="context:fercan.divinepart." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.divinepart." type="context">D(eo) Cisson(i)o</ref> </item>
 						<item> <ref target="context:fercan.theonymischesFormular." type="context"> Cissonius</ref> </item>
 					</list>
 				</keywords>
@@ -194,8 +195,8 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="Cissonius 1012.jpg">
-			<desc> </desc>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1012_front.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
 		</graphic>
 	</facsimile>
 	<text>
@@ -211,27 +212,45 @@
         
             <bibl xml:id="4">AE 1920, 128  </bibl>
         
-            <bibl xml:id="5">Vermaseren 1956-1960, Nr.1351-1350  </bibl>
+            <bibl xml:id="5">Vermaseren 1956-1960, Nr.1351–1350  </bibl>
         
-            <bibl xml:id="6">Schnitzler 1996, t.4, 117 </bibl>
+            <bibl xml:id="10">Schnitzler 1996, t.4, 117 </bibl>
         
-            <bibl xml:id="7">CAG 67,2, 451  </bibl>
+            <bibl xml:id="8">CAG 67,2, 451  </bibl>
         
-            <bibl xml:id="8">Scheungraber 2020, 236 Nr.14</bibl>
+            <bibl xml:id="12">Scheungraber 2020, 236 Nr.14</bibl>
+        
+            <bibl xml:id="6">Walters 1974, 48 Anm.4; 119 Anm.5</bibl>
+        
+            <bibl xml:id="7">Hatt 1993, 97; 111 (mit 2 Varianten)</bibl>
+        
+            <bibl xml:id="9">Hensen 1995, Nr.15</bibl>
+        
+            <bibl xml:id="11">Engster 2002, 467 Anm.4</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl type="EDCS"><idno> EDCS-12300112</idno><date> 2023-03-13</date></bibl>
-					<bibl type="EDH"><idno> HD027583</idno><date> 2018-08-24</date></bibl>
+					<bibl type="EDCS"><idno> EDCS-12300112</idno><date>zuletzt abgerufen 2023-03-13</date></bibl>
+					<bibl type="EDH"><idno>HD027583</idno><date>Version von 2018-08-24</date></bibl>
 					<bibl type="trismegistos"><idno> </idno><date> </date></bibl>
 					<bibl type="lupa"><idno> </idno><date> </date></bibl>
 					<bibl type="other"><idno> </idno><date> </date></bibl>
-				<bibl type="lupa"><idno/><date/></bibl></listBibl>
+				</listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform">
-				<ab><orig/></ab></div>
-			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab/></div>
+				<ab><lb n="1"/>D<g type="hedera">❦</g>CISSONO
+<lb n="2"/>GITTO
+<lb n="3"/>NIVS
+<lb n="4"/>PIPPAV
+<lb n="5"/>SVS<g type="interpunct">▴</g>V<g type="interpunct">▴</g>S L<g type="interpunct">▴</g><orig/>
+<lb n="6"/>L<g type="interpunct">▴</g>M<g type="interpunct">▴</g></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/><expan><abbr>D</abbr><ex>eo</ex></expan> <expan><abbr>Cisson</abbr><ex>i</ex></expan>o
+<lb n="2"/>Gitto
+<lb n="3" break="no"/>nius
+<lb n="4"/>Pippau
+<lb n="5" break="no"/>sus <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan>
+<lb n="6"/><expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform">
 				<p><p>Für den Gott <rs type="divine">Cissonius</rs>!</p><p>Gittonius Pippausus hat das Gelübde freudig, gerne, und verdientermaßen erfüllt.</p></p>
 			</div>
@@ -240,12 +259,19 @@
 			</div>
 			<div type="apparatus" org="uniform">
 				<app loc="1">
-					<note/>
+					<note>CISSON̂IO – Forrer; Cissonio – Espérandieu, Vermaseren, CAG, Scheungraber; CISSONIO – AE, Schnitzler; Cissonio – Engster, EDH „entweder nicht erkennbare NI-Ligatur, oder I fehlt“</note>
 				</app>
-			</div>
-			<div type="commentary" subtype="general" org="uniform">
-				<p> </p>
-			</div>
+			
+            <app loc="2"><note anchored="true">Citto(?) – EDH; Cittonius (ohne Zeilenumbruch) – Hatt 97 (1. Variante); Gittonius (ohne Zeilenumbruch) – Hensen</note></app>
+        
+            <app loc="5"><note anchored="true">das L am Ende offenbar übersehen – Espérandieu, Schnitzler; l(ibens) – Vermaseren, EDH, CAG, Scheungraber, Engster; fehlender Zeilenwechsel – Schnitzler</note></app>
+        
+            <app loc="6"><note anchored="true">l(ibens) l(aetus) – Vermaseren, EDH, CAG, Engster, Scheungraber </note></app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform">                                                <p>Gittonius Pippausus: römisches Namensformular ohne Pränomen</p>
+                                                <p>Gittonius: einheimische Bildung mit keltischer Basis, nur in dieser Inschrift bezeugt (Kakoschke 2021, GN 566)</p>
+                                                <p>Pippausus: keltischer Name, nur in dieser Inschrift bezugt (Kakoschke 2021, CN 2406)
+			</p></div>
 			<div type="commentary" subtype="language" org="uniform">
 				<p> </p>
 			</div>
@@ -923,7 +949,8 @@
 <![endif]--><span style="font-size:12.0pt;line-height:107%; font-family:LeedsUniExt;mso-ansi-language:DE-AT;mso-fareast-language:EN-US; mso-bidi-language:AR-SA;mso-bidi-font-weight:bold">WSpDB: Film: 72/9;Mus.Straßb.</span></p></note>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note"><p>siehe Worddokument</p></note>
+			<note type="Editionen_note">                                                    <p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p>CAG = Baudoux/Flotté/Fuchs/Waton (Provost Hrsg.) 2002<p/>
+                                                    <p>Für weitere Erwähnungen siehe Word.<br/></p></note>
 			<note type="ErhzustObj_note"/>
 			<note type="Masse_note"><p>So CAG, EDH</p><p>Forrer: H 44, B 21,5, T 17</p><p>Vermaseren: H 44, B 21,5, T 17</p><p>Ésperandieu VII S. 165 Nr. 5531: hauteur o m. 45, largeur o m. 18, épaisseur o m. 12</p><p>Vermaseren 1960? H44cm, B21,5cm, T17cm</p></note>
 			<note type="Ikonogr_note"/>

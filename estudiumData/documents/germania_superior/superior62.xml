@@ -1,0 +1,332 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior62" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Maddurus</title><title type="sub">CF-GeS-1073</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.62</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Berlin</settlement>
+						<repository>Neues Museum</repository>
+						<idno>E_1984/001.081</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p><p>Es handelt sich bei diesem Objekt um einen Stangenaufsatz. Die obere Spitze ist abgebrochen, ansonsten dürfte das Objekt vollständig erhalten sein. Links und rechts über der Aussparung für den Stangenschaft befindet sich jeweils eine runde Auslassung, die fast die gesamte Breite einnimmt. Die Inschrift selbst ist in zwei Teile, links und rechts des Schaftes, aufgeteilt. Sie befindet sich auf einer Fläche, die wie eine tabula ansata gestaltet ist.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120110">Bronze</ref>
+                      <ref ana="Kupfer">Kupfer</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.221100">Signum</objectType> <dimensions>
+										<height unit="cm">22</height>
+										<width unit="cm">20</width>
+										<depth unit="cm"> </depth>
+									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>Die beiden D weisen einen waagrechten Querbalken auf. Das Zeichen wurde vermutlich ähnlich dem englischen ‚th‘ ausgesprochern (Künzl 2008, 93).<br/></p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">geritzt</desc> <height unit="cm" atLeast="0.7" atMost="0.8">0,7–0,8</height> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden. <br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150510">tabula ansata</term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName>Tabernae</placeName> <region>Civitas Nemetum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern.">Neupotz</ref> </placeName> <p>Altarm des Rhein</p> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true">Hortfund der Gebrüder Kuhn; gemeinsam mit Fe-GeS-1077</note> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung gründet auf: EDH</p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Maddurus</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Maddurus</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> </ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">
+						</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">
+						</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.character." type="context">D mit waagrechtem Querbalken durch die linke Haste</ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">Madduro</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1073_front.jpg">
+                <desc>Front, Künzl 2008, Taf.18</desc>
+            </graphic>
+        
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1073_posterior.jpg">
+                <desc>Rückseite, Künzl 2008, Taf.19</desc>
+            </graphic>
+        </facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="1">AE 1994, 1298</bibl>
+				
+            <bibl xml:id="2">Künzl/Künzl 2008, Nr.C 1</bibl>
+        
+            <bibl xml:id="3">Scheungraber 2020, 363</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno>EDCS-00380765</idno><date>zuletzt abgerufen 2022-08-16</date></bibl>
+					<bibl type="EDH"><idno>HD051695</idno><date>Version von 2018-06-08</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/211633</idno><date>zuletzt abgerufen 2022-08-16</date></bibl>
+					<bibl type="lupa"><idno> </idno><date> </date></bibl>
+					<bibl type="other"><idno> </idno><date> </date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/>MAĐĐVRO<orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Madduro</ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p><p>Für <rs type="divine">Maddurus</rs>!<br/></p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p><p>To <rs type="divine">Maddurus</rs>!<br/></p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				
+			</div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">Das sakrale Stangenzeichen (signum) mit der Inschrift MAĐĐVRO stammt aus dem Hortfund von Neupotz. Es handelt sich dabei um Plünderungsgut, das die Alemannen nach ihren Einfällen nach Gallien 275–77 verloren (s. dazu Künzl 2008, Alamannenbeute). Seine Herkunft ist durch das D mit Querbalken im Götternamen etwas eingrenzbar, da dieses besondere Zeichen sich vor allem in der östlichen Hälfte der Gallia Belgica und der mittleren Germania Superior findet (Künzl 2008, 93).
+			</div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note"><p>Kettchen antik? Wäre möglich (auch lt. Astrid) v.a. weil auch auf der anderen Seite ein Loch für noch ein Kettchen wäre.</p></note>
+			<note type="ArchKlass_note">                                                    </note>
+			<note type="Material_note">                                                    <p>Kupfer</p>
+                                                    <p>Hanemann/Petrovszky 2006, 164: Bronze</p></note>
+			<note type="Inschrifttraeger_note">S. dazu Künzl 2008, 89ff.
+                                                    <p>EDH: Signumaufsatz. Die Inschrift befindet sich am unteren Rand des Signumaufsatzes beiderseits der Aussparung für den Schaft. (s. Abb.)</p>
+                                                    <p>AE 1994: Enseigne votive en alliage de cuivre, qui devait etre placee au sommet d'une lance. … Inscription dans une tabula ansata formant la limite inf. de la piece.</p></note>
+			<note type="VerwahrortOrt_note"/>
+			<note type="InvNr_note"><p>siehe Mail Dr. Neumayer, Museum für Vor- und Frühgeschichte Berlin <br/>dort in der Dauerausstellung als Leihgabe der Gebrüder Kuhn</p><p style="margin-bottom: 0cm; line-height: 100%">
+<font face="LeedsUniExt, serif"><font style="font-size: 12pt" size="3">Mail
+an Museum am 20.3.2023</font></font></p><p style="margin-bottom: 0cm; line-height: 100%"><font face="LeedsUniExt, serif"><font style="font-size: 12pt" size="3">Antwort
+am 21.03.2023:</font></font></p><p style="margin-bottom: 0cm; line-height: 100%"><font face="LeedsUniExt, serif"><font style="font-size: 12pt" size="3"><span lang="de-DE">Sehr
+geehrte Frau Reiter,</span></font></font></p><p style="margin-bottom: 0cm; line-height: 100%"><font face="LeedsUniExt, serif"><font style="font-size: 12pt" size="3"><span lang="de-DE">das
+von Ihnen gesuchte Stück ist bei uns in der Dauerausstellung im
+Neuen Museum zu finden. Es ist eine Leihgabe der Gebrüder Kuhn, den
+Entdeckern und Besitzern des „Schatzes“. Die Inventarnummer
+lautet: E_1984/001.081</span></font></font></p><p style="margin-bottom: 0cm; line-height: 100%"><font face="LeedsUniExt, serif"><font style="font-size: 12pt" size="3"><span lang="de-DE">Publiziert
+ist es in der vierbändigen Publikation von E. Künzl in der der
+Monographienreihe des RGZM, Band 34, 1993. Hier ist es in Band 3 auf
+den Tafeln 18 bis 20 (auch die Inschrift) photographisch abgebildet.
+Die Katalogbeschreibung findet sich in Band 2 auf der Seite 17.
+Künzel bespricht es in Band 1 auf den Seiten 89 bis 93.</span></font></font></p><p style="margin-bottom: 0cm; line-height: 100%"><font face="LeedsUniExt, serif"><font style="font-size: 12pt" size="3"><span lang="de-DE">Haben
+Sie die Publikation bzw. können Sie diese beschaffen? Wenn nicht,
+kann ich versuchen, die Seiten zu scannen.</span></font></font></p><p style="margin-bottom: 0cm; line-height: 100%"><font face="LeedsUniExt, serif"><font style="font-size: 12pt" size="3"><span lang="de-DE">Sollten
+Sie noch weitere Fragen haben, können Sie sich gerne an mich wenden.</span></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"> 
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font face="LeedsUniExt, serif"><font style="font-size: 12pt" size="3"><span lang="de-DE">Herzliche
+Grüße in Ihre schöne Stadt und viel Erfolg für Ihr
+Forschungsprojekt</span></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font face="LeedsUniExt, serif"><font style="font-size: 12pt" size="3"><span lang="de-DE">Heino
+Neumayer</span></font></font></p><p style="margin-bottom: 0cm; line-height: 100%"><font face="LeedsUniExt, serif"><font style="font-size: 12pt" size="3"><span lang="de-DE">Dr.
+Heino Neumayer</span></font></font></p><p style="margin-bottom: 0cm; line-height: 100%"><font face="LeedsUniExt, serif"><font style="font-size: 12pt" size="3"><span lang="de-DE">Kustos
+Römische Kaiserzeit</span></font></font></p><p style="margin-bottom: 0cm; line-height: 100%"><font face="LeedsUniExt, serif"><font style="font-size: 12pt" size="3"><span lang="de-DE">Museum
+für Vor- und Frühgeschichte</span></font></font></p><p style="margin-bottom: 0cm; line-height: 100%"><font face="LeedsUniExt, serif"><font style="font-size: 12pt" size="3"><span lang="de-DE">Geschwister-Scholl-Str.
+6</span></font></font></p><p style="margin-bottom: 0cm; line-height: 100%"><font face="LeedsUniExt, serif"><font style="font-size: 12pt" size="3"><span lang="de-DE">10117
+Berlin</span></font></font></p><p style="margin-bottom: 0cm; line-height: 100%"><font face="LeedsUniExt, serif"><font style="font-size: 12pt" size="3"><span lang="de-DE">Tel
+030 266425307</span></font></font></p></note>
+			<note type="Fundstelle_note"/>
+			<note type="Fundumst_note"><p>Es handelt sich um einen Fund von Plünderungsgut: darin gemeinsam mit Grannus 1077 inc - dazu: Künzl 2008</p><p>Hanemann/Petrovszky 2006, 164: Hortfund</p><p>Gebrüder Kuhn: siehe Mail Dr. Neumayer, Museum für Vor- und Frühgeschichte Berlin</p></note>
+			<note type="Fundjahr_note">                                                    <p>before 1990 – EDH<br/></p></note>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note"/>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note"/>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"><p>Künzl 2008, 91: Dativ</p><p>Hanemann/Petrovszky 2006, 164: Madduro = Name einer gallischen Gottheit im Genetiv<br/></p></note>
+			<note type="Editionen_note">                                                    <p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p><p>eingesehen</p>
+                                                    <p>AE 2006, 0929 - nix</p>
+                                                    <p>Hanemann/Petrovszky 2006, 164; Abb. 202. - AE 2006. – eingesehen</p></note>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note"><p>AE 1994: H: 22,4<br/></p></note>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note">                                                    <p>Satz vor Künzl <b>in Word gelb</b><br/></p></note>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note"/>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note"><p>EDH: 201 AD – 260 AD</p><p>Hanemann/Petrovszky 2006, 164: 2.-3.Jh.</p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

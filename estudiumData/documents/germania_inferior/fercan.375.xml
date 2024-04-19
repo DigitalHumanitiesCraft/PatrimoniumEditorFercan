@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior375">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior375">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -267,7 +266,11 @@ Die rechte Schmalseite ist vom Motiv her gleich gehalten – der als Lorbeer zu 
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, B18</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1478</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 405 Nr.94</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.1010</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>

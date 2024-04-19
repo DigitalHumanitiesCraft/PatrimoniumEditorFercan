@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior409">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior409">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -262,7 +261,11 @@ Die rechte Schmalseite dürfte der linken in Aussehen und Gestaltung ähneln.</p
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1975, 654</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Stuart 1997, 46</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Stuart/Bogaers 2001, B54</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 409 Nr.125</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.993</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -293,7 +296,11 @@ Marcus Iustinius.  </p>
 Marcus Iustinius.  </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">Es folgt eine weitere Zeile unbestimmten Inhalts – Scheungraber, Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">M(arcus) Iustinius: römisches Namensformular, das höchstwahrscheinlich folgende Cognomen ist abgebrochen <lb/>
 Iustinius: einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Cognomen Iustus/Iustinus (Kakoschke 2006, GN 628) </p>

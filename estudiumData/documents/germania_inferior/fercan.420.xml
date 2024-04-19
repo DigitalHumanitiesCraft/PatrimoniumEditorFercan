@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior420">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior420">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -304,7 +303,11 @@ Auf der rechten Schmalseite sind zwei überkreuzte Füllhörner mit Blattkelch z
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL 13, 12068</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1918, Nr.335</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Neumann 1987, 122f.</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 49</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.850</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -338,13 +341,13 @@ Munatia Similes and Materna in response to their order.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">MAIT[.]ENIS – CIL; [N]ait[i]enis – EDH; Hait[i]enis – Neumann</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">MAIT[.]ENIS – CIL; [N]ait[i]enis – EDH; Hait[i]enis – Neumann; [ ]ait[i]enis – Scheungraber; Maternis – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Similis – CIL, Lehner, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Similis – CIL, Lehner, EDH, Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">i[m]p(erio) – Lehner; [i]mp(erio) – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">i[m]p(erio) – Lehner; [i]mp(erio) – EDH, Scheungraber</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

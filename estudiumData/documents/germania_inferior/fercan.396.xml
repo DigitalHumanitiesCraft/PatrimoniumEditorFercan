@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior396">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior396">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -285,7 +284,9 @@
                     <bibl xml:id="LIT.4" default="false" status="draft">Stuart 1997, 57</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Stuart/Bogaers 2001, B37</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">AE 2001, 1488</bibl>
-                </listBibl>
+                
+            <bibl xml:id="7">Scheungraber 2020, 407 Nr.112 </bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -327,7 +328,7 @@ Quintus Phoebius Hilarus, the decurio of the municipium Batavorum, set up the al
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Nehalaen(n)iae – EDH</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">LHON – Stuart/Bogaers 1971; in ho(norem) eius(?) Hilarus – Bogaers 1972 Nijmegen, AE, 1975 Stuart 1997; ohne Ligatur – Stuart 1997, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">LHON – Stuart/Bogaers 1971; in ho(norem) eius(?) Hilarus – Bogaers 1972 Nijmegen, AE, 1975 Stuart 1997; ohne Ligatur – Stuart 1997, EDH; Phoeb(ius?) Hilarus – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---] ob – Stuart/Bogaers 1971</tei:note>

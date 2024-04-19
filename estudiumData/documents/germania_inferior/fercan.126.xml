@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior126">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior126">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -223,7 +222,11 @@
                     <bibl xml:id="LIT.3" default="false" status="draft">KIK 2012, Nr.660</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Thomas 2014, 147 Nr.50</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Kakosche 2016 AdEp VI, Nr.2</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 126 Nr.2</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.617</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -252,16 +255,16 @@ Succ…. Cri…</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Ma[tronis] – Galsterer/Galsterer 1983, Galsterer/Galsterer 2010, KIK 2012, Thomas, Kakoschke</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Ma[tronis] – Galsterer/Galsterer 1983, Galsterer/Galsterer 2010, KIK 2012, Thomas, Kakoschke, Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[.]ar[---] – Galsterer/Galsterer 1983; [M]ar[sacis ?] – Galsterer/Galsterer 2010, KIK 2012, Thomas; Ar[sacis] – Kakoschke</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[.]ar[---] – Galsterer/Galsterer 1983; [M]ar[sacis ?] – Galsterer/Galsterer 2010, KIK 2012, Thomas; Ar[sacis] – Kakoschke, Ferlut; Ar[sacis(?)] – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Suc[cessius ?] – Galsterer/Galsterer 1983, Galsterer/Galsterer 2010, KIK 2012; Suc[cessus?] – Kakoschke</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Suc[cessius ?] – Galsterer/Galsterer 1983, Galsterer/Galsterer 2010, KIK 2012; Suc[cessus?] – Kakoschke, Scheungraber; Suc[cessus] – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Cri[spinus ?] – Galsterer/Galsterer 1983, Galsterer/Galsterer 2010, KIK 2012, Thomas; Cri[spi fil(ius) l(ibens) m(erito)?] – Kakoschke; eine zusätzliche Zeile 5 mit [v(otum) s(olvit) ?] – Galsterer/Galsterer 1983, Galsterer/Galsterer 2010, KIK 2012, Thomas</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Cri[spinus ?] – Galsterer/Galsterer 1983, Galsterer/Galsterer 2010, KIK 2012, Thomas; Cri[spi fil(ius) l(ibens) m(erito)?] – Kakoschke; Cri[spi f(ilius?) 3] – Scheungraber; Cri[spi f(ilius) v(otum) s(olvit)] – Ferlut; eine zusätzliche Zeile 5 mit [v(otum) s(olvit) ?] – Galsterer/Galsterer 1983, Galsterer/Galsterer 2010, KIK 2012, Thomas</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

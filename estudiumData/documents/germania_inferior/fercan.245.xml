@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior245">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior245">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -244,7 +243,11 @@ Die Schmalseiten sind, so Lehner (1918, 164), mit Baumdarstellungen geschmückt.
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 12022</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1918, Nr.366</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Alföldy 1968, Nr.145</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 558 Nr.17</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.825</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -273,7 +276,11 @@ Sextus Caldinius Gemellus auf Befehl (der Gottheiten).</p>
 Sextus Caldinius Gemellus by order (of the goddesses).</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">Sex(tus) – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Sextus Caldinius Gemellus: tria nomina <lb/>
 Caldinius: einheimische Bildung mit germanischer Basis? (Kakoschke 2006, GN 241) <lb/>

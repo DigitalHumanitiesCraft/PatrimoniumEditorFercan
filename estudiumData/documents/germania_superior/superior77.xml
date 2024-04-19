@@ -1,0 +1,307 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior77" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Rosmerta</title><title type="sub">CF-GeS-1053</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.77</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Bonn</settlement>
+						<repository>Rheinisches Landesmuseum </repository>
+						<idno>1933,1940-1</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p>                                                <p>Rechts ist der Weihestein abgeschlagen und links ist das obere Eck abgebrochen. Es sind weder Basis noch Aufsatz vorhanden und das Inschriftenfeld ist ungerahmt.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref> </material>
+									<objectType>Weihestein</objectType> <dimensions>
+										<height unit="cm">50</height>
+										<width unit="cm">44</width>
+										<depth unit="cm">16</depth>
+									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>Der Inschriftentext ist rechts abgebrochen, doch kann erschlossen werden wieweit er sich ungefähr auf dieser Seite fortsetzte. Die Buchstaben in Z.1-2 sind schmäler und enger gesetzt als jene in Z.3–5.</p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="5.0" atMost="6.0">5,0–6,0</height> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p>                                                <p>Keine bildliche Gestaltung vorhanden.</p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName>Antunnacum</placeName> <region/> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1857"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Andernach</ref> </placeName> <p>„am Krahnenberg dicht unterhalb Andernach – unmittelbar neben den Mauern des Tempelchens auf einem Viereck von etwa gleicher Grösse […]“ (Freudenberg 1858, 156).</p> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true">„beim Ausheben der Fundamente für die kolossalen Lehnmauern [für den Bau der linksrheinischen Eisenbahn]. Bei den fortgesetzten Arbeiten zum Abtragen des losen Grundes des Berges fanden sich nun die Mauern eines 9 F. breiten und 11 F. tiefen, mit Tufsteinen überwölbten Gemachs, dessen Thür nach der Strasse, resp. dem Rheine zugewandt war (Freundenberg 1858, 155)."</note> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context">ara</ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context">Mercurius</ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Rosmerta</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Rosmerta</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> </ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">Flavia</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">
+						</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context">in honorem domus divinae; votum solvit libens merito</ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">Rosmertae</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1053_front.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
+		</graphic>
+	</facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="1">CIL XIII 7683</bibl>
+				
+            <bibl xml:id="2">Scheungraber 2020, 457 Nr.22</bibl>
+        
+            <bibl xml:id="3">Ferlut 2022, Nr.1210</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno>EDCS-11001810</idno><date>zuletzt abgerufen 2023-06-16</date></bibl>
+					<bibl type="EDH"><idno>HD061371</idno><date>Version von 2020-01-09</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/212453</idno><date>zuletzt abgerufen 2023-06-16</date></bibl>
+					<bibl type="lupa"><idno> </idno><date> </date></bibl>
+					<bibl type="other"><idno>https://cil.bbaw.de/ace/id/KO0038455</idno><date>zuletzt abgerufen 2023-06-16</date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/>IN<g type="interpunct">▴</g>H<g type="interpunct">▴</g>D<g type="interpunct">▴</g>D<g type="interpunct">▴</g>MERC<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/>ROSMERTAE A<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/>SIGNIS<g type="interpunct">▴</g>DV<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/>FLAVIA<g type="interpunct">▴</g>PRI<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="5"/>V<g type="interpunct">▴</g>S<g type="interpunct">▴</g>L <gap reason="lost" quantity="1" unit="character"/><orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> Merc<supplied reason="lost">urio et</supplied>
+<lb n="2"/>Rosmertae a<supplied reason="lost">ram cum</supplied>
+<lb n="3"/>signis du<supplied reason="lost">obus</supplied>
+<lb n="4"/>Flavia Pri<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>erito</ex></expan></supplied></ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p>                                                <p>Zur Ehre des Kaiserhauses für <rs type="divine">Mercurius</rs> und <rs type="divine">Rosmerta</rs> einen Altar mit zwei Kultbildern.<br/>Flavia Pri... hat ein Gelübde gerne und verdientermaßen erfüllt.</p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p>                                                <p>In honour of the Divine Household to <rs type="divine">Mercurius</rs> and <rs type="divine">Rosmerta</rs> an altar with two cult images.<br/>Flavia Pri... fulfilled a vow willingly and deservedly.</p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="2">
+					<note anchored="true">a[edem? cum] – EDH</note>
+				</app>
+			</div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Flavia Pri…: vermutlich römisches weibliches Namensformular</p>
+                                                <p>Flavia: italisches Gentilnomen, kaiserliches Gentilnomen, überall äußerst gängige (Kakoschke 2021, GN 514)</p>
+                                                <p>Pri[---]: vermutlich ein lateinischer Name (Kakoschke 2021, CN 2465–2488)
+			</p></div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note"/>
+			<note type="ArchKlass_note"/>
+			<note type="Material_note">                                                    <p>Jurakalk – Düntzer 1885 S. 39 Nr. 29</p>
+                                                    <p>Tuff?? – Schäfer 1988 S. 26</p><p>"Inv. 1933.194,0-1 ist lt. Eintrag aus Kalkstein gefertigt.</p><p>Mit freundlichen Grüßen,</p><p>Susanne Willer"</p></note>
+			<note type="Inschrifttraeger_note"><p>Ara – s. Ergänzung IS Text<br/></p></note>
+			<note type="VerwahrortOrt_note"/>
+			<note type="InvNr_note"><p>sic EDH mit Autopsie</p><p>CIL: Köln</p><p>Inv.Nr. lt. Mail vom Museum am 12.7.23<br/></p></note>
+			<note type="Fundstelle_note"/>
+			<note type="Fundumst_note"><p>gemeinsam mit einer weiteren Inschrift (CIL XIII 7682)<br/></p></note>
+			<note type="Fundjahr_note"><p>„Es war am 4ten Dec. V. J….“ – Freudenberg 1858, S. 155</p><p>+ Düntzer 1885 S. 39 Nr. 29</p><p>+ Schäfer 1988 S. 26</p><p>Vor 1855</p></note>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note"/>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note"/>
+			<note type="englUEbers_note">                                                    <p>with two signa (s. OLD).</p>
+                                                    <p>vgl. Visucius 1093 "signo"</p></note>
+			<note type="dtUEbers_note"><p>vgl. Visucius 1093 "signo"</p></note>
+			<note type="Editionen_note">                                                    <p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg<br/>eingesehen</p>
+                                                    <p>Spickermann 1994, 279f. - eingesehen</p></note>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note">                                                    <p>Maße lt. Düntzer 1885 S. 39 Nr. 29<br/></p></note>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note">                                                    <p><!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG></o:AllowPNG>
+ </o:OfficeDocumentSettings>
+</xml><![endif]--><span style="font-size:12.0pt; font-family:LeedsUniExt">Anhand des Fotos mit Maßstab bestimmt:</span></p><p><span style="font-size:12.0pt; font-family:LeedsUniExt">1:5,5</span></p><p><span style="font-size:12.0pt; font-family:LeedsUniExt">2:5,8</span></p><p><span style="font-size:12.0pt; font-family:LeedsUniExt">3:6</span></p><p><span style="font-size:12.0pt; font-family:LeedsUniExt">4:5</span></p><p><span style="font-size:12.0pt; font-family:LeedsUniExt">5:6</span></p><p/></note>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note"><p>EDH, WSpDB: 175-250</p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

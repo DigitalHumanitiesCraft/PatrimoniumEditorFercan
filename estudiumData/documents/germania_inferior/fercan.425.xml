@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior425">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior425">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -251,7 +250,11 @@ Das Relieffeld der rechten Schmalseite ist einfach gerahmt, wie die erhaltene ob
             <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, B70</bibl>
-                </listBibl>
+                
+            <bibl xml:id="2">Scheungraber 2020, 410 Nr.138</bibl>
+        
+            <bibl xml:id="3">Ferlut 2022, Nr.1039</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -277,7 +280,11 @@ Das Relieffeld der rechten Schmalseite ist einfach gerahmt, wie die erhaltene ob
                 </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">Ne[halenniae(?) – Scheungraber; Ne[haleniae] – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Ne…:</rs> Rest von  <rs type="divine">Nehalennia</rs> oder einer Variante: keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).</p>
                                                 <p part="N">
 

@@ -1,0 +1,329 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior94" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Taranucnus</title><title type="sub">CF-GeS-1108</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.94</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Stuttgart</settlement>
+						<repository>Württembergisches Landesmuseum</repository>
+						<idno>RL 405</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
+										<height unit="cm">99</height>
+										<width unit="cm">45</width>
+										<depth unit="cm">30</depth>
+									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>Die zentrierte Inschrift lässt oben eine Zeile frei und füllt das, durch eine tordierte Leiste, gerahmte Inschriftenfeld fast vollständig aus. Die Zeilenlinien sind noch sichtbar, die Buchstaben nicht ganz regelmäßig.</p>
+                                                <p>Besondere Zeichen: Sämtliche A weisen statt einer Querhaste einen fast senkrechten Strich auf.</p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="5.0" atMost="5.0">5,0–5,0</height> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
+								<ref type="context" target="context:fercan.arch."/> </term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName/> <region>Civitas Port-?</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1765"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Heilbronn</ref> </placeName> <p/> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true"/> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Taranucnus</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Taranucnus</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Primus</ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">Veratius</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">
+						</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context">ex iussu</ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">deo Taranucno</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1108_front1.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
+		</graphic>
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1108_front2.jpg">
+                <desc>Front, Landesmuseum Württemberg, Stuttgart, Foto: Ortolf Harl</desc>
+            </graphic>
+        
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1108_oben.jpg">
+                <desc>oben, Landesmuseum Württemberg, Stuttgart, Foto: Ortolf Harl 2004</desc>
+            </graphic>
+        </facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="1">Brambach 1867 (Corpus), Nr.1589</bibl>
+				
+            <bibl xml:id="2">Steimle 1898, 31 Nr.6</bibl>
+        
+            <bibl xml:id="3">CIL XIII 6478 </bibl>
+        
+            <bibl xml:id="4">ILS 4624</bibl>
+        
+            <bibl xml:id="5">Haug/Sixt 1914, 531f. Nr.372</bibl>
+        
+            <bibl xml:id="6">Espérandieu XI 401</bibl>
+        
+            <bibl xml:id="7">Filtzinger 1980, Nr.58</bibl>
+        
+            <bibl xml:id="8">Kemkes/Willburger 2004, 106 Abb.22</bibl>
+        
+            <bibl xml:id="9">Scheungraber 2020, 524 Nr.2</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno>EDCS-11000500</idno><date>zuletzt abgerufen 2023-07-13</date></bibl>
+					<bibl type="EDH"><idno>HD036983</idno><date>Version von 2020-12-02</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/211142</idno><date>zuletzt abgerufen 2023-07-13</date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/7375</idno><date>Version von 2021-02-10</date></bibl>
+					<bibl type="other"><idno>https://cil.bbaw.de/ace/id/KO0021242</idno><date>zuletzt abgerufen 2023-07-13</date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/>DEO
+<lb n="2"/>TARANVCNO
+<lb n="3"/>VERATIVS
+<lb n="4"/>PRIMVS
+<lb n="5"/>EX IVSSV<orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Deo
+<lb n="2"/>Taranucno
+<lb n="3"/>Veratius
+<lb n="4"/>Primus
+<lb n="5"/>ex iussu</ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p><p>Für den Gott <rs type="divine">Taranucnus</rs>!</p><p>Veratius Primus auf (sein) Geheiß.</p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p><p>To the god <rs type="divine">Taranucnus</rs>!</p><p>Veratius Primus by (his) order.<br/></p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="3">
+					<note anchored="true">Verat[i]us – Steimle, ILS</note>
+				</app>
+			</div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete"><p>Veratius Primus: römisches Namensformular ohne Pränomen</p><p>Veratius: gängiges italisches Gentilnomen, (Kakoschke 2021, GN 1420)</p><p>Primus: lateinischer Name, überall äußerst gängig (Kakoschke 2021, CN 2474)
+			</p></div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note">                                                    <p><b>Filtzinger S. 116 Nr. 58:</b> Altar mit hohem Sockel und reich verziertem Gesims: über einer kerbschnittartigen Leiste li nks und rechts mit Schuppen verzierte Randwülste mit Sternornament auf der Vorderseite. Von den Randwülsten gehenn Halbbögen aus, die je ein Feld mit einer Doppelspirale nach unten begrenzen. Wo die Halbbögen zusammenstoßen, ist ein Halbmond im Relief angebracht. Die Altaroberseite zeigt ein 25x24cm großes Rechteck, in das 2 cm tiefer eine 5,8 cm tiefe Opferschale eingearbeitet ist. In den 4 Ecken des Rechtecks ist je eine Kugel zu etwa 3/4 aus dem Stein herausgearbeitet. Die Inschrift ist von einer tordierten Leiste eingerahmt. </p>
+                                                    <p><b>Esperandieu 1931, S. 256: </b>Sur le couronnement, un croissant, entre deux ornements en forme de spirales. Sur chaque corne, une étoile. Les faces latérales n'ont aucune décoration.</p>
+                                                    <p><b>Steimle 1898, S. 14 Nr. 6:</b> Die Inschrift ist mit einem Rahmen umgeben, welche eine gedrehte Kordel darstellt.</p>
+                                                    <p><b>Haug/Sixt 1900, S. 275, Nr. 372: </b>Der wohlerhaltene Altar hat einen hohen Sockel und ein reich, teilweise eigenartig verziertes Gesims. Ueber einer Art von Eiersstab r. und l. Randwülste mit Sternornament; in der Mitte ein Halbmond, darüber zwei Rundbögen mit spiralförmigen Verzierungen. Die Inschrift ist von einer schnurartigen Leiste eingefasst.<br/></p></note>
+			<note type="ArchKlass_note"/>
+			<note type="Material_note"><p>Schilfsandstein - Steimle, Filtzinger<br/></p></note>
+			<note type="Inschrifttraeger_note"/>
+			<note type="VerwahrortOrt_note"><p>ab a. 1777 ex dono civitatis Heilbronnensis in antiquario Stuttgartensi - CIL<br/></p></note>
+			<note type="InvNr_note">                                                    <p>Filtzinger S. 116 Nr. 58</p>
+                                                    <p>auch CIL Kartei - Stuttgart, Lapidarium; so auch Haug/Sixt 1900, S. 275, Nr. 372<br/></p></note>
+			<note type="Fundstelle_note"/>
+			<note type="Fundumst_note"><p>cum n. 6469 - CIL<br/></p></note>
+			<note type="Fundjahr_note"><p>superiori anno (Reinhard 1766) - CIL<br/></p></note>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note">                                                    <p>Filtzinger 116-117</p>
+                                                    <p>gefunden in der Nähe von Heilbronn - CIL</p>
+                                                    <p>zwischen Beckingen und Neckar-Gartach [Gercken - Filtzinger] - CIL</p>
+                                                    <p>Heilbronn-Blöckingen - CIL Kartei; so auch Filtzinger / Böckingen?<br/></p></note>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note"/>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note"><p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p></note>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note">                                                    <p>Steimle, Filtzinger, EDH, Haug/Sixt<br/></p></note>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"><p>"Der Mittelstrich des A ist senkrecht und freistehend" - Haug/Sixt<br/></p></note>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note">                                                    <p>So EDH, Haug/Sixt<br/></p></note>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note"><p>EDH 151 AD – 250 AD<br/></p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

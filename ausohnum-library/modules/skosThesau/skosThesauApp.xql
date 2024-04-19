@@ -569,21 +569,6 @@ let $topConceptIdorUri := if(contains($topConceptIdorUri, "http")) then $topConc
              return $uriRoot || $topConceptIdorUri
             )
 let $indexNo := if($index) then $index else "1"
-(:let $topConceptsURI :=
-            for $tcs in $skosThesau:concept-collection//skos:ConceptScheme[@rdf:about[starts-with(., $skosThesau:thesBaseUri)]]
-                return
-                    $tcs//skos:hasTopConcept/@rdf:resource
-:)
-(:let $rootNodes :=
-        switch ($topConceptId)
-            case "all" return
-                       for $uri in $topConceptsURI
-                            return
-                            $skosThesau:concept-collection/id(substring-after($uri, "/concept/"))
-            default return
-                        $skosThesau:concept-collection/id($topConceptId)
-
-:)
 
 let $formClass :=
          switch ($type)

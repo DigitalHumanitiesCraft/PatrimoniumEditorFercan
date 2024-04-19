@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior403">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior403">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -244,7 +243,13 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 1971, Nr.28</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1975, 642</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Stuart/Bogaers 2001, B47</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Raybould/Sims-Williams 2009, 71 Nr.BEG 224</bibl>
+        
+            <bibl xml:id="5">Scheungraber 2020, 408 Nr.119</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.1012</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -262,7 +267,7 @@
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>DEAE  <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>DEAE  <lb n="2"/>
 <hi rend="ligature">NE</hi><hi rend="ligature">HA</hi>LA<hi rend="ligature">EN</hi>NIAE  <lb n="3"/>
 EXOMNIVS  <lb n="4"/>
 IS<hi rend="ligature">AV</hi>RICIFIL  <lb n="5"/>
@@ -284,7 +289,11 @@ Exomnius, the son of Isauricus, set up the altar by (her) order.</p>
                 <app loc="#MIN.4 #MAJ.4">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – AE, Stuart/Bogaers 2001, EDH</tei:note>
                 </app>
-            </div>
+            
+            <app loc="5">
+                <note anchored="true">kein Zeilenwechsel nach posu- – Raybould/Sims-Williams (dort als: posu (sic) it), Scheungraber, Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Exomnius Isaurici filius: einheimisches Namensformular mit Angabe des Namens des Vaters im Genetiv </p>
                 <p part="N">

@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior41">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior41">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -268,7 +267,9 @@ Auf der rechten Schmalseite fehlt die Baumkrone komplett. Der Baumstamm ist auch
                     <bibl xml:id="LIT.4" default="false" status="draft">Galsterer/Galsterer 1975, Nr.105</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Galsterer/Galsterer 2010, Nr.152</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">KIK 2012, Nr.172</bibl>
-                </listBibl>
+                
+            <bibl xml:id="7">Scheungraber 2020, 381</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -312,7 +313,11 @@ Pia Fidelis, has fulfilled a vow willingly and deservedly.</p>
                 <app loc="#MIN.4 #MAJ.4">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">veteranus – Espérandieu; vet(e)ranus – Galsterer/Galsterer (2010), KIK2012</tei:note>
                 </app>
-            </div>
+            
+            <app loc="5">
+                <note anchored="true">leg(ionis) I M(inerviae) P(iae) F(idelis) v(otum) s(olvit) l(ibens) m(erito) – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Iulius Primus: römisches Namensformular mit Gentilnomen und Cognomen, ohne Praenomen <lb/>
 Iulius: italisches kaiserliches Gentilnomen, überall äußerst gängig (Kakoschke 2006, GN 621) <lb/>

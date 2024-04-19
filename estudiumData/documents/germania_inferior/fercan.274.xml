@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior274">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior274">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -244,7 +243,11 @@ Die rechte Schmalseite ist nicht erhalten geblieben.</p>
                     <bibl xml:id="LIT.2" default="false" status="draft">CIL XIII 12067</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Lehner 1918, Nr.331</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Hinz 1969, 244, Anm.23</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 294</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.849</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -279,19 +282,19 @@ Quintus Cai… Belli… …piton… willingly and deservedly.   </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – EDH; Gava[iabus] – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Cap[itonius] – AE, CIL, Lehner, Hinz; Cap[---] – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Cap[itonius] – AE, CIL, Lehner, Hinz, Scheungraber, Ferlut; Cap[---] – EDH </tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Belli[--- Ca-] – CIL; Belli[cus? et Ca-] – Lehner; Bell[icus et Ca] – Hinz; Bell[--- Ca-] – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Belli[--- Ca-] – CIL; Belli[cus? et Ca-] – Lehner, Scheungraber; Bell[icus et Ca] – Hinz; Bell[--- Ca-] – EDH; Bello […, .Ca] – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[pitonia? ---] – Lehner; pitoni[ia …] –Hinz; ohne Bruchstelle am Ende der Zeile – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[pitonia? ---] – Lehner; pitoni[ia …] –Hinz, Scheungraber; ohne Bruchstelle am Ende der Zeile – EDH; piton[ius …] – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.6 #MAJ.6">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[p(osuit)] – AE, CIL; l(ibens) [p(osuit)] – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[p(osuit)] – AE, CIL; l(ibens) [p(osuit)] – EDH; l(ibens) [m(erito)] – Ferlut</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">

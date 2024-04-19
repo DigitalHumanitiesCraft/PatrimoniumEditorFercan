@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior137">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior137">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -255,7 +254,9 @@
                     <bibl xml:id="LIT.2" default="false" status="draft">Vollgraff 1931, 256-257, tabula B Nr.7</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Jaczynowska 1977, Nr.11</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">AE 1977, 540</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 356 Nr.8</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -283,7 +284,7 @@
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Colo(ni coloniae) – AE; Albiololae – AE, EDH; D BA LOBBO F C ET – EDH; f(aciundum) – Vollgraff; Erecuoul(eo) – AE, EDH; VOOT / LI/B SOL – EDH.</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Colo(ni coloniae) – AE; Albiololae – AE, EDH; D BA LOBBO F C ET – EDH; f(aciundum) – Vollgraff; Erecuoul(eo) – AE, EDH; VOOT / LI/B SOL – EDH; Ba(tavorum) monum(entum) d(eo) B(ata)&lt;v=B&gt;(orum) Lobbo(no) f(aciundum) c(uraveru)nt et (H)er{e}coul(eo) Ma&lt;g=C&gt;usano vo{o}t(a) l(i)bb(entes) sol(verunt) – Scheungrabe</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

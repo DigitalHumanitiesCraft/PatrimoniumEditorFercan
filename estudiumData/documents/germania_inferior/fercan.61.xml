@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior61">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior61">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -252,7 +251,9 @@ Auf der linken Schmalseite ist im oberen Abschnitt des erhaltenen Steins ein gek
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 7852</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1918, Nr.513</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Espérandieu IX 6562</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 592 Nr.1</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>

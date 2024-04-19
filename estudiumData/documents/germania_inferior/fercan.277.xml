@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior277">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior277">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -269,7 +268,11 @@
                     <bibl xml:id="LIT.5" default="false" status="draft">Galsterer/Galsterer 1975, Nr.79</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">Galsterer/Galsterer 2010, Nr.112</bibl>
                     <bibl xml:id="LIT.7" default="false" status="draft">KIK2012 146</bibl>
-                </listBibl>
+                
+            <bibl xml:id="8">Scheungraber 2020, 373 Nr.1 </bibl>
+        
+            <bibl xml:id="9">Ferlut 2022, Nr.493</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -304,9 +307,21 @@ Aurelius Verecundus, ordinarius of the Britones, has fulfilled a vow willingly a
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.7 #MAJ.7">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – ILS, Riese, Alföldy, Galsterer/Galsterer 2010, KIK2012</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – ILS, Riese, Alföldy, Galsterer/Galsterer 2010, KIK2012; Zeile fehlt (Zeilentrenner vergessen?) – Scheungraber; Brit(onum) – Ferlut </tei:note>
                 </app>
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">d&lt;e=I&gt;abus Malvisis – Scheungraber; diabus – Ferlut</note>
+            </app>
+        
+            <app loc="3">
+                <note anchored="true">Zeile fehlt (Zeilentrenner vergessen?) – Scheungraber</note>
+            </app>
+        
+            <app loc="6">
+                <note anchored="true">Zeile fehlt (Zeilentrenner vergessen?) – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Aurelius Verecundus: römisches Namensformular mit Gentil- und Cognomen, ohne Praenomen <lb/>
 Aurelius: italisches kaiserliches Gentilnomen; die Häufigkeit des Namens steht in Zusammenhang mit der Constitutio Antoniniana, nach der viele Neubürger dieses Gentilnomen annahmen; doch auch Personen, die zuvor schon im Besitz des Bürgerrecht waren, fügten dieses Gentile nun nicht selten ihrem Namen an (Kakoschke 2006, GN 173). <lb/>

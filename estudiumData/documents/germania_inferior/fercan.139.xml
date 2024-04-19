@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior139">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior139">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -345,7 +344,9 @@ Die Seitenansichten zeigen in der unteren Hälfte je einen Kantharos mit niedere
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1971, 282</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Deman 1975, G32</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Schillinger-Häfele 1977, Nr.161</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 366 Nr.10</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -384,7 +385,7 @@ Marcus Naevius Minervinus, optio principis of the  legio I Minervia Pia Fidelis 
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Mag(usano) – Horn, AE, Deman, Schillinger-Häfele, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Mag(usano) – Horn, AE, Deman, Schillinger-Häfele, EDH, Scheungraber</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

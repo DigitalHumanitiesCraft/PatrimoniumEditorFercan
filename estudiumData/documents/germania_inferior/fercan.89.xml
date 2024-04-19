@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior89">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior89">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -218,7 +217,11 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 8612</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">de Bernardo Stempel/Hainzmann 2009, 90</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">de Bernardo Stempel/Hainzmann 2010, 34</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 285 Nr.9</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.439</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -256,9 +259,17 @@ Marcus Hilarinius Romanius has fulfilled a vow willingly and deservedly. </p>
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – EDH</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">{M} – CIL, EDH v.4: ohne Ligaturen – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">{M} – CIL, EDH</tei:note>
                 </app>
-            </div>
+            
+            <app loc="4">
+                <note anchored="true">ohne Ligaturen – EDH</note>
+            </app>
+        
+            <app loc="5">
+                <note anchored="true">Roimanius – Ferlut </note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Marcus Hilarinius Romanius: tria nomina <lb/>
 Hilarinius: einheimisches Pseudogentile, abgeleitet vom lateinischen Cognomen Hilarus/Hilarinus (Kakoschke 2006, GN 573) <lb/>

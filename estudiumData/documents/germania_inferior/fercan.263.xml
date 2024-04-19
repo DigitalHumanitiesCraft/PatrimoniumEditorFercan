@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior263">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior263">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -241,7 +240,11 @@
                     <bibl xml:id="LIT.3" default="false" status="draft">Diedenhofen 1974, 159f.</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Riese 1914, Nr.1366</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Reuter 2012, Nr.96</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 204 Nr.2</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.691</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -275,7 +278,15 @@ Lucius Valerius Simplex soldier of the legio XXX Ulpia Victrix has fulfilled a v
                 <app loc="#MIN.2 #MAJ.2">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – ILS, CIL, Riese, Reuter</tei:note>
                 </app>
-            </div>
+            
+            <app loc="6">
+                <note anchored="true">V(lpiae) V(ictricis) v(otum) s(olvit) l(ibens) m(erito) – Ferlut</note>
+            </app>
+        
+            <app loc="7">
+                <note anchored="true">fehlt – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Valerius: italisches Gentilnomen, überall äußerst gängig (Kakoschke 2006, GN 1346) <lb/>
 

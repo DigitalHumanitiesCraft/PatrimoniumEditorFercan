@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior54">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior54">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -242,7 +241,11 @@ Laut Literatur befindet sich auf der vorhandenen Schmalseite eine Baumdarstellun
                     <bibl xml:id="LIT.4" default="false" status="draft">Galsterer/Galsterer 1975, Nr.38</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Galsterer/Galsterer 2010, Nr.45</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">KIK 2012, Nr.54</bibl>
-                </listBibl>
+                
+            <bibl xml:id="7">Scheungraber 2020, 301 Nr.1</bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.624</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -269,7 +272,15 @@ R…</p>
 R…</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="1">
+                <note anchored="true">Her[culi et] – Ferlut</note>
+            </app>
+        
+            <app loc="2">
+                <note anchored="true">Gesa[henis(?)] – Scheungraber; Gesa[henis] – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Gesa…:</rs> vermutlich Rest von  <rs type="divine">Gesachenae:</rs> <span lang="pt-PT">keltisch: </span>
                     <span lang="pt-PT">‚</span>Z<font face="Arial, serif">
                         <span lang="pt-PT">u</span>

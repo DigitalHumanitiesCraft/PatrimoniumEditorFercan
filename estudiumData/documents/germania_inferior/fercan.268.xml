@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior268">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior268">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -271,7 +270,11 @@ An den Seiten, so Espérandieu (1922, 288f.) und Haug (1877, 28), befinden sich 
                     <bibl xml:id="LIT.3" default="false" status="draft">CIL XIII 7887</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Espérandieu VIII 6344</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Kakoschke 2017 (Adnot.Epigr.IX) Nr.4</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 292 Nr.1</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.892</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -285,7 +288,7 @@ An den Seiten, so Espérandieu (1922, 288f.) und Haug (1877, 28), befinden sich 
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>M<gap reason="lost" extent="unknown" unit="character" instant="false"/>NIS <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>M<gap reason="lost" extent="unknown" unit="character" instant="false"/>NIS <lb n="2"/>
 G<gap reason="lost" extent="unknown" unit="character" instant="false"/>ABVS <lb n="3"/> 
 M · <gap reason="illegible" unit="character" quantity="1" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>LIVS <lb n="4"/>
 PRI<gap reason="lost" extent="unknown" unit="character" instant="false"/>VS · ET <lb n="5"/>
@@ -301,16 +304,24 @@ Marcus …lius Pri…us und Novellia Secunda haben das Gelübde gerne und verdie
 Marcus …lius Pri…us and Novellia Secunda have fulfilled a vow willingly and deservedly.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-                <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">G[avad]iabus – Becker; G[avadi]abus – Haug, CIL, Espérandieu, Kakoschke</tei:note>
+                <app loc="2">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">G[avad]iabus – Becker; G[avadi]abus – Haug, CIL, Espérandieu, Kakoschke, Scheungraber; fehlt wegen vergessenem Zeilentrenner in Z.1 – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">A[em]ilius – Becker; N[ovel]lius – Haug; I[---]lius – CIL; I[u]lius – Espérandieu; A[mabi]lius – Kakoschke</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">A[em]ilius – Becker; N[ovel]lius – Haug; I[---]lius – CIL; I[u]lius – Espérandieu; A[mabi]lius – Kakoschke; N[ovel]lius(?) – Scheungraber; wegen fehlendem Zeilentrenner in Z.1 ist dies Z.2 [Iu]lius – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Pri[vat]us – Haugg; Pri[mul]us – Espérandieu; auch Pri[mul]us möglich – Kakoschke</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Pri[vat]us – Haugg, Scheungraber; Pri[mul]us – Espérandieu; auch Pri[mul]us möglich – Kakoschke; wegen fehlendem Zeilentrenner in Z.1 ist dies Z.3 Pri[m]us et – Ferlut</tei:note>
                 </app>
-            </div>
+            
+            <app loc="1">
+                <note anchored="true">fehlender Zeilentrenner zwischen M[atro]nis und G[avadi]abus – Ferlut</note>
+            </app>
+        
+            <app loc="5">
+                <note anchored="true">wegen fehlendem Zeilentrenner in Z.1 ist dies Z.4 N[ovel]lia – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Novellia Secunda: weibliches Namensformular mit Gentil- und Cognomen <lb/>
 Novellia: weibliche Form von Novellius; italisches Gentilnomen oder einheimisches Pseudogentilnomen, abgeleitet vom lateinisches Cognomen Novellus (Kakoschke 2006, GN 867)

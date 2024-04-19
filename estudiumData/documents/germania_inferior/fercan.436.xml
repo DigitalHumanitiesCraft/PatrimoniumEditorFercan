@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior436">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior436">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -302,7 +301,11 @@ Die Rückseite ist unverziert.</p>
                     <bibl xml:id="LIT.3" default="false" status="draft">Byvanck 1935, Nr.260</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Hondius-Crone 1955, Nr.9</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Stuart 2013, Nr.4</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 393 Nr.6</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.1056</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>

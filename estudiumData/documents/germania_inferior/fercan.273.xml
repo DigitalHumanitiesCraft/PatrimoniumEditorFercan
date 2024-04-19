@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior273">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior273">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -232,7 +231,11 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Clauss 1976, Nr.13</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1977, 553</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 292 Nr.4</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.800</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -250,7 +253,7 @@
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>MATRON<gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>MATRON<gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="2"/>
 GAVADIAB<gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="3"/>
 C · CORNEL<gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="4"/>
 PRISCVS <gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="5"/>
@@ -271,7 +274,15 @@ Cornelius: italisches Gentilnomen, äußerst gängiger Name (Kakoschke 2006, GN 
 Priscus: lateinisches Cognomen, überall äußerst gängiger Name (Kakoschke 2008, CN 2454) </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="4">
+                <note anchored="true">Fehlender Zeilentrenner zwischen Priscus [et] und C(aius) Cornel[ius …]  – Ferlut</note>
+            </app>
+        
+            <app loc="5">
+                <note anchored="true">Zeile fehlt  wegen vergessenem Zeilentrenner in Z.4 – Ferlut; Es folgt eine weitere Zeile 6 unbestimmten Inhalts – Scheungraber</note>
+            </app>
+        </div>
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.2: „Gavadiabus” pro „Gavadiis”</p>
             </div>

@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior141">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior141">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -231,7 +230,9 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1918, Nr.384</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Alföldy 1968, Nr.10</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">AE 1968, 333</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 560 Nr.32</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -263,10 +264,10 @@ Iusti… … has fulfilled a vow willingly and deservedly. </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Mat[ronis Vacall]ine[i]s – Lehner; Mat[ronis Vacall]ine[hi]s – Alföldy, AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Mat[ronis Vacall]ine[i]s – Lehner; Mat[ronis Vacall]ine[hi]s – Alföldy, AE, EDH, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ti[nius oder nia---] – Alföldy, AE; ti[nius?---] – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ti[nius oder nia---] – Alföldy, AE; ti[nius?---] – EDH, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Beginn der Zeile mit [v. s. l.] – Lehner</tei:note>

@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior454">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior454">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -337,6 +336,10 @@ Auf der rechten Seite scheint das untere Register etwas verwittert zu sein; das 
                     <bibl xml:id="LIT.3" default="false" status="draft">Byvanck 1935, Nr.239</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Hondius-Crone 1955, Nr.3</bibl>
             <bibl xml:id="LIT.5" default="false" status="draft">Stuart 2013, Nr.20</bibl>
+        
+            <bibl xml:id="6">Scheungraber 2020, 396 Nr.25</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.1070</bibl>
         </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
@@ -365,7 +368,23 @@ IM<gap reason="lost" extent="unknown" unit="character" instant="false"/>  <lb n=
 … deservedly. </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="1">
+                <note anchored="true">Nehalen – Scheungraber, Ferlut</note>
+            </app>
+        
+            <app loc="2">
+                <note anchored="true">niae [3]N[3]N – Scheungraber, Ferlut</note>
+            </app>
+        
+            <app loc="3">
+                <note anchored="true">IME[3] – Scheungraber, Ferlut</note>
+            </app>
+        
+            <app loc="4">
+                <note anchored="true">[3] v(otum) s(olvit) l(ibens) m(erito) – Scheungraber, Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Neha…:</rs> Rest von  <rs type="divine">Nehalennia</rs> oder einer Variante: keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).   </p>
                                                 <p part="N">
 

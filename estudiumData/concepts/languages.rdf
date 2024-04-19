@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:RDF xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:time="http://www.w3.org/2006/time#" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <skos:ConceptScheme rdf:about="https://ausohnum.huma-num.fr/thesaurus/languages/">
         <dc:title type="full">Language</dc:title>
         <dc:title type="short">languages</dc:title>
@@ -17,12 +16,12 @@
     <skos:ConceptScheme rdf:about="http://thot.philo.ulg.ac.be/ext-resources/met">
         <dc:title>Multilingual Egyptological Thesaurus</dc:title>
         <dc:title>
-            <dct:alternative>MET</dct:alternative>n</dc:title>
+            <dcterms:alternative xmlns:dcterms="http://purl.org/dc/terms/">MET</dcterms:alternative>n</dc:title>
     </skos:ConceptScheme>
     <skos:ConceptScheme rdf:about="www.trismegistos.org/collection/">
         <dc:title>Trismegistos Collection</dc:title>
         <dc:title>
-            <dct:alternative>TMColl</dct:alternative>n</dc:title>
+            <dcterms:alternative xmlns:dcterms="http://purl.org/dc/terms/">TMColl</dcterms:alternative>n</dc:title>
     </skos:ConceptScheme>
     <skos:Concept type="non-ordered" rdf:about="https://ausohnum.huma-num.fr/concept/c3" xml:id="c3">
         <skos:prefLabel xml:lang="ar">الأكادية</skos:prefLabel>
@@ -567,7 +566,7 @@
         <skosThesau:adminComment>This is a comment about the creation of
             aconcept</skosThesau:adminComment>
         <dct:created>2018-01-16T22:32:10.556+01:00</dct:created>
-        <dct:modified>2018-01-16T22:32:10.556+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2018-01-16T22:32:10.556+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c19285" rdf:about="https://ausohnum.huma-num.fr/concept/c19285" type="non-ordered">
         <skos:prefLabel xml:lang="de"> Ptolemäische</skos:prefLabel>
@@ -577,7 +576,7 @@
         <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c13"/>
         <skosThesau:admin status="private-thot"/>
         <dct:created>2018-01-23T15:10:31.086+01:00</dct:created>
-        <dct:modified>2018-01-23T15:10:31.086+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2018-01-23T15:10:31.086+01:00</dcterms:modified>
     </skos:Concept>
 <skos:Concept xml:id="c19286" rdf:about="http://patrimonium.huma-num.frapcc19286" type="non-ordered">
         <skos:prefLabel xml:lang="en">njknkjnkjn</skos:prefLabel>
@@ -585,7 +584,7 @@
         <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c6"/>
         <skosThesau:admin status="private"/>
         <dct:created>2018-04-13T13:53:19.827+02:00</dct:created>
-        <dct:modified>2018-04-13T13:53:19.827+02:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2018-04-13T13:53:19.827+02:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c19287" rdf:about="http://patrimonium.huma-num.fr/apc/conceptapcc19287" type="non-ordered">
         <skos:prefLabel xml:lang="en">zzzzzzzzzzzzzz</skos:prefLabel>
@@ -593,6 +592,6 @@
         <skos:broader rdf:resource="https://ausohnum.huma-num.fr/concept/c6"/>
         <skosThesau:admin status="private"/>
         <dct:created>2018-04-13T13:55:06.069+02:00</dct:created>
-        <dct:modified>2018-04-13T13:55:06.069+02:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2018-04-13T13:55:06.069+02:00</dcterms:modified>
     </skos:Concept>
 </rdf:RDF>

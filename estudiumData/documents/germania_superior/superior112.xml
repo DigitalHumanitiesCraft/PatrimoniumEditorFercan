@@ -1,0 +1,336 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior112" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Abnoba</title><title type="sub"> CF-GeS-1102</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.112</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Pforzheim</settlement>
+						<repository>Archäologischer Schauplatz Kappelhof</repository>
+						<idno>ASK 0001</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
+										<height unit="cm">40,5</height>
+										<width unit="cm">52</width>
+										<depth unit="cm">39</depth>
+									</dimensions> <note type="dimensions" anchored="true">Die angegebenen Maße sind die des erhaltenen Objektes.</note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p><p>Von der Inschrift ist nur mehr ein Teil der ersten beiden Zeilen erhalten und der linke Teil des Inschriftenfeldes ist ausgebrochen. Die erhaltenen Buchstaben sind unregelmäßig. Aus den erhaltenen Resten geht nicht hervor wie viel Inhalt verloren ist.</p><p>Im ausgebrochenen Bereich haben 2-3 Buchstaben Platz. Zu Beginn von Z.2 sind vom Buchstaben nur zwei Senkrechthasten erhalten, die Lesung als N gründet auf den Resten einer nach rechts gerichteten Schräghaste bei der ersten Haste (so auch Kortüm 1995, 141). Aufgrund von Beschädigung fehlt in Z.2 die Seitenhaste vom L. Das S am Ende von Z.2 schient kleiner gearbeitet zu sein als die anderen Buchstaben.</p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc>  
+            <height unit="cm" atLeast="4.8" atMost="4.8">4,8–4,8</height>
+        </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
+								<ref type="context" target="context:fercan.arch."/> </term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName/> <region>Civitas Port-?</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1832"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Pforzheim</ref> </placeName> <p><p>im Hagenschießwald beim Fohlenstall-Schlösschen<br/></p></p> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true"><p>"bei Grabungen [durch Karl Philipp Friedrich Arnsperger] in der villa rustica 'Fohlenstall-Schlößchen' zu Tage gekommen. Das Stück lag im Schutt eines Kellers." (Kortüm 1995, 141)<br/></p></note> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)</p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Abnoba</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Abnoba</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> </ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">Anulius</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">
+						</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">Abnobae</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1102_front.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
+		</graphic>
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1102_front_oben.jpg">
+                <desc>oben, CIL XIII Projekt, CC BY-NC</desc>
+            </graphic>
+        </facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="1">Brambach 1867 (Corpus), Nr.1690</bibl>
+				
+            <bibl xml:id="2">Wagner 1911, 128</bibl>
+        
+            <bibl xml:id="3">CIL XIII 6332 </bibl>
+        
+            <bibl xml:id="4">Riese 1914, Nr.2612</bibl>
+        
+            <bibl xml:id="5">AE 1995, 1160</bibl>
+        
+            <bibl xml:id="6">Kortüm 1995, Nr.64</bibl>
+        
+            <bibl xml:id="7"> Scheungraber 2020, 64 Nr.8</bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.7</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno>EDCS-11000341</idno><date>2024-01-23</date></bibl>
+					<bibl type="EDH"><idno>HD036496</idno><date>2020-08-25</date></bibl>
+					<bibl type="trismegistos"><idno>www.trismegistos.org/text/210776</idno><date>2024-01-23 </date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/26979 </idno><date>2022-12-20</date></bibl>
+					<bibl type="other"><idno> </idno><date> </date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><orig/><lb n="1"/><gap reason="lost" quantity="2" unit="character"/>NOBE
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>N</unclear>ULIVS
+<lb n="3"/><gap reason="lost" extent="unknown" unit="line"/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><expan><abbr><supplied reason="lost">Ab</supplied>nob</abbr><ex>a</ex></expan>e
+<lb n="2"/><supplied reason="lost">A</supplied>nulius
+<lb n="3"/><gap reason="lost" extent="unknown" unit="line"/></ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p><p>Für <rs type="divine">Abnoba!<br/></rs>Anulius...</p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p><p>To <rs type="divine">Abnoba</rs>!</p><p>Anulius...<br/></p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="1">
+					<note anchored="true">[--- Ab]nob(a)e – Ferlut</note>
+				</app>
+			
+            <app loc="2">
+                <note anchored="true">Keine 2. Zeile – Brambach; [M(arcus)?] Iuliu[s... – Wagner; Iulius – Riese; [I?]u[li?]us – CIL; [M(?) A]nulius – Kortüm; [- A?]nulius – EDH; [3 A]nulius(?) – Scheungraber; [- A]nulius – Ferlut</note>
+            </app>
+        
+            <app loc="3">
+                <note anchored="true">nach [---] in dieser Zeile noch eine Z.4 mit [V S L L M] – Kortüm</note>
+            </app>
+        
+            
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Anulius: einheimisches Namensformular? tria nomina?<br/>Anulius: seltenes Gentilnomen, möglicherweise Variante von Anullus (Kakoschke 2021, GN 97)
+			</p></div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p><p>Anulius: einheimisches Namensformular? tria nomina?</p><p>Anulius: seltenes Gentilnomen, möglicherweise Variante von Anullus (Kakoschke 2021, GN 97)</p></p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note"><p>Kortüm 1995, S. 140 Nr. 64: Der größte Teil des Steines ist weggebrochen. Erhalten ist nur das obere Viertel mit dem Anfang der Inschrift.</p><p>Wagner 1911, S. 138: Erhalten ist das obere Gesims mit Voluten und Schale, darunter die links und unten beschädigte Inschrift<br/></p></note>
+			<note type="ArchKlass_note"/>
+			<note type="Material_note"><p>Kortüm 1995, S. 140 Nr. 64: gelber (Maulbronner) Sandstein<br/></p></note>
+			<note type="Inschrifttraeger_note"/>
+			<note type="VerwahrortOrt_note"><p>laut lupa<br/></p></note>
+			<note type="InvNr_note">                                                    <p>laut lupa, Foto von 2017<br/>laut Kortüm 1995 und CIL-Kateikarte (S.13) von 2012 ist die Inv.Nr.: F.St.Hag(enschiess).1833</p><p>Kortüm 1995, S. 140 Nr. 64: Verbleib: Heimatmuseum Pforzheim F.St.Hag.1833</p><p>Wagner 1911, 138: Nach Arnsperger wurde am Fohlenstallschlößchen (?) 1832 der obere Teil eines Altars der Abnoba gefunden, aber anscheinend draußen liegen gelassen. Um 1848 fand ihn wieder der Pächter des Seehauses Hoheisen bei einer Holzabfuhr im Kanzler (also nicht im Hardheimer Schlößchen). Er diente dann im Garten des Seehauses lange als Tischuntersatz und stand später in einer Gartenecke, bis er 1877 im Garten des Sohnes, Fabrikant C. Hoheisen (gefällige Mitteilung des letzteren), in Pforzheim Aufstellung fand und von da aus der St, S, Pforzheim übergeben wurde.</p></note>
+			<note type="Fundstelle_note">                                                    <p>Kartei Karte S. 1: im Hagenschiesswalde beim Fohlenstall-Schlösschen</p><p>kortüm 1995, S. 140 Nr. 64: Hagenschieß - Abt. Schloßwald (FSt. 1827/1, Beil. 1,63)<br/></p></note>
+			<note type="Fundumst_note">                                                    <p>Arnsperger: Über die römsichen Alterthümer im Hagenschiesswald. In: Pforzheimer Beobachter vom 3., 6. und 10. Oktober 1832. (Winfried: in Citavi eingetragen)</p><p>Kortüm 1995, S. 140 Nr. 64: 1832 bei Grabungen in der villa rustica "Fohlenstall-Schlößchen" zu Tage gekommen. Das Stück lag im Schutt eines Kellers. </p><p>Kortüm 1995, 141: Der Stein wurde Ende des letzten Jahrhunderts von 
+Fabrikant Hoheisen der Städtischen Sammlung geschenkt. Er stand zuletzt 
+in dessen Garten. Vorher hatte er im alten Jagdschloss "Seehaus" im 
+Hagenschieß als Gartentisch gedient. Dorthin hatte ihn der Vater des 
+Fabrikanten gebracht, als er um das Jahr 1848 als Pächter des Seehauses 
+bei einer Holzabfuhr im "Kanzlerwald" den Weihestein entdeckt hatte. Es 
+handelte sich dabei allerdings um eine Wiederauffindung, denn die 
+Abnobaweihung ist identisch mit dem bei den Grabungen Arnspergers im 
+Jahre 1832 im "Fohlenstall" zu Tage gekommenen Inschriftenrest, über 
+dessen weiteres Schicksal nach der Auffindung nichts bekannt war. Die 
+kurze Beschreibung dieses Stückes als "Kopf einer Denksäule mit einer 
+halbzerstörten Aufschrift, von der noch NOBE ganz deutlich zu erkennen 
+ist" [Wilhelmi, Sinsheimer Jahresbericht 3 (1833) 33], belegt aber die Identität zur Genüge. Auffällig bleibt, daß der 
+ursprüngliche und der spätere Fundort, falls dieser amtlich korrekt 
+wiedergegeben wurde, gut 2,5 km von einander entfernt liegen.</p></note>
+			<note type="Fundjahr_note">                                                    <p>CIL 3.Okt. 1832, auf Basis von Arnsperger: Über die römsichen Alterthümer im Hagenschiesswald. In: Pforzheimer Beobachter vom 3., 6. und 10. Oktober 1832. (Winfried: in Citavi)</p><p>CIL: ad viam Romanam im Hagenschiesswalde an der Ruine des sogenannten Fohlenstall-Schlösschens<br/></p></note>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note"><p>Anmerkung zu Fundort: Arnsperger 1832 (3.10.), 496 + Naeher 1884<br/></p></note>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note"/>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note"/>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note"><p>lt. Karteikarte S. 2: H ges. noch 42cm, Br oben (alt) 52cm, Tiefe oben noch 39cm</p><p>Mittelteil noch 14,5 x noch 35cm, Tiefe 30,5cm</p><p>Kortüm 1995, S. 140 Nr. 64: 0,52x0,38x0,4m<br/></p></note>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note"><p>lt. Karteikarte S. 2</p><p>Kortüm 1995, S. 140 Nr. 64: Buchstabenhöhe 5cm<br/></p></note>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note"><p>EDH: 151-250 AD</p><p>Kortüm: 2.H. 2. Jh.</p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

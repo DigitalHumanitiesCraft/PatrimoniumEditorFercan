@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior359">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior359">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -283,7 +282,11 @@ Auf der rechten Schmalseite ist ebenfalls eine Akanthusranke mit paarig angeordn
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1975, 655</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Stuart/Bogaers 2001, B2</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">AE 2001, 1469</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 402 Nr.78</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.994</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -293,7 +296,7 @@ Auf der rechten Schmalseite ist ebenfalls eine Akanthusranke mit paarig angeordn
                     </bibl>
                     <bibl type="EDH">
                         <idno>HD010813</idno>
-                        <date/>
+                        <date>Version vom 12. Juni 2017</date>
                     </bibl>
                     <bibl type="trismegistos">
                         <idno>www.trismegistos.org/text/208886</idno>
@@ -301,7 +304,7 @@ Auf der rechten Schmalseite ist ebenfalls eine Akanthusranke mit paarig angeordn
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>DEAE  <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>DEAE  <lb n="2"/>
 NEHALEN  <lb n="3"/>
 NIAE PRO  <lb n="4"/>
 NAVIBVS  <lb n="5"/>

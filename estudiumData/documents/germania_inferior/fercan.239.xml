@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior239">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior239">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -264,7 +263,11 @@ Weiteres Dekor am Aufsatz kann erahnt werden, doch ist die Steinoberfläche zu s
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 8003a</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1918, Nr.509</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Burns 1994, 271</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 557 Nr.7</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.538</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -302,21 +305,29 @@ Attici(us) Maternus soldier of the legio I Minervia Pia Fidelis (set this up) by
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligaturen – Burns</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligaturen – Burns; Matribus – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[V]acall[i] – Lehner</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">nehis Attici[us] – Burns</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">nehis Attici[us] – Burns; ne(h)is – Scheungraber; Atticius – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Maternus – Burns</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Maternus – Burns, Scheungraber; M(a)ternus – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.6 #MAJ.6">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">fin. ÂR fuisse potest – CIL</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">fin. ÂR fuisse potest – CIL; fehlt – Ferlut</tei:note>
                 </app>
-            </div>
+            
+            <app loc="5">
+                <note anchored="true">m(iles) l(egionis) I M(inerviae), [ex] ius(su) ipsa[rum], l(ibens) m(erito). – Ferlut (möglicherweise mit Fehlern bei den Zeilenwechseln, s.u.)</note>
+            </app>
+        
+            <app loc="7">
+                <note anchored="true">fehlt – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">                <p part="N">Atticius Maternus: römisches Namensformular mit Gentile und Cognomen ohne Praenomen <lb/>
 </p>
                 <p part="N">Atticius: italisches Gentilnomen oder einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Cognomen Atticus (Kakoschke 2006, GN 153) <lb/>

@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior65">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior65">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -240,7 +239,13 @@
             <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 7932</bibl>
-                </listBibl>
+                
+            <bibl xml:id="2">Raybould/Sims-Williams 2007, 67 Nr.BEG 124</bibl>
+        
+            <bibl xml:id="3">Scheungraber 2020, 553</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.706</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -254,8 +259,8 @@
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/><gap reason="lost" quantity="1" unit="character" instant="false"/>A<hi rend="ligature">TR</hi>O<hi rend="ligature">NI</hi>S <lb n="2"/> 
-VL<hi rend="ligature">AV</hi><hi rend="ligature">HINE</hi>H <lb n="3"/> 
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/><gap reason="lost" quantity="1" unit="character" instant="false"/>A<hi rend="ligature">TR</hi>O<hi rend="ligature">NI</hi>S <lb n="2"/> 
+VL<hi rend="ligature">AV</hi><hi rend="ligature">HINE</hi>H <lb n="3"/>
 SACR <lb n="4"/> 
 <gap reason="lost" quantity="1" unit="character" instant="false"/>X <hi rend="ligature">TE</hi>STA<hi rend="ligature">ME</hi>N <lb n="5"/> 
 POM ACI <lb n="6"/> 
@@ -274,15 +279,31 @@ According to the will of Pom(), son of Acis (?) Vanais, the heir Octavius Exomni
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Vlânĥineh – Eick (CIL);</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Vlânĥineh – Eick (CIL), Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.6 #MAJ.6">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">VANAN aut litteris ligatis VAINAN vel VATNAN – Eick (CIL)</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">VANAN aut litteris ligatis VAINAN vel VATNAN – Eick (CIL); s f(ilii?) Vanai(i?) – Raybould/Sims-Williams; s f(ilius) Vanan - Scheungraber</tei:note>
                 </app>
-                <app loc="#MIN.7 #MAJ.7">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[E]xomnius – Brambach (CIL)</tei:note>
+                <app loc="8">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[E]xomnius – Brambach (CIL, irrtümlich als Z.7); Octavius Exomnius – Ferlut (Z.8 fehlt)</tei:note>
                 </app>
-            </div>
+            
+            <app loc="4">
+                <note anchored="true">ex testamento – Ferlut</note>
+            </app>
+        
+            <app loc="5">
+                <note anchored="true">Pom(peii?) Aci- – Raybould/Sims-Williams; Pompeius Aci(u) – Ferlut</note>
+            </app>
+        
+            <app loc="9">
+                <note anchored="true">h(eredes) f(aciendum) c(uraverunt) – Scheungraber, Ferlut (dort Z.8)</note>
+            </app>
+        
+            <app loc="7">
+                <note anchored="true">Octaviu(s) – Raybould/Sims-Williams</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Pom(), Sohn des Acisius, Vanais: offenbar römisches Namensformular ohne Praenomen <lb/>
 Pom(): keine gesicherte Ergänzung möglich, vielleicht Pom(peius) <lb/>

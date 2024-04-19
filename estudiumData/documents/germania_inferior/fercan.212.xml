@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior212">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior212">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -221,7 +220,9 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1918, Nr.397</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Alföldy 1968, Nr.134</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">AE 1968, 355</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 568 Nr.134</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -253,13 +254,13 @@ Vennia …</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Vacall]inechis, noch ohne Kenntnis des anpassenden Fragments – Lehner; [Va]câllîn̂êhis – Alföldy; [Va]callinehis – AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Vacall]inechis, noch ohne Kenntnis des anpassenden Fragments – Lehner; [Va]câllîn̂êhis – Alföldy; [Va]callinehis – AE, EDH, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]nia, noch ohne Kenntnis des anpassenden Fragments – Lehner; ohne Buchstabenverlust am Beginn der Zeile, Vennia – AE, EDH</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]ap, noch ohne Kenntnis des anpassenden Fragments – Lehner; [At]t[i]a(?) e[x] – Alföldy, AE; eine folgende weitere Zeile mit [imp. ipsarum (?)] – Alföldy, so offenbar auch AE, wo wohl irrtümlich kein Zeilenwechsel nach e[x] in Zeile 3 abgedruckt</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]ap, noch ohne Kenntnis des anpassenden Fragments – Lehner; [At]t[i]a(?) e[x] – Alföldy, AE; eine folgende weitere Zeile mit [imp. ipsarum (?)] – Alföldy, so offenbar auch AE und Scheungraber wo wohl irrtümlich kein Zeilenwechsel nach e[x] in Zeile 3 abgedruckt; es folgt Z. 4/5 mit unbestimmtem Inhalt – Scheungraber</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

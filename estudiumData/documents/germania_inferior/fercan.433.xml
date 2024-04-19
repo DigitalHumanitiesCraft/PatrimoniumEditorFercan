@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior433">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior433">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -320,7 +319,11 @@ Anders verhält es sich mit der Ranke an der rechten Schmalseite, die sich zwar 
                     <bibl xml:id="LIT.3" default="false" status="draft">Byvanck 1935, Nr.259</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Hondius-Crone 1955, Nr.7</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Stuart 2013, Nr.2</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 393 Nr.3</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.1053</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -348,7 +351,11 @@ Ammacius, der Sohn des Hucdio, gerne und verdientermaßen. </p>
 Ammacius, the son of Hucdio, willingly and deservedly.  </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">Nehalleniae – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Ammacius: vermutlich germanisches Cognomen, tritt nur in Niedergermanien auf (Kakoschke 2007, CN 166) <lb/> 
 Hucdio: germanisches Cognomen (Kakoschke 2007, CN 1543) </p>

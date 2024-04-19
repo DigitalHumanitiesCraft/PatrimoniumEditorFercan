@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior197">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior197">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -233,7 +232,9 @@ Ansonsten ist kein weiteres Dekor erhalten geblieben.</p>
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1918, Nr.390</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Alföldy 1968, Nr.113</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 567 Nr.94</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -260,10 +261,10 @@ Ansonsten ist kein weiteres Dekor erhalten geblieben.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Vaca[lline] – Lehner, Alföldy; vor der ersten erhalten Zeile könnte nach Alföldy noch eine vorhergehende verlorene möglich sein.</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Vaca[lline] – Lehner, Alföldy, Scheungraber; vor der ersten erhalten Zeile könnte noch eine vorhergehende verlorene möglich sein – Alföldy, Scheungraber </tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">his – Lehner, Alföldy</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">his – Lehner, Alföldy, Scheungraber</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Vaca…chae:</rs> Rest einer Variante von  <rs type="divine"> Vacallinehae:</rs> keltisch: ‚Unter den Bäumen bzw. dem Wald Verweilende [Muttergöttinen]‘ 

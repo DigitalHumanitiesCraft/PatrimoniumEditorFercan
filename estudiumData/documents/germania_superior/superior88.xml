@@ -1,0 +1,372 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior88" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Suleviae</title><title type="sub">CF-GeS-1017</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.88</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Mainz</settlement>
+						<repository>Landesmuseum, Depot</repository>
+						<idno>S 534</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p>                                                <p>Der stelenartige Weihealtar ist im oberen Drittel horizontal gebrochen und modern mit Zement zusammengesetzt. Das Inschriftenfeld ist doppelt gerahmt. Auch auf der Rückseite befindet sich eine doppelte Rahmung, die die unteren zwei Drittel einnimmt und im oberen Drittel in einen stilisierten Giebel verläuft. Aufsatz und Basis sind durch mehrere Stufen voneinander getrennt. Der Aufsatzschmuck ist abgebrochen und kann nicht mehr nachvollzogen werden. Der gesamte Stein ist stark verwittert.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
+										<height unit="cm">71</height>
+										<width unit="cm">24</width>
+										<depth unit="cm">20</depth>
+									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>Der Text füllt das Inschriftenfeld bis auf einen kleinen Leerraum oberhalb der ersten und unterhalb der letzten Zeile völlig aus. Er ist bis auf Zerstörungen durch die Bruchstelle in Z.2 völlig erhalten, aber sehr stark verwittert.<br/></p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="3.0" atMost="7.5">3,0–7,5</height> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150500">Rahmen</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140700">Reparatur</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160100">Lineardekor</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName>Bingium</placeName> <region/> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1890"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Bingen</ref> </placeName> <p>Stadtteil Büdesheim; „sog. Wackenäcker“ (CIL)</p> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true">beim Roden (CIL)</note> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt) <br/></p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Suleviae</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Suleviae</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Alpina; Saturninus</ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">Hostilia; Hostilius</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">
+						</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">Sulevis dea[bus]</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1017_front.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
+		</graphic>
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1017_front_IS1.jpg">
+                <desc>Inschrift, Landesmuseum, Mainz, Foto: Ortolf Harl 2016</desc>
+            </graphic>
+        
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1017_front_IS2.jpg">
+                <desc>Inschrift, Landesmuseum, Mainz, Foto: Ortolf Harl 2016</desc>
+            </graphic>
+        
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1017_front_IS3.jpg">
+                <desc>Inschrift, Landesmuseum, Mainz, Foto: Ortolf Harl 2016</desc>
+            </graphic>
+        
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1017_posterior.jpg">
+                <desc>Rückseite, CIL XIII Projekt, CC BY-NC</desc>
+            </graphic>
+        </facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="2">CIL XIII 7504 </bibl>
+				
+            <bibl xml:id="3">ILS 4773 </bibl>
+        
+            <bibl xml:id="4">Riese 1914, Nr.3517</bibl>
+        
+            <bibl xml:id="5">Gutenbrunner 1936, 226 Nr.95.5</bibl>
+        
+            <bibl xml:id="6">Weber 1966, 120 </bibl>
+        
+            <bibl xml:id="7">Frenz 1992, Nr.22 </bibl>
+        
+            <bibl xml:id="9">Scheungraber 2020, 509 Nr.21</bibl>
+        
+            <bibl xml:id="10">Ferlut 2022, Nr.1240</bibl>
+        
+            <bibl xml:id="1">Körber 1896, Sp.6f.</bibl>
+        
+            <bibl xml:id="8">Boppert 2005, Nr.22</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno>EDCS-11001615</idno><date>zuletzt abgerufen 2023-07-03</date></bibl>
+					<bibl type="EDH"><idno>HD075588</idno><date>Version von 2017-12-15</date></bibl>
+					<bibl type="trismegistos"><idno> </idno><date> </date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/27183</idno><date>Version von 2023-01-01</date></bibl>
+					<bibl type="other"><idno> </idno><date> </date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/>SVLEVIS
+<lb n="2"/>DEA<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/>C<g type="interpunct">▴</g>H<gap reason="lost" quantity="1" unit="character"/>STI
+<lb n="4"/>LIVS SAT
+<lb n="5"/>VRNIN
+<lb n="6"/>ET H<gap reason="lost" quantity="1" unit="character"/>STI
+<lb n="7"/>LIA ALPI
+<lb n="8"/>NA<g type="interpunct">▴</g>FRA
+<lb n="9"/>TRES<orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Sulevis
+<lb n="2"/>dea<supplied reason="lost">bus</supplied>
+<lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> H<supplied reason="lost">o</supplied>sti
+<lb n="4" break="no"/>lius Sat
+<lb n="5" break="no"/><expan><abbr>urnin</abbr><ex>us</ex></expan>
+<lb n="6"/>et H<supplied reason="lost">o</supplied>sti
+<lb n="7" break="no"/>lia Alpi
+<lb n="8" break="no"/>na fra
+<lb n="9" break="no"/>tres</ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p><p>Für die <rs type="divine">Suleviae</rs>, die Göttinnen!</p><p>Die Geschwister Gaius Hostilius Saturninus und Hostilia Alpina<br/></p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p><p>To the <rs type="divine">Suleviae</rs>, the goddesses!</p><p>The siblings Gaius Hostilius Saturninus and Hostilia Alpina</p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="1">
+					<note anchored="true">Suler[i]s – Körber; Sulev[i]s – ILS  </note>
+				</app>
+			
+            <app loc="2"><note anchored="true">d[e]a[bus] – ILS; ḍea[bus] – Riese</note></app>
+        
+            <app loc="3"><note anchored="true">Hosti – Körber, ILS</note></app>
+        
+            <app loc="5"><note anchored="true">urninus – Körber; urniu. – ILS  </note></app>
+        
+            <app loc="6"><note anchored="true">Hosti – Körber, ILS, EDH </note></app>
+        
+            <app loc="7"><note anchored="true">Alpi (oder Alie) – Körber; Al[p]i, statt Al[p]ina kann auch Aliena gelesen werden – ILS </note></app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Gaius Hostilius Saturninus: tria nomina</p>
+                                                <p>Hostilius: gängiges, italisches Gentilnomen (Kakoschke 2021, GN 600)</p>
+                                                <p>Saturninus: lateinischer Name, Weiterbildung des Namens Saturnus, überall äußerst gängig (Kakoschke 2021, CN 2736)</p>
+                                                <p>Hostilia Alpina: römisches weibliches Namensformular</p>
+                                                <p>Hostilia: s. oben Hostilius</p>
+                                                <p>Alpina: lateinischer Name, besonders in Norditalien und den keltischen Provinzen verbreitet (Kakoschke 2021, CN 127)</p></div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note">                                                    <p>Lupa: stark verwittert, horizontaler Bruch, auf der Oberseite Fußrest (?)</p>
+                                                    <p>Zement zusammengesetzt: Körber 1896</p>
+                                                    <p>auf der Rückseite profiliertes Feld ohne Inschrift – CIL Kartei</p>
+                                                    <p>auf dem Altar ist eine flache Schale zwischen zwei Wulsten eingehauen – Körber 1897 S. 12 Nr. 8</p></note>
+			<note type="ArchKlass_note"><p>Giebel</p><p>Rahmen</p><p>Reparatur</p></note>
+			<note type="Material_note"><p>Sandstein lt. CIL Kartei</p><p>EDH: Kalkstein?</p><p>Körber 1896 S.6: Muschelkalk</p></note>
+			<note type="Inschrifttraeger_note"><p>WSpDB: ara</p><p>Lupa: Basis für ein Weihgeschenk</p></note>
+			<note type="VerwahrortOrt_note"/>
+			<note type="InvNr_note"/>
+			<note type="Fundstelle_note">                                                    <p>Franz: „… nach Angaben der Bürgermeisterei von Büdesheim [sollen] die Wackenäcker an dem Weg Büdesheim-Ockenheim liegen, dort wo die Bingen-Alzeyer Bahn diesen Weg kreuzt“<br/></p></note>
+			<note type="Fundumst_note"><p>CIL: anfangs der neunziger Jahre beim Roden der sog. Wackenäcker in der Gemeinde Büdesheim bei Bingen rep</p><p>Geschenk vom Weinhändler Julius Woog (Behrens 1918, Katalog…IV Bingen, S. 223, Abb 110)</p></note>
+			<note type="Fundjahr_note">                                                    <p>Behrens 1918, S. 222f zitiertL. Seyler-Bingen und seine Angabe, die er auf einer Karte vom 2. Dezember 1895 dem Mainzer Altertumsverein macht: „Der von Herrn Woog geschenkte Altar ist gefunden worden vor 5 Jahren...“ <b><br/></b>1891? Körber 1896: „vor etwa fünf Jahren“</p>
+                                                    <p>anfangs der 90er Jahre – CIL</p></note>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note"/>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note"><p>WSpDB Film: T 79/1341,1342; 230/22,25<br/></p></note>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note">                                                    <p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p>
+                                                    <p>eingesehen</p>
+                                                    <p>Häussler 1993, 87, - IS erwähnt</p>
+                                                    <p>Spickermann 1994, 298 Nr.4, eingesehen</p>
+                                                    <p>Riese 1914, Nr.3517, - eingearbeitet</p>
+                                                    <p>Gutenbrunner I S.226. Nr.95-5,</p>
+                                                    <p>Körber,K. In: WZKorrbl XV. 1896. Sp.6,</p>
+                                                    <p>Ev noch einsehen</p>
+                                                    
+                                                    <p>Körber 1897 Nr.8 (mit Zeichnung), - der selbe Inhalt wie Körber 1896<br/></p>
+                                                    <p>Ziethen Römisches Bingen – Vom Beginn der römischen Herrschaft bis zum 3. Jahrhundert n. Chr. In: Rupprecht/Heising S.23ff S.83(Einheimische), - nur erwähnt nicht gelesen, Fernleihe</p>
+                                                    <p>Boppert 2005, 63-5 Nr.22 - eingearbeitet</p></note>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note"><p>So EDH, CSIR<br/>Körber 1896 Sp.6: Gesamthöhe 71cm; der 48cm hohe mittlere Teil, welcher die Inschrift trägt, misst nur 18cm in der Breite und 11 cm in der Tiefe</p></note>
+			<note type="Ikonogr_note"><p>Lupa: gerahmtes Schriftfeld, auf der Rückseite Rahmenlinien (Giebel) eingeritzt<br/></p></note>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note"><p>So EDH<br/>siehe Körber 1896</p></note>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note"><p>Frenz: E.1./A.2.Jh.</p><p>WSpDB: 200-250</p><p>Weber: 3.Jh.</p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

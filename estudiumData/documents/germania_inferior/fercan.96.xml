@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior96">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior96">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -213,7 +212,11 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Broelmann 1608, Tabella III Nr.36</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">CIL XIII 7940</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 285 Nr.8</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.713</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -240,7 +243,11 @@ Victor, Sohn des Stirrus, hat (das Gelübde) gerne und verdientermaßen erfüllt
 Victor, the son of Stirrus, has fulfilled (a vow) willingly and deservedly.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">rri(us) – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Victor, Stirri (filius): einheimisches Namensformular mit Vatersname im Genetiv <lb/>
 Victor: lateinisches Cognomen, überall äußerst gängig (Kakoschke 2008, CN 3321) <lb/>

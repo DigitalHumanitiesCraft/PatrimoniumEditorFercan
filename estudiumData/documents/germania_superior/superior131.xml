@@ -1,0 +1,320 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior131" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Herecura</title><title type="sub">CF-GeS-1125</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.131</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement/>
+						<repository/>
+						<idno>RL 232</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
+									<objectType>Weihestein</objectType> <dimensions>
+										<height unit="cm">90</height>
+										<width unit="cm">60</width>
+										<depth unit="cm"> 60</depth>
+									</dimensions> <note type="dimensions" anchored="true">Die angegebenen Maße sind die des erhaltenen Objektes.</note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>Die Inschrift füllt den Sockel vollständig aus. Die Buchstaben sind unregelmäßig und teilweise stark verwittert.</p>
+                                                <p>Die Inschrift ist bis auf eine Beschädigung in Z.2 erhalten und mehr oder weniger gut lesbar. Die beschädigte Stelle befindet sich nach dem G am Anfang von Z.2 und wird verschieden gelesen (s. Apparatus criticus). Nach dem G sind noch drei Schräghasten erhalten die ein N oder M bilden, was jedoch aufgrund der Beschädigung nicht mit Sicherheit festgestellt werden kann. Für ein M würde der Abstand zur Senkrechthaste des I vor dem Worttrenner sprechen. Für die vorgeschlagene Lesung als den keltischen Namen Gamus (Riese 1914, 2620; Kakoschke 2021, CN 1396)  müsste eine AM Ligatur bestanden haben.</p><p>Am Ende von Z.2 ist der Stein leicht beschädigt. Es wäre möglich, dass das O von suscepto im beschädigten Bereich kleiner geschrieben war. Am Photo sind nach den Resten des T gerundete Vertiefungen zu sehen, ob dies jedoch Buchstabenreste oder Beschädigungen sind kann nicht entschieden werden.<br/></p>
+                                                <p>Besondere Zeichen: In Z.2 ist das letzte O von voto kleiner zwischen das T und S eingeschrieben. Worttrenner sind in allen Zeilen vorhanden, aber wohl aus Platzgründen nicht überall gesetzt.</p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="3.5" atMost="4.0">3,5–4</height> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
+								<ref type="context" target="context:fercan.arch."/> </term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName/> <region>Civitas Port-?</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true"/> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Herecura</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Herecura</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Cottus</ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">
+						</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">
+						</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context">ex voto suscepto posuit; votum solvit laetus libens merito</ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">Herecure</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1125_front.jpg">
+			<desc>Front, Landesmuseum Württemberg, Foto: Ortolf Harl</desc>
+		</graphic>
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1125_oben.jpg">
+                <desc>oben, CIL XIII Projekt, CC BY-NC</desc>
+            </graphic>
+        
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1125_front_IS.jpg">
+                <desc>Inschrift, Landesmuseum Württemberg, Foto: Ortolf Harl</desc>
+            </graphic>
+        </facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="3">Haug/Sixt 1914, 391 Nr.270</bibl>
+				
+            <bibl xml:id="4">Riese 1914, Nr.2620</bibl>
+        
+            <bibl xml:id="5">Espérandieu 1931, Nr.564</bibl>
+        
+            <bibl xml:id="6">Paret 1949, 96</bibl>
+        
+            <bibl xml:id="7">Scheungraber 2020, 322 Nr.1</bibl>
+        
+            <bibl xml:id="2">Barthel 1907, 43 Nr.1</bibl>
+        
+            <bibl xml:id="1">CIL XIII 6438</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno>EDCS-11000458</idno><date>zuletzt abgerufen 2024-03-22</date></bibl>
+					<bibl type="EDH"><idno>HD036838</idno><date>Version von 2020-04-09</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/211065</idno><date>zuletzt abgerufen 2024-03-22</date></bibl>
+					<bibl type="lupa"><idno>lupa.at/7806</idno><date>Version von 2022-12-29</date></bibl>
+					<bibl type="other"><idno>https://cil.bbaw.de/ace/id/KO0000479</idno><date>zuletzt abgerufen 2024-03-22</date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/>HERECVRE<g type="interpunct">▴</g>COTTVS
+<lb n="2"/>G<unclear>N</unclear><gap reason="lost" quantity="1" unit="character"/>I<g type="interpunct">▴</g>EX VOTO SVSCEPT
+<lb n="3"/>POSVIT<g type="interpunct">▴</g>V<g type="interpunct">▴</g>S<g type="interpunct">▴</g>L<g type="interpunct">▴</g>L<g type="interpunct">▴</g>M<g type="interpunct">▴</g><orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><expan><abbr>Herecur</abbr><ex>a</ex></expan>e Cottus
+<lb n="2"/>G N<gap reason="lost" quantity="1" unit="character"/> I ex voto <expan><abbr>suscept</abbr><ex>o</ex></expan>
+<lb n="3"/>posuit <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p><p>Für <rs type="divine">Herecura</rs>!<br/>Cottus G N I hat nach dem übernommenen Gelübde (dies) aufgestellt (und) hat das Gelübde freudig, gerne und verdientermaßen erfüllt.</p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p><p>To <rs type="divine">Herecura</rs>!<br/>Cottus G N I has set (this) up according to the vow he made, (and) has fulfilled a vow gladly, willingly and deservedly.</p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="2">
+					<note anchored="true">GMI – CIL; G[all?]i – Haug/Sixt, Scheungraber;  G[...]i – Espérandieu; Gạṃi – Riese</note>
+				</app>
+			
+            <app loc="3">
+                <note anchored="true">l(ibens l(aetus) – Espérandieu, Schuengraber, Ferlut</note>
+            </app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">Cottus: einheimisches Namensformular<br/>Cottus: keltischer Name, sehr selten (Kakoschke 2021, CN 939)<p> </p>
+			</div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p> <p>v.1: „Herecure” pro „Herecurae”</p></p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note"/>
+			<note type="ArchKlass_note"/>
+			<note type="Material_note"/>
+			<note type="Inschrifttraeger_note"/>
+			<note type="VerwahrortOrt_note"/>
+			<note type="InvNr_note"><p>Karteikarte 6438: "Stuttgart, Magazin" von 03/08</p><p>Lupa<br/></p></note>
+			<note type="Fundstelle_note"><p>Haug/Sixt 1914, 363; 392<br/></p></note>
+			<note type="Fundumst_note">                                                    <p>Haug/Sixt 1914, 363; Zusammen mit Herecura 1126</p></note>
+			<note type="Fundjahr_note"/>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note"/>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note"/>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note"/>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note"><p>Haug/Sixt 1914, 391 nur Höhe 90 und Breite 60 angegeben</p><p>EDH: Höhe 87, Breite (50), Tiefe 33</p><p>Lupa: Höhe 79, Breite 70, Tiefe 60</p></note>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note"><p>Haug/Sixt 1914, 391<br/></p></note>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note"><p>EDH: 101 AD – 250 AD</p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

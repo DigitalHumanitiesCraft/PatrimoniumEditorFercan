@@ -1,0 +1,324 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior104" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Virodactis</title><title type="sub">CF-GeS-1119</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.104</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Rastatt</settlement>
+						<repository>Zentrales Fundarchiv</repository>
+						<idno>C 126</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
+										<height unit="cm">69</height>
+										<width unit="cm">31</width>
+										<depth unit="cm">21</depth>
+									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>Die Inschrift lässt links und rechts und nach oben jeweils nur einen schmalen Rand, unten bleiben jedoch ca. 2 Zeilen frei. </p>
+                                                <p>Die Buchstaben sind regelmäßig. Die Worttrenner sind nach jedem Wort korrekt gesetzt.</p>
+                                                <p>Zu Ligaturen: s. Majuskelumschrift. – Besondere Zeichen: In Z.2 weisen die beiden D einen waagrechten Querbalken auf. Das Zeichen 
+wurde vermutlich ähnlich dem englischen ‚th‘ ausgesprochern (Künzl 2008,
+ 93). Nach dem zweiten D ist das I hochgestellt und kleiner, in den 
+Zeilenabstand eingeschrieben.</p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
+								<ref type="context" target="context:fercan.arch."/> </term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName/> <region>Civitas Ulpia Sueborum Nicrensium</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern.">Kälbertshausen</ref> </placeName> <p>Kirchhofmauer</p> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true">eingemauert; Das genaue Fundjahr ist nicht mehr nachvollziehbar, muss jedoch vor 1831 gewesen sein.</note> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Dea Virodactis</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Viroddis</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Avita; Maximinus</ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">
+						</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">
+						</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context">in honorem domus divinae; votum solvit laetus libens merito</ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">D(e)ae Viroddi</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1119_front.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
+		</graphic>
+	</facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="1">Brambach 1867 (Corpus), Nr.1726</bibl>
+				
+            <bibl xml:id="2">CIL XIII 6486</bibl>
+        
+            <bibl xml:id="3">ILS 4759</bibl>
+        
+            <bibl xml:id="4">Wagner 1911, 383</bibl>
+        
+            <bibl xml:id="5">Fritsch 1912, 21</bibl>
+        
+            <bibl xml:id="6">Riese 1914, Nr.3560</bibl>
+        
+            <bibl xml:id="7">Scheungraber 2020, 603 Nr.7</bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.1327</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno>EDCS-11000510</idno><date>zuletzt abgerufen 2023-03-17</date></bibl>
+					<bibl type="EDH"><idno>HD036547</idno><date>Version von 2019-01-03</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/210826</idno><date>zuletzt abgerufen 2023-03-17</date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/8542</idno><date>Version von 2023-01-02</date></bibl>
+					<bibl type="other"><idno> </idno><date> </date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/>IN<g type="interpunct">▴</g>H<g type="interpunct">▴</g>D<g type="interpunct">▴</g>D
+<lb n="2"/>D<hi rend="ligature">AE</hi><g type="interpunct">▴</g>VIROĐĐ<add place="above">I</add>
+<lb n="3"/>AVITA<g type="interpunct">▴</g><hi rend="ligature">MA</hi>X<hi rend="ligature">MI</hi>
+<lb n="4"/>NI<g type="interpunct">▴</g>V<g type="interpunct">▴</g>S<g type="interpunct">▴</g>L<g type="interpunct">▴</g>L<g type="interpunct">▴</g>M</ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+<lb n="2"/><expan><abbr>d</abbr><ex>e</ex>ae</expan> Viroddi
+<lb n="3"/>Avita Maxmi
+<lb n="4" break="no"/>ni <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p><p>Zu Ehre des Kaiserhauses, für die Göttin <rs type="divine">Viroddi</rs>!<br/>Avita [die Tochter des] Maximinus hat das Gelübde freudig, gerne und verdientermaßen erfüllt.</p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p><p>In honour of the Divine Household, to the goddess <rs type="divine">Viroddi</rs>!<br/>Avita [daugther of] Maximinus has fulfilled a vow gladly, willingly and deservedly.</p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="3">
+					<note anchored="true">Max(i)mi- – Scheungraber, Ferlut; Max[i]mi- –ILS, Wagner, EDH</note>
+				</app>
+			
+            <app loc="4">
+                <note anchored="true">l(ibens) l(aetus) –EDH, Scheungraber, Ferlut</note>
+            </app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Avita Maximini: einheimisches weibliches Namensformular mit Angabe des Namens des Vaters im Genetiv</p>
+                                                <p>Avita: gängiger (keltischer oder) lateinischer Name (Kakoschke 2021, CN 419)</p>
+                                                <p>Maximinus: lateinischer Name, Weiterbildung des Namens Maximus, überall gängig (Kakoschke 2021, CN 2009) Vater der ersten.</p></div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p>                                                <p>v.2: <span style="font-size:12.0pt;line-height:107%; font-family:&#34;Arial&#34;,sans-serif;mso-fareast-font-family:LeedsUniExt;mso-ansi-language: DE-AT;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">„</span>dae<span style="font-size:12.0pt;line-height:107%; font-family:&#34;Arial&#34;,sans-serif;mso-fareast-font-family:LeedsUniExt;mso-ansi-language: DE-AT;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">”</span> pro <span style="font-size:12.0pt;line-height:107%; font-family:&#34;Arial&#34;,sans-serif;mso-fareast-font-family:LeedsUniExt;mso-ansi-language: DE-AT;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">„</span>deae<span style="font-size:12.0pt;line-height:107%; font-family:&#34;Arial&#34;,sans-serif;mso-fareast-font-family:LeedsUniExt;mso-ansi-language: DE-AT;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">”</span></p>
+                                                <p>v.3/4: <span style="font-size:12.0pt;line-height:107%; font-family:&#34;Arial&#34;,sans-serif;mso-fareast-font-family:LeedsUniExt;mso-ansi-language: DE-AT;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">„</span>Maxmini<span style="font-size:12.0pt;line-height:107%; font-family:&#34;Arial&#34;,sans-serif;mso-fareast-font-family:LeedsUniExt;mso-ansi-language: DE-AT;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">”</span> pro <span style="font-size:12.0pt;line-height:107%; font-family:&#34;Arial&#34;,sans-serif;mso-fareast-font-family:LeedsUniExt;mso-ansi-language: DE-AT;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">„</span>Maximini<span style="font-size:12.0pt;line-height:107%; font-family:&#34;Arial&#34;,sans-serif;mso-fareast-font-family:LeedsUniExt;mso-ansi-language: DE-AT;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">”</span></p></p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note"/>
+			<note type="ArchKlass_note"/>
+			<note type="Material_note">                                                    <p>Wagner: Rötlicher Sandstein; rot auch Christ 1867, Nr. 13<br/></p>
+                                                    <p>EDH: Sandstein</p></note>
+			<note type="Inschrifttraeger_note">                                                    <p>EDH: Altar<br/></p></note>
+			<note type="VerwahrortOrt_note"/>
+			<note type="InvNr_note">                                                    <p>EDH: Osterburken, Römermuseum</p>
+                                                    <p>Lupa: Rastatt, Zentrales Fundarchiv, 50-5332 (C 126)</p><p>Kartei: Rastatt, dort 03/2006 nicht gefunden; inzwischen (07/2006) in Rastatt wieder aufgefunden (nach Mitteilung Herrn Kaiser)<br/></p></note>
+			<note type="Fundstelle_note">                                                    <p>Brambach, Wagner: "in der Kirchhofmauer - eingemauert"</p>
+                                                    <p>CIL: "in muro coemeterii"<br/></p></note>
+			<note type="Fundumst_note"/>
+			<note type="Fundjahr_note">                                                    <p>Wagner: "In der Kirchhofmauer war nach Wilhelmi (1831) ein Votivstein eingemauert, der 1863 in die Gr. S. Khe kam (C 126)"</p>
+                                                    <p>EDH: 1863</p><p><b>vor 1831, da hier das erste Mal beschrieben!</b><br/></p></note>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note">                                                    <p>Brambach, Wagner, CIL: Kälbertshausen<br/></p>
+                                                    <p>EDH: <span style="color: rgb(51, 51, 51); font-family: Ubuntu, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Hüffenhardt</span></p><p><span style="color: rgb(51, 51, 51); font-family: Ubuntu, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Dessau ILS: Kälbertshausen prope Neckarburcken</span></p></note>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note"/>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note"><p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p></note>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note">                                                    <p>Wagner; EDH</p><p>Christ 1867, Nr. 13: H 68cm, B 30cm, T 24cm<br/></p></note>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note"/>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note"><p>EDH: 101 AD – 250 AD<br/></p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

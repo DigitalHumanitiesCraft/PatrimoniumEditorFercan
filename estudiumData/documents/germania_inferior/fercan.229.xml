@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior229">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior229">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -237,7 +236,11 @@
                     <bibl xml:id="LIT.2" default="false" status="draft">Finke 1927, Nr.267</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Alföldy 1968, Nr.14</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">AE 1968, 335</bibl>
-                </listBibl>
+                
+            <bibl xml:id="5">Scheungraber 2020, 560 Nr.34</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.832</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -271,18 +274,22 @@ Quintus Sautenius Privatus (has fulfilled) a vow willingly and deservedly.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Mat̂ron̂is – Lehner, Finke, Alföldy; Matronis – AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Mat̂ron̂is – Lehner, Finke, Alföldy; Matronis – AE, EDH, Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Vacall̂în̂echis – Finke; Vacall̂în̂ehis – Alföldy; Vacallinehis – AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Vacall̂în̂echis – Finke; Vacall̂în̂ehis – Alföldy; Vacallinehis – AE, EDH, Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Saut̂eniuis – Lehner, Finke; Sautenius – AE; Sautenuis – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Saut̂eniuis – Lehner, Finke; Sautenius – AE, Ferlut; Sautenuis – EDH; Sauteniu(i)s – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">v(otum) l(ibens) m(erito) – AE; v(ovit) l(ibens) – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">v(otum) l(ibens) m(erito) – AE; v(ovit) l(ibens) – EDH, Scheungraber; v(otum) s(olvit) m(erito) – Ferlut</tei:note>
                 </app>
-            </div>
+            
+            <app loc="5">
+                <note anchored="true">fehlt – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Q. Sautenius Privatus: tria nomina <lb/>
 Sautenius: einheimische Bildung mit keltischer Basis (Kakoschke 2006, GN 1119) <lb/>

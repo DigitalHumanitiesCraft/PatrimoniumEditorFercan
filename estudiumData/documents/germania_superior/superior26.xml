@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior26" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior26" n="">
 	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
-				<title type="full"><title type="main">Degala</title><title type="sub"> CF-GeS-1072</title></title>
+				<title type="full"><title type="main">Degala?</title><title type="sub"> CF-GeS-1072</title></title>
 				<respStmt>
 					<resp>Inschriftenedition</resp>
 					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
@@ -42,7 +42,7 @@
 					<msIdentifier>
 						<settlement>Mainz</settlement>
 						<repository>Landesmuseum</repository>
-						<idno>S 1335</idno>
+						<idno> </idno>
 					</msIdentifier>
 					<msContents>
 						<summary>Weihinschrift</summary>
@@ -56,26 +56,25 @@
 										<width unit="cm"> 31</width>
 										<depth unit="cm"> 16</depth>
 									</dimensions> <note type="dimensions"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130700">unklar</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>Der untere Abschluss des Inschriftentextes ist aus inhaltlichen Gründen klar, wieviel jedoch im oberen Teil verloren ist, kann nicht gesagt werden. Die Ergänzung auf ‚[D]egalae‘ stützt sich auf CIL, das Reste des D offenbar noch gesehen hat. | Der Text ist stark bestoßen, doch lesbar. | Zu Ligaturen: s. Majuskelumschrift.   </p> <note type="condition"/> </layout>
+								<layout> <p><p>Der untere Abschluss des Inschriftentextes ist aus inhaltlichen Gründen klar, wieviel jedoch im oberen Teil verloren ist, kann nicht gesagt werden. Die Ergänzung auf ‚[D]egalae‘ stützt sich auf CIL, das Reste des D offenbar noch gesehen hat. </p><p>Der Text ist stark bestoßen, doch lesbar. </p><p>Zu Ligaturen: s. Majuskelumschrift.   </p></p> <note type="condition"/> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p>Keine bildliche Gestaltung vorhanden.</p> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p>Keine bildliche Gestaltung vorhanden.</p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName>Mogontiacum</placeName> <region/> </origPlace> <origDate notBefore="" notAfter=""><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1844"> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+						<provenance type="found" when="1844"> <placeName> <ref type="context" target="context:fercan.geog.modern."> (Mainz-)Finthen</ref> </placeName> <p>"Ungefähr 709 Schritte von Finthen nach Mainz zu, etwa 13 Schritte von der Landstrasse" (CIL)</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note/> </provenance>
+							</location> <note>"entdeckte man 1844 zuerst einen Brunnen - in schiefer Richtung gegen die Anhähe stiess man 700' vom Brunnen entfernt auf eine Grube und in einer Tiefe von etwa 20' die verschiedenen Steine und oben beschriebenen Altäre" (CIL)</note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>non vidimus </p><p>Lesung gründet auf: CIL und lupa</p></provenance>
 					</history>
 				</msDesc>
@@ -88,9 +87,9 @@
 						</placeName>
 					</place>
 				</listPlace>
-				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context"/></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context"/></persName></person>
+				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context">Degala?</ref></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context"/></persName></person>
 					<person>
-						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context">Degala</ref> </persName>
+						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context">Degala?</ref> </persName>
 					</person>
 					<person>
 						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> </ref> </persName>
@@ -170,11 +169,11 @@
 			<textClass>
 				<keywords>
 					<list>
-						<item> <ref target="context:fercan.dedication." type="context"> votum solvit laetus libens merito</ref> </item>
+						<item> <ref target="context:fercan.dedication." type="context">votum solvit laetus libens merito</ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
-						<item> <ref target="context:fercan.divinepart." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.divinepart." type="context">[D]egalae</ref> </item>
 						<item> <ref target="context:fercan.theonymischesFormular." type="context"> Degala</ref> </item>
 					</list>
 				</keywords>
@@ -189,8 +188,8 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="Degala 1072 inc_fr.jpg">
-			<desc> </desc>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1072_front_unklar.jpg">
+			<desc> Front, Landesmuseum, Mainz, Foto: Ortolf Harl 2016</desc>
 		</graphic>
 	</facsimile>
 	<text>
@@ -205,35 +204,46 @@
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl type="EDCS"><idno> EDCS-11001315</idno><date> 2023-03-15</date></bibl>
-					<bibl type="EDH"><idno> </idno><date> </date></bibl>
+					<bibl type="EDCS"><idno> EDCS-11001315</idno><date>zuletzt abgerufen 2023-03-15</date></bibl>
+					<bibl type="EDH"><idno>HD078026</idno><date>Version von 2019-04-24</date></bibl>
 					<bibl type="trismegistos"><idno> </idno><date> </date></bibl>
-					<bibl type="lupa"><idno> http://lupa.at/27198 </idno><date> 2017-01-26</date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/27198 </idno><date>Version von 2017-01-26</date></bibl>
 					<bibl type="other"><idno> </idno><date> </date></bibl>
-				<bibl type="lupa"><idno/><date/></bibl></listBibl>
+				</listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform">
-				<ab><orig/></ab></div>
-			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab/></div>
+				<ab><lb n="1"/><supplied evidence="previouseditor" reason="undefined">D</supplied>EGALAE
+<lb n="2"/>C<hi rend="ligature">AN</hi><hi rend="ligature">NE</hi>NA
+<lb n="3"/>FATIVM
+<lb n="4"/>VS<g type="interpunct">▴</g>LL<g type="interpunct">▴</g>M<orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Degalae
+<lb n="2"/>Cannena
+<lb n="3" break="no"/>fatium
+<lb n="4"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> oder <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olverunt</ex></expan> <expan><abbr>l</abbr><ex>aeti</ex></expan> <expan><abbr>l</abbr><ex>ibentes</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform">
-				<p><p>Für die <rs type="divine">Degala</rs> der Cannenafates </p><p>hat er/sie (oder: haben sie) das Gelübde freudig, gern und verdientermaßen erfüllt. <br/></p></p>
+				<p>                                                <p>Für die <rs type="divine">Degala</rs> der Cannenafates </p>
+                                                <p>hat er/sie (oder: haben sie) das Gelübde freudig, gern und verdientermaßen erfüllt. <br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform">
 				<p><p>To the <rs type="divine">Degala</rs> of the Cannenafates </p><p>he/she has (or: they had) fulfilled the vow gladly, willingly and deservedly <br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform">
 				<app loc="1">
-					<note/>
+					<note>der unterstrichene Teil in Z.1 ist heute nicht mehr erhalten, er wird nach CIL wiedergegeben; verlorene Zeilen über dieser Zeile – EDH; dec(urio) alae – EDH</note>
 				</app>
-			</div>
-			<div type="commentary" subtype="general" org="uniform">
-				<p> </p>
+			
+            <app loc="4"><note anchored="true">l(ibens) l(aetus) – EDH, Scheungraber</note></app>
+        
+            <app loc="2">
+                <note anchored="true">[I] Cann&lt;a=E&gt;n&lt;e=A&gt;- – EDH</note>
+            </app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform">Cannenafates: auch Cannenefates, Canninefates Cannanefates, Ethnos im NW der Germania Inferior (Much 1913, 365f.; zum Ethnonym s. Neumann 2000, 217–219)<p> </p>
 			</div>
 			<div type="commentary" subtype="language" org="uniform">
 				<p> </p>
 			</div>
-			<div type="commentary" subtype="deity" org="uniform">
-				<p> </p>
+			<div type="commentary" subtype="deity" org="uniform">				<p> </p>
 			</div>
 			<linkGrp type="alignment" domains="#majuscule #minuscule">
 			</linkGrp>
@@ -244,12 +254,12 @@
 			<note type="Material_note">Becker 1875 n99: Kalkstein; Lupa Sandstein<br/></note>
 			<note type="Inschrifttraeger_note">Becker 1875 n. 99 meint Unterteil eines Votivaltars<br/></note>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"><b>Lt. CIL Kartei S 253??!!</b><br/></note>
+			<note type="InvNr_note"><p><b>Lt. CIL Kartei S 253??!!</b></p><p><b>S 1335 - wahrscheinlich, aber noch nicht bestätigt!</b></p></note>
 			<note type="Fundstelle_note"/>
-			<note type="Fundumst_note"/>
+			<note type="Fundumst_note">                                                    <p><b>zusammen mit CIL XIII 7213</b></p></note>
 			<note type="Fundjahr_note"/>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note"><p>in Word gelb hinterlegt</p><p><b>Becker 1875 n. 99: Finthen bei Mainz</b><br/></p></note>
+			<note type="FOmodern_note"><p>Becker 1875 n. 99: Finthen bei Mainz</p><p>auch von Horster bestätigt<br/></p></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note">Autopsie wäre gut wegen: siehe ob auf der Seite Hinweise wie viel vom Stein nach oben hin fehlt<br/></note>
 			<note type="Appcrit_note"/>
@@ -917,7 +927,7 @@
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"/>
+			<note type="Datierung_note"><p>EDH: 71 n. Chr. – 100 n. Chr.</p></note>
 		<note type="ElektronischeRessourcen_note"/><note type="Index_note"/></back>
 	</text>
 </TEI>

@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior414">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior414">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -234,7 +233,11 @@
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, B59</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1498</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 409 Nr.130</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.1033</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -265,10 +268,10 @@
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[niae] Q(uintus) – Stuart/Bogaers, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[niae] Q(uintus) – Stuart/Bogaers, EDH, Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]uti oder [---]xti – Stuart/Bogaers; [---]uti – EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]uti oder [---]xti – Stuart/Bogaers; [---]uti – EDH, Scheungraber, Ferlut; es folgt eine weitere Zeile unbestimmten Inhalts – Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Diui]xti/[us ---] – AE, Raepsaet-Charlier 2003, 298</tei:note>

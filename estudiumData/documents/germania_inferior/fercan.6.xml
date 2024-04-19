@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior6">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior6">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -241,7 +240,9 @@ Die rechte Darstellung ist wesentlich schlechter erhalten, die Oberfläche mehr 
                         <item>
                             <ref type="context" target="context:fercan.dedication.solvit_libens_merito">solvit libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item>
+                    </list>
+                </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">

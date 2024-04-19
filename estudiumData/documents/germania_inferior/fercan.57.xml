@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior57">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior57">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -282,7 +281,11 @@ Auf der rechten Schmalseite sind drei eingerollte Enden einer Pflanzenranke mit 
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 7976</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1918, Nr.334</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 351 </bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.580</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -317,19 +320,19 @@ Lucius Ialehenius Secundus and Gaius Challinius Paternus in response to an order
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Matron[is] – Lehner</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Lane(i?)hiabus – Lehner</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Lane(i?)hiabus – Lehner; Laneihiabus – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">am Anfang ein I oder ein velarer Reiblaut – CIL</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Lehner; Paternu[s] – Lehner</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Lehner; Paternu[s] – Lehner, Scheungraber; Paternus – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.6 #MAJ.6">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">imper[io i]psaru[m] – Lehner</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">imper[io i]psaru[m] – Lehner; imperi[o] ipsaru[m] – Scheungraber; impero ipsarum – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.7 #MAJ.7">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">am Ende noch zusäzulich l(ibens) – Lehner</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">am Ende noch zusätzlich l(ibens) – Lehner, Scheungraber</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

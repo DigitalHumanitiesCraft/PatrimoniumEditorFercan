@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior331">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior331">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -300,7 +299,11 @@ Die Darstellung der linken Seite gleicht der rechten Darstellung, es fehlt nur d
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, A24</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1455</bibl>
-                </listBibl>
+                
+            <bibl xml:id="3">Scheungraber 2020, 399 Nr.47</bibl>
+        
+            <bibl xml:id="4">Ferlut 2022, Nr.1084</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -335,7 +338,11 @@ Lucius Optatus … willingly and deservedly. </p>
                 <app loc="#MIN.2 #MAJ.2">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">fehlender Zeilenwechsel nach lenniae – AE, EDH</tei:note>
                 </app>
-            </div>
+            
+            <app loc="4">
+                <note anchored="true">[v(otum) s(olvit)] l(ibens) m(erito) – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">L(ucius) Optatus: Es bestehen verschieden Verständnismöglichkeiten: tria nomina mit nicht erhaltenem Cognomen; es könnte aber auch L für ein Gentilnomen stehen und Optatus dann ein Cognomen sein; weiters ist wohl auch das Verständnis als Praenomen mit Cognomen nicht völlig auszuschließen. <lb/>
 Lucius: möglicherweise hier als Gentilnomen verwendet, wäre dann als italisches Gentilnomen oder als einheimisches Pseudogentilnomen zu sehen (Kakoschke 2006, GN 686) <lb/> 

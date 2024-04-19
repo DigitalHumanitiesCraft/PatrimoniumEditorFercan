@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior147">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior147">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -252,7 +251,11 @@ Die rechte Schmalseite zeigt eine stark zerstörte Oberfläche – laut Clauss s
                     <bibl xml:id="LIT.1" default="false" status="draft">Clauss 1976, Nr.20</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1977, 557</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Kakoschke 2016, IV Nr.8</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 557 Nr.9</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.693</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -285,10 +288,10 @@ Titus Statilius Candidus has fulfilled a vow willingly and deservedly.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">M(atronis) – Clauss, AE, EDH; Vacâllin̂e – Clauss, Kakoschke; Vacalline – AE, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">M(atronis) – Clauss, AE, EDH, Scheungraber, Ferlut; Vacâllin̂e – Clauss, Kakoschke; Vacalline – AE, EDH, Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">his – Clauss, AE, EDH; ˧is – Kakoschke; Statil[i] – Kakoschke</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">his – Clauss, AE, EDH, Scheungraber, Ferlut; ˧is – Kakoschke; Statil[i] – Kakoschke</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

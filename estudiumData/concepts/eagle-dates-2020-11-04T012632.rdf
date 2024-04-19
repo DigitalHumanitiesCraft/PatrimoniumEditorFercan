@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:RDF xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:time="http://www.w3.org/2006/time#" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <skos:ConceptScheme rdf:about="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/">
         <dc:title type="full">EAGLE Vocabulary - Dating Criteria</dc:title>
         <dc:title type="short">dates</dc:title>
@@ -369,7 +368,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23777" rdf:about="https://ausohnum.huma-num.fr/concept/c23777">
         <skos:prefLabel xml:lang="es">Adrianea (c. 117-138 d. C.)</skos:prefLabel>
@@ -391,7 +390,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23778" rdf:about="https://ausohnum.huma-num.fr/concept/c23778">
         <skos:prefLabel xml:lang="es">Aemilius Aemilianus</skos:prefLabel>
@@ -406,7 +405,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23779" rdf:about="https://ausohnum.huma-num.fr/concept/c23779">
         <skos:prefLabel xml:lang="el">Akrotiri-Aetokremmos</skos:prefLabel>
@@ -420,7 +419,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23780" rdf:about="https://ausohnum.huma-num.fr/concept/c23780">
         <skos:prefLabel xml:lang="es">Anarquía (c. 235-284 d.C.)</skos:prefLabel>
@@ -434,7 +433,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23781" rdf:about="https://ausohnum.huma-num.fr/concept/c23781">
         <skos:prefLabel xml:lang="es">Anastasius</skos:prefLabel>
@@ -450,7 +449,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23782" rdf:about="https://ausohnum.huma-num.fr/concept/c23782">
         <skos:prefLabel xml:lang="es">Antigüedad Tardía (S. IV-VI)</skos:prefLabel>
@@ -466,7 +465,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23783" rdf:about="https://ausohnum.huma-num.fr/concept/c23783">
         <skos:prefLabel xml:lang="es">Antoniniana (c. 138-192 d. C.)</skos:prefLabel>
@@ -480,7 +479,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23784" rdf:about="https://ausohnum.huma-num.fr/concept/c23784">
         <skos:prefLabel xml:lang="de">Antoninisch-Severisch</skos:prefLabel>
@@ -494,7 +493,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23785" rdf:about="https://ausohnum.huma-num.fr/concept/c23785">
         <skos:prefLabel xml:lang="es">Antonino Pío</skos:prefLabel>
@@ -509,7 +508,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23786" rdf:about="https://ausohnum.huma-num.fr/concept/c23786">
         <skos:prefLabel xml:lang="la">Arcadius</skos:prefLabel>
@@ -526,7 +525,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23787" rdf:about="https://ausohnum.huma-num.fr/concept/c23787">
         <skos:prefLabel xml:lang="en">Archaic</skos:prefLabel>
@@ -540,7 +539,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23788" rdf:about="https://ausohnum.huma-num.fr/concept/c23788">
         <skos:prefLabel xml:lang="en">Early Ptolemaic Period </skos:prefLabel>
@@ -555,7 +554,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23789" rdf:about="https://ausohnum.huma-num.fr/concept/c23789">
         <skos:prefLabel xml:lang="es">Augustea (c. 27 a.C-14 d.C.)</skos:prefLabel>
@@ -569,7 +568,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23790" rdf:about="https://ausohnum.huma-num.fr/concept/c23790">
         <skos:prefLabel xml:lang="es">Augustus</skos:prefLabel>
@@ -584,7 +583,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23791" rdf:about="https://ausohnum.huma-num.fr/concept/c23791">
         <skos:prefLabel xml:lang="es">Aureliano</skos:prefLabel>
@@ -599,7 +598,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23792" rdf:about="https://ausohnum.huma-num.fr/concept/c23792">
         <skos:prefLabel xml:lang="es">Bajoimperial (ss. IV- V d.C.)</skos:prefLabel>
@@ -613,7 +612,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23793" rdf:about="https://ausohnum.huma-num.fr/concept/c23793">
         <skos:prefLabel xml:lang="es">Balbinus</skos:prefLabel>
@@ -628,7 +627,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23794" rdf:about="https://ausohnum.huma-num.fr/concept/c23794">
         <skos:prefLabel xml:lang="en">Byzantine period</skos:prefLabel>
@@ -643,7 +642,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23795" rdf:about="https://ausohnum.huma-num.fr/concept/c23795">
         <skos:prefLabel xml:lang="es">Caligula</skos:prefLabel>
@@ -658,7 +657,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23796" rdf:about="https://ausohnum.huma-num.fr/concept/c23796">
         <skos:prefLabel xml:lang="es">Caracala</skos:prefLabel>
@@ -674,7 +673,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23797" rdf:about="https://ausohnum.huma-num.fr/concept/c23797">
         <skos:prefLabel xml:lang="es">Carino (c. 283-285 d.C.)</skos:prefLabel>
@@ -689,7 +688,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23798" rdf:about="https://ausohnum.huma-num.fr/concept/c23798">
         <skos:prefLabel xml:lang="es">Carus</skos:prefLabel>
@@ -704,7 +703,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23799" rdf:about="https://ausohnum.huma-num.fr/concept/c23799">
         <skos:prefLabel xml:lang="en">Ceramic Neolithic</skos:prefLabel>
@@ -718,7 +717,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23800" rdf:about="https://ausohnum.huma-num.fr/concept/c23800">
         <skos:prefLabel xml:lang="en">Chalcolithic</skos:prefLabel>
@@ -732,7 +731,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23801" rdf:about="https://ausohnum.huma-num.fr/concept/c23801">
         <skos:prefLabel xml:lang="en">Classical</skos:prefLabel>
@@ -746,7 +745,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23802" rdf:about="https://ausohnum.huma-num.fr/concept/c23802">
         <skos:prefLabel xml:lang="es">Claudiana (c. 41-54 d.C.)</skos:prefLabel>
@@ -760,7 +759,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23803" rdf:about="https://ausohnum.huma-num.fr/concept/c23803">
         <skos:prefLabel xml:lang="es">Claudius</skos:prefLabel>
@@ -775,7 +774,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23804" rdf:about="https://ausohnum.huma-num.fr/concept/c23804">
         <skos:prefLabel xml:lang="es">Claudius II Gothicus</skos:prefLabel>
@@ -790,7 +789,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23805" rdf:about="https://ausohnum.huma-num.fr/concept/c23805">
         <skos:prefLabel xml:lang="es">Commodus</skos:prefLabel>
@@ -805,7 +804,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23806" rdf:about="https://ausohnum.huma-num.fr/concept/c23806">
         <skos:prefLabel xml:lang="es">Constans</skos:prefLabel>
@@ -820,7 +819,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23807" rdf:about="https://ausohnum.huma-num.fr/concept/c23807">
         <skos:prefLabel xml:lang="en">Constantine I</skos:prefLabel>
@@ -841,7 +840,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23808" rdf:about="https://ausohnum.huma-num.fr/concept/c23808">
         <skos:prefLabel xml:lang="en">Constantine II</skos:prefLabel>
@@ -858,7 +857,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23809" rdf:about="https://ausohnum.huma-num.fr/concept/c23809">
         <skos:prefLabel xml:lang="es">Constantiniana (c. 307-337 d.C.)</skos:prefLabel>
@@ -872,7 +871,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23810" rdf:about="https://ausohnum.huma-num.fr/concept/c23810">
         <skos:prefLabel xml:lang="es">Constantius I</skos:prefLabel>
@@ -889,7 +888,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23811" rdf:about="https://ausohnum.huma-num.fr/concept/c23811">
         <skos:prefLabel xml:lang="de">Constantius II</skos:prefLabel>
@@ -906,7 +905,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23812" rdf:about="https://ausohnum.huma-num.fr/concept/c23812">
         <skos:prefLabel xml:lang="es">Cristiana primitiva (S. I-III)</skos:prefLabel>
@@ -920,7 +919,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23813" rdf:about="https://ausohnum.huma-num.fr/concept/c23813">
         <skos:prefLabel xml:lang="es">Decio</skos:prefLabel>
@@ -936,7 +935,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23814" rdf:about="https://ausohnum.huma-num.fr/concept/c23814">
         <skos:prefLabel xml:lang="de">Didius Iulianus</skos:prefLabel>
@@ -951,7 +950,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23815" rdf:about="https://ausohnum.huma-num.fr/concept/c23815">
         <skos:prefLabel xml:lang="en">Diocletian</skos:prefLabel>
@@ -971,7 +970,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23816" rdf:about="https://ausohnum.huma-num.fr/concept/c23816">
         <skos:prefLabel xml:lang="de">Domitian</skos:prefLabel>
@@ -986,7 +985,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23817" rdf:about="https://ausohnum.huma-num.fr/concept/c23817">
         <skos:prefLabel xml:lang="es">Domitiana (c. 81-96 d.C.)</skos:prefLabel>
@@ -1000,7 +999,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23818" rdf:about="https://ausohnum.huma-num.fr/concept/c23818">
         <skos:prefLabel xml:lang="en">Early Bronze Age</skos:prefLabel>
@@ -1014,7 +1013,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23819" rdf:about="https://ausohnum.huma-num.fr/concept/c23819">
         <skos:prefLabel xml:lang="en">Early Christian</skos:prefLabel>
@@ -1028,7 +1027,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23820" rdf:about="https://ausohnum.huma-num.fr/concept/c23820">
         <skos:prefLabel xml:lang="de">Elagabal</skos:prefLabel>
@@ -1044,7 +1043,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23821" rdf:about="https://ausohnum.huma-num.fr/concept/c23821">
         <skos:prefLabel xml:lang="es">Filipo el Árabe</skos:prefLabel>
@@ -1059,7 +1058,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23822" rdf:about="https://ausohnum.huma-num.fr/concept/c23822">
         <skos:prefLabel xml:lang="es">Flavia (c. 69-96 d.C.)</skos:prefLabel>
@@ -1073,7 +1072,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23823" rdf:about="https://ausohnum.huma-num.fr/concept/c23823">
         <skos:prefLabel xml:lang="de">Florianus</skos:prefLabel>
@@ -1088,7 +1087,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23824" rdf:about="https://ausohnum.huma-num.fr/concept/c23824">
         <skos:prefLabel xml:lang="de">Frühmittelalterlich</skos:prefLabel>
@@ -1102,7 +1101,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23825" rdf:about="https://ausohnum.huma-num.fr/concept/c23825">
         <skos:prefLabel xml:lang="de">Galba</skos:prefLabel>
@@ -1117,7 +1116,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23826" rdf:about="https://ausohnum.huma-num.fr/concept/c23826">
         <skos:prefLabel xml:lang="de">Galerius</skos:prefLabel>
@@ -1132,7 +1131,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23827" rdf:about="https://ausohnum.huma-num.fr/concept/c23827">
         <skos:prefLabel xml:lang="de">Galieno</skos:prefLabel>
@@ -1147,7 +1146,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23828" rdf:about="https://ausohnum.huma-num.fr/concept/c23828">
         <skos:prefLabel xml:lang="en">Geometric</skos:prefLabel>
@@ -1161,7 +1160,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23829" rdf:about="https://ausohnum.huma-num.fr/concept/c23829">
         <skos:prefLabel xml:lang="de">Gordian I</skos:prefLabel>
@@ -1176,7 +1175,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23830" rdf:about="https://ausohnum.huma-num.fr/concept/c23830">
         <skos:prefLabel xml:lang="de">Gordian II</skos:prefLabel>
@@ -1191,7 +1190,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23831" rdf:about="https://ausohnum.huma-num.fr/concept/c23831">
         <skos:prefLabel xml:lang="de">Gordiano III</skos:prefLabel>
@@ -1206,7 +1205,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23832" rdf:about="https://ausohnum.huma-num.fr/concept/c23832">
         <skos:prefLabel xml:lang="de">Gratian</skos:prefLabel>
@@ -1223,7 +1222,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23833" rdf:about="https://ausohnum.huma-num.fr/concept/c23833">
         <skos:prefLabel xml:lang="de">Hadrian</skos:prefLabel>
@@ -1238,7 +1237,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23834" rdf:about="https://ausohnum.huma-num.fr/concept/c23834">
         <skos:prefLabel xml:lang="en">Hellenistic</skos:prefLabel>
@@ -1253,7 +1252,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23835" rdf:about="https://ausohnum.huma-num.fr/concept/c23835">
         <skos:prefLabel xml:lang="en">Herenio Etrusco (251 d.C.)</skos:prefLabel>
@@ -1267,7 +1266,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23836" rdf:about="https://ausohnum.huma-num.fr/concept/c23836">
         <skos:prefLabel xml:lang="en">Honorius</skos:prefLabel>
@@ -1282,7 +1281,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23837" rdf:about="https://ausohnum.huma-num.fr/concept/c23837">
         <skos:prefLabel xml:lang="de">Jovian</skos:prefLabel>
@@ -1299,7 +1298,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23838" rdf:about="https://ausohnum.huma-num.fr/concept/c23838">
         <skos:prefLabel xml:lang="de">Julian</skos:prefLabel>
@@ -1317,7 +1316,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23839" rdf:about="https://ausohnum.huma-num.fr/concept/c23839">
         <skos:prefLabel xml:lang="es">Julio-Claudia (c. 27 a.C.-68 d.C.)</skos:prefLabel>
@@ -1331,7 +1330,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23840" rdf:about="https://ausohnum.huma-num.fr/concept/c23840">
         <skos:prefLabel xml:lang="en">Justin I</skos:prefLabel>
@@ -1346,7 +1345,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23841" rdf:about="https://ausohnum.huma-num.fr/concept/c23841">
         <skos:prefLabel xml:lang="en">Justinian I</skos:prefLabel>
@@ -1363,7 +1362,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23842" rdf:about="https://ausohnum.huma-num.fr/concept/c23842">
         <skos:prefLabel xml:lang="en">Late antique</skos:prefLabel>
@@ -1378,7 +1377,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23843" rdf:about="https://ausohnum.huma-num.fr/concept/c23843">
         <skos:prefLabel xml:lang="en">Late Bronze Age</skos:prefLabel>
@@ -1392,7 +1391,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23844" rdf:about="https://ausohnum.huma-num.fr/concept/c23844">
         <skos:prefLabel xml:lang="en">Leo I</skos:prefLabel>
@@ -1409,7 +1408,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23845" rdf:about="https://ausohnum.huma-num.fr/concept/c23845">
         <skos:prefLabel xml:lang="de">Licinio</skos:prefLabel>
@@ -1424,7 +1423,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23846" rdf:about="https://ausohnum.huma-num.fr/concept/c23846">
         <skos:prefLabel xml:lang="de">Macrinus</skos:prefLabel>
@@ -1439,7 +1438,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23847" rdf:about="https://ausohnum.huma-num.fr/concept/c23847">
         <skos:prefLabel xml:lang="en">Marcian</skos:prefLabel>
@@ -1454,7 +1453,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23848" rdf:about="https://ausohnum.huma-num.fr/concept/c23848">
         <skos:prefLabel xml:lang="de">Marco Aurelio</skos:prefLabel>
@@ -1469,7 +1468,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23849" rdf:about="https://ausohnum.huma-num.fr/concept/c23849">
         <skos:prefLabel xml:lang="de">Maxentius</skos:prefLabel>
@@ -1484,7 +1483,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23850" rdf:about="https://ausohnum.huma-num.fr/concept/c23850">
         <skos:prefLabel xml:lang="de">Maximiano Hercúleo</skos:prefLabel>
@@ -1499,7 +1498,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23851" rdf:about="https://ausohnum.huma-num.fr/concept/c23851">
         <skos:prefLabel xml:lang="es">Maximino el Tracio</skos:prefLabel>
@@ -1515,7 +1514,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23852" rdf:about="https://ausohnum.huma-num.fr/concept/c23852">
         <skos:prefLabel xml:lang="de">Maximinus Daia</skos:prefLabel>
@@ -1530,7 +1529,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23853" rdf:about="https://ausohnum.huma-num.fr/concept/c23853">
         <skos:prefLabel xml:lang="en">Middle Bronze Age</skos:prefLabel>
@@ -1544,7 +1543,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23854" rdf:about="https://ausohnum.huma-num.fr/concept/c23854">
         <skos:prefLabel xml:lang="de">Nero</skos:prefLabel>
@@ -1559,7 +1558,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23855" rdf:about="https://ausohnum.huma-num.fr/concept/c23855">
         <skos:prefLabel xml:lang="es">Neroniana (c. 54-68 d.C.)</skos:prefLabel>
@@ -1573,7 +1572,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23856" rdf:about="https://ausohnum.huma-num.fr/concept/c23856">
         <skos:prefLabel xml:lang="de">Nerva</skos:prefLabel>
@@ -1588,7 +1587,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23857" rdf:about="https://ausohnum.huma-num.fr/concept/c23857">
         <skos:prefLabel xml:lang="de">Numeriano</skos:prefLabel>
@@ -1603,7 +1602,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23858" rdf:about="https://ausohnum.huma-num.fr/concept/c23858">
         <skos:prefLabel xml:lang="de">Otho</skos:prefLabel>
@@ -1618,7 +1617,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23859" rdf:about="https://ausohnum.huma-num.fr/concept/c23859">
         <skos:prefLabel xml:lang="en">periods</skos:prefLabel>
@@ -1651,7 +1650,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23860" rdf:about="https://ausohnum.huma-num.fr/concept/c23860">
         <skos:prefLabel xml:lang="de">Pertinax</skos:prefLabel>
@@ -1666,7 +1665,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23861" rdf:about="https://ausohnum.huma-num.fr/concept/c23861">
         <skos:prefLabel xml:lang="de">Phocas</skos:prefLabel>
@@ -1681,7 +1680,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23862" rdf:about="https://ausohnum.huma-num.fr/concept/c23862">
         <skos:prefLabel xml:lang="es">Póstumo</skos:prefLabel>
@@ -1695,7 +1694,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23863" rdf:about="https://ausohnum.huma-num.fr/concept/c23863">
         <skos:prefLabel xml:lang="de">Prähistorisch</skos:prefLabel>
@@ -1709,7 +1708,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23864" rdf:about="https://ausohnum.huma-num.fr/concept/c23864">
         <skos:prefLabel xml:lang="de">Probus</skos:prefLabel>
@@ -1724,7 +1723,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23865" rdf:about="https://ausohnum.huma-num.fr/concept/c23865">
         <skos:prefLabel xml:lang="de">Pupienus</skos:prefLabel>
@@ -1739,7 +1738,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23866" rdf:about="https://ausohnum.huma-num.fr/concept/c23866">
         <skos:prefLabel xml:lang="de">Quintillus</skos:prefLabel>
@@ -1754,7 +1753,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23867" rdf:about="https://ausohnum.huma-num.fr/concept/c23867">
         <skos:prefLabel xml:lang="en">reign of emperors</skos:prefLabel>
@@ -1869,7 +1868,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23868" rdf:about="https://ausohnum.huma-num.fr/concept/c23868">
         <skos:prefLabel xml:lang="de">republikanisch</skos:prefLabel>
@@ -1885,7 +1884,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23869" rdf:about="https://ausohnum.huma-num.fr/concept/c23869">
         <skos:prefLabel xml:lang="en">Roman</skos:prefLabel>
@@ -1900,7 +1899,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23870" rdf:about="https://ausohnum.huma-num.fr/concept/c23870">
         <skos:prefLabel xml:lang="de">Septimius Severus</skos:prefLabel>
@@ -1915,7 +1914,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23871" rdf:about="https://ausohnum.huma-num.fr/concept/c23871">
         <skos:prefLabel xml:lang="es">Severiana (c. 193-235 d.C.)</skos:prefLabel>
@@ -1929,7 +1928,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23872" rdf:about="https://ausohnum.huma-num.fr/concept/c23872">
         <skos:prefLabel xml:lang="de">Severisch-Soldatenkaiser</skos:prefLabel>
@@ -1943,7 +1942,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23873" rdf:about="https://ausohnum.huma-num.fr/concept/c23873">
         <skos:prefLabel xml:lang="de">Severus Alexander</skos:prefLabel>
@@ -1958,7 +1957,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23874" rdf:about="https://ausohnum.huma-num.fr/concept/c23874">
         <skos:prefLabel xml:lang="de">Severus II</skos:prefLabel>
@@ -1973,7 +1972,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23875" rdf:about="https://ausohnum.huma-num.fr/concept/c23875">
         <skos:prefLabel xml:lang="de">spätrepublikanisch</skos:prefLabel>
@@ -1987,7 +1986,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23876" rdf:about="https://ausohnum.huma-num.fr/concept/c23876">
         <skos:prefLabel xml:lang="de">Tacitus</skos:prefLabel>
@@ -2002,7 +2001,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23877" rdf:about="https://ausohnum.huma-num.fr/concept/c23877">
         <skos:prefLabel xml:lang="es">Teodosiana (c. 379-395 d.C.)</skos:prefLabel>
@@ -2016,7 +2015,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23878" rdf:about="https://ausohnum.huma-num.fr/concept/c23878">
         <skos:prefLabel xml:lang="es">Tetrarquía (c. 284-306 d.C.)</skos:prefLabel>
@@ -2030,7 +2029,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23879" rdf:about="https://ausohnum.huma-num.fr/concept/c23879">
         <skos:prefLabel xml:lang="de">Theodosius I</skos:prefLabel>
@@ -2045,7 +2044,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23880" rdf:about="https://ausohnum.huma-num.fr/concept/c23880">
         <skos:prefLabel xml:lang="es">Tiberiana (c. 14-37 d.C.)</skos:prefLabel>
@@ -2059,7 +2058,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23881" rdf:about="https://ausohnum.huma-num.fr/concept/c23881">
         <skos:prefLabel xml:lang="de">Tiberius</skos:prefLabel>
@@ -2074,7 +2073,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23882" rdf:about="https://ausohnum.huma-num.fr/concept/c23882">
         <skos:prefLabel xml:lang="de">Tito</skos:prefLabel>
@@ -2089,7 +2088,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23883" rdf:about="https://ausohnum.huma-num.fr/concept/c23883">
         <skos:prefLabel xml:lang="de">Trajan</skos:prefLabel>
@@ -2104,7 +2103,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23884" rdf:about="https://ausohnum.huma-num.fr/concept/c23884">
         <skos:prefLabel xml:lang="es">Trajanea (c. 98-117 d.C.)</skos:prefLabel>
@@ -2118,7 +2117,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23885" rdf:about="https://ausohnum.huma-num.fr/concept/c23885">
         <skos:prefLabel xml:lang="de">Trajanisch-Hadrianisch</skos:prefLabel>
@@ -2132,7 +2131,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23886" rdf:about="https://ausohnum.huma-num.fr/concept/c23886">
         <skos:prefLabel xml:lang="de">Trajanisch-Soldatenkaiser</skos:prefLabel>
@@ -2146,7 +2145,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23887" rdf:about="https://ausohnum.huma-num.fr/concept/c23887">
         <skos:prefLabel xml:lang="de">Treboniano Galo</skos:prefLabel>
@@ -2161,7 +2160,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23888" rdf:about="https://ausohnum.huma-num.fr/concept/c23888">
         <skos:prefLabel xml:lang="de">Valens</skos:prefLabel>
@@ -2176,7 +2175,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23889" rdf:about="https://ausohnum.huma-num.fr/concept/c23889">
         <skos:prefLabel xml:lang="de">Valentinian I</skos:prefLabel>
@@ -2191,7 +2190,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23890" rdf:about="https://ausohnum.huma-num.fr/concept/c23890">
         <skos:prefLabel xml:lang="de">Valentinian II</skos:prefLabel>
@@ -2206,7 +2205,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23891" rdf:about="https://ausohnum.huma-num.fr/concept/c23891">
         <skos:prefLabel xml:lang="en">Valentinian III</skos:prefLabel>
@@ -2221,7 +2220,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23892" rdf:about="https://ausohnum.huma-num.fr/concept/c23892">
         <skos:prefLabel xml:lang="de">Valeriano</skos:prefLabel>
@@ -2236,7 +2235,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23893" rdf:about="https://ausohnum.huma-num.fr/concept/c23893">
         <skos:prefLabel xml:lang="de">Vespasian</skos:prefLabel>
@@ -2251,7 +2250,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23894" rdf:about="https://ausohnum.huma-num.fr/concept/c23894">
         <skos:prefLabel xml:lang="es">Vespasiana (c. 69-79 d.C.)</skos:prefLabel>
@@ -2265,7 +2264,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23895" rdf:about="https://ausohnum.huma-num.fr/concept/c23895">
         <skos:prefLabel xml:lang="es">Victorino (268-270 d.C.)</skos:prefLabel>
@@ -2279,7 +2278,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23896" rdf:about="https://ausohnum.huma-num.fr/concept/c23896">
         <skos:prefLabel xml:lang="es">Visigoda (c. 400-711)</skos:prefLabel>
@@ -2293,7 +2292,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23897" rdf:about="https://ausohnum.huma-num.fr/concept/c23897">
         <skos:prefLabel xml:lang="de">Vitellius</skos:prefLabel>
@@ -2308,7 +2307,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23898" rdf:about="https://ausohnum.huma-num.fr/concept/c23898">
         <skos:prefLabel xml:lang="de">Vorrömisch</skos:prefLabel>
@@ -2322,7 +2321,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23899" rdf:about="https://ausohnum.huma-num.fr/concept/c23899">
         <skos:prefLabel xml:lang="de">Zeno I</skos:prefLabel>
@@ -2337,7 +2336,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23900" rdf:about="https://ausohnum.huma-num.fr/concept/c23900">
         <skos:prefLabel xml:lang="en">centuries</skos:prefLabel>
@@ -2380,7 +2379,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23901" rdf:about="https://ausohnum.huma-num.fr/concept/c23901">
         <skos:prefLabel xml:lang="en">VIII BC</skos:prefLabel>
@@ -2410,7 +2409,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23902" rdf:about="https://ausohnum.huma-num.fr/concept/c23902">
         <skos:prefLabel xml:lang="en">beginning of VIII BC</skos:prefLabel>
@@ -2429,7 +2428,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23903" rdf:about="https://ausohnum.huma-num.fr/concept/c23903">
         <skos:prefLabel xml:lang="en">earlier VIII BC</skos:prefLabel>
@@ -2448,7 +2447,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23904" rdf:about="https://ausohnum.huma-num.fr/concept/c23904">
         <skos:prefLabel xml:lang="en">early VIII BC</skos:prefLabel>
@@ -2467,7 +2466,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23905" rdf:about="https://ausohnum.huma-num.fr/concept/c23905">
         <skos:prefLabel xml:lang="en">second quarter of VIII BC</skos:prefLabel>
@@ -2486,7 +2485,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23906" rdf:about="https://ausohnum.huma-num.fr/concept/c23906">
         <skos:prefLabel xml:lang="en">first half of VIII BC</skos:prefLabel>
@@ -2505,7 +2504,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23907" rdf:about="https://ausohnum.huma-num.fr/concept/c23907">
         <skos:prefLabel xml:lang="en">mid VIII BC</skos:prefLabel>
@@ -2525,7 +2524,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23908" rdf:about="https://ausohnum.huma-num.fr/concept/c23908">
         <skos:prefLabel xml:lang="en">second half of VIII BC</skos:prefLabel>
@@ -2544,7 +2543,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23909" rdf:about="https://ausohnum.huma-num.fr/concept/c23909">
         <skos:prefLabel xml:lang="en">third quarter of VIII BC</skos:prefLabel>
@@ -2563,7 +2562,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23910" rdf:about="https://ausohnum.huma-num.fr/concept/c23910">
         <skos:prefLabel xml:lang="en">late VIII BC</skos:prefLabel>
@@ -2582,7 +2581,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23911" rdf:about="https://ausohnum.huma-num.fr/concept/c23911">
         <skos:prefLabel xml:lang="en">later VIII BC</skos:prefLabel>
@@ -2601,7 +2600,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23912" rdf:about="https://ausohnum.huma-num.fr/concept/c23912">
         <skos:prefLabel xml:lang="en">end of VIII BC</skos:prefLabel>
@@ -2620,7 +2619,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23913" rdf:about="https://ausohnum.huma-num.fr/concept/c23913">
         <skos:prefLabel xml:lang="en">VII BC</skos:prefLabel>
@@ -2651,7 +2650,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23914" rdf:about="https://ausohnum.huma-num.fr/concept/c23914">
         <skos:prefLabel xml:lang="en">beginning of VII BC</skos:prefLabel>
@@ -2670,7 +2669,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23915" rdf:about="https://ausohnum.huma-num.fr/concept/c23915">
         <skos:prefLabel xml:lang="en">earlier VII BC</skos:prefLabel>
@@ -2689,7 +2688,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23916" rdf:about="https://ausohnum.huma-num.fr/concept/c23916">
         <skos:prefLabel xml:lang="en">early VII BC</skos:prefLabel>
@@ -2708,7 +2707,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23917" rdf:about="https://ausohnum.huma-num.fr/concept/c23917">
         <skos:prefLabel xml:lang="en">second quarter of VII BC</skos:prefLabel>
@@ -2727,7 +2726,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23918" rdf:about="https://ausohnum.huma-num.fr/concept/c23918">
         <skos:prefLabel xml:lang="en">first half of VII BC</skos:prefLabel>
@@ -2746,7 +2745,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23919" rdf:about="https://ausohnum.huma-num.fr/concept/c23919">
         <skos:prefLabel xml:lang="en">mid VII BC</skos:prefLabel>
@@ -2765,7 +2764,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23920" rdf:about="https://ausohnum.huma-num.fr/concept/c23920">
         <skos:prefLabel xml:lang="en">second half of VII BC</skos:prefLabel>
@@ -2784,7 +2783,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23921" rdf:about="https://ausohnum.huma-num.fr/concept/c23921">
         <skos:prefLabel xml:lang="en">third quarter of VII BC</skos:prefLabel>
@@ -2803,7 +2802,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23922" rdf:about="https://ausohnum.huma-num.fr/concept/c23922">
         <skos:prefLabel xml:lang="en">late VII BC</skos:prefLabel>
@@ -2822,7 +2821,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23923" rdf:about="https://ausohnum.huma-num.fr/concept/c23923">
         <skos:prefLabel xml:lang="en">later VII BC</skos:prefLabel>
@@ -2841,7 +2840,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23924" rdf:about="https://ausohnum.huma-num.fr/concept/c23924">
         <skos:prefLabel xml:lang="en">end of VII BC</skos:prefLabel>
@@ -2860,7 +2859,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23925" rdf:about="https://ausohnum.huma-num.fr/concept/c23925">
         <skos:prefLabel xml:lang="en">VI BC</skos:prefLabel>
@@ -2891,7 +2890,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23926" rdf:about="https://ausohnum.huma-num.fr/concept/c23926">
         <skos:prefLabel xml:lang="en">beginning of VI BC</skos:prefLabel>
@@ -2910,7 +2909,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23927" rdf:about="https://ausohnum.huma-num.fr/concept/c23927">
         <skos:prefLabel xml:lang="en">earlier VI BC</skos:prefLabel>
@@ -2929,7 +2928,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23928" rdf:about="https://ausohnum.huma-num.fr/concept/c23928">
         <skos:prefLabel xml:lang="en">early VI BC</skos:prefLabel>
@@ -2948,7 +2947,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23929" rdf:about="https://ausohnum.huma-num.fr/concept/c23929">
         <skos:prefLabel xml:lang="en">second quarter of VI BC</skos:prefLabel>
@@ -2967,7 +2966,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23930" rdf:about="https://ausohnum.huma-num.fr/concept/c23930">
         <skos:prefLabel xml:lang="en">first half of VI BC</skos:prefLabel>
@@ -2986,7 +2985,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23931" rdf:about="https://ausohnum.huma-num.fr/concept/c23931">
         <skos:prefLabel xml:lang="en">mid VI BC</skos:prefLabel>
@@ -3005,7 +3004,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23932" rdf:about="https://ausohnum.huma-num.fr/concept/c23932">
         <skos:prefLabel xml:lang="en">second half of VI BC</skos:prefLabel>
@@ -3024,7 +3023,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23933" rdf:about="https://ausohnum.huma-num.fr/concept/c23933">
         <skos:prefLabel xml:lang="en">third quarter of VI BC</skos:prefLabel>
@@ -3043,7 +3042,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23934" rdf:about="https://ausohnum.huma-num.fr/concept/c23934">
         <skos:prefLabel xml:lang="en">late VI BC</skos:prefLabel>
@@ -3062,7 +3061,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23935" rdf:about="https://ausohnum.huma-num.fr/concept/c23935">
         <skos:prefLabel xml:lang="en">later VI BC</skos:prefLabel>
@@ -3081,7 +3080,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23936" rdf:about="https://ausohnum.huma-num.fr/concept/c23936">
         <skos:prefLabel xml:lang="en">end of VI BC</skos:prefLabel>
@@ -3100,7 +3099,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23937" rdf:about="https://ausohnum.huma-num.fr/concept/c23937">
         <skos:prefLabel xml:lang="en">V BC</skos:prefLabel>
@@ -3130,7 +3129,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23938" rdf:about="https://ausohnum.huma-num.fr/concept/c23938">
         <skos:prefLabel xml:lang="en">beginning of V BC</skos:prefLabel>
@@ -3149,7 +3148,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23939" rdf:about="https://ausohnum.huma-num.fr/concept/c23939">
         <skos:prefLabel xml:lang="en">earlier V BC</skos:prefLabel>
@@ -3168,7 +3167,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23940" rdf:about="https://ausohnum.huma-num.fr/concept/c23940">
         <skos:prefLabel xml:lang="en">early V BC</skos:prefLabel>
@@ -3187,7 +3186,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23941" rdf:about="https://ausohnum.huma-num.fr/concept/c23941">
         <skos:prefLabel xml:lang="en">second quarter of V BC</skos:prefLabel>
@@ -3206,7 +3205,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23942" rdf:about="https://ausohnum.huma-num.fr/concept/c23942">
         <skos:prefLabel xml:lang="en">first half of V BC</skos:prefLabel>
@@ -3225,7 +3224,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23943" rdf:about="https://ausohnum.huma-num.fr/concept/c23943">
         <skos:prefLabel xml:lang="en">mid V BC</skos:prefLabel>
@@ -3244,7 +3243,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23944" rdf:about="https://ausohnum.huma-num.fr/concept/c23944">
         <skos:prefLabel xml:lang="en">second half of V BC</skos:prefLabel>
@@ -3263,7 +3262,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23945" rdf:about="https://ausohnum.huma-num.fr/concept/c23945">
         <skos:prefLabel xml:lang="en">third quarter of V BC</skos:prefLabel>
@@ -3282,7 +3281,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23946" rdf:about="https://ausohnum.huma-num.fr/concept/c23946">
         <skos:prefLabel xml:lang="en">late V BC</skos:prefLabel>
@@ -3301,7 +3300,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23947" rdf:about="https://ausohnum.huma-num.fr/concept/c23947">
         <skos:prefLabel xml:lang="en">later V BC</skos:prefLabel>
@@ -3320,7 +3319,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23948" rdf:about="https://ausohnum.huma-num.fr/concept/c23948">
         <skos:prefLabel xml:lang="en">end of V BC</skos:prefLabel>
@@ -3339,7 +3338,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23949" rdf:about="https://ausohnum.huma-num.fr/concept/c23949">
         <skos:prefLabel xml:lang="en">IV BC</skos:prefLabel>
@@ -3370,7 +3369,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23950" rdf:about="https://ausohnum.huma-num.fr/concept/c23950">
         <skos:prefLabel xml:lang="en">beginning of IV BC</skos:prefLabel>
@@ -3389,7 +3388,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23951" rdf:about="https://ausohnum.huma-num.fr/concept/c23951">
         <skos:prefLabel xml:lang="en">earlier IV BC</skos:prefLabel>
@@ -3408,7 +3407,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23952" rdf:about="https://ausohnum.huma-num.fr/concept/c23952">
         <skos:prefLabel xml:lang="en">early IV BC</skos:prefLabel>
@@ -3427,7 +3426,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23953" rdf:about="https://ausohnum.huma-num.fr/concept/c23953">
         <skos:prefLabel xml:lang="en">second quarter of IV BC</skos:prefLabel>
@@ -3446,7 +3445,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23954" rdf:about="https://ausohnum.huma-num.fr/concept/c23954">
         <skos:prefLabel xml:lang="en">first half of IV BC</skos:prefLabel>
@@ -3465,7 +3464,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23955" rdf:about="https://ausohnum.huma-num.fr/concept/c23955">
         <skos:prefLabel xml:lang="en">mid IV BC</skos:prefLabel>
@@ -3484,7 +3483,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23956" rdf:about="https://ausohnum.huma-num.fr/concept/c23956">
         <skos:prefLabel xml:lang="en">second half of IV BC</skos:prefLabel>
@@ -3503,7 +3502,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23957" rdf:about="https://ausohnum.huma-num.fr/concept/c23957">
         <skos:prefLabel xml:lang="en">third quarter of IV BC</skos:prefLabel>
@@ -3522,7 +3521,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23958" rdf:about="https://ausohnum.huma-num.fr/concept/c23958">
         <skos:prefLabel xml:lang="en">late IV BC</skos:prefLabel>
@@ -3541,7 +3540,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23959" rdf:about="https://ausohnum.huma-num.fr/concept/c23959">
         <skos:prefLabel xml:lang="en">later IV BC</skos:prefLabel>
@@ -3560,7 +3559,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23960" rdf:about="https://ausohnum.huma-num.fr/concept/c23960">
         <skos:prefLabel xml:lang="en">end of IV BC</skos:prefLabel>
@@ -3579,7 +3578,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23961" rdf:about="https://ausohnum.huma-num.fr/concept/c23961">
         <skos:prefLabel xml:lang="en">III BC</skos:prefLabel>
@@ -3609,7 +3608,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23962" rdf:about="https://ausohnum.huma-num.fr/concept/c23962">
         <skos:prefLabel xml:lang="en">beginning of III BC</skos:prefLabel>
@@ -3628,7 +3627,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23963" rdf:about="https://ausohnum.huma-num.fr/concept/c23963">
         <skos:prefLabel xml:lang="en">earlier III BC</skos:prefLabel>
@@ -3647,7 +3646,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23964" rdf:about="https://ausohnum.huma-num.fr/concept/c23964">
         <skos:prefLabel xml:lang="en">early III BC</skos:prefLabel>
@@ -3666,7 +3665,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23965" rdf:about="https://ausohnum.huma-num.fr/concept/c23965">
         <skos:prefLabel xml:lang="en">second quarter of III BC</skos:prefLabel>
@@ -3685,7 +3684,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23966" rdf:about="https://ausohnum.huma-num.fr/concept/c23966">
         <skos:prefLabel xml:lang="en">first half of III BC</skos:prefLabel>
@@ -3704,7 +3703,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23967" rdf:about="https://ausohnum.huma-num.fr/concept/c23967">
         <skos:prefLabel xml:lang="en">mid III BC</skos:prefLabel>
@@ -3723,7 +3722,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23968" rdf:about="https://ausohnum.huma-num.fr/concept/c23968">
         <skos:prefLabel xml:lang="en">second half of III BC</skos:prefLabel>
@@ -3742,7 +3741,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23969" rdf:about="https://ausohnum.huma-num.fr/concept/c23969">
         <skos:prefLabel xml:lang="en">third quarter of III BC</skos:prefLabel>
@@ -3761,7 +3760,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23970" rdf:about="https://ausohnum.huma-num.fr/concept/c23970">
         <skos:prefLabel xml:lang="en">late III BC</skos:prefLabel>
@@ -3780,7 +3779,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23971" rdf:about="https://ausohnum.huma-num.fr/concept/c23971">
         <skos:prefLabel xml:lang="en">later III BC</skos:prefLabel>
@@ -3799,7 +3798,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23972" rdf:about="https://ausohnum.huma-num.fr/concept/c23972">
         <skos:prefLabel xml:lang="en">end of III BC</skos:prefLabel>
@@ -3818,7 +3817,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23973" rdf:about="https://ausohnum.huma-num.fr/concept/c23973">
         <skos:prefLabel xml:lang="en">II BC</skos:prefLabel>
@@ -3849,7 +3848,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23974" rdf:about="https://ausohnum.huma-num.fr/concept/c23974">
         <skos:prefLabel xml:lang="en">beginning of II BC</skos:prefLabel>
@@ -3868,7 +3867,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23975" rdf:about="https://ausohnum.huma-num.fr/concept/c23975">
         <skos:prefLabel xml:lang="en">earlier II BC</skos:prefLabel>
@@ -3887,7 +3886,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23976" rdf:about="https://ausohnum.huma-num.fr/concept/c23976">
         <skos:prefLabel xml:lang="en">early II BC</skos:prefLabel>
@@ -3906,7 +3905,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23977" rdf:about="https://ausohnum.huma-num.fr/concept/c23977">
         <skos:prefLabel xml:lang="en">second quarter of II BC</skos:prefLabel>
@@ -3925,7 +3924,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23978" rdf:about="https://ausohnum.huma-num.fr/concept/c23978">
         <skos:prefLabel xml:lang="en">first half of II BC</skos:prefLabel>
@@ -3944,7 +3943,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23979" rdf:about="https://ausohnum.huma-num.fr/concept/c23979">
         <skos:prefLabel xml:lang="en">mid II BC</skos:prefLabel>
@@ -3963,7 +3962,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23980" rdf:about="https://ausohnum.huma-num.fr/concept/c23980">
         <skos:prefLabel xml:lang="en">second half of II BC</skos:prefLabel>
@@ -3982,7 +3981,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23981" rdf:about="https://ausohnum.huma-num.fr/concept/c23981">
         <skos:prefLabel xml:lang="en">third quarter of II BC</skos:prefLabel>
@@ -4001,7 +4000,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23982" rdf:about="https://ausohnum.huma-num.fr/concept/c23982">
         <skos:prefLabel xml:lang="en">late II BC</skos:prefLabel>
@@ -4020,7 +4019,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23983" rdf:about="https://ausohnum.huma-num.fr/concept/c23983">
         <skos:prefLabel xml:lang="en">later II BC</skos:prefLabel>
@@ -4039,7 +4038,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23984" rdf:about="https://ausohnum.huma-num.fr/concept/c23984">
         <skos:prefLabel xml:lang="en">end of II BC</skos:prefLabel>
@@ -4058,7 +4057,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23985" rdf:about="https://ausohnum.huma-num.fr/concept/c23985">
         <skos:prefLabel xml:lang="en">I BC</skos:prefLabel>
@@ -4089,7 +4088,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23986" rdf:about="https://ausohnum.huma-num.fr/concept/c23986">
         <skos:prefLabel xml:lang="en">beginning of I BC</skos:prefLabel>
@@ -4108,7 +4107,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23987" rdf:about="https://ausohnum.huma-num.fr/concept/c23987">
         <skos:prefLabel xml:lang="en">earlier I BC</skos:prefLabel>
@@ -4127,7 +4126,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23988" rdf:about="https://ausohnum.huma-num.fr/concept/c23988">
         <skos:prefLabel xml:lang="en">early I BC</skos:prefLabel>
@@ -4146,7 +4145,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23989" rdf:about="https://ausohnum.huma-num.fr/concept/c23989">
         <skos:prefLabel xml:lang="en">second quarter of I BC</skos:prefLabel>
@@ -4165,7 +4164,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23990" rdf:about="https://ausohnum.huma-num.fr/concept/c23990">
         <skos:prefLabel xml:lang="en">first half of I BC</skos:prefLabel>
@@ -4184,7 +4183,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23991" rdf:about="https://ausohnum.huma-num.fr/concept/c23991">
         <skos:prefLabel xml:lang="en">mid I BC</skos:prefLabel>
@@ -4203,7 +4202,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23992" rdf:about="https://ausohnum.huma-num.fr/concept/c23992">
         <skos:prefLabel xml:lang="en">second half of I BC</skos:prefLabel>
@@ -4222,7 +4221,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23993" rdf:about="https://ausohnum.huma-num.fr/concept/c23993">
         <skos:prefLabel xml:lang="en">third quarter of I BC</skos:prefLabel>
@@ -4241,7 +4240,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23994" rdf:about="https://ausohnum.huma-num.fr/concept/c23994">
         <skos:prefLabel xml:lang="en">late I BC</skos:prefLabel>
@@ -4260,7 +4259,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23995" rdf:about="https://ausohnum.huma-num.fr/concept/c23995">
         <skos:prefLabel xml:lang="en">later I BC</skos:prefLabel>
@@ -4279,7 +4278,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23996" rdf:about="https://ausohnum.huma-num.fr/concept/c23996">
         <skos:prefLabel xml:lang="en">end of I BC</skos:prefLabel>
@@ -4298,7 +4297,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23997" rdf:about="https://ausohnum.huma-num.fr/concept/c23997">
         <skos:prefLabel xml:lang="en">I AD</skos:prefLabel>
@@ -4329,7 +4328,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23998" rdf:about="https://ausohnum.huma-num.fr/concept/c23998">
         <skos:prefLabel xml:lang="en">beginning of I AD</skos:prefLabel>
@@ -4348,7 +4347,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c23999" rdf:about="https://ausohnum.huma-num.fr/concept/c23999">
         <skos:prefLabel xml:lang="en">earlier I AD</skos:prefLabel>
@@ -4367,7 +4366,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24000" rdf:about="https://ausohnum.huma-num.fr/concept/c24000">
         <skos:prefLabel xml:lang="en">early I AD</skos:prefLabel>
@@ -4386,7 +4385,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24001" rdf:about="https://ausohnum.huma-num.fr/concept/c24001">
         <skos:prefLabel xml:lang="en">second quarter of I AD</skos:prefLabel>
@@ -4405,7 +4404,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24002" rdf:about="https://ausohnum.huma-num.fr/concept/c24002">
         <skos:prefLabel xml:lang="en">first half of I AD</skos:prefLabel>
@@ -4424,7 +4423,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24003" rdf:about="https://ausohnum.huma-num.fr/concept/c24003">
         <skos:prefLabel xml:lang="en">mid I AD</skos:prefLabel>
@@ -4443,7 +4442,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24004" rdf:about="https://ausohnum.huma-num.fr/concept/c24004">
         <skos:prefLabel xml:lang="en">second half of I AD</skos:prefLabel>
@@ -4462,7 +4461,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24005" rdf:about="https://ausohnum.huma-num.fr/concept/c24005">
         <skos:prefLabel xml:lang="en">third quarter of I AD</skos:prefLabel>
@@ -4481,7 +4480,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24006" rdf:about="https://ausohnum.huma-num.fr/concept/c24006">
         <skos:prefLabel xml:lang="en">late I AD</skos:prefLabel>
@@ -4501,7 +4500,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24007" rdf:about="https://ausohnum.huma-num.fr/concept/c24007">
         <skos:prefLabel xml:lang="en">later I AD</skos:prefLabel>
@@ -4520,7 +4519,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24008" rdf:about="https://ausohnum.huma-num.fr/concept/c24008">
         <skos:prefLabel xml:lang="en">end of I AD</skos:prefLabel>
@@ -4539,7 +4538,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24009" rdf:about="https://ausohnum.huma-num.fr/concept/c24009">
         <skos:prefLabel xml:lang="en">II AD</skos:prefLabel>
@@ -4569,7 +4568,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24010" rdf:about="https://ausohnum.huma-num.fr/concept/c24010">
         <skos:prefLabel xml:lang="en">beginning of II AD</skos:prefLabel>
@@ -4588,7 +4587,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24011" rdf:about="https://ausohnum.huma-num.fr/concept/c24011">
         <skos:prefLabel xml:lang="en">earlier II AD</skos:prefLabel>
@@ -4607,7 +4606,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24012" rdf:about="https://ausohnum.huma-num.fr/concept/c24012">
         <skos:prefLabel xml:lang="en">early II AD</skos:prefLabel>
@@ -4626,7 +4625,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24013" rdf:about="https://ausohnum.huma-num.fr/concept/c24013">
         <skos:prefLabel xml:lang="en">second quarter of II AD</skos:prefLabel>
@@ -4645,7 +4644,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24014" rdf:about="https://ausohnum.huma-num.fr/concept/c24014">
         <skos:prefLabel xml:lang="en">first half of II AD</skos:prefLabel>
@@ -4664,7 +4663,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24015" rdf:about="https://ausohnum.huma-num.fr/concept/c24015">
         <skos:prefLabel xml:lang="en">mid II AD</skos:prefLabel>
@@ -4683,7 +4682,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24016" rdf:about="https://ausohnum.huma-num.fr/concept/c24016">
         <skos:prefLabel xml:lang="en">second half of II AD</skos:prefLabel>
@@ -4702,7 +4701,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24017" rdf:about="https://ausohnum.huma-num.fr/concept/c24017">
         <skos:prefLabel xml:lang="en">third quarter of II AD</skos:prefLabel>
@@ -4721,7 +4720,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24018" rdf:about="https://ausohnum.huma-num.fr/concept/c24018">
         <skos:prefLabel xml:lang="en">late II AD</skos:prefLabel>
@@ -4741,7 +4740,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24019" rdf:about="https://ausohnum.huma-num.fr/concept/c24019">
         <skos:prefLabel xml:lang="en">later II AD</skos:prefLabel>
@@ -4760,7 +4759,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24020" rdf:about="https://ausohnum.huma-num.fr/concept/c24020">
         <skos:prefLabel xml:lang="en">end of II AD</skos:prefLabel>
@@ -4779,7 +4778,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24021" rdf:about="https://ausohnum.huma-num.fr/concept/c24021">
         <skos:prefLabel xml:lang="en">III AD</skos:prefLabel>
@@ -4809,7 +4808,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24022" rdf:about="https://ausohnum.huma-num.fr/concept/c24022">
         <skos:prefLabel xml:lang="en">beginning of III AD</skos:prefLabel>
@@ -4828,7 +4827,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24023" rdf:about="https://ausohnum.huma-num.fr/concept/c24023">
         <skos:prefLabel xml:lang="en">earlier III AD</skos:prefLabel>
@@ -4847,7 +4846,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24024" rdf:about="https://ausohnum.huma-num.fr/concept/c24024">
         <skos:prefLabel xml:lang="en">early III AD</skos:prefLabel>
@@ -4866,7 +4865,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24025" rdf:about="https://ausohnum.huma-num.fr/concept/c24025">
         <skos:prefLabel xml:lang="en">second quarter of III AD</skos:prefLabel>
@@ -4885,7 +4884,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24026" rdf:about="https://ausohnum.huma-num.fr/concept/c24026">
         <skos:prefLabel xml:lang="en">first half of III AD</skos:prefLabel>
@@ -4904,7 +4903,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24027" rdf:about="https://ausohnum.huma-num.fr/concept/c24027">
         <skos:prefLabel xml:lang="en">mid III AD</skos:prefLabel>
@@ -4923,7 +4922,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24028" rdf:about="https://ausohnum.huma-num.fr/concept/c24028">
         <skos:prefLabel xml:lang="en">second half of III AD</skos:prefLabel>
@@ -4942,7 +4941,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24029" rdf:about="https://ausohnum.huma-num.fr/concept/c24029">
         <skos:prefLabel xml:lang="en">third quarter of III AD</skos:prefLabel>
@@ -4961,7 +4960,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24030" rdf:about="https://ausohnum.huma-num.fr/concept/c24030">
         <skos:prefLabel xml:lang="en">late III AD</skos:prefLabel>
@@ -4981,7 +4980,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24031" rdf:about="https://ausohnum.huma-num.fr/concept/c24031">
         <skos:prefLabel xml:lang="en">later III AD</skos:prefLabel>
@@ -5000,7 +4999,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24032" rdf:about="https://ausohnum.huma-num.fr/concept/c24032">
         <skos:prefLabel xml:lang="en">end of III AD</skos:prefLabel>
@@ -5019,7 +5018,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24033" rdf:about="https://ausohnum.huma-num.fr/concept/c24033">
         <skos:prefLabel xml:lang="en">IV AD</skos:prefLabel>
@@ -5049,7 +5048,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24034" rdf:about="https://ausohnum.huma-num.fr/concept/c24034">
         <skos:prefLabel xml:lang="en">beginning of IV AD</skos:prefLabel>
@@ -5068,7 +5067,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24035" rdf:about="https://ausohnum.huma-num.fr/concept/c24035">
         <skos:prefLabel xml:lang="en">earlier IV AD</skos:prefLabel>
@@ -5087,7 +5086,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24036" rdf:about="https://ausohnum.huma-num.fr/concept/c24036">
         <skos:prefLabel xml:lang="en">early IV AD</skos:prefLabel>
@@ -5106,7 +5105,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24037" rdf:about="https://ausohnum.huma-num.fr/concept/c24037">
         <skos:prefLabel xml:lang="en">second quarter of IV AD</skos:prefLabel>
@@ -5125,7 +5124,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24038" rdf:about="https://ausohnum.huma-num.fr/concept/c24038">
         <skos:prefLabel xml:lang="en">first half of IV AD</skos:prefLabel>
@@ -5144,7 +5143,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24039" rdf:about="https://ausohnum.huma-num.fr/concept/c24039">
         <skos:prefLabel xml:lang="en">mid IV AD</skos:prefLabel>
@@ -5163,7 +5162,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24040" rdf:about="https://ausohnum.huma-num.fr/concept/c24040">
         <skos:prefLabel xml:lang="en">second half of IV AD</skos:prefLabel>
@@ -5182,7 +5181,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24041" rdf:about="https://ausohnum.huma-num.fr/concept/c24041">
         <skos:prefLabel xml:lang="en">third quarter of IV AD</skos:prefLabel>
@@ -5201,7 +5200,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24042" rdf:about="https://ausohnum.huma-num.fr/concept/c24042">
         <skos:prefLabel xml:lang="en">late IV AD</skos:prefLabel>
@@ -5222,7 +5221,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24043" rdf:about="https://ausohnum.huma-num.fr/concept/c24043">
         <skos:prefLabel xml:lang="en">later IV AD</skos:prefLabel>
@@ -5242,7 +5241,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24044" rdf:about="https://ausohnum.huma-num.fr/concept/c24044">
         <skos:prefLabel xml:lang="en">end of IV AD</skos:prefLabel>
@@ -5261,7 +5260,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24045" rdf:about="https://ausohnum.huma-num.fr/concept/c24045">
         <skos:prefLabel xml:lang="en">V AD</skos:prefLabel>
@@ -5291,7 +5290,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24046" rdf:about="https://ausohnum.huma-num.fr/concept/c24046">
         <skos:prefLabel xml:lang="en">beginning of V AD</skos:prefLabel>
@@ -5310,7 +5309,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24047" rdf:about="https://ausohnum.huma-num.fr/concept/c24047">
         <skos:prefLabel xml:lang="en">earlier V AD</skos:prefLabel>
@@ -5329,7 +5328,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24048" rdf:about="https://ausohnum.huma-num.fr/concept/c24048">
         <skos:prefLabel xml:lang="en">early V AD</skos:prefLabel>
@@ -5348,7 +5347,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24049" rdf:about="https://ausohnum.huma-num.fr/concept/c24049">
         <skos:prefLabel xml:lang="en">second quarter of V AD</skos:prefLabel>
@@ -5367,7 +5366,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24050" rdf:about="https://ausohnum.huma-num.fr/concept/c24050">
         <skos:prefLabel xml:lang="en">first half of V AD</skos:prefLabel>
@@ -5386,7 +5385,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24051" rdf:about="https://ausohnum.huma-num.fr/concept/c24051">
         <skos:prefLabel xml:lang="en">mid V AD</skos:prefLabel>
@@ -5405,7 +5404,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24052" rdf:about="https://ausohnum.huma-num.fr/concept/c24052">
         <skos:prefLabel xml:lang="en">second half of V AD</skos:prefLabel>
@@ -5424,7 +5423,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24053" rdf:about="https://ausohnum.huma-num.fr/concept/c24053">
         <skos:prefLabel xml:lang="en">third quarter of V AD</skos:prefLabel>
@@ -5443,7 +5442,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24054" rdf:about="https://ausohnum.huma-num.fr/concept/c24054">
         <skos:prefLabel xml:lang="en">late V AD</skos:prefLabel>
@@ -5463,7 +5462,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24055" rdf:about="https://ausohnum.huma-num.fr/concept/c24055">
         <skos:prefLabel xml:lang="en">later V AD</skos:prefLabel>
@@ -5482,7 +5481,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24056" rdf:about="https://ausohnum.huma-num.fr/concept/c24056">
         <skos:prefLabel xml:lang="en">end of V AD</skos:prefLabel>
@@ -5501,7 +5500,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24057" rdf:about="https://ausohnum.huma-num.fr/concept/c24057">
         <skos:prefLabel xml:lang="en">VI AD</skos:prefLabel>
@@ -5531,7 +5530,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24058" rdf:about="https://ausohnum.huma-num.fr/concept/c24058">
         <skos:prefLabel xml:lang="en">beginning of VI AD</skos:prefLabel>
@@ -5550,7 +5549,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24059" rdf:about="https://ausohnum.huma-num.fr/concept/c24059">
         <skos:prefLabel xml:lang="en">earlier VI AD</skos:prefLabel>
@@ -5569,7 +5568,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24060" rdf:about="https://ausohnum.huma-num.fr/concept/c24060">
         <skos:prefLabel xml:lang="en">early VI AD</skos:prefLabel>
@@ -5588,7 +5587,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24061" rdf:about="https://ausohnum.huma-num.fr/concept/c24061">
         <skos:prefLabel xml:lang="en">second quarter of VI AD</skos:prefLabel>
@@ -5607,7 +5606,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24062" rdf:about="https://ausohnum.huma-num.fr/concept/c24062">
         <skos:prefLabel xml:lang="en">first half of VI AD</skos:prefLabel>
@@ -5626,7 +5625,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24063" rdf:about="https://ausohnum.huma-num.fr/concept/c24063">
         <skos:prefLabel xml:lang="en">mid VI AD</skos:prefLabel>
@@ -5645,7 +5644,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24064" rdf:about="https://ausohnum.huma-num.fr/concept/c24064">
         <skos:prefLabel xml:lang="en">second half of VI AD</skos:prefLabel>
@@ -5664,7 +5663,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24065" rdf:about="https://ausohnum.huma-num.fr/concept/c24065">
         <skos:prefLabel xml:lang="en">third quarter of VI AD</skos:prefLabel>
@@ -5683,7 +5682,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24066" rdf:about="https://ausohnum.huma-num.fr/concept/c24066">
         <skos:prefLabel xml:lang="en">late VI AD</skos:prefLabel>
@@ -5703,7 +5702,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24067" rdf:about="https://ausohnum.huma-num.fr/concept/c24067">
         <skos:prefLabel xml:lang="en">later VI AD</skos:prefLabel>
@@ -5722,7 +5721,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24068" rdf:about="https://ausohnum.huma-num.fr/concept/c24068">
         <skos:prefLabel xml:lang="en">end of VI AD</skos:prefLabel>
@@ -5741,7 +5740,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24069" rdf:about="https://ausohnum.huma-num.fr/concept/c24069">
         <skos:prefLabel xml:lang="en">VII AD</skos:prefLabel>
@@ -5771,7 +5770,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24070" rdf:about="https://ausohnum.huma-num.fr/concept/c24070">
         <skos:prefLabel xml:lang="en">beginning of VII AD</skos:prefLabel>
@@ -5790,7 +5789,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24071" rdf:about="https://ausohnum.huma-num.fr/concept/c24071">
         <skos:prefLabel xml:lang="en">earlier VII AD</skos:prefLabel>
@@ -5809,7 +5808,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24072" rdf:about="https://ausohnum.huma-num.fr/concept/c24072">
         <skos:prefLabel xml:lang="en">early VII AD</skos:prefLabel>
@@ -5828,7 +5827,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24073" rdf:about="https://ausohnum.huma-num.fr/concept/c24073">
         <skos:prefLabel xml:lang="en">second quarter of VII AD</skos:prefLabel>
@@ -5847,7 +5846,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24074" rdf:about="https://ausohnum.huma-num.fr/concept/c24074">
         <skos:prefLabel xml:lang="en">first half of VII AD</skos:prefLabel>
@@ -5866,7 +5865,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24075" rdf:about="https://ausohnum.huma-num.fr/concept/c24075">
         <skos:prefLabel xml:lang="en">mid VII AD</skos:prefLabel>
@@ -5885,7 +5884,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24076" rdf:about="https://ausohnum.huma-num.fr/concept/c24076">
         <skos:prefLabel xml:lang="en">second half of VII AD</skos:prefLabel>
@@ -5904,7 +5903,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24077" rdf:about="https://ausohnum.huma-num.fr/concept/c24077">
         <skos:prefLabel xml:lang="en">third quarter of VII AD</skos:prefLabel>
@@ -5923,7 +5922,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24078" rdf:about="https://ausohnum.huma-num.fr/concept/c24078">
         <skos:prefLabel xml:lang="en">late VII AD</skos:prefLabel>
@@ -5943,7 +5942,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24079" rdf:about="https://ausohnum.huma-num.fr/concept/c24079">
         <skos:prefLabel xml:lang="en">later VII AD</skos:prefLabel>
@@ -5962,7 +5961,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24080" rdf:about="https://ausohnum.huma-num.fr/concept/c24080">
         <skos:prefLabel xml:lang="en">end of VII AD</skos:prefLabel>
@@ -5981,7 +5980,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24081" rdf:about="https://ausohnum.huma-num.fr/concept/c24081">
         <skos:prefLabel xml:lang="en">VIII AD</skos:prefLabel>
@@ -6011,7 +6010,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24082" rdf:about="https://ausohnum.huma-num.fr/concept/c24082">
         <skos:prefLabel xml:lang="en">beginning of VIII AD</skos:prefLabel>
@@ -6030,7 +6029,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24083" rdf:about="https://ausohnum.huma-num.fr/concept/c24083">
         <skos:prefLabel xml:lang="en">earlier VIII AD</skos:prefLabel>
@@ -6049,7 +6048,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24084" rdf:about="https://ausohnum.huma-num.fr/concept/c24084">
         <skos:prefLabel xml:lang="en">early VIII AD</skos:prefLabel>
@@ -6068,7 +6067,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24085" rdf:about="https://ausohnum.huma-num.fr/concept/c24085">
         <skos:prefLabel xml:lang="en">second quarter of VIII AD</skos:prefLabel>
@@ -6087,7 +6086,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24086" rdf:about="https://ausohnum.huma-num.fr/concept/c24086">
         <skos:prefLabel xml:lang="en">first half of VIII AD</skos:prefLabel>
@@ -6106,7 +6105,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24087" rdf:about="https://ausohnum.huma-num.fr/concept/c24087">
         <skos:prefLabel xml:lang="en">mid VIII AD</skos:prefLabel>
@@ -6125,7 +6124,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24088" rdf:about="https://ausohnum.huma-num.fr/concept/c24088">
         <skos:prefLabel xml:lang="en">second half of VIII AD</skos:prefLabel>
@@ -6144,7 +6143,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24089" rdf:about="https://ausohnum.huma-num.fr/concept/c24089">
         <skos:prefLabel xml:lang="en">third quarter of VIII AD</skos:prefLabel>
@@ -6163,7 +6162,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24090" rdf:about="https://ausohnum.huma-num.fr/concept/c24090">
         <skos:prefLabel xml:lang="en">late VIII AD</skos:prefLabel>
@@ -6183,7 +6182,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24091" rdf:about="https://ausohnum.huma-num.fr/concept/c24091">
         <skos:prefLabel xml:lang="en">later VIII AD</skos:prefLabel>
@@ -6202,7 +6201,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24092" rdf:about="https://ausohnum.huma-num.fr/concept/c24092">
         <skos:prefLabel xml:lang="en">end of VIII AD</skos:prefLabel>
@@ -6221,7 +6220,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24093" rdf:about="https://ausohnum.huma-num.fr/concept/c24093">
         <skos:prefLabel xml:lang="en">IX AD</skos:prefLabel>
@@ -6240,7 +6239,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24094" rdf:about="https://ausohnum.huma-num.fr/concept/c24094">
         <skos:prefLabel xml:lang="en">X AD</skos:prefLabel>
@@ -6259,7 +6258,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24095" rdf:about="https://ausohnum.huma-num.fr/concept/c24095">
         <skos:prefLabel xml:lang="en">XI AD</skos:prefLabel>
@@ -6278,7 +6277,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24096" rdf:about="https://ausohnum.huma-num.fr/concept/c24096">
         <skos:prefLabel xml:lang="en">III BC - II BC</skos:prefLabel>
@@ -6295,7 +6294,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24097" rdf:about="https://ausohnum.huma-num.fr/concept/c24097">
         <skos:prefLabel xml:lang="en">I BC - I AD</skos:prefLabel>
@@ -6312,7 +6311,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24098" rdf:about="https://ausohnum.huma-num.fr/concept/c24098">
         <skos:prefLabel xml:lang="en">I-II AD</skos:prefLabel>
@@ -6327,7 +6326,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24099" rdf:about="https://ausohnum.huma-num.fr/concept/c24099">
         <skos:prefLabel xml:lang="en">I-III AD</skos:prefLabel>
@@ -6341,7 +6340,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24100" rdf:about="https://ausohnum.huma-num.fr/concept/c24100">
         <skos:prefLabel xml:lang="en">I-IV AD</skos:prefLabel>
@@ -6355,7 +6354,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24101" rdf:about="https://ausohnum.huma-num.fr/concept/c24101">
         <skos:prefLabel xml:lang="en">VIII or VII century</skos:prefLabel>
@@ -6369,7 +6368,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24102" rdf:about="https://ausohnum.huma-num.fr/concept/c24102">
         <skos:prefLabel xml:lang="en">VIII-V BC</skos:prefLabel>
@@ -6383,7 +6382,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24103" rdf:about="https://ausohnum.huma-num.fr/concept/c24103">
         <skos:prefLabel xml:lang="en">VIII-VI BC</skos:prefLabel>
@@ -6397,7 +6396,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24104" rdf:about="https://ausohnum.huma-num.fr/concept/c24104">
         <skos:prefLabel xml:lang="en">VIII-VII BC</skos:prefLabel>
@@ -6413,7 +6412,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24105" rdf:about="https://ausohnum.huma-num.fr/concept/c24105">
         <skos:prefLabel xml:lang="en">VII BC - IV BC</skos:prefLabel>
@@ -6429,7 +6428,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24106" rdf:about="https://ausohnum.huma-num.fr/concept/c24106">
         <skos:prefLabel xml:lang="en">VII BC - IV BC</skos:prefLabel>
@@ -6446,7 +6445,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24107" rdf:about="https://ausohnum.huma-num.fr/concept/c24107">
         <skos:prefLabel xml:lang="en">VII BC - V BC</skos:prefLabel>
@@ -6463,7 +6462,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24108" rdf:about="https://ausohnum.huma-num.fr/concept/c24108">
         <skos:prefLabel xml:lang="en">VII BC - VI BC</skos:prefLabel>
@@ -6480,7 +6479,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c24109" rdf:about="https://ausohnum.huma-num.fr/concept/c24109">
         <skos:prefLabel xml:lang="en">late VII BC - early VI BC</skos:prefLabel>
@@ -6496,6 +6495,6 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-dates/"/>    
         <dct:created>2020-11-04T01:26:32.294+01:00</dct:created>
-        <dct:modified>2020-11-04T01:26:32.294+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:26:32.294+01:00</dcterms:modified>
     </skos:Concept> 
 </rdf:RDF>

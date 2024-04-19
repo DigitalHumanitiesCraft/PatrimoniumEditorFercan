@@ -1,0 +1,365 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior67" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Nemetona</title><title type="sub">CF-GeS-1034</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.67</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Mainz</settlement>
+						<repository>Landesmuseum</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p>                                                <p>Die Votivtafel, auf der sich die Inschrift befindet, hat die Form einer tabula ansata. Die zwei Henkel sind jeweils durch zwei gegeneinanderlaufende Voluten geschmückt, zwischen denen sich eine abgerundete Spitze befindet. Oben und unten mittig am Inschriftenfeld befindet sich eine kleine Durchbohrung. „Die beiden seitlichen Ohren waren mit einem Silberblatt belegt, das um den Rand gebogen und dort festgeschlagen war; das rechte Ohr (vom Betrachter aus gerechnet) trägt die Silberlamelle noch zum grossen Teil. Das linke Ohr samt einem Stück der Tafel […] waren abgebrochen, beide Stücke aber sind erhalten“ (Keller 1884, Sp.86f.).</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120110">Bronze</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110500">Tafel</objectType> <dimensions>
+										<height unit="cm">10</height>
+										<width unit="cm">24</width>
+										<depth unit="cm">0,3</depth>
+									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>Der Inschriftentext ist bis auf einen kleinen Ausbruch am linken Rand vollständig erhalten. Die Buchstaben werden von der obersten zu der untersten Zeile kleiner. In Z.5 ein übergroßer Abstand zwischen Titialis und et.</p>
+                                                <p>Bei Aufnahme durch den CIL war durch den Ausbruch nur das F zu Beginn von Z.2 verloren gegangen. inzwischen ist durch Vergrößerung des Ausbruches aber auch das folgende A verloren sowie der waagrechte Strich in Z.3 beschädigt worden. Die Worttrenner sind allesamt korrekt gesetzt.<br/>Besondere Zeichen: In Z.3 über den Zahlzeichen III und XV der übliche waagrechte Strich; in Z.4 ein nach rechts geneigter, schräger Strich über dem L von Sodalis und dem L von Augustal(is) sowie in Z.5 über dem L von Titialis. Nach CIL und ILS aber jeweils ein Akut über dem jeweils dem L vorhergehenden A.</p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">graviert</desc> <height unit="cm" atLeast="0.7" atMost="1.5">0,7–1,5</height> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150510">tabula ansata</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140500">versilbert</term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="0083" notAfter="0085" instant="false"><date>83–85</date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1884"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Ober-Olm</ref> </placeName> <p>„auf dem ‚Loh‘ [=eine Flur]“ (CIL)</p> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true">Ein Landwirt aus Klein-Winternheim stieß, „als er einen seit längerer Zeit brach liegenden Acker zum Weinberg roden wollte, auf römisches Mauerwerk. Dies veranlasste ihn, tiefer zu graben und das Mauerwerk bis auf die Fundamente grossentheils auszubrechen. Dabei fand er starke Brandschichten und an der südlichen Langgrenze seines Ackers ganz hervorragende, höchst merkwürdige Funde.“ (Keller 1888, 98)</note> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>vidiumus (CIL XIII Projekt)<br/></p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Nemetona</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Nemetona</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Attica; Gallus; Veiento</ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context">XVvir sacris faciundis</ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">Didius; Fabricius</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context">consul</ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">
+						</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context">votum solverunt libentes merito</ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">Nemeton(ae)</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1034_front.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
+		</graphic>
+	</facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="1">CIL XIII 7253</bibl>
+				
+            <bibl xml:id="3">ILS 1010</bibl>
+        
+            <bibl xml:id="4">Riese 1914, Nr.3459</bibl>
+        
+            <bibl xml:id="5">Behrens 1941, 16</bibl>
+        
+            <bibl xml:id="6">Weber 1966, 101–103</bibl>
+        
+            <bibl xml:id="7">McCrum/Woodhead 1966, Nr.155</bibl>
+        
+            <bibl xml:id="8">Decker/Selzer 1976, 494f.</bibl>
+        
+            <bibl xml:id="9">Hatt 1979, 125</bibl>
+        
+            <bibl xml:id="10">Schumacher 1982, 43</bibl>
+        
+            <bibl xml:id="11">Schumacher 1983, 50–51</bibl>
+        
+            <bibl xml:id="12">Schumacher 1988, Nr.45</bibl>
+        
+            <bibl xml:id="13">Kakoschke 2002, Nr.10.9</bibl>
+        
+            <bibl xml:id="14">Schmidt 2004, 45</bibl>
+        
+            <bibl xml:id="15">Matijević 2009, 94</bibl>
+        
+            <bibl xml:id="16">Scheungraber 2020, 417 Nr.6</bibl>
+        
+            <bibl xml:id="17">Ferlut 2022, Nr.1121</bibl>
+        
+            <bibl xml:id="2">Schumacher 1911, Taf.21 Nr.352</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno>EDCS-11001342</idno><date>zuletzt abgerufen 2023-06-14 </date></bibl>
+					<bibl type="EDH"><idno>HD069118</idno><date>Version von 2018-01-25</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/425567</idno><date>zuletzt abgerufen 2023-06-14 </date></bibl>
+					<bibl type="lupa"><idno> </idno><date> </date></bibl>
+					<bibl type="other"><idno>https://cil.bbaw.de/ace/id/KO0044633</idno><date>zuletzt abgerufen 2023-06-14</date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/>A<g type="interpunct">▴</g>DIDIVS<g type="interpunct">▴</g>GALLVS
+<lb n="2"/><gap reason="lost" quantity="1" unit="character"/><supplied evidence="previouseditor" reason="undefined">A</supplied>BRICIVS<g type="interpunct">▴</g>VEIENTO<g type="interpunct">▴</g>COS
+<lb n="3"/>III<g type="interpunct">▴</g>XV<g type="interpunct">▴</g>VIR<g type="interpunct">▴</g>SACRIS<g type="interpunct">▴</g>FACIEND
+<lb n="4"/>SODALIS<g type="interpunct">▴</g>AVGVSTAL<g type="interpunct">▴</g>SOD<g type="interpunct">▴</g>FLAVIAL
+<lb n="5"/>SOD<g type="interpunct">▴</g>TITIALIS<g type="interpunct">▴</g>ET ATTICA<g type="interpunct">▴</g>EIVS
+<lb n="6"/>NEMETON<g type="interpunct">▴</g>V<g type="interpunct">▴</g>S<g type="interpunct">▴</g>L<g type="interpunct">▴</g>M<orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><expan><abbr>A</abbr><ex>ulus</ex></expan> Didius Gallus
+<lb n="2"/><supplied reason="lost">F</supplied>abricius Veiento <expan><abbr>co</abbr><ex>n</ex></expan><expan><abbr>s</abbr><ex>ul</ex></expan>
+<lb n="3"/>III, XVvir sacris <expan><abbr>faciend</abbr><ex>is</ex></expan>
+<lb n="4"/>sodalis <expan><abbr>Augustal</abbr><ex>is</ex></expan>, <expan><abbr>sod</abbr><ex>alis</ex></expan> <expan><abbr>Flavial</abbr><ex>is</ex></expan>
+<lb n="5"/><expan><abbr>sod</abbr><ex>alis</ex></expan> Titialis et Attica eius
+<lb n="6"/><expan><abbr>Nemeton</abbr><ex>ae</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olverunt</ex></expan> <expan><abbr>l</abbr><ex>ibentes</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p>                                                <p>Aulus Didius Gallus Fabricius Veiento, zum dritten Mal Konsul, (einer der) XVviri sacris faciundis, sodalis Augustalis, sodalis Flavialis sowie sodalis Titialis und seine Attica haben der <rs type="divine">Nemetona</rs> ein Gelübde gerne und verdientermaßen eingelöst.<br/></p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p>                                                <p>Aulus Didius Gallus Fabricius Veiento, consul for the third time, (member) of the XVviri sacris faciundis, sodalis Augustalis, sodalis Flavialis as well as sodalis Titialis and his Attica have willingly and deservedly fulfilled a vow for <rs type="divine">Nemetona</rs>.</p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="2">
+					<note anchored="true">der unterstrichene Teil in Z.2 ist heute nicht mehr erhalten, er wird nach CIL wiedergegeben; (F)abricius – Schumacher 1911</note>
+				</app>
+			
+            <app loc="3"><note anchored="true">fehlender Zeilenwechsel – Schuhmacher 1988 </note></app>
+        
+            <app loc="5"><note anchored="true">&lt;T=I&gt;i&lt;t=I&gt;ialis – McCrum/Woodhead, Scheungraber, Ferlut; [T]i[t]ialis et Attica eius (uxor?) – Kakoschke; Attica eius (uxor) – Schuhmacher 1911; Attica (uxor) eius – Schuhmacher 1988</note></app>
+        
+            <app loc="6"><note anchored="true">Nemetona(e) – Schmidt; Nemeton. – McCrum/Woodhead; l(ibenter) – Schumacher 1983; (lubentes) – Decker/Selzer; s(olvit) l(ibens) – Scheungraber</note></app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Aulus Didius Gallus Fabricius Veiento: war einer der angesehensten Senatoren der Zeit der Flavischen Kaiser; das dritte Konsulat hatte er vermutlich 83 n.Chr. inne (RE VI,2 [1909] 1938ff., Halfmann 1986, 248 Nr.41). Er hielt sich anlässlich der Chattenkriege Domitians in Mogontiacum auf.</p>
+                                                <p>Didius: italisches Gentilnomen, gängiger Name (Kakosche 2021, GN 431)</p>
+                                                <p>Gallus: lateinisch-keltischer ethnischer Name, gängiger Name (Kakoschke 2021, CN 1390)</p>
+                                                <p>Fabricius: italisches Gentilnomen, gängiger Name (Kakoschke 2021, GN 482)</p>
+                                                <p>Veiento: lateinischer Name (Kakoschke 2021, CN 3262)</p>
+                                                <p>Attica: lateinischer Name, überall gängig (Kakoschke 2021, CN 349); über
+ die Frau des Konsulars, die ihren Mann auf den Feldzug nach Germanien 
+begleitete, ist weiter nichts bekannt (Spickermann 1994, 280–282).</p>
+                                                <p><br/></p>
+                                                <p>XVviri sacris faciundis: eine der vier hohen Priesterschaften in Rom, insbesondere befasst mit der Bewahrung und Auslegung der Sibyllinischen Bücher.</p>
+                                                <p>sodalis Augustalis, sodalis Flavialis, sodalis Titialis: der Dedikant war Angehöriger von drei angesehenen Priesterkollegien für den Kaiserkult. Interessant ist, dass hier „sodalis Flavialis, sodalis Titialis“ getrennt genannt wird, sonst „sodalis Flavialis Titialis“.</p></div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note"><p>EDH: Votivtäfelchen in Form einer tabula ansata; ansae in Form von Peltae; am oberen und unteren Rand je ein kleines Loch.</p><p>Keller 1884 Sp. 86f: Die Tafel ist 0,184 m lang; dazu kommt noch auf der Mitte jeder Schmalseite ein 0,028 m langes und 0,047 m hohes Ohr, aus 2 gegeneinanderlaufenden einfachen Voluten mit einer dazwischen hervorragenden Spitze bestehend. Die Höhe der Tafel beträgt 0,1 m, die Dicke 0,003 m. Die beiden seitlichen Ohren waren mit einem Silberblatt belegt, das um den Rand gebogen und dort festgeschlagen war; das rechte Ohr (vom Betrachtenden aus gerechnet) trägt die Silberlamelle noch zum grossen Teil. Das linke Ohr samt einem Stück der Tafel mit Buchstaben- und Zahlenresten, sowie ein kleineres Stück mit Zahlenresten waren abgebrochen, beide Stücke aber sind erhalten, so dass von der ganzen Schrift nur im Anfang der zweiten Zeile ein F und der vordere Teil eines A fehlen; der hintere Hauptstrich dieses A ist deutlich erhalten. In der Mitte der beiden Langseiten sind, 0,002 m (oben) und 0,004 m (unten) von der Kante entfernt, Löcher angebracht, mit denen die Tafel an einem Weihgeschenke befestigt war. Die sehr tief und klar, wie es scheint, mit dem Meissei geschnittenen Buchstaben sind in der 1. Zeile 0,015 m, in der letzten Zeile 0,007 m hoch.</p><p>Keller 1887 S. 21 Nr. 82a: zwei seitliche Ohren aus je zwei gegeneinanderlaufenden Voluten mit dazwischen vorragender Spitze bestehend. S. 22: das r. Ohr noch mit dem Silberblatt bedeckt. In der Mitte der beiden Langseiten ... von den Kanten entfernt runde Löcher zur Befestigung</p><p>Schumacher 1911 S. 108 Nr. 352: zwei peltaförmige ansae; in der Mitte des oberen und unteren Randes mit je einer ... Durchbohrung, offenbar zur Befestigung durch zwei Stifte an einer Wand oder an einem sonstigen Gegenstand. Auf der rechten ansa sind noch die Reste eines dünnen Silberbleches vorhanden, welches früher augenscheinlich die ganze Tafel bedeckte.</p></note>
+			<note type="ArchKlass_note"/>
+			<note type="Material_note"><p>Bronze: EDH</p><p>Weißmetalltafel: WSpDB</p><p>Keller 1887 S. 21 Nr. 82a: Bronze, mit einem weißen Metall plattiert und ursprünglich mit Silber überzogen</p><p>Keller 1885: Der Kern ist Bronze, die aber mit einem weißslichen Metall auf beiden Seiten plattiert ist. Ob dies Nickel oder Zinn ist, konnte bis jetzt nicht festgestellt werden.<br/></p></note>
+			<note type="Inschrifttraeger_note"><p>Weißmetalltafel: WSpDB<br/>Tessera: EDH</p></note>
+			<note type="VerwahrortOrt_note"/>
+			<note type="InvNr_note">                                                    <p>9661 – Inventarnummer?? Siehe Schumacher 1911 S. 108 Nr. 352</p><p>Mail Horster vom 31.8.23: "CIL XIII 7253 habe ich auch keine Inventarnummer, in meinem Praecorpus aber als vorhd., wenn ich etwas habe, melde ich mich (aber wahrscheinlich erst im Frühjahr, da ich vorher keine große Depot-Aktion mehr mache."</p></note>
+			<note type="Fundstelle_note"><p>Am Füllkeller : EDH</p><p>Zur örtlichen Einordnung und Beschreibung der Gegend siehe Keller in Bjb 85 (1888) S. 98</p></note>
+			<note type="Fundumst_note"/>
+			<note type="Fundjahr_note"/>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note"><p>Ober-Olm: EDH – auch lt. Genauer Beschreibung des Gebiets durch Keller 1888 S. 98<br/>Klein-Winternheim: WSpDB, CIL <b>in Word gelb</b></p></note>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note"/>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note">                                                    <p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p><p>eingesehen</p>
+                                                    <p>Halfmann Itinera principum. Geschichte und Typologie der Kaiserreisen im Römischen Reich. Stuttgart 1986. [= Heidelberger althistorische Beiträge und epigraphische Studien. Bd.2. S.248. Nr.41] - eingesehen<br/>M.J. Klein, in: P. Noelke - F. Naumann-Steckner - B. Schneider (Hrsg.), Romanisation und Resistenz in Plastik, Architektur und Inschriften der Provinzen des Imperium Romanum. Neue Funde und Forschungen, Akten des VII. Internationalen Colloquiums über Probleme des provinzialrömischen Kunstschaffens, Köln 2001 (Mainz 2003) 89-91; Abb. 2. – eingesehen, nix zur IS</p>
+                                                    <p>Spickermann 1994 S.280. Nr.3, - eingesehen</p>
+                                                    <p>Spickermann GermSup S.235. Nr.141, - eingesehen</p><p>McCrum, M(ichael) und A(rthur) G(eoffrey) Woodhead: Select documents of 
+the principates of the Flavian emperors including the year of revolution
+ A.D. 68-96. Cambridge 1966. S.58. Nr.155, - eingearbeitet</p><p>Riese 3459, - eingearbeitet</p><p>A. Kakoschke, Ortsfremde in den römischen Provinzen Germania inferior 
+und Germania superior. Eine Untersuchung zur Mobilität in den 
+germanischen Provinzen anhand der der Inschriften des 1. bis 3. 
+Jahrhunderts n. Chr. (Möhnesee 2002) 471, Nr. 10.9. - eingearbeitet</p><p>Keller Kat. 1887 Nr.82a – vor CIL, selbe Lesung</p><p>Klein, Michael J. (Hrsg.): Die Römer und ihr Erbe. Fortschritt durch 
+Innovation und Integration. Mainz 2003. S.8. Abb.7(Photo), - eingesehen,
+ nicht gelesen</p><p>K. Schumacher, in: Die Altertümer unserer heidnischen Vorzeit 5 (Mainz 1911) 108, Nr. 352; Taf. 21, 352. 113. - eingearbeitet</p><p>ev noch einsehen</p>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    <p>Jacobi 1996 S.305, - nicht Teil der gescannten Seiten auf Citavi</p></note>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note"><p>Schumacher 1911: Höhe 10, Breite (=Länge) 18,5, Tiefe (=dick) 0,3<br/></p></note>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"><p>EDH: Buchstabe T mit sehr kurzer Querhaste und von I nicht oder kaum zu unterscheiden.<br/></p></note>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note"/>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note">                                                    <p>A. Didius Gallus Fabricius Veiento consul III – verm. 83 n.Chr.</p>
+                                                    <p>83-85: WSpDB</p>
+                                                    <p>83: Clauss/Slaby, EDH</p>
+                                                    <p>EDH: Datierung: wahrscheinlich 83 n. Chr., als sich A. Didius Gallus Fabricius Veiento in Mainz aufhielt.<br/>CIL: Tertius Veientonis consulatus, etiam a Statio ‘de bello Germanico quod Domitianus egit’ memoratus, anno 83 videtur tribuendus esse, id quod demonstravit Mommsenus Westd. Korr.-Blatt 1893 p. 124 ; cf. Ritterling </p>
+                                                    <p>ibid. 1897 p. 64</p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

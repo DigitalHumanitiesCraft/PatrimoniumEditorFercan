@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior397">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior397">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -259,7 +258,11 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers, 2001, B38</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1489</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Schmidts 2011, Nr.57</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 407 Nr.113</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.984</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>

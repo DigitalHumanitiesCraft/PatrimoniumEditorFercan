@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior5" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior5" n="">
 	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
-				<title type="full"><title type="main">Arvernorix</title><title type="sub"> CF-GeS-1088</title></title>
+				<title type="full"><title type="main">Mercurius Arvernorix</title><title type="sub"> CF-GeS-1088</title></title>
 				<respStmt>
 					<resp>Inschriftenedition</resp>
 					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
@@ -41,8 +41,8 @@
 				<msDesc>
 					<msIdentifier>
 						<settlement>Miltenberg</settlement>
-						<repository>Stadtmuseum</repository>
-						<idno/>
+						<repository>Museum Stadt</repository>
+						<idno>ARL 9</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>Weihinschrift</summary>
@@ -50,32 +50,42 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
-									<objectType>Weihestein</objectType> <dimensions>
-										<height unit="cm"> 82,0</height>
+								<support> <p>                                                <p>Der stark beschädigte Altar ist in drei (lt. Beckmann 1984, 84 Nr.36) modern wieder zusammengesetzten Fragmenten erhalten. Eine Reparaturstelle ist unter der ersten Inschriftenzeile erkennbar. Das ungerahmte Inschriftenfeld ist von der groben Basis und dem Aufsatz durch eine große Stufung getrennt. Der Aufsatz ist stark verwittert, jedoch können noch die Reste von Pulvini und einem Giebel erkannt werden. Laut Beckmann (1984, 84 Nr.36) waren die Pulvini mit sternförmigen Rosetten verziert. Er beschreibt auch, dass der Giebel auf der Vorderseite durch zwei Halbbögen vor der Focusplatte gebildet wurde, was anhand der vorliegenden Photos nicht mehr nachvollzogen werden kann. Dahinter befindet sich jedenfalls eine hohe Opferschale. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
+										<height unit="cm"> 84,0</height>
 										<width unit="cm"> 44,0</width>
-										<depth unit="cm"> 25,0</depth>
+										<depth unit="cm"> 28,0</depth>
 									</dimensions> <note type="dimensions"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p/> <note type="condition"/> </layout>
+								<layout> <p>                                                <p>Das Inschriftenfeld weist oberhalb der Inschrift einen Freiraum von ungefähr einer Zeile auf. Die Buchstabenform ist ungleichmäßig, und darüber hinaus weist die Inschrift auf die Aussprache zurückzuführende Rechtschreibfehler auf.</p>
+                                                <p>Zwischen Z.1 und Z.2 verläuft eine Bruchlinie wobei sie von links nach rechts leicht ansteigt, wodurch am Anfang von Z.2 der obere Teil der Buchstaben A und R, sowie am Ende von Z.1 der untere Teil der Buchstaben I und O fehlen.</p>
+                                                <p>Aufgrund der Beschädigung am Ende von Z.2 ist unsicher, ob dort ein C oder ein G steht.</p>
+                                                <p>Da am Ende von Z.5 der Platz fehlt wurde das '-to' von merito als eine Z.6 kleiner in den freien Bereich unter den Buchstaben RI am Ende von Z.5 und dem Sockelrand eingeschrieben.</p>
+                                                </p> <note type="condition"/> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote> <desc type="execution"/> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p>                                                <p>Auf der linken Seite des Altares sind noch zwei erhöhte Stellen zu erkennen. Beckmann (1984, 84 Nr.36) schreibt dazu: "Auf den Seitenflächen Ornamente, deren zeichnerische Ergänzung versucht wurde. Dannach könnte es sich links um die Bekrönung eines caduceus handeln." Anhand der vorliegenden Photographien kann dies weder bestätigt, noch widerlegt werden. Rechts könnten die Reste eines nach hinten blickenden und nach vorne schreitenden Vogels mit langem Hals (Schwan? Gans?) vorhanden sein. <br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252810">Opferschale</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">Rosette</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251100">Caduceus</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140700">Reparatur</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.254130">Vogel</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName>Seiopa</placeName> <region/> </origPlace> <origDate notBefore="" notAfter=""> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1845"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Miltenberg</ref> </placeName> <p/> <location>
+						<origin> <origPlace> <placeName>Seiopa</placeName> <region>Civitas Alisinensium</region> </origPlace> <origDate notBefore="" notAfter=""> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1845"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Miltenberg</ref> </placeName> <p>auf dem Plateau des Schloss- oder Greinbergs in einem germanischen Ringwall (CIL); "1400m ö der Kirche von Breitendiel, auf dem Greinberg, in der Privatwaldabteilung 12b Ringwall" (Abels 1979, 139)</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note/> </provenance>
+							</location> <note>gefunden vom Revierförster Dr. Madler bei Ausführung von forstwirthschaftlichen Arbeiten (CIL)</note> </provenance>
 						<provenance type="observed" subtype="autopsied">                                                vidimus (CIL XIII Projekt)<br/></provenance>
 					</history>
 				</msDesc>
@@ -88,12 +98,12 @@
 						</placeName>
 					</place>
 				</listPlace>
-				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context"/></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context"/></persName></person>
+				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context">Mercurius Arvernorix</ref></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context"/></persName></person>
 					<person>
-						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context"> Arvernorix</ref> </persName>
+						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context">Arvernorix</ref> </persName>
 					</person>
 					<person>
-						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> </ref> </persName>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Cossillus</ref> </persName>
 					</person>
 					<person>
 						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
@@ -170,8 +180,8 @@
 			</langUsage>
 			<textClass>
 				<keywords>
-					<list><item><ref target="context:fercan.divinepart." type="context"/></item>
-						<item> <ref target="context:fercan.dedication." type="context"> laetus libens merito</ref> </item>
+					<list><item><ref target="context:fercan.divinepart." type="context">Mercurio Arvernorig(i)</ref></item>
+						<item> <ref target="context:fercan.dedication." type="context">donavi ex visu; laetus libens merito</ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref>
@@ -189,10 +199,16 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic mimeType="" xml:id="IMAGE.1" url="">
-			<desc> </desc>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1088_front.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC </desc>
 		</graphic>
-	</facsimile>
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1088_li.jpg"><desc>links, CIL XIII Projekt, CC BY-NC </desc></graphic>
+        
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1088_re.jpg"><desc>rechts, CIL XIII Projekt, CC BY-NC </desc></graphic>
+        </facsimile>
 	<text>
 		<body>
 			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
@@ -200,72 +216,114 @@
 				<listBibl>
 					<bibl xml:id="1"> CIL XIII 6603 </bibl>
 				
-            <bibl xml:id="2">Scheungraber 2020, 129 Nr.6</bibl>
+            <bibl xml:id="2">ILS 4592</bibl>
+        
+            <bibl xml:id="3">Leonhard 1931, 52 Nr.1</bibl>
+        
+            <bibl xml:id="4">Espérandieu 1931, 129</bibl>
+        
+            <bibl xml:id="5">Castritius/Clauss/Hefner 1977, Nr.145</bibl>
+        
+            <bibl xml:id="6">Beckmann 1984, Nr.36 (mit 2 Varianten)</bibl>
+        
+            <bibl xml:id="7">Beckmann 1987, 49</bibl>
+        
+            <bibl xml:id="8">Wierschowski 2001, Nr.564a</bibl>
+        
+            <bibl xml:id="9">Kakoschke 2002, Nr.5.27</bibl>
+        
+            <bibl xml:id="10">Mattern 2005, Nr.219</bibl>
+        
+            <bibl xml:id="11">Scheungraber 2020, 129 Nr.6</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl type="EDCS"><idno> </idno><date> </date></bibl>
-					<bibl type="EDH"><idno> HD058633</idno><date> 2019-12-12</date></bibl>
-					<bibl type="trismegistos"><idno> www.trismegistos.org/text/212163 </idno><date> 2023-03-09</date></bibl>
-					<bibl type="other"><idno> http://lupa.at/6920</idno><date> 2021-03-08</date></bibl>
-				<bibl type="lupa"><idno/><date/></bibl></listBibl>
+					<bibl type="EDCS"><idno> EDCS-11000637</idno><date> zuletzt abgerufen 2023-03-09</date></bibl>
+					<bibl type="EDH"><idno>HD058633</idno><date>Version vom  2019-12-12</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/212163</idno><date> zuletzt abgerufen 2023-03-09</date></bibl>
+					
+				<bibl type="lupa"><idno>http://lupa.at/6920</idno><date>Version von 2021-03-08</date></bibl></listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform">
-				<ab><orig/></ab></div>
-			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab/></div>
+				<ab><orig/><lb n="1"/>MERCURIO
+<lb n="2"/>ARVERNORIG
+<lb n="3"/>COSSILLUS<g type="interpunct">▴</g>D
+<lb n="4"/>ONAVI<g type="interpunct">▴</g>ES VISU
+<lb n="5"/>LETUS LIBES MERI
+<lb n="6"/>TO<orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Mercurio
+<lb n="2"/><expan><abbr>Arvernorig</abbr><ex>i</ex></expan>
+<lb n="3"/>Cossillus d
+<lb n="4" break="no"/>onavi es visu
+<lb n="5"/><expan><abbr>l</abbr><ex>a</ex>etus</expan> <expan><abbr>libe</abbr><ex>n</ex>s</expan> meri
+<lb n="6" break="no"/>to</ab></div>
 			<div type="translation" xml:lang="de" org="uniform">
-				<p/>
+				<p>                                                <p>Für <rs type="divine">Mercurius Arvernorix</rs>!</p>
+                                                <p>Habe ich, Cosillus, (dies) aufgrund einer Vision freudig, gerne und verdientermaßen geschenkt.<br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform">
-				<p/>
+				<p>                                                <p>To <rs type="divine">Mercurius Arvernorix</rs>!</p>
+                                                <p>I, Cosillus, have gifted (this) because of a vision gladly, willingly and deservedly.<br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform">
-				<app loc="1">
-					<note/>
+				<app loc="2">
+					<note>Arvernoric(i) – Beckmann; Arvernoric[i] –Mattern; Arvernorici – Castritius (u.a.), Wierschowski, Scheungraber; Mer[c]urio Arvernorigi – Kakoschke</note>
 				</app>
-			</div>
-			<div type="commentary" subtype="general" org="uniform">
-				<p> </p>
-			</div>
+			
+            <app loc="4"><note anchored="true">D-/onavi [filius] – Beckmann 1984 (1. Variante), D-/onavi (filius) – Beckmann 1987, Kakoschke, Castritius (u.a.), Wierschowski, Mattern; D-/onavi – Scheungraber; e&lt;x&gt; – Castritius (u.a.), Wierschowski ; e&lt;x=S&gt; – Scheungraber</note></app>
+        
+            <app loc="5">
+                <note anchored="true">ohne Zeilenumbruch in merito – Kakoschke</note>
+            </app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform">                                                <p>Cossillus: einheimisches Namensformular<br/></p>
+                                                <p>Cossillus: keltischer/(lateinischer) Name, Weiterbildung des Personennamens/Namens Cossus, in den keltischen Provinzen verbreitet (Kakoschke 2021, CN 930; CN 1127 deutet 'donavi' als keltisches Cognomen)</p>
+                                                <p> </p>
+			<p/>
+                                                <p/></div>
 			<div type="commentary" subtype="language" org="uniform">
-				<p> </p>
+				<p>                                                <p>v.4: <span style="color: rgb(71, 71, 71); font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">„</span>es<span style="font-size:12.0pt;line-height:107%; font-family:&#34;Arial&#34;,sans-serif;mso-fareast-font-family:LeedsUniExt;mso-ansi-language: DE-AT;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">”</span> pro <span style="color: rgb(71, 71, 71); font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">„</span>ex<span style="font-size:12.0pt;line-height:107%; font-family:&#34;Arial&#34;,sans-serif;mso-fareast-font-family:LeedsUniExt;mso-ansi-language: DE-AT;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">”</span></p>
+                                                <p>v.5: <span style="color: rgb(71, 71, 71); font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">„</span>letus<span style="font-size:12.0pt;line-height:107%; font-family:&#34;Arial&#34;,sans-serif;mso-fareast-font-family:LeedsUniExt;mso-ansi-language: DE-AT;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">”</span> pro <span style="color: rgb(71, 71, 71); font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">„</span>laetus<span style="font-size:12.0pt;line-height:107%; font-family:&#34;Arial&#34;,sans-serif;mso-fareast-font-family:LeedsUniExt;mso-ansi-language: DE-AT;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">”</span> und <span style="color: rgb(71, 71, 71); font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">„</span>libes<span style="font-size:12.0pt;line-height:107%; font-family:&#34;Arial&#34;,sans-serif;mso-fareast-font-family:LeedsUniExt;mso-ansi-language: DE-AT;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">”</span> pro <span style="color: rgb(71, 71, 71); font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">„</span>libens<span style="font-size:12.0pt;line-height:107%; font-family:&#34;Arial&#34;,sans-serif;mso-fareast-font-family:LeedsUniExt;mso-ansi-language: DE-AT;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">”</span></p></p>
 			</div>
-			<div type="commentary" subtype="deity" org="uniform">
-				<p> </p>
+			<div type="commentary" subtype="deity" org="uniform">				<p> </p>
 			</div>
 			<linkGrp type="alignment" domains="#majuscule #minuscule">
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"/>
+			<note type="Objbeschr_note"><p>Beckmann 1984, S. 84 Nr. 36: Drei Fragmente eines einteiligen Altars. Bekrönung stark beschädigt, vermutlich auf der Vorderseite zwei Halbbögen vor der Focusplatte als Giebel zwischen den Stirnflächen der Pulvini, die mit sternförmigen Rosetten verziert waren. Sockel und Gesims sind einfach profiliert. Zwischen ihnen das Schriftfeld. </p><p>Leonhard 1914, S. 52: Die Bekrönung zeigt vorne zwei Halbbögen nebeneinader zwischen zwei Wulsten, darüber eine Schale. [...] Der Stein ist sehr verstossen.</p><p>Christ 1872, S. 93: Auf der oberen Fläche des Altars befindet sich keine Statue, sondern eine Vertiefung für die Libationen. <br/></p></note>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"/>
+			<note type="Material_note">                                                    <p>Rotsandstein - CIL Kartei; rot auch bei Christ 1872, S. 93</p>
+                                                    <p>grauer Sandstein - Leonhard 1914, S. 52; so auch Castritius/Clauss 1977, S. 288 Nr. 145<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"/>
+			<note type="InvNr_note"><p>siehe Beckmann 1984, S. 84 nr. 36 u CIL Kartei<br/></p></note>
 			<note type="Fundstelle_note"/>
 			<note type="Fundumst_note"/>
 			<note type="Fundjahr_note"/>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note"/>
+			<note type="FOmodern_note">                                                    <p>zum Fundort siehe Beckmann 1984, S. 76 (CIL Kartei zu 6603 S. 5), sowie 1982, S. 440 (CIL Kartei zu 6603 S. 15) und Conrady 1894/95, S. 336-341, sowie Fabricius 1900. S- 79-96<br/></p></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note"/>
+			<note type="Editionen_note"><p>Photos von online nicht verfügbaren Inschriftentexten  s. Ordner: ISntexte Slg</p></note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"/>
-			<note type="Ikonogr_note"/>
-			<note type="Inschrtext_note"/>
+			<note type="Masse_note">                                                    <p>Angaben von Leonhard 1914, S. 52 und Mattern;</p>
+                                                    <p>Hingegen bei EDH, Castritius/Clauss/Hefner, Beckmann 1984, 84 Höhe 82, Breite 44, Tiefe 25 cm; </p>
+                                                    <p>Christ 1869, S. 78 Nr. 13: 0,83m hoch, 0,44 breit</p>
+                                                    <p>Christ 1872, S. 93: H ca. 0,85m, B ca. 0,40m, Tiefe ca. 0,3m<br/></p></note>
+			<note type="Ikonogr_note"><p>Beckmann 1984, S. 84 Nr. 36: Auf den Seitenflächen Ornamente, deren zeichnerische Ergänzung versucht wurde. Danach könnte es sich links um die Bekrönung einens caduceus handeln. (siehe auch Abb 70 auf S. 85) </p><p>Leonhard 1914, S. 52:Auf der rechten Schmalseite ist noch der Rest eines unsicheren Attributs zu erkennen.<br/></p></note>
+			<note type="Inschrtext_note"><p>Leonhard, Beckmann 1984 , Steidl 2008 äußern sich zum Schriftbild und zu den Fehlern.<br/></p></note>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
 			<note type="Buchsthoehe_note"/>
 			<note type="Notvar_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"/>
+			<note type="Datierung_note"><p>siehe CIL Kartei 6603 - Merten, Zur Weihung an Mercurius Arvernorix (S.7f in Scan) und Christ 1872, S. 94<br/></p></note>
 		<note type="ElektronischeRessourcen_note"/><note type="Index_note"/></back>
 	</text>
 </TEI>

@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior107">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior107">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -279,7 +278,11 @@ Die rechte Schmalseite zeigt ebenfalls ein Füllhorn in Relief, in der Machart g
                     <bibl xml:id="LIT.3" default="false" status="draft">Deman 1975, G25c</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Schillinger-Häfele 1977, Nr.213</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Reuter 2012, Nr.56</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 97 Nr.2</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.692</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -317,24 +320,32 @@ V S L M <lb n="9"/>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Genio[q(ue)] / loc[i] mit falschem Zeilenwechsel – Alföldy, AE 1968, Deman, EDH; [G]enio[q(ue)] / [l]oc[i] mit falschem Zeilenwechsel – Schillinger-Häfele; Genio[q(ue)] – Reuter</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Genio[q(ue)] / loc[i] mit falschem Zeilenwechsel – Alföldy, AE 1968, Deman, EDH, Scheungraber; [G]enio[q(ue)] / [l]oc[i] mit falschem Zeilenwechsel – Schillinger-Häfele; Genio[q(ue)] – Reuterr; Genio[q(ue)] / l(oc[i)] – Ferlut (wahrscheinlich mit irriger Klammersetzung)</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[S]ecundinus – Alföldy, AE 1968, Deman, EDH, Reuter</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[S]ecundinus – Alföldy, AE 1968, Deman, EDH, Reuter, Scheungraber, Ferlut </tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">s[ig]nif(er) et – Alföldy, AE 1968, Deman, EDH, Reuter; [sig]nif(er) et – Schillinger-Häfele</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">s[ig]nif(er) et – Alföldy, AE 1968, Deman, EDH, Reuter, Scheungraber, Ferlut; [sig]nif(er) et – Schillinger-Häfele</tei:note>
                 </app>
                 <app loc="#MIN.6 #MAJ.6">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Iuli[us] (?) Firmînus – Alföldy; Iuli[us] (?) Firminus – AE 1968, Deman, EDH; Iuli[us] Firminus – Reuter; … Firm(i)nus – Schillinger-Häfele</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Iuli[us] (?) Firmînus – Alföldy; Iuli[us] (?) Firminus – AE 1968, Deman, EDH, Scheungraber; Iuli[us] Firminus – Reuter, Ferlut; … Firm(i)nus – Schillinger-Häfele</tei:note>
                 </app>
                 <app loc="#MIN.7 #MAJ.7">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[ve]t(eranus) (?) leg(ionis) – Alföldy, AE 1968, Deman, EDH, Reuter; …t leg(ionis) – Schillinger-Häfele</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[ve]t(eranus) (?) leg(ionis) – Alföldy, AE 1968, Deman, EDH, Reuter, Scheungraber; …t leg(ionis) – Schillinger-Häfele; [ve]t(eranus) leg(ionis) XXX U(lpiae) V(ictricis) v(otum) s(olverunt) l(ibentes) m(erito) – Ferlut (Z.8 fehlt dort)</tei:note>
                 </app>
                 <app loc="#MIN.9 #MAJ.9">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – AE 1968, Deman, Schillinger-Häfele, EDH; Co(n)s(ule) – Reuter</tei:note>
                 </app>
-            </div>
+            
+            <app loc="1">
+                <note anchored="true">Ambiamarci[s] – Scheungraber, Ferlut</note>
+            </app>
+        
+            <app loc="3">
+                <note anchored="true">[3] Lucanius – Scheungraber; [.] Lucanius – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Lucanius: italisches Gentilnomen oder einheimisches Pseudogentilnomen (Kakoschke 2006, 679) <lb/>
 Secundinus: Lateinisches Cognomen, äußerst gängig (Kakoschke 2008, CN 2754) </p>

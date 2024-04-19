@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior289">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior289">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -260,7 +259,9 @@
                     <bibl xml:id="LIT.4" default="false" status="draft">Byvanck 1935, Nr.248 und 1605</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Hondius-Crone 1955, Nr.23</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">Stuart 2013, Nr.7</bibl>
-                </listBibl>
+                
+            <bibl xml:id="7">Scheungraber 2020, 395 Nr.17</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -297,10 +298,10 @@ Due to the undamaged goods Marcus Secundinius Silvanus, a trader in ceramics wit
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligaturen – ILS, Byvanck, Hondius-Crone; fehlender Zeilenwechsel nach conser – Hondius-Crone</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – ILS; Secunda(rius) – Byvanck Hondius-Crone</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – ILS; Secunda(rius) – Byvanck Hondius-Crone; Secund(inius) – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ein kleines A über dem zweiten T von „negotiator“ – Janssen; ohne Ligaturen – ILS; negoti(a)tor – Byvanck; negotiator – Hondius-Crone; negoti[a]tor – Stuart</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ein kleines A über dem zweiten T von „negotiator“ – Janssen; ohne Ligaturen – ILS; negoti(a)tor – Byvanck, Scheungraber; negotiator – Hondius-Crone; negoti[a]tor – Stuart</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

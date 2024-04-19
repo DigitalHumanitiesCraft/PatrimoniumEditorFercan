@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior299">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior299">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -225,7 +224,11 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">Bogaers in Willems 1983, 252</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1983, 724</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">AE 1989, 558</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 120 Nr.1</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.25</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -262,9 +265,13 @@ Marcus I… Am… willingly and deservedly. </p>
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Zeilenumbruch nach D fehlt – AE 1983, EDH</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">I(ulius) – Bogaers in Willems; M(arcus) I(ulius) Am(andus) – AE 1983, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">I(ulius) – Bogaers in Willems; M(arcus) I(ulius) Am(andus) – AE 1983, EDH; ae(!) M(arcus) – Scheungraber</tei:note>
                 </app>
-            </div>
+            
+            <app loc="4">
+                <note anchored="true">I(ulius?) Am() – Scheungraber; I(ulius) Am(andus) – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Arkanua:</rs> Variante von  <rs type="divine">Arcanua:</rs> keltisch: ,Die Vorsängerin‘ bzw. ,Die Verkünderin‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 86f).</p>
                                                 <p part="N">
 

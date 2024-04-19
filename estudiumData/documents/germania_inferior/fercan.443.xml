@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior443">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior443">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -282,7 +281,11 @@ Der Baumstamm ist gerade, an einer Seite wächst ein Aststumpf auf. Darüber set
                     <bibl xml:id="LIT.3" default="false" status="draft">Byvanck 1935, Nr.262</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Hondius-Crone 1955, Nr.26</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Stuart 2013, Nr.26</bibl>
-                </listBibl>
+                
+            <bibl xml:id="6">Scheungraber 2020, 394 Nr.13</bibl>
+        
+            <bibl xml:id="7">Ferlut 2022, Nr.979</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -321,13 +324,13 @@ Ingenuinius Ianuarius set up this altar for the wellbeing of his son according t
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Espérandieu, Byvanck, Hondius-Crone</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Espérandieu, Byvanck, Hondius-Crone</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Espérandieu, Byvanck, Hondius-Crone; kein Zeilenwechsel nach ex – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.7 #MAJ.7">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Espérandieu, Byvanck, Hondius-Crone</tei:note>
                 </app>
                 <app loc="#MIN.8 #MAJ.8">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[f]ili – CIL, Espérandieu</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[f]ili – CIL, Espérandieu; [f]ili(i) – Ferlut </tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">

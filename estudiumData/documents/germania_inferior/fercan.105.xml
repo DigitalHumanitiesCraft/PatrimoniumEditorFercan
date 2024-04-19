@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior105">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior105">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -231,7 +230,11 @@
                     <bibl xml:id="LIT.5" default="false" status="draft">Riese 1914, Nr.3078</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">Gutenbrunner 1936, 201</bibl>
                     <bibl xml:id="LIT.7" default="false" status="draft">Weißgerber 1968, 27, Nr.123</bibl>
-                </listBibl>
+                
+            <bibl xml:id="8">Scheungraber 2020, 97 Nr.1</bibl>
+        
+            <bibl xml:id="9">Ferlut 2022, Nr.779</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -265,7 +268,11 @@ Gaius Iulius Proculas willingly and deservedly.</p>
                 <app loc="#MIN.4 #MAJ.4">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ula s(olvit) – Eick, Brambach, Riese, Gutenbrunner, Weißgerber; ul&lt;u&gt;s – Ihm</tei:note>
                 </app>
-            </div>
+            
+            <app loc="2">
+                <note anchored="true">Abiamar(cis) – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Gaius Iulius Proculas: tria nomina. <lb/> 
 Eine andere Lesung (s. Apparatus criticus) wäre Iulia Procula (so auch Kakoschke 2008, CN 2472), dann wäre das C nicht als Gaius zu verstehen, sondern noch zu „Ambiamarc(is)“ zu rechnen. Das S am Ende von Proculas müsste dann Teil von „s(olvit) l(ibens) m(erito)“ sein. Nicht nur aufgrund der ausgewogen erscheinenden Buchstabenverteilung im Textfeld und der überlieferten Worttrenner in Z.4, scheint diese Lesung weniger wahrscheinlich; vgl. unten zu Proculas. <lb/>

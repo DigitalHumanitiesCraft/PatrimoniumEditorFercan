@@ -1,0 +1,334 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior86" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Sucellus</title><title type="sub">CF-GeS-1030</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.86</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Mainz</settlement>
+						<repository>Landesmuseum</repository>
+						<idno>S 1014</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p>                                                <p>Der Weihealtar ist rundherum stark beschlagen, wobei die Bekrönung am schlechtesten erhalten ist. Von dieser ist nur mehr der mittlere Teil vorhanden, der wohl eine Opferschale trägt. Keller (1883, 6, Nr.7) beschreibt diesen Teil jedoch als „Stumpf, der Rest des Sockels einer Götterfigur“.</p>
+                                                <p>Das Inschriftenfeld ist doppelt gerahmt, wobei die Rahmung vor allem auf der rechten Seite stark in Mitleidenschaft gezogen wurde und nur mehr stellenweise erhalten ist. Es ist durch zwei dezente Stufen von der schmalen Basis getrennt. Aufgrund des vorliegenden Photos nicht mehr zu erkennen sind die laut Keller (1883, 6, Nr.7) vorhandenen Randleisten, die die Schmalseiten umrahmen und die „auf der rauh gelassenen Rückseite […] nicht durchgeführt“ sind.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
+										<height unit="cm">68</height>
+										<width unit="cm">40</width>
+										<depth unit="cm">23</depth>
+									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>Der Inschriftentext ist bis auf eine kleine Ausbruchstelle in der Mitte von Z.9 zur Gänze erhalten und gut lesbar. Die Buchstaben sind im oberen Teil größer als im unteren.</p>
+                                                <p>Zu einer Ligatur: s. Majuskelumschrift. – Besondere Zeichen: In Z.7 findet sich über der Zahl XXII, wie üblich, ein waagrechter Strich.</p></p> <note type="condition" anchored="true"/> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc>  </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150500">Rahmen</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252810">Opferschale</term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName>Mogontiacum</placeName> <region/> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1882"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Mainz</ref> </placeName> <p>„auf der Mathildenterrasse zu Mainz, gegenüber dem Kupferbergischen Hause“ (CIL)</p> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true">bei Kanalarbeiten (CIL)</note> </provenance>
+						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context">Iupiter Optimus Maximus; Genius loci</ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Sucellus</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Sucellus</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Seppianus; Trophimus</ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">Calpurnius</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context">actor; canabarii</ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context">primus pilus</ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">legio XXII Primigenia Pia</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context">ex voto; pro salute</ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context">Sucaelo</ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1030_front.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
+		</graphic>
+	</facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="2">CIL XIII 6730</bibl>
+				
+            <bibl xml:id="3">ILS 4615</bibl>
+        
+            <bibl xml:id="5">Weber 1966, 64</bibl>
+        
+            <bibl xml:id="6">Günther et.al. 1978, 410f. Nr.5</bibl>
+        
+            <bibl xml:id="7">Richier 2004, 345 Nr.292</bibl>
+        
+            <bibl xml:id="8">Scheungraber 2020, 497 Nr.11</bibl>
+        
+            <bibl xml:id="4">Riese 1914, Nr.2127</bibl>
+        
+            <bibl xml:id="1">Keller 1883 (Katalog), 155 Nr.25a</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno>EDCS-11000775</idno><date>zuletzt abgerufen 2023-06-30</date></bibl>
+					<bibl type="EDH"><idno>HD055177</idno><date>Version von 2018-07-26</date></bibl>
+					<bibl type="trismegistos"><idno>http://www.trismegistos.org/text/211847 </idno><date>zuletzt abgerufen 2023-06-30</date></bibl>
+					<bibl type="lupa"><idno> </idno><date> </date></bibl>
+					<bibl type="other"><idno> </idno><date> </date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/><g type="interpunct">▴</g>I<g type="interpunct">▴</g>O<g type="interpunct">▴</g>M<g type="interpunct">▴</g>
+<lb n="2"/>SVCAELO<g type="interpunct">▴</g>ET
+<lb n="3"/>GEN<g type="interpunct">▴</g>LOCI<g type="interpunct">▴</g><hi rend="ligature">PR</hi>O
+<lb n="4"/>SALVTE<g type="interpunct">▴</g>C<g type="interpunct">▴</g>
+<lb n="5"/>CALPVRNI
+<lb n="6"/>SEPPIANI<g type="interpunct">▴</g>P<g type="interpunct">▴</g>P<g type="interpunct">▴</g>
+<lb n="7"/>LEG<g type="interpunct">▴</g>XXII<g type="interpunct">▴</g>PR<g type="interpunct">▴</g>P<g type="interpunct">▴</g>
+<lb n="8"/>TROPHIMVS
+<lb n="9"/>ACTO<unclear>R</unclear> <gap reason="lost" quantity="1" unit="character"/><unclear>T</unclear> CAN
+<lb n="10"/>ABARI<g type="interpunct">▴</g>EX<g type="interpunct">▴</g>
+<lb n="11"/>VOTO<orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan>
+<lb n="2"/>Sucaelo et
+<lb n="3"/><expan><abbr>Gen</abbr><ex>io</ex></expan> loci pro
+<lb n="4"/>salute <expan><abbr>C</abbr><ex>ai</ex></expan>
+<lb n="5"/>Calpurni
+<lb n="6"/>Seppiani <expan><abbr>p</abbr><ex>rimi</ex></expan> <expan><abbr>p</abbr><ex>ili</ex></expan>
+<lb n="7"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XXII <expan><abbr>Pr</abbr><ex>imigeniae</ex></expan> <expan><abbr>P</abbr><ex>iae</ex></expan>
+<lb n="8"/>Trophimus
+<lb n="9"/>actor <supplied reason="lost">e</supplied>t can
+<lb n="10"/><expan><abbr>abari</abbr><ex>i</ex></expan> ex
+<lb n="11"/>voto</ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p>                                                <p>Für <rs type="divine">Iupiter Optimus Maximus</rs>, <rs type="divine">Sucaelus</rs> und den <i>Genius loci</i>!</p>
+                                                <p>Für das Wohl des Gaius Calpurnius Seppianus, des primus pilus der Legio XXII Primigenia Pia, (haben) der actor Trophimus und die Bewohner der Canabae (den Altar) aufgrund eines Gelübdes (errichtet).</p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p>                                                <p>To <rs type="divine">Iupiter Optimus Maximus</rs>, <rs type="divine">Sucaelus</rs> and the <i>Genius loci</i>!<br/>For the wellbeing of Gaius Calpurnius Seppianus, the primus pilus of the 22nd legion Primigenia Pia, the actor Trophimus and the inhabitants of the canabae (set up this altar) in accordance with a vow.</p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="4">
+					<note anchored="true">C(aii) – Richier </note>
+				</app>
+			
+            <app loc="5"><note anchored="true">Calpurni(i) – Richier</note></app>
+        
+            <app loc="7"><note anchored="true">p. (f.) – Riese; P(iae) [F(idelis)] – Günther et.al.; P(iae) F(idelis) – Richier</note></app>
+        
+            <app loc="9"><note anchored="true">littera corrosa inter ACTOR et CAN fuisse P̂R aut ÊT videtur – CIL; actor (das R ohne Unterpunkt) – Riese; [et] – ILS, Weber; [et(?)] – Günther et.al.</note></app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Gaius Calpurnius Seppianus: tria nomina</p>
+                                                <p>Calpurnius: italisches Gentilnomen, sehr gängig (Kakoschke 2021, GN 258)</p>
+                                                <p>Seppianus: lateinischer Name, Weiterbildung des Gentilnomens Seppius, selten belegt (Kakoschke 2021, CN 2824)</p>
+                                                <p>Trophimus: griechischer Name, reichsweit belegt (Kakoschke 2021, CN 3138). Der griechische Name könnte darauf hindeuten, dass Trophimus ein Sklave war.</p>
+                                                <p>legio XXII Primigenia Pia: Die Legio XXII Primigenia erhielt nach dem Scheitern des Saturninus-Aufstanden 89 n.Chr. gemeinsam mit anderen Legionen und Truppenkörpern den Ehrenbeinamen Pia Fidelis Domitiana; letzterer fiel nach der damnatio memoriae Domitians wieder weg. Die Legion wurde 97 n.Chr. von Xanten nach Mainz verlegt, wo sie die nächsten zwei Jahrhunderte verblieb. Zwischen 70/71 und 97 n.Chr. sowie 101/102 bis 106/107 n.Chr. wurden Teile der Truppe für Steinbrucharbeiten im Brohtal eingesetzt (Matijević 2010, 29, 227–233).</p>
+                                                <p>actor: ein mit der Regelung der rechtlichen und finanziellen Angelegenheiten betrauter Geschäftsführer (Günther et.al. 1978, 410). Der actor Trophimus war vielleicht ein kaiserlicher Sklave, der für die Verwaltung der Fiskalgüter zuständig war, möglich ist aber auch, dass er eine Funktion in den canabae inne hatte (Kronemayer 1983, 71).</p>
+                                                <p>Der Anlass für die Weihung des actor und der Einwohner der canabae war vermutlich die alle fünf Jahre stattfindende Überprüfung des Legionseigentums in der Lagervorstadt und dem Territorium der Legion, die unter der Leitung eines primuspilus stattfand (Kronemayer 1983, 71).</p></div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete"><rs type="divine">Sucaelus</rs>: Variante von <i>Sucellus</i><p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note"><p>Auf der oberen Fläche steht noch ein 0,18 m br. Und 0,10 m h Stumpf, der Rest des Sockels einer Götterfigur, wahrscheinlich des Genius loci, der auf der Inschrift genannt ist. Diese verstümmelte Erhöhung abgerechnet, ist die Ara 0,58 m h., 0,40 m br., 0,23 m tief; der einfach profilierte Sockel steht ca. 3 cm vor. Er läuft um die Ara herum, doch sind auf der rauh gelassenen Rückseite die Profile nicht durchgeführt, woraus sich ergiebt, dass der Altar einer Wand oder Mauer zunächst, nicht aber unmittelbar daran stand. Wie das Legendenfeld, so sind auch die Schmalseiten von Randleisten umrahmt. Die obere Ecke ist samt der Leiste abgebrochen; auch fehlt r. unten ein Stück des Sockels, l. oben ein kleineres Stück und darunter längs der Kante ein längerer Streifen, jedoch ausserhalb der Leistenumrahmung. (Keller, Westdeutsches Korrespondenzblatt 1883 2,1 S. 6, Nr. 7 (Mainz)</p><p><br/>Das Legendenfeld und die Schmalseiten sind von Randleisten umrahmt. (Keller 1883 S. 155, Nr. 25a)</p></note>
+			<note type="ArchKlass_note"/>
+			<note type="Material_note"><p>Weiß – Keller, Westdeutsches Korrespondenzblatt 1883 2,1 S. 6, Nr. 7 (Mainz)<br/></p></note>
+			<note type="Inschrifttraeger_note"><p>WSpDB: ara<br/>EDH: Altar</p></note>
+			<note type="VerwahrortOrt_note"/>
+			<note type="InvNr_note"/>
+			<note type="Fundstelle_note"><p>EDH: Kupferbergterrasse<br/></p></note>
+			<note type="Fundumst_note"/>
+			<note type="Fundjahr_note"><p>22. November<br/></p></note>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note"/>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"/>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note"><p>WSpDB: Film Nr.: 237/17,19<br/></p></note>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note"><p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p><p><u>eingesehen</u></p><p>Dobson = Dobson, Brian: Die Primipilares. Entwicklung und Bedeutung, Laufbahn und Persönlichkeit eines römischen Offiziersranges. Köln-Bonn 1978. (= Beihefte der Bonner Jahrbücher. Bd.37.) S.342. Nr.128, - eingesehen, nix</p><p>Jacobi I S.661, - eingesehen</p><p>Keller Kat. 1883 Nr.25a^- muss nicht eingesehen werden</p><p>Riese 1914, Nr.2127, - eingearbeitet</p><p>Deyts, S. u. L. Roussel. In: RAE 40. 1989. S.246. Abb.7 (Photo), - eingesehen</p><p>Ezov S.78. Nr.52, - nicht gelesen</p><p>Ghetta S.143 mit Anm.115, - Keine Ahnung was für ein Werk da nicht in Citavi</p><p>Hatt III S.193, - bei keinem der Hat’s mit pdf enthalten</p><p>Kotterba S.58, 200. Nr.229, - Keine Ahnung was für ein Werk da nicht in Citavi</p><p>Lazzaro 1978/79 Nr.173, - nur Konkordanz</p></note>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note"><p>Westdeutsches Korrespondenzblatt 1883 2,1 S. 6, Nr. 7 (Mainz)<br/></p></note>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note">In einzelnen Buchstaben sind noch deutliche Spuren rother Mennigfärbung zu erkennen. (Keller 1883, S. 12) <b>in Word gelb</b><br/></note>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note">                                                    <p>
+                                                        Winfried: Eingabe falsch. Hat Horster vom 7.7.23 mit Infos geantwortet? - Ja (31.8.23) - noch keine Infos dazu, ev im Frühjahr.<br/></p></note>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note"><p>Weber: 3. Jh.</p><p>EDH, ClaussSlaby, WSpDB: 200-250</p></note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

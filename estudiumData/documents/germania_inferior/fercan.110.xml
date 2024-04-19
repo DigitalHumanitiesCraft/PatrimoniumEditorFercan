@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior110">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior110">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -249,7 +248,11 @@
                     <bibl xml:id="LIT.6" default="false" status="draft">Arenas-Esteban/de Bernardo Stempel 2005, 46</bibl>
                     <bibl xml:id="LIT.7" default="false" status="draft">Galsterer/Galsterer 2010, Nr.4</bibl>
                     <bibl xml:id="LIT.8" default="false" status="draft">KIK2012 Nr.3</bibl>
-                </listBibl>
+                
+            <bibl xml:id="9">Scheungraber 2020, 119</bibl>
+        
+            <bibl xml:id="10">Ferlut 2022, Nr.23</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -285,11 +288,9 @@ Titus Ver…? Sene…? willingly and deservedly.</p>
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Nesselhauf/Lieb, Derks, Galsterer/Galsterer 2010, KIK2012, EDH</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">vielleicht Sene(cio) oder Sene(ca) – AE; ohne Ligatur – Nesselhauf/Lieb, Derks, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">vielleicht Sene(cio) oder Sene(ca) – AE; ohne Ligatur – Nesselhauf/Lieb, Derks, EDH | Ver(inius?) Sen̂e(cio?) – Galsterer/Galsterer 1975; Ver(inius) Sene(cio) – Arenas-Esteban/de Bernardo Stempel, Ferlut; Ver(inius?) Sene(cio?) – Galsterer/Galsterer 2010, KIK2012, Scheungraber </tei:note>
                 </app>
-                <app loc="#MIN. #MAJ.">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true"/>
-                </app>
+                
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Ver(---) Sene(---): Es ist auffällig, dass Nomen gentile und Cognomen abgekürzt sind. Gesicherte Ergänzungen können nicht vorgenommen werden. Sene(---) ist vielleicht zu ergänzen auf Senecio (wie z.B. in CIL XIII 8199) oder aus Seneca (wie z.B. in CIL XIII 8426).  </p>

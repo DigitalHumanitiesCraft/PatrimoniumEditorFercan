@@ -1,5 +1,4 @@
-<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior296">
+<?xml-model href="https://gams.uni-graz.at/context:fercan/SCHEMA_EPIDOC_9.1" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="inferior296">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -296,8 +295,14 @@ Auf den Schmalseiten befinden sich einfache, jedoch schwer beschädigte Baumdars
                     <bibl xml:id="LIT.2" default="false" status="draft">Espérandieu VIII 6411</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Schoppa 1959, Nr.71</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Galsterer/Galsterer 1975, Nr.104</bibl>
-                    <bibl xml:id="LIT.5" default="false" status="draft">Galsterer/Galsterer 2010, Nr.149</bibl>
-                </listBibl>
+                    <bibl xml:id="LIT.5" default="false" status="draft">Raybould/Sims-Williams 2007, 68 Nr.BEG 127</bibl>
+                
+            <bibl xml:id="6">Galsterer/Galsterer 2010, Nr.149 </bibl>
+        
+            <bibl xml:id="7">Scheungraber 2020, 371 Nr.3</bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.866</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -311,7 +316,7 @@ Auf den Schmalseiten befinden sich einfache, jedoch schwer beschädigte Baumdars
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>MATRONIS <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>MATRONIS <lb n="2"/>
 MAHLINEHIS <lb n="3"/>
 TIB · CLAVDIVS <lb n="4"/>
 TATICENVS <lb n="5"/> 

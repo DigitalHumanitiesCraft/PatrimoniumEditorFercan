@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:time="http://www.w3.org/2006/time#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:RDF xmlns:periodo="http://perio.do/#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dct="http://purl.org/dc/terms/" xmlns:skosThesau="https://ausohnum.huma-num.fr/skosThesau/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:time="http://www.w3.org/2006/time#" xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <skos:ConceptScheme rdf:about="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/">
         <dc:title type="full">EAGLE Vocabulary - State of preservation</dc:title>
         <dc:title type="short">statepreserv</dc:title>
@@ -73,7 +72,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c25307" rdf:about="https://ausohnum.huma-num.fr/concept/c25307">
         <skos:prefLabel xml:lang="en">Complete</skos:prefLabel>
@@ -105,7 +104,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c25308" rdf:about="https://ausohnum.huma-num.fr/concept/c25308">
         <skos:prefLabel xml:lang="en">contigous</skos:prefLabel>
@@ -119,7 +118,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c25309" rdf:about="https://ausohnum.huma-num.fr/concept/c25309">
         <skos:prefLabel xml:lang="en">Good</skos:prefLabel>
@@ -134,7 +133,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c25310" rdf:about="https://ausohnum.huma-num.fr/concept/c25310">
         <skos:prefLabel xml:lang="en">Incomplete</skos:prefLabel>
@@ -170,7 +169,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c25311" rdf:about="https://ausohnum.huma-num.fr/concept/c25311">
         <skos:prefLabel xml:lang="en">intact</skos:prefLabel>
@@ -184,7 +183,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c25312" rdf:about="https://ausohnum.huma-num.fr/concept/c25312">
         <skos:prefLabel xml:lang="en">Lost</skos:prefLabel>
@@ -201,7 +200,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c25313" rdf:about="https://ausohnum.huma-num.fr/concept/c25313">
         <skos:prefLabel xml:lang="en">lost but recorded</skos:prefLabel>
@@ -215,7 +214,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c25314" rdf:about="https://ausohnum.huma-num.fr/concept/c25314">
         <skos:prefLabel xml:lang="en">non-contigous</skos:prefLabel>
@@ -229,7 +228,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c25315" rdf:about="https://ausohnum.huma-num.fr/concept/c25315">
         <skos:prefLabel xml:lang="en">Probably complete</skos:prefLabel>
@@ -244,7 +243,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c25316" rdf:about="https://ausohnum.huma-num.fr/concept/c25316">
         <skos:prefLabel xml:lang="en">tit. fragmenta inter se coniuncta</skos:prefLabel>
@@ -259,7 +258,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c25317" rdf:about="https://ausohnum.huma-num.fr/concept/c25317">
         <skos:prefLabel xml:lang="la">tit. fragmenta inter se non coniuncta</skos:prefLabel>
@@ -274,7 +273,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c25318" rdf:about="https://ausohnum.huma-num.fr/concept/c25318">
         <skos:prefLabel xml:lang="la">tit. fragmenta partim tantum inter se coniuncta</skos:prefLabel>
@@ -291,7 +290,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c25319" rdf:about="https://ausohnum.huma-num.fr/concept/c25319">
         <skos:prefLabel xml:lang="la">nulla vestigia tituli discerni possunt</skos:prefLabel>
@@ -307,7 +306,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c25320" rdf:about="https://ausohnum.huma-num.fr/concept/c25320">
         <skos:prefLabel xml:lang="la">de titulo nec vola nec vestigium</skos:prefLabel>
@@ -323,7 +322,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c25321" rdf:about="https://ausohnum.huma-num.fr/concept/c25321">
         <skos:prefLabel xml:lang="la">nihil legi potest nisi vestigia infirmissima</skos:prefLabel>
@@ -339,7 +338,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c25322" rdf:about="https://ausohnum.huma-num.fr/concept/c25322">
         <skos:prefLabel xml:lang="la">titulus lapide scindendo periisse videtur</skos:prefLabel>
@@ -355,7 +354,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c25323" rdf:about="https://ausohnum.huma-num.fr/concept/c25323">
         <skos:prefLabel xml:lang="la">quo labore pars tituli deleta esse videtur</skos:prefLabel>
@@ -371,7 +370,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c25324" rdf:about="https://ausohnum.huma-num.fr/concept/c25324">
         <skos:prefLabel xml:lang="la">..., quorum inscriptiones prae vetustate legi nequeunt</skos:prefLabel>
@@ -387,7 +386,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c25325" rdf:about="https://ausohnum.huma-num.fr/concept/c25325">
         <skos:prefLabel xml:lang="la">undique aratri vomere laesus</skos:prefLabel>
@@ -403,7 +402,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c25326" rdf:about="https://ausohnum.huma-num.fr/concept/c25326">
         <skos:prefLabel xml:lang="la">parte antica supra a dextra mutilus / mutilatus / adesus</skos:prefLabel>
@@ -419,7 +418,7 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept>
     <skos:Concept xml:id="c25327" rdf:about="https://ausohnum.huma-num.fr/concept/c25327">
         <skos:prefLabel xml:lang="la">in fronte fracturis rimisque laesus</skos:prefLabel>
@@ -435,6 +434,6 @@
         </skos:exactMatch>
         <skos:inScheme rdf:resource="https://ausohnum.huma-num.fr/thesaurus/eagle-statepreserv/"/>    
         <dct:created>2020-11-04T01:29:20.63+01:00</dct:created>
-        <dct:modified>2020-11-04T01:29:20.63+01:00</dct:modified>
+        <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/">2020-11-04T01:29:20.63+01:00</dcterms:modified>
     </skos:Concept> 
 </rdf:RDF>

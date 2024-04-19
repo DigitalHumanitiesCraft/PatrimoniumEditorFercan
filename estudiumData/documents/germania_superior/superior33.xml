@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior33" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior33" n="">
 	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
@@ -41,8 +41,8 @@
 				<msDesc>
 					<msIdentifier>
 						<settlement>Stuttgart</settlement>
-						<repository/>
-						<idno/>
+						<repository>Württembergisches Landesmuseum</repository>
+						<idno>R L 402</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>Weihinschrift</summary>
@@ -50,32 +50,39 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
-									<objectType>Weihestein</objectType> <dimensions>
-										<height unit="cm"> </height>
-										<width unit="cm"> </width>
-										<depth unit="cm"> </depth>
+								<support> <p>                                                <p>Es handelt sich um eine querrechteckige Bauinschrift, die sich in einem doppelt gerahmten Feld befindet. Laut Filtzinger (1980, 103) war der Stein 1756 noch ganz, wurde jedoch später von einem "Bauführer" zerbrochen. Die Inschrift ist daher heute in drei Teilen erhalten, wobei der erste Bruch ein wenig rechts der Mitte senkrecht über die ganze Breite verläuft und der zweite Bruch die rechte Seite so teilt, dass das linke untere Eck in Form eines beinahe rechtwinkeligen Dreiecks erhalten ist. Außerdem fehlen mittig ein kleines Stück bis in Zeile zwei (modern aufgefüllt), sowie das linke untere Eck des Steines. Alle Seiten sind bestoßen. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110800">Bauinschrift</objectType> <dimensions>
+										<height unit="cm">82</height>
+										<width unit="cm">143</width>
+										<depth unit="cm">16</depth>
 									</dimensions> <note type="dimensions"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#"/> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p/> <note type="condition"/> </layout>
+								<layout> <p>                                                <p>Die Inschrift füllt das gerahmte Feld vollständig aus, nur unten ist eine halbe Zeile Abstand. Bei Auffindung komplett fehlt seit dem Bruch ein kleines Fragment, weswegen Z.1 heute eine Lücke von drei Buchstaben aufweist. Bis auf die kleiner eingeschriebenen, sind alle Buchstaben regelmäßig.</p>
+                                                
+                                                <p>Bis auf Z.2 in der, in der linken Zeilenhälfte auf sie verzichtet wurde, sind die Worttrenner in allen Zeilen korrekt gesetzt.<br/></p>
+                                                <p>Zu Ligaturen: s. Majuskelumschrift. – Besondere Zeichen: In Z.2 ist das S von Longinus klein in das U, in Z.4 das O 
+von Lon/ginus klein zwischen L und N und in Z.5 das A von 
+Hila/ritas zwischen L und dem Rahmen kleiner und hochgestellt 
+eingeschrieben.</p></p> <note type="condition"/> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote> <desc type="execution"/> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="5.5" atMost="5.5">5,5–5,5</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p>                                                <p>Keine bildliche Gestaltung vorhanden. <br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150500">Rahmen</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140700">Reparatur</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="" notAfter=""><date> </date> <note type="original"> <ref target="context:fercan.date." type="context">Muciano et Fabiano consulibus</ref> </note></origDate> </origin>
-						<provenance type="found" when="1710"> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="0201" notAfter="0201"><date> 201</date> <note type="original"> <ref target="context:fercan.date." type="context">Muciano et Fabiano consulibus </ref> </note></origDate> </origin>
+						<provenance type="found" when="1710"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Großbottwar</ref> </placeName> <p>"Es war wohl der Garten des späteren Kameralamates (heute Forstamt) am Nordwestausgang der Stadt." (Paret 1960, 48)</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note/> </provenance>
+							</location> <note>"Der Obrist von Hartmann, 1698-1719 Besitzer des Schloßguts Großbottwar, berichtete [...] daß er 'bei Grabung einer Dohlen auf seinem Gut und Garten' die Inschriftplatte gefunden habe. (Paret 1960, S. 48)</note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
 					</history>
 				</msDesc>
@@ -84,13 +91,13 @@
 						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
 					</place>
 					<place type="sacral_building">
-						<placeName> <ref target="context:fercan.geog.sacral." type="context"> aedes</ref>
+						<placeName> <ref target="context:fercan.geog.sacral." type="context">aedes</ref>
 						</placeName>
 					</place>
 				</listPlace>
-				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context"/></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context"/></persName></person>
+				<listPerson><person><persName subtype="celtic_normalized" type="divine"><ref target="context:fercan.dcn." type="context">Sirona</ref></persName></person><person><persName subtype="celtic_normalized_other" type="divine"><ref target="context:fercan.dcn.other" type="context">Apollo</ref></persName></person>
 					<person>
-						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context"> Sirona</ref> </persName>
+						<persName subtype="celtic_element" type="divine"> <ref target="context:fercan.dce." type="context">Sirona</ref> </persName>
 					</person>
 					<person>
 						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> </ref> </persName>
@@ -108,7 +115,7 @@
 						</persName>
 					</person>
 					<person>
-						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> veteranus</ref>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context">veteranus</ref>
 						</roleName> </persName>
 					</person>
 					<person>
@@ -170,11 +177,11 @@
 			<textClass>
 				<keywords>
 					<list>
-						<item> <ref target="context:fercan.dedication." type="context">in honorem domus divinae; in suo posuerunt; votum solverunt libentes laeti merito</ref> </item>
+						<item> <ref target="context:fercan.dedication." type="context">in honorem domus divinae; in suo posuerunt; votum solverunt laeti libentes merito</ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
-						<item> <ref target="context:fercan.divinepart." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.divinepart." type="context">Sironae</ref> </item>
 						<item> <ref target="context:fercan.theonymischesFormular." type="context"> </ref> </item>
 					</list>
 				</keywords>
@@ -189,8 +196,8 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="Sirona 1117_fr.jpg">
-			<desc> </desc>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1117_front.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
 		</graphic>
 	</facsimile>
 	<text>
@@ -198,90 +205,143 @@
 			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
 			<div subtype="editions" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl xml:id="1"> CIL XIII 6458</bibl>
+					<bibl xml:id="2"> CIL XIII 6458</bibl>
 				
-            <bibl xml:id="2">Scheungraber 2020, 488 Nr.15</bibl>
+            <bibl xml:id="13">Scheungraber 2020, 488 Nr.15</bibl>
+        
+            <bibl xml:id="4">Paret 1926, 67</bibl>
+        
+            <bibl xml:id="5">Paret 1960, 48</bibl>
+        
+            <bibl xml:id="11">Kuhnen 1994, 257–259</bibl>
+        
+            <bibl xml:id="9">Luik/Reuti 1988, 102</bibl>
+        
+            <bibl xml:id="8">Schillinger-Häfele 1986, 119 Abb.15</bibl>
+        
+            <bibl xml:id="6">Weisgerber 1975, 116 Nr.6</bibl>
+        
+            <bibl xml:id="7">Filtzinger 1980, Nr.55</bibl>
+        
+            <bibl xml:id="14">Ferlut 2022, Nr.1232</bibl>
+        
+            <bibl xml:id="1">Sattler 1757, Taf.3</bibl>
+        
+            <bibl xml:id="12">Kemkes/Willburger 2004, 105 Abb.6</bibl>
+        
+            <bibl xml:id="3">Haug/Sixt 1914, 477f. Nr.336</bibl>
+        
+            <bibl xml:id="10">Walser 1993, Nr.27</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl type="EDCS"><idno> EDCS-11000479</idno><date> 2023-03-16</date></bibl>
-					<bibl type="EDH"><idno>  HD037220</idno><date>  2018-04-25</date></bibl>
-					<bibl type="trismegistos"><idno> www.trismegistos.org/text/211193</idno><date> 2023-03-16</date></bibl>
-					<bibl type="lupa"><idno> http://lupa.at/7361</idno><date> 2023-01-01</date></bibl>
-					<bibl type="other"><idno> https://cil.bbaw.de/ace/id/37933</idno><date>  2023-03-16 </date></bibl>
-				<bibl type="lupa"><idno/><date/></bibl></listBibl>
+					<bibl type="EDCS"><idno> EDCS-11000479</idno><date>zuletzt abgerufen 2023-03-16</date></bibl>
+					<bibl type="EDH"><idno>HD037220</idno><date>Version von 2018-04-25</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/211193</idno><date>zuletzt abgerufen 2023-03-16</date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/7361</idno><date>Version von 2023-01-01</date></bibl>
+					<bibl type="other"><idno>https://cil.bbaw.de/ace/id/37933</idno><date>zuletzt abgerufen 2023-03-16 </date></bibl>
+				
+            <bibl type="other">
+                <idno>https://godot.date/id/ia5UwAWhQqymaJvngGkooE</idno>
+                <date> zuletzt abgerufen 2023-03-16 </date>
+            </bibl>
+        </listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform">
-				<ab><lb n="1"/>IN<g type="interpunct">▴</g>H<g type="interpunct">▴</g>D<g type="interpunct">▴</g>D<g type="interpunct">▴</g>APO<gap reason="lost" extent="unknown" unit="character"/>I<hi rend="ligature">NI</hi><g type="interpunct">▴</g><hi rend="ligature">ET</hi><g type="interpunct">▴</g>SIRONAE
-<lb n="2"/>AEDEM CVM SIGNIS<g type="interpunct">▴</g>C<g type="interpunct">▴</g>LONGI<hi rend="ligature">NI</hi>VS
+				<ab><lb n="1"/>IN<g type="interpunct">▴</g>H<g type="interpunct">▴</g>D<g type="interpunct">▴</g>D<g type="interpunct">▴</g>APO<supplied evidence="previouseditor" reason="undefined">LLI</supplied><hi rend="ligature">NI</hi><g type="interpunct">▴</g><hi rend="ligature">ET</hi><g type="interpunct">▴</g>SIRONAE
+<lb n="2"/>AEDEM CVM SIG<hi rend="ligature">NI</hi>S<g type="interpunct">▴</g>C<g type="interpunct">▴</g>LONGI<hi rend="ligature">NI</hi>VS
 <lb n="3"/>SPERATVS<g type="interpunct">▴</g>VET<g type="interpunct">▴</g>LEG<g type="interpunct">▴</g>XXII<g type="interpunct">▴</g>PR<g type="interpunct">▴</g>P<g type="interpunct">▴</g>F
-<lb n="4"/><hi rend="ligature">ET</hi><g type="interpunct">▴</g>IVNIA<g type="interpunct">▴</g>DEVA<g type="interpunct">▴</g>CONIVNX<g type="interpunct">▴</g><hi rend="ligature">ET</hi><g type="interpunct">▴</g>LON
+<lb n="4"/><hi rend="ligature">ET</hi><g type="interpunct">▴</g>IV<hi rend="ligature">NI</hi>A<g type="interpunct">▴</g>DEVA<g type="interpunct">▴</g>CONIVNX<g type="interpunct">▴</g><hi rend="ligature">ET</hi><g type="interpunct">▴</g>LON
 <lb n="5"/>GI<hi rend="ligature">NI</hi><g type="interpunct">▴</g>PACATVS<g type="interpunct">▴</g>MAR<hi rend="ligature">TI</hi>NVLA<g type="interpunct">▴</g>HILA
 <lb n="6"/>RITAS<g type="interpunct">▴</g>SPERATIANVS<g type="interpunct">▴</g>FILI<g type="interpunct">▴</g>IN
 <lb n="7"/>SVO<g type="interpunct">▴</g>POSVERVNT<g type="interpunct">▴</g>V<g type="interpunct">▴</g>S<g type="interpunct">▴</g>L<g type="interpunct">▴</g>L<g type="interpunct">▴</g>M
 <lb n="8"/>MVCIANO<g type="interpunct">▴</g>ET<g type="interpunct">▴</g>FABIANO<g type="interpunct">▴</g>COS<orig/></ab></div>
-			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>In h(onorem) d(omus) d(ivinae) Apo[ll]ini et Sironae
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>In h(onorem) d(omus) d(ivinae) Apollini et Sironae
 <lb n="2"/>aedem cum signis C(aius) Longinius 
 <lb n="3"/>Speratus vet(eranus) leg(ionis) XXII Pr(imigeniae) p(iae) f(idelis)
 <lb n="4"/>et Iunia Deva coniunx et Lon-
 <lb n="5"/>gini(i) Pacatus Martinula Hila-
 <lb n="6"/>ritas Speratianus fili(i) in
-<lb n="7"/>suo posuerunt v(otum) s(olverunt) l(ibentes) l(aeti) m(erito)
+<lb n="7"/>suo posuerunt v(otum) s(olverunt) l(aeti) l(libentes) m(erito)
 <lb n="8"/>Muciano et Fabiano co(n)s(ulibus)</ab></div>
 			<div type="translation" xml:lang="de" org="uniform">
-				<p><p>Zur Ehre des Kaiserhauses, für <rs type="divine">Apollon</rs> und <i>Sirona</i>!</p><p>Haben (diesen) Tempel mit Kultbild Gaius Longinus Speratus, Veteran der Legio XXII Primigenia piae fidelis, und seine Ehefrau Iunia Deva und die Kinder des Longinus Pacatus, Martinula, Hilaritas, Speratianus auf ihrem Besitz aufgestellt und das Gelübde freudig, gerne und verdientermaßen erfüllt, unter dem Konsulat des Mucianus und Fabianus.<br/></p></p>
+				<p>                                                <p>Zur Ehre des Kaiserhauses, für <rs type="divine">Apollon</rs> und <rs type="divine">Sirona</rs>!</p>
+                                                <p>Haben (diesen) Tempel mit Kultbild Gaius Longinus Speratus, Veteran der legio XXII Primigenia Pia Fidelis, und seine Ehefrau Iunia Deva und die Kinder des Longinus Pacatus, Martinula, Hilaritas, Speratianus auf ihrem Besitz aufgestellt und das Gelübde freudig, gerne und verdientermaßen erfüllt, unter dem Konsulat des Mucianus und Fabianus.<br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform">
-				<p><p><span style="color: rgb(71, 71, 71); font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">In honour of the divine household <span>and to <rs type="divine">Apollon</rs> and <i>Sirona</i>!</span></span></p><p><span style="color: rgb(71, 71, 71); font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"><span>This tempel and cult image were errected by Gaius Longinus Speratus, veteran of the legio XXII primigenia piae fidelis, and his wife Iunia Deva and the children of Longinus Pacatus, Martinula, Hilaritas, Speratianus on their property, they </span></span><span style="color: rgb(71, 71, 71); font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">have fulfilled a vow gladly, willingly and deservedly, during the consulship of Mucianus and Fabianus.</span><span style="color: rgb(71, 71, 71); font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"><span/></span></p></p>
+				<p>                                                <p>In honour of the divine household, to <rs type="divine">Apollon</rs> and <rs type="divine">Sirona</rs>! </p>
+                                                <p>This tempel and cult image were errected by Gaius Longinus Speratus, veteran of the legio XXII Primigenia Pia Fidelis, and his wife Iunia Deva and the children of Longinus Pacatus, Martinula, Hilaritas, Speratianus on their property, they have fulfilled a vow gladly, willingly and deservedly, during the consulship of Mucianus and Fabianus.</p></p>
 			</div>
 			<div type="apparatus" org="uniform">
 				<app loc="1">
-					<note>Apo[lli]ni - Schillinger-Häfele, Luik-Reutti; Apollini - Kuhnen, Filtzinger</note>
+					<note>der unterstrichene Teil in Z.1 ist heute nicht mehr erhalten, er wird nach Sattler 1757 wiedergegeben; Apo[lli]ni – Luik/Reutti, Walser; Apo[llo]ni – Ferlut</note>
 				</app>
-			</div>
-			<div type="commentary" subtype="general" org="uniform">
-				<p> </p>
-			</div>
+			
+            <app loc="7">
+                <note anchored="true">l(ibentes) l(aeti) – EDH, Schillinger-Häfele, Walser, Scheungraber, Ferlut</note>
+            </app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform">                                                <p>Gaius Longinius Speratus: tria nomina</p>
+                                                <p>Longinius: italisches Gentilnomen, oder einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Namen Long(in)us, weit verbreitet (Kakoschke 2021, GN 692)</p>
+                                                <p>Speratus: gängiger, lateinischer Name (Kakoschke 2021, CN 2934) Zur Identifizierung des Speratus als Besitzer einer lokalen Ziegelei s. Paret 1926, Paret 1960, Kuhnen 1994.</p>
+                                                <p>Iunia Deva: römisches weibliches Namensformular</p>
+                                                <p>Iunia: italisches Gentilnomen, äußerst weit verbreitet (Kakoschke 2021, GN 644)</p>
+                                                <p>Deva: keltischer Name, selten belegt (Kakoschke 2021, GN 1068)</p>
+                                                <p>Longinius Pacatus: römisches Namensformular ohne Praenomen</p>
+                                                <p>Longinius: s.oben</p>
+                                                <p>Pacatus: gängiger, lateinischer Name (Kakoschke 2021, CN 2278) Sohn des ersten.</p>
+                                                <p>Longinia Martinula: römisches weibliches Namensformular</p>
+                                                <p>Longinia: s.oben Longinius</p>
+                                                <p>Martinula: (femininer) lateinischer Name, Weiterbildung des Namens Martinus, selten belegt (Kakoschke 2021, CN 1947) Tochter des ersten.</p>
+                                                <p>Longinia Hilaritas: römisches weibliches Namensformular</p>
+                                                <p>Longinia: s. oben Longinius</p>
+                                                <p>Hilaritas: (femininer) lateinischer Name, selten belegt (Kakoschke 2021, CN 1533) Tochter des ersten.</p>
+                                                <p>Longinius Speratianus: römisches Namensformular ohne Praenomen</p>
+                                                <p>Longinius: s. oben</p>
+                                                <p>Speratianus: lateinischer Name, Weiterbildung des Namens Speratus, sehr selten (Kakoschke 2021, CN 2933) Sohn des ersten.</p>
+                                                <p>Muciano et Fabiano consulibus: Konsuldatierung des Jahres 201. Die Konsuln waren Marcus Nonius Arrius Mucianus und Lucius Annius Fabianus.</p>
+                                                <p>Legio XXII Primigenia Pia Fidelis: Die Legio XXII Primigenia erhielt nach dem Scheitern des Saturninus-Aufstanden 89 n. Chr. gemeinsam mit anderen Legionen und Truppenkörpern den Ehrenbeinamen Pia Fidelis Domitiana; letzterer fiel nach der damnatio memoriae Domitians wieder weg. Die Legion wurde 97 n. Chr. von Xanten nach Mainz verlegt, wo sie die nächsten zwei Jahrhunderte verblieb. Zwischen 70/71 und 97 n. Chr. sowie 101/102 bis 106/107 n. Chr. wurden Teile der Truppe für Steinbrucharbeiten im Brohtal eingesetzt (Matijević 2010, 29, 227–233).</p></div>
 			<div type="commentary" subtype="language" org="uniform">
-				<p> In v.2 das S von "Longinus" klein in das U eingeschrieben. In v.4 das O von "Lon" klein zwischen L und N eingeschrieben. In v.5 das A von "Hila" zwischen L und dem Rahmen kleiner und hochgestellt eingeschrieben.</p>
+				<p/>
 			</div>
-			<div type="commentary" subtype="deity" org="uniform">
-				<p> </p>
+			<div type="commentary" subtype="deity" org="uniform">				<p> </p>
 			</div>
 			<linkGrp type="alignment" domains="#majuscule #minuscule">
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"/>
+			<note type="Objbeschr_note"><p>"1756 war er noch ganz; später wurde er von einem Bauführer zerbrochen (Sattler)." (Filtzinger 1980, 103).<br/></p></note>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"/>
+			<note type="Material_note"><p>Schilfsandstein - Filtzinger S. 103 Nr. 55<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
-			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"/>
+			<note type="VerwahrortOrt_note"><p>EDH<br/></p></note>
+			<note type="InvNr_note">                                                    <p>EDH</p>
+                                                    <p>Inv. Nr. laut CIL Kartei 6458,</p>
+                                                    <p>Filtzinger Inv.R L 402</p><p>Weisgerber 1975 S. 106: Lapidarium Nr. 55<br/></p></note>
 			<note type="Fundstelle_note"/>
 			<note type="Fundumst_note"/>
-			<note type="Fundjahr_note"/>
-			<note type="FOantik_note"/>
-			<note type="FOmodern_note"/>
-			<note type="civitas_note"><p>Civitas Aurelia G-?<br/></p></note>
+			<note type="Fundjahr_note"><p>Stälin 1835 S. 64 Nr. 53: 1714</p><p>Orelli 2047: 1754</p><p>von Paret 1960 S. 48 überlieferter Brief des Finders an den Herzog trägt das Datum 31. Mai 1710<br/></p></note>
+			<note type="FOantik_note"><p>EDH (Civitas Aurelia G---?)</p></note>
+			<note type="FOmodern_note"><p>für weitere Infos zum Fundort siehe Paret 1960, S. 48<br/></p></note>
+			<note type="civitas_note">                                                    <p>Civitas Aurelia G-?<br/></p></note>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note"/>
+			<note type="Editionen_note"><p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p></note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"/>
+			<note type="Masse_note">                                                    <p>EDH, auch Filtzinger, Haug/Sixt 1900 S. 242 Nr. 336<br/></p></note>
 			<note type="Ikonogr_note"/>
-			<note type="Inschrtext_note"/>
+			<note type="Inschrtext_note"><p>"Der ganze Bau war, nach Resten an anderen Orten zu schließen, wohl weiß gestrichen, die Inschrift auf weißem Grund rot ausgemalt." - Paret 1960, S. 48<br/></p></note>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"/>
+			<note type="Buchsthoehe_note">                                                    <p>EDH; Haug/Sixt 1900 S. 242 Nr. 336<br/></p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"/>
+			<note type="Datierung_note">                                                    <p><span>Muciano et Fabiano consulibus 201</span></p></note>
 		<note type="ElektronischeRessourcen_note"/><note type="Index_note"/></back>
 	</text>
 </TEI>
