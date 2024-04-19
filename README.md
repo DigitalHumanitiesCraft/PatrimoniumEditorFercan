@@ -7,10 +7,6 @@ This document serves as a guide for users and developers involved in customising
 
 The Fercan project is supported by the Austrian Science Fund (FWF) through grants P 29274-G25 and P 34422 G. It aims to explore Celtic divine names in the Roman provinces of Germania Inferior and Germania Superior, with a focus on understanding cultural interactions and religious dynamics during the Roman period. The research examines how local Celtic traditions were integrated into Roman practices, using epigraphic evidence to trace changes and continuities in religious expression.
 
-## Customisation of the Patrimonium editor
-
-The primary aim of customising the Patrimonium Editor is to enhance its ability to support the specific needs of the Fercan project.
-
 ## Patrimonium Editor
 
 The Patrimonium Editor is an integrated suite of web applications tailored for academic and research use, focusing on the encoding, management and analysis of epigraphic and historical textual sources. Prior to customisation, it included an XML editor for accurate text encoding, text conversion tools that adhere to the Leiden Conventions, and data management capabilities for handling information about places, people, and thematic categories relevant to historical texts. It is designed to support a wide range of epigraphic documentation needs and is suitable for a variety of academic and research environments.
@@ -19,20 +15,19 @@ Its modular architecture not only provides considerable flexibility in terms of 
 
 ### Core Components
 
-**1.AusoHNum library:**.
-- Functionality: Serves as the base library that provides backend functionality. It contains a collection of XQuery functions, JavaScript scripts and CSS stylesheets that enable and enhance the functionality of the front-end application and data repository.
-- Content: This library contains reusable modules that handle various tasks such as data retrieval, transformation, presentation and interaction within the web application framework.
+**1. Base Library: ausohnum-library**.
+
+Serves as the base library that provides backend functionality. It contains a collection of XQuery functions, JavaScript scripts and CSS stylesheets long with other resources needed to build the TEI/EpiDoc editor, places manager, and people manager. This library contains reusable modules that handle various tasks such as data retrieval, transformation, presentation and interaction within the web application framework.It includes modules, resources, templates and a build configuration (`build.xml`) as well as a collection configuration (`collection.xconf`).
 
 **2. Front-end application: eStudium**.
-- Interface: The primary user interface where the actual interaction with the coded texts and datasets takes place. It is the main web application of eXist-db.
-- Customisation: Provides project-specific settings such as customisation of TEI elements and templates, making it adaptable to the specific needs of different historical projects.
-- Editor interface: Includes an easy-to-use XML editor that provides users with tools for encoding, editing, and wrapping text with XML elements in a visually accessible interface.
+
+The primary user interface where the actual interaction with the coded texts and datasets takes place. It is the main web application of eXist-db. Provides project-specific settings such as customisation of TEI elements and templates, making it adaptable to the specific needs of different historical projects. Includes an easy-to-use XML editor that provides users with tools for encoding, editing, and wrapping text with XML elements in a visually accessible interface.
 
 **3. Data repository: eStudiumData**.
-- Data repository: Acts as a back-end application where all project-related data is stored. This includes TEI-coded texts, records of places and people, and thesaurus schemas.
-- Management: Ensures data integrity and retrievability. It is optimised for efficient querying and manipulation of the XML data that is central to the function of the Patrimonium Editor.
 
-### Functional Overview
+Serves as a data repository application supporting the eStudium front-end. This includes TEI-coded texts, records of places and people, and thesaurus schemas. Ensures data integrity and retrievability. It is optimised for efficient querying and manipulation of the XML data that is central to the function of the Patrimonium Editor.
+
+### Functional Overview & Technical Infrastructure & Data Models
 
 **Text Editor**
 - XML encoding: The text editor panel allows easy creation and editing of XML files, facilitating epigraphic text encoding by wrapping selected text with the necessary XML tags.
@@ -54,8 +49,6 @@ Its modular architecture not only provides considerable flexibility in terms of 
 - **Bibliographic Data**: The editor integrates with Zotero, allowing users to manage references and bibliographic data directly within the application.
 - **Synchronization**: Ensures that citations and sources are kept up-to-date and are easily accessible during the research and documentation process.
 
-### Technical Infrastructure & Data Models
-
 - **eXist-db**: A NoSQL XML database at the core of the Patrimonium Editor, responsible for storing, indexing, and querying XML data.
 - **XML Standards**: Compliance with TEI and EpiDoc standards for encoding texts, ensuring that data conforms to internationally recognized guidelines in digital humanities.
 - **Web Application**: The editor is accessible through a web browser, reducing the need for local installation and allowing for collaborative work across different locations.
@@ -64,51 +57,114 @@ Its modular architecture not only provides considerable flexibility in terms of 
 - **Places Documents**: Based on Pleiades and NeoGeo spatial ontologies, enriched with connections described in SKOS and Dublin Core.
 - **People Documents**: Modeled after Pleiades Place and SNAP:DRGN standards, also utilizing SKOS and Dublin Core for describing and relating individuals in historical texts.
 
-### Libraries and Applications
+### Setting Up the Patrimonium Editor
 
-#### AusoHNum Library
-- **Purpose**: Essential for the Patrimonium project, this library contains XQuery and JavaScript functions, along with other resources needed to build the TEI/EpiDoc editor, places manager, and people manager.
-- **Compatibility**: Designed to work with eStudium and eStudiumData.
-- **Components**: Includes updates for modules, resources, templates and a build configuration (`build.xml`) as well as a collection configuration (`collection.xconf`).
-    - **build.xml**: Ant build script to compile and package the library into a `.xar` deployment file for eXist-db.
-    - **collection.xconf**: Configuration file for managing database collections in eXist-db, specifying indexing and storage options.
-    - **controller.xql**: XQuery controller that routes requests to appropriate scripts or XQuery functions within the library.
-    - **error-page.html**: HTML file that displays error information for the application.
-    - **expath-pkg.xml**: Package descriptor for the library, defining dependencies and the structure for the eXist-db package manager.
-    - **index.html**: Main HTML file, serving as the entry point for web-based interactions with the library’s functionalities.
-    - **pre-install.xql**: XQuery script run before installation of the library to prepare the environment or check prerequisites.
-    - **Various directories (data, modules, resources, templates, xslt)**: Contain the actual content, scripts, stylesheets, and XQuery modules that provide the library's functionality.
+The source files for the Patrimonium Editor are packaged in `.xar` format, which is a standard package format used by the eXist-db XML database system. These files include all the necessary components and configurations needed for the editor to function properly.
 
-#### eStudium
-- **Purpose**: Acts as a front-end application using the AusoHNum library.
-- **Functionality**: Works in conjunction with eStudiumData, which stores the data required by this front-end.
-- **Components**: Contains updates similar to those in the AusoHNum Library, including resources, templates and necessary configuration files for deployment.
-    - **.existdb.json**: Configuration file for eXist-db specific to the eStudium application, possibly including settings for the database connection and setup.
-    - **build.xml, collection.xconf, controller.xql, error-page.html, expath-pkg.xml, index.html, pre-install.xql, repo.xml**: Similar to those in AusoHNum Library, tailored for the front-end application.
+- **.xar Files**: A `.xar` file is an XML Archive used by eXist-db to package applications. It contains all the resources required for an application, such as scripts, stylesheets, and XML documents, structured in a way that eXist-db can easily deploy.
+- **Ant**: Apache Ant is a Java-based build tool used to automate software build processes. It is used to compile source code, copy files, and execute other tasks defined in an XML file called `build.xml`. In the context of Patrimonium Editor, Ant is used to build `.xar` files from source code and resources. More information on Ant can be found at the [official Apache Ant website](https://ant.apache.org/).
 
-#### eStudiumData
-- Purpose: Serves as a data repository application supporting the eStudium front-end.
-- **Components**: Hosts directories for various types of data and metadata such as `biblio`, `concepts`, `documents`, and contains configuration and deployment files similar to those found in other directories. Store specific types of data and metadata, scripts, and configuration files necessary for managing and organizing the stored data according to the project's requirements.
+#### Installing Packages in eXist-db
+To deploy the Patrimonium Editor on an eXist-db instance, you need to install the `.xar` packages through the eXist-db's Package Manager. This can be accessed via the dashboard at `http://localhost:8080/exist/apps/dashboard/index.html` after setting up the eXist-db instance. The following `.xar` packages are required:
+- **ausohnum-library**: The main program that includes core functionalities.
+- **estudium**: Contains project-specific customizations.
+- **estudiumData**: Includes the data files, primarily XML/TEI documents.
 
+These packages are uploaded and installed through the Package Manager in the eXist-db dashboard.
 
-The adaptation of the Patrimonium Editor for the Fercan project involves several key customizations and enhancements to meet the specialized needs of the research focused on Celtic divine names in ancient inscriptions. Below is a detailed guide and overview of the enhancements, followed by a new resources section that directs users to further information about the Patrimonium Editor.
+#### Setting Up eXist-db with Docker
+Using Docker simplifies the process of setting up eXist-db. Docker can encapsulate the environment needed to run eXist-db without altering your system's configuration. Here’s how you can start the eXist-db Docker container, typically using Docker Desktop:
 
-## Customization and Integration Details
+1. **Download and Install Docker Desktop**: Ensure Docker is installed on your machine. Docker Desktop is available for Windows, Mac, and Linux.
+2. **Run eXist-db Container**: You can start an eXist-db container using the Docker command line. Here’s an example command to run the container:
+   ```bash
+   docker run -d -p 8080:8080 existdb/existdb:latest
+   ```
+   This command downloads the latest eXist-db image and runs it, exposing port 8080 for web access.
 
-### Customization Scope
+3. **Accessing eXist-db**: Once the Docker container is running, you can access the eXist-db dashboard by navigating to `http://localhost:8080/exist/apps/dashboard/index.html` in your web browser.
 
-The Fercan project's customization of the Patrimonium Editor specifically aims to support the detailed study of Celtic divine names found in the Roman provinces of Germania Inferior and Germania Superior. This involves tailoring the editor to handle specific epigraphic data formats and integrating tools that facilitate the analysis of cultural and religious shifts evident in these inscriptions.
+#### Tips for Managing Browser Sessions
+- **Inkognito Mode**: To avoid issues with browser caching when logging in to the eXist-db dashboard, consider using an incognito window. This prevents the browser from storing session data.
+- **Alternate Browsers**: If you encounter issues with one browser, try accessing the dashboard with a different one to rule out browser-specific caching issues.
+- **Disable Cache**: Alternatively, you can disable the cache in your browser settings when working on application setup to ensure that changes are reflected immediately.
 
-### Technical Enhancements
+## Customisation of the Patrimonium editor
 
-- **XML Editor Enhancements**: Adaptations to the XML editor to include specific tagging conventions unique to Celtic deity names and their associated descriptions.
-- **Leiden Conventions**: Customized text conversion tools have been developed to adhere to and extend the Leiden Conventions specifically for the scripts and languages found in the targeted inscriptions.
-- **Data Management Features**: Enhancements to manage and visualize relationships between deities, inscriptions, and geographic locations. This includes improved mapping tools and visualization features that are integrated with the existing database management system.
+### Customization of the Patrimonium Editor
 
-### Integration with Existing Systems
+#### Using the Patrimonium Editor
 
-- **Integration with eXist-db**: The enhanced Patrimonium Editor remains compatible with the eXist-db, leveraging its capabilities for robust data storage and retrieval. Custom scripts and configurations have been optimized for performance with large datasets typical of epigraphic studies.
-- **Use of AusoHNum Library**: The customized editor utilizes the AusoHNum Library for backend operations, ensuring seamless integration and functionality across different components of the project.
+The Patrimonium Editor is designed to be a versatile tool for historians and researchers working on the Fercan project. Here’s how individuals typically interact with the system:
+
+1. **Accessing the Editor**:
+   - The editor is accessed via the eXist Dashboard, specifically through the eStudium application. The applications `ausohnum-lib` and `eStudiumData` must be present, but users do not need to interact with them directly.
+   - Local access can be achieved at `http://localhost:8080/exist/apps/estudium/`.
+   - Users log in on the right side of the interface as either 'admin' or 'editor'.
+
+2. **Creating and Managing Documents**:
+   - To create a new document, users select the "New Document" option and choose a template, such as "Germania_Inferior".
+   - Once created, the document, e.g., `inferior467`, can be accessed for editing at `http://localhost:8080/exist/apps/estudium/edit-documents/inferior467` and viewed within the Corpora directory at `http://localhost:8080/exist/apps/estudium/admin/corpus/germania_inferior`.
+
+3. **Entering Data into the Document**:
+   - **Metadata Entry**: Users input metadata under "Document Overview". It includes handling unique cases and adjusting the sequence of information as required.
+   - **Text Entry and Formatting**: Ensuring proper text formatting while entering data is critical. Tools are provided to remove unwanted formatting from sources like MS Word (e.g., using "Paste as Text").
+
+### Corpus View and Document Management in the Patrimonium Editor
+
+#### Overview of Corpus View
+The Corpus View in the Patrimonium Editor is a central interface where users can manage and view various documents related to their research. Accessible via `http://localhost:8080/exist/apps/estudium/admin/`, it integrates directly with modules from the `ausohnum-library`, specifically utilizing the `teiEditorApp.xql` for managing TEI (Text Encoding Initiative) formatted documents.
+
+#### Document Storage and Naming
+When documents are created in the eStudium interface, they are stored in the directory path corresponding to their corpus, such as `eStudiumData/documents/$corpus`. Here, each document is named sequentially (e.g., `Doc1.xml`, `Doc2.xml`, etc.), facilitating organized storage and easy retrieval.
+
+#### Ingesting Existing Files
+To ingest existing files into the system:
+1. **XML ID Assignment**: Existing TEI documents need to be assigned a unique `xml:id`. This identifier is added to the `<TEI>` element as shown below:
+   ```xml
+   <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="doc1000">
+   ```
+   This process ensures that each document is uniquely identifiable within the system.
+
+#### Customizing TEI Elements
+The `teiElements.xml` file allows for the customization of data displayed in the editor. For instance, you can define how various TEI elements are handled within the user interface:
+
+- **Example of a TEI Element Definition for Language**:
+  ```xml
+  <teiElement>
+      <nm>textMainLang</nm>
+      <xpath>/tei:text/@mainLang</xpath>
+      <contentType>attribute</contentType>
+      <cardinality>1</cardinality>
+      <formLabel xml:lang="en">Main language</formLabel>
+      <formLabel xml:lang="fr">Langue principale</formLabel>
+      <fieldType>combobox</fieldType>
+      <thesauDb>internal</thesauDb>
+      <thesauTopConceptURI>http://ausonius.huma-num.fr//concept/c39</thesauTopConceptURI>
+      <attributeValueType>xml-value</attributeValueType>
+      <comments/>
+  </teiElement>
+  ```
+
+- **Example of a TEI Element Definition for Document Title**:
+  ```xml
+  <teiElement>
+      <nm>docTitle</nm>
+      <xpath>/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title</xpath>
+      <contentType>text</contentType>
+      <cardinality>1</cardinality>
+      <formLabel xml:lang="en">Göttername</formLabel>
+      <fieldType>input</fieldType>
+      <comments/>
+  </teiElement>
+  ```
+
+#### Document Editor Configuration (`Document-editor.xql`)
+This XQuery script defines the input fields within the document editor. For instance, to generate the input field for the document title, the script includes a function call like:
+```xquery
+{teiEditor:displayElement('docTitle', (), (), ())}
+```
+This function dynamically creates the UI components based on the definitions in `teiElements.xml`, allowing for a highly customizable editing environment.
 
 ## Resources
 
