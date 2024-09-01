@@ -985,6 +985,7 @@ function saveData2( element,
                     switch(contentType){
                             case "text":
                                newValue2Display = elementInput.val();
+                               
 /*                               console.log("NEW VAlUE in case Input: " + newValue2Display);*/
 /*                               console.log("new content" + xmlString) ; */
                             break;

@@ -179,7 +179,9 @@ return
         <div class="bg-info" style="margin: 10px; padding-left: 50px;" id="Objbeschr_note_collapse">
            {teiEditor:displayElement('Objbeschr_note', (), (), ())}
         </div>
-        <p class="bg-info" style="margin: 10px; padding-left: 50px;">Auswahl aus: vollständig, weitgehend vollständig, größere Fehlstelle/n, größeres Fragment, kleineres Fragment, unklar, unzusammenhängende Fragmente</p>
+        <p class="bg-info" style="margin: 10px; padding-left: 50px;">Auswahl aus: 
+        <br/>vollständig = https://gams.uni-graz.at/o:fercan.arch#C.130400
+        <br/>weitgehend vollständig, größere Fehlstelle/n, größeres Fragment, kleineres Fragment, unklar, unzusammenhängende Fragmente</p>
         {teiEditor:displayElement('ErhzustObj', (), (), ())}
         <div class="bg-info" style="margin: 10px; padding-left: 50px;" id="ErhzustObj_note_collapse">
            {teiEditor:displayElement('ErhzustObj_note', (), (), ())}
