@@ -90,7 +90,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Der Text füllt das Inschriftenfeld nicht zur Gänze aus (unter dem Text bleibt ein kleiner Freiraum). Er ist vollständig erhalten.<lb/>Ligaturen: s. Majuskeltext. Besondere Zeichen: In Z.1 eine Unterschneidung von T und V; in Z.2 2x das Zeichen für den velaren Reibelaut sowie eine Ligatur von N und I mit erhöhter rechter senkrechter Haste (H: 5,5 cm); in Z.3 eine Ligatur von I und N mit erhöhter linker senkrechter Haste (H: 5,5 cm)</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">vollständig</tei:note>
+                                    <note type="condition" anchored="true">vollständig</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -149,10 +149,10 @@ Auf der linken wie rechten Schmalseite befindet sich ein einfach gehaltener Baum
                                 <ref type="context" target="context:fercan.geog.modern.morken_harff">Morken-Harff</ref>
                             </placeName>
                             <p part="N">ca. 350 m nordwestlich vom alten Kirchturm Morken</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">51.062814 6.476863</geo>
-                            </tei:location>
-                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">gemeinsam mit vier anderen Altären (CF-GeI-317–320) bei der Erweiterung des Braunkohletagbaus; sekundäre Verwendung als Baumaterial </tei:note>
+                            </location>
+                            <note anchored="true">gemeinsam mit vier anderen Altären (CF-GeI-317–320) bei der Erweiterung des Braunkohletagbaus; sekundäre Verwendung als Baumaterial </note>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)</provenance>
                     </history>
@@ -183,7 +183,7 @@ Auf der linken wie rechten Schmalseite befindet sich ein einfach gehaltener Baum
                     </person>
                     <person instant="false">
                         <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.dcn.vatviae">Vatviae</ref>
+                            <ref type="context" target="context:fercan.dcn.vatviae">Vatviae; Berchliachenae</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -193,7 +193,7 @@ Auf der linken wie rechten Schmalseite befindet sich ein einfach gehaltener Baum
                     </person>
                     <person instant="false">
                         <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.dcn.berchliachenae">Berchliachenae</ref>
+                            <ref type="context" target="context:fercan.dcn.berchliachenae">Vatviae; Berchliachenae</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -203,12 +203,12 @@ Auf der linken wie rechten Schmalseite befindet sich ein einfach gehaltener Baum
                     </person>
                     <person instant="false">
                         <persName type="divine" subtype="celtic_element" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.dce.vatviae">Vatviae</ref>
+                            <ref type="context" target="context:fercan.dce.vatviae">Vatviae; Berchliachenae</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="divine" subtype="celtic_element" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.dce.berchliachenae">Berchliachenae</ref>
+                            <ref type="context" target="context:fercan.dce.berchliachenae">Vatviae; Berchliachenae</ref>
                         </persName>
                     </person>
                 </listPerson>
@@ -261,7 +261,7 @@ Auf der linken wie rechten Schmalseite befindet sich ein einfach gehaltener Baum
                         <item>
                             <ref type="context" target="context:fercan.character.sonderzeichen_fuer_velaren_reibelaut">Sonderzeichen für velaren Reibelaut </ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Vatviabus; Berchliachenis</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -296,6 +296,10 @@ Auf der linken wie rechten Schmalseite befindet sich ein einfach gehaltener Baum
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD080381</idno>
+                        <date>Version vom 18. Januar 2021</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-10900441</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -306,7 +310,7 @@ Auf der linken wie rechten Schmalseite befindet sich ein einfach gehaltener Baum
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>VA<hi rend="ligature">TV</hi>IABVS <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>VA<hi rend="ligature">TV</hi>IABVS <lb n="2"/>
 BER˧LIA˧E<hi rend="ligature">NI</hi>S <lb n="3"/> 
 T · IANVAR<hi rend="ligature">IN</hi>VS <lb n="4"/> 
 SIMILIS <lb n="5"/>
@@ -323,16 +327,16 @@ Titus Ianuarinus Similis for himself and his family willingly and deservedly.</p
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Neuffer, Nesselhauf-Lieb</tei:note>
+                    <note anchored="true">ohne Ligatur – Neuffer, Nesselhauf-Lieb, EDH</note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Berhliahenis – Neuffer, Nesselhauf-Lieb, Scheungraber; ohne Ligatur – Nesselhauf-Lieb, Scheungraber</tei:note>
+                    <note anchored="true">Berhliahenis – Neuffer, Nesselhauf-Lieb, Scheungraber; Ber&lt;h=I&gt;lia&lt;h=I&gt;enis – EDH; ohne Ligatur – Nesselhauf-Lieb, Scheungraber</note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Ianuarîn̂ius – Neuffer; Ianuarinius, ohne Ligatur – Nesselhauf-Lieb, Scheungraber</tei:note>
+                    <note anchored="true">Ianuarîn̂ius – Neuffer; Ianuarinius, ohne Ligatur – Nesselhauf-Lieb, EDH, Scheungraber</note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Nesselhauf-Lieb</tei:note>
+                    <note anchored="true">ohne Ligatur – Nesselhauf-Lieb</note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
@@ -343,51 +347,7 @@ Similis: lateinisches Cognomen, tritt besonders in der Germania Inferior auf, vo
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.1: „Vatviabus” pro „Vatviis”</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Vatviae:</rs> keltisch: ‚Die [Muttergöttinnen] der Prophezeihungen’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 210f). </p>
-                                                <p part="N">
-
- <rs type="divine">Berchliachenae:</rs> Variante von  <rs type="divine">Berguiahenae:</rs> <font face="Arial, serif">keltisch erklärbar: </font>‚<font face="Arial, serif">bei
-</font>
-                                                    <font face="Arial, serif">
-                                                        Bergusia
-                                                    </font>
-                                                    <font face="Arial, serif">
-Geborene [Muttergöttinnen]’ </font>
-                    <span lang="de-DE">(de Bernardo
-Stempel Corpus F.E.R.C.A.N. II/1 252-254</span>).  </p>
-                                                <p part="N">
-
-Vorkommen in theonymischen Formularen: </p>
-                                                <p part="N">
- <rs type="divine">Vatviae Berchliachenae</rs>: <lb/> 
-- Germania Inferior: Hierfür kann lediglich die hier vorgelegte Inschrift als Beleg gelten. Ähnlich wie bei den  <rs type="divine">Matronae Vatviae Nersihenae</rs> (CF-GeI-311) oder den  <rs type="divine">Vacallinehae Leudinae</rs> (CF-GeI-240) könnte es sich dabei um die Beigabe eines von einer Örtlichkeit hergeleiteten Beinamens handeln (Nesselhauf-Lieb 1959, zu Nr.236), doch könnten darunter auch zwei eigenständige Götternamen –  <rs type="divine">Vatviae</rs> und  <rs type="divine">Berchliachenae</rs> – zu verstehen sein. <lb/> 
-- außerhalb der Germania Inferior: - </p>
-                                                <p part="N">
-
- <rs type="divine">Vatviae</rs>: <lb/>
-- Germania Inferior: Dafür kann nur auf CF-GeI-310 verwiesen werden, doch ist zumindest in Erwägung zu ziehen, dass dort ein vorausgehendes „Matronis“ abgebrochen ist. <lb/> 
-- außerhalb der Germania Inferior: - </p>
-                                                <p part="N">
-
- <rs type="divine">Matronae Vatviae</rs>: <lb/>
-- Germania Inferior: Das theonymische Formular stellt die zumeist belegte Form dar. <lb/> 
-- außerhalb der Germania Inferior: - </p>
-                                                <p part="N">
-
- <rs type="divine">Matronae Vatviae Nersihenae</rs>: <lb/>
-- Germania Inferior: Das theonymische Formular ist lediglich in CF-GeI-311 belegt.  <rs type="divine">Nersiahenae</rs> wurde auf den Flussnamen Niers zurückgeführt (Neumann 1987, 110; Derks 1998, 123). <lb/> 
-- außerhalb der Germania Inferior: - </p>
-                                                <p part="N">
-
- <rs type="divine">Berguiahenae</rs>: <lb/>
-- Germania Inferior: nur 1x eindeutig belegt (CF-GeI-14). Auch in der hier vorgelegten Inschrift könnte  <rs type="divine">Berchliachenae</rs> als eigenständiger Götternamen zu verstehen sein, der gemeinsam mit den  <rs type="divine">Vatviae</rs> genannt wird. <lb/> 
-- außerhalb der Germania Inferior: -  </p>
-                                                <p part="N">
-
- <rs type="divine">Matronae Berguiahenae</rs>: <lb/>
-- Germania Inferior: 2x belegt (CF-GeI-19 und CF-GeI-20)  <lb/>
-- außerhalb der Germania Inferior: - </p>
-            </div>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete"><p><rs type="divine">Vatviae</rs>: keltisch: ‚Die [Muttergöttinnen] der Prophezeihungen’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 210f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die Literaturangaben dienen lediglich dazu, einen Einstieg in die sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet wurden.)</p><p><i>Berchliachenae</i>: Variante von <i>Berguiahenae</i>: keltisch erklärbar: ‚bei Bergusia Geborene [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 252-254). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die Literaturangaben dienen lediglich dazu, einen Einstieg in die sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet wurden.)</p><p>Vorkommen in theonymischen Formularen:</p><p><i>Vatviae Berchliachenae</i>: - Germania Inferior: Hierfür kann lediglich die hier vorgelegte Inschrift als Beleg gelten. Ähnlich wie bei den <i>Matronae Vatviae Nersihenae</i> (CF-GeI-311) oder den <i>Vacallinehae Leudinae</i> (CF-GeI-240) könnte es sich dabei um die Beigabe eines von einer Örtlichkeit hergeleiteten Beinamens handeln (Nesselhauf-Lieb 1959, zu Nr.236), doch könnten darunter auch zwei eigenständige Götternamen – <i>Vatviae</i> und <i>Berchliachenae</i> – zu verstehen sein. - außerhalb der Germania Inferior: -</p><p><i>Vatviae</i>: - Germania Inferior: Dafür kann nur auf CF-GeI-310 verwiesen werden, doch ist zumindest in Erwägung zu ziehen, dass dort ein vorausgehendes „Matronis“ abgebrochen ist. - außerhalb der Germania Inferior: -</p><p><i>Matronae Vatviae</i>: - Germania Inferior: Das theonymische Formular stellt die zumeist belegte Form dar. - außerhalb der Germania Inferior: -</p><p><i>Matronae Vatviae Nersihenae</i>: - Germania Inferior: Das theonymische Formular ist lediglich in CF-GeI-311 belegt. <i>Nersiahenae</i> wurde auf den Flussnamen Niers zurückgeführt (Neumann 1987, 110; Derks 1998, 123). - außerhalb der Germania Inferior: -</p><p><i>Berguiahenae</i>: - Germania Inferior: nur 1x eindeutig belegt (CF-GeI-14). Auch in der hier vorgelegten Inschrift könnte <i>Berchliachenae</i> als eigenständiger Götternamen zu verstehen sein, der gemeinsam mit den <i>Vatviae</i> genannt wird. - außerhalb der Germania Inferior: - </p><p><i>Matronae Berguiahenae</i>: - Germania Inferior: 2x belegt (CF-GeI-19 und CF-GeI-20) - außerhalb der Germania Inferior: - <br/></p></div>
             <linkGrp type="alignment" domains="#majuscule #minuscule">
                 <link target="#MAJ.1 #MIN.1"/>
                 <link target="#MAJ.2 #MIN.2"/>
@@ -398,40 +358,40 @@ Vorkommen in theonymischen Formularen: </p>
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">                                                    <p part="N">Für Alte Version (13.04.23) von Berguiahenae siehe CF-GeI-14</p>
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">                                                    <p part="N">Für Alte Version (13.04.23) von Berguiahenae siehe CF-GeI-14</p>
                 <p part="N">Alte Version (25.04.23):</p>
                 <p part="N">Vatviae: keltisch, ,die der Prophezeiungen‘ 
 (Delamarre 2007, 191, 235); anders: germanisch, in Zusammenhang gebracht
  mit dem Wortfeld für ,Wasser‘ (Gutenbrunner 1936, 164f.) </p>
-            </tei:note>
+            </note>
         </back>
     </text>
 </TEI>

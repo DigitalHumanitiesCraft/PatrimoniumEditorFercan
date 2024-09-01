@@ -114,9 +114,7 @@
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.240100">
                                     <ref type="context" target="context:fercan.arch.goetterbild">Götterbild</ref>
                                 </term>
-                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220800">
-                                    <ref type="context" target="context:fercan.arch.kanneliert">kanneliert</ref>
-                                </term>
+                                
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220500">
                                     <ref type="context" target="context:fercan.arch.pilaster">Pilaster</ref>
                                 </term>
@@ -231,7 +229,7 @@
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Neha[l]eni[ae]</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -276,7 +274,7 @@
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/><unclear instant="false">N</unclear>EH<unclear instant="false">A</unclear><gap reason="lost" quantity="1" unit="character" instant="false"/><unclear instant="false">E</unclear>NI<gap reason="lost" extent="unknown" unit="character" instant="false"/>  <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/><unclear instant="false">N</unclear>EH<unclear instant="false">A</unclear><gap reason="lost" quantity="1" unit="character" instant="false"/><unclear instant="false">E</unclear>NI<gap reason="lost" extent="unknown" unit="character" instant="false"/>  <lb n="2"/>
 <gap reason="lost" extent="unknown" unit="character" instant="false"/>IMA<gap reason="lost" extent="unknown" unit="character" instant="false"/>  <lb n="3"/>
 <gap reason="lost" quantity="1" unit="line" instant="false"/>  <lb n="4"/>
 V <gap reason="lost" extent="unknown" unit="character" instant="false"/></orig></ab></div>
@@ -296,10 +294,14 @@ V <gap reason="lost" extent="unknown" unit="character" instant="false"/></orig><
             </app>
         
             <app loc="4">
-                <note anchored="true">v(otum?) – </note>
+                <note anchored="true">v(otum?) – Scheungraber</note>
             </app>
         </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalenia:</rs> Variante von  <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).</p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalenia:</rs> Variante von  <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)</p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>

@@ -83,7 +83,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Nach Steiner (1851 Nr.1553) handelt es sich bei dem überlieferten Text um ein Bruchstück der Inschrift. Feststehen dürfte also lediglich, dass es vom obersten Teil stammt, da „In h(onorem) d(omus) [d(ivinae)]“ wohl in der ersten Zeile stand.</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">größeres Fragment</tei:note>
+                                    <note type="condition" anchored="true">größeres Fragment</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -95,12 +95,8 @@
                         <decoDesc>
                             <decoNote>
                                 <p part="N">kein Dekor bekannt</p>
-                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130100">
-                                    <ref type="context" target="context:fercan.arch.abschrift">Abschrift</ref>
-                                </term>
-                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">
-                                    <ref type="context" target="context:fercan.arch.fragment">Fragment</ref>
-                                </term>
+                                
+                                
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -115,9 +111,9 @@
                             <placeName instant="false" full="yes">
                                 <ref type="context" target="context:fercan.geog.modern.erp">Erp</ref>
                             </placeName>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">50.767854 6.723674</geo>
-                            </tei:location>
+                            </location>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">
                             <p part="N">non vidimus</p>
@@ -194,7 +190,7 @@
                         <item>
                             <ref type="context" target="context:fercan.dedication.in_honorem_domus_divinae">in honorem domus divinae</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Apollini Grann(o)</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -224,6 +220,10 @@
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD079797</idno>
+                        <date>Version vom 24. April 2019</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-11100199</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -234,7 +234,7 @@
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>IN H D <gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="2"/> 
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>IN H D <gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="2"/> 
 APOLLINI GRANN <lb n="3"/> 
 N S C <gap reason="lost" extent="unknown" unit="character" instant="false"/> ATTIVS</orig></ab></div>
             <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>In <expan instant="false"><abbr>h</abbr><ex instant="false">onorem</ex></expan> <expan instant="false"><abbr>d</abbr><ex instant="false">omus</ex></expan> <supplied reason="lost" instant="false"><expan instant="false"><abbr>d</abbr><ex instant="false">ivinae</ex></expan></supplied><lb n="2"/>Apollini <expan instant="false"><abbr>Grann</abbr><ex instant="false">o</ex></expan><lb n="3"/>N S C <gap reason="lost" extent="unknown" unit="character" instant="false"/> Attius</ab></div>
@@ -257,19 +257,42 @@ N S C? … Attius.</p>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Attius: keltisches Cognomen (Kakoschke 2007, CN 367); grundsätzlich denkbar wäre vielleicht auch C. Attius, wobei Attius dann als lateinisches Gentile zu verstehen wäre – oder auch Cattius.</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Grannus:</rs> keltisch: ,Heißer Gott‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 84f). </p>
-                                                <p part="N">
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                        <p>        <rs type="divine">Grannus</rs> (incl. ev. Varianten):
+</p>
+<p class="MsoNormal">Sprachlich: keltisch: ‚Heißer [Gott]’ (de Bernardo Stempel
+Corpus F.E.R.C.A.N. II/1 84f). (Hier wird kein sprachwissenschaftlicher
+Beitrag geleistet. Die Literaturangaben dienen lediglich dazu, einen Einstieg
+in die sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet wurden.)</p>
 
-Vorkommen in theonymischen Formularen: </p>
-                                                <p part="N">
- <rs type="divine">Apollo Grannus</rs>: <lb/>
-- Germania Inferior: 2x belegt (CF-GeI-27 und CF-GeI-28) <lb/> 
-- außerhalb der Germania Inferior: in verschiedenen Provinzen mehrfach bezeugt, darunter 2x (CF-GeS-1004, CF-GeS-1008) in der Germania Superior. </p>
-                                                <p part="N">
- <rs type="divine">Grannus</rs>:  <lb/>
-- Germania Inferior: nur 1x belegt (CF-GeI-120) <lb/> 
-- außerhalb der Germania Inferior: ist einer der wenigen keltischen Götternamen, die auch literarisch (Cass.Dio 77,15,5-7) bezeugt sind. Er ist im Imperium Romanum aber auch epigraphisch weit verbreitet und findet sich in den Provinzen Aquitania, Belgica, Britannia, Dacia, Germania Inferior, Germania Superior, Hispania Citerior, Lugudunensis, Noricum, Pannonia inferior, Raetia, Asia und in Rom.</p>
-            </div>
+<p class="MsoNormal">Vorkommen: <rs type="divine">Grannus</rs> ist einer der wenigen keltischen
+Götternamen, die auch literarisch (Cass.Dio 77,15,5–7) bezeugt sind. Er ist im
+Imperium Romanum epigraphisch weit verbreitet und findet sich in den Provinzen
+Aquitania, Belgica, Britannia, Dacia, Germania Inferior, Germania Superior,
+Hispania Citerior, Lugudunensis, Noricum, Pannonia Inferior, Raetia, Asia und
+in Rom.</p>
+
+<p class="MsoNormal">Im Untersuchungsgebiet kommt der Göttername in folgenden
+theonymischen Formularen vor:</p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:IT" lang="IT"><rs type="divine">Apollo Grannus</rs>
+(incl. ev. Varianten):</span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:IT" lang="IT">- Germania
+Inferior: CF-GeI-27, CF-GeI-28 - Germania
+Superior: CF-GeS-1004, CF-GeS-1008, CF-GeS-1118</span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:IT" lang="IT"><i>Apollo Grannus
+Mogounus</i></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:IT" lang="IT">- Germania
+Inferior: - - Germania
+Superior: CF-GeS-1009</span></p>
+
+<p class="MsoNormal"><i>Grannus</i> (incl. ev. Varianten):</p>
+
+<p class="MsoNormal">- Germania Inferior:<span style="mso-spacerun:yes">
+</span>CF-GeI-120 - Germania Superior: CF-GeS-1077(?)</p></div>
             <linkGrp type="alignment" domains="#majuscule #minuscule">
                 <link target="#MAJ.1 #MIN.1"/>
                 <link target="#MAJ.2 #MIN.2"/>
@@ -277,35 +300,35 @@ Vorkommen in theonymischen Formularen: </p>
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">                                                    <p part="N">Alte Version (14.04.23):</p>
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">                                                    <p part="N">Alte Version (14.04.23):</p>
                                                     <p part="N">Grannus: keltisch; etymologische Bedeutung ,der Heiße‘ (de Bernardo Stempel in Spickermann 2005, 140–41) </p>
                 <p part="N">Vorkommen in theonymischen Formularen: </p>
                 <p part="N">
@@ -315,9 +338,27 @@ Vorkommen in theonymischen Formularen: </p>
 - außerhalb der Germania Inferior: in verschiedenen Provinzen mehrfach bezeugt </p>
                 <p part="N">Grannus:  
 - Germania Inferior: Das eingliedrige theonymische Formular ist nur 1x belegt (CF-GeI-120).  
-- außerhalb der Germania Inferior: in wenigen Fällen bezeugt </p>
+- außerhalb der Germania Inferior: in wenigen Fällen bezeugt</p><p part="N">Mittlere Version (04.07.2024)</p><p> Grannus: keltisch: ,Heißer Gott‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 84f). </p>
+                                                <p>
+
+Vorkommen in theonymischen Formularen: </p>
+                                                <p>
+ Apollo Grannus: 
+- Germania Inferior: 2x belegt (CF-GeI-27 und CF-GeI-28)  
+- außerhalb der Germania Inferior: in verschiedenen Provinzen mehrfach 
+bezeugt, darunter 2x (CF-GeS-1004, CF-GeS-1008) in der Germania 
+Superior. </p>
+                                                <p>
+ Grannus:  
+- Germania Inferior: nur 1x belegt (CF-GeI-120)  
+- außerhalb der Germania Inferior: ist einer der wenigen keltischen 
+Götternamen, die auch literarisch (Cass.Dio 77,15,5-7) bezeugt sind. Er 
+ist im Imperium Romanum aber auch epigraphisch weit verbreitet und 
+findet sich in den Provinzen Aquitania, Belgica, Britannia, Dacia, 
+Germania Inferior, Germania Superior, Hispania Citerior, Lugudunensis, 
+Noricum, Pannonia inferior, Raetia, Asia und in Rom.</p><p part="N"/><p part="N"> </p>
                                                 <p part="N"/>
-            </tei:note>
+            </note>
         </back>
     </text>
 </TEI>

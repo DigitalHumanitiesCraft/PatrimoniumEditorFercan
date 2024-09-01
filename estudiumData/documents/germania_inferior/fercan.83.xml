@@ -80,7 +80,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Nach CIL ist die linke obere Ecke des Texts erhalten. Über seine Ausmaße sind keine Aussagen möglich.</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">kleineres Fragment</tei:note>
+                                    <note type="condition" anchored="true">kleineres Fragment</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -112,10 +112,10 @@
                                 <ref type="context" target="context:fercan.geog.modern.krefeld">Krefeld</ref>
                             </placeName>
                             <p part="N">Gut Gripswald</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">51.338546 6.584831</geo>
-                            </tei:location>
-                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">in Schuttschicht, gemeinsam mit anderen Fragmenten</tei:note>
+                            </location>
+                            <note anchored="true">in Schuttschicht, gemeinsam mit anderen Fragmenten</note>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">
                             <p part="N">non vidimus</p>
@@ -184,7 +184,7 @@
             <textClass default="false">
                 <keywords>
                     <list>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Octo[...]his</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -210,6 +210,10 @@
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD079848</idno>
+                        <date>Version vom 29. April 2019</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-11100671</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -232,8 +236,16 @@ HIS C<gap reason="lost" extent="unknown" unit="character" instant="false"/></ori
 … C…</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
-            </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Octo…hae!</rs> vermutlich Rest einer Variante von  <rs type="divine">Octocannae:</rs> keltisch: ‚[Muttergöttinnen] der Fichten’ bzw. ‘Fichtengöttinnen’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 236f).</p>
+            
+            <app loc="1">
+                <note anchored="true">mögliche Zeile(n) vor Z.1 – EDH; Octo[cannabus ---] – EDH (wegen möglicher zusätzlicher Zeile(n) Z.2)</note>
+            </app>
+        </div>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Octo…hae!</rs> vermutlich Rest einer Variante von  <rs type="divine">Octocannae:</rs> keltisch: ‚[Muttergöttinnen] der Fichten’ bzw. ‘Fichtengöttinnen’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 236f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)</p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
@@ -259,37 +271,37 @@ Alle Inschriften für  <rs type="divine">Octocannae</rs> stammen aus dem Raum Kr
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">
                 <p part="N">Für Alte Version (17.04.23) siehe CF-GeI-77</p>
-            </tei:note>
+            </note>
         </back>
     </text>
 </TEI>

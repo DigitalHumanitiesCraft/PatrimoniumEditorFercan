@@ -60,7 +60,7 @@
 							</supportDesc>
 							<layoutDesc>
 								<layout> <p>                                                <p>Der Inschriftentext ist links – in Z.1 sogar bis etwa zur Zeilenmitte – nicht mehr erhalten, kann aber mit einiger Sicherheit ergänzt werden.</p>
-                                                <p>Ligaturen s. Majuskelumschrift. – Besondere Zeichen: Winkelförmige Worttrenner in Z.4-8. In den Vertiefungen zwischen dem D und M in Z.1 und zwischen den beiden S in Z.3 sind möglicherweise Reste von Worttrenner zu sehen, hingegen finden sich in Z.4 zwischen dem M und C keine derartigen Hinweise.<br/></p></p> <note type="condition" anchored="true"/> </layout>
+                                                <p>Ligaturen s. Majuskelumschrift. – Besondere Zeichen: Winkelförmige Worttrenner in Z.4–8. In den Vertiefungen zwischen dem D und M in Z.1 und zwischen den beiden S in Z.3 sind möglicherweise Reste von Worttrennern zu sehen, hingegen finden sich in Z.4 zwischen dem M und C keine derartigen Hinweise.<br/></p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130600</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -68,14 +68,15 @@
 						</handDesc>
 						<decoDesc>
 							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.</p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150510">tabula ansata</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150300">glatt</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName/> <region>Civitas Nemetum</region> </origPlace> <origDate notBefore="0221" notAfter="0221" instant="false"><date>22. April 221</date> <note type="original"> <ref target="context:fercan.date." type="context">Grato et Seleuco consulibus X Kalendas Maias</ref> </note></origDate> </origin>
-						<provenance type="found" when="1933"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Eisenberg</ref> </placeName> <p>zwischen der Gewanne Hühnerfeld und der Eisenbahnlinie im Bereich vom Vicus, Haus 5 (Forumsbau) ans Tageslicht gekommen (Kreckel 2004, 423, Nr.2.4 und Kreckel/Bernhard 2007, 1)</p> <location>
+						<origin> <origPlace> <placeName/> <region>Civitas Vangionum</region> </origPlace> <origDate notBefore="0221" notAfter="0221" instant="false"><date>22. April 221</date> <note type="original"> <ref target="context:fercan.date." type="context">Grato et Seleuco consulibus X Kalendas Maias</ref> </note></origDate> </origin>
+						<provenance type="found" when="1933"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Eisenberg</ref> </placeName> <p>zwischen der Gewanne Hühnerfeld und der Eisenbahnlinie im Bereich vom Vicus, Haus 5 (Forumsbau) ans Tageslicht gekommen (Kreckel 2004, 423 Nr.2.4 und Kreckel/Bernhard 2007, 1)</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true">während der Grabung 1933 ans Tageslicht gekommen (Kreckel 2004, 423, Nr.2.4); Teil eines Metalldepots (Kreckel/Bernhard 2007, 1)</note> </provenance>
+							</location> <note anchored="true">während der Grabung 1933 ans Tageslicht gekommen (Kreckel 2004, 423 Nr.2.4); Teil eines Metalldepots (Kreckel/Bernhard 2007, 1)</note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung gründet auf: Photo und AE</p></provenance>
 					</history>
 				</msDesc>
@@ -185,7 +186,7 @@
 			<textClass>
 				<keywords>
 					<list>
-						<item> <ref target="context:fercan.dedication." type="context">ex voto posuit laetus libens merito</ref> </item>
+						<item> <ref target="context:fercan.dedication." type="context">in honorem domus divinae; ex voto posuit laetus libens merito</ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context">urnam cum sortibus et phialam</ref> </item>
@@ -257,7 +258,7 @@
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
 				<p>                                                <p>In honour for the Divine Household to <rs type="divine">Mars Loucetius</rs> and <rs type="divine">Victoria Nemetona</rs>!</p>
-                                                <p>Marcus Aurelius Senillus Severus, the beneficiarius legati, has presented a pot with draws and a votive cup, according to a vow gladly, willingly and deservedly; in the year of the consulship of Gratus and Seleucus, on the 10th before the Calends of May.</p></p>
+                                                <p>Marcus Aurelius Senillus Severus, the beneficiarius legati, has presented a pot with draws and a votive cup, according to a vow gladly, willingly and deservedly; in the year of the consulship of Gratus and Seleucus, on the 10<sup>th</sup> before the calends of May.</p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="1">
@@ -269,10 +270,10 @@
             <app loc="6"><note anchored="true">l(ibens) l(aetus) – Spickermann 2014, EDH, Spickermann 2018, Scheungraber</note></app>
         </div>
 			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Marcus Aurelius Senillus Severus: römisches Namensformular bestehend aus tria nomina mit doppeltem Cognomen</p>
-                                                <p>Aurelius: italisches Gentilnomen, kaiserliches Gentilnomen; überall und besonders in den Germaniae sehr weit verbreitet. Die weite Verbreitung erklärt sich hauptsächlich durch die constitutio Antoniana (212 n.Chr.) (Kakoschke 2021, GN 179)</p>
+                                                <p>Aurelius: italisches Gentilnomen, kaiserliches Gentilnomen; überall und besonders in den Germaniae sehr weit verbreitet. Die weite Verbreitung erklärt sich hauptsächlich durch die constitutio Antoniana (212 n.Chr.; Kakoschke 2021, GN 179)</p>
                                                 <p>Senillus: seltener keltischer Name (Kakoschke 2021, CN 2806)</p>
                                                 <p>Severus: lateinischer Name, überall äußerst gängig (Kakoschke 2021, CN 2855)</p>
-                                                <p>Das Prae- und das Gentilnomen weisen darauf hin, dass der Dedikant das römische Bürgerrecht durch die von Kaiser Caracalla (Marcus Aurelius Severus Antoninus Pius),dem Sohn des Septimius Severus, 212 n.Chr. erlassene constitutio Antoninia erhalten hatte. Auch das zweite Cognomen könnte mit der Verleihung des Bürgerrechts durch Caracalla zu tun haben.</p>
+                                                <p>Das Prae- und das Gentilnomen weisen darauf hin, dass der Dedikant das römische Bürgerrecht durch die von Kaiser Caracalla (Marcus Aurelius Severus Antoninus Pius), dem Sohn des Septimius Severus, 212 n.Chr. erlassene constitutio Antoninia erhalten hatte. Auch das zweite Cognomen könnte mit der Verleihung des Bürgerrechts durch Caracalla zu tun haben.</p>
                                                 <p>Beneficiaius legati: Die Ergänzung beneficiaius ergibt sich vor allem aus Platzgründen; sie wird dadurch ein wenig gestützt, dass die Bronzetafel in einem Metalldepot gefunden wurde, aus dem auch eine eiserne Benefiziarierlanze stammt (Kreckel/Bernhard 2007, 2).</p>
                                                 <p>urnam cum sortibus: Diese Lesung (Topf mit Losstäbchen) wurde schon vorgeschlagen von AE 2007, 1044 mit Verweis auf AE 2001, 1307 und AE 2005, 651 (s. auch CIL XIII 5923).</p>
                                                 <p>Der Topf mit Losstäbchen kann verstanden werden als symbolhafter Hinweis auf einen vorteilhaften göttlichen Rat, der in einer unklaren Situation zu einer richtigen Entscheidung geführt hat (Ehmig 2015, 241–49) oder vielleicht sogar als Darstellung einer tatsächlichen Methode der Anfrage an einen Gott.</p>
@@ -299,7 +300,7 @@
 			<note type="Fundjahr_note"><p>AE: probablement en 1933</p><p>Vermutlich 1933. So Kreckel</p></note>
 			<note type="FOantik_note"/>
 			<note type="FOmodern_note">                                                    <p><br/></p></note>
-			<note type="civitas_note"><p>EDH: (Civitas Vangionum)<br/>WSpDB: civitas Nemetum – {viell. falsch}</p></note>
+			<note type="civitas_note">                                                    <p>EDH: (Civitas Vangionum)<br/>WSpDB: civitas Nemetum – {viell. falsch}</p></note>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
 			<note type="Abb_note"/>

@@ -41,8 +41,8 @@
 				<msDesc>
 					<msIdentifier>
 						<settlement>München</settlement>
-						<repository>Prähistorische Staatssammlung</repository>
-						<idno>1933-50</idno>
+						<repository>Archäologische Staatssammlung</repository>
+						<idno>1933,50</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>Weihinschrift</summary>
@@ -59,10 +59,8 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Das Inschriftenfeld ist im unteren Ende von Z.5 abgebrochen, die Anzahl verlorener Zeilen ist nicht rekonstuierbar. Der Anfang der Zeilen 3, 4 und 5 ist beschädigt, wobei es scheint, dass in Z.4 zwei Buchstaben verloren sind, während in Z.5 die Anzahl nicht rekonstruierbar ist. Die Buchstabenform ist äußerst unregelmäßig.<br/></p>
-                                                <p>Die Erste Zeile befindet sich auf der Leiste oberhalb des vertieften Inschriftenfeldes. Leonhard (1910, 52) meint: „Es erweckt den Eindruck, als sei eine ältere Inschrift bis auf das Präskript in h d d beseitigt und durch die vorliegende ersetzt worden.“</p>
-                                                <p>In Z.3 die beiden E von ceter, in Z.4 das O von imnort und in Z.5 die beiden U von Cupitus jeweils kleiner eingeschrieben.</p>
-                                                <p>Das Ende von Z.5 hat laut Leonhard (1910, 52) durch „den Einfluss des Wassers sehr gelitten“. Aufgrund des schlechten zustandes wäre auch ein C mit eingedrehtem Ende möglich, und es ist Fraglich ob es sich bei der letzten erhaltenen Senkrechthaste tatsächlich um ein kleiner eigneschriebenes I handelt oder blos um eine Beschädigung.</p></p> <note type="condition"/> </layout>
+								<layout> <p>                                                <p>Das Inschriftenfeld ist im unteren Ende von Z.5 abgebrochen, die Anzahl verlorener Zeilen ist nicht rekonstruierbar. Der Anfang der Zeilen 3, 4 und 5 ist beschädigt, wobei es scheint, dass in Z.4 zwei Buchstaben verloren sind, während in Z.5 die Anzahl nicht rekonstruierbar ist. Die Buchstabenform ist äußerst unregelmäßig.<br/></p>
+                                                <p>Die erste Zeile befindet sich auf der Leiste oberhalb des vertieften Inschriftenfeldes. Leonhard (1910, 52) meint: „Es erweckt den Eindruck, als sei eine ältere Inschrift bis auf das Präskript in h d d beseitigt und durch die vorliegende ersetzt worden.“ In Z.3 die beiden E von ceter, in Z.4 das O von imnort und in Z.5 die beiden U von Cupitus jeweils kleiner eingeschrieben. Das Ende von Z.5 hat laut Leonhard (1910, 52) durch „den Einfluss des Wassers sehr gelitten“. Aufgrund des schlechten Zustandes wäre auch ein C mit eingedrehtem Ende möglich, und es ist fraglich, ob es sich bei der letzten erhaltenen Senkrechthaste tatsächlich um ein kleiner eingeschriebenes I handelt, oder bloß um eine Beschädigung.</p></p> <note type="condition">https://gams.uni-graz.at/o:fercan.arch#C.130310</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -75,6 +73,7 @@
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150100">Inschrift außerhalb des Inschriftenfeldes</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150500">Rahmen</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -244,14 +243,16 @@
 			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
 <lb n="2"/><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> et
 <lb n="3"/>Cassibus <expan><abbr>ceter</abbr><ex>is</ex></expan>
-<lb n="4"/><supplied reason="lost">di</supplied>s <expan><abbr>deabusq</abbr><ex>ue</ex></expan> <expan><abbr>imnort</abbr><ex>alibus</ex></expan>
+<lb n="4"/><supplied reason="lost">di</supplied>s <expan><abbr>deabusq</abbr><ex>ue</ex></expan> <expan><abbr>imnort</abbr><ex>alibus</ex></expan><note>!</note>
 <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>us Cupitu<supplied reason="lost">s</supplied> GRI
 <lb n="6"/><gap reason="lost" extent="unknown" unit="line"/></ab></div>
 			<div type="translation" xml:lang="de" org="uniform">
-				<p><p>Zur Ehre des Kaiserhauses, für <rs type="divine">Iuppiter Optimus Maximus</rs> den <rs type="divine">Casses</rs> und den übrigen unsterblichen Göttern und Göttinen!</p><p> ... Cupitus ...</p></p>
+				<p>                                                <p>Zur Ehre des Kaiserhauses, für <rs type="divine">Iuppiter Optimus Maximus,</rs> den <rs type="divine">Casses</rs> und den übrigen unsterblichen Göttern und Göttinen!</p>
+                                                <p> ... Cupitus ...</p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform">
-				<p><p>In honor of the Divine Houshold, and to <rs type="divine">Iuppiter Optimus Maximus</rs> and to the <rs type="divine">Casses</rs> and to the immortal gods and goddesses!</p><p>... Cupitus ...<br/></p></p>
+				<p>                                                <p>In honor of the Divine Houshold, and to <rs type="divine">Iuppiter Optimus Maximus</rs>, and to the <rs type="divine">Casses,</rs> and to the immortal gods and goddesses!</p>
+                                                <p>... Cupitus ...<br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform">
 				<app loc="3">
@@ -260,13 +261,13 @@
 			
             <app loc="4"><note anchored="true">[dis] – Leonhard; [di(is)s (das s mit Unterpunkt) – Castritius (u.a.); [di(i)]s – Beckmann, Mattern; im(m)ort(alibus) – Leonhard; immort--- – Riese; immort(alibus) – Castritius (u.a.); im&lt;m=N&gt;ort(alibus) – Scheungraber</note></app>
         
-            <app loc="5"><note anchored="true">am Anfang der Zeile [alib]us – Beckmann; Cupitus [.]pi – CIL; p (mit Unterpunkt) – Riese; Cupitus (C)eri- – Beckmann; [3]us Cupitus [3]pi – Scheungraber; Nichts am Ende der Zeile – Leonhard, Keune</note></app>
+            <app loc="5"><note anchored="true">am Anfang der Zeile [alib]us – Beckmann; Cupitus [.]pi – CIL; p (mit Unterpunkt) – Riese; Cupitus (C)eri- – Beckmann; [3]us Cupitus [3]pi – Scheungraber; nichts am Ende der Zeile – Leonhard, Keune</note></app>
         
             <app loc="6"><note anchored="true">In einer zusätzlichen Zeile [alis v(otum) s(olvit) l(ibens) l(aetus) m(erito) – Beckmann</note></app>
         </div>
-			<div type="commentary" subtype="general" org="uniform">                                                <p>...us Cupitus: tria nomina?, vermutlich mindestens römisches Namensformular ohne Praenomen.<br/></p>
-                                                <p>Cupitus: (keltischer/)lateinischer Name, in den keltischen Provinzen verbreitet (Kakoschke 2021, CN 986)</p>
-                                                <p>..pi: Wenn zu Cupitus gehörig: tria nomina mit doppeltem Cognomen? römisches Namensformular ohne Praenomen aber mit Angabe des Namens des Vaters im Genitiv?
+			<div type="commentary" subtype="general" org="uniform">                                                <p>...us Cupitus: tria nomina?, vermutlich mindestens römisches Namensformular ohne Praenomen<br/></p>
+                                                <p>Cupitus: (keltischer/) lateinischer Name, in den keltischen Provinzen verbreitet (Kakoschke 2021, CN 986)</p>
+                                                <p>..pi: wenn zu Cupitus gehörig: tria nomina mit doppeltem Cognomen? römisches Namensformular ohne Praenomen aber mit Angabe des Namens des Vaters im Genitiv?
                                                     </p>
                                                 <p> </p>
 			<p/></div>
@@ -2849,7 +2850,7 @@
 			<note type="Material_note"><p>hohler roter Stein - CIL</p><p>roter Sandstein - Conrady<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note">                                                    <p>Mattern; Beckmann geben München, Archäologische Staatssammlung, Museum für Vor- und Frühgeschichte IVNr. 1933-50 als Aufbewahrungsort an, in Miltenberg nur ein Abguss mit Nr. Mus. Mil. ARL 33</p>
+			<note type="InvNr_note">                                                    <p><b>so Dr. Steidl im Mail vom 29.05.2024; er auch: im Depot außerhalb Münchens verwahrt</b></p><p>Mattern; Beckmann geben München, Archäologische Staatssammlung, Museum für Vor- und Frühgeschichte IVNr. 1933-50 als Aufbewahrungsort an, in Miltenberg nur ein Abguss mit Nr. Mus. Mil. ARL 33</p>
                                                     <p>RSO 168 auch Aufenthaltsort Prähistorische Sammlung München<br/></p></note>
 			<note type="Fundstelle_note"><p>am oberen Ende der Stadt - CIL</p><p>im Main bei Numeruskastell/Ostkastell - Beckmann<br/></p></note>
 			<note type="Fundumst_note"/>

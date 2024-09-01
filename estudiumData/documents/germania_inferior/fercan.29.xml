@@ -90,7 +90,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Der Text füllt nur die obere Hälfte des Inschriftenfelds. Er ist vollständig erhalten.<lb/>Ligaturen: s. Majuskeltext</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">vollständig</tei:note>
+                                    <note type="condition" anchored="true">vollständig</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -141,9 +141,9 @@
                                 <ref type="context" target="context:fercan.geog.modern.gey">Gey</ref>
                             </placeName>
                             <p part="N">an der rechten Seite der Landstraße von Düren nach Montjoie</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">50.748759 6.416726</geo>
-                            </tei:location>
+                            </location>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)</provenance>
                     </history>
@@ -221,7 +221,7 @@
                         <item>
                             <ref type="context" target="context:fercan.dedication.solvit_libens_merito">solvit libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">deae Ardbinnae</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -252,6 +252,14 @@
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD079804</idno>
+                        <date>Version vom 25. April 2019</date>
+                    </bibl>
+                	<bibl type="lupa">
+                        <idno>https://lupa.at/31994</idno>
+                        <date>Version vom 20. Dezember 2022</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-11100072</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -277,10 +285,10 @@ Titus Iulius Aequalis has fulfilled (a vow) willingly and deservedly.  </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – ILS</tei:note>
+                    <note anchored="true">ohne Ligatur – ILS</note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – ILS</tei:note>
+                    <note anchored="true">ohne Ligatur – ILS</note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
@@ -288,7 +296,11 @@ Titus Iulius Aequalis has fulfilled (a vow) willingly and deservedly.  </p>
 Iulius: italisches Gentilnomen, in den germanischen Provinzen überaus häufig bezeugt (Kakoschke 2006, GN 621) <lb/>
 Aequalis: lateinisches Cognomen (Kakoschke 2007, CN 62)</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Ardbinna:</rs> sekundäre Variante von:  <rs type="divine">Ardvinna</rs>. keltisch: ‚Göttin des saltus Arduenna’ (=der Bergkette der Ardennen) oder ‚Erhabene [Göttin]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 88f). </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Ardbinna:</rs> sekundäre Variante von:  <rs type="divine">Ardvinna</rs>. keltisch: ‚Göttin des saltus Arduenna’ (=der Bergkette der Ardennen) oder ‚Erhabene [Göttin]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 88f). (Hier wird kein
+sprachwissenschaftlicher Beitrag geleistet. Die Literaturangaben dienen
+lediglich dazu, einen Einstieg in die sprachwissenschaftliche Diskussion zu
+bieten. Besprochen werden alle Götternamen, die bislang als keltisch oder
+teilweise keltisch gedeutet wurden.) </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
@@ -305,45 +317,45 @@ Vorkommen in theonymischen Formularen: </p>
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true">
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true">
                 <p part="N">Scheungraber nachschlagen<br/>
                 </p>
-            </tei:note>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+            </note>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">
                 <p part="N">Alte Version (14.04.23):</p>
                 <p part="N">Ardbinna: sekundäre Variante von:  Ardvinna.
  „Das Grundlexem ist jedenfalls keltisch und die Etymologie ‚die Hohe‘ 
 passt zu einer Berggottheit“ (de Bernardo Stempel in Spickermann 2005, 
 139), vorausgesetzt, dass es sich nicht um ein Tabutheonym mit Bedeutung
  ‚die Erhabene‘ handelt, dazu de Bernardo Stempel 2010, 108f.</p>
-            </tei:note>
+            </note>
         </back>
     </text>
 </TEI>

@@ -234,7 +234,9 @@ Von der rechten Seitansicht fehlen der obere und der untere Abschluss. Erhalten 
             <textClass default="false">
                 <keywords>
                     <list>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Deo Merc[u]rio Gebrinio</ref> </item>
+                    </list>
+                </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -294,8 +296,8 @@ Von der rechten Seitansicht fehlen der obere und der untere Abschluss. Erhalten 
 <lb n="4"/> PERV<unclear>L</unclear>A P <unclear>P</unclear> L 
 <lb n="5"/> RIPE RHENI LE<unclear>G</unclear> 
 <lb n="6"/> I M TEM<unclear>P</unclear>LVM<gap reason="lost" extent="unknown" unit="character"/></orig></ab></div>
-            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><lb n="1"/>Deo Merc<supplied reason="lost">u</supplied><lb n="2" break="no"/>
-<lb n="2"/><surplus>Gebrinio</surplus>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><lb n="1"/>Deo Merc<supplied reason="lost">u</supplied>
+<lb n="2" break="no"/><surplus>Gebrinio</surplus>
 <lb n="3"/>rio <supplied reason="omitted">Gebrinio</supplied> Aurelius
 <lb n="4"/>Perula <expan><abbr>p</abbr><ex cert="low"/></expan> <expan><abbr>p</abbr><ex cert="low"/></expan> <expan><abbr>l</abbr><ex cert="low"/></expan>
 <lb n="5"/><expan><abbr>rip</abbr><ex>a</ex></expan>e Rheni <expan><abbr>leg</abbr><ex>ionis</ex></expan>
@@ -328,8 +330,7 @@ Aurelius Perula P(?) P(?) L(?) at the river Rhine of the legio I Minervia (has b
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">templu[m] – AE 1931; in einer zusätzlichen Z.7 [---]T[ – Lehner 1930; in einer zusätzlichen Z.7 [imposuit] – AE 1931; weiteres in einer zusätzlichen Zeile – Scheungraber</tei:note>
                 </app>
             </div>
-            <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
-                <p part="N">Aurelius Perula: Gentil- und Cognomen, ohne Praenomen <lb/>
+            <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">                <p part="N">Aurelius Perula: Gentil- und Cognomen, ohne Praenomen <lb/>
 
 Aurelius: italisches kaiserliches Gentilnomen; die Häufigkeit des Namens steht in Zusammenhang mit der Constitutio Antoniniana, nach der viele Neubürger dieses Gentilnomen annahmen. Doch auch Personen, die zuvor schon im Besitz des Bürgerrechts waren, fügten dieses Gentile nun nicht selten ihrem Namen an (Kakoschke 2006, GN 173). <lb/>
 
@@ -351,12 +352,12 @@ templum: Die Inschrift bezeugt das Vorhandensein eines Tempels für  <rs type="d
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.4: „ripe“ pro „ripae“</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Gebrinius</rs>: keltisch: ‚Der Gott mit dem Widder‘ (de Bernardo Stempel <span lang="pt-PT">Corpus F.E.R.C.A.N. II/1 138f</span>). </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Gebrinius</rs>: keltisch: ‚Der Gott mit dem Widder‘ (de Bernardo Stempel <span lang="pt-PT">Corpus F.E.R.C.A.N. II/1 138f</span>). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die Literaturangaben dienen lediglich dazu, einen Einstieg in die sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet wurden.)</p>
                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
                 <p part="N">
- <i>Mercurius Gebrinius</i>: 
+ <rs type="divine">Mercurius Gebrinius</rs>: 
 - Germania Inferior: 10x belegt (CF-GeI-1 bis CF-GeI-10). Alle Zeugnisse stammen aus Bonn. 
 - außerhalb der Germania Inferior: - </p>
             </div>
@@ -389,8 +390,7 @@ Vorkommen in theonymischen Formularen: </p>
             <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
             <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
             <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true">
-                <p part="N">aaa<br/>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true">                <p part="N"><br/>
                 </p>
             </tei:note>
             <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>

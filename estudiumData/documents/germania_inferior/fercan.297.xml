@@ -108,9 +108,7 @@ Auf der linken Schmalseite befindet sich ein dreibeiniger Tisch mit einem Kästc
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.250200">
                                     <ref type="context" target="context:fercan.arch.globus">Globus</ref>
                                 </term>
-                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.2528405">
-                                    <ref type="context" target="context:fercan.arch.kaestchen">Kästchen</ref>
-                                </term>
+                                
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252620">
                                     <ref type="context" target="context:fercan.arch.kultmahl">Kultmahl</ref>
                                 </term>
@@ -123,6 +121,7 @@ Auf der linken Schmalseite befindet sich ein dreibeiniger Tisch mit einem Kästc
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252630">
                                     <ref type="context" target="context:fercan.arch.tisch">Tisch</ref>
                                 </term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252830">Kiste</term>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -159,27 +158,27 @@ Auf der linken Schmalseite befindet sich ein dreibeiniger Tisch mit einem Kästc
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.candidus">Candidus</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.candidus">Candidus; Fervesa; Lellua; Quintus; Vitalis</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.fervesa">Fervesa</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.fervesa">Candidus; Fervesa; Lellua; Quintus; Vitalis</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.lellua">Lellua</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.lellua">Candidus; Fervesa; Lellua; Quintus; Vitalis</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.quintus">Quintus</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.quintus">Candidus; Fervesa; Lellua; Quintus; Vitalis</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.vitalis">Vitalis</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.vitalis">Candidus; Fervesa; Lellua; Quintus; Vitalis</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -244,7 +243,7 @@ Auf der linken Schmalseite befindet sich ein dreibeiniger Tisch mit einem Kästc
                         <item>
                             <ref type="context" target="context:fercan.character.sonderzeichen_fuer_velaren_reibelaut">Sonderzeichen für velaren Reibelaut</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Matronis Mahlinechis</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -333,15 +332,21 @@ Quintus: lateinisches Cognomen, überall gängiger Name (Kakoschke 2008, CN 2530
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.3: „Viponi” pro „Viponii”</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">
-                <p part="N"> <rs type="divine">Mahlinehae</rs>: keltisch mit lautlicher Germanisierung: ‚Liebe Fürstliche [Muttergöttinnen]’ oder ‚Zum Gott <i>Magalos</i> Gehörende und Liebe [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 190-192). </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                <p part="N"> <rs type="divine">Mahlinehae</rs>: keltisch mit lautlicher Germanisierung: ‚Liebe Fürstliche [Muttergöttinnen]’ oder ‚Zum Gott <rs type="divine">Magalos</rs> Gehörende und Liebe [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 190-192). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.) </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
                                                 <p part="N">
- <i>Matronae Mahlinae</i>: 
+ <rs type="divine">Matronae Mahlinae</rs>: 
 - Germania Inferior: Das theonymische Formular ist 2x belegt: in der hier besprochenen Inschrift und in CF-GeI-297). 
-- außerhalb der Germania Inferior: - </p>
+- außerhalb der Germania Inferior: -</p>
+                                                <p><i>Mahlinehae</i>:</p>
+                                                <p>- Germania Inferior: nur in CF-Gei-115 belegt. - außerhalb der Germania Inferior: -</p>
+                                                <p part="N"> </p>
             </div>
             <linkGrp type="alignment" domains="#majuscule #minuscule">
                 <link target="#MAJ.1 #MIN.1"/>

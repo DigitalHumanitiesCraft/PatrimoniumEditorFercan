@@ -91,7 +91,7 @@
                                     <p part="N">Die Inschrift ist heute verloren, das Inschriftentext scheint aber bei
                     der Aufnahme weitgehend vollständig erhalten gewesen zu sein.<lb/>Ligatur: s.
                     Majuskeltext</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">unklar</tei:note>
+                                    <note type="condition" anchored="true">unklar</note>
                                 </layout>
               </layoutDesc>
             </objectDesc>
@@ -122,10 +122,10 @@
                             </placeName>
                             <p part="N">in der
                 mittelalterlichen Kirche</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                 <geo decls="#WGS">50.405763 6.829295</geo>
-              </tei:location>
-                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">beim Abbruch der mittelalterlichen Kirche </tei:note>
+              </location>
+                            <note anchored="true">beim Abbruch der mittelalterlichen Kirche </note>
                         </provenance>
             <provenance type="observed" subtype="autopsied">
                             <p part="N">non vidimus</p>
@@ -213,7 +213,7 @@
             <item>
                             <ref type="context" target="context:fercan.dedication.ipsarum_libens_merito">ipsarum libens merito</ref>
                         </item>
-            <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+            <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Matronis Vacalinehis</ref> </item></list></keywords>
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
@@ -250,6 +250,10 @@
       </div>
       <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
         <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD075098</idno>
+                        <date>Version vom 11. Januar 2021</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-11100177</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -266,7 +270,7 @@ V<hi rend="ligature">AC</hi>ALINEHIS <lb n="3"/>
 AM · NOMI · EIIVS <lb n="4"/>
 PRIMV · E<gap reason="lost" quantity="1" unit="character" instant="false"/> IMP <lb n="5"/>
 I<gap reason="lost" extent="unknown" unit="character" instant="false"/> M</orig></ab></div>
-      <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Matronis<lb n="2"/>Vacalinehis<lb n="3"/>Amnomieiius<tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">sic</tei:note><lb n="4"/><expan instant="false"><abbr>Primu</abbr><ex cert="low" instant="false">s</ex></expan> e<supplied reason="lost" instant="false">x</supplied> <expan instant="false"><abbr>imp</abbr><ex instant="false">erio</ex></expan><lb n="5"/>i<supplied reason="lost" instant="false">psarum</supplied> <supplied cert="low" reason="lost" instant="false"><expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan></supplied> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
+      <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Matronis<lb n="2"/>Vacalinehis<lb n="3"/>Amnomieiius<note anchored="true">sic</note><lb n="4"/><expan instant="false"><abbr>Primu</abbr><ex cert="low" instant="false">s</ex></expan> e<supplied reason="lost" instant="false">x</supplied> <expan instant="false"><abbr>imp</abbr><ex instant="false">erio</ex></expan><lb n="5"/>i<supplied reason="lost" instant="false">psarum</supplied> <supplied cert="low" reason="lost" instant="false"><expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan></supplied> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
       <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
         <p part="N">Für die <rs type="divine">Matronae Vacalinehae!</rs>
           <lb/> Amnomieiius Primus auf deren Befehl gerne und verdientermaßen.</p>
@@ -277,13 +281,13 @@ I<gap reason="lost" extent="unknown" unit="character" instant="false"/> M</orig>
       </div>
       <div type="apparatus" org="uniform" part="N" sample="complete">
         <app loc="#MIN.3 #MAJ.3">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Am(ius) Nomieiius – Freudenberg; Am(ius) Nomi. eiius – Holder; Am. Nomienus – Riese; AM · NOMI · EIIVS, corruptus – CIL; Am. Nomi. eiius – Weisgerber; AM NOMI EIIUS – Scheid; *Amnomieiius – CIL XIII/5 2 (Index); Amnomiei{i}us – Scheungraber; AM NOMI eius – Ferlut </tei:note>
+          <note anchored="true">Am(ius) Nomieiius – Freudenberg; Am(ius) Nomi. eiius – Holder; Am. Nomienus – Riese; AM · NOMI · EIIVS, corruptus – CIL; Am. Nomi. eiius – Weisgerber; AM NOMI EIIUS – Scheid; *Amnomieiius – CIL XIII/5 2 (Index); Amnomiei{i}us – Scheungraber; AM NOMI eius – Ferlut </note>
         </app>
         <app loc="#MIN.4 #MAJ.4">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Primu[s] [ex] imp(erio) – Freudenberg; PRIMV · I IMP, corruptus – CIL; imp(erio?) – Scheungraber; Primus [ex] – Ferlut</tei:note>
+          <note anchored="true">Primu[s] [ex] imp(erio) – Freudenberg; PRIMV · I IMP, corruptus – CIL; imp(erio?) – Scheungraber; Primus [ex] – Ferlut</note>
         </app>
         <app loc="#MIN.5 #MAJ.5">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">i[psarum] [votum solvit lubens (sic)] m[erito] – Freudenberg; I M, corruptus – CIL; l(ibens) m(erito) – Ferlut</tei:note>
+          <note anchored="true">i[psarum] [votum solvit lubens (sic)] m[erito] – Freudenberg; I M, corruptus – CIL; l(ibens) m(erito) – Ferlut</note>
         </app>
       
             <app loc="2">
@@ -304,7 +308,11 @@ I<gap reason="lost" extent="unknown" unit="character" instant="false"/> M</orig>
       </div>
       <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">        <p part="N">
           <rs type="divine">Vacalinehae:</rs> Variante von <rs type="divine"> Vacallinehae:</rs> keltisch: ‚Unter den Bäumen bzw. dem Wald Verweilende [Muttergöttinen]‘ 
-(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243).      </p>
+(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)      </p>
         <p part="N"> Vorkommen in theonymischen Formularen: </p>
         <p part="N">
           <rs type="divine">Matronae Vacallinehae</rs>: <lb/> - Germania Inferior: Das theonymische
@@ -326,37 +334,37 @@ I<gap reason="lost" extent="unknown" unit="character" instant="false"/> M</orig>
       </linkGrp>
     </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">
                 <p part="N">Für die Alte Version (25.04.23) siehe CF-GeI-140</p>
-            </tei:note>
+            </note>
         </back>
   </text>
 </TEI>

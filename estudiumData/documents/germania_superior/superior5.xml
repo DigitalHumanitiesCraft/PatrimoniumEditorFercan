@@ -60,24 +60,24 @@
 							</supportDesc>
 							<layoutDesc>
 								<layout> <p>                                                <p>Das Inschriftenfeld weist oberhalb der Inschrift einen Freiraum von ungefähr einer Zeile auf. Die Buchstabenform ist ungleichmäßig, und darüber hinaus weist die Inschrift auf die Aussprache zurückzuführende Rechtschreibfehler auf.</p>
-                                                <p>Zwischen Z.1 und Z.2 verläuft eine Bruchlinie wobei sie von links nach rechts leicht ansteigt, wodurch am Anfang von Z.2 der obere Teil der Buchstaben A und R, sowie am Ende von Z.1 der untere Teil der Buchstaben I und O fehlen.</p>
-                                                <p>Aufgrund der Beschädigung am Ende von Z.2 ist unsicher, ob dort ein C oder ein G steht.</p>
-                                                <p>Da am Ende von Z.5 der Platz fehlt wurde das '-to' von merito als eine Z.6 kleiner in den freien Bereich unter den Buchstaben RI am Ende von Z.5 und dem Sockelrand eingeschrieben.</p>
-                                                </p> <note type="condition"/> </layout>
+                                                <p>Zwischen Z.1 und Z.2 verläuft eine Bruchlinie wobei sie von links nach rechts leicht ansteigt, wodurch am Anfang von Z.2 der obere Teil der Buchstaben A und R, sowie am Ende von Z.1 der untere Teil der Buchstaben I und O fehlen. Aufgrund der Beschädigung am Ende von Z.2 ist unsicher, ob dort ein C oder ein G steht. Da am Ende von Z.5 der Platz fehlt wurde das '-to' von merito als eine Z.6 kleiner in den freien Bereich unter den Buchstaben RI am Ende von Z.5 und dem Sockelrand eingeschrieben.</p>
+                                                </p> <note type="condition">https://gams.uni-graz.at/o:fercan.arch#C.130400</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="4.0" atMost="5.2">4,0–5,2</height> </handNote>
 						</handDesc>
 						<decoDesc>
 							<decoNote> <p>                                                <p>Auf der linken Seite des Altares sind noch zwei erhöhte Stellen zu erkennen. Beckmann (1984, 84 Nr.36) schreibt dazu: "Auf den Seitenflächen Ornamente, deren zeichnerische Ergänzung versucht wurde. Dannach könnte es sich links um die Bekrönung eines caduceus handeln." Anhand der vorliegenden Photographien kann dies weder bestätigt, noch widerlegt werden. Rechts könnten die Reste eines nach hinten blickenden und nach vorne schreitenden Vogels mit langem Hals (Schwan? Gans?) vorhanden sein. <br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252810">Opferschale</term>
+                      
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">Rosette</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251100">Caduceus</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140700">Reparatur</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.254130">Vogel</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale (Gestaltungsmerkmal)</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -85,7 +85,7 @@
 						<origin> <origPlace> <placeName>Seiopa</placeName> <region>Civitas Alisinensium</region> </origPlace> <origDate notBefore="" notAfter=""> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when="1845"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Miltenberg</ref> </placeName> <p>auf dem Plateau des Schloss- oder Greinbergs in einem germanischen Ringwall (CIL); "1400m ö der Kirche von Breitendiel, auf dem Greinberg, in der Privatwaldabteilung 12b Ringwall" (Abels 1979, 139)</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note>gefunden vom Revierförster Dr. Madler bei Ausführung von forstwirthschaftlichen Arbeiten (CIL)</note> </provenance>
+							</location> <note>"gefunden vom Revierförster Dr. Madler bei Ausführung von forstwirthschaftlichen Arbeiten" (CIL)</note> </provenance>
 						<provenance type="observed" subtype="autopsied">                                                vidimus (CIL XIII Projekt)<br/></provenance>
 					</history>
 				</msDesc>
@@ -255,7 +255,7 @@
 			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Mercurio
 <lb n="2"/><expan><abbr>Arvernorig</abbr><ex>i</ex></expan>
 <lb n="3"/>Cossillus d
-<lb n="4" break="no"/>onavi es visu
+<lb n="4" break="no"/>onavi es<note>!</note> visu
 <lb n="5"/><expan><abbr>l</abbr><ex>a</ex>etus</expan> <expan><abbr>libe</abbr><ex>n</ex>s</expan> meri
 <lb n="6" break="no"/>to</ab></div>
 			<div type="translation" xml:lang="de" org="uniform">

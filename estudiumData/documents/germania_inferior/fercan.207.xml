@@ -196,7 +196,7 @@
                         <item>
                             <ref type="context" target="context:fercan.dedication.pro_se_et_suis">pro se et suis</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Vocalli[---]</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -218,7 +218,7 @@
             <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1918, Nr.369</bibl>
-                    <bibl xml:id="LIT.2" default="false" status="draft">Alföldy 1968, Nr.125</bibl>
+                    <bibl xml:id="LIT.2" default="false" status="draft">Alföldy 1968 (Rheinland III), 50 Nr.125</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">AE 1968, 351</bibl>
                 
             <bibl xml:id="4">Scheungraber 2020, 570 Nr.127</bibl>
@@ -256,7 +256,7 @@ ET · SVI<gap reason="lost" extent="unknown" unit="character" instant="false"/><
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Vocalli[nehis ---] – Lehner; Vocalli[nehis] – Alföldy, AE, EDH, Scheungraber; möglicherweise ging der ersten Zeile ursprünglich noch eine jetzt verlorene voraus – Alföldy, AE, EDH, Scheungraber</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">davor eine mögliche Z.0 unbekannten Inhaltes – AE, Alföldy, EDH, Scheungraber; Vocalli[nehis ---] – Lehner; Vocalli[nehis] – Alföldy, AE, EDH, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Zeile fehlt bei Lehner, Alföldy, AE, EDH, Scheungraber</tei:note>
@@ -268,11 +268,15 @@ ET · SVI<gap reason="lost" extent="unknown" unit="character" instant="false"/><
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]ius – Lehner; [.]S[eve]rius(?) Lu[pus (?)] – Alföldy, AE; [-]S[---]rius Lu[pus?] – EDH; [3]S[eve]rius(?) Lu[pus (?)] – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[pro se] et sui[s---] – Lehner, [pro se] et sui[s v.s.] – Alföldy, [pro se] et sui[s v(otum) s(olvit) l(ibens) m(erito)] – AE, EDH; [pro se] et sui[s v(otum) s(olvit)] – Scheungraber; im Anschluss daran noch eine weitere Zeile mit [l(ibens) m(erito)] – Alföldy, Scheungraber</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[pro se] et sui[s---] – Lehner, [pro se] et sui[s v.s.] – Alföldy, [pro se] et sui[s v(otum) s(olvit) l(ibens) m(erito)] – AE, EDH; [pro se] et sui[s v(otum) s(olvit)] – Scheungraber; noch eine weitere Zeile Z.6 mit [l(ibens) m(erito)] – Alföldy, Scheungraber; noch eine weitere Zeile Z.6 mit [l(ibens) m(erito)?] – EDH</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Vocalli…:</rs> Rest einer Variante von  <rs type="divine">Vacallinehae:</rs> keltisch: ‚Unter den Bäumen bzw. dem Wald Verweilende [Muttergöttinen]‘ 
-(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243). 0 </p>
+(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.) </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>

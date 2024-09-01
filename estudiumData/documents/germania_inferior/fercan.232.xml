@@ -163,12 +163,12 @@ Laut Literatur (Lehner 1918, 167) sind Rück- sowie Seitansichten vollständig g
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.aiva">Aiva</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.aiva">Aiva; Saturninus</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.saturninus">Saturninus</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.saturninus">Aiva; Saturninus</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -233,7 +233,7 @@ Laut Literatur (Lehner 1918, 167) sind Rück- sowie Seitansichten vollständig g
                         <item>
                             <ref type="context" target="context:fercan.character.sonderzeichen_fuer_velaren_reibelaut">Sonderzeichen für velaren Reibelaut </ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Vacallinech(i)s</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -256,7 +256,7 @@ Laut Literatur (Lehner 1918, 167) sind Rück- sowie Seitansichten vollständig g
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1918, Nr.375A</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Finke 1927, Nr.270</bibl>
-                    <bibl xml:id="LIT.3" default="false" status="draft">Alföldy 1968, Nr.135</bibl>
+                    <bibl xml:id="LIT.3" default="false" status="draft">Alföldy 1968 (Rheinland III), 52 Nr.135</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">AE 1968, 356</bibl>
                 
             <bibl xml:id="5">Scheungraber 2020, 568 Nr.112</bibl>
@@ -294,7 +294,7 @@ By order (of the goddesses) Lucius Vennonius Saturninus and Aiva.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">VACÂLLNE˧S – Finke; Vacâll̂in̂êh(i)s – Alföldy; Vacallineh(i)s, ohne Ligaturen – AE, EDH, Scheungraber</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">VACÂLLNE˧S – Finke; Vacâll̂in̂êh(i)s – Alföldy; Vacalline&lt;h=I&gt;is – EDH; Vacallineh(i)s, ohne Ligaturen – AE, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – AE, EDH</tei:note>
@@ -315,7 +315,11 @@ Aiva: weiblicher Name; keltisch (Delamarre 2007, 16); anders: germanisches Cogno
                 <p part="N">v.1: „Vacallinechs“ pro „Vacallinechis“</p>
             </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Vacallinechae:</rs> Variante von  <rs type="divine">Vacallinehae:</rs> keltisch: ‚Unter den Bäumen bzw. dem Wald Verweilende [Muttergöttinen]‘ 
-(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243).   </p>
+(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)   </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>

@@ -152,12 +152,12 @@
                 <listPerson default="false">
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.freio">Freio</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.freio">Freio; Paluso</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.paluso">Paluso</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.paluso">Freio; Paluso</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -219,7 +219,9 @@
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">deae Nehalaenniae</ref> </item>
+                    </list>
+                </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -267,7 +269,7 @@
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>DEAE  <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>DEAE  <lb n="2"/>
 NEHALAEN  <lb n="3"/>
 NIAE FREIO  <lb n="4"/>
 PALVSONIS  <lb n="5"/>
@@ -278,6 +280,15 @@ DESVOVSLM</orig></ab></div>
                 <p part="N">Für die Göttin  <rs type="divine">Nehalaennia!</rs>  <lb/>
 Freio, der Sohn des Paluso, hat den Altar auf eigene Kosten aufgestellt und das Gelübde gerne und verdientermaßen erfüllt.  </p>
             </div>
+            <div type="apparatus" org="uniform" part="N" sample="complete">
+                <app loc="#MIN.2 #MAJ.2">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Nehalen – Scheungraber</tei:note>
+                </app>
+                <app loc="#MIN.4 #MAJ.4">
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true"> Palusonis (filius) – Ferlut </tei:note>
+                </app>
+            </div>
+
             <div type="translation" xml:lang="en" org="uniform" part="N" sample="complete">
                 <p part="N">To the goddess  <rs type="divine">Nehalaennia!</rs>  <lb/>
 Freio, the son of Paluso, set up the altar at his own expense and has fulfilled a vow willingly and deservedly.</p>
@@ -290,7 +301,11 @@ Paluso: germanisches oder keltisches Cognomen; der Name ist nur in dieser Inschr
 
 Kohlenkalk: Dieser Stein wurde an der Maas zwischen Namur und Huy gewonnen (Anderson/Groessens 1996). Die Gegend gehörte in römischer Zeit zur civitas Tungrorum. Die Altäre aus diesem Gestein weisen besondere Merkmale auf, die auf eine geschlossene Gruppe von Dedikanten schließen lassen könnten. All das legt möglicherweise eine Herkunft aus dieser civitas nahe (so Stuart/Bogaers 2001, 47f.).</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalaennia:</rs> Variante von  <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).   </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalaennia:</rs> Variante von  <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)   </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>

@@ -81,6 +81,7 @@
                                         <width unit="cm">43,0</width>
                                         <depth unit="cm">18,0</depth>
                                     </dimensions>
+                                    <note>Die angegebenen Maße sind die für das Objekt überlieferten.</note>
                                 </support>
                                 <condition>
                                     <ref type="context" target="context:fercan.condition-o.unklar" ana="https://gams.uni-graz.at/o:fercan.arch#C.130700">unklar</ref>
@@ -89,7 +90,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Der gesamte Altar mit Inschrift wurde von Espérandieu noch vollständig und nicht zerbrochen gesehen. Zum Zeitpunkt der Abbildung waren nur noch mehrere Fragmente vorhanden, die aber einen Großteil der Inschrift enthielten.<lb/>Die Inschrift füllte das Inschriftenfeld nicht zur Gänze aus (unten blieb ein Freiraum) die Buchstaben der ersten Zeilen waren deutlich größer als die der unteren.</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">mehrere Fragmente</tei:note>
+                                    <note type="condition" anchored="true">mehrere Fragmente</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -136,10 +137,10 @@ Aufgrund einer vorhandenen Photo-Dokumentation ist zumindest für eine Schmalsei
                                 <ref type="context" target="context:fercan.geog.modern.roedingen">Rödingen</ref>
                             </placeName>
                             <p part="N">in der Flur „in der Hölle“</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">50.955607 6.466480</geo>
-                            </tei:location>
-                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">gemeinsam gefunden mit CIL XIII 7885–7891 und CIL XIII 7893</tei:note>
+                            </location>
+                            <note anchored="true">gemeinsam gefunden mit CIL XIII 7885–7891 und CIL XIII 7893</note>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)</provenance>
                     </history>
@@ -217,7 +218,9 @@ Aufgrund einer vorhandenen Photo-Dokumentation ist zumindest für eine Schmalsei
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Matronis Vatvims</ref> </item>
+                    </list>
+                </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -243,11 +246,17 @@ Aufgrund einer vorhandenen Photo-Dokumentation ist zumindest für eine Schmalsei
                 
             <bibl xml:id="3">Scheungraber 2020, 586 Nr.10</bibl>
         
-            <bibl xml:id="4">Ferlut 2022, Nr.763</bibl>
+            <bibl xml:id="4">Lipps et al. 2021, 457-459 Kat.86</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.763</bibl>
         </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD077748</idno>
+                        <date>Version vom 12. August 2019</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-11100117</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -273,17 +282,13 @@ Titus Iulius Vitalis has fulfilled a vow willingly and deservedly. </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Die unterstrichenen Buchstaben sind von CIL und Espérandieu (und dort genannter Literatur) noch gelesen worden, heute aber verloren.</tei:note>
+                    <note anchored="true">Die unterstrichenen Buchstaben in Z.1-Z.5 sind heute verloren, sie werden nach CIL und Espérandieu wiedergegeben</note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Vatvinis (ou Vatvims) – Espérandieu</tei:note>
+                    <note anchored="true">Vatvinis (ou Vatvims) – Espérandieu</note>
                 </app>
-                <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Die unterstrichenen Buchstaben sind von CIL und Espérandieu (und dort genannter Literatur) noch gelesen worden, heute aber verloren.</tei:note>
-                </app>
-                <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Die unterstrichenen Buchstaben sind von CIL und Espérandieu (und dort genannter Literatur) noch gelesen worden, heute aber verloren.</tei:note>
-                </app>
+                
+                
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Titus Iulius Vitalis: tria nomina; nach Kakoschke sind die hier genannte Person und eine gleichnamige aus Fronhoven identisch. <lb/>
@@ -293,7 +298,11 @@ Vitalis: lateinisches Cognomen, äußerst gängig (Kakoschke 2008, CN 3375)</p>
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.2: „Vatvims” pro „Vatviis”</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Vatviae:</rs> keltisch: ‚Die [Muttergöttinnen] der Prophezeihungen’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 210f). </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Vatviae:</rs> keltisch: ‚Die [Muttergöttinnen] der Prophezeihungen’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 210f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.) </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
@@ -325,37 +334,44 @@ Vorkommen in theonymischen Formularen: </p>
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true">
+                <p>Lipps et al. 457: Depot im Keller der Musikschule (E 4, 12)<br/>
+                </p>
+            </note>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true">
+                <p>
+                    <span>Lipps et al. 2021, 457-459 Kat.86</span>
+                </p>
+            </note>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">
                 <p part="N">Für die Alte Version (25.04.23) siehe CF-GeI-284</p>
-            </tei:note>
+            </note>
         </back>
     </text>
 </TEI>

@@ -88,7 +88,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Der Inschriftentext ist mit einer größeren Lücke in der Mitte erhalten. Zu den verschiedenen Ergänzungsvorschlägen siehe den Apparatus criticus.</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">größere Fehlstelle/n</tei:note>
+                                    <note type="condition" anchored="true">größere Fehlstelle/n</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -114,15 +114,11 @@ An den Seiten, so Espérandieu (1922, 288f.) und Haug (1877, 28), befinden sich 
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.240100">
                                     <ref type="context" target="context:fercan.arch.goetterbild">Götterbild</ref>
                                 </term>
-                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220800">
-                                    <ref type="context" target="context:fercan.arch.kanneliert">kanneliert</ref>
-                                </term>
+                                
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220200">
                                     <ref type="context" target="context:fercan.arch.kapitell">Kapitell</ref>
                                 </term>
-                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220210">
-                                    <ref type="context" target="context:fercan.arch.korinthisches_kapitell">korinthisches Kapitell</ref>
-                                </term>
+                                
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251700">
                                     <ref type="context" target="context:fercan.arch.obstschale">Obstschale</ref>
                                 </term>
@@ -160,9 +156,9 @@ An den Seiten, so Espérandieu (1922, 288f.) und Haug (1877, 28), befinden sich 
                                 <ref type="context" target="context:fercan.geog.modern.roedingen">Rödingen</ref>
                             </placeName>
                             <p part="N">in der Flur „in der Hölle“</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">50.955607 6.466480</geo>
-                            </tei:location>
+                            </location>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">
                             <p part="N">non vidimus</p>
@@ -244,7 +240,7 @@ An den Seiten, so Espérandieu (1922, 288f.) und Haug (1877, 28), befinden sich 
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solverunt_libentes_merito">votum solverunt libentes merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">M[atro]nis G[---]abus</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -278,6 +274,10 @@ An den Seiten, so Espérandieu (1922, 288f.) und Haug (1877, 28), befinden sich 
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD075689</idno>
+                        <date>Version vom 07. September 2021</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-11100112</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -305,13 +305,13 @@ Marcus …lius Pri…us and Novellia Secunda have fulfilled a vow willingly and 
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">G[avad]iabus – Becker; G[avadi]abus – Haug, CIL, Espérandieu, Kakoschke, Scheungraber; fehlt wegen vergessenem Zeilentrenner in Z.1 – Ferlut</tei:note>
+                    <note anchored="true">G[avad]iabus – Becker; G[avadi]abus – Haug, CIL, Espérandieu, Kakoschke, Scheungraber; fehlt wegen vergessenem Zeilentrenner in Z.1 – Ferlut</note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">A[em]ilius – Becker; N[ovel]lius – Haug; I[---]lius – CIL; I[u]lius – Espérandieu; A[mabi]lius – Kakoschke; N[ovel]lius(?) – Scheungraber; wegen fehlendem Zeilentrenner in Z.1 ist dies Z.2 [Iu]lius – Ferlut</tei:note>
+                    <note anchored="true">A[em]ilius – Becker; N[ovel]lius – Haug; I[---]lius – CIL; I[u]lius – Espérandieu; A[mabi]lius – Kakoschke; A[---]lius – EDH; N[ovel]lius(?) – Scheungraber; wegen fehlendem Zeilentrenner in Z.1 ist dies Z.2 [Iu]lius – Ferlut</note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Pri[vat]us – Haugg, Scheungraber; Pri[mul]us – Espérandieu; auch Pri[mul]us möglich – Kakoschke; wegen fehlendem Zeilentrenner in Z.1 ist dies Z.3 Pri[m]us et – Ferlut</tei:note>
+                    <note anchored="true">Pri[vat]us – Haugg, Scheungraber; Pri[mul]us – Espérandieu; auch Pri[mul]us möglich – Kakoschke; wegen fehlendem Zeilentrenner in Z.1 ist dies Z.3 Pri[m]us et – Ferlut</note>
                 </app>
             
             <app loc="1">
@@ -327,7 +327,11 @@ Marcus …lius Pri…us and Novellia Secunda have fulfilled a vow willingly and 
 Novellia: weibliche Form von Novellius; italisches Gentilnomen oder einheimisches Pseudogentilnomen, abgeleitet vom lateinisches Cognomen Novellus (Kakoschke 2006, GN 867)
 Secunda: weibliche Form von Secundus; lateinisches Cognomen, überall äußerst gängig (Kakoschke 2008, CN 2757)</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">G…ae:</rs> vermutlich Rest von  <rs type="divine">Gavadiae</rs> oder der Variante  <rs type="divine">Gavasiae:</rs> keltisch: ‚[Muttergöttinnen] der Lügen- bzw. der Falschheit[saufdeckung]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 212f). </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">G…ae:</rs> vermutlich Rest von  <rs type="divine">Gavadiae</rs> oder der Variante  <rs type="divine">Gavasiae:</rs> keltisch: ‚[Muttergöttinnen] der Lügen- bzw. der Falschheit[saufdeckung]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 212f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.) </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
@@ -346,37 +350,37 @@ Vorkommen in theonymischen Formularen: </p>
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">
                 <p part="N">Für die Alte Version (25.04.23) siehe CF-GeI-266</p>
-            </tei:note>
+            </note>
         </back>
     </text>
 </TEI>

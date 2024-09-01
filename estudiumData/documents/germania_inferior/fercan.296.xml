@@ -90,7 +90,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Der Inschriftentext ist vollständig erhalten.</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">vollständig</tei:note>
+                                    <note type="condition" anchored="true">vollständig</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -131,9 +131,7 @@ Auf den Schmalseiten befinden sich einfache, jedoch schwer beschädigte Baumdars
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251910">
                                     <ref type="context" target="context:fercan.arch.halskette">Halskette</ref>
                                 </term>
-                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220800">
-                                    <ref type="context" target="context:fercan.arch.kanneliert">kanneliert</ref>
-                                </term>
+                                
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220200">
                                     <ref type="context" target="context:fercan.arch.kapitell">Kapitell</ref>
                                 </term>
@@ -177,9 +175,9 @@ Auf den Schmalseiten befinden sich einfache, jedoch schwer beschädigte Baumdars
                                 <ref type="context" target="context:fercan.geog.modern.koeln">Köln</ref>
                             </placeName>
                             <p part="N">Gereonshof 1</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">50.937769 6.958583</geo>
-                            </tei:location>
+                            </location>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">
                             <p part="N">non vidimus<lb>
@@ -261,7 +259,7 @@ Auf den Schmalseiten befinden sich einfache, jedoch schwer beschädigte Baumdars
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Matronis Mahlinehis</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -306,6 +304,10 @@ Auf den Schmalseiten befinden sich einfache, jedoch schwer beschädigte Baumdars
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD075388</idno>
+                        <date>Version vom 22. Februar 2021</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-01200059</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -314,7 +316,12 @@ Auf den Schmalseiten befinden sich einfache, jedoch schwer beschädigte Baumdars
                         <idno>www.trismegistos.org/text/415266</idno>
                         <date>zuletzt aufgerufen am 26. Juli 2021</date>
                     </bibl>
-                </listBibl>
+                
+            <bibl type="other">
+                <idno>https://cil.bbaw.de/ace/id/KO0021344</idno>
+                <date>zuletzt aufgerufen am 01. Juli 2024</date>
+            </bibl>
+        </listBibl>
             </div>
             <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>MATRONIS <lb n="2"/>
 MAHLINEHIS <lb n="3"/>
@@ -332,7 +339,7 @@ Tiberius Claudius Taticenus has fulfilled a vow willingly and deservedly.  </p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Tatigenus – Espérandieu</tei:note>
+                    <note anchored="true">Tatigenus – Espérandieu</note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
@@ -340,14 +347,23 @@ Tiberius Claudius Taticenus has fulfilled a vow willingly and deservedly.  </p>
 Claudius: italisches Gentilnomen der Kaiser Claudius und Nero, überall äußerst gängig (Kakoschke 2006, GN 327) <lb/>
 Taticenus: keltisches Cognomen (Kakoschke 2008, CN 3014) </p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Mahlinehae:</rs> keltisch mit lautlicher Germanisierung: ‚Liebe Fürstliche [Muttergöttinnen]’ oder ‚Zum Gott <rs type="divine">Magalos</rs> Gehörende und Liebe [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 190-192). </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Mahlinehae:</rs> keltisch mit lautlicher Germanisierung: ‚Liebe Fürstliche [Muttergöttinnen]’ oder ‚Zum Gott <rs type="divine">Magalos</rs> Gehörende und Liebe [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 190-192). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.) </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
                                                 <p part="N">
  <rs type="divine">Matronae Mahlinae</rs>: <lb/>
 - Germania Inferior: Das theonymische Formular ist 2x belegt: in der hier besprochenen Inschrift und in CF-GeI-297). <lb/>
-- außerhalb der Germania Inferior: - </p>
+- außerhalb der Germania Inferior: -</p>
+                                                <p>
+                                                    <rs type="divine">Mahlinehae</rs>:</p>
+                                                <p>- Germania Inferior: nur in CF-Gei-115 belegt. - außerhalb der Germania Inferior: -</p>
+                                                <p part="N"/>
+                                                <p part="N"> </p>
                                                 </div>
             <linkGrp type="alignment" domains="#majuscule #minuscule">
                 <link target="#MAJ.1 #MIN.1"/>
@@ -358,35 +374,35 @@ Vorkommen in theonymischen Formularen: </p>
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">
                 <p part="N">Alte Version (18.04.23):</p>
                 <p part="N"> Mahlinehae: Variante von  Mahalinae: keltisch (Delamarre 2007, 124); anders: germanischer Göttername (Neumann 1987, 109; vgl. Gutenbrunner 1936, 183) </p>
                                                 <p part="N">
@@ -402,7 +418,7 @@ Vorkommen in theonymischen Formularen: </p>
 - Germania Inferior: vermutlich 1x belegt (CF-GeI-115) 
 - außerhalb der Germania Inferior: - </p>
                 <p part="N"/>
-            </tei:note>
+            </note>
         </back>
     </text>
 </TEI>

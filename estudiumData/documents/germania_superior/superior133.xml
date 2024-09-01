@@ -40,9 +40,9 @@
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<settlement/>
-						<repository/>
-						<idno/>
+						<settlement>Stuttgart</settlement>
+						<repository>Landesmuseum Württemberg</repository>
+						<idno>RL 168</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>Weihinschrift</summary>
@@ -50,34 +50,34 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
-									<objectType>Weihestein</objectType> <dimensions>
+								<support> <p>                                                <p>Der Weihealtar ist mittig im ungerahmten Inschriftenfeld gebrochen und besteht dadurch aus zwei Teilen. Die Trennung des Inschriftenfeldes von Basis und Aufsatz erfolgt jeweils durch eine einfache Profilierung. Von der Bekrönung sind noch die Ausbuchtungen der Pulvini zu erkennen, ein großer Teil ab der Mitte bis zum rechten Rand und auch in den Anfang des Inschriftenfeldes reichend ist jedoch ausgebrochen. Der Stein ist auch sonst abgeschlagen und verwittert. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm">88,5</height>
 										<width unit="cm">48</width>
 										<depth unit="cm">25</depth>
 									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
 								<layout> <p>                                                <p>Die Inschrift füllt das Inschriftenfeld zur Gänze aus, ungefähr in der Mitte ist der Stein gebrochen. Die Buchstaben sind regelmäßig.</p>
                                                 <p>Von den beiden D in Z.1 sind nur mehr die unteren Reste erhalten. In Z.2 ist das V kleiner in das C eingeschrieben. Alle Buchstaben in Z.4 sind durch den Bruch beschädigt, aber noch lesbar.</p>
-                                                <p>Zu Ligaturen: s. Majuskelumschrift – Besondere Zeichen: Die Worttrenner sind in allen Zeilen korrekt gesetzt.</p></p> <note type="condition" anchored="true"/> </layout>
+                                                <p>Zu Ligaturen: s. Majuskelumschrift – Besondere Zeichen: Die Worttrenner sind in allen Zeilen korrekt gesetzt.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130400</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="5.3" atMost="5.3">5,3–5,3</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName/> <region>Civitas Aurelia G-?</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+						<provenance type="found" when="1930"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Bad Cannstatt</ref> </placeName> <p><p>Seelbergstraße 7 (Goessler 1931, 6)<br/></p></p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true">                                                <p><br/></p></note> </provenance>
+							</location> <note anchored="true">                                                <p>"beim Ausheben der Baugrube eines Neubaues der Mechan. Gurten- und Bandweberei Cannstatt (B. Gutmann &amp; Marx)" (Goessler 1931, 6)<br/></p></note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
 					</history>
 				</msDesc>
@@ -187,7 +187,7 @@
 			<textClass>
 				<keywords>
 					<list>
-						<item> <ref target="context:fercan.dedication." type="context">pro se et suis posuit; latus libens merito; in honorem domus divinae</ref> </item>
+						<item> <ref target="context:fercan.dedication." type="context">pro se et suis posuit; laetus libens merito; in honorem domus divinae</ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
@@ -252,7 +252,8 @@
 				<p><p>Zu Ehren des Kaiserhauses, für die Göttin <rs type="divine">Herecura</rs>!</p><p>Iulius Verus hat (dies) für sich und die Seinen aufgestellt, fröhlich, gerne und verdientermaßen.<br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p><p>In honor of the divine household, to the godess <rs type="divine">Herecura</rs>!</p><p>Iulius Verus has set (this) up for him and his family gladly, willingly and deservedly.<br/></p></p>
+				<p>                                                <p>In honor of the Divine Household, to the godess <rs type="divine">Herecura</rs>!</p>
+                                                <p>Iulius Verus has set (this) up for him and his family gladly, willingly and deservedly.<br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="4">
@@ -265,7 +266,7 @@
         </div>
 			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Iulius Verus: römisches Namensformular ohne Praenomen</p>
                                                 <p>Iulius: italisches Gentilnomen, kaiserliches Gentilnomen, überall äußerst gängig (Kakoschke 2021, GN 637)</p>
-                                                <p>Verus: lateinischer Name,überall äußerst gängig (Kakoschke 2021, CN 3312)</p></div>
+                                                <p>Verus: lateinischer Name, überall äußerst gängig (Kakoschke 2021, CN 3312)</p></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
 				<p> v.1: „Erecurae” pro „Herecurae”</p>
 			</div>
@@ -276,17 +277,20 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"/>
+			<note type="Objbeschr_note"><p>Goessler 1931, 8 Nr. 1: Inschriftplatte, oben und unten profiliert. ... 
+Oberer Abschluß: Schale mit Polstern zu beiden Seiten. Der Stein ist in 
+der Mitte gebrochen und in der oberen Hälfte etwa zu 1/3 rechts 
+zerstört.</p><p>Nesselhauf 1937, 81 Nr. 100: In zwei Teile gebrochen, oben rechts zerstört<br/></p></note>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"/>
+			<note type="Material_note"><p>grobkörniger Stubensandstein - Goessler 1931, 7<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"/>
+			<note type="InvNr_note">                                                    <p>vom Museum bestätigt<br/></p><p>Nesselhauf 1937, 81 Nr. 100: Altertumssammlung Stuttgart</p></note>
 			<note type="Fundstelle_note"/>
 			<note type="Fundumst_note"><p>Goessler 1931, 7<br/></p></note>
-			<note type="Fundjahr_note">                                                    <p><br/></p></note>
+			<note type="Fundjahr_note">                                                    <p>Mitte Oktober - Goesller 1931, 6<br/></p></note>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note"/>
+			<note type="FOmodern_note"><p>Goessler 1931, 6<br/></p></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
@@ -295,7 +299,8 @@
 			<note type="dtUEbers_note"/>
 			<note type="Editionen_note"/>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"><p>Karteikarte 2 N 100 Seite 8</p><p>Goessler 1931, 8: Höhe 110, Breite 53, Tiefe 24<br/></p></note>
+			<note type="Masse_note">                                                    <p>Karteikarte 2 N 100 Seite 8</p>
+                                                    <p>Goessler 1931, 8: Höhe 110, Breite 53, Tiefe 24; Inschriftplatte: 0,55m hoch, 0,40m breit, 0,20m dick<br/></p></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>

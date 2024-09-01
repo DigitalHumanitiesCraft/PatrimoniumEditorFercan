@@ -57,12 +57,12 @@
 										<width unit="cm">22</width>
 										<depth unit="cm">18</depth>
 									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Der Inschriftentext ist stark abgerieben und nurmehr schwer lesbar, insbesondere auch Z.2 mit dem möglicherweise keltischen Götternamen. Alle Ränder sind erhalten.</p>
+								<layout> <p>                                                <p>Der Inschriftentext ist stark abgerieben und nur mehr schwer lesbar, insbesondere auch Z.2 mit dem möglicherweise keltischen Götternamen. Alle Ränder sind erhalten.</p>
                                                 <p>Am Anfang von Z.4 das A, sowie am Ende von Z.1 das TI, von Z.2 das O, von Z.3 das R und von Z.4 das G, waren scheinbar nach der Auffindung noch sichtbar, zur Zeit der Aufnahme in das CIL waren diese Buchstaben aber schon nicht mehr erkennbar. Vom O am Ende von Z.5 ist nur mehr die linke Wölbung erhalten.<br/></p>
-                                                <p>Zu einer Ligatur: s. Majuskelumschrift.</p></p> <note type="condition" anchored="true"/> </layout>
+                                                <p>Zu einer Ligatur: s. Majuskelumschrift.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130500</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -70,7 +70,7 @@
 						</handDesc>
 						<decoDesc>
 							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+                      
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -226,7 +226,7 @@
         
             <bibl xml:id="5">Weber 1966, 70</bibl>
         
-            <bibl xml:id="6">Reuter 2009, 354, Nr.11</bibl>
+            <bibl xml:id="6">Reuter 2009, 354 Nr.11</bibl>
         
             <bibl xml:id="7">Scheungraber 2020, 421</bibl>
         
@@ -258,19 +258,21 @@
 <lb n="5"/>XXII ex voto 
 <lb n="7"/><supplied reason="lost" cert="low">posu</supplied>it</ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
-				<p><p>Für den Gott <rs type="divine">Mars Noadatus</rs>!</p><p>Flavius? Mucatralis Veteran der 22. Legion, hat (dies) aufgrund eines Gelübdes aufgestellt.</p></p>
+				<p>                                                <p>Für den Gott <rs type="divine">Mars Noadatus</rs>!</p>
+                                                <p>Flavius? Mucatralis Veteran der legio XXII, hat (dies) aufgrund eines Gelübdes aufgestellt.</p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p><p>To the god <rs type="divine">Mars Noadatus</rs>!</p><p>Flavius? Mucatralis, veteran of the 22nd legion, set (this) up according to a vow.<br/></p></p>
+				<p>                                                <p>To the god <rs type="divine">Mars Noadatus</rs>!</p>
+                                                <p>Flavius? Mucatralis, veteran of the legio XXII, set (this) up according to a vow.<br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="1">
-					<note anchored="true">die unterstrichenen Teile in Z.1-4 sind heute nicht mehr erhalten, sie werden nach Becker wiedergegeben; Marti mit RTI-Ligatur –  Brambach; Mar- – Reuter; Mar(ti) – EDH</note>
+					<note anchored="true">Die unterstrichenen Teile in Z.1–4 sind heute nicht mehr erhalten, sie werden nach Becker wiedergegeben; Marti mit RTI-Ligatur –  Brambach; Mar- – Reuter; Mar(ti) – EDH</note>
 				</app>
 			
             <app loc="2"><note anchored="true">NO A DATO – Becker, Brambach; ...dat – Behrens, Weber; noadat  (?) – Reuter; Nodadat[o] – EDH</note></app>
         
-            <app loc="3"><note anchored="true">vor M wird nur der obere Teil einer senkrechten Haste gesehen – CIL; L(ucius) – Becker, Behrens; Fl[avius?] – Weber; [.] Mucatr- – Reuter; [F]l(avius?) Mucatr – Scheungraber; [F?]l(avius?) Mucat[r] – EDH</note></app>
+            <app loc="3"><note anchored="true">Vor M wird nur der obere Teil einer senkrechten Haste gesehen – CIL; L(ucius) – Becker, Behrens; Fl[avius?] – Weber; [.] Mucatr- – Reuter; [F]l(avius?) Mucatr – Scheungraber; [F?]l(avius?) Mucat[r] – EDH</note></app>
         
             <app loc="4"><note anchored="true">[a]lis – EDH</note></app>
         
@@ -280,7 +282,7 @@
         </div>
 			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>.l... Mucatralis: römisches Namensformular ohne Praenomen?</p>
                                                 <p>Mucatralis: thrakischer Name, reichsweit belegt (Kakoschke 2021, CN 2109)</p>
-                                                <p>legio XXII: Die Legio XXII Primigenia erhielt nach dem Scheitern des Saturninus-Aufstands 89 n.Chr. gemeinsam mit anderen Legionen und Truppenkörpern den Ehrenbeinamen Pia Fidelis Domitiana; letzterer fiel nach der damnatio memoriae Domitians wieder weg. Die Legion wurde 97 n.Chr. von Xanten nach Mainz verlegt, wo sie die nächsten zwei Jahrhunderte verblieb. Zwischen 70/71 und 97 n.Chr. sowie 101/102 bis 106/107 n.Chr. wurden Teile der Truppe für Steinbrucharbeiten im Brohtal eingesetzt (Matijević 2010, 29, 227–233).
+                                                <p>legio XXII: Die legio XXII Primigenia erhielt nach dem Scheitern des Saturninus-Aufstandes 89 n.Chr. gemeinsam mit anderen Legionen und Truppenkörpern den Ehrenbeinamen Pia Fidelis Domitiana; letzterer fiel nach der damnatio memoriae Domitians wieder weg. Die Legion wurde 97 n.Chr. von Xanten nach Mainz verlegt, wo sie die nächsten zwei Jahrhunderte verblieb. Zwischen 70/71 und 97 n.Chr. sowie 101/102 bis 106/107 n.Chr. wurden Teile der Truppe für Steinbrucharbeiten im Brohtal eingesetzt (Matijević 2010, 29, 227–233).
 			</p></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
 				<p> </p>

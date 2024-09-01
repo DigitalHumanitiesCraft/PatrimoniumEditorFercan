@@ -50,7 +50,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
+								<support> <p><p>Der stelenartige Weihestein hat eine glatte Basis, die ohne Gliederung in das vertiefte Inschriftenfeld übergeht. Über diesem befindet sich eine Girlande, deren zwei Bögen sich in der Mitte in einer Art Masche treffen. Die Enden hängen hier gerade herunter. Links und rechts am Rand des Steines und jeweils am Beginn bzw. am Ende der Girlande befinden sich Voluten, die durch Rosetten dekoriert sind. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
 									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm">145</height>
 										<width unit="cm">47</width>
@@ -59,31 +59,35 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130700">unklar</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Die Buchstaben sind ungleichmäßig und in Z.5-9 wesentlich kleiner als in den vorhergehenden Zeilen. Z.10 ist mit einer Leerzeile abgetrennt und betont am größten gearbeitet.<br/></p>
-                                                <p>Besondere Zeichen: Z.3 Sonderzeichen für centurio. In Z.3, 5, 6, 7, 8 und 9 Querstrich über der Nummer der Legion. CIL (und diesem folgend Haug/Sixt) geben in Z.2 einen Punkt nach dem Q und in Z.4 und Z.6 jeweils eine Hedera vor dem et. Diese sind jedoch weder auf der existierenden Abbildung erkennbar, noch scheint zwischen den Buchstaben genug Raum für diese vorhanden zu sein, weswegen wir hier nicht folgen.</p><p>Besondere Zeichen: Sonderzeichen für Centurio in Z.3</p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Die Buchstaben sind ungleichmäßig und in Z.5–9 wesentlich kleiner als in den vorhergehenden Zeilen. Z.10 ist mit einer Leerzeile abgetrennt und betont am größten gearbeitet.<br/></p>
+                                                <p>Besondere Zeichen: Z.3 Sonderzeichen für centurio. In Z. 6, 7, 8 und 9 ist die Längshaste der G nicht gerade, sondern eingerollt, während sie in den Z.3 und 5 gerade ist. CIL (und diesem folgend Haug/Sixt) geben in Z.2 einen Punkt nach dem Q und in Z.4 und Z.6 jeweils eine Hedera vor dem et. Diese sind jedoch weder auf der existierenden Abbildung erkennbar, noch scheint zwischen den Buchstaben genug Raum für diese vorhanden zu sein, weswegen wir hier nicht folgen.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130700</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="3.5" atMost="10.0">3,5–10,0</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">Rosette</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253700">Girlande</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150500">Rahmen</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="089" notAfter="096" instant="false"><date>89–96</date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1825"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Röthenberg</ref> </placeName> <p>                                                <p>"dem sgenannten Schänzle [...]. Aus diesem Thale [Hinzigthal] führt nämlich von Schiltach her ein stetig, der Brandsteig genannt, nach Rötenberg herauf. Er endigt bei einer Ziegelhütte, eine Viertelstunde von dem badischen Zollhaus. Hundert Schritte nun von der Ziegelhütte, in gerader Richtung gegen Rötenberg befindet sich auf dem höchsten Punkte ein Platz von einigen Morgen, welcher das Schänzle heißt. Zehn bis zwölf Schritte davon ..." (Köstlin 1825, 74)<br/></p>
-                                                <p>"der bei der römischen Station Schänzle beim Hof Brandsteig am Aufstieg der römischen Steige zur Hochebene zwischen Hinzig und Neckar gefunden wurde" (Hertlein 1927, 525)</p>
-                                                <p>"vermutlich aufgestellt im Hofe von Gebäude 1" (Filtzinger; Planck; Cämmerer 1976<sup style="font-size: 10.5px;">2</sup>, 245)</p></p> <location>
+						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="0089" notAfter="0096" instant="false"><date>89–96</date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1825"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Aichhalden</ref> </placeName> <p>                                                <p>Ortsteil Rötenberg; "dem sogenannten Schänzle [...]. Aus diesem Thale [Hinzigthal] führt nämlich von Schiltach her ein Steig, der Brandsteig genannt, nach Rötenberg herauf. Er endigt bei einer Ziegelhütte, eine Viertelstunde von dem badischen Zollhaus. Hundert Schritte nun von der Ziegelhütte, in gerader Richtung gegen Rötenberg befindet sich auf dem höchsten Punkte ein Platz von einigen Morgen, welcher das Schänzle heißt. Zehn bis zwölf Schritte davon ..." (Köstlin 1825, 74);<br/></p>
+                                                <p>"der bei der römischen Station Schänzle beim Hof Brandsteig am Aufstieg der römischen Steige zur Hochebene zwischen Hinzig und Neckar gefunden wurde" (Hertlein 1927, 525) "vermutlich aufgestellt im Hofe von Gebäude 1" (Filtzinger/ Planck/ Cämmerer 1976<sup style="font-size: 10.5px;">2</sup>, 245)</p></p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true"><p>"grub ein Rötenberger Bürger, der neben dem Schänzle ein Haus baute, nach Steinen, gerieth auf allerlei Schutt, Ziegelstücke, Mauerwerk u. endlich auf den Altar." (Köstlin 1825, 74);</p><p>"Die Entdeckung des Steines geschah im Sommer 1825 im Würtembergischen 
+							</location> <note anchored="true">                                                <p>"grub ein Rötenberger Bürger, der neben dem Schänzle ein Haus baute, nach Steinen, gerieth auf allerlei Schutt, Ziegelstücke, Mauerwerk u. endlich auf den Altar" (Köstlin 1825, 74);</p>
+                                                <p>"Die Entdeckung des Steines geschah im Sommer 1825 im Würtembergischen 
 Schwarzwalde, an der Grenze Würtembergs und Badens, eine halbe Stunde 
 westlich von dem Dorfe Röthenberg, Oberamts Oberndorf, durch einen 
 Röthenberger Bauer, welcher zu einem Hause, das er baute, Steine aus dem
  Felde ausgraben ließ. Der Stein ist nunmehr als Eckstein des Hauses 
-benutzt." (Seebode 1826, 154); </p><p>"Ein 1825 von einem Bauern gefundener Inschriftenstein konnte endlich von Pfarrer Rüdiger sichergestellt werden und 1834 für das Lapidarium Stuttgart erworben werden. [...] Der Inschriftenstein ist leider einem Bombenangriff 1944 zum Opfer gefallen." (Filtzinger; Planck; Cämmerer 1976<sup>2</sup>, 245)</p></note> </provenance>
+benutzt" (Seebode 1826, 154); </p>
+                                                <p>"Ein 1825 von einem Bauern gefundener Inschriftenstein konnte endlich von Pfarrer Rüdiger sichergestellt werden und 1834 für das Lapidarium Stuttgart erworben werden. [...] Der Inschriftenstein ist leider einem Bombenangriff 1944 zum Opfer gefallen" (Filtzinger/ Planck/ Cämmerer 1976<sup>2</sup>, 245).</p></note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung gründet auf: CIL</p></provenance>
 					</history>
 				</msDesc>
@@ -100,7 +104,7 @@ benutzt." (Seebode 1826, 154); </p><p>"Ein 1825 von einem Bauern gefundener Insc
 					<!-- Sonstige theonymische Formulare -->
 					<person>
 						<persName subtype="celtic_normalized_other" type="divine">
-							<ref target="context:fercan.dcn.other" type="context">Abnobae</ref>
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
 						</persName>
 					</person>
 					<!-- theonymisches formular -->
@@ -193,11 +197,11 @@ benutzt." (Seebode 1826, 154); </p><p>"Ein 1825 von einem Bauern gefundener Insc
 				<keywords>
 					<list>
 						<item> <ref target="context:fercan.dedication." type="context">votum solvit laetus libens merito</ref> </item>
-						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.character." type="context">Sonderzeichen für centurio</ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
 						<!-- Belegform gesamt  -->
-						<item> <ref target="context:fercan.divinepart." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.divinepart." type="context">Abnobae</ref> </item>
 					</list>
 				</keywords>
 			</textClass>
@@ -236,24 +240,26 @@ benutzt." (Seebode 1826, 154); </p><p>"Ein 1825 von einem Bauern gefundener Insc
         
             <bibl xml:id="8">Filtzinger 1971, 179</bibl>
         
-            <bibl xml:id="9">Bender 1975, 69</bibl>
+            <bibl xml:id="9">Fitz 1983, 29 Nr.4</bibl>
         
-            <bibl xml:id="10">LeBohec 1989, 158</bibl>
+            <bibl xml:id="10">Bender 1975, 69 Abb.19b</bibl>
         
-            <bibl xml:id="11">Wulfmeier 2001, 180</bibl>
+            <bibl xml:id="11">LeBohec 1989, 158</bibl>
         
-            <bibl xml:id="12">Scheungraber 2020, 64 Nr.7</bibl>
+            <bibl xml:id="12">Wulfmeier 2001, 180</bibl>
         
-            <bibl xml:id="13">Ferlut 2022, Nr.3</bibl>
+            <bibl xml:id="13">Scheungraber 2020, 64 Nr.7</bibl>
+        
+            <bibl xml:id="14">Ferlut 2022, Nr.3</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
 				<listBibl>
-					<bibl type="EDCS"><idno>EDCS-11000369</idno><date>2024-02-12</date></bibl>
-					<bibl type="EDH"><idno>HD036911</idno><date>2020-03-06</date></bibl>
-					<bibl type="trismegistos"><idno>www.trismegistos.org/text/211127</idno><date>2024-02-12</date></bibl>
-					<bibl type="lupa"><idno>http://lupa.at/7688</idno><date>2022-12-20</date></bibl>
-					<bibl type="other"><idno>https://cil.bbaw.de/ace/id/43005</idno><date>2024-02-12</date></bibl>
+					<bibl type="EDCS"><idno>EDCS-11000369</idno><date>zuletzt abgerufen 2024-02-12</date></bibl>
+					<bibl type="EDH"><idno>HD036911</idno><date>Version von 2020-03-06</date></bibl>
+					<bibl type="trismegistos"><idno>www.trismegistos.org/text/211127</idno><date>zuletzt abgerufen 2024-02-12</date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/7688</idno><date>Version von 2022-12-20</date></bibl>
+					<bibl type="other"><idno>https://cil.bbaw.de/ace/id/43005</idno><date>zuletzt abgerufen 2024-02-12</date></bibl>
 				</listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
@@ -278,10 +284,12 @@ benutzt." (Seebode 1826, 154); </p><p>"Ein 1825 von einem Bauern gefundener Insc
 <lb n="9"/>et <expan><abbr>leg</abbr><ex>ionis</ex></expan> XXII <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <expan><abbr>D</abbr><ex>omitianae</ex></expan>
 <lb n="10"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
-				<p><p>Für <rs type="divine">Abnoba</rs>!</p><p>Quintus Antonius Silo, centuiro der Legio I Adiutrix und der Legio II Adiutrix und der Legio III Augustae und der Legio IV Flavia Felix und der Legio XI Claudia Pia Fidelis und der XXII Pia Fidelis Domitiana, hat das Gelübdefreudig, gerne und verdientermaßen erfüllt.</p></p>
+				<p>                                                <p>Für <rs type="divine">Abnoba</rs>!</p>
+                                                <p>Quintus Antonius Silo, centurio der legio I Adiutrix und der legio II Adiutrix und der legio III Augustae und der legio IV Flavia Felix und der legio XI Claudia Pia Fidelis und der legio XXII Pia Fidelis Domitiana, hat das Gelübde freudig, gerne und verdientermaßen erfüllt.</p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p><p>To <rs type="divine">Abnoba</rs>!<br/></p><p>Quintus Antoniusof Silo, centuion of the legio I adiutrix and of the legio II adiutrix, and of the legio III Agustae and of the legio IV Flavia Felix, and of the legio XI Claudia Pia Fidelis and the legio XXII Pia Fidelis Domitiana, has fulfilled the vowgladly, willingly and deservedly.</p></p>
+				<p>                                                <p>To <rs type="divine">Abnoba</rs>!<br/></p>
+                                                <p>Quintus Antonius Silo, centurion of the legio I adiutrix and of the legio II adiutrix, and of the legio III Augustae and of the legio IV Flavia Felix, and of the legio XI Claudia Pia Fidelis and the legio XXII Pia Fidelis Domitiana, has fulfilled the vow gladly, willingly and deservedly.</p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="2">
@@ -304,7 +312,17 @@ benutzt." (Seebode 1826, 154); </p><p>"Ein 1825 von einem Bauern gefundener Insc
                 <note anchored="true">libens lubens (oder laetus) – Singer; l(ibens) l(aetus) – EDH, Scheungraber, Ferlut</note>
             </app>
         </div>
-			<div type="commentary" subtype="general" org="uniform" sample="complete"><p>Quintus Antonius Silo: tria nomina</p><p>Antonius: äußerst gängiges italisches Gentilnomen (Kakoschke 2021, GN 96)</p><p>Silo: lateinischer oder hispanischer Name, vor allem in Hispanien verbreitet (Kakoschke 2021, CN 2874)</p><p>legio I Adiutrix: Die Legio I Adiutrix war nach dem Ende des Bataveraufstandes in Mainz stationiert, 86 n.Chr. wurde sie für Domitians Dakerkriege (85-89) nach Pannonien verlegt und ist seit 97 n.Chr. dauerhaft im Legionslager bei Komárom-Szőny belegt (Campbell 1999, Sp. 9f; Lörincz 2000, 151-154).</p><p>legio II Adiutrix: Die Legio II Adiutrix war nach der Niederschlagung des Bataveraufstandes zwischen 71-86 n.Chr. in Britannien stationiert. Um 87 n.Chr. an die Donau verlegt, erscheint sie zwischen 101 und 106 n.Chr. in Belgrad und danach in Budapest. (Campbell 1999, Sp. 10) Eine andere Rekonstruktion schlägt eine Stationierung bereits zwischen 89 und 105 n.Chr. in Budapest vor, dann bis 113 n.Chr. in Sarmizegetusa, kurzer Aufenthalt im Osten bevor schließlich 118 n.Chr. erneut nach Budapest verlegt (Lörincz 2000, 160-164).</p><p>legio III Augusta: Die Legio III Augusta war seit 30 v.Chr. in der Provinz Africa stationiert. durch Gordian III. 238 n.Chr. wegen ihrer Rolle bei der Niederschlagung des Aufstandes von Gordian I. und II. gegen Maximinus Thrax aufgelöst, wurde sie 253 n.Chr. von Valerian neu aufgestellt (Campbell 1999, Sp.11; LeBohec 2000, 373-377).</p><p>legio IIII Flavia Felix: Die Legio IV Macedonica wurde 70 n.Chr. von Vespasian als Flavia Felix neu aufgestellt und löste die Legio XI Claudia Pia Fidelis in Ivoševci bei Kistanje ab. Um 85 n.Chr. wurde sie nach Belgrad verlegt wo sie auch, mit Ausnahme ihrer Zeit in Ulpia Traiana Sarmizegetusa zwischen 101/102 n.Chr. und der Herrschaftszeit Hadrians, verblieb (Campbell 1999, Sp.16).</p><p>legio XI Claudia Pia Fidelis: Die Legio XI erhielt während der Revolte des Scribonianus 42 den Beinamen Claudia Pia Fidelis. Bis 70 war sie in Ivoševci bei Kistanje, danach bis 101 n.Chr. in Windisch im Aargau stationiert. Von dort wurde sie um 101 n.Chr. nach Komárom-Szőny verlegt, bevor sie schließlich in Silistra stationiert wurde (Campbell 1999, Sp.19; Fellmann 2000, 129f).</p><p>legio XXII Primigenia Pia Fidelis Domitiana: Die Legio XXII Primigenia erhielt nach dem Scheitern des Saturninus-Aufstanden 89 gemeinsam mit anderen Legionen und Truppenkörpern den Ehrenbeinamen Pia Fidelis Domitiana; letzterer fiel nach der damnatio memoriae Domitians wieder weg. Die Legion wurde 97 von Xanten nach Mainz verlegt, wo sie die nächsten zwei Jahrhunderte verblieb. Zwischen 70/71 und 97 n.Chr. sowie 101/102 bis 106/107 n.Chr. wurden Teile der Truppe für Steinbrucharbeiten im Brohtal eingesetzt (Matijević 2010, 29, 227–233).</p><p>Diese Inschrift ist ein Beispiel für die hohe Mobilität der Centurionen die oft zwischen den verschiedenen Legionen ausgewechselt wurden. Es ist anzunehmen, dass Silo die Angabe der Legionen in denen er diente in chronologischer Reihe aufzählt, jedoch ist es unklar, ob die Aufzählung mit seiner ersten oder der aktuellen Dienstlegion beginnt.</p><p>Da die Legio XXII Primigenia den Ehrennamen Domitiana nur während der Regierungszeit des Domitian (81–96) trug, kann mit dieser Angabe die Inschrift relativ genau datiert werden.</p></div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Quintus Antonius Silo: tria nomina</p>
+                                                <p>Antonius: äußerst gängiges italisches Gentilnomen (Kakoschke 2021, GN 96)</p>
+                                                <p>Silo: lateinischer oder hispanischer Name, vor allem in Hispanien verbreitet (Kakoschke 2021, CN 2874)</p>
+                                                <p>legio I Adiutrix: Die Legio I Adiutrix war nach dem Ende des Bataveraufstandes in Mainz stationiert, 86 n.Chr. wurde sie für Domitians Dakerkriege (85–89) nach Pannonien verlegt und ist seit 97 n.Chr. dauerhaft im Legionslager bei Komárom-Szőny belegt (Campbell 1999, Sp.9f; Lörincz 2000, 151–154).</p>
+                                                <p>legio II Adiutrix: Die legio II Adiutrix war nach der Niederschlagung des Bataveraufstandes zwischen 71–86 n.Chr. in Britannien stationiert. Um 87 n.Chr. an die Donau verlegt, erscheint sie zwischen 101 und 106 n.Chr. in Belgrad und danach in Budapest (Campbell 1999, Sp.10). Eine andere Rekonstruktion schlägt eine Stationierung bereits zwischen 89 und 105 n.Chr. in Budapest vor, dann bis 113 n.Chr. in Sarmizegetusa, kurzer Aufenthalt im Osten bevor schließlich 118 n.Chr. erneut nach Budapest verlegt (Lörincz 2000, 160–164).</p>
+                                                <p>legio III Augusta: Die legio III Augusta war seit 30 v.Chr. in der Provinz Africa stationiert. Von Gordian III. wurde die Legion 238 n.Chr. wegen ihrer Rolle bei der Niederschlagung des Aufstandes der beiden Gordiane gegen Maximinus Thrax aufgelöst, jedoch 253 n.Chr. von Valerian neu aufgestellt (Campbell 1999, Sp.11; LeBohec 2000, 373–377).</p>
+                                                <p>legio IIII Flavia Felix: Die legio IV Macedonica wurde 70 n.Chr. von Vespasian als Flavia Felix neu aufgestellt und löste die legio XI Claudia Pia Fidelis in Dalmatien ab. Um 85 n.Chr. wurde sie nach Belgrad verlegt wo sie auch, mit Ausnahme ihrer Stationierungszeit in Ulpia Traiana Sarmizegetusa zwischen 101/102 n.Chr. und der Herrschaftszeit Hadrians, verblieb (Campbell 1999, Sp.16).</p>
+                                                <p>legio XI Claudia Pia Fidelis: Die legio XI erhielt während der Revolte des Scribonianus 42 n.Chr. den Beinamen Claudia Pia Fidelis. Bis 70 war sie in Dalmatien, danach bis 101 n.Chr. in Windisch im Aargau stationiert. Von dort wurde sie um 101 n.Chr. nach Pannonien verlegt, bevor sie schließlich in der Moesia Inferior stationiert wurde (Campbell 1999, Sp.19; Fellmann 2000, 129f.).</p>
+                                                <p>legio XXII Primigenia Pia Fidelis Domitiana: Die legio XXII Primigenia erhielt nach dem Scheitern des Saturninus-Aufstandes 89 n.Chr. gemeinsam mit anderen Legionen und Truppenkörpern den Ehrenbeinamen Pia Fidelis Domitiana; letzterer fiel nach der damnatio memoriae Domitians wieder weg. Die Legion wurde 97 n.Chr. von Xanten nach Mainz verlegt, wo sie die nächsten zwei Jahrhunderte verblieb. Zwischen 70/71 und 97 n.Chr. sowie 101/102 bis 106/107 n.Chr. wurden Teile der Truppe für Steinbrucharbeiten im Brohtal eingesetzt (Matijević 2010, 29, 227–233).</p>
+                                                <p>Diese Inschrift ist ein Beispiel für die hohe Mobilität der Centurionen, die oft zwischen den verschiedenen Legionen ausgewechselt wurden. Es ist anzunehmen, dass Silo die Angabe der Legionen in denen er diente in chronologischer Reihe aufzählt, jedoch ist es unklar, ob die Aufzählung mit seiner ersten oder der aktuellen Dienstlegion beginnt.</p>
+                                                <p>Da die legio XXII Primigenia den Ehrennamen Domitiana nur während der Regierungszeit des Domitian (81–96) trug, kann mit dieser Angabe die Inschrift relativ genau datiert werden.</p></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
 				<p> </p>
 			</div>

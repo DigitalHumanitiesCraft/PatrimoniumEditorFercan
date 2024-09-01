@@ -90,7 +90,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Der Text ist bis auf einige kleinere Fehlstellen vollständig erhalten. Er füllt das ganze Inschriftenfeld aus. Die Buchstaben der vorvorletzten und vorletzten Zeile (mit dem Namen des Dedikanten) sind deutlich größer ausgeführt.</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">weitgehend vollständig</tei:note>
+                                    <note type="condition" anchored="true">weitgehend vollständig</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -148,10 +148,10 @@ Auf der rechten Schmalseite ist das Motiv wohl ähnlich aufgebaut, doch ist hier
                                 <ref type="context" target="context:fercan.geog.modern.bonn">Bonn</ref>
                             </placeName>
                             <p part="N">in einem Hintergebäude des ehemaligen Gasthauses ‚zum alten Keller‘ am Rheinthore, ungefähr 50 Schritte vom Rheinufer entfernt (CIL)</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">50.732598 7.108382</geo>
-                            </tei:location>
-                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">beim Tieferlegen eines Fundaments in einem Nebengebäude; mit dem Stein kamen auch Scherben und Knochen zutage (Zangemeister 1864, 49 f.).</tei:note>
+                            </location>
+                            <note anchored="true">beim Tieferlegen eines Fundaments in einem Nebengebäude; mit dem Stein kamen auch Scherben und Knochen zutage (Zangemeister 1864, 49 f.).</note>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">
                             <p part="N">non vidimus<lb>
@@ -164,12 +164,12 @@ Auf der rechten Schmalseite ist das Motiv wohl ähnlich aufgebaut, doch ist hier
                     <place instant="false"/>
                     <place type="antique_term" instant="false">
                         <placeName instant="false" full="yes">
-                            <ref type="context" target="context:fercan.geog.term.germaniae">Germaniae</ref>
+                            <ref type="context" target="context:fercan.geog.term.germaniae">Germaniae; Liburna regna</ref>
                         </placeName>
                     </place>
                     <place type="antique_term" instant="false">
                         <placeName instant="false" full="yes">
-                            <ref type="context" target="context:fercan.geog.term.liburna_regna">Liburna regna</ref>
+                            <ref type="context" target="context:fercan.geog.term.liburna_regna">Germaniae; Liburna regna</ref>
                         </placeName>
                     </place>
                     <place type="sacral_building" instant="false">
@@ -205,53 +205,54 @@ Auf der rechten Schmalseite ist das Motiv wohl ähnlich aufgebaut, doch ist hier
                         </persName>
                     </person>
                     <person instant="false">
-                        <persName type="divine" instant="false" full="yes">
+                        <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.divine-o.caesar">Caesar</ref>
                         </persName>
                     </person>
                     <person instant="false">
-                        <persName type="divine" instant="false" full="yes">
+                        <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.divine-o.camenae">Camenae</ref>
                         </persName>
                     </person>
                     <person instant="false">
-                        <persName type="divine" instant="false" full="yes">
+                        <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.divine-o.concordia">Concordia</ref>
                         </persName>
                     </person>
                     <person instant="false">
-                        <persName type="divine" instant="false" full="yes">
+                        <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.divine-o.lar_der_pax">Lar der Pax</ref>
                         </persName>
                     </person>
                     <person instant="false">
-                        <persName type="divine" instant="false" full="yes">
+                        <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.divine-o.lar_des_mars">Lar des Mars</ref>
                         </persName>
                     </person>
+                    
                     <person instant="false">
-                        <persName type="divine" instant="false" full="yes">
+                        <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.divine-o.sopses">Sopses</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName instant="false" full="yes">
                             <roleName type="office" full="yes">
-                                <ref type="context" target="context:fercan.person.office.consul">consul</ref>
+                                <ref type="context" target="context:fercan.person.office.consul">consul; consularis; legatus Augusti pro praetore</ref>
                             </roleName>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName instant="false" full="yes">
                             <roleName type="office" full="yes">
-                                <ref type="context" target="context:fercan.person.office.consularis">consularis</ref>
+                                <ref type="context" target="context:fercan.person.office.consularis">consul; consularis; legatus Augusti pro praetore</ref>
                             </roleName>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName instant="false" full="yes">
                             <roleName type="office" full="yes">
-                                <ref type="context" target="context:fercan.person.office.legatus_augusti_pro_praetore">legatus Augusti pro praetore</ref>
+                                <ref type="context" target="context:fercan.person.office.legatus_augusti_pro_praetore">consul; consularis; legatus Augusti pro praetore</ref>
                             </roleName>
                         </persName>
                     </person>
@@ -267,42 +268,42 @@ Auf der rechten Schmalseite ist das Motiv wohl ähnlich aufgebaut, doch ist hier
                     <org instant="false"/>
                     <org type="admin_unit" instant="false">
                         <orgName instant="false" full="yes">
-                            <ref type="context" target="context:fercan.org.admin.germaniae">Germaniae</ref>
+                            <ref type="context" target="context:fercan.org.admin.germaniae">Germaniae; Liburna regna</ref>
                         </orgName>
                     </org>
                     <org type="admin_unit" instant="false">
                         <orgName instant="false" full="yes">
-                            <ref type="context" target="context:fercan.org.admin.liburna_regna">Liburna regna</ref>
+                            <ref type="context" target="context:fercan.org.admin.liburna_regna">Germaniae; Liburna regna</ref>
                         </orgName>
                     </org>
                     <org type="population_group" instant="false">
                         <orgName instant="false" full="yes">
-                            <ref type="context" target="context:fercan.org.population.dalmatae">Dalmatae</ref>
+                            <ref type="context" target="context:fercan.org.population.dalmatae">Dalmatae; Hiberi Celtae; Iapudae; Picentes; Sicani; Veneti</ref>
                         </orgName>
                     </org>
                     <org type="population_group" instant="false">
                         <orgName instant="false" full="yes">
-                            <ref type="context" target="context:fercan.org.population.hiberi_celtae">Hiberi Celtae</ref>
+                            <ref type="context" target="context:fercan.org.population.hiberi_celtae">Dalmatae; Hiberi Celtae; Iapudae; Picentes; Sicani; Veneti</ref>
                         </orgName>
                     </org>
                     <org type="population_group" instant="false">
                         <orgName instant="false" full="yes">
-                            <ref type="context" target="context:fercan.org.population.iapudae">Iapudae</ref>
+                            <ref type="context" target="context:fercan.org.population.iapudae">Dalmatae; Hiberi Celtae; Iapudae; Picentes; Sicani; Veneti</ref>
                         </orgName>
                     </org>
                     <org type="population_group" instant="false">
                         <orgName instant="false" full="yes">
-                            <ref type="context" target="context:fercan.org.population.picentes">Picentes</ref>
+                            <ref type="context" target="context:fercan.org.population.picentes">Dalmatae; Hiberi Celtae; Iapudae; Picentes; Sicani; Veneti</ref>
                         </orgName>
                     </org>
                     <org type="population_group" instant="false">
                         <orgName instant="false" full="yes">
-                            <ref type="context" target="context:fercan.org.population.sicani">Sicani</ref>
+                            <ref type="context" target="context:fercan.org.population.sicani">Dalmatae; Hiberi Celtae; Iapudae; Picentes; Sicani; Veneti</ref>
                         </orgName>
                     </org>
                     <org type="population_group" instant="false">
                         <orgName instant="false" full="yes">
-                            <ref type="context" target="context:fercan.org.population.veneti">Veneti</ref>
+                            <ref type="context" target="context:fercan.org.population.veneti">Dalmatae; Hiberi Celtae; Iapudae; Picentes; Sicani; Veneti</ref>
                         </orgName>
                     </org>
                 </listOrg>
@@ -346,7 +347,9 @@ Auf der rechten Schmalseite ist das Motiv wohl ähnlich aufgebaut, doch ist hier
                         <item>
                             <ref type="context" target="context:fercan.dedication.aram_dicavit">aram dicavit</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">[G]ranno</ref> </item>
+                    </list>
+                </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -388,6 +391,10 @@ Auf der rechten Schmalseite ist das Motiv wohl ähnlich aufgebaut, doch ist hier
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD079858</idno>
+                        <date>Version vom 23. November 2020</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-11100232</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -396,7 +403,12 @@ Auf der rechten Schmalseite ist das Motiv wohl ähnlich aufgebaut, doch ist hier
                         <idno>www.trismegistos.org/text/415066</idno>
                         <date>zuletzt aufgerufen am 26. Juli 2021</date>
                     </bibl>
-                </listBibl>
+                
+            <bibl type="other">
+                <idno>https://www.mqdq.it/textsce/CE|ce|0020</idno>
+                <date>Version vom 09. Mai 2024</date>
+            </bibl>
+        </listBibl>
             </div>
             <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>DIVVM · SODALIS · CONSVL · <gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="2"/> 
 VERNO · DIE · ET · POST · SICANO<gap reason="lost" quantity="1" unit="character" instant="false"/> <lb n="3"/> 
@@ -429,46 +441,46 @@ Gaius Fulvius, the son of Gaius, Maximus, legatus Augusti pro praetore.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">consu[l ex] – CLE, Scheungraber; e[t] – ILS; für eine Ergänzung von [ex] am Ende der Zeile kein Platz; auch nicht am Anfang von v.2. – Eck</tei:note>
+                    <note anchored="true">consu[l ex] – CLE, Scheungraber; e[t] – ILS; für eine Ergänzung von [ex] am Ende der Zeile kein Platz; auch nicht am Anfang von v.2. – Eck</note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Sicano[s] – ILS, CLE</tei:note>
+                    <note anchored="true">Sicano[s] – ILS, CLE</note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">vi[r]os – Eck</tei:note>
+                    <note anchored="true">vi[r]os – Eck</note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Ce[lt]as – ILS</tei:note>
+                    <note anchored="true">Ce[lt]as – ILS</note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Delmatas [---] – ILS; De[l]matas – CLE; L in DELM incerta; fin. LIBVR fuisse potest – CIL; Delmata[s] Lib[u]r- – Eck; L[i]b[u]r – Hainzmann; D&lt;a=E&gt;lmata[s] L[i]b[u]r – Scheungraber</tei:note>
+                    <note anchored="true">Delmatas [---] – ILS; De[l]matas – CLE; L in DELM incerta; fin. LIBVR fuisse potest – CIL; Delmata[s] Lib[u]r- – Eck; L[i]b[u]r – Hainzmann; D&lt;a=E&gt;lmata[s] L[i]b[u]r – Scheungraber</note>
                 </app>
                 <app loc="#MIN.6 #MAJ.6">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">I[ap]u- – ILS</tei:note>
+                    <note anchored="true">I[ap]u- – ILS</note>
                 </app>
                 <app loc="#MIN.8 #MAJ.8">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[.]ularis – CIL; [s]ularis – Eck, Hainzmann, Scheungraber</tei:note>
+                    <note anchored="true">[.]ularis – CIL; [s]ularis – Eck, Hainzmann, Scheungraber</note>
                 </app>
                 <app loc="#MIN.10 #MAJ.10">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[l]iberum – ILS</tei:note>
+                    <note anchored="true">[l]iberum – ILS</note>
                 </app>
                 <app loc="#MIN.11 #MAJ.11">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Concordiae – ILS, Eck, Hainzmann, Scheungraber</tei:note>
+                    <note anchored="true">Concordiae – ILS, Eck, Hainzmann, Scheungraber; Concordi{i}ae – EDH</note>
                 </app>
                 <app loc="#MIN.12 #MAJ.12">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Granno – CLE</tei:note>
+                    <note anchored="true">Granno – CLE</note>
                 </app>
                 <app loc="#MIN.13 #MAJ.13">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">quin – Eck, Hainzmann, Scheungraber</tei:note>
+                    <note anchored="true">quin – Eck, Hainzmann, Scheungraber</note>
                 </app>
                 <app loc="#MIN.14 #MAJ.14">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">et – ILS</tei:note>
+                    <note anchored="true">et – ILS</note>
                 </app>
                 <app loc="#MIN.16 #MAJ.16">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">G(aius) – Eck; G(ai!) – Scheungraber</tei:note>
+                    <note anchored="true">G(aius) – Eck; G(ai!) – Scheungraber</note>
                 </app>
                 <app loc="#MIN.18 #MAJ.18">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Aug. – ILS</tei:note>
+                    <note anchored="true">Aug. – ILS</note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
@@ -500,25 +512,55 @@ Maximus: lateinisches Cognomen, überall äußerst gängiger Name (Kakoschke 200
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.5: „Delmatas” pro „Dalmatas”<lb/>v.11: „Concordiiae” pro „Concordiae” v.16: „G(ai!) f(ilius)” pro „C(ai) f(ilius)”</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Grannus:</rs> keltisch: ,Heißer Gott‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 84f). </p>
-                                                <p part="N">
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p class="MsoNormal">
+                                                    <rs type="divine">Grannus</rs> (incl. ev. Varianten):</p>
 
-Vorkommen in theonymischen Formularen: </p>
-                                                <p part="N">
-                                                    <rs type="divine">Grannus</rs>:  
-- Germania Inferior: nur 1x belegt (CF-GeI-120)  
-- außerhalb der Germania Inferior: ist einer der wenigen keltischen 
-Götternamen, die auch literarisch (Cass.Dio 77,15,5-7) bezeugt sind. Er 
-ist im Imperium Romanum aber auch epigraphisch weit verbreitet und 
-findet sich in den Provinzen Aquitania, Belgica, Britannia, Dacia, 
-Germania Inferior, Germania Superior, Hispania Citerior, Lugudunensis, 
-Noricum, Pannonia inferior, Raetia, Asia und in Rom.</p>
-                                                <p part="N">
- <rs type="divine">Apollo Grannus</rs>: 
-- Germania Inferior: 2x belegt (CF-GeI-27 und CF-GeI-28)  
-- außerhalb der Germania Inferior: in verschiedenen Provinzen mehrfach 
-bezeugt, darunter 2x (CF-GeS-1004, CF-GeS-1008) in der Germania 
-Superior. </p>
+<p class="MsoNormal">Sprachlich: keltisch: ‚Heißer [Gott]’ (de Bernardo Stempel
+Corpus F.E.R.C.A.N. II/1 84f). (Hier wird kein sprachwissenschaftlicher
+Beitrag geleistet. Die Literaturangaben dienen lediglich dazu, einen Einstieg
+in die sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet wurden.)</p>
+
+<p class="MsoNormal">Vorkommen: <rs type="divine">Grannus</rs> ist einer der wenigen keltischen
+Götternamen, die auch literarisch (Cass.Dio 77,15,5–7) bezeugt sind. Er ist im
+Imperium Romanum epigraphisch weit verbreitet und findet sich in den Provinzen
+Aquitania, Belgica, Britannia, Dacia, Germania Inferior, Germania Superior,
+Hispania Citerior, Lugudunensis, Noricum, Pannonia Inferior, Raetia, Asia und
+in Rom.</p>
+
+<p class="MsoNormal">Im Untersuchungsgebiet kommt der Göttername in folgenden
+theonymischen Formularen vor:</p>
+
+<p class="MsoNormal">
+                    <span style="mso-ansi-language:IT" lang="IT">
+                        <i>Apollo Grannus</i>
+(incl. ev. Varianten):</span>
+                </p>
+
+<p class="MsoNormal">
+                    <span style="mso-ansi-language:IT" lang="IT">- Germania
+Inferior: CF-GeI-27, CF-GeI-28 - Germania
+Superior: CF-GeS-1004, CF-GeS-1008, CF-GeS-1118</span>
+                </p>
+
+<p class="MsoNormal">
+                    <span style="mso-ansi-language:IT" lang="IT">
+                        <i>Apollo Grannus
+Mogounus</i>
+                    </span>
+                </p>
+
+<p class="MsoNormal">
+                    <span style="mso-ansi-language:IT" lang="IT">- Germania
+Inferior: - - Germania
+Superior: CF-GeS-1009</span>
+                </p>
+
+<p class="MsoNormal">
+                    <i>Grannus</i> (incl. ev. Varianten):</p>
+
+<p class="MsoNormal">- Germania Inferior:<span style="mso-spacerun:yes">
+</span>CF-GeI-120 - Germania Superior: CF-GeS-1077(?)</p>
                                                 <p part="N">
 
 *** </p>
@@ -560,38 +602,38 @@ Die spezielle Auswahl der Götter wurde mit der möglichen Bezugnahme auf die Ki
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">
                 <p part="N">Für Alte Version (14.04.23) siehe CF-GeI-27<br/>
                 </p>
-            </tei:note>
+            </note>
         </back>
     </text>
 </TEI>

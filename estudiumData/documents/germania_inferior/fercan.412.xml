@@ -200,7 +200,7 @@
             <textClass default="false">
                 <keywords>
                     <list>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">deae [N]ehaleni(ae)</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -245,7 +245,7 @@
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>DEAE  <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>DEAE  <lb n="2"/>
 <gap reason="lost" quantity="1" unit="character" instant="false"/>EHALENI  <lb n="3"/>
 VINDONI</orig></ab></div>
             <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Deae<lb n="2"/><supplied reason="lost" instant="false">N</supplied><expan instant="false"><abbr>ehaleni</abbr><ex instant="false">ae</ex></expan><lb n="3"/>Vindoni</ab></div>
@@ -259,7 +259,7 @@ Vindoni…</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">vermutet wird ein sich auf die nächste Zeile erstreckender Name Vindonius – Stuart/Bogaers, AE, Raepsaet-Charlier 2003, 298, EDH, Scheungraber, Ferlut; dem Namen folgt weiterer Text in der folgenden Zeile – Scheungraber, Ferlut</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">vermutet wird ein sich auf die nächste Zeile erstreckender Name Vindonius – Stuart/Bogaers, AE, EDH, Scheungraber, Ferlut; dem Namen folgt weiterer Text in der folgenden Zeile – Scheungraber, Ferlut</tei:note>
                 </app>
             
             <app loc="2">
@@ -269,7 +269,11 @@ Vindoni…</p>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Vindoni…: vermutlich zu ergänzen auf Vindonius: einheimisches Pseudogentilnomen, abgeleitet vom keltischen Cognomen Vindo; der Name tritt nur im keltischen Bereich auf (Kakoschke 2006, GN 1443).</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalenia:</rs> Variante von  <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).   </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalenia:</rs> Variante von  <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)   </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>

@@ -90,7 +90,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Der Text füllt das Inschriftenfeld nicht zur Gänze aus (unter dem Text bleibt ein Freiraum). Er ist wohl weitestgehend erhalten. Oben ist der Stein zwar abgebrochen, doch kann aus inhaltlichen Gründen angenommen werden, dass Z.1 auch ursprünglich die erste Zeile war. Die rechte obere Ecke fehlt. Die Zeilen sind z.T. schlecht zentriert.<lb/>Ligaturen: s. Majuskeltext. Besondere Zeichen: Z.1: Ligatur von T und R mit erhöhtem T; Z.2: Ligatur von D und I mit erhöhter senkrechter Haste, kleines o eingefügt, erhöhtes T und Ligatur von E und erhöhtem T; Z.3: Ligatur von R und I mit erhöhter senkrechter Haste; Z.4: Ligatur von T und R mit erhöhtem T. – Querstrich über der Nummer der Legion. – Trennzeichen mit drei geschwungenen Kreuzarmen in Z.3 und 5.<lb/>Die Inschrift ist heute mit Farbe hervorgehoben.</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">weitgehend vollständig</tei:note>
+                                    <note type="condition" anchored="true">weitgehend vollständig</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -129,7 +129,7 @@ Auf der rechten Schmalseite fehlt die Baumkrone komplett. Der Baumstamm ist auch
                                 <region>CCAA</region>
                             </origPlace>
                             <origDate notBefore="0101" notAfter="0300" instant="false">
-                                <date>101-300</date>
+                                <date>2./3. Jh.</date>
                             </origDate>
                         </origin>
                         <provenance type="found" when="1859">
@@ -137,10 +137,10 @@ Auf der rechten Schmalseite fehlt die Baumkrone komplett. Der Baumstamm ist auch
                                 <ref type="context" target="context:fercan.geog.modern.koeln">Köln</ref>
                             </placeName>
                             <p part="N">Trankgasse 13</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">50.937769 6.958583</geo>
-                            </tei:location>
-                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">beim Neubau des Hauses </tei:note>
+                            </location>
+                            <note anchored="true">beim Neubau des Hauses </note>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">
                             <p part="N">non vidimus</p>
@@ -234,7 +234,7 @@ Auf der rechten Schmalseite fehlt die Baumkrone komplett. Der Baumstamm ist auch
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Matrib[us] Mediotauteh[is]</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -273,6 +273,10 @@ Auf der rechten Schmalseite fehlt die Baumkrone komplett. Der Baumstamm ist auch
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD075390</idno>
+                        <date>Version vom 1. Februar 2019</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-01200060</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -302,16 +306,16 @@ Pia Fidelis, has fulfilled a vow willingly and deservedly.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Mat̂ribu – CIL; Matribus – Espérandieu; Mat̂ribu[s] – Galsterer/Galsterer (1975); Matribu[s] – Galsterer/Galsterer (2010), KIK2012</tei:note>
+                    <note anchored="true">Mat̂ribu – CIL; Matribus – Espérandieu, EDH; Mat̂ribu[s] – Galsterer/Galsterer (1975); Matribu[s] – Galsterer/Galsterer (2010), KIK2012</note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Med̂iotaut̂ehi[s] – CIL, Galsterer/Galsterer (1975); Mediotautehi[s] – Espérandieu, Galsterer/Galsterer (2010), KIK2012</tei:note>
+                    <note anchored="true">Med̂iotaut̂ehi[s] – CIL, Galsterer/Galsterer (1975); Mediotautehi[s] – Espérandieu, Galsterer/Galsterer (2010), KIK2012</note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Espérandieu, Galsterer/Galsterer (2010), KIK2012</tei:note>
+                    <note anchored="true">ohne Ligatur – Espérandieu, Galsterer/Galsterer (2010), KIK2012</note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">veteranus – Espérandieu; vet(e)ranus – Galsterer/Galsterer (2010), KIK2012</tei:note>
+                    <note anchored="true">veteranus – Espérandieu; vet(e)ranus – Galsterer/Galsterer (2010), KIK2012</note>
                 </app>
             
             <app loc="5">
@@ -329,7 +333,11 @@ legio I Minervia Pia Fidelis: Die Legion war ab 83 n.Chr. in Bonn stationiert. N
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.4: „vetranus” pro „veteranus”</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Mediotautehae:</rs> keltisch mit partieller lautlicher Germanisierung: ‚In der Mitte des Volkes Wohnende [Muttergöttinnen]’ bzw. ‚Zum Stamm der Mitte Gehörende [Muttergöttinen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 268f). </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Mediotautehae:</rs> keltisch mit partieller lautlicher Germanisierung: ‚In der Mitte des Volkes Wohnende [Muttergöttinnen]’ bzw. ‚Zum Stamm der Mitte Gehörende [Muttergöttinen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 268f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.) </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
@@ -340,7 +348,7 @@ Vorkommen in theonymischen Formularen: </p>
                                                 <p part="N">
  <rs type="divine">Mediotautehae</rs>: <lb/>
 - Germania Inferior: - <lb/>
-- außerhalb der Germania Inferior: In der Germania Superior fand sich in Bad Wimpfen ein Altar für die  <rs type="divine">Leudinae et Mediotoutehae</rs> (CF-GeS-1097; eine Ligatur von D und I, scheint nach Photo zweifelsfrei; von bisherigen Editionen nicht gesehen, vgl. EDH HD036595, letzte Änderung: 17. März 2005).</p>
+- außerhalb der Germania Inferior: In der Germania Superior fand sich in Bad Wimpfen ein Altar für die  <rs type="divine">Leudinae et Mediotoutehae</rs> (CF-GeS-1097; eine Ligatur von D und I, scheint nach Photo zweifelsfrei; von bisherigen Editionen nicht gesehen, vgl. EDH HD036595, letzte Änderung: 08. September 2020).</p>
             </div>
             <linkGrp type="alignment" domains="#majuscule #minuscule">
                 <link target="#MAJ.1 #MIN.1"/>
@@ -352,42 +360,42 @@ Vorkommen in theonymischen Formularen: </p>
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">
                 <p part="N">Alte Version (17.04.23):</p>
                 <p part="N">Mediotautehae: keltischer Zugehörigkeitsbeiname 
 mit Germanisierung des zweiten Bestandteils (*teuta ‚Stamm‘ und 
 Adjektivsuffix -ehae), ‚die zum mittleren Stamm bzw. Stammesgebiet 
 Gehörigen‘ (de Bernardo Stempel in Spickermann 2005, 143; anders Schmidt
  1987, 144) </p>
-            </tei:note>
+            </note>
         </back>
     </text>
 </TEI>

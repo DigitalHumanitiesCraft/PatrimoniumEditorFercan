@@ -193,7 +193,7 @@ Die rechte Schmalseite zeigt ebenfalls ein Füllhorn in Relief, in der Machart g
                         </persName>
                     </person>
                     <person instant="false">
-                        <persName type="divine" instant="false" full="yes">
+                        <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.divine-o.genius_loci">Genius loci</ref>
                         </persName>
                     </person>
@@ -246,7 +246,9 @@ Die rechte Schmalseite zeigt ebenfalls ein Füllhorn in Relief, in der Machart g
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solverunt_libentes_merito">votum solverunt libentes merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">[Amb]iamaroi[s]</ref> </item>
+                    </list>
+                </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -277,25 +279,27 @@ Die rechte Schmalseite zeigt ebenfalls ein Füllhorn in Relief, in der Machart g
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1968, 403</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Deman 1975, G25c</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">Schillinger-Häfele 1977, Nr.213</bibl>
-                    <bibl xml:id="LIT.5" default="false" status="draft">Reuter 2012, Nr.56</bibl>
+                    <bibl xml:id="LIT.5" default="false" status="draft">Fitz 1983, 46 Nr.97</bibl>
                 
-            <bibl xml:id="6">Scheungraber 2020, 97 Nr.2</bibl>
+            <bibl xml:id="6">Reuter 2012, Nr.56</bibl>
         
-            <bibl xml:id="7">Ferlut 2022, Nr.692</bibl>
+            <bibl xml:id="7">Scheungraber 2020, 97 Nr.2</bibl>
+        
+            <bibl xml:id="8">Ferlut 2022, Nr.692</bibl>
         </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
                     <bibl type="EDCS">
-                        <idno/>
+                        <idno>EDCS-09701664</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
                     </bibl>
                     <bibl type="EDH">
-                        <idno/>
+                        <idno>HD014570</idno>
                         <date>Version vom 18. Juni 2009</date>
                     </bibl>
                     <bibl type="trismegistos">
-                        <idno/>
+                        <idno>www.trismegistos.org/text/209032</idno>
                         <date>zuletzt aufgerufen am 29. Juni 2021</date>
                     </bibl>
                 </listBibl>
@@ -320,30 +324,30 @@ V S L M <lb n="9"/>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Genio[q(ue)] / loc[i] mit falschem Zeilenwechsel – Alföldy, AE 1968, Deman, EDH, Scheungraber; [G]enio[q(ue)] / [l]oc[i] mit falschem Zeilenwechsel – Schillinger-Häfele; Genio[q(ue)] – Reuterr; Genio[q(ue)] / l(oc[i)] – Ferlut (wahrscheinlich mit irriger Klammersetzung)</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Genio[q(ue)] / loc[i] mit falschem Zeilenwechsel – Alföldy, AE 1968, Deman, Fitz, EDH, Scheungraber; [G]enio[q(ue)] / [l]oc[i] mit falschem Zeilenwechsel – Schillinger-Häfele; Genio[q(ue)] – Reuterr; Genio[q(ue)] / l(oc[i)] – Ferlut (wahrscheinlich mit irriger Klammersetzung)</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[S]ecundinus – Alföldy, AE 1968, Deman, EDH, Reuter, Scheungraber, Ferlut </tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">s[ig]nif(er) et – Alföldy, AE 1968, Deman, EDH, Reuter, Scheungraber, Ferlut; [sig]nif(er) et – Schillinger-Häfele</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">s[ig]nif(er) et – Alföldy, AE 1968, Deman, Fitz, EDH, Reuter, Scheungraber, Ferlut; [sig]nif(er) et – Schillinger-Häfele</tei:note>
                 </app>
                 <app loc="#MIN.6 #MAJ.6">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Iuli[us] (?) Firmînus – Alföldy; Iuli[us] (?) Firminus – AE 1968, Deman, EDH, Scheungraber; Iuli[us] Firminus – Reuter, Ferlut; … Firm(i)nus – Schillinger-Häfele</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Iuli[us] (?) Firmînus – Alföldy; Iuli[us] (?) Firminus – AE 1968, Deman, Fitz, EDH, Scheungraber; Iuli[us] Firminus – Reuter, Ferlut; … Firm(i)nus – Schillinger-Häfele</tei:note>
                 </app>
                 <app loc="#MIN.7 #MAJ.7">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[ve]t(eranus) (?) leg(ionis) – Alföldy, AE 1968, Deman, EDH, Reuter, Scheungraber; …t leg(ionis) – Schillinger-Häfele; [ve]t(eranus) leg(ionis) XXX U(lpiae) V(ictricis) v(otum) s(olverunt) l(ibentes) m(erito) – Ferlut (Z.8 fehlt dort)</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[ve]t(eranus) (?) leg(ionis) – Alföldy, AE 1968, Deman, Fitz, EDH, Reuter, Scheungraber; …t leg(ionis) – Schillinger-Häfele; [ve]t(eranus) leg(ionis) XXX U(lpiae) V(ictricis) v(otum) s(olverunt) l(ibentes) m(erito) mit falschem Zeilenwechsel – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.9 #MAJ.9">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – AE 1968, Deman, Schillinger-Häfele, EDH; Co(n)s(ule) – Reuter</tei:note>
                 </app>
             
             <app loc="1">
-                <note anchored="true">Ambiamarci[s] – Scheungraber, Ferlut</note>
+                <note anchored="true">Ambiamarci[s] – Fitz, Scheungraber, Ferlut</note>
             </app>
         
             <app loc="3">
-                <note anchored="true">[3] Lucanius – Scheungraber; [.] Lucanius – Ferlut</note>
+                <note anchored="true">[3] Lucanius – Scheungraber; [.] Lucanius – Fitz, Ferlut</note>
             </app>
         </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
@@ -356,7 +360,11 @@ legio XXX Ulpia Victrix: Die Legion folgte ab 121/122 n.Chr. in Xanten auf die l
 
 Imperatore Antonino: Elagabal, nach dem Sturz des Macrinus am 8. Juni 218; auch andere Inschriften nennen ihn in der zweiten Hälfte dieses Jahres ohne Amtskollegen (Alföldy 1968, 28). </p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Ambiamarcae:</rs> Variante von  <rs type="divine">Ambiomarcae:</rs> erster Namensteil keltisch, zweiter germanisch: ‚Beidseitig der Mark Wohnende [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 266f). </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Ambiamarcae:</rs> Variante von  <rs type="divine">Ambiomarcae:</rs> erster Namensteil keltisch, zweiter germanisch: ‚Beidseitig der Mark Wohnende [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 266f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.) </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>

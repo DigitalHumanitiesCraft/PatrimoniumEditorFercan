@@ -94,7 +94,7 @@
                                                 <br/>
                                             </lb>Ligaturen: s. Majuskeltext. Besondere Zeichen: in Z.2 am Ende ein kleines I über dem zweiten L; in Z.3 eine Ligatur von E und mit erhöhter senkrechter Haste und eine Ligatur von T und mit erhöhter senkrechter Haste; in Z.5 über dem Zahlzeichen ein Querstrich; am Ende der Zeile ist nur mehr eine senkrechte Haste sichtbar, eine Ergänzung auf P ist aus inhaltlichen Gründen naheliegend; in Z.6 eine Ligatur von P und I mit erhöhter senkrechter Haste.</p>
                                     </p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">vollständig</tei:note>
+                                    <note type="condition" anchored="true">vollständig</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -131,16 +131,16 @@ Weiteres Dekor am Aufsatz kann erahnt werden, doch ist die Steinoberfläche zu s
                                 <region>CCAA</region>
                             </origPlace>
                             <origDate notBefore="0101" notAfter="0300" instant="false">
-                                <date>239</date>
+                                <date>2./3. Jh.</date>
                             </origDate>
                         </origin>
                         <provenance type="found">
                             <placeName instant="false" full="yes">
                                 <ref type="context" target="context:fercan.geog.modern.endenich">Endenich</ref>
                             </placeName>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">50.727668 7.071496</geo>
-                            </tei:location>
+                            </location>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)</provenance>
                     </history>
@@ -233,7 +233,7 @@ Weiteres Dekor am Aufsatz kann erahnt werden, doch ist die Steinoberfläche zu s
                         <item>
                             <ref type="context" target="context:fercan.dedication.libens_merito">libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Matribu[s] [V]acallineis</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -271,6 +271,10 @@ Weiteres Dekor am Aufsatz kann erahnt werden, doch ist die Steinoberfläche zu s
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD079877</idno>
+                        <date>Version vom 11. Juni 2021</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-11100228</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -305,19 +309,19 @@ Attici(us) Maternus soldier of the legio I Minervia Pia Fidelis (set this up) by
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligaturen – Burns; Matribus – Ferlut</tei:note>
+                    <note anchored="true">ohne Ligaturen – Burns; Matribus – Ferlut</note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[V]acall[i] – Lehner</tei:note>
+                    <note anchored="true">[V]acall[i] – Lehner</note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">nehis Attici[us] – Burns; ne(h)is – Scheungraber; Atticius – Ferlut</tei:note>
+                    <note anchored="true">nehis Attici[us] – Burns; ne(h)is – Scheungraber; Atticius – Ferlut</note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Maternus – Burns, Scheungraber; M(a)ternus – Ferlut</tei:note>
+                    <note anchored="true">Maternus – Burns, Scheungraber; M(a)ternus – Ferlut</note>
                 </app>
                 <app loc="#MIN.6 #MAJ.6">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">fin. ÂR fuisse potest – CIL; fehlt – Ferlut</tei:note>
+                    <note anchored="true">fin. ÂR fuisse potest – CIL; fehlt – Ferlut</note>
                 </app>
             
             <app loc="5">
@@ -337,7 +341,11 @@ Maternus: lateinisches Cognomen, überall gängiger Name (Kakoschke 2008, CN 196
 legio I Minervia Pia Fidelis: die Legion war ab 83 n.Chr. in Bonn stationiert. Nach 89 n.Chr. erhielt sie (wie auch die anderen 3 niedergermanischen Legionen) den Titel Pia Fidelis Domitiana; Domitiana wurde 96 n.Chr. wieder gestrichen (Stein 1932, 100–106).</p>
             </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Vacallineae:</rs> Variante von  <rs type="divine"> Vacallinehae:</rs> keltisch: ‚Unter den Bäumen bzw. dem Wald Verweilende [Muttergöttinen]‘ 
-(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243). </p>
+(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.) </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
@@ -365,37 +373,37 @@ Vorkommen in theonymischen Formularen: </p>
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">
                 <p part="N">Für die Alte Version (25.04.23) siehe CF-GeI-140</p>
-            </tei:note>
+            </note>
         </back>
     </text>
 </TEI>

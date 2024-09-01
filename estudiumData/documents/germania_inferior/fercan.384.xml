@@ -214,7 +214,7 @@ Auf den Seiten sind Baumdarstellungen erkennbar.</p>
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">d[e]ae [Ne]halen[.]</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -238,9 +238,11 @@ Auf den Seiten sind Baumdarstellungen erkennbar.</p>
                     <bibl xml:id="LIT.1" default="false" status="draft">Stuart/Bogaers 2001, B26</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 2001, 1484</bibl>
                 
-            <bibl xml:id="3">Scheungraber 2020, 406 Nr.102</bibl>
+            <bibl xml:id="3">Raepsaet-Charlier 2003, 297</bibl>
         
-            <bibl xml:id="4">Ferlut 2022, Nr.1023</bibl>
+            <bibl xml:id="4">Scheungraber 2020, 406 Nr.102</bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.1023</bibl>
         </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
@@ -259,7 +261,7 @@ Auf den Seiten sind Baumdarstellungen erkennbar.</p>
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>D<gap reason="lost" quantity="1" unit="character" instant="false"/><unclear instant="false">A</unclear>E  <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>D<gap reason="lost" quantity="1" unit="character" instant="false"/><unclear instant="false">A</unclear>E  <lb n="2"/>
 <gap reason="lost" extent="unknown" unit="character" instant="false"/>H<unclear instant="false">A</unclear>L<unclear instant="false">E</unclear>N<gap reason="lost" quantity="1" unit="character" instant="false"/>  <lb n="3"/>
 <gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">R</unclear>I<gap reason="lost" quantity="1" unit="character" instant="false"/>N<gap reason="lost" quantity="1" unit="character" instant="false"/>O  <lb n="4"/>
 <gap reason="lost" extent="unknown" unit="character" instant="false"/>IN  <lb n="5"/>
@@ -279,13 +281,17 @@ Auf den Seiten sind Baumdarstellungen erkennbar.</p>
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Ne]halen[n(iae)] – AE, EDH; [Ne]halen[niae] – Scheungraber; [Ne]halen[iae] – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">möglw. Brinno (vgl. Tac.Hist.4,15) – AE, Raepsaet-Charlier 2003, 297; [3]ri[3]n[3]o – Scheungraber, Ferlut</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">möglw. Brinno (vgl. Tac.Hist.4,15) – AE, Raepsaet-Charlier; [3]ri[3]n[3]o – Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]ini (filius) – Raepsaet-Charlier 2003, 297</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]ini (filius) – Raepsaet-Charlier</tei:note>
                 </app>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalen...:</rs> Rest von  <rs type="divine">Nehalennia</rs> oder einer Variante: keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).</p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalen...:</rs> Rest von  <rs type="divine">Nehalennia</rs> oder einer Variante: keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)</p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>

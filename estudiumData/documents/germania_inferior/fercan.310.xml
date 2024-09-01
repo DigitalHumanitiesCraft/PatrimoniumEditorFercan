@@ -75,7 +75,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Der fragmenthaft überlieferte Text entzieht sich einer Entschlüsselung. Lediglich die Ergänzung auf „Vatvim[s]“ scheint sehr naheliegend.</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">größeres Fragment</tei:note>
+                                    <note type="condition" anchored="true">größeres Fragment</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -106,9 +106,9 @@
                             <placeName instant="false" full="yes">
                                 <ref type="context" target="context:fercan.geog.modern.hasselsweiler">Hasselsweiler</ref>
                             </placeName>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">50.989615 6.393337</geo>
-                            </tei:location>
+                            </location>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">
                             <p part="N">non vidimus</p>
@@ -177,7 +177,7 @@
             <textClass default="false">
                 <keywords>
                     <list>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Vatvim[s]</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -200,6 +200,10 @@
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD082484</idno>
+                        <date>Version vom 08. Januar 2021</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-11100086</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -213,7 +217,8 @@
             <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>VATVIM<gap reason="lost" extent="unknown" unit="character" instant="false"/> ELE <lb n="2"/> 
 REEI<gap reason="lost" extent="unknown" unit="character" instant="false"/>ATVCVM <lb n="3"/> 
 M<gap reason="lost" extent="unknown" unit="character" instant="false"/></orig></ab></div>
-            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Vatvim<supplied reason="lost" instant="false">s </supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>ele<lb n="2"/>Reei<gap reason="lost" extent="unknown" unit="character" instant="false"/> atucum M<gap reason="lost" extent="unknown" unit="character" instant="false"/></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><lb n="1"/>Vatvim<supplied reason="lost" instant="false">s </supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>ele<lb n="2"/>Reei<gap reason="lost" extent="unknown" unit="character" instant="false"/> atucum 
+<lb n="3"/>M<gap reason="lost" extent="unknown" unit="character" instant="false"/></ab></div>
             <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
                 <p part="N">Für die  <rs type="divine">Vatviae!</rs> …</p>
             </div>
@@ -223,13 +228,25 @@ M<gap reason="lost" extent="unknown" unit="character" instant="false"/></orig></
             <div type="apparatus" org="uniform" part="N" sample="complete">
             
             <app loc="1">
-                <note anchored="true">]VATVIM[3] ELE – Scheungraber </note>
+                <note anchored="true">mögliche zusätzliche Zeile über dieser – EDH; [---? V]atvims – EDH (Z.2 wegen möglicher zusätzlicher Zeile über dieser); ]VATVIM[3] ELE – Scheungraber </note>
+            </app>
+        
+            <app loc="2">
+                <note anchored="true">[---?]REEI[---]ATVCVM – EDH (Z.3 wegen möglicher zusätzlicher Zeile vor Z.1)</note>
+            </app>
+        
+            <app loc="3">
+                <note anchored="true">[---?]M[------ – EDH (Z.4 wegen möglicher zusätzlicher Zeile vor Z.1)</note>
             </app>
         </div>
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.1: „Vatvims” pro „Vatviis”</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Vatviae:</rs> keltisch: ‚Die [Muttergöttinnen] der Prophezeihungen’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 210f). </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Vatviae:</rs> keltisch: ‚Die [Muttergöttinnen] der Prophezeihungen’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 210f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.) </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
@@ -260,38 +277,38 @@ Vorkommen in theonymischen Formularen: </p>
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">
                 <p part="N">Für die Alte Version (25.04.23) siehe CF-GeI-284<br/>
                 </p>
-            </tei:note>
+            </note>
         </back>
     </text>
 </TEI>

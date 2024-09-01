@@ -40,8 +40,8 @@
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<settlement/>
-						<repository>Württembergisches Landesmuseum</repository>
+						<settlement>Aalen</settlement>
+						<repository>Limesmuseum</repository>
 						<idno>RL 219</idno>
 					</msIdentifier>
 					<msContents>
@@ -50,8 +50,8 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
-									<objectType>Weihestein</objectType> <dimensions>
+								<support> <p><p>Der Weihealtar hat eine schlichte Basis, die durch zwei Stufen vom ungerahmten Inschriftenfeld getrennt ist. Dieses wiederum ist durch ein Gesims und zwei Stufen vom Aufsatz separiert. Die Bekrönung ist gestaltet durch zwei Pulvini, die beinahe vollplastisch herausgearbeitet sind, an der Vorderseite statt einer Rosette ein Kreis bzw. eine Kugel. Zwischen diesen Voluten befindet sich ein Giebel, der ebenfalls durch diese Kreisform geschmückt ist. Dahinter eine sechskantige Opferschale. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm">56</height>
 										<width unit="cm">34</width>
 										<depth unit="cm">27</depth>
@@ -59,23 +59,29 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Die Inschrift füllt das Inschriftenfeld komplet aus. Die Buchstabengröße nimmt nach unten hin zu.</p><p>In Z.3 ist das C kleiner zwischen E und V eingeschrieben.</p><p>Besondere Zeichen: In Z.4 ist zwischen die beiden L ein Wortrenner gesetzt.<br/></p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Die Inschrift füllt das Inschriftenfeld komplett aus. Die Buchstabengröße nimmt nach unten hin zu.</p>
+                                                <p>In Z.3 ist das C kleiner zwischen E und V eingeschrieben. </p><p>Besondere Zeichen: In Z.4 ist zwischen die beiden L ein Wortrenner gesetzt.<br/></p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130400</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="4.0" atMost="5.5">4.0–5,5</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale (Gestaltungsmerkmal)</term>
+                      
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName/> <region>Civitas Sumelocennensis</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+						<origin> <origPlace> <placeName>Sumelocenna</placeName> <region>Civitas Sumelocennensis</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1852"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Rottenburg</ref> </placeName> <p>                                                <p>"hinter dem ehemaligen Baumgarten bei Rottenburg in Würtemberg rechts von der Strasse nach Würmlingen" (Becker 1867, 112); "im Lindele" (Heiligmann 1993<sup>2</sup>, 95); "zwischen den Strassen nach Wurmlingen und nach Sülchen" (Haug/Sixt 1914, 235 Nr.124); "auf dem Acker Flst. Nr. 4752, der heute den Grundstücken Jahnstraße 22-40 entspricht, geborgen" (Gaubatz-Sattler 1999, 376 Nr.32)</p></p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true"/> </provenance>
+							</location> <note anchored="true"><p>gemeinsam mit <span>CF-GeS-1129 und </span><span>CF-GeS-1130
+                             
+                                </span></p></note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
 					</history>
 				</msDesc>
@@ -262,10 +268,10 @@
 <lb n="3"/><expan><abbr>Herecur</abbr><ex>a</ex>e</expan>
 <lb n="4"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aeta</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
-				<p><p>Otacilia Matrona hat für <rs type="divine">Herecura</rs> das Gelübde freudig, gerne und verdientermaßen erfüllt.<br/></p></p>
+				<p>                                                <p>Otacilia Matrona hat für <rs type="divine">Herecura</rs> das Gelübde freudig, gerne und verdientermaßen erfüllt!<br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p><p>Otacilia Matrona has, (for) <rs type="divine">Herecura</rs>, fulfilled a vow gladly, willingly and deservedly.<br/></p></p>
+				<p>                                                <p>Otacilia Matrona has, (for) <rs type="divine">Herecura</rs>, fulfilled a vow gladly, willingly and deservedly!<br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="4">
@@ -288,17 +294,20 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"/>
+			<note type="Objbeschr_note"><p>Haug/Sixt 1914, 234 Nr. 124: Der Stein hat Sockel und Gesims; am Gesims zwei vorn mit Kreisen verzierte Randwülste, dazwischen ein Dreieck mit Kreis in der Mitte, auf der oberen Seite eine sechseckige Schale. </p><p>Gaubatz-Sattler 1999, 376 Nr. 32: Der Altarstein hat einen schlichten Sockel und ein Gesims mit Randwülsten, die mit einem Kreis verziert sind. Im Zwischenbereich ist ein Dreieck mit einem Kreis in der Mitte dargestellt. Auf der Oberseite finde sich eine sechseckige Schale. Die beiden Schmalseiten sind unverziert. <br/></p></note>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"/>
+			<note type="Material_note"><p>Haug/Sixt 1914, 235 Nr. 124: Stubensandstein<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"><p>Gaubatz-Sattler 1999, 376; Lupa = WLM</p><p>Heiligmann 2003, 95: Aalen Limesmuseum RL 219</p></note>
+			<note type="InvNr_note">                                                    <p>Inventarnummer - Kartei - dort steht Stuttgart, Magazin<br/></p>
+                                                    <p>Gaubatz-Sattler 1999, 376; Lupa = WLM</p>
+                                                    <p><b>Heiligmann 2003, 95: Aalen Limesmuseum RL 219</b></p>
+                                                    <p>Haug/Sixt 1914, 234 Nr. 124: Stuttgart, Lapidarium n. 130</p></note>
 			<note type="Fundstelle_note">                                                    <p>Haug/Sixt 1914, 235; Gaubatz-Sattler 1999, 376 Nr.32: Zusammen mit Herecura-1129 und Herecura-1130<br/></p></note>
 			<note type="Fundumst_note"/>
-			<note type="Fundjahr_note"/>
+			<note type="Fundjahr_note"><p>CIL<br/></p></note>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note"/>
+			<note type="FOmodern_note"><p>CIL<br/></p></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
@@ -307,7 +316,7 @@
 			<note type="dtUEbers_note"/>
 			<note type="Editionen_note"/>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note">                                                    <p>Haug/Sixt 1914, 235; EDH: Höhe 56, Breite 34, Tiefe 27 Gaubatz-Sattler 1999, 376: H.54cm, B. 34cm,T.27cm<br/></p></note>
+			<note type="Masse_note">                                                    <p>Haug/Sixt 1914, 235, dort auch: Höhe des Inschriftfeldes 27, Breite 28, Dicke 24cm; ; EDH: Höhe 56, Breite 34, Tiefe 27 Gaubatz-Sattler 1999, 376: H.54cm, B. 34cm,T.27cm; dort auch: Inschriftenfeld: H 27 cm, B 28 cm, T 24 cm<br/></p></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>

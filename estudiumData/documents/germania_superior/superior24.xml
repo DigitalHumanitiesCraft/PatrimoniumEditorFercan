@@ -59,7 +59,7 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p><p>Vom Inschriftentext sind die ersten zwei Zeilen weitgehend erhalten, doch sind sie am rechten Rand abgebrochen. Die Gesamtbreite des Inschriftenfeldes ist jedoch feststellbar. Von Z.3 sind nurmehr Reste des ersten Buchstaben vorhanden. Es könnte sich dabei um ein B, D, ein P oder ein R handeln. </p><p>Wie weit sich der Text ursprünglich nach unten fortsetzte kann nicht gesagt werden.</p></p> <note type="condition"/> </layout>
+								<layout> <p><p>Vom Inschriftentext sind die ersten zwei Zeilen weitgehend erhalten, doch sind sie am rechten Rand abgebrochen. Die Gesamtbreite des Inschriftenfeldes ist jedoch feststellbar. Von Z.3 sind nurmehr Reste des ersten Buchstaben vorhanden. Es könnte sich dabei um ein B, D, ein P oder ein R handeln. </p><p>Wie weit sich der Text ursprünglich nach unten fortsetzte kann nicht gesagt werden.</p></p> <note type="condition">https://gams.uni-graz.at/o:fercan.arch#C.130320</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -68,16 +68,18 @@
 						<decoDesc>
 							<decoNote> <p>Keine bildliche Gestaltung vorhanden. </p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252810">Opferschale</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+                      
+                      
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale (Gestaltungsmerkmal)</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName>Tabernae</placeName> <region>Civitas Nemetum</region> </origPlace> <origDate notBefore="" notAfter=""><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1981"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Rheinzabern</ref> </placeName> <p>im Gewann „24 Morgen“, im Bereich eines Ziegelofens (Wiegels 1989, 28, Nr.10); in den wohl nachträglich aufgeführten Sandsteinmauern beiderseits des Schürlochs der Öfen (Reutti 1983, 64)</p> <location>
+						<provenance type="found" when="1981"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Rheinzabern</ref> </placeName> <p>im Gewann „24 Morgen“, im Bereich eines Ziegelofens (Wiegels 1989, 28 Nr.10); in den wohl nachträglich aufgeführten Sandsteinmauern beiderseits des Schürlochs der Öfen (Reutti 1983, 64)</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note>sekundär verwendet (Wiegels 1989, 28, Nr.10); gemeinsam mit CF-GeS-1014</note> </provenance>
+							</location> <note>sekundär verwendet (Wiegels 1989, 28 Nr.10); gemeinsam mit CF-GeS-1014</note> </provenance>
 						<provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)<br/></provenance>
 					</history>
 				</msDesc>
@@ -218,7 +220,7 @@
 					<bibl type="trismegistos"><idno> </idno><date> </date></bibl>
 					<bibl type="lupa"><idno> </idno><date> </date></bibl>
 					<bibl type="other"><idno> </idno><date> </date></bibl>
-				<bibl type="lupa"><idno/><date/></bibl></listBibl>
+				</listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform">
 				<ab><lb n="1"/>MERCVR<gap reason="lost" extent="unknown" unit="character"/>

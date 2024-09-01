@@ -164,21 +164,21 @@ Auf der linken Seite ist ein geradstämmiger Baum mit länglich nach oben zulauf
                     <person instant="false">
                         <persName instant="false" full="yes">
                             <roleName type="other" full="yes">
-                                <ref type="context" target="context:fercan.person.other.cives_tungri">cives Tungri</ref>
+                                <ref type="context" target="context:fercan.person.other.cives_tungri">cives Tungri; nautae; consistunt</ref>
                             </roleName>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName instant="false" full="yes">
                             <roleName type="other" full="yes">
-                                <ref type="context" target="context:fercan.person.other.nautae">nautae</ref>
+                                <ref type="context" target="context:fercan.person.other.nautae">cives Tungri; nautae; consistunt</ref>
                             </roleName>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName instant="false" full="yes">
                             <roleName type="other" full="yes">
-                                <ref type="context" target="context:fercan.person.other.consistunt">consistunt</ref>
+                                <ref type="context" target="context:fercan.person.other.consistunt">cives Tungri; nautae; consistunt</ref>
                             </roleName>
                         </persName>
                     </person>
@@ -231,7 +231,7 @@ Auf der linken Seite ist ein geradstämmiger Baum mit länglich nach oben zulauf
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solverunt_libentes_merito">votum solverunt libentes merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">deae [Vir]adecd[i]</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -320,15 +320,35 @@ nautae: Unter der Berufsgruppe, die sich in Inschriften als nauta bezeichnet, si
 
 cives Tungri et nautae qui Fectione consistunt: Damit ist offenbar eine Vereinigung in Art eines Vereines angesprochen, die in so manchem einem collegium entsprochen haben mag, ohne es rechtlich zu sein (s. Heinrichs 2006, 265f.).</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Viradecdis:</rs> keltisch erklärbar: ‚Mannesfeuer’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 163f) </p>
-                                                <p part="N">
-	
-Vorkommen in theonymischen Formularen: </p>
-                                                <p part="N">
- <rs type="divine">Viradecdis</rs>: <lb/>
-- Germania Inferior: Das theonymische Formular ist 2x (CF-GeI-74 und 75) belegt. Eine weitere Inschrift lässt eine entsprechende Ergänzung zu (CF-GeI-76). <lb/> 
-- außerhalb der Germania Inferior: Das theonymische Formular ist in Britannien belegt (<rs type="divine">Viradecthis</rs>: CIL VII 1073, RIB 2108) und in anderen Varianten des Götternamens in der Germania Superior: (<i>Virodactis</i>: CF-GeS-1021; <i>Virodacthis</i>: CF-GeS-1085; <i>Viroddis</i>: CF-GeS-1119).</p>
-            </div>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                    <p>            <rs type="divine">Viradecdis</rs> (incl. ev. Varianten):</p>
+
+<p class="MsoNormal">Sprachlich: keltisch erklärbar: ‚Mannesfeuer’ (de Bernardo
+Stempel Corpus F.E.R.C.A.N. II/1 163f.). (Hier wird kein
+sprachwissenschaftlicher Beitrag geleistet. Die Literaturangaben dienen
+lediglich dazu, einen Einstieg in die sprachwissenschaftliche Diskussion zu
+bieten. Besprochen werden alle Götternamen, die bislang als keltisch oder
+teilweise keltisch gedeutet wurden.)</p>
+
+<p class="MsoNormal">Vorkommen: Der Göttername findet sich in verschiedenen
+Varianten in Britannien (<rs type="divine">Viradecthi</rs> CIL VII 1073), der Germania Inferior und
+in der Germania Superior.</p>
+
+<p class="MsoNormal">Im Untersuchungsgebiet kommt der Göttername in folgendem
+theonymischen Formular vor:</p>
+
+<p class="MsoNormal">
+                                                    <rs type="divine">Viradecdis</rs> (incl. ev. Varianten):</p>
+
+<p class="MsoNormal">- Germania Inferior: CF-GeI-74 und die Variante <rs type="divine">Virathethis</rs> CF-GeI-75, CF-GeI-76(?) - Germania Superior: Hier sind die Varianten <i>Virodactis</i>
+CF-GeS-1021, <i>Virodacthis</i> CF-GeS-1085 und <i>Viroddis</i> CF-GeS-1119 verbreitet. In
+CF-GeS-1021 erscheint <i>Virodactis</i> zusammen mit <i>Lucena</i>. Heichelheim (1961,
+175) hatte angenommen, dass im Votivformular „<i>Virodacti</i> sive <i>Lucen(a)e</i>“
+eine Identifizierung von <i>Virodactis</i> mit der römischen <i>Lucina</i> vorliegt. Dass
+hier jedoch zwei Gottheiten gemeint sind legt der nachfolgende Plural „numinibus
+[sa]nctissi[mis]“ nahe. Scheungraber (2020, 360f.) interpretiert <i>Lucena</i> nicht
+als Form der römischen <i>Lucina</i>, sondern als: keltisch, ‚Luchs‘.</p>
+
+</div>
             <linkGrp type="alignment" domains="#majuscule #minuscule">
                 <link target="#MAJ.1 #MIN.1"/>
                 <link target="#MAJ.2 #MIN.2"/>
@@ -368,8 +388,7 @@ Vorkommen in theonymischen Formularen: </p>
             <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
             <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
             <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
-                <p part="N">Alte Version (17.04.23):</p>
+            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true"><p>                <p part="N">Alte Version (17.04.23):</p>
                 <p part="N">Viradecdis: keltisches Theonym mit germanisiertem
  Vokalismus; traditionelle Deutung als Gottheit der Männlichkeit 
 (Schmidt 1957, 297, de Bernardo Stempel in Spickermann 2005, 144)</p>
@@ -384,8 +403,17 @@ Vorkommen in theonymischen Formularen: </p>
 - außerhalb der Germania Inferior: Das theonymische Formular ist in 
 Britannien belegt (Viradecthis: CIL VII 1073, RIB 2108) und in anderen 
 Varianten des Götternamens in der Germania Superior: (Virodactis: CIL 
-XIII 6761; Virodacthis: CIL XIII 11944; Viroddis: CIL XIII 6486)<p part="N"/>
-            </tei:note>
+XIII 6761; Virodacthis: CIL XIII 11944; Viroddis: CIL XIII 6486)</p><p><p part="N">Mittlere Version (04.07.2024)</p></p><p> Viradecdis: keltisch erklärbar: ‚Mannesfeuer’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 163f) </p>
+                                                <p>
+	
+Vorkommen in theonymischen Formularen: </p>
+                                                <p>
+ Viradecdis: 
+- Germania Inferior: Das theonymische Formular ist 2x (CF-GeI-74 und 75)
+ belegt. Eine weitere Inschrift lässt eine entsprechende Ergänzung zu 
+(CF-GeI-76).  
+- außerhalb der Germania Inferior: Das theonymische Formular ist in Britannien belegt (Viradecthis: CIL VII 1073, RIB 2108) und in anderen Varianten des Götternamens in der Germania Superior: (<rs type="divine">Virodactis</rs>: CF-GeS-1021; <i>Virodacthis</i>: CF-GeS-1085; <i>Viroddis</i>: CF-GeS-1119).</p><p><p part="N"/>
+            </p></tei:note>
         </back>
     </text>
 </TEI>

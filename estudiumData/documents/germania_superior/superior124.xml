@@ -41,8 +41,8 @@
 				<msDesc>
 					<msIdentifier>
 						<settlement>Rastatt</settlement>
-						<repository/>
-						<idno/>
+						<repository>Zentrales Fundarchiv</repository>
+						<idno>1884-5-5420-1</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>Weihinschrift</summary>
@@ -50,32 +50,36 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
-									<objectType>Weihestein</objectType> <dimensions>
+								<support> <p><p>Das erhaltene Fragment umfasst den Aufsatz des Weihealtars sowie den Beginn des ungerahmten Inschriftenfeldes, das bis auf drei Buchstaben auf der rechten Seite abgeplatzt ist. Es ist vom Aufsatz durch eine doppelte Stufung getrennt, auf der sich noch ein Giebel mit einem durchlaufenden Rautenmuster befindet. Darüber ist die Opferschale erkennbar, davor ein ausgehöhlter, abgestoßener Giebel, sowie links und rechts Voluten mit Rosettendekor. Die linke Seite des Giebels und der Stufung sind abgebrochen, außerdem ist der Stein an allen Seiten stark bestoßen. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm">29</height>
 										<width unit="cm">30</width>
 										<depth unit="cm">22</depth>
 									</dimensions> <note type="dimensions" anchored="true">Die Angegebenen Maße sind die des erhaltenen Objekts.</note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130320">kleineres Fragment</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p><p>Vom Inschriftenfeld sind nur mehr drei Buchstaben am rechten Rand der ersten Zeile erhalten. Vor dem Worttrenner finden sich noch der obere Bogen eines vierten Buchstaben der ein B, P oder R war. Die Rekonstruktion als Mercurio Cissonio ist zwar communis opinio (Wiegels 2010 (Adnotationes), 245) verbleibt aber im höchsten Maße spekulativ.<br/></p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Vom Inschriftenfeld sind nur mehr drei Buchstaben am rechten Rand der ersten Zeile erhalten. Vor dem Worttrenner finden sich noch der obere Bogen eines vierten Buchstaben, der ein B, P oder R war. Die Rekonstruktion als Mercurio Cissonio ist zwar communis opinio (Wiegels 2010 [Adnotationes], 245) verbleibt aber im höchsten Maße spekulativ.<br/></p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130320</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="3.0" atMost="3.0">3,0–3,0</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale (Gestaltungsmerkmal)</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">Rosette</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160100">Lineardekor</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName/> <region>Civitas Ulpia Sueborum Nicrensium</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1884"> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+						<provenance type="found" when="1884"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Ubstadt-Weiher</ref> </placeName> <p>                                                <p>Ortsteil Stettfeld; "in der Nähe des sog. Schwedenbrunnens" (Bissinger 1884, 49)<br/></p></p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true"/> </provenance>
+							</location> <note anchored="true"><p>"beim Umgraben eines Ackers" (Bissinger 1884, 49)<br/></p></note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
 					</history>
 				</msDesc>
@@ -206,7 +210,7 @@
 	</teiHeader>
 	<facsimile>
 		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1092_front.jpg">
-			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
+			<desc>Front, Ehm. Karlsruhe, Badisches Landesmuseum, Inv. Nr. C 5420, heute Rastatt, Zentrales Fundarchiv Inv. 1884-5-5420-1, CIL XIII Projekt, CC BY-NC</desc>
 		</graphic>
 	</facsimile>
 	<text>
@@ -226,16 +230,18 @@
         
             <bibl xml:id="6">Wiegels 1992, 387</bibl>
         
-            <bibl xml:id="7">Wiegels 2010 (Adnotationes), 244f</bibl>
+            <bibl xml:id="7">Wiegels 2010 (Adnotationes), 244f.</bibl>
         
             <bibl xml:id="8">Scheungraber 2020, 236 Nr.13</bibl>
+        
+            <bibl xml:id="9">Noelke 2020/2021, 356 Nr.2.65</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
 				<listBibl>
-					<bibl type="EDCS"><idno>EDCS-11000355</idno><date>2024-03-06</date></bibl>
-					<bibl type="EDH"><idno>HD036536</idno><date>2021-03-03</date></bibl>
-					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/210815</idno><date>2024-03-06</date></bibl>
+					<bibl type="EDCS"><idno>EDCS-11000355</idno><date>zuletzt abgerufen 2024-03-06</date></bibl>
+					<bibl type="EDH"><idno>HD036536</idno><date>Version von 2021-03-03</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/210815</idno><date>zuletzt abgerufen 2024-03-06</date></bibl>
 					<bibl type="lupa"><idno> </idno><date> </date></bibl>
 					<bibl type="other"><idno> </idno><date> </date></bibl>
 				</listBibl>
@@ -271,15 +277,16 @@
 		<back>
 			<note type="Objbeschr_note"/>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"/>
-			<note type="Inschrifttraeger_note"/>
-			<note type="VerwahrortOrt_note"><p>Karteikarte, EDH<br/></p></note>
-			<note type="InvNr_note"><p>Karteikarte: C5420 oder 5430<br/></p></note>
+			<note type="Material_note"><p>roter Sandstein: Bissinger 1884, 49<br/></p></note>
+			<note type="Inschrifttraeger_note"><p>Bissinger 1884, 49: der oberste Teil einer Ara, nämlich die giebelförmige Krönung derselben, von der darunter sich anschliessenden Schriftfläche nur noch die vier letzten Buchstaben der ersten Zeile<br/></p></note>
+			<note type="VerwahrortOrt_note">                                                    <p>Karteikarte, EDH</p><p>Kateikarte S. 1 sagt Karlsruhe!? S. 6 sagt Rastatt?!</p><p>Wiegels 1992, 387 A30 auch Badisches Landesmuseum Karlsruhe<br/></p></note>
+			<note type="InvNr_note">                                                    <p>Karteikarte: <b>C5420</b> oder 5430</p><p>Mail von Herrn Kemkes vom 26.6.2024: <span lang="de"><font style="font-family: Calibri, sans-serif, serif, &#34;EmojiFont&#34;;" size="2" face="Calibri,sans-serif"><span style="font-size:11pt;"><font style="font-family: Arial, sans-serif, serif, &#34;EmojiFont&#34;;" size="2" face="Arial,sans-serif"><span style="font-size:10pt;">Altar aus Stettfeld, Inv.-Nr. 1884-5-5420-1, Die alten Inv.-Nr. des Badischen Landesmuseums,
+werden hier bei den neuen Nummern an dritter Stelle mit fortgeführt…</span></font></span></font></span></p></note>
 			<note type="Fundstelle_note"/>
 			<note type="Fundumst_note"><p>Bissinger 1884, 49<br/></p></note>
 			<note type="Fundjahr_note"/>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note"/>
+			<note type="FOmodern_note"><p>so Kartei, auch Bissinger 1884, 49<br/></p></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
@@ -288,7 +295,7 @@
 			<note type="dtUEbers_note"/>
 			<note type="Editionen_note"/>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"/>
+			<note type="Masse_note"><p>so Karteikarte: H noch 29, Breite Aufsatz 30, Tiefe Aufsatz 22, Feld noch 15, Breite noch 25,5. Tiefe noch 17,5<br/></p></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>

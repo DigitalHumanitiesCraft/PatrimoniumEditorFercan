@@ -50,17 +50,17 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>                                                <p>Der Weihealtar mit ungerahmtem Inschriftenfeld ist an allen Seiten abgehauen. Als Bekrönung, die durch eine an den Kanten abgeschlagene Stufung vom Altarkörper getrennt und schon sehr verwittert ist, dienen zwei Pulvini, in deren Mitte sich eine Opferschale zu befinden scheint. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+								<support> <p>                                                <p>Der Weihealtar mit ungerahmtem Inschriftenfeld ist an allen Seiten abgehauen. Als Bekrönung, die durch eine an den Kanten abgeschlagene Stufung vom Altarkörper getrennt und schon sehr verwittert ist, dienen zwei Pulvini, in deren Mitte sich eine Opferschale befindet.<br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
 									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm"> 73</height>
 										<width unit="cm"> 58</width>
 										<depth unit="cm"> 44</depth>
 									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
 								<layout> <p>                                                <p>Der Inschriftentext scheint vollständig erhalten zu sein und füllt das Feld vollständig aus. Die Buchstaben sind gleichmäßig.</p>
-                                                <p>Zu einer Ligatur: s. Majuskelumschrift.<br/></p></p> <note type="condition" anchored="true"/> </layout>
+                                                <p>Zu einer Ligatur: s. Majuskelumschrift.<br/></p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130400</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -68,7 +68,9 @@
 						</handDesc>
 						<decoDesc>
 							<decoNote> <p>                                                <p>Laut Haffner (1970, 206) befindet sich „auf der rechten Schmalseite [ein] eingeritzter Sporn“.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252810">Opferschale</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale (Gestaltungsmerkmal)</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
+                      
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -221,11 +223,13 @@
         
             <bibl xml:id="3">Riese 1914, Nr.2732</bibl>
         
-            <bibl xml:id="4">Binsfeld/Goethert-Polaschek/Schwinden 1988, Nr.67</bibl>
+            <bibl xml:id="4">Cüppers 1983, 243</bibl>
         
-            <bibl xml:id="5"> Euskirchen 1993, Nr.261 </bibl>
+            <bibl xml:id="5">Binsfeld/Goethert-Polaschek/Schwinden 1988, Nr.67</bibl>
         
-            <bibl xml:id="6">Scheungraber 2020, 266 Nr.11</bibl>
+            <bibl xml:id="6"> Euskirchen 1993, Nr.261</bibl>
+        
+            <bibl xml:id="7">Scheungraber 2020, 266 Nr.11</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
@@ -256,7 +260,7 @@
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="1">
-					<note anchored="true">d(ono) – Euskirchen</note>
+					<note anchored="true">d(ono) – Euskirchen; Inschriftwiedergabe ohne Zeilenewechsel und Klammern – Cüppers</note>
 				</app>
 			
             
@@ -274,7 +278,9 @@
                                                     </p>
                                                 <p>Attucius oder Atucius: einheimische Bildung mit keltischer Basis? (Kakoschke 2021, GN 165)</p>
                                                     <p>Vectissus: keltischer Name (Kakoschke 2021, CN 3252) </p>
-                                                <p>Aufgrund der tria nomina eindeutig im Besitz des römischen Bürgerrecht.</p><p>Im CIL wird Belginum zur Germania Superior gezählt, diese Zuordnung wird aber inzwischen zugunsten der Belgica angezweifelt (Haffner 1989, 23; Lobüscher 2002, 140). Die Aufnahme von Inschriften aus Belginum (CF-GeS-1005; CF-GeS-1006; CF-GeS-1140) hier ergibt sich aus zwei Umständen: 1. als Grenzort ist mit Einflüssen aus der Nachbarprovinz zu rechnen und der Wechsel der Provinzzuordnung kann nicht ausgeschlossen werden (Spickermann 2003, 209). Viel wichtiger ist aber 2., dass sich in Belginum eines der zahlreichen nach 70 n.Chr. ausgebauten "Grenzheiligtümer" befand, die als Provinzgrenzen überschreitende Kultezentren angelegt waren (Spickermann 2003, 30f; 260f), weswegen mit provinzübergreifenden ähnlichen religiösen Vorstellungen zu rechnen ist, wobei die Dedikationen von Bewohnern der Belgica und der Superior aufgrund fehlender Angaben über die provinziale Zugehörigkeit nicht unterscheidbar sind.</p><p/></div>
+                                                <p>Aufgrund der tria nomina eindeutig im Besitz des römischen Bürgerrechts.</p>
+                                                <p>Im CIL wird Belginum zur Germania Superior gezählt, diese Zuordnung wird aber inzwischen zugunsten der Belgica angezweifelt (Haffner 1989, 23; Lobüscher 2002, 140). Die Aufnahme von Inschriften aus Belginum (CF-GeS-1005; CF-GeS-1006; CF-GeS-1140) hier ergibt sich aus zwei Umständen: 1. als Grenzort ist mit Einflüssen aus der Nachbarprovinz zu rechnen und der Wechsel der Provinzzuordnung kann nicht ausgeschlossen werden (Spickermann 2003, 209). Viel wichtiger ist aber 2., dass sich in Belginum eines der zahlreichen nach 70 n.Chr. ausgebauten "Grenzheiligtümer" befand, die als Provinzgrenzen überschreitende Kultezentren angelegt waren (Spickermann 2003, 30f; 260f), weswegen mit provinzübergreifenden ähnlichen religiösen Vorstellungen zu rechnen ist, wobei die Dedikationen von Bewohnern der Belgica und der Superior aufgrund fehlender Angaben über die provinziale Zugehörigkeit nicht unterscheidbar sind.</p>
+                                                <p/></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
 				<p> </p>
 			</div>

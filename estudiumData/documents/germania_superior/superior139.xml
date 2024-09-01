@@ -40,8 +40,8 @@
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<settlement/>
-						<repository/>
+						<settlement>Ladenburg</settlement>
+						<repository>Lobdengau-Museum</repository>
 						<idno/>
 					</msIdentifier>
 					<msContents>
@@ -50,32 +50,37 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
-									<objectType>Weihestein</objectType> <dimensions>
-										<height unit="cm">43</height>
-										<width unit="cm">66</width>
+								<support> <p>                                                <p>Erhalten sind der Aufsatz sowie die ersten zwei Zeilen der Inschrift des Weihealtares. Das Inschriftenfeld war wohl nicht gerahmt, ist aber durch eine Reliefleiste vom Aufsatz getrennt. Dieser ist gestaltet durch zwei stark herausgearbeitete Pulvini, von denen nur mehr der rechte erhalten ist und in dem noch eine Rosette zu erahnen ist. Dazwischen ein breiter Giebel, der wohl auch floral geschmückt war. Dahinter befindet sich die Opferschale. Auf der Rückseite ein schmaler Profilrand. Der gesamte Stein ist stark verwittert und abgestoßen. Wiegels (2000, 54 Nr.12) beschreibt "die Fläche des Steins [...als] mit modernen Pickelspuren übersät".<br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
+										<height unit="cm">41</height>
+										<width unit="cm">66,5</width>
 										<depth unit="cm">39</depth>
 									</dimensions> <note type="dimensions" anchored="true">Die angegebenen Maße sind die des erhaltenen Objektes.</note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130700">unklar</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130320">kleineres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Die erhaltenen Zeilen haben beide den linken Zeilenanfang verloren. Wieviel Text verloren ist lässt sich nicht rekonstruieren. Die Buchstaben sind nciht ganz regelmäßig, und am rechten Zeilenende, besonders stark in Z.2, abgerieben aber noch lesbar.</p><p>Laut Wiegels (2000, 55) in Z.1 Reste eines E und in Z.2 vermutlich eines A bei der Bruchkante erhalten, beides am Photo nicht mehr zu erkennen. In den erhaltenen Zeilen Wortrenner.</p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Die erhaltenen Zeilen haben beide den linken Zeilenanfang verloren. Wieviel Text verloren ist, lässt sich nicht rekonstruieren. Die Buchstaben sind nicht ganz regelmäßig, und am rechten Zeilenende, besonders stark in Z.2, abgerieben aber noch lesbar.</p>
+                                                <p>Laut Wiegels (2000, 55) in Z.1 Reste eines E und in Z.2 vermutlich eines A bei der Bruchkante erhalten, beides am Photo nicht mehr zu erkennen. In den erhaltenen Zeilen Wortrenner.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130320</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="3.8" atMost="4.2">3,8–4,2</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale (Gestaltungsmerkmal)</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">Rosette</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253000">Pflanzenornament</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName/> <region>Civitas Ulpia Sueborum Nicrensium</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+						<provenance type="found" when="1971"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Ladenburg</ref> </placeName> <p>                                                <p>"Valentinianstraße dicht westlich vom Neubau Nr. 21, im südichen Vicusgraben, unweit der Bezirke der Tempel und Heiligtümer" (Wiegels 2000, 54f. Nr.12).<br/></p></p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true"/> </provenance>
+							</location> <note anchored="true"><p>Grabung<br/></p></note> </provenance>
 						<provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)<br/></provenance>
 					</history>
 				</msDesc>
@@ -215,13 +220,13 @@
 				<listBibl>
 					<bibl xml:id="1">AE 2000, 1087</bibl>
 				
-            <bibl xml:id="2">Wiegels 2000, 54f Nr.12</bibl>
+            <bibl xml:id="2">Wiegels 2000, 54f. Nr.12</bibl>
         
             <bibl xml:id="3">Kakoschke 2002, Nr.5.31</bibl>
         
             <bibl xml:id="4">Matijević 2012, 100 Anm.14</bibl>
         
-            <bibl xml:id="5">Noelke 2020/2021, Nr.2.42</bibl>
+            <bibl xml:id="5">Noelke 2020/2021, 347f. Nr.2.42</bibl>
         
             <bibl xml:id="6">Scheungraber 2020, 473 Nr.1</bibl>
         </listBibl>
@@ -246,19 +251,23 @@
 				<p><p>Für den Gott <rs type="divine">Sedatus</rs>!</p><p>Iassius ....anus (hat) den Altar ...<br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p><p>To teh god <rs type="divine">Sedatus</rs>!</p><p>Iassius ...anus (has) the altar ....<br/></p></p>
+				<p>                                                <p>To the god <rs type="divine">Sedatus</rs>!</p>
+                                                <p>Iassius ...anus (has) the altar ....<br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="1">
-					<note anchored="true">Die unterstrichenen Teile in Z.1 und Z.2 sind heute nicht merh erhalten, sie werden nach Wiegels wiedergegeben</note>
+					<note anchored="true">Die unterstrichenen Teile in Z.1 und Z.2 sind heute nicht mehr erhalten, sie werden nach Wiegels wiedergegeben.</note>
 				</app>
 			
             <app loc="2">
                 <note anchored="true">[-3?-]ạnus – Wiegels, Kakoschke, Matijević</note>
             </app>
         </div>
-			<div type="commentary" subtype="general" org="uniform" sample="complete"><p>Iassius …anus: römisches Namensformular. tria Nomina?</p><p>Iassius: seltenes einheimisches Pseudogentilnomen abgeleitet vom keltischen Namen Iassus (Kakoschke 2021, GN 6110)<br/><p> </p>
-			</p></div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Iassius …anus: römisches Namensformular ohne Praenomen, tria Nomina?</p>
+                                                <p>Iassius: seltenes einheimisches Pseudogentilnomen, abgeleitet vom keltischen Namen Iassus (Kakoschke 2021, GN 6110)<br/>
+                                                    </p>
+                                                <p> </p>
+			<p/></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
 				<p> </p>
 			</div>
@@ -269,35 +278,37 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"/>
+			<note type="Objbeschr_note"><p>Kartei: Opferschale, Stein abgepickt, links beschädigt; oben Opferschale mit Omphelos</p><p>Kartei: Li. Block alter Rand, oben Aufsatz stark gestört, aber im Ansatz vorhanden, hinten nur kleiner Profilrand, sonst glatt</p><p>Wiegels 2000, 54, Nr. 12: Oberteil eines Altars aus Buntsandstein, der wohl schon in antiker, vermutlich aber nachrömischer Zeit zerschlagen wurde. An der linken Seite und ebendort am Aufsatz stärker zerstört, kaum auf der rechten Seite. Die Fläche des Steins ist mit modernen Pickelspuren übersät. Oben Opferschale mit Omphalos zwischen zwei, an den Stirnseiten offenbar als Rosetten gestalteten Polstern (Pulvini), deren rechte erhalten, wenngleich etwas beschädigt ist. Der breit ausladende Dreieckgiebel der Focusschranke über einem relativ einfachen Gesims wies anscheinend ein florales Dekor auf. Insgesamt ist der Aufsatz nicht blockartig, da die Pulvini weitgehend frei herausgearbeitet sind. Hinten einen kleine Profilleiste, sonst glatt. </p><p>Noelke 2020/2021, 348 Nr. 2.42: Erhalten ist der obere Teil eines größerformatigen Altares des Grundtypus mit der Bekröung bestehend aus undekorierten pulvini und verbindendem Giebelchen sowie den focus. Die Schmalseiten sind unreliefiert. Unterhalb des profilierten Gesimses auf dem Schaft die beiden ersten Zeilen der Dedikation<br/></p></note>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"/>
+			<note type="Material_note"><p>Buntsandstein - Kartei<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
-			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"/>
-			<note type="Fundstelle_note"/>
-			<note type="Fundumst_note"><p>Wiegels 2000, 54f<br/></p></note>
-			<note type="Fundjahr_note"/>
+			<note type="VerwahrortOrt_note"><p>Kartei<br/></p></note>
+			<note type="InvNr_note"><p>Wiegels 2000, 55 Nr. 12<br/></p></note>
+			<note type="Fundstelle_note"><p>Kartei<br/></p></note>
+			<note type="Fundumst_note">                                                    <p>Kartei: Neubau Frank, Kanalisation<br/></p><p>Wiegels 2000, 54f</p></note>
+			<note type="Fundjahr_note"><p>Kartei<br/></p></note>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note"/>
+			<note type="FOmodern_note"><p>Kartei<br/></p></note>
 			<note type="civitas_note"/>
-			<note type="Autopsie_note"/>
+			<note type="Autopsie_note"><p>Karteikarte - Ordner Inschriften Neufunde: Ladenburg (33)<br/></p></note>
 			<note type="Appcrit_note"/>
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
 			<note type="Editionen_note"/>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"><p>AE, EDH<br/></p></note>
+			<note type="Masse_note">                                                    <p>AE, EDH: 43 Höhe, 66 Breite<br/></p>
+                                                    <p>Karteikarte Ladenburg (33). gesamt noch 43,5xH66xT(am Aufsatz)34 cm; Feld noch 15x57,5 cm; aber auch gesamt noch H 41 cm; Aufsatz B 66,5, T noch 39; Feld H 17,5, B 60,5</p><p>Wiegels 2000, 55 Nr. 12: noch 43xnoch66 (nahezu original) x noch 39 (nahezu original) (Aufsatz). - Inschriftblock/-feld: noch 17xnoch 60x37</p></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"><p>AE, EDH<br/></p></note>
+			<note type="Buchsthoehe_note">                                                    <p>AE, EDH, Wiegels 2000, 55 Nr. 12<br/></p><p>Kartei: Z1 4,2, Z2 3,8 cm</p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note">                                                    <p>EDH, lupa: 150-260AD</p><p>Wiegels: 150-233/260<br/></p></note>
+			<note type="Datierung_note">                                                    <p>EDH, lupa: 150-260AD</p>
+                                                    <p>Wiegels: 150-233/260</p><p>Kartei: am ehesten 3. Jh. aber 2. Jh. nicht auszuschließen<br/></p></note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>
 		</back>

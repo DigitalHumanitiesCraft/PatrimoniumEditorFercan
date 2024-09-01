@@ -187,12 +187,12 @@ Auf der rechten Schmalseite ist eine Akanthusranke dargestellt, die oben von ein
                     <place instant="false"/>
                     <place type="sacral_building" instant="false">
                         <placeName instant="false" full="yes">
-                            <ref type="context" target="context:fercan.geog.sacral.ara">ara</ref>
+                            <ref type="context" target="context:fercan.geog.sacral.ara">ara; aedes</ref>
                         </placeName>
                     </place>
                     <place type="sacral_building" instant="false">
                         <placeName instant="false" full="yes">
-                            <ref type="context" target="context:fercan.geog.sacral.aedes">aedes</ref>
+                            <ref type="context" target="context:fercan.geog.sacral.aedes">ara; aedes</ref>
                         </placeName>
                     </place>
                 </listPlace>
@@ -265,10 +265,15 @@ Auf der rechten Schmalseite ist eine Akanthusranke dargestellt, die oben von ein
             <textClass default="false">
                 <keywords>
                     <list>
+                    <item>
+                            <ref type="context" target="context:fercan.dedication.aram_cum_aede_fecit">aram cum aede fecit</ref>
+                        </item>
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> Ix[e]neucaeg(a)e</ref> </item>
+                    </list>
+                </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -299,7 +304,7 @@ Auf der rechten Schmalseite ist eine Akanthusranke dargestellt, die oben von ein
                     <bibl xml:id="LIT.4" default="false" status="draft">Nesselhauf 1937, 256</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Stuart 1981, 53</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">AE 1981, 657</bibl>
-                    <bibl xml:id="LIT.7" default="false" status="draft">Fitz 1983, Nr.341</bibl>
+                    <bibl xml:id="LIT.7" default="false" status="draft">Fitz 1983, 99 Nr.341</bibl>
                     <bibl xml:id="LIT.8" default="false" status="draft">Follmann-Schulz 1986, 782f. Nr.10</bibl>
                     <bibl xml:id="LIT.9" default="false" status="draft">Lobüscher 2002, 150 Nr.138</bibl>
                     <bibl xml:id="LIT.10" default="false" status="draft">Reuter 2012, Nr.25</bibl>
@@ -323,7 +328,12 @@ Auf der rechten Schmalseite ist eine Akanthusranke dargestellt, die oben von ein
                         <idno>www.trismegistos.org/text/208812</idno>
                         <date>zuletzt aufgerufen am 30. Juni 2021</date>
                     </bibl>
-                </listBibl>
+                
+            <bibl type="other">
+                <idno>https://cil.bbaw.de/ace/id/KO0058352</idno>
+                <date>zuletzt aufgerufen am 01. Juli 2024</date>
+            </bibl>
+        </listBibl>
             </div>
             <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/><unclear instant="false">D</unclear>EAE <lb n="2"/>
 I<unclear instant="false">X</unclear><gap reason="lost" quantity="1" unit="character" instant="false"/>NEVCAEGE <lb n="3"/>
@@ -383,7 +393,11 @@ Ara cum aede sua: Oxé (1931, 12) hat darunter einen Aedicula-Altar (von der Art
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.2: „Ixeneucaege” pro „Ixeneucaegae”<lb/>v.4: „Severiane“ pro „Severianae“<lb/>v.6: „ede“ pro „aede“</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Ixeneucaega:</rs> Möglicherweise keltisch, wahrscheinlicher eine Mischbildung. Wenn keltisch: ‚Die Schwörende (?)’ oder ‚Die sich nach unten Neigende (?)’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 114f).<br/>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Ixeneucaega:</rs> Möglicherweise keltisch, wahrscheinlicher eine Mischbildung. Wenn keltisch: ‚Die Schwörende (?)’ oder ‚Die sich nach unten Neigende (?)’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 114f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)
                 </p>
                                                 <p part="N">
 

@@ -149,27 +149,27 @@
                 <listPerson default="false">
                     <person instant="false">
                         <persName type="gentilnomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.gentilnomen.sollavius">Sollavius</ref>
+                            <ref type="context" target="context:fercan.person.gentilnomen.sollavius">Sollavius; Velugnius</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="gentilnomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.gentilnomen.velugnius">Velugnius</ref>
+                            <ref type="context" target="context:fercan.person.gentilnomen.velugnius">Sollavius; Velugnius</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.victor">Victor</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.victor">Victor; Ingenuus</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.ingenuus">Ingenuus</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.ingenuus">Victor; Ingenuus</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.dcn.intarabus">Intarabus</ref>
+                            <ref type="context" target="context:fercan.dcn.intarabus">Intarabus; Genius curiae Ollodagiae</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -179,7 +179,7 @@
                     </person>
                     <person instant="false">
                         <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.dcn.genius_curiae_ollodagi">Genius curiae Ollodagiae</ref>
+                            <ref type="context" target="context:fercan.dcn.genius_curiae_ollodagi">Intarabus; Genius curiae Ollodagiae</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -189,12 +189,12 @@
                     </person>
                     <person instant="false">
                         <persName type="divine" subtype="celtic_element" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.dce.intarabus">Intarabus</ref>
+                            <ref type="context" target="context:fercan.dce.intarabus">Intarabus; Ollodagiae</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="divine" subtype="celtic_element" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.dce.ollodagiae">Ollodagiae</ref>
+                            <ref type="context" target="context:fercan.dce.ollodagiae">Intarabus; Ollodagiae</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -256,7 +256,7 @@
                         <item>
                             <ref type="context" target="context:fercan.character.sonderzeichen_fuer_curiae">Sonderzeichen für curiae</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">deo En[t]arabo; Genio ((curiae)) Ollodag(iae)</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -284,7 +284,9 @@
                     <bibl xml:id="LIT.5" default="false" status="draft">ILB 62</bibl>
                     <bibl xml:id="LIT.6" default="false" status="draft">Faider-Feytmans 1979, 69</bibl>
                     <bibl xml:id="LIT.7" default="false" status="draft">Merten 1985, 91–93</bibl>
-            <bibl xml:id="8" default="false" status="draft">Scheungraber 2020, 344 Nr.8</bibl>
+            <bibl xml:id="8" default="false" status="draft">Krier 1992, 75 Nr.4</bibl>
+        
+            <bibl xml:id="9">Scheungraber 2020, 344 Nr.8</bibl>
         </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
@@ -295,7 +297,7 @@
                     </bibl>
                     <bibl type="EDH">
                         <idno>HD040549</idno>
-                        <date/>
+                        <date>Version vom 4. April 2006</date>
                     </bibl>
                     <bibl type="trismegistos">
                         <idno>www.trismegistos.org/text/208438</idno>
@@ -303,13 +305,13 @@
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>DEO EN̂<gap reason="lost" quantity="1" unit="character" instant="false"/>ARABO <hi rend="ligature">ET</hi> · G<hi rend="ligature">ENI</hi>O <lb n="2"/> 
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>DEO EN̂<gap reason="lost" quantity="1" unit="character" instant="false"/>ARABO <hi rend="ligature">ET</hi> · G<hi rend="ligature">ENI</hi>O <lb n="2"/> 
 &gt; · OLLODAG PORTIC<hi rend="ligature">VM</hi> Q<hi rend="ligature">VA</hi>M <lb n="3"/> 
 VELVGNIVS INGENVVS PROMI <lb n="4"/> 
 SERAT <unclear instant="false">P</unclear>OST · OBITVM · EIVS <lb n="5"/> 
 SOLL<hi rend="ligature">AV</hi>IVS VICTOR · FIL · ADOP<hi rend="ligature">TI</hi>VOS <lb n="6"/> 
 FECIT</orig></ab></div>
-            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Deo En<supplied reason="lost" instant="false">t</supplied>arabo et Genio<lb n="2"/><g type="curiae"/> <expan instant="false"><abbr>Ollodag</abbr><ex instant="false">iae</ex></expan> porticum quam<lb n="3"/>Velugnius Ingenuus promi<lb n="4" break="no"/>serat post obitum eius<lb n="5"/>Sollavius Victor <expan instant="false"><abbr>fil</abbr><ex instant="false">ius</ex></expan> adoptivos<lb n="6"/>fecit</ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><lb n="1"/>Deo En<supplied reason="lost" instant="false">t</supplied>arabo et Genio<lb n="2"/><g type="curiae"/> <expan instant="false"><abbr>Ollodag</abbr><ex instant="false">iae</ex></expan> porticum quam<lb n="3"/>Velugnius Ingenuus promi<lb n="4" break="no"/>serat post obitum eius<lb n="5"/>Sollavius Victor <expan instant="false"><abbr>fil</abbr><ex instant="false">ius</ex></expan> adoptivos<lb n="6"/>fecit</ab></div>
             <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
                 <p part="N">Für den Gott  <rs type="divine">Entarabus</rs> und den  <rs type="divine">Genius der curia Ollodagia!</rs> <lb/> 
 Die Porticus, welche Velugnius Ingenuus versprochen hatte, hat nach dessen Tod Sollavius Victor, der Adoptivsohn, gemacht.</p>
@@ -320,10 +322,10 @@ The porticus which Velugnius Ingenuus had promised was set up after his death by
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Entarabo ohne Ligatur – AE; ohne Ligaturen – ILS, EDH; Enarabo – Faider-Feytmans; Ent̂arabo – Merten; Entarabo – Scheungraber</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Entarabo ohne Ligatur – AE; ohne Ligaturen – ILS, EDH; Enarabo – Faider-Feytmans; Ent̂arabo – Merten; Entarabo – Krier, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Zeichen für curia – Faider-Feytmans; ohne Ligaturen – ILS, EDH; Ollodag(i) – Riese; Ollodag(i) oder Ollodag(iae) – ILB; (centuriae, curiae) Ollodag(i) – Merten; Ollodag(i?) – Scheungraber</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Zeichen für curia – Faider-Feytmans; ohne Ligaturen – ILS, EDH; Ollodag(i) – Riese; Ollodag(i) oder Ollodag(iae) – ILB; (centuriae, curiae) Ollodag(i) – Merten; |(curiae) Ollodag(i) – EDH; Ollodag(i?) – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligaturen – ILS, EDH; Sollânius – Faider-Feytmans; adopt̂ivus – Faider-Feytmans</tei:note>
@@ -348,7 +350,11 @@ porticus: Die Errichtung einer porticus steht vermutlich im Zusammenhang mit ein
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.5: „adoptivos“ pro „adoptivus“</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Entarabus:</rs> Grundform von  <rs type="divine">Intarabus</rs>: keltisch: ,[Gott] im Flusswasser‘ (de Bernardo Stempel in Corpus F.E.R.C.A.N. II/1 123f).  </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Entarabus:</rs> Grundform von  <rs type="divine">Intarabus</rs>: keltisch: ,[Gott] im Flusswasser‘ (de Bernardo Stempel in Corpus F.E.R.C.A.N. II/1 123f).(Hier wird kein
+sprachwissenschaftlicher Beitrag geleistet. Die Literaturangaben dienen
+lediglich dazu, einen Einstieg in die sprachwissenschaftliche Diskussion zu
+bieten. Besprochen werden alle Götternamen, die bislang als keltisch oder
+teilweise keltisch gedeutet wurden.)  </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
@@ -365,7 +371,11 @@ Vorkommen in theonymischen Formularen: </p>
 *** </p>
                                                 <p part="N">
 
-Ollodagia: keltisch: ‚Zur Bevölkerungsgruppe der Ollodagi oder zum Gott <rs type="divine">Ollodagos</rs> gehörige ~’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 101f); anders Holder 1896–1907, Bd.2 847f.: Personenname Ollodagus<lb>
+<rs type="divine">Ollodagia</rs>: keltisch: ‚Zur Bevölkerungsgruppe der Ollodagi oder zum Gott <rs type="divine">Ollodagos</rs> gehörige ~’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 101f); anders Holder 1896–1907, Bd.2 847f.: Personenname Ollodagus. (Hier wird kein
+sprachwissenschaftlicher Beitrag geleistet. Die Literaturangaben dienen
+lediglich dazu, einen Einstieg in die sprachwissenschaftliche Diskussion zu
+bieten. Besprochen werden alle Götternamen, die bislang als keltisch oder
+teilweise keltisch gedeutet wurden.)<lb>
                         <br/>
                     </lb>Curia Ollodagia: <lb/>
 </p>

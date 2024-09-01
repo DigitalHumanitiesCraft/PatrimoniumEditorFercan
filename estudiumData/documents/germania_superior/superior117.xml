@@ -40,8 +40,8 @@
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<settlement/>
-						<repository/>
+						<settlement>Badenweiler</settlement>
+						<repository>in den römischen Thermen</repository>
 						<idno/>
 					</msIdentifier>
 					<msContents>
@@ -50,26 +50,25 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref> </material>
+								<support> <p>                                                <p>Der Weihestein ist in mehreren Fragmenten erhalten, die modern wieder zusammengefügt wurden. Die Buchstaben wurden rot nachgezogen. Das Inschriftenfeld der Nachbildung ist ungerahmt und steht auf einer breit auslandenden Basis, getrennt durch eine Kragung. Der Aufsatz ist durch noch zwei erkennbare Stufen vom Inschriftenfeld getrennt. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref> </material>
 									<objectType>Weihestein</objectType> <dimensions>
 										<height unit="cm"> 68,5</height>
 										<width unit="cm">98</width>
 										<depth unit="cm">123</depth>
 									</dimensions> <note type="dimensions" anchored="true">Die Maße sind die des rekonstruierten Objektes.</note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Die Inschrift ist in mehreren Fragmenten erhalten. Die Buchstaben von Z.1-2 sind breiter gearbeitet als die der übrigen Zeilen.</p>
-                                                <p>Die A haben einen Mittelhaken, statt einer Querhaste. Da sich auf dem letzten Fragment in Z.3 keine Spuren eines I finden, bleibt als Möglichkeit, dass dieses entweder mit dem beschädigten N elongiert war, oder aber, dass der Steinmetz (irrtümlich?) das Congomen Sennus (Kakoschke 2021, CN 2812) statt des Gentilnomens Sennius (Kakoschke 2021, GN 1175) schrieb. Das ineinandergeschriebene VS am Ende von Z.3 zeigt zumindest die Platzprobleme mit denen der Steinmetz konfrontiert war. In Z.4 sind eindeutig die oberen Reste eines O sowie einer NT-Ligatur erhalten. Der letzte Buchstabe von Z.4 ist als L zu lesen, da sich am darüber befindlichen Fragment keine Spuren der oberen Querhaste eines E feststellen lassen. Auf den Fragmenten für Z.5 lassen sich die Reste zweier Schräghasten feststellen, die aufgrund inhaltlicher Überlegungen und vom vorhandenen Platz aus betrachtet als X und V zu rekonstruieren sind. Vgl. hierzu Wiegels (1982, 41-43).</p>
-                                                <p>zu Ligaturen: s. Majuskelumschrift</p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Die Inschrift ist in mehreren Fragmenten erhalten. Die Buchstaben von Z.1–2 sind breiter gearbeitet als die der übrigen Zeilen.</p>
+                                                <p>Die A haben einen Mittelhaken statt einer Querhaste. Da sich auf dem letzten Fragment in Z.3 keine Spuren eines I finden, bleibt als Möglichkeit, dass dieses entweder mit dem beschädigten N elongiert war, oder aber, dass der Steinmetz (irrtümlich?) das Congomen Sennus (Kakoschke 2021, CN 2812) statt des Gentilnomens Sennius (Kakoschke 2021, GN 1175) schrieb. Das ineinandergeschriebene VS am Ende von Z.3 zeigt zumindest die Platzprobleme mit denen der Steinmetz konfrontiert war. In Z.4 sind eindeutig die oberen Reste eines O sowie einer NT-Ligatur erhalten. Der letzte Buchstabe von Z.4 ist als L zu lesen, da sich am darüber befindlichen Fragment keine Spuren der oberen Querhaste eines E feststellen lassen. Auf den Fragmenten für Z.5 lassen sich die Reste zweier Schräghasten feststellen, die aufgrund inhaltlicher Überlegungen und vom vorhandenen Platz aus betrachtet als X und V zu rekonstruieren sind. Vgl. hierzu Wiegels (1982, 41–43). </p><p>Zu Ligaturen: s. Majuskelumschrift</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130500</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="5.0" atMost="5.5">5,0–5,5</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140200">nachgezogen</term>
+                      
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -78,7 +77,8 @@
 						<provenance type="found" when="1784"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Badenweiler</ref> </placeName> <p><p>am Eingang zum Bad Richtung Westen (CIL)<br/></p></p> <location>
 								<geo decls="#WGS"/>
 							</location> <note anchored="true"><p>während gezielter Ausgrabungen<br/></p></note> </provenance>
-						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung gründet auf: Wiegels 1982<br/></p></provenance>
+						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (CIL XIII Projekt)<br/></p>
+                                                </provenance>
 					</history>
 				</msDesc>
 				<listPlace>
@@ -110,15 +110,14 @@
 						</persName>
 					</person>
 					<person>
-						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> </ref> </persName>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Fronto</ref> </persName>
 					</person>
 					<person>
 						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
 						</roleName> </persName>
 					</person>
 					<person>
-						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">
-						</ref></persName>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">Sennius</ref></persName>
 					</person>
 					<person>
 						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
@@ -221,9 +220,9 @@
 			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
 			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
 				<listBibl>
-					<bibl xml:id="1">Brambach 1867 (Corpus), Nr.1654, Nr.1657a-c</bibl>
+					<bibl xml:id="1">Brambach 1867 (Corpus), Nr.1654, Nr.1657a–c</bibl>
 				
-            <bibl xml:id="2">CIL XIII 5334, 5337a-e</bibl>
+            <bibl xml:id="2">CIL XIII 5334, 5337a–e</bibl>
         
             <bibl xml:id="4">Riese 1914, Nr.2714</bibl>
         
@@ -240,10 +239,10 @@
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
 				<listBibl>
-					<bibl type="EDCS"><idno>EDCS-10800739</idno><date>2024-02-13</date></bibl>
-					<bibl type="EDH"><idno>HD001803</idno><date>2020-07-03</date></bibl>
-					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/209809</idno><date>2024-02-13</date></bibl>
-					<bibl type="lupa"><idno>http://lupa.at/8307</idno><date>2022-12-20</date></bibl>
+					<bibl type="EDCS"><idno>EDCS-10800739</idno><date>zuletzt abgerufen 2024-02-13</date></bibl>
+					<bibl type="EDH"><idno>HD001803</idno><date>Version von 2020-07-03</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/209809</idno><date>zuletzt abgerufen 2024-02-13</date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/8307</idno><date>Version von 2022-12-20</date></bibl>
 					<bibl type="other"><idno> </idno><date> </date></bibl>
 				</listBibl>
 			</div>
@@ -267,7 +266,7 @@
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="3">
-					<note anchored="true">Nur Wiedergabe von Z.1-2 – Brambach Nr.1654, CIL 5334, Riese, Wagner (kein Zusammenhang mit den Bruchstücken von Z.3-5: Brambach Nr.1657a-c, CIL 5337a-e hergestellt)</note>
+					<note anchored="true">nur Wiedergabe von Z.1–2 – Brambach Nr.1654, CIL 5334, Riese, Wagner (kein Zusammenhang mit den Bruchstücken von Z.3–5: Brambach Nr.1657a–c, CIL 5337a–e hergestellt)</note>
 				</app>
 			
             <app loc="4">
@@ -299,7 +298,7 @@
 			<note type="Material_note"><p>Wiegels 1982, 41: oolithischer Schillkalk<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"/>
+			<note type="InvNr_note"><p>so die lupa<br/></p></note>
 			<note type="Fundstelle_note"/>
 			<note type="Fundumst_note">                                                    <p>Siehe Wagner 1908, 165-167; Heinz 1982 "Der Diana Abnoba-Altar in Badenweiler"<br/></p></note>
 			<note type="Fundjahr_note"><p>so CIL - im Frühjahr<br/></p></note>

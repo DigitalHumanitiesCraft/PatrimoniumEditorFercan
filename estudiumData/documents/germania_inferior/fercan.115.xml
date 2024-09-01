@@ -83,8 +83,8 @@
                     <width unit="cm">18,0</width>
                     <depth unit="cm">11,5</depth>
                   </dimensions>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dimensions" anchored="true">Die angegebenen Maße sind die des erhaltenen
-                    Fragments.</tei:note>
+                                    <note type="dimensions" anchored="true">Die angegebenen Maße sind die des erhaltenen
+                    Fragments.</note>
                                 </support>
                 <condition>
                                     <ref type="context" target="context:fercan.condition-o.groeszeres_fragment" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres
@@ -100,8 +100,8 @@
                     die erste Zeile erfasst ist. Das „cum“ in der letzten Zeile lässt vermuten, dass
                     vermutlich noch ein dritter Dedikant auf der Inschrift genannt
                     war.<lb/>Ligaturen: s. Majuskeltext</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">größeres
-                    Fragment</tei:note>
+                                    <note type="condition" anchored="true">größeres
+                    Fragment</note>
                                 </layout>
               </layoutDesc>
             </objectDesc>
@@ -134,12 +134,12 @@
                             </placeName>
                             <p part="N">Deutz, am
                 Rheinufer</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                 <geo decls="#WGS">50.937769 6.958583</geo>
-              </tei:location>
-                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ursprünglich wohl im Kastell von Köln-Deutz vermauert, dann mit dem
+              </location>
+                            <note anchored="true">ursprünglich wohl im Kastell von Köln-Deutz vermauert, dann mit dem
                 Abbruchschutt an der Rheinfront aufgeschüttet, wo der Stein zutage
-              kam</tei:note>
+              kam</note>
                         </provenance>
             <provenance type="observed" subtype="autopsied">
                             <p part="N">non vidimus</p>
@@ -197,63 +197,68 @@
           </person>
           <person instant="false">
             <persName type="divine" subtype="celtic_element" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.dce.abirenes">Matronae? Abirenes; </ref>
+                            <ref type="context" target="context:fercan.dce.abirenes">Matronae? Abirenes; Hercules Magusanus; Mahal[---]</ref>
                         </persName>
           </person>
           <person instant="false">
             <persName type="divine" subtype="celtic_element" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.dce.magusanus">Hercules Magusanus;</ref>
+                            <ref type="context" target="context:fercan.dce.magusanus">Matronae? Abirenes; Hercules Magusanus; Mahal[---]</ref>
                         </persName>
           </person>
           <person instant="false">
             <persName type="divine" subtype="celtic_element" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.dce.mahlinehae">Mahal[---]</ref>
+                            <ref type="context" target="context:fercan.dce.mahlinehae">Matronae? Abirenes; Hercules Magusanus; Mahal[---]</ref>
                         </persName>
           </person>
+         
           <person instant="false">
-            <persName type="divine" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.divine-o.diana">Diana</ref>
-                        </persName>
-          </person>
-          <person instant="false">
-            <persName type="divine" instant="false" full="yes">
+            <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.divine-o.genius_loci">Genius loci</ref>
                         </persName>
           </person>
           <person instant="false">
-            <persName type="divine" instant="false" full="yes">
+            <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.divine-o.mercurius">Mercurius</ref>
                         </persName>
           </person>
           <person instant="false">
-            <persName type="divine" instant="false" full="yes">
+            <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.divine-o.silvanus">Silvanus</ref>
                         </persName>
           </person>
           <person instant="false">
-            <persName type="divine" instant="false" full="yes">
+            <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.divine-o.victoria">Victoria</ref>
                         </persName>
           </person>
+                    <person instant="false">
+            <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.person.divine-o.diana">Diana</ref>
+                        </persName>
+          </person>
+          <person instant="false">
+                        <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.person.divine-o.dis_deabusque">dis deabusque</ref>
+                        </persName>
+                    </person>
           <person instant="false">
             <persName instant="false" full="yes">
                             <roleName type="military" full="yes">
-                                <ref type="context" target="context:fercan.person.military.curator_numeri">curator
-                numeri</ref>
+                                <ref type="context" target="context:fercan.person.military.curator_numeri">curator numeri; veredarius; veteranus</ref>
                             </roleName>
                         </persName>
           </person>
           <person instant="false">
             <persName instant="false" full="yes">
                             <roleName type="military" full="yes">
-                                <ref type="context" target="context:fercan.person.military.veredarius">veredarius</ref>
+                                <ref type="context" target="context:fercan.person.military.veredarius">curator numeri; veredarius; veteranus</ref>
                             </roleName>
                         </persName>
           </person>
           <person instant="false">
             <persName instant="false" full="yes">
                             <roleName type="military" full="yes">
-                                <ref type="context" target="context:fercan.person.military.veteranus">veteranus</ref>
+                                <ref type="context" target="context:fercan.person.military.veteranus">curator numeri; veredarius; veteranus</ref>
                             </roleName>
                         </persName>
           </person>
@@ -312,7 +317,9 @@
             <item>
                             <ref type="context" target="context:fercan.dedication.pro_salute_domini_nostri">pro salute domini nostri</ref>
                         </item>
-            <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+            <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">[Matron?]is Abirenibu[s]; [Herc]uli Magusan[o]; Mahal[inis?]</ref> </item>
+                    </list>
+                </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
@@ -336,9 +343,9 @@
         <listBibl default="false">
           <bibl xml:id="LIT.1" default="false" status="draft">ILS 4630 mit add.</bibl>
           <bibl xml:id="LIT.2" default="false" status="draft">CIL XIII 8492</bibl>
-          <bibl xml:id="LIT.3" default="false" status="draft">Alföldy 1968 Hilfstruppen, 220, Nr.184</bibl>
+          <bibl xml:id="LIT.3" default="false" status="draft">Alföldy 1968 (Hilfstruppen), 220 Nr.184</bibl>
           <bibl xml:id="LIT.4" default="false" status="draft">Galsterer/Galsterer 1975, Nr.39</bibl>
-          <bibl xml:id="LIT.5" default="false" status="draft">Galsterer/Galsterer 1981, 230, Anm.12</bibl>
+          <bibl xml:id="LIT.5" default="false" status="draft">Galsterer/Galsterer 1981, 230 Anm.12</bibl>
           <bibl xml:id="LIT.6" default="false" status="draft">Galsterer/Galsterer 2010, Nr.52</bibl>
           <bibl xml:id="LIT.7" default="false" status="draft">KIK 2012, Nr.55</bibl>
         
@@ -349,6 +356,10 @@
       </div>
       <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
         <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD075319</idno>
+                        <date>Version vom 11. Februar 2019</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-01200332</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -387,45 +398,44 @@
       </div>
       <div type="apparatus" org="uniform" part="N" sample="complete">
         <app loc="#MIN.1 #MAJ.1">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Am Anf.: In h(onorem) d(omus) d(ivinae) – Alföldy; die unterstrichenen Teile in            Z.1–12 sind heute nicht mehr erhalten, sie werden nach CIL wiedergegeben; fehlt – Scheungraber; Pro sa[l(ute) d(omini) n(ostri)] – Ferlut </tei:note>
+          <note anchored="true">Am Anf.: In h(onorem) d(omus) d(ivinae) – Alföldy; die unterstrichenen Teile in            Z.1–12 sind heute nicht mehr erhalten, sie werden nach CIL wiedergegeben; fehlt – Scheungraber; Pro sa[l(ute) d(omini) n(ostri)] – Ferlut </note>
         </app>
         <app loc="#MIN.2 #MAJ.2">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Herc]uli Magusan[o Ambi-] – Galsterer/Galsterer 1981; ohne Ligaturen – ILS,
-            Alföldy, Galsterer/Galsterer 2010, KIK 2012</tei:note>
+          <note anchored="true">[Herc]uli Magusan[o Ambi-] – Galsterer/Galsterer 1981; Magusan[o Ma?]- – EDH; ohne Ligaturen – ILS, Alföldy, Galsterer/Galsterer 2010, KIK 2012</note>
         </app>
         <app loc="#MIN.3 #MAJ.3">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[amarc]is Abirenibu[s et] – Galsterer/Galsterer 1981; ohne Ligatur – ILS, Alföldy,            Galsterer/Galsterer 2010, KIK 2012; ohne Zeilenwechsel – ILS; [-tron]is Abirenibu[s et] – Ferlut</tei:note>
+          <note anchored="true">[amarc]is Abirenibu[s et] – Galsterer/Galsterer 1981; ohne Ligatur – ILS, Alföldy,            Galsterer/Galsterer 2010, KIK 2012; ohne Zeilenwechsel – ILS; [-tron]is Abirenibu[s et] – Ferlut</note>
         </app>
         <app loc="#MIN.4 #MAJ.4">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Geni[o], ohne Ligatur – ILS; ohne Ligatur – Alföldy, Galsterer/Galsterer 2010, KIK
-            2012</tei:note>
+          <note anchored="true">Geni[o], ohne Ligatur – ILS; ohne Ligatur – Alföldy, Galsterer/Galsterer 2010, KIK
+            2012</note>
         </app>
         <app loc="#MIN.5 #MAJ.5">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Dia]nae – Alföldy, [Dia]ne – Galsterer/Galsterer 1975, Galsterer/Galsterer 2010,            KIK2012; Mahal[ineis] – Galsterer/Galsterer 2010, KIK 2012, Scheungraber; Mahal[inis] – Ferlut </tei:note>
+          <note anchored="true">[Dia]nae – Alföldy, [Dia]ne – Galsterer/Galsterer 1975, Galsterer/Galsterer 2010, EDH; KIK2012; Mahal[ineis] – Galsterer/Galsterer 2010, KIK 2012, Scheungraber; Mahal[inis] – Ferlut </note>
         </app>
         <app loc="#MIN.6 #MAJ.6">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">am Anf. [---]rie, ohne Ligatur – ILS; [Vic]torie – Galsterer/Galsterer 1975,
+          <note anchored="true">am Anf. [---]rie, ohne Ligatur – ILS; [Vic]torie – Galsterer/Galsterer 1975,
             Galsterer/Galsterer 2010, KIK 2012; ohne Ligatur – Alföldy, Galsterer/Galsterer 2010,
-            KIK 2012</tei:note>
+            KIK 2012</note>
         </app>
         <app loc="#MIN.7 #MAJ.7">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">dis dea[busque], ohne Ligaturen – ILS; dis – Alföldy, Galsterer/Galsterer 1975,            Galsterer/Galsterer 2010, KIK 2012, Scheungraber, Ferlut; ohne Ligaturen – Alföldy, Galsterer/Galsterer 2010, KIK 2012</tei:note>
+          <note anchored="true">dis dea[busque], ohne Ligaturen – ILS; dis – Alföldy, Galsterer/Galsterer 1975, Galsterer/Galsterer 2010, KIK 2012, EDH, Scheungraber, Ferlut; ohne Ligaturen – Alföldy, Galsterer/Galsterer 2010, KIK 2012</note>
         </app>
         <app loc="#MIN.8 #MAJ.8">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[omn]ibus, ohne Ligatur – ILS; Similini[us] – Alföldy, Galsterer/Galsterer 1975, Galsterer/Galsterer 2010, KIK2012, Scheungraber, Ferlut; ohne Ligaturen – Alföldy, Galsterer/Galsterer 2010;            KIK 2012</tei:note>
+          <note anchored="true">[omn]ibus, ohne Ligatur – ILS; Similini[us] – Alföldy, Galsterer/Galsterer 1975, Galsterer/Galsterer 2010, KIK2012, Scheungraber, Ferlut; ohne Ligaturen – Alföldy, Galsterer/Galsterer 2010;            KIK 2012</note>
         </app>
         <app loc="#MIN.9 #MAJ.9">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">vered[ar.] – ILS</tei:note>
+          <note anchored="true">vered[ar.] – ILS</note>
         </app>
         <app loc="#MIN.10 #MAJ.10">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Dirimes[---] Alföldy, ohne Ligatur – ILS, Alföldy, Galsterer/Galsterer 2010, KIK
-            2012</tei:note>
+          <note anchored="true">Dirimes[---] Alföldy, ohne Ligatur – ILS, Alföldy, Galsterer/Galsterer 2010, KIK
+            2012</note>
         </app>
         <app loc="#MIN.11. #MAJ.11.">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">item c[---] – ILS</tei:note>
+          <note anchored="true">item c[---] – ILS</note>
         </app>
         <app loc="#MIN.12 #MAJ.12">
-          <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[…]cu[…] – ILS; [n(umeri) Brit(t)o]num cum [---] – Alföldy; [n(umeri) Britto]num cum [ – Scheungraber, Ferlut</tei:note>
+          <note anchored="true">[…]cu[…] – ILS; [n(umeri) Brit(t)o]num cum [---] – Alföldy; [n(umeri) Britto]num cum [ – Scheungraber, Ferlut</note>
         </app>
       </div>
       <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
@@ -446,8 +456,11 @@
       <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
         <p part="N">v.5: „Diane” pro „Dianae”<lb/>v.6: „Victorie” pro „Victoriae”</p>
       </div>
-      <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">        <p part="N">
-          <rs type="divine">Abirenes:</rs> keltisch: ‚Anwohner des Rheins’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 258f) </p>
+      <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">              <p>  <rs type="divine">Abirenes:</rs> keltisch: ‚Anwohner des Rheins’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 258f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)</p>
         <p part="N"> Vorkommen in theonymischen Formularen: </p>
         <p part="N">
           <rs type="divine">Matronae? Abirenes</rs>: <lb/> - Germania Inferior: In der hier
@@ -459,7 +472,11 @@
           Ambioreneses 1x belegt (CF-GeI-106). <lb/> - außerhalb der Germania Inferior: - </p>
         <p part="N"> *** </p>
         <p part="N">
-          <rs type="divine">Magusanus</rs>: keltisch:<rs type="divine"/> ‚Mächtiger Alter' (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 109-111). </p>
+          <rs type="divine">Magusanus</rs>: keltisch:<rs type="divine"/> ‚Mächtiger Alter' (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 109-111). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)</p>
         <p part="N"> Vorkommen in theonymischen Formularen: </p>
         <p part="N">
           <rs type="divine">Hercules Magusanus</rs>: <lb/> - Germania Inferior: sehr gut belegt
@@ -476,7 +493,17 @@
           bezeugt <lb/> - außerhalb der Germania Inferior: In der Provinz Dacia ist 1x ein <rs type="divine">deus Mag…</rs> bezeugt (AE 1995, 1280). </p>
         <p part="N"> *** </p>
         <p part="N">
-          <rs type="divine">Mahal[---]?:</rs> keltisch: "die weggebrochene Belegform Mahal[---] [dürfte] m. E. den keltischen Namen einer anderen fürstlichen Gottheit darstellen und somit eher als <rs type="divine">Mahal[ui]</rs> bzw. <rs type="divine">Mahal[o]</rs> oder <rs type="divine">Mahal[i]</rs> bzw. <rs type="divine">Mahal[e]</rs> zu ergänzen sein." (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 190).<br/>
+          <rs type="divine">Mahal[---]?:</rs> keltisch: "die weggebrochene Belegform Mahal[---] [dürfte] m. E. den keltischen Namen einer anderen fürstlichen Gottheit darstellen und somit eher als <rs type="divine">Mahal[ui]</rs> bzw. <rs type="divine">Mahal[o]</rs> oder <rs type="divine">Mahal[i]</rs> bzw. <rs type="divine">Mahal[e]</rs> zu ergänzen sein." (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 190). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)</p>
+                <p part="N">
+                    <rs type="divine">Mahlinehae</rs>:</p>
+                <p part="N">- Germania Inferior: nur in der hier besprochenen Inschrift belegt - außerhalb der Germania Inferior: -</p>
+                <p part="N">
+                    <rs type="divine">Matronae Mahlinehae</rs>:</p>
+                <p part="N">- Germania Inferior: Das theonymische Formular ist 2x belegt (CF-GeI-296, CF-GeI-297). - außerhalb der Germania Inferior: -<br/>
                 </p>
             </div>
       <linkGrp type="alignment" domains="#majuscule #minuscule">
@@ -495,35 +522,35 @@
       </linkGrp>
     </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">
                 <p part="N">Alte Version (17.04.23):</p>
                 <p part="N">
                     <span style="box-sizing: border-box; color: rgb(71, 71, 71); font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif; font-size: 14px; font-variant: small-caps; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: -30px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-style: italic;">Abirenes:</span>
@@ -543,7 +570,7 @@
                 <p part="N">
                     <span style="color: rgb(71, 71, 71); font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: -30px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"/>
                 </p>
-            </tei:note>
+            </note>
         </back>
   </text>
 </TEI>

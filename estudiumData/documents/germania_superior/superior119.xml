@@ -42,7 +42,7 @@
 					<msIdentifier>
 						<settlement>Mannheim</settlement>
 						<repository>Reiss-Engelhorn-Museen </repository>
-						<idno>E 4,12</idno>
+						<idno> </idno>
 					</msIdentifier>
 					<msContents>
 						<summary>Weihinschrift</summary>
@@ -50,35 +50,37 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
-									<objectType>Weihestein</objectType> <dimensions>
+								<support> <p>                                                <p>Das erhaltene Objekt ist eine Statuenbasis, die Statue ist nicht mehr erhalten. Das ungerahmte Inschriftenfeld ist zurück versetzt, aber sonst nicht von Basis und Aufsatz getrennt. Auf der rechten Seite befinden sich in regelmäßigem Abstand kugelförmige Fehlstellen und der Stein scheint allgemein abgerieben.<br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110600">Statuenbasis/Basis</objectType> <dimensions>
 										<height unit="cm">46</height>
 										<width unit="cm">35,5</width>
 										<depth unit="cm">16</depth>
-									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+									</dimensions> <note type="dimensions" anchored="true">Die angegebenen Maße sind die des erhaltenen Objektes.</note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
 								<layout> <p>                                                <p>Die erste Zeile der Inschrift befindet sich am Gesims des Statuensockels, die übrigen drei Zeilen nehmen etwas mehr als die Hälfte der darunter befindlichen Fläche ein. Die Buchstaben sind ungleichmäßig und nur oberflächlich eingemeißelt.</p>
-                                                <p>Das Gesims ist am linken und am rechten Ende beschädigt was für Z.1 zum Verlust mehrerer Buchstaben geführt hat. Das Inschriftenfeld ist rechts mehrmals ausgebrochen was zum Verlust des Endes von Z.2 und in Z.3 von Teilen des S geführt hat.</p>
-                                                <p>Zu Ligaturen: s. Majuskelumschrift. - Besondere Zeichen: Aus Platzgründen wurde in Z.1 ist das V in das C, in Z.3 das I zwischen T und N, sowie das V zwischen N und den Resten des S jeweils kleiner eingeschrieben.</p></p> <note type="condition" anchored="true"/> </layout>
+                                                <p>Das Gesims ist am linken und am rechten Ende beschädigt was für Z.1 zum Verlust mehrerer Buchstaben geführt hat. Das Inschriftenfeld ist rechts mehrmals ausgebrochen, was zum Verlust des Endes von Z.2 und in Z.3 von Teilen des S geführt hat. </p><p>Zu Ligaturen: s. Majuskelumschrift - Besondere Zeichen: Aus Platzgründen wurde in Z.1 das V in das C, in Z.3 das I zwischen T und N, sowie das V zwischen N und den Resten des S jeweils kleiner eingeschrieben.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130500</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="3.4" atMost="4.0">3,4–4,0</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p><p>Von der Figur sind nur mehr die Füße bzw. Schuhe erhalten, die in V-Stellung links am Stein stehen.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251801">Schuhe</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150100">Inschrift außerhalb des Inschriftenfeldes</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150400">Reliefschmuck</term>
+                      
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1844"> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+						<provenance type="found" when="1844"> <placeName> <ref type="context" target="context:fercan.geog.modern."> Mannheim</ref> </placeName> <p>                                                <p>"am Heerde eines hiesigen Hauses" (Fickler/ Christ 1865, 14 Nr.16b)<br/></p></p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true"/> </provenance>
-						<provenance type="observed" subtype="autopsied"/>
+							</location> <note anchored="true">                                                <p>"Im Februar dieses Jahres wurde hier in einem Hause, welches der Churfürst Karl Theodor erbauen liess, der Feuerheerd im untern Stockwerke abgebrochen ; bei welcher Gelegenheit ein Stein mit römischer Schrift, der in diersem Heerde eingemauert war, zum Vorschein kam." (Rappenegger 1844, 230 Nr.3)<br/></p></note> </provenance>
+						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (CIL XIII Projekt)<br/></p>
+                                                </provenance>
 					</history>
 				</msDesc>
 				<listPlace>
@@ -100,7 +102,7 @@
 					<!-- theonymisches formular -->
 					<person>
 						<persName subtype="celtic_normalized" type="divine">
-							<ref target="context:fercan.dcn." type="context">Mercurius Alaunus</ref>
+							<ref target="context:fercan.dcn." type="context">Genius Mercurius Alaunus</ref>
 						</persName>
 					</person>
 					<!-- keltisches götternamenelement  -->
@@ -192,7 +194,7 @@
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
 						<!-- Belegform gesamt  -->
-						<item> <ref target="context:fercan.divinepart." type="context">Genio Mercur(ii) Alauni</ref> </item>
+						<item> <ref target="context:fercan.divinepart." type="context">[Ge]nio Mercur[ii] Alauni</ref> </item>
 					</list>
 				</keywords>
 			</textClass>
@@ -206,12 +208,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic mimeType="image/png" xml:id="IMAGE.1" url="1333_front1.png">
+		<graphic mimeType="image/png" xml:id="IMAGE.1" url="1133_front1.png">
 			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
 		</graphic>
 	
             <!-- todo: @xml:id-->
-            <graphic mimeType="image/png" url="1333_front2.png">
+            <graphic mimeType="image/png" url="1133_front2.png">
                 <desc>Front, CIL XIII Projekt, CC BY-NC</desc>
             </graphic>
         </facsimile>
@@ -232,7 +234,7 @@
         
             <bibl xml:id="7">ILS 4589</bibl>
         
-            <bibl xml:id="8">Wagner 1911, 239f</bibl>
+            <bibl xml:id="8">Wagner 1911, 239f.</bibl>
         
             <bibl xml:id="9">Riese 1914, Nr.2785</bibl>
         
@@ -242,7 +244,7 @@
         
             
         
-            <bibl xml:id="12">Hupe 1997, 171f Nr.102</bibl>
+            <bibl xml:id="12">Hupe 1997, 171f. Nr.102</bibl>
         
             
         
@@ -250,38 +252,42 @@
         
             <bibl xml:id="13">Scheungraber 2020, 88 Nr.1</bibl>
         
-            <bibl xml:id="14">Lipps et al. 2021, 487-491 Kat.94</bibl>
+            <bibl xml:id="15">Lipps et al. 2021, 487–91 Kat.94</bibl>
         
-            <bibl xml:id="2">Rappenegger 1848-1849, 286</bibl>
+            <bibl xml:id="2">Rappenegger 1848–1849, 286</bibl>
+        
+            <bibl xml:id="14">Noelke 2020/2021, 350 Nr.2.50</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
 				<listBibl>
-					<bibl type="EDCS"><idno>EDCS-11000443</idno><date>2024-02-15</date></bibl>
-					<bibl type="EDH"><idno>HD036541</idno><date> 2018-10-25</date></bibl>
-					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/210820</idno><date>2024-02-15</date></bibl>
+					<bibl type="EDCS"><idno>EDCS-11000443</idno><date>zuletzt abgerufen 2024-02-15</date></bibl>
+					<bibl type="EDH"><idno>HD036541</idno><date>Version von 2018-10-25</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/210820</idno><date>zuletzt abgerufen 2024-02-15</date></bibl>
 					<bibl type="lupa"><idno> </idno><date> </date></bibl>
-					<bibl type="other"><idno>https://cil.bbaw.de/ace/id/49346</idno><date>2024-02-15</date></bibl>
+					<bibl type="other"><idno>https://cil.bbaw.de/ace/id/49346</idno><date>zuletzt abgerufen 2024-02-15</date></bibl>
 				</listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
-				<ab><lb n="1"/><gap reason="lost" quantity="2" unit="character"/>ENIO<g type="interpunct">▴</g>M<hi rend="ligature">ER</hi>CVR<gap reason="lost" quantity="2" unit="character"/>
+				<ab><lb n="1"/><gap reason="lost" quantity="1" unit="character"/><hi rend="ligature">EN</hi>IO<g type="interpunct">▴</g>M<hi rend="ligature">ER</hi>CVR<gap reason="lost" quantity="2" unit="character"/>
 <lb n="2"/>AL<hi rend="ligature">AV</hi>NI<g type="interpunct">▴</g>IVL<g type="interpunct">▴</g>AC<gap reason="lost" quantity="2" unit="character"/>
 <lb n="3"/>NIVS<g type="interpunct">▴</g><hi rend="ligature">AV</hi>GUSTINVS
-<lb n="4"/>EX<g type="interpunct">▴</g>V<g type="interpunct">▴</g>S<g type="interpunct">▴</g>L<g type="interpunct">▴</g>L<g type="interpunct">▴</g>M<orig/></ab></div>
-			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><supplied reason="lost">Ge</supplied>nio Mercur<supplied reason="lost">ii</supplied>
+<lb n="4"/>EX<g type="interpunct">▴</g>V<g type="interpunct">▴</g>S<g type="interpunct">▴</g>L<g type="interpunct">▴</g>L<g type="interpunct">▴</g>M<g type="interpunct">▴</g><orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><supplied reason="lost">G</supplied>enio Mercur<supplied reason="lost">ii</supplied>
 <lb n="2"/>Alauni <expan><abbr>Iul</abbr><ex>ius</ex></expan> Ac<supplied reason="lost">co</supplied>
 <lb n="3" break="no"/>nius Augustinus
 <lb n="4"/>ex <expan><abbr>v</abbr><ex>oto</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
-				<p><p>Dem Genius des <rs type="divine">Mercurius Alaunus</rs>!</p><p>Iulius Acconius Augustinus hat aufgrund eines Gelübdes (dieses) freudig, gerne und verdientermaßen erfüllt.<br/></p></p>
+				<p>                                                <p>Dem Genius des <rs type="divine">Mercurius Alaunus</rs>!</p>
+                                                <p>Iulius Acconius Augustinus hat aufgrund eines Gelübdes (dieses) freudig, gerne und verdientermaßen erfüllt.<br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p><p>To the genius of Marcurius Alaunus!</p><p>Iulius Acconius Augustinus has, in accodrance to a vow, fulfilled it gladly, willingly and deservedly. </p></p>
+				<p>                                                <p>To the genius of <rs type="divine">Mercurius Alaunus</rs>!</p>
+                                                <p>Iulius Acconius Augustinus has, in accodrance to a vow, fulfilled it gladly, willingly and deservedly. </p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="1">
-					<note anchored="true">Mercur[i] – Scheungraber, Lipps et al.</note>
+					<note anchored="true">[Ge]nio – Rappenegger, Steiner, Brambach, Haug, CIL, Wagner; Genio – ILS; [Ge]nio Mercur[i] – Scheungraber, Lipps et al.; Mercur(ii) – Noelke</note>
 				</app>
 			
             <app loc="2">
@@ -293,13 +299,14 @@
             </app>
         
             <app loc="4">
-                <note anchored="true">sacravit (oder soluto, suscepto) laetus lubens – Rappenegger 1844; soluto oder suscepto laetus lubens merito – Rappenegger 1848-1849; suscepto laetus lubens – Steiner; l(aetus) l(ubens) – Haug; l(ibens) l(aetus) – Espérandieu; s(olvit) l(ibens) m(erito) – Bauchhenß</note>
+                <note anchored="true">sacravit (oder soluto, suscepto) laetus lubens – Rappenegger 1844; soluto oder suscepto laetus lubens merito – Rappenegger 1848-1849; suscepto laetus lubens – Steiner; l(aetus) l(ubens) – Haug; l(ibens) l(aetus) – Espérandieu, Noelke; s(olvit) l(ibens) m(erito) – Bauchhenß</note>
             </app>
         </div>
 			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Iulius Acconius Augustinus: tria nomina</p>
-                                                <p>Acconius: italisches Gentilnomen oder einheimisches Pseudogentil abgeleitet vom keltischen Namen Acco, in den keltischen Provinzen verbreitet (Kakoschke 2021, GN 8)</p>
+                                                <p>Acconius: italisches Gentilnomen oder einheimisches Pseudogentil, abgeleitet vom keltischen Namen Acco, in den keltischen Provinzen verbreitet (Kakoschke 2021, GN 8)</p>
                                                 <p>Augustinus: lateinischer Name, weit verbreitet (Kakoschke 2021, CN 385)<br/>
-                                                    </p><p> </p>
+                                                    </p>
+                                                <p> </p>
 			<p/></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
 				<p> </p>
@@ -311,17 +318,18 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"/>
+			<note type="Objbeschr_note"><p>Rappenegger 1845, 82 Nr. 56: Der obere Theil ist abgeschlagen und es sind nur noch Reste sichtbar, die Füsse zu seyn scheinen, woraus zu vermuthen ist, dass eine Figur darauf gestanden sey. <br/></p></note>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"><p>Wagner 1911, 239: Grauer Sandstein<br/></p></note>
+			<note type="Material_note">                                                    <p>Wagner 1911, 239: Grauer Sandstein</p>
+                                                    <p>Rappenegger 1844, 230 Nr. 3: gelblicher Sandstein</p><p>Haug 1877, 61 Nr. 88<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"><p>Lipps et al. 2021, 487 "REM, Depot im Keller der Musikschule"</p></note>
+			<note type="InvNr_note">                                                    <p>Lipps et al. 2021, 487 "REM, Depot im Keller der Musikschule"; <span>E 4,12 = keine Inv.Nr.<br/></span></p></note>
 			<note type="Fundstelle_note"/>
-			<note type="Fundumst_note">                                                    <p>s. Rappenegger 1844, 231; Lipps et al. 487<br/></p></note>
-			<note type="Fundjahr_note"><p>Rappenegger 1844, 231</p></note>
+			<note type="Fundumst_note">                                                    <p>s. Rappenegger 1844, 231; Lipps et al. 487</p><p>CIL: Abriss eines Hauses?<br/></p></note>
+			<note type="Fundjahr_note">                                                    <p>so Rappenegger 1844, 231 - Februar<br/></p></note>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note"/>
+			<note type="FOmodern_note"><p>Rappenegger 1844 231<br/></p></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
@@ -330,9 +338,9 @@
 			<note type="dtUEbers_note"/>
 			<note type="Editionen_note"/>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note">                                                    <p>Lipps et al. 2021, 487<br/></p></note>
+			<note type="Masse_note">                                                    <p>Lipps et al. 2021, 487</p><p>Haug 1877, 61 Nr. 88: H. 41, Br. 37, D. 18<br/></p></note>
 			<note type="Ikonogr_note"/>
-			<note type="Inschrtext_note"/>
+			<note type="Inschrtext_note"><p>Haug 1877, 61 Nr. 88: Die Schrift ist fein und scharf, aber flach eingehauen. Z. 1 steht auf dem ein wenig vortretenden Rand.<br/></p></note>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
 			<note type="Buchsthoehe_note"><p>Lipps et al. 2021, 487<br/></p></note>

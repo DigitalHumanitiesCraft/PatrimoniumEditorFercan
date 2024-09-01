@@ -42,7 +42,7 @@
 					<msIdentifier>
 						<settlement>Mannheim</settlement>
 						<repository>Reiss-Engelhorn-Museen</repository>
-						<idno>E 4,12</idno>
+						<idno> </idno>
 					</msIdentifier>
 					<msContents>
 						<summary>Weihinschrift</summary>
@@ -51,7 +51,8 @@
 						<objectDesc>
 							<supportDesc>
 								<support> <p>                                                <p>Auffällig ist die grobe Abarbeitung der Oberfläche des Steines auf der rechten und unteren Seite, die von der Basis schräg bis beinahe unter die obere Rahmung reicht. Auch sonst sieht der Weihealtar stellenweise stark abgenutzt aus. Die Gestaltung der Basis kann aufgrund der Abarbeitung nicht mehr nachvollzogen werden. Auf dem Körper des Steines befindet sich die Inschrift in einem doppelt gerahmten Inschriftenfeld, wobei die ersten zwei Zeilen über der Rahmung eingeritzt sind. Unter der eigentlichen Bekrönung befindet sich ein stark abgeschlagener Bereich, dessen ursprünglicher Dekor nicht mehr sichtbar ist. In der Mitte ist ein rechteckiges, ausgeschlagenes Feld zu erkennen.</p>
-                                                <p>Die eigentliche Bekrönung besteht aus einer Lineardekorleiste, auf der links und rechts zwei Voluten in Form von Rosetten angebracht sind. Zwischen diesen befindet sich ein breiter Dreiecksgiebel, unter dem wiederum Verzierungen in Blattform angebracht sind, laut Esperandieu (1922, 11, Nr.5906) „ein stilisiertes Blatt in dreieckiger Form“.</p><p>Auf der Oberseite befindet sich keine Opferschale, jedoch eine viereckige leichte Vertiefung.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+                                                <p>Die eigentliche Bekrönung besteht aus einer Lineardekorleiste, auf der links und rechts zwei Voluten in Form von Rosetten angebracht sind. Zwischen diesen befindet sich ein breiter Dreiecksgiebel, unter dem wiederum Verzierungen in Blattform angebracht sind, laut Esperandieu (1922, 11 Nr.5906) „ein stilisiertes Blatt in dreieckiger Form“. <br/></p>
+                                                <p>Auf der Oberseite befindet sich keine Opferschale, jedoch eine viereckige leichte Vertiefung.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
 									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm">103</height>
 										<width unit="cm">47</width>
@@ -60,9 +61,9 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Vom Inschriftentext fehlt ein großes Stück in der rechten unteren Ecke. Die ersten beiden Zeilen stehen oberhalb des gerahmten Inschriftenfeldes. Ob nach der erhaltenen letzten Zeile noch eine weitere, nun zerstörte, folgte, bleibt unklar.</p>
+								<layout> <p>                                                <p>Vom Inschriftentext fehlt ein großes Stück in der rechten unteren Ecke. Die ersten beiden Zeilen stehen oberhalb des gerahmten Inschriftenfeldes. Ob nach der erhaltenen letzten Zeile noch eine weitere, nun zerstörte folgte, bleibt unklar.</p>
                                                 <p>Die Buchstaben sind unregelmäßig. "Der Steinemtz hatte offensichtlich Schwierigkeiten bei Buchtsaben mit Winkeln, [...]" (Lipps et al. 2021, 566).<br/></p>
-                                                <p>Zu Ligaturen: s. Majuskelumschrift. – Besondere Zeichen: In Z.5 erinnert das erste A an ein kleines griechisches Lambda; nach dem letzten lesbaren Buchstaben in Z.7 hat CIL noch Reste einer vertikalen Haste gesehen; in Z.9 ist das V kleiner als die übrigen Buchstaben.</p></p> <note type="condition" anchored="true"/> </layout>
+                                                <p>Zu Ligaturen: s. Majuskelumschrift. – Besondere Zeichen: In Z.5 erinnert das erste A an ein kleines griechisches Lambda; nach dem letzten lesbaren Buchstaben in Z.7 hat CIL noch Reste einer vertikalen Haste gesehen; in Z.9 ist das V kleiner als die übrigen Buchstaben.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130310</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -76,6 +77,8 @@
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150100">Inschrift außerhalb des Inschriftenfeldes</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160200">Blattdekor</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160100">Lineardekor</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150600">Zierleiste</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -83,7 +86,7 @@
 						<origin> <origPlace> <placeName/> <region>Civitas Nemetum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when="1767"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Landau</ref> </placeName> <p>Stadtteil Godramstein; in der alten Pfarrkirche</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true">„auf dem ‚iter literarium‘ der Pfälzer Academie […] entdeckt“ (Haug 1877, 23, Nr.18)</note> </provenance>
+							</location> <note anchored="true">„auf dem ‚iter literarium‘ der Pfälzer Academie […] entdeckt“ (Haug 1877, 23 Nr.18)</note> </provenance>
 						<provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt) <br/></provenance>
 					</history>
 				</msDesc>
@@ -241,7 +244,7 @@
         
             <bibl xml:id="10">Scheungraber 2020, 524 Nr.3</bibl>
         
-            <bibl xml:id="11">Lipps et al. 2021, 565-568 Kat.124</bibl>
+            <bibl xml:id="11">Lipps et al. 2021, 565–68 Kat.124</bibl>
         
             <bibl xml:id="4">Brambach 1867 (Corpus), Nr.1812</bibl>
         
@@ -310,7 +313,7 @@
             
         
             <app loc="7">
-                <note anchored="true">(die übrigen Buchstaben sind sehr entstellt) – Steiner; [---] – Gräff; Iuliu[---] – Brambach; Iuliu(s et?) – Haug; Iul. Iu[---] – ILS; Iul[ianus et] – Espérandieu; Iul(ius) Iul[---] – EDH, Scheungraber, Lipps et al.</note>
+                <note anchored="true">(Die übrigen Buchstaben sind sehr entstellt.) – Steiner; [---] – Gräff; Iuliu[---] – Brambach; Iuliu(s et?) – Haug; Iul. Iu[---] – ILS; Iul[ianus et] – Espérandieu; Iul(ius) Iul[---] – EDH, Scheungraber, Lipps et al.</note>
             </app>
         
             <app loc="8">
@@ -322,20 +325,21 @@
             </app>
         
             <app loc="10">
-                <note anchored="true">[faciendum curaverunt?] – Haug; eine 10. Zeile könnte zerstört sein – CIL; Lipps et al.</note>
+                <note anchored="true">[faciendum curaverunt?] – Haug; Eine 10. Zeile könnte zerstört sein. – CIL; Lipps et al.</note>
             </app>
         
             <app loc="4">
                 <note anchored="true">OVIBUS – Lamey, Steiner, Gräff</note>
             </app>
         </div>
-			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Travini oder et <rs type="divine">Ravini</rs></p>
-                                                <p>Zur den frühen Lesung von Z.3 s. Apparatus criticus, seit Haug dominiert die Lesung Travini: "Ob die Travini die Bewohner des Ortes oder eine Familie bezeichnen, muss dahingestellt bleiben." (Haug 1877, 23). Neuer Vorschlag "et <rs type="divine">Ravinis</rs>" zu lesen: "<rs type="divine">Ravinis</rs>, in welchem wohl eine mit <i>Taranis</i>/<i>Taranucnus</i> assoziierte Gottheit zu sehen ist, ist nur hier belegt." (in Lipps et al. 2021, 567).</p>
-                                                <p>…? Iulius Iu…: tria nomina?, mindestens römisches Namensformular ohne Pränomen</p>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Travini oder et <rs type="divine">Ravini</rs>
+                                                </p>
+                                                <p>Zur den frühen Lesung von Z.3 s. Apparatus criticus, seit Haug dominiert die Lesung Travini: "Ob die Travini die Bewohner des Ortes oder eine Familie bezeichnen, muss dahingestellt bleiben." (Haug 1877, 23). Neuer Vorschlag "et <rs type="divine">Ravinis</rs>" zu lesen: "<rs type="divine">Ravinis</rs>, in welchem wohl eine mit <rs type="divine">Taranis</rs>/<rs type="divine">Taranucnus</rs> assoziierte Gottheit zu sehen ist, ist nur hier belegt." (in Lipps et al. 2021, 567).</p>
+                                                <p>…? Iulius Iu…: tria nomina?, mindestens römisches Namensformular ohne Praenomen</p>
                                                 <p>Iulius: italisches Gentilnomen, kaiserliches Gentilnomen, überall äußerst gängig (Kakoschke 2021, GN 637)</p>
-                                                <p>Iu...: Anfang zahlreicher Namen (Kakoschke 2021, CN 1637–1670). Wenn die Lesung Iul korrekt: Anfang einiger Namen (Iulius, Iullus/Iulus und deren Varianten. Kakoschke 2021, CN 1639–1645)</p>
+                                                <p>Iu...: Anfang zahlreicher Namen (Kakoschke 2021, CN 1637–1670). Wenn die Lesung Iul korrekt ist: Anfang einiger Namen (Iulius, Iullus/Iulus und deren Varianten. Kakoschke 2021, CN 1639–1645)</p>
                                                 <p>Gaius Cop…: tria nomina?</p>
-                                                <p>Cop…: Möglicherweise das italische Gentilnomen Coponius (Kakoschke 2021, GN 373, Auflösung jedoch zu unsicher weswegen bei Kakoschke 2021, Restbestand 136)</p></div>
+                                                <p>Cop…: Möglicherweise das italische Gentilnomen Coponius (Kakoschke 2021, GN 373; Auflösung jedoch zu unsicher, weswegen bei Kakoschke 2021, Restbestand 136)</p></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
 				<p> </p>
 			</div>
@@ -351,7 +355,7 @@
 			<note type="Material_note"><p>Rot (CIL Kartei), hellroth (Haug 1877, S. 23, Nr. 18)<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note">                                                    <p>Lipps et al. 565, "REM, Depot im Keller der Musikschule"<br/></p></note>
+			<note type="InvNr_note">                                                    <p>Lipps et al. 565, "REM, Depot im Keller der Musikschule"; <span>E 4,12 = keine Inv.Nr.</span></p></note>
 			<note type="Fundstelle_note"><p>So Haug 1877, S. 23, Nr. 18<br/></p></note>
 			<note type="Fundumst_note"/>
 			<note type="Fundjahr_note"/>

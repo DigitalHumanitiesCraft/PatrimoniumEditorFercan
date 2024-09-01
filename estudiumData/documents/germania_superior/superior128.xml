@@ -40,9 +40,9 @@
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<settlement/>
-						<repository/>
-						<idno/>
+						<settlement>Saalburg</settlement>
+						<repository>Museum</repository>
+						<idno>ZV.201</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>Weihinschrift</summary>
@@ -50,34 +50,33 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
+								<support> <p><p>Von diesem Stein sind zwei kleine Fragmente erhalten, die beide vom Inschriftenfeld stammen. Beide sind rundherum gebrochen, sie passen jedoch aneinander. Aufgrund des Erhaltungszustandes ist keine nähere Beschreibung möglich.<br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
 									<objectType>Weihestein</objectType> <dimensions>
-										<height unit="cm">14</height>
-										<width unit="cm">13</width>
+										<height unit="cm">13,5</height>
+										<width unit="cm">12,5</width>
 										<depth unit="cm">8</depth>
 									</dimensions> <note type="dimensions" anchored="true">Die angegebenen Maße sind die der erhaltenen Fragmente.</note> </support>
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130320">kleineres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Von der Inschrift sind nur mehr zwei Bruchstücke mit Resten von insgesamt fünf Zeilen erhalten. Inwieweit sich die Inschrift nach links und rechts, sowie nach oben und unten fortsetzte kann nicht mit Sicherheit bestimmt werden. Die erhaltenen Buchstaben sind regelmäßig.</p>
-                                                <p>In Z.5 sind nur die oberen Hastenreste des V sowie der obere Teil des P erhalten, auffällig ist, dass das P in die untere Hälfte des, durch die Hastenreste des V markierten, Zeilenabstandes hineinragt, obwohl es deutlich kleiner als die anderen Buchstaben ist. Möglicherweise deutet dies auf eine korrigierende Einfügung hin.<br/></p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Von der Inschrift sind nur mehr zwei Bruchstücke mit Resten von insgesamt fünf Zeilen erhalten. Inwieweit sich die Inschrift nach links und rechts, sowie nach oben und unten fortsetzte, kann nicht mit Sicherheit bestimmt werden. Die erhaltenen Buchstaben sind regelmäßig.</p>
+                                                <p>In Z.5 sind nur die oberen Hastenreste des V sowie der obere Teil des P erhalten. Auffällig ist, dass das P in die untere Hälfte des durch die Hastenreste des V markierten Zeilenabstandes hineinragt, obwohl es deutlich kleiner als die anderen Buchstaben ist. Möglicherweise deutet dies auf eine korrigierende Einfügung hin.<br/></p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130320</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="2.0" atMost="2.0">2,0–2,0</height> </handNote>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="1.9" atMost="1.9">1,9–1,9</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150300">glatt</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+						<provenance type="found" when="1904"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Zugmantel</ref> </placeName> <p>                                                <p>Kastell; Exerzierhalle (Reuter 1995, 32 Nr.37)<br/></p></p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true"/> </provenance>
-						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
+							</location> <note anchored="true">                                                <p>bei Einfüllungsarbeiten (Reuter 1995, 32 Nr.37)<br/></p></note> </provenance>
+						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (CIL XIII Projekt)<br/></p></provenance>
 					</history>
 				</msDesc>
 				<listPlace>
@@ -260,7 +259,7 @@
 				</app>
 			
             <app loc="3">
-                <note anchored="true">[deae] Epon[ae] – CIL (7610a, hier noch als Z.1 gezählz da das Stück mit den oberen beiden Zeilen nicht gefunden), Reuter, Scheungraber (hier Z.1); [deae] Ẹp̣on[ae?] – Schmidt Heidenreich; [-]EP(?)ON[---]  – EDH</note>
+                <note anchored="true">[deae] Epon[ae] – CIL (7610a, hier als Z.1 gezählt, da das Stück mit den oberen beiden Zeilen noch nicht gefunden), Reuter, Scheungraber (hier Z.1); [deae] Ẹp̣on[ae?] – Schmidt Heidenreich; [-]EP(?)ON[---]  – EDH</note>
             </app>
         
             <app loc="4">
@@ -288,15 +287,15 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"/>
+			<note type="Objbeschr_note"><p>Kartei: allseits gebrochen</p><p>Jacobi 1909, 109 Nr. 5: Zwei aneinanderpassende Bruchstücke von der linken unteren Ecke eines Blockes aus Sandstein, vermutlich von ener Basis<br/></p></note>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"/>
+			<note type="Material_note"><p>Karteikarte 11969 S. 2<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"/>
-			<note type="Fundstelle_note"/>
-			<note type="Fundumst_note"><p>Jacobi 1909, 109<br/></p></note>
-			<note type="Fundjahr_note"/>
+			<note type="InvNr_note">                                                    <p>Karteiakrte 11969, S. 2</p><p>lt. Karteikarte alte Nummer Z.1<br/></p></note>
+			<note type="Fundstelle_note">Reuter 1995, 32 Nr. 37<br/></note>
+			<note type="Fundumst_note">                                                    <p>Reuter 1995, 32 Nr. 37<br/></p><p>Jacobi 1909, 109</p></note>
+			<note type="Fundjahr_note"><p>lt. Karteikarte: oberes Stück 1904 am Exerzierplatz, so auch Jacobi 1909, 109 Nr. 5<br/></p></note>
 			<note type="FOantik_note"/>
 			<note type="FOmodern_note"/>
 			<note type="civitas_note"/>
@@ -307,12 +306,13 @@
 			<note type="dtUEbers_note"/>
 			<note type="Editionen_note"/>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"/>
+			<note type="Masse_note"><p><span>Karteikarte 11969 S.2<br/></span></p><p><span>Jacobi 1909, 109 Nr.5 H 14, B 13, T 8</span></p></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"><p>EDH<br/></p></note>
+			<note type="Buchsthoehe_note">                                                    <p>Karteikarte 11969<br/></p>
+                                                    <p>EDH 2,0</p><p>Jacobi 1909, 109 Nr. 5: 2</p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>

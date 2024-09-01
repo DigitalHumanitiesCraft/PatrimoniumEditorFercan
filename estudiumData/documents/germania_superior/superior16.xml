@@ -55,12 +55,12 @@
 										<height unit="cm"> 46</height>
 										<width unit="cm"> 14</width>
 										<depth unit="cm"> 26</depth>
-									</dimensions> <note type="dimensions"> Die angegebene Breite bezieht sich auf die Seite mit dem Inschriftenfeld des Weihaltares. </note> </support>
+									</dimensions> <note type="dimensions"> Die angegebene Breite bezieht sich auf die Seite des Weihaltares mit dem Inschriftenfeld. </note> </support>
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
 								<layout> <p>                                                <p>Der Text füllt das Inschriftenfeld vollständig aus. Die Buchstaben sind unregelmäßig und liegen nicht exakt auf einer waagrechten Linie.</p>
-                                                <p>Besondere Zeichen: Das O am Ende von Z.3 ist erheblich kleiner als die anderen Buchstaben. Die Bedeutung des O als letztem Buchstaben in Z.5 bleibt unklar. </p></p> <note type="condition"/> </layout>
+                                                <p>Besondere Zeichen: Das O am Ende von Z.3 ist erheblich kleiner als die anderen Buchstaben. Die Bedeutung des O als letztem Buchstaben in Z.5 bleibt unklar. </p></p> <note type="condition">https://gams.uni-graz.at/o:fercan.arch#C.130400</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -68,9 +68,10 @@
 						</handDesc>
 						<decoDesc>
 							<decoNote> <p>Keine bildliche Gestaltung vorhanden.</p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale</term>
+                      
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160200">Blattdekor</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">Rosette</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale (Gestaltungsmerkmal)</term>
                       
                       
 							</decoNote>
@@ -78,7 +79,7 @@
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName/> <region>Civitas Nemetum</region> </origPlace> <origDate notBefore="" notAfter=""> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1821"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Ruppertsberg</ref> </placeName> <p>auf der Hohenburg; in den Weinbergen von Wolf zu Ruppertsberg und Grohé zu Neustadt (Bernhard 1976, 148 und König 1821, 485, Nr.3) </p> <location>
+						<provenance type="found" when="1821"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Ruppertsberg</ref> </placeName> <p>auf der Hohenburg; in den Weinbergen von Wolf zu Ruppertsberg und Grohé zu Neustadt (Bernhard 1976, 148 und König 1821, 485 Nr.3) </p> <location>
 								<geo decls="#WGS"/>
 							</location> <note>„bei Rigolung der Weinberge“ (Bernhard 1976, 148); gemeinsam mit CF-GeS-1057</note> </provenance>
 						<provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)<br/></provenance>
@@ -225,7 +226,7 @@
 			<div subtype="concordances" type="bibliography" org="uniform">
 				<listBibl>
 					<bibl type="EDCS"><idno> EDCS-11000113</idno><date> zuletzt abgerufen 2023-03-10</date></bibl>
-					<bibl type="EDH"><idno> </idno><date> </date></bibl>
+					<bibl type="EDH"><idno>HD076037</idno><date>Version von 2021-02-18</date></bibl>
 					<bibl type="trismegistos"><idno> </idno><date> </date></bibl>
 					
 				<bibl type="lupa"><idno>http://lupa.at/25533</idno><date>Version von 2020-07-09</date></bibl>
@@ -242,7 +243,7 @@
 <lb n="4"/>SVT PAT
 <lb n="5"/>ERNVS O</ab></div>
 			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/>Deo Cis
-<lb n="2" break="no"/>onio ex
+<lb n="2" break="no"/>onio<note>!</note> ex
 <lb n="3"/>voto po
 <lb n="4" break="no"/><expan><abbr>su</abbr><ex>i</ex></expan>t pat
 <lb n="5" break="no"/>ernus O<abbr/></ab></div>
@@ -254,14 +255,15 @@
 			</div>
 			<div type="apparatus" org="uniform">
 				<app loc="1">
-					<note>Am Ende der Zeile CIS – König; Cis(s) – Scheungraber</note>
+					<note>am Ende der Zeile CIS – König; Cis(s) – EDH, Scheungraber</note>
 				</app>
 			
             <app loc="2">
-                <note anchored="true">Am Anfang der Zeile CNIO – König</note>
+                <note anchored="true">am Anfang der Zeile CNIO – König</note>
             </app>
         </div>
-			<div type="commentary" subtype="general" org="uniform">                                                <p>Paternus: einheimisches Namensformular</p><p>Paternus: lateinischer Name, überall verbreitet, mit Häfung in Gallien, Hispanien und Norditalien (Kakoschke 2021, CN 2319)</p>
+			<div type="commentary" subtype="general" org="uniform">                                                <p>Paternus: einheimisches Namensformular</p>
+                                                <p>Paternus: lateinischer Name, überall verbreitet, mit Häufung in Gallien, Hispanien und Norditalien (Kakoschke 2021, CN 2319)</p>
 			<p/></div>
 			<div type="commentary" subtype="language" org="uniform">
 				<p>                                                <p>v.1/2: „Cisonio“ pro „Cissonio“</p>
@@ -313,7 +315,7 @@ rückwärtigen Seiten konnte ich nicht nachmessen). Buchstabenhöhe
 2,0 – 3,8 cm.</font></span></font></span></p><p/></note>
 			<note type="Notvar_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note">WSpDB: 175-250 Kakoschke: 175-300</note>
+			<note type="Datierung_note"><p>WSpDB: 175-250 Kakoschke: 175-300</p><p>EDH: 131 AD – 300 AD</p></note>
 		<note type="ElektronischeRessourcen_note"/><note type="Index_note"/></back>
 	</text>
 </TEI>

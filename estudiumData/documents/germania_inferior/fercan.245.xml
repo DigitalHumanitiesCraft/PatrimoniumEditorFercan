@@ -90,7 +90,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Der Text füllt das Inschriftenfeld nicht zur Gänze aus (unter dem Text bleibt ein Freiraum). Er ist vollständig erhalten. Durch die Bruchstellen des in mehrere Teile zerbrochenen Altars werden zwar manche Buchstaben gestört, die Lesung aber dadurch nicht beeinträchtigt. Die Buchstabengröße nimmt von oben nach unten ab.<lb/>Besondere Zeichen: In Z.1 stand dem Steinmetz offenbar für die letzten beiden Buchstaben nicht mehr ausreichend Platz zur Verfügung, wodurch sie schmäler ausgefallen sind.</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">weitgehend vollständig</tei:note>
+                                    <note type="condition" anchored="true">weitgehend vollständig</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -139,9 +139,9 @@ Die Schmalseiten sind, so Lehner (1918, 164), mit Baumdarstellungen geschmückt.
                                 <ref type="context" target="context:fercan.geog.modern.bad_muenstereifel_noethen_pesch_temp">Bad Münstereifel Nöthen (Pesch), Tempelbezirk (Matronentempel Eifel)</ref>
                             </placeName>
                             <p part="N">Hof A</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">50.533852 6.702742</geo>
-                            </tei:location>
+                            </location>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)</provenance>
                     </history>
@@ -219,7 +219,7 @@ Die Schmalseiten sind, so Lehner (1918, 164), mit Baumdarstellungen geschmückt.
                         <item>
                             <ref type="context" target="context:fercan.dedication.ex_imperio">ex imperio</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Vocallineihis</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -242,7 +242,7 @@ Die Schmalseiten sind, so Lehner (1918, 164), mit Baumdarstellungen geschmückt.
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 12022</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1918, Nr.366</bibl>
-                    <bibl xml:id="LIT.3" default="false" status="draft">Alföldy 1968, Nr.145</bibl>
+                    <bibl xml:id="LIT.3" default="false" status="draft">Alföldy 1968 (Rheinland III), 53 Nr.145</bibl>
                 
             <bibl xml:id="4">Scheungraber 2020, 558 Nr.17</bibl>
         
@@ -251,9 +251,13 @@ Die Schmalseiten sind, so Lehner (1918, 164), mit Baumdarstellungen geschmückt.
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD077156</idno>
+                        <date>Version vom 20. Februar 2019</date>
+                    </bibl>
                     <bibl type="EDCS">
-                        <idno/>
-                        <date/>
+                        <idno>EDCS-12800043</idno>
+                        <date>zuletzt aufgerufen am 26. Juli 2021</date>
                     </bibl>
                     <bibl type="trismegistos">
                         <idno>www.trismegistos.org/text/417138</idno>
@@ -261,7 +265,7 @@ Die Schmalseiten sind, so Lehner (1918, 164), mit Baumdarstellungen geschmückt.
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>VOCALLINEI- <lb n="2"/> 
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>VOCALLINEI- <lb n="2"/> 
 HIS SEXT <lb n="3"/> 
 CALDINIVS <lb n="4"/> 
 GEMELLVS EX <lb n="5"/> 
@@ -278,7 +282,11 @@ Sextus Caldinius Gemellus by order (of the goddesses).</p>
             <div type="apparatus" org="uniform" part="N" sample="complete">
             
             <app loc="2">
-                <note anchored="true">Sex(tus) – Ferlut</note>
+                <note anchored="true">his(!) Sext(us) – EDH; Sex(tus) – Scheungraber, Ferlut</note>
+            </app>
+        
+            <app loc="1">
+                <note anchored="true">V&lt;a=O&gt;callinei- – EDH</note>
             </app>
         </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
@@ -287,7 +295,11 @@ Caldinius: einheimische Bildung mit germanischer Basis? (Kakoschke 2006, GN 241)
 Gemellus: lateinisches Cognomen, Diminutiv des Cognomens Geminus; gängiger Name (Kakoschke 2007, CN 1409) </p>
             </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Vocallineihae:</rs> Variante von  <rs type="divine">Vacallinehae:</rs> keltisch: ‚Unter den Bäumen bzw. dem Wald Verweilende [Muttergöttinen]‘ 
-(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243).</p>
+(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)</p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
@@ -313,37 +325,37 @@ Vorkommen in theonymischen Formularen: </p>
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">
                 <p part="N">Für die Alte Version (25.04.23) siehe CF-GeI-140</p>
-            </tei:note>
+            </note>
         </back>
     </text>
 </TEI>

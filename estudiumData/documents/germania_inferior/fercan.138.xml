@@ -138,42 +138,42 @@
                 <listPerson default="false">
                     <person instant="false">
                         <persName type="gentilnomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.gentilnomen.amabilinius">Amabilinius</ref>
+                            <ref type="context" target="context:fercan.person.gentilnomen.amabilinius">Amabilinius; Ulpius; Vadullius; Valerius</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="gentilnomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.gentilnomen.ulpius">Ulpius</ref>
+                            <ref type="context" target="context:fercan.person.gentilnomen.ulpius">Amabilinius; Ulpius; Vadullius; Valerius</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="gentilnomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.gentilnomen.vadullius">Vadullius</ref>
+                            <ref type="context" target="context:fercan.person.gentilnomen.vadullius">Amabilinius; Ulpius; Vadullius; Valerius</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="gentilnomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.gentilnomen.valerius">Valerius</ref>
+                            <ref type="context" target="context:fercan.person.gentilnomen.valerius">Amabilinius; Ulpius; Vadullius; Valerius</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.agilis">Agilis</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.agilis">Agilis; Hetinius; Placidus; Victor</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.hetinius">Hetinius</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.hetinius">Agilis; Hetinius; Placidus; Victor</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.placidus">Placidus</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.placidus">Agilis; Hetinius; Placidus; Victor</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.victor">Victor</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.victor">Agilis; Hetinius; Placidus; Victor</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -232,7 +232,7 @@
             <textClass default="false">
                 <keywords>
                     <list>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">[H]erculi Mag(---)</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -262,8 +262,8 @@
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
                     <bibl type="EDCS">
-                        <idno/>
-                        <date/>
+                        <idno>EDCS-09301133</idno>
+                        <date>zuletzt aufgerufen am 29. Juni 2021</date>
                     </bibl>
                     <bibl type="EDH">
                         <idno>HD020287</idno>
@@ -339,7 +339,11 @@ Hetinius: möglicherweise germanisches Cognomen (Kakoschke 2007, CN 1512) </p>
 
 Amabilin(ius?): einheimisches Pseudogentilnomen, abgeleitet vom lateinisches Cognomen Amabilis (Kakoschke 2006, GN 59)</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Mag…:</rs> Rest von  <rs type="divine">Magusanus</rs> oder einer Variante: keltisch: ‚Mächtiger Alter' (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 109-111).</p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Mag…:</rs> Rest von  <rs type="divine">Magusanus</rs> oder einer Variante: keltisch: ‚Mächtiger Alter' (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 109-111). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)</p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>

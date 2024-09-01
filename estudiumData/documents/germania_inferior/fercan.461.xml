@@ -82,7 +82,7 @@
                 <layout>
                                     <p part="N">Der nur abschriftlich erhaltene Inschriftentext scheint aus inhaltlichen
                     Gründen vollständig zu sein.</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">vollständig</tei:note>
+                                    <note type="condition" anchored="true">vollständig</note>
                                 </layout>
               </layoutDesc>
             </objectDesc>
@@ -111,11 +111,11 @@
                             <placeName instant="false" full="yes">
                                 <ref type="context" target="context:fercan.geog.modern.euskirchen">Euskirchen</ref>
                             </placeName>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                 <geo decls="#WGS">50.657010 6.788622</geo>
-              </tei:location>
-                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">gemeinsam gefunden mit CF-GeI-459 <rs type="divine">Matronae
-                  Caimineae</rs> und CIL XIII 7971 „Matronis Gratich()“</tei:note>
+              </location>
+                            <note anchored="true">gemeinsam gefunden mit CF-GeI-459 <rs type="divine">Matronae
+                  Caimineae</rs> und CIL XIII 7971 „Matronis Gratich()“</note>
                         </provenance>
             <provenance type="observed" subtype="autopsied">
                             <p part="N">non vidimus</p>
@@ -199,7 +199,7 @@
                             <ref type="context" target="context:fercan.dedication.libens_merito">libens
                 merito</ref>
                         </item>
-            <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+            <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Matronis Ratheihis</ref> </item></list></keywords>
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
@@ -227,6 +227,10 @@
       </div>
       <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
         <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD082514</idno>
+                        <date>Version vom 22. April 2021</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-11100196</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -238,7 +242,7 @@
                     </bibl>
                 </listBibl>
       </div>
-      <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>MATRONIS RATHEIHIS <lb n="2"/>
+      <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>MATRONIS RATHEIHIS <lb n="2"/>
 VERECVNDINI<gap reason="lost" quantity="1" unit="character" instant="false"/>S SVPER <lb n="3"/> 
 L · M</orig></ab></div>
       <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Matronis Ratheihis<lb n="2"/>Verecundini<supplied reason="lost" instant="false">u</supplied>s Super<lb n="3"/><expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
@@ -263,7 +267,11 @@ L · M</orig></ab></div>
           tritt u.a. verstärkt in Niedergermanien auf (Kakoschke 2008, CN 2970)</p>
       </div>
       <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">        <p part="N">
-          <rs type="divine">Ratheihae: </rs> keltisch mit lautlicher Germanisierung. ‚Zusammen mit <rs type="divine">Dea Ratis</rs> Verehrte [Muttergöttinnen]’ bzw. ‚Zur Farngöttin, nämlich <i>Dea Ratis</i> Gehörende [Muttergöttinnen]’, oder ‚Zu den Farnen Gehörende [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 295-297).</p>
+          <rs type="divine">Ratheihae: </rs> keltisch mit lautlicher Germanisierung. ‚Zusammen mit <rs type="divine">Dea Ratis</rs> Verehrte [Muttergöttinnen]’ bzw. ‚Zur Farngöttin, nämlich <rs type="divine">Dea Ratis</rs> Gehörende [Muttergöttinnen]’, oder ‚Zu den Farnen Gehörende [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 295-297). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)</p>
         <p part="N"> Vorkommen in theonymischen Formularen: </p>
         <p part="N">
           <rs type="divine">Matronae Ratheihae</rs>: <lb/> - Germania Inferior: Das theonymische
@@ -277,38 +285,38 @@ L · M</orig></ab></div>
       </linkGrp>
     </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">
                 <p part="N">Alte Version (25.04.23):</p>
                 <p part="N">Ratheihae: keltisch (Delamarre 2007, 152) </p>
-            </tei:note>
+            </note>
         </back>
   </text>
 </TEI>

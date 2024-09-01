@@ -59,24 +59,25 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130320">kleineres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>Das erste E ist beschädigt, aber durch den Rest der untersten Waagrechhaste gesichert. Die beiden A sind ohne Querhaste geschrieben (Binsfeld 1987, 373).</p> <note type="condition"/> </layout>
+								<layout> <p>Das erste E ist beschädigt, aber durch den Rest der untersten Waagrechhaste gesichert. Die beiden A sind ohne Querhaste geschrieben (Binsfeld 1987, 373).</p> <note type="condition">https://gams.uni-graz.at/o:fercan.arch#C.130320</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">geritzt</desc> <height unit="cm" atLeast="1.0" atMost="1.5">1,0–1,5</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p>Keine bildliche Gestaltung vorhanden. </p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140300">Graffitto</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160100">Lineardekor</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
-							</decoNote>
+							<decoNote> <p>Keine bildliche Gestaltung vorhanden. </p> 
+                      
+                      
+							
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150600">Zierleiste</term></decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="" notAfter=""> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1857"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Büdesheim</ref> </placeName> <p>„an dem Wege nach Wallersheim“ (Binsfeld 1987, 373)</p> <location>
+						<provenance type="found" when="1857"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Schöneck</ref> </placeName> <p>Ortsteil Büdesheim; „an dem Wege nach Wallersheim“ (Binsfeld 1987, 373)</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note>Von Herrn Dr. Bärsch, Geh. Regierungsrath, gemeinsam mit zwei Weißkupferdenaren von Aurelianus sowie einer eisernen Federwaage gefunden (Binsfeld 1987, 373).</note> </provenance>
+							</location> <note>von Herrn Dr. Bärsch, Geh. Regierungsrath, gemeinsam mit zwei Weißkupferdenaren von Aurelianus sowie einer eisernen Federwaage gefunden (vgl. Binsfeld 1987, 373)</note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p><!--[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
@@ -847,10 +848,10 @@
 				<ab><orig/><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>EE CAIVE AV<gap reason="lost" extent="unknown" unit="character"/><orig/></ab></div>
 			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform"><ab><lb n="1"/><supplied reason="lost">D</supplied><expan><abbr>e</abbr><ex>a</ex></expan>e <expan><abbr>Caiv</abbr><ex>a</ex></expan>e AV<gap reason="lost" extent="unknown" unit="character"/></ab></div>
 			<div type="translation" xml:lang="de" org="uniform">
-				<p><p>Für die Göttin <rs type="divine">Caiva</rs><br/></p></p>
+				<p>                                                <p>Für die Göttin <rs type="divine">Caiva!</rs><br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform">
-				<p><p>To the goddess <rs type="divine">Caiva</rs><br/></p></p>
+				<p>                                                <p>To the goddess <rs type="divine">Caiva!</rs><br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform">
 				<app loc="1">

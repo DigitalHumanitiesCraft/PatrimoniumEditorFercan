@@ -50,32 +50,34 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
-									<objectType>Weihestein</objectType> <dimensions>
+								<support> <p><p>Erhalten ist die Basis des Reliefs, auf der sich die ungerahmte Inschrift befindet. Diese ist rundherum, vor allem unten und an der rechten Seite, bestoßen und nicht weiter ausgestaltet. Das linke untere Eck fehlt. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110400">Weihestein</objectType> <dimensions>
 										<height unit="cm">48</height>
 										<width unit="cm">109</width>
 										<depth unit="cm">34</depth>
 									</dimensions> <note type="dimensions" anchored="true">Die angegebenen Maße sind die des erhaltenen Objekts.</note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p><p>Die Inschrift füllt den Sockel vollständig aus und bis auf einen Ausbruch im linken unteren Eck vollständig erhalten. Die Buchstaben sind regelmäßig, werden nach unten hin kleiner und sind ab Z.2 in zunehmender stärke abgerieben aber noch lesbar.</p><p>Am Ende von Z.3 ist durch einen Ausbruch die obere Hälfte des S beschädigt. Durch das ausgebrochene Eck in Z.4 der untere Bogen vom S beschädigt, während in Z.5 das C verloren gegangen und vom I nur mehr der obere Teil sichtbar ist. </p><p>Zu Ligaturen: s. Majuskelumschrift – Besondere Zeichen: In allen Zeilen sind Worttrenenr korrekt gesetzt. Die V in Z.5 waren, soweit erkennbar, alle kleiner geschrieben als die übrigen Buchstaben der Zeile.<br/></p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Die Inschrift füllt den Sockel vollständig aus und ist bis auf einen Ausbruch im linken unteren Eck vollständig erhalten. Die Buchstaben sind regelmäßig, werden nach unten hin kleiner und sind ab Z.2 in zunehmender Stärke abgerieben aber noch lesbar.</p>
+                                                <p>Am Ende von Z.3 ist durch einen Ausbruch die obere Hälfte des S beschädigt. Durch das ausgebrochene Eck in Z.4 ist der untere Bogen vom S beschädigt, während in Z.5 das C verloren gegangen und vom I nur mehr der obere Teil sichtbar ist. </p>
+                                                <p>Zu Ligaturen: s. Majuskelumschrift – Besondere Zeichen: In allen Zeilen sind Worttrenenr korrekt gesetzt. Die V in Z.5 waren, soweit erkennbar, alle kleiner geschrieben als die übrigen Buchstaben der Zeile.<br/></p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130500</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="5.0" atMost="7.0">5,0–7,0</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p><p>Von den Götterbildern sind nur mehr der Ansatz der Füße, bzw. links auch des Gewandes erhalten. Deren Gestaltung ist jedoch nicht näher beschreibbar. <br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150400">Reliefschmuck</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.240100">Götterbild</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName>Grinario</placeName> <region>Civitas Sumelocennensis</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+						<origin> <origPlace> <placeName> </placeName> <region>Civitas Sumelocennensis</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1832"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Köngen</ref> </placeName> <p>                                                <p>"zwischen dem Dorf und den sognannten Burgäckern" (CIL); "zwischen Dorf und Flur "Burg", dem römischen Kastellgebäude (Filtzinger/ Planck/ Cämmerer 1976, 476); "auf einem Kartoffelfeld Miller" (Filtzinger 1980, 62 Nr.25); "zwischen dem Dorf Köngen und den 'Goldäckern' (Unz 1982, 96)<br/></p></p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true"/> </provenance>
+							</location> <note anchored="true">                                                <p>"von einem Bauern [...] gefunden, etwa 1' tief" (Filtzinger 1980, 62 Nr.25)<br/></p></note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
 					</history>
 				</msDesc>
@@ -98,13 +100,13 @@
 					<!-- theonymisches formular -->
 					<person>
 						<persName subtype="celtic_normalized" type="divine">
-							<ref target="context:fercan.dcn." type="context">Mercurius Visucius</ref>
+							<ref target="context:fercan.dcn." type="context">Mercurius Visucius; Visucia</ref>
 						</persName>
 					</person>
 					<!-- keltisches götternamenelement  -->
 					<person>
 						<persName subtype="celtic_element" type="divine">
-							<ref target="context:fercan.dce." type="context">Visucius</ref>
+							<ref target="context:fercan.dce." type="context">Visucius; Visucia</ref>
 						</persName>
 					</person>
 					<person>
@@ -240,9 +242,9 @@
         
             <bibl xml:id="11">Luik/Reutti 1988, 43</bibl>
         
-            <bibl xml:id="12">Heiligmann 1993, 102f Nr.13</bibl>
+            <bibl xml:id="12">Heiligmann 1993, 102f. Nr.13</bibl>
         
-            <bibl xml:id="13">Hupe 1997, 166f Nr.86</bibl>
+            <bibl xml:id="13">Hupe 1997, 166f. Nr.86</bibl>
         
             <bibl xml:id="14">Kakoschke 2002, Nr.1.138</bibl>
         
@@ -269,15 +271,15 @@
 <lb n="4"/>SECVNDINVS<g type="interpunct">▴</g>DECV
 <lb n="5"/><gap reason="lost" quantity="1" unit="character"/>IVI<g type="interpunct">▴</g>SVMA<g type="interpunct">▴</g>EX<g type="interpunct">▴</g>IV<g type="interpunct">▴</g>V<g type="interpunct">▴</g>S<g type="interpunct">▴</g>L<g type="interpunct">▴</g>M<orig/></ab></div>
 			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Deo Mercurio Vi
-<lb n="2" break="no"/>sucio et <expan><abbr>sa</abbr><ex>n</ex><abbr>ct</abbr><ex>a</ex></expan>e Visu
+<lb n="2" break="no"/>sucio et <expan><abbr>sa</abbr><ex>n</ex></expan><expan><abbr>ct</abbr><ex>a</ex></expan>e Visu
 <lb n="3" break="no"/><expan><abbr>ci</abbr><ex>a</ex>e</expan> <expan><abbr>P</abbr><ex>ublius</ex></expan> Quartionius
 <lb n="4"/>Secundinus <expan><abbr>decu</abbr><ex>rio</ex></expan>
-<lb n="5"/><expan><abbr><supplied reason="lost">c</supplied>ivi</abbr><ex>tatis</ex></expan> <expan><abbr>Suma</abbr><ex>locennensis</ex></expan> ex <expan><abbr>iu</abbr><ex>ssu</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
+<lb n="5"/><expan><abbr><supplied reason="lost">c</supplied>ivi</abbr><ex>tatis</ex></expan> <expan><abbr>Suma</abbr><ex>locennensis</ex></expan><note>!</note> ex <expan><abbr>iu</abbr><ex>ssu</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
-				<p><p>Für den Gott <rs type="divine">Mercurius Visucius</rs> und der heiligen <i>Visucia</i>!<br/>Publius Quartionius Secundinus, Decurio der civitas Sumelocennensis, hat auf (deren) Geheiß das Gelübde gerne und verdientermaßen erfüllt.</p></p>
+				<p>                                                <p>Für den Gott <rs type="divine">Mercurius Visucius</rs> und der heiligen <rs type="divine">Visucia</rs>!<br/>Publius Quartionius Secundinus, decurio der civitas Sumelocennensis, hat auf (deren) Geheiß das Gelübde gerne und verdientermaßen erfüllt.</p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p><p>To the god <rs type="divine">Mercurius Visucius</rs> and to sacred <i>Visucia</i>!<br/>Publius Quartionius Secundinus, decurion of the civitas Sumelocennensis, by (their) order has fulfilled a vow willingly and deservedly.</p></p>
+				<p>                                                <p>To the god <rs type="divine">Mercurius Visucius</rs> and to sacred <rs type="divine">Visucia</rs>!<br/>Publius Quartionius Secundinus, decurion of the civitas Sumelocennensis, has, by (their) order, fulfilled a vow willingly and deservedly.</p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="2">
@@ -306,15 +308,18 @@
 		<back>
 			<note type="Objbeschr_note"/>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"/>
-			<note type="Inschrifttraeger_note"/>
+			<note type="Material_note"><p>Filtzinger 1980, 62 Nr. 25: Schilfsandstein<br/></p></note>
+			<note type="Inschrifttraeger_note"><p>Haug/Sixt 1914, 302 Nr. 184: Basis mit Votivinschrift zu Hochreliefs des Mercurius Visucius und der Visucia<br/></p></note>
 			<note type="VerwahrortOrt_note"/>
 			<note type="InvNr_note">                                                    <p>lupa, Hupe 1997, 166, Karteikarte 6384 S.20<br/></p></note>
 			<note type="Fundstelle_note"/>
 			<note type="Fundumst_note"><p>Gefunden am 11. Juli 1832 zwischen dem Dorf und den Burgäckern - Mettler 1907, 40-41<br/></p></note>
 			<note type="Fundjahr_note"/>
-			<note type="FOantik_note"><p>EDH<br/></p></note>
-			<note type="FOmodern_note"/>
+			<note type="FOantik_note"><p>EDH</p><p>CIL: Köngen</p><p>Kartei: Rottenburg</p><p>Die Römer in BW 1976, 476/477: Köngen<br/></p></note>
+			<note type="FOmodern_note"><p>EDH</p>
+                                                    <p>CIL: Köngen</p>
+                                                    <p>Kartei: Rottenburg</p>
+                                                    Die Römer in BW 1976, 476/477: Köngen<p/></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
@@ -324,7 +329,7 @@
 			<note type="Editionen_note"/>
 			<note type="ErhzustObj_note"/>
 			<note type="Masse_note">                                                    <p>EDH, Filtzinger 1980, 62<br/></p></note>
-			<note type="Ikonogr_note"/>
+			<note type="Ikonogr_note"><p>CIL: links Statue Visucius, rechts Statue Mercur</p><p>Filtzinger, 1980, 62 Nr. 25: Bildnisse des Mercur Visucius und der Sancta Visucia; Auf der Basis standen sehr wahrscheinlich Statuen, von denen nur die Füße und Reste der Gewandung erhalten sind. Die Göttin stand in langem Gewande wahrscheinlich links und rechts Mercur. <br/></p></note>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>

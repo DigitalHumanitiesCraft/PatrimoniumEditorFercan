@@ -82,7 +82,7 @@
                                         <width unit="cm">14,5</width>
                                         <depth unit="cm">4,5</depth>
                                     </dimensions>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dimensions" anchored="true">Die angegebenen Maße sind jene des aus den zwei anpassenden Fragmenten bestehenden Bruchstücks (s. Abbildung).</tei:note>
+                                    <note type="dimensions" anchored="true">Die angegebenen Maße sind jene des aus den zwei anpassenden Fragmenten bestehenden Bruchstücks (s. Abbildung).</note>
                                 </support>
                                 <condition>
                                     <ref type="context" target="context:fercan.condition-o.mehrere_fragmente">mehrere Fragmente</ref>
@@ -91,7 +91,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Der Inschriftentext findet sich auf 6 Fragmenten, die nur an einer Stelle anpassen. In Z.1 dürfte aus inhaltlichen Gründen die ursprünglich erste Zeile der Inschrift zu sehen sein. Auch die rechte untere Ecke ist erkennbar. Der Text füllte das Inschriftenfeld nicht zur Gänze aus (unter dem Text ist ein Freiraum erhalten).<lb/>Ligaturen: s. Majuskeltext. Besondere Zeichen: In Z.1 findet sich eine Ligatur von N und I mit erhöhter rechter senkrechter Haste.</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">mehrere Fragmente</tei:note>
+                                    <note type="condition" anchored="true">mehrere Fragmente</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -122,9 +122,9 @@
                                 <ref type="context" target="context:fercan.geog.modern.bad_muenstereifel_noethen_pesch_temp">Bad Münstereifel Nöthen (Pesch), Tempelbezirk (Matronentempel Eifel)</ref>
                             </placeName>
                             <p part="N">vor Hof A</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">50.533852 6.702742</geo>
-                            </tei:location>
+                            </location>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)</provenance>
                     </history>
@@ -192,7 +192,7 @@
                         <item>
                             <ref type="context" target="context:fercan.dedication.libens_merito">libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Ma[tro]nis Vac[---]his</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -214,13 +214,17 @@
             <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1918, Nr.1438</bibl>
-                    <bibl xml:id="LIT.2" default="false" status="draft">Alföldy 1968, Nr.30</bibl>
+                    <bibl xml:id="LIT.2" default="false" status="draft">Alföldy 1968 (Rheinland III), 39 Nr.30</bibl>
                 
             <bibl xml:id="3">Scheungraber 2020, 561 Nr.42</bibl>
         </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD076959</idno>
+                        <date>Version vom 03. Dezember 2021</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-35600013</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -247,19 +251,23 @@ HIS <gap reason="lost" extent="unknown" unit="character" instant="false"/> <gap 
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Vac[alline] – Lehner, Alföldy, Scheungraber</tei:note>
+                    <note anchored="true">Vac[alline] – Lehner, Alföldy, EDH, Scheungraber</note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">his [---] et [---] – Lehner, Scheungraber</tei:note>
+                    <note anchored="true">his [---] et [---] – Lehner, Scheungraber; &lt;h=I&gt;is [---] et [---] – EDH</note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[ex i]m[p]e- – Alföldy; [3 ex i]m[p]e – Scheungraber</tei:note>
+                    <note anchored="true">[ex i]m[p]e- – Alföldy, EDH; [3 ex i]m[p]e – Scheungraber</note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[ri]o (?) – Alföldy, Scheungraber</tei:note>
+                    <note anchored="true">[ri]o (?) – Alföldy, EDH, Scheungraber</note>
                 </app>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Vac…hae:</rs>  Rest von  <rs type="divine">Vacallinehae</rs> oder einer Variante: keltisch: ‚Unter den Bäumen bzw. dem Wald Verweilende [Muttergöttinen]‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243).  </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Vac…hae:</rs>  Rest von  <rs type="divine">Vacallinehae</rs> oder einer Variante: keltisch: ‚Unter den Bäumen bzw. dem Wald Verweilende [Muttergöttinen]‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.) </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
@@ -285,35 +293,35 @@ Vorkommen in theonymischen Formularen: </p>
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">Für die Alte Version (25.04.23) siehe CF-GeI-140</tei:note>
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">Für die Alte Version (25.04.23) siehe CF-GeI-140</note>
         </back>
     </text>
 </TEI>

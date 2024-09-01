@@ -50,30 +50,31 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
+								<support> <p><p>Aufgrund des Erhaltungszustandes ist keine Beschreibung möglich. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
 									<objectType>Weihestein</objectType> <dimensions>
 										<height unit="cm"> </height>
 										<width unit="cm"> </width>
 										<depth unit="cm"> </depth>
 									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130320">kleineres Fragment</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130700">unklar</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p><p>Die Inschrift war bereits bei Aufnahem in den CIL verloren, die Überleiferung basiert auf einer Abschrift des Pfarrer Stratthaus.</p><p>Der Vorschlag die erhaltenen Buchstaben von Z.2 als Deane Abnobe zu lesen besitzt eine gewisse Plausibilität, so erscheint auch auf <span>CF-GeS-1100 Deanae Abnobae als Adressatin, dies stellt jedoch kein Argument für die Richtigkeit der Lesung dar.<br/></span></p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Die Inschrift war bereits bei Aufnahme in den CIL verloren, die Überlieferung basiert auf einer Abschrift des Pfarrer Stratthaus.</p>
+                                                <p>Der Vorschlag die erhaltenen Buchstaben von Z.2 als Deane Abnobe zu lesen besitzt eine gewisse Plausibilität, so erscheint auch auf <span>CF-GeS-1100 und </span><span>CF-GeS-</span><span>1107 Deanae Abnobae als Adressatin, dies stellt jedoch keinen Beweis für die Richtigkeit der Lesung dar.<br/></span></p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130700</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
+							<decoNote> <p>Aufgrund des Erhaltungszustandes ist keine Beschreibung möglich.<br/></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
 								<ref type="context" target="context:fercan.arch."/> </term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName/> <region>Civitas Ulpia Sueborum Nicrensium</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1875"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Uberstadt-Weiher</ref> </placeName> <p><p>"am Wege gegen Zeutern beim sog. Schwedenbrunnen" (Wagner 1911, 179)<br/></p></p> <location>
+						<provenance type="found" when="1875"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Ubstadt-Weiher</ref> </placeName> <p><p>"am Wege gegen Zeutern beim sog. Schwedenbrunnen" (Wagner 1911, 179)<br/></p></p> <location>
 								<geo decls="#WGS"/>
 							</location> <note anchored="true"><p>gefunden von Pfarrer Stratthaus (Wagner 1911, 179)<br/></p></note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung beruht auf: CIL<br/></p></provenance>
@@ -186,7 +187,7 @@
 			<textClass>
 				<keywords>
 					<list>
-						<item> <ref target="context:fercan.dedication." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.dedication." type="context">in honorem domus divinae</ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
@@ -220,14 +221,16 @@
         
             <bibl xml:id="4">Wiegels 2010 (Adnotationes), 246</bibl>
         
-            <bibl xml:id="5">Ferlut 2022, Nr.6</bibl>
+            <bibl xml:id="5">Noelke 2020/2021, 356 Nr.2.63</bibl>
+        
+            <bibl xml:id="6">Ferlut 2022, Nr.6</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
 				<listBibl>
-					<bibl type="EDCS"><idno>EDCS-11000352</idno><date>2024-02-15</date></bibl>
-					<bibl type="EDH"><idno>HD036534</idno><date>2018-10-18</date></bibl>
-					<bibl type="trismegistos"><idno>www.trismegistos.org/text/210813</idno><date>2024-02-15</date></bibl>
+					<bibl type="EDCS"><idno>EDCS-11000352</idno><date>zuletzt abgerufen 2024-02-15</date></bibl>
+					<bibl type="EDH"><idno>HD036534</idno><date>Version von 2018-10-18</date></bibl>
+					<bibl type="trismegistos"><idno>www.trismegistos.org/text/210813</idno><date>zuletzt abgerufen 2024-02-15</date></bibl>
 					<bibl type="lupa"><idno> </idno><date> </date></bibl>
 					<bibl type="other"><idno> </idno><date> </date></bibl>
 				</listBibl>
@@ -238,18 +241,20 @@
 <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>VIV<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/><orig/></ab></div>
 			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><expan><abbr><supplied reason="lost">I</supplied></abbr><ex>n</ex></expan> <supplied reason="lost"> <expan><abbr>h</abbr><ex>onorem</ex></expan></supplied> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
-<lb n="2"/><expan><abbr><supplied reason="lost">D</supplied>ean</abbr><ex>a</ex></expan>e A<supplied reason="lost"><expan><abbr>bnob</abbr><ex>a</ex></expan>e</supplied>
+<lb n="2"/><expan><abbr><supplied reason="lost">D</supplied>ean</abbr><ex>a</ex></expan>e<note>!</note> A<supplied reason="lost"><expan><abbr>bnob</abbr><ex>a</ex></expan>e</supplied>
 <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>VIV<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
-				<p><p>Zu ehren des Kaiserhauses, für <rs type="divine">Diana Abnoba</rs>!</p><p>...<br/></p></p>
+				<p>                                                <p>Zu Ehren des Kaiserhauses, für <rs type="divine">Diana Abnoba</rs>!</p>
+                                                <p>...<br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p><p>In honour of the divine Household, to Diana Abnoba!</p><p>...<br/></p></p>
+				<p>                                                <p>In honour of the Divine Household, to <rs type="divine">Diana Abnoba!</rs></p>
+                                                <p>...<br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="3">
-					<note anchored="true">[Ful?]viu[s...] – CIL, Wagner; [---]viu[s] – Wiegels; [---]viu[s?] – EDH; [---]uiu[s---] – Ferlut</note>
+					<note anchored="true">[Ful?]viu[s...] – CIL, Wagner; [---]viu[s] – Wiegels; [---]viu[s?] – EDH; [---]uiu[s---] – Ferlut; ohne die Buchstaben – Noelke</note>
 				</app>
 			</div>
 			<div type="commentary" subtype="general" org="uniform" sample="complete">
@@ -266,10 +271,11 @@
 		</body>
 		<back>
 			<note type="Objbeschr_note"/>
-			<note type="ArchKlass_note"/>
-			<note type="Material_note"/>
+			<note type="ArchKlass_note"><p>verschollen<br/></p></note>
+			<note type="Material_note"><p>verschollen<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
-			<note type="VerwahrortOrt_note">                                                    <p>Wagner 1911, 179</p><p>Wiegels 2010 Adn 245 A 37: Über den Verbleib der Fragmente gibt es keine sicheren Hinweise. Im Badischen Landesmueum Karlsruhe befinden sie sicjedenfalls nicht. <br/></p></note>
+			<note type="VerwahrortOrt_note">                                                    <p>Wagner 1911, 179</p>
+                                                    <p>Wiegels 2010 Adn 245 A 37: Über den Verbleib der Fragmente gibt es keine sicheren Hinweise. Im Badischen Landesmueum Karlsruhe befinden sie sich jedenfalls nicht. <br/></p></note>
 			<note type="InvNr_note"/>
 			<note type="Fundstelle_note"><p>CIL: Stettfeld, am Wege gegen Zeutern, beim sog. Schwedenbrunnen<br/></p></note>
 			<note type="Fundumst_note"/>
@@ -284,12 +290,12 @@
 			<note type="dtUEbers_note"/>
 			<note type="Editionen_note"/>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"/>
+			<note type="Masse_note"><p>verschollen<br/></p></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"/>
+			<note type="Buchsthoehe_note"><p>verschollen<br/></p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>

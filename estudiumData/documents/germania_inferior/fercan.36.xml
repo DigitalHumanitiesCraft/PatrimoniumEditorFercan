@@ -90,9 +90,7 @@
                         <decoDesc>
                             <decoNote>
                                 <p part="N">keine Beschreibung möglich</p>
-                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130100">
-                                    <ref type="context" target="context:fercan.arch.abschrift">Abschrift</ref>
-                                </term>
+                                
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -157,6 +155,11 @@
                             </roleName>
                         </persName>
                     </person>
+                    <person instant="false">
+                        <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.person.divine-o.matrese">Matres</ref>
+                        </persName>
+                    </person>
                 </listPerson>
                 <listOrg default="false">
                     <org instant="false"/>
@@ -206,7 +209,9 @@
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Sul(evis)</ref> </item>
+                    </list>
+                </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -293,19 +298,46 @@ Martialis: lateinisches Cognomen, überall gängig (Kakosche 2008, CN 1930) </p>
 
 legio VI Victrix: Standorte der Legion waren ab ca. 70 in Novaesium/Neuß, ab der Wende vom 1. zum 2. Jahrhundert Vetra/Xanten. Spätestens 122 wurde sie nach Britannien verlegt (Stein 1932, 99, 105, 106). Im Winter 88/89 wurden ihr die Ehrennamen ‚Pia Fidelis‘ verliehen, die aber auf der Inschrift fehlen, was darauf zurückzuführen sein könnte – aber nicht muss -, dass die Inschrift vorher entstand (Oxé 1927, 33).</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Suleviae:</rs> keltisch: ‚Die gut Führenden [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 206f).<br/>
-                </p>
-                                                <p part="N">
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">
+                <p class="MsoNormal">
+                                                    <rs type="divine">Suleviae</rs> (incl. ev. Varianten):</p>
 
-Vorkommen in theonymischen Formularen: </p>
-                                                <p part="N">
- <rs type="divine">Suleviae</rs>: <lb/>
-- Germania Inferior: insgesamt 5x bezeugt (CF-GeI-36 bis CF-GeI-40); in CF-GeI-39 werden sie als  <rs type="divine">Suleviae domesticae suae</rs> bezeichnet. <lb/>
-- außerhalb der Germania Inferior: Das theonymische Formular  <rs type="divine">Suleviae</rs> ist in Germania Superior 4x (CF-GeS-1017 (als Sulevis dea[bus]); CF-GeS-1018; CF-GeS-1019 (mit dem Dativ Suleis); CF-GeS-1095 (als Sulevis sororibus)) bezeugt. Darüber hinaus in Rom und den folgenden Provinzen bezeugt: Belgica, Britannia, Dacia, Gallia Narbonnensis, Lugdunensis, Noricum, Pannonia Inferior, Raetia </p>
-                                                <p part="N">
- <rs type="divine">Matres Suleviae</rs>: <lb/>
-- Germania Inferior: bislang keine Belege. Die Tatsache, dass das theonymische Formular  <rs type="divine">Matres Suleviae</rs> in Rom und in Britannien bezeugt ist, gibt jedoch zu der Vermutung Anlass, dass  <rs type="divine">Suleviae et Matres</rs> (CF-GeI-37) wie auch – falls echt –  <rs type="divine">Matres et Suleviae</rs> in dieser Inschrift nicht zwei unterschiedliche pluralische Gottheiten ansprechen, sondern als eine Erscheinungsform von  <rs type="divine">Matres</rs> zu verstehen sind. <lb/>
-- außerhalb der Germania Inferior: in Rom und in Britannien bezeugt</p>
+<p class="MsoNormal">Sprachlich: keltisch: ‚Die gut Führenden [Muttergöttinnen]’
+(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 206f.). (Hier wird kein
+sprachwissenschaftlicher Beitrag geleistet. Die Literaturangaben dienen
+lediglich dazu, einen Einstieg in die sprachwissenschaftliche Diskussion zu
+bieten. Besprochen werden alle Götternamen, die bislang als keltisch oder
+teilweise keltisch gedeutet wurden.)</p>
+
+<p class="MsoNormal">Vorkommen: Inschriften der <i>Suleviae</i> sind weit verbreitet.
+Sie finden sich in den Provinzen Belgica, Britannia, Dacia, Gallia
+Narbonnensis, Germania Inferior, Germania Superior, Lugdunensis, Noricum,
+Pannonia Inferior und Raetien, sowie in Rom.</p>
+
+<p class="MsoNormal">Im Untersuchungsgebiet kommt der Göttername in folgenden
+theonymischen Formularen vor:</p>
+
+<p class="MsoNormal">
+                    <i>Suleviae</i> (incl. ev. Varianten):</p>
+
+<p class="MsoNormal">- Germania Inferior: CF-GeI-36, CF-GeI-37, CF-GeI-38,
+CF-GeI-39 (<i>Suleviae domesticae suae</i>), CF-GeI-40</p>
+
+<p class="MsoNormal">- Germania Superior: CF-GeS-1017 (als <i>Sulevis dea[bus]</i>);
+CF-GeS-1018; CF-GeS-1019 (mit dem Dativ <i>Suleis</i>); CF-GeS-1095 (als <i>Sulevis
+sororibus</i>)</p>
+
+<p class="MsoNormal">
+                    <i>Matres Suleviae</i> (incl. ev. Varianten):</p>
+
+<p class="MsoNormal">- Germania Inferior: bislang keine Belege. Die Tatsache,
+dass das theonymische Formular <i>Matres Suleviae</i> in Britannien und
+möglicherweise in Rom bezeugt ist, gibt jedoch zu der Vermutung Anlass, dass <i>Suleviae et Matres</i> (CF-GeI-37) wie auch – falls echt – <i>Matres et Suleviae</i>
+(CF-GeI-36) in dieser Inschrift nicht zwei unterschiedliche pluralische
+Gottheiten ansprechen, sondern als eine Erscheinungsform von Matres zu
+verstehen sind.</p>
+
+<p class="MsoNormal">- Germania Superior: -</p>
             </div>
             <linkGrp type="alignment" domains="#majuscule #minuscule">
                 <link target="#MAJ.1 #MIN.1"/>
@@ -349,6 +381,26 @@ Vorkommen in theonymischen Formularen: </p>
                                                     <p part="N">Suleviae: keltisch; etymologische Bedeutung ‚die 
 gut Lenkenden‘ (de Bernardo Stempel in Spickermann 2005, 141); so schon 
 Fleuriot (1997, 162–63) </p>
+                <p part="N">Mittlere Version (04.07.2024)</p>
+                <p> Suleviae: keltisch: ‚Die gut Führenden [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 206f).<br/>
+                </p>
+                                                <p>
+
+Vorkommen in theonymischen Formularen: </p>
+                                                <p>
+ Suleviae: 
+- Germania Inferior: insgesamt 5x bezeugt (CF-GeI-36 bis CF-GeI-40); in CF-GeI-39 werden sie als  Suleviae domesticae suae bezeichnet. 
+- außerhalb der Germania Inferior: Das theonymische Formular  Suleviae
+ ist in Germania Superior 4x (CF-GeS-1017 (als Sulevis dea[bus]); 
+CF-GeS-1018; CF-GeS-1019 (mit dem Dativ Suleis); CF-GeS-1095 (als 
+Sulevis sororibus)) bezeugt. Darüber hinaus in Rom und den folgenden 
+Provinzen bezeugt: Belgica, Britannia, Dacia, Gallia Narbonnensis, 
+Lugdunensis, Noricum, Pannonia Inferior, Raetia </p>
+                                                <p>
+ Matres Suleviae: 
+- Germania Inferior: bislang keine Belege. Die Tatsache, dass das theonymische Formular  Matres Suleviae in Rom und in Britannien bezeugt ist, gibt jedoch zu der Vermutung Anlass, dass  Suleviae et Matres (CF-GeI-37) wie auch – falls echt –  Matres et Suleviae in dieser Inschrift nicht zwei unterschiedliche pluralische Gottheiten ansprechen, sondern als eine Erscheinungsform von  Matres zu verstehen sind. 
+- außerhalb der Germania Inferior: in Rom und in Britannien bezeugt</p>
+                <p part="N"/>
             </tei:note>
         </back>
     </text>

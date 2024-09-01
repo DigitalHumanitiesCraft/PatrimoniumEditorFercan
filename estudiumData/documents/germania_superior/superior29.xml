@@ -61,27 +61,26 @@
 							<layoutDesc>
 								<layout> <p>                                                <p>Das Inschriftenfeld ist etwa im unteren Drittel durchgebrochen. Oben und unten ist etwas mehr als eine Zeile als Rahmung freigelassen. Die Inschrift ist komplett erhalten und unsauber zentriert. Die Buchstaben sind bis auf eine Ausnahme gleichmäßig.</p>
                                                 
-                                                <p>Die als Worttrenner verwendeten Dreiecke sind in Z.1, Z.3 und Z.5 vor und nach jedem Wort gesetzt, wodurch der Name der Göttin, in Z.2, und des Dedikanten, in Z.4, optisch betont werden.</p>
-                                                <p>Besondere Zeichen: In Z.4 ist das U kleiner zwischen N und S eingeschrieben. Der auffallend
- größer gehaltene Abstand zwischen N und S lässt vermuten, dass der 
-Steinmetz, als er merkte, dass der Platz in der Zeile nicht mehr 
-ausreichte, das U kleiner schlug, um noch in der Zeile zu bleiben, sowie
- um nicht mit einem kleineren Buchstaben zu Enden.</p></p> <note type="condition"/> </layout>
+                                                <p>Die als Worttrenner verwendeten Dreiecke sind in Z.1, Z.3 und Z.5 vor und nach jedem Wort gesetzt, wodurch der Name der Göttin in Z.2 und des Dedikanten in Z.4 optisch betont werden. In Z.4 ist das U kleiner zwischen N und S eingeschrieben. Der auffallend
+ größer gehaltene Abstand zwischen N und S lässt vermuten, dass der Handwerker, als er merkte, dass der Platz in der Zeile nicht mehr 
+ausreichte, das U kleiner arbeitete, um noch in der Zeile zu bleiben, sowie
+ um nicht mit einem kleineren Buchstaben zu enden.</p></p> <note type="condition">https://gams.uni-graz.at/o:fercan.arch#C.130400</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote> <desc type="execution">graviert</desc> <height unit="cm" atLeast="2.3" atMost="2.3">2,3–2,3</height> </handNote>
+							<handNote> <desc type="execution">graviert</desc> <height unit="cm" atLeast="0.75" atMost="2.3">0,75–2,3</height> </handNote>
 						</handDesc>
 						<decoDesc>
 							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140700">Reparatur</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150300">glatt</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName> </placeName> <region>Civitas Ulpia Sueborum Nicrensium</region> </origPlace> <origDate notBefore="" notAfter=""><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1846"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Hockenheim</ref> </placeName> <p>"Ungefähr eine Stunde von diesem Dorfe [Hockenheim], in der Richtung gegen Speier [...] auf einem sehr ausgedehnten Wiesengrunde, früher zum grössten Theil nur Sümpfe und Moräste"" (Rappenegger 1847, 3)</p> <location>
+						<provenance type="found" when="1846"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Hockenheim</ref> </placeName> <p>"Ungefähr eine Stunde von diesem Dorfe [Hockenheim], in der Richtung gegen Speier [...] auf einem sehr ausgedehnten Wiesengrunde, früher zum grössten Theil nur Sümpfe und Moräste" (Rappenegger 1847, 3)</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note>bei der Vornehmung "verschiedener Nivellierungen [...] um durch Entwässerung einerseits, und durch Zuleitung von Wasser andererseits, besseres Feld zu gewinnen." (Rappenegger 1846, 3). Der Fundort ist nicht gänzlich geklärt. Es kommen auch Maximiliansau und Lampertheim in Frage (Wagner 1911, 198).</note> </provenance>
+							</location> <note>bei der Vornehmung "verschiedener Nivellierungen [...] um durch Entwässerung einerseits, und durch Zuleitung von Wasser andererseits, besseres Feld zu gewinnen" (Rappenegger 1846, 3); Der Fundort ist nicht gänzlich geklärt. Es kommen auch Maximiliansau und Lampertheim in Frage (Wagner 1911, 198).</note> </provenance>
 						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (6.11.2023)</p></provenance>
 					</history>
 				</msDesc>
@@ -196,11 +195,11 @@ ausreichte, das U kleiner schlug, um noch in der Zeile zu bleiben, sowie
 	</teiHeader>
 	<facsimile>
 		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1114_front1.jpg">
-			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
+			<desc>Front, Badisches Landesmuseum Karlsruhe, Inv. Nr. C 546, CIL XIII Projekt, CC BY-NC</desc>
 		</graphic>
 	
             <!-- todo: @xml:id-->
-            <graphic mimeType="image/jpeg" url="1114_front2.jpg"><desc>Front, Kopie, https://edh.ub.uni-heidelberg.de/edh/foto/F023775, © F. Feraudi-Gruénais</desc></graphic>
+            
         </facsimile>
 	<text>
 		<body>
@@ -223,7 +222,7 @@ ausreichte, das U kleiner schlug, um noch in der Zeile zu bleiben, sowie
         
             <bibl xml:id="1">Rappenegger 1947, Nr.4</bibl>
         
-            <bibl xml:id="2">Rappenegger 1848-1849, 292</bibl>
+            <bibl xml:id="2">Rappenegger 1848–1849, 292</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform">
@@ -301,7 +300,7 @@ ausreichte, das U kleiner schlug, um noch in der Zeile zu bleiben, sowie
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note">                                                    <p>Wagener, EDH, <b>Was mit dem kleineren U?</b><br/></p></note>
+			<note type="Buchsthoehe_note">                                                    <p>Wagener, EDH, Was mit dem kleineren U? - lt. Mail Erbelding, Badisches Landesmuseum Karlsruhe 7,5mm<br/></p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>

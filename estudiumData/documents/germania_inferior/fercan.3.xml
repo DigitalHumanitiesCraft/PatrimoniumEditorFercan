@@ -90,7 +90,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Der Inschriftentext ist vollständig erhalten. Die letzte Zeile ist beträchtlich kleiner und nicht zentriert. Die kleineren Buchstaben in der letzten Zeile scheinen nicht so sorgfältig; möglicherweise sind sie von anderer Hand nachträglich hinzugefügt.<lb/>Ligaturen: s. Majuskeltext. Besondere Zeichen: In Z.1 eine Ligatur von I und N mit verlängerter linker senkrechter Haste (H: 4,4 cm). – In Z.4 wurde ein T an erster Stelle teilweise getilgt, vermutlich, weil fälschlich TT statt T geschrieben wurde (so Lehner 1930, Nr.46) oder weil das erste T zunächst als für zu weit vorne gesetzt erachtet worden war (so Nesselhauf 1937, Nr.188).<lb/>In den Buchstaben finden sich Reste roter Farbe. Es sind vorlinierte Zeilen erkennbar.</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">vollständig</tei:note>
+                                    <note type="condition" anchored="true">vollständig</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -172,10 +172,10 @@ Zur Rechten des Gottes befindet sich ein stehender, großer Vogel, bei dem es si
                                 <ref type="context" target="context:fercan.geog.modern.bonn">Bonn</ref>
                             </placeName>
                             <p part="N">Münsterkirche</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">50.732598 7.108382</geo>
-                            </tei:location>
-                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">im Fundament eines fränkischen Grabsaals verbaut</tei:note>
+                            </location>
+                            <note anchored="true">im Fundament eines fränkischen Grabsaals verbaut</note>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)</provenance>
                     </history>
@@ -260,7 +260,7 @@ Zur Rechten des Gottes befindet sich ein stehender, großer Vogel, bei dem es si
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Deo Mer(curio) Gebrin(io)</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -303,14 +303,18 @@ Zur Rechten des Gottes befindet sich ein stehender, großer Vogel, bei dem es si
                         <idno>HD025311</idno>
                         <date>Version vom 14. Januar 2016</date>
                     </bibl>
+                    <bibl type="lupa">
+                        <idno>https://lupa.at/23905</idno>
+                        <date>Version vom 31. Dezember 2021</date>
+                    </bibl>
                     <bibl type="trismegistos">
                         <idno>www.trismegistos.org/text/251352</idno>
                         <date>zuletzt aufgerufen am 29. Juni 2021</date>
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>DEO · MER · GEBR<hi rend="ligature">IN</hi> <lb n="2"/> 
-C · VICTORIVS <lb n="3"/> 
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>DEO · MER · GEBR<hi rend="ligature">IN</hi> <lb n="2"/> 
+C · VICTORIVS <lb n="3"/>
 LIBERALIS NEGO <lb n="4"/> 
 TTIAT<hi rend="ligature">OR</hi> CRETARIVS · V S L M</orig></ab></div>
             <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Deo <expan instant="false"><abbr>Mer</abbr><ex instant="false">curio</ex></expan> <expan instant="false"><abbr>Gebrin</abbr><ex instant="false">io</ex></expan><lb n="2"/><expan instant="false"><abbr>C</abbr><ex instant="false">aius</ex></expan> Victorius<lb n="3"/>Liberalis nego<lb n="4" break="no"/><sic>t</sic>tiator cretarius <expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
@@ -324,10 +328,10 @@ Gaius Victorius Liberalis, a trader in clay, has fulfilled a vow willingly and d
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Mercurio – Nesselhauf, Bauchhenß, Scheungraber; ohne Ligatur – Nesselhauf, Espérandieu, Bauchhenß, EDH</tei:note>
+                    <note anchored="true">Mercurio – Nesselhauf, Bauchhenß, Scheungraber; ohne Ligatur – Nesselhauf, Espérandieu, Bauchhenß, EDH</note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">ohne Ligatur – Nesselhauf, Espérandieu, Bauchhenß, EDH</tei:note>
+                    <note anchored="true">ohne Ligatur – Nesselhauf, Espérandieu, Bauchhenß, EDH</note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
@@ -341,7 +345,11 @@ negotiator cretarius: Der Beruf ist vielleicht näher am Wort bleibend besser mi
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.4: „negottiator“ pro „negotiator“</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                <p part="N"> <rs type="divine">Gebrinius:</rs> keltisch: ‚Der Gott mit dem Widder‘ (de Bernardo Stempel <span lang="pt-PT">Corpus F.E.R.C.A.N. II/1 138f</span>). </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                <p part="N"> <rs type="divine">Gebrinius:</rs> keltisch: ‚Der Gott mit dem Widder‘ (de Bernardo Stempel <span lang="pt-PT">Corpus F.E.R.C.A.N. II/1 138f</span>). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)</p>
                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
@@ -358,35 +366,35 @@ Vorkommen in theonymischen Formularen: </p>
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true"/>
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true"/>
         </back>
     </text>
 </TEI>

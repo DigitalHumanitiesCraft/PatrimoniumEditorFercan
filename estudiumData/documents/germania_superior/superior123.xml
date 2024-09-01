@@ -50,33 +50,41 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
-									<objectType>Weihestein</objectType> <dimensions>
+								<support> <p>                                                <p>Der stark in Mitleidenschaft gezogene Weihealtar wirkt ein wenig unproportional, da die dreifache Stufung zur Trennung des Inschriftenfeldes und des Aufsatzes sehr grob ausgeführt ist und viel Platz einnimmt. Die linke Volute, sowie die linke Seite der Stufung und das erste Drittel des Inschriftenfeldes sind ausgebrochen. Der untere Teil, ungefähr bis zur Hälfte des Steines, ist abgesplittert. Außerdem befindet sich hier leicht rechts zur Mitte versetzt ein großes Bohrloch, das fast ein Viertel des Steines ausmacht. Was vom Stein erhalten ist, ist stark abgerieben bzw. bestoßen. Von der Basis sieht man an der rechten Seite noch die dreifache Stufung hin zum Inschriftenfeld, das ungerahmt ist. Über der schon erwähnten groben Stufung hin zum Aufsatz kann man noch die Opferschale erkennen, vor der sich ein teilweise ausgebrochener Giebel befindet, der wiederum von zwei Voluten flankiert ist. Ob diese weiter verziert waren, lässt sich nicht mehr erkennen. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm">120</height>
 										<width unit="cm">68</width>
 										<depth unit="cm">40</depth>
 									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Das Inschriftenfeld ist von einem doppelt profiliertem Rahmen umgeben und vertieft, es wird vom Text fast vollständig ausgefüllt. Die Buchstaben sind regelmäßig gearbeitet, wobei die T überhöhten sind.</p><p>Zu Ligaturen: s. Majuskelumschrift. – Besondere Zeichen: In Z.1, Z.4, Z.5 und Z.7 sind Wortrenner gesetzt, wobei der zweite Worttrenner in Z.1 sowie der zweite und dritte in Z.4 keine Dreiecke sind, sondern nach links zugespitzte Keile. Z.6 Sonderzeichen für beneficiarius, das o von consularis wesentlich kleiner eingeschrieben.</p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Das Inschriftenfeld ist von einem doppelt profiliertem Rahmen umgeben und vertieft, es wird vom Text fast vollständig ausgefüllt. Die Buchstaben sind regelmäßig gearbeitet, wobei die T überhöht sind.</p>
+                                                <p>Zu Ligaturen: s. Majuskelumschrift. – Besondere Zeichen: In Z.1, Z.4, Z.5 und Z.7 sind Wortrenner gesetzt, wobei der zweite Worttrenner in Z.1, sowie der zweite und dritte in Z.4 keine Dreiecke sind, sondern nach links zugespitzte Keile. Z.6 Sonderzeichen für beneficiarius, das o von consularis wesentlich kleiner eingeschrieben.</p></p> <note type="condition" anchored="true"/> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="5.0" atMost="6.0">5,0–6,0</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden. <br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale (Gestaltungsmerkmal)</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140740">Bohrloch</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150400">Reliefschmuck</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150500">Rahmen</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150600">Zierleiste</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160000">Reliefdekor</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName/> <region>Civitas Port-?</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1712"> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+						<provenance type="found" when="1712"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Heilbronn</ref> </placeName> <p><p>Stadtteil Böckingen; "Auf der westlichen Seite der Straße Böckingen-Neckargartach, auf Böckinger Markung" (Filtzinger 1971, 203 Nr. 8)<br/></p></p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true"/> </provenance>
-						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
+							</location> <note anchored="true"><p>bei Straßenarbeiten<br/></p></note> </provenance>
+						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (CIL XIII Projekt)<br/></p></provenance>
 					</history>
 				</msDesc>
 				<listPlace>
@@ -122,7 +130,7 @@
 						</persName>
 					</person>
 					<person>
-						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context">beneficarius consularis</ref>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context">beneficiarius consularis</ref>
 						</roleName> </persName>
 					</person>
 					<person>
@@ -186,7 +194,7 @@
 				<keywords>
 					<list>
 						<item> <ref target="context:fercan.dedication." type="context">votum solvit laetus libens merito</ref> </item>
-						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.character." type="context">Sonderzeichen für beneficiarius</ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
 						<!-- Belegform gesamt  -->
@@ -235,36 +243,38 @@
         
             <bibl xml:id="6">ILS 4553</bibl>
         
-            <bibl xml:id="7">Haug/Sixt 1914, 529-531 Nr. 371</bibl>
+            <bibl xml:id="7">Haug/Sixt 1914, 529–531 Nr. 371</bibl>
         
             <bibl xml:id="8">Riese 1914, Nr.1948,22</bibl>
         
             <bibl xml:id="9">Filtzinger 1971, 203 Nr.8</bibl>
         
-            <bibl xml:id="10">Filtzinger 1980, Nr.57</bibl>
+            <bibl xml:id="10">Bender 1975, 69 Abb.19a</bibl>
         
-            <bibl xml:id="11">Schallmayer et al. 1990, Nr.110</bibl>
+            <bibl xml:id="11">Filtzinger 1980, Nr.57</bibl>
         
-            <bibl xml:id="12">Walser 1993, Nr.23</bibl>
+            <bibl xml:id="12">Schallmayer et al. 1990, Nr.110</bibl>
         
-            <bibl xml:id="13">Hüssen 2000, 169 Nr.2</bibl>
+            <bibl xml:id="13">Walser 1993, Nr.23</bibl>
         
-            <bibl xml:id="14">Kemkes/Willburger 2004, 115 Abb.109</bibl>
+            <bibl xml:id="14">Hüssen 2000, 169 Nr.2</bibl>
         
-            <bibl xml:id="15">Luginbühl 2006, 67</bibl>
+            <bibl xml:id="15">Kemkes/Willburger 2004, 115 Abb.109</bibl>
         
-            <bibl xml:id="16">Schmidt Heidenreich 2013 (Böckingen), 158 Nr.6 </bibl>
+            <bibl xml:id="16">Luginbühl 2006, 67</bibl>
         
-            <bibl xml:id="17">Scheungraber 2020, 222 Nr.2</bibl>
+            <bibl xml:id="17">Schmidt Heidenreich 2013 (Épigraphie), 158 Nr.6</bibl>
+        
+            <bibl xml:id="18">Scheungraber 2020, 222 Nr.2</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
 				<listBibl>
-					<bibl type="EDCS"><idno>EDCS-11000496</idno><date>2024-03-06</date></bibl>
-					<bibl type="EDH"><idno>HD036979</idno><date>2020-12-02</date></bibl>
-					<bibl type="trismegistos"><idno>www.trismegistos.org/text/211138</idno><date>2024-03-06</date></bibl>
-					<bibl type="lupa"><idno>http://lupa.at/7376</idno><date>2021-12-03</date></bibl>
-					<bibl type="other"><idno>https://cil.bbaw.de/ace/id/KO0019702</idno><date>2024-03-06</date></bibl>
+					<bibl type="EDCS"><idno>EDCS-11000496</idno><date>zuletzt abgerufen 2024-03-06</date></bibl>
+					<bibl type="EDH"><idno>HD036979</idno><date>Version von 2020-12-02</date></bibl>
+					<bibl type="trismegistos"><idno>www.trismegistos.org/text/211138</idno><date>zuletzt abgerufen 2024-03-06</date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/7376</idno><date>Version von 2021-12-03</date></bibl>
+					<bibl type="other"><idno>https://cil.bbaw.de/ace/id/KO0019702</idno><date>zuletzt abgerufen 2024-03-06</date></bibl>
 				</listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
@@ -278,9 +288,9 @@
 			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan>
 <lb n="2"/>et Marti Ca
 <lb n="3" break="no"/>turigi Gen
-<lb n="4" break="no"/>Io loci <expan><abbr>C</abbr><ex>aius</ex></expan>
+<lb n="4" break="no"/>io loci <expan><abbr>C</abbr><ex>aius</ex></expan>
 <lb n="5"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Quietus
-<lb n="6"/><expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan>
+<lb n="6"/><expan><abbr>b</abbr><ex>ene</ex></expan><expan><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>co</abbr><ex>n</ex></expan><expan><abbr>s</abbr><ex>ularis</ex></expan>
 <lb n="7"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
 				<p><p>Für <rs type="divine">Iupiter Optimus Maximus</rs> und <i>Mars Catiurix</i> (und) den <i>Genius Loci</i>!</p><p>Gaius Iulius Quietus, der beneficarius consularis, hat das Gelübde freudig, gerne und verdientermaßen erfüllt.<br/></p></p>
@@ -290,15 +300,15 @@
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="5">
-					<note anchored="true">Kein Zeilenwechsel nach Quietus – ILS</note>
+					<note anchored="true">Iul. Quietus b. cos. – ILS (fehlender Zeilenwechsel)</note>
 				</app>
 			
             <app loc="6">
-                <note anchored="true">wegen fehlendem Zeilenwechsel v. s. l. l. m. – ILS</note>
+                <note anchored="true">v. s. l. l. m. – ILS (wegen falschem Zeilenwechsel in Z.5); co(n)s(laris) – Bender</note>
             </app>
         
             <app loc="7">
-                <note anchored="true">l(aetus) l(ibenter) – Steiner 1837; l(aetus) l(ubens) – Steiner 1851; wegen fehlendem Zeilenwechsel keine Z.7 – ILS; l(ibens) l(aetus) – EDH, Schallmayer, Walser, Hüssen, Luginbühl, Scheungraber</note>
+                <note anchored="true">l(aetus) l(ibenter) – Steiner 1837; l(aetus) l(ubens) – Steiner 1851; wegen falschem Zeilenwechsel in Z.5 keine Z.7 – ILS; l(ibens) l(aetus) – EDH, Schallmayer, Walser, Hüssen, Luginbühl, Scheungraber</note>
             </app>
         </div>
 			<div type="commentary" subtype="general" org="uniform" sample="complete"><p>Gaius Iulius Quietus: tria nomina</p><p>Iulius: italisches Gentilnomen, kaiserliches Gentilnomen, überall äußerst gängig (Kakoschke 2021, GN 637)</p><p>Quietus: gängiger lateinischer Name (Kakoschke 2021, CN 2545)</p></div>
@@ -312,37 +322,38 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"><p>Haug/Sixt 1914 529f; Schallmayer 1990, 100<br/></p></note>
+			<note type="Objbeschr_note">                                                    <p>Haug/Sixt 1914, 529 Nr. 371: Der schön gearbeitete, mit wohlgegliedertem Sockel und Gesisms ausgestattete und abgesehen von einer Bruchstelle am Gesims recht gut erhaltene Altar hat oben Randwülste mit vertieftem Sternornament; S. 530: zwischen ihnen befindet sich auf der Oberseite eine runde Schalte. Die Inschrifttafel ist von kräftigen Randleisten eingefasst und stark vertieft. </p><p>Schallmayer 1990, 100</p><p>Filtzinger 1971, 203 Nr. 8: Gegliederter Sockel und Gesims. Randwülste des Gesimses haben je ein vertieftes Sternornament. Auf der Oberseite runde Schale. Inschrifttafel vertieft und von Randleisten eingefaßt. <br/></p></note>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"/>
+			<note type="Material_note"><p>Schilfsandstein - Filtzinger 1971, 203 Nr. 8</p><p>Steimle 1898, 14 Nr. 4: Stubensandstein<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note">                                                    <p>lupa; EDH auch Aalen Limesmuseum<br/></p><p>Schallmayer: Stuttgart, WML RL404</p></note>
+			<note type="InvNr_note">                                                    <p>lupa; EDH auch Aalen Limesmuseum</p><p>Schallmayer: Stuttgart, WML RL404, so auch Filtzinger 1971, 203 Nr 8: Landesmuseum Stuttgart R L 404</p><p>Haug/Sixt 1914, 529 Nr. 371: Stuttgart, Lapidarium n. 43<br/></p></note>
 			<note type="Fundstelle_note">                                                    <p>lupa: Westliche Seite der Straße zwischen Böckingen und Neckargartach auf der Böckinger Markung</p>
                                                     <p>siehe auch Filtzinger 1980, 116<br/></p></note>
-			<note type="Fundumst_note"/>
+			<note type="Fundumst_note"><p>Filtzinger 1971, 203 Nr. 8<br/></p></note>
 			<note type="Fundjahr_note"/>
 			<note type="FOantik_note"><p>EDH: Heilbronn-Böckingen<br/></p></note>
 			<note type="FOmodern_note"><p>EDH: Heilbronn-Böckingen<br/></p></note>
 			<note type="civitas_note"/>
-			<note type="Autopsie_note"/>
+			<note type="Autopsie_note"><p>non vidimus</p><p>Lesung gründet auf: Photo</p><p>wenn keine Scans kommen in denen vidimus bestätigt wird<br/></p></note>
 			<note type="Appcrit_note"/>
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
 			<note type="Editionen_note"/>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"/>
-			<note type="Ikonogr_note"/>
-			<note type="Inschrtext_note"/>
+			<note type="Masse_note"><p>so Filtzinger 1971, 203 Nr.. hier auch: Mittelstück H 0,47 m; Br. 0,54 m; T 0,26m<br/></p></note>
+			<note type="Ikonogr_note"><p>Filtzinger 1971, 203 Nr. 8: Auf den Schmalseiten, links: Kanne und gestielte Opferschale; rechts: Messer und Beil im Relief</p><p>Haug/Sixt 1914, 530 Nr. 371: Auf den Nebenseiten sind Opfergeräte abgebildet, links Kanne und gestielte Pfanne, rechts Messer und Beil.<br/></p></note>
+			<note type="Inschrtext_note"><p>Haug/Sixt 1914, S. 531 Nr. 371: Die Schrift ist fein, scharf ausgeprägt und regelmässig.<br/></p></note>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
 			<note type="Buchsthoehe_note">                                                    <p>so EDH</p>
-                                                    <p>Schallmayer 1990, 100 BH 5-7</p><p>Walser 1993, 71 BH 4,5-6<br/></p></note>
+                                                    <p>Schallmayer 1990, 100 BH 5-7</p>
+                                                    <p>Walser 1993, 71 BH 4,5-6</p><p>Haug/Sixt 1914, 531 Nr. 371: Z 2-6: 5 cm, Z 1 und 7: 6 cm<br/></p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"><p>EDH: 131 AD – 200 AD</p></note>
+			<note type="Datierung_note">                                                    <p>EDH: 131 AD – 200 AD</p><p>Allgemeine Schulzeitung 6 (1829), S. 1204 Nr. 32: Sie fällt ihrem Datum nach in das Jahr 272 unter Aurelian <br/></p></note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>
 		</back>

@@ -50,19 +50,19 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>Der Weihestein ist auf allen Seiten behauen. Über und unter dem ungerahmten Inschriftenfeld befinden sich ungeglättete Zonen, was auf eine Verbauung hinweisen könnte. </p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref>
+								<support> <p>Der Weihestein ist auf allen Seiten behauen. Über und unter dem ungerahmten Inschriftenfeld befinden sich ungeglättete Zonen, was auf eine Verbauung hinweisen könnte.Es ist kein Dekor vorhanden.<br/></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref>
                        </material>
-									<objectType>Weihestein</objectType> <dimensions>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110400">Weihestein</objectType> <dimensions>
 										<height unit="cm"> 117</height>
 										<width unit="cm"> </width>
 										<depth unit="cm"> </depth>
 									</dimensions> <note type="dimensions"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
 								<layout> <p>                                                <p>Der Inschriftentext scheint vollständig erhalten zu sein. Unter der letzten Zeile bleibt ein kleiner unbeschriebener Freiraum, auf dem noch eine weitere Zeile Platz gehabt hätte. Z.5 wurde ausgemeißelt, sie ist aber noch weitgehend lesbar.</p>
-                                                <p>Die Buchstaben sind regelmäßig, die Buchstabenabstände nicht immer gleichmäßig. Das M am Ende von Z.1 ist kleiner als die anderen Buchstaben. </p>
-                                                <p>Zu Ligaturen: s. Majuskelumschrift.</p></p> <note type="condition"/> </layout>
+                                                <p>Die Buchstaben sind regelmäßig, die Buchstabenabstände nicht immer gleichmäßig. Das M am Ende von Z.1 ist kleiner als die anderen Buchstaben und leicht nach oben gerückt. </p>
+                                                <p>Zu Ligaturen: s. Majuskelumschrift.</p></p> <note type="condition">https://gams.uni-graz.at/o:fercan.arch#C.130500</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -73,11 +73,12 @@
                       
                       
                       
-							</decoNote>
+							
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150300">glatt</term></decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName>Mogontiacum</placeName> <region/> </origPlace> <origDate notBefore="0223" notAfter="0223"> <note type="original"> <ref target="context:fercan.date." type="context">XIII Kalendas Maias Maximo et Aeliano consulibus</ref> </note></origDate> </origin>
+						<origin> <origPlace> <placeName>Mogontiacum</placeName> <region/> </origPlace> <origDate when="0223-04-19">19. April 223 <note type="original"> <ref target="context:fercan.date." type="context">XIII Kalendas Maias Maximo et Aeliano consulibus</ref> </note></origDate> </origin>
 						<provenance type="found" when="1832"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Mainz</ref> </placeName> <p>„in dem Garten des ehemaligen Bischofshofes“ (CIL); Höfchen 2 (EDH)</p> <location>
 								<geo decls="#WGS"/>
 							</location> <note> </note> </provenance>
@@ -221,7 +222,7 @@
         
             <bibl xml:id="2">Becker 1875, Nr.55</bibl>
         
-            <bibl xml:id="8">Fitz 1983, Nr.352</bibl>
+            <bibl xml:id="8">Fitz 1983, 101 Nr.352</bibl>
         
             <bibl xml:id="1">Brambach 1867 (Corpus),  Nr.996</bibl>
         
@@ -246,10 +247,10 @@
         <bibl type="lupa"><idno>http://lupa.at/27080</idno><date>Version von 2018-05-18</date></bibl></listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform">
-				<ab><orig><lb n="1"/>DEO<g type="interpunct">▴</g>MARTI<g type="interpunct">▴</g>AR<add place="above">M</add>
+				<ab><orig><lb n="1"/>DEO<g type="interpunct">▴</g>MARTI<g type="interpunct">▴</g>ARM
 <lb n="2"/>IVLIVS EMERI
 <lb n="3"/>TVS<g type="interpunct">▴</g>MIL<g type="interpunct">▴</g>LEG<g type="interpunct">▴</g>VIII
-<lb n="4"/>AVG<g type="interpunct">▴</g>SE<hi rend="ligature">VE</hi>RIAN<hi rend="ligature">AE</hi>
+<lb n="4"/>AVG<g type="interpunct">▴</g>SE<hi rend="ligature">VE</hi>RIAN<hi rend="ligature">AE</hi> 
 <lb n="5"/><del rend="erasure">ALEXANDRIAN<gap reason="lost" extent="unknown" unit="character"/></del>
 <lb n="6"/>EXACTVS<g type="interpunct">▴</g>COS
 <lb n="7"/>DEDICATA
@@ -271,22 +272,22 @@
 			<div type="translation" xml:lang="de" org="uniform">
 				<p>                                                <p>Für den Gott <rs type="divine">Mars Armogius</rs>! </p>
                                                 <p>
-                                                    <rs type="divine" style="font-style: normal;">Iulius Emeritus</rs>, Soldat der Legio VIII Augusta Severiana Alexandriana, Schreiber des Statthalters, hat dies geweiht am 19. April unter dem Konsulat des Maximus und des Aelianus und hat ein Gelübde freudig, gern und verdientermaßen erfüllt.</p></p>
+                                                    <rs type="divine" style="font-style: normal;">Iulius Emeritus</rs>, Soldat der Legio VIII Augusta Severiana Alexandriana, Schreiber des Statthalters, hat dies geweiht am 19. April unter dem Konsulat des Maximus und des Aelianus und hat ein Gelübde freudig, gern und verdientermaßen erfüllt.<br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform">
 				<p>                                                <p>To the god <rs type="divine">Mars Armogius</rs>!</p>
-                                                <p>Iulius Emeritus, soldier of the legio VIII Augusta Severiana Alexandriana, military record-clerk of the governor, has dedicated this on the 19th April during the consulship of Maximus and Aelianus and fulfilled a vow gladly, willingly and deservedly.<br/></p></p>
+                                                <p>Iulius Emeritus, soldier of the legio VIII Augusta Severiana Alexandriana, military record-clerk of the governor, has dedicated this on the 19<sup>th</sup> April during the consulship of Maximus and Aelianus and fulfilled a vow gladly, willingly and deservedly.<br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform">
 				<app loc="1">
 					<note>arm(igero?) arm(ato?) – Brambach, Becker; Armigero oder Armogio? – Riese; arm(ato?) – Stauner; aram – EDH, Behrens; Arm() – Weber; (M)arm(ogio?) – EPSG, Scheungraber</note>
 				</app>
 			
-            <app loc="7"><note anchored="true">Am Ende der Zeile ein zusätzliches A: a(d?) – Brambach; a(ra) – Becker</note></app>
+            <app loc="7"><note anchored="true">am Ende der Zeile ein zusätzliches A: a(d?) – Brambach; a(ra) – Becker</note></app>
         
             <app loc="11"><note anchored="true">l(ibens) l(aetus) – Weber, Stauner, Cubaynes, Scheungraber ; l(aetus) l(ubens) – Becker</note></app>
         
-            <app loc="8"><note anchored="true">Am Anfang der Zeile (ante diem) – Weber</note></app>
+            <app loc="8"><note anchored="true">am Anfang der Zeile (ante diem) – Weber</note></app>
         </div>
 			<div type="commentary" subtype="general" org="uniform">                                                <p>Iulius Emeritus: römisches Namensformular ohne Praenomen</p>
                                                 <p>Iulius: italisches Gentilnomen, kaiserliches Gentilnomen, überall äußerst gängig (Kakoschke 2021, GN 637)</p>
@@ -294,10 +295,12 @@
                                                 <p><br/></p>
                                                 
                                                 <p>legio VIII Augusta Severiana Alexandriana: die Beinamen Severiana und Alexandriana wurden während der Herrschaft des Severus Alexander verliehen, letzterer fiel nach dessen damnatio memoriae wieder weg (Stein 1932, 116). Die Legion war bis 44 n.Chr. in Ptui stationiert, dann bis 69 n.Chr. in Stalken bei Swischtow, nach ihrer Beteiligung an der Niederschlagung des Bataveraufstandes kurzzeitig in der Nähe von Dijon bevor sie in den 80ern für die nächsten drei Jahrhunderte nach Straßburg verlegt wurde.</p>
-                                                <p>exactus consularis: Schreiber des Statthalters (s. Domazewski 1908, 37 u. 73; Stauner 2004, 140f u. 262)</p><p>Maximo
+                                                <p>exactus consularis: Schreiber des Statthalters (s. Domazewski 1908, 37 u. 73; Stauner 2004, 140f u. 262)</p>
+                                                <p>Maximo
  et Aeliano consulibus: Lucius Marius Maximus Perpetuus Aurelianus und 
 Lucius Roscius Aelianus Paculus Salvius Iulianus bekleideten das Amt im 
-Jahr 223 n.Chr.</p><p/>
+Jahr 223 n.Chr.</p>
+                                                <p/>
                                                 <p/>
                                                 <p/>
                                                 <p/>
@@ -1032,8 +1035,7 @@ G. Reimer 1885. Nr. 936</span></p></note>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
 			<note type="Buchsthoehe_note">                                                    <p>Wo die Messung 1,6-2,5 cm her?</p>
-                                                    <p>Abklatsch in Graz, warten auf Praktikant Messergebnisse</p>
-                                                    <p>EPSG: Zeile 1–6: 3,5 cm, Zeile 7–10: 3 cm, Zeile 11: 3,5-4 cm</p></note>
+                                                    <p>Abklatsch in Graz, Messergebnisse Zeile 1–6: 3,5 cm, Zeile 7–10: 3 cm, Zeile 11: 3,5-4 cm</p></note>
 			<note type="Notvar_note"/>
 			<note type="SonstKomm_note"/>
 			<note type="Datierung_note">                                                    <p><span>XIII Kalendas Maias Maximo et Aeliano consulibus

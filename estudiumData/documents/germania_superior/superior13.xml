@@ -82,17 +82,17 @@
 							</supportDesc>
 							<layoutDesc>
 								<layout> <p>                                                <p>Von der Inschrift sind nur die ersten beiden Zeilen erhalten, wobei die zweite beschädigt ist. Aufgrund des Erhaltungszustandes ist es ungewiss, ob die Inschrift noch weitere Zeilen aufwies. Die Buchstaben sind ungleichmäßig gearbeitet.</p>
-                                                <p>Christ 1879 ergänzt im abgearbeiteten Altaraufsatz ein I O M.</p>
-                                                <p>Die Ergänzung von Biviae für Z.1 wird gestützt durch weitere Weihungen aus der Superior (CIL XIII 5070, CIL XIII 5621, CIL XIII 6096; CIL XIII 6437, CIL XIII 111474, CIL XIII 5069; 4 N. 33; M. Mattern AKB 28, 1998, 613) auf denen die Triviae und Quadruviae stets als Göttertrias zusammen mit den Biviae erscheinen.</p>
-                                                <p>In Z.2 sind die erhaltenen oberen Hälften von S und A ausgebrochen, vom L nur die Senkrechthaste erhalten, aus der Literatur geht nicht hervor ob früher mehr erhalten war, oder die Rekonstruktion stets auf dem Kontext basierte.</p>
-                                    </p> <note type="condition"/> </layout>
+                                                <p>Christ (1879, 48) ergänzt im abgearbeiteten Altaraufsatz ein I O M. <br/></p>
+                                                <p>Die Ergänzung von <rs type="divine">Biviae</rs> für Z.1 wird gestützt durch weitere Weihungen aus der Superior (CIL XIII 5070, CIL XIII 5621, CIL XIII 6096; CIL XIII 6437, CIL XIII 111474, CIL XIII 5069; 4 N. 33; M. Mattern AKB 28, 1998, 613) auf denen die <rs type="divine">Triviae</rs> und <rs type="divine">Quadruviae</rs> stets als Göttertrias zusammen mit den <rs type="divine">Biviae</rs> erscheinen. In Z.2 sind die erhaltenen oberen Hälften von S und A ausgebrochen, vom L ist nur die Senkrechthaste erhalten, aus der Literatur geht nicht hervor, ob früher mehr erhalten war, oder die Rekonstruktion stets auf dem Kontext basierte.</p>
+                                    </p> <note type="condition">https://gams.uni-graz.at/o:fercan.arch#C.130320</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="1.5" atMost="1.5">1,5–1,5</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p><p>Keine bildliche Gestaltung erhalten. <br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+							<decoNote> <p>                                                <p>Keine bildliche Gestaltung vorhanden.<br/></p></p> 
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150300">glatt</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -250,7 +250,7 @@
 			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
 			<div subtype="editions" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl xml:id="1"> Christ 1879, 48 </bibl>
+					<bibl xml:id="1"> Christ 1879 (Beiträge), 48 </bibl>
 				
             <bibl xml:id="2">CIL XIII 6426 </bibl>
         
@@ -309,18 +309,21 @@
 			</div>
 			<div type="apparatus" org="uniform">
 				<app loc="1">
-					<note>in eienr zusätzlichen Zeile oberhalb von dieser [I O M] – Christ; Tri&lt;v=B&gt;(iis) Qua(driviis) Cas(ibus) – EDH, Scheungraber; Trib(is = Triviis), Qua(driviis), Cas(ibus?) – Keune; Trib(is) Qua(drivis) – Castritius (u.a.), Ferlut; Cas [- - -] – Mattern</note>
+					<note>in einer zusätzlichen Zeile oberhalb von dieser [I O M], diese Zeile als Z.2 – Christ; Tri&lt;v=B&gt;(iis) Qua(driviis) Cas(ibus) – EDH, Scheungraber; Trib(is = Triviis), Qua(driviis), Cas(ibus?) – Keune; Trib(is) Qua(drivis) – Castritius (u.a.), Ferlut; Cas [- - -] – Mattern </note>
 				</app>
-			</div>
-			<div type="commentary" subtype="general" org="uniform">Das Kloster Lorsch befindet sich zwar im Gebiet der Civitas Ulpia Sueborum Nicrensium. Es liegt jedoch im Bereich des Möglichen, dass der Stein von außerhalb stammt und in einer der Bauphasen des Klosters nach Lorsch transportiert wurde, weswegen die Herkunft der Inschrift ungesichert bleibt.<br/>
+			
+            <app loc="2">
+                <note anchored="true">Z.3 wegen zusätzlicher Zeile vor Z.1 – Christ</note>
+            </app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform">Das Kloster Lorsch befindet sich zwar im Gebiet der Civitas Ulpia Sueborum Nicrensium, es liegt jedoch im Bereich des Möglichen, dass der Stein von außerhalb stammt und in einer der Bauphasen des Klosters nach Lorsch transportiert wurde, weswegen die Herkunft der Inschrift ungesichert bleibt.<br/>
                                                 <p> </p>
 			</div>
 			<div type="commentary" subtype="language" org="uniform">
 				<p> </p>
 			</div>
-			<div type="commentary" subtype="deity" org="uniform">
-				<p> </p>
-			</div>
+			<div type="commentary" subtype="deity" org="uniform"><p>***</p><p>Nichtkeltische Götternamen:</p><p>Bei den fast immer als Göttertrias erscheinenden <rs type="divine">Biviae, </rs><i>Triviae</i> und <i>Quadruviae</i> handelt es sich um die römischen Gottheiten der Wegkreuzungen.<p> </p>
+			</p></div>
 			<linkGrp type="alignment" domains="#majuscule #minuscule">
 			</linkGrp>
 		</body>

@@ -89,7 +89,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Der Text findet sich auf einer von mehreren Tafeln (bzw. Resten davon), die mit außergewöhnlicher Schrift beschrieben sind. Sie enthält mehrere Weihetexte, die aber nicht überall eindeutig voneinander abgegrenzt werden können. Die Interpunktion ist unsicher und könnte auch anders gesetzt werden. Es ist auch unklar, ob die Zeile Anfang und Ende des ursprünglichen Textes erfasst. Es ist wohl nicht auszuschließen, dass sich der Text links und rechts auf weiteren Tafeln fortsetzte. Hier erfasst ist die 4. Zeile der Tafel B (Tafel B Nr.4, nach Vollgraff 1931), die möglicherweise den Rest eines ersten und einen vollständigen zweiten Weihetext enthält.<lb/>Bemerkenswert ist die einzigartige, ungewöhnliche Form der ineinander verschlungenen Buchstaben. Die Lesung des Textes ist problematisch. Sie beruht in der hier vorgelegten Form auf Vollgraff. Nesselhauf 1937, Nr.257 meint, dass eine zunächst normal geschriebene Inschrift zugrunde zu liegen scheint, die durch „Auflegen eines spinnwebartigen Schnörkelnetzes über die einzelnen Zeilen verziert oder unverständlich gemacht werden sollte“.<lb/>In die vorliegende Sammlung wurden auch noch zwei weitere Zeilen dieser Tafel aufgenommen: CF-GeI-136 und CF-GeI-137.</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">weitgehend vollständig</tei:note>
+                                    <note type="condition" anchored="true">weitgehend vollständig</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -123,9 +123,9 @@
                                 <ref type="context" target="context:fercan.geog.modern.utrecht">Utrecht</ref>
                             </placeName>
                             <p part="N">mitten in der Stadt vor den Toren der Akademie</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">52.082366 5.132945</geo>
-                            </tei:location>
+                            </location>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">non vidimus<lb/>Lesung gründet auf: Vollgraff 1931</provenance>
                     </history>
@@ -134,29 +134,29 @@
                     <place instant="false"/>
                     <place type="antique_term" instant="false">
                         <placeName instant="false" full="yes">
-                            <ref type="context" target="context:fercan.geog.term.albiobola">Albiobola</ref>
+                            <ref type="context" target="context:fercan.geog.term.albiobola">Albiobola; Albiobola Bataborum; Colonia Sudobeba Brabonum; Sudobeba Brabonum</ref>
                         </placeName>
                     </place>
                     <place type="antique_term" instant="false">
                         <placeName instant="false" full="yes">
-                            <ref type="context" target="context:fercan.geog.term.albiobola_bataborum">Albiobola Bataborum</ref>
+                            <ref type="context" target="context:fercan.geog.term.albiobola_bataborum">Albiobola; Albiobola Bataborum; Colonia Sudobeba Brabonum; Sudobeba Brabonum</ref>
                         </placeName>
                     </place>
                     <place type="antique_term" instant="false">
                         <placeName instant="false" full="yes">
-                            <ref type="context" target="context:fercan.geog.term.colonia_sudobeba_brabonum">Colonia Sudobeba Brabonum</ref>
+                            <ref type="context" target="context:fercan.geog.term.colonia_sudobeba_brabonum">Albiobola; Albiobola Bataborum; Colonia Sudobeba Brabonum; Sudobeba Brabonum</ref>
                         </placeName>
                     </place>
                     <place type="antique_term" instant="false">
                         <placeName instant="false" full="yes">
-                            <ref type="context" target="context:fercan.geog.term.sudobeba_brabonum">Sudobeba Brabonum</ref>
+                            <ref type="context" target="context:fercan.geog.term.sudobeba_brabonum">Albiobola; Albiobola Bataborum; Colonia Sudobeba Brabonum; Sudobeba Brabonum</ref>
                         </placeName>
                     </place>
                 </listPlace>
                 <listPerson default="false">
                     <person instant="false">
                         <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.dcn.borvoboendoa_">Borvoboendoa?</ref>
+                            <ref type="context" target="context:fercan.dcn.borvoboendoa_">Borvoboendoa?; Cobba?</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -166,7 +166,7 @@
                     </person>
                     <person instant="false">
                         <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.dcn.cobba_">Cobba?</ref>
+                            <ref type="context" target="context:fercan.dcn.cobba_">Borvoboendoa?; Cobba?</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -176,16 +176,16 @@
                     </person>
                     <person instant="false">
                         <persName type="divine" subtype="celtic_element" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.dce.borvoboendoa_">Borvoboendoa?</ref>
+                            <ref type="context" target="context:fercan.dce.borvoboendoa_">Borvoboendoa?; Cobba?</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="divine" subtype="celtic_element" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.dce.cobba_">Cobba?</ref>
+                            <ref type="context" target="context:fercan.dce.cobba_">Borvoboendoa?; Cobba?</ref>
                         </persName>
                     </person>
                     <person instant="false">
-                        <persName type="divine" instant="false" full="yes">
+                        <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.divine-o.lobbonus_albiobolae_genius_sanct">Lobbonus Albiobolae Genius sanctus</ref>
                         </persName>
                     </person>
@@ -194,22 +194,22 @@
                     <org instant="false"/>
                     <org type="admin_unit" instant="false">
                         <orgName instant="false" full="yes">
-                            <ref type="context" target="context:fercan.org.admin.albiobola">Albiobola</ref>
+                            <ref type="context" target="context:fercan.org.admin.albiobola">Albiobola; Albiobola Bataborum; Colonia Sudobeba Brabonum; Sudobeba Brabonum</ref>
                         </orgName>
                     </org>
                     <org type="admin_unit" instant="false">
                         <orgName instant="false" full="yes">
-                            <ref type="context" target="context:fercan.org.admin.albiobola_bataborum">Albiobola Bataborum</ref>
+                            <ref type="context" target="context:fercan.org.admin.albiobola_bataborum">Albiobola; Albiobola Bataborum; Colonia Sudobeba Brabonum; Sudobeba Brabonum</ref>
                         </orgName>
                     </org>
                     <org type="admin_unit" instant="false">
                         <orgName instant="false" full="yes">
-                            <ref type="context" target="context:fercan.org.admin.colonia_sudobeba_brabonum">Colonia Sudobeba Brabonum</ref>
+                            <ref type="context" target="context:fercan.org.admin.colonia_sudobeba_brabonum">Albiobola; Albiobola Bataborum; Colonia Sudobeba Brabonum; Sudobeba Brabonum</ref>
                         </orgName>
                     </org>
                     <org type="admin_unit" instant="false">
                         <orgName instant="false" full="yes">
-                            <ref type="context" target="context:fercan.org.admin.sudobeba_brabonum">Sudobeba Brabonum</ref>
+                            <ref type="context" target="context:fercan.org.admin.sudobeba_brabonum">Albiobola; Albiobola Bataborum; Colonia Sudobeba Brabonum; Sudobeba Brabonum</ref>
                         </orgName>
                     </org>
                 </listOrg>
@@ -257,9 +257,11 @@
                             <ref type="context" target="context:fercan.dedication.votis_susceptis_libentes_posuerunt">votis susceptis libentes posuerunt</ref>
                         </item>
                         <item>
-                            <ref type="context" target="context:fercan.character.besondere,_extrem_verschlungene_schrift">besondere, extrem verschlungene Schrift</ref>
+                            <ref type="context" target="context:fercan.character.besondere_extrem_verschlungene_schrift">besondere, extrem verschlungene Schrift</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">deab(us) Borvoboedoae; Cobbae</ref> </item>
+                    </list>
+                </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -323,8 +325,15 @@ Colonia Sudobeba Brabonum: bislang nicht lokalisiert; unter den Brabones ist ein
 
 Albiobola Bataborum: Die Colonia Albiobola dürfte am Gebiet des späteren Traiectum (Utrecht) oder zur gleichen Zeit in unmittelbarer Nähe gelegen sein (Franke, RE S VI, 1935, Sp.3 s.v. Albiobola). – Bataborum steht auf diesen Tafeln für Batavorum. </p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">
-                <p part="N"> <rs type="divine">Borvoboedoa:</rs> Variante von  <rs type="divine">Borvoboendoa:</rs> Vollgraff 1931, 259 zitiert aus einem Schreiben von A.G. van Hamel: „Hoc nomen procul dubio Gallicum est.“  </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                <p part="N"> <rs type="divine">Borvoboedoa:</rs> Variante von  <rs type="divine">Borvoboendoa:</rs> <span style="font-family:&#34;Arial&#34;,sans-serif">keltisch: </span>‚<span style="font-family:&#34;Arial&#34;,sans-serif">[Göttin] von <rs type="divine">*Borvobenda</rs>’ (</span>
+                    <span style="mso-ansi-language:DE" lang="DE">de Bernardo Stempel Corpus F.E.R.C.A.N.
+II/1 90f). </span>(Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)</p>
+
+<p part="N">  </p>
                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
@@ -337,7 +346,11 @@ Vorkommen in theonymischen Formularen: </p>
 *** </p>
                 <p part="N">
 
- <rs type="divine">Cobba</rs>: möglicherweise keltisch; vielleicht eine translatio Celtica von Victoriae (Vollgraff 1931, 260; vgl. Gutenbrunner 1936, 66f.) </p>
+ <rs type="divine">Cobba</rs>: keltisch erklärbar: ‘[Göttin] des Sieges’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 92f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)</p>
                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
@@ -360,35 +373,59 @@ Nicht keltische Götternamen: </p>
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true"/>
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">
+                <p>Alte Version (11.07.2024)</p>
+                <p> Borvoboedoa: Variante von  Borvoboendoa: Vollgraff 1931, 259 zitiert aus einem Schreiben von A.G. van Hamel: „Hoc nomen procul dubio Gallicum est.“  </p>
+                <p>
+
+Vorkommen in theonymischen Formularen: </p>
+                <p>
+ Borvoboendoa: 
+- Germania Inferior: 2 x bezeugt (CF-GeI-136 und CF-GeI-262). In der hier vorgelegten Inschrift wird  Borvoboedoa zudem als  dea bezeichnet.  
+- außerhalb der Germania Inferior: - </p>
+                <p>
+
+*** </p>
+                <p>
+
+ Cobba: möglicherweise keltisch; vielleicht eine translatio Celtica von Victoriae (Vollgraff 1931, 260; vgl. Gutenbrunner 1936, 66f.) </p>
+                <p>
+
+Vorkommen in theonymischen Formularen: </p>
+                <p>
+ Cobba: 
+- Germania Inferior: nur in dieser Inschrift belegt. In der hier vorgelegten Inschrift wird  Cobba zudem als  dea bezeichnet.   
+- außerhalb der Germania Inferior: In Mandeure (F) ist auf einer Schale möglicherweise  Cobeia belegt (CIL XIII 5412). </p>
+                <p/>
+            </note>
         </back>
     </text>
 </TEI>

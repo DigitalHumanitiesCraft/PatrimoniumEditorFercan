@@ -90,7 +90,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Der Text füllt das Inschriftenfeld nicht zur Gänze aus (unter dem Text bleibt ein Freiraum). Er ist weitestgehend erhalten. Die Buchstaben sind in der ersten Zeile höher als in den folgenden. Z.1 und Z.2 sind nicht zentriert.</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">weitgehend vollständig</tei:note>
+                                    <note type="condition" anchored="true">weitgehend vollständig</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -121,9 +121,7 @@
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.210800">
                                     <ref type="context" target="context:fercan.arch.kornaehre">Kornähre</ref>
                                 </term>
-                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150610">
-                                    <ref type="context" target="context:fercan.arch.perlstab">Perlstab</ref>
-                                </term>
+                                
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150500">
                                     <ref type="context" target="context:fercan.arch.rahmen">Rahmen</ref>
                                 </term>
@@ -148,10 +146,10 @@
                                 <ref type="context" target="context:fercan.geog.modern.monheim">Monheim</ref>
                             </placeName>
                             <p part="N">Haus Bürgel, in der Nordostecke der Maternus-Kapelle</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">51.129790 6.873129</geo>
-                            </tei:location>
-                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">vermauert</tei:note>
+                            </location>
+                            <note anchored="true">vermauert</note>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">vidimus (26.9.2018)</provenance>
                     </history>
@@ -232,7 +230,7 @@
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Matron[is] Alagabiabu(s)</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -270,6 +268,10 @@
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD078185</idno>
+                        <date>Version vom 02. Oktober 2019</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-71300186</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -297,7 +299,7 @@ Gaius Saturninius Maternus has fulfilled a vow willingly and deservedly for hims
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Matro[nis] – Bauchhenß/Classen/Schwabroh; Matroni[s] – Scheungraber</tei:note>
+                    <note anchored="true">Matro[nis] – Bauchhenß/Classen/Schwabroh; Matroni[s] – Scheungraber</note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
@@ -308,7 +310,11 @@ Maternus: lateinisches Cognomen, überall gängiger Name (Kakoschke 2008, CN 196
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.2: „Alagabiabus” pro „Alagabiis”</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Alagabiae:</rs> Variante von <rs type="divine">Ollogabiae</rs>: keltisch erklärbar: ,Die Allgebenden [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 218-220).  </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Alagabiae:</rs> Variante von <rs type="divine">Ollogabiae</rs>: keltisch erklärbar: ,Die Allgebenden [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 218-220). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)  </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
@@ -333,35 +339,35 @@ Vorkommen in theonymischen Formularen: </p>
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">
                 <p part="N">Alte Version (20.04.23):</p>
                 <p part="N"> Alagabiae: keltisch (Delamarre 2007, 16); „représente la version germanique des Ollogabiae“ (AE 2014, 913);  Ollogabiae ist eine Verstärkung von  Gabiae (keltisch ,die Gebenden‘) mittels des keltischen Determinans ollo-, d.h. ,die Alles-Gebenden‘, germanisiert als  Alagabiae (de Bernardo Stempel 2005, 190).  </p>
                                                 <p part="N">
@@ -377,7 +383,7 @@ Vorkommen in theonymischen Formularen: </p>
 - Germania Inferior: -  
 - außerhalb der Germania Inferior: in der Germania Superior 2x belegt (CIL XIII 6751, 7280)</p>
                 <p part="N"/>
-            </tei:note>
+            </note>
         </back>
     </text>
 </TEI>

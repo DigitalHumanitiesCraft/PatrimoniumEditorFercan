@@ -40,8 +40,8 @@
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<settlement> </settlement>
-						<repository>Saalburgmuseum</repository>
+						<settlement> Saalburg</settlement>
+						<repository>Museum</repository>
 						<idno>St. 9</idno>
 					</msIdentifier>
 					<msContents>
@@ -50,30 +50,43 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
-									<objectType>Weihestein</objectType> <dimensions>
+								<support> <p><p>An diesem stark verwitterten Weihestein sind kaum mehr Details zu erkennen. Am besten erhalten ist das rechte untere Eck der Basis, an dem man eine dreiteilige Stufung hin zum Inschriftenfeld erkennen kann. Dieses scheint ungerahmt gewesen zu sein. Die Abgrenzung hin zur Bekrönung war ebenfalls durch drei Stufen gestaltet. Erkannt werden können noch die Reste von Pulvini und eines Giebels, sowie dahinter die Opferschale. Am unteren Ende mittig befindet sich ein großes Bohrloch (lt. Mattern 2005, 63 Nr. 48 von ca. 7–8 cm). Große Flächen des Steines sind abgespalten, er ist rundherum bestoßen. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm">38</height>
 										<width unit="cm">22</width>
 										<depth unit="cm">11</depth>
 									</dimensions> <note type="dimensions" anchored="true">Die angegebenen Maße sind die des erhaltenen Objektes.</note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130700">unklar</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p><p>Von der Inschrift ist nur mehr die erste Zeile lesbar, in den übrigen sind Zeilen nur vereinzelte Buchstabenreste erhalten, deren Lesung jedoch umstritten ist (s. Apparatus citicus).</p><p>Das Inschriftenfeld ist auf allen Seiten beschädigt, bei Auffindung war scheinbar noch ein weiterer Buchstabe in Z.1, sowie zwei Buchstaben zu Beginn von Z.5 erhalten die als BF oder BE gedeutet wurden (so CIL XIII 6631a). Drexel (1914, 58) belegt, dass Z.5 bereits vor seiner Bearbeitung verloren gegangen war. <br/></p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Von der Inschrift ist nur mehr die erste Zeile lesbar, in den übrigen Zeilen sind nur vereinzelte Buchstabenreste erhalten, deren Lesung außerdem umstritten ist (s. Apparatus citicus).</p>
+                                                <p>Das Inschriftenfeld ist auf allen Seiten beschädigt, bei Auffindung war scheinbar noch ein weiterer Buchstabe in Z.1, sowie zwei Buchstaben zu Beginn von Z.5 erhalten, die als BF oder BE gedeutet wurden (so CIL XIII 6631a). Drexel (1914, 58) belegt, dass Z.5 bereits vor seiner Bearbeitung verloren gegangen war. <br/></p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130330</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="2.0" atMost="2.2">2,0–2,2</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
-							</decoNote>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> 
+                      
+							
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale (Gestaltungsmerkmal)</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140740">Bohrloch</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term></decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName/> <region>Civitas Auderiensium</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1900"> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+						<provenance type="found" when="1900"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Stockstadt</ref> </placeName> <p><p>"in einem Keller der bürgerlichen Niederlassung" (Mattern 2005, 63 Nr. 48)<br/></p></p> <location>
 								<geo decls="#WGS"/>
 							</location> <note anchored="true"/> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
@@ -205,13 +218,18 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1089_front.jpg">
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1089_front1.jpg">
 			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
 		</graphic>
 	
             <!-- todo: @xml:id-->
             <graphic mimeType="image/png" url="1089_front_Abschr.png">
                 <desc>Abschrift, CIL</desc>
+            </graphic>
+        
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/png" url="1089_front2.jpg">
+                <desc>Front, Römerkastell Saalburg (www.saalburgmuseum.de), CC BY-NC-SA 4.0</desc>
             </graphic>
         </facsimile>
 	<text>
@@ -248,7 +266,7 @@
 <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>S<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="5"/><supplied reason="undefined" evidence="previouseditor" instant="false">BF</supplied><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="6"/><gap reason="lost" extent="unknown" unit="line"/><orig/></ab></div>
-			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><supplied reason="lost">H</supplied><expan><abbr>eraecur</abbr><ex>a</ex></expan>e
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><supplied reason="lost">H</supplied><expan><abbr>eraecur</abbr><ex>a</ex></expan>e<note>!</note>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>O<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>S<gap reason="lost" extent="unknown" unit="character"/>
@@ -278,7 +296,7 @@
             </app>
         
             <app loc="1">
-                <note anchored="true">Die unterstrichenen Teile in Z.1 und Z.5 sind heute nicht mehr erhalten, sie werden nach CIL wiedergegeben</note>
+                <note anchored="true">Die unterstrichenen Teile in Z.1 und Z.5 sind heute nicht mehr erhalten, sie werden nach CIL wiedergegeben.</note>
             </app>
         </div>
 			<div type="commentary" subtype="general" org="uniform" sample="complete">
@@ -294,17 +312,17 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"/>
+			<note type="Objbeschr_note">                                                    <p>Drexel 1914, 58 Nr. 3: Sockel und Bekrönung sind einfach profiliert, der Aufsatz zeigt eine Schale zwischen zwei Wulsten. Die ganze Inschriftfläche sowie ein Teil der Rückseite sind lagerhaft abgespalten. ... Ein rohes konisches Loch von 7-8 cm vorderer Weise durchbricht unten die Dicke des Altars. </p><p>Mattern 2005, 63 Nr. 48: Stark beschädigt. Der Sockel und ein Teil des Altarkörpers sind vornenks abgespalten. Der linke Pulvinus und die linke vordere Kante des Altars sind bestoßen. Im unteren Altarbereich befindet sich knapp überhalb des Sockels, das obere Profil schneidend, ein konisches Loch von ca. 7-8 cm Durchmesser. ... Sockel und Gesims des kleinen Altärchens sind jeweils dreifach profiliert. Der Altaraufsatz besteht aus einer trogförmigen, tiefen Focusschale und seitlichen Polstern.<br/></p></note>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"/>
+			<note type="Material_note"><p>Castritus/Clauss 1980, 197 Nr. 3: roter Sandstein<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"><p>Mattern 2005, 63 und Karteikarte 6631 S.9 (03/2007): Stockstadt</p><p>EDH: Bad Homburg<br/></p></note>
 			<note type="InvNr_note"><p>Mattern 2005, 63; ohne Inv.Nr. Karteikarte 6631 S.9<br/></p></note>
 			<note type="Fundstelle_note"/>
 			<note type="Fundumst_note"/>
-			<note type="Fundjahr_note"><p>EDH, Mattern 2005, 63<br/></p></note>
+			<note type="Fundjahr_note">                                                    <p>CIL, EDH, Mattern 2005, 63<br/></p></note>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note"/>
+			<note type="FOmodern_note">Castritius/Clauss 1980, 197 Nr. 3<br/></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
@@ -318,7 +336,7 @@
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"/>
+			<note type="Buchsthoehe_note"><p>lt. Mail Fr. Langgartner vom 6.6.24<br/></p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>

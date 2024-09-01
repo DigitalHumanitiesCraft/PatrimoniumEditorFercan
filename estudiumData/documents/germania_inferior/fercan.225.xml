@@ -148,7 +148,7 @@
                         </persName>
                     </person>
                     <person instant="false">
-                        <persName type="divine" instant="false" full="yes">
+                        <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.divine-o.leudinae_">Leudinae?</ref>
                         </persName>
                     </person>
@@ -193,7 +193,9 @@
             <textClass default="false">
                 <keywords>
                     <list>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">[---]s Leu[---]</ref> </item>
+                    </list>
+                </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -214,10 +216,12 @@
             </ab>
             <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl default="false">
-                    <bibl xml:id="LIT.1" default="false" status="draft">Alföldy 1968, Nr.149</bibl>
+                    <bibl xml:id="LIT.1" default="false" status="draft">Alföldy 1968 (Rheinland III), 54 Nr.149</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1968, 359</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Schillinger-Häfele 1977, Nr.151</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 354 Nr.1</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -249,17 +253,21 @@
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[hi]s, oberhalb wird noch eine Zeile [-?- Vacalline] angenommen – Alföldy, AE, Schillinger-Häfele, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">davor eine mögliche Z.0 [-?- Vacalline] – Alföldy, AE, Schillinger-Häfele, EDH; als sicher angenommene Z.0 ] Vacalline – Scheungraber; [hi]s – Alföldy, AE, Schillinger-Häfele, Scheungraber; Leu[dinis] – Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Fu]scus – Alföldy, AE, Schillinger-Häfele, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Fu]scus – Alföldy, AE, Schillinger-Häfele, EDH, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]i (filius) (?) S[---] – Alföldy, AE</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N">Das erhaltene S in Z.1 könnte ein Rest der Dativendung von  <rs type="divine">Vacallinehae</rs> oder einer Variante davon sein: keltisch: ‚Unter den Bäumen bzw. dem Wald Verweilende [Muttergöttinen]‘ 
-(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243).  </p>
+(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)  </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>

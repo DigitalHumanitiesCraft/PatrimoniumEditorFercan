@@ -90,7 +90,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Der Inschriftentext ist vollständig erhalten.<lb/>Ligaturen: s. Majuskeltext. Besondere Zeichen: In Z. 1 und 2 sich überschneidendes O und C; Z.1 Ligatur von N und I durch verlängerte rechte senkrechte Haste des N; Z.4 Ligatur von I und P durch verlängerte Haste des P und Ligatur von N und I durch verlängerte rechte senkrechte Haste des N</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">vollständig</tei:note>
+                                    <note type="condition" anchored="true">vollständig</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -139,10 +139,10 @@
                                 <ref type="context" target="context:fercan.geog.modern.krefeld">Krefeld</ref>
                             </placeName>
                             <p part="N">Gut Gripswald</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">51.338546 6.584831</geo>
-                            </tei:location>
-                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">innerhalb einer halbkreisförmigen Umfassungsmauer, wahrscheinlich den Resten eines antiken Tempels (Lehner 1918, Nr.339), gemeinsam mit CF-GeI-77, CF-GeI-80 und CF-GeI-82 sowie zwei Weihungen an Mercurius Arvernus (CF-GeI-67 und CF-GeI-70)</tei:note>
+                            </location>
+                            <note anchored="true">innerhalb einer halbkreisförmigen Umfassungsmauer, wahrscheinlich den Resten eines antiken Tempels (Lehner 1918, Nr.339), gemeinsam mit CF-GeI-77, CF-GeI-80 und CF-GeI-82 sowie zwei Weihungen an Mercurius Arvernus (CF-GeI-67 und CF-GeI-70)</note>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)</provenance>
                     </history>
@@ -153,22 +153,22 @@
                 <listPerson default="false">
                     <person instant="false">
                         <persName type="gentilnomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.gentilnomen.iulius">Iulius</ref>
+                            <ref type="context" target="context:fercan.person.gentilnomen.iulius">Iulius; Vipsania</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="gentilnomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.gentilnomen.vipsania">Vipsania</ref>
+                            <ref type="context" target="context:fercan.person.gentilnomen.vipsania">Iulius; Vipsania</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.fahena">Fahena</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.fahena">Fahena; Seranus</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.seranus">Seranus</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.seranus">Fahena; Seranus</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -233,7 +233,7 @@
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solverunt_libentes_merito">votum solverunt libentes merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Matronis Octocannabus</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -265,6 +265,10 @@
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD079668</idno>
+                        <date>Version vom 26. April 2019</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-11100666</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -275,7 +279,7 @@
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/><hi rend="ligature">MA</hi>TRO<hi rend="ligature">NI</hi>S · <hi rend="ligature">OC</hi> <lb n="2"/> 
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/><hi rend="ligature">MA</hi>TRO<hi rend="ligature">NI</hi>S · <hi rend="ligature">OC</hi> <lb n="2"/> 
 T<hi rend="ligature">OC</hi><hi rend="ligature">AN</hi>NABVS <lb n="3"/> 
 C · IVLIVS · SER<hi rend="ligature">AN</hi><hi rend="ligature">VS</hi> <lb n="4"/> 
 ET · V<hi rend="ligature">IP</hi>S<hi rend="ligature">ANI</hi>A · FA <lb n="5"/> 
@@ -292,15 +296,15 @@ Gaius Iulius Seranus and Vipsania Fahena have fulfilled a  vow willingly and des
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Sern̂us – CIL</tei:note>
+                    <note anchored="true">Sern̂us – CIL</note>
                 </app>
             
             <app loc="5">
-                <note anchored="true">hena ex imp(erio) i&lt;p=B&gt;sa(rum) v(otum) s(olverunt) l(ibentes) m(erito) – Scheungraber (Z.6 fehlt)</note>
+                <note anchored="true">hena ex imp(erio) i&lt;p=B&gt;sa(rum) v(otum) s(olverunt) l(ibentes) m(erito) – Scheungraber (keine Z.6 wegen fehlendem Zeilenwechsel)</note>
             </app>
         
             <app loc="6">
-                <note anchored="true">ips(arum) – Ferlut</note>
+                <note anchored="true">i&lt;p=B&gt;sa(rum) – EDH; ips(arum) – Ferlut</note>
             </app>
         </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
@@ -314,9 +318,13 @@ Vipsania: weibliche Form von Vipsanius: italisches Gentilnomen (Kakoschke 2006, 
 Fahena: germanisches Cognomen, nur in dieser Inschrift belegt (Kakoschke 2007, CN 1261)</p>
             </div>
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
-                <p part="N">v.1/2: „Octocannabus” pro „Octocannis”<lb/>v.6: „ibsarum” pro „ipsarum”</p>
+                <p part="N"><p>v.1/2: „Octocannabus” pro „Octocannis”</p><p><lb/>v.6: „ibsarum” pro „ipsarum”</p></p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Octocannae:</rs> keltisch: ‚[Muttergöttinnen] der Fichten’ bzw. ‘Fichtengöttinnen’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 236f).</p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Octocannae:</rs> keltisch: ‚[Muttergöttinnen] der Fichten’ bzw. ‘Fichtengöttinnen’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 236f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)</p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
@@ -346,37 +354,37 @@ Alle Inschriften für  <rs type="divine">Octocannae</rs> stammen aus dem Raum Kr
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">
                 <p part="N">Für Alte Version (17.04.23) siehe CF-GeI-77</p>
-            </tei:note>
+            </note>
         </back>
     </text>
 </TEI>

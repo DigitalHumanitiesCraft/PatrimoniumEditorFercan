@@ -56,19 +56,21 @@
 										<width unit="cm">59</width>
 										<depth unit="cm">35</depth>
 									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p><p>Der Text füllt das Inschriftenfeld auf dem Block vollständig aus, auf einem darüberliegenden Block muss sich aber zumindest eine weitere Zeile befunden haben, was sich aus der unvollständig erhaltenen Formel [in honorem] domus divinae ergibt.</p><p>Die Buchstaben sind gut erhalten und werden mit den unteren Zeilen deutlich kleiner.</p><p>Zu Ligaturen: s. Majuskelumschrift. – Besondere Zeichen: Z.1 ein überhöhtes I in Ligatur mit nachfolgendem N; Z.2 ein überhöhtes I in Ligatur mit O.</p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Der Text füllt das Inschriftenfeld auf dem Block vollständig aus, auf einem darüberliegenden Block muss sich aber zumindest eine weitere Zeile befunden haben, was sich aus der unvollständig erhaltenen Formel [in honorem] domus divinae ergibt.</p>
+                                                <p>Die Buchstaben sind gut erhalten und werden mit den unteren Zeilen deutlich kleiner. </p><p>Zu Ligaturen: s. Majuskelumschrift. – Besondere Zeichen: Z.1 ein überhöhtes I in Ligatur mit nachfolgendem N; Z.2 ein überhöhtes I in Ligatur mit O.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130500</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="4.5" atMost="6.3">4,5–6,3</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150600">Zierleiste</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> 
+                      
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140730">Eisenstift</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150300">glatt</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -263,11 +265,12 @@
 <lb n="4"/>sacrum Amandus
 <lb n="5"/>Velugni <expan><abbr>f</abbr><ex>ilius</ex></expan> Devas</ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
-				<p>                                                <p>Zu Ehren des Kaiserhauses dem <rs type="divine">Mars Loucetius</rs> geheiligt.</p>
+				<p>                                                <p>Zu Ehren des Kaiserhauses dem <rs type="divine">Mars Loucetius</rs> geheiligt!</p>
                                                 <p>Amandus, der Sohn des Velugnus, aus Deva.</p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p><p>In honour of the Divine Household sacred to <rs type="divine">Mars Loucetius</rs>.</p><p>Amandus, son of Velugnus, from Deva</p></p>
+				<p>                                                <p>In honour of the Divine Household sacred to <rs type="divine">Mars Loucetius</rs>!</p>
+                                                <p>Amandus, son of Velugnus, from Deva.</p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="2">
@@ -278,7 +281,10 @@
         
             <app loc="6"><note anchored="true">[v.s.l.l.m. (?)] – Klumbach; [v(otum) s(olvit) l(ibens) m(erito) ?] – Merten; [v(otum) s(olvit) l(ibens) m(erito)] – Kakoschke</note></app>
         </div>
-			<div type="commentary" subtype="general" org="uniform" sample="complete"><p>Amandus Velugni filius: einheimisches Namensformular</p><p>Amandus: lateinischer Name, überall gängig (Kakoschke 2021, CN 138)</p><p>Velugnus: keltischer Name, nur hier gesichert belegt (Kakoschke 2021, CN 3273) Vater des ersten.</p><p>Devas: Das Wort ist nicht zweifelsfrei geklärt. Der Inschriftensetzer gibt damit vielleicht seine Herkunft aus Deva an, womit möglicherweise Deva (Chester) in Britannien gemeint sein könnte (so z.B. AE, CIL, ILS, Grünewald). Es könnte sich aber auch um eine geographische oder ethnische Bezeichnung im Gebiet der Treverer handeln (z.B. Klumbach 1959, 72; Merten 1985, 45f.). Gegen die Deutung als Cognomen spricht eine Inschrift aus Trier (AE 1915, 70)<br/></p></div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Amandus Velugni filius: einheimisches Namensformular</p>
+                                                <p>Amandus: lateinischer Name, überall gängig (Kakoschke 2021, CN 138)</p>
+                                                <p>Velugnus: keltischer Name, nur hier gesichert belegt (Kakoschke 2021, CN 3273), Vater des Ersten</p>
+                                                <p>Devas: Das Wort ist nicht zweifelsfrei geklärt. Der Inschriftensetzer gibt damit vielleicht seine Herkunft aus Deva an, womit möglicherweise Deva (Chester) in Britannien gemeint sein könnte (so z.B. AE, CIL, ILS, Grünewald). Es könnte sich aber auch um eine geographische oder ethnische Bezeichnung im Gebiet der Treverer handeln (z.B. Klumbach 1959, 72; Merten 1985, 45f.). Gegen die Deutung als Cognomen spricht eine Inschrift aus Trier (AE 1915, 70)<br/></p></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
 				<p> </p>
 			</div>

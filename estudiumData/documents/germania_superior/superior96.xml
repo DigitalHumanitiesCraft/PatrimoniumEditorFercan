@@ -59,12 +59,12 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Der Inschriftentext ist vollständig erhalten. Er füllt das Textfeld fast vollständig aus, nur unten bleibt ein schmaler Freiraum. Die Buchstaben sind von unregelmäßiger Form und zum Teil schwer zu lesen. </p>
-                                                <p>Die Autopsie ergab rote Farbreste im M von Z.1. Der Zeilenabstand zwischen Z.3 und Z.4 ist größer als bei den übrigen Zeilen. Bei den R ist die Schräghaste vorne an den Bogen angesetzt, nicht hinten an der Senkrechthaste.</p>
-                                                <p>In Z.2 ist die Lesung des Buchstabens nach dem V umstritten (s. Apparatus
- criticus). Die Oberfläche ist an der Stelle abgerieben und vertieft, es spricht jedoch vieles für die Lesung als ein
-R: der Abstand zum nachfolgenden E entspricht dem R in Z.1, während er für ein I überraschend groß wäre, darüber hinaus sind unter dem richtigen Licht Reste des R deutlich sichtbar (s. Bild 2). Ein 
-ähnliches Problem findet sich auch bei CF-GeS-1055. Das N in Z.4 weist die selbe schiefe Form auf, wie in CF-GeS-1055, was die Frage nach dem Steinmetz aufwirft.<br/></p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Der Inschriftentext ist vollständig erhalten. Er füllt das Textfeld fast vollständig aus, nur unten bleibt ein schmaler Freiraum. Die Buchstaben sind von unregelmäßiger Form und zum Teil schwer zu lesen. Aufgrund des identen Inschriftenihaltes mit CF-GeS-1141 scheint es in 
+der Forschung zu einer Verschmelzung der beiden Inschriften gekommen zu 
+sein.</p>
+                                                <p>Die Autopsie ergab rote Farbreste im M von Z.1. Der Zeilenabstand zwischen Z.3 und Z.4 ist größer als bei den übrigen Zeilen. Bei den R ist die Schräghaste vorne an den Bogen angesetzt, nicht hinten an der Senkrechthaste. In Z.2 ist die Lesung des Buchstabens nach dem V umstritten (s. Apparatus
+ criticus). Die Oberfläche ist abgerieben und vertieft, unter dem richtigen Licht sind aber Reste des R deutlich sichtbar (s. Bild 2). Außerdem spricht für die Lesung als R, dass der Abstand zum nachfolgenden E den Maßen des R in Z.1 entspricht, während bei einem I ein ungewöhnlich großer Abstand entstehen würde, während sich bei einem T eine verkürzte linke Querhaste ergäbe. Ein 
+ähnliches Problem findet sich auch bei CF-GeS-1055. Das N in Z.4 weist dieselbe schiefe Form auf wie in CF-GeS-1055, was die Frage nacheinem möglicherweise selben Steinmetz aufwirft. Die Lesungen als <rs type="divine">Toutenus</rs> oder <rs type="divine">Tovienus</rs> (s. Ap. crit.) sind somit abzulehnen.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130500</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -73,6 +73,8 @@ R: der Abstand zum nachfolgenden E entspricht dem R in Z.1, während er für ein
 						<decoDesc>
 							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140100">bemalt</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -222,19 +224,25 @@ R: der Abstand zum nachfolgenden E entspricht dem R in Z.1, während er für ein
 			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
 			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
 				<listBibl>
-					<bibl xml:id="1">Brambach 1867 (Corpus), Nr.1830</bibl>
+					<bibl xml:id="4">Brambach 1867 (Corpus), Nr.1830</bibl>
 				
-            <bibl xml:id="2">CIL XIII 6122</bibl>
+            <bibl xml:id="5">CIL XIII 6122</bibl>
         
-            <bibl xml:id="4">Riese 1914, Nr.3365</bibl>
+            <bibl xml:id="7">Riese 1914, Nr.3365</bibl>
         
-            <bibl xml:id="5">Sprater 1948, 64</bibl>
+            <bibl xml:id="8">Sprater 1948, 64</bibl>
         
-            <bibl xml:id="6">Bernhard 1976, 149</bibl>
+            <bibl xml:id="9">Bernhard 1976, 149</bibl>
         
-            <bibl xml:id="7">Hirte 1995, 416</bibl>
+            <bibl xml:id="10">Hirte 1995, 416</bibl>
         
-            <bibl xml:id="3">Hildenbrand 1911 (Steinsaal), Nr.178</bibl>
+            <bibl xml:id="6">Hildenbrand 1911 (Steinsaal), Nr.178</bibl>
+        
+            <bibl xml:id="1">Lersch 1843, 123</bibl>
+        
+            <bibl xml:id="2">Steiner 1851, Nr.781</bibl>
+        
+            <bibl xml:id="3">Becker 1852, 492</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
@@ -256,33 +264,34 @@ R: der Abstand zum nachfolgenden E entspricht dem R in Z.1, während er für ein
 <lb n="3" break="no"/>no Firm
 <lb n="4" break="no"/>o Atronis</ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
-				<p><p>Für <rs type="divine">Mercurius Tourenus</rs>!</p><p>Firmo (der Sohn) des Atro</p></p>
+				<p>                                                <p>Für <rs type="divine">Mercurius Tourenus</rs>!</p>
+                                                <p>Firmo (der Sohn) des Atro...</p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p><p>To <rs type="divine">Mercurius Tourenus</rs>!</p><p>Firmo (the son) of Atro</p></p>
+				<p>                                                <p>To <rs type="divine">Mercurius Tourenus</rs>!</p>
+                                                <p>Firmo (the son) of Atro...</p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="2">
-					<note anchored="true">T(vel i)out(vel r)e – CIL; Touṭe- – Riese; IO TOVE – Hildenbrand; IO TOVTE – Sprater, Bernhard, Hirte; IOTOVI[-]ES – EDH  </note>
+					<note anchored="true">IO.TOVRE – Steiner; T(vel i)out(vel r)e – CIL; Touṭe- – Riese; IO TOVE – Hildenbrand; IO TOVTE – Sprater, Bernhard, Hirte; IOTOVI[-]ES – EDH  </note>
 				</app>
 			
             <app loc="3">
-                <note anchored="true">CETRN – Brambach; F(?)irmi(?) – CIL; no F̣irṃ- – Riese; NO FIRMI – Sprater, Bernhard, Hirte; IIO FIRMI – Hildenbrand; IIOETRM – EDH</note>
+                <note anchored="true">NO.ET.RN – Steiner; NCETRN – Lersch, Becker; CETRN – Brambach; F(?)irmi(?) – CIL; no F̣irṃ- – Riese; NO FIRMI – Sprater, Bernhard, Hirte; IIO FIRMI – Hildenbrand; IIOETRM – EDH</note>
             </app>
         
             <app loc="4">
-                <note anchored="true">OMROIVIS – Brambach; Ai(vel At vel Et)ronis – CIL; O Aironis (filio) – Hildenbrand; [i]o Aironis – Riese; O AIRONIS – Sprater, Bernhard; OAIRONIS – EDH; O SIRONIS – Hirte</note>
+                <note anchored="true">O PARONIS – Steiner; OMROIVIS – Lersch, Becker, Brambach; Ai(vel At vel Et)ronis – CIL; O Aironis (filio) – Hildenbrand; [i]o Aironis – Riese; O AIRONIS – Sprater, Bernhard; OAIRONIS – EDH; O SIRONIS – Hirte</note>
             </app>
         </div>
 			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Firmo Atronis: einheimisches Namensformular mit Angabe des Namens des Vaters im Genetiv</p>
                                                 <p>Firmo: Kakoschke liest und kennt nur den lateinischen Namen Firmio (Kakoschke 2021, CN 1322)</p>
-                                                <p>Atro: Kakoschke liest und kennt nur den lateinischen Namen Airo (Kakoschke 2021, CN 100) Vater des ersten.
+                                                <p>Atro: Kakoschke liest und kennt nur den lateinischen Namen Airo (Kakoschke 2021, CN 100), Vater des Ersten
 			</p></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
 				<p> </p>
 			</div>
-			<div type="commentary" subtype="deity" org="uniform" sample="complete">                                                <rs type="divine">Tourenus</rs>: Die Ergänzung des Götternamens ist nicht gesichert, aber wahrscheinlich.<br/>
-                                                <p> </p>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete"><br/><p/>
 			</div>
 			<linkGrp type="alignment" domains="#majuscule #minuscule">
 			</linkGrp>
@@ -1622,7 +1631,7 @@ Photo anders</span></span><span style="font-size:12.0pt;font-family:LeedsUniExt;
 			<note type="Schrifttechnik_note"/>
 			<note type="Buchsthoehe_note"/>
 			<note type="Notvar_note"/>
-			<note type="KommGoettern_note"><p>Tourenus: Die Ergänzung des Götternamens ist nicht gesichert, aber wahrscheinlich.</p></note>
+			<note type="KommGoettern_note">Vor der Autopsie: Tourenus: Die Ergänzung des Götternamens ist nicht gesichert, aber wahrscheinlich.</note>
 			<note type="SonstKomm_note"/>
 			<note type="Datierung_note"><p>WSpDB: 150-250<br/></p></note>
 			<note type="ElektronischeRessourcen_note"/>

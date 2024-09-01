@@ -40,9 +40,9 @@
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<settlement/>
-						<repository/>
-						<idno/>
+						<settlement>Stuttgart</settlement>
+						<repository>Württembergisches Landesmuseum</repository>
+						<idno>R L 392</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>Weihinschrift</summary>
@@ -50,34 +50,40 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
-									<objectType>Weihestein</objectType> <dimensions>
+								<support> <p>                                                <p>Der Weihestein besteht aus einer schmalen Basis, auf der sich ungerahmt das Inschriftenfeld befindet und darüber dem Götterbild in Relief. Von der Basis ist ein großer Teil links sowie ein kleinerer Teil rechts abgebrochen. Dem Thron der dargestellten Gottheit, der gleichzeitig das Relieffeld bildet, fehlt der Teil hinter dem linken Unterschenkel sowie über den Schultern. Auch sonst ist dieser stark bestoßen und teilweise ausgebrochen. Der Kopf der Göttin war abgebrochen und wurde wieder angebracht. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110400">Weihestein</objectType> <dimensions>
 										<height unit="cm">108</height>
 										<width unit="cm">47</width>
 										<depth unit="cm">26</depth>
 									</dimensions> <note type="dimensions" anchored="true">Die angegebenen Maße sind die des erhaltenen Objektes.</note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
 								<layout> <p>                                                <p>Die Inschrift dürfte den Sockel fast zur Gänze ausgefüllt haben. Die Buchstaben sind regelmäßig.</p>
                                                 <p>Heute ist die Inschrift in Z.1 links und rechts beschädigt, bei Auffindung war jedoch nur die linke Seite abgebrochen. In der Wiedergabe des verlorenen Teiles folgen wir Haug/Sixt (1914, 392 Nr.271; 393 mit Abb.), da sich im G keine Spuren eines eingeschriebenen N finden wie CIL XIII 6439 behauptet (s. Apparatus criticus), dafür aber ein Worttrenner zwischen G und V. Der Beginn von Z.2 war bereits bei Auffindung verloren, der erhaltene Teil setzt mit dem Ende der rechten Schräghaste des V der Weiheformel ein.<br/></p>
-                                                <p>Besondere Zeichen: In Z.1 ist die Schräghaste des R vorne an den Bogen angesetzt, nicht hinten an der Senkrechthaste, und die Längshaste des G ist nicht gerade, sondern eingerollt. Worttrenner sind in beiden Zeilen gesetzt.</p></p> <note type="condition" anchored="true"/> </layout>
+                                                <p>Besondere Zeichen: In Z.1 ist die Schräghaste des R vorne an den Bogen angesetzt, nicht hinten an der Senkrechthaste, und die Längshaste des G ist nicht gerade, sondern eingerollt. Worttrenner sind in beiden Zeilen gesetzt.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130500</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="3.5" atMost="4.0">3,5–4,0</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p><p>Die Göttin ist aufrecht sitzend auf einem Thron dargestellt. Sie ist bekleidet mit einem bodenlangen Ober- sowie Untergewand, in der Taille gegürtet. Unter dem Gewand sind die Unterschenkel und Brüste deutlich abgezeichnet, was den Stoff des Gewandes dünn anmuten lässt. Zwischen den Knien sind Tellerfalten angedeutet. Außerdem scheint die Göttin Schuhe zu tragen. Auf ihrem Schoß ist eine Obstschale, gefüllt mit Äpfeln, abgestellt. Ihre Hände liegen locker links und rechts davon auf. Das Gesicht ist abgeschlagen, am Kopf ist aber noch eine aufgesteckte Frisur zu erkennen. <br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150400">Reliefschmuck</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.240100">Götterbild</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252300">Thron</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251700">Obstschale</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.210100">Apfel</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140700">Reparatur</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName/> <region>Civitas Port-?</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+						<provenance type="found" when="1898"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Bad Cannstatt</ref> </placeName> <p>"in einem 3,8 x 3,4 m großen Gebäude im Gräberfeld bei der Höferschen Ziegelei" (Filtzinger 1980, 98 Nr.44)</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true"/> </provenance>
+							</location> <note anchored="true">                                                <p>gemeinsam mit CF-GeS-1125; "die Skulpturen sind nicht 'in situ' 
+gefunden worden, sondern sie waren regellos in das Fundament wie in eine Grube hineingeworfen" (Haug 1906, 36); bei "für das Höfer'sche 
+Ziegelwerk vorgenommenen ausgedehnten Grabungen" (Haug/ Sixt 1914, 363)</p></note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt) <br/></p></provenance>
 					</history>
 				</msDesc>
@@ -191,7 +197,7 @@
 						<item> <ref target="context:fercan.dedication." type="context">votum solvit laetus libens merito</ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
-						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context">signum</ref> </item>
 						<!-- Belegform gesamt  -->
 						<item> <ref target="context:fercan.divinepart." type="context">[Here]cur(a)e</ref> </item>
 					</list>
@@ -252,7 +258,7 @@
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
 				<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>CURE SIG<g type="interpunct">▴</g>V<supplied reason="undefined" evidence="previouseditor">AL</supplied><gap reason="lost" quantity="1" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> V<g type="interpunct">▴</g>S<g type="interpunct">▴</g>L<g type="interpunct">▴</g>L<g type="interpunct">▴</g>M<orig/></ab></div>
-			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><expan><abbr><supplied reason="lost">Here</supplied>cur</abbr><ex>a</ex></expan>e <expan><abbr>sig</abbr><ex>num</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>cur</abbr><ex>a</ex></expan>e <expan><abbr>sig</abbr><ex>num</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan>
 <lb n="2"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
 				<p><p>Das Kultbild für <rs type="divine">Herecura</rs>!<br/>Valerius ... hat das Gelübde freudig, gerne und verdientermaßen erfüllt.</p></p>
@@ -262,7 +268,7 @@
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="1">
-					<note anchored="true">der unterstrichene Teil in Z.1 ist heute nicht mehr erhalten, er wird nach Haug/Sixt wiedergegeben; signum – CIL, Ferlut</note>
+					<note anchored="true">Der unterstrichene Teil in Z.1 ist heute nicht mehr erhalten, er wird nach Haug/Sixt wiedergegeben; [Here]cur(a)e – CIL, Barthel, Haug/Sixt, Riese, Espérandieu, Filtzinger, Luik/Reutti, EDH, Scheungraber, Ferlut; signum – CIL, Ferlut</note>
 				</app>
 			
             <app loc="2">
@@ -273,7 +279,7 @@
                                                 <p>Valerius: italisches Gentilnomen, überall äußerst gängig (Kakoschke 2021, GN 1377)
 			</p></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
-				<p> <p>v.1: „Herecure” pro „Herecurae”</p></p>
+				<p> <p>v.1: „Herecure/Erecure” pro „Herecurae”</p></p>
 			</div>
 			<div type="commentary" subtype="deity" org="uniform" sample="complete">
 				<p> </p>
@@ -282,17 +288,22 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"/>
+			<note type="Objbeschr_note"><p>Haug/Sixt 1914, 392 Nr. 271: Der Reliefplatte 
+fehlen Stücke über den Schultern der Göttin, sowie vom rechten Knie 
+abwärts und damit der Anfang der Inschrift. Der Kopf war abgebrochen ; 
+er ist überdies im Gesichte stark beschädigt. </p></note>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"/>
+			<note type="Material_note"><p>Stubensandstein - Filtzinger 1980, 98 Nr. 44<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
-			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"/>
+			<note type="VerwahrortOrt_note"><p>Espérandieu 1931, 359 Nr. 562<br/></p></note>
+			<note type="InvNr_note">                                                    <p>vom Museum bestätigt<br/></p><p>Inventarnummer: Filtzinger 1980, 98 Nr. 44</p>
+                                                    <p>Institution: Kartei 6439 S. 9; auf S. 11 jedoch Lapidarium - so auch Haug/Sixt 1914, 392 Nr. 271</p></note>
 			<note type="Fundstelle_note"><p>Haug/Sixt 1914, 363<br/></p></note>
-			<note type="Fundumst_note"><p>Haug/Sixt 1914, 363; Zusammen mit Herecura 1125<br/></p></note>
-			<note type="Fundjahr_note"/>
+			<note type="Fundumst_note">                                                    <p>CIL; Haug/Sixt 1914, 363; Zusammen mit Herecura 1125<br/></p></note>
+			<note type="Fundjahr_note"><p>CIL</p>
+                                                    Oktober - Barthel 1907, 43 Nr. 1<p/></note>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note"/>
+			<note type="FOmodern_note"><p>CIL<br/></p></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
@@ -301,8 +312,9 @@
 			<note type="dtUEbers_note"/>
 			<note type="Editionen_note"/>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note">                                                    <p>Haug/Sixt 1914 392; Barthel 1907, 43f Nr.2; EDH: Höhe 113, Breite 50</p><p>Karteikarte: Höhe 108 Breite 47 Tiefe 26<br/></p></note>
-			<note type="Ikonogr_note"/>
+			<note type="Masse_note">                                                    <p>Haug/Sixt 1914 392; Barthel 1907, 43f Nr.2; EDH: Höhe 113, Breite 50</p>
+                                                    <p>Karteikarte: Höhe 108 Breite 47 Tiefe 26</p><p>Filtzinger 1980, 98 Nr. 44; H. 113 cm - B. 50 cm. H. des Sockels mit der Inschrift 12 cm<br/></p></note>
+			<note type="Ikonogr_note"><p>Filtzinger 1980, 98 Nr. 44: Herecura sitzt in einem Lehnstuhl. Sie ist mit einem in den Hüften gegürteten Untergewand bekleidet; darüber trägt sie ein Obergewand, das Brust und Hände frei läßt und weit über die Beine herabfällt. Die Göttin hält im Schoße mit beiden Händen einen mit Äpfeln gefüllten Korb. </p><p>Barthel 1914, 43 Nr. 2: Die Göttin thront auf dem Lehnstuhl und hält auf dem Schoss mit beiden Händen den mit Äpfeln gefüllten Korb. Sie trägt eine gegürtete Stola und eine Palla, welche die Brust freilassend von den Schultern herabfällt und über den Beinen irgendwie zusammengeschlagen ist. </p><p>Espérandieu 1931, 359 Nr. 562: Herecura drapée et chaussée, assie, de face, tenant des deux mains, sur ses genoux, une corbeille de fruits.</p><p>Luik/Reutti 1988, 94: Die Göttin sitzt in einem Stuhl mit hoher Lehne. In ihrem Schoß hält sie einn Früchtekorb.</p><p>Haug/Sixt 1914, 392 Nr. 271: Die Göttin sitzt auf einem Lehnstuhle, bekleidet mit einem um die Hüften gegürteten Unterkleid, über welches das Obergewand in der Weise geschlagen istm dass es Brust und Hände frei lässt, aber weit über die Beine herabfällt. Im Schosse hält sie mit beiden Händen einen mit Äpfeln gefüllten Korb. ... Der Reliefplatte fehlen Stücke über den Schultern der Göttin, sowie vom rechten Knie abwärts und damit der Anfang der Inschrift. Der Kopf war abgebrochen ; er ist überdies im Gesichte stark beschädigt. <br/></p></note>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>

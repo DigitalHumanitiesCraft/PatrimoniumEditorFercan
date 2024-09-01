@@ -50,7 +50,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+								<support> <p>                                                <p>Der Weihestein besteht aus einer schmalen, einfachen Basis, auf der auch die Inschrift ungerahmt zu finden ist und darüber in Relief ein Götterbild. Der Stein ist verwittert und abgerieben, die Köpfe der Figuren fehlen.<br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
 									<objectType>Weihestein</objectType> <dimensions>
 										<height unit="cm">79</height>
 										<width unit="cm">70</width>
@@ -59,17 +59,21 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Die Inschrift ist vollständig erhalten und lässt unten noch Platz für ungefähr eine Zeile. Die Autopsie ergab mögliche Reste einer dritten Zeile. Die Buchstaben sind unregelmäßig und stark abgerieben.</p><p>In Z.2 wird beim zweiten Dedikantennamen eine I-Ligatur gelesen (s. Apparatus criticus), bei der Autopsie konnten aber keine Hinweise auf ein eingehauenes I gefunden werden, was möglicherweise am besonders schlechten Zustand der Buchstaben an dieser Stelle liegt.<br/></p>
-                                                <p>Zu Ligaturen: s. Majuskelumschrift. – Besondere Zeichen: In Z.1 ein D von domus divinae in das andere eingeschrieben; das I von Aericurae in Z.1 ist kleiner und Hochgestellt zwischen R und C eingeschrieben, bei Autopsie kaum zu erkennen. Bei den R ist die Schräghaste vorne an den Bogen angesetzt, nicht hinten an der Senkrechthaste.</p></p> <note type="condition"/> </layout>
+								<layout> <p>                                                <p>Die Inschrift ist vollständig erhalten und lässt unten noch Platz für ungefähr eine Zeile. Die Autopsie ergab mögliche Reste einer dritten Zeile. Die Buchstaben sind unregelmäßig und stark abgerieben.</p>
+                                                <p>In Z.2 wird beim zweiten Dedikantennamen eine I-Ligatur gelesen (s. Apparatus criticus), bei der Autopsie konnten aber keine Hinweise auf ein eingehauenes I gefunden werden, was möglicherweise am besonders schlechten Zustand der Buchstaben an dieser Stelle liegt.<br/></p>
+                                                <p>Zu Ligaturen: s. Majuskelumschrift. – Besondere Zeichen: In Z.1 ein D von domus divinae in das andere eingeschrieben; das I von Aericurae in Z.1 ist kleiner und hochgestellt zwischen R und C eingeschrieben, bei Autopsie kaum zu erkennen. Bei den R ist die Schräghaste vorne an den Bogen angesetzt, nicht hinten an der Senkrechthaste.</p></p> <note type="condition">https://gams.uni-graz.at/o:fercan.arch#C.130310</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="3.7" atMost="4.2">3,7–4,2</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.240100">Götterbild</term>
+							<decoNote> <p>                                                <p>In Relief sind die zwei nebeneinander auf einer Bank sitzenden Gottheiten dargestellt, wobei die Bank gleichzeitig den Hintergrund bildet. Links sitzt <rs type="divine">Herecura</rs>, in langem, bis an die Knöchel reichendem Gewand, jedoch scheinbar barfüßig. Deutlich zu erkennen ist eine grobe Gewandfalte an ihren Unterschenkeln entlang, sowie der Umhang um ihre beiden Schultern, der die Beine entlang bis an den Boden reicht. Außerdem ein breiter Gurt in der Taille. Auf ihrem Schoß hält sie mit beiden Händen einen Obstkorb, gefüllt mit runden Früchten, vermutlich Äpfeln. Rechts neben ihr sitzt in gleicher Pose <i>Dis Pater</i>, gekleidet mit einer Tunika, die bis unter die Knie reicht und auf seiner linken Schulter rosettenförmig befestigt ist. Auch er ist scheinbar barfüßig und auch in seinem Gewand ist die Faltenlegung deutlich herausgearbeitet. Auf seinem Schoß hält er ebenfalls zumindest einen Gegenstand, der aber nicht mehr nachvollzogen werden kann. In der Literatur ist zumeist von einer aufgeschlagenen Rolle die Rede (vgl. zB. Wagner 1911, 73). Wagner meinte auch Schuhe erkennen zu können. Beiden Figuren fehlt der Kopf. <br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.240100">Götterbild</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251700">Obstschale</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252400">Bank</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150400">Reliefschmuck</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.210100">Apfel</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">Rosette</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -192,17 +196,17 @@
 	</teiHeader>
 	<facsimile>
 		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1113_front.jpg">
-			<desc>Front, Badisches Landesmuseum, Karlsruhe, Inventar-Nr.C 64, Foto: Ortolf Harl</desc>
+			<desc>Front, Badisches Landesmuseum Karlsruhe, Inv. Nr. C 64, Foto: Ortolf Harl</desc>
 		</graphic>
 	
             <!-- todo: @xml:id-->
-            <graphic mimeType="image/jpeg" url="1113_front_IS.jpg"><desc>Inschrift, Badisches Landesmuseum, Karlsruhe, Inventar-Nr.C 64, Foto: Ortolf Harl</desc></graphic>
+            <graphic mimeType="image/jpeg" url="1113_front_IS.jpg"><desc>Inschrift, Badisches Landesmuseum Karlsruhe, Inv. Nr. C 64, Foto: Ortolf Harl</desc></graphic>
         
             <!-- todo: @xml:id-->
-            <graphic mimeType="image/jpeg" url="1113_re.jpg"><desc>rechts, Badisches Landesmuseum, Karlsruhe, Inventar-Nr.C 64, Foto: Ortolf Harl</desc></graphic>
+            <graphic mimeType="image/jpeg" url="1113_re.jpg"><desc>rechts, Badisches Landesmuseum Karlsruhe, Inv. Nr. C 64, Foto: Ortolf Harl</desc></graphic>
         
             <!-- todo: @xml:id-->
-            <graphic mimeType="image/jpeg" url="1113_oben.jpg"><desc>Oben, Badisches Landesmuseum, Karlsruhe, Inventar-Nr.C 64, Foto: Ortolf Harl</desc></graphic>
+            <graphic mimeType="image/jpeg" url="1113_oben.jpg"><desc>Oben, Badisches Landesmuseum Karlsruhe, Inv. Nr. C 64, Foto: Ortolf Harl</desc></graphic>
         </facsimile>
 	<text>
 		<body>
@@ -224,10 +228,10 @@
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform">
 				<listBibl>
-					<bibl type="EDCS"><idno> EDCS-11000331</idno><date> 2023-03-15</date></bibl>
-					<bibl type="EDH"><idno>HD036867</idno><date> 2020-09-08</date></bibl>
-					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/211088</idno><date> 2023-03-15</date></bibl>
-					<bibl type="lupa"><idno>http://lupa.at/13779</idno><date> 2022-12-29</date></bibl>
+					<bibl type="EDCS"><idno> EDCS-11000331</idno><date>zuletzt abgerufen 2023-03-15</date></bibl>
+					<bibl type="EDH"><idno>HD036867</idno><date>Version von 2020-09-08</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/211088</idno><date>zuletzt abgerufen 2023-03-15</date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/13779</idno><date>Version von 2022-12-29</date></bibl>
 					<bibl type="other"><idno> </idno><date> </date></bibl>
 				<bibl type="lupa"><idno/><date/></bibl></listBibl>
 			</div>
@@ -241,19 +245,24 @@
 			<div type="translation" xml:lang="de" org="uniform">
 				<p>                                                <p>Zu Ehren des Kaiserhauses</p>
                                                 <p>für die heilige Göttin <rs type="divine">Herecura </rs>und für <rs type="divine">Dis Pater</rs>!</p>
-                                                <p>Veterius Paternus und Adiectia Paterna.<br/></p></p>
+                                                <p>Veterius Paternus und Adiectia Paterna<br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform">
-				<p>                                                <p>In honour of the Divine household</p>
+				<p>                                                <p>In honour of the Divine Household</p>
                                                 <p>to the sacred godess <rs type="divine">Herecura</rs> and to <rs type="divine">Dis Pater</rs>!</p>
-                                                <p>Veterius Paternus and Adiectia Paterna.<br/></p></p>
+                                                <p>Veterius Paternus and Adiectia Paterna<br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform">
 				<app loc="2">
 					<note>I-Ligatur: Adie(cta?) – EDH; Adie(ctia?) – Wagner, Espérandieu; Adie... – Fritsch; ohne I-Ligatur: Adi(...) – Ferlut</note>
 				</app>
 			</div>
-			<div type="commentary" subtype="general" org="uniform"><p>Veterius Paternus: römisches Namensformular ohne Praenomen</p><p>Veterius: seltenes Gentilnomen (einheimischer Bildung? Abgeleitet vom lateinischen Namen Vetus?) (Kakoschke 2021, GN 1439)</p><p> Paternus: lateinischer Name, überall äußerst gängig (Kakoschke 2021, CN 2319)</p><p>Adiectia Paterna: Der Name ist nur eine mögliche Ergänzung, jedenfalls handelt es sich dabei um ein römisches weibliches Namensformular</p><p>Adiectia: einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Namen Adiectus, sehr selten (Kakoschke 2021, GN 15)</p><p>Paterna: s. oben Paternus<br/></p></div>
+			<div type="commentary" subtype="general" org="uniform">                                                <p>Veterius Paternus: römisches Namensformular ohne Praenomen</p>
+                                                <p>Veterius: seltenes Gentilnomen (einheimischer Bildung? abgeleitet vom lateinischen Namen Vetus?) (Kakoschke 2021, GN 1439)</p>
+                                                <p> Paternus: lateinischer Name, überall äußerst gängig (Kakoschke 2021, CN 2319)</p>
+                                                <p>Adiectia Paterna: Der Name ist nur eine mögliche Ergänzung, jedenfalls handelt es sich dabei um ein römisches weibliches Namensformular.</p>
+                                                <p>Adiectia: einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Namen Adiectus, sehr selten (Kakoschke 2021, GN 15)</p>
+                                                <p>Paterna: s. oben Paternus<br/></p></div>
 			<div type="commentary" subtype="language" org="uniform">
 				<p><p> v.1: <span style="font-size:12.0pt;line-height:107%; font-family:">„</span>Aericurae<span style="font-size:12.0pt;line-height:107%; font-family:">”</span> pro <span style="font-size:12.0pt;line-height:107%; font-family:">„</span>Herecurae<span style="font-size:12.0pt;line-height:107%; font-family:">”</span></p></p>
 			</div>
@@ -292,7 +301,8 @@
                                                     <p><b>Wagner 1911, S. 73: </b>Über der Inschrift thonen auf einem gemeinsamen Lehnsessel die beiden Gottheiten, Aericura mit langem Gewand, Gürtel und Schuhen, einen flachen Korb mit Früchten im Schoß haltend; Dis Pater im kurzen, faltigen Rock, eine aufgeschlagene Rolle mit den Händen fassend.</p>
                                                     <p><b>Steiner Dan et Rhen 879:</b> Oberhalb der Schrift zwei sitzende Figuren, an welchen die Köpfe fehlen. Die eine, ein Mann in der Toga, hält ein Körbchen mit Geld in beiden Händen auf dem Schoose; die andere auch ein Mann in der Tunika, entwickelt mit beiden Händen eine Rolle.</p>
                                                     <p><b>Steiner Rhen. 112</b>: Zwei gravitätisch sitzende Figuren, die eine in der Toga, die andere in der Tunica, deuten auf den Inhalt der Schrift. Es sind 2 Personen, welche mit Geldzählen (Soldauszahlen an die hinzutretenden Soldaten) beschäftigt sind</p>
-                                                    <p><b>Becker 1853, S. 115: </b>...das Geld im Schoosse und, wie es scheint, die entleerte Börse in den Händen des Mercurius...ob sich vielleicht auch noch Spuren der Schlangenstäbe nachweisen liessen, müsste eine genauere Untersuchung des Denkmals feststellen...</p><p><b>Michaelis, Adolf 895, S. 146</b>: "Auf gemeinsamem Lehnsessel thronen neben- (S. 147) einander Aericuram mit einem dicken Gürtel um das Gewand und mit Schuhen, einen flachen Korb mit Früchten im Schoss, und Dis Pater, in der kurzen faltenreichen Exomis, die die rechte Brust freilässt, eine aufgeschlagene Rolle (ganz sicher nach Luckenbach) mit beiden Händen anfassend;"<br/></p></note>
+                                                    <p><b>Becker 1853, S. 115: </b>...das Geld im Schoosse und, wie es scheint, die entleerte Börse in den Händen des Mercurius...ob sich vielleicht auch noch Spuren der Schlangenstäbe nachweisen liessen, müsste eine genauere Untersuchung des Denkmals feststellen...</p>
+                                                    <p><b>Michaelis, Adolf 1895, S. 146</b>: "Auf gemeinsamem Lehnsessel thronen neben- (S. 147) einander Aericuram mit einem dicken Gürtel um das Gewand und mit Schuhen, einen flachen Korb mit Früchten im Schoss, und Dis Pater, in der kurzen faltenreichen Exomis, die die rechte Brust freilässt, eine aufgeschlagene Rolle (ganz sicher nach Luckenbach) mit beiden Händen anfassend;"<br/></p></note>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>

@@ -140,17 +140,17 @@
                 <listPerson default="false">
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.albanus">Albanus</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.albanus">Albanus; Priga; Vennenus</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.priga">Priga</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.priga">Albanus; Priga; Vennenus</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.vennenus">Vennenus</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.vennenus">Albanus; Priga; Vennenus</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -169,7 +169,7 @@
                         </persName>
                     </person>
                     <person instant="false">
-                        <persName type="divine" instant="false" full="yes">
+                        <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.divine-o.leudinae">Leudinae</ref>
                         </persName>
                     </person>
@@ -217,7 +217,9 @@
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solverunt_libentes_merito">votum solverunt libentes merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Vacalli[.] Leudinis</ref> </item>
+                    </list>
+                </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -241,7 +243,7 @@
                     <bibl xml:id="LIT.1" default="false" status="draft">CIL XIII 12020</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Lehner 1918, Nr.364</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">AE 1920, 6</bibl>
-                    <bibl xml:id="LIT.4" default="false" status="draft">Alföldy 1968, Nr.147</bibl>
+                    <bibl xml:id="LIT.4" default="false" status="draft">Alföldy 1968 (Rheinland III), 54 Nr.147</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Biller 2010, 224f</bibl>
                 
             <bibl xml:id="6">Scheungraber 2020, 558 Nr.15</bibl>
@@ -294,7 +296,11 @@ Vennenus: keltisches Cognomen (Kakoschke 2008, CN 3260) </p>
 Priga: weibliches keltisches Cognomen? (Kakoschke 2008, CN 2435)</p>
             </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Vacalli…:</rs> Rest von  <rs type="divine">Vacallinehae</rs> oder einer Variante: keltisch: ‚Unter den Bäumen bzw. dem Wald Verweilende [Muttergöttinen]‘ 
-(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243).    </p>
+(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)    </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>

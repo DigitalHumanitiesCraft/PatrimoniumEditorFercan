@@ -151,9 +151,7 @@ Auch die rechte Schmalseite ist von einem Relief in zwei Registern geschmückt. 
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.2528408">
                                     <ref type="context" target="context:fercan.arch.kanne">Kanne</ref>
                                 </term>
-                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220800">
-                                    <ref type="context" target="context:fercan.arch.kanneliert">kanneliert</ref>
-                                </term>
+                                
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.230200">
                                     <ref type="context" target="context:fercan.arch.maennliche_figur">männliche Figur</ref>
                                 </term>
@@ -235,22 +233,22 @@ Auch die rechte Schmalseite ist von einem Relief in zwei Registern geschmückt. 
                 <listPerson default="false">
                     <person instant="false">
                         <persName type="gentilnomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.gentilnomen.carinius">Carinius</ref>
+                            <ref type="context" target="context:fercan.person.gentilnomen.carinius">Carinius; Secundius</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="gentilnomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.gentilnomen.secundius">Secundius</ref>
+                            <ref type="context" target="context:fercan.person.gentilnomen.secundius">Carinius; Secundius</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.gratus">Gratus</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.gratus">Gratus; Similis</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.similis">Similis</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.similis">Gratus; Similis</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -319,7 +317,7 @@ Auch die rechte Schmalseite ist von einem Relief in zwei Registern geschmückt. 
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solverunt_libentes_merito">votum solverunt libentes merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">de(ae) Nehalenniae</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -416,7 +414,11 @@ allec: Fischsauce; „sauces de poisson, typique du nord de la Gaule“ (AE 2001
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.5: „allecari“ pro „allecarii“</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f). </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.) </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>

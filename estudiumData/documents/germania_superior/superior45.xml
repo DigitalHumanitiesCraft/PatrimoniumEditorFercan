@@ -50,7 +50,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p><p>Bei diesem Objekt hat es sich um ein Becken aus Bronze. Weitere Aussagen sind zur Zeit nicht möglich.<br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120110">Bronze</ref> </material>
+								<support> <p>                                                <p>Bei diesem Objekt hat es sich um ein Becken aus Bronze, wobei sich die Inschrift auf der Innenseite befindet. Innen am Boden, am Übergang zum Rand, sowie über der Inschrift, befinden sich jeweils umläufig zwei nahe aneinander liegende, vertiefte feine Linien. Auch an der Außenseite sind auf ca. halber Höhe solche Linien erkennbar. An der Außenseite sind einseitig zwei verkehrte, längliche Dreiecke angebracht, die an ihrer Oberseite, zumindest bei einem Dreieck vollständig erhalten, eine Art Öse besitzen (zum Einhängen eines Henkels?). Die Schale ist teilweise verbogen bzw. hat sie an zwei Stellen teilweise aufgebogene Löcher.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120110">Bronze</ref> </material>
 									<objectType>Weihestein</objectType> <dimensions>
 										<height unit="cm">7</height>
 										<width unit="cm">25</width>
@@ -59,20 +59,21 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Es handelt sich um einen im Genitiv eingeritzten Namen der den Besitzer anzeigt (genetivus possesivus).<br/></p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Es handelt sich um einen im Genitiv eingeritzten Namen, der den Besitzer anzeigt (genetivus possesivus).<br/></p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130400</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote> <desc type="execution">geritzt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+							<handNote> <desc type="execution">geritzt</desc> <height unit="cm" atLeast="0.3" atMost="0.2">0,3–2</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140300">Graffitto</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130100">Abschrift</term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> 
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150600">Zierleiste</term>
+                      
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName>Tabernae</placeName> <region>Civitas Nemetum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<origin> <origPlace> <placeName> </placeName> <region>Civitas Nemetum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern.">Neupotz</ref> </placeName> <p>Altarm des Rhein</p> <location>
 								<geo decls="#WGS"/>
 							</location> <note anchored="true">Hortfund der Gebrüder Kuhn; gemeinsam mit CF-GeS-1073</note> </provenance>
@@ -205,10 +206,20 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic mimeType="image/png" xml:id="IMAGE.1" url="1077_front_unklar.png">
-			<desc>Abschrift Künzl/Künzl 2008, 399</desc>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1077_IS.jpg">
+			<desc>Inschrift, Eigentümer Ludwig und Willy Kuhn, Museum für Vor- und Frühgeschichte – Staatliche Museen zu Berlin, Foto: H. Neumayer</desc>
 		</graphic>
-	</facsimile>
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1077_oben_IS.jpg">
+                <desc>Oben, Eigentümer Ludwig und Willy Kuhn, Museum für Vor- und Frühgeschichte – Staatliche Museen zu Berlin, Foto: H. Neumayer</desc>
+            </graphic>
+        
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1077_front.jpg">
+                <desc>Front, Eigentümer Ludwig und Willy Kuhn, Museum für Vor- und Frühgeschichte – Staatliche Museen zu Berlin, Foto: H. Neumayer</desc>
+            </graphic>
+        </facsimile>
 	<text>
 		<body>
 			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
@@ -232,10 +243,11 @@
 				<ab><lb n="1"/>GRANI<orig/></ab></div>
 			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><expan><abbr>Gran</abbr><ex>n</ex></expan>i</ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
-				<p><p>(Im Besitz?) des <rs type="divine">Grannus</rs><br/></p></p>
+				<p>                                                <p>(Im Besitz?) des <rs type="divine">Grannus!</rs><br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p><p>(The property?) of <rs type="divine">Grannus</rs></p></p>
+				<p>                                                <p>(The property?) of <rs type="divine">Grannus!</rs>
+                                                </p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="1">
@@ -2827,7 +2839,7 @@ Magazinbestandes ist kein Problem. Ich könnte von dem Graffiti durch
 unsere Fotografin eine Aufnahme machen lassen. Überprüfung und Transport
  aus dem Außenmagazin würde allerdings etwas dauern. Etwa Mitte Mai 
 könnten Sie das Foto bekommen. Wäre das in Ordnung?</p><p>Herzliche Grüße nach Graz</p><p>Heino Neumayer</p><p/></note>
-			<note type="ArchKlass_note"/>
+			<note type="ArchKlass_note"><p>+ Graffito!<br/></p></note>
 			<note type="Material_note"><p>So EDH, auch Kupferlegierung</p><p>Künzl: Bronze</p></note>
 			<note type="Inschrifttraeger_note"><p>Bronzebecken (Künzl 2008, 85)<br/></p></note>
 			<note type="VerwahrortOrt_note"><p>Außenmagazin lt. Mail Dr. Neumayer vom 18.4.23</p></note>
@@ -2850,7 +2862,7 @@ könnten Sie das Foto bekommen. Wäre das in Ordnung?</p><p>Herzliche Grüße na
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"/>
+			<note type="Buchsthoehe_note"><p>Mail Dr. Neumayer vom 24.6.2024: <font style="font-family: Calibri, Helvetica, sans-serif, serif, &#34;EmojiFont&#34;;" size="3" face="Calibri,Helvetica,sans-serif" color="black"><span style="font-size:12pt;" id="divtagdefaultwrapper"><font color="black"><font style="font-family: Calibri, sans-serif, serif, &#34;EmojiFont&#34;;" size="2" face="Calibri,sans-serif"><span style="font-size:11pt;">Die Maße der Buchstaben sind: C 2cm; R 1,4 cm; A 1,7 cm N 1,6 cm; I 0,3 cm</span></font></font></span></font></p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"><p>Ob in dieser Inschrift wirklich der Genitiv des Götternamens Grannus
  gemeint ist, ist nicht gesichert. Es könnte ich ebensogut um irgendeine

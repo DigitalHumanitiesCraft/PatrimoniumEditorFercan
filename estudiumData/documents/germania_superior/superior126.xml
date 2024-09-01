@@ -40,7 +40,7 @@
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<settlement/>
+						<settlement>verschollen</settlement>
 						<repository/>
 						<idno/>
 					</msIdentifier>
@@ -50,30 +50,37 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
-									<objectType>Weihestein</objectType> <dimensions>
+								<support> <p>                                                <p>Das Objekt ist nur durch Umzeichnungen und alte Beschreibungen erhalten. Bei Fickler (1869, 29) liest man: "ein oben abgerissenes Täfelchen aus 
+Erzblech [...] an zwei Stellen, hinter der dritten und oberhalb der 
+ersten Zeile, so wie auf einem abegrissenen unbeschriebenen Fragment 
+sind Löcher zur Befestigung des Täfelchens mittels Stiften bemerklich, 
+welche fast der Annahme einer Lücke der ersten Zeile widersprechen." Clauss (1986, 115) beschreibt es als "mehrfach gecknicktes und beschädigtes Bronzeplättchen mit zwei Nietenlöchern zur Befestigung an einem Weihegeschenk". Baumann (1890, 52 Nr.346) schildert es ebenfalls als "mehrfach geknickt und zerbrochen, am Rand und 
+an den Ecken beschädigt, doch sind in der Ecke links oben und rechts 
+unten noch die Löcher für die Stifte erhalten, mit denen das Blech auf 
+dem Weihegeschenk, zu dem es gehörte, befestigt war."</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120110">Bronze</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110500">Tafel</objectType> <dimensions>
 										<height unit="cm">2,7</height>
 										<width unit="cm">7,2</width>
 										<depth unit="cm"> </depth>
 									</dimensions> <note type="dimensions" anchored="true">Die Maßangaben sind die für das Objekt überlieferten.</note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130700">unklar</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Die Umzeichnung des mehrmals geknickten und beschädigten Bronzeplättchens bei Schumacher (1895, 31) zeigt noch das linke obere und rechte untere Nietenloch. Der Inschriftentext selbst scheint vollständig erhalten gewesen zu sein, unklarheit besteht einzig über das Ende von Z.1 (s. Apparatus criticus).<br/>Besondere Zeichen: Sämtliche A weisen statt einer Querhaste einen fast senkrechten Strich auf.</p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Die Umzeichnung des Bronzeplättchens bei Schumacher (1895, 31) zeigt noch das linke obere und rechte untere Nietenloch. Der Inschriftentext selbst scheint vollständig erhalten gewesen zu sein, Unklarheit besteht einzig über das Ende von Z.1 (s. Apparatus criticus).<br/>Besondere Zeichen: Sämtliche A weisen statt einer Querhaste einen fast senkrechten Strich auf.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130500</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130200">Umzeichnung</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140740">Bohrloch</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName/> <region>Civitas Alisinensium</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+						<provenance type="found" when="1869"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Osterburken</ref> </placeName> <p><p>Kastell<br/></p></p> <location>
 								<geo decls="#WGS"/>
 							</location> <note anchored="true"/> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>non vidimus<br/>Lesung gründet auf: CIL</p></provenance>
@@ -205,12 +212,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1120_front_Abschr1.jpg">
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1120_Abschr1.jpg">
 			<desc>Umzeichnung, Schumacher 1895, 31</desc>
 		</graphic>
 	
             <!-- todo: @xml:id-->
-            <graphic mimeType="image/jpeg" url="1120_front_Abschr2.jpg">
+            <graphic mimeType="image/png" url="1120_Abschr2.png">
                 <desc>Umzeichnung, CIL XIII 6572</desc>
             </graphic>
         </facsimile>
@@ -231,7 +238,7 @@
         
             <bibl xml:id="6">Clauss 1986, Nr.9</bibl>
         
-            <bibl xml:id="7">Kamkes/willburger 2004, 114 Abb.105</bibl>
+            <bibl xml:id="7">Kamkes/Willburger 2004, 114 Abb.105</bibl>
         
             <bibl xml:id="8">Pfahl 2012, Nr.196</bibl>
         
@@ -240,9 +247,9 @@
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
 				<listBibl>
-					<bibl type="EDCS"><idno>EDCS-11000600</idno><date>2024-03-11</date></bibl>
-					<bibl type="EDH"><idno>HD023057</idno><date>2020-10-06</date></bibl>
-					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/210347</idno><date>2024-03-11</date></bibl>
+					<bibl type="EDCS"><idno>EDCS-11000600</idno><date>zuletzt abgerufen 2024-03-11</date></bibl>
+					<bibl type="EDH"><idno>HD023057</idno><date>Version von 2020-10-06</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/210347</idno><date>zuletzt abgerufen 2024-03-11</date></bibl>
 					<bibl type="lupa"><idno> </idno><date> </date></bibl>
 					<bibl type="other"><idno> </idno><date> </date></bibl>
 				</listBibl>
@@ -257,10 +264,10 @@
 <lb n="3"/>Cnabetio
 <lb n="4"/><expan><abbr>vot</abbr><ex>um</ex></expan> <expan><abbr>r</abbr><ex>eddidit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
-				<p><p>Paterio der Hornbläser hat dem <rs type="divine">Mars Cnabetius</rs> das Gelübde freudig, gerne und verdientermaßen erfüllt.<br/></p></p>
+				<p>                                                <p>Paterio der Hornbläser hat dem <rs type="divine">Mars Cnabetius</rs> das Gelübde freudig, gerne und verdientermaßen erfüllt!<br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p><p>Paterio the hornist has for <rs type="divine">Mars Cnabetius </rs>fulfilled a  vow gladly, willingly and deservedly.</p></p>
+				<p>                                                <p>Paterio the hornist has fullfilled a vow for <rs type="divine">Mars Cnabetius </rs>willingly and deservedly!</p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="1">
@@ -275,7 +282,9 @@
                 <note anchored="true">rettulit – ILS; l(ibens) l(aetus) – EDH, Schumacher, Clauss, Kemeks/Willburger, Pfahl, Scheungraber</note>
             </app>
         </div>
-			<div type="commentary" subtype="general" org="uniform" sample="complete"><p>Paterio: einheimisches Namensformular?, römisches Namensformular ohne Praenomen?</p><p>Paterio: seltener keltischer (oder lateinischer) Name (Kakoschke 2021, CN 2315)</p><p>Als cornicen war Paterio Legionär im Status der immunes, er muss somit das römische Bürgerrecht besessen haben.</p></div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Paterio: einheimisches Namensformular? römisches Namensformular ohne Praenomen?</p>
+                                                <p>Paterio: seltener keltischer (oder lateinischer) Name (Kakoschke 2021, CN 2315)</p>
+                                                <p>Als cornicen war Paterio Legionär im Status der immunes, er muss somit das römische Bürgerrecht besessen haben.</p></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
 				<p>v.2: „cornice“ pro „cornicen“</p>
 			</div>
@@ -286,17 +295,19 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"/>
+			<note type="Objbeschr_note">                                                    <p>Clauss 1986, 115: Dünnes, mehrfach gecknicktes und beschädigtes Bronzeplättchen mit zwei Nietenlöchern zur Befestigung an einem Weihegeschenk</p>
+                                                    <p>Fickler 1869, 29: ein oben abgerissenes Täfelchen aus Erzblech ... an zwei Stellen, hinter der dritten und oberhalb der ersten Zeile, so wie auf einem abgerissenen unbeschriebenen Fragment sind Löcher zur Befestigung des Täfelchens mittels Stiften bemerklich, welche fast der Annahme einer Lücke der ersten Zeile widersprechen.</p>
+                                                    <p>Baumann 1890, 52 Nr. 346: mehrfach geknickt und zerbrochen, am Rand und an den Ecken beschädigt, doch sind in der Ecke links oben und rechts unten noch die Löcher für die Stifte erhalten, mit denen das Blech auf dem Weihegeschenk, zu dem es gehörte, befestigt war.<br/></p></note>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"/>
+			<note type="Material_note"><p>Clauss 1986, 115</p><p>Fickler 1869, 29: Erzblech<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"/>
 			<note type="InvNr_note"><p>laut EDH 2020 verschollen.</p><p>Pfahl 2012, in Mannheim, Reiss-Engelhorn Museen Inv. H 137 (in Lipps et al. 2021, 95 Anm.496 das Bronzeplättchen aus dem Kastell Osterburken mit CIL, ILS und Pfahl Zitation erwähnt, aber kein Vermerk wo aufbewahrt)<br/></p></note>
 			<note type="Fundstelle_note"/>
 			<note type="Fundumst_note"/>
-			<note type="Fundjahr_note"/>
+			<note type="Fundjahr_note"><p>CIL<br/></p></note>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note"/>
+			<note type="FOmodern_note"><p>CIL<br/></p></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
@@ -305,7 +316,7 @@
 			<note type="dtUEbers_note"/>
 			<note type="Editionen_note"/>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"/>
+			<note type="Masse_note"><p>Clauss 1986, 115</p><p>Fickler 1869, 29: 6 cm Länge, 2,5 cm Höhe<br/></p></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>

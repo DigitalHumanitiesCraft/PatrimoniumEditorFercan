@@ -150,22 +150,22 @@
                 <listPerson default="false">
                     <person instant="false">
                         <persName type="gentilnomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.gentilnomen.bosiconius">Bosiconius</ref>
+                            <ref type="context" target="context:fercan.person.gentilnomen.bosiconius">Bosiconius; Florius</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="gentilnomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.gentilnomen.florius">Florius</ref>
+                            <ref type="context" target="context:fercan.person.gentilnomen.florius">Bosiconius; Florius</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.quartus">Quartus</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.quartus">Quartus; Severus</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.severus">Severus</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.severus">Quartus; Severus</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -234,7 +234,7 @@
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Nehalenniae</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -314,7 +314,11 @@ actor navis: „Verwalter eines Schiffes, der nicht aktiv zu See fahren muss“ 
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.5: „Flori“ pro „Florii“</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).</p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)</p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>

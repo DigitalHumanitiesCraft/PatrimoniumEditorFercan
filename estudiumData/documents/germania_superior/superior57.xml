@@ -50,7 +50,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>                                                <p>„Es handelt sich um ein […] Buntmetallblech, dessen rechtes unteres Viertel in früherer Zeit mit einer Blechschere herausgeschnitten worden war und dessen rechte obere Ecke durch Abbruch verlorenging. […Genau in der Mitte befindet sich ein Nagelloch], dem an der Unterseite sicher ein Pendant entsprach. Die Aufwölbung des Bleches am Nagellochrand auf der Rückseite zeigt, daß der Nagel in ein weiches Material, wohl Holz, getrieben wurde.“ (Rupprecht 1988, 285)</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120110">Bronze</ref> </material>
+								<support> <p>                                                <p>„Es handelt sich um ein […] Buntmetallblech, dessen rechtes unteres Viertel in früherer Zeit mit einer Blechschere herausgeschnitten worden war und dessen rechte obere Ecke durch Abbruch verlorenging. […Genau in der Mitte befindet sich ein Nagelloch], dem an der Unterseite sicher ein Pendant entsprach. Die Aufwölbung des Bleches am Nagellochrand auf der Rückseite zeigt, daß der Nagel in ein weiches Material, wohl Holz, getrieben wurde“ (Rupprecht 1988, 285).</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120110">Bronze</ref> </material>
 									<objectType>Weihestein</objectType> <dimensions>
 										<height unit="cm">6</height>
 										<width unit="cm"> 5</width>
@@ -59,15 +59,14 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p><p>Der Inschriftentext weist Fehlstellen auf der rechten Seite auf. Da das Wort sacrum in der ersten Zeil zentriert zu sein scheint, kann man eine Vorstellung davon gewinnen, wieviel Text auf der rechten Seite verloren gegangen ist.</p><p>In Z.1 hederae vor und nach sacrum.</p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p><p>Der Inschriftentext weist Fehlstellen auf der rechten Seite auf. Da das Wort sacrum in der ersten Zeil zentriert zu sein scheint, kann man eine Vorstellung davon gewinnen, wieviel Text auf der rechten Seite verloren gegangen ist.</p><p>In Z.1 hederae vor und nach sacrum.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130310</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gepunzt</desc> <height unit="cm" atLeast="0.4" atMost="0.5">0,4–0,5</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150300">glatt</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -75,7 +74,7 @@
 						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern.">Ober-Olm</ref> </placeName> <p>in der Gewann Hemel; Am Füllkeller/Im Villenkeller</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true">„Der Fundreichtum sowie das Marktangebot von Metalldetektoren führte dazu, daß mehrere Privatleute das betreffende Gebiet systematisch absuchten […]. Zahlreiche Funde und ihre Fundzusammenhänge gingen dadurch verloren […] Aus dieser Fundmenge stammt die folgende Inschrift.“ (Rupprecht 1988, 285)</note> </provenance>
+							</location> <note anchored="true">„Der Fundreichtum sowie das Marktangebot von Metalldetektoren führte dazu, daß mehrere Privatleute das betreffende Gebiet systematisch absuchten […]. Zahlreiche Funde und ihre Fundzusammenhänge gingen dadurch verloren […] Aus dieser Fundmenge stammt die folgende Inschrift“ (Rupprecht 1988, 285).</note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung gründet auf: EDH</p></provenance>
 					</history>
 				</msDesc>
@@ -237,7 +236,7 @@
 				</listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
-				<ab><lb n="1"/><g type="hedera">❦</g>SACRVM<g type="hedera">❦</g><orig/> 
+				<ab><lb n="1"/><g type="hedera">❦</g>SACRVM<g type="hedera">❦</g><orig/>
 <lb n="2"/>MARTI LOV<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="3"/>TIB CL A<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="4"/>LEG XXI<gap reason="lost" extent="unknown" unit="character"/>
@@ -261,8 +260,7 @@
             <app loc="4"><note anchored="true">V.S. … – Stümpel; V S L [L MV] das letzte V offensichtlich irrtümlich – Rupprecht</note></app>
         </div>
 			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Tiberius Claudius A…: tria nomina</p>
-                                                <p>Claudius: italisches Gentilnomen, kaiserliches Gentilnomen, überall äußerst gängig (Kakoschke 2021, GN 342)</p>
-                                                <p><br/>Legio XXII Primigenia Pia Fidelis: Die Legio XXII Primigenia erhielt nach dem Scheitern des Saturninus-Aufstanden 89 n.Chr. gemeinsam mit anderen Legionen und Truppenkörpern den Ehrenbeinamen Pia Fidelis Domitiana; letzterer fiel nach der damnatio memoriae Domitians wieder weg. Die Legion wurde 97 n.Chr. von Xanten nach Mainz verlegt, wo sie die nächsten zwei Jahrhunderte verblieb. Zwischen 70/71 und 97 n.Chr. sowie 101/102 bis 106/107 n.Chr. wurden Teile der Truppe für Steinbrucharbeiten im Brohtal eingesetzt (Matijević 2010, 29, 227–233).
+                                                <p>Claudius: italisches Gentilnomen, kaiserliches Gentilnomen, überall äußerst gängig (Kakoschke 2021, GN 342)</p><p>legio XXII Primigenia Pia Fidelis: Die legio XXII Primigenia erhielt nach dem Scheitern des Saturninus-Aufstandes 89 n.Chr. gemeinsam mit anderen Legionen und Truppenkörpern den Ehrenbeinamen Pia Fidelis Domitiana; letzterer fiel nach der damnatio memoriae Domitians wieder weg. Die Legion wurde 97 n.Chr. von Xanten nach Mainz verlegt, wo sie die nächsten zwei Jahrhunderte verblieb. Zwischen 70/71 und 97 n.Chr. sowie 101/102 bis 106/107 n.Chr. wurden Teile der Truppe für Steinbrucharbeiten im Brohtal eingesetzt (Matijević 2010, 29, 227–233).
 			</p></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
 				<p> </p>

@@ -145,6 +145,11 @@
                     <place instant="false"/>
                 </listPlace>
                 <listPerson default="false">
+                 <person instant="false">
+                        <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.person.divine-o.matres">Matres</ref>
+                        </persName>
+                    </person>
                     <person instant="false">
                         <persName type="gentilnomen" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.gentilnomen.iulius">Iulius</ref>
@@ -214,7 +219,9 @@
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Sulevis</ref> </item>
+                    </list>
+                </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -225,7 +232,7 @@
     </teiHeader>
     <facsimile>
         <graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="file:///0037_Front.jpg">
-            <desc>, Rechte vorbehalten</desc>
+            <desc>Front, Rechte vorbehalten</desc>
         </graphic>
     </facsimile>
     <text>
@@ -262,7 +269,7 @@ VICTOR <lb n="3"/>
 SVLEVIS <lb n="4"/> 
 ET MATRLBV <lb n="5"/> 
 S · V · S · L · M</orig></ab></div>
-            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/><expan instant="false"><abbr>C</abbr><ex instant="false">aius</ex></expan> Iulius<lb n="2"/>Victor<lb n="3"/>Sulevis<lb n="4"/>et Matr<supplied reason="omitted" instant="false">i</supplied>bu<lb n="5" break="no"/>s <expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><lb n="1"/><expan instant="false"><abbr>C</abbr><ex instant="false">aius</ex></expan> Iulius<lb n="2"/>Victor<lb n="3"/>Sulevis<lb n="4"/>et Matr<supplied reason="omitted" instant="false">i</supplied>bu<lb n="5" break="no"/>s <expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
             <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
                 <p part="N">Gaius Iulius Victor hat <lb/> 
 den  <rs type="divine">Suleviae</rs> und  <rs type="divine">Matres</rs> <lb/> 
@@ -282,18 +289,45 @@ Victor: Kakoschke (2008, CN 3321): lateinisches Cognomen, überall äußerst gä
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.3: „Sulevis“ pro „Suleviis“<lb/>v.4: „Matrlbus“ pro „Matribus“</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Suleviae:</rs> keltisch: ‚Die gut Führenden [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 206f). </p>
-                                                <p part="N">
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p class="MsoNormal">
+                                                    <rs type="divine">Suleviae</rs> (incl. ev. Varianten):</p>
 
-Vorkommen in theonymischen Formularen:  </p>
-                                                <p part="N">
- <rs type="divine">Suleviae</rs>: <lb/>
-- Germania Inferior: insgesamt 5x bezeugt (CF-GeI-36 bis CF-GeI-40). In CF-GeI-39 werden sie als  <rs type="divine">Suleviae domesticae suae</rs> bezeichnet. Auffällig ist, dass in der hier vorgelegten Inschrift – anders als in den meisten Fällen – der Name der geehrten Gottheiten hinter dem Namen des Dedikanten eingemeißelt worden war (so auch in CF-GeI-40).  <lb/>
-- außerhalb der Germania Inferior:  bezeugt in Rom und folgenden Provinzen: Belgica, Britannia, Dacia, Gallia Narbonnensis, Germania Superior, Lugdunensis, Noricum, Pannonia Inferior, Raetia </p>
-                                                <p part="N">
- <rs type="divine">Matres Suleviae</rs>: <lb/>
-- Germania Inferior: bislang keine Belege. Die Tatsache, dass das theonymische Formular  <rs type="divine">Matres Suleviae</rs> in Rom und in Britannien bezeugt ist, gibt jedoch zu der Vermutung Anlass, dass  <rs type="divine">Suleviae et Matres</rs> in dieser Inschrift wie auch – falls echt –  <rs type="divine">Matres et Suleviae</rs> (CF-GeI-36) nicht zwei unterschiedliche pluralische Gottheiten ansprechen, sondern als eine Erscheinungsform von  <rs type="divine">Matres</rs> zu verstehen sind. <lb/>
-- außerhalb der Germania Inferior: in Rom und in Britannien bezeugt</p>
+<p class="MsoNormal">Sprachlich: keltisch: ‚Die gut Führenden [Muttergöttinnen]’
+(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 206f.). (Hier wird kein
+sprachwissenschaftlicher Beitrag geleistet. Die Literaturangaben dienen
+lediglich dazu, einen Einstieg in die sprachwissenschaftliche Diskussion zu
+bieten. Besprochen werden alle Götternamen, die bislang als keltisch oder
+teilweise keltisch gedeutet wurden.)</p>
+
+<p class="MsoNormal">Vorkommen: Inschriften der <rs type="divine">Suleviae</rs> sind weit verbreitet.
+Sie finden sich in den Provinzen Belgica, Britannia, Dacia, Gallia
+Narbonnensis, Germania Inferior, Germania Superior, Lugdunensis, Noricum,
+Pannonia Inferior und Raetien, sowie in Rom.</p>
+
+<p class="MsoNormal">Im Untersuchungsgebiet kommt der Göttername in folgenden
+theonymischen Formularen vor:</p>
+
+<p class="MsoNormal">
+                    <i>Suleviae</i> (incl. ev. Varianten):</p>
+
+<p class="MsoNormal">- Germania Inferior: CF-GeI-36, CF-GeI-37, CF-GeI-38,
+CF-GeI-39 (<i>Suleviae domesticae suae</i>), CF-GeI-40</p>
+
+<p class="MsoNormal">- Germania Superior: CF-GeS-1017 (als <i>Sulevis dea[bus]</i>);
+CF-GeS-1018; CF-GeS-1019 (mit dem Dativ <i>Suleis</i>); CF-GeS-1095 (als <i>Sulevis
+sororibus</i>)</p>
+
+<p class="MsoNormal">
+                    <i>Matres Suleviae</i> (incl. ev. Varianten):</p>
+
+<p class="MsoNormal">- Germania Inferior: bislang keine Belege. Die Tatsache,
+dass das theonymische Formular <i>Matres Suleviae</i> in Britannien und
+möglicherweise in Rom bezeugt ist, gibt jedoch zu der Vermutung Anlass, dass <i>Suleviae et Matres</i> (CF-GeI-37) wie auch – falls echt – <i>Matres et Suleviae</i>
+(CF-GeI-36) in dieser Inschrift nicht zwei unterschiedliche pluralische
+Gottheiten ansprechen, sondern als eine Erscheinungsform von Matres zu
+verstehen sind.</p>
+
+<p class="MsoNormal">- Germania Superior: -</p>
             </div>
             <linkGrp type="alignment" domains="#majuscule #minuscule">
                 <link target="#MAJ.1 #MIN.1"/>

@@ -41,8 +41,8 @@
 				<msDesc>
 					<msIdentifier>
 						<settlement>Mannheim</settlement>
-						<repository>Reiss-Engelhorn-Museen</repository>
-						<idno>D 5</idno>
+						<repository>Reiss-Engelhorn-Museen, Museum Weltkulturen</repository>
+						<idno> </idno>
 					</msIdentifier>
 					<msContents>
 						<summary>Weihinschrift</summary>
@@ -50,32 +50,33 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
-									<objectType>Weihestein</objectType> <dimensions>
+								<support> <p><p>Der fast quadratische Weihestein ist zur Gänze durch die Inschrift eingenommen, die keine Rahmung aufweist. Alle vier Ränder sind bestoßen mit kleinen Ausbrüchen, bzw. fehlt der rechte Rand der Inschrift. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110800">Bauinschrift</objectType> <dimensions>
 										<height unit="cm">41</height>
 										<width unit="cm">43,5</width>
 										<depth unit="cm">6,5</depth>
 									</dimensions> <note type="dimensions" anchored="true">Die angegebenen Maße sind die des erhaltenen Objektes.</note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p><p>Die Inschrift füllt das Inschriftenfeld zur Gänze aus, und ist fast vollständig erhalten, die sekundäre Beschneidung des Steins auf der rechten Seite hat zum Verlust einiger weniger Buchstaben geführt. Die Buchstaben sind regelmäßig.</p><p>in Z.2 ist das V kleiner ind das C, sowie das I kleienr zwischen S und G eingeschrieben. Am Ende der Zeile ist noch die linke Bogenhälfte des kleiner gearbetieten und mit dem N verschränkten O zu sehen. Am Ende von Z.3 sind noch Bogenreste des S vorhanden, und möglicherweise ist die Vertiefung am Ende von Z.4 als der Anfang der Haste des S zu deuten.<br/></p><p>Zu Ligaturen: s. Majuskelumschrift.</p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Die Inschrift füllt das Inschriftenfeld zur Gänze aus, und ist fast vollständig erhalten, die sekundäre Beschneidung des Steins auf der rechten Seite hat zum Verlust einiger weniger Buchstaben geführt. Die Buchstaben sind regelmäßig.</p>
+                                                <p>In Z.2 ist das V kleiner in das C, sowie das I kleiner zwischen S und G eingeschrieben. Am Ende der Zeile ist noch die linke Bogenhälfte des kleiner gearbeiteten und mit dem N verschränkten O zu sehen. Am Ende von Z.3 sind noch Bogenreste des S vorhanden und möglicherweise ist die Vertiefung am Ende von Z.4 als der Anfang der Haste des S zu deuten.<br/></p>
+                                                <p>Zu Ligaturen: s. Majuskelumschrift</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130500</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="3.1" atMost="5.0">3,1–5,0</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150300">glatt</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName/> <region>Civitas Ulpia Sueborum Nicrensium</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1733"> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+						<provenance type="found" when="1733"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Heidelberg</ref> </placeName> <p><p>"auf dem Heiligen-Berg in der St. Stephanus-Kirche" (CIL)<br/></p></p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true"/> </provenance>
+							</location> <note anchored="true"><p>Es sind keine näheren Fundumstände überliefert. <br/></p></note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
 					</history>
 				</msDesc>
@@ -84,7 +85,7 @@
 						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
 					</place>
 					<place type="sacral_building">
-						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						<placeName> <ref target="context:fercan.geog.sacral." type="context">aedes</ref>
 						</placeName>
 					</place>
 				</listPlace>
@@ -188,7 +189,7 @@
 						<item> <ref target="context:fercan.dedication." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
-						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context">signum</ref> </item>
 						<!-- Belegform gesamt  -->
 						<item> <ref target="context:fercan.divinepart." type="context">Visucio</ref> </item>
 					</list>
@@ -228,7 +229,7 @@
         
             <bibl xml:id="5">ILS 4607</bibl>
         
-            <bibl xml:id="6">Wagner 1911, 272f</bibl>
+            <bibl xml:id="6">Wagner 1911, 272f.</bibl>
         
             <bibl xml:id="7">Riese 1914, Nr.2107</bibl>
         
@@ -244,7 +245,9 @@
         
             <bibl xml:id="13">Scheungraber 2020. 605 Nr.5</bibl>
         
-            <bibl xml:id="14">Lipps et al. 2021, 575-577 Kat.128</bibl>
+            <bibl xml:id="14">Noelke 2020/2021, 337 Nr.2.14</bibl>
+        
+            <bibl xml:id="15">Lipps et al. 2021, 575–577 Kat.128</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
@@ -252,7 +255,7 @@
 					<bibl type="EDCS"><idno>EDCS-11000418</idno><date>zuletzt abgerufen 2024-04-12</date></bibl>
 					<bibl type="EDH"><idno>HD036494</idno><date>Version von 2020-04-09</date></bibl>
 					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/210774</idno><date>zuletzt abgerufen 2024-04-12</date></bibl>
-					<bibl type="lupa"><idno>https://lupa.at/34660?</idno><date>Version von 2024-03-21</date></bibl>
+					<bibl type="lupa"><idno>https://lupa.at/34660</idno><date>Version von 2024-03-21</date></bibl>
 					<bibl type="other"><idno> </idno><date> </date></bibl>
 				</listBibl>
 			</div>
@@ -270,10 +273,12 @@
 <lb n="5"/><expan><abbr>d</abbr><ex>ecurio</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>c</abbr><ex>ivitatis</ex></expan> <expan><abbr>S</abbr><ex>ueborum</ex></expan> <expan><abbr>N</abbr><ex>icrensium</ex></expan> item <expan><abbr>dec</abbr><ex>urio</ex></expan> <supplied reason="lost"><expan><abbr>c</abbr><ex>ivium</ex></expan></supplied>
 <lb n="6"/><expan><abbr>c</abbr><ex>ivitatis</ex></expan> <expan><abbr>Nemet</abbr><ex>um</ex></expan> <expan><abbr>fec</abbr><ex>it</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
-				<p><p>Für <rs type="divine">Visucius</rs>!</p><p>Diesen Tempel mit Kultbild hat Gaius Candidius Calpurnianus, Dekurio der civitas (Ulpia) Sueborum Nicrensium sowie Dekurio der civitas Nemetum, errichtet.<br/></p></p>
+				<p>                                                <p>Für <rs type="divine">Visucius</rs>!</p>
+                                                <p>Diesen Tempel mit Kultbild hat Gaius Candidius Calpurnianus, Dekurio der civitas (Ulpia) Sueborum Nicrensium, sowie Dekurio der civitas Nemetum errichtet.<br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p><p>To <rs type="divine">Visucius</rs>!</p><p>This temple with a cult image was made (by) Caius Candidius Calpurnianus, decurio of the civitas (Ulpia) Sueborum Nicrensium as well as decurio of the civitas Nemetum.<br/></p></p>
+				<p>                                                <p>To <rs type="divine">Visucius</rs>!</p>
+                                                <p>This temple with a cult image was made (by) Caius Candidius Calpurnianus, decurio of the civitas (Ulpia) Sueborum Nicrensium, as well as decurio of the civitas Nemetum.<br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="2">
@@ -281,7 +286,7 @@
 				</app>
 			
             <app loc="4">
-                <note anchored="true">Calpurninus – Steiner; Calpurn[i]anu[s] – Wagner; Calpirnianus – Moers-Messmer, Castritius (u.a.); Calpurnianus – Scheungraber; Calpurn(i)anus – Lipps et al.; Z.3 wegen Fehler im Zeilenumbruch Z.2/3 – Eger</note>
+                <note anchored="true">Calpurninus – Steiner; Calpurn[i]anu[s] – Wagner; Calpurnianus – Castritius (u.a.), Scheungraber; Calpurn(i)anus – Noelke, Lipps et al.; Z.3 wegen Fehler im Zeilenumbruch Z.2/3 – Eger</note>
             </app>
         
             <app loc="5">
@@ -296,7 +301,10 @@
                 <note anchored="true">Candidiu[s] – Lobüscher</note>
             </app>
         </div>
-			<div type="commentary" subtype="general" org="uniform" sample="complete"><p>C. Candidius Calpurnianus: tria nomina</p><p>Candidius: einheimisches Pseudogentilnomen, abgeleitet vom lateinsichen Namen Candidus, in den keltischen Provinzen verbreitet (Kakoschke 2021, GN 276)</p><p>Calpurnianus: lateinischer Name, Weiterbildung des Gentilnomens Calpurnius, sehr selten (Kakoschke 2021, CN 619) </p><p>decurio civium civitatis Sueborum Nicrensium item decurio [civium] civitatis Nemetum: Doppel Decurionate wie die des Calpurnianus in den civitates von Ladenburg und Speyer sind in den nordwestlichen Provinzen selten belegt. Ob Calpurnianus die Decurionate gleichzeitig oder aufeinander folgend innegehabt hatte geht aus der Inschrift nicht hervor. (vgl. Lipps et al. 2021, 576)</p></div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>C. Candidius Calpurnianus: tria nomina</p>
+                                                <p>Candidius: einheimisches Pseudogentilnomen, abgeleitet vom lateinsichen Namen Candidus, in den keltischen Provinzen verbreitet (Kakoschke 2021, GN 276)</p>
+                                                <p>Calpurnianus: lateinischer Name, Weiterbildung des Gentilnomens Calpurnius, sehr selten (Kakoschke 2021, CN 619) </p>
+                                                <p>decurio civium civitatis Sueborum Nicrensium item decurio [civium] civitatis Nemetum: Doppel-Decurionate wie die des Calpurnianus in den civitates von Ladenburg und Speyer sind in den nordwestlichen Provinzen selten belegt. Ob Calpurnianus die Decurionate gleichzeitig oder aufeinander folgend innegehabt hatte, geht aus der Inschrift nicht hervor (vgl. Lipps et al. 2021, 576).</p></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
 				<p> </p>
 			</div>
@@ -309,15 +317,17 @@
 		<back>
 			<note type="Objbeschr_note"/>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"/>
-			<note type="Inschrifttraeger_note"/>
+			<note type="Material_note"><p>Kartei: gelber Sandstein<br/></p></note>
+			<note type="Inschrifttraeger_note">Haug 1877, 23f Nr. 19: Votivtafel zu einem Tempel und einer Bildsäule<br/></note>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"><p>Lipps et al. 575<br/></p></note>
+			<note type="InvNr_note">                                                    <p>Lipps et al. 575</p>
+                                                    <p>Kartei: 19</p><p><b>Frau Zesch im Mail vom 9.7.2024: <span style="background-color:white;" lang="de"><font style="font-family: Times New Roman, serif, serif, &#34;EmojiFont&#34;;" size="3" face="Times New Roman,serif"><span style="font-size:12pt;"><font style="font-family: Calibri, sans-serif, serif, &#34;EmojiFont&#34;;" size="2" face="Calibri,sans-serif" color="#1F497D"><span style="font-size:11pt;">Eine kleine Korrektur, der Weihestein trägt nicht die Inventarnummer D5.
+Das Weltkulturen Museum im Quadrat D5 in Mannheim ist der Ort, wo er aktuell ausgestellt ist.</span></font></span></font></span><span style="background-color:white;" lang="de"><font style="font-family: Times New Roman, serif, serif, &#34;EmojiFont&#34;;" size="3" face="Times New Roman,serif"><span style="font-size:12pt;"><font style="font-family: Calibri, sans-serif, serif, &#34;EmojiFont&#34;;" size="2" face="Calibri,sans-serif" color="#1F497D"><span style="font-size:11pt;"> Es gibt keine Inventarnummer zu dem Stein.</span></font></span></font></span></b></p></note>
 			<note type="Fundstelle_note"/>
 			<note type="Fundumst_note"/>
 			<note type="Fundjahr_note"><p>Lipps et al. 575<br/></p></note>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note"/>
+			<note type="FOmodern_note"><p>Dessau 4607<br/></p></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>

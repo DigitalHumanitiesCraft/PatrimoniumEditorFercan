@@ -143,9 +143,7 @@ Auf der rechten Schmalseite sind zwei überkreuzte Füllhörner mit Blattkelch z
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253500">
                                     <ref type="context" target="context:fercan.arch.kranz">Kranz</ref>
                                 </term>
-                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150610">
-                                    <ref type="context" target="context:fercan.arch.perlstab">Perlstab</ref>
-                                </term>
+                                
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.254132">
                                     <ref type="context" target="context:fercan.arch.pfau">Pfau</ref>
                                 </term>
@@ -167,6 +165,7 @@ Auf der rechten Schmalseite sind zwei überkreuzte Füllhörner mit Blattkelch z
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.210600">
                                     <ref type="context" target="context:fercan.arch.weintraube">Weintraube</ref>
                                 </term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150600">Zierleiste</term>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -202,12 +201,12 @@ Auf der rechten Schmalseite sind zwei überkreuzte Füllhörner mit Blattkelch z
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.materna">Materna</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.materna">Materna; Similes</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.similes">Similes</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.similes">Materna; Similes</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -269,7 +268,7 @@ Auf der rechten Schmalseite sind zwei überkreuzte Füllhörner mit Blattkelch z
                         <item>
                             <ref type="context" target="context:fercan.dedication.ex_imperio_ipsarum">ex imperio ipsarum</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Matronis [H/N]ait[i]enis</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -325,7 +324,7 @@ Auf der rechten Schmalseite sind zwei überkreuzte Füllhörner mit Blattkelch z
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>MATRONIS  <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>MATRONIS  <lb n="2"/>
 <gap reason="lost" quantity="1" unit="character" instant="false"/>AIT<gap reason="lost" quantity="1" unit="character" instant="false"/>ENIS  <lb n="3"/>
 MVNA<hi rend="ligature">TI</hi>A · SIMIL<unclear instant="false">E</unclear>S  <lb n="4"/>
 <hi rend="ligature">ET</hi> MATERNA  <lb n="5"/>
@@ -356,7 +355,11 @@ Munatia: weibliche Form von Munatius: italisches Gentilnomen (Kakoschke 2006, GN
 Similes: vermutlich Variante oder Verschreibung von Similis: männliches und weibliches lateinisches Cognomen, besonders häufig in Niedergermanien (Kakoschke 2008, CN 2868); vielleicht ist auch Similis als Genetiv des Namens des Vaters zu verstehen. <lb/> 
 Materna: weibliche Form von Maternus: überall gängiges lateinisches Cognomen (Kakoschke 2008, CN 1965)</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">[H/N]aitienae</rs>: keltisch: Lesung <rs type="divine">Haitienae</rs> ‚In der Fülle Geborene [Muttergöttinnen]’, ‚Aus dem Schwarm Geborene [Muttergöttinnen]’; Lesung <i>Naitienae</i>: ‚In dem Fluss N~ (Natiso?) Geborene [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 221-223).<br/>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">[H/N]aitienae</rs>: keltisch: Lesung <rs type="divine">Haitienae</rs> ‚In der Fülle Geborene [Muttergöttinnen]’, ‚Aus dem Schwarm Geborene [Muttergöttinnen]’; Lesung <rs type="divine">Naitienae</rs>: ‚In dem Fluss N~ (Natiso?) Geborene [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 221-223). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)
                 </p>
                                                 <p part="N">
 

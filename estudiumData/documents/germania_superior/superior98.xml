@@ -2,25 +2,43 @@
 	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
-				<title type="full"><title type="main">Apollo Toutiorix</title><title type="sub">CF-GeS-1078</title></title>
+				<title type="full">
+                            <title type="main">Apollo Toutiorix</title>
+                            <title type="sub">CF-GeS-1078</title>
+                        </title>
 				<respStmt>
 					<resp>Inschriftenedition</resp>
-					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+					<persName>
+                                <forename>Werner</forename>
+                                <surname>Petermandl</surname>
+                            </persName>
 				</respStmt>
 				<respStmt>
 					<resp>Archäologische Beschreibung und geografische Daten</resp>
-					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+					<persName>
+                                <forename>Astrid</forename>
+                                <surname>Schmölzer</surname>
+                            </persName>
 				</respStmt>
 				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
 			</titleStmt>
 			<publicationStmt>
-				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
-					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
-				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+				<publisher>
+                            <link target="https://antike.uni-graz.at"/>
+                            <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
+                        </publisher>
+				<authority>
+                            <link target="https://informationsmodellierung.uni-graz.at"/>
+                            <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
 					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
-					Graz</orgName></authority>
-				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
-					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+					Graz</orgName>
+                        </authority>
+				<distributor>
+                            <link target="https://gams.uni-graz.at"/>
+                            <orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName>
+                        </distributor>
 				<date when="2022">2022</date>
 				<pubPlace>Graz</pubPlace>
 				<idno type="PID">o:fercan.98</idno>
@@ -34,7 +52,10 @@
 					Celticarum Antiquarum</title>
 				<respStmt>
 					<resp>Projektleitung</resp>
-					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+					<persName>
+                                <forename>Wolfgang</forename>
+                                <surname>Spickermann</surname>
+                            </persName>
 				</respStmt>
 			</seriesStmt>
 			<sourceDesc>
@@ -59,31 +80,42 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Der Inschriftentext scheint (bis auf die Eradierung) vollständig erhalten zu sein und füllt das Feld fast zur Gänze aus. Die regelmäßigen Buchstaben sind recht sorgfältig in die geglättete Oberfläche gearbeitet und die Zeilenabstände gleichmäßig gesetzt. Laut Ritter (1800) war unter der Inschrift „noch ein leerer Raum von 4 bis 6 Zeilen.“</p>
-                                                <p>Durch den Bruch unterhalb von Z.6 sind die Buchstaben am Ende der Zeile beschädigt, aber nicht unleserlich gemacht worden. Die zweite Bruchlinie verläuft durch den Anfang der darunter liegenden Zeilen. In Z.7 sind das EM, in Z.8 das RI und in Z.9 das T beschädigt. In Z.7/8 ist der Beiname der legio VII Gemina Alexandriana eradiert.</p>
-                                                <p>Als Interpunktionszeichen erscheinen, mit Ausnahme von Z.1, anstelle von puncta triangularia kleine eingemeißelte Kreise in mittlerer Zeilenhöhe (⸳).</p><p>Besondere Zeichen: Z.6 Sonderzeichen für centurio.</p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Der Inschriftentext scheint (bis auf die Eradierung) vollständig erhalten zu sein und füllt das Feld fast zur Gänze aus. Die regelmäßigen Buchstaben sind recht sorgfältig in die geglättete Oberfläche gearbeitet und die Zeilenabstände gleichmäßig gesetzt. Laut Ritter (1800, 111) war unter der Inschrift „noch ein leerer Raum von 4 bis 6 Zeilen.“</p>
+                                                <p>Durch den Bruch unterhalb von Z.6 sind die Buchstaben am Ende der Zeile beschädigt, aber nicht unleserlich gemacht worden. Die zweite Bruchlinie verläuft durch den Anfang der darunter liegenden Zeilen. In Z.7 sind das EM, in Z.8 das RI und in Z.9 das T beschädigt. In Z.7/8 ist der Beiname der legio VII Gemina Alexandriana eradiert. <br/></p>
+                                                <p>Als Interpunktionszeichen erscheinen, mit Ausnahme von Z.1, anstelle von puncta triangularia kleine eingemeißelte Kreise in mittlerer Zeilenhöhe (⸳). </p>
+                                                <p>Besondere Zeichen: Z.6 Sonderzeichen für centurio.</p>
+                                            </p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130500</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="5.0" atMost="5.0">5,0–5,0</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p>                                                <p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140700">Reparatur</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+							<decoNote> <p>                                                <p>Keine bildliche Gestaltung vorhanden.<br/>
+                                            </p>
+                                        </p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140700">Reparatur</term>
+                      
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150300">glatt</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName>Aquae Mattiacorum</placeName> <region>Civitas Mattiacorum</region> </origPlace> <origDate notBefore="0222" notAfter="0235" instant="false"><date>222–235</date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<origin> <origPlace> <placeName>Aquae Mattiacorum</placeName> <region>Civitas Mattiacorum</region> </origPlace> <origDate notBefore="0222" notAfter="0235" instant="false">
+                                        <date>222–235</date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note>
+                                    </origDate> </origin>
 						<provenance type="found" when="1784"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Wiesbaden</ref> </placeName> <p>Schützenhof (heute: Schützenhofstraße/Langgasse), in der östlichen Mauer des Badhauses</p> <location>
 								<geo decls="#WGS"/>
 							</location> <note anchored="true">„in dem Fundament einer spätrömischen [in der östlichen (Klein 1859, 38)] Mauer am Kranzplatz“ (Schoppa 1974, 159); eingemauert und übermalt in einem bis ins 19. Jahrhundert bestehenden Gasthaus/Bad; bei Bau-/Renovierungsarbeiten entdeckt (Matijević, in Vorbereitung, 263)</note> </provenance>
-						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (CIL XIII Projekt)</p><p>Lesung: Matijević (in Vorbereitung)</p><p/></provenance>
+						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (CIL XIII Projekt)</p>
+                                    <p>Lesung: Matijević (in Vorbereitung)</p>
+                                    <p/>
+                                </provenance>
 					</history>
 				</msDesc>
 				<listPlace>
 					<place type="antique_term">
-						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+						<placeName>
+                                    <ref target="context:fercan.geog.term" type="context"/> </placeName>
 					</place>
 					<place type="sacral_building">
 						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
@@ -117,7 +149,9 @@
 						</roleName> </persName>
 					</person>
 					<person>
-						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">Marinius</ref></persName>
+						<persName type="gentilnomen">
+                                    <ref target="context:fercan.person.gentilnomen." type="context">Marinius</ref>
+                                </persName>
 					</person>
 					<person>
 						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
@@ -141,7 +175,9 @@
 						</orgName>
 					</org>
 					<org type="military_unit">
-						<orgName><ref target="context:fercan.org.military." type="context">legio VII Gemina Alexandriana</ref></orgName>
+						<orgName>
+                                    <ref target="context:fercan.org.military." type="context">legio VII Gemina Alexandriana</ref>
+                                </orgName>
 					</org>
 					<org type="population_group">
 						<orgName> <ref target="context:fercan.org.population." type="context">
@@ -244,7 +280,7 @@
         
             <bibl xml:id="13">Richier 2004, 125 Nr.29</bibl>
         
-            <bibl xml:id="14">Palao Vicente 2006, 199, Anm.78; 394, Anm.12; 396, Anm.19</bibl>
+            <bibl xml:id="14">Palao Vicente 2006, 199 Anm.78; 394 Anm.12; 396 Anm.19</bibl>
         
             <bibl xml:id="15">Faure 2013 II 788 Nr.278</bibl>
         
@@ -257,22 +293,37 @@
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
 				<listBibl>
-					<bibl type="EDCS"><idno>EDCS-11001684</idno><date>zuletzt abgerufen 2023-07-14</date></bibl>
-					<bibl type="EDH"><idno>HD060715</idno><date>Version von 2019-11-28</date></bibl>
-					<bibl type="trismegistos"><idno> </idno><date> </date></bibl>
-					<bibl type="lupa"><idno> </idno><date> </date></bibl>
-					<bibl type="other"><idno> </idno><date> </date></bibl>
+					<bibl type="EDCS">
+                                <idno>EDCS-11001684</idno>
+                                <date>zuletzt abgerufen 2023-07-14</date>
+                            </bibl>
+					<bibl type="EDH">
+                                <idno>HD060715</idno>
+                                <date>Version von 2019-11-28</date>
+                            </bibl>
+					<bibl type="trismegistos">
+                                <idno> </idno>
+                                <date> </date>
+                            </bibl>
+					<bibl type="lupa">
+                                <idno>https://lupa.at/34456</idno>
+                                <date>Version von 2023-10-18</date>
+                            </bibl>
+					<bibl type="other">
+                                <idno> </idno>
+                                <date> </date>
+                            </bibl>
 				</listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
-				<ab><lb n="1"/>IN<g type="interpunct">▴</g>H<g type="interpunct">▴</g>D<g type="interpunct">▴</g>D 
+				<ab><lb n="1"/>IN<g type="interpunct">▴</g>H<g type="interpunct">▴</g>D<g type="interpunct">▴</g>D
 <lb n="2"/>APOLLINI TOV
 <lb n="3"/>TIORIGI
 <lb n="4"/>L ⸳ MARINIVS
 <lb n="5"/>MARINIA
 <lb n="6"/>NUS ⸳ &gt; ⸳ LEG VII ⸳
-<lb n="7"/>GEM <del rend="erasure"><unclear>ALEXAN</unclear></del>
-<lb n="8"/><del rend="erasure"><unclear>DRIANAE</unclear></del> VO
+<lb n="7"/>GEM <del rend="erasure">ALEXAN</del>
+<lb n="8"/><del rend="erasure">DRIANAE</del> VO
 <lb n="9"/>TI COMPOS</ab></div>
 			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
 <lb n="2"/>Apollini Tou
@@ -284,10 +335,11 @@
 <lb n="8" break="no"/><del rend="erasure">drianae</del> vo
 <lb n="9" break="no"/>ti compos</ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
-				<p>Zur Ehre des göttlichen Kaiserhauses für <rs type="divine">Apollo Toutiorix</rs> (hat) Lucius Marinius Marinianus, centurio der legio VII Gemina Alexandriana, nach Erfüllung seines Wunsches (diesen Altar gestiftet).</p>
+				<p><p>Zur Ehre des göttlichen Kaiserhauses für <rs type="divine">Apollo Toutiorix</rs>!</p><p>Lucius Marinius Marinianus, centurio der legio VII Gemina Alexandriana, (hat) nach Erfüllung seines Wunsches (diesen Altar gestiftet).</p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p>In honour of the divine household, for <rs type="divine">Apollo Toutiorix</rs>, Lucius Marinius Marinianus, centurio of the legio VII Gemina Alexandriana, (has donated this altar) him being granted his wish.</p>
+				<p>                                                <p>In honour of the divine household, for <rs type="divine">Apollo Toutiorix</rs>!</p>
+                                                <p>Lucius Marinius Marinianus, centurion of the legio VII Gemina Alexandriana, (has donated this altar) him being granted his wish.</p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="5">
@@ -313,21 +365,26 @@
 			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Lucius Marinius Marinianus: tria nomina</p>
                                                 <p>Marinius: italisches Gentilnomen oder „einheimisches ‚Pseudogentilnomen‘“, abgeleitet vom Namen Mar(in)us, in den keltischen Provinzen verbreitet (Kakoschke 2021, GN 766)</p>
                                                 <p>Marinianus: lateinischer Name, Weiterbildung des Namens Marinus, in den keltischen Provinzen verbreitet (Kakoschke 2021, CN 1926)</p>
-                                                <p>Legio VII Gemina Alexandriana: Die Legio VII Gemina war zur Zeit des Severus Alexander, wie auch sonst, auf der iberischen Halbinsel stationiert (Matijević [in Vorbereitung], 265; Palao Vicente 2006; Le Roux 2000). Während der Herrschaft des Severus Alexander wurden die Beinamen Severiana und Alexandriana verliehen, letzterer fiel nach dessen damnatio memoriae wieder weg (Stein 1932, 116). Es werden drei Möglichkeiten diskutiert, weshalb sich der Centurio in Aquae Mattiacorum aufgehalten hat: <br/>I. Er war in der Gegend heimisch oder hielt sich für einen Kururlaub hier auf.</p>
-                                                <p>II. Eine Abteilung der Legio VII Gemina nahm am Germanienkrieg unter Severus Alexander Teil.</p>
+                                                <p>legio VII Gemina Alexandriana: Die legio VII Gemina war zur Zeit des Severus Alexander, wie auch sonst, auf der iberischen Halbinsel stationiert (Matijević [in Vorbereitung], 265). Während der Herrschaft des Severus Alexander wurden die Beinamen Severiana und Alexandriana verliehen, letzterer fiel nach dessen damnatio memoriae wieder weg (Stein 1932, 116). Es werden drei Möglichkeiten diskutiert, weshalb sich der Centurio in Aquae Mattiacorum aufgehalten hat: </p><p>I. Er war in der Gegend heimisch oder hielt sich für einen Kurzurlaub hier auf.</p>
+                                                <p>II. Eine Abteilung der legio VII Gemina nahm am Germanienkrieg unter Severus Alexander Teil.</p>
                                                 <p>III. Der Centurio stand kurz vor seiner Versetzung von der XII. zur VII. Legion und gab bereits die Zugehörigkeit der neuen Legion an (s. Matijević [in Vorbereitung], 265 mit Literatur).
-			</p></div>
+			</p>
+                    </div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
 				<p> </p>
 			</div>
-			<div type="commentary" subtype="deity" org="uniform" sample="complete"><p> </p>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+                        <p> </p>
 			</div>
 			<linkGrp type="alignment" domains="#majuscule #minuscule">
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note">                                                    <p>Matijević (in Vorbereitung) 262 ist hilfreich.</p><p>„da man ihn übertüncht und die Buchstaben mit schwarzer Farbe nachgemalt hat, so ist eine andere Lesart als die von Ritter aufbewahrte, nicht mehr möglich“ – Zimmermann 1826, S. 158</p></note>
-			<note type="ArchKlass_note"><p><!--[if gte mso 9]><xml>
+			<note type="Objbeschr_note">                                                    <p>Matijević (in Vorbereitung) 262 ist hilfreich.</p>
+                        <p>„da man ihn übertüncht und die Buchstaben mit schwarzer Farbe nachgemalt hat, so ist eine andere Lesart als die von Ritter aufbewahrte, nicht mehr möglich“ – Zimmermann 1826, S. 158</p>
+                    </note>
+			<note type="ArchKlass_note">
+                        <p><!--[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
@@ -979,10 +1036,15 @@
 </style>
 <![endif]-->
 
-<p class="MsoNoSpacing" style="margin-left:63.8pt"><span style="font-size:12.0pt; font-family:LeedsUniExt;background:yellow;mso-highlight:yellow;mso-bidi-font-weight: bold">Matijević (in Vorbereitung) 262</span><span style="font-size:12.0pt; font-family:LeedsUniExt;mso-bidi-font-weight:bold"/></p>
+<p class="MsoNoSpacing" style="margin-left:63.8pt">
+                                <span style="font-size:12.0pt; font-family:LeedsUniExt;background:yellow;mso-highlight:yellow;mso-bidi-font-weight: bold">Matijević (in Vorbereitung) 262</span>
+                                <span style="font-size:12.0pt; font-family:LeedsUniExt;mso-bidi-font-weight:bold"/>
+                            </p>
 
-</p></note>
-			<note type="Material_note"><p><!--[if gte mso 9]><xml>
+</p>
+                    </note>
+			<note type="Material_note">
+                        <p><!--[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
@@ -1634,16 +1696,25 @@
 </style>
 <![endif]-->
 
-<p class="MsoNoSpacing" style="margin-left:63.8pt"><span style="font-size:12.0pt; font-family:LeedsUniExt;mso-bidi-font-weight:bold">roter Sandstein – Schoppa
-1974, S. 159</span></p>
+<p class="MsoNoSpacing" style="margin-left:63.8pt">
+                                <span style="font-size:12.0pt; font-family:LeedsUniExt;mso-bidi-font-weight:bold">roter Sandstein – Schoppa
+1974, S. 159</span>
+                            </p>
 
-<p class="MsoNoSpacing" style="margin-left:63.8pt"><span style="font-size:12.0pt; font-family:LeedsUniExt;mso-bidi-font-weight:bold">rötlich, sehr fest – Peez
-1823, S. 27</span></p>
+<p class="MsoNoSpacing" style="margin-left:63.8pt">
+                                <span style="font-size:12.0pt; font-family:LeedsUniExt;mso-bidi-font-weight:bold">rötlich, sehr fest – Peez
+1823, S. 27</span>
+                            </p>
 
-<p class="MsoNoSpacing" style="margin-left:63.8pt"><span style="font-size:12.0pt; font-family:LeedsUniExt;background:yellow;mso-highlight:yellow;mso-bidi-font-weight: bold">Matijević (in Vorbereitung) 262</span><span style="font-size:12.0pt; font-family:LeedsUniExt;mso-bidi-font-weight:bold"/></p>
+<p class="MsoNoSpacing" style="margin-left:63.8pt">
+                                <span style="font-size:12.0pt; font-family:LeedsUniExt;background:yellow;mso-highlight:yellow;mso-bidi-font-weight: bold">Matijević (in Vorbereitung) 262</span>
+                                <span style="font-size:12.0pt; font-family:LeedsUniExt;mso-bidi-font-weight:bold"/>
+                            </p>
 
-</p></note>
-			<note type="Inschrifttraeger_note"><p><!--[if gte mso 9]><xml>
+</p>
+                    </note>
+			<note type="Inschrifttraeger_note">
+                        <p><!--[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
@@ -2295,26 +2366,62 @@
 </style>
 <![endif]-->
 
-<p class="MsoNoSpacing" style="margin-left:63.8pt"><span style="font-size:12.0pt; font-family:LeedsUniExt;background:yellow;mso-highlight:yellow;mso-bidi-font-weight: bold">Matijević (in Vorbereitung) 262</span><span style="font-size:12.0pt; font-family:LeedsUniExt;mso-bidi-font-weight:bold"> ist hilfreich.</span></p>
+<p class="MsoNoSpacing" style="margin-left:63.8pt">
+                                <span style="font-size:12.0pt; font-family:LeedsUniExt;background:yellow;mso-highlight:yellow;mso-bidi-font-weight: bold">Matijević (in Vorbereitung) 262</span>
+                                <span style="font-size:12.0pt; font-family:LeedsUniExt;mso-bidi-font-weight:bold"> ist hilfreich.</span>
+                            </p>
 
-</p></note>
+</p>
+                    </note>
 			<note type="VerwahrortOrt_note">Le Roux (2019); gemeint ist wohl das SAM – Stadtmuseum am Markt?</note>
-			<note type="InvNr_note">                                                    <p>Nach Wolfgangs Datenbank; so auch CIL Kartei und Grönke S. 86 Nr. 96</p></note>
-			<note type="Fundstelle_note"><p>Mit Schützenhof ist wohl nicht das heutige Gasthaus, Am Schlosspark 45, gemeint, sondern eine Kur-, Gasthaus-, Badanlage (?) im Umfeld der Schützenhofquelle, Schützenhofstraße, die Ebhardt und Zimmermann zu Beginn des 19. Jahrhundert noch besichtigten. (vgl. Ebhardt, Zimmermann)</p><p>(Matijević)<br/></p></note>
+			<note type="InvNr_note">                                                    <p>Nach Wolfgangs Datenbank; so auch CIL Kartei und Grönke S. 86 Nr. 96</p>
+                    </note>
+			<note type="Fundstelle_note">
+                        <p>Mit Schützenhof ist wohl nicht das heutige Gasthaus, Am Schlosspark 45, gemeint, sondern eine Kur-, Gasthaus-, Badanlage (?) im Umfeld der Schützenhofquelle, Schützenhofstraße, die Ebhardt und Zimmermann zu Beginn des 19. Jahrhundert noch besichtigten. (vgl. Ebhardt, Zimmermann)</p>
+                        <p>(Matijević)<br/>
+                        </p>
+                    </note>
 			<note type="Fundumst_note">s. Lamejus, Ebhardt, Zimmermann</note>
 			<note type="Fundjahr_note">s. Lamejus</note>
 			<note type="FOantik_note"/>
 			<note type="FOmodern_note"/>
-			<note type="civitas_note">                                                    <p><br/></p></note>
-			<note type="Autopsie_note"><p class="MsoNoSpacing" style="margin-left:35.4pt"><span style="font-size:12.0pt; font-family:LeedsUniExt;color:red">vidimus (CIL XIII Projekt) |</span></p><p class="MsoNoSpacing" style="margin-left:35.4pt"><span style="font-size:12.0pt; font-family:LeedsUniExt;color:red">Lesung: <span style="background:yellow; mso-highlight:yellow">Matijević</span> (in Vorbereitung)</span></p><p/></note>
+			<note type="civitas_note">                                                    <p>
+                            <br/>
+                        </p>
+                    </note>
+			<note type="Autopsie_note">
+                        <p class="MsoNoSpacing" style="margin-left:35.4pt">
+                            <span style="font-size:12.0pt; font-family:LeedsUniExt;color:red">vidimus (CIL XIII Projekt) |</span>
+                        </p>
+                        <p class="MsoNoSpacing" style="margin-left:35.4pt">
+                            <span style="font-size:12.0pt; font-family:LeedsUniExt;color:red">Lesung: <span style="background:yellow; mso-highlight:yellow">Matijević</span> (in Vorbereitung)</span>
+                        </p>
+                        <p/>
+                    </note>
 			<note type="Appcrit_note"/>
-			<note type="Abb_note">                                                    <p><b>Anfrage wegen Bild an Museum Wiesbaden 19.07., Antwort 24.07.<br/></b></p><div style="margin:0;"><font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;">Sehr geehrter Herr Kumpitsch,</span></font></div><div style="margin:0;"><font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;">meine
+			<note type="Abb_note">                                                    <p>
+                            <b>Anfrage wegen Bild an Museum Wiesbaden 19.07., Antwort 24.07.<br/>
+                            </b>
+                        </p>
+                        <div style="margin:0;">
+                            <font size="2" face="Calibri,sans-serif">
+                                <span style="font-size:11pt;">Sehr geehrter Herr Kumpitsch,</span>
+                            </font>
+                        </div>
+                        <div style="margin:0;">
+                            <font size="2" face="Calibri,sans-serif">
+                                <span style="font-size:11pt;">meine
  Kollegin Frau Falk hat mir Ihre Anfragen weitergeleitet. Für den 
 Weihealter für Apollo Toutiorix kann ich Ihnen Bildmaterial zur 
 Verfügung stellen. Das Copyright
 lautet: Stiftung Stadtmuseum Wiesbaden, Sammlung Nassauischer 
 Altertümer, Inv.-Nr. 212 (Foto: P. Bäuml, Wiesbaden). Das Foto sende ich
- Ihnen per WeTransfer.</span></font></div><div style="margin:0;"><font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;">Ihre
+ Ihnen per WeTransfer.</span>
+                            </font>
+                        </div>
+                        <div style="margin:0;">
+                            <font size="2" face="Calibri,sans-serif">
+                                <span style="font-size:11pt;">Ihre
  Anfrage zu dem Votiv-Täfelchen für Mars Loucetius gestaltet sich leider
  etwas schwieriger. Ausgeliehen war das Täfelchen 2009/2010 nach Xanten,
  als die Sammlung
@@ -2323,12 +2430,35 @@ Rückgabe den Standort im Depot nicht verzeichnet, so dass es aktuell
 nicht auffindbar ist. Von den damaligen Kollegen ist heute keiner mehr 
 am Museum. Ich habe in Xanten angefragt, ob damals
 ein Foto gemacht wurde. Sobald ich Rückmeldung habe, gebe ich Ihnen 
-Bescheid.</span></font></div><div style="margin:0;"><font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;">Über ein Belegexemplar für den Apollo-Stein, gerne auch digital, würden wir uns freuen.</span></font></div><div style="margin:0;"><font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;">Mit freundlichen Grüßen</span></font></div><div style="margin:0;"><font size="2" face="Calibri,sans-serif"><span style="font-size:11pt;">Daniel Burger</span></font></div></note>
+Bescheid.</span>
+                            </font>
+                        </div>
+                        <div style="margin:0;">
+                            <font size="2" face="Calibri,sans-serif">
+                                <span style="font-size:11pt;">Über ein Belegexemplar für den Apollo-Stein, gerne auch digital, würden wir uns freuen.</span>
+                            </font>
+                        </div>
+                        <div style="margin:0;">
+                            <font size="2" face="Calibri,sans-serif">
+                                <span style="font-size:11pt;">Mit freundlichen Grüßen</span>
+                            </font>
+                        </div>
+                        <div style="margin:0;">
+                            <font size="2" face="Calibri,sans-serif">
+                                <span style="font-size:11pt;">Daniel Burger</span>
+                            </font>
+                        </div>
+                    </note>
 			<note type="englUEbers_note"/>
-			<note type="dtUEbers_note">Nach Froesch (2014) und Stowasser bezieht sich compos in voti compos auf die Erfüllung des Wunsches (votum) (=er ist einer, der zufrieden und in Besitz (des Ergebnisses) seines Wunsches ist) nicht auf die Erledigung der Bedingung(en) des Gelübdes (votum) (=er ist einer, der in Besitz (der Bedingungen) des Gelübdes ist = er ist einer, der sein Gelübde erfüllt hat).<br/></note>
-			<note type="Editionen_note">                                                    <p/>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg<p/></note>
+			<note type="dtUEbers_note">Nach Froesch (2014) und Stowasser bezieht sich compos in voti compos auf die Erfüllung des Wunsches (votum) (=er ist einer, der zufrieden und in Besitz (des Ergebnisses) seines Wunsches ist) nicht auf die Erledigung der Bedingung(en) des Gelübdes (votum) (=er ist einer, der in Besitz (der Bedingungen) des Gelübdes ist = er ist einer, der sein Gelübde erfüllt hat).<br/>
+                    </note>
+			<note type="Editionen_note">                                                    <p/>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg<p/>
+                    </note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"><p>Matijević (in Vorbereitung) 263</p><p>Grönke: H 1,35m, B 0,8m, T 0,31m</p></note>
+			<note type="Masse_note">
+                        <p>Matijević (in Vorbereitung) 263</p>
+                        <p>Grönke: H 1,35m, B 0,8m, T 0,31m</p>
+                    </note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note">                                                    <p><!--[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
@@ -2982,13 +3112,18 @@ Bescheid.</span></font></div><div style="margin:0;"><font size="2" face="Calibri
 </style>
 <![endif]-->
 
-<p class="MsoNoSpacing" style="margin-left:63.8pt"><span style="background:yellow; mso-highlight:yellow">Matijevi</span><span style="mso-bidi-font-family:Calibri; mso-bidi-theme-font:minor-latin;background:yellow;mso-highlight:yellow">ć</span><span style="background:yellow;mso-highlight:yellow"> (in Vorbereitung)</span>, Czysz
+<p class="MsoNoSpacing" style="margin-left:63.8pt">
+                                <span style="background:yellow; mso-highlight:yellow">Matijevi</span>
+                                <span style="mso-bidi-font-family:Calibri; mso-bidi-theme-font:minor-latin;background:yellow;mso-highlight:yellow">ć</span>
+                                <span style="background:yellow;mso-highlight:yellow"> (in Vorbereitung)</span>, Czysz
 (1994)</p>
 
-</p></note>
+</p>
+                    </note>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"><p><!--[if gte mso 9]><xml>
+			<note type="Buchsthoehe_note">
+                        <p><!--[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
@@ -3640,13 +3775,20 @@ Bescheid.</span></font></div><div style="margin:0;"><font size="2" face="Calibri
 </style>
 <![endif]-->
 
-<p class="MsoNoSpacing" style="margin-left:63.8pt"><span style="background:yellow; mso-highlight:yellow">Matijevi</span><span style="mso-bidi-font-family:Calibri; mso-bidi-theme-font:minor-latin;background:yellow;mso-highlight:yellow">ć</span><span style="background:yellow;mso-highlight:yellow"> (in Vorbereitung)</span>,
-Grönke (1982)<span style="font-size:12.0pt;font-family:LeedsUniExt;mso-bidi-font-weight: bold"/></p>
+<p class="MsoNoSpacing" style="margin-left:63.8pt">
+                                <span style="background:yellow; mso-highlight:yellow">Matijevi</span>
+                                <span style="mso-bidi-font-family:Calibri; mso-bidi-theme-font:minor-latin;background:yellow;mso-highlight:yellow">ć</span>
+                                <span style="background:yellow;mso-highlight:yellow"> (in Vorbereitung)</span>,
+Grönke (1982)<span style="font-size:12.0pt;font-family:LeedsUniExt;mso-bidi-font-weight: bold"/>
+                            </p>
 
-</p></note>
+</p>
+                    </note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
-			<note type="SonstKomm_note"><p>Alte Version 30.08.23:</p><p>Legio VII Gemina Alexandriana: Die Legio VII Gemina war zur Zeit des 
+			<note type="SonstKomm_note">
+                        <p>Alte Version 30.08.23:</p>
+                        <p>Legio VII Gemina Alexandriana: Die Legio VII Gemina war zur Zeit des 
 Severus Alexander, wie auch sonst, auf der iberischen Halbinsel 
 stationiert (Matijević [in Vorbereitung], 265; Palao Vicente 2006; Le 
 Roux 2000). Während der Herrschaft des Severus Alexander wurden die 
@@ -3663,8 +3805,13 @@ Legio VII Gemina nahm am Germanienkrieg unter Severus Alexander Teil
 kurz vor seiner Versetzung von der XII. zur VII. Legion und gab bereits 
 die Zugehörigkeit der neuen Legion an (Richier 2004, Palao Vicente 
 2006).
-			</p><p/></note>
-			<note type="Datierung_note">                                                    <p><br/></p></note>
+			</p>
+                        <p/>
+                    </note>
+			<note type="Datierung_note">                                                    <p>
+                            <br/>
+                        </p>
+                    </note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>
 		</back>

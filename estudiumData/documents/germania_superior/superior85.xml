@@ -60,8 +60,8 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Vom Inschriftentext sind der linke und der obere Rand gesichert, wie weit er sich nach rechts und nach unten fortsetzte kann nicht gesagt werden. Die sehr qualitätvollen Buchstaben sind in der ersten Zeile größer als in den folgenden.</p>
-                                                <p>Auf der Rückseite findet sich eine sekundär angebrachte Inschrift (CIL XIII 11976) mit Konsuldatierung, die auf das Jahr 269(?) verweist.</p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Vom Inschriftentext sind der linke und der obere Rand gesichert, wie weit er sich nach rechts und nach unten fortsetzte, kann nicht gesagt werden. Die sehr qualitätvollen Buchstaben sind in der ersten Zeile größer als in den folgenden.</p>
+                                                <p>Auf der Rückseite findet sich eine sekundär angebrachte Inschrift (CIL XIII 11976) mit Konsuldatierung, die auf das Jahr 269(?) verweist.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130310</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -71,14 +71,15 @@
 						</handDesc>
 						<decoDesc>
 							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140700">Reparatur</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251800">Gesicht</term>
+                      
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150300">glatt</term>
+                      
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore=" " notAfter=" 0110" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1908"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Liesenich </ref> </placeName> <p>auf dem Hunsrück bei Mittelstrimmig, Distrikt „auf der Mauer“ an der Straße Strimmig-Blankenrath (Lehner 1918, 2, Nr.1)</p> <location>
+						<provenance type="found" when="1908"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Liesenich </ref> </placeName> <p>auf dem Hunsrück bei Mittelstrimmig, Distrikt „auf der Mauer“ an der Straße Strimmig-Blankenrath (Lehner 1918, 2 Nr.1)</p> <location>
 								<geo decls="#WGS"/>
 							</location> <note anchored="true">Es sind keine weiteren Fundumstände bekannt.</note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
@@ -190,10 +191,10 @@
 			<textClass>
 				<keywords>
 					<list>
-						<item> <ref target="context:fercan.dedication." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.dedication." type="context">in honorem domus divinae</ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
-						<item> <ref target="context:fercan.rel.other." type="context">in honorem domus divinae</ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context">numen</ref> </item>
 						<!-- Belegform gesamt  -->
 						<item> <ref target="context:fercan.divinepart." type="context"> Boud[.]na; Marti Smertrio; Vindoridio</ref> </item>
 					</list>
@@ -251,7 +252,7 @@
 			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> <expan><abbr>Numin<supplied reason="lost">i</supplied></abbr><ex>bus</ex></expan>
 <lb n="2"/>Marti Smertrio et
 <lb n="3"/>Vindoridio Boud<supplied reason="lost">i</supplied>
-<lb n="4"/>nae <expan><abbr>Cn</abbr><ex>aeus</ex></expan> Domitius C<gap reason="illegible" quantity="1" unit="character"/></ab></div>
+<lb n="4" break="no"/>nae <expan><abbr>Cn</abbr><ex>aeus</ex></expan> Domitius C<gap reason="illegible" quantity="1" unit="character"/></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
 				<p>                                                <p>Zu Ehren des Kaiserhauses für die numina <rs type="divine">Mars Smertrius</rs> und <rs type="divine">Vindoridius</rs> (und) <i>Boudina</i>!</p>
                                                 <p>Gnaeus Domitius C...</p></p>

@@ -60,15 +60,17 @@
 							</supportDesc>
 							<layoutDesc>
 								<layout> <p>                                                <p>Vom Inschriftentext ist mit Sicherheit der obere Teil erhalten; allerdings mit einigen Ausbrüchen am linken Rand. Ob sich der Text nach unten fortsetzte, kann nicht gesagt werden, ist aber anzunehmen. CIL hat Reste einer weiteren Zeile zumindest für möglich gehalten.</p>
-                                                <p>Z.3 mit wesentlich kleineren Buchstaben ist nachträglich in den Zeilenzwischenraum von Z.2 und Z.4 eingefügt.</p></p> <note type="condition" anchored="true"/> </layout>
+                                                <p>Z.3 mit wesentlich kleineren Buchstaben ist nachträglich in den Zeilenzwischenraum von Z.2 und Z.4 eingefügt.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130600</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> 
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140710">Dübelloch</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140760">Bleibatzen</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -189,7 +191,7 @@
 						<item> <ref target="context:fercan.dedication." type="context">ex voto</ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context">nachträgliches Einfügen</ref> </item>
-						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context">numen</ref> </item>
 						<!-- Belegform gesamt  -->
 						<item> <ref target="context:fercan.divinepart." type="context">Virodacti</ref> </item>
 					</list>
@@ -228,7 +230,7 @@
         
             <bibl xml:id="8">Ferlut 2022, Nr.445</bibl>
         
-            <bibl xml:id="1">Keller 1883 (Katalog), 156f Nr.84a</bibl>
+            <bibl xml:id="1">Keller 1883 (Katalog), 156f. Nr.84a</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">

@@ -157,12 +157,12 @@
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.fortunatus">Fortunatus</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.fortunatus">Fortunatus; Primitius</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.primitius">Primitius</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.primitius">Fortunatus; Primitius</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -231,7 +231,7 @@
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">deae Nehaleniae</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -274,14 +274,14 @@
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/>DEAE  <lb n="2"/>
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>DEAE  <lb n="2"/>
 NEHALENI  <lb n="3"/>
 AE T FLA<gap reason="lost" quantity="1" unit="character" instant="false"/>I  <lb n="4"/> 
 FORTVNA<hi rend="ligature">TI</hi>  <lb n="5"/>
 LIB  <lb n="6"/>
 PRIMITIVS  <lb n="7"/>
 V S L M</orig></ab></div>
-            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Deae<lb n="2"/>Nehaleni<lb n="3" break="no"/>ae <expan instant="false"><abbr>T</abbr><ex instant="false">iti</ex></expan> Fla<supplied reason="lost" instant="false">v</supplied>i<lb n="4"/>Fortunati<lb n="5"/><expan instant="false"><abbr>lib</abbr><ex instant="false">ertus</ex></expan> Primitius<lb n="6"/><expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
+            <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><lb n="1"/>Deae<lb n="2"/>Nehaleni<lb n="3" break="no"/>ae <expan instant="false"><abbr>T</abbr><ex instant="false">iti</ex></expan> Fla<supplied reason="lost" instant="false">v</supplied>i<lb n="4"/>Fortunati<lb n="5"/><expan instant="false"><abbr>lib</abbr><ex instant="false">ertus</ex></expan><lb n="6"/> Primitius<lb n="7"/><expan instant="false"><abbr>v</abbr><ex instant="false">otum</ex></expan> <expan instant="false"><abbr>s</abbr><ex instant="false">olvit</ex></expan> <expan instant="false"><abbr>l</abbr><ex instant="false">ibens</ex></expan> <expan instant="false"><abbr>m</abbr><ex instant="false">erito</ex></expan></ab></div>
             <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
                 <p part="N">Für die Göttin  <rs type="divine">Nehalenia!</rs>  <lb/>
 Primitius, der Freigelassene des Titus Flavius Fortunatus, hat das Gelübde gerne und verdientermaßen erfüllt.</p>
@@ -311,7 +311,11 @@ Fortunatus: überall gängiges lateinisches Cognomen (Kakoschke 2007, CN 1334) <
 
 Primitius: Der Freigelassene nennt lediglich sein Cognomen. Primitius: steht möglicherweise für Primitivus: überall gängiges lateinisches Cognomen (Kakoschke 2008, CN 2442)  </p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalenia:</rs> Variante von  <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).  </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalenia:</rs> Variante von  <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)  </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen:  </p>

@@ -59,7 +59,7 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p><p>Der Inschriftentext ist vollständig erhalten. Die Buchstaben sind unregelmäßig und in der ersten und letzten Zeile deutlich kleiner.<br/></p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p><p>Der Inschriftentext ist vollständig erhalten. Die Buchstaben sind unregelmäßig und in der ersten und letzten Zeile deutlich kleiner.<br/></p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130400</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -68,8 +68,10 @@
 						<decoDesc>
 							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252810">Opferschale</term>
+                      
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">Rosette</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale (Gestaltungsmerkmal)</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
                       
 							</decoNote>
 						</decoDesc>
@@ -226,13 +228,13 @@
         
             <bibl xml:id="5">Gödel 1980, 121f.</bibl>
         
-            <bibl xml:id="6">Mensching 1982, 9, Nr.5</bibl>
+            <bibl xml:id="6">Mensching 1982, 9 Nr.5</bibl>
         
             <bibl xml:id="7"> Cüppers 1990, 497f.</bibl>
         
             <bibl xml:id="8">Hirte 1995, 438</bibl>
         
-            <bibl xml:id="9">Scheungraber 2020, 608, Nr.4</bibl>
+            <bibl xml:id="9">Scheungraber 2020, 608 Nr.4</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
@@ -261,11 +263,11 @@
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="2">
-					<note anchored="true">am Ende der Zeile ist die Lesung nicht ganz sicher – Nesselhauf</note>
+					<note anchored="true">Am Ende der Zeile ist die Lesung nicht ganz sicher. – Nesselhauf</note>
 				</app>
 			
             <app loc="3">
-                <note anchored="true">fehlender Zeilenwechsel nach v – Cüppers</note>
+                <note anchored="true">fehlender Zeilenwechsel nach dem letzen v – Cüppers</note>
             </app>
         
             <app loc="4">

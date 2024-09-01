@@ -148,22 +148,22 @@
                         </persName>
                     </person>
                     <person instant="false">
-                        <persName type="divine" instant="false" full="yes">
+                        <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.divine-o.dii_patrii">dii patrii</ref>
                         </persName>
                     </person>
                     <person instant="false">
-                        <persName type="divine" instant="false" full="yes">
+                        <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.divine-o.dii_praesides_huius_loci">dii praesides huius loci</ref>
                         </persName>
                     </person>
                     <person instant="false">
-                        <persName type="divine" instant="false" full="yes">
+                        <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.divine-o.dii_praesides_oceani">dii praesides oceani</ref>
                         </persName>
                     </person>
                     <person instant="false">
-                        <persName type="divine" instant="false" full="yes">
+                        <persName type="divine" subtype="celtic_normalized_other" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.divine-o.iupiter_optimus_maximus">Iupiter Optimus Maximus</ref>
                         </persName>
                     </person>
@@ -223,7 +223,9 @@
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solvit_merito_pro_salute_sua_et_">votum solvit merito pro salute sua et suorum</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Reno</ref> </item>
+                    </list>
+                </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -303,24 +305,42 @@ Quintus Marcius Gallianus, legatus legionis of the XXX Ulpiae victricis: Der Leg
 
 legio XXX Ulpia Victrix: Die Legion folgte ab 121/122 n.Chr. in Xanten auf die legio VI Victrix (Stein 1932, 106).</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Renus:</rs> keltisch: ‚Gott des [Flusses] Rhein’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 148f).  </p>
-                                                <p part="N">
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p class="MsoNormal">
+                                                    <rs type="divine">Rhenus</rs> (incl. ev. Varianten):</p>
 
-Vorkommen in theonymischen Formularen: </p>
-                                                <p part="N">
- <rs type="divine">Rhenus</rs>: <lb/>
-- Germania Inferior: Der Göttername ist 3 x mit diesem theonymischen Formular bezeugt. <lb/> 
-- außerhalb der Germania Inferior: - </p>
-                                                <p part="N">
+<p class="MsoNormal">Sprachlich: keltisch: ‚Gott des [Flusses] Rhein’ (de
+Bernardo Stempel Corpus F.E.R.C.A.N. II/1 148f.). (Hier wird kein
+sprachwissenschaftlicher Beitrag geleistet. Die Literaturangaben dienen
+lediglich dazu, einen Einstieg in die sprachwissenschaftliche Diskussion zu
+bieten. Besprochen werden alle Götternamen, die bislang als keltisch oder
+teilweise keltisch gedeutet wurden.)</p>
 
- <rs type="divine">flumen Rhenus</rs>: <lb/>
-- Germania Inferior: Der Göttername wird 1 x als  <rs type="divine">flumen Rhenus</rs> (CF-GeI-389) angesprochen. <lb/> 
-- außerhalb der Germania Inferior: In Raetien ist  <rs type="divine">flumen Rhenus</rs> (CIL XIII 5255) inschriftlich belegt. </p>
-                                                <p part="N">
+<p class="MsoNormal">Vorkommen: Der Göttername <rs type="divine">Rhenus</rs> ist inschriftlich bezeugt
+in den Provinzen Germania Inferior, Germania Superior und Raetia (<i>flumen Rhenus</i> CIL XIII 5255).</p>
 
- <rs type="divine">Rhenus Pater</rs>: <lb/>
-- Germania Inferior: - <lb/> 
-- außerhalb der Germania Inferior: In der Germania Superior ist  <rs type="divine">Rhenus Pater</rs> (AE 1969/70, 434) inschriftlich belegt.</p>
+<p class="MsoNormal">Im Untersuchungsgebiet kommt der Göttername in folgenden
+theonymischen Formularen vor:</p>
+
+<p class="MsoNormal">
+                    <i>Rhenus</i> (incl. ev. Varianten):</p>
+
+<p class="MsoNormal">- Germania Inferior: CF-GeI-388, CF-GeI-390, CF-GeI-391 - Germania Superior: -</p>
+
+<p class="MsoNormal">
+                    <i>flumen Rhenus</i> (incl. ev. Varianten):</p>
+
+<p class="MsoNormal">- Germania Inferior: CF-GeI-389 - Germania Superior: -</p>
+
+<p class="MsoNormal">
+                    <span style="mso-ansi-language:SV" lang="SV">
+                        <i>Rhenus Pater</i>
+(incl. ev. Varianten):</span>
+                </p>
+
+<p class="MsoNormal">- Germania Inferior: - - Germania Superior: CF-GeS-1016. Einziger Beleg für dieses
+theonymische Formular, die Bezeichnung als Pater ist darüber hinaus nur für
+sehr wenige, wichtige Flüsse – wie etwa den Tiber – bezeugt (Vollkommer 1994,
+2f.)</p>
             </div>
             <linkGrp type="alignment" domains="#majuscule #minuscule">
                 <link target="#MAJ.1 #MIN.1"/>

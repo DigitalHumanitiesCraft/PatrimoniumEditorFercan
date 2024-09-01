@@ -179,9 +179,7 @@ return
         <div class="bg-info" style="margin: 10px; padding-left: 50px;" id="Objbeschr_note_collapse">
            {teiEditor:displayElement('Objbeschr_note', (), (), ())}
         </div>
-        <p class="bg-info" style="margin: 10px; padding-left: 50px;">Auswahl aus: 
-        <br/>vollständig = https://gams.uni-graz.at/o:fercan.arch#C.130400
-        <br/>weitgehend vollständig, größere Fehlstelle/n, größeres Fragment, kleineres Fragment, unklar, unzusammenhängende Fragmente</p>
+        <p class="bg-info" style="margin: 10px; padding-left: 50px;">Auswahl aus: vollständig, weitgehend vollständig, größere Fehlstelle/n, größeres Fragment, kleineres Fragment, unklar, unzusammenhängende Fragmente</p>
         {teiEditor:displayElement('ErhzustObj', (), (), ())}
         <div class="bg-info" style="margin: 10px; padding-left: 50px;" id="ErhzustObj_note_collapse">
            {teiEditor:displayElement('ErhzustObj_note', (), (), ())}
@@ -203,7 +201,15 @@ return
         <div class="bg-info" style="margin: 10px; padding-left: 50px;" id="Inschrtext_note_collapse">
            {teiEditor:displayElement('Inschrtext_note', (), (), ())}
         </div>
-        <p class="bg-info" style="margin: 10px; padding-left: 50px;">Auswahl aus: vollständig, weitgehend vollständig, größere Fehlstelle/n, größeres Fragment, kleineres Fragment, unklar, unzusammenhängende Fragmente</p>
+        <p class="bg-info" style="margin: 10px; padding-left: 50px;">
+        Auswahl aus: 
+        <br/>vollständig = https://gams.uni-graz.at/o:fercan.arch#C.130400
+        <br/>weitgehend vollständig = C.130500 
+        <br/>größere Fehlstelle/n = C.130600
+        <br/>größeres Fragment = C.130310
+        <br/>kleineres Fragment = C.130320 
+        <br/>unklar = C.130700
+        <br/>unzusammenhängende Fragmente = C.130330</p>
         {teiEditor:displayElement('ErhzustInschr', (), (), ())}
         <div class="bg-info" style="margin: 10px; padding-left: 50px;" id="ErhzustInschr_note_collapse">
            {teiEditor:displayElement('ErhzustInschr_note', (), (), ())}

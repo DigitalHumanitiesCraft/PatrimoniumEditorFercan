@@ -50,7 +50,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>Der Weihealtar ist stark beschädigt - es sind noch beschlagene Teile des Sockels sowie des Altarkörpers vorhanden. Das Inschriftenfeld ist doppelt gerahmt. <br/></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+								<support> <p>Der Weihealtar ist stark beschädigt, es sind noch beschlagene Teile des Sockels sowie des Altarkörpers vorhanden. Das Inschriftenfeld ist doppelt gerahmt. <br/></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
 									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm"> 58</height>
 										<width unit="cm"> 33</width>
@@ -61,7 +61,7 @@
 							<layoutDesc>
 								<layout> <p>                                                <p>Der obere Rand des Inschriftenfeldes ist nicht erhalten, doch kann aus inhaltlichen Gründen angenommen werden, dass Z.1 auch ursprünglich die erste Zeile war. Der Text füllt das Inschriftenfeld zu Gänze aus. Die unteren beiden Zeilen sind deutlich kleiner, wobei die unterste Zeile nochmals kleiner ist als die vorletzte. Besonders die letzte Zeile weist unregelmäßige Buchstaben auf. In manchen Teilen der Inschrift sind die Buchstaben zum Teil stark abgerieben. Das O am Ende von Z.5 war vermutlich bei der Aufnahme in das CIL noch nicht ausgebrochen.</p>
                                                 <p>Die Art der Abkürzungen weicht etwas von dem in Mainz Üblichen ab (so schon Körber 1906). </p>
-                                                <p>Zu Ligaturen: s. Majuskelumschrift. – Besondere Zeichen: Z.1 am Ende kleines L; Z.2 am Ende kleines V; Z.3 kleines I in TRIB; Z.4 wie üblich ein waagrechter Strich über der Zahl XXII; Z.8 Sonderzeichen für beneficiarius.</p></p> <note type="condition"/> </layout>
+                                                <p>Zu Ligaturen: s. Majuskelumschrift. – Besondere Zeichen: Z.1 am Ende kleines L; Z.2 am Ende kleines V; Z.3 kleines I in TRIB; Z.4 wie üblich ein waagrechter Strich über der Zahl XXII; Z.8 Sonderzeichen für beneficiarius.</p></p> <note type="condition">https://gams.uni-graz.at/o:fercan.arch#C.130400</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -71,15 +71,19 @@
 							<decoNote> <p>Die Nebenseiten sind gerahmt, auf der linken Seite befindet sich ein einfach gestalteter Laubbaum, auf der rechten Seite laut lupa eine Kanne und eine Griffschale.<br/></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.2528407">Griffschale</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253210">Laubbaum</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.2528408">Kanne</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150400">Reliefschmuck</term>
+                      
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150500">Rahmen</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150600">Zierleiste</term>
                       
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName>Mogontiacum</placeName> <region/> </origPlace> <origDate notBefore="" notAfter=""><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1906"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Mainz</ref> </placeName> <p>„auf dem Kästrich hinter dem Haus Nr. 65 in der alten, auf römischen Grundmauern ruhenden Stadtmauer“ (CIL)</p> <location>
+						<provenance type="found" when="1906"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Mainz</ref> </placeName> <p>„auf dem Kästrich hinter dem Haus Nr.65 in der alten, auf römischen Grundmauern ruhenden Stadtmauer“ (CIL)</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note>„bei Abbruch eines Stückes der alten auf römischen Grundmauern ruhenden Stadtmauer, in der er verbaut war.“ (Körber 1907, 32, Nr.13)</note> </provenance>
+							</location> <note>„bei Abbruch eines Stückes der alten auf römischen Grundmauern ruhenden Stadtmauer, in der er verbaut war“ (Körber 1907, 32 Nr.13).</note> </provenance>
 						<provenance type="observed" subtype="autopsied">                                                <p>non vidimus</p>
                                                 <p>Lesung gründet auf: EDH und Photo</p></provenance>
 					</history>
@@ -263,18 +267,19 @@
 <lb n="7"/>curante <expan><abbr>Vale</abbr><ex>rio</ex></expan>
 <lb n="8"/>Tertio <expan><abbr>b</abbr><ex>ene</ex></expan><expan><abbr>f</abbr><ex>icario</ex></expan> eius <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform">
-				<p><p>Für <rs type="divine">Epona</rs>!</p><p>Titus Flavius Claudianus, Militärtribun der 22. Legion Primigenia Pia Fidelis aus Antiochia in Syrien hat den Altar aufgestellt – was sein Benefiziarier Valerius Tertius besorgt hat – und ein Gelübde gerne erfüllt.</p></p>
+				<p>                                                <p>Für <rs type="divine">Epona</rs>!</p>
+                                                <p>Titus Flavius Claudianus, Militärtribun der legioXXII  Primigenia Pia Fidelis aus Antiochia in Syrien hat den Altar aufgestellt – was sein Benefiziarier Valerius Tertius besorgt hat – und ein Gelübde gerne erfüllt.</p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform">
 				<p>                                                <p>For <rs type="divine">Epona</rs>!</p>
-                                                <p>Titus Flavius Claudianus, tribunus militum of the 22nd legion Primigenia Pia Fidelis from Antiochia in Syria set up the altar – seen to by his beneficiarius Valerius Tertius – and willingly fulfilled a vow.</p></p>
+                                                <p>Titus Flavius Claudianus, tribunus militum of the legio XXII Primigenia Pia Fidelis from Antiochia in Syria set up the altar – seen to by his beneficiarius Valerius Tertius – and willingly fulfilled a vow.</p></p>
 			</div>
 			<div type="apparatus" org="uniform">
 				<app loc="2">
 					<note>Claudianus – Frenz, Scheungraber</note>
 				</app>
 			
-            <app loc="5"><note anchored="true">der unterstrichene Teil in Z.5 ist heute nicht mehr erhalten, er wird nach CIL wiedergegeben</note></app>
+            <app loc="5"><note anchored="true">Der unterstrichene Teil in Z.5 ist heute nicht mehr erhalten, er wird nach CIL wiedergegeben.</note></app>
         
             <app loc="8"><note anchored="true">b(eneficiario) – AE, Euskirchen, EDH</note></app>
         </div>
@@ -287,7 +292,7 @@
                                                     <p>Valerius Tertius: römisches Namensformular ohne Praenomen</p>
                                                     <p>Valerius: italisches Gentilnomen, überall äußerst gängig (Kakoschke 2021, GN 1377)</p>
                                                     <p>Tertius: lateinischer Name, überall äußerst gängig (Kakoschke 2021, CN 3060)</p>
-                                                    <p>Legio XXII Primigenia Pia Fidelis: Die Legio XXII Primigenia erhielt nach dem Scheitern des Saturninus-Aufstanden 89 n.Chr. gemeinsam mit anderen Legionen und Truppenkörpern den Ehrenbeinamen Pia Fidelis Domitiana; letzterer fiel nach der damnatio memoriae Domitians wieder weg. Die Legion wurde 97 n.Chr. von Xanten nach Mainz verlegt, wo sie die nächsten zwei Jahrhunderte verblieb. Zwischen 70/71 und 97 n.Chr. sowie 101/102 bis 106/107 n.Chr. wurden Teile der Truppe für Steinbrucharbeiten im Brohtal eingesetzt (Matijević 2010, 29, 227–233).<br/></p>
+                                                    <p>legio XXII Primigenia Pia Fidelis: Die legio XXII Primigenia erhielt nach dem Scheitern des Saturninus-Aufstandes 89 n.Chr. gemeinsam mit anderen Legionen und Truppenkörpern den Ehrenbeinamen Pia Fidelis Domitiana; letzterer fiel nach der damnatio memoriae Domitians wieder weg. Die Legion wurde 97 n.Chr. von Xanten nach Mainz verlegt, wo sie die nächsten zwei Jahrhunderte verblieb. Zwischen 70/71 und 97 n.Chr. sowie 101/102 bis 106/107 n.Chr. wurden Teile der Truppe für Steinbrucharbeiten im Brohtal eingesetzt (Matijević 2010, 29, 227–233).<br/></p>
 			<p/></div>
 			<div type="commentary" subtype="language" org="uniform">
 				<p> </p>

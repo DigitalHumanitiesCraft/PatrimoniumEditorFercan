@@ -40,7 +40,7 @@
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<settlement/>
+						<settlement>Stuttgart</settlement>
 						<repository>Württembergisches Landesmuseum</repository>
 						<idno>RL 155</idno>
 					</msIdentifier>
@@ -50,36 +50,42 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
-									<objectType>Weihestein</objectType> <dimensions>
+								<support> <p>                                                <p>Der schmale Weihealtar besteht aus einer Basis, die durch zwei Stufen vom ungerahmten Inschriftenfeld getrennt ist. Dieses wiederum ist durch ein Gesims vom Aufsatz serpariert. Die Bekrönung ist gestaltet durch zwei eng beieinander liegenden Voluten, zwischen denen sich ein steiler, gedrängter Giebel befindet, dahinter die Opferschale. Die Voluten dürften mit Rosetten geschmückt gewesen sein, von denen nur mehr die mittlere Vertiefung zeugt, die aber von Jaumann (1852 Chronik, Nr.1) noch erkannt wurden. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm">101</height>
 										<width unit="cm">43</width>
 										<depth unit="cm">40</depth>
 									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Die Inschrift füllt das Inschriftenfeld zu drei Vierten aus. Die Buchstaben sind unregelmäßig.</p>
-                                                <p>"Die Inschrift ist entweder unvollständig geblieben oder wurde sie zwar ganz vorgemalt, aber nicht ganz eingehauen." (Haug/Sixt 1914, 235)</p>
-                                                <p>Der erste Buchstabe in Z.3 ist eindeutig ein Q, wird jedoch auch als O gelesen (s. Apparatus criticus).<br/></p>
-                                                <p>In Z.6 ist jeweils rechts unten bei den Senkrechthasten mit Abstand eine Vertiefung gesetzt, die bei Verbindung L ergibt.</p>
-                                                <p>Besondere Zeichen: Jeweils zwischen dem V und P in Z.2, dem V und I in Z.4 und dem V in Z.5 ein Worttrenner gesetzt. In Z.5 ist beidseitig des I jeweils ein Punkt gesetzt.</p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Die Inschrift füllt das Inschriftenfeld zu drei Vierteln aus. Die Buchstaben sind unregelmäßig.</p>
+                                                <p>"Die Inschrift ist entweder unvollständig geblieben oder wurde sie zwar ganz vorgemalt, aber nicht ganz eingehauen" (Haug/Sixt 1914, 235). </p><p>Der erste Buchstabe in Z.3 ist eindeutig ein Q, wird jedoch auch als O gelesen (s. Apparatus criticus). In Z.6 ist jeweils rechts unten bei den Senkrechthasten mit Abstand eine Vertiefung gesetzt, die bei Verbindung ein L ergibt. </p><p>Besondere Zeichen: Jeweils zwischen dem V und P in Z.2, dem V und I in Z.4 und dem V in Z.5 ein Worttrenner gesetzt. In Z.5 ist beidseitig des I jeweils ein Punkt gesetzt.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130400</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="4.5" atMost="5.5">4,5–5,5</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale (Gestaltungsmerkmal)</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">Rosette</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName/> <region>Civitas Sumelocennensis</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+						<origin> <origPlace> <placeName>Sumelocenna</placeName> <region>Civitas Sumelocennensis</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when="1852"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Rottenburg</ref> </placeName> <p>                                                <p>"hinter dem 
+ehemaligen Baumgarten bei Rottenburg in Würtemberg rechts von der 
+Strasse nach Würmlingen" (Becker 1867, 112); "im Lindele" (Heiligmann 
+1993<sup>2</sup>, 95); "zwischen den Strassen nach Wurmlingen und nach 
+Sülchen" (Haug/Sixt 1914, 235 Nr.124); "auf dem Acker Flst. Nr. 4752, 
+der heute den Grundstücken Jahnstraße 22-40 entspricht, geborgen" 
+(Gaubatz-Sattler 1999, 376 Nr.32)</p></p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true"/> </provenance>
+							</location> <note anchored="true">                                                <p>gemeinsam mit <span>CF-GeS-1129 und </span><span>CF-GeS-1128</span></p></note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
 					</history>
 				</msDesc>
@@ -231,7 +237,7 @@
         
             <bibl xml:id="4">Riese 1914, Nr.2619</bibl>
         
-            <bibl xml:id="5">Lehner 1924, 84 Nr.210</bibl>
+            <bibl xml:id="5">Lehner 1924 (Mysterienkulte), 84 Nr.210</bibl>
         
             <bibl xml:id="6">Vermasern 1960, Nr.1309 (mit 2 Varianten)</bibl>
         
@@ -263,10 +269,10 @@
 <lb n="5"/>O·I·O V<g type="interpunct">▴</g>
 <lb n="6"/>I. I.<orig/></ab></div>
 			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Die Er
-<lb n="2" break="no"/><expan><abbr>icup</abbr><ex>a</ex>e</expan>
-<lb n="3"/>Quini
-<lb n="4" break="no"/><expan><abbr>u</abbr><ex>s</ex></expan> ix v
-<lb n="5" break="no"/>oio <expan><abbr>v</abbr><ex>otum</ex></expan>
+<lb n="2" break="no"/><expan><abbr>icup</abbr><ex>a</ex>e</expan><note>!</note>
+<lb n="3"/>Quini<note>!</note>
+<lb n="4" break="no"/><expan><abbr>u</abbr><ex>s</ex></expan> ix<note>!</note> v
+<lb n="5" break="no"/>oio<note>!</note> <expan><abbr>v</abbr><ex>otum</ex></expan>
 <lb n="6"/><expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
 				<p><p>Für <rs type="divine">Dis Pater</rs> und für <i>Herecura</i>!<br/>Quintus (hat), aufgrund eines Gelübdes, das Gelübde freudig und gerne (erfüllt).</p></p>
@@ -300,8 +306,8 @@
             </app>
         </div>
 			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Quintius: einheimisches Namensformular</p>
-                                                <p>Quintius: lateinischer Name, überall gängig (Kakoschke 2021, CN 2556); zur Lesung als den lateinischen Namen (oder ein Gentilnomen?) Ovinius (Kakoschke 2021, CN 2272)<p> </p>
-			</p></div>
+                                                <p>Quintius: lateinischer Name, überall gängig (Kakoschke 2021, CN 2556); zur Lesung als den lateinischen Namen (oder ein Gentilnomen?) Ovinius (s. Kakoschke 2021, CN 2272)</p><p> </p>
+			<p/></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
 				<p>                                                <p>v.1/2: „die Ericupe” pro „deae Herecurae”</p>
                                                 <p>v.3/4: „Quinius” pro „Quintus”</p>
@@ -315,12 +321,12 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"/>
+			<note type="Objbeschr_note"><p>Jaumann 1852, 228 Nr. 3: unten und oben mit Vorschüssen in Stäben, und oben mit Wulsten</p><p>Jaumann 1852 (Chronik) Nr. 1: viereckig, oben mit schön gearbeiteten Rollenstäbenrosetten, unten mit Vorsprüngen am Sockel verziert</p><p>Haug/Sixt 1914, 235 Nr. 125: Der Stein hat Sockel und Gesims, letzteres mit zwei Randwülsten, dazwischen ein Dreieck. <br/></p></note>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"/>
+			<note type="Material_note"><p>Haug/Sixt 1994, 236 Nr. 125: Stubensandstein<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"><p>Gaubatz-Sattler 1999, 376; Heiligmann 2003, 95; lupa = WLM RL 155<br/></p></note>
+			<note type="InvNr_note">                                                    <p>Gaubatz-Sattler 1999, 376; Heiligmann 2003, 95; lupa = WLM RL 155</p><p>Kartei: Stuttgart, Magazin; Stuttgart, Lapidarium, aber auch Rottenburg 118/ RL 155</p><p>Haug/Sixt 1914, 235 Nr. 125: Stuttgart, Lapid. n. 118<br/></p></note>
 			<note type="Fundstelle_note">                                                    <p>Haug/Sixt 1914, 235 (236 verweist auf 235); Gaubatz-Sattler 1999, 376 Nr.34: Zusammen mit Herecura-1128 und Herecura-1129<br/></p></note>
 			<note type="Fundumst_note"/>
 			<note type="Fundjahr_note"/>
@@ -334,12 +340,13 @@
 			<note type="dtUEbers_note"/>
 			<note type="Editionen_note"/>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note">                                                    <p>Karteikarte 6363, S. 6: H 101 B 43, T 40</p><p>EDH; Haug/Sixt 1914, 237; Gaubatz-Sattler 1999, 376: H. 103 cm, B. 43 cm, T. 39 cm</p></note>
+			<note type="Masse_note">                                                    <p>Karteikarte 6363, S. 6: H 101 B 43, T 40; Aufsatz B 43, T 40; Sockel B 43, T 40; Feld H 58, B 35, T 30 cm<br/></p>
+                                                    <p>EDH; Haug/Sixt 1914, 237; Gaubatz-Sattler 1999, 376: H. 103 cm, B. 43 cm, T. 39 cm</p></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note">                                                    <p>EDH, Karteikarte 6363, S. 6: 4,5-5,5 </p>
+			<note type="Buchsthoehe_note">                                                    <p>EDH, Karteikarte 6363, S. 6: 4,5-5,, Z1 5, Z2 5, Z3 5,5, Z4 4,5, Z5 5, Z6 5 cm </p>
                                                     <p>Haug/Sixt 1914, 237; Gaubatz-Sattler 1999, 376: 4,5-6<br/></p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>

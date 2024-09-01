@@ -50,7 +50,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p><p>Die Basis des Weihealtars ist abgebrochen. Es ist kein Aufsatzschmuck erkennbar, der Aufsatz selbst scheint verwittert. Das Inschriftenfeld, durch mehrere Stufen von der Bekrönung getrennt, ist doppelt gerahmt.<br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+								<support> <p>                                                <p>Die Basis des Weihealtars ist abgebrochen. Es ist kein Aufsatzschmuck erkennbar, der Aufsatz selbst ist verwittert. Das Inschriftenfeld, durch mehrere Stufen von der Bekrönung getrennt, ist doppelt gerahmt.<br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
 									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm">39,5</height>
 										<width unit="cm">30</width>
@@ -59,7 +59,7 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p><p>Der Text ist gut lesbar und vollständig erhalten. Er füllt das Inschriftenfeld nach unten hin nicht ganz aus. Die Buchstaben der ersten Zeile sind größer als die übrigen.</p><p>Zu Ligaturen: s. Majuskelumschrift.</p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p><p>Der Text ist gut lesbar und vollständig erhalten. Er füllt das Inschriftenfeld nach unten hin nicht ganz aus. Die Buchstaben der ersten Zeile sind größer als die übrigen.</p><p>Zu Ligaturen: s. Majuskelumschrift.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130400</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -67,7 +67,8 @@
 						</handDesc>
 						<decoDesc>
 							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150500">Rahmen</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150600">Zierleiste</term>
+                      
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -241,7 +242,7 @@
 <lb n="3"/>AVE<hi rend="ligature">NT</hi>INI
 <lb n="4"/>FIL
 <lb n="5"/>V S L L M<orig/></ab></div>
-			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Suleis
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Suleis<note>!</note>
 <lb n="2"/>Vettius
 <lb n="3"/>Aventini
 <lb n="4"/><expan><abbr>fil</abbr><ex>ius</ex></expan>
@@ -267,7 +268,7 @@
         </div>
 			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Vettius Aventini filius: einheimisches Namensformular mit Angabe des Namens des Vaters im Genetiv</p>
                                                 <p>Vettius: lateinischer Name bzw. ein Gentilomen, selten belegt (Kakoschke 2021, CN 3320)</p>
-                                                <p>Aventinus: lateinischer Name, weit verbreitet (Kakoschke 2021, CN 411) Vater des ersten.</p></div>
+                                                <p>Aventinus: lateinischer Name, weit verbreitet (Kakoschke 2021, CN 411), Vater des ersten.</p></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
 				<p>v.1: „Suleis<!--[if gte mso 9]><xml>
  <w:WordDocument>

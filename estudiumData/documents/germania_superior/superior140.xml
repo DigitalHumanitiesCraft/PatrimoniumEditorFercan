@@ -40,7 +40,7 @@
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<settlement/>
+						<settlement>verloren</settlement>
 						<repository/>
 						<idno/>
 					</msIdentifier>
@@ -50,33 +50,35 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
+								<support> <p><p>Der Weihestein kann nur anhand einer Umzeichnung beschrieben werden. Laut dieser war er ein hochrechteckiger Quader, dessen gesamte Vorderseite von der Inschrift eingenommen wurde, die durch einen Doppelrahmen verziert war. An der rechten Seite des Inschriftenfeldes sind Ausbrüche eingezeichnet und die dargestellte Seitenfläche scheint grob belassen gewesen zu sein. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
 									<objectType>Weihestein</objectType> <dimensions>
 										<height unit="cm"> </height>
 										<width unit="cm"> </width>
 										<depth unit="cm"> </depth>
 									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#"/> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130700">unklar</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>"Es liegt nur eine einzige Abschrift aus den Collectaneen des Pfarrers Storr vor, die vermutlich die Zeilenabteilung nicht richtig wiedergibt und wohl noc handere Fehler enthält." (Steimle 1914, 14)<br/></p><p>"Die überlieferte Nummer der Legion ist jedenfalls unrichtig, ob man nun XVIII oder XXIII liest, denn die 18. Legion war, wie die 17. und 19. mit Varus untergegangen und wurde nicht erneuert, eine 23. kommt überhaupt nicht vor. Mit Recht vermutet Sattler, ein Riss im Stein habe Storr verleitet statt VIII zu schreiben X/III." (Haug/Sixt 1914, 535)</p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>"Es liegt nur eine einzige Abschrift aus den Collectaneen des Pfarrers Storr vor, die vermutlich die Zeilenabteilung nicht richtig wiedergibt und wohl noch andere Fehler enthält" (Steimle 1914, 14). "Die überlieferte Nummer der Legion ist jedenfalls unrichtig, ob man nun XVIII oder XXIII liest, denn die 18. Legion war, wie die 17. und 19. mit Varus untergegangen und wurde nicht erneuert, eine 23. kommt überhaupt nicht vor. Mit Recht vermutet Sattler, ein Riss im Stein habe Storr verleitet statt VIII zu schreiben X/III" (Haug/Sixt 1914, 535).</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130700</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote> <desc type="execution"/> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p><p>Keine bildliche Gestaltung überliefert.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130200">Umzeichnung</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150500">Rahmen</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName/> <region>Civitas Port-?</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+						<provenance type="found" when="1615"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Heilbronn</ref> </placeName> <p>                                                <p>Stadtteil Böckingen; "an der sog. Kapelle am Guckelimoor" (Steimle 1898, 14 Nr.8); "en remploi dans l'hôtel de ville" (Faber 1707, 4); "in der Nähe des sog. 'Sonnenbrunnens' auf einem Hügel zwischen Böckingen und Klingenberg, auf welchem römische Gebäude gestanden haben sollen, deren eines im Mittelalter als Kapelle geweiht war" (Haug 1869, 338 Nr.4).<br/></p></p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true"/> </provenance>
-						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung gründet auf:<br/></p></provenance>
+							</location> <note anchored="true">                                                <p>"von einem Böckinger Bauern beim Pflügen gefunden" (Haug 1869, 338 Nr.4); Um 1680 in ein Privathaus gebracht und dort zu Grund gegangen" (Haug 1869, 341 Nr.6)<br/></p></note> </provenance>
+						<provenance type="observed" subtype="autopsied">                                                <p>non vidimus</p>
+                                                <p>Lesung gründet auf: Faber 1702, <span>4 et tab.
+</span></p></provenance>
 					</history>
 				</msDesc>
 				<listPlace>
@@ -123,7 +125,7 @@
 						</persName>
 					</person>
 					<person>
-						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context">centurio</ref>
 						</roleName> </persName>
 					</person>
 					<person>
@@ -140,7 +142,7 @@
 						</orgName>
 					</org>
 					<org type="military_unit">
-						<orgName><ref target="context:fercan.org.military." type="context">legio VIII Augusta pia fidelis</ref></orgName>
+						<orgName><ref target="context:fercan.org.military." type="context">legio VIII Augusta pia fidelis; cohors I Helvetiorum</ref></orgName>
 					</org>
 					<org type="population_group">
 						<orgName> <ref target="context:fercan.org.population." type="context">
@@ -185,7 +187,7 @@
 			<textClass>
 				<keywords>
 					<list>
-						<item> <ref target="context:fercan.dedication." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.dedication." type="context">votum solvit libens merito</ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
@@ -205,7 +207,7 @@
 	</teiHeader>
 	<facsimile>
 		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1138_Abschr.jpg">
-			<desc>Umzeichnung, Faber 1702, p. 4 et tabula</desc>
+			<desc>Umzeichnung, Faber 1702, 4 et tab.</desc>
 		</graphic>
 	</facsimile>
 	<text>
@@ -213,23 +215,25 @@
 			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
 			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
 				<listBibl>
-					<bibl xml:id="1">Brambach 1867 (Corpus), Nr.1586</bibl>
+					<bibl xml:id="2">Brambach 1867 (Corpus), Nr.1586</bibl>
 				
-            <bibl xml:id="2">CIL XIII 6475</bibl>
+            <bibl xml:id="3">Steimle 1898, 14 Nr.8</bibl>
         
-            <bibl xml:id="3">Haug/Sixt 1914, 535f Nr.375</bibl>
+            <bibl xml:id="4">CIL XIII 6475</bibl>
         
-            <bibl xml:id="4">Riese 1914, Nr.1604</bibl>
+            <bibl xml:id="5">Haug/Sixt 1914, 535f. Nr.375</bibl>
         
-            <bibl xml:id="5">Steimle 1914, 14 Nr.8</bibl>
+            <bibl xml:id="6">Riese 1914, Nr.1604</bibl>
         
-            <bibl xml:id="6">Richier 2004, Nr.267</bibl>
+            <bibl xml:id="7">Richier 2004, Nr.267</bibl>
         
-            <bibl xml:id="7">Schmidt Heidenreich 2013 (Epigraphie), 159 Nr.7</bibl>
+            <bibl xml:id="8">Schmidt Heidenreich 2013 (Épigraphie), 159 Nr.7</bibl>
         
-            <bibl xml:id="8">Cubaynes 2018, Nr.165</bibl>
+            <bibl xml:id="9">Cubaynes 2018, Nr.165</bibl>
         
-            <bibl xml:id="9">Scheungraber 2020, 478</bibl>
+            <bibl xml:id="10">Scheungraber 2020, 478</bibl>
+        
+            <bibl xml:id="1">Faber 1707, 4</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
@@ -242,24 +246,72 @@
 				</listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
-				<ab><orig/></ab></div>
-			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab/></div>
+				<ab><lb n="1"/>SENO
+<lb n="2"/>MATRO
+<lb n="3"/>C<hi rend="ligature">OH</hi> I
+<lb n="4"/>HELVET
+<lb n="5"/>QVIRA
+<lb n="6"/>ISI V<gap reason="illegible" quantity="1" unit="character"/>L
+<lb n="7"/>CIIVS<gap reason="illegible" quantity="1" unit="character"/>
+<lb n="8"/>LEG VIII
+<lb n="9"/>PF VSII<orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><expan><abbr>Seno</abbr><ex cert="low"/></expan>
+<lb n="2"/><expan><abbr>Matro</abbr><ex>nis</ex></expan>
+<lb n="3"/><expan><abbr>coh</abbr><ex>ors</ex></expan> I
+<lb n="4"/><expan><abbr>Helvet</abbr><ex>iorum</ex></expan>
+<lb n="5"/>qui<note>!</note> <supplied reason="lost">p</supplied>ra<supplied reason="lost">e</supplied>
+<lb n="6" break="no"/>isi<note>!</note> V<gap reason="illegible" quantity="1" unit="character"/>L
+<lb n="7"/>Ciius<note>!</note> <supplied reason="lost">centurio</supplied>
+<lb n="8"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> VIII
+<lb n="9"/><expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>erito</ex></expan></supplied></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
-				<p/>
+				<p>                                                <p>Für die <rs type="divine">Seno... Matronae</rs>!</p>
+                                                <p>Die cohors I Helvetiorum, welcher vorsteht V.l... Citus, centurio der legio VIII Augusta pia fidelis, hat das Gelübde gerne und verdientermaßen erfüllt.<br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p/>
+				<p>                                                <p>To the <rs type="divine">Seno... Matronae</rs>!</p>
+                                                <p>The cohors I Helvetiorum, praesided by V.l... Citus, centurion of the legio VIII Augusta pia fidelis, has fulfilled their vow gladly and deservedly.<br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="1">
-					<note anchored="true"/>
+					<note anchored="true">Seno(nibus) – CIL, Cubaynes, Scheungraber; Seno- – Riese; Seno(num) – Richier; SENO – Schmidt Heidenreich; SENO[---] – EDH; die Reihung der ersten drei Zeilen verändernd: Genio coh(ortis) et Matronis – Steimle </note>
 				</app>
-			</div>
-			<div type="commentary" subtype="general" org="uniform" sample="complete">
-				<p> </p>
-			</div>
+			
+            <app loc="2">
+                <note anchored="true">matro – Riese; MATRO, – Schmidt Heidenreich; Matro[nis](?) – EDH</note>
+            </app>
+        
+            <app loc="5">
+                <note anchored="true">cui – CIL, Haug/Sixt, EDH; [c]ui – Richier, Scheungraber; pra[e]- – Cubaynes</note>
+            </app>
+        
+            <app loc="6">
+                <note anchored="true">est Julius – Haug/Sixt; [e]s[t] V[a]l(erius) – Richier; ẹst Vạl(erius) – Schmidt Heidenreich; est (nachfolgend falsch gesetzter Zeilenumbruch) – Cubaynes; V[a[l(erius?) – Cubaynes (Z.7 wegen falsch gesetzten Zeilenumbruch nach est); est Val(erius) [-]- – EDH; est V[a]l(erius) – Scheungraber</note>
+            </app>
+        
+            <app loc="7">
+                <note anchored="true">Victicius – Haug/Sixt; Ci[t]us [(centurio)] – CIL, Richier; Cịtus [(centurio)] – Schmidt Heidenreich; Ci[t]us, (centurio) – Cubaynes (Z.8 wegen falsch gesetztem Zeilenumbruch in Z.6); c[-]tus(?) [|(enturio)] – EDH; Ci[t]us [|(centurio)] – Scheungraber</note>
+            </app>
+        
+            <app loc="8">
+                <note anchored="true">XVIII (XV in Ligatur) – Faber;  [V]III [Aug(ustae)] – CIL, Scheungraber; VIII Aug(ustae) – Haug/Sixt; leg(ionis) [V]III – Richier;  Z.9 wegen falsch gesetztem Zeilenumbruch in Z.6 – Cubaynes; VIII [Aug(ustae)] – EDH</note>
+            </app>
+        
+            <app loc="9">
+                <note anchored="true">[p f] v s [l l m] – CIL; [l(ibens) l(aetus) m(erito)] – Steimle; l(ibens) m(erito) – Haug/Sixt; [Aug(ustae)], v(otum) s(olvit) [l(ibens) l(aetus) m(erito)] – Richier; ⸢Aug⸣(ustae), v(otum) – Schmidt Heidenreich; l(ibens) l(aetus) – Scheungraber, Cubaynes (Z.10 wegen falsch gesetztem Zeilenumbruch in Z.6)</note>
+            </app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>V.l... Citus: römisches Namensformular ohne Praenomen</p>
+                                                <p>V.l: der in der Forschung dominierenden Ergänzung auf Valerius (Kakoschke 2021, GN 1377; s. Apparatus criticus) können wir uns nicht anschließen, da aufgrund der Überlieferungssituation auch ein jedes anderes Gentilnomen mit L an dritter Stelle denkbar wäre.</p>
+                                                <p>Citus: seltener lateinischer Name (Kaksochke 2021, CN 831)</p>
+                                                <p>Iulius Victicius: römisches Namensformular ohne Praenomen</p>
+                                                <p>Iulius: italisches Gentilnomen, kaiserliches Gentilnomen, überall äußerst gängig (Kakoschke 2021, GN 637)</p>
+                                                <p>Victicius: Namen unbekannter Herkunft, nur in zwei Inschriften aus Böckingen unvollständig erhalten (Kakoschke 2021, CN 3335)</p>
+                                                <p>Die Vertreter der Rekonstruktion als Iul(ius) [Victi]cius (s. Apparatus criticus) stützen diese Lesung auf die Annahme, dass sowohl diese Inschrift als auch die von einem Iul(ius) Victi[cius] gestiftete Inschrift (CIL XIII 6473) von demselben Mann stammen. Da beide Steine verloren sind, lassen sich die der Annahme zugrundeliegenden Lesungen nicht mehr überprüfen.</p>
+                                                <p>cohors I Helvetiorum: Die 1. Helvetierkohorte war bis spätestens 161 n.Chr. im Kastell Heilbronn-Böckingen stationiert, bevor sie in das Kastell von Öhringen verlegt wurde.</p>
+                                                <p>legio VIII Augusta pia fidelis: Commodus hatte der Legion 186 n.Chr. den Titel Pia Fidelis Constans Commoda verliehen, der nach seiner damnatio memoriae 192 n.Chr. in Pia Fidelis Constans oder nur Pia Fidelis verkürzt wurde. Die Legion war bis 44 n.Chr. in Ptui stationiert, dann bis 69 n.Chr. in Stalken bei Swischtow, nach ihrer Beteiligung an der Niederschlagung des Bataveraufstandes kurzzeitig in der Nähe von Dijon bevor sie in den 80ern für die nächsten drei Jahrhunderte nach Straßburg verlegt wurde.</p></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
-				<p> </p>
+				<p><p> v.5: „qui” pro „cui”</p><p>v.5/6: „praeisi” pro „praeest”</p><p>v.7: „Ciius” pro „Citus”</p></p>
 			</div>
 			<div type="commentary" subtype="deity" org="uniform" sample="complete">
 				<p> </p>
@@ -272,13 +324,13 @@
 			<note type="ArchKlass_note"/>
 			<note type="Material_note"/>
 			<note type="Inschrifttraeger_note"/>
-			<note type="VerwahrortOrt_note"/>
+			<note type="VerwahrortOrt_note"><p>Haug 1869, 341 Nr. 6: Um 1680 in ein Privathaus gebracht und dort zu Grund gegangen<br/></p></note>
 			<note type="InvNr_note"/>
-			<note type="Fundstelle_note"/>
-			<note type="Fundumst_note"/>
-			<note type="Fundjahr_note"/>
+			<note type="Fundstelle_note"><p>Schelhorn 1929 beschreibt Fundorte, ich werde aus der Nummerierung aber nicht schlau.<br/></p></note>
+			<note type="Fundumst_note"><p>so Haug 1869, 341 Nr. 6 bzw. 338 Nr. 4</p></note>
+			<note type="Fundjahr_note"><p>so Haug 1869, 341 Nr. 6 bzw. 338 Nr. 4 - 26. Mai<br/></p><p>1714 - CIL; 1680, Faber und Seufert</p></note>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note"/>
+			<note type="FOmodern_note"><p>CIL<br/></p></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>

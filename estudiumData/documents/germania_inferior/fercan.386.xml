@@ -172,22 +172,22 @@ Die Darstellung der linken Schmalseite ähnelt der der rechten Seite. </p>
                 <listPerson default="false">
                     <person instant="false">
                         <persName type="gentilnomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.gentilnomen.averinius">Averinius</ref>
+                            <ref type="context" target="context:fercan.person.gentilnomen.averinius">Averinius; Sumaronius</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="gentilnomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.gentilnomen.sumaronius">Sumaronius</ref>
+                            <ref type="context" target="context:fercan.person.gentilnomen.sumaronius">Averinius; Sumaronius</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.secundus">Secundus</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.secundus">Secundus; Vitalis</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.vitalis">Vitalis</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.vitalis">Secundus; Vitalis</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -258,7 +258,13 @@ Die Darstellung der linken Schmalseite ähnelt der der rechten Seite. </p>
             <textClass default="false">
                 <keywords>
                     <list>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> 
+                        <item>
+                            <ref type="context" target="context:fercan.dedication.votum_solverunt_libentes_merito">votum solverunt libentes merito</ref>
+                        </item>
+                        <item> <ref target="context:fercan.divinepart." type="context">deae Nehaleniae</ref> </item>
+                    </list>
+                </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -350,7 +356,11 @@ sesquiplicarius: Rangbezeichnung für einen Dienstgrad, der den anderthalbfachen
 
 alae Noricorum: Die ala war 70 n.Chr. in die Germania Inferior verlegt worden und vermutlich seit 83 n.Chr. in Durnomagus (Dormagen) stationiert, wo sie auch im 2. und 3.Jh. noch lag (Alföldy 1968 Hilfstruppen, 25–28).  </p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalenia:</rs> Variante von  <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).</p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalenia:</rs> Variante von  <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)</p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>

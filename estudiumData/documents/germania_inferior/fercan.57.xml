@@ -90,7 +90,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Der Text füllt das Inschriftenfeld nicht zur Gänze aus (unter dem Text bleibt ein Freiraum). Er ist vollständig erhalten. Quer über die Inschrift verlaufen Meißelspuren.<lb/>Ligaturen: s. Majuskeltext. Besondere Zeichen: In Z.1 verläuft durch das O ein Schrägstrich. In Z.4 wird das Ch in Challinius geschrieben mit C gefolgt von dem Sonderzeichen für den velaren Reibelaut.</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">vollständig</tei:note>
+                                    <note type="condition" anchored="true">vollständig</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -122,9 +122,7 @@ Auf der rechten Schmalseite sind drei eingerollte Enden einer Pflanzenranke mit 
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253210">
                                     <ref type="context" target="context:fercan.arch.laubbaum">Laubbaum</ref>
                                 </term>
-                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150610">
-                                    <ref type="context" target="context:fercan.arch.perlstab">Perlstab</ref>
-                                </term>
+                                
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253010">
                                     <ref type="context" target="context:fercan.arch.ranke">Ranke</ref>
                                 </term>
@@ -137,6 +135,7 @@ Auf der rechten Schmalseite sind drei eingerollte Enden einer Pflanzenranke mit 
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">
                                     <ref type="context" target="context:fercan.arch.rosette">Rosette</ref>
                                 </term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150600">Zierleiste</term>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -152,10 +151,10 @@ Auf der rechten Schmalseite sind drei eingerollte Enden einer Pflanzenranke mit 
                                 <ref type="context" target="context:fercan.geog.modern.lechenich">Lechenich</ref>
                             </placeName>
                             <p part="N">alter Kirchhof</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">50.799815 6.769698</geo>
-                            </tei:location>
-                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">bei der Abtragung des alten Kirchhofs</tei:note>
+                            </location>
+                            <note anchored="true">bei der Abtragung des alten Kirchhofs</note>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">vidimus (25.9.2018)</provenance>
                     </history>
@@ -166,22 +165,22 @@ Auf der rechten Schmalseite sind drei eingerollte Enden einer Pflanzenranke mit 
                 <listPerson default="false">
                     <person instant="false">
                         <persName type="gentilnomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.gentilnomen.challinius">Challinius</ref>
+                            <ref type="context" target="context:fercan.person.gentilnomen.challinius">Challinius; Ialehenius</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="gentilnomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.gentilnomen.ialehenius">Ialehenius</ref>
+                            <ref type="context" target="context:fercan.person.gentilnomen.ialehenius">Challinius; Ialehenius</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.paternus">Paternus</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.paternus">Paternus; Secundus</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.secundus">Secundus</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.secundus">Paternus; Secundus</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -249,7 +248,7 @@ Auf der rechten Schmalseite sind drei eingerollte Enden einer Pflanzenranke mit 
                         <item>
                             <ref type="context" target="context:fercan.character.sonderzeichen_fuer_velaren_reibelaut">Sonderzeichen für velaren Reibelaut</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Matronis Lanehiabus</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -289,6 +288,10 @@ Auf der rechten Schmalseite sind drei eingerollte Enden einer Pflanzenranke mit 
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD079651</idno>
+                        <date>Version vom 18. Dezember 2020</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-11100200</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -317,22 +320,22 @@ Lucius Ialehenius Secundus and Gaius Challinius Paternus in response to an order
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Matron[is] – Lehner</tei:note>
+                    <note anchored="true">Matron[is] – Lehner</note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Lane(i?)hiabus – Lehner; Laneihiabus – Ferlut</tei:note>
+                    <note anchored="true">Lane(i?)hiabus – Lehner; Laneihiabus – Ferlut</note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">am Anfang ein I oder ein velarer Reiblaut – CIL</tei:note>
+                    <note anchored="true">am Anfang ein I oder ein velarer Reiblaut – CIL</note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Lehner; Paternu[s] – Lehner, Scheungraber; Paternus – Ferlut</tei:note>
+                    <note anchored="true">Lehner; Paternu[s] – Lehner, Scheungraber; Paternus – Ferlut</note>
                 </app>
                 <app loc="#MIN.6 #MAJ.6">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">imper[io i]psaru[m] – Lehner; imperi[o] ipsaru[m] – Scheungraber; impero ipsarum – Ferlut</tei:note>
+                    <note anchored="true">imper[io i]psaru[m] – Lehner; imperi[o] ipsaru[m] – Scheungraber; impero ipsarum – Ferlut</note>
                 </app>
                 <app loc="#MIN.7 #MAJ.7">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">am Ende noch zusätzlich l(ibens) – Lehner, Scheungraber</tei:note>
+                    <note anchored="true">am Ende noch zusätzlich l(ibens) – Lehner, EDH, Scheungraber</note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
@@ -348,7 +351,11 @@ Paternus: lateinisches Cognomen, überall gängig; verstärkt im Großraum Galli
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.2: „Lanehiabus“ pro „Lanehiis“</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Lanehiae:</rs> keltisch mit lautlicher Germanisierung: ‚Die [Muttergöttinn] des Überflusses’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 224f). </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Lanehiae:</rs> keltisch mit lautlicher Germanisierung: ‚Die [Muttergöttinn] des Überflusses’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 224f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.) </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
@@ -368,42 +375,42 @@ Vorkommen in theonymischen Formularen: </p>
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">
                 <p part="N">Alte Version (17.04.23):</p>
                 <p part="N">Lanehiae: keltischer Funktionsbeiname zum 
 Grundwort ‘voll’: ‘die (mit guten Gaben) Angefüllten’ nach Schmidt 1987,
  145f.; oder: Zugehörigkeitsbeiname zum Grundwort ‘die Ebene’: ‘die zum 
 Flachland Gehörigen’ nach Delamarre 2003, 197 (de Bernardo Stempel in 
 Spickermann 2005, 143) </p>
-            </tei:note>
+            </note>
         </back>
     </text>
 </TEI>

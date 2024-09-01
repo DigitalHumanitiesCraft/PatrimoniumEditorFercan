@@ -42,7 +42,7 @@
 					<msIdentifier>
 						<settlement>Alzey</settlement>
 						<repository>Museum</repository>
-						<idno/>
+						<idno>R 551</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>Weihinschrift</summary>
@@ -60,14 +60,15 @@
 							</supportDesc>
 							<layoutDesc>
 								<layout> <p>                                                <p>Der Inschriftentext ist im linken Teil abgebrochen, aus dem Inhalt lässt sich erschließen, dass die erste und die letzte Zeile sowie der rechte Rand erhalten sind. Die Buchstaben sind unregelmäßig.</p>
-                                                <p>Am Ende von Z.2 ist nach dem R noch der linke Bogen eines C oder O zu sehen, und zu Beginn von Z.3 ist das obere Ende eines C erhalten.</p></p> <note type="condition" anchored="true"/> </layout>
+                                                <p>Am Ende von Z.2 ist nach dem R noch der linke Bogen eines C oder O zu sehen, und zu Beginn von Z.3 ist das obere Ende eines C erhalten.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130310</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="3.0" atMost="3.5">3,0–3,5</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p>                                                <p>Keine bildliche Gestaltung vorhanden.</p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+							<decoNote> <p>                                                <p>Keine bildliche Gestaltung vorhanden.</p></p> 
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150300">glatt</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -75,7 +76,7 @@
 						<origin> <origPlace> <placeName>Altiaia</placeName> <region>Civitas Vangionum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when="1872"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Alzey</ref> </placeName> <p>in einem Feld (CIL)</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true">Näheres zu den Fundumständen ist nicht bekannt. </note> </provenance>
+							</location> <note anchored="true">Näheres zu den Fundumständen ist nicht überliefert.</note> </provenance>
 						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (CIL XIII Projekt)</p></provenance>
 					</history>
 				</msDesc>
@@ -186,7 +187,7 @@
 			<textClass>
 				<keywords>
 					<list>
-						<item> <ref target="context:fercan.dedication." type="context">ex voto; in honorem domus divinae; laetus libens merito</ref> </item>
+						<item> <ref target="context:fercan.dedication." type="context">in honorem domus divinae; ex voto posuit laetus libens merito</ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
@@ -268,7 +269,7 @@
         
             <app loc="5"><note anchored="true">[laetus] lib[ens mertito] – Behrens; auch LIB[e(n)s] möglich – Künzl</note></app>
         </div>
-			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>..cundius: römisches Namensformular ohne Praenomen?, tria nomina?<br/></p>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>..cundius: römisches Namensformular ohne Praenomen? tria nomina?<br/></p>
                                                 <p>Ergänzung auf Secundius (so CIL, Klumbach, Künzl, Lupa): einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Namen Secundus, der Name tritt verstärkt im keltischen Bereich auf, vor allem in den Germaniae und der Belgica (Kakoschke 2021, GN 1158)</p>
                                                 <p>Ergänzung auf Iucundius: einheimisches Pseudogentilnomen, abgeleitet vom lateinischen Namen Iucundus, in den keltischen Provinzen belegt (Kakoschke 2021, GN 635)</p></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
@@ -286,7 +287,7 @@
 			<note type="Material_note"/>
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"><p>Mail an Museum am 3.7.23; keine Antwort, neues Mail am 7.8.23<br/></p></note>
+			<note type="InvNr_note">                                                    <p>Mail an Museum am 3.7.23; keine Antwort, neues Mail am 7.8.23</p><p><b>Mail von Frau Heller-Karneth vom 11.7.2024: <span style="background-color:white;" lang="de"><font style="font-family: Times New Roman, serif, serif, &#34;EmojiFont&#34;;" size="3" face="Times New Roman,serif"><span style="font-size:12pt;"><font style="font-family: Calibri, sans-serif, serif, &#34;EmojiFont&#34;;" size="2" face="Calibri,sans-serif" color="#1F497D"><span style="font-size:11pt;">Die Inventarnummer des Weihesteines steht mittlerweile fest: R 551.</span></font></span></font></span></b></p></note>
 			<note type="Fundstelle_note"/>
 			<note type="Fundumst_note"><p>Mail an Museum am 3.7.23; keine Antwort, neues Mail am 7.8.23<br/></p></note>
 			<note type="Fundjahr_note"/>

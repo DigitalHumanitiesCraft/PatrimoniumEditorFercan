@@ -196,7 +196,7 @@
                         <item>
                             <ref type="context" target="context:fercan.character.sonderzeichen_fuer_velaren_reibelaut">Sonderzeichen für velaren Reibelaut </ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">[---]callinechis</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -218,7 +218,7 @@
             <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1918, Nr.397</bibl>
-                    <bibl xml:id="LIT.2" default="false" status="draft">Alföldy 1968, Nr.134</bibl>
+                    <bibl xml:id="LIT.2" default="false" status="draft">Alföldy 1968 (Rheinland III), 52 Nr.134</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">AE 1968, 355</bibl>
                 
             <bibl xml:id="4">Scheungraber 2020, 568 Nr.134</bibl>
@@ -254,20 +254,24 @@ Vennia …</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Vacall]inechis, noch ohne Kenntnis des anpassenden Fragments – Lehner; [Va]câllîn̂êhis – Alföldy; [Va]callinehis – AE, EDH, Scheungraber</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Vacall]inechis, noch ohne Kenntnis des anpassenden Fragments – Lehner; [Va]câllîn̂êhis – Alföldy; [Va]callinehis – AE, Scheungraber; [Va]calline&lt;h=I&gt;is – EDH</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
                     <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]nia, noch ohne Kenntnis des anpassenden Fragments – Lehner; ohne Buchstabenverlust am Beginn der Zeile, Vennia – AE, EDH</tei:note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]ap, noch ohne Kenntnis des anpassenden Fragments – Lehner; [At]t[i]a(?) e[x] – Alföldy, AE; eine folgende weitere Zeile mit [imp. ipsarum (?)] – Alföldy, so offenbar auch AE und Scheungraber wo wohl irrtümlich kein Zeilenwechsel nach e[x] in Zeile 3 abgedruckt; es folgt Z. 4/5 mit unbestimmtem Inhalt – Scheungraber</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[---]ap, noch ohne Kenntnis des anpassenden Fragments – Lehner; [At]t[i]a(?) e[x] – Alföldy, AE, EDH; eine folgende weitere Zeile Z.4 mit [imp. ipsarum (?)] – Alföldy, EDH, so offenbar auch AE und Scheungraber wo wohl irrtümlich kein Zeilenwechsel nach e[x] in Zeile 3 abgedruckt; es folgt eine Z.5 mit unbestimmtem Inhalt – EDH, Scheungraber</tei:note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Vennia: möglicherweise als Dedikantinnenname in der Inschrift genannt; ein keltischer Gentilname (Spickermann 1994, 393 zu Nr.12); italisches Cognomen; die männliche Form Vennius ist belegt in Nyon in der Germania Superior, s. AE 1992, 1265 (Kakoschke 2006 GN 1386)</p>
             </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">...callinechae:</rs> Rest einer Variante von  <rs type="divine">Vacallinehae:</rs> keltisch: ‚Unter den Bäumen bzw. dem Wald Verweilende [Muttergöttinen]‘ 
-(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243).  </p>
+(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)  </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>

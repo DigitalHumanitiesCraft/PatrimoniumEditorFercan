@@ -56,10 +56,10 @@
 										<width unit="cm"> 45</width>
 										<depth unit="cm"> 33</depth>
 									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130320">kleineres Fragment</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p><p>Nach den Angaben im CIL ist nur der obere Teil der ersten Zeile lesbar. Der obere, der linke und der rechte Rand des Inschriftenfeldes sind erhalten.<br/></p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p><p>Nach den Angaben im CIL ist nur der obere Teil der ersten Zeile lesbar. Der obere, der linke und der rechte Rand des Inschriftenfeldes sind erhalten.<br/></p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130320</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -69,11 +69,14 @@
 							<decoNote> <p>                                                <p>Laut Abschrift und Beschreibung befinden sich auf der linken Seite ein Capricorn und auf der rechten Seite ein Stier. Laut Foto jedoch sind es links ein Ziegenbock, dessen Vorderbeine erhöht, wie auf einem kleinen Felsen stehen und rechts ein Wildschwein in Schittstellung, dessen Borsten am Rücken gut erkennbar sind.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140700">Reparatur</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252810">Opferschale</term>
+                      
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.255000">Capricorn</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.255001">Ziegenbock</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.254181">Wildschwein</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.254900">Stier</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale (Gestaltungsmerkmal)</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150400">Reliefschmuck</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -81,7 +84,7 @@
 						<origin> <origPlace> <placeName>Argentorate</placeName> <region>Civitas Tribocorum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when=" "> <placeName> <ref type="context" target="context:fercan.geog.modern.">Straßburg</ref> </placeName> <p/> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true">Königshofen im Garten des Kapuzinerklosters (CIL); „au bord nord de la rue des Capucins, auch nord de la Chartreuse des Capucins de Koenigshoffen“ (Forrer 1921, 1249). Der Stein wurde entweder um 1901 (CIL, CAG 67,2, 428 Nr.424*) oder 1915 (Espérandieu X 7294).</note> </provenance>
+							</location> <note anchored="true">Königshofen im Garten des Kapuzinerklosters (CIL); „au bord nord de la rue des Capucins, au nord de la Chartreuse des Capucins de Koenigshoffen“ (Forrer 1921, 1249). Der Stein wurde entweder um 1901 (CIL, CAG 67,2, 428 Nr.424*) oder 1915 (Espérandieu X 7294) gefunden.<br/></note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung gründet auf: CIL</p></provenance>
 					</history>
 				</msDesc>

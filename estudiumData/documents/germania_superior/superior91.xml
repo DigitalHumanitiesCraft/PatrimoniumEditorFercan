@@ -59,21 +59,21 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130700">unklar</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Die Inschrift füllt das erhaltene Feld zur gänze aus, wobei auf der linken Seite ein Rand gelassen wurde. Die Buchstaben waren ungleichmäßig und nach unten hin kleiner und näherten sich ab Z.3 "teilweise der Actuaria an" (Wiegels 2000, 55).</p>
-                                                <p>Aufgrund des dokumentierten Zustandes der Inschrift ist es unklar ob Worttrenner über die ersten beiden Zeilen hinaus verwendet wurden.</p>
-                                                <p>Besondere Zeichen: Das V für v(otum) in Z.5 ist schräg gehauen und ähnelt damit der Form der N in der Inschrift.</p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Die Inschrift füllt das erhaltene Feld zur Gänze aus, wobei auf der linken Seite ein Rand gelassen wurde. Die Buchstaben sind ungleichmäßig und nach unten hin kleiner und nähern sich ab Z.3 "teilweise der Actuaria an" (Wiegels 2000, 55). In Z.5 kreuzt eine Senkrechthaste das V, es handelt sich hierbei jedoch um keinen Buchstaben.</p>
+                                                <p>Aufgrund des dokumentierten Zustandes der Inschrift ist es unklar, ob Worttrenner über die ersten beiden Zeilen hinaus verwendet wurden.<br/></p>
+                                                </p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130700</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="3.5" atMost="5.5">3,5–5,5</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> 
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName>Lopodunum</placeName> <region>Civitas Ulpia Sueborum Nicrensium</region> </origPlace> <origDate notBefore="0069" notAfter="0116" instant="false"><date> Letztes Drittel 1. Jh.</date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<origin> <origPlace> <placeName>Lopodunum</placeName> <region>Civitas Ulpia Sueborum Nicrensium</region> </origPlace> <origDate notBefore="0069" notAfter="0116" instant="false"><date> letztes Drittel 1.Jh.</date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when="1906"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Ladenburg</ref> </placeName> <p>"in der alten [mittelalterlichen] Stadtmauer an deren Nordostseite" (CIL)</p> <location>
 								<geo decls="#WGS"/>
 							</location> <note anchored="true">gefunden vom Gärtner Christian Höflein (Wagner 1911, 231); bei Abriss der Nordostseite (Haug 1906, 191)</note> </provenance>
@@ -169,7 +169,7 @@
 						</persName>
 					</person>
 					<person>
-						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context">Decurio</ref>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context">decurio</ref>
 						</roleName> </persName>
 					</person>
 					<person>
@@ -186,7 +186,7 @@
 						</orgName>
 					</org>
 					<org type="military_unit">
-						<orgName><ref target="context:fercan.org.military." type="context">Alae I Cannefatium</ref></orgName>
+						<orgName><ref target="context:fercan.org.military." type="context">ala I Cannefatium</ref></orgName>
 					</org>
 					<org type="population_group">
 						<orgName> <ref target="context:fercan.org.population." type="context">Soldat</ref> </orgName>
@@ -272,13 +272,15 @@
         
             <bibl xml:id="7"> Castritius/Clauss 1980, Nr.19 </bibl>
         
-            <bibl xml:id="8">Wiegels 2000, 55f Nr.13</bibl>
+            <bibl xml:id="8">Wiegels 2000, 55f. Nr.13</bibl>
         
             <bibl xml:id="9">Scheungraber 2020, 510 Nr.23</bibl>
         
-            <bibl xml:id="10">Lipps et al. 2021, 590-593 Kat.138</bibl>
+            <bibl xml:id="10">Noelke 2020/2021, 348 Nr.2.43</bibl>
         
-            <bibl xml:id="11">Ferlut 2022, Nr.1243</bibl>
+            <bibl xml:id="11">Lipps et al. 2021, 590–93 Kat.138</bibl>
+        
+            <bibl xml:id="12">Ferlut 2022, Nr.1243</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
@@ -313,21 +315,21 @@
 				</app>
 			
             <app loc="4">
-                <note anchored="true">dec(urio) – EDH, Wagner, ILS, Castritius/Clauss, Scheungraber, Ferlut; d&lt;e&gt;c(urio) – Wiegels, Lipps et al.; dec(urio) al(ae) I Ca[nn]anẹf(atium) – Riese; Dicali Ca[...]ani f(ilius) – Haug 1906 (Ladenburg); Cannanif – CIL</note>
+                <note anchored="true">dec(urio) – EDH, Wagner, ILS, Castritius/Clauss, Scheungraber, Noelke, Ferlut; d&lt;e&gt;c(urio) – Wiegels, Lipps et al.; dec(urio) al(ae) I Ca[nn]anẹf(atium) – Riese; Dicali Ca[...]ani f(ilius) – Haug 1906 (Ladenburg); Cannanif – CIL</note>
             </app>
         
             <app loc="5">
-                <note anchored="true">ḷ(ibens) ḷ (laetus) – Wiegels; l(ibens) l(aetus) – Scheungraber, Ferlut </note>
+                <note anchored="true">ḷ(ibens) ḷ(aetus) – Wiegels; l(ibens) l(aetus) – Scheungraber, Noelke, Ferlut </note>
             </app>
         </div>
 			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Lucius Gallionius Ianuarius: tria nomina</p>
                                                 <p>Gallionius: (ober?)italisches Gentilnomen, abgeleitet vom keltischen Namen Gallio, seltener Name (Kakoschke 2021, GN 541)</p>
-                                                <p>Ianuarius: lateinischer Name, überall gängiger Name (Kakoschke 2021, CN 1572) oder Ianuaris: lateinischer Name, fast ausschließlich im Großraum Gallien und Afrika belegt (Kakoschke 2021, CN 1571)</p>
-                                                <p>Zur Verwandschaft mit L. Gallionius Luci f. Fabia Primus (CIL V 5006) s. Speidel (1973, 173); Lipps et al. (2021, 592).<br/></p>
-                                                <p>Ala I Cannefatium: Im 1. Drittel des 1. Jh.n.Chr. aus den chattischen Cannanefates aufgestellte Auxiliareinheit. Nach ihrer Beteiligung am Aufstand des Civilis 69/70 n.Chr. in das obergermanische Auxiliarkastell Ladenburg abkommandiert. Unter Trajan wurde sie verlegt und begegnet 116 n.Chr. im oberpannonischen Gerulata/Rusovce (Lipps et al. 2021, 592f.).
+                                                <p>Ianuarius: überall gängiger lateinischer Name (Kakoschke 2021, CN 1572) oder Ianuaris: lateinischer Name, fast ausschließlich im Großraum Gallien und Afrika belegt (Kakoschke 2021, CN 1571)</p>
+                                                <p>zur Verwandschaft mit L. Gallionius Luci f. Fabia Primus (CIL V 5006) s. Speidel (1973, 173); Lipps et al. (2021, 592).<br/></p>
+                                                <p>ala I Cannefatium: Im 1. Drittel des 1. Jh. n.Chr. aus den chattischen Cannanefates aufgestellte Auxiliareinheit. Nach ihrer Beteiligung am Aufstand des Civilis 69/70 n.Chr. in das obergermanische Auxiliarkastell Ladenburg abkommandiert. Unter Trajan wurde sie verlegt und begegnet 116 n.Chr. im oberpannonischen Gerulata/Rusovce (Lipps et al. 2021, 592f.).
 			</p></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
-				<p>v.4: <span style="font-size:12.0pt;line-height:107%; font-family:">„</span>dic(urio)<span style="font-size:12.0pt;line-height:107%; font-family:">”</span> pro <span style="font-size:12.0pt;line-height:107%; font-family:">„</span>dec(urio)<span style="font-size:12.0pt;line-height:107%; font-family:">”</span></p>
+				<p>v.4: <span style="font-size:12.0pt;line-height:107%; font-family:">„</span>dicurio<span style="font-size:12.0pt;line-height:107%; font-family:">”</span> pro <span style="font-size:12.0pt;line-height:107%; font-family:">„</span>decurio<span style="font-size:12.0pt;line-height:107%; font-family:">”</span></p>
 			</div>
 			<div type="commentary" subtype="deity" org="uniform" sample="complete">
 				<p> </p>
@@ -364,7 +366,8 @@
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"><p>Wiegels, Lipps et al.<br/></p></note>
+			<note type="Datierung_note">                                                    <p>Wiegels, Lipps et al. <span>Letztes Drittel 1. Jh.
+</span></p></note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>
 		</back>

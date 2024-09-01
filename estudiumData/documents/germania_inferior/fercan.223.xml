@@ -208,7 +208,7 @@ Während die rechte Schmalseite beschädigt ist, erkennt man auf der linken Schm
                         <item>
                             <ref type="context" target="context:fercan.dedication.pro_suis">pro suis</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Matroni(s) Vacallehabus</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -232,10 +232,14 @@ Während die rechte Schmalseite beschädigt ist, erkennt man auf der linken Schm
             </ab>
             <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl default="false">
-                    <bibl xml:id="LIT.1" default="false" status="draft">Alföldy 1968, Nr.15</bibl>
+                    <bibl xml:id="LIT.1" default="false" status="draft">Alföldy 1968 (Rheinland III), 36 Nr.15</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">AE 1968, 336</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Schillinger-Häfele 1977, Nr.149</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 558 Nr.14 </bibl>
+        
+            <bibl xml:id="5">Ferlut 2022, Nr.837</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
@@ -270,26 +274,34 @@ HABVS <lb n="4"/>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Matron̂is – Alföldy; Matronis – AE, Schillinger-Häfele, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Matron̂is – Alföldy; Matronis – AE, Schillinger-Häfele, EDH, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Vacall̂in̂e – Alföldy; Vacalline – AE, Schillinger-Häfele, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Vacall̂in̂e – Alföldy; Vacalline – AE, Schillinger-Häfele, EDH, Scheungraber</tei:note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Tu]llon[i]a(?) – Alföldy, AE, EDH; [---]llon[ia] – Schillinger-Häfele</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Tu]llon[i]a(?) – Alföldy, AE, EDH; [---]llon[ia] – Schillinger-Häfele; [..]llon[..] – Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.5 #MAJ.5">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[.] f. Flor[a] – Alföldy; [.] f(ilia) Flor[a] – AE, Schillinger-Häfele, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[.] f. Flor[a] – Alföldy; [.] f(ilia) Flor[a] – AE, Schillinger-Häfele, EDH; [3] pro [se] – Scheungraber, Ferlut</tei:note>
                 </app>
                 <app loc="#MIN.6 #MAJ.6">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[p]r(o) su[is] – Alföldy, AE, Schillinger-Häfele, EDH</tei:note>
+                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[p]r(o) su[is] – Alföldy, AE, Schillinger-Häfele, EDH; [et] su[is] – Scheungraber, Ferlut</tei:note>
                 </app>
-            </div>
+            
+            <app loc="3">
+                <note anchored="true">[e]habus – Scheungraber; [e]habu[s] – Ferlut</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
                 <p part="N">Tullonia: Diese von Alföldy vorgeschlagene Ergänzung stützt sich auf das Vorkommen dieses Gentiles vor Ort (s. CF-GeI-253 = CIL XIII 12030). Es könnte möglichweise auf eine keltische Bildung zurückgehen (Spickermann 1994, 352 zu Nr.8). Vgl. auch Kakoschke 2006, GN 1318, der noch andere mögliche Ergänzungen auflistet: [Apo]llon[ia], [Be]llon[ia], [Iu]llon[ia] oder [Me]llon[ia].</p>
             </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Vacallehae:</rs> Variante von  <rs type="divine">Vacallinehae:</rs> keltisch: ‚Unter den Bäumen bzw. dem Wald Verweilende [Muttergöttinen]‘ 
-(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243).</p>
+(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)</p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>

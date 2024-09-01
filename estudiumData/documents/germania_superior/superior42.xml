@@ -56,11 +56,11 @@
 										<width unit="cm"> 75</width>
 										<depth unit="cm"> 51</depth>
 									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
 								<layout> <p>                                                <p>Die Inschrift füllt das Textfeld bis auf einen kleinen Abstand in der Höhe einer halben Zeile am unteren Ende völlig aus. Die Zentrierung der Z.1, Z.2, Z.4, Z.5 und Z.6 ist nicht geglückt. Die Buchstabengröße nimmt im Wesentlichen nach unten hin ab. Die Buchstaben sind regelmäßig und gut lesbar.</p>
-                                                <p>Besondere Zeichen: Z.1 kleines A (2,2 cm) am Ende der Zeile zwischen R und N eingeschrieben.<br/></p></p> <note type="condition" anchored="true"/> </layout>
+                                                <p>Besondere Zeichen: Z.1 kleines A (2,2 cm) am Ende der Zeile zwischen R und N eingeschrieben.<br/></p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130400</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -68,6 +68,8 @@
 						</handDesc>
 						<decoDesc>
 							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.</p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150500">Rahmen</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150600">Zierleiste</term>
+                      
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -238,7 +240,7 @@
         
             <bibl xml:id="11">Kakoschke 2016 FeRA, 8–13</bibl>
         
-            <bibl xml:id="12">Hainzmann 2016, 48. Nr.28</bibl>
+            <bibl xml:id="12">Hainzmann 2016, 48 Nr.28</bibl>
         
             <bibl xml:id="13">Lobüscher 2002, 147, Nr.111</bibl>
         
@@ -273,7 +275,7 @@
 				<p><p>Dem <rs type="divine">Apollo Grannus</rs> hat (dies) Martius Senopatius Novellus am 18. August geweiht, unter dem Konsulat des Piso und des Iulianus.<br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p><p>To <rs type="divine">Apollo Grannus</rs> (this) was dedicated by Martius Senopatius Novellus, on the 18th August during the consulat of Piso and Iulianus.<br/></p></p>
+				<p>                                                <p>To <rs type="divine">Apollo Grannus</rs> (this) was dedicated by Martius Senopatius Novellus, on the 18<sup>th</sup> August during the consulat of Piso and Iulianus.<br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="1">

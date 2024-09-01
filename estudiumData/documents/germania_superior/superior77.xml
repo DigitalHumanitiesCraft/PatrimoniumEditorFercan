@@ -56,17 +56,18 @@
 										<width unit="cm">44</width>
 										<depth unit="cm">16</depth>
 									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Der Inschriftentext ist rechts abgebrochen, doch kann erschlossen werden wieweit er sich ungefähr auf dieser Seite fortsetzte. Die Buchstaben in Z.1-2 sind schmäler und enger gesetzt als jene in Z.3–5.</p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Der Inschriftentext ist rechts abgebrochen, doch kann erschlossen werden, wieweit er sich ungefähr auf dieser Seite fortsetzte. Die Buchstaben in Z.1–2 sind schmäler und enger gesetzt als jene in Z.3–5.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130310</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="5.0" atMost="6.0">5,0–6,0</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p>                                                <p>Keine bildliche Gestaltung vorhanden.</p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+							<decoNote> <p>                                                <p>Keine bildliche Gestaltung vorhanden.</p></p> 
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150300">glatt</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -74,7 +75,7 @@
 						<origin> <origPlace> <placeName>Antunnacum</placeName> <region/> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when="1857"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Andernach</ref> </placeName> <p>„am Krahnenberg dicht unterhalb Andernach – unmittelbar neben den Mauern des Tempelchens auf einem Viereck von etwa gleicher Grösse […]“ (Freudenberg 1858, 156).</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true">„beim Ausheben der Fundamente für die kolossalen Lehnmauern [für den Bau der linksrheinischen Eisenbahn]. Bei den fortgesetzten Arbeiten zum Abtragen des losen Grundes des Berges fanden sich nun die Mauern eines 9 F. breiten und 11 F. tiefen, mit Tufsteinen überwölbten Gemachs, dessen Thür nach der Strasse, resp. dem Rheine zugewandt war (Freundenberg 1858, 155)."</note> </provenance>
+							</location> <note anchored="true">„beim Ausheben der Fundamente für die kolossalen Lehnmauern [für den Bau der linksrheinischen Eisenbahn]. Bei den fortgesetzten Arbeiten zum Abtragen des losen Grundes des Berges fanden sich nun die Mauern eines 9 F. breiten und 11 F. tiefen, mit Tufsteinen überwölbten Gemachs, dessen Thür nach der Strasse, resp. dem Rheine zugewandt war (Freudenberg 1858, 155)."</note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
 					</history>
 				</msDesc>
@@ -240,10 +241,10 @@
 <lb n="4"/>Flavia Pri<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>erito</ex></expan></supplied></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
-				<p>                                                <p>Zur Ehre des Kaiserhauses für <rs type="divine">Mercurius</rs> und <rs type="divine">Rosmerta</rs> einen Altar mit zwei Kultbildern.<br/>Flavia Pri... hat ein Gelübde gerne und verdientermaßen erfüllt.</p></p>
+				<p>                                                <p>Zur Ehre des Kaiserhauses für <rs type="divine">Mercurius</rs> und <rs type="divine">Rosmerta</rs> einen Altar mit zwei Kultbildern!<br/>Flavia Pri... hat ein Gelübde gerne und verdientermaßen erfüllt.</p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p>                                                <p>In honour of the Divine Household to <rs type="divine">Mercurius</rs> and <rs type="divine">Rosmerta</rs> an altar with two cult images.<br/>Flavia Pri... fulfilled a vow willingly and deservedly.</p></p>
+				<p>                                                <p>In honour of the Divine Household to <rs type="divine">Mercurius</rs> and <rs type="divine">Rosmerta</rs> an altar with two cult images!<br/>Flavia Pri... fulfilled a vow willingly and deservedly.</p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="2">

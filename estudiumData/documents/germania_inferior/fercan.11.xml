@@ -90,7 +90,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Der Text füllt das Inschriftenfeld nicht zur Gänze aus (unter dem Text bleibt ein Freiraum). Er ist weitgehend erhalten doch links von Z.1 bis Z.3 fast bis zur Mitte und darunter am linken äußeren Rand abgebrochen.<lb/>Ligaturen: s. Majuskeltext. Besondere Zeichen: In Z.1 befindet sich eine Ligatur von N und I mit verlängerter rechter senkrechter Haste des N. In Z. 2 könnte ursprünglich eine verlängerte rechte Haste des N – zu lesen als Ligatur von N und I – vorhanden gewesen sein.</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">größere Fehlstelle/n</tei:note>
+                                    <note type="condition" anchored="true">größere Fehlstelle/n</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -114,9 +114,7 @@
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.251500">
                                     <ref type="context" target="context:fercan.arch.fuellhorn">Füllhorn</ref>
                                 </term>
-                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150610">
-                                    <ref type="context" target="context:fercan.arch.perlstab">Perlstab</ref>
-                                </term>
+                                
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160000">
                                     <ref type="context" target="context:fercan.arch.reliefdekor">Reliefdekor</ref>
                                 </term>
@@ -144,10 +142,10 @@
                                 <ref type="context" target="context:fercan.geog.modern.oberelvenich">Oberelvenich</ref>
                             </placeName>
                             <p part="N">sog. „Heidenfeld“</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">50.7821 6.708241</geo>
-                            </tei:location>
-                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">gemeinsam mit CF-GeI-12, CF-GeI-13 und CF-GeI-18 </tei:note>
+                            </location>
+                            <note anchored="true">gemeinsam mit CF-GeI-12, CF-GeI-13 und CF-GeI-18 </note>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)</provenance>
                     </history>
@@ -159,11 +157,6 @@
                     <person instant="false">
                         <persName type="gentilnomen" instant="false" full="yes">
                             <ref type="context" target="context:fercan.person.gentilnomen.dagionius">Dagionius</ref>
-                        </persName>
-                    </person>
-                    <person instant="false">
-                        <persName type="gentilnomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.gentilnomen.dagionus">Dagionus</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -240,7 +233,9 @@
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solverunt_libentes_merito">votum solverunt libentes merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">[Albi]ahenis</ref> </item>
+                    </list>
+                </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -272,6 +267,10 @@
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD079452</idno>
+                        <date>Version vom 22. Oktober 2020</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-11100160</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -282,7 +281,7 @@
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>AHE<hi rend="ligature">NI</hi>S <lb n="2"/> 
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>AHE<hi rend="ligature">NI</hi>S <lb n="2"/> 
 <gap reason="lost" extent="unknown" unit="character" instant="false"/><hi rend="ligature">GI</hi>ONVS <lb n="3"/> 
 <gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">M</unclear>ANVS <gap reason="illegible" unit="character" quantity="1" instant="false"/> <lb n="4"/> 
 <gap reason="lost" quantity="1" unit="character" instant="false"/>VCILIVS D<unclear instant="false">A</unclear> <lb n="5"/> 
@@ -299,12 +298,20 @@
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.2 #MAJ.2">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[--- Da]ĝion̂ius – Lehner, Scheungraber</tei:note>
+                    <note anchored="true">[--- Da]ĝion̂ius – Lehner, Scheungraber; [--- Da]gionius – EDH</note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">fin: könnte eine Ligatur von E und T mit seitenverkehrtem E sein – CIL (Zangemeister); am Ende T – Lehner</tei:note>
+                    <note anchored="true">fin: könnte eine Ligatur von E und T mit seitenverkehrtem E sein – CIL (Zangemeister); am Ende T – Lehner; [Ro?]manus [et] – EDH</note>
                 </app>
-            </div>
+            
+            
+        
+            
+        
+            <app loc="5">
+                <note anchored="true">S[u]- – EDH</note>
+            </app>
+        </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">                <p part="N">Dagionus Romanus: Gentilnomen und Cognomen, ohne Praenomen <lb/> 
 Dagionus: In der Inschrift ist eindeutig Dagionus zu lesen, doch ist nicht auszuschließen, dass die Bruchstelle in Z.2 eine Ligatur von N und I unsichtbar macht und der Name Dagionius lautete, so Kakoschke (2006, GN 394) </p>
                 <p part="N">Dagionius: einheimische Bildung (mit keltischer Basis?), nur in dieser Inschrift belegt <lb/> 
@@ -320,7 +327,11 @@ Dagionius: einheimische Bildung (mit keltischer Basis?), nur in dieser Inschrift
             </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                <p part="N">                                                </p>
                                                 <p part="N">
-                                                    <rs type="divine">Albiahenae</rs>: keltisch erklärbar: ‚In der Alb Geborne [Muttergöttinen]‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 246-248).
+                                                    <rs type="divine">Albiahenae</rs>: keltisch erklärbar: ‚In der Alb Geborne [Muttergöttinen]‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 246-248). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)
 </p>
                                                 <p part="N">
 Vorkommen in theonymischen Formularen: 
@@ -329,7 +340,7 @@ Vorkommen in theonymischen Formularen:
                                                     <rs type="divine">Albiahenae</rs>: 
 - Germania Inferior: maximal 4x belegt (CF-GeI-11 bis CF-GeI-13 und 
 CF-GeI-18). In einem Fall (CF-GeI-18) ist vor dem Götternamen noch 
-Platz, wo vielleicht  <rs type="divine">Matronae </rs>aber auch <i> Matres </i>ergänzt werden könnte. Alle Zeugnisse stammen aus Oberelvenich.  
+Platz, wo vielleicht  <rs type="divine">Matronae </rs>aber auch <rs type="divine"> Matres </rs>ergänzt werden könnte. Alle Zeugnisse stammen aus Oberelvenich.  
 - außerhalb der Germania Inferior:</p>
                                                 <p part="N"/>
             </div>
@@ -343,38 +354,38 @@ Platz, wo vielleicht  <rs type="divine">Matronae </rs>aber auch <i> Matres </i>e
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">                                                    <p part="N">Alte Version (13.04.23):</p>
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">                                                    <p part="N">Alte Version (13.04.23):</p>
                                                     <p part="N">Albiahenae: keltisch germanisches Kompositum: ‚die zur diesseitigen Welt Gehörigen‘ (de Bernardo Stempel in Spickermann 2005, 142)<br/>
                 </p>
-                                                    </tei:note>
+                                                    </note>
         </back>
     </text>
 </TEI>

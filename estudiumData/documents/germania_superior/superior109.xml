@@ -59,17 +59,18 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Der Inschriftentext ist oben abgebrochen, doch dürfte die fragmentarisch erhaltene erste Zeile auch ursprünglich die erste Zeile gewesen sein. Damit wäre der Inschriftentext zur Gänze erhalten. Die Buchstaben sind unregelmäßig.<br/></p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Der Inschriftentext ist oben abgebrochen, doch dürfte die fragmentarisch erhaltene erste Zeile auch ursprünglich die erste Zeile gewesen sein. Damit wäre der Inschriftentext zur Gänze erhalten. Die Buchstaben sind unregelmäßig.<br/></p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130500</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="4.0" atMost="5.0">4,0–5,0</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p>                                                <p>In der Nische befindet sich eine menschliche Figur, von der jedoch nur mehr die Silhouette bis ca. zur Hüfte zu erkennen und der Rest abgeschlagen ist. Sie füllt die Nische vollständig aus, wobei der Kopf, der auf die linke Seite zu blicken scheint, am oberen Rand anstoßt. Die linke Hand ist angewinkelt und hält den Gurt eines Köchers, der über der linken Schulter vorscheint. Über der rechten Schulter ist die Spitze des Bogens zu erkennen. In der Vergangenheit wollte man Venus oder Merkur erkennen: „L’inscription occupait sur cette stèle le dessus d’une niche où était sculptée en bas-relief une divinité que M. Siffer croit avoir été Vénus, parce qu’on dirait qu’elle tient un miroir à la main. J’ai vu et dessiné moi-même ce monument […] Ce que M. Siffer a pris pour un miroir est le sommet d’un caducée ; de sorte que la divinité était Mercure, et non pas Vénus. Le pétase qui lui servait de coiffure est encore apparent“ (Quicherat 1870, 214).</p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.230000">menschliche Figur</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+							<decoNote> <p>                                                <p>In der Nische befindet sich eine menschliche Figur, von der jedoch nur mehr die Silhouette bis ca. zur Hüfte zu erkennen und der Rest abgeschlagen ist. Sie füllt die Nische vollständig aus, wobei der Kopf, der auf die linke Seite zu blicken scheint, am oberen Rand anstoßt. Die linke Hand ist angewinkelt und hält den Gurt eines Köchers, der über der linken Schulter vorscheint. Über der rechten Schulter ist die Spitze des Bogens zu erkennen. In der Vergangenheit wollte man <rs type="divine">Venus</rs> oder <i>Merkur</i> erkennen: „L’inscription occupait sur cette stèle le dessus d’une niche où était sculptée en bas-relief une divinité que M. Siffer croit avoir été <i>Vénus</i>, parce qu’on dirait qu’elle tient un miroir à la main. J’ai vu et dessiné moi-même ce monument […] Ce que M. Siffer a pris pour un miroir est le sommet d’un caducée ; de sorte que la divinité était <i>Mercure</i>, et non pas <i>Vénus</i>. Le pétase qui lui servait de coiffure est encore apparent“ (Quicherat 1870, 214).</p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.230000">menschliche Figur</term>
+                      
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.254400">Köcher</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.254500">Bogen</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150400">Reliefschmuck</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -230,7 +231,7 @@
         
             <bibl xml:id="9">Kakoschke 2002, Nr.2.83</bibl>
         
-            <bibl xml:id="10">Raybould/Sims-Williams 2007, I 54, Nr.BEG 094</bibl>
+            <bibl xml:id="10">Raybould/Sims-Williams 2007, I 54 Nr.BEG 094</bibl>
         
             <bibl xml:id="11">Matijević 2012, 102</bibl>
         
@@ -274,7 +275,7 @@
         </div>
 			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Adnamus Nertomari filius: einheimisches Namensformular mit Angabe des Namens des Vaters im Genetiv</p>
                                                 <p>Adnamus: keltischer Name, vor allem im westlichen Donauraum verbreitet (Kakoschke 2021, CN 44)</p>
-                                                <p>Nertomarus: keltischer Name, mehrfach im Donauraum belegt (Kakoschke 2021, CN 2176) Vater des Ersten.
+                                                <p>Nertomarus: keltischer Name, mehrfach im Donauraum belegt (Kakoschke 2021, CN 2176), Vater des Ersten
 			</p></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
 				<p> </p>
@@ -287,7 +288,8 @@
 		</body>
 		<back>
 			<note type="Objbeschr_note"><p>Lupa: zerbrochen, Relief abgemeißelt</p><p>Quicherat 1870, S. 214: Stele, die für einen Sargdeckel abgeschnitten wurde</p></note>
-			<note type="ArchKlass_note"><p>Köcher</p><p><p>Bogen</p></p></note>
+			<note type="ArchKlass_note">
+                                                    <p/></note>
 			<note type="Material_note"><p>Rot – Zangmeister 1885, S. 240<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"/>

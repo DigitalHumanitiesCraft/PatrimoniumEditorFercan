@@ -141,9 +141,7 @@ Die Baumdarstellungen an den Altarseiten ähneln sich sehr. Sie sind sehr einfac
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220200">
                                     <ref type="context" target="context:fercan.arch.kapitell">Kapitell</ref>
                                 </term>
-                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220210">
-                                    <ref type="context" target="context:fercan.arch.korinthisches_kapitell">korinthisches Kapitell</ref>
-                                </term>
+                                
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253210">
                                     <ref type="context" target="context:fercan.arch.laubbaum">Laubbaum</ref>
                                 </term>
@@ -243,7 +241,7 @@ Die Baumdarstellungen an den Altarseiten ähneln sich sehr. Sie sind sehr einfac
                     <person instant="false">
                         <persName instant="false" full="yes">
                             <roleName type="other" full="yes">
-                                <ref type="context" target="context:fercan.person.other.negotiator_salarius_civis_trever">negotiator salarius civis Trever</ref>
+                                <ref type="context" target="context:fercan.person.other.negotiator_salarius_civis_trever">negotiator salarius; civis Trever</ref>
                             </roleName>
                         </persName>
                     </person>
@@ -301,7 +299,7 @@ Die Baumdarstellungen an den Altarseiten ähneln sich sehr. Sie sind sehr einfac
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">deae Nehaleniae</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -312,13 +310,13 @@ Die Baumdarstellungen an den Altarseiten ähneln sich sehr. Sie sind sehr einfac
     </teiHeader>
     <facsimile>
         <graphic mimeType="image/png" xml:id="IMAGE.1" url="file:///0286_Front li re.PNG">
-            <desc>, Rechte vorbehalten</desc>
+            <desc>Front, links und rechts, Rechte vorbehalten</desc>
         </graphic>
         <graphic mimeType="image/png" xml:id="IMAGE.2" url="file:///0286_Front.PNG">
-            <desc>, Rechte vorbehalten</desc>
+            <desc>Front, Rechte vorbehalten</desc>
         </graphic>
         <graphic mimeType="image/png" xml:id="IMAGE.3" url="file:///0286_IS.PNG">
-            <desc>, Rechte vorbehalten</desc>
+            <desc>Front (Inschrift), Rechte vorbehalten</desc>
         </graphic>
     </facsimile>
     <text>
@@ -353,7 +351,7 @@ Die Baumdarstellungen an den Altarseiten ähneln sich sehr. Sie sind sehr einfac
                         <date>Version vom 12. Juni 2017</date>
                     </bibl>
                     <bibl type="trismegistos">
-                        <idno>www.trismegistos.org/text/208899</idno>
+                        <idno>https://www.trismegistos.org/text/208899</idno>
                         <date>zuletzt aufgerufen am 30. Juni 2021</date>
                     </bibl>
                 </listBibl>
@@ -402,7 +400,11 @@ negotiator salarius: Salzhändler; an der Ostküste Britanniens ist an zahlreich
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.5: „cives” pro „civis”</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalenia:</rs> Variante von  <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f).   </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Nehalenia:</rs> Variante von  <rs type="divine">Nehalennia:</rs> keltisch erklärbar: ‚Die [Göttin] im Salzwasser bzw. in der See‘ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 145f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)   </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>

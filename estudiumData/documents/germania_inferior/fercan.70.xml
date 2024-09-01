@@ -90,7 +90,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Der Text füllt das Inschriftenfeld nicht zur Gänze aus (unter dem Text bleibt ein Freiraum von ca. einer Zeilenhöhe). Er ist vollständig erhalten.</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">vollständig</tei:note>
+                                    <note type="condition" anchored="true">vollständig</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -157,10 +157,10 @@ Die Darstellung der rechten Seite wird wohl der linken Seite ähneln.</p>
                                 <ref type="context" target="context:fercan.geog.modern.krefeld">Krefeld</ref>
                             </placeName>
                             <p part="N">Orsann bei Lauck, auf dem Gut Gripswald</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">51.338546 6.584831</geo>
-                            </tei:location>
-                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">innerhalb einer halbkreisförmigen Umfassungsmauer, wahrscheinlich den Resten eines antiken Tempels (Lehner 1918, Nr.339), gemeinsam mit CF-GeI-67 sowie vier Weihungen an die Matronae Octocannae (CF-GeI-77 und CF-GeI-80–82)</tei:note>
+                            </location>
+                            <note anchored="true">innerhalb einer halbkreisförmigen Umfassungsmauer, wahrscheinlich den Resten eines antiken Tempels (Lehner 1918, Nr.339), gemeinsam mit CF-GeI-67 sowie vier Weihungen an die Matronae Octocannae (CF-GeI-77 und CF-GeI-80–82)</note>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)</provenance>
                     </history>
@@ -241,7 +241,7 @@ Die Darstellung der rechten Seite wird wohl der linken Seite ähneln.</p>
                         <item>
                             <ref type="context" target="context:fercan.dedication.pro_se_et_suis">pro se et suis</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Mercurio Arverno</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -271,10 +271,16 @@ Die Darstellung der rechten Seite wird wohl der linken Seite ähneln.</p>
                     <bibl xml:id="LIT.4" default="false" status="draft">Espérandieu IX 6584</bibl>
                 
             <bibl xml:id="5">Scheungraber 2020, 128 Nr.1</bibl>
+        
+            
         </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD079841</idno>
+                        <date>Version vom 8. August 2019</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-11100673</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -302,7 +308,7 @@ Marcus Iulius Audax for himself and for his family willingly and deservedly.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.6 #MAJ.6">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">suis v(otum) s(olvit) l(ibens) m(erito) – Espérandieu</tei:note>
+                    <note anchored="true">suis v(otum) s(olvit) l(ibens) m(erito) – Espérandieu</note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
@@ -310,14 +316,18 @@ Marcus Iulius Audax for himself and for his family willingly and deservedly.</p>
 Iulius: italisches kaiserliches Gentilnomen, überall äußerst gängig (Kakoschke 2006, GN 621) <lb/>
 Audax: lateinisches Cognomen (Kakoschke 2007, CN 386)</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Arvernus:</rs> keltisch: abgeleitet aus dem Ethnikon Arverni (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 131f).  </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Arvernus:</rs> keltisch: abgeleitet aus dem Ethnikon Arverni (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 131f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)  </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
                                                 <p part="N">
  <rs type="divine">Mercurius Arvernus</rs>: <lb/>
 - Germania Inferior: insgesamt 5x belegt (CF-GeI-66 bis CF-GeI-70) <lb/> 
-- außerhalb der Germania Inferior: keine Belege bekannt. Allerdings gibt es in der Germania Superior eine Weihung an  <rs type="divine">Mercurius Arvernorix</rs> (CIL XIII 6603). </p>
+- außerhalb der Germania Inferior: keine Belege bekannt. Allerdings gibt es in der Germania Superior eine Weihung an  <rs type="divine">Mercurius Arvernorix</rs> (CF-GeS-1088). </p>
                                                 <p part="N">
  <rs type="divine">Arvernus</rs>: <lb/> 
 - Germania Inferior: nur in der lateinischen Variante  <rs type="divine">Advernus</rs> und nur 1x (CF-GeI-26) bezeugt <lb/>
@@ -325,7 +335,12 @@ Vorkommen in theonymischen Formularen: </p>
                                                 <p part="N">
  <rs type="divine">Genius Arvernus</rs>:  <lb/>
 - Germania Inferior: - <lb/>
-- außerhalb der Germania Inferior: in Clermont-Ferrand in der Provinz Aquitania ist ein <rs type="divine">Genius Arvernus</rs> bzw. <i>Genius Arvernorum</i> bezeugt (CIL XIII 1462).</p>
+- außerhalb der Germania Inferior: in Clermont-Ferrand in der Provinz Aquitania ist ein <rs type="divine">Genius Arvernus</rs> bzw. <rs type="divine">Genius Arvernorum</rs> bezeugt (CIL XIII 1462).</p>
+                                                <p part="N">
+                                                    <rs type="divine">Advernus</rs>: 
+- Germania Inferior: nur in 
+CF-GeI-26 und zwar in der lateinischen Variante bezeugt. 
+- außerhalb der Germania Inferior: -</p>
             </div>
             <linkGrp type="alignment" domains="#majuscule #minuscule">
                 <link target="#MAJ.1 #MIN.1"/>
@@ -337,38 +352,38 @@ Vorkommen in theonymischen Formularen: </p>
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">
                 <p part="N">Für die Alte Version (13.04.23) siehe CF-GeI-26</p>
                 <p part="N"/>
-            </tei:note>
+            </note>
         </back>
     </text>
 </TEI>

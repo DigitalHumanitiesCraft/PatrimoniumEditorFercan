@@ -59,23 +59,26 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Der Inschriftentext bricht unter der dritten Zeile ab, wie weit er sich noch fortsetzte kann nicht gesagt werden. Die Buchstaben sind unregelmäßig.</p><p>In Z.2 ist die Lesung des Buchstabens nach dem V umstritten (s. Apparatus criticus), es spricht jedoch vieles für die Lesung als (ein aufgemaltes?) R, denn für ein T ist nicht genug Platz zum vorhergehenden V, und bei einem I wäre der Abstand zum nachfolgenden E überraschend groß. Möglicherweise handelt es sich bei der, von der Mitte der Senkrechthaste weg schräg nach rechts unten verlaufenden, Rille um die Reste der Schräghaste des R. Ein ähnliches Problem findet sich auch bei CF-GeS-1057.<br/></p>
+								<layout> <p>                                                <p>Der Inschriftentext bricht unter der dritten Zeile ab, wie weit er sich noch fortsetzte kann nicht gesagt werden. Die Buchstaben sind unregelmäßig.</p>
+                                                <p>In Z.2 ist die Lesung des Buchstabens nach dem V umstritten (s. Apparatus criticus), es spricht jedoch vieles für die Lesung als (ein aufgemaltes?) R, denn für ein T ist nicht genug Platz zum vorhergehenden V, und bei einem I wäre der Abstand zum nachfolgenden E überraschend groß. Möglicherweise handelt es sich bei der, von der Mitte der Senkrechthaste weg schräg nach rechts unten verlaufenden, Rille um die Reste der Schräghaste des R. Ein ähnliches Problem findet sich auch bei CF-GeS-1057. Die Lesungen als <rs type="divine">Toutenus</rs> oder <rs type="divine">Tovienus</rs> (s. Ap. crit.) sind somit abzulehnen.<br/></p>
                                                 <p>Das O zu Beginn von Z.3 kann auch ein Q sein. Gegen diese Lesung 
 spricht, dass der als Schräghaste gedeutete Strich wesentlich tiefer ist
  als die anderen Buchstaben der Inschrift, was auch auf alle anderen 
-Ausbrüche des Inschriftenfeldes zutrifft. Das N ist mit seinen schrägen Außenhasten auffällig und lässt eine Lesung als N etwas unsicher erscheinen. In CF-GeS-1057 erscheint ein ähnlich geformtes N, was zusammen mit der R-Thematik die Frage nach dem Steinmetz aufwirft.</p><p>Besondere Zeichen: Das A ist ohne Querhaste geschrieben.</p></p> <note type="condition" anchored="true"/> </layout>
+Ausbrüche des Inschriftenfeldes zutrifft. Das N ist mit seinen schrägen Außenhasten auffällig und lässt eine Lesung als N etwas unsicher erscheinen. In CF-GeS-1057 erscheint ein ähnlich geformtes N, was zusammen mit der R-Thematik die Frage nach einem möglicherweise selben Steinmetz aufwirft.</p>
+                                                <p> Besondere Zeichen: Das A ist ohne Querhaste geschrieben.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130320</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="2.7" atMost="3.3">2,7–3,3</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> 
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">Rosette</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160200">Blattdekor</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale (Gestaltungsmerkmal)</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -83,7 +86,7 @@ Ausbrüche des Inschriftenfeldes zutrifft. Das N ist mit seinen schrägen Außen
 						<origin> <origPlace> <placeName/> <region>Civitas Nemetum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when="1970"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Neustadt an der Weinstraße</ref> </placeName> <p>zwischen Wallgasse und Festwiese</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true">beim Ausheben der Baugrube für den Neubau der Allgemeinen Ortskrankenkasse (Bernhard 1983 Pfalz, 94, Nr.202)</note> </provenance>
+							</location> <note anchored="true">beim Ausheben der Baugrube für den Neubau der Allgemeinen Ortskrankenkasse (Bernhard 1983 Pfalz, 94 Nr.202)</note> </provenance>
 						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (7.11.2023)</p>
                                                 </provenance>
 					</history>
@@ -223,7 +226,7 @@ Ausbrüche des Inschriftenfeldes zutrifft. Das N ist mit seinen schrägen Außen
 			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
 			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
 				<listBibl>
-					<bibl xml:id="1">Bernhard 1983 (Pfalz), 94, Nr.202   </bibl>
+					<bibl xml:id="1">Bernhard 1983 (Pfalz), 94 Nr.202   </bibl>
 				
             <bibl xml:id="2">Hupe 1997, 197 Nr.B14</bibl>
         
@@ -247,7 +250,7 @@ Ausbrüche des Inschriftenfeldes zutrifft. Das N ist mit seinen schrägen Außen
 <lb n="3"/>O AVE<unclear>N</unclear>TO<orig/>
 <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/></ab></div>
 			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Deo
-<lb n="2"/>Tovren
+<lb n="2"/>Touren
 <lb n="3" break="no"/>o Avento
 <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
@@ -258,11 +261,11 @@ Ausbrüche des Inschriftenfeldes zutrifft. Das N ist mit seinen schrägen Außen
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="2">
-					<note anchored="true">Touten – Bernhard, Hupe (hält aber auch Tovien für möglich) EDH, Scheungraber </note>
+					<note anchored="true">Touten – Bernhard, Hupe (hält aber auch Tovien für möglich), EDH, Scheungraber </note>
 				</app>
 			
             <app loc="3">
-                <note anchored="true">wohl nicht mit Sicherheit auszuschließen ist Q. als erster Buchstabe</note>
+                <note anchored="true">Wohl nicht mit Sicherheit auszuschließen ist Q. als erster Buchstabe.</note>
             </app>
         </div>
 			<div type="commentary" subtype="general" org="uniform" sample="complete"><!--[if gte mso 9]><xml>
@@ -919,7 +922,7 @@ bezeugt ist (AE 1996, 1150). Seltener keltischer Name (Kakoschke 2021, CN 412)</
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
 				<p> </p>
 			</div>
-			<div type="commentary" subtype="deity" org="uniform" sample="complete">                                                <rs type="divine">Tovienus</rs>: Die Lesung <rs type="divine">Tovienus</rs> ist nicht völlig gesichert, denn hinter dem I ist der Abstand zu groß, vorstellbar wäre, statt des I ein R zu vermuten. Der Göttername <rs type="divine">Tourenus</rs> ist möglicherweise in CF-GeS-1057 belegt. Jedenfalls lässt sich der Göttername nicht als „Touteno“ lesen, wie häufig vorgeschlagen (s. Apparatus Criticus): der 4. Buchstabe in Z. 2 ist eindeutig kein T. Auch die Lesung des letzten Buchstaben der Zeile als N bleibt unsicher.<br/>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
                                                 <p> </p>
 			</div>
 			<linkGrp type="alignment" domains="#majuscule #minuscule">

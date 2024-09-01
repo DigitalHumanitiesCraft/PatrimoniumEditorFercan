@@ -144,12 +144,12 @@
                 <listPerson default="false">
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.superina">Superina</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.superina">Superina; Suppo</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.suppo">Suppo</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.suppo">Superina; Suppo</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -214,7 +214,7 @@
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">d(eae) Virathethi</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -293,21 +293,34 @@ Superina, daughter of Suppo, has fulfilled a vow willingly and deservedly.</p>
 Superina: weibliche Form von Superinus: lateinisches Cognomen; Weiterbildung des lateinisches Cognomens Super (Kakoschke 2008, CN 2973) <lb/>
 Suppo: germanisches Cognomen (Kakoschke 2008, CN 2975)</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Virathethis:</rs> Variante von  <rs type="divine">Viradecdis:</rs> keltisch erklärbar: ‚Mannesfeuer’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 163f) 
-                                                </p>
-                <p part="N">
-	
-Vorkommen in theonymischen Formularen: </p>
-                                                <p part="N">
- <rs type="divine">Viradecdis</rs>: 
-- Germania Inferior: Das theonymische Formular ist 2x (CF-GeI-74 und 75)
- belegt. Eine weitere Inschrift lässt eine entsprechende Ergänzung zu 
-(CF-GeI-76).  
-- außerhalb der Germania Inferior: Das theonymische Formular ist in 
-Britannien belegt (<i>Viradecthis</i>: CIL VII 1073, RIB 2108) und in anderen 
-Varianten des Götternamens in der Germania Superior: (<i>Virodactis</i>: 
-CF-GeS-1021; <i>Virodacthis</i>: CF-GeS-1085; <i>Viroddis</i>: CF-GeS-1119).</p>
-            </div>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Virathethis:</rs> Variante von <rs type="divine">Viradecdis</rs> (incl. ev. Varianten):</p>
+
+<p class="MsoNormal">Sprachlich: keltisch erklärbar: ‚Mannesfeuer’ (de Bernardo
+Stempel Corpus F.E.R.C.A.N. II/1 163f.). (Hier wird kein
+sprachwissenschaftlicher Beitrag geleistet. Die Literaturangaben dienen
+lediglich dazu, einen Einstieg in die sprachwissenschaftliche Diskussion zu
+bieten. Besprochen werden alle Götternamen, die bislang als keltisch oder
+teilweise keltisch gedeutet wurden.)</p>
+
+<p class="MsoNormal">Vorkommen: Der Göttername findet sich in verschiedenen
+Varianten in Britannien (<rs type="divine">Viradecthi</rs> CIL VII 1073), der Germania Inferior und
+in der Germania Superior.</p>
+
+<p class="MsoNormal">Im Untersuchungsgebiet kommt der Göttername in folgendem
+theonymischen Formular vor:</p>
+
+<p class="MsoNormal"><i>Viradecdis</i> (incl. ev. Varianten):</p>
+
+<p class="MsoNormal">- Germania Inferior: CF-GeI-74 und die Variante <i>Virathethis</i> CF-GeI-75, CF-GeI-76(?) - Germania Superior: Hier sind die Varianten <i>Virodactis</i>
+CF-GeS-1021, <i>Virodacthis</i> CF-GeS-1085 und <i>Viroddis</i> CF-GeS-1119 verbreitet. In
+CF-GeS-1021 erscheint <i>Virodactis</i> zusammen mit <i>Lucena</i>. Heichelheim (1961,
+175) hatte angenommen, dass im Votivformular „<i>Virodacti</i> sive <i>Lucen(a)e</i>“
+eine Identifizierung von <i>Virodactis</i> mit der römischen <i>Lucina</i> vorliegt. Dass
+hier jedoch zwei Gottheiten gemeint sind legt der nachfolgende Plural „numinibus
+[sa]nctissi[mis]“ nahe. Scheungraber (2020, 360f.) interpretiert <i>Lucena</i> nicht
+als Form der römischen <i>Lucina</i>, sondern als: keltisch, ‚Luchs‘.</p>
+                                                <p part="N"> <rs type="divine"/>
+                                                </p></div>
             <linkGrp type="alignment" domains="#majuscule #minuscule">
                 <link target="#MAJ.1 #MIN.1"/>
                 <link target="#MAJ.2 #MIN.2"/>

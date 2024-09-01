@@ -56,20 +56,23 @@
 										<width unit="cm"> 21,5</width>
 										<depth unit="cm"> 20,5</depth>
 									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
 								<layout> <p>                                                <p>Der Inschriftentext ist bis auf eine kleine Bruchstelle am Beginn der ersten Zeile, die aber mit einiger Sicherheit ergänzt werden kann, vollständig erhalten. Die Buchstaben sind nicht sehr regelmäßig.</p>
-                                                <p>Besondere Zeichen: Das erste A in Z.2 weist statt einer Querhaste einen fast senkrechten Strich auf. Mehrere dreieckige Worttrenner scheinen willkürlich im Text verteilt, so z.B. in Z.4 in der Mitte des Wörtchens „ex“. <br/></p></p> <note type="condition" anchored="true"/> </layout>
+                                                <p>Besondere Zeichen: Das erste A in Z.2 weist statt einer Querhaste einen fast senkrechten Strich auf. Mehrere dreieckige Worttrenner scheinen willkürlich im Text verteilt, so z.B. in Z.4 in der Mitte des Wörtchens „ex“. <br/></p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130500</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="2.0" atMost="2.1">2,0–2,1</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p>                                                <p>Drei Seiten des Kapitels sind durch Frauenköpfe geschmückt, die jeweils in eine Nische eingebettet sind. Der linke Kopf blickt beinahe frontal, sehr leicht nach links geneigt in Richtung des Betrachters. Die Gesichtszüge sind nicht mehr erkennbar. Die Haare scheinen hochgesteckt zu sein, wobei die einzelnen dicken Strähnen noch erkennbar sind. Am Hals ist noch der Ansatz eines Gewand-Kragens sichtbar. Der mittlere Kopf ist ähnlich gestaltet, die einzigen Unterschiede sind, dass der Blick leicht nach rechts gerichtet ist und das Gesicht ovaler erscheint. Die Gesichtszüge mit gerader Nase, großen Lippen und rundem Kinn sind noch besser erkennbar. Der rechte Kopf ist wiederum ein wenig schlechter erhalten, die Nasenspitze ist abgebrochen. Auch hier ist die Blickrichtung nach rechts. Die Haare auf diesem Kopf wirken gelockter und sind weniger in Strähnen als mehr in sehr runden Wellen aufgelegt.</p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160800">Mäander</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.230300">Kopf</term>
+							<decoNote> <p>                                                <p>Drei Seiten des Kapitels sind durch Frauenköpfe geschmückt, die jeweils in eine Nische eingebettet sind. Der linke Kopf blickt beinahe frontal, sehr leicht nach links geneigt in Richtung des Betrachters. Die Gesichtszüge sind nicht mehr erkennbar. Die Haare scheinen hochgesteckt zu sein, wobei die einzelnen dicken Strähnen noch erkennbar sind. Am Hals ist noch der Ansatz eines Gewand-Kragens sichtbar. Der mittlere Kopf ist ähnlich gestaltet, die einzigen Unterschiede sind, dass der Blick leicht nach rechts gerichtet ist und das Gesicht ovaler erscheint. Die Gesichtszüge mit gerader Nase, großen Lippen und rundem Kinn sind noch besser erkennbar. Der rechte Kopf ist wiederum ein wenig schlechter erhalten, die Nasenspitze ist abgebrochen. Auch hier ist die Blickrichtung nach rechts. Die Haare auf diesem Kopf wirken gelockter und sind weniger in Strähnen als mehr in sehr runden Wellen aufgelegt.</p></p> 
+                      
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220200">Kapitell</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.230300">weibliche Figur</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160100">Lineardekor</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150400">Reliefschmuck</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -187,7 +190,7 @@
 			<textClass>
 				<keywords>
 					<list>
-						<item> <ref target="context:fercan.dedication." type="context">ex voto posuit laetus libens merito</ref> </item>
+						<item> <ref target="context:fercan.dedication." type="context">in honorem domus divinae; ex voto posuit laetus libens merito</ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>

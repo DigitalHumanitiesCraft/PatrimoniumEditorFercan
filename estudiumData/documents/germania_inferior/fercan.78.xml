@@ -89,7 +89,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Nach CIL ist das Inschriftenfeld links und unten abgebrochen. Aus inhaltlichen Gründen ist anzunehmen, dass sich der Text nach unten noch weiter fortsetzte.<lb/>Ligaturen: s. Majuskeltext. Besondere Zeichen: In Z.2 findet sich ein V mit einer waagrechten Mittelhaste, das an ein am Kopf stehendes A erinnert.</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">größeres Fragment</tei:note>
+                                    <note type="condition" anchored="true">größeres Fragment</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -102,12 +102,8 @@
                         <decoDesc>
                             <decoNote>
                                 <p part="N">keine Beschreibung möglich</p>
-                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130100">
-                                    <ref type="context" target="context:fercan.arch.abschrift">Abschrift</ref>
-                                </term>
-                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">
-                                    <ref type="context" target="context:fercan.arch.fragment">Fragment</ref>
-                                </term>
+                                
+                                
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -124,10 +120,10 @@
                                 <ref type="context" target="context:fercan.geog.modern.krefeld">Krefeld</ref>
                             </placeName>
                             <p part="N">Gut Gripswald</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">51.338546 6.584831</geo>
-                            </tei:location>
-                            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">aus dem Schutt der „Matronenkirche“ in Gripswald; zusammen mit anderen Inschriftenfragmenten (siehe Fiedler 1863)</tei:note>
+                            </location>
+                            <note anchored="true">aus dem Schutt der „Matronenkirche“ in Gripswald; zusammen mit anderen Inschriftenfragmenten (siehe Fiedler 1863)</note>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">vidimus (21.5.2019)</provenance>
                     </history>
@@ -192,7 +188,7 @@
             <textClass default="false">
                 <keywords>
                     <list>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Matronis [Octo]cannabus</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -228,6 +224,10 @@
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD082565</idno>
+                        <date>Version vom 10. Mai 2021</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-11100669</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -238,9 +238,9 @@
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/>MATRONIS 
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/><supplied reason="undefined" evidence="previouseditor" instant="false">M</supplied>ATRONIS 
 <lb n="2"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>CANN<hi rend="ligature">AB</hi>VS 
-<lb n="3"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>CTORINI</orig></ab></div>
+<lb n="3"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>CT<supplied reason="undefined" evidence="previouseditor" instant="false">ORI</supplied>NI</orig></ab></div>
             <div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><lb n="1"/>Matronis<lb n="2"/><supplied reason="lost" instant="false">Octo</supplied>cannabus<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false"> Vi</supplied>ctorini</ab></div>
             <div type="translation" xml:lang="de" org="uniform" part="N" sample="complete">
                 <p part="N">Für die  <rs type="divine">Matronae Octocannae!</rs> <lb/>
@@ -252,10 +252,10 @@
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">die unterstrichene Buchstaben in Z.1-3 sind heute nicht mehr erhalten, sie werden nach CIL wiedergegeben</tei:note>
+                    <note anchored="true">die unterstrichenen Buchstaben in Z.1-3 sind heute nicht mehr erhalten, sie werden nach CIL wiedergegeben</note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[--- Vi]ctorin+ – CIL; [3 Vi]ctorin(a)e – Scheungraber; [--- Vi]ctorine – Ferlut</tei:note>
+                    <note anchored="true">[--- Vi]ctorin+ – CIL; [3 Vi]ctorin(a)e – EDH, Scheungraber; [--- Vi]ctorine – Ferlut</note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
@@ -264,7 +264,11 @@
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.2: „Octocannabus“ pro „Octocannis“</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Octocannae:</rs> keltisch: ‚[Muttergöttinnen] der Fichten’ bzw. ‘Fichtengöttinnen’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 236f).</p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Octocannae:</rs> keltisch: ‚[Muttergöttinnen] der Fichten’ bzw. ‘Fichtengöttinnen’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 236f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)</p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
@@ -291,38 +295,38 @@ Alle Inschriften für  <rs type="divine">Octocannae</rs> stammen aus dem Raum Kr
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">
                 <p part="N">Für Alte Version (17.04.23) siehe CF-GeI-77<br/>
                 </p>
-            </tei:note>
+            </note>
         </back>
     </text>
 </TEI>

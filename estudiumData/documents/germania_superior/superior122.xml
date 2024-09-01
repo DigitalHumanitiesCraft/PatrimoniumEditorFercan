@@ -50,36 +50,38 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
-									<objectType>Weihestein</objectType> <dimensions>
-										<height unit="cm">136</height>
-										<width unit="cm">76,5</width>
-										<depth unit="cm">38,5</depth>
+								<support> <p><p>Der Weihestein ist großgflächig erhalten, mit Ausnahme von kleinen Ausbrüchen am Aufsatz und größeren an der Basis, sowie einer Bestoßung der rechten Seite, die die gesamte Länge des ungerahmten Inschriftenfeldes umfasst. Basis und Altarkörper sind ohne besondere Gestaltung voneinander getrennt, die Bekrönung jedoch ist vom Inschriftenfeld getrennt durch eine dreifache Stufung und einem Gesims darüber. Diese ist außerdem gestaltet durch zarte Voluten, gefüllt mit Rosetten, sowie einen breit angelegten, angedeuteten Giebel, in dessen Mitte sich ebenfalls eine Rosette befunden zu haben scheint. Die Opferschale dahinter ist noch gut erkennbar. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
+										<height unit="cm">136,5</height>
+										<width unit="cm">75</width>
+										<depth unit="cm">40</depth>
 									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
 								<layout> <p>                                                <p>Die Inschrift füllt das Feld komplett aus, ist jedoch am rechten Rand durchgehend beschädigt, sodass in jeder Zeile entweder Buchstaben beschädigt sind oder ganz fehlen. Die Buchstaben sind bis auf wenige Ausnahmen gleichmäßig gearbeitet.</p>
-                                                <p>In Z.2 ist ein S von Cassibus zwischen das A und S, in Z.3. ist das O von quod in das V und in Z.7 das L von Licinius zwischen dem L für L(ucius) und dem ersten I von Licinius kleiner eingeschrieben. Schillinger-Häfele (1977, 477) vermutet, dass in Z.10 im ausgebrochenen Bereich das IT von posuit ebenfalls kleiner eingehauen war.</p>
-                                                <p>In Z.4 ist vom letzten Buchstaben nur mehr die linke Senkrecht- und eine Schrägahste erhalten. Aufgrund des Winkels wird es sich um ein M gehandelt haben. Schillinger-Häfele (1977, 476) hingegen schlägt vor den Buchstaben als ein enger gesetztes N für navem oder naviculam zu deuten, da ansonsten das Beziehungswort für summersam fehle. In Z.7 und Z.8 sind noch die tiefer eingehauenen Reste der oberen Bögen der jeweiligen S zu sehen. <br/></p>
-                                                <p>In Z1., Z.7 und Z13. wurden Worttrenner gesetzt. In Z.7 finden sich diese nur vor und nach dem ersten L, in Z.13 wurden zwischen dem letzten L und dem M kein Trenner gesetzt.</p></p> <note type="condition" anchored="true"/> </layout>
+                                                <p>In Z.2 ist ein S von Cassibus zwischen das A und S, in Z.3 ist das O von quod in das V und in Z.7 das L von Licinius zwischen dem L für L(ucius) und dem ersten I von Licinius kleiner eingeschrieben. Schillinger-Häfele (1977, 477) vermutet, dass in Z.10 im ausgebrochenen Bereich das IT von posuit ebenfalls kleiner eingehauen war. In Z.4 ist vom letzten Buchstaben nur mehr die linke Senkrecht- und eine Schräghaste erhalten. Aufgrund des Winkels wird es sich um ein M gehandelt haben. Schillinger-Häfele (1977, 476) hingegen schlägt vor, den Buchstaben als ein enger gesetztes N für navem oder naviculam zu deuten, da ansonsten das Beziehungswort für summersam fehle. In Z.7 und Z.8 sind noch die tiefer eingehauenen Reste der oberen Bögen der jeweiligen S zu sehen. In Z.1, Z.7 und Z.13 wurden Worttrenner gesetzt. In Z.7 finden sich diese nur vor und nach dem ersten L, in Z.13 wurden zwischen dem letzten L und dem M kein Trenner gesetzt.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130500</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="5.5" atMost="6.5">5,5–6,5</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">Rosette</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale (Gestaltungsmerkmal)</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140710">Dübelloch</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName/> <region>Civitas Aurelia G-?</region> </origPlace> <origDate notBefore="0227" notAfter="0227" instant="false"><date>227</date> <note type="original"> <ref target="context:fercan.date." type="context">Albino et Maximo consulibus</ref> </note></origDate> </origin>
-						<provenance type="found" when="1967"> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+						<provenance type="found" when="1967"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Marbach</ref> </placeName> <p>                                                <p>"im Neckar wenig unterhalb von Marbach (Kr. Ludwigsburg), etwa 1000 m östlich der Porta praetoria des auf dem linken Hochufer gelegenen Kastells Benningen" (Schillinger-Häfele 1977, 476 Nr.36)<br/></p></p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true"/> </provenance>
-						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung gründet auf: Paret und Photo<br/></p></provenance>
+							</location> <note anchored="true"><p>"hat der für die Schifffahrt im Neckar eingesetzte Schwimmbagger aus der Fahrrinne [...] einen großen römischen Weihestein gehoben und an Land geschafft." (Paret 1968, 323)<br/></p></note> </provenance>
+						<provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)</provenance>
 					</history>
 				</msDesc>
 				<listPlace>
@@ -188,7 +190,7 @@
 			<textClass>
 				<keywords>
 					<list>
-						<item> <ref target="context:fercan.dedication." type="context">in honorem domus divinae; ex voto posuit laetus libens merito</ref> </item>
+						<item> <ref target="context:fercan.dedication." type="context">in honorem domus divinae; ex voto posuit</ref> </item>
 						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
@@ -221,35 +223,41 @@
 			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
 			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
 				<listBibl>
-					<bibl xml:id="1">Paret 1968, 323f</bibl>
+					<bibl xml:id="1">Paret 1968 (Weihestein - Germania), 323f.</bibl>
 				
-            <bibl xml:id="2">Duval 1969, 423 Nr.30.14</bibl>
+            <bibl xml:id="4">Duval 1969, 423 Nr.30.14</bibl>
         
-            <bibl xml:id="3">AE 1969/1970, 436</bibl>
+            <bibl xml:id="5">AE 1969/1970, 436</bibl>
         
-            <bibl xml:id="4">Schillinger-Häfele 1977, Nr.36</bibl>
+            <bibl xml:id="6">Schillinger-Häfele 1977, Nr.36</bibl>
         
-            <bibl xml:id="5">Luik/Reutti 1988, 84</bibl>
+            <bibl xml:id="8">Luik/Reutti 1988, 84</bibl>
         
-            <bibl xml:id="6">Kakoschke 2002, Nr.1.123</bibl>
+            <bibl xml:id="9">Kakoschke 2002, Nr.1.123</bibl>
         
-            <bibl xml:id="7">Raybould/Sims-Williams 2007, 87 Nr.BEG 193</bibl>
+            <bibl xml:id="10">Raybould/Sims-Williams 2007, 87 Nr.BEG 193</bibl>
         
-            <bibl xml:id="8">Broekaert 2010, Nr.112</bibl>
+            <bibl xml:id="11">Broekaert 2013, Nr.112</bibl>
         
-            <bibl xml:id="9">Schmidts 2011, 152</bibl>
+            <bibl xml:id="12">Schmidts 2011, 152</bibl>
         
-            <bibl xml:id="10">Lockau 2017, CD-ROM Nr.132</bibl>
+            <bibl xml:id="13">Lockau 2017, CD-ROM Nr.132</bibl>
         
-            <bibl xml:id="11">Scheungraber 2020, 219 Nr.15</bibl>
+            <bibl xml:id="14">Scheungraber 2020, 219 Nr.15</bibl>
+        
+            <bibl xml:id="2">Paret 1968 (Weihestein - Geschichtsblätter), 177–179</bibl>
+        
+            <bibl xml:id="3">Paret 1968 (Weihestein - Kreiszeitung), 19f.</bibl>
+        
+            <bibl xml:id="7">Bender 1978, 75 Abb.28</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
 				<listBibl>
-					<bibl type="EDCS"><idno>EDCS-10700403</idno><date>2024-02-29</date></bibl>
-					<bibl type="EDH"><idno>HD013906</idno><date>2018-12-12</date></bibl>
-					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/209993</idno><date>2024-02-29</date></bibl>
-					<bibl type="lupa"><idno>http://lupa.at/7335</idno><date>2021-01-19</date></bibl>
+					<bibl type="EDCS"><idno>EDCS-10700403</idno><date> zuletzt abgerufen 2024-02-29</date></bibl>
+					<bibl type="EDH"><idno>HD013906</idno><date>Version von 2018-12-12</date></bibl>
+					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/209993</idno><date> zuletzt abgerufen 2024-02-29</date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/7335</idno><date>Version von 2021-01-19</date></bibl>
 					<bibl type="other"><idno> </idno><date> </date></bibl>
 				</listBibl>
 			</div>
@@ -270,25 +278,26 @@
 			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
 <lb n="2"/>bonis Cassibu<supplied reason="lost">s</supplied>
 <lb n="3"/>eo quod pos<supplied reason="lost">t</supplied>
-<lb n="4"/>summersamm
+<lb n="4"/>summersamm<note>!</note>
 <lb n="5"/><expan><abbr>bon</abbr><ex>a</ex></expan>e salut<supplied reason="lost">i</supplied>
 <lb n="6"/>sit redditu<supplied reason="lost">s</supplied>
 <lb n="7"/>et <expan><abbr>sui</abbr><ex>s</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> Licinius
 <lb n="8"/>Divixtus
 <lb n="9"/>negotiato<supplied reason="lost">r</supplied>
 <lb n="10"/>ex voto <expan><abbr>posu</abbr><ex>it</ex></expan>
-<lb n="11"/>Abbino
+<lb n="11"/>Abbino<note>!</note>
 <lb n="12"/>et Maximo
-<lb n="13"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
+<lb n="13"/><expan><abbr>co</abbr><ex>n</ex></expan><expan><abbr>s</abbr><ex>ulibus</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
 				<p><p>Zu Ehren des Kaiserhauses, für die <rs type="divine">Boni Casses</rs>!</p><p>Dieses hat, da er nach einem (Schiffs?)Untergang wieder zu guter Gesundheit und den Seinen zurückgekehrt war, Lucius Licinius Divixtus, der Händler, aufgrund eines Gelübdes, unter dem Konsulat des Albinus und Maximus, freudig, gerne und verdientermaßen aufgestellt.<br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p><p>In honor of the divine household, to the <rs type="divine">Boni Casses</rs>!</p><p>Since, after he had sunk(in a shipwreck?), he returend to good health and his family, Lucius Licinius Divixtus, the merchant, has set this up according to a vow, during the consulship of Albino and Maximo, gladly, willingly and deservedly.<br/></p></p>
+				<p>                                                <p>In honor of the divine household, to the <rs type="divine">Boni Casses</rs>!</p>
+                                                <p>Since, after he had sunk (in a ship?), he returend to good health and his family, Lucius Licinius Divixtus, the merchant, has set this up according to a vow, during the consulship of Albino and Maximo, gladly, willingly and deservedly.<br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="2">
-					<note anchored="true">Cassibu(s) – Paret, Duval, AE, Luik/Reutti; Cas{s}ibu[s] – EDH, Broekaert; Cas{s}ibu(s) – Schmidts</note>
+					<note anchored="true">Cassibu(s) – Paret (Germania, Geschichtsblätter, Kreiszeitung), Duval, AE, Luik/Reutti; Cas{s}ibu[s] – EDH, Broekaert; Cas{s}ibu(s) – Schmidts; Cassibus – Bender</note>
 				</app>
 			
             <app loc="8">
@@ -296,11 +305,11 @@
             </app>
         
             <app loc="13">
-                <note anchored="true">l(ibens) l(aetus) – AE, EDH, Schillinger-Häfele, Kakoschke, Raybould/Sims-Williams, Broekaert, Schmidts, Scheungraber</note>
+                <note anchored="true">l(ibens) l(aetus) – AE, EDH, Schillinger-Häfele, Kakoschke, Raybould/Sims-Williams, Bender, Broekaert, Schmidts, Scheungraber</note>
             </app>
         
             <app loc="4">
-                <note anchored="true">summersamṃ – Paret; summersam – Duval; summersam Ṇ – Schillinger-Häfele; summersam {N} – Broekaert; summersam{m} – EDH, Schmidts, Lockau; summersam &lt;m=N&gt;(ercem) – Scheungraber</note>
+                <note anchored="true">summersamṃ – Paret (Germania); summersam(m?) – Paret (Geschichtsblätter, Kreiszeitung); summersam – Duval; summersam Ṇ – Schillinger-Häfele; summersamṇ – Bender; summersam {N} – Broekaert; summersam{m} – EDH, Schmidts, Lockau; summersam &lt;m=N &gt;(ercem) – Scheungraber</note>
             </app>
         
             <app loc="11">
@@ -312,7 +321,7 @@
             </app>
         
             <app loc="3">
-                <note anchored="true">pos(t) – Luik/Reutti</note>
+                <note anchored="true">post – Paret (Geschichtsblätter, Kreiszeitung); pos(t) – Luik/Reutti</note>
             </app>
         
             <app loc="5">
@@ -320,11 +329,11 @@
             </app>
         
             <app loc="6">
-                <note anchored="true">redditu(s) – Luik/Reutti; redditu[s d; – Lockau</note>
+                <note anchored="true">redditu(s) – Paret (Geschichtsblätter, Kreiszeitung); Luik/Reutti</note>
             </app>
         
             <app loc="9">
-                <note anchored="true">negotiato(r) – Luik/Reutti</note>
+                <note anchored="true">negotiator – Paret (Geschichtsblätter, Kreiszeitung); negotiato(r) – Luik/Reutti</note>
             </app>
         
             <app loc="10">
@@ -350,13 +359,13 @@
 		<back>
 			<note type="Objbeschr_note"/>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"/>
-			<note type="Inschrifttraeger_note"/>
+			<note type="Material_note"><p>Schillinger-Häfele 1977, 476 Nr. 36: Feinkörniger Lettenkohlensandstein<br/></p></note>
+			<note type="Inschrifttraeger_note"><p>Schillinger-Häfele 1977, 476 Nr. 36: Über dem stark profilierten Gesims in der Mitte Altaraufbau, recht und links mit je einer Rosette verzierte Voluten. </p><p>Paret 1968, 323: Der Stein ist an den Kanten und am 20 cm hohen Sockel bestoßen, aber sonst recht gut erhalten. <br/></p></note>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"/>
+			<note type="InvNr_note"><p>Lupa<br/></p></note>
 			<note type="Fundstelle_note"/>
 			<note type="Fundumst_note"><p>Paret 1968, Schillinger-Häfele 1977<br/></p></note>
-			<note type="Fundjahr_note"/>
+			<note type="Fundjahr_note"><p>Duval 1969, 423 Nr. 30.14</p><p>Paret 1968, 323: 21. Juli 1967<br/></p></note>
 			<note type="FOantik_note"/>
 			<note type="FOmodern_note"/>
 			<note type="civitas_note"/>
@@ -367,16 +376,17 @@
 			<note type="dtUEbers_note"/>
 			<note type="Editionen_note"/>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"/>
+			<note type="Masse_note">                                                    <p>so Karteikarte 4 N 36, S. 24<br/></p><p>Schillinger-Häfele 1977, 476 Nr. 36. H 136, B 76,5, T 38,5. Dort außerdem: Breite in der Mitte 64cm, Tiefe in der Mitte 31,5cm, Schriftfeldhöhe 96cm</p>
+                                                    <p>Paret 1968, 323: Gewicht des Steines etwa 0,7 t</p></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"/>
+			<note type="Buchsthoehe_note">                                                    <p>Paret 1968, 323 6,5-6,5 </p><p>Karteikarte 4 N 36, S.24<br/></p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"/>
+			<note type="Datierung_note"><p>so Raybould, Sims-Williams 2007, 87 Nr. BEG 193<br/></p></note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>
 		</back>

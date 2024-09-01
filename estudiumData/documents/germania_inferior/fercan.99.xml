@@ -82,7 +82,7 @@
                                         <width unit="cm">21,0</width>
                                         <depth unit="cm">13,5</depth>
                                     </dimensions>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dimensions" anchored="true">ursprüngliche Breite: 38 cm</tei:note>
+                                    <note type="dimensions" anchored="true">ursprüngliche Breite: 38 cm</note>
                                 </support>
                                 <condition>
                                     <ref type="context" target="context:fercan.condition-o.groeszeres_fragment" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref>
@@ -91,7 +91,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Von der ursprünglich aufgefundenen Inschrift ist heute nur mehr die rechte Hälfte vorhanden, in ILS und CIL wird aber auch noch die linke Hälfte widergegeben. Die beiden seitlichen Ränder sowie der untere scheinen demnach festzustehen. Ob vor der erhaltenen ersten Zeile noch Text vorhanden war, muss unbeantwortet bleiben.<lb/>Die erhaltenen Buchstabenreste in Z.1 können nur mehr mithilfe von CIL gelesen werden.</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">größere Fehlstelle/n</tei:note>
+                                    <note type="condition" anchored="true">größere Fehlstelle/n</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -138,9 +138,9 @@
                                 <ref type="context" target="context:fercan.geog.modern.koeln">Köln</ref>
                             </placeName>
                             <p part="N">Unter Fettenhennen 8</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">50.937769 6.958583</geo>
-                            </tei:location>
+                            </location>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">
                             <p part="N">non vidimus<lb>
@@ -160,12 +160,12 @@
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.genetus">Genetus</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.genetus">Genetus; Lella</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.lella">Lella</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.lella">Genetus; Lella</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -227,7 +227,7 @@
                         <item>
                             <ref type="context" target="context:fercan.dedication.ex_imperio">ex imperio</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Vallameneihiabus</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -265,6 +265,10 @@
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD075396</idno>
+                        <date>Version vom 29. April 2019</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-01200066</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -275,7 +279,7 @@
                     </bibl>
                 </listBibl>
             </div>
-            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab part="N"><orig><lb n="1"/><supplied reason="undefined" evidence="previouseditor" instant="false">VALLA</supplied>M<hi rend="ligature">̣E</hi>̣<unclear instant="false">NEI</unclear> <lb n="2"/> 
+            <div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" part="N" sample="complete"><ab><orig><lb n="1"/><supplied reason="undefined" evidence="previouseditor" instant="false">VALLA</supplied>M<hi rend="ligature">̣E</hi>̣<unclear instant="false">NEI</unclear> <lb n="2"/> 
 <supplied reason="undefined" evidence="previouseditor" instant="false">HIA</supplied>BVS <lb n="3"/> 
 <supplied reason="undefined" evidence="previouseditor" instant="false">IVLIA</supplied> GENETI <lb n="4"/> 
 <supplied reason="undefined" evidence="previouseditor" instant="false">F · LE</supplied>LLA <lb n="5"/> 
@@ -291,15 +295,15 @@ Iulia Lella, the daughter of Genetus, by (their) order.</p>
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">vor Z.1: [Matronis?] – Galsterer/Galsterer 1975, Galsterer/Galsterer 2010, KIK 2012; [Matronis] – Scheungraber, Ferlut; Z.1: die unterstrichenen Buchstaben in Z.1-5 sind heute nicht mehr erhalten, sie werden nach ILS und CIL wiedergegeben; Vallamnei – ILS; Vallam̂âenei – CIL; ohne Ligatur – Espérandieu, Galsterer/Galsterer 1975, Galsterer/Galsterer 2010, KIK 2012 </tei:note>
+                    <note anchored="true">vor Z.1: [Matronis?] – Galsterer/Galsterer 1975, Galsterer/Galsterer 2010, KIK 2012, EDH; [Matronis] – Scheungraber, Ferlut; Z.1: die unterstrichenen Buchstaben in Z.1-5 sind heute nicht mehr erhalten, sie werden nach ILS und CIL wiedergegeben; Vallamnei – ILS; Vallam̂âenei – CIL; ohne Ligatur – Espérandieu, Galsterer/Galsterer 1975, Galsterer/Galsterer 2010, KIK 2012 </note>
                 </app>
                 
                 
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Iulia [---]geneti – Galsterer/Galsterer 2010, KIK 2012</tei:note>
+                    <note anchored="true">Iulia [---]geneti – Galsterer/Galsterer 2010, KIK 2012</note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Zeilenwechsel fehlt nach Lella – Galsterer/Galsterer 2010, KIK 2012</tei:note>
+                    <note anchored="true">Zeilenwechsel fehlt nach Lella – Galsterer/Galsterer 2010, KIK 2012</note>
                 </app>
                 
             </div>
@@ -313,7 +317,11 @@ Lella: germanisches Cognomen (Kakoschke 2007, CN 1701) </p>
                 <p part="N">v.1/2: „Vallameneihiabus“ pro „Vallameneihiis“</p>
             </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Vallameneihiae:</rs> Variante von  <rs type="divine">Vallabneihiae:</rs>keltisch mit lautlicher Germanisierung: ,Die Waltenden [Muttergöttinen]‘
- (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 193f / 195f).  </p>
+ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 193f/195f). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)  </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
@@ -349,38 +357,38 @@ Sämtliche Belege stammen vom gleichen Fundplatz in Köln (Unter Fettenhennen 8)
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">
                 <p part="N">Für Alte Version (17.04.23) siehe CF-GeI-97<br/>
                 </p>
-            </tei:note>
+            </note>
         </back>
     </text>
 </TEI>

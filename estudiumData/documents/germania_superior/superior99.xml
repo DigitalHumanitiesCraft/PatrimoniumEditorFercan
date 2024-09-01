@@ -59,7 +59,7 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Vom Inschriftentext ist etwa die Hälfte der rechten Seite abgebrochen. Der linke Rand ist erhalten, ebenso aus inhaltlichen Gründen vermutlich die erste und mit einiger Sicherheit die letzte Zeile. Die Buchstabengröße nimmt nach unten ab. In Z.2. hat der Steinmetz statt OV zuerst irrtümlich VO geschrieben.<br/>Zu einer Ligatur: s. Majuskelumschrift.</p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Vom Inschriftentext ist etwa die Hälfte der rechten Seite abgebrochen. Der linke Rand ist erhalten, ebenso aus inhaltlichen Gründen vermutlich die erste und mit einiger Sicherheit die letzte Zeile. Die Buchstabengröße nimmt nach unten ab. In Z.2. hat der Steinmetz statt OV zuerst irrtümlich VO geschrieben. Eine sichere Auflösung des Götternamens ist unmöglich, da jedoch alle anderen Beispiele für einen <rs type="divine">Mercurius Toutenus</rs> (CF-GeS-1055; CF-GeS-1057; CF-GeS-1121; CF-GeS-1141) sich als <i>Tourenus</i> erwiesen haben, ist zumindest die Lesung als <i>Toutenus</i> (s. Apparatus criticus) höchst unwahrscheinlich. <br/>Zu einer Ligatur: s. Majuskelumschrift.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130600</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -68,8 +68,9 @@
 						<decoDesc>
 							<decoNote> <p>                                                <p>Auf der linken Seite befindet sich die Darstellung eines Lorbeerbaumes.<br/></p></p> 
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253211">Lorbeer</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+                      
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140740">Bohrloch</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150400">Reliefschmuck</term>
                       
 							</decoNote>
 						</decoDesc>
@@ -236,7 +237,7 @@
         
             <bibl xml:id="7">Boppert 2005, Nr.13 </bibl>
         
-            <bibl xml:id="8">Lobüscher 146f., Nr.107</bibl>
+            <bibl xml:id="8">Lobüscher 2002, 146f. Nr.107</bibl>
         
             <bibl xml:id="9">Scheungraber 2020, 540 Nr.1</bibl>
         </listBibl>
@@ -259,7 +260,7 @@
 <lb n="6"/>VIRILI<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="7"/>V S <gap reason="lost" extent="unknown" unit="character"/><orig/></ab></div>
 			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Merc<supplied reason="lost">urio</supplied>
-<lb n="2"/>Tou<supplied reason="lost">reno</supplied>
+<lb n="2"/>Tou<supplied reason="lost" cert="low">reno</supplied>
 <lb n="3"/>temp<supplied reason="lost">lum</supplied>
 <lb n="4"/>cum <supplied reason="lost">signo</supplied>
 <lb n="5"/>et <expan><abbr>orn<supplied reason="lost">am</supplied></abbr><ex>entis</ex></expan>

@@ -56,14 +56,13 @@
 									<width unit="cm"> 41</width>
 									<depth unit="cm"> 33</depth>
 									</dimensions> <note type="dimensions"> Die Angegebenen Maße beziehen sich auf das erhaltene Fragment.</note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres
-									Fragment</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
 								<layout> <p>Erhalten sind die beiden obersten Zeilen der Inschrift.
 									Ob und wieweit sich die Inschrift unten weiter fortsetzte kann
 									nicht gesagt werden. Die Buchstaben sind unregelmäßig und
-									ungelenk ausgeführt. </p> <note type="condition"/> </layout>
+									ungelenk ausgeführt. </p> <note type="condition">https://gams.uni-graz.at/o:fercan.arch#C.130320</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -74,7 +73,7 @@
 								<term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">Rosette</term>
 								<term ana="https://gams.uni-graz.at/o:fercan.arch#C.140700">Reparatur</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252810">Opferschale</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term> </decoNote>
+                       </decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
@@ -84,7 +83,7 @@
 						<provenance type="found" when="1971"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Haegen</ref> </placeName>
 							<p>Wasserwald, außerhalb des Heiligtums</p> <location>
 							<geo decls="#WGS"/>
-							</location> <note>bei der Ausgrabung eines kleinen Heiligtums mit rechteckiger Cella (AE 2000, 1067); "à 12m à l’extérieur au sud-est de la porte de la cella" (Goubet 2015, 245, Nr.226)</note> </provenance>
+							</location> <note>bei der Ausgrabung eines kleinen Heiligtums mit rechteckiger Cella (AE 2000, 1067); "à 12m à l’extérieur au sud-est de la porte de la cella" (Goubet 2015, 245 Nr.226)</note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung
 							gründet auf: Photo<br/></p></provenance>
 					</history>
@@ -201,9 +200,7 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1070_front.jpg">
-			<desc> Front, Musées du chateau des Rohan, Foto: Ortolf Harl 2017</desc>
-		</graphic>
+		
 		<!-- todo: @xml:id-->
 		
 	</facsimile>
@@ -214,8 +211,7 @@
 				<listBibl>
 					<bibl xml:id="1">CAG 67,1, 316</bibl>
 					<bibl xml:id="3">AE 2000, 1067 </bibl>
-					<bibl xml:id="5">Scheungraber 2020, S. 205,
-						Nr.418</bibl>
+					<bibl xml:id="5">Scheungraber 2020, 205 Nr.418</bibl>
 				
             <bibl xml:id="2">Pétry 1972, 411</bibl>
         
@@ -238,10 +234,11 @@
 <lb n="2" break="no"/>t Nerio
 <lb n="3"/><gap reason="lost" extent="unknown" unit="line"/></ab></div>
 			<div type="translation" xml:lang="de" org="uniform">
-				<p> <p>Für <rs type="divine">Bucius</rs> und <rs type="divine">Nerius</rs></p></p>
+				<p> <p>Für <rs type="divine">Bucius</rs> und <rs type="divine">Nerius!</rs>
+                                                </p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform">
-				<p> <p>To <rs type="divine">Bucius</rs> and <rs type="divine">Nerius</rs><br/></p></p>
+				<p> <p>To <rs type="divine">Bucius</rs> and <rs type="divine">Nerius!</rs></p></p>
 			</div>
 			<div type="apparatus" org="uniform">
 				<app loc="1">
@@ -277,8 +274,8 @@
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
-			<note type="Abb_note">                                                    <p><br/></p></note>
-			<note type="englUEbers_note"/>
+			<note type="Abb_note">                                                    <p>Keine Erlaubnis vom Museum de Rohan, für etwaige Beabreitungsfragen das Bild entweder auf lupa oder unter - Bilder - "Alte Fotos" - Bucius 1070_fr.jpg - einsehbar.<br/></p></note>
+			<note type="englUEbers_note"><p>!<br/></p></note>
 			<note type="dtUEbers_note"/>
 			<note type="Editionen_note">                                                    <p>
                                                         </p>

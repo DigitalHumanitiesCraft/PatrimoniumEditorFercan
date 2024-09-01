@@ -42,7 +42,7 @@
 					<msIdentifier>
 						<settlement>Mainz</settlement>
 						<repository>Landesmuseum</repository>
-						<idno>S 444</idno>
+						<idno>LML 077-d</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>Weihinschrift</summary>
@@ -50,7 +50,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>                                                <p>„Das Altarfragment besitzt eine allseitig vorspringende Deckplatte, deren Kante mit einem umlaufenden kettenartigen Flechtband verziert ist. Darunter folgen Hohlkehle, Rundstab und eine weitere Hohlkehle als Überleitung zum Schaft.“ (Frenz, 1992, 120, Nr.103). Die Basis fehlt vollständig, der Aufsatz ist schwer beschädigt. Zu erkennen sind noch Reste von Pulvini, eventuell mit Rosetten geschmückt, sowie zwischen ihnen der Rest eines Dreieckgiebels. Das Inschriftenfeld ist ungerahmt.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref> </material>
+								<support> <p>                                                <p>„Das Altarfragment besitzt eine allseitig vorspringende Deckplatte, deren Kante mit einem umlaufenden kettenartigen Flechtband verziert ist. Darunter folgen Hohlkehle, Rundstab und eine weitere Hohlkehle als Überleitung zum Schaft.“ (Frenz, 1992, 120 Nr.103). Die Basis fehlt vollständig, der Aufsatz ist schwer beschädigt. Zu erkennen sind noch Reste von Pulvini, eventuell mit Rosetten geschmückt, sowie zwischen ihnen der Rest eines Dreieckgiebels. Das Inschriftenfeld ist ungerahmt.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref> </material>
 									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm">41</height>
 										<width unit="cm">40,5</width>
@@ -59,30 +59,32 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Der Inschriftentext ist unten abgebrochen. Wie viele Zeilen ursprünglich noch folgten kann nicht mehr festgestellt werden. Die Buchstaben sind regelmäßig.</p>
-                                                <p>In Z.4 sind nur mehr die oberen Reste der Buchstaben M E S S erhalten, der Rest des O, welcher bei der Publikation in der AE noch erhalten war, ist inzwischen verloren gegangen.<br/></p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Der Inschriftentext ist unten abgebrochen. Wie viele Zeilen ursprünglich noch folgten, kann nicht mehr festgestellt werden. Die Buchstaben sind regelmäßig.</p>
+                                                <p>In Z.4 sind nur mehr die oberen Reste der Buchstaben M E S S erhalten, der Rest des O, welcher bei der Publikation in der AE noch erhalten war, ist inzwischen verloren gegangen.<br/></p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130320</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="4.5" atMost="4.7">4,5–4,7</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p>                                                <p>„Auf der linken Seite befinden sich in leicht erhöhtem Relief eine nur noch im Ansatz erkennbare Griffschale und ein Futteral mit zwei Opfermessern, auf der rechten Seite ist eine Kanne mit Kleeblattmündung wiedergegeben.“ (Frenz, 1992, 120, Nr.103)</p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160100">Lineardekor</term>
+							<decoNote> <p>                                                <p>„Auf der linken Seite befinden sich in leicht erhöhtem Relief eine nur noch im Ansatz erkennbare Griffschale und ein Futteral mit zwei Opfermessern, auf der rechten Seite ist eine Kanne mit Kleeblattmündung wiedergegeben“ (Frenz, 1992, 120 Nr.103).</p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160100">Lineardekor</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.2528407">Griffschale</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252900">Messer</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.2528408">Kanne</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">Rosette</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150400">Reliefschmuck</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
+                      
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName>Mogontiacum</placeName> <region>Civitas Mattiacorum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1896"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Mainz</ref> </placeName> <p>Ortsteil Kastel; heute Große Kirchgasse 8Frenz 1992, 120 Nr.103)</p> <location>
+						<provenance type="found" when="1896"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Mainz</ref> </placeName> <p>Ortsteil Kastel; heute Große Kirchgasse 8 (Frenz 1992, 120 Nr.103)</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true">„beim Wiederauffüllen der bei der Kanalisierung der gr. Kirchgasse ausgehobenen Erde“ (Körber 1896, Sp.200)</note> </provenance>
+							</location> <note anchored="true">„beim Wiederauffüllen der bei der Kanalisierung der gr. Kirchgasse ausgehobenen Erde“ (Körber 1896, Sp.200); "mit einem weiteren oberen Altarabschnitt bei Bauarbeiten für ein Wohnhaus in der Valentinianstr. 21 innerhalb eines neu ausgehobenen Kanalisationsgrabens am 1.10.1971 entdeckt" (Auskunft Dr. Hensen, Leiter des Lobdengau-Museums).<br/></note> </provenance>
 						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (CIL XIII Projekt)<br/></p>
                                                 </provenance>
 					</history>
@@ -237,7 +239,7 @@
         
             <bibl xml:id="5">Riese 1914, Nr.3165</bibl>
         
-            <bibl xml:id="6">Weber 1966,114f.</bibl>
+            <bibl xml:id="6">Weber 1966, 114f.</bibl>
         
             <bibl xml:id="7">Frenz 1992, Nr.103</bibl>
         
@@ -265,11 +267,13 @@
 				<ab><lb n="1"/>OLLOGA
 <lb n="2"/>BIABVS
 <lb n="3"/>AIIVVA
-<lb n="4"/>MESS<supplied evidence="previouseditor" reason="undefined">O</supplied><gap reason="lost" quantity="1" unit="character"/><orig/></ab></div>
+<lb n="4"/>MESS<supplied evidence="previouseditor" reason="undefined">O</supplied><gap reason="lost" quantity="1" unit="character"/><orig/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="line"/></ab></div>
 			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Olloga
 <lb n="2" break="no"/>biabus
 <lb n="3"/>Aiiuva
-<lb n="4"/>Messo<gap reason="lost" quantity="1" unit="character"/></ab></div>
+<lb n="4"/>Messo<gap reason="lost" quantity="1" unit="character"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="line"/></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
 				<p><p>Für die <rs type="divine">Ollogabiae</rs>!</p><p>Aiiuva Messo…?</p></p>
 			</div>
@@ -283,11 +287,11 @@
 			
             <app loc="3"><note anchored="true">Anuva – AE, Körber (1896, 1900); Aiiuua (non Anuua), Fuisse A[t]iuva(nius) coniecit Mommsenus – CIL; AIIVVA – Kakoschke; A&lt;t &gt;iuva(nius)(?) – EDH; Aiiuvanius – Riese; Apiuva – Franz, Scheungraber, Ferlut die bei der Übersetzung Mommsens Konjektur (s.o.) folgt </note></app>
         
-            <app loc="4"><note anchored="true">der unterstrichene Teil in Z.4 ist heute nicht mehr erhalten, er wird nach AE wiedergegeben; Messo – AE, Körber (1896, 1900); Messor – Riese; Messo[r?] – Kakoschke</note></app>
+            <app loc="4"><note anchored="true">Der unterstrichene Teil in Z.4 ist heute nicht mehr erhalten, er wird nach AE wiedergegeben; Messo – AE, Körber (1896, 1900); Messor – Riese; Messo[r?] – Kakoschke</note></app>
         </div>
 			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Aiiuva Messo...: einheimisches weibliches Namensformular mit Angabe des Namens des Vaters im Genetiv? Oder zwei einheimische Namensformulare?<br/></p>
-                                                <p>Aiiuva: keltischer weiblicher Name, in der Germania Superior und der Belgica belegt (Kakoschke 2021, CN 98). Ob der Name wirklich vollständig so lautete, ob er abgekürzt ist, oder ob eine Verschreibung vorliegt kann nicht mehr festgestellt werden. Hier ist er in der Form wiedergeben die am Stein eindeutig zu lesen ist.</p>
-                                                <p>Messo…: Vermutlich der erhaltene Rest des Namens Messor: lateinischer Name, in Italien und vor allem den keltischen Provinzen belegt (Kakoschke 2021, CN 2047) Wahrscheinlich im Genitiv Messo[ris] – also der Name des Vaters der ersten; allerdings wäre auch eine Ergänzung auf Messo[r] möglich - also Aiiuva und Messor (s. Apparatus criticus).
+                                                <p>Aiiuva: keltischer weiblicher Name, in der Germania Superior und der Belgica belegt (Kakoschke 2021, CN 98). Ob der Name wirklich vollständig so lautete, ob er abgekürzt ist, oder ob eine Verschreibung vorliegt, kann nicht mehr festgestellt werden. Hier ist er in der Form wiedergeben, die am Stein eindeutig zu lesen ist.</p>
+                                                <p>Messo…: Vermutlich der erhaltene Rest des Namens Messor: lateinischer Name, in Italien und vor allem den keltischen Provinzen belegt (Kakoschke 2021, CN 2047). Wahrscheinlich im Genitiv Messo[ris] – also der Name des Vaters der Ersten; allerdings wäre auch eine Ergänzung auf Messo[r] möglich - also Aiiuva und Messor (s. Apparatus criticus).
 			</p></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
 				<p> </p>
@@ -305,7 +309,7 @@
 			<note type="Material_note"><p>Gelblicher Sandstein – Körber 1896 Sp. 200</p></note>
 			<note type="Inschrifttraeger_note"><p>WSpDB: ara</p><p>EDH: Altar</p></note>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"><p>Geschenk der Bürgermeisterei an das Museum – Frenz 1992 S. 120 Nr. 103<br/></p></note>
+			<note type="InvNr_note">                                                    <p>Geschenk der Bürgermeisterei an das Museum – Frenz 1992 S. 120 Nr. 103</p><p>Inventarnummer lt. Mail Andreas Hensen vom 17.6.2024<br/></p></note>
 			<note type="Fundstelle_note"><p>EDH: Mainz-Kastel</p><p>Große Kirchgasse : Frenz 1992 S. 120 Nr. 103</p><p>Kastel = abwechselnd eigener Ort und Ortsteil von Mainz</p></note>
 			<note type="Fundumst_note"><p>Lupa: beim Kanalbau in der Großen Kirchenstraße<br/></p></note>
 			<note type="Fundjahr_note"><p>17. Juli – Frenz 1992 S. 120 Nr. 103</p></note>

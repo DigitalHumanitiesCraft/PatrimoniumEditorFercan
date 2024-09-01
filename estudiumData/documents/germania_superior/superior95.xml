@@ -59,11 +59,11 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Heute ist nurmehr die rechte untere Ecke des Inschriftentextes erhalten,
+								<layout> <p>                                                <p>Heute ist nur mehr die rechte untere Ecke des Inschriftentextes erhalten,
  von Bodewig und CIL wurden aber auch noch die ersten beiden Zeilen 
 gelesen. Die erhaltenen Buchstaben sind unregelmäßig aber gut lesbar. 
 </p>
-                                                <p>Besondere Zeichen: Der Buchstabe A weist keine Querhaste auf.</p></p> <note type="condition" anchored="true"/> </layout>
+                                                <p>Besondere Zeichen: Der Buchstabe A weist keine Querhaste auf.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130320</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -71,7 +71,8 @@ gelesen. Die erhaltenen Buchstaben sind unregelmäßig aber gut lesbar.
 						</handDesc>
 						<decoDesc>
 							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.</p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150500">Rahmen</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150600">Zierleiste</term>
+                      
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -79,7 +80,7 @@ gelesen. Die erhaltenen Buchstaben sind unregelmäßig aber gut lesbar.
 						<origin> <origPlace> <placeName>Confluentes</placeName> <region/> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern.">Koblenz</ref> </placeName> <p>Ecke Gemüsegasse – Florinsmarkt (CIL); heute „An der Liebfrauenkirche“</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true">während der Kanalisation[sarbeiten] (Bodewig 1898, 226, Nr.13), d.h. zwischen 1893 und 1898</note> </provenance>
+							</location> <note anchored="true">während der Kanalisation[sarbeiten] (Bodewig 1898, 226 Nr.13), d.h. zwischen 1893 und 1898</note> </provenance>
 						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (CIL XIII Projekt)<br/></p>
                                                 <p>Lesung gründet auf: CIL und Photo</p></provenance>
 					</history>
@@ -229,7 +230,7 @@ gelesen. Die erhaltenen Buchstaben sind unregelmäßig aber gut lesbar.
 			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
 			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
 				<listBibl>
-					<bibl xml:id="1">Bodewig 1898, 106, Nr.13</bibl>
+					<bibl xml:id="1">Bodewig 1898, 106 Nr.13</bibl>
 				
             <bibl xml:id="2">CIL XIII 7624 </bibl>
         
@@ -275,7 +276,7 @@ gelesen. Die erhaltenen Buchstaben sind unregelmäßig aber gut lesbar.
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="1">
-					<note anchored="true">Z.1–2 sind heute nicht mehr erhalten, sie werden nach CIL wiedergegeben. </note>
+					<note anchored="true">Z.1–2 sind heute nicht mehr erhalten, sie werden nach CIL und Photo wiedergegeben. </note>
 				</app>
 			
             <app loc="3">

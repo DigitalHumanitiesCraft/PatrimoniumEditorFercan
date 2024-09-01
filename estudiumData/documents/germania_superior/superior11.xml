@@ -56,11 +56,11 @@
 										<width unit="cm"> 50</width>
 										<depth unit="cm"> 27</depth>
 									</dimensions> <note type="dimensions"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
 								<layout> <p>                                                <p>Die drei Zeilen des vollständig erhaltenen Inschriftentextes stehen im obersten Teil des Inschriftenfeldes, das darunter unbeschrieben bleibt.</p>
-                                                <p>Am Ende von Z.1 sind vielleicht schwache Reste eines S erkennbar. Die Buchstaben in Z.2 und Z.3 sind bedeutend größer als jene in Z.1, in der darüber hinaus die Abstände zwischen den Buchstaben in der linken Hälfte unausgewogen sind.</p></p> <note type="condition"/> </layout>
+                                                <p>Am Ende von Z.1 sind vielleicht schwache Reste eines S erkennbar. Die Buchstaben in Z.2 und Z.3 sind bedeutend größer als jene in Z.1, in der darüber hinaus die Abstände zwischen den Buchstaben in der linken Hälfte unausgewogen sind.</p></p> <note type="condition">https://gams.uni-graz.at/o:fercan.arch#C.130400</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -75,7 +75,7 @@
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName/> <region>Civitas Vangionum</region> </origPlace> <origDate notBefore="" notAfter=""> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1823"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Bann/Landstuhl</ref> </placeName> <p>„auf dem halben Wege von Landstuhl nach Bann links der Strasse auf dem höchsten Punkte des Waldes“ (CIL)</p> <location>
+						<provenance type="found" when="1823"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Bann</ref> </placeName> <p>„auf dem halben Wege von Landstuhl nach Bann links der Strasse auf dem höchsten Punkte des Waldes“ (CIL)</p> <location>
 								<geo decls="#WGS"/>
 							</location> <note>„bey der Abholzung eines […] Walddistriks“ (CIL)</note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>

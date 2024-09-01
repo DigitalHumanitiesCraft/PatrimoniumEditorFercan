@@ -59,7 +59,8 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130700">unklar</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Die Inschrift ist nur in der Abschrift bzw. Strichzeichnung von Huttich 1520 und 1525 erhalten. Der Vergleich der beiden Zeichnungen von 1520 und 1525 und wiederum der Vergleich mit der Strichzeichnung des Fragments, das Habel 1825 gesehen hat (CIL XIII 7608), zeigen, dass Huttich oder sein Verleger bei den Ausgaben 1520 und 1525, obwohl der Anschein einer Strichzeichnung gegeben wird, keinen Wert auf die Wiedergabe der tatsächlichen Zeilengrenzen usw. gelegt hat. Die scheinbaren Strichzeichnungen 1520/1525, sind daher kein zuverlässiger Hinweis auf die Gestalt der Inschrift (vgl. Matijević 356).</p><p>Besondere Zeichen: Möglicherweise Sonderzeichen für Zenturio in Z.6 (CIL XIII 7608).<br/></p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Die Inschrift ist nur in der Abschrift bzw. Strichzeichnung von Huttich 1520 und 1525 erhalten. Der Vergleich der beiden Zeichnungen von 1520 und 1525 und wiederum der Vergleich mit der Strichzeichnung des Fragments, das Habel 1825 gesehen hat (CIL XIII 7608) zeigen, dass Huttich oder sein Verleger bei den Ausgaben 1520 und 1525, obwohl der Anschein einer Strichzeichnung gegeben wird, keinen Wert auf die Wiedergabe der tatsächlichen Zeilengrenzen usw. gelegt hat. Die scheinbaren Strichzeichnungen 1520/1525 sind daher kein zuverlässiger Hinweis auf die Gestalt der Inschrift (vgl. Matijević [in Vorbereitung], 356).</p>
+                                                <p>Besondere Zeichen: Möglicherweise Sonderzeichen für Zenturio in Z.6 (CIL XIII 7608).<br/></p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130700</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -67,7 +68,7 @@
 						</handDesc>
 						<decoDesc>
 							<decoNote> <p><p>Keine bildliche Gestaltung überliefert.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130100">Abschrift</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+                      
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -208,13 +209,13 @@
 		</graphic>
 	
             <!-- todo: @xml:id-->
-            <graphic mimeType="image/png" url="1081_Abschrift2.png"><desc>Abschrift, Hutten 1520, S.14</desc></graphic>
+            <graphic mimeType="image/png" url="1081_Abschrift2.png"><desc>Abschrift, Hutten 1520</desc></graphic>
         
             <!-- todo: @xml:id-->
-            <graphic mimeType="image/png" url="1081_Abschrift3.png"><desc>Abschrift, Hutten 1525, S.14</desc></graphic>
+            <graphic mimeType="image/png" url="1081_Abschrift3.png"><desc>Abschrift, Hutten 1525</desc></graphic>
         
             <!-- todo: @xml:id-->
-            <graphic mimeType="image/png" url="1081_Abschrift4.png"><desc>Abschrift, Apian 1534, S.478</desc></graphic>
+            <graphic mimeType="image/png" url="1081_Abschrift4.png"><desc>Abschrift, Apian 1534</desc></graphic>
         </facsimile>
 	<text>
 		<body>
@@ -225,17 +226,21 @@
 				
             <bibl xml:id="2">Huttich 1525, f.14</bibl>
         
-            <bibl xml:id="3">CIL XIII 7608</bibl>
+            <bibl xml:id="3">Apian 1534, 478</bibl>
         
-            <bibl xml:id="4">Riese 1914, Nr.1234</bibl>
+            <bibl xml:id="4">Smetius 1588, Tafel 149 Nr.8</bibl>
         
-            <bibl xml:id="5">Behrens 1941, Nr.20</bibl>
+            <bibl xml:id="5">CIL XIII 7608</bibl>
         
-            <bibl xml:id="6">Richier 2004, Nr.328</bibl>
+            <bibl xml:id="6">Riese 1914, Nr.1234</bibl>
         
-            <bibl xml:id="7">Scheungraber 2020, 359 Nr.12</bibl>
+            <bibl xml:id="7">Behrens 1941, Nr.20</bibl>
         
-            <bibl xml:id="8">Matijević (in Vorbereitung) 356–358</bibl>
+            <bibl xml:id="8">Richier 2004, Nr.328</bibl>
+        
+            <bibl xml:id="9">Scheungraber 2020, 359 Nr.12</bibl>
+        
+            <bibl xml:id="10">Matijević (in Vorbereitung), 356–358</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
@@ -265,25 +270,25 @@
 <lb n="7"/><expan><abbr>Pr</abbr><ex>imigeniae</ex></expan> <expan><abbr>P</abbr><ex>iae</ex></expan> <expan><abbr>F</abbr><ex>idelis</ex></expan> ponendum
 <lb n="8"/>curavit</ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
-				<p>                                                <p>Für <rs type="divine">Mars Loucetius</rs>, für das Heil des Imperators, unseres Herrn, des Augustus Pius, hat Quintus Voconius Vitulus, [centurio oder miles legionis] der legio XXII Primigenia Pia Fidelis, dafür Sorge getragen, dass (dies) aufgestellt wurde.</p></p>
+				<p>                                                <p>Für <rs type="divine">Mars Loucetius</rs>, für das Heil des Imperators, unseres Herrn, des Augustus Pius!</p><p>Quintus Voconius Vitulus, [centurio oder miles legionis] der legio XXII Primigenia Pia Fidelis, hat dafür Sorge getragen, dass (dies) aufgestellt wurde.</p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p>                                                <p>For <rs type="divine">Mars Loucetius</rs>, for the wellbeing of the Imperator, our lord, the Augustus Pius, Quintus Voconius Vitulus, [centurio or miles legionis] of the legio XXII Primigenia Pia Fidelis, has taken care that (this) was erected.</p></p>
+				<p>                                                <p>For <rs type="divine">Mars Loucetius</rs>, for the wellbeing of the Imperator, our lord, the Augustus Pius!</p><p>Quintus Voconius Vitulus, [centurio or miles legionis] of the legio XXII Primigenia Pia Fidelis, has taken care that (this) was erected.</p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="1">
-					<note anchored="true">Marti · Leucetio · – Huttich 1520 und 1525</note>
+					<note anchored="true">Marti · Leucetio · – Huttich 1520 und 1525, Smetius; Marti Leucetio pro salute – Apian</note>
 				</app>
 			
-            <app loc="2"><note anchored="true">pro · salute · Imp(eratoris) · – Huttich 1520 und 1525</note></app>
+            <app loc="2"><note anchored="true">pro · salute · Imp(eratoris) · – Huttich 1520 und 1525; Imp(eratoris) Domini n(ostri) Aug(gusti) pii – Apian; pro salute – Smetius</note></app>
         
-            <app loc="3"><note anchored="true">Domini · n̅(ostri) · Augusti · Pii · – Huttich 1520; Domini · n(ostri) · Augusti · Pii – Huttich 1525</note></app>
+            <app loc="3"><note anchored="true">Domini · n̅(ostri) · Augusti · Pii · – Huttich 1520; Domini · n(ostri) · Augusti · Pii – Huttich 1525; O Voconius Vitulus – Apian; Imp(eratoris) Domini n(ostri) Aug(gusti) pii – Smetius</note></app>
         
-            <app loc="4"><note anchored="true">O · Voconius · Vit- – Huttich 1520; O · Voconius · Vitu- – Huttich 1525</note></app>
+            <app loc="4"><note anchored="true">O · Voconius · Vit- – Huttich 1520; O · Voconius · Vitu- – Huttich 1525; leg(ionis) XXII Pr(imigeniae) P(iae) F(idelis) – Apian; Q(uintus) Voconius Vitulus – Smetius</note></app>
         
-            <app loc="5"><note anchored="true">ulus · leg(ionis) · XXII · – Huttich 1520; lus · leg(ionis) · XXII · Pr(imigeniae) · – Huttich 1525; [Q(uintus)] Voconius – Scheungraber</note></app>
+            <app loc="5"><note anchored="true">ulus · leg(ionis) · XXII · – Huttich 1520; lus · leg(ionis) · XXII · Pr(imigeniae) · – Huttich 1525; poendum curavit – Apian; &gt; leg(ionis) XXII Pr(imigeniae) P(iae) F(idelis) – Smetius; [Q(uintus)] Voconius – Scheungraber</note></app>
         
-            <app loc="6"><note anchored="true">Pr(imigeniae) · P(iae) · F(idelis) · ponendu̅(m) – Huttich 1520; P(iae) · F(idelis) · ponendum · – Huttich 1525; Vitulus – Scheungraber</note></app>
+            <app loc="6"><note anchored="true">Pr(imigeniae) · P(iae) · F(idelis) · ponendu̅(m) – Huttich 1520; P(iae) · F(idelis) · ponendum · – Huttich 1525;  poendum curavit – Smetius; Vitulus – Scheungraber</note></app>
         
             <app loc="7"><note anchored="true">curavit · – Huttich 1520 und 1525; [(centurio)] leg(ionis) XXII – Scheungraber</note></app>
         
@@ -295,10 +300,10 @@
                                                 <p>Voconius: italisches Gentilnomen, vielerorts vorhanden (Kakoschke 2021, GN 1502).</p>
                                                 <p>Vitulus: lateinischer Name, vielerorts verbreitet (Kakoschke 2021, CN 3401).</p>
                                                 <p><br/></p>
-                                                <p>Quintus: Huttich, der einzige Zeuge, liest O an Stelle von Q. Erst Smetius interpretiert Huttichs O als Q, das auf den häufigen Vornamen Quintus deuten würde. Es ist nicht auszuschließen, dass O als Abkürzung des selteneren Vornamens Olus (= Aulus) stand (Klein/Becker; vgl. z.B. CIL XI 1075 und wenigstens 15 weitere Inschriften nach EDCS).</p>
-                                                <p>Dominus noster: eine Anrede an den Kaiser, die auf Inschriften erst im dritten Jahrhundert verbreitet ist (Matijević [in Vorbereitung] 358).</p>
-                                                <p>Aug(usti) Pii: Da die Inschrift verloren ist, ist unsicher, ob hier eine vom einzigen Zeugen Huttich nicht angezeigte Rasur vorlag (s. Inschrift). Das muss für wahrscheinlich gelten, da Augustus Pius allein keine bekannte Kaisertitulatur ist. Möglich wären also alle Kaiser deren Titulatur die Elemente Augustus und Pius enthält. Das sind neben dem ursprünglich favorisierten und in zahlreichen Inschriften mit dem Namenselement Augustus Pius belegten Antoninus Pius (z.B. HD058518; AE 1931, 88; AE 1992, 1797; u.v.m.) (Matijević [in Vorbereitung] 357) auch die Kaiser, die sich später auf ihn beriefen, Elagabal und Alexander Severus (CIL). Zusätzlich kommen auch Mark Aurel (vgl. v. Arnim 2291), Commodus, nachdem er 183 den Beinamen Pius angenommen hatte (vgl. v. Rohden 2470, 2474–2475) und Caracalla, der den Beinamen Pius ab 200 trug (vgl. v. Rohden 2437) in Frage. Für Commodus, Caracalla, Elagabal und Alexander Severus erscheint der Umstand der Rasur passender als für Antoninus Pius oder Mark Aurel.</p>
-                                                <p>Möglich wäre auch, dass die Inschrift ohne Rasur wie überliefert stand und sich das Formular pro salute mit der ungewöhnlichen Titulatur auf einen der oben genannten Kaiser bezog. Die Formel pro salute Imperatoris begegnet noch auf einer weiteren Weihinschrift an Mars Loucetius aus Groß-Gerau (CF-GeS-1094).</p>
+                                                <p>Quintus: Huttich (1520/1525 f.14), der einzige Zeuge, liest O an Stelle von Q. Erst Smetius (1588, Platte 149 Nr.8) interpretiert Huttichs O als Q, das auf den häufigen Vornamen Quintus deuten würde. Es ist nicht auszuschließen, dass O als Abkürzung des selteneren Vornamens Olus (= Aulus) stand (Matijević [in Vorbereitung], 358 mit Literatur; vgl. z.B. CIL XI 1075 und wenigstens 15 weitere Inschriften nach EDCS).</p>
+                                                <p>Dominus noster: eine Anrede an den Kaiser, die auf Inschriften erst im dritten Jahrhundert verbreitet ist (Matijević [in Vorbereitung], 358).</p>
+                                                <p>Aug(usti) Pii: Da die Inschrift verloren ist, ist unsicher, ob hier eine vom einzigen Zeugen Huttich nicht angezeigte Rasur vorlag (s. Inschrift). Das muss für wahrscheinlich gelten, da Augustus Pius allein keine bekannte Kaisertitulatur ist. Möglich wären also alle Kaiser deren Titulatur die Elemente Augustus und Pius enthält. Das sind neben dem ursprünglich favorisierten und in zahlreichen Inschriften mit dem Namenselement Augustus Pius belegten Antoninus Pius (z.B. HD058518; AE 1931, 88; AE 1992, 1797; u.v.m.; Matijević [in Vorbereitung], 357) auch die Kaiser, die sich später auf ihn beriefen, also Elagabal und Alexander Severus. Zusätzlich kommen auch Mark Aurel, Commodus, nachdem er 183 n.Chr. den Beinamen Pius angenommen hatte und Caracalla, der den Beinamen Pius ab 200 n.Chr. trug in Frage. Für Commodus, Caracalla, Elagabal und Alexander Severus erscheint der Umstand der Rasur passender als für Antoninus Pius oder Mark Aurel.</p>
+                                                <p>Möglich wäre auch, dass die Inschrift ohne Rasur, wie überliefert, stand und sich das Formular pro salute mit der ungewöhnlichen Titulatur auf einen der oben genannten Kaiser bezog. Die Formel pro salute Imperatoris begegnet noch auf einer weiteren Weihinschrift an Mars Loucetius aus Groß-Gerau (CF-GeS-1094).</p>
                                                 </div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
 				<p> </p>
@@ -337,7 +342,30 @@
 			<note type="Buchsthoehe_note">                                                    <p>Nicht mehr nachvollziehbar, da verschollen. <br/></p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
-			<note type="SonstKomm_note"/>
+			<note type="SonstKomm_note"><p>Alte Version (Enno):</p><p>Quintus: Huttich, der einzige Zeuge, liest O an Stelle von Q. Erst 
+Smetius interpretiert Huttichs O als Q, das auf den häufigen Vornamen 
+Quintus deuten würde. Es ist nicht auszuschließen, dass O als Abkürzung 
+des selteneren Vornamens Olus (= Aulus) stand (Klein/Becker; vgl. z.B. 
+CIL XI 1075 und wenigstens 15 weitere Inschriften nach EDCS).</p>
+                                                <p>Dominus noster: eine 
+Anrede an den Kaiser, die auf Inschriften erst im dritten Jahrhundert 
+verbreitet ist (Matijević [in Vorbereitung], 358).</p>
+                                                <p>Aug(usti) Pii: Da die
+ Inschrift verloren ist, ist unsicher, ob hier eine vom einzigen Zeugen 
+Huttich nicht angezeigte Rasur vorlag (s. Inschrift). Das muss für 
+wahrscheinlich gelten, da Augustus Pius allein keine bekannte 
+Kaisertitulatur ist. Möglich wären also alle Kaiser deren Titulatur die 
+Elemente Augustus und Pius enthält. Das sind neben dem ursprünglich 
+favorisierten und in zahlreichen Inschriften mit dem Namenselement 
+Augustus Pius belegten Antoninus Pius (z.B. HD058518; AE 1931, 88; AE 
+1992, 1797; u.v.m.; Matijević [in Vorbereitung], 357) auch die Kaiser, 
+die sich später auf ihn beriefen, also Elagabal und Alexander Severus 
+(CIL). Zusätzlich kommen auch Mark Aurel (vgl. v. Arnim 2291), Commodus,
+ nachdem er 183 den Beinamen Pius angenommen hatte (vgl. v. Rohden 2470,
+ 2474–2475) und Caracalla, der den Beinamen Pius ab 200 trug (vgl. v. 
+Rohden 2437) in Frage. Für Commodus, Caracalla, Elagabal und Alexander 
+Severus erscheint der Umstand der Rasur passender als für Antoninus Pius
+ oder Mark Aurel.</p><p/></note>
 			<note type="Datierung_note"><p>Kakoschke 2021: 3. Jhdt.</p><p>Aus den möglichen Kaisernamen lässt sich der Zeitraum auf 138-235 eingrenzen.</p><p>Matijević 358: „in die ersten Jahrzehnte des dritten Jahrhunderts“</p></note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>

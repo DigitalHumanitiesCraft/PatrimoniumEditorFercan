@@ -114,7 +114,7 @@
     <!-- Kultfuktionaere -->
     <teiElement>
         <nm>Kultfuktionaere</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person/tei:persName/tei:roleName[@type="religious"]/tei:ref</xpath>
+        <xpath>/tei:teiHeader/tei:fileDesc//tei:org[@type="religious_group"]//tei:ref</xpath>
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
@@ -132,7 +132,7 @@
     <!--  -->
     <teiElement>
         <nm>Inschriftenformel</nm>
-        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[@target="context:fercan.dedication."]</xpath>
+        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[contains(@target, "context:fercan.dedication.")]</xpath>
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
@@ -141,7 +141,7 @@
     <!--  -->
     <teiElement>
         <nm>ReligionSonstiges</nm>
-        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[@target="context:fercan.rel.other."]</xpath>
+        <xpath>/tei:body//tei:ref[contains(@target,"context:fercan.rel.other.")]</xpath>
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
@@ -186,7 +186,7 @@
     <!--  -->
     <teiElement>
         <nm>BesondereZeichen</nm>
-        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[@target="context:fercan.character."]</xpath>
+        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[contains(@target, "context:fercan.character.")]</xpath>
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
@@ -195,7 +195,7 @@
     <!--  -->
     <teiElement>
         <nm>SonstigeBesonderheiten</nm>
-        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[@target="context:fercan.other."]</xpath>
+        <xpath>/tei:body//tei:ref[contains(@target, "context:fercan.other.")]</xpath>
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
@@ -213,7 +213,7 @@
     <!--  -->
     <teiElement>
         <nm>Belegformgesamt</nm>
-        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[@target="context:fercan.divinepart."]</xpath>
+        <xpath>/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item/tei:ref[contains(@target, "context:fercan.divinepart.")]</xpath>
         <contentType>text</contentType>
         <fieldType>input</fieldType>
         <cardinality>1</cardinality>
@@ -652,8 +652,8 @@
     <!-- Erh.zust. Inschr. -->
     <teiElement>
         <nm>ErhzustInschr</nm>
-        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:condition/tei:ref/@ana</xpath>
-        <contentType>textNodeAndAttribute</contentType>
+        <xpath>/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:layoutDesc/tei:layout/tei:note</xpath>
+        <contentType>text</contentType>
         <cardinality>1</cardinality>
         <formLabel xml:lang="en">Zustand Inschrift</formLabel>
         <fieldType>combobox</fieldType>

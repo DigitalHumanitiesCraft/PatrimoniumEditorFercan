@@ -169,12 +169,12 @@ Die Schmalseiten sind mit Baumdarstellungen in Relief gestaltet. Die Motive ähn
                 <listPerson default="false">
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.exomnus">Exomnus</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.exomnus">Exomnus; Leubasnius</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="cognomen" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.person.cognomen.leubasnius">Leubasnius</ref>
+                            <ref type="context" target="context:fercan.person.cognomen.leubasnius">Exomnus; Leubasnius</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -239,7 +239,7 @@ Die Schmalseiten sind mit Baumdarstellungen in Relief gestaltet. Die Motive ähn
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">M(---) Vacallinehis</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -253,10 +253,10 @@ Die Schmalseiten sind mit Baumdarstellungen in Relief gestaltet. Die Motive ähn
             <desc>Front, CIL XIII Projekt, CC BY-NC</desc>
         </graphic>
         <graphic mimeType="image/jpeg" xml:id="IMAGE.2" url="file:///0228_Front, Seiten, oben.jpg">
-            <desc>, Rechte vorbehalten</desc>
+            <desc>Front, oben, links und rechts, Rechte vorbehalten</desc>
         </graphic>
         <graphic mimeType="image/jpeg" xml:id="IMAGE.3" url="file:///0228_Front, re, Zeichnung.jpg">
-            <desc>, Rechte vorbehalten</desc>
+            <desc>Abschrift, Rechte vorbehalten</desc>
         </graphic>
     </facsimile>
     <text>
@@ -268,7 +268,7 @@ Die Schmalseiten sind mit Baumdarstellungen in Relief gestaltet. Die Motive ähn
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1918, Nr.349</bibl>
                     <bibl xml:id="LIT.2" default="false" status="draft">Finke 1927, Nr.266</bibl>
-                    <bibl xml:id="LIT.3" default="false" status="draft">Alföldy 1968, Nr.25</bibl>
+                    <bibl xml:id="LIT.3" default="false" status="draft">Alföldy 1968 (Rheinland III), 38 Nr.25</bibl>
                     <bibl xml:id="LIT.4" default="false" status="draft">AE 1968, 339</bibl>
                     <bibl xml:id="LIT.5" default="false" status="draft">Raybould/Sims-Williams 2007, 81 Nr.BEG 169</bibl>
                 
@@ -327,7 +327,11 @@ Exomnus: keltisches Cognomen (Kakoschke 2006, GN 1244). <lb/>
 Bei dem Dedikanten handelt es sich um einen Einheimischen ohne römisches Bürgerrecht. </p>
             </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Vacallinehae:</rs> keltisch: ‚Unter den Bäumen bzw. dem Wald Verweilende [Muttergöttinen]‘ 
-(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243).  </p>
+(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)  </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>

@@ -56,11 +56,11 @@
 										<width unit="cm"> 22</width>
 										<depth unit="cm"> 19</depth>
 									</dimensions> <note type="dimensions"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
 								<layout> <p>                                                <p>Die erste Zeile mit dem Votivformular befindet sich außerhalb des Inschriftenfeldes auf der corona; die Buchstaben sind bedeutend kleiner als jene des Inschriftenfeldes. Das Inschriftenfeld wird vom Text vollständig ausgefüllt. Die Buchstaben sind durchweg unregelmäßig und in unterschiedlichen Zeilen von verschiedener Größe. Farbreste lassen darauf schließen, dass die Buchstaben ursprünglich rot ausgemalt waren; später wurde die ganze Inschrift weiß überstrichen.</p>
-                                                <p>Zu Ligaturen: In Z.1 könnte das N eventuell als N in Ligatur mit I gelesen werden, doch dürfte das eher nicht zutreffen.  – Besondere Zeichen: in Z.1 findet sich eine hedera nach D.</p></p> <note type="condition"/> </layout>
+                                                <p>Zu Ligaturen: In Z.1 könnte das N eventuell als N in Ligatur mit I gelesen werden, doch dürfte das eher nicht zutreffen.  – Besondere Zeichen: in Z.1 findet sich eine hedera nach D. Die Längshaste des G in Z.2 ist nicht gerade, sondern eingerollt.</p></p> <note type="condition">https://gams.uni-graz.at/o:fercan.arch#C.130400</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -72,14 +72,17 @@
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150100">Inschrift außerhalb des Inschriftenfeldes</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.160400">Sonne</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale</term>
+                      
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130900">Brandspuren</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale (Gestaltungsmerkmal)</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140730">Eisenstift</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140760">Bleibatzen</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName>Argentorate</placeName> <region>Civitas Tribocorum</region> </origPlace> <origDate notBefore="" notAfter=""><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1911"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Straßburg</ref> </placeName> <p>Königshofen, im Mithraeum, hinter dem Eingang zur cella (Vermaseren 1960, 133, Nr.1350)</p> <location>
+						<provenance type="found" when="1911"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Straßburg</ref> </placeName> <p>Königshofen, im Mithraeum, hinter dem Eingang zur cella (Vermaseren 1960, 133 Nr.1350)</p> <location>
 								<geo decls="#WGS"/>
 							</location> <note/> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung gründet auf: CIL und Photo</p></provenance>
@@ -234,7 +237,7 @@
 					<bibl type="EDCS"><idno> EDCS-12300112</idno><date>zuletzt abgerufen 2023-03-13</date></bibl>
 					<bibl type="EDH"><idno>HD027583</idno><date>Version von 2018-08-24</date></bibl>
 					<bibl type="trismegistos"><idno> </idno><date> </date></bibl>
-					<bibl type="lupa"><idno> </idno><date> </date></bibl>
+					<bibl type="lupa"><idno>https://lupa.at/24103</idno><date>Version von 2020-07-06</date></bibl>
 					<bibl type="other"><idno> </idno><date> </date></bibl>
 				</listBibl>
 			</div>
@@ -268,12 +271,12 @@
         
             <app loc="6"><note anchored="true">l(ibens) l(aetus) – Vermaseren, EDH, CAG, Engster, Scheungraber </note></app>
         </div>
-			<div type="commentary" subtype="general" org="uniform">                                                <p>Gittonius Pippausus: römisches Namensformular ohne Pränomen</p>
+			<div type="commentary" subtype="general" org="uniform">                                                <p>Gittonius Pippausus: römisches Namensformular ohne Praenomen</p>
                                                 <p>Gittonius: einheimische Bildung mit keltischer Basis, nur in dieser Inschrift bezeugt (Kakoschke 2021, GN 566)</p>
                                                 <p>Pippausus: keltischer Name, nur in dieser Inschrift bezugt (Kakoschke 2021, CN 2406)
 			</p></div>
 			<div type="commentary" subtype="language" org="uniform">
-				<p> </p>
+				<p>v.1: „Cissono” pro „Cissonio”</p>
 			</div>
 			<div type="commentary" subtype="deity" org="uniform">
 				<p> </p>

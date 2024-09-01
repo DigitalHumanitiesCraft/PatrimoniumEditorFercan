@@ -50,34 +50,35 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>                                                <p>Von diesem Weihealtar ist nur mehr die Bekrönung und der Beginn des ungerahmten Inschriftenfeldes vorhanden. Diese zwei Teile sind durch mehrere Stufen voneinander getrennt. Der Aufsatz ist durch Pulvini mit Rosetten geschmückt, wobei die rechte Volute abgebrochen ist. Dazwischen befindet sich ein Dreiecksgiebel und dahinter eventuell die Opferschale.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+								<support> <p>                                                <p>Von diesem Weihealtar sind nur mehr die Bekrönung und der Beginn des ungerahmten Inschriftenfeldes vorhanden. Diese zwei Teile sind durch mehrere Stufen voneinander getrennt. Der Aufsatz ist durch Pulvini mit Rosetten geschmückt, wobei die rechte Volute abgebrochen ist. Dazwischen befindet sich ein Dreiecksgiebel und dahinter eventuell die Opferschale.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
 									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm">63</height>
 										<width unit="cm">30</width>
 										<depth unit="cm">24</depth>
 									</dimensions> <note type="dimensions" anchored="true">Die angegebenen Maße sind die des erhaltenen Fragmentes.</note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130320">kleineres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
 								<layout> <p>                                                <p>Der Inschriftentext befand sich auf zwei Blöcken, von denen nur der obere mit Z. 1 und 2 erhalten ist. Der untere, auf dem eine weitere Zeile zu lesen war, ist nur mehr abschriftlich erhalten (s. Frenz 1992, Nr.185). Ob sich der Inschriftentext über die ersten drei Zeilen hinaus nach unten vielleicht noch weiter fortgesetzt hat, kann nicht mehr überprüft werden. Der Text ist stark abgerieben aber lesbar.</p>
-                                                <p>Besondere Zeichen: Oberhalb des I von Z.2 ist ein kleineres V wohl nachträglich über dem I zwischen Z.1 und Z.2 eingefügt worden. Das O in Z.2 ist kleiner als die übrigen Buchstaben.</p></p> <note type="condition" anchored="true"/> </layout>
+                                                <p>Besondere Zeichen: Oberhalb des I von Z.2 ist ein kleineres V wohl nachträglich über dem I zwischen Z.1 und Z.2 eingefügt worden. Das O in Z.2 ist kleiner als die übrigen Buchstaben.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130320</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden. <br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden. <br/></p></p> 
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">Rosette</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale (Gestaltungsmerkmal)</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName>Altiaia</placeName> <region>Civitas Vangionum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1872"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Alzey</ref> </placeName> <p>auf den Drommäckern zwischen der alten Schlossruine und der Loge [spätantikem Kastell] (CIL); „in einem Acker des Gärtners A. Braun“ (Wimmer 1874, 10); „zwischen dem Schloß und dem Dautenheimer Weg“ (Weber 1966, 3, Nr.6266)</p> <location>
+						<provenance type="found" when="1872"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Alzey</ref> </placeName> <p>auf den Drommäckern zwischen der alten Schlossruine und der Loge [spätantikem Kastell] (CIL); „in einem Acker des Gärtners A. Braun“ (Wimmer 1874, 10); „zwischen dem Schloß und dem Dautenheimer Weg“ (Weber 1966, 3 Nr.6266)</p> <location>
 								<geo decls="#WGS"/>
 							</location> <note anchored="true"/> </provenance>
 						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (CIL XIII Projekt)</p></provenance>
@@ -195,6 +196,9 @@
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
 						<!-- Belegform gesamt  -->
 						<item> <ref target="context:fercan.divinepart." type="context">dea(e) Sul(i)?</ref> </item>
+						<item>
+<ref target="info:fedora/context:fercan.other." type="context">nachträgliches Einfügen</ref>
+</item>
 					</list>
 				</keywords>
 			</textClass>
@@ -271,11 +275,11 @@
 				</app>
 			
             <app loc="3">
-                <note anchored="true">der unterstrichene Teil in Z.3 ist heute nicht mehr erhalten, er wird nach CIL wiedergegeben; Lucanus – Riese</note>
+                <note anchored="true">Der unterstrichene Teil in Z.3 ist heute nicht mehr erhalten, er wird nach CIL wiedergegeben; Lucanus – Riese</note>
             </app>
         </div>
-			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Attonius Lucanus: römisches Namensformular ohne Pränomen</p>
-                                                <p>Attonius: einheimisches Pseudugentilnomen, abgeleitet vom keltischen oder germanischen Namen Atto, vor allem in der Germania Superior auftretend (Kakoschke 2021, GN 164)</p>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Attonius Lucanus: römisches Namensformular ohne Praenomen</p>
+                                                <p>Attonius: einheimisches Pseudogentilnomen, abgeleitet vom keltischen oder germanischen Namen Atto, vor allem in der Germania Superior auftretend (Kakoschke 2021, GN 164)</p>
                                                 <p>Lucanus: gängiger lateinischer Name (Kakoschke 2021, CN 1783)</p></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
 				<p> </p>

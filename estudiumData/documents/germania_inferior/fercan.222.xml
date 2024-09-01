@@ -95,7 +95,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">Erhalten sind zwei Fragmente eines einzeiligen Inschriftenelements, die offenbar zusammengehören. Die Größe des Zwischenraums lässt sich nicht bestimmen; auch nicht, wieweit sich die Inschrift nach rechts fortsetzte. Der linke, obere und untere Rand sind dagegen erkennbar.<lb/>Ligaturen: s. Majuskeltext</p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">mehrere Fragmente</tei:note>
+                                    <note type="condition" anchored="true">mehrere Fragmente</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -117,9 +117,7 @@
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.240100">
                                     <ref type="context" target="context:fercan.arch.goetterbild">Götterbild</ref>
                                 </term>
-                                <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220800">
-                                    <ref type="context" target="context:fercan.arch.kanneliert">kanneliert</ref>
-                                </term>
+                                
                                 <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220500">
                                     <ref type="context" target="context:fercan.arch.pilaster">Pilaster</ref>
                                 </term>
@@ -138,9 +136,9 @@
                                 <ref type="context" target="context:fercan.geog.modern.bad_muenstereifel_noethen_pesch_temp">Bad Münstereifel Nöthen (Pesch), Tempelbezirk (Matronentempel Eifel)</ref>
                             </placeName>
                             <p part="N">Hof A</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">50.533852 6.702742</geo>
-                            </tei:location>
+                            </location>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)</provenance>
                     </history>
@@ -151,7 +149,7 @@
                 <listPerson default="false">
                     <person instant="false">
                         <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.dcn.vacallinehae">Vacallinehae</ref>
+                            <ref type="context" target="context:fercan.dcn.vacallinehae">Epona?; Vacallinehae</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -161,7 +159,7 @@
                     </person>
                     <person instant="false">
                         <persName type="divine" subtype="celtic_normalized" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.dcn.epona_">Epona?</ref>
+                            <ref type="context" target="context:fercan.dcn.epona_">Epona?; Vacallinehae</ref>
                         </persName>
                     </person>
                     <person instant="false">
@@ -171,12 +169,12 @@
                     </person>
                     <person instant="false">
                         <persName type="divine" subtype="celtic_element" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.dce.epona_">Epona?</ref>
+                            <ref type="context" target="context:fercan.dce.epona_">Epona?; Vacallinehae</ref>
                         </persName>
                     </person>
                     <person instant="false">
                         <persName type="divine" subtype="celtic_element" instant="false" full="yes">
-                            <ref type="context" target="context:fercan.dce.vacallinehae">Vacallinehae</ref>
+                            <ref type="context" target="context:fercan.dce.vacallinehae">Epona?; Vacallinehae</ref>
                         </persName>
                     </person>
                 </listPerson>
@@ -220,7 +218,7 @@
             <textClass default="false">
                 <keywords>
                     <list>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Ep[---]; Vacal[---]</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -242,12 +240,18 @@
             <div subtype="editions" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl default="false">
                     <bibl xml:id="LIT.1" default="false" status="draft">Lehner 1918, Nr.399, 415</bibl>
-                    <bibl xml:id="LIT.2" default="false" status="draft">Alföldy 1968, Nr.146</bibl>
+                    <bibl xml:id="LIT.2" default="false" status="draft">Alföldy 1968 (Rheinland III), 53f Nr.146</bibl>
                     <bibl xml:id="LIT.3" default="false" status="draft">Biller 2010, 223–224</bibl>
-                </listBibl>
+                
+            <bibl xml:id="4">Scheungraber 2020, 569 Nr.120</bibl>
+        </listBibl>
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD077157</idno>
+                        <date>Version vom 12. April 2019</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-35600105</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -270,11 +274,15 @@
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">[Matronis] V̂aca[llinehis] – Lehner, der die beiden Fragmente noch nicht zusammenstellt; Ep[onae(?) et] V̂aca[llinehis] – Alföldy; Ep[onae et] V̂aca[llinehis] – Biller</tei:note>
+                    <note anchored="true">[Matronis] V̂aca[llinehis] – Lehner, der die beiden Fragmente noch nicht zusammenstellt; Ep[onae(?) et] V̂aca[llinehis] – Alföldy; Ep[onae et] V̂aca[llinehis] – Biller; Ep[onae? et?] Vacal[linehis ------? – EDH, Scheungraber</note>
                 </app>
             </div>
             <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Vacal…:</rs> Rest von  <rs type="divine">Vacallinehae</rs> oder einer Variante: keltisch: ‚Unter den Bäumen bzw. dem Wald Verweilende [Muttergöttinen]‘ 
-(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243).</p>
+(de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 241-243). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.)</p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
@@ -295,49 +303,60 @@ Vorkommen in theonymischen Formularen: </p>
 *** </p>
                                                 <p part="N">
 
- <rs type="divine">Ep…:</rs> möglicherweise Rest von  <rs type="divine">Epona:</rs> keltisch: ‚Göttliche Stute’ bzw. ‚Pferdegöttin’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 94). </p>
-                                                <p part="N">
-
-Vorkommen in theonymischen Formularen: </p>
-                                                <p part="N">
- <rs type="divine">Epona</rs>: <lb/>
-- Germania Inferior: Der Göttername ist in dieser Provinz nirgendwo gesichert bezeugt. Die von Alföldy für die hier besprochene Inschrift vorgeschlagene Ergänzung von EP auf „Eponae“ ist erwägenswert, kann aber keinesfalls als Beleg für die Nennung dieser Göttin gelten. <lb/> 
-- außerhalb der Germania Inferior: in der Germania Superior 7x (CF-GeS-1001, CF-GeS-1002, CF-GeS-1003, CF-GeS-1005, CF-GeS-1006, CF-GeS-1007, CF-GeS-1084) belegt. Der Göttername ist im Imperium Romanum epigraphisch weit verbreitet belegt und auch in literarischen Quellen gut bezeugt. Neben <rs type="divine">Belenus</rs> und <rs type="divine">Rhenus</rs> ist er der einzige keltische Göttername, der in den literarischen Quellen in mehreren voneinander unabhängigen Stellen erwähnt wird (Hofeneder 2013, 130).</p>
-            </div>
+ <rs type="divine">Ep…:</rs> möglicherweise Rest von  <rs type="divine">Epona: </rs>keltisch: ‚Göttliche Stute’ bzw. ‚Pferdegöttin’ (de 
+Bernardo Stempel Corpus F.E.R.C.A.N. II/1 94). (Hier wird kein 
+sprachwissenschaftlicher Beitrag geleistet. Die Literaturangaben dienen 
+lediglich dazu, einen Einstieg in die sprachwissenschaftliche Diskussion
+ zu bieten. Besprochen werden alle Götternamen, die bislang als keltisch
+ oder teilweise keltisch gedeutet wurden.).</p>
+                                                <p>Vorkommen:</p>
+                                                <p>Der Göttername ist im Imperium Romanum epigraphisch weit verbreitet belegt und auch in literarischen Quellen gut bezeugt. Neben <rs type="divine">Belenus </rs>und <rs type="divine">Rhenus </rs>ist
+ er der einzige keltische Göttername, der in den literarischen Quellen 
+in mehreren voneinander unabhängigen Stellen erwähnt wird (Hofeneder 
+2013, 130).</p>
+                                                <p>Im Untersuchungsgebiet kommt der Göttername in folgendem theonymischen Formular vor:</p>
+                                                <p>
+                                                    <rs type="divine">Epona</rs>:</p>
+                                                <p>-
+ Germania Inferior: CF-GeI-222(?). Die von Alföldy für die hier besprochene Inschrift vorgeschlagene 
+Ergänzung von EP auf „Eponae“ ist erwägenswert, kann aber keinesfalls 
+als Beleg für die Nennung dieser Göttin gelten. - Germania Superior: CF-GeS-1001, CF-GeS-1002, 
+CF-GeS-1003, CF-GeS-1005, CF-GeS-1006, CF-GeS-1007, CF-GeS-1084, 
+CF-GeS-1124, CF-GeS-1134</p></div>
             <linkGrp type="alignment" domains="#majuscule #minuscule">
                 <link target="#MAJ.1 #MIN.1"/>
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">                                                    <p part="N">Alte Version (20.4.23):</p>
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">                                                    <p part="N">Alte Version (20.4.23):</p>
                                                     <p part="N"> Vacal…: Rest von  Vacallinehae
  oder einer Variante: Die Etymologie weist auf Waldgottheiten hin: ‚die 
 unter den Bäumen bzw. dem Wald Verweilenden‘ (vgl. de Bernardo Stempel 
@@ -378,7 +397,7 @@ vorgeschlagene Ergänzung von EP auf „Eponae“ ist erwägenswert, kann aber
 CF-GeI-32 ist der Fundort CCAA sehr fraglich.  
 - außerhalb der Germania Inferior:   Epona ist an zahlreichen Orten gut belegt.</p>
                                                     <p part="N"/>
-            </tei:note>
+            </note>
         </back>
     </text>
 </TEI>

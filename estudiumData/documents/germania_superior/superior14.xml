@@ -56,16 +56,15 @@
 										<width unit="cm"> 30</width>
 										<depth unit="cm"> 20</depth>
 									</dimensions> <note type="dimensions"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130600">größere Fehlstelle/n</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>„Der Stein wurde noch vollständig in einem Steinbruch 1841 neben der Kirche gefunden und vom Finder verstümmelt.“ (Anthes 1897, 221), diese „Verstümmelung“ scheint jedoch vornehmlich den Altaraufsatz und nicht das Inschriftenfeld betroffen zu haben.</p>
-                                                <p>Die Buchstaben sind sowohl an Form als auch Tiefe ungleichmäßig.</p>
-                                                <p>Die Anfangsbuchstaben der ersten beiden Zeilen sind beschädigt. In Z.1 ist der Stein entlang des C-Bogens weggebrochen und in Z.2 fehlt etwas mehr als die linke Hälfte der Schräghaste des V. Die Zeilen 1–4 sind am rechten Ende leicht beschädigt, sodass von den S in Z.1, Z.3 und Z.4 und dem C in Z.2 nur Teile der Krümmungen erhalten sind. Die untere Hälfte ist bis auf die beiden Buchstaben M und P abgerieben, wobei zwischen diesen eine Zeile leer bleibt. Nach dem P sind möglicherweise Spuren von weiteren Buchstaben erhalten. Anthes vermutet, dass der Stein zweimal beschrieben war.<br/></p></p> <note type="condition"/> </layout>
+								<layout> <p>                                                <p>„Der Stein wurde noch vollständig in einem Steinbruch 1841 neben der Kirche gefunden und vom Finder verstümmelt“ (Anthes 1897, 221), diese „Verstümmelung“ scheint jedoch vornehmlich den Altaraufsatz und nicht das Inschriftenfeld betroffen zu haben.</p>
+                                                <p>Die Buchstaben sind sowohl an Form als auch Tiefe ungleichmäßig. Die Anfangsbuchstaben der ersten beiden Zeilen sind beschädigt. In Z.1 ist der Stein entlang des C-Bogens weggebrochen und in Z.2 fehlt etwas mehr als die linke Hälfte der Schräghaste des V. Die Zeilen 1–4 sind am rechten Ende leicht beschädigt, sodass von den S in Z.1, Z.3 und Z.4 und dem C in Z.2 nur Teile der Krümmungen erhalten sind. Die untere Hälfte ist bis auf die beiden Buchstaben M und P abgerieben, wobei zwischen diesen eine Zeile leer bleibt. Nach dem P sind möglicherweise Spuren von weiteren Buchstaben erhalten. Anthes vermutet, dass der Stein zweimal beschrieben war.<br/></p></p> <note type="condition">https://gams.uni-graz.at/o:fercan.arch#C.130400</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
-							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="0" atMost="0"/> </handNote>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="2.3" atMost="4.0">2,3–4,0</height> </handNote>
 						</handDesc>
 						<decoDesc>
 							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
@@ -199,6 +198,11 @@
             <graphic mimeType="image/jpeg" url="1087_front2.jpg">
                 <desc>Front schräg von links, CIL XIII Projekt, CC BY-NC</desc>
             </graphic>
+        
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1087_front3.jpg">
+                <desc>Front, Hessisches Landesmuseum Darmstadt, Foto: Thomas Foerster</desc>
+            </graphic>
         </facsimile>
 	<text>
 		<body>
@@ -254,10 +258,10 @@
 <lb n="5"/><expan><abbr>m</abbr><ex>erentibus</ex></expan>
 <lb n="6"/><expan><abbr>p</abbr><ex>osuerunt</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform">
-				<p>Den <rs type="divine">Casses</rs> haben die Gelübde getätigt Macelus und Faustinus, mit Freuden aufgestellt.<br/></p>
+				<p>Den <rs type="divine">Casses</rs> haben die Gelübde getätigt Macelus und Faustinus, mit Freuden aufgestellt!<br/></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform">
-				<p>For the <rs type="divine">Casses</rs> made the vows Macelus and Faustinus, deservedly build.<br/></p>
+				<p>For the <rs type="divine">Casses</rs> made the vows Macelus and Faustinus, deservedly build!<br/></p>
 			</div>
 			<div type="apparatus" org="uniform">
 				<app loc="1">
@@ -324,7 +328,7 @@
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"/>
+			<note type="Buchsthoehe_note"><p>lt Mail von Hr. Dr. Foerster am 7.6.2024<br/></p></note>
 			<note type="Notvar_note"/>
 			<note type="SonstKomm_note"/>
 			<note type="Datierung_note"><!--[if gte mso 9]><xml>

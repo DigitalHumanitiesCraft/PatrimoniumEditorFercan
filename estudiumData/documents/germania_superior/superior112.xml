@@ -50,7 +50,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+								<support> <p>                                                <p>Das Fragemt bildet den Aufsatz sowie den Beginn des Inschriftenfeldes eines Weihealtars. Das Inschriftenfeld, das ungerahmt ist, ist schräg abgebrochen, sodass die erste Schriftzeile vollständig, die zweite Schriftzeile nur noch zur Hälfte erhalten ist. Der Aufsatz ist durch eine zweifache Stufung und eine Kragung davon getrennt. Er ist durch zwei Voluten, jeweils eine links und rechts, wobei in der rechten noch Reste einer Rosette zu erkennen ist, gestaltet, sowie einem Dreiecksgiebel, der ebenfalls noch in Resten vorhanden ist, in der Mitte. Dahinter befindet sich die flache Opferschale. Das Fragment ist an allen Seiten bestoßen und verwittert. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
 									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm">40,5</height>
 										<width unit="cm">52</width>
@@ -59,7 +59,8 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p><p>Von der Inschrift ist nur mehr ein Teil der ersten beiden Zeilen erhalten und der linke Teil des Inschriftenfeldes ist ausgebrochen. Die erhaltenen Buchstaben sind unregelmäßig. Aus den erhaltenen Resten geht nicht hervor wie viel Inhalt verloren ist.</p><p>Im ausgebrochenen Bereich haben 2-3 Buchstaben Platz. Zu Beginn von Z.2 sind vom Buchstaben nur zwei Senkrechthasten erhalten, die Lesung als N gründet auf den Resten einer nach rechts gerichteten Schräghaste bei der ersten Haste (so auch Kortüm 1995, 141). Aufgrund von Beschädigung fehlt in Z.2 die Seitenhaste vom L. Das S am Ende von Z.2 schient kleiner gearbeitet zu sein als die anderen Buchstaben.</p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Von der Inschrift ist nur mehr ein Teil der ersten beiden Zeilen erhalten und der linke Teil des Inschriftenfeldes ist ausgebrochen. Die erhaltenen Buchstaben sind unregelmäßig. Aus den erhaltenen Resten geht nicht hervor wie viel Inhalt verloren ist.</p>
+                                                <p>Im ausgebrochenen Bereich haben 2–3 Buchstaben Platz. Zu Beginn von Z.2 sind vom Buchstaben nur zwei Senkrechthasten erhalten, die Lesung als N gründet auf den Resten einer nach rechts gerichteten Schräghaste bei der ersten Haste (so auch Kortüm 1995, 141). Aufgrund von Beschädigung fehlt in Z.2 die Seitenhaste des L. Das S am Ende von Z.2 scheint kleiner gearbeitet zu sein als die anderen Buchstaben.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130320</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -68,8 +69,15 @@
         </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
-								<ref type="context" target="context:fercan.arch."/> </term>
+							<decoNote> <p><p>Keine bilidliche Gestaltung vorhanden.<br/></p></p> 
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale (Gestaltungsmerkmal)</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.253060">Rosette</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
+                      
+                      
+                      
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -77,7 +85,7 @@
 						<origin> <origPlace> <placeName/> <region>Civitas Port-?</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when="1832"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Pforzheim</ref> </placeName> <p><p>im Hagenschießwald beim Fohlenstall-Schlösschen<br/></p></p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true"><p>"bei Grabungen [durch Karl Philipp Friedrich Arnsperger] in der villa rustica 'Fohlenstall-Schlößchen' zu Tage gekommen. Das Stück lag im Schutt eines Kellers." (Kortüm 1995, 141)<br/></p></note> </provenance>
+							</location> <note anchored="true">                                                <p>"bei Grabungen [durch Karl Philipp Friedrich Arnsperger] in der villa rustica 'Fohlenstall-Schlößchen' zu Tage gekommen. Das Stück lag im Schutt eines Kellers" (Kortüm 1995, 141).<br/></p></note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)</p></provenance>
 					</history>
 				</msDesc>
@@ -239,10 +247,10 @@
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
 				<listBibl>
-					<bibl type="EDCS"><idno>EDCS-11000341</idno><date>2024-01-23</date></bibl>
-					<bibl type="EDH"><idno>HD036496</idno><date>2020-08-25</date></bibl>
-					<bibl type="trismegistos"><idno>www.trismegistos.org/text/210776</idno><date>2024-01-23 </date></bibl>
-					<bibl type="lupa"><idno>http://lupa.at/26979 </idno><date>2022-12-20</date></bibl>
+					<bibl type="EDCS"><idno>EDCS-11000341</idno><date>zuletzt abgerufen 2024-01-23</date></bibl>
+					<bibl type="EDH"><idno>HD036496</idno><date>Version von 2020-08-25</date></bibl>
+					<bibl type="trismegistos"><idno>www.trismegistos.org/text/210776</idno><date>zuletzt abgerufen 2024-01-23 </date></bibl>
+					<bibl type="lupa"><idno>http://lupa.at/26979 </idno><date>Version von 2022-12-20</date></bibl>
 					<bibl type="other"><idno> </idno><date> </date></bibl>
 				</listBibl>
 			</div>
@@ -265,7 +273,7 @@
 				</app>
 			
             <app loc="2">
-                <note anchored="true">Keine 2. Zeile – Brambach; [M(arcus)?] Iuliu[s... – Wagner; Iulius – Riese; [I?]u[li?]us – CIL; [M(?) A]nulius – Kortüm; [- A?]nulius – EDH; [3 A]nulius(?) – Scheungraber; [- A]nulius – Ferlut</note>
+                <note anchored="true">keine 2. Zeile – Brambach; [M(arcus)?] Iuliu[s... – Wagner; Iulius – Riese; [I?]u[li?]us – CIL; [M(?) A]nulius – Kortüm; [- A?]nulius – EDH; [3 A]nulius(?) – Scheungraber; [- A]nulius – Ferlut</note>
             </app>
         
             <app loc="3">
@@ -277,7 +285,8 @@
 			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Anulius: einheimisches Namensformular? tria nomina?<br/>Anulius: seltenes Gentilnomen, möglicherweise Variante von Anullus (Kakoschke 2021, GN 97)
 			</p></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
-				<p><p>Anulius: einheimisches Namensformular? tria nomina?</p><p>Anulius: seltenes Gentilnomen, möglicherweise Variante von Anullus (Kakoschke 2021, GN 97)</p></p>
+				<p>  
+</p>
 			</div>
 			<div type="commentary" subtype="deity" org="uniform" sample="complete">
 				<p> </p>

@@ -56,10 +56,10 @@
 										<width unit="cm">42,7</width>
 										<depth unit="cm">33,5</depth>
 									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
-								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130700">unklar</ref> </condition>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130310">größeres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p><p>Vom Inschriftentext ist im CIL die linke obere Ecke überliefert. Die erste Zeile dürfte vollständig erhalten sein. Wie weit sich der Text nach unten fortsetzte kann nicht gesagt werden.<br/>Besondere Zeichen: das L in Z.2 und in Z.4 war nach CIL mit schräger Querhaste geschrieben.</p></p> <note type="condition" anchored="true"/> </layout>
+								<layout> <p>                                                <p>Vom Inschriftentext ist im CIL die linke obere Ecke überliefert. Die erste Zeile dürfte vollständig erhalten sein. Wie weit sich der Text nach unten fortsetzte, kann nicht gesagt werden.<br/>Besondere Zeichen: das L in Z.2 und in Z.4 war nach CIL mit schräger Querhaste geschrieben.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130600</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -68,18 +68,20 @@
 						<decoDesc>
 							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.220100">Giebel</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.252810">Opferschale</term>
+                      
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140700">Reparatur</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150300">glatt</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+                      
+                      
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale (Gestaltungsmerkmal)</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName>Tabernae</placeName> <region>Civitas Tribocorum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern.">Zabern</ref> </placeName> <p/> <location>
+						<origin> <origPlace> <placeName> </placeName> <region>Civitas Tribocorum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern.">Phalsbourg</ref> </placeName> <p><p>"in den Bergen rund um Phalsbourg" (CIL)<br/></p></p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true">Weder die genaue Fundstelle, noch die Fundumstände sind bekannt. Gefunden wurde der Stein vor 1852. </note> </provenance>
+							</location> <note anchored="true">Weder die genaue Fundstelle, noch die Fundumstände sind bekannt. Gefunden wurde der Stein vor 1852, da er hier schon dem Museum von Oberst Uhrich von Phalsbourg, dem Finder, geschenkt wurde. </note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>non vidimus<br/>Lesung gründet auf: CIL</p></provenance>
 					</history>
 				</msDesc>
@@ -281,12 +283,21 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"><p>entre deux rouleaux, il porte une cavité pour les feux sacrés et les libations (Ohleyer 1852, S. 450)<br/></p></note>
+			<note type="Objbeschr_note">                                                    <p>entre deux rouleaux, il porte une cavité pour les feux sacrés et les libations (Ohleyer 1852, S. 450)</p><p>Übersetzung Uhrich (Finder) 1852, Note sur plusieurs monuments antiques trouvés aux 
+environs de Phalsbourg, in: Journal de la soc´iéte d'archéologie et du 
+Comité du Musée Lorrain 5 (1852), 93-94, hier 93: Ein Votivstein für Jupiter und Apollo, wie die Inschrift zeigt. Leider ist diese Inschrift unvollständig. Der obere Teil dieses kleinen Altars ist sehr elegant; er besteht aus zwei parallel verlaufenden Giebeln an der Vorder- und Rückseite, mit konkaven Seiten oben; an diesen Seiten und an der Basis der Konkavität befinden sich zwei Rollen, zwischen denen sich am oberen Ende eine kreisförmige Vertiefung in Form eines Beckens oder einer Schale befindet.</p></note>
 			<note type="ArchKlass_note"><p>Pulvini</p><p>Giebel</p><p>Opferschale</p><p>Reparatur</p><p>glatt</p></note>
-			<note type="Material_note"><p>Kalkstein lt. Inventarblatt des Museums<br/>Sandstein CIL</p></note>
+			<note type="Material_note">                                                    <p>Kalkstein lt. Inventarblatt des Museums<br/>Sandstein CIL</p><p>Uhrich (Finder) 1852, Note sur plusieurs monuments antiques trouvés aux environs de Phalsbourg, in: Journal de la soc´iéte d'archéologie et du Comité du Musée Lorrain 5 (1852), 93-94, hier 94 : Sandstein</p></note>
 			<note type="Inschrifttraeger_note"><p>CIL: ara parva<br/></p></note>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"><p>Mail an Museum am 5.7.23</p><p>Bonjour Madame,</p><p>Nous vous remercions vivement pour votre demande et pour l’intérêt que vous portez à notre musée et à ses collections.</p><p>Je vous confirme que nous conservons bien cette inscription sous le numéro d’inventaire A.95.218 ; Vous en trouverez la fiche d’inventaire en pièce jointe de ce message.</p><p>Nous nous tenons à votre disposition pour vous adresser copie de la documentation et des archives que nous conservons la concernant.</p><p>Vous souhaitant bonne réception de ces premiers éléments,</p><p>Bien cordialement.<br/>CIL: Nancy Museum</p><p>WSpDB: nicht Nancy Museum</p></note>
+			<note type="InvNr_note">                                                    <p>Mail an Museum am 5.7.23</p>
+                                                    <p>Bonjour Madame,</p>
+                                                    <p>Nous vous remercions vivement pour votre demande et pour l’intérêt que vous portez à notre musée et à ses collections.</p>
+                                                    <p>Je vous confirme que nous conservons bien cette inscription sous le numéro d’inventaire A.95.218 ; Vous en trouverez la fiche d’inventaire en pièce jointe de ce message.</p>
+                                                    <p>Nous nous tenons à votre disposition pour vous adresser copie de la documentation et des archives que nous conservons la concernant.</p>
+                                                    <p>Vous souhaitant bonne réception de ces premiers éléments,</p>
+                                                    <p>Bien cordialement.<br/>CIL: Nancy Museum</p>
+                                                    <p>WSpDB: nicht Nancy Museum</p><p>Museum, Richard Dagorne: Fundjahr nicht bekannt, aber 1852 von Oberst Uhrich aus Phalsburg dem Museum geschenkt</p></note>
 			<note type="Fundstelle_note"><p><!--[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
@@ -943,14 +954,22 @@
 aux environs de Phalsbourg (montagnes qui avoisinent Phalsbourg)…</span></p>
 
 </p></note>
-			<note type="Fundumst_note"/>
-			<note type="Fundjahr_note"><p>Wendling: vor 1852<br/></p></note>
+			<note type="Fundumst_note"><p>Museum, Richard Dagorne: Fundjahr nicht bekannt, aber 1852 von Oberst Uhrich von Phalsburg, dem Finder, dem Museum geschenkt</p></note>
+			<note type="Fundjahr_note">                                                    <p>Wendling: vor 1852</p><p>Museum, Richard Dagorne: Fundjahr nicht bekannt, aber 1852 von Oberst Uhrich von Phalsburg, dem Finder dem Museum geschenkt<br/></p></note>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note"><p>ClaussSlaby: Rheinzabern<br/></p></note>
+			<note type="FOmodern_note">                                                    <p><b>lt. Mail vom Wolfgang an Verena am 27.6.2024: <font style="font-family: Calibri, Helvetica, sans-serif, serif, &#34;EmojiFont&#34;;" size="3" face="Calibri,Helvetica,sans-serif" color="black"><span style="font-size:12pt;" id="divtagdefaultwrapper"><font color="black"><font style="font-family: Calibri, sans-serif, serif, &#34;EmojiFont&#34;;" size="2" face="Calibri,sans-serif"><span style="font-size:11pt;">
+ CIL sagt, sie seien in den Bergen rund um Phalsbourg (!) gefunden 
+worden. So übernehmen wir das auch, zumal der Stein nur literarisch 
+überliefert ist.</span></font></font></span></font></b></p><p>ClaussSlaby: Rheinzabern</p>
+                                                    <p>Alfred Goldenberg 1860, Castrum Gallo-Romain du Gross-Limmersberg, S. 132 (Artikel in Bulletin de la societe pour la conservation des monuments historiques d'Alsace 3,10 (1858-1860), S. 127 -137): "Die Felder von Hildenhausen sind von einer modernen Mauer umgeben, hinter der die Landwirtschaft die Überreste der alten Bauten, die sich zweifellos auf dieser Seite erstreckten, beseitigt hat. Wenn man ihnen folgt, gelangt man zu ziemlich hohen Abhängen, die mit Steinen versehen sind und auf dieser Seite die letzten verbliebenen Werke darstellen. An Punkt G fand ich den unteren Teil eines Reliefs. Nachdem ich vergeblich nach den anderen Fragmenten dieses Steins gesucht hatte, erfuhr ich, dass Herr Oberst Uhrich, der früher in Phalsbourg lebte, diese Umfriedung ebenfalls studiert hatte und mehrere Monumente entfernt hatte, die er dem lothringischen Museum in Nancy schenkte. Ich beeilte mich, dieses Fragment zu entfernen und schickte es an dasselbe Museum, um das Relief rekonstruieren zu können (siehe Abb. 6). Herr Oberst Uhrich fand an Orten, die ich nicht genau bestimmen kann, noch zwei weitere Reliefs, deren Skizzen ich unter den Nummern 7 und 8 angebe; sie wurden ebenfalls von ihm im Museum von Nancy hinterlegt."</p></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
-			<note type="Abb_note"/>
+			<note type="Abb_note"><p>Museum in Nancy, Richard Dagorne: Nous allons inscrire cette 
+inscription sur la liste des pièces à photographier lors de notre 
+prochaine campagne de
+prise de vues. Nous mettrons à profit cette séance afin de mesurer la 
+hauteur de ses lettres.</p><p/></note>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
 			<note type="Editionen_note">                                                    <p>
@@ -963,7 +982,8 @@ aux environs de Phalsbourg (montagnes qui avoisinent Phalsbourg)…</span></p>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"/>
+			<note type="Buchsthoehe_note"><p>Museum in Nancy, Richard Dagorne: Nous allons inscrire cette inscription sur la liste des pièces à photographier lors de notre prochaine campagne de
+prise de vues. Nous mettrons à profit cette séance afin de mesurer la hauteur de ses lettres.</p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>

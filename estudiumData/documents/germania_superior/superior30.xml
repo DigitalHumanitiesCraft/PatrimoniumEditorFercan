@@ -61,9 +61,9 @@
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<settlement>Karlsruhe</settlement>
-						<repository/>
-						<idno> C 52</idno>
+						<settlement>Rastatt</settlement>
+						<repository>Zentrales Fundarchiv</repository>
+						<idno>1846-1-52-1</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>Weihinschrift</summary>
@@ -71,7 +71,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+								<support> <p><p>Der Weihealtar ist in zwei Teilen erhalten, wobei der Bruch über dem unteren Drittel verläuft. Das rechte Eck der Basis ist abgebrochen, zwei Stufen führen hin zum ungerahmten Inschriftenfeld, dessen rechte Seite ausgebrochen ist. Dessen Begrenzung hin zum Aufsatz scheint nicht besonders gestaltet gewesen zu sein. Von der Bekrönung ist noch der linke Pulvinus sowie der Rest der Opferschale zu erkennen. Die rechte Seite ist gänzlich abgebrochen und auch die Vorderseite ist vollständig abgerieben. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
 									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm">52</height>
 										<width unit="cm">25,8</width>
@@ -84,24 +84,25 @@
  unten hin bleiben fast zwei Zeilen frei. Die Buchstaben sind regelmäßig.
  </p>
                                                 Bei Aufnahme in das CIL war die Inschrift noch fast gänzlich erhalten, nur das Ende von Z.2 
-war bereits undeutlich zu lesen: Brambach (1867) las nur Mercuri, wir folgen jedoch Christ (nach 1860) der notierte, dass "V.2 in fine littera O minor paene evanida est". Inzwischen ist der Stein 
-zweimal gebrochen, einmal quer durch Z.5 sodass der Sockel vom Rest 
+war bereits undeutlich zu lesen: Brambach (1867) las nur Mercuri, wir folgen jedoch Christ (nach 1860), der notierte, dass "V.2 in fine littera O minor paene evanida est". Inzwischen ist der Stein 
+zweimal gebrochen, einmal quer durch Z.5, sodass der Sockel vom Rest 
 abgetrennt ist, beide Teile sind jedoch noch erhalten. Verloren ist 
 hingegen der kleinere Teil des zweiten Bruches, der der rechten Seite 
-entlang verläuft. Daher sind in Z.1-Z.2 jeweils mindestens zwei 
+entlang verläuft. Daher sind in Z.1–Z.2 jeweils mindestens zwei 
 Buchstaben verloren, und in Z.3 fehlt der letzte, in Z.4 und Z.5 sind 
 nur mehr Hastenreste des jeweiligen letzten Buchstaben erhalten. Worttrenner 
 befinden sich in Z.5 sowie irrtümlich in Z.3.<p/>
-                                    </p> <note type="condition"/> </layout>
+                                    </p> <note type="condition">https://gams.uni-graz.at/o:fercan.arch#C.130500</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="3.5" atMost="4.0">3,5–4,0</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.130300">Fragment</term>
+							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> 
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150900">Pulvini</term>
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.151000">Opferschale (Gestaltungsmerkmal)</term>
+                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150800">Aufsatzschmuck</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -111,7 +112,7 @@ befinden sich in Z.5 sowie irrtümlich in Z.3.<p/>
                             </origDate> </origin>
 						<provenance type="found" when="1846"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Hockenheim</ref> </placeName> <p>"auf einem Wiesengrunde [...] in der Richtung gegen Speier" (Rappenegger 1846, 491); etwa eine Stunde von Hockenheim entfernt auf der gegenüberliegenden Seite der Stadt Speyer (CIL); "auf dem Schachen bei Hockenheim" (Fröhner 1860, 22 Nr.53); "zw. Altwiesloch und dem Rheinübergang bei Speier" (Fickler-Christ 1865, 4 Nr.3a)</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note>"bei Abhebung einer unbedeutenden Bodenerhöhung" (Rappenegger 1846, 491); "Bei Abhebung einer etwas höher gelegenen Stelle, Speier gerade gegenüber, stiessen die Arbeiter auf grosse Steine, die als schon behauene Quader weggefahren und zu verschiedenen Bauten verwendet wurden." (Rappenegger 1847, 3)</note> </provenance>
+							</location> <note>"bei Abhebung einer unbedeutenden Bodenerhöhung" (Rappenegger 1846, 491); "Bei Abhebung einer etwas höher gelegenen Stelle, Speier gerade gegenüber, stiessen die Arbeiter auf grosse Steine, die als schon behauene Quader weggefahren und zu verschiedenen Bauten verwendet wurden" (Rappenegger 1847, 3).</note> </provenance>
 						<provenance type="observed" subtype="autopsied">
                             <p>vidimus (CIL XIII Projekt)<br/>
                             </p>
@@ -245,12 +246,12 @@ befinden sich in Z.5 sowie irrtümlich in Z.3.<p/>
 	</teiHeader>
 	<facsimile>
 		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1115_front1.jpg">
-			<desc> Front, CIL XIII Projekt, CC BY-NC</desc>
+			<desc> Front, Ehm. Karlsruhe, Badisches Landesmuseum, Inv. Nr. C 52, heute Rastatt, Zentrales Fundarchiv Inv. 1846-1-52-1, CIL XIII Projekt, CC BY-NC</desc>
 		</graphic>
 	
             <!-- todo: @xml:id-->
             <graphic mimeType="image/jpeg" url="1115_front2.jpg">
-            <desc> Front, CIL XIII Projekt, CC BY-NC</desc>
+            <desc> Front, Ehm. Karlsruhe, Badisches Landesmuseum, Inv. Nr. C 52, heute Rastatt, Zentrales Fundarchiv Inv. 1846-1-52-1, CIL XIII Projekt, CC BY-NC</desc>
         </graphic>
         </facsimile>
 	<text>
@@ -273,6 +274,8 @@ befinden sich in Z.5 sowie irrtümlich in Z.3.<p/>
             <bibl xml:id="2">Rappenegger 1848-1849, 291</bibl>
         
             <bibl xml:id="1">Rappenegger 1847, 3 Nr.1</bibl>
+        
+            <bibl xml:id="9">Noelke 2020/2021, 337 Nr.2.15</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform">
@@ -334,7 +337,7 @@ befinden sich in Z.5 sowie irrtümlich in Z.3.<p/>
 			</div>
 			<div type="apparatus" org="uniform">
 				<app loc="1">
-					<note>die unterstrichenen Teile in Z.1–3 sind heute nicht mehr erhalten, sie werden nach Christ wiedergegeben</note>
+					<note>Die unterstrichenen Teile in Z.1–3 sind heute nicht mehr erhalten, sie werden nach Christ wiedergegeben.</note>
 				</app>
 			
             
@@ -348,17 +351,17 @@ befinden sich in Z.5 sowie irrtümlich in Z.3.<p/>
             </app>
         
             <app loc="5">
-                <note anchored="true">lubens libens (oder libens laetus) – Rappenegger 1847; lubens (oder libens laetus) – Rappenegger 1848-1849; l(ibens) l(aetus) – Scheungraber</note>
+                <note anchored="true">lubens libens (oder libens laetus) – Rappenegger 1847; lubens (oder libens laetus) – Rappenegger 1848-1849; l(ibens) l(aetus) – Scheungraber, Noelke</note>
             </app>
         
             <app loc="2">
-                <note anchored="true">ohne O – Rappenegger 1847/1848-1849; Mercuri(o) – Brambach</note>
+                <note anchored="true">ohne O – Rappenegger 1847/1848-1849; Mercuri(o) – Brambach; Mercuri[o] – Noelke</note>
             </app>
         </div>
 			<div type="commentary" subtype="general" org="uniform">                                                <p>Senilis Massae: einheimisches Namensformular mit Angabe des Namens des Vaters im Genetiv</p>
                                                 <p>Senilis: keltischer oder lateinischer Name, in den keltischen Provinzen verbreitet (Kakoschke 2021, CN 2805) </p>
-                                                <p>Massa: keltischer oder lateinischer Name, in den keltischen Provinzen verbreitet (Kakoschke 2021, CN 1963) Vater des ersten.</p>
-                                                <p>Zur Datierung: Unter dem Stein befanden sich zwei Silbermünzen, eine mit dem Portrait Gordian III., die andere mit dem des Philippus Arabs. Damit ergibt sich als terminus postquem das Jahr 244 n.Chr. an dem der Stein an diesen Ort gelangt sein kann. (Rappenegger 1846, 491; Rappenegger 1847, 3–4)<br/>
+                                                <p>Massa: keltischer oder lateinischer Name, in den keltischen Provinzen verbreitet (Kakoschke 2021, CN 1963), Vater des Ersten</p>
+                                                <p>Zur Datierung: Unter dem Stein befanden sich zwei Silbermünzen, eine mit dem Portrait Gordians III., die andere mit dem des Philippus Arabs. Damit ergibt sich als terminus postquem das Jahr 244 n.Chr. an dem der Stein an diesen Ort gelangt sein kann (Rappenegger 1846, 491; Rappenegger 1847, 3–4).<br/>
                                                     </p>
                                                 <p> </p>
 			<p/>
@@ -378,10 +381,7 @@ befinden sich in Z.5 sowie irrtümlich in Z.3.<p/>
 			<note type="Material_note"><p>Rappenegger 1846, S. 491: gelblich weißer, grobkörniger Sand, wie er auf dem linken Rheinufer vorkommt<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note">                <p>CIL Kartei 6347: Rastatt C 52 - Kartei Karlsruhe?!<br/></p>
-                <p>Lupa: Rastatt, Zentrales Fundarchiv 50-7152
-</p>
-            </note>
+			<note type="InvNr_note">                <p>Info lt. Mail Erbelding vom 21.6.2024</p><p>CIL Kartei 6347: Rastatt C 52 - Kartei Karlsruhe?!</p><p>Lupa: Rastatt, Zentrales Fundarchiv 50-7152</p></note>
 			<note type="Fundstelle_note"/>
 			<note type="Fundumst_note"/>
 			<note type="Fundjahr_note">                                                    <p>"vor einigen Wochen" -CIL</p><p>Frühjahr 1846 - Fröhner 1860, S. 22, Nr. 53<br/></p></note>

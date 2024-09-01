@@ -80,7 +80,7 @@
                             <layoutDesc>
                                 <layout>
                                     <p part="N">                                                <p>Der Inschriftentext scheint vollständig überliefert zu sein. Doch könnte er einige Fehler beinhalten. Die seit Bergk (1882) immer wieder vorgeschlagene Verbesserung (s. Apparatus criticus; weitere Literatur dazu s. Kakosche 2016 AdEp VI, p.5 Anm.15) auf <rs type="divine">Matres Marsacae</rs> erscheint all zu gewagt. Die Unklarheit, die sich in Z.4. aus „PRAEFECT · I“ ergibt, ist am leichtesten zu erklären, wenn man annimmt, dass der Punkt vor dem I falsch gesetzt ist.<lb><br/></lb>Ligatur: s. Majuskeltext</p></p>
-                                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="condition" anchored="true">vollständig</tei:note>
+                                    <note type="condition" anchored="true">vollständig</note>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -119,9 +119,9 @@
                                 <ref type="context" target="context:fercan.geog.modern.xanten">Xanten</ref>
                             </placeName>
                             <p part="N">„bey dem Herrn zu Wissen“ (nach Schallmeyer u. a. 1990, 84)</p>
-                            <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0" instant="false">
+                            <location instant="false">
                                 <geo decls="#WGS">51.657204 6.448585</geo>
-                            </tei:location>
+                            </location>
                         </provenance>
                         <provenance type="observed" subtype="autopsied">
                             <p part="N">non vidimus<lb>
@@ -213,7 +213,7 @@
                         <item>
                             <ref type="context" target="context:fercan.dedication.votum_solvit_libens_merito">votum solvit libens merito</ref>
                         </item>
-                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context"> </ref> </item></list></keywords>
+                        <item/> <!-- Belegform gesamt  --> <item> <ref target="context:fercan.divinepart." type="context">Matribus Arsacis paternis sive maternis</ref> </item></list></keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
@@ -249,6 +249,10 @@
             </div>
             <div subtype="concordances" type="bibliography" org="uniform" part="N" sample="complete">
                 <listBibl>
+                    <bibl type="EDH">
+                        <idno>HD075268</idno>
+                        <date>Version vom 21. Mai 2019</date>
+                    </bibl>
                     <bibl type="EDCS">
                         <idno>EDCS-11100724</idno>
                         <date>zuletzt aufgerufen am 24. Februar 2020</date>
@@ -275,13 +279,13 @@ Marcus Aurelis Lu(cius) Veronius Verus, beneficiarius praefecti, has fulfilled a
             </div>
             <div type="apparatus" org="uniform" part="N" sample="complete">
                 <app loc="#MIN.1 #MAJ.1">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Zeilenwechsel nach Arsacis – ILS; &lt;M&gt;arsacis (so schon Bergk in Westdt.Zs. I 1882, 153) – Schallmayer/Eibl/Ott/Preuss/Wittkopf, Reuter</tei:note>
+                    <note anchored="true">Zeilenwechsel nach Arsacis – ILS; &lt;M&gt;arsacis (so schon Bergk in Westdt.Zs. I 1882, 153) – Schallmayer/Eibl/Ott/Preuss/Wittkopf, Reuter; (M)arsacis – EDH</note>
                 </app>
                 <app loc="#MIN.3 #MAJ.3">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">LV für Lu(cius)?, vielleicht Verginius – Schallmayer/Eibl/Ott/Preuss/Wittkopf; Aurel.(?) Veronius – Haensch; LV(?) – Scheungraber; Lu(cius) – Ferlut </tei:note>
+                    <note anchored="true">LV für Lu(cius)?, vielleicht Verginius – Schallmayer/Eibl/Ott/Preuss/Wittkopf; Aurel.(?) Veronius – Haensch; LV(?) – EDH, Scheungraber; Lu(cius) – Ferlut </note>
                 </app>
                 <app loc="#MIN.4 #MAJ.4">
-                    <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" anchored="true">Zeilenwechsel nach pro – ILS; praefecti I pro se – de Bernardo Stempel/Hainzmann 2009, de Bernardo Stempel/Hainzmann 2010; ohne Ligatur – ILS, de Bernardo Stempel/Hainzmann 2009, de Bernardo Stempel/Hainzmann 2010, Reuter; &lt; b=P&gt; e(neficiarius) praefecti (!) I pro se – Scheungraber; be(neficarius) praefecti I pro se – Ferlut</tei:note>
+                    <note anchored="true">Zeilenwechsel nach pro – ILS; praefecti I pro se – de Bernardo Stempel/Hainzmann 2009, de Bernardo Stempel/Hainzmann 2010; ohne Ligatur – ILS, de Bernardo Stempel/Hainzmann 2009, de Bernardo Stempel/Hainzmann 2010, Reuter; &lt;b=P&gt;(ene)&lt;f=E&gt;(iciarius) – EDH; &lt; b=P&gt; e(neficiarius) praefecti (!) I pro se – Scheungraber; be(neficarius) praefecti I pro se – Ferlut</note>
                 </app>
             </div>
             <div type="commentary" subtype="general" org="uniform" part="N" sample="complete">
@@ -298,7 +302,11 @@ Verus: lateinisches Cognomen, überall äußerst gängig (Kakoschke 2008, CN 329
             <div type="commentary" subtype="language" org="uniform" part="N" sample="complete">
                 <p part="N">v.4: „PE” pro „B(ene)F(iciarius)”</p>
             </div>
-            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Arsacae:</rs> keltisch: ‚Zum Volksstamm der Aresaces Gehörige [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 271). </p>
+            <div type="commentary" subtype="deity" org="uniform" part="N" sample="complete">                                                <p part="N"> <rs type="divine">Arsacae:</rs> keltisch: ‚Zum Volksstamm der Aresaces Gehörige [Muttergöttinnen]’ (de Bernardo Stempel Corpus F.E.R.C.A.N. II/1 271). (Hier wird kein sprachwissenschaftlicher Beitrag geleistet. Die 
+Literaturangaben dienen lediglich dazu, einen Einstieg in die 
+sprachwissenschaftliche Diskussion zu bieten. Besprochen werden alle 
+Götternamen, die bislang als keltisch oder teilweise keltisch gedeutet 
+wurden.) </p>
                                                 <p part="N">
 
 Vorkommen in theonymischen Formularen: </p>
@@ -316,37 +324,37 @@ Vorkommen in theonymischen Formularen: </p>
             </linkGrp>
         </body>
         <back>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Objbeschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ArchKlass_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Material_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrifttraeger_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="VerwahrortOrt_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="InvNr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundstelle_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundumst_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Fundjahr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOantik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="FOmodern_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="civitas_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Autopsie_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Appcrit_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Abb_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="englUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="dtUEbers_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Editionen_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustObj_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Masse_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Ikonogr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Inschrtext_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="ErhzustInschr_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Schrifttechnik_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Buchsthoehe_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Notvar_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="SonstKomm_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="Datierung_note" anchored="true"/>
-            <tei:note xmlns:tei="http://www.tei-c.org/ns/1.0" type="KommGoettern_note" anchored="true">
+            <note type="Objbeschr_note" anchored="true"/>
+            <note type="ArchKlass_note" anchored="true"/>
+            <note type="Material_note" anchored="true"/>
+            <note type="Inschrifttraeger_note" anchored="true"/>
+            <note type="VerwahrortOrt_note" anchored="true"/>
+            <note type="InvNr_note" anchored="true"/>
+            <note type="Fundstelle_note" anchored="true"/>
+            <note type="Fundumst_note" anchored="true"/>
+            <note type="Fundjahr_note" anchored="true"/>
+            <note type="FOantik_note" anchored="true"/>
+            <note type="FOmodern_note" anchored="true"/>
+            <note type="civitas_note" anchored="true"/>
+            <note type="Autopsie_note" anchored="true"/>
+            <note type="Appcrit_note" anchored="true"/>
+            <note type="Abb_note" anchored="true"/>
+            <note type="englUEbers_note" anchored="true"/>
+            <note type="dtUEbers_note" anchored="true"/>
+            <note type="Editionen_note" anchored="true"/>
+            <note type="ErhzustObj_note" anchored="true"/>
+            <note type="Masse_note" anchored="true"/>
+            <note type="Ikonogr_note" anchored="true"/>
+            <note type="Inschrtext_note" anchored="true"/>
+            <note type="ErhzustInschr_note" anchored="true"/>
+            <note type="Schrifttechnik_note" anchored="true"/>
+            <note type="Buchsthoehe_note" anchored="true"/>
+            <note type="Notvar_note" anchored="true"/>
+            <note type="SonstKomm_note" anchored="true"/>
+            <note type="Datierung_note" anchored="true"/>
+            <note type="KommGoettern_note" anchored="true">
                 <p part="N">Alte Version (24.04.23):<br/>Arsacae: Zugehörigkeitsbeiname zum keltischen Stamm der Aresaces (de Bernardo Stempel in Spickermann 2005, 145) </p>
-            </tei:note>
+            </note>
         </back>
     </text>
 </TEI>
