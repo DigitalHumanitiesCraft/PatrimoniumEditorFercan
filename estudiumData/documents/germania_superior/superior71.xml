@@ -50,7 +50,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>                                                <p>„Das Altarfragment besitzt eine allseitig vorspringende Deckplatte, deren Kante mit einem umlaufenden kettenartigen Flechtband verziert ist. Darunter folgen Hohlkehle, Rundstab und eine weitere Hohlkehle als Überleitung zum Schaft.“ (Frenz, 1992, 120 Nr.103). Die Basis fehlt vollständig, der Aufsatz ist schwer beschädigt. Zu erkennen sind noch Reste von Pulvini, eventuell mit Rosetten geschmückt, sowie zwischen ihnen der Rest eines Dreieckgiebels. Das Inschriftenfeld ist ungerahmt.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref> </material>
+								<support> <p>                                                <p>„Das Altarfragment besitzt eine allseitig vorspringende Deckplatte, deren Kante mit einem umlaufenden kettenartigen Flechtband verziert ist. Darunter folgen Hohlkehle, Rundstab und eine weitere Hohlkehle als Überleitung zum Schaft.“ (Frenz, 1992, 120 Nr.103). Die Basis fehlt vollständig, der Aufsatz ist schwer beschädigt. Zu erkennen sind noch Reste von Pulvini, eventuell mit Rosetten geschmückt, sowie zwischen ihnen der Rest eines Dreieckgiebels. Das Inschriftenfeld ist ungerahmt. Körber (1896, Sp. 200) beschreibt das Material als gelblichen Sandstein.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref> </material>
 									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm">41</height>
 										<width unit="cm">40,5</width>
@@ -84,7 +84,7 @@
 						<origin> <origPlace> <placeName>Mogontiacum</placeName> <region>Civitas Mattiacorum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when="1896"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Mainz</ref> </placeName> <p>Ortsteil Kastel; heute Große Kirchgasse 8 (Frenz 1992, 120 Nr.103)</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true">„beim Wiederauffüllen der bei der Kanalisierung der gr. Kirchgasse ausgehobenen Erde“ (Körber 1896, Sp.200); "mit einem weiteren oberen Altarabschnitt bei Bauarbeiten für ein Wohnhaus in der Valentinianstr. 21 innerhalb eines neu ausgehobenen Kanalisationsgrabens am 1.10.1971 entdeckt" (Auskunft Dr. Hensen, Leiter des Lobdengau-Museums).<br/></note> </provenance>
+							</location> <note anchored="true">„beim Wiederauffüllen der bei der Kanalisierung der gr. Kirchgasse ausgehobenen Erde“ (Körber 1896, Sp.200); 17.Juli (Frenz 1992, 120 Nr. 103)<br/></note> </provenance>
 						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (CIL XIII Projekt)<br/></p>
                                                 </provenance>
 					</history>
@@ -306,34 +306,67 @@
 			<note type="Objbeschr_note"/>
 			<note type="ArchKlass_note">                                                    <p/>
                                                     <p/></note>
-			<note type="Material_note"><p>Gelblicher Sandstein – Körber 1896 Sp. 200</p></note>
-			<note type="Inschrifttraeger_note"><p>WSpDB: ara</p><p>EDH: Altar</p></note>
+			<note type="Material_note"><p>Körber 1896, Sp. 200: Gelblicher Sandstein</p></note>
+			<note type="Inschrifttraeger_note">                                                    <p><b>WSpDB:</b> ara</p>
+                                                    <p><b>EDH:</b> Altar</p></note>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note">                                                    <p>Geschenk der Bürgermeisterei an das Museum – Frenz 1992 S. 120 Nr. 103</p><p>Inventarnummer lt. Mail Andreas Hensen vom 17.6.2024<br/></p></note>
-			<note type="Fundstelle_note"><p>EDH: Mainz-Kastel</p><p>Große Kirchgasse : Frenz 1992 S. 120 Nr. 103</p><p>Kastel = abwechselnd eigener Ort und Ortsteil von Mainz</p></note>
-			<note type="Fundumst_note"><p>Lupa: beim Kanalbau in der Großen Kirchenstraße<br/></p></note>
-			<note type="Fundjahr_note"><p>17. Juli – Frenz 1992 S. 120 Nr. 103</p></note>
-			<note type="FOantik_note"><p>EDH: Castellum Mattiacorum (Civitas Mattiacorum)</p><p>Mögliche Herkunft des Rohlings: Dogger; Lothringer Jura (CSIR Deutschland 2,8 Taf.95)<br/></p></note>
-			<note type="FOmodern_note"><p>(EDH: Wiesbaden)</p><p>Kastel - Ort</p></note>
+			<note type="InvNr_note"><p><b>Frenz 1992, 120 Nr. 103: </b>Geschenk der Bürgermeisterei an das Museum</p>
+                                                    <p>Inventarnummer lt. <b>Mail Andreas Hensen vom 17.6.2024</b><br/></p></note>
+			<note type="Fundstelle_note">                                                    <p><b>EDH</b>: Mainz-Kastel</p>
+                                                    <p><b>Frenz 1992, 120 Nr. 103:</b> Große Kirchgasse</p>
+                                                    <p>Kastel = abwechselnd eigener Ort und Ortsteil von Mainz</p></note>
+			<note type="Fundumst_note">                                                    <p><b>Lupa</b>: beim Kanalbau in der Großen Kirchenstraße</p><p><strike>"mit einem weiteren oberen Altarabschnitt bei Bauarbeiten für ein 
+Wohnhaus in der Valentinianstr. 21 innerhalb eines neu ausgehobenen 
+Kanalisationsgrabens am 1.10.1971 entdeckt" (Auskunft Dr. Hensen).</strike> fälschlicherweise an diester Stelle, Dr. Hensen ist in Ladenburg <br/></p></note>
+			<note type="Fundjahr_note"><p>Frenz 1992, 120 Nr. 103: 17. Juli</p></note>
+			<note type="FOantik_note">                                                    <p><b>EDH: Castellum Mattiacorum (Civitas Mattiacorum)</b></p>
+                                                    <p><b>CSIR Deutschland 2,8 Taf.95:</b> Mögliche Herkunft des Rohlings: Dogger; Lothringer Jura<br/></p></note>
+			<note type="FOmodern_note">                                                    <p>(EDH: Wiesbaden)</p>
+                                                    <p>Kastel - Ortsteil</p></note>
 			<note type="civitas_note"><p>EDH: Castellum Mattiacorum (Civitas Mattiacorum)<br/></p></note>
 			<note type="Autopsie_note"/>
-			<note type="Appcrit_note"><p>EDH:</p><p>Z. 3: AIIVVA. (B): Körber;</p><p>Frenz: Z. 3: Apiuva.</p></note>
+			<note type="Appcrit_note">                                                    <p><br/></p></note>
 			<note type="Abb_note"><p>FilmNr.: 223/2,4,6; T79/1284-1286</p><p>Gute Abb in Lupa</p></note>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note">                                                    <p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p><p>eingesehen:</p><p>Spickermann GermSup S.235. Nr.137, - nur erwähnt</p><p>Spickermann, W. In: Hofender, Andreas und Patrizia De Bernardo Stempel (Hrsg.): Théonymie celtique, cultes, interpretatio / Keltische Theonymie, Kulte, Interpretatio. X. Workshop F.E.R.C.A.N. Paris 24.-26. Mai 2010. Wien 2013 S.143. Nr.21 (Aiiuva Messo[ris f.]), - nur erwähnt</p><p>Riese 3165 [„Aiiuvanius Messor“],</p><p>Kakoschke 2002, Ortsfremde Nr. 5.23</p><p>K. Körber, KWDZ 15, 1896, 200-201, Nr. 3a. - eingearbeitet</p><p>Körber Kat. 1897 Nr.5; - selber Inhalt wie Körber 1900</p></note>
+			<note type="Editionen_note">                                                    <p>eingesehen:</p>
+                                                    <p>Spickermann GermSup S.235. Nr.137, - nur erwähnt</p>
+                                                    <p>Spickermann, W. In: Hofender, Andreas und Patrizia De Bernardo Stempel (Hrsg.): Théonymie celtique, cultes, interpretatio / Keltische Theonymie, Kulte, Interpretatio. X. Workshop F.E.R.C.A.N. Paris 24.-26. Mai 2010. Wien 2013 S.143. Nr.21 (Aiiuva Messo[ris f.]), - nur erwähnt</p>
+                                                    <p>Riese 3165 [„Aiiuvanius Messor“],</p>
+                                                    <p>Kakoschke 2002, Ortsfremde Nr. 5.23</p>
+                                                    <p>K. Körber, KWDZ 15, 1896, 200-201, Nr. 3a. - eingearbeitet</p>
+                                                    <p>Körber Kat. 1897 Nr.5; - selber Inhalt wie Körber 1900</p>
+                                                    <p><b>Literatur eingesehen von Verena:</b></p>
+                                                    <ul>
+                                                        <li>Körber 1896, Sp. 200</li>
+                                                        <li>Körber 1897, Nr. 5</li>
+                                                        <li>Alföldy 1968, 6 A 11</li>
+                                                        <li>Kienle 1938, 259</li>
+                                                        <li>AE 1937, 126 Nr. 15</li>
+                                                        <li>Frenz 1993, 120 Nr. 103</li>
+                                                        <li>Körber 1900, 11 Nr. 5</li>
+                                                        <li>Holder 1896-1917, Sp. 847</li>
+                                                        <li>Riese 1914, 331 Nr. 3165</li>
+                                                        <li>Drexel 1922, 35</li>
+                                                        <li>Gutenbrunner 1936, 156</li>
+                                                        <li>Behrens 1939, 105</li>
+                                                        <li>Behrens 1944-1945, 7</li>
+                                                        <li>Weber 1966, 114f.</li>
+                                                    </ul></note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"><p>Frenz 1992 120 Nr 103<br/></p></note>
-			<note type="Ikonogr_note">                                                    <p>EDH: Auf den Nebenseiten Opfergeräte.</p>
-                                                    <p>Lupa: Auf der Kante der Deckplatte Flechtband. Auf den Nebenseiten Opfergeräte: links Griffschale und Messer, rechts Kanne.</p></note>
+			<note type="Masse_note">                                                    <p><b>Frenz 1992 120 Nr 103</b><br/></p></note>
+			<note type="Ikonogr_note">                                                    <p><b>EDH: </b>Auf den Nebenseiten Opfergeräte.</p>
+                                                    <p><b>Lupa: </b>Auf der Kante der Deckplatte Flechtband. Auf den Nebenseiten Opfergeräte: links Griffschale und Messer, rechts Kanne.</p></note>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"><p>Frenz 1992 120 Nr 103<br/></p></note>
+			<note type="Buchsthoehe_note">                                                    <p><b>Frenz 1992 120 Nr 103</b><br/></p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"><p>WSpDB: 100-150</p><p>CSIR: 1.H.2.Jh.</p><p>EDH: 101-150</p></note>
+			<note type="Datierung_note">                                                    <p><b>WSpDB: </b>100-150</p>
+                                                    <p><b>CSIR</b>: 1.H.2.Jh.</p>
+                                                    <p><b>EDH: </b>101-150</p></note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>
 		</back>

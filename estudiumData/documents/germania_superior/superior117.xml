@@ -50,7 +50,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>                                                <p>Der Weihestein ist in mehreren Fragmenten erhalten, die modern wieder zusammengefügt wurden. Die Buchstaben wurden rot nachgezogen. Das Inschriftenfeld der Nachbildung ist ungerahmt und steht auf einer breit auslandenden Basis, getrennt durch eine Kragung. Der Aufsatz ist durch noch zwei erkennbare Stufen vom Inschriftenfeld getrennt. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref> </material>
+								<support> <p>                                                <p>Der Weihestein ist in mehreren Fragmenten erhalten, die modern wieder zusammengefügt wurden. Die Buchstaben wurden rot nachgezogen. Das Inschriftenfeld der Nachbildung ist ungerahmt und steht auf einer breit auslandenden Basis, getrennt durch eine Kragung. Der Aufsatz ist durch noch zwei erkennbare Stufen vom Inschriftenfeld getrennt. Das Material wird von Wiegels (1982, 41) als oolothischer Schillkalk beschrieben.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref> </material>
 									<objectType>Weihestein</objectType> <dimensions>
 										<height unit="cm"> 68,5</height>
 										<width unit="cm">98</width>
@@ -76,7 +76,7 @@
 						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when="1784"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Badenweiler</ref> </placeName> <p><p>am Eingang zum Bad Richtung Westen (CIL)<br/></p></p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true"><p>während gezielter Ausgrabungen<br/></p></note> </provenance>
+							</location> <note anchored="true">                                                <p>während gezielter Ausgrabungen; "im Frühjahr" (CIL)<br/></p></note> </provenance>
 						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (CIL XIII Projekt)<br/></p>
                                                 </provenance>
 					</history>
@@ -295,33 +295,52 @@
 		<back>
 			<note type="Objbeschr_note"/>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"><p>Wiegels 1982, 41: oolithischer Schillkalk<br/></p></note>
+			<note type="Material_note">                                                    <p><b>Wiegels 1982, 41:</b> oolithischer Schillkalk<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"><p>so die lupa<br/></p></note>
+			<note type="InvNr_note">                                                    <p>so die <b>lupa</b><br/></p></note>
 			<note type="Fundstelle_note"/>
-			<note type="Fundumst_note">                                                    <p>Siehe Wagner 1908, 165-167; Heinz 1982 "Der Diana Abnoba-Altar in Badenweiler"<br/></p></note>
-			<note type="Fundjahr_note"><p>so CIL - im Frühjahr<br/></p></note>
+			<note type="Fundumst_note">                                                    <p><b>Siehe Wagner 1908, 165-167</b>; Heinz 1982 "Der Diana Abnoba-Altar in Badenweiler"<br/></p></note>
+			<note type="Fundjahr_note">                                                    <p>so <b>CIL</b> - im Frühjahr<br/></p></note>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note"><p>so CIL<br/></p></note>
+			<note type="FOmodern_note">                                                    <p>so <b>CIL</b><br/></p></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note"/>
+			<note type="Editionen_note">                                                    <p><b>Literatur eingesehen von Verena:</b></p>
+                                                    <ul>
+                                                        <li>Erdmannsdörffer 1885<b>, </b>46 not. 14</li>
+                                                        <li>Posselt 1785, 121</li>
+                                                        <li>Preuschen 1787, 122</li>
+                                                        <li>Grandidier 1787, 144</li>
+                                                        <li>Pownall 1788, 190 Nr. 13</li>
+                                                        <li>Gerbert 1788, 473</li>
+                                                        <li>Rappenegger 1845. 6 Nr. 4</li>
+                                                        <li>Brambach 1867, Nr. 1654</li>
+                                                        <li>Steiner 1837, Nr. 100, Nr. 845</li>
+                                                        <li>Sattler 1757, 199</li>
+                                                        <li>Creuzer 1833, 63</li>
+                                                        <li>Stälin 1835, 33</li>
+                                                        <li>Zell 1846, 232 Nr. 14</li>
+                                                        <li>Riese 1914, Nr. 2714</li>
+                                                        <li>Wiegels 1982, 41</li>
+                                                        <li>Wagner 1908, 166</li><li>Gmelin 19. Jahrhundert, Kupferstich</li></ul></note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"><p>Wiegels 1982, 41<br/></p></note>
+			<note type="Masse_note">                                                    <p><b>Wiegels 1982, 41</b><br/></p></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"><p>Wiegels 1982, 41<br/></p></note>
+			<note type="Buchsthoehe_note">                                                    <p><b>Wiegels 1982, 41</b><br/></p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"><p>EDH: <span style="color: rgb(51, 51, 51); font-family: Ubuntu, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 100; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">71 AD – 250 AD</span></p><p><span style="color: rgb(51, 51, 51); font-family: Ubuntu, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 100; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Heinz 1982 (archäologisch): spätes 1. bis 2. Jh.</span></p><p><span style="color: rgb(51, 51, 51); font-family: Ubuntu, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 100; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Wiegels 1982 (epigraphisch): Ende 1. bis Ende 2. Jh<br/></span></p></note>
+			<note type="Datierung_note">                                                    <p><b>EDH: </b><span style="color: rgb(51, 51, 51); font-family: Ubuntu, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 100; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">71 AD – 250 AD</span></p>
+                                                    <p><span style="color: rgb(51, 51, 51); font-family: Ubuntu, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;"><b>Heinz 1982 </b></span><span style="color: rgb(51, 51, 51); font-family: Ubuntu, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 100; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">(archäologisch): spätes 1. bis 2. Jh.</span></p>
+                                                    <p><span style="color: rgb(51, 51, 51); font-family: Ubuntu, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;"><b>Wiegels 1982</b></span><span style="color: rgb(51, 51, 51); font-family: Ubuntu, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 100; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"> (epigraphisch): Ende 1. bis Ende 2. Jh<br/></span></p></note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>
 		</back>

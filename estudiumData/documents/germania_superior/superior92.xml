@@ -41,7 +41,7 @@
 				<msDesc>
 					<msIdentifier>
 						<settlement>Mainz</settlement>
-						<repository>Landesmuseum</repository>
+						<repository>Landesmuseum, Depot</repository>
 						<idno>S 1219</idno>
 					</msIdentifier>
 					<msContents>
@@ -50,7 +50,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>                                                <p>Von diesem Weihealtar sind nur mehr die Bekrönung und der Beginn des ungerahmten Inschriftenfeldes vorhanden. Diese zwei Teile sind durch mehrere Stufen voneinander getrennt. Der Aufsatz ist durch Pulvini mit Rosetten geschmückt, wobei die rechte Volute abgebrochen ist. Dazwischen befindet sich ein Dreiecksgiebel und dahinter eventuell die Opferschale.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+								<support> <p>                                                <p>Von diesem Weihealtar sind nur mehr die Bekrönung und der Beginn des ungerahmten Inschriftenfeldes vorhanden. Diese zwei Teile sind durch mehrere Stufen voneinander getrennt. Der Aufsatz ist durch Pulvini mit Rosetten geschmückt, wobei die rechte Volute abgebrochen ist. Dazwischen befindet sich ein Dreiecksgiebel und dahinter eventuell die Opferschale. Becker (1873, 142 Nr. 1) beschreibt das Material als roten Sandstein.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
 									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm">63</height>
 										<width unit="cm">30</width>
@@ -80,7 +80,7 @@
 						<origin> <origPlace> <placeName>Altiaia</placeName> <region>Civitas Vangionum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when="1872"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Alzey</ref> </placeName> <p>auf den Drommäckern zwischen der alten Schlossruine und der Loge [spätantikem Kastell] (CIL); „in einem Acker des Gärtners A. Braun“ (Wimmer 1874, 10); „zwischen dem Schloß und dem Dautenheimer Weg“ (Weber 1966, 3 Nr.6266)</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true"/> </provenance>
+							</location> <note anchored="true"><p>"in zwei Theile zerbrochen aufgefunden" (Becker 1873, 142 Nr. 1)</p></note> </provenance>
 						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (CIL XIII Projekt)</p></provenance>
 					</history>
 				</msDesc>
@@ -289,43 +289,70 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"><p>Lupa: untere Hälfte fehlt heute, bestoßen, rechts verbr. Volutenposter (pulvini) mit Rosetten, dazwischen Giebel</p><p>Franz 1992 (CSIR Dtschld. 2,4,) Nr.185: unteres Fgt.: verschollen</p></note>
+			<note type="Objbeschr_note">                                                    <p><b>Lupa:</b> untere Hälfte fehlt heute, bestoßen, rechts verbr. Volutenposter (pulvini) mit Rosetten, dazwischen Giebel</p>
+                                                    <p><b>Franz 1992 (CSIR Dtschld. 2,4,) Nr.185</b>: unteres Fgt.: verschollen</p></note>
 			<note type="ArchKlass_note"><p>Pulvini</p><p>Giebel</p><p>Rosette</p><p>Opferschale</p></note>
-			<note type="Material_note"><p>rot – Becker 1873, S. 142, Nr. 1<br/></p></note>
-			<note type="Inschrifttraeger_note"><p>WSpDB: ara<br/>EDH: Altar</p></note>
+			<note type="Material_note"><p><b>Becker 1873, 142 Nr. 1:</b> rot<br/></p></note>
+			<note type="Inschrifttraeger_note">                                                    <p><b>WSpDB:</b> ara<br/><b>EDH:</b> Altar</p></note>
 			<note type="VerwahrortOrt_note"/>
 			<note type="InvNr_note"/>
 			<note type="Fundstelle_note"/>
-			<note type="Fundumst_note"><p>in zwei Theile zerbrochen aufgefunden – Becker 1873 S. 142, Nr. 1<br/></p></note>
-			<note type="Fundjahr_note"><p>1872 – Becker 1873, S. 142, Nr. 1, so auch Schwabe 1873, S. 295</p><p>1871 - Wimmer</p></note>
+			<note type="Fundumst_note"><p><b>Becker 1873, 142 Nr. 1</b>: in zwei Theile zerbrochen aufgefunden<br/></p></note>
+			<note type="Fundjahr_note"><p><b>Becker 1873, 142 Nr. 1</b>; so auch <b>Schwabe1873, 295</b>: 1872</p>
+                                                    <p><b>Wimmer:</b> 1871</p></note>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note"><p>Kraft 1951, S. 144 Nr. 211 Ladenburg??!<br/></p></note>
+			<note type="FOmodern_note">                                                    <p><b>Kraft 1951, 144 Nr. 211:</b> Ladenburg??!<br/></p></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note">                                                    <p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p><p>eingesehen</p>
-                                                    <p>Alföldy, Géza: Epigraphisches aus dem Rheinland II. in: Epigraphische Studien 4, 1967, S. 13 (Nr. 26); S. 11 Karte - eingesehen</p>
+			<note type="Editionen_note">                                                    <p>Alföldy, Géza: Epigraphisches aus dem Rheinland II. in: Epigraphische Studien 4, 1967, S. 13 (Nr. 26); S. 11 Karte - eingesehen</p>
                                                     <p>Kienle, Richard von: Das Auftreten keltischer und germanischer Gottheiten zwischen Oberrhein und Limes. In: Archiv für Religionswissenschaft 35. 1938. S.252ff S.257, - eingesehen</p>
                                                     <p>CSIR Deutschland 2,4, Nr. 185 – eingesehen – Nachtrag der Abb</p>
                                                     <p>Scheungraber – hat die IS nicht</p>
-                                                    
-                                                    
                                                     <p>Ihm 1887, Nr.551,</p>
-                                                    <p>Riese 1914, Nr.3513, - eingearbeitet</p><p>Ivleva, Tatiana Alexandrovna: Britons Abroad. The mobility of Britons
+                                                    <p>Riese 1914, Nr.3513, - eingearbeitet</p>
+                                                    <p>Ivleva, Tatiana Alexandrovna: Britons Abroad. The mobility of Britons
  and the circulation of British-made objects in the Roman Empire. Diss. 
-Leiden 2012 S.245f., - eingesehen<br/></p>
-                                                    Kakoschke, 
+Leiden 2012 S.245f., - eingesehen</p>
+                                                    <p>Kakoschke, 
 Andreas: Ortsfremde in den römischen Provinzen Germania inferior und 
 Germania superior. Eine Untersuchung zur Mobilität in den germanischen 
 Provinzen anhand der Inschriften des 1. bis 3. Jahrhunderts n. Chr. 
 (Osnabrücker Forschungen zu Altertum und Antike-Rezeption; 5), Möhnesee:
- Bibliopolis 2002. Nr. 5.34 - eingearbeitet
-                                                    <p>Gricourt, Daniel; Hollard, Dominique; Pilon, Fabien : Le Mercure Solitumaros de Châteaubleau (Seine-et-Marne): Lugus macrophtalme, visionnaire et guérisseur. in: Dialogues d’Histoire Ancienne 25,2, 1999 S. 135 - eingesehen</p></note>
+ Bibliopolis 2002. Nr. 5.34 - eingearbeitet</p>
+                                                    <p>Gricourt, Daniel; Hollard, Dominique; Pilon, Fabien : Le Mercure Solitumaros de Châteaubleau (Seine-et-Marne): Lugus macrophtalme, visionnaire et guérisseur. in: Dialogues d’Histoire Ancienne 25,2, 1999 S. 135 - eingesehen</p>
+                                                    <p><b>Literatur eingesehen von Verena:</b></p>
+                                                    <ul>
+                                                        <li>Becker 1873, 142</li>
+                                                        <li>Schwabe 1873, 295</li>
+                                                        <li>Brambach 1873, 190 A2</li>
+                                                        <li>Becker 1875, Nr. 84</li>
+                                                        <li>Wimmer 1874, 10</li>
+                                                        <li>Ihm 1887, 184 Nr. 551</li>
+                                                        <li>Künzl 1975, 57</li>
+                                                        <li>Riese 1914, nr. 3513</li>
+                                                        <li>Behn 1929/30, 97 (nur erwähnt)<br/></li>
+                                                        <li>Kienle 1938, 257</li>
+                                                        <li>Behrens 1944/45, 15</li>
+                                                        <li>Weber 1966, 3f. Nr. 6266</li>
+                                                        <li>Klumbach 1973, 12f.</li>
+                                                        <li>Wolff 1973, 51 A35</li>
+                                                        <li>Alföldy 1967, 13 A69 (nur erwähnt)</li>
+                                                        <li>Boppert 2007, 227 (nur erwähnt)</li>
+                                                        <li>Holder 1896, Sp. 277 (nur erwähnt)</li>
+                                                        <li>Holder 1904, Sp. 1662 (nur erwähnt)</li>
+                                                        <li>Holder 1908, Sp. 739 (nur erwähnt)</li>
+                                                        <li>
+                                                            <rs type="divine">nicht aufgenommen, nicht eingesehen:</rs>
+                                                        </li>
+                                                        <li>Ihm in: Roscher ML IV 1592, 24; IV 1596 Nr. 31 (nur erwähnt)</li>
+                                                        <li>Franke Fundmünzen, 27 (nur erwähnt)</li>
+                                                    </ul></note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"><p>so Künzl 1975<br/></p></note>
+			<note type="Masse_note">                                                    <p>so <b>Künzl 1975</b><br/></p></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
@@ -335,7 +362,10 @@ Provinzen anhand der Inschriften des 1. bis 3. Jahrhunderts n. Chr.
 			<note type="KommGoettern_note"><p><rs type="divine">Sulis</rs>: wenn die Herstellung des GN so richtig; und nicht etwa <i>Suleviae</i>, wie schon Heichelheim 1931 (Sul) 724. <br/></p><p> </p>
 			</note>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"><p>severisch: Weber</p><p>E.2./3.Jh. – Künzl</p><p>171 AD – 230 EDH</p><p>190-250: WSpDB</p></note>
+			<note type="Datierung_note"><p><b>Weber:</b> severisch</p>
+                                                    <p><b>Künzl: </b>E.2./3.Jh.</p>
+                                                    <p><b>EDH: </b>171 AD – 230</p>
+                                                    <p><b>WSpDB: </b>190-250</p></note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>
 		</back>

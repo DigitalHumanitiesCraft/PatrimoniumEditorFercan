@@ -50,7 +50,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>                                                <p>Das Inschriftenfeld des Weihesteins ist mehrfach gerahmt, die Inschrift wurde in roter Farbe nachgezogen. Das rechte obere Eck ist bis ins Inschriftenfeld und mittiger Höhe ausgeschlagen, das linke untere Eck ist abgeschlagen.<br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+								<support> <p>                                                <p>Das Inschriftenfeld des Weihesteins ist dreifach gerahmt, die Inschrift wurde in roter Farbe nachgezogen. Das rechte obere Eck ist bis ins Inschriftenfeld und mittiger Höhe ausgeschlagen, das linke untere Eck ist abgeschlagen. Das Material wird als grauer Sandstein beschrieben (BInsfeld &amp; Goethert-Polaschek &amp; Schwinden 1988, 432 Nr. 66).</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
 									<objectType>Weihestein</objectType> <dimensions>
 										<height unit="cm"> 63</height>
 										<width unit="cm"> 69,5</width>
@@ -256,7 +256,8 @@
 <lb n="5" break="no"/>orio Sacril
 <lb n="6" break="no"/>lio <expan><abbr>q</abbr><ex cert="low">uaestore</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
-				<p><p>Zur Ehre des Kaiserhauses für die Göttin <rs type="divine">Epona</rs>!</p><p>Die Bewohner des Vicus Belginum haben (es) aufgestellt, der Quaestor Gaius Velorius Sacrillius hat es besorgt.<br/></p></p>
+				<p>                                                <p>Zur Ehre des Kaiserhauses für die Göttin <rs type="divine">Epona</rs>!</p>
+                                                <p>Die Bewohner des Vicus Belginum haben (es) aufgestellt, der Quaestor Gaius Velorius Sacrillius hat es besorgt.<br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
 				<p><p>In honour of the Divine Household to the goddess <rs type="divine">Epona</rs>! </p><p>The inhabitants of the vicus of Belginum set (this) up, the quaestor Gaius Velorius Sacrillius was in charge.<br/></p></p>
@@ -938,31 +939,56 @@
 		<back>
 			<note type="Objbeschr_note"/>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note">                                                    <p>CIL Kartei – Binsfeld (u.a.), Katalog der römischen Steindenkmäler des Rheinischen Landesmuseums Trier, Bd1, Mainz 1992, S. 42 Nr. 66 Grauer Sandstein<br/></p></note>
+			<note type="Material_note">                                                    <p><b>Binsfeld u.a. 1998, 42 Nr. 66:</b> Grauer Sandstein<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
-			<note type="VerwahrortOrt_note"><p>CIL: nunc Trier in museo</p></note>
-			<note type="InvNr_note"><p>Lt. CIL Kartei – Binsfeld u.a., Katalog der römischen Steindenkmäler des Rheinischen Landesmuseums Trier, Bd1, Mainz 1992, S. 42 Nr. 66<br/></p></note>
-			<note type="Fundstelle_note"><p>CIL: bei Hinzerath beim stumpfen Thurm an der Westseite ungefähr 100 Schritte von ihm entfernt</p><p>ILS: Beim stumpfen Turm prope Heingerath (Kr. Bernkastel) rep.,</p><p>– gemeinsam mit Epona 006</p><p>Cüppers: nahe dem NO Ende der Siedlung</p></note>
-			<note type="Fundumst_note"><p>s. Florencourt Bjb 3 (1843)<br/></p></note>
-			<note type="Fundjahr_note"><p>A. Haffner, Gräber – Spiegel des Lebens, Katalog Mainz 1989, 25ff. - 1840</p><p>siehe Florencourt in Bjb 3 (1843) S. 48 : „Die erste Nachricht von diesem Funde wurde dem Vereine unter dem 11. Mai d. J. ... mitgeteilt“</p><p>Steiner 1695: Gefunden 1842<br/></p></note>
+			<note type="VerwahrortOrt_note">                                                    <p><b>CIL:</b> nunc Trier in museo</p></note>
+			<note type="InvNr_note">                                                    <p><b>Binsfeld u.a. 1998, 42 Nr. 66</b><br/></p></note>
+			<note type="Fundstelle_note">                                                    <p><b>CIL:</b> bei Hinzerath beim stumpfen Thurm an der Westseite ungefähr 100 Schritte von ihm entfernt</p>
+                                                    <p><b>ILS: </b>Beim stumpfen Turm prope Heingerath (Kr. Bernkastel) rep.,</p>
+                                                    <p>– <u>gemeinsam mit Epona 1006</u></p>
+                                                    <p><b>Cüppers</b>: nahe dem NO Ende der Siedlung</p></note>
+			<note type="Fundumst_note">                                                    <p>s. <b>Florencourt Bjb 3 (1843)</b><br/></p></note>
+			<note type="Fundjahr_note">                                                    <p><b>Haffner 1989, 25ff.</b>: 1840</p>
+                                                    <p><b>Florencourt 1843, 48</b>: „Die erste Nachricht von diesem Funde wurde dem Vereine unter dem 11. Mai d. J. [...] mitgeteilt“</p>
+                                                    <p><b>Steiner 1695</b>: Gefunden 1842<br/></p></note>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note"><p>Lobüscher: Wederath<br/>„Aus einer weiteren lnschrift ergibt sich, daß die Dorfbewohner von Belginum zu Ehren der Göttin Epona, der Schutzgöttin der Pferdezucht, ein Bauwerk errichteten61) (Tafel 32). Diese inschriftlichen Erwähnungen und eine weitere Inschrift an Mercur machen es wahrscheinlich, daß außerhalb des vicus, der zivilen Ansiedlung, ein Tempelbezirk mit mehreren Kultbauten bestanden hat.“ – Cüppers 1966, S. 41</p></note>
+			<note type="FOmodern_note">                                                    <p><b>Lobüscher:</b> Wederath</p>
+                                                    <p><b>Cüppers 1966, 41:</b>„Aus einer weiteren lnschrift ergibt sich, daß die Dorfbewohner von Belginum zu Ehren der Göttin Epona, der Schutzgöttin der Pferdezucht, ein Bauwerk errichteten) (Tafel 32). Diese inschriftlichen Erwähnungen und eine weitere Inschrift an Mercur machen es wahrscheinlich, daß außerhalb des vicus, der zivilen Ansiedlung, ein Tempelbezirk mit mehreren Kultbauten bestanden hat.“</p></note>
 			<note type="civitas_note">                                                    <p>Lobüscher: CIL rechnet Belginum noch zur GermSup. – jetzt aber zweifelhaft s. Heinen, Trier 13f., 427; Haffner 1989, 23<br/></p></note>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note">                                                    <p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p>
-                                                    <p>Orelli/Henzen 1856, 5238, - eingesehen</p>
+			<note type="Editionen_note">                                                    <p>Orelli/Henzen 1856, 5238, - eingesehen</p>
                                                     <p>Hettner 1893, Nr.105, - eingesehen</p>
                                                     <p>Steiner 1851-64, Nr.1695 - eingesehen</p>
                                                     <p>Hagen S.354f., - (keiner der Hagen in citavi hat eine S. 354)</p>
                                                     <p>Haffner, A.: Gräber –Spiegel des Lebens. Mainz 1989. S.28. Abb.13 (Photo), - eingesehen<br/></p>
-                                                    <p>Magnen S.41. Nr.12/13, - eingesehen</p></note>
+                                                    <p>Magnen S.41. Nr.12/13, - eingesehen</p>
+                                                    <p><b>Literatur eingesehen von Verena:</b></p>
+                                                    <ul>
+                                                        <li>Schayes 1858, 445</li>
+                                                        <li>Brambach 1867, Nr. 864</li>
+                                                        <li>Hettner 1876, Nr. 105</li>
+                                                        <li>Haffner 1989, 25ff.</li>
+                                                        <li>Florencourt 1843, 47</li>
+                                                        <li>Wightman 1970, 214 A12</li>
+                                                        <li>Rupprecht 1975, 194</li>
+                                                        <li>Binsfeld &amp; Goethert-Polaschek &amp; Schwinden 1988, 42 Nr. 66</li>
+                                                        <li>Philantrop 1844, Nr. 2</li>
+                                                        <li>Riese 1917, Nr. 2531</li>
+                                                        <li>Magnen &amp; Thevenot 1953, 41 Nr. 12</li>
+                                                        <li>Cüppers 1966, 41</li>
+                                                        <li>Haffner 1970, 205</li>
+                                                        <li>Cüppers 1983, Nr. 202</li>
+                                                        <li>Steininger 1845, 159</li>
+                                                        <li>Orelli 1828-1856, Nr. 5238</li>
+                                                        <li>Steiner 1837, Nr. 1695</li>
+                                                    </ul></note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note">                                                    <p>So CIL XIII Kartei</p>
-                                                    <p>Binsfeld (u.a.), EDH, lupa: H 61, B 70, T 11<br/>Haffner 1970, S. 205: 0,7x0,61x0,11m</p></note>
+			<note type="Masse_note">                                                    <p>So <b>CIL XIII Kartei</b></p>
+                                                    <p><b>Binsfeld (u.a.), EDH, lupa</b>: H 61, B 70, T 11<br/><b>Haffner 1970, 205:</b> 0,7x0,61x0,11m</p></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
@@ -971,7 +997,8 @@
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"><p>WSpDat, EDH: 170-250</p><p>Cüppers: 2.H.2. od 3.Jh.</p></note>
+			<note type="Datierung_note">                                                    <p><b>WSpDat, EDH:</b> 170-250</p>
+                                                    <p><b>Cüppers:</b> 2.H.2. od 3.Jh.</p></note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>
 		</back>

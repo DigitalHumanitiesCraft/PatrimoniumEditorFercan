@@ -2,25 +2,43 @@
 	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
-				<title type="full"><title type="main">Herecura?</title><title type="sub">CF-GeS-1027</title></title>
+				<title type="full">
+                            <title type="main">Herecura?</title>
+                            <title type="sub">CF-GeS-1027</title>
+                        </title>
 				<respStmt>
 					<resp>Inschriftenedition</resp>
-					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+					<persName>
+                                <forename>Werner</forename>
+                                <surname>Petermandl</surname>
+                            </persName>
 				</respStmt>
 				<respStmt>
 					<resp>Archäologische Beschreibung und geografische Daten</resp>
-					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+					<persName>
+                                <forename>Astrid</forename>
+                                <surname>Schmölzer</surname>
+                            </persName>
 				</respStmt>
 				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
 			</titleStmt>
 			<publicationStmt>
-				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
-					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
-				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+				<publisher>
+                            <link target="https://antike.uni-graz.at"/>
+                            <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
+                        </publisher>
+				<authority>
+                            <link target="https://informationsmodellierung.uni-graz.at"/>
+                            <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
 					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
-					Graz</orgName></authority>
-				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
-					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+					Graz</orgName>
+                        </authority>
+				<distributor>
+                            <link target="https://gams.uni-graz.at"/>
+                            <orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName>
+                        </distributor>
 				<date when="2022">2022</date>
 				<pubPlace>Graz</pubPlace>
 				<idno type="PID">o:fercan.47</idno>
@@ -34,7 +52,10 @@
 					Celticarum Antiquarum</title>
 				<respStmt>
 					<resp>Projektleitung</resp>
-					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+					<persName>
+                                <forename>Wolfgang</forename>
+                                <surname>Spickermann</surname>
+                            </persName>
 				</respStmt>
 			</seriesStmt>
 			<sourceDesc>
@@ -50,7 +71,8 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>                                                <p>Es handelt sich um zwei aneinanderpassende Fragmente in jeweils ungefähr dreieckiger Form, die rundherum abgebrochen sind. Beim rechten Fragment könnte es sich beim ungeglätteten unteren Bereich um einen Teil der Basis sowie um den rechten Rand der Inschrift handeln. Es ist kein Dekor mehr erkennbar.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+								<support> <p>                                                <p>Es handelt sich um zwei aneinanderpassende Fragmente in jeweils ungefähr dreieckiger Form, die rundherum abgebrochen sind. Beim rechten Fragment könnte es sich beim ungeglätteten unteren Bereich um einen Teil der Basis sowie um den rechten Rand der Inschrift handeln. Es ist kein Dekor mehr erkennbar. Der Sandstein, aus dem der Weihestein ist, ist rötlich grau.</p>
+                                            </p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
 									<objectType>Weihestein</objectType> <dimensions>
 										<height unit="cm">16</height>
 										<width unit="cm"> 15</width>
@@ -59,29 +81,37 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130320">kleineres Fragment</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Der Inschriftentext ist teilweise auf zwei anpassenden Fragmenten erhalten. Zumindest auf der linken Seite ist der Text eindeutig abgebrochen. Eine Ergänzung auf <rs type="divine">Herecura</rs> ist naheliegend, aber nicht völlig gesichert. Die Buchstaben können bis auf das S als regelmäßig bezeichnet werden.<br/></p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130320</note> </layout>
+								<layout> <p>                                                <p>Der Inschriftentext ist teilweise auf zwei anpassenden Fragmenten erhalten. Zumindest auf der linken Seite ist der Text eindeutig abgebrochen. Eine Ergänzung auf <rs type="divine">Herecura</rs> ist naheliegend, aber nicht völlig gesichert. Die Buchstaben können bis auf das S als regelmäßig bezeichnet werden.<br/>
+                                                </p>
+                                            </p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130320</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
 							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="3.0" atMost="4.0">3,0–4,0</height> </handNote>
 						</handDesc>
 						<decoDesc>
-							<decoNote> <p>                                                <p>Keine bildliche Gestaltung vorhanden.</p></p> 
+							<decoNote> <p>                                                <p>Keine bildliche Gestaltung vorhanden.</p>
+                                        </p> 
                       <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150300">glatt</term>
 							</decoNote>
 						</decoDesc>
 					</physDesc>
 					<history>
-						<origin> <origPlace> <placeName/> <region>Civitas Vangionum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<origin> <origPlace> <placeName/> <region>Civitas Vangionum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false">
+                                        <date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note>
+                                    </origDate> </origin>
 						<provenance type="found" when="1910"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Freinsheim</ref> </placeName> <p>in unmittelbarer Nähe eines Brandgrabes (Sprater 1930, 49)</p> <location>
 								<geo decls="#WGS"/>
 							</location> <note anchored="true">Weitere Details zu den Fundumständen sind nicht bekannt.</note> </provenance>
-						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (6.11.2023)<br/></p></provenance>
+						<provenance type="observed" subtype="autopsied">                                                <p>vidimus (6.11.2023)<br/>
+                                    </p>
+                                </provenance>
 					</history>
 				</msDesc>
 				<listPlace>
 					<place type="antique_term">
-						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+						<placeName>
+                                    <ref target="context:fercan.geog.term" type="context"/> </placeName>
 					</place>
 					<place type="sacral_building">
 						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
@@ -115,8 +145,10 @@
 						</roleName> </persName>
 					</person>
 					<person>
-						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">
-						</ref></persName>
+						<persName type="gentilnomen">
+                                    <ref target="context:fercan.person.gentilnomen." type="context">
+						</ref>
+                                </persName>
 					</person>
 					<person>
 						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
@@ -140,8 +172,10 @@
 						</orgName>
 					</org>
 					<org type="military_unit">
-						<orgName><ref target="context:fercan.org.military." type="context">
-						</ref></orgName>
+						<orgName>
+                                    <ref target="context:fercan.org.military." type="context">
+						</ref>
+                                </orgName>
 					</org>
 					<org type="population_group">
 						<orgName> <ref target="context:fercan.org.population." type="context">
@@ -191,7 +225,7 @@
 						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
 						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
 						<!-- Belegform gesamt  -->
-						<item> <ref target="context:fercan.divinepart." type="context">[Here]cur(a)e</ref> </item>
+						<item> <ref target="context:fercan.divinepart." type="context">[---]cur(a)e</ref> </item>
 					</list>
 				</keywords>
 			</textClass>
@@ -223,11 +257,26 @@
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
 				<listBibl>
-					<bibl type="EDCS"><idno>EDCS-12500131</idno><date>zuletzt abgerufen 2023-06-06</date></bibl>
-					<bibl type="EDH"><idno>HD076028</idno><date>Version von 2020-01-23</date></bibl>
-					<bibl type="trismegistos"><idno> </idno><date> </date></bibl>
-					<bibl type="lupa"><idno>http://lupa.at/26811</idno><date>Version von 2022-12-29</date></bibl>
-					<bibl type="other"><idno>https://cil.bbaw.de/ace/id/KO0128669</idno><date> zuletzt abgerufen 2023-08-16</date></bibl>
+					<bibl type="EDCS">
+                                <idno>EDCS-12500131</idno>
+                                <date>zuletzt abgerufen 2023-06-06</date>
+                            </bibl>
+					<bibl type="EDH">
+                                <idno>HD076028</idno>
+                                <date>Version von 2020-01-23</date>
+                            </bibl>
+					<bibl type="trismegistos">
+                                <idno> </idno>
+                                <date> </date>
+                            </bibl>
+					<bibl type="lupa">
+                                <idno>http://lupa.at/26811</idno>
+                                <date>Version von 2022-12-29</date>
+                            </bibl>
+					<bibl type="other">
+                                <idno>https://cil.bbaw.de/ace/id/KO0128669</idno>
+                                <date> zuletzt abgerufen 2023-08-16</date>
+                            </bibl>
 				</listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
@@ -236,23 +285,32 @@
 			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>cur</abbr><ex>a</ex></expan>e <expan><abbr>Vi</abbr><ex cert="low"/></expan>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan></supplied> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
-				<p><p>Für <rs type="divine">Herecura</rs>!</p><p>Vi… hat [das Gelübde] gerne, freudig und verdientermaßen erfüllt.</p></p>
+				<p>
+                            <p>Für <rs type="divine">Herecura</rs>!</p>
+                            <p>Vi… hat [das Gelübde] gerne, freudig und verdientermaßen erfüllt.</p>
+                        </p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p><p>To <rs type="divine">Herecura</rs>!</p><p>Vi… has fulfilled [the vow] willingly, gladly and deservedly.</p></p>
+				<p>
+                            <p>To <rs type="divine">Herecura</rs>!</p>
+                            <p>Vi… has fulfilled [the vow] willingly, gladly and deservedly.</p>
+                        </p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="1">
 					<note anchored="true">[Here]cur(a)e – EDH, Scheungraber, Ferlut; am Ende der Zeile Vi[c] – EDH, Scheungraber, Ferlut</note>
 				</app>
 			
-            <app loc="2"><note anchored="true">am Anfang der Zeile [tor (?) v(otum)] – EDH, Scheungraber; l(ibens) l(aetus) – EDH, Scheungraber; [tor v(otum)] s(olvit) l(aetus) l(ibens) m(erito) […] – Ferlut</note></app>
+            <app loc="2">
+                            <note anchored="true">am Anfang der Zeile [tor (?) v(otum)] – EDH, Scheungraber; l(ibens) l(aetus) – EDH, Scheungraber; [tor v(otum)] s(olvit) l(aetus) l(ibens) m(erito) […] – Ferlut</note>
+                        </app>
         </div>
 			<div type="commentary" subtype="general" org="uniform" sample="complete">
 				<p> </p>
 			</div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
-				<p>v.1: <span style="font-size:12.0pt;line-height:107%; font-family:">„</span>Herecure/Erecure<span style="font-size:12.0pt;line-height:107%; font-family:">”</span> pro <span style="font-size:12.0pt;line-height:107%; font-family:">„</span>Herecurae<span style="font-size:12.0pt;line-height:107%; font-family:">”</span></p>
+				<p>v.1: <span style="font-size:12.0pt;line-height:107%; font-family:">„</span>Herecure/Erecure<span style="font-size:12.0pt;line-height:107%; font-family:">”</span> pro <span style="font-size:12.0pt;line-height:107%; font-family:">„</span>Herecurae<span style="font-size:12.0pt;line-height:107%; font-family:">”</span>
+                        </p>
 			</div>
 			<div type="commentary" subtype="deity" org="uniform" sample="complete">
 				<p> </p>
@@ -261,35 +319,73 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"><p>Lupa: 2 anpassende Fragmente, oben u. links abgebr., rechts?</p></note>
+			<note type="Objbeschr_note">                                                    <p>
+                            <b>Lupa:</b> 2 anpassende Fragmente, oben u. links abgebr., rechts?</p>
+                    </note>
 			<note type="ArchKlass_note">                                                    </note>
-			<note type="Material_note"><p>So: Lupa<br/>Rötlich grau: CIL Kartei</p></note>
-			<note type="Inschrifttraeger_note"><p>WSpDB: Basis??<br/></p></note>
+			<note type="Material_note">                                                    <p>So: Lupa<br/>
+                            <b>CIL Kartei:</b> Rötlich grau</p>
+                    </note>
+			<note type="Inschrifttraeger_note">                                                    <p>
+                            <b>WSpDB: </b>Basis??<br/>
+                        </p>
+                    </note>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note">                                                    <p><br/></p></note>
+			<note type="InvNr_note">                                                    <p>
+                            <br/>
+                        </p>
+                    </note>
 			<note type="Fundstelle_note"/>
-			<note type="Fundumst_note"><p>Mehr ist nicht bekannt. <br/></p></note>
-			<note type="Fundjahr_note"><p>Lt. Mail vom 20.7.23</p></note>
+			<note type="Fundumst_note">                                                    <br/>
+                    </note>
+			<note type="Fundjahr_note">                                                    <p>
+                            <b>Mail von Frau Herget vom 20.7.2023</b>: "1910"</p>
+                    </note>
 			<note type="FOantik_note"/>
 			<note type="FOmodern_note"/>
-			<note type="civitas_note"><p>Nach CIL Freinsheim zu Vangionen</p></note>
+			<note type="civitas_note">
+                        <p>Nach CIL Freinsheim zu Vangionen</p>
+                    </note>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
-			<note type="Abb_note"><p>Film Nr.: 143/38; 54/14-16a (rechts)<br/></p></note>
+			<note type="Abb_note">
+                        <p>Film Nr.: 143/38; 54/14-16a (rechts)<br/>
+                        </p>
+                    </note>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note"><p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p></note>
+			<note type="Editionen_note">                                                    <p>
+                            <b>Literatur eingesehen von Verena:</b>
+                        </p>
+                                                    <ul>
+                                                        <li>Hildenbrand 1911, 55 Nr. 179a</li>
+                                                        <li>Sprater 1930, 49</li>
+                                                        <li>Ritterling 1912, 181<br/>
+                            </li>
+                                                    </ul>
+                    </note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note">                                                    <p>CIL Kartei: 17h, 13,5b, 6t</p><p>Teil 2 nach CIL XIII Projekt</p></note>
+			<note type="Masse_note">                                                    <p>
+                            <b>CIL Kartei: </b>17h, 13,5b, 6t</p>
+                                                    <p>Teil 2 nach <b>CIL XIII Projekt</b>
+                        </p>
+                    </note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note">                                                    <p>Lt. Mail vom 20.7.23</p><p>Eigene Messung: 2,9-3,7<br/></p></note>
+			<note type="Buchsthoehe_note">                                                    <p>
+                            <b>Mail von Frau Herget vom 20.7.2023</b>: "obere Zeile ca. 4,0 cm; untere Zeile ca. 3,0 cm"</p>
+                                                    <p>
+                            <b>Eigene Messung:</b> 2,9-3,7</p>
+                    </note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"><p>WSpDB: 150-250<br/></p></note>
+			<note type="Datierung_note">                                                    <p>
+                            <b>WSpDB</b>: 150-250</p>
+                                                    
+                    </note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>
 		</back>

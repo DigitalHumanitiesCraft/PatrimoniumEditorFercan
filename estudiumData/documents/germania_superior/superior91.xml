@@ -50,7 +50,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p><p>Vom Weihealtar sind wohl das gesamte Inschriftenfeld sowie die Basis erhalten. Von der Basis ist das linke untere Eck abgebrochen, rechts ist diese abgestoßen. Drei Stufen führen zum ungerahmten Inschriftenfeld, auf dessen rechter Seite auf Höhe der zweiten und dritten Zeile ein kleiner Teil ausgebrochen ist. Vom Aufsatz ist nichts erhalten.<br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+								<support> <p>Vom Weihealtar sind wohl das gesamte Inschriftenfeld sowie die Basis erhalten. Von der Basis ist das linke untere Eck abgebrochen, rechts ist diese abgestoßen. Drei Stufen führen zum ungerahmten Inschriftenfeld, auf dessen rechter Seite auf Höhe der zweiten und dritten Zeile ein kleiner Teil ausgebrochen ist. Vom Aufsatz ist nichts erhalten. Das Material wird von Wagner (1906, 191; 1911, 231) und Wiegels (2000, 55 Nr. 13) als roter, von Castritius &amp; Clauss (1980, 201) jedoch als brauner Sandstein beschrieben.</p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
 									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm">46</height>
 										<width unit="cm">36</width>
@@ -76,7 +76,7 @@
 						<origin> <origPlace> <placeName>Lopodunum</placeName> <region>Civitas Ulpia Sueborum Nicrensium</region> </origPlace> <origDate notBefore="0069" notAfter="0116" instant="false"><date> letztes Drittel 1.Jh.</date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when="1906"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Ladenburg</ref> </placeName> <p>"in der alten [mittelalterlichen] Stadtmauer an deren Nordostseite" (CIL)</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true">gefunden vom Gärtner Christian Höflein (Wagner 1911, 231); bei Abriss der Nordostseite (Haug 1906, 191)</note> </provenance>
+							</location> <note anchored="true">gefunden vom Gärtner Christian Höflein (Wagner 1911, 231); bei Abriss der Nordostseite (Haug 1906, 191); im Juli (Domaszeski &amp; Finke 1906/07, 84 Nr. 135)</note> </provenance>
 						<provenance type="observed" subtype="autopsied"><!--[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG></o:AllowPNG>
@@ -301,7 +301,7 @@
 			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Sulevis so
 <lb n="2" break="no"/>roribus <expan><abbr>L</abbr><ex>ucius</ex></expan>
 <lb n="3"/>Gallionius <expan><abbr>Ianuar</abbr><ex>ius</ex></expan>
-<lb n="4"/><expan><abbr>dic</abbr><ex>urio</ex></expan><note>!</note> <expan><abbr>al</abbr><ex>ae</ex></expan> I <expan><abbr>Cannanef</abbr><ex>atium</ex></expan>
+<lb n="4"/><expan><abbr>d<supplied reason="omitted">e</supplied>c</abbr><ex>urio</ex></expan> <expan><abbr>al</abbr><ex>ae</ex></expan> I <expan><abbr>Cannanef</abbr><ex>atium</ex></expan>
 <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
 				<p><p>Für die Schwestern <rs type="divine">Suleviae</rs>!</p><p>Lucius Gallionius Ianuarius, decurio der ala I Cannanefatum, hat das Gelübde freudig, gerne und verdientermaßen erfüllt.</p></p>
@@ -338,15 +338,21 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"><p>z 2+3rechts Ausbruch - CIL Kartei S. 4;</p><p>Haug 1906, S. 191: Es fehlt wohl oben von der Inschrift nichts, sondern nur das Gesims.</p></note>
+			<note type="Objbeschr_note"><p><b>CIL Kartei S. 4: </b>z 2+3rechts Ausbruch</p>
+                                                    <p><b>Haug 1906, 191:</b> Es fehlt wohl oben von der Inschrift nichts, sondern nur das Gesims.</p></note>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"><p>roter Sandstein (Wagner 1911, S. 231), auch Wagner 1906, S. 191, Wiegels 200, S. 55 Nr. 13</p><p>brauner Sandstein (Castritius/Clauss 1980, S. 201)</p></note>
+			<note type="Material_note">                                                    <p><b>Wagner 1911, 231: </b>roter Sandstein - auch <b>Wagner 1906, 191</b>, <b>Wiegels 2000, 55 Nr. 13</b></p>
+                                                    <p><b>Castritius/Clauss 1980, 201:</b> brauner Sandstein</p></note>
 			<note type="Inschrifttraeger_note"/>
-			<note type="VerwahrortOrt_note"><p>( laut EDH verschollen; Wiegels 56 "nachweislich um 1950 vorhanden"; Lipps et al. Kriegsverlust?)<br/></p></note>
-			<note type="InvNr_note"><p>Riese: Ladenburg. C 135<br/></p></note>
-			<note type="Fundstelle_note"><p>Wiegels 2000, S. 55f, Nr. 13: Gefunden 1906 beim Abreißen der mittelalterlichen Stadtmauer, und zwar an deren Nordseite, die sich hier nach neueren Erkenntnissen mit dem Verlauf der antiken Stadtmauer deckt.<br/></p></note>
-			<note type="Fundumst_note"><p>bei Abriss der Nordostseite: CIL Kartei S. 4<br/></p></note>
-			<note type="Fundjahr_note"><p>Juli 1906 - Domaszewski/Finke 1906/07, S. 84, Nr. 135<br/></p></note>
+			<note type="VerwahrortOrt_note"><p><b>Wiegels 56:</b> "nachweislich um 1950 vorhanden"
+</p><p><b>
+Lipps et al.</b>: Kriegsverlust?</p><p><b>
+
+laut EDH:</b> verschollen</p></note>
+			<note type="InvNr_note">                                                    <p><b>Riese: </b>Ladenburg. C 135<br/></p></note>
+			<note type="Fundstelle_note">                                                    <p><b>Wiegels 2000, 55f Nr. 13: </b>Gefunden 1906 beim Abreißen der mittelalterlichen Stadtmauer, und zwar an deren Nordseite, die sich hier nach neueren Erkenntnissen mit dem Verlauf der antiken Stadtmauer deckt.<br/></p></note>
+			<note type="Fundumst_note"><p><span style="font-weight: 700;">CIL Kartei</span><b>S. 4: </b>bei Abriss der Nordostseite<br/></p></note>
+			<note type="Fundjahr_note"><p><b>Domaszewski/Finke 1906/07, 84 Nr. 135</b>: Juli 1906<br/></p></note>
 			<note type="FOantik_note"/>
 			<note type="FOmodern_note"/>
 			<note type="civitas_note"/>
@@ -355,18 +361,42 @@
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note"><p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p></note>
+			<note type="Editionen_note">                                                    <p><b>Literatur eingesehen von Verena:</b></p>
+                                                    <ul>
+                                                        <li>Domaszewski 1906/07, Nr. 135</li>
+                                                        <li>Hag 1906, Sp. 191, Sp. 225</li>
+                                                        <li>Wagner 1911, 231</li>
+                                                        <li>Dessau ILS, Nr. 9323</li>
+                                                        <li>Speidel 1973, 172f.</li>
+                                                        <li>Behrens 1934, 54</li>
+                                                        <li>Kienle 1938, 258, 260</li>
+                                                        <li>Castritius &amp; Clauss 1980, 193-222<br/></li>
+                                                        <li>garzetti 1973, 110</li>
+                                                        <li>AE 1972, Nr. 355</li>
+                                                        <li>AE 1978, Nr. 564</li>
+                                                        <li>Wiegels 2000, 55 Nr. 13</li>
+                                                        <li>Riese 1914, Nr. 1435</li>
+                                                        <li>Gutenbrunner 1936, 226 Nr. 6</li>
+                                                        <li>Kraft 1951, 144 Nr. 211</li>
+                                                        <li>Holder 1980, 268 Nr. 202, 103</li>
+                                                        <li>Heukemes 1986, 384</li>
+                                                        <li>Barthel 1910/11, 125ff.</li>
+                                                        <li>
+                                                            <rs type="divine">aufgenommen, nicht eingesehen:</rs>
+                                                        </li>
+                                                        <li>Reuter 2005, 98, 101 A12 (nur erwähnt)</li>
+                                                    </ul></note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"><p>Haug, Wagner, Wiegels, Lipps et al.<br/></p></note>
+			<note type="Masse_note">                                                    <p><b>Haug, Wagner, Wiegels, Lipps et al.</b><br/></p></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note">                                                    <p>Haug, Lipps et al.<br/></p></note>
+			<note type="Buchsthoehe_note">                                                    <p><b>Haug, Lipps et al.</b><br/></p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note">                                                    <p>Wiegels, Lipps et al. <span>Letztes Drittel 1. Jh.
+			<note type="Datierung_note">                                                    <p><b>Wiegels, Lipps et al.:</b><span>Letztes Drittel 1. Jh.
 </span></p></note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>

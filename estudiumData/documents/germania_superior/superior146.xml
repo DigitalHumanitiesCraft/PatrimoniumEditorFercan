@@ -1,0 +1,519 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior146" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full">
+                                <title type="main">Aventia</title>
+                                <title type="sub">CF-GeS-2002</title>
+                            </title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName>
+                                    <forename>Werner</forename>
+                                    <surname>Petermandl</surname>
+                                </persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName>
+                                    <forename>Astrid</forename>
+                                    <surname>Schmölzer</surname>
+                                </persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>
+                                <link target="https://antike.uni-graz.at"/>
+                                <orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName>
+                            </publisher>
+				<authority>
+                                <link target="https://informationsmodellierung.uni-graz.at"/>
+                                <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName>
+                            </authority>
+				<distributor>
+                                <link target="https://gams.uni-graz.at"/>
+                                <orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName>
+                            </distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.146</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName>
+                                    <forename>Wolfgang</forename>
+                                    <surname>Spickermann</surname>
+                                </persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement> Avenches</settlement>
+						<repository> Musée romain</repository>
+						<idno> 7051</idno>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p>Die Inschrift befindet sich in einem leicht vertieftem Feld, das von einem profilierten Rahmen umgeben ist. Ausbrüche befinden sich vor allem an der rechten oberen und linken untern Ecke. Der Rand ist rundherum leicht bestoßen. Im letzten unteren Viertel der Inschrift sind auch im Inschriftenfeld Beschädigungen im Form von Ausbrüchen vorhanden.<br/></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110600">Statuenbasis/Basis</objectType> <dimensions>
+										<height unit="cm">110</height>
+										<width unit="cm">59,9</width>
+										<depth unit="cm">45</depth>
+									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130500">weitgehend vollständig</ref> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p>                                                <p>                                                </p>
+                                                <p>Die Inschrift füllt fast das gesamte mehrfach gerahmte und vertiefte Inschriftenfeld aus. Die Buchstaben sind regelmäßig gearbeitet und linksbündig, weswegen ab Z.9 mitunter Abstände zum rechten Rand entstehen. <br/>
+                                                    </p>
+                                                <p>Die Rahmen sind rundherum mehrfach beschädigt und das rechte obere und linke untere Eck des äußeren Rahmens sind ausgebrochen. Das Inschriftenfeld weist mehrere kleine Ausbrüche auf, und ab Z.9 sind auf der linken Seite sowie rechts unten stärkere Beschädigungen vorhanden, diese haben in Z.11 den zweiten Buchstaben schwer beschädigt, sodass nur mehr ein Rest der linken Schräghaste und des rechten unteren Hastenendes erhalten sind, und in Z.12 zum vollständigen Verlust von maximal 2 Buchstaben geführt. In Z.14 sind am Zeilenende sind noch Reste des A und der untere Bogen des D erhalten.</p>
+                                                <p>Zu Ligaturen: s. Majuskelumschrift. – Besondere Zeichen: Elongiertes I in Z.8. Worttrenner in Z.2, Z.6, Z.8, Z.13 und Z.14. In Z.14 findet sich das Sonderzeichen für Sesterzen und über der Zahl V der waagrechte Strich für Tausend.</p>
+                                                </p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130500</note> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="3.0" atMost="4.7">3,0–4,7</height> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p>                                                <p>
+                                                    Keine bildliche Gestaltung vorhanden.<br/>
+                                                </p>
+                                            </p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150500">Rahmen</term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName> </placeName> <region/> </origPlace> <origDate notBefore="" notAfter="" instant="false">
+                                            <date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note>
+                                        </origDate> </origin>
+						<provenance type="found" when=" "> <placeName> <ref type="context" target="context:fercan.geog.modern."> Münchweiler</ref> </placeName> <p>                                                <p>
+                                                "in einem Gasthof oder Bauernhaus" (Kolb 2022, Nr.141); "in vico in angulo casae rusticae" (Mommsen 1854, Nr.154); "von der alten Hauptstadt Helvetiens nach Münchsweiler in der Nähe von Murten [...] in der Wand des Schlosses" (Oechsli 1893, 24 Nr.15); "in castro" (Hagen 1878, Nr.1)</p></p> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true">                                                <p>eingemauert; "gesehen seit 1515" (Kolb 2022, Nr.141)<br/>
+                                            </p>
+                                        </note> </provenance>
+						<provenance type="observed" subtype="autopsied">
+                                        <p>non vidimus<br/>Lesung gründet auf: Kolb und Photo</p>
+                                    </provenance>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName>
+                                        <ref target="context:fercan.geog.term" type="context"> </ref> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context">Dea Aventia</ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context">Aventia</ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Tertius; Severus</ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen">
+                                        <ref target="context:fercan.person.gentilnomen." type="context"> </ref>
+                                    </persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context">curator coloniae</ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName>
+                                        <ref target="context:fercan.org.military." type="context"> </ref>
+                                    </orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">incolae Aventicenses</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list><item><ref target="context:fercan.divinepart." type="context">Deae Avent(iae)</ref></item>
+						<item> <ref target="context:fercan.dedication." type="context">de suo posuit</ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref>
+						</item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="2002_front1.jpg">
+			<desc>Front, CIL XIII Projekt, CC BY-NC</desc>
+		</graphic>
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="2002_front2.jpg">
+                <desc>Front, https://edh-www.adw.uni-heidelberg.de/edh/foto/F023984, © F. Feraudi-Gruénais</desc>
+            </graphic>
+        
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="2002_IS1.jpg">
+                <desc>Detail Z.11-13, Front, CIL XIII Projekt, CC BY-NC</desc>
+            </graphic>
+        
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="2002_IS2.jpg">
+                <desc>Detail Z.14, Front, CIL XIII Projekt, CC BY-NC</desc>
+            </graphic>
+        </facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="1">Hagen 1878, Nr.1</bibl>
+				
+            <bibl xml:id="2">CIL XIII 5072</bibl>
+        
+            <bibl xml:id="3">Riese 1914, 2026</bibl>
+        
+            <bibl xml:id="4">Howald/Meyer 1940, 2060 Nr.208</bibl>
+        
+            <bibl xml:id="5">Fellmann 1957, 72 Nr.4</bibl>
+        
+            <bibl xml:id="6">Walser 1979, Nr.74</bibl>
+        
+            <bibl xml:id="7">Bögli 1991, 80 Abb.99</bibl>
+        
+            <bibl xml:id="8">Frei-Stolba/Bielman 1996, Nr.17</bibl>
+        
+            <bibl xml:id="9">Nelis-Clément 2008, 91 Nr.4</bibl>
+        
+            <bibl xml:id="10">Oelschig 2009, CD-ROM Nr.7051</bibl>
+        
+            <bibl xml:id="11">Ferlut 2012, 805 Nr.2</bibl>
+        
+            <bibl xml:id="12">Epigraphica Helvetica 2019, Nr.25</bibl>
+        
+            <bibl xml:id="13">Aberson 2020, 15</bibl>
+        
+            <bibl xml:id="14">Kolb 2022, Nr.141</bibl>
+        
+            <bibl xml:id="15">Ferlut 2022, Nr.36</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS">
+                                    <idno>EDCS-10800475</idno>
+                                    <date>zuletzt abgerufen 2025-03-28</date>
+                                </bibl>
+					<bibl type="EDH">
+                                    <idno>HD079679</idno>
+                                    <date>Version von 2021-02-17</date>
+                                </bibl>
+					<bibl type="trismegistos">
+                                    <idno>https://www.trismegistos.org/text/424108</idno>
+                                    <date>zuletzt abgerufen 2025-03-28</date>
+                                </bibl>
+					<bibl type="lupa">
+                                    <idno>https://lupa.at/8592</idno>
+                                    <date>Version von 2024-02-05</date>
+                                </bibl>
+					<bibl type="other">
+                                    <idno> </idno>
+                                    <date> </date>
+                                </bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/>DEAE AVE<hi rend="ligature">NT</hi>
+<lb n="2"/>T<g type="interpunct">▴</g>TERTIVS
+<lb n="3"/>SEVERVS
+<lb n="4"/>CVR<g type="interpunct">▴</g>COLON
+<lb n="5"/>IDEMQVE ALL
+<lb n="6"/>CVI<g type="interpunct">▴</g>INCOLAE
+<lb n="7"/>AVENTICENS
+<lb n="8"/>PRIM<g type="interpunct">▴</g>OM<hi rend="ligature">NI</hi>VM
+<lb n="9"/>OB EIVS ERGA
+<lb n="10"/>SE MERITA
+<lb n="11"/>T<unclear>A</unclear>BVLAM ARG
+<lb n="12"/>P<gap reason="lost" atLeast="1" atMost="2" unit="character"/>L POSVER
+<lb n="13"/>DONVM<g type="interpunct">▴</g>D<g type="interpunct">▴</g>S<g type="interpunct">▴</g>P
+<lb n="14"/>EX HS VCC<g type="interpunct">▴</g>L<g type="interpunct">▴</g>D<g type="interpunct">▴</g>A D<orig/></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Deae  <expan><abbr>Avent</abbr><ex>iae</ex></expan>
+<lb n="2"/><expan><abbr>T</abbr><ex>itus</ex></expan> Tertius
+<lb n="3"/>Severus
+<lb n="4"/><expan><abbr>cur</abbr><ex>ator</ex></expan> <expan><abbr>colon</abbr><ex>iae</ex></expan>
+<lb n="5"/>idemque <expan><abbr>all</abbr><ex>ector</ex></expan>
+<lb n="6"/>cui incolae
+<lb n="7"/><expan><abbr>Aventicens</abbr><ex>es</ex></expan>
+<lb n="8"/><expan><abbr>prim</abbr><ex>o</ex></expan> omnium
+<lb n="9"/>ob eius erga
+<lb n="10"/>se merita
+<lb n="11"/>tabulam <expan><abbr>arg</abbr><ex>enteam</ex></expan>
+<lb n="12"/><expan><abbr>p</abbr><ex>ondo</ex></expan> <gap reason="lost" atLeast="1" atMost="2" unit="character"/>L <expan><abbr>posuer</abbr><ex>unt</ex></expan>
+<lb n="13"/>donum <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>uis</ex></expan> <expan><abbr>p</abbr><ex>ecuniis</ex></expan>
+<lb n="14"/>ex HS <expan><abbr>V</abbr><ex>milibus</ex></expan>CC <expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> a <expan><abbr>d</abbr><ex>ecurionibus</ex></expan></ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p>                                <p>Für die Göttin <rs type="divine">Aventia</rs>!</p>
+                                <p>Titus Tertius Severus, curator der Kolonie und ebenfalls Kassierer, dem die incolae von Aventicum, als aller Ersten, wegen seiner Verdienste für sie eine Silbertafel ... aufgestellt haben, hat (dies) als Geschenk von seinem eigenen (Geld) aufgestellt im Wert von 5200 Sesterzen. Der Ort wurde von den Dekurionen zugewiesen.</p>
+                            </p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p>                                <p>To the goddess <rs type="divine">Aventia</rs>!</p>
+                                <p>Titus Tertius Severus, curator of the colony and treasurer, for whom the incolae of Aventicum, as the very first (person), had set up a silvertablet due to his merit for them ... has erected (this) with
+ his own (money) as a gift for 5200 Sestertii. This place was given by the decurion 
+council.</p>
+                            </p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="4">
+					<note anchored="true">colon(orum) – Howald/Meyer, Fellmann, Walser, Bögli; c(oloniae) – Frei-Stolba/Bielman; colon(---) – Aberson</note>
+				</app>
+			
+            <app loc="5">
+                <note anchored="true">allect(us) – Howald/Meyer, Fellmann, Walser, Bögli, Frei-Stolba/Bielman, Epigraphica Helvetica, Aberson; all(ector?) – EDH</note>
+            </app>
+        
+            <app loc="11">
+                <note anchored="true">t[a]bulam – Hagen, Howald/Meyer, Felmann, Bögli, Frei-Stolba/Bielman, Epigraphica Helvetica</note>
+            </app>
+        
+            <app loc="12">
+                <note anchored="true">pu[b]l – CIL, Riese, Oelschig; p[ub]l(ice?) – Walser, Aberson, Scheungraber, EDH; pu[b]l(ice) – Nelis-Clément</note>
+            </app>
+        
+            <app loc="13">
+                <note anchored="true">d(e) s(uo) p(osuit) – Howald/Meyer, Fellmann, Walser, Bögli; s(ua) p(ecunia) – Frei-Stolba/Bielman, Nelis-Clément, Ferlut (2012, 2022), Epigraphica Helvetica, Aberson, Scheungraber, EDH</note>
+            </app>
+        
+            <app loc="14">
+                <note anchored="true">(sestertiis) (quinque milibus ducentis) l(ocus) d(atus) [d(ecreto) d(ecurionum)] – Howald/Meyer, Fellmann, Bögli; (sestertiis) VCC l(ocus) d(atus) [d(ecreto) d(ecurionum)] – Walser; s(estertii) VCC l(ocus) d(atus) [d(ecreto) d(ecurionum)] – Frei-Stolba/Bielman, Epigraphica Helvetica; s(estertiis) VCC l(ocus) d(atus) a d(ecurionibus?) – Nelis-Clément; L▴D▴[D D] – Hagen; L. d. d. d. – CIL, Riese; d(ecreto) d(ecurionum) – Ferlut (2012, 2022), Scheungraber; a(llectorum?) d(ecreto)  – Aberson; d(ecurionibus?) – EDH</note>
+            </app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete">                            <p>Titus Tertius Severus: tria nomina, kein Gentilnomen aber zwei Cognomen</p>
+                            <p>Tertius: lateinischer Name, überall äußerst gängig (Kakoschke 2021, CN 3060)</p>
+                            <p>Severus: lateinischer Name, überall äußerst gängig (Kakoschke 2021, CN 2855)</p>
+                            <p>curator coloniae: Das Amt des curator coloniae erscheint nur noch in CF-GeS-2001 und CF-GeS-2003. Der genaue Aufgabenbereich ist unbekannt, vermutlich handelt es sich aber um magistratische Verpflichtungen, die durch den Dekurionenrat einem Privatmann als munus auferlegt wurden. (Krier 1981, 68f)</p><p/>
+			<p/>
+                        </div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p/>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+                            <br/>
+                            <p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note">                                                    <p>
+                                <b>Kolb 2022, Nr.141</b>: Schriftfeld mit profiliertem Rahmen, Beschädigungen bes. ab Z 10.</p><p><b>Frei-Stolba &amp; Bielmann 1996, 69 Nr.17</b>: Zierleiste, untere linke Ecke beschädigt</p><p><b>Nelis-Clément 2008, 91 Nr.4: </b>cadre mouluré sur face avant - Zierrahmen auf der Vorderseite</p><p><b>Oelschig:</b> Inschrift in profiliertem, leicht vert ieftem Feld; Rand weitgehend komplett</p><p><b>Aberson 2020, 8</b>: cadre mouluré - Zierleiste<br/></p></note>
+			<note type="ArchKlass_note">                                                    <p>
+                                <br/>
+                            </p>
+                        </note>
+			<note type="Material_note">                                                    <p>
+                                lt. <b>Kolb</b> 2022, Nr.141</p>
+                                                    <p>lt. <b>Frei-Stolba &amp; Bielmann 1996, 69ff. Nr.17:</b> Original aus Marmor und dieses kopiert</p><p><b>Ferlut 2012, 805 Nr.2:</b> Marmor</p><p><b>Nelis-Clément 2008, 91 Nr.4:</b> piédestal en calcaire</p><p><b>Oelschig:</b> Kalkstein<br/>
+                            </p>
+                        </note>
+			<note type="Inschrifttraeger_note">                                                    <p>
+                                Mittelteil einer Statuenbasis lt. <b>Kolb</b> 2022, Nr.141<br/>
+                            </p>
+                        </note>
+			<note type="VerwahrortOrt_note">                                                    <p><b>Kolb 2022, Nr. 141</b>: Im Jahr 1924 nach Avenches gebracht<br/>
+                            </p>
+                        </note>
+			<note type="InvNr_note">                                                    <p>
+                                lt. <b>Kolb 2022, Nr. 141</b><br/>
+                            </p>
+                        </note>
+			<note type="Fundstelle_note">                                                    <p>
+                                lt.<b> Kolb 2022, Nr.141</b></p>
+                                                    <p><b>Mommsen 1854, Nr.154: </b>zitiert Stumpf: "Münchweiler in vico in angulo casae rusticae" [in der Ecke des Landhauses]</p>
+                                                    <p><b>Oechsli 1893, 24 Nr.15:</b> "von der alten Hauptstadt Helvetiens nach Münchsweiler in der Nähe von Murten, wo sie in der Wand des Schlosses eingemauert ist, verschleppt worden."</p>
+                                                    <p><b>Hagen 1878, Nr.1</b>: "in castro"</p><p><b>Frei-Stolba &amp; Bielmann 1996, 69 Nr.17: </b>Cette dédicace à Aventia, la déesse tutélaire d'Avenches, a été retrouvée au château de Villars-les-Moines où elle fut copiée par les humanistes dès le XVIe siècle. Selon l'hypothèse de M. Bossert, le bloc inscrit avait été enlevé du site d'Avenches à une date précoce, probablement au XIe siècle déjà, danle cadre de la construction du prieuré clunisien de Villars-les-Moines. - Diese Widmung an Aventia, die Schutzgöttin von Avenches, wurde im Schloss von Münchweiler gefunden, wo sie von Humanisten des 16. Jahrhunderts kopiert wurde. Nach Bosserts Hypothese, wurde der beschriftete Steinblock schon früh, wahrscheinlich bereits im 11. Jahrhundert, im Rahmen des Baus des Cluniazenser-Priorats von Münchweiler aus Avenches entfernt.</p></note>
+			<note type="Fundumst_note">                                                    <p>
+                                lt. <b>Kolb 2022, Nr.141; </b>so auch <b>Oechsli 1893, 24 Nr.15</b></p><p><b>Aberson 2020, 8: </b>au château de Münchenwiler/Villars-les-Moines (BE) où elle était encastrée en remploi dans un mur</p></note>
+			<note type="Fundjahr_note">                                                    <p>
+                                <b>Kolb 2022, Nr.141:</b> gesehen seit 1515<br/>
+                            </p>
+                        </note>
+			<note type="FOantik_note">                                                    <p>
+                                <br/>
+                            </p>
+                        </note>
+			<note type="FOmodern_note">                                                    <p>
+                                Münchenwiler (Villars-les-Moines (BE)) - <b>Kolb 2022, Nr.141</b><br/>
+                            </p>
+                        </note>
+			<note type="civitas_note">                                                    <p>
+                                Aventicum
+                            </p>
+                        </note>
+			<note type="Autopsie_note">                                                    <p>
+                                <br/>
+                            </p>
+                        </note>
+			<note type="Appcrit_note">                                                    <p>
+                                <br/>
+                            </p>
+                        </note>
+			<note type="Abb_note">                                                    <p>
+                                <br/>
+                            </p>
+                        </note>
+			<note type="englUEbers_note">                                                    <p>
+                                <br/>
+                            </p>
+                        </note>
+			<note type="dtUEbers_note">                                                    <p>
+                                <br/>
+                            </p>
+                        </note>
+			<note type="Editionen_note"><p><b><u>Literatur eingesehen von Verena: </u></b></p><ul><li>Kolb 2022, Nr.141</li><li>Amerbach &amp; Amerbach 1515, 167</li><li>Escher 1884 = Stumpf 1544, 3 - Inschrift kommt nicht vor</li><li>Frei-Stolba 1992, 231-240</li><li>Guillimann 1598, 85f.</li><li>Gruter 1602, 110 Nr.3</li><li>Orelli 1828, Nr.369</li><li>Orelli 1844, Nr.178</li><li>Mommsen 1854, Nr.154</li><li>Oechsli 1893, Nr.15</li><li>Hagen 1878, 1 Nr.1</li><li>Dunant 1900, 129ff. Nr.45</li><li>Riese 1914, Nr.2026</li><li>Howald &amp; Meyer 1940, 260f. Nr.208</li><li>Bögli 1991, 80f.</li><li>Walser 1980, 74</li><li>Frei-Stolba &amp; Bielmann 1996, 69 Nr.17</li><li>Ferlut 2012, 805 Nr.2</li><li>Nelis-Clément 2008, 91 Nr.4</li><li>Oelschig 2009, Nr.7051</li><li>Aberson 2020, 8</li><li>Mundt 2008 = Rhenanus 1531, 314 - Inschrift kommt nicht vor?</li><li>Stähelin 1948, 225</li><li>Ewald 1974, 130 Nr.AV5</li><li>Frei-Stolba &amp; Bielman 1999, 85f.</li><li><rs type="divine"><u>noch einzusehen:</u></rs></li><li>Frei-Stolba 2013: Die Inschrift über dem Hofportal des Schlosses von Avenches. Zur Rezeption der römischen Antike in der Schweiz im 16. und 18. Jahrhundert. In: Frey (Hrsg.): La numismatique pour passion. Lausanne 2013, 49-73; 52-33 - Fernleihe aufgegeben</li><li><i><u>Kann nicht eingesehen werden:</u></i></li><li>A. Tschudi 1544: Inscriptiones Romanae (in Gallia, Norico, Pannonia, Italia). In: Codex Sangallensis 1083, Sammelmanuskript, 16. Jahrhundert. Stiftsbibliothek St. Gallen. Sign. Cod. Sang. 1083, S. 65-84; 80 - Handschrift, nicht digitalisiert</li><li>Hagenbuch: Ms. 1726ff. Helvetia litterata seu Sylloge inscriptionum antiquarum Helvetia extantium. Manuskript in 4 Bänden. Zürich ab 1726 mit teilweise deutlich späteren Nachträgen. Zentralbibliothek Zürich. Signatur C 283-286; C 286, 207 - Handschrift, nicht digitalisiert</li></ul></note>
+			<note type="ErhzustObj_note">                                                    <p>
+                                <br/>
+                            </p>
+                        </note>
+			<note type="Masse_note">                                                    <p><b>Kolb 2022, 101 Nr.141</b>: 110H 59,9 B 45 T</p>
+                            <p><b>EDH</b>: 110H 59 B 45 T</p>
+                                                    <p><b>Fellmann 1957, 72</b> (Karteikarte Avenches 32), <b>Walser 1979, Nr.74</b>: H 110, B 60, T 45</p>
+                                                    <p><b>Oelschig 2009</b>, CD-ROM Nr.7051 H 110, B 59,7, T 45,5; Inschriftfeld: 91,8x43,3</p><p><b>Frei-Stolba &amp; Bielmann 1996, 69 Nr.17</b>: 108x60x45cm; Inschriftenfeld 90x45cm</p>
+                                                    <p><b>Walser:</b> Inschriftfeld 90x43cm</p><p><b>Ferlut 2012, 805 Nr.2:</b> Hauteur 108cm, largeur 60cm, profondeur 45cm</p><p><b>Nelis-Clément 2008, 91 Nr.4:</b> 110x59,7x45,5</p><p><b>Aberson 2020, 8</b>: champ épigraphique 91,8x43,3cm<br/></p></note>
+			<note type="Ikonogr_note">                                                    <p>
+                                <br/>
+                            </p>
+                        </note>
+			<note type="Inschrtext_note">                                                    <p>
+                                <b>Kolb 2022, Nr.141</b>: I longa Z 8. Dreieckige Interpunktionen Z. 2, 6, 8, 13, 14</p><p><b>Frei-Stolba &amp; Bielmann 1996, 69 Nr.17:</b> Sorgfältige Schrift. Ligaturen</p><p><b>Oelschig: </b>einige Zeilen enden direkt am Profil; Vorlinierung nicht zu erkennen; Buchstaben nicht ausgemalt; keine apices zu erkennen; hederae in Dreiecksform; longa-I in der 8. Zeile (=4,2cm); Ligaturen in der 1. (Buchstaben NT) und 8. Zeile (Buchstaben NI, longa-I=4,5cm); in der letzten Zeile Verbindung des Zahlenwertes IIS (=2 1/2) durch Mittelbalken; Kennzeichen für den Sesterz; außerdem Zahlzeichen oberhalb des Numerals V</p><p><b>Aberson 2020, 8:</b> Les lettres (2,8-4,8 cm) sont régulières et de bonne facture. I long à l. 8. Ligatures aux I. 1 (NT) et 8 (NI). Points de séperation en forme d'étoile. <br/></p></note>
+			<note type="ErhzustInschr_note">                                                    <p>
+                                <br/>
+                            </p>
+                        </note>
+			<note type="Schrifttechnik_note">                                                    <p>
+                                <br/>
+                            </p>
+                        </note>
+			<note type="Buchsthoehe_note">                                                    <p><b>Kolb 2022, 101 Nr.141</b>: 3-4,7; I longa Z 8<br/></p>
+                                                    <p><b>EDH</b>: 2.8-4.8</p>
+                                                    <p><b>Walser</b> 3,5-4,5</p>
+                                                    <p><b>Oelschig 2009</b> CD-ROM Nr.7051 2,8-4,8 - für jede Zeile sowie Zwischenräume siehe dort</p><p><b>Frei-Stolba &amp; Bielfeld 1996, 69 Nr. 17: </b>3-5cm</p><p><b>Ferlut 2012, 805 Nr.2.:</b> 3-5cm</p><p><b>Aberson 2020, 8:</b> 2,8-4,8</p></note>
+			<note type="Notvar_note">                                                    <p>
+                                <br/>
+                            </p>
+                        </note>
+			<note type="KommGoettern_note">                                                    <p>
+                                <br/>
+                            </p>
+                        </note>
+			<note type="SonstKomm_note">                                                    <p>
+                                <br/>
+                            </p>
+                        </note>
+			<note type="Datierung_note">                                                    <p><b>Kolb 2022, 102:</b> 71 n. - 3. Jh.</p>
+                            <p><b>EDH:</b> 151 AD – 250 AD</p><p><b>Frei Stolba &amp; Bielmann 1996, 69 Nr. 17:</b> 2. bis 3. Jhd. n.Chr.<br/></p>
+                            <p/>
+                        </note>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

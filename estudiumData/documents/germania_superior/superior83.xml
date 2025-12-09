@@ -50,7 +50,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>                                                <p>Aufgrund des Überlieferungszustandes ist keine Beschreibung möglich.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref> </material>
+								<support> <p>                                                <p>Aufgrund des Überlieferungszustandes ist keine Beschreibung möglich. Malten (1842, 40) beschreibt das Material als Muschelkalk.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref> </material>
 									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm"> 54,8</height>
 										<width unit="cm"> 33,5</width>
@@ -72,7 +72,7 @@
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName>Mogontiacum</placeName> <region/> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1842"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Mainz</ref> </placeName> <p>"am Bischofshof (=Ecke Höfchen-Schöfferstraße [Domseite])" (Weber 1966, 81 Nr.6753)</p> <location>
+						<provenance type="found" when="1842"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Mainz</ref> </placeName> <p>"am Bischofshof (=Ecke Höfchen-Schöfferstraße [Domseite])" (Weber 1966, 81 Nr.6753); "Höfchen 2" (EDH)<br/></p> <location>
 								<geo decls="#WGS"/>
 							</location> <note anchored="true">Die genauen Fundumstände sind nicht mehr nachvollziehbar.</note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung gründet auf: CIL (nach Malten 1842)</p></provenance>
@@ -303,11 +303,12 @@
 		<back>
 			<note type="Objbeschr_note"/>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"><p>Malten 1842, S. 40: Muschelkalk<br/></p></note>
-			<note type="Inschrifttraeger_note"><p>WSpDB: ara</p></note>
+			<note type="Material_note">                                                    <p><b>Malten 1842, 40</b>: Muschelkalk<br/></p></note>
+			<note type="Inschrifttraeger_note">                                                    <p><b>WSpDB:</b> ara</p></note>
 			<note type="VerwahrortOrt_note"/>
 			<note type="InvNr_note"><p><b>Verschollen, daher keine Inventarnummer</b><br/></p></note>
-			<note type="Fundstelle_note"><p>Weisgerber 1975 S.118: am Bischofshof im Dombezirk</p><p>EDH: Höfchen 2, ehemaliger Bischofshof</p></note>
+			<note type="Fundstelle_note">                                                    <p><b>Weisgerber 1975, 118:</b> am Bischofshof im Dombezirk</p>
+                                                    <p><b>EDH: </b>Höfchen 2, ehemaliger Bischofshof</p></note>
 			<note type="Fundumst_note"/>
 			<note type="Fundjahr_note"/>
 			<note type="FOantik_note"/>
@@ -318,9 +319,18 @@
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note"><p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p></note>
+			<note type="Editionen_note">                                                    <p><b>Literatur eingesehen von Verena:</b></p>
+                                                    <ul>
+                                                        <li>Weber 1966, 81 Nr. 6753</li>
+                                                        <li>Malten 1842, 40</li>
+                                                        <li>Lersch 1843, 101 Nr. 60</li>
+                                                        <li>Klein 1845, 70 Nr. 20</li>
+                                                        <li>Kienle 1938, 257f.</li>
+                                                        <li>Weisgerber 1975, 118</li>
+                                                        <li>Behrens 1944/45, 7</li>
+                                                    </ul></note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note">                                                    <p>Malten 1842, S. 40: 1 Fuß 8 Zoll hoch, 1 Fuß 1 Zoll breit und 4 Zoll dick <b>- hieraus umgerechnet!</b><br/></p></note>
+			<note type="Masse_note">                                                    <p><b>Malten 1842, 40:</b> 1 Fuß 8 Zoll hoch, 1 Fuß 1 Zoll breit und 4 Zoll dick - <u>hieraus umgerechnet!</u><br/></p></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
@@ -329,7 +339,8 @@
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"><p>WSpDB: 200-250</p><p>EDH: 151-300</p></note>
+			<note type="Datierung_note">                                                    <p><b>WSpDB: </b>200-250</p>
+                                                    <p><b>EDH:</b> 151-300</p></note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>
 		</back>

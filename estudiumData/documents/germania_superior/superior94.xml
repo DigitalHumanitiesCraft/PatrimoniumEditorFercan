@@ -50,7 +50,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>                                                <p>Dieser reich dekorierte Weihealtar besteht aus einer breiten Basis, die durch eine Stufe und einem Gesims vom gerahmten Inschriftenfeld getrennt ist. Dieses wird zusätzlich von einer Kordel verziert. Durch ein Gesims voneinander separiert befindet sich darüber der Aufsatz. Dessen Vorderseite ist durch ein Schmuckband dekoriert, das aus eingedrückten Dreiecken/Kerben besteht und das in seiner Gesamtheit eingerahmt ist. Darüber befinden sich jeweils links und rechts Pulvini, die mit netzartigen Rosetten gefüllt und deren Seiten mit Schuppen verziert sind. Dazwischen und mit diesem durch ein einfaches, vortretendes Band verbunden, befindet sich ein Giebel. An dessen Basis liegt eine Mondsichel. Dahinter befindet sich in einem fast quadratischen Rechteck die Opferschale, wobei diese Einfassung links und rechts des Giebels durch jeweils zwei gegenläufigen Spiralen gestaltet ist. Zwischen der Opferschale und der Einfassung befindet sich in jedem Eck jeweils eine Kugel. Von der Basis fehlt das linke untere Eck, das Inschriftenfeld ist an den Seiten leicht behauen und die Einfassung der Opferschale ist vorne oben beschlagen. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+								<support> <p>                                                <p>Dieser reich dekorierte Weihealtar besteht aus einer breiten Basis, die durch eine Stufe und einem Gesims vom gerahmten Inschriftenfeld getrennt ist. Dieses wird zusätzlich von einer Kordel verziert. Durch ein Gesims voneinander separiert befindet sich darüber der Aufsatz. Dessen Vorderseite ist durch ein Schmuckband dekoriert, das aus eingedrückten Dreiecken/Kerben besteht und das in seiner Gesamtheit eingerahmt ist. Darüber befinden sich jeweils links und rechts Pulvini, die mit netzartigen Rosetten gefüllt und deren Seiten mit Schuppen verziert sind. Dazwischen und mit diesem durch ein einfaches, vortretendes Band verbunden, befindet sich ein Giebel. An dessen Basis liegt eine Mondsichel. Dahinter befindet sich in einem fast quadratischen Rechteck die Opferschale, wobei diese Einfassung links und rechts des Giebels durch jeweils zwei gegenläufigen Spiralen gestaltet ist. Zwischen der Opferschale und der Einfassung befindet sich in jedem Eck jeweils eine Kugel. Von der Basis fehlt das linke untere Eck, das Inschriftenfeld ist an den Seiten leicht behauen und die Einfassung der Opferschale ist vorne oben beschlagen. Das Material wird von Steimle (1898, 14 Nr. 6) und Filtzinger (1980, 116f. Nr. 58) als Schilfsandstein beschrieben.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
 									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm">99</height>
 										<width unit="cm">45</width>
@@ -81,7 +81,7 @@
 						<origin> <origPlace> <placeName/> <region>Civitas Port-?</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when="1765"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Heilbronn</ref> </placeName> <p/> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true"/> </provenance>
+							</location> <note anchored="true"><p>Es sind keine weiteren Informationen bekannt.<br/></p></note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
 					</history>
 				</msDesc>
@@ -229,25 +229,27 @@
 			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
 			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
 				<listBibl>
-					<bibl xml:id="1">Brambach 1867 (Corpus), Nr.1589</bibl>
+					<bibl xml:id="2">Brambach 1867 (Corpus), Nr.1589</bibl>
 				
-            <bibl xml:id="2">Steimle 1898, 31 Nr.6</bibl>
+            <bibl xml:id="3">Steimle 1898, 31 Nr.6</bibl>
         
-            <bibl xml:id="3">CIL XIII 6478 </bibl>
+            <bibl xml:id="4">CIL XIII 6478 </bibl>
         
-            <bibl xml:id="4">ILS 4624</bibl>
+            <bibl xml:id="5">ILS 4624</bibl>
         
-            <bibl xml:id="5">Haug/Sixt 1914, 531f. Nr.372</bibl>
+            <bibl xml:id="6">Haug/Sixt 1914, 531f. Nr.372</bibl>
         
-            <bibl xml:id="6">Espérandieu XI 401</bibl>
+            <bibl xml:id="7">Espérandieu XI 401</bibl>
         
-            <bibl xml:id="7">Filtzinger 1980, Nr.58</bibl>
+            <bibl xml:id="8">Filtzinger 1980, Nr.58</bibl>
         
-            <bibl xml:id="8">Kemkes/Willburger 2004, 106 Abb.22</bibl>
+            <bibl xml:id="9">Kemkes/Willburger 2004, 106 Abb.22</bibl>
         
-            <bibl xml:id="9">Schmidt Heidenreich 2013 (Épigraphie), 163 Nr.10</bibl>
+            <bibl xml:id="10">Schmidt Heidenreich 2013 (Épigraphie), 163 Nr.10</bibl>
         
-            <bibl xml:id="10">Scheungraber 2020, 524 Nr.2</bibl>
+            <bibl xml:id="11">Scheungraber 2020, 524 Nr.2</bibl>
+        
+            <bibl xml:id="1">Jäger 1828, 7 Nr.7</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
@@ -300,37 +302,68 @@
                                                     <p><b>Steimle 1898, S. 14 Nr. 6:</b> Die Inschrift ist mit einem Rahmen umgeben, welche eine gedrehte Kordel darstellt.</p>
                                                     <p><b>Haug/Sixt 1900, S. 275, Nr. 372: </b>Der wohlerhaltene Altar hat einen hohen Sockel und ein reich, teilweise eigenartig verziertes Gesims. Ueber einer Art von Eiersstab r. und l. Randwülste mit Sternornament; in der Mitte ein Halbmond, darüber zwei Rundbögen mit spiralförmigen Verzierungen. Die Inschrift ist von einer schnurartigen Leiste eingefasst.<br/></p></note>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"><p>Schilfsandstein - Steimle, Filtzinger<br/></p></note>
+			<note type="Material_note"><p><b>Steimle, Filtzinger</b>: Schilfsandstein<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
-			<note type="VerwahrortOrt_note"><p>ab a. 1777 ex dono civitatis Heilbronnensis in antiquario Stuttgartensi - CIL<br/></p></note>
-			<note type="InvNr_note">                                                    <p>Filtzinger S. 116 Nr. 58</p>
-                                                    <p>auch CIL Kartei - Stuttgart, Lapidarium; so auch Haug/Sixt 1900, S. 275, Nr. 372<br/></p></note>
+			<note type="VerwahrortOrt_note">                                                    <p><b>CIL:</b> ab a. 1777 ex dono civitatis Heilbronnensis in antiquario Stuttgartensi<br/></p></note>
+			<note type="InvNr_note">                                                    <p><b>Filtzinger, 116 Nr. 58</b></p>
+                                                    <p>auch <b>CIL Kartei</b> - Stuttgart, Lapidarium; </p><p>so auch <b>Haug/Sixt 1900, 275, Nr. 372</b><br/></p></note>
 			<note type="Fundstelle_note"/>
-			<note type="Fundumst_note">                                                    <p>auch im Museum keine weiteren Infos bekannt<br/></p><p>cum n. 6469 - CIL</p></note>
-			<note type="Fundjahr_note"><p>superiori anno (Reinhard 1766) - CIL<br/></p></note>
+			<note type="Fundumst_note">                                                    <p><b>Mail Frau Klotter vom 11.6.2024.</b> "Zu den Fundumständen sind keine weiteren Informationen bekannt."<br/></p>
+                                                    <p>cum n. 6469 - CIL</p></note>
+			<note type="Fundjahr_note">                                                    <p><b>CIL:</b> superiori anno (Reinhard 1766)<br/></p></note>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note">                                                    <p>Filtzinger 116-117</p>
-                                                    <p>gefunden in der Nähe von Heilbronn - CIL</p>
-                                                    <p>zwischen Beckingen und Neckar-Gartach [Gercken - Filtzinger] - CIL</p>
-                                                    <p>Heilbronn-Blöckingen - CIL Kartei; so auch Filtzinger / Böckingen?<br/></p></note>
+			<note type="FOmodern_note">                                                    <p><b>Filtzinger 116-117</b></p>
+                                                    <p><b>CIL: </b>gefunden in der Nähe von Heilbronn</p>
+                                                    <p><b>CIL:</b> zwischen Beckingen und Neckar-Gartach [Gercken - Filtzinger]</p>
+                                                    <p><b>CIL Kartei</b>: Heilbronn-Blöckingen; </p><p>so auch <b>Filtzinger / Böckingen</b>?<br/></p></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note"><p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p></note>
+			<note type="Editionen_note">                                                    <p><b>Literatur eingesehen von Verena:</b></p>
+                                                    <ul>
+                                                        <li>o.A. 1766, 412</li>
+                                                        <li>Orelli 1828-1856, Nr. 2055</li>
+                                                        <li>Gercken 1783, 42</li>
+                                                        <li>Sattler 1784, 21</li>
+                                                        <li>Stälin 1836, Nr. 32</li>
+                                                        <li>Stälin 1846, Nr. 82</li>
+                                                        <li>Brambach 1846, Nr. 1589</li>
+                                                        <li>Haug 1869, 344 Nr. 9, 549</li>
+                                                        <li>Steimle 1898, 14 Nr. 6</li>
+                                                        <li>Filtzinger 1980, 116f. Nr. 58</li>
+                                                        <li>Esperandieu 1931, 255 Nr. 401</li>
+                                                        <li>Kienle 1938, 256, 261</li>
+                                                        <li>Dessau ILS, 213 Nr. 4624</li>
+                                                        <li>Haug 1900, 275 Nr. 372</li>
+                                                        <li>Powell 1959, Pl. 74</li>
+                                                        <li>Ussani 1992, 129 A23</li>
+                                                        <li>Petrikovits 1976, Taf. 17,3</li>
+                                                        <li>Sixt 1895, Nr. 41</li>
+                                                        <li>Hanßelmann 1768, 228</li>
+                                                        <li>
+                                                            <rs type="divine">Aufgenommen, nicht eingesehen:</rs>
+                                                        </li>
+                                                        <li>Alföldy 1967, 18 (nur erwähnt)</li>
+                                                        <li>
+                                                            <rs type="divine">eingesehen, nicht aufgenommen:</rs>
+                                                        </li>
+                                                        <li>Peter Goessler: Arae Flaviae. Führer durch die Altertumshalle der Stadt Rottweil. Rottweil: Rottweiler Geschichts- und Altertumsverein 1928, 42-45 (stimmt nicht überein)<br/></li>
+                                                        <li>Nuber 2005, 77 (nur erwähnt)</li>
+                                                    </ul></note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note">                                                    <p>Steimle, Filtzinger, EDH, Haug/Sixt<br/></p></note>
+			<note type="Masse_note">                                                    <p><b>Steimle, Filtzinger, EDH, Haug/Sixt</b><br/></p></note>
 			<note type="Ikonogr_note"/>
-			<note type="Inschrtext_note"><p>"Der Mittelstrich des A ist senkrecht und freistehend" - Haug/Sixt<br/></p></note>
+			<note type="Inschrtext_note"><p><b>Haug/Sixt</b>: "Der Mittelstrich des A ist senkrecht und freistehend"<br/></p></note>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note">                                                    <p>So EDH, Haug/Sixt<br/></p></note>
+			<note type="Buchsthoehe_note">                                                    <p>So<b> EDH, Haug/Sixt</b><br/></p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"><p>EDH 151 AD – 250 AD<br/></p></note>
+			<note type="Datierung_note">                                                    <p><b>EDH:</b> 151 AD – 250 AD<br/></p></note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>
 		</back>

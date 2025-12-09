@@ -42,7 +42,7 @@
 					<msIdentifier>
 						<settlement>Ladenburg</settlement>
 						<repository>Lobdengau-Museum</repository>
-						<idno/>
+						<idno> LML 077-d</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>Weihinschrift</summary>
@@ -60,7 +60,7 @@
 							</supportDesc>
 							<layoutDesc>
 								<layout> <p>                                                <p>Die erhaltenen Zeilen haben beide den linken Zeilenanfang verloren. Wieviel Text verloren ist, lässt sich nicht rekonstruieren. Die Buchstaben sind nicht ganz regelmäßig, und am rechten Zeilenende, besonders stark in Z.2, abgerieben aber noch lesbar.</p>
-                                                <p>Laut Wiegels (2000, 55) in Z.1 Reste eines E und in Z.2 vermutlich eines A bei der Bruchkante erhalten, beides am Photo nicht mehr zu erkennen. In den erhaltenen Zeilen Wortrenner.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130320</note> </layout>
+                                                <p>Es finden sich noch mögliche Hastenreste bei denen es sich laut Wiegels (2000, 55) in Z.1 links von der Furche um den unteren Rest eines E und in Z.2 gleich rechts vom Furchenrand um die Spitze eines A handelt. In den erhaltenen Zeilen Wortrenner.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130320</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -78,9 +78,9 @@
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName/> <region>Civitas Ulpia Sueborum Nicrensium</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when="1971"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Ladenburg</ref> </placeName> <p>                                                <p>"Valentinianstraße dicht westlich vom Neubau Nr. 21, im südichen Vicusgraben, unweit der Bezirke der Tempel und Heiligtümer" (Wiegels 2000, 54f. Nr.12).<br/></p></p> <location>
+						<provenance type="found" when="1971"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Ladenburg</ref> </placeName> <p>                                                <p>"Valentinianstraße dicht westlich vom Neubau Nr. 21, im südichen Vicusgraben, unweit der Bezirke der Tempel und Heiligtümer" (Wiegels 2000, 54f. Nr.12); "innerhalb eines neu ausgehobenen Kanalisationsgrabens" (Information Dr. Hensen)</p></p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true"><p>Grabung<br/></p></note> </provenance>
+							</location> <note anchored="true">                                                <p>bei Bauarbeiten für ein Wohnhaus am 1.10.1971 (Information von Dr. Hensen)</p></note> </provenance>
 						<provenance type="observed" subtype="autopsied">vidimus (CIL XIII Projekt)<br/></provenance>
 					</history>
 				</msDesc>
@@ -237,12 +237,12 @@
 					<bibl type="EDH"><idno>HD032358</idno><date>Version von 2020-08-04</date></bibl>
 					<bibl type="trismegistos"><idno>https://www.trismegistos.org/text/210656</idno><date>zuletzt abgerufen 2024-04-10</date></bibl>
 					<bibl type="lupa"><idno>https://lupa.at/25580</idno><date>Version von 2024-03-12</date></bibl>
-					<bibl type="other"><idno> </idno><date> </date></bibl>
+					<bibl type="other"><idno>https://bawue.museum-digital.de/object/131825</idno><date>zuletzt abgerufen 2025-02-19</date></bibl>
 				</listBibl>
 			</div>
 			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
-				<ab><lb n="1"/><gap reason="lost" quantity="1" unit="character"/><supplied reason="undefined" evidence="previouseditor" instant="false">E</supplied>O<g type="interpunct">▴</g>SEDATO<g type="interpunct">▴</g>IASSIVS<g type="interpunct">▴</g>
-<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="undefined" evidence="previouseditor" instant="false"><unclear>A</unclear></supplied>NVS<g type="interpunct">▴</g>ARAM
+				<ab><lb n="1"/><gap reason="lost" quantity="1" unit="character"/><unclear>E</unclear>O<g type="interpunct">▴</g>SEDATO<g type="interpunct">▴</g>IASSIVS<g type="interpunct">▴</g>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>A</unclear>NVS<g type="interpunct">▴</g>ARAM
 <lb n="3"/><gap reason="lost" extent="unknown" unit="line"/><orig/></ab></div>
 			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/><supplied reason="lost">D</supplied>eo Sedato Iassius
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>anus aram
@@ -255,9 +255,7 @@
                                                 <p>Iassius ...anus (has) the altar ....<br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
-				<app loc="1">
-					<note anchored="true">Die unterstrichenen Teile in Z.1 und Z.2 sind heute nicht mehr erhalten, sie werden nach Wiegels wiedergegeben.</note>
-				</app>
+				
 			
             <app loc="2">
                 <note anchored="true">[-3?-]ạnus – Wiegels, Kakoschke, Matijević</note>
@@ -278,37 +276,56 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"><p>Kartei: Opferschale, Stein abgepickt, links beschädigt; oben Opferschale mit Omphelos</p><p>Kartei: Li. Block alter Rand, oben Aufsatz stark gestört, aber im Ansatz vorhanden, hinten nur kleiner Profilrand, sonst glatt</p><p>Wiegels 2000, 54, Nr. 12: Oberteil eines Altars aus Buntsandstein, der wohl schon in antiker, vermutlich aber nachrömischer Zeit zerschlagen wurde. An der linken Seite und ebendort am Aufsatz stärker zerstört, kaum auf der rechten Seite. Die Fläche des Steins ist mit modernen Pickelspuren übersät. Oben Opferschale mit Omphalos zwischen zwei, an den Stirnseiten offenbar als Rosetten gestalteten Polstern (Pulvini), deren rechte erhalten, wenngleich etwas beschädigt ist. Der breit ausladende Dreieckgiebel der Focusschranke über einem relativ einfachen Gesims wies anscheinend ein florales Dekor auf. Insgesamt ist der Aufsatz nicht blockartig, da die Pulvini weitgehend frei herausgearbeitet sind. Hinten einen kleine Profilleiste, sonst glatt. </p><p>Noelke 2020/2021, 348 Nr. 2.42: Erhalten ist der obere Teil eines größerformatigen Altares des Grundtypus mit der Bekröung bestehend aus undekorierten pulvini und verbindendem Giebelchen sowie den focus. Die Schmalseiten sind unreliefiert. Unterhalb des profilierten Gesimses auf dem Schaft die beiden ersten Zeilen der Dedikation<br/></p></note>
+			<note type="Objbeschr_note">                                                    <p><b>Kartei: </b>Opferschale, Stein abgepickt, links beschädigt; oben Opferschale mit Omphelos</p>
+                                                    <p><b>Kartei</b>: Li. Block alter Rand, oben Aufsatz stark gestört, aber im Ansatz vorhanden, hinten nur kleiner Profilrand, sonst glatt</p>
+                                                    <p><b>Wiegels 2000, 54, Nr. 12</b>: Oberteil eines Altars aus Buntsandstein, der wohl schon in antiker, vermutlich aber nachrömischer Zeit zerschlagen wurde. An der linken Seite und ebendort am Aufsatz stärker zerstört, kaum auf der rechten Seite. Die Fläche des Steins ist mit modernen Pickelspuren übersät. Oben Opferschale mit Omphalos zwischen zwei, an den Stirnseiten offenbar als Rosetten gestalteten Polstern (Pulvini), deren rechte erhalten, wenngleich etwas beschädigt ist. Der breit ausladende Dreieckgiebel der Focusschranke über einem relativ einfachen Gesims wies anscheinend ein florales Dekor auf. Insgesamt ist der Aufsatz nicht blockartig, da die Pulvini weitgehend frei herausgearbeitet sind. Hinten einen kleine Profilleiste, sonst glatt. </p>
+                                                    <p><b>Noelke 2020/2021, 348 Nr. 2.42:</b> Erhalten ist der obere Teil eines größerformatigen Altares des Grundtypus mit der Bekröung bestehend aus undekorierten pulvini und verbindendem Giebelchen sowie den focus. Die Schmalseiten sind unreliefiert. Unterhalb des profilierten Gesimses auf dem Schaft die beiden ersten Zeilen der Dedikation<br/></p></note>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"><p>Buntsandstein - Kartei<br/></p></note>
+			<note type="Material_note"><p><b>Kartei: </b>Buntsandstein<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"><p>Kartei<br/></p></note>
-			<note type="InvNr_note"><p>Wiegels 2000, 55 Nr. 12<br/></p></note>
-			<note type="Fundstelle_note"><p>Kartei<br/></p></note>
-			<note type="Fundumst_note">                                                    <p>Kartei: Neubau Frank, Kanalisation<br/></p><p>Wiegels 2000, 54f</p></note>
-			<note type="Fundjahr_note"><p>Kartei<br/></p></note>
+			<note type="InvNr_note"><b>Mail von Dr. Hensen vom 17.6.2024</b>: "Inventarnummer LML 077-d"<br/><p>Wiegels 2000, 55 Nr. 12</p></note>
+			<note type="Fundstelle_note">                                                    <p><b>Mail Dr. Hensen vom 17.6.2024:</b> "bei Bauarbeiten für ein Wohnhaus 
+in der Valentinianstr. 21 innerhalb eines neu ausgehobenen 
+Kanalisationsgrabens am 1. 10. 1971 entdeckt."</p></note>
+			<note type="Fundumst_note">                                                    <p><b>Kartei: </b>Neubau Frank, Kanalisation<br/></p>
+                                                    <p><b>Wiegels 2000, 54f</b></p>
+                                                    <p><b>Mail Dr. Hensen vom 17.6.2024:</b> "bei Bauarbeiten für ein Wohnhaus in der Valentinianstr. 21 innerhalb eines neu ausgehobenen Kanalisationsgrabens am 1. 10. 1971 entdeckt."</p></note>
+			<note type="Fundjahr_note">                                                    <p><b>Mail Dr. Hensen vom 17.6.2024:</b> "bei Bauarbeiten für ein Wohnhaus in der Valentinianstr. 21 innerhalb eines neu ausgehobenen Kanalisationsgrabens am 1. 10. 1971 entdeckt."<br/></p></note>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note"><p>Kartei<br/></p></note>
+			<note type="FOmodern_note">                                                    <p><b>Kartei</b><br/></p></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"><p>Karteikarte - Ordner Inschriften Neufunde: Ladenburg (33)<br/></p></note>
 			<note type="Appcrit_note"/>
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note"/>
+			<note type="Editionen_note">                                                    <p><b>Literatur eingesehen von Verena:</b></p>
+                                                    <ul>
+                                                        <li>Wiegels 2000, 54f.</li>
+                                                        <li>AE 2000, Nr. 1087</li>
+                                                        <li>Kakoschke 2002, Nr. 5.31</li>
+                                                        <li>Matijevic 2012, 100 A14</li>
+                                                        <li>Noelke 2020/21, 347f. Nr. 5.42</li>
+                                                        <li>Wiegels 2001, 204</li>
+                                                        <li>Spickermann 2003, 454</li>
+                                                    </ul></note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note">                                                    <p>AE, EDH: 43 Höhe, 66 Breite<br/></p>
-                                                    <p>Karteikarte Ladenburg (33). gesamt noch 43,5xH66xT(am Aufsatz)34 cm; Feld noch 15x57,5 cm; aber auch gesamt noch H 41 cm; Aufsatz B 66,5, T noch 39; Feld H 17,5, B 60,5</p><p>Wiegels 2000, 55 Nr. 12: noch 43xnoch66 (nahezu original) x noch 39 (nahezu original) (Aufsatz). - Inschriftblock/-feld: noch 17xnoch 60x37</p></note>
+			<note type="Masse_note">                                                    <p><b>AE, EDH:</b> 43 Höhe, 66 Breite<br/></p>
+                                                    <p><b>Karteikarte </b>Ladenburg (33). gesamt noch 43,5xH66xT(am Aufsatz)34 cm; Feld noch 15x57,5 cm; aber auch gesamt noch H 41 cm; Aufsatz B 66,5, T noch 39; Feld H 17,5, B 60,5</p>
+                                                    <p><b>Wiegels 2000, 55 Nr. 12</b>: noch 43xnoch66 (nahezu original) x noch 39 (nahezu original) (Aufsatz). - Inschriftblock/-feld: noch 17xnoch 60x37</p></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note">                                                    <p>AE, EDH, Wiegels 2000, 55 Nr. 12<br/></p><p>Kartei: Z1 4,2, Z2 3,8 cm</p></note>
+			<note type="Buchsthoehe_note">                                                    <p><b>AE, EDH, Wiegels 2000, 55 Nr. 12</b><br/></p>
+                                                    <p><b>Kartei: </b>Z1 4,2, Z2 3,8 cm</p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note">                                                    <p>EDH, lupa: 150-260AD</p>
-                                                    <p>Wiegels: 150-233/260</p><p>Kartei: am ehesten 3. Jh. aber 2. Jh. nicht auszuschließen<br/></p></note>
+			<note type="Datierung_note">                                                    <p><b>EDH, lupa</b>: 150-260AD</p>
+                                                    <p><b>Wiegels: </b>150-233/260</p>
+                                                    <p><b>Kartei:</b> am ehesten 3. Jh. aber 2. Jh. nicht auszuschließen<br/></p></note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>
 		</back>

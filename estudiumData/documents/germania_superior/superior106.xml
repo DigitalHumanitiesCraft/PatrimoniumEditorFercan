@@ -50,8 +50,8 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>Aufgrund des Überlieferungszustandes ist keine Beschreibung von Form und Gestaltung möglich. <br/></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
-									<objectType>Weihestein</objectType> <dimensions>
+								<support> <p>Aufgrund des Überlieferungszustandes ist keine Beschreibung von Form und Gestaltung möglich. Nach der Umzeichnung dürfte es sich um einen klassischen Weihealtar mit Basis, dreifacher Stufung zum ungerahmten Inschriftenfeld und dann einfacher Stufung zum Aufsatz gehandelt haben.</p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch"/> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm"> </height>
 										<width unit="cm"> </width>
 										<depth unit="cm"> </depth>
@@ -75,7 +75,7 @@
 						<origin> <origPlace> <placeName/> <region>Civitas Nemetum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern.">Bad Bergzabern</ref> </placeName> <p>im Bereich der Burg (Brambach 1867, 326 Nr.1784)</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true">„einst im Schloßhofe eingemauert“ (Sprater 1930, 38); Der Stein muss vor 1589 gefunden worden sein, da er hier das erste Mal erwähnt wird. </note> </provenance>
+							</location> <note anchored="true">„einst im Schloßhofe eingemauert“ (Sprater 1930, 38); Der Stein muss vor 1589 gefunden worden sein.</note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>non vidimus<br/>Lesung gründet auf: CIL</p></provenance>
 					</history>
 				</msDesc>
@@ -205,8 +205,8 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic mimeType="" xml:id="IMAGE.1" url="">
-			<desc> </desc>
+		<graphic mimeType="image/jpeg" xml:id="IMAGE.1" url="1062_front_Abschr.jpg">
+			<desc>Abschrift, Grutenus 1602, Taf. 94 Nr.10</desc>
 		</graphic>
 	</facsimile>
 	<text>
@@ -248,14 +248,16 @@
 <lb n="3"/>MINVS
 <lb n="4"/>V<g type="interpunct">▴</g>S<g type="interpunct">▴</g>L<g type="interpunct">▴</g>M<orig/></ab></div>
 			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Vosego
-<lb n="2"/>Maxsii
-<lb n="3" break="no"/>minus<note>!</note>
+<lb n="2"/>Maxsi<surplus>i</surplus>
+<lb n="3" break="no"/>minus
 <lb n="4"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
-				<p><p>Für <rs type="divine">Vosegus</rs>!</p><p>Maxsiminus hat ein Gelübde gerne und verdientermaßen erfüllt.</p></p>
+				<p>                                                <p>Für <rs type="divine">Vosegus</rs>!</p>
+                                                <p>Maximinus hat ein Gelübde gerne und verdientermaßen erfüllt.</p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p><p>To <rs type="divine">Vosegus</rs>!</p><p>Maxsiminus has fulfilled a vow willingly and deservedly.</p></p>
+				<p>                                                <p>To <rs type="divine">Vosegus</rs>!</p>
+                                                <p>Maximinus has fulfilled a vow willingly and deservedly.</p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="2">
@@ -281,13 +283,14 @@
 			<note type="ArchKlass_note"><p><b>verschollen</b><br/></p></note>
 			<note type="Material_note"><p><b>verschollen</b></p></note>
 			<note type="Inschrifttraeger_note"/>
-			<note type="VerwahrortOrt_note"><p>EDH: verschollen<br/></p></note>
+			<note type="VerwahrortOrt_note">                                                    <p><b>EDH:</b> verschollen<br/></p></note>
 			<note type="InvNr_note"><p><b>verschollen</b><br/></p></note>
 			<note type="Fundstelle_note"/>
 			<note type="Fundumst_note"/>
-			<note type="Fundjahr_note">                                                    <p>EDH: <span style="color: rgb(51, 51, 51); font-family: Ubuntu, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">vor 1589, da hier erste Erwähnung.<br/></span></p></note>
+			<note type="Fundjahr_note">                                                    <p><b>EDH</b>: <span style="color: rgb(51, 51, 51); font-family: Ubuntu, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">vor 1589, da hier erste Erwähnung.<br/></span></p></note>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note"><p>CluassSlaby: Bad Bergzabern</p><p>WSpDB: Altenstadt bei Weißenburg</p></note>
+			<note type="FOmodern_note">                                                    <p><b>ClaussSlaby:</b> Bad Bergzabern</p>
+                                                    <p><b>WSpDB</b>: Altenstadt bei Weißenburg</p></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
@@ -295,7 +298,31 @@
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
 			<note type="Editionen_note">                                                    <p>
-                                                        </p><p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p><p><u>ev. einzusehen</u><br/>Hatt 1989, S.222, - eingearbeitet.</p></note>
+                                                        </p>
+                                                    <p><u>ev. einzusehen</u></p><p>Hatt 1989, S.222, - eingearbeitet.</p>
+                                                    <p><b>Literatur eingesehen von Verena:</b></p>
+                                                    <ul>
+                                                        <li>Schöpflin 1751, 486</li>
+                                                        <li>Orelli 1828-1856, Nr. 2072</li>
+                                                        <li>Brambach 1867, Nr. 1784</li>
+                                                        <li>Eichmann 1927, 44</li>
+                                                        <li>Sprater 1930, 38</li>
+                                                        <li>Dessau ILS, Nr. 3916</li>
+                                                        <li>Kienle 1938, 255</li>
+                                                        <li>Hatt 1978, 128f.</li>
+                                                        <li>Hatt 1971, 226</li>
+                                                        <li>Bauchhenß 1987, 108, 111</li>
+                                                        <li>de Wal 1847, Nr. CCLXXXIX</li>
+                                                        <li>
+                                                            <rs type="divine">aufgenommen, nicht eingesehen: </rs>
+                                                        </li>
+                                                        <li>Wiegels 1989, 457 A4 (nur erwähnt)</li>
+                                                        <li>
+                                                            <rs type="divine">nicht aufgenommen, nicht eingesehen: </rs>
+                                                        </li>
+                                                        <li>AE 27,6 (nur erwähnt)</li>
+                                                        <li>Gruterus 1602, XCIV</li>
+                                                    </ul></note>
 			<note type="ErhzustObj_note"/>
 			<note type="Masse_note">                                                    <p><b>verschollen<br/></b></p></note>
 			<note type="Ikonogr_note"/>
@@ -306,7 +333,7 @@
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"><p>WSpDB: 150-250<br/></p></note>
+			<note type="Datierung_note">                                                    <p><b>WSpDB:</b> 150-250<br/></p></note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>
 		</back>

@@ -50,7 +50,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>                                                <p>Die Inschrift befindet sich auf einem Quader, der auf allen Seiten, vor allem an der Oberseite, stark behauen ist. An der unteren Seite befindet sich mittig eine rechteckige Aussparung, wo der Stein wohl für die Verbauung passend gemacht wurde. Das Inschriftenfeld ist rundherum doppelt gerahmt.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+								<support> <p>                                                <p>Die Inschrift befindet sich auf einem Quader, der auf allen Seiten, vor allem an der Oberseite, stark behauen ist. An der unteren Seite befindet sich mittig eine rechteckige Aussparung, wo der Stein wohl für die Verbauung passend gemacht wurde. Das Inschriftenfeld ist rundherum doppelt gerahmt. Das Material wird als Flonheimer Sandstein beschrieben (Nesselhauf 1937, 78 Nr. 88; Weisgerber 1975, 55f., 148).</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
 									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110800">Bauinschrift</objectType> <dimensions>
 										<height unit="cm"> 71</height>
 										<width unit="cm"> 75</width>
@@ -272,15 +272,13 @@
 <lb n="6"/>Pisone et Iuliano
 <lb n="7"/><expan><abbr>co</abbr><ex>n</ex></expan><expan><abbr>s</abbr><ex>ulibus</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
-				<p><p>Dem <rs type="divine">Apollo Grannus</rs> hat (dies) Martius Senopatius Novellus am 18. August geweiht, unter dem Konsulat des Piso und des Iulianus.<br/></p></p>
+				<p>                                                <p>Dem <rs type="divine">Apollo Grannus</rs> hat (dies) Martius Senopatius Novellus am 18. August geweiht, unter dem Konsulat des Piso und des Iulianus.<br/></p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
 				<p>                                                <p>To <rs type="divine">Apollo Grannus</rs> (this) was dedicated by Martius Senopatius Novellus, on the 18<sup>th</sup> August during the consulat of Piso and Iulianus.<br/></p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
-				<app loc="1">
-					<note anchored="true"/>
-				</app>
+				
 			</div>
 			<div type="commentary" subtype="general" org="uniform" sample="complete">                                                <p>Entsprechend der Deutung des Inschriftenträgers als Bauquader (Behn 1929/30, 85f.) wurde die Inschrift für die Bauinschrift eines nicht erhaltenen Tempels für Apollo Grannus gehalten (Nesselhauf 1937, Nr. 88; Behrens 1938, Nr. 6; Weber 1966, 154; Klumbach 1973, 14f.; Künzl 1975, Nr.14; Weisgerber 1975, 119).</p>
                                                 <p>Martius Senopatius Novellus: der Name besteht aus Gentiliz, Pseudogentiliz und Cognomen. Diese Namensform ist nur in den germanischen Provinzen, der Belgica und Raetien üblich; vgl. CF-GeS-1008. In dem Pseudogentiliz Senopatius ist ein Patronymikon zu erkennen, d.h. es steht für „Sohn des Senopatus“. Im Laufe der Zeit konnten solche Pseudogentilnamen auch zu normalen, an die nächsten Generationen weitergegebenen Gentilnamen werden (Kakoschke 2016 FeRA, 10; etwas anders Solin 2011, 265, der in diesen Namesbildungen nur die Mode sieht, aus dem Cognomen des Vaters einen Gentilnomen zu bilden).</p>
@@ -298,15 +296,17 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note">                                                    <p>s. Behn in: CIL XIII Kartei/Flensburg/Scans/2.N.88.pdf</p>
-                                                    <p>Kakoschke: würfelförmiger Quader</p></note>
+			<note type="Objbeschr_note">                                                    <p>s. <b>Behn</b> in: CIL XIII Kartei/Flensburg/Scans/2.N.88.pdf</p>
+                                                    <p><b>Kakoschke</b>: würfelförmiger Quader</p></note>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"><p>Nesselhauf, Kakoschke, EDH: Sandstein</p><p>2N88: Sandstein gebrochen in Flonheim</p><p>Weisgerber: Flonheimer Sandstein</p></note>
-			<note type="Inschrifttraeger_note">                                                    <p>Behn – Bauquader – s. Behn in: CIL XIII</p><p> Kartei/Flensburg/Scans/2.N.88.pdf</p>
-                                                    <p>EDH: Block <br/></p>
-                                                    <p>Bauinschrift, zB Stümpel 1964</p></note>
+			<note type="Material_note">                                                    <p><b>Nesselhauf, Kakoschke, EDH:</b> Sandstein</p>
+                                                    <p><b>2N88</b>: Sandstein gebrochen in Flonheim</p>
+                                                    <p><b>Weisgerber:</b> Flonheimer Sandstein</p></note>
+			<note type="Inschrifttraeger_note">                                                    <p><b>Behn:</b> Bauquader – s. Behn in: CIL XIII Kartei/Flensburg/Scans/2.N.88.pdf</p>
+                                                    <p><b>EDH: </b>Block <br/></p>
+                                                    <p>Bauinschrift, zB. <b>Stümpel 1964</b></p></note>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note">                                                    <p>Weisgerber: Museum Alzey Nr. 11 (siehe CIL Kartei)<br/>Mail an Museum geschickt. – IvNr. lt. Mail am 5.5.23 Fr. Dr. Eva heller Karneth</p></note>
+			<note type="InvNr_note">                                                    <p><b>Weisgerber</b>: Museum Alzey Nr. 11 (siehe CIL Kartei)<br/>IvNr. lt. <b>Mail vom 5.5.23 von Fr. Dr. Eva Heller Karneth</b></p></note>
 			<note type="Fundstelle_note"/>
 			<note type="Fundumst_note"/>
 			<note type="Fundjahr_note"/>
@@ -314,33 +314,63 @@
 			<note type="FOmodern_note"/>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"><p>Z.5 u 7: NICHT nach CIL XIII Projekt<br/></p></note>
-			<note type="Appcrit_note">                                                    <p>CIL XIII Projekt:</p>
-                                                    <p>Z.5: XVI SEPT – folge ich (Werner) nicht (s. Photo, andere Ed.n)</p>
-                                                    <p>Z.7: Punkt nach COS – folge ich (Werner) nicht (s. Photo, andere Ed.n)</p></note>
+			<note type="Appcrit_note">                                                    <p><br/></p></note>
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note">                                                    <p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p><p><u>ev noch einsehen</u>:</p><p>AE 2016, +01158</p><p>Elbe, Joachim von: Unser römisches Erbe. Frankfurt am Main 1985. (= Deutschland – das unbekannte Land. Bd.1.) S.64 (mit Photo)</p><p><u>eingesehen</u></p><p>Leunissen S.188 (einheimische Dedikation) - eingesehen</p><p>Spickermann Germania superior. S.346. Nr.28, - eingesehen</p><p>Herz, Peter: Untersuchungen zum Festkalender der römischen Kaiserzeit 
+			<note type="Editionen_note">                                                    <p>
+                                                        <u>ev noch einsehen</u>:</p>
+                                                    <p>AE 2016, +01158</p>
+                                                    <p>Elbe, Joachim von: Unser römisches Erbe. Frankfurt am Main 1985. (= Deutschland – das unbekannte Land. Bd.1.) S.64 (mit Photo)</p>
+                                                    <p>
+                                                        <u>eingesehen</u>
+                                                    </p>
+                                                    <p>Leunissen S.188 (einheimische Dedikation) - eingesehen</p>
+                                                    <p>Spickermann Germania superior. S.346. Nr.28, - eingesehen</p>
+                                                    <p>Herz, Peter: Untersuchungen zum Festkalender der römischen Kaiserzeit 
 nach datierten Weih- und Ehreninschriften. 2 Bde. Diss. Mainz 1975 Bd.1.
  S.259 (zur Datierung: „Man könnte an einen Bezug zu der großen Seuche 
-unter Mark Aurel denken.“) - eingesehen</p><p>Klumbach S.8. Abb.4(Photo) - (Kein Klumbach in citavi at eine S. 8) aber Klumbach 1973, 14 - eingearbeitet</p><p>B. Stümpel 
+unter Mark Aurel denken.“) - eingesehen</p>
+                                                    <p>Klumbach S.8. Abb.4(Photo) - (Kein Klumbach in citavi at eine S. 8) aber Klumbach 1973, 14 - eingearbeitet</p>
+                                                    <p>B. Stümpel 
 Römische Abteilung: Das römische Alzey / Der Kreis Alzey im Römischen 
 Weltreich / Die Steinsammlung der römischen Abteilung. In: Alzeyer 
 Museum. Hrsg. vom Altertumsverein Alzey und Umgebung e. V. und 
 Kuratorium Museum Alzey. Alzey 1965. (= Alzeyer Geschichtsblätter. 
-Sonderheft 1.) S.40ff. S.51 (mit Photo) - eingearbeitet</p><p/></note>
+Sonderheft 1.) S.40ff. S.51 (mit Photo) - eingearbeitet</p>
+                                                    <p><b>Literatur eingesehen von Verena:</b></p>
+                                                    <ul>
+                                                        <li>Behn 1929/30, 85</li>
+                                                        <li>Behrens 1938, 41</li>
+                                                        <li>Cagnat 1933, 403 Nr. 138</li>
+                                                        <li>Stümpel 1964, 51</li>
+                                                        <li>Stümpel 1965, 51</li>
+                                                        <li>Weber 1966, 154</li>
+                                                        <li>Klumbach 1973, 14f.</li>
+                                                        <li>Künzl 1973, 67</li>
+                                                        <li>Wolff 1973, 51</li>
+                                                        <li>Weisgerber 1975, 55f., 148</li>
+                                                        <li>Künzl 1975, 14<br/></li>
+                                                        <li>AE 1933, 138</li>
+                                                        <li>Leunissen 1985, 163</li>
+                                                        <li>Boppert 2007, 227</li>
+                                                        <li>Noethlichs 2011, 306 A 174</li>
+                                                        <li>Nesselhauf 1937, Nr. 88</li>
+                                                    </ul></note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"><p>So: CIL XIII Projekt</p><p>Künzl, Lupa, Kakoschke, EDH: H 72,5, B 76 T 72</p><p>Klumbach, Weisgerber: H 75, B 73, T 70</p></note>
+			<note type="Masse_note">                                                    <p>So: <b>CIL XIII Projekt</b></p>
+                                                    <p><b>Künzl, Lupa, Kakoschke, EDH</b>: H 72,5, B 76 T 72</p>
+                                                    <p><b>Klumbach, Weisgerber</b>: H 75, B 73, T 70</p></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"><p>so CIL XIII Projekt</p></note>
+			<note type="Buchsthoehe_note">                                                    <p>so <b>CIL XIII Projekt</b></p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
 			<note type="Datierung_note">                                                    <p>ante diem XV kalendas Septembres Pisone et Iuliano consulibus</p>
-                                                    <p>Nesselhauf, EDH: 18. August 175 n. Chr.</p></note>
+                                                    <p><b>Nesselhauf, EDH: </b>18. August 175 n. Chr.</p></note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>
 		</back>

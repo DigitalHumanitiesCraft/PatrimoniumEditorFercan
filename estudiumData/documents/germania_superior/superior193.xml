@@ -1,0 +1,355 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="superior193" n="">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title type="full"><title type="main">Epona</title><title type="sub"> GeS-2035</title></title>
+				<respStmt>
+					<resp>Inschriftenedition</resp>
+					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Archäologische Beschreibung und geografische Daten</resp>
+					<persName><forename>Astrid</forename><surname>Schmölzer</surname></persName>
+				</respStmt>
+				<funder ref="https://www.fwf.ac.at">Austrian Science Fund (FWF): P 9274-G25</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><link target="https://antike.uni-graz.at"/><orgName ref="https://d-nb.info/gnd/1213531357">Institut für Antike, Fachbereich Alte
+					Geschichte und Epigraphik, Karl-Franzens-Universität Graz</orgName></publisher>
+				<authority><link target="https://informationsmodellierung.uni-graz.at"/><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+					Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+					Graz</orgName></authority>
+				<distributor><link target="https://gams.uni-graz.at"/><orgName full="yes">GAMS -
+					Geisteswissenschaftliches Asset Management System</orgName></distributor>
+				<date when="2022">2022</date>
+				<pubPlace>Graz</pubPlace>
+				<idno type="PID">o:fercan.193</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+						Commons BY-NC 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title ref="https://gams.uni-graz.at/fercan">FERCAN: Fontes Epigraphici Religionum
+					Celticarum Antiquarum</title>
+				<respStmt>
+					<resp>Projektleitung</resp>
+					<persName><forename>Wolfgang</forename><surname>Spickermann</surname></persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement/>
+						<repository/>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>Weihinschrift</summary>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support> <p/> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120210">Kalkstein</ref> </material>
+									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
+										<height unit="cm"> </height>
+										<width unit="cm"> </width>
+										<depth unit="cm"> </depth>
+									</dimensions> <note type="dimensions" anchored="true"> </note> </support>
+								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#"/> </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout> <p><p>11-zeilige Inschrift. Inschriftenfeld am rechten Rand abgesägt, sodass 1–2 Buchstaben fehlen. Gleichmäßige Buchstaben, Inschriftenfeld gänzlich ausgefüllt. Cos in Zeile 10 von zwei hederae umklammert. Ca. ein Zeile ABstand zwischen Zeile 10 und 11. Unsere Lesung entspricht jener von Kakoschke.</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130600</note> </layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote> <desc type="execution">gemeißelt</desc> <height unit="cm" atLeast="3" atMost="3">3–3</height> </handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote> <p/> <term ana="https://gams.uni-graz.at/o:fercan.arch#">
+								<ref type="context" target="context:fercan.arch."/> </term>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> 20. August 219, wegen cos. II des Elagabal </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
+						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+								<geo decls="#WGS"/>
+							</location> <note anchored="true"/> </provenance>
+						<provenance type="observed" subtype="autopsied"/>
+					</history>
+				</msDesc>
+				<listPlace>
+					<place type="antique_term">
+						<placeName><ref target="context:fercan.geog.term" type="context"/> </placeName>
+					</place>
+					<place type="sacral_building">
+						<placeName> <ref target="context:fercan.geog.sacral." type="context"> </ref>
+						</placeName>
+					</place>
+				</listPlace>
+				<listPerson>
+					<!-- Sonstige theonymische Formulare -->
+					<person>
+						<persName subtype="celtic_normalized_other" type="divine">
+							<ref target="context:fercan.dcn.other" type="context"> </ref>
+						</persName>
+					</person>
+					<!-- theonymisches formular -->
+					<person>
+						<persName subtype="celtic_normalized" type="divine">
+							<ref target="context:fercan.dcn." type="context"> </ref>
+						</persName>
+					</person>
+					<!-- keltisches götternamenelement  -->
+					<person>
+						<persName subtype="celtic_element" type="divine">
+							<ref target="context:fercan.dce." type="context"> </ref>
+						</persName>
+					</person>
+					<person>
+						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context"> </ref> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="religious"> <ref target="context:fercan.person.religious" type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="gentilnomen"><ref target="context:fercan.person.gentilnomen." type="context">
+						</ref></persName>
+					</person>
+					<person>
+						<persName> <roleName type="other"> <ref target="context:fercan.person.other." type="context"> </ref> </roleName>
+						</persName>
+					</person>
+					<person>
+						<persName> <roleName type="military"> <ref target="context:fercan.person.military." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName> <roleName type="office"> <ref target="context:fercan.person.office." type="context"> </ref>
+						</roleName> </persName>
+					</person>
+					<person>
+						<persName type="sovereign"> <ref target="context:fercan.person.sovereign." type="context"> </ref> </persName>
+					</person>
+				</listPerson>
+				<listOrg>
+					<org type="admin_unit">
+						<orgName> <ref target="context:fercan.org.admin." type="context"> </ref>
+						</orgName>
+					</org>
+					<org type="military_unit">
+						<orgName><ref target="context:fercan.org.military." type="context">
+						</ref></orgName>
+					</org>
+					<org type="population_group">
+						<orgName> <ref target="context:fercan.org.population." type="context">
+						</ref> </orgName>
+					</org>
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+			<editorialDecl>
+				<p>Digitale Repräsentation konform mit EpiDoc: http://epidoc.sourceforge.net</p>
+				<p>Majuskel und Minuskel ausgeführt nach Leidener Klammersystem, Majuskel bildet
+					Inschrift originalgetreu ab, Minuskel enthält editorische Hinzufügungen</p>
+			</editorialDecl>
+			<projectDesc>
+				<p>Die keltischen Götternamen in den Inschriften der römischen Provinz Germania
+					Inferior. Eine Fallstudie zu Religion im Kontext von Kulturkontakt und
+					Kulturtransfer (FWF – Projekt P 29274-G25 )</p>
+				<p>Das Forschungsprojekt beabsichtigt, sämtliche keltischen Götternamen, die sich in
+					lateinischen Inschriften der römischen Provinz Germania Inferior erhaltenen
+					haben, zusammenzustellen und auszuwerten. Die gewählte Quellengrundlage
+					erscheint besonders geeignet Erscheinungsformen zu untersuchen, welche auf
+					religiöser Ebene durch das Zusammentreffen von verschiedenen kulturellen
+					Einflüssen entstanden sind. Diese sind hier einerseits definiert durch die
+					Verwendung der keltischen Sprache, andererseits durch die lateinische Sprache
+					und durch Formen aus dem Inneren des Imperium Romanum, die man mit dem Etikett
+					„römisch“ versehen kann. Das Interesse gilt dabei nicht nur religiösen, sondern
+					auch damit verbundenen gesellschaftlichen Aspekten und den entsprechenden
+					Mentalitäten. Doch soll damit auch zu einem verbesserten Gesamtbild der
+					Provinzialreligion in Niedergermanien beigetragen werden.<lb/> Die
+					Abschlusspublikation wird ergänzt um einen ausführlichen
+					sprachwissenschaftlichen Kommentar (von Patrizia de Bernardo Stempel) in der
+					Reihe ‚Corpus - F.E.R.C.AN. (Fontes epigraphici religionum Celticarum
+					antiquarum)‘ erscheinen. </p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">Latein</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item> <ref target="context:fercan.dedication." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.character." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.other." type="context"> </ref> </item>
+						<item> <ref target="context:fercan.rel.other." type="context"> </ref> </item>
+						<!-- Belegform gesamt  -->
+						<item> <ref target="context:fercan.divinepart." type="context"> </ref> </item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019" n="1" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2020-02-26">Initial
+				Version</change>
+			<change when="2020" n="2" corresp="https://gams.uni-graz.at/o:fercan.1/TEI_SOURCE.2022-03-07">Version
+				2</change>
+			<change when="2022" n="3">Version 3</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic mimeType="" xml:id="IMAGE.1" url="">
+			<desc> </desc>
+		</graphic>
+	</facsimile>
+	<text>
+		<body>
+			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
+			<div subtype="editions" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl xml:id="1">CIL XIII 5170</bibl>
+				
+            <bibl xml:id="2">ILS 2411</bibl>
+        
+            <bibl xml:id="3">AE 2011, 814</bibl>
+        
+            <bibl xml:id="4">AE 2015, 979</bibl>
+        
+            <bibl xml:id="5">Howald/Meyer 1940, Nr.245</bibl>
+        
+            <bibl xml:id="6">Walser 1980, Nr.130</bibl>
+        
+            <bibl xml:id="7">Frei-Stolba/Luginbühl 2011, 206 Anm.25</bibl>
+        
+            <bibl xml:id="8">Kakoschke 2014, 39–54</bibl>
+        
+            <bibl xml:id="9"> Epigraphica Helvetica 2017, Nr.30</bibl>
+        
+            <bibl xml:id="10">Kakoschke 2017, 41–45</bibl>
+        
+            <bibl xml:id="11"> Epigraphica Helvetica 2019, Nr.39 </bibl>
+        
+            <bibl xml:id="12"> Epigraphica Helvetica 2016, Nr.34 </bibl>
+        
+            <bibl xml:id="13"> Epigraphica Helvetica 2020, Nr.32</bibl>
+        
+            <bibl xml:id="14">Kolb 2022, Nr.342</bibl>
+        
+            <bibl xml:id="15">Scheungraber 2020, 266 Nr.12</bibl>
+        </listBibl>
+			</div>
+			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
+				<listBibl>
+					<bibl type="EDCS"><idno>EDCS-10800575</idno><date>Version von 2025-08-29</date></bibl>
+					<bibl type="EDH"><idno>HD079567</idno><date>Version von 2025-08-29 </date></bibl>
+					<bibl type="trismegistos"><idno>www.trismegistos.org/text/424201</idno><date>Version von 2025-08-29</date></bibl>
+					<bibl type="lupa"><idno> </idno><date> </date></bibl>
+					<bibl type="other"><idno> </idno><date> </date></bibl>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="diplomatic" xml:id="majuscule" xml:lang="la" xml:space="preserve" org="uniform" sample="complete">
+				<ab><lb n="1"/>DEAE EPONAE M A <supplied reason="lost">AP</supplied>
+<lb n="2" break="no"/><unclear>R</unclear>ILIVS<g type="interpunct">▴</g>RESTIO<g type="interpunct">▴</g>M<supplied reason="lost">ILES</supplied>
+<lb n="3"/>LEG<g type="interpunct">▴</g>XXII<g type="interpunct">▴</g>ANTONI<supplied reason="lost">NI</supplied>
+<lb n="4" break="no"/>ANAE P P F IMM<unclear>V</unclear><supplied reason="lost">N</supplied>
+<lb n="5" break="no"/>IS<g type="interpunct">▴</g>COS<g type="interpunct">▴</g>CVRAS A<supplied reason="lost">GE</supplied>
+<lb n="6" break="no"/>NS<g type="interpunct">▴</g>VICO<g type="interpunct">▴</g>SALOD<supplied reason="lost">VR</supplied>
+<lb n="7"/>XIII<g type="interpunct">▴</g>KAL <unclear>S</unclear>EPTEM<g type="interpunct">▴</g>I<supplied reason="lost">MP</supplied>
+<lb n="8"/><hi rend="supraline">D<g type="interpunct">▴</g>N</hi><g type="interpunct">▴</g>ANTONINO <supplied reason="lost"><hi rend="ligature">AV</hi>G</supplied>
+<lb n="9"/><hi rend="supraline">II</hi><g type="interpunct">▴</g>ET<g type="interpunct">▴</g>SACERDO<supplied reason="lost">TE</supplied>
+<lb n="10"/><hi rend="supraline">II</hi><g type="hedera">❦</g>COS<g type="hedera">❦</g>
+<lb n="11"/>V<g type="interpunct">▴</g>S<g type="interpunct">▴</g>L<g type="interpunct">▴</g><unclear>M</unclear></ab></div>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Deae Eponae <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>A</abbr><ex>urelius</ex></expan> <supplied reason="lost">Ap</supplied>
+<lb n="2" break="no"/><unclear>r</unclear>ilius Restio M<supplied reason="lost">iles</supplied>
+<lb n="3"/><expan><abbr>Leg</abbr><ex>ionis</ex></expan> XXII Antoni<supplied reason="lost">ni</supplied>
+<lb n="4" break="no"/>anae <expan><abbr>p</abbr><ex>rimigeniae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> imm<unclear>u</unclear><supplied reason="lost">n</supplied>
+<lb n="5" break="no"/>is <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> curas a<supplied reason="lost">ge</supplied>
+<lb n="6" break="no"/>ns vico Salod<supplied reason="lost"><expan><abbr>ur</abbr><ex>o</ex></expan></supplied>
+<lb n="7"/>XIII <expan><abbr>Kal</abbr><ex>endas</ex></expan> <expan><abbr><unclear>S</unclear>eptem</abbr><ex>bres</ex></expan> I<supplied reason="lost"><expan><abbr>mp</abbr><ex>eratore</ex></expan></supplied>
+<lb n="8"/><expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> Antonino <supplied reason="lost"><expan><abbr><hi rend="ligature">Au</hi>g</abbr><ex>usto</ex></expan></supplied>
+<lb n="9"/>II et Sacerdo<supplied reason="lost">te</supplied>
+<lb n="10"/>II <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+<lb n="11"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
+			<div type="translation" xml:lang="de" org="uniform" sample="complete">
+				<p><p>Für <rs type="divine">Epona </rs>hat Marcus Aurelius Aprilius Restio, Soldat der 22. Legion Antoniniana Primigenia Pia Fidelis, Immunis des Statthalters im vicus Salodurum, am 20. August, im zweiten Konsulat und Priesterschaft unseres Herrn Imperator Antoninus, das Gelübde gerne und verdientermaßen erfüllt</p></p>
+			</div>
+			<div type="translation" xml:lang="en" org="uniform" sample="complete">
+				<p><p>For <rs type="divine">Epona</rs>, Marcus Aurelius Aprilius Restio, soldier of the 22nd legion Antoniniana Primigenia Pia Fidelis, Immunis of the governor, has fulfilled his vow during the second consulship and priesthoos of our lord Imperator Antoninus, willingly and deservedly</p></p>
+			</div>
+			<div type="apparatus" org="uniform" sample="complete">
+				<app loc="1">
+					<note anchored="true">Ma. Opilius (Z. 1-2) – Riese; O?p̣ilius – CIL; ma[tri?] – Dessau; M(arcus) A[P] – Clauss Slaby; M. A[u]ṛ[e]lius Restio (Z.1-2) – AE 2011, Frei-Stolba/Luginbühl, Scheungraber; Ma(rcus) [Ap]rilius (Z.1-2) – Kolb</note>
+				</app>
+			
+            <app loc="2">
+                <note anchored="true">[...]pilius – Howald/Meyer; M[il(es)] – Walser</note>
+            </app>
+        
+            <app loc="8">
+                <note anchored="true">Keine Ergänzung des [Aug(usto)] – Howald/Meyer</note>
+            </app>
+        
+            <app loc="7">
+                <note anchored="true">[die] XIII Kal Septemb – Walser</note>
+            </app>
+        </div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete"><p>Trianomina: Marcus Aurelius Aprilius Restio</p><p>Aurelius: Italisches Gentiliz, kaiserliches Gentiliz seit Marcus Aurelius, im gallisch-germaischen Raum sehr weit verbreitet (Kakoschke 2021 GN 179)</p><p>Aprilius: Einheimisches Pseudo-Gentiliz, abgeleitet vom lateinischen Namen Aprilis (oder vom lat. Aper), vermutlich getragen von einheimischen. Mehrfach belegt (Kakoschke 2021 GN 109)</p><p>Restio: Lateinischer Name, lediglich zweimal im gallisch germanischen Raum belegt (Kakoschke 2021 CN 2591)</p><p>legio XXII Primigenia Pia Fidelis: Die legio XXII Primigenia erhielt 
+nach dem Scheitern des Saturninus-Aufstandes 89 n.Chr. gemeinsam mit 
+anderen Legionen und Truppenkörpern den Ehrenbeinamen Pia Fidelis 
+Domitiana; letzterer fiel nach der damnatio memoriae Domitians wieder 
+weg. Die Legion wurde 97 n.Chr. von Xanten nach Mainz verlegt, wo sie 
+die nächsten zwei Jahrhunderte verblieb. Zwischen 70/71 und 97 n.Chr. 
+sowie 101/102 bis 106/107 n.Chr. wurden Teile der Truppe für 
+Steinbrucharbeiten im Brohtal eingesetzt (Matijević 2010, 29, 227–233).<p> </p>
+			</p></div>
+			<div type="commentary" subtype="language" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<div type="commentary" subtype="deity" org="uniform" sample="complete">
+				<p> </p>
+			</div>
+			<linkGrp type="alignment" domains="#majuscule #minuscule">
+			</linkGrp>
+		</body>
+		<back>
+			<note type="Objbeschr_note"/>
+			<note type="ArchKlass_note"/>
+			<note type="Material_note"/>
+			<note type="Inschrifttraeger_note"><p>Oder Statuenbasis?</p></note>
+			<note type="VerwahrortOrt_note"/>
+			<note type="InvNr_note"/>
+			<note type="Fundstelle_note"/>
+			<note type="Fundumst_note"/>
+			<note type="Fundjahr_note"/>
+			<note type="FOantik_note"/>
+			<note type="FOmodern_note"/>
+			<note type="civitas_note"/>
+			<note type="Autopsie_note"><p>CIL XIII Projekt (laut Clauss Slaby)</p></note>
+			<note type="Appcrit_note"/>
+			<note type="Abb_note"/>
+			<note type="englUEbers_note"/>
+			<note type="dtUEbers_note"/>
+			<note type="Editionen_note"/>
+			<note type="ErhzustObj_note"/>
+			<note type="Masse_note"/>
+			<note type="Ikonogr_note"/>
+			<note type="Inschrtext_note"/>
+			<note type="ErhzustInschr_note"/>
+			<note type="Schrifttechnik_note"/>
+			<note type="Buchsthoehe_note"/>
+			<note type="Notvar_note"/>
+			<note type="KommGoettern_note"/>
+			<note type="SonstKomm_note"/>
+			<note type="Datierung_note"/>
+			<note type="ElektronischeRessourcen_note"/>
+			<note type="Index_note"/>
+		</back>
+	</text>
+</TEI>

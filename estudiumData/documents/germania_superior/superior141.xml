@@ -50,7 +50,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p><p>Erhalten ist die Basis des Reliefs, auf der sich die ungerahmte Inschrift befindet. Diese ist rundherum, vor allem unten und an der rechten Seite, bestoßen und nicht weiter ausgestaltet. Das linke untere Eck fehlt. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+								<support> <p>                                                <p>Erhalten ist die Basis des Reliefs, auf der sich die ungerahmte Inschrift befindet. Diese ist rundherum, vor allem unten und an der rechten Seite, bestoßen und nicht weiter ausgestaltet. Das linke untere Eck fehlt. Das Material wird von Filtzinger (1980, 62 Nr. 25) als Schilfsandstein beschrieben.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
 									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110400">Weihestein</objectType> <dimensions>
 										<height unit="cm">48</height>
 										<width unit="cm">109</width>
@@ -77,7 +77,7 @@
 						<origin> <origPlace> <placeName> </placeName> <region>Civitas Sumelocennensis</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when="1832"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Köngen</ref> </placeName> <p>                                                <p>"zwischen dem Dorf und den sognannten Burgäckern" (CIL); "zwischen Dorf und Flur "Burg", dem römischen Kastellgebäude (Filtzinger/ Planck/ Cämmerer 1976, 476); "auf einem Kartoffelfeld Miller" (Filtzinger 1980, 62 Nr.25); "zwischen dem Dorf Köngen und den 'Goldäckern' (Unz 1982, 96)<br/></p></p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true">                                                <p>"von einem Bauern [...] gefunden, etwa 1' tief" (Filtzinger 1980, 62 Nr.25)<br/></p></note> </provenance>
+							</location> <note anchored="true">                                                <p>"von einem Bauern [...] gefunden, etwa 1' tief" (Filtzinger 1980, 62 Nr.25); 11. Juli (Mettler 1907, 40f.)</p></note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
 					</history>
 				</msDesc>
@@ -109,6 +109,11 @@
 							<ref target="context:fercan.dce." type="context">Visucius; Visucia</ref>
 						</persName>
 					</person>
+					  <person instant="false">
+            <persName type="divine" subtype="celtic_diplomatic" instant="false" full="yes">
+                            <ref type="context" target="context:fercan.dcd.">deo Mercurio Visucio; sa(n)ct(a)e Visuci(a)e</ref>
+                        </persName>
+          </person>
 					<person>
 						<persName type="cognomen"> <ref target="context:fercan.person.cognomen" type="context">Secundinus</ref> </persName>
 					</person>
@@ -308,36 +313,41 @@
 		<back>
 			<note type="Objbeschr_note"/>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"><p>Filtzinger 1980, 62 Nr. 25: Schilfsandstein<br/></p></note>
-			<note type="Inschrifttraeger_note"><p>Haug/Sixt 1914, 302 Nr. 184: Basis mit Votivinschrift zu Hochreliefs des Mercurius Visucius und der Visucia<br/></p></note>
+			<note type="Material_note">                                                    <p><b>Filtzinger 1980, 62 Nr. 25:</b> Schilfsandstein<br/></p></note>
+			<note type="Inschrifttraeger_note">                                                    <p><b>Haug/Sixt 1914, 302 Nr. 184: </b>Basis mit Votivinschrift zu Hochreliefs des Mercurius Visucius und der Visucia<br/></p></note>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note">                                                    <p>lupa, Hupe 1997, 166, Karteikarte 6384 S.20<br/></p></note>
+			<note type="InvNr_note">                                                    <p><b>lupa, Hupe 1997, 166, Karteikarte </b>6384 S.20<br/></p></note>
 			<note type="Fundstelle_note"/>
-			<note type="Fundumst_note"><p>Gefunden am 11. Juli 1832 zwischen dem Dorf und den Burgäckern - Mettler 1907, 40-41<br/></p></note>
+			<note type="Fundumst_note"><p><b>Mettler 1907, 40f.:</b> Gefunden am 11. Juli 1832 zwischen dem Dorf und den Burgäckern<br/></p></note>
 			<note type="Fundjahr_note"/>
-			<note type="FOantik_note"><p>EDH</p><p>CIL: Köngen</p><p>Kartei: Rottenburg</p><p>Die Römer in BW 1976, 476/477: Köngen<br/></p></note>
-			<note type="FOmodern_note"><p>EDH</p>
-                                                    <p>CIL: Köngen</p>
-                                                    <p>Kartei: Rottenburg</p>
-                                                    Die Römer in BW 1976, 476/477: Köngen<p/></note>
+			<note type="FOantik_note">                                                    <p><b>EDH</b></p>
+                                                    <p><b>CIL:</b> Köngen</p>
+                                                    <p><b>Kartei:</b> Rottenburg</p>
+                                                    <p><b>Die Römer in BW 1976, 476/477</b>: Köngen<br/></p></note>
+			<note type="FOmodern_note">                                                    <p><b>EDH</b></p>
+                                                    <p><b>CIL</b>: Köngen</p>
+                                                    <p><b>Kartei</b>: Rottenburg</p><b>
+                                                    Die Römer in BW 1976, 476/477:</b> Köngen<p/></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note"/>
+			<note type="Editionen_note"><p><b>Literatur eingesehen von Verena:</b></p><ul><li>Pauly 1832, 42</li><li>Paulus 1843, 128</li><li>Stälin 1835, 28 Nr. 21</li><li>Stälin 1846, 11 Nr. 24</li><li>Paulus 1847, 48 Nr. 141</li><li>Brambach 1876, 295 Nr. 1581</li><li>Stälin 1837, 162f.</li><li>Filtzinger &amp; Planck &amp; Cämmerer 1976, 476f.</li><li>Filtzinger 1980, 62 Nr. 25</li><li>Esperandieu 1931, 374 nr. 595</li><li>Dessau ILS, Nr. 4608</li><li>Mettler 1907, 38 Nr. 1, 40f. 7</li><li>Unz 1982, 22</li><li>Haug &amp; Sixt 1914, 302 Nr. 184</li><li>Rupprecht 1975, 219</li><li>Johne &amp; Köhn &amp; Weber 1983, 28</li><li>Luik 1988, 42f.</li><li>Sixt 1895 25 Nr. 106</li><li>Haug 1906, 33</li><li><rs type="divine">aufgenommen, nicht eingesehen:</rs></li><li>Schleiermacher 1933, 113 A6 (nur erwähnt)</li><li>Gschaid 1994, 367 A290 (nur erwähnt)</li><li>Wilmanns 1981, 147 A638f. (nur erwähnt)</li><li>Kienle 1938, 255, 261 (nur erwähnt)</li><li><i>nicht aufgenommen, nicht eingesehen: </i></li><li>Dietz 2005, 107 (nur erwähnt)</li><li><i>eingesehen, nicht aufgenommen: </i></li><li>Mommsen, Bericht der Sächsischen Gesellschaft der Wissenschaften 1852, 108 (wird hier nicht erwähnt)</li></ul></note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note">                                                    <p>EDH, Filtzinger 1980, 62<br/></p></note>
-			<note type="Ikonogr_note"><p>CIL: links Statue Visucius, rechts Statue Mercur</p><p>Filtzinger, 1980, 62 Nr. 25: Bildnisse des Mercur Visucius und der Sancta Visucia; Auf der Basis standen sehr wahrscheinlich Statuen, von denen nur die Füße und Reste der Gewandung erhalten sind. Die Göttin stand in langem Gewande wahrscheinlich links und rechts Mercur. <br/></p></note>
+			<note type="Masse_note">                                                    <p><b>EDH, Filtzinger 1980, 62</b><br/></p></note>
+			<note type="Ikonogr_note">                                                    <p><b>CIL</b>: links Statue Visucius, rechts Statue Mercur</p>
+                                                    <p><b>Filtzinger, 1980, 62 Nr. 25:</b> Bildnisse des Mercur Visucius und der Sancta Visucia; Auf der Basis standen sehr wahrscheinlich Statuen, von denen nur die Füße und Reste der Gewandung erhalten sind. Die Göttin stand in langem Gewande wahrscheinlich links und rechts Mercur. <br/></p></note>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"><p>EDH<br/></p></note>
+			<note type="Buchsthoehe_note">                                                    <p><b>EDH</b><br/></p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note">                                                    <p>EDH 101-250 AD</p><p>Mettler, Filtzinger 180- (wegen Deo und Sancta vorangestellt, so Riese Westdeutsche Zeitschrift 1898, 15)<br/></p></note>
+			<note type="Datierung_note">                                                    <p><b>EDH</b> 101-250 AD</p>
+                                                    <p><b>Mettler, Filtzinger</b> 180- (wegen Deo und Sancta vorangestellt, so Riese Westdeutsche Zeitschrift 1898, 15)<br/></p></note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>
 		</back>

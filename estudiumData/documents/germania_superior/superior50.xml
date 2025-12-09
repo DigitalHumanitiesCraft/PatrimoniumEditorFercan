@@ -50,7 +50,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>Bei diesem Objekt handelt es sich um ein Kapitell, auf dessen Vorderseite sich die Inschrift befindet und dessen weitere drei Seiten jeweils ein Kopf schmückt. Auf der Oberseite befindet sich laut EDH mittig ein großes quadratisches Dübelloch. Alle Seiten scheinen bestoßen zu sein, dem Feld mit der Inschrift fehlt das linke obere Eck. An der Unterseite ist noch ein Stück des Säulenschaftes sichtbar. An den Schmalseiten der Inschrift findet sich ein Mäandermuster in Form des „Laufenden Hundes“. Die Köpfe sind durch stilisierte, grobe Akanthusblätter getrennt.<br/></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+								<support> <p>Bei diesem Objekt handelt es sich um ein Kapitell, auf dessen Vorderseite sich die Inschrift befindet und dessen weitere drei Seiten jeweils ein Kopf schmückt. Auf der Oberseite befindet sich laut EDH mittig ein großes quadratisches Dübelloch. Alle Seiten scheinen bestoßen zu sein, dem Feld mit der Inschrift fehlt das linke obere Eck. An der Unterseite ist noch ein Stück des Säulenschaftes sichtbar. An den Schmalseiten der Inschrift findet sich ein Mäandermuster in Form des „Laufenden Hundes“. Die Köpfe sind durch stilisierte, grobe Akanthusblätter getrennt. Rüger (1975, 69) beschreibt das Material als "sandige[s] Konglomerat mit groben Einschlüssen, wie es vor allem im Mitteldevon des Hunsrücks vorkommt."</p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
 									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.220200">Kapitell</objectType> <dimensions>
 										<height unit="cm"> 18,5</height>
 										<width unit="cm"> 21,5</width>
@@ -80,7 +80,7 @@
 						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> 100</date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when=" "> <placeName> <ref type="context" target="context:fercan.geog.modern.">Pommern</ref> </placeName> <p>Heiligtum des Mars Lenus (EDH); auf dem Martberg bei Pommern</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true">Fundumstände und Fundjahr sind nicht mehr nachvollziehbar. Das Objekt muss aber vor 1975 gefunden worden sein, da hier der Ankauf durch das Museums erfolgte.</note> </provenance>
+							</location> <note anchored="true">Fundumstände und Fundjahr sind nicht mehr nachvollziehbar. Das Objekt muss aber vor 1975 gefunden worden sein, da hier der Ankauf durch das Museums erfolgte. Laut Rüger (1975, 69) stamme das Stück "aus dem Kunsthandel, der seine Herkunft ziemlich plausibel mit Martberg bei Pommern a. d. Mosel angibt."</note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
 					</history>
 				</msDesc>
@@ -260,7 +260,7 @@
 <lb n="4"/>QVINTVS E<g type="interpunct">▴</g>X V
 <lb n="5"/>OTO<g type="interpunct">▴</g>POSVIT L<g type="interpunct">▴</g>L M<orig/></ab></div>
 			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>I<supplied reason="lost">n</supplied> <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <supplied reason="omitted">d</supplied><expan><abbr/><ex>ivinae</ex></expan> deo
-<lb n="2"/>Marti Laeno<note>!</note>
+<lb n="2"/>Marti Laeno
 <lb n="3"/>Saturninius
 <lb n="4"/>Quintus ex v
 <lb n="5" break="no"/>oto posuit <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
@@ -293,37 +293,48 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"><p>EDH: „Kapitell; auf der Vorderseite befindet sich die Inschrift, auf den drei anderen je ein Kopf und weiterer Dekor. Auf der Oberseite ein quadratisches Dübelloch.“<br/></p></note>
+			<note type="Objbeschr_note">                                                    <p><b>EDH:</b> „Kapitell; auf der Vorderseite befindet sich die Inschrift, auf den drei anderen je ein Kopf und weiterer Dekor. Auf der Oberseite ein quadratisches Dübelloch.“</p><p><b>Rüger 1975, 69: S</b>eite eines sonst rundum als Figuralkapitell gebildeten Bauglieds aus einem sandigen Konglomerat mit groben Einschlüssen, wie es vor allem im Mitteldevon des Hunsrücks vorkommt.<br/></p></note>
 			<note type="ArchKlass_note">                                                    <br/></note>
-			<note type="Material_note"/>
+			<note type="Material_note"><p><b>Rüger 1975, 69</b>: Sandstein<br/></p></note>
 			<note type="Inschrifttraeger_note">                                                    <p><br/></p></note>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note"><p>Ankauf lt. Museum 1975<br/></p></note>
+			<note type="InvNr_note"><b>Mail von Frau Dr. Willer vom 12.7.2023: </b>"Inventarnummer 1975.1512,0-1 [...] Ankauf 1975"</note>
 			<note type="Fundstelle_note"/>
-			<note type="Fundumst_note">Mail ans Museum am 5.7.23 – Antwort am 12.7.23: Fundjahr und Fundumstände werden im Inventar nicht genannt</note>
-			<note type="Fundjahr_note">                                                    <p>Mail ans Museum am 5.7.23 – Antwort am 12.7.23: Fundjahr und Fundumstände werden im Inventar nicht genannt</p></note>
+			<note type="Fundumst_note"><p><b>Mail von Frau Dr. Willer vom 12.7.2023</b>: "Fundjahr und Fundumstände werden im Inventar nicht genannt"</p><p><b>Rüger 1975, 69:</b> Das Stück stammt aus dem Kunsthandel, der seine Herkunft ziemlich plausibel mit Martberg bei Pommern a. d. Mosel angibt.<br/></p></note>
+			<note type="Fundjahr_note">                                                    <p><b>Mail von Frau Dr. Willer vom 12.7.2023:</b> "Fundjahr und Fundumstände werden im Inventar nicht genannt"</p></note>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note"><p>So Merten</p><p>Rüger: Kunsthandel, wahrscheinlich aber vom Martberg</p></note>
+			<note type="FOmodern_note">                                                    <p>So <b>Merten</b></p>
+                                                    <p><b>Rüger:</b> Kunsthandel, wahrscheinlich aber vom Martberg</p></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
-			<note type="Abb_note"><p>Erfreuliche Nachrichten. Bei erneuter Recherche bin ich doch noch auf die angehängten Neuaufnahmen des Kapitells gestoßen, die Ihnen bei der Beschreibung sicher hilfreich sein werden. Sie können diese Fotos natürlich auch gerne in Ihrer Datenbank verwenden. Bitte geben Sie als Abbildungsnachweis an: J. Vogel, LVR-LandesMuseum Bonn.</p><p>Mit freundlichen Grüßen,</p><p>Susanne Willer</p></note>
+			<note type="Abb_note"><b>Mail von Fr. Dr. Willer vom 13.7.2023:</b> "Sie können diese Fotos natürlich auch gerne in Ihrer Datenbank verwenden. Bitte geben Sie als Abbildungsnachweis an: J. Vogel, LVR-LandesMuseum Bonn."</note>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note">                                                    <p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p></note>
+			<note type="Editionen_note">                                                    <p><b>Literatur eingesehen von Verena:</b></p>
+                                                    <ul>
+                                                        <li>Rüger 1981, Nr. 1</li>
+                                                        <li>Gilles 1984, 41</li>
+                                                        <li>Merten 1985. 14ff.</li>
+                                                        <li>AE 1981, Nr. 676</li>
+                                                        <li>AE 1985. Nr. 679 (B)</li><li>Rüger 1975, 69<br/></li>
+                                                    </ul></note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"><p>so CIL Kartei <br/>Rüger, Gilles, Merten, EDH: Höhe: 15 cm Breite: 22 cm Tiefe: 22 cm</p></note>
+			<note type="Masse_note">                                                    <p>so <b>CIL Kartei </b><br/><b>Rüger, Gilles, Merten, EDH</b>: Höhe: 15 cm Breite: 22 cm Tiefe: 22 cm</p></note>
 			<note type="Ikonogr_note">s. ev in:
-                                                    <p>Wegner, Hans-Helmut: Der Martberg bei Pommern an der Mosel. Eine befestigte Höhensiedlung der Kelten im Gebiet der Treverer. Koblenz 1997. (= Archäologie an Mittelrhein und Mosel. Bd.12.) S.24. Abb.9(Photo),</p>
-                                                    <p>Schröder, Franzjosef: Provinzialrömische Reliefkunst an Mittelrhein und Untermosel vom 1.-3. Jahrhundert n. Chr. 2 Bde. Diss. Heidelberg 2014 Bd.2. S.274f. Nr.416, <b>- Fernleihbestellung aufgegeben 06.06.2023</b></p></note>
+                                                    <p><b>Wegner 1997, 24. Abb.9 (Photo); Schröder, 2014 Bd.2, 274f. Nr.416</b></p></note>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"><p>So CIL Kartei</p><p>Rüger, Merten, EDH: 1,8-2,3 cm</p></note>
+			<note type="Buchsthoehe_note">                                                    <p>So <b>CIL Kartei</b></p>
+                                                    <p><b>Rüger, Merten, EDH</b>: 1,8-2,3 cm</p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"><p>Rüger: 1.H.3.Jh (nach Figurenschmuck u Gesamteindruck)</p><p>Gilles: A.3.Jh.</p><p>EDH: 201-230</p><p>Merten: in h d d – im Rheingebiet erst ab 2.H.2.Jh. auch deo vor GN erst ab dieser Zeit – daher Datierung: A.3.Jh.</p></note>
+			<note type="Datierung_note">                                                    <p><b>Rüger:</b> 1.H.3.Jh (nach Figurenschmuck u Gesamteindruck)</p>
+                                                    <p><b>Gilles</b>: A.3.Jh.</p>
+                                                    <p><b>EDH:</b> 201-230</p>
+                                                    <p><b>Merten:</b> in h d d – im Rheingebiet erst ab 2.H.2.Jh. auch deo vor GN erst ab dieser Zeit – daher Datierung: A.3.Jh.</p></note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>
 		</back>

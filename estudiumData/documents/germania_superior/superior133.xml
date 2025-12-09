@@ -50,7 +50,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>                                                <p>Der Weihealtar ist mittig im ungerahmten Inschriftenfeld gebrochen und besteht dadurch aus zwei Teilen. Die Trennung des Inschriftenfeldes von Basis und Aufsatz erfolgt jeweils durch eine einfache Profilierung. Von der Bekrönung sind noch die Ausbuchtungen der Pulvini zu erkennen, ein großer Teil ab der Mitte bis zum rechten Rand und auch in den Anfang des Inschriftenfeldes reichend ist jedoch ausgebrochen. Der Stein ist auch sonst abgeschlagen und verwittert. <br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+								<support> <p>                                                <p>Der Weihealtar ist mittig im ungerahmten Inschriftenfeld gebrochen und besteht dadurch aus zwei Teilen. Die Trennung des Inschriftenfeldes von Basis und Aufsatz erfolgt jeweils durch eine einfache Profilierung. Von der Bekrönung sind noch die Ausbuchtungen der Pulvini zu erkennen, ein großer Teil ab der Mitte bis zum rechten Rand und auch in den Anfang des Inschriftenfeldes reichend ist jedoch ausgebrochen. Der Stein ist auch sonst abgeschlagen und verwittert. Das Material wird von Goessler (1931, 7) als "grobkörniger Stubensandstein" beschrieben.</p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
 									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm">88,5</height>
 										<width unit="cm">48</width>
@@ -77,7 +77,7 @@
 						<origin> <origPlace> <placeName/> <region>Civitas Aurelia G-?</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when="1930"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Bad Cannstatt</ref> </placeName> <p><p>Seelbergstraße 7 (Goessler 1931, 6)<br/></p></p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true">                                                <p>"beim Ausheben der Baugrube eines Neubaues der Mechan. Gurten- und Bandweberei Cannstatt (B. Gutmann &amp; Marx)" (Goessler 1931, 6)<br/></p></note> </provenance>
+							</location> <note anchored="true">                                                <p>"beim Ausheben der Baugrube eines Neubaues der Mechan. Gurten- und Bandweberei Cannstatt (B. Gutmann &amp; Marx)" (Goessler 1931, 6); Mitte Oktober (Goessler 1931, 6)</p></note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>vidimus (CIL XIII Projekt)<br/></p></provenance>
 					</history>
 				</msDesc>
@@ -277,39 +277,42 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"><p>Goessler 1931, 8 Nr. 1: Inschriftplatte, oben und unten profiliert. ... 
+			<note type="Objbeschr_note">                                                    <p><b>Goessler 1931, 8 Nr. 1:</b> Inschriftplatte, oben und unten profiliert. ... 
 Oberer Abschluß: Schale mit Polstern zu beiden Seiten. Der Stein ist in 
 der Mitte gebrochen und in der oberen Hälfte etwa zu 1/3 rechts 
-zerstört.</p><p>Nesselhauf 1937, 81 Nr. 100: In zwei Teile gebrochen, oben rechts zerstört<br/></p></note>
+zerstört.</p>
+                                                    <p><b>Nesselhauf 1937, 81 Nr. 100</b>: In zwei Teile gebrochen, oben rechts zerstört<br/></p></note>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"><p>grobkörniger Stubensandstein - Goessler 1931, 7<br/></p></note>
+			<note type="Material_note"><p>Goessler 1931, 7: grobkörniger Stubensandstein<br/></p></note>
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"/>
-			<note type="InvNr_note">                                                    <p>vom Museum bestätigt<br/></p><p>Nesselhauf 1937, 81 Nr. 100: Altertumssammlung Stuttgart</p></note>
+			<note type="InvNr_note">                                                    <p><b>Mail von Frau Klotter vom 11.6.2024:</b> "Inventarnummer RL168 und befindet sich bei uns im Landesmuseum Stuttgart"<br/></p>
+                                                    <p><b>Nesselhauf 1937, 81 Nr. 100:</b> Altertumssammlung Stuttgart</p></note>
 			<note type="Fundstelle_note"/>
-			<note type="Fundumst_note"><p>Goessler 1931, 7<br/></p></note>
-			<note type="Fundjahr_note">                                                    <p>Mitte Oktober - Goesller 1931, 6<br/></p></note>
+			<note type="Fundumst_note">                                                    <p><b>Goessler 1931, 7</b><br/></p></note>
+			<note type="Fundjahr_note"><p>Goesller 1931, 6: Mitte Oktober<br/></p></note>
 			<note type="FOantik_note"/>
-			<note type="FOmodern_note"><p>Goessler 1931, 6<br/></p></note>
+			<note type="FOmodern_note">                                                    <p><b>Goessler 1931, 6</b></p>
+                                                    <p><b>Mail Frau Klotter vom 11.6.2024:</b> "aus Bad Cannstatt"</p></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note"/>
+			<note type="Editionen_note"><p><b>Literatur eingesehen von Verena:</b></p><ul><li>Gössler 1931, Nr. 1</li><li>Paret 1932, 46 Nr. 1</li><li>Nesselhauf 1937, 81 Nr. 100</li><li>AE 1931, 67</li></ul></note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note">                                                    <p>Karteikarte 2 N 100 Seite 8</p>
-                                                    <p>Goessler 1931, 8: Höhe 110, Breite 53, Tiefe 24; Inschriftplatte: 0,55m hoch, 0,40m breit, 0,20m dick<br/></p></note>
+			<note type="Masse_note">                                                    <p><b>Karteikarte</b> 2 N 100 Seite 8</p>
+                                                    <p><b>Goessler 1931, 8:</b> Höhe 110, Breite 53, Tiefe 24; Inschriftplatte: 0,55m hoch, 0,40m breit, 0,20m dick<br/></p></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"><p>Karteikarte 2 N 100 Seite 8<br/></p></note>
+			<note type="Buchsthoehe_note">                                                    <p><b>Karteikarte</b> 2 N 100 Seite 8<br/></p></note>
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"><p>EDH: 151 AD – 250 AD<br/></p></note>
+			<note type="Datierung_note">                                                    <p><b>EDH: </b>151 AD – 250 AD<br/></p></note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>
 		</back>

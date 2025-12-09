@@ -76,7 +76,7 @@
 						<origin> <origPlace> <placeName>Aquae Mattiacorum</placeName> <region>Civitas Mattiacorum</region> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when=" "> <placeName> <ref type="context" target="context:fercan.geog.modern.">Wiesbaden</ref> </placeName> <p>Bezirk Frauenstein; in der Wand der Kapelle genannt ‚Zum Armudt‘ (Huttich 1520, f.14); heute: Hof Armada, 65201 Wiesbaden</p> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true">Der (soweit bekannt) ganze Stein wurde vor 1520 von Huttich gefunden. Ein Fragment der Inschrift wurde 1825 von Habel verbaut in eine Treppe des Hofs Armada wiedergefunden (Matijević [in Vorbereitung] 356).</note> </provenance>
+							</location> <note anchored="true">Der (soweit bekannt) ganze Stein wurde um 1517 von Huttich gefunden. Ein Fragment der Inschrift wurde 1825 von Habel als Treppenstufe im Hof Armada wiedergefunden (Klein 1852, 313).</note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>non vidimus</p><p>Lesung gründet auf: CIL (aus älterer Literatur; vgl. Matijević [in Vorbereitung])<br/></p></provenance>
 					</history>
 				</msDesc>
@@ -209,10 +209,10 @@
 		</graphic>
 	
             <!-- todo: @xml:id-->
-            <graphic mimeType="image/png" url="1081_Abschrift2.png"><desc>Abschrift, Hutten 1520</desc></graphic>
+            <graphic mimeType="image/png" url="1081_Abschrift2.png"><desc>Abschrift, Huttich 1520</desc></graphic>
         
             <!-- todo: @xml:id-->
-            <graphic mimeType="image/png" url="1081_Abschrift3.png"><desc>Abschrift, Hutten 1525</desc></graphic>
+            <graphic mimeType="image/png" url="1081_Abschrift3.png"><desc>Abschrift, Huttich 1525</desc></graphic>
         
             <!-- todo: @xml:id-->
             <graphic mimeType="image/png" url="1081_Abschrift4.png"><desc>Abschrift, Apian 1534</desc></graphic>
@@ -230,17 +230,19 @@
         
             <bibl xml:id="4">Smetius 1588, Tafel 149 Nr.8</bibl>
         
-            <bibl xml:id="5">CIL XIII 7608</bibl>
+            <bibl xml:id="5">Klein 1852, 312</bibl>
         
-            <bibl xml:id="6">Riese 1914, Nr.1234</bibl>
+            <bibl xml:id="6">CIL XIII 7608</bibl>
         
-            <bibl xml:id="7">Behrens 1941, Nr.20</bibl>
+            <bibl xml:id="7">Riese 1914, Nr.1234</bibl>
         
-            <bibl xml:id="8">Richier 2004, Nr.328</bibl>
+            <bibl xml:id="8">Behrens 1941, Nr.20</bibl>
         
-            <bibl xml:id="9">Scheungraber 2020, 359 Nr.12</bibl>
+            <bibl xml:id="9">Richier 2004, Nr.328</bibl>
         
-            <bibl xml:id="10">Matijević (in Vorbereitung), 356–358</bibl>
+            <bibl xml:id="10">Scheungraber 2020, 359 Nr.12</bibl>
+        
+            <bibl xml:id="11">Matijević (in Vorbereitung), 356–358</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
@@ -277,20 +279,20 @@
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="1">
-					<note anchored="true">Marti · Leucetio · – Huttich 1520 und 1525, Smetius; Marti Leucetio pro salute – Apian</note>
+					<note anchored="true">Marti · Leucetio · – Huttich 1520 und 1525, Smetius, Klein; Marti Leucetio pro salute – Apian</note>
 				</app>
 			
-            <app loc="2"><note anchored="true">pro · salute · Imp(eratoris) · – Huttich 1520 und 1525; Imp(eratoris) Domini n(ostri) Aug(gusti) pii – Apian; pro salute – Smetius</note></app>
+            <app loc="2"><note anchored="true">pro · salute · Imp(eratoris) · – Huttich 1520 und 1525, Klein; Imp(eratoris) Domini n(ostri) Aug(gusti) pii – Apian; pro salute – Smetius</note></app>
         
-            <app loc="3"><note anchored="true">Domini · n̅(ostri) · Augusti · Pii · – Huttich 1520; Domini · n(ostri) · Augusti · Pii – Huttich 1525; O Voconius Vitulus – Apian; Imp(eratoris) Domini n(ostri) Aug(gusti) pii – Smetius</note></app>
+            <app loc="3"><note anchored="true">Domini · n̅(ostri) · Augusti · Pii · – Huttich 1520, Klein; Domini · n(ostri) · Augusti · Pii – Huttich 1525; O Voconius Vitulus – Apian; Imp(eratoris) Domini n(ostri) Aug(gusti) pii – Smetius</note></app>
         
-            <app loc="4"><note anchored="true">O · Voconius · Vit- – Huttich 1520; O · Voconius · Vitu- – Huttich 1525; leg(ionis) XXII Pr(imigeniae) P(iae) F(idelis) – Apian; Q(uintus) Voconius Vitulus – Smetius</note></app>
+            <app loc="4"><note anchored="true">O · Voconius · Vit- – Huttich 1520, Klein; O · Voconius · Vitu- – Huttich 1525; leg(ionis) XXII Pr(imigeniae) P(iae) F(idelis) – Apian; Q(uintus) Voconius Vitulus – Smetius</note></app>
         
-            <app loc="5"><note anchored="true">ulus · leg(ionis) · XXII · – Huttich 1520; lus · leg(ionis) · XXII · Pr(imigeniae) · – Huttich 1525; poendum curavit – Apian; &gt; leg(ionis) XXII Pr(imigeniae) P(iae) F(idelis) – Smetius; [Q(uintus)] Voconius – Scheungraber</note></app>
+            <app loc="5"><note anchored="true">ulus · leg(ionis) · XXII · – Huttich 1520, Klein; lus · leg(ionis) · XXII · Pr(imigeniae) · – Huttich 1525; poendum curavit – Apian; &gt; leg(ionis) XXII Pr(imigeniae) P(iae) F(idelis) – Smetius; [Q(uintus)] Voconius – Scheungraber</note></app>
         
-            <app loc="6"><note anchored="true">Pr(imigeniae) · P(iae) · F(idelis) · ponendu̅(m) – Huttich 1520; P(iae) · F(idelis) · ponendum · – Huttich 1525;  poendum curavit – Smetius; Vitulus – Scheungraber</note></app>
+            <app loc="6"><note anchored="true">Pr(imigeniae) · P(iae) · F(idelis) · ponendu̅(m) – Huttich 1520, Klein; P(iae) · F(idelis) · ponendum · – Huttich 1525;  poendum curavit – Smetius; Vitulus – Scheungraber</note></app>
         
-            <app loc="7"><note anchored="true">curavit · – Huttich 1520 und 1525; [(centurio)] leg(ionis) XXII – Scheungraber</note></app>
+            <app loc="7"><note anchored="true">curavit · – Huttich 1520 und 1525, Klein; [(centurio)] leg(ionis) XXII – Scheungraber</note></app>
         
             <app loc="8"><note anchored="true">Pr(imigemiae) P(iae) F(idelis) – Scheungraber</note></app>
         
@@ -321,9 +323,9 @@
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"/>
 			<note type="InvNr_note"><p>verschollen<br/></p></note>
-			<note type="Fundstelle_note">                                                    <p>Matijević (in Vorbereitung) 356 <br/></p></note>
-			<note type="Fundumst_note"><p>Matijević 356 <b>in Word gelb</b><br/></p></note>
-			<note type="Fundjahr_note">                                                    <p>vor 1520 - Matijević 356 <b><br/></b></p></note>
+			<note type="Fundstelle_note">                                                    <p><b>Matijević (in Vorbereitung) 356 </b><br/></p></note>
+			<note type="Fundumst_note">                                                    <p><b>Matijević 356</b></p></note>
+			<note type="Fundjahr_note">                                                    <p><b>Matijević 356:</b>vor 1520</p></note>
 			<note type="FOantik_note"/>
 			<note type="FOmodern_note"/>
 			<note type="civitas_note"/>
@@ -332,7 +334,31 @@
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note"><p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p></note>
+			<note type="Editionen_note">                                                    <p><b>Literatur eingesehen von Verena:</b></p>
+                                                    <ul>
+                                                        <li>Behrens 1941, 16 Nr. 20</li>
+                                                        <li>Schoppa 1963, 48</li>
+                                                        <li>Apianus &amp; Amantius 1534, 478</li>
+                                                        <li>Brambach 1867, Nr. 1540</li>
+                                                        <li>Riese 1914, 138 Nr. 1234</li>
+                                                        <li>Richier 2004, 377 Nr. 328</li>
+                                                        <li>Scheungraber 2020, 359 Nr. 12</li>
+                                                        <li>Matijevic i.V., 356-358</li>
+                                                        <li>Steiner 1837, Nr. 248</li>
+                                                        <li>de Wal 1847, 246-248 Nr. 340</li>
+                                                        <li>Steiner 1851-64, Nr. 682</li>
+                                                        <li>Orelli 1828-1856, Nr. 1356</li>
+                                                        <li>Kienle 1938, 256</li>
+                                                        <li>Hatt 1979, 125</li>
+                                                        <li>Spickermann 1989/90, 205 A 2, 207f. A 30</li>
+                                                        <li>Ezov 2007, 77</li>
+                                                        <li>Gruterus 1602, LVIII Nr. 3</li>
+                                                        <li>Habel 1827, Bd. I,1<br/></li>
+                                                        <li>Klein 1852, 312f.</li>
+                                                        <li>Klein &amp; Becker 1855, 531f. Nr. 68</li>
+                                                        <li>Lehne 1837, 273-275 Nr. 8</li>
+                                                        <li>Lehne 1827, 17-19 Nr. 3</li>
+                                                    </ul></note>
 			<note type="ErhzustObj_note"/>
 			<note type="Masse_note"><p>Nicht mehr nachvollziehbar, da verschollen. <br/></p></note>
 			<note type="Ikonogr_note"/>
@@ -366,7 +392,9 @@ die sich später auf ihn beriefen, also Elagabal und Alexander Severus
 Rohden 2437) in Frage. Für Commodus, Caracalla, Elagabal und Alexander 
 Severus erscheint der Umstand der Rasur passender als für Antoninus Pius
  oder Mark Aurel.</p><p/></note>
-			<note type="Datierung_note"><p>Kakoschke 2021: 3. Jhdt.</p><p>Aus den möglichen Kaisernamen lässt sich der Zeitraum auf 138-235 eingrenzen.</p><p>Matijević 358: „in die ersten Jahrzehnte des dritten Jahrhunderts“</p></note>
+			<note type="Datierung_note">                                                    <p><b>Kakoschke 2021:</b> 3. Jhdt.</p>
+                                                    <p>Aus den möglichen Kaisernamen lässt sich der Zeitraum auf 138-235 eingrenzen.</p>
+                                                    <p><b>Matijević 358:</b> „in die ersten Jahrzehnte des dritten Jahrhunderts“</p></note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>
 		</back>

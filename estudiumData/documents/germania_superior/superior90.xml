@@ -50,7 +50,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>                                                <p>Die Basis des Weihealtars ist abgebrochen. Es ist kein Aufsatzschmuck erkennbar, der Aufsatz selbst ist verwittert. Das Inschriftenfeld, durch mehrere Stufen von der Bekrönung getrennt, ist doppelt gerahmt.<br/></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
+								<support> <p>                                                <p>Die Basis des Weihealtars ist abgebrochen. Es ist kein Aufsatzschmuck erkennbar, der Aufsatz selbst ist verwittert. Das Inschriftenfeld, durch mehrere Stufen von der Bekrönung getrennt, ist doppelt gerahmt. Das Material wird als grauer (Provost 2002, <span>44) bzw. grau gelber (Petry 1978, 364) Sandstein beschrieben.</span></p></p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material>
 									<objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 										<height unit="cm">39,5</height>
 										<width unit="cm">30</width>
@@ -242,7 +242,7 @@
 <lb n="3"/>AVE<hi rend="ligature">NT</hi>INI
 <lb n="4"/>FIL
 <lb n="5"/>V S L L M<orig/></ab></div>
-			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Suleis<note>!</note>
+			<div type="edition" xml:lang="la" xml:id="minuscule" subtype="normalised" xml:space="preserve" org="uniform" sample="complete"><ab><lb n="1"/>Sul<expan><abbr>e</abbr><ex>v</ex></expan>is
 <lb n="2"/>Vettius
 <lb n="3"/>Aventini
 <lb n="4"/><expan><abbr>fil</abbr><ex>ius</ex></expan>
@@ -254,9 +254,7 @@
 				<p><p>To the <rs type="divine">Suleviae</rs>!</p><p>Vettius, the son of Aventinus, has fulfilled the vow gladly, willingly and deservedly.</p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
-				<app loc="1">
-					<note anchored="true">Sule(v)is – AE, EDH, CAG, Scheungraber, Ferlut </note>
-				</app>
+				
 			
             <app loc="2">
                 <note anchored="true">Vetius – Pétry </note>
@@ -1561,11 +1559,12 @@
 			</linkGrp>
 		</body>
 		<back>
-			<note type="Objbeschr_note"><p>EDH: unten abgebrochen.<br/></p></note>
+			<note type="Objbeschr_note">                                                    <p><b>EDH: </b>unten abgebrochen.<br/></p></note>
 			<note type="ArchKlass_note"/>
-			<note type="Material_note"><p>CAG: grès gris</p><p>grau gelb – Petry 1978, S. 364</p></note>
-			<note type="Inschrifttraeger_note"><p>EDH: Altar<br/></p></note>
-			<note type="VerwahrortOrt_note"><p>EDH: Strasbourg, Mus. Arch.?<br/></p></note>
+			<note type="Material_note">                                                    <p><b>CAG</b>: grès gris</p>
+                                                    <p><b>Petry 1978, 364</b>: grau gelb</p></note>
+			<note type="Inschrifttraeger_note">                                                    <p><b>EDH:</b> Altar<br/></p></note>
+			<note type="VerwahrortOrt_note">                                                    <p><b>EDH</b>: Strasbourg, Mus. Arch.?<br/></p></note>
 			<note type="InvNr_note"/>
 			<note type="Fundstelle_note"/>
 			<note type="Fundumst_note"/>
@@ -1574,13 +1573,24 @@
 			<note type="FOmodern_note"/>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
-			<note type="Appcrit_note"/>
+			<note type="Appcrit_note">                                                    </note>
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note">                                                    <p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p>CAG = Baudoux/Flotté/Fuchs/Waton (Provost Hrsg.) 2002<p/></note>
+			<note type="Editionen_note">                                                    <p>                                                    </p>
+                                                    <p>CAG = Baudoux/Flotté/Fuchs/Waton (Provost Hrsg.) 2002</p>
+                                                    <p/>
+                                                    <p>
+                                                        </p>
+                                                    <p><b>Literatur eingesehen von Verena:</b></p>
+                                                        <ul>
+                                                            <li>AE 1978, Nr. 564</li>
+                                                            <li>Petry 1978, 364</li>
+                                                            <li>Petry 1982, 58, 60, 62</li><li>Provost 2002, <span>44</span></li></ul>
+                                                    <p/></note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note"><p>So EDH, Pétry, CAG</p><p>AE: Br. 26</p></note>
+			<note type="Masse_note">                                                    <p>So <b>EDH, Pétry, CAG</b></p>
+                                                    <p><b>AE:</b> Br. 26</p></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
@@ -1589,7 +1599,7 @@
 			<note type="Notvar_note"/>
 			<note type="KommGoettern_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note"><p>EDH: 51 n. Chr. – 200 n. Chr. <br/></p></note>
+			<note type="Datierung_note">                                                    <p><b>EDH</b>: 51 n. Chr. – 200 n. Chr. <br/></p></note>
 			<note type="ElektronischeRessourcen_note"/>
 			<note type="Index_note"/>
 		</back>

@@ -51,7 +51,7 @@
 					<physDesc>
 						<objectDesc>
 							<supportDesc>
-								<support> <p>Der Weihealtar ist ein Stück unter der Bekrönung, die durch einen Giebel mit abgestoßenen Pulvini und wohl modern angeklebter, stark abgeschlagener Rosette in der Mitte gestaltet ist, gebrochen. Auch die Seitenteile scheinen bestoßen. Zwischen den Pulvini ist die reliefierte Opferschale erhalten. Das Inschriftenfeld, das von der Bekrönung durch eine doppelte Stufung getrennt ist, ist ungerahmt.</p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material> <objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
+								<support> <p>Der Weihealtar aus rotem Sandstein ist ein Stück unter der Bekrönung, die durch einen Giebel mit abgestoßenen Pulvini und wohl modern angeklebter, stark abgeschlagener Rosette in der Mitte gestaltet ist, gebrochen. Auch die Seitenteile scheinen bestoßen. Zwischen den Pulvini ist die reliefierte Opferschale erhalten. Das Inschriftenfeld, das von der Bekrönung durch eine doppelte Stufung getrennt ist, ist ungerahmt.</p> <material> <ref type="context" target="context:fercan.material." ana="https://gams.uni-graz.at/o:fercan.arch#C.120220">Sandstein</ref> </material> <objectType ref="https://gams.uni-graz.at/o:fercan.arch#C.110300">Weihealtar</objectType> <dimensions>
 									<height unit="cm"> 41</height>
 									<width unit="cm"> 41</width>
 									<depth unit="cm"> 33</depth>
@@ -203,7 +203,12 @@
 		
 		<!-- todo: @xml:id-->
 		
-	</facsimile>
+	
+            <!-- todo: @xml:id-->
+            <graphic mimeType="image/jpeg" url="1070_fr.jpg">
+                <desc>Front, Autel votif consacré aux dieux Bucius et Nerius, musée du château des Rohan, Saverne. Photo : Ortolf Harl, avril 2017</desc>
+            </graphic>
+        </facsimile>
 	<text>
 		<body>
 			<ab> <ref target="context:fercan" type="context">FERCAN</ref> </ab>
@@ -265,7 +270,8 @@
 			<note type="Inschrifttraeger_note">                                                    <p><br/></p></note>
 			<note type="VerwahrortOrt_note"/>
 			<note type="InvNr_note"/>
-			<note type="Fundstelle_note"><p>Lt. Lupa </p><p>EDH: Wasserwald, gallo-römische Siedlung,
+			<note type="Fundstelle_note">                                                    <p>Lt.<b> Lupa </b></p>
+                                                    <p><b>EDH:</b> Wasserwald, gallo-römische Siedlung,
 				Heiligtum</p></note>
 			<note type="Fundumst_note"/>
 			<note type="Fundjahr_note"/>
@@ -274,31 +280,39 @@
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
-			<note type="Abb_note">                                                    <p>Keine Erlaubnis vom Museum de Rohan, für etwaige Beabreitungsfragen das Bild entweder auf lupa oder unter - Bilder - "Alte Fotos" - Bucius 1070_fr.jpg - einsehbar.<br/></p></note>
+			<note type="Abb_note">                                                    <p>Le dépositaire devra faire figurer sur chaque support de destination le copyright indiqué pour la photographie de l’autel votif : <b>Autel votif consacré aux dieux Bucius et Nerius, musée du château des Rohan, Saverne. Photo : Ortolf Harl, avril 2017.</b><br/>für etwaige Beabreitungsfragen das Bild entweder auf lupa oder unter - Bilder - "Alte Fotos" - Bucius 1070_fr.jpg - einsehbar.</p></note>
 			<note type="englUEbers_note"><p>!<br/></p></note>
 			<note type="dtUEbers_note"/>
 			<note type="Editionen_note">                                                    <p>
                                                         </p>
-                                                    <p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p>CAG = Flotté/Fuchs (Provost Hrsg.) 2000<p><u/>
-                                                    </p>
+                                                    <p>CAG = Flotté/Fuchs (Provost Hrsg.) 2000</p>
                                                     <p>
-                                                        <u>eingesehen</u><br/></p>
+                                                        <u>eingesehen</u>
+                                                    </p>
                                                     <p>F. Pétry, Gallia 30, 1972, 411-412; fig.
-				39C </p>
-                                                    <p>AE 2000, 1067 </p>
+				39C</p>
+                                                    <p>AE 2000, 1067</p>
                                                     <p>F. Goubet - F. Jodry - N. Meyer - N. Weiss, Au "grès" du temps.
 				Collections lapidaires celtes et gallo-romaines du Musée archéologique de Saverne
-				(Saverne 2015) 245, Nr. 226; Foto. (B)</p></note>
+				(Saverne 2015) 245, Nr. 226; Foto. (B)</p>
+                                                    <p><b>Literatur eingesehen von Verena:</b></p>
+                                                    <ul>
+                                                        <li>AE 2000 1067</li>
+                                                        <li>Flotte &amp; Fuchs 2000, 316 Nr. 179, 376<br/></li>
+                                                        <li>Petry 1972, 411-412 fig. 39C</li>
+                                                        <li>Goubet 2015, 245 Nr. 226</li>
+                                                        <li>Scheungraber 2020, 205, 418</li>
+                                                    </ul></note>
 			<note type="ErhzustObj_note"/>
-			<note type="Masse_note">lt. EDH und Goubet<br/></note>
+			<note type="Masse_note">lt. <b>EDH</b> und <b>Goubet</b><br/></note>
 			<note type="Ikonogr_note"/>
 			<note type="Inschrtext_note"/>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
-			<note type="Buchsthoehe_note"><b style="mso-bidi-font-weight: normal"><span style="font-size:12.0pt;font-family:LeedsUniExt; mso-ansi-language:EN-US" lang="EN-US">Mail an Museum am 5.7.23</span></b>, keine Antwort, neues Mail am 7.8.23 - kommt wohl nix mehr (Stand 16.8.23)<br/><p/></note>
+			<note type="Buchsthoehe_note"><p>Mail an Museum am 5.7.23, keine Antwort, neues Mail am 7.8.23 - kommt wohl nix mehr (Stand 16.8.23)</p></note>
 			<note type="Notvar_note"/>
 			<note type="SonstKomm_note"/>
-			<note type="Datierung_note">EDH: 71 AD – 300 AD<br/></note>
+			<note type="Datierung_note"><b>EDH:</b> 71 AD – 300 AD<br/></note>
 		<note type="ElektronischeRessourcen_note"/><note type="Index_note"/></back>
 	</text>
 </TEI>

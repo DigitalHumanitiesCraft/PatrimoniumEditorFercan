@@ -59,7 +59,7 @@
 								<condition> <ref type="context" target="context:fercan.condition" ana="https://gams.uni-graz.at/o:fercan.arch#C.130400">vollständig</ref> </condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout> <p>                                                <p>Die Inschrift ist kein antikes Original (s. CIL XIII 6131)!</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130400</note> </layout>
+								<layout> <p>                                                <p>Die Inschrift ist kein antikes Original! Es soll sich jedoch um eine Kopie einer verlorenen Inschrift handeln (s. CIL XIII 6131).</p></p> <note type="condition" anchored="true">https://gams.uni-graz.at/o:fercan.arch#C.130400</note> </layout>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
@@ -67,7 +67,7 @@
 						</handDesc>
 						<decoDesc>
 							<decoNote> <p><p>Keine bildliche Gestaltung vorhanden.<br/></p></p> <term ana="https://gams.uni-graz.at/o:fercan.arch#C.150500">Rahmen</term>
-                      <term ana="https://gams.uni-graz.at/o:fercan.arch#C.140750">Fälschung</term>
+                      
 							</decoNote>
 						</decoDesc>
 					</physDesc>
@@ -75,7 +75,7 @@
 						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
 						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true">Da es sich um eine Fälschung handelt, wird hier nicht näher auf Ort, Stelle, Jahr und Umstände des Fundes eingegangen.</note> </provenance>
+							</location> <note anchored="true">Da es sich laut CIL hier 'nur' um eine Kopie einer antiken Inschrift handelt, wird hier nicht näher auf Ort, Stelle, Jahr und Umstände des Fundes eingegangen.</note> </provenance>
 						<provenance type="observed" subtype="autopsied">                                                <p>non vidimus</p>
                                                 <p>Lesung gründet auf: Photo und Lupa</p></provenance>
 					</history>
@@ -280,22 +280,24 @@
 			<note type="Inschrifttraeger_note"/>
 			<note type="VerwahrortOrt_note"/>
 			<note type="InvNr_note"/>
-			<note type="Fundstelle_note"><p>Fälschung<br/></p></note>
-			<note type="Fundumst_note"><p>Fälschung<br/></p></note>
-			<note type="Fundjahr_note"><p>Fälschung<br/></p></note>
-			<note type="FOantik_note"><p>Fälschung<br/></p></note>
-			<note type="FOmodern_note"><p>Fälschung<br/></p></note>
+			<note type="Fundstelle_note">                                                    <p>Fälschung bzw. nur Kopie<br/></p></note>
+			<note type="Fundumst_note">                                                    <p>Fälschung bzw. nur Kopie<br/></p></note>
+			<note type="Fundjahr_note">                                                    <p>Fälschung bzw. nur Kopie<br/></p></note>
+			<note type="FOantik_note">                                                    <p>Fälschung bzw. nur Kopie<br/></p></note>
+			<note type="FOmodern_note">                                                    <p>Fälschung bzw. nur Kopie<br/></p></note>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
 			<note type="Appcrit_note"/>
 			<note type="Abb_note"/>
 			<note type="englUEbers_note"/>
 			<note type="dtUEbers_note"/>
-			<note type="Editionen_note">                                                    <p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p></note>
+			<note type="Editionen_note"><p>Photos von online nicht verfügbaren Inschriftentexten s. Ordner: ISntexte Slg</p></note>
 			<note type="ErhzustObj_note"/>
 			<note type="Masse_note"/>
 			<note type="Ikonogr_note"/>
-			<note type="Inschrtext_note"><p>Erklärung in CIL XIII 6131:</p><p>In museo Spirensis extat lapis noviciam inscroptionem exhibens hanc (quam descripsi): Marti et Nemeto NAE I Silv Inus Coh Praet TR vs p<br/></p><p>Non fraude sed, ut Ohlenschlager mihir testatur, per lusum Lacher secretarius confinxit et muro borti sui immisit; ibi a. 1848 descripta es ab Osanno, qui antiquam esse ratus edidit. "Hall. Literatur-Zeitung" 1848 p. 1103; idem tamen mox a domino ipso et Iaegero per Carolum Klein meliora edoctus errorem correxit "Zeitschrift für die Alt.-Wiss." 1849 p. 480.</p></note>
+			<note type="Inschrtext_note">                                                    <p>Erklärung in <b>CIL XIII 6131:</b></p>
+                                                    <p>In museo Spirensis extat lapis noviciam inscroptionem exhibens hanc (quam descripsi): Marti et Nemeto NAE I Silv Inus Coh Praet TR vs p<br/></p>
+                                                    <p>Non fraude sed, ut Ohlenschlager mihir testatur, per lusum Lacher secretarius confinxit et muro borti sui immisit; ibi a. 1848 descripta es ab Osanno, qui antiquam esse ratus edidit. "Hall. Literatur-Zeitung" 1848 p. 1103; idem tamen mox a domino ipso et Iaegero per Carolum Klein meliora edoctus errorem correxit "Zeitschrift für die Alt.-Wiss." 1849 p. 480.</p></note>
 			<note type="ErhzustInschr_note"/>
 			<note type="Schrifttechnik_note"/>
 			<note type="Buchsthoehe_note"/>
