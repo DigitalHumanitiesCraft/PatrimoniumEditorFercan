@@ -2,7 +2,7 @@
 	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
-				<title type="full"><title type="main">Borvo, Damona</title><title type="sub"> GeS-2073</title></title>
+				<title type="full"><title type="main">Borvo, Damona</title><title type="sub"> GeS-2074</title></title>
 				<respStmt>
 					<resp>Inschriftenedition</resp>
 					<persName><forename>Werner</forename><surname>Petermandl</surname></persName>
@@ -40,8 +40,8 @@
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<settlement/>
-						<repository/>
+						<settlement>Bourbonne-les-Bains</settlement>
+						<repository>Musée</repository>
 						<idno/>
 					</msIdentifier>
 					<msContents>
@@ -73,9 +73,9 @@
 					</physDesc>
 					<history>
 						<origin> <origPlace> <placeName/> <region/> </origPlace> <origDate notBefore="" notAfter="" instant="false"><date> </date> <note type="original"> <ref target="context:fercan.date." type="context"> </ref> </note></origDate> </origin>
-						<provenance type="found" when=""> <placeName> <ref type="context" target="context:fercan.geog.modern."/> </placeName> <p/> <location>
+						<provenance type="found" when="1869"> <placeName> <ref type="context" target="context:fercan.geog.modern.">Bourbonne-les-Bains</ref> </placeName> <p/> <location>
 								<geo decls="#WGS"/>
-							</location> <note anchored="true"/> </provenance>
+							</location> <note anchored="true"><p>Bei Kanalistionsarbeiten gefunden</p></note> </provenance>
 						<provenance type="observed" subtype="autopsied"><p>vidimus</p><p>(CIL XIII Projekt)</p></provenance>
 					</history>
 				</msDesc>
@@ -221,6 +221,8 @@
             <bibl xml:id="3">Le Bohec 2003, Nr.204</bibl>
         
             <bibl xml:id="4">Scheungraber 2020, 195 Nr.15; 252 Nr.55</bibl>
+        
+            <bibl xml:id="5">Drioux 1934, Nr.229</bibl>
         </listBibl>
 			</div>
 			<div subtype="concordances" type="bibliography" org="uniform" sample="complete">
@@ -248,17 +250,17 @@
 <lb n="6"/>Lingonis
 <lb n="7"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></ab></div>
 			<div type="translation" xml:lang="de" org="uniform" sample="complete">
-				<p/>
+				<p><p>Für <rs type="divine">Borvo </rs>und <i>Damona </i>hat Iulia Tiberia Corisilla, Ehegattin des Claudius Cato, Lingone, ein Gelübde gerne und verdientermaßen erfüllt</p></p>
 			</div>
 			<div type="translation" xml:lang="en" org="uniform" sample="complete">
-				<p/>
+				<p><p>For <rs type="divine">Borvo </rs>and <i>Damona</i>, Iulia Tiberia Corisilla, spouse of Claudius Cato, a Lingon, has fulfilled his vow gladly and deservedly</p></p>
 			</div>
 			<div type="apparatus" org="uniform" sample="complete">
 				<app loc="1">
 					<note anchored="true"/>
 				</app>
 			</div>
-			<div type="commentary" subtype="general" org="uniform" sample="complete"><p>Iulia Tiberia Corisilla</p><p>Claudius Catonis</p><p>Iulia/Iulius: italisches Gentilnomen, kaiserliches Gentilnomen, überall äußerst gängig (Kakoschke 2021, GN 637)</p><p>Tiberia/Tiberius: Corisilla/Corisillus:</p><p>Claudius: italisches Gentilnomen, kaiserliches Gentilnomen, überall äußerst gängig (Kakoschke 2021, GN 342)</p><p><br/></p></div>
+			<div type="commentary" subtype="general" org="uniform" sample="complete"><p>Iulia Tiberia Corisilla</p><p>Claudius Catonis</p><p>Iulia/Iulius: italisches Gentilnomen, kaiserliches Gentilnomen, überall äußerst gängig (Kakoschke 2021, GN 637)</p><p>Tiberia/Tiberius: In diesem Fall als Cognomen gebraucht. Zwei Belege in der Germania superior (Kakoschke CN 3088)</p><p>Corisilla/Corisillus: Keltischer Name (oder lateinischer Name: Weiterbildung des Gentilnamens Corisius) (Diminutiv) Einziger Beleg in den germanischen Provinzen (Kakoschke 2021, CN 915)</p><p>Claudius: italisches Gentilnomen, kaiserliches Gentilnomen, überall äußerst gängig (Kakoschke 2021, GN 342)</p><p>Cato: lateinischer Name, Weiterbildung des Namens Cato (oder keltischer Name) (Kakoschke CN 729)</p><p><br/></p></div>
 			<div type="commentary" subtype="language" org="uniform" sample="complete">
 				<p> </p>
 			</div>
@@ -278,7 +280,7 @@
 			<note type="Fundstelle_note"/>
 			<note type="Fundumst_note"/>
 			<note type="Fundjahr_note"/>
-			<note type="FOantik_note"/>
+			<note type="FOantik_note"><p>Civitas Lingonum</p></note>
 			<note type="FOmodern_note"/>
 			<note type="civitas_note"/>
 			<note type="Autopsie_note"/>
